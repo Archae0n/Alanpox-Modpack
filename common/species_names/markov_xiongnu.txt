@@ -1,0 +1,412 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	shiluothesingsong = {
+		name = Yidi
+		plural = Yidi
+		home_planet = "Shiluo the Sing-Song"
+		home_system = "Aojugan the Bold"
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	longxie = {
+		name = Longxinese
+		plural = Longxinese
+		home_planet = Longxie
+		home_system = "Jiaotao Yuang"
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	hutousi = {
+		name = Hutousian
+		plural = Hutousians
+		home_planet = Hutousi
+		home_system = Binxin
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	jiyan = {
+		name = Jiyanese
+		plural = Jiyanese
+		home_planet = Jiyan
+		home_system = Elouliu
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	yufuprime = {
+		name = "Xua Yufu"
+		plural = "Xua Yufu"
+		home_planet = "Yufu Prime"
+		home_system = Yufu
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	angjuchu = {
+		name = Kanshao
+		plural = Kanshao
+		home_planet = "Ang Juchu"
+		home_system = "Ang Feiniedi" 
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	dongshen = {
+		name = Dongoid
+		plural = Dongoids
+		home_planet = "Dong Shen"
+		home_system = "Dong Putoushi" 
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	nangshou = {
+		name = Wudihou
+		plural = Wudihou
+		home_planet = Nangshou
+		home_system = Hutuhui 
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	chengping = {
+		name = Chengpingese
+		plural = Chengpingese
+		home_planet = Chengping
+		home_system = "Huzhe'er"
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	tulongde = {
+		name = Sheng-Yudai
+		plural = Sheng-Yudai
+		home_planet = Tulongde
+		home_system = Anzhilimu
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	tugetuge = {
+		name = Wutugian
+		plural = Wutugians
+		home_planet = Tuge
+		home_system = Wuhe
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	bobing = {
+		name = Bobingese
+		plural = Bobingese
+		home_planet = Bobing
+		home_system = Kongyuniefu
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	tutuhu = {
+		name = Tutuhoid
+		plural = Tutuhoids
+		home_planet = Tutuhu
+		home_system = Ganqu
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	qubujian = {
+		name = Qubujianese  
+		plural = Qubujianese
+		home_planet = Qubujian
+		home_system = "Xuang Gaotao"
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	zhiluge = {
+		name = Zhilugoid  
+		plural = Zhilugoids
+		home_planet = Zhiluge
+		home_system = Wuwushou
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	luchenghaitheparsimonious = {
+		name = Yuehuobo  
+		plural = Yuehuobo
+		home_planet = "Lunchenglai the Parsimonious"
+		home_system = "Zhubeiyidi the Carnified"
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	zhili = {
+		name = Sute  
+		plural = Sute
+		home_planet = Zhili
+		home_system = Dingxu
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	zhulou = {
+		name = Zhuloulese 
+		plural = Zhuloulese
+		home_planet = Zhulou
+		home_system = Yuehujian
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	liuchuang = {
+		name = Liuchuangese 
+		plural = Liuchuangese
+		home_planet = Liuchuang
+		home_system = Wuheliu
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	plethoraofapotheoses = {
+		name = Huan 
+		plural = Huan
+		home_planet = "Plethora of Apotheoses"
+		home_system = "Sanctimony of Light"
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	jihunchu = {
+		name = Jihunite 
+		plural = Jihunites
+		home_planet = Jihunchu
+		home_system = Youshiyidi
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	woyan = {
+		name = Woyanish
+		plural = Woyanish
+		home_planet = Woyan
+		home_system = Wuheliu
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	lihuang = {
+		name = Lihuangese
+		plural = Lihuangese
+		home_planet = Lihuang
+		home_system = Tiedi
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	wudadi = {
+		name = Wudadite
+		plural = Wudadites
+		home_planet = Wudadi
+		home_system = Xiuchujianli
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	weiyuan = {
+		name = Chen
+		plural = Chens
+		home_planet = Weiyuan
+		home_system = Ganchengtao
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	wuhuobinprime = {
+		name = Wubinian
+		plural = Wubinians
+		home_planet = "Wuhuobin Prime"
+		home_system = Wuhuobin
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	wuxian = {
+		name = Wuxianoid
+		plural = Wuxianoids
+		home_planet = Wuxian
+		home_system = Weichuxun
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	euphoriouseulogy = {
+		name = Tehu
+		plural = Tehu
+		home_planet = "Euphorious Eulogy"
+		home_system = "Multifarious Mirth"
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	juman = {
+		name = Jumanean
+		plural = Jumaneans
+		home_planet = Juman
+		home_system = Huchui
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	binxing = {
+		name = Binxingese
+		plural = Binxingese
+		home_planet = Binxing
+		home_system = Helidi
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	aoju = {
+		name = Qiemogan
+		plural = Qiemogan
+		home_planet = Aoju
+		home_system = Puniedi
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	sutuhuluqu = {
+		name = Sutuhul
+		plural = Sutuhul
+		home_planet = Sutuhulüqu
+		home_system = Xingtang
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	sumptuouslove = {
+		name = Jun
+		plural = Jun
+		home_planet = "Sumptuous Love"
+		home_system = "Imperturbable Love"
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	lihun = {
+		name = Lihunese
+		plural = Lihunese
+		home_planet = Lihun
+		home_system = Wushilingde
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	yinguoluguprime = {
+		name = Yinguolite
+		plural = Yinguolites
+		home_planet = "Yinguolugu Prime"
+		home_system = Yinguolugu
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	tiedihuxing = {
+		name = Sutuhean
+		plural = Sutuheans
+		home_planet = Tiedihuxing
+		home_system = Eloutuhubei
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	zhanmin = {
+		name = Zhanminese
+		plural = Zhanminese
+		home_planet = Zhanmin
+		home_system = Wuhulou
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	fatherzheli = {
+		name = Zhelian
+		plural = Zhelians
+		home_planet = "Father Zheli"
+		home_system = "Mother Zheli"
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	chixu = {
+		name = "Chi Yidai"
+		plural = "Chi Yidai"
+		home_planet = Chixu
+		home_system = Wuxu
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	qingu = {
+		name = Qinguoid
+		plural = Qinguoids
+		home_planet = Qingu
+		home_system = Juquanzhiyua
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	xiuloumang = {
+		name = Xiuloumid
+		plural = Xiuloumids
+		home_planet = Xiuloumang
+		home_system = Zhuxianming
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	wuxingtheephemeral = {
+		name = "Chun Wu"
+		plural = "Chun Wu"
+		home_planet = "Wuxing the Ephemeral"
+		home_system = "Wudanqu the Expedient"
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	Juciyuan = {
+		name = Juciyuanese
+		plural = Juciyuanese
+		home_planet = Juciyuan
+		home_system = Xiulihuobin
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	puhulou = {
+		name = Puhulan
+		plural = Puhulans
+		home_planet = Puhulou
+		home_system = Chixuangxu
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	jiyun = {
+		name = Jiyunese
+		plural = Jiyunese
+		home_planet = Jiyun
+		home_system = Lihongde
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	yuangtan = {
+		name = Yuangtanese
+		plural = Yuangtanese
+		home_planet = Yuangtan
+		home_system = "Cong Xiuchui"
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	juchouchan = {
+		name = Jinglai
+		plural = Jinglai
+		home_planet = Juchouchan
+		home_system = Baojing
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	zhuqudadi = {
+		name = Zhuqudadian
+		plural = Zhuqudadians
+		home_planet = Zhuqudadi
+		home_system = Yin-Qingde
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	yaotao = {
+		name = "Yao Shi"
+		plural = "Yao Shi"
+		home_planet = Yaotao
+		home_system = Wusi
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+	gaomoju = {
+		name = Gaomojuan
+		plural = Gaomojuans
+		home_planet = Gaomoju
+		home_system = Wuhengxu
+		name_list = "cybrxkhan_handmade_xiongnu"
+	}
+}

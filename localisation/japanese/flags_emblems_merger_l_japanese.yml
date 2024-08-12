@@ -1,0 +1,49 @@
+﻿l_japanese:
+ FLAG_CATEGORY_zz_enclaves:0 "エンクレーブ"
+ FLAG_CATEGORY_zz_special:0 "特別"
+ 
+ FLAG_CATEGORY_battlestar-6364:0 "宇宙空母ギャラクティカ"
+ FLAG_CATEGORY_dune-6364:0 "砂丘"
+ FLAG_CATEGORY_elitedangerous-6364:0 "エリートデンジャラス"
+ FLAG_CATEGORY_eve-6364:0 "EVE Online"
+ FLAG_CATEGORY_geopolitical-6364:0 "地政学的"
+ FLAG_CATEGORY_halflife-6364:0 "人生の半分"
+ FLAG_CATEGORY_historythemed-6364:0 "歴史的"
+ FLAG_CATEGORY_homeworld-6364:0 "ホームワールド"
+ FLAG_CATEGORY_masseffect-6364:0 "質量効果"
+ FLAG_CATEGORY_misc-6364:0 "天文"
+ FLAG_CATEGORY_miscgame-6364:0 "ゲーム"
+ FLAG_CATEGORY_redrising-6364:0 "レッドライジング"
+ FLAG_CATEGORY_stargate-6364:0 "スターゲイト"
+ FLAG_CATEGORY_startrek-6364:0 "スタートレック"
+ FLAG_CATEGORY_starwars-6364:0 "スターウォーズ"
+  
+ FLAG_CATEGORY_divers:0 "Swefpifh ゴールド"
+ FLAG_CATEGORY_divers2:0 "Swefpifh 銀"
+ FLAG_CATEGORY_divers3:0 "Swefpifh オニキス"
+ 
+ FLAG_CATEGORY_mtg_main_1:0 "MTG（メイン）"
+ FLAG_CATEGORY_mtg_main_2:0 "MTG（セカンダリ）"
+ FLAG_CATEGORY_mtg_other:0 "MTG（その他）"
+ 
+ FLAG_CATEGORY_starclans_color_1:0 "スタークラン 色"
+ FLAG_CATEGORY_starclans_gold_1:0 "スタークラン ゴールド"
+ FLAG_CATEGORY_starclans_onyx_1:0 "スタークラン オニキス"
+ FLAG_CATEGORY_starclans_silver_1:0 "スタークラン 銀"
+ 
+ FLAG_CATEGORY_teesemblems1:0 "ティー1"
+ FLAG_CATEGORY_teesemblems2:0 "ティー2"
+ FLAG_CATEGORY_teesemblems3:0 "ティー3"
+ FLAG_CATEGORY_teesemblems4:0 "ティー4"
+ FLAG_CATEGORY_teesemblems5:0 "ティー5"
+ FLAG_CATEGORY_teesemblems6:0 "ティー6"
+  
+ FLAG_CATEGORY_scificorpemblems1:0 "SFコーポレート"
+ 
+ FLAG_CATEGORY_just-more-flags:0 "ただもっと多くの旗"
+
+ FLAG_CATEGORY_xtraemblems:0 "エクストラエンブレム"
+ 
+ FLAG_CATEGORY_humanity:0 "人類"
+ 
+ FLAG_CATEGORY_more_flags:0 "その他のフラグ"

@@ -1,0 +1,424 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	zekemeh = {
+		name = Zekemean
+		plural = Zekemeans
+		home_planet = Zekemeh
+		home_system = Zekemeh-Teehete
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	raapha = {
+		name = Raaphian
+		plural = Raaphians
+		home_planet = Raapha-Matah
+		home_system = Raapha-Lala
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	bama = {
+		name = Bamite
+		plural = Bamites
+		home_planet = Bama
+		home_system = Bama
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	nesephe = {
+		name = Nesephian
+		plural = Nesephians
+		home_planet = Nesephe
+		home_system = Nadagah
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	palatama = {
+		name = Palataman
+		plural = Palatamans
+		home_planet = Palatama
+		home_system = Bepeeh 
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	zakaka = {
+		name = Zakakoid
+		plural = Zakakoids
+		home_planet = Zakaka-Sapakhazaa
+		home_system = Zakaka-Hahaalaapha 
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	hete = {
+		name = Hetean
+		plural = Heteans
+		home_planet = Hete-Khe
+		home_system = Hete-He 
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	demephe = {
+		name = Demephan
+		plural = Demephans
+		home_planet = Demephe
+		home_system = Demephe 
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	dah = {
+		name = Dah
+		plural = Dah
+		home_planet = Dah
+		home_system = Dah
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	se = {
+		name = Se
+		plural = Se
+		home_planet = "Se-Phereh Nataah"
+		home_system = Tanah
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	phara = {
+		name = Pharite
+		plural = Pharites
+		home_planet = Phara
+		home_system = Darah
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	nele = {
+		name = Nelean
+		plural = Neleans
+		home_planet = Nele-Khesee
+		home_system = Nele
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	gah = {
+		name = Gah  
+		plural = Gah
+		home_planet = Gah
+		home_system = Gah
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	latha = {
+		name = Lathian  
+		plural = Lathians
+		home_planet = Latha
+		home_system = Sasapha
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	gepe = {
+		name = Gepean  
+		plural = Gepeans
+		home_planet = Gepe
+		home_system = "Thaa Begezeedee"
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	khede = {
+		name = Khedid  
+		plural = Khedids
+		home_planet = Khede
+		home_system = Daasaapha
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	takarah = {
+		name = Takarid 
+		plural = Takarids
+		home_planet = Takarah
+		home_system = Naranah
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	mazana = {
+		name = Mazanic 
+		plural = Mazanics
+		home_planet = Mazana-Talah
+		home_system = Mazana-Balaa
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	phethe = {
+		name = Phethic 
+		plural = Phethics
+		home_planet = Phethe
+		home_system = Phethe
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	seezethe = {
+		name = Seezethian 
+		plural = Seezethians
+		home_planet = Seezethe
+		home_system = Seezethe
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	kereke = {
+		name = Kereke
+		plural = Kereke
+		home_planet = Patha
+		home_system = Deze
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	naata = {
+		name = Naatan
+		plural = Naatans
+		home_planet = Naata
+		home_system = Naata-Thahana
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	gaasalaga = {
+		name = Gaasalagan
+		plural = Gaasalagans
+		home_planet = Gaasalaga
+		home_system = Gaasalaga
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	beze = {
+		name = Bezoid
+		plural = Bezoids
+		home_planet = Beze
+		home_system = Beze
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	maakhama = {
+		name = Maakhamese
+		plural = Maakhamese
+		home_planet = Maakhama
+		home_system = Baakaba
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	thapah = {
+		name = Thapoid
+		plural = Thapoids
+		home_planet = Thapah
+		home_system = Thepeh
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	pezeeke = {
+		name = Pezeekian
+		plural = Pezeekians
+		home_planet = Pezeeke
+		home_system = Reebeesee
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	dee = {
+		name = Dee
+		plural = Dee
+		home_planet = Dee
+		home_system = Haza-Pa
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	saadaa = {
+		name = Saadaa
+		plural = Saadaa
+		home_planet = Saadaa
+		home_system = Sada-Ada
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	reeme = {
+		name = Reemean
+		plural = Reemeans
+		home_planet = Tee-Reeme
+		home_system = Kemeteh
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	kepekhe = {
+		name = Kepekhean
+		plural = Kepekheans
+		home_planet = Kepekhe
+		home_system = Laasaathah
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	nepebee = {
+		name = Nepebean
+		plural = Nepebeans
+		home_planet = Nepebee
+		home_system = Bakaahaah
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	nekebezeh = {
+		name = Nekebian
+		plural = Nekebians
+		home_planet = Nekebezeh
+		home_system = "Tesee Haaraah"
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	geehdabaara = {
+		name = Gedabarite
+		plural = Gedabarites
+		home_planet = Geeh'Dabaara
+		home_system = Geeh'Meele
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	zaanaala = {
+		name = Zaanaalese
+		plural = Zaanaalese
+		home_planet = Zaanaala
+		home_system = Hemekheh
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	labagateeh = {
+		name = Banalakan
+		plural = Banalakans
+		home_planet = "Court of Labaga Teeh"
+		home_system = "Sahasaga the Jester"
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	reketha = {
+		name = Rekethian
+		plural = Rekethians
+		home_planet = Reketha
+		home_system = Raanapaah
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	firstevocation = {
+		name = Ramaabian
+		plural = Ramaabians
+		home_planet = "First Evocation"
+		home_system = "Final Evocation"
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	hakhasatah = {
+		name = Thee
+		plural = Thee
+		home_planet = Hakhasatah
+		home_system = Hahapheh
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	pabanaataha = {
+		name = Pabanaatian
+		plural = Pabanaatians
+		home_planet = Pabanaataha
+		home_system = Gephaagaah
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	zadakaba = {
+		name = Zadakabian
+		plural = Zadakabians
+		home_planet = "Ivory Catacomb"
+		home_system = "Dread Father Zadakaba"
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	methesemeprime = {
+		name = Methesemean
+		plural = Methesemeans
+		home_planet = "Metheseme Prime"
+		home_system = Metheseme
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	bethaataa = {
+		name = "Peleh Seeh"
+		plural = "Peleh Seeh"
+		home_planet = Bethaataa
+		home_system = Malabaadaba
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	latapapa = {
+		name = Latapapan
+		plural = Latapapans
+		home_planet = Latapapa
+		home_system = Bezeekhe
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	deehdatha = {
+		name = "Deeh Dathan"
+		plural = "Deeh Dathans"
+		home_planet = "Deeh Datha"
+		home_system = "Ledeh Thasah"
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	zatana = {
+		name = Zatanian
+		plural = Zatanians
+		home_planet = Zatana
+		home_system = Phahalah
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+}
+
+
+# Toxoids
+
+TOX = {
+	thasama = {
+		name = Maah-Sam
+		plural = Maah-Sam
+		home_planet = "Tha Hasama"
+		home_system = "Pah Sama"
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	phakhapasah = {
+		name = Phakhapassian
+		plural = Phakhapassians
+		home_planet = Phakhapasah
+		home_system = Gaanasazaa
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	thaphagatha = {
+		name = Thaphagoid
+		plural = Thaphagoids
+		home_planet = Thaphagatha
+		home_system = Phaazaa
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	banapaga = {
+		name = Banapagan
+		plural = Banapagans
+		home_planet = Banapaga
+		home_system = Tabaraaraah
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+	zathaphah = {
+		name = Zathaphite
+		plural = Zathaphites
+		home_planet = Zathaphah
+		home_system = Sapaaka
+		name_list = "cybrxkhan_fantasy_fantasy_6"
+	}
+}
+
+

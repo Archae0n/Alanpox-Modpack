@@ -1,0 +1,229 @@
+﻿### Bith, aka the cantina guys
+### Names all from random generators at https://donjon.bin.sh/ and fantasynamegenerator.com
+
+cybrxkhan_starwars_bith = {	
+	category = "Molluscoid"
+
+	ship_names = {
+		generic = {
+			D'agroh D'aguhul D'as D'ass D'el D'er D'erikras D'ern D'es D'esi D'ethan D'ethu D'ethun D'hamni D'helsa D'hemu D'hezem D'hiar D'hisidara D'honere D'hoo D'hovezem D'humker D'hurn D'irdulre D'irle D'irn D'irtam D'is D'ishos D'isi D'iss D'isu D'on D'ondarlos D'ondas D'onern D'onra D'or D'ore D'oro D'rem D'ress D'rinra D'rirlul D'rirn D'risi D'roh D'roow D'ruzi D'ruzo D'uliarn D'ulileruw D'ullern D'unkenti D'unner D'unnuddos D'urn D'urni D'urusi D'uthare D'uthass Dabbimaa Dabi Dabo Dabozeshass Dah Dahol Damkeuliar Dandom Danurn Dar Daralno Daran Darer Darlul Darn Degemlu Degruzil Delehundi Delledharus Delo Delro Dendi Dia Dialkasa Dialulla Diappom Dias Diathah Digril Digro Digrul Dil Dilmo Dilroh Dithen Dithialno Dithizom Dithun Dithuss Donaass Donedullan Donkas Donranral Dosa Doss Duba Dubaa Dubaam Dubaass Dubuns Duh Duhilmom Duhirledhoh Dul Duliam Duliass Duns Durem Durn Duruh Duveuzomkem Duvezem Duze Duzem Duzial Duzom F'haass F'ham F'hecriss F'hen F'hes F'heus F'hintia F'hiss F'ho F'hon F'hoow F'hos F'hoss F'hus F'taa F'taddoo F'tadom F'tal F'talmal F'talmonran F'talnom F'tanan F'tanral F'tans F'te F'teka F'tekiss F'toko F'tokoseses F'tom F'tomkendos F'tupaala F'tupennuss F'tupeuw Faadoonlian Faal Faass Fah Fahedu Fahivul Fal Fale Falka Falkomdem Falnialkel Fami Famku Famnu Fas Fasa Fasholedurn Felsi Fem Femmom Fen Fennaamooss Fes Fese Feserdurn Feshum Fevulnu Ficrelleleh Ficuw Fikral Fikrana Finerdiss Fis Fishovezess Fodi Foo Foolucos Foomdaranla Forn Forortole Foziathans Fozom Fozuhih Fozuhur Fozum Fozumne Fubaadess Fubulucos Fubuns Fubus Fubuss Fuh Fuhiahor G'haabew G'haaw G'habbunki G'hahinan G'hal G'hamiss G'happi G'hare G'hasa G'hass G'hazim G'hel G'heledin G'hem G'hennedhiw G'hes G'heu G'heul G'heum G'heureus G'heurn G'heuw G'heuzil G'hial G'hiam G'hibaal G'hibass G'hibbih G'hibih G'hibirtul G'hicraa G'hicras G'hicuw G'hilmi G'himmirn G'hinal G'hinel G'hinrasa G'hins G'hinuns G'hir G'hirlom G'hirn G'his G'hiss G'hivul G'hiw G'hogaa G'hogruw G'hoh G'hol G'holu G'hooss G'hoosu G'hor G'hordus G'horeu G'hos G'hosholom G'hoss G'hove G'hu G'hudham G'hudum G'hulrom G'hum G'huna G'hupegaas G'huss G'hussamos G'huzom Gaa Gaagrus Gaal Gaamkel Gaamkoortum Gan Gar Gare Garn Garuss Geka Gekasa Gekiba Gel Gelliahodes Gem Gemeusu Gemlu Genaamnians Gennern Ger Gere Gerno Gernun Gernusahim Gigi Gigimnoom Gigriraw Gimmeumi Gimo Gizilmo Gizo Gizooroono Gizumo Gocaamkeriw Golle Golsa Golsidal Gom Gomdus Gomkiss Gonele Gonkel Gonkibas Gono Gonoom Gonooshoss Goo Goocreuzia Gooloss Goolu Goow Goozomkom Goozuh Gugellan Gugrem Gugrikral Gugro Gugrulmo Gugrusahol Guh Guhil Guhiss Guhus Haadeshanu Hako Hakoss Ham Hamnicreuss Hamnun Hamoonkass Has Hathiba Hathumo Hazaamnel Hazaas Hazarn Hazias Haziashass Hazil Hel Hen Henar Henarn Hendi Hendom Hendoom Henlanuddos Henledha Henlilessu Hennaass Henra Hential Hentis Hentishis Hess Hessanar Hia Hial Hialaas Hiara Hias Hir Hira Hiral Hiriw Hitha Hithan Hithashanu Hithiss Hithumi Holedess Hom Homdass Hoo Hoocran Hoolku Hooss Hozem Hozimmo Hozom Hozomdas Hozomkew Hozumirnus Hozumnelsan Hun Huns Hunti Hus Husi Husian Huss Jaarn Jamku Jammiami Jammo Jedess Jedeurnuns Jedi Jediss Jeh Jehun Jehus Jehuzimne Jer Jeril Jernillana Jerno Jibass Jibbulianar Jibo Jim Jimeul Jimnedu Jin Jini Jirni Jizi Jiziar Jizo Jizoon Jom Jomkennamo Jondem Jono Jopaa Jopaaddom Jopammis Jos Josu Jurnu K'sa K'sahira K'sahos K'sal K'salku K'salnom K'sam K'sama K'samku K'san K'se K'sel K'selos K'sen K'seni K'sentiahes K'seru K'ses K'seshan K'si K'sial K'sidhupena K'so K'sole K'su K'sulliara Kadom Kadooci Kadoondale Kadow Kahoociw Kahoonraass Kahoss Kal Kam Kamila Kamnel Kappin Kappom Kara Karess Karulniass Kebbirlo Kebbunkem Kebbus Ker Kerdel Kerem Kerinu Kerirtolu Kern Kiacru Kiass Kih Kihen Kihizoomdes Kimmo Kimne Kimo Kipegel Kipegrusso Kipeu Kodel Kodhoollas Kodhum Kure Lal Lalnurn Lam Lamkem Lamkenni Lamom Lamoono Lara Larem Larlogru Larn Larnillanna Larnu Laru Lasa Lass Ledhozom Ledurnur Ledus Lenne Lesi Lesiahirn Less Leul Leulas Leuli Leuss Leuzes Libbirdurn Libi Libih Libihina Libo Libun Libunken Lil Lilmil Loleru Lolosa Lom Lordus Lorem Loreul Lul Luli Lullos Lulnillom Lulrese Lurn Lurni Luru Lus Luss Magrin Magro Magroo Magruhumira Man Manal Mankass Manledosul Manra Mar Mara Marasal Marn Megem Megono Megrinre Megru Megruzoonan Men Mendal Mendi Mendos Mendoss Meni Menless Mennilliace Menran Mens Migro Mimnomduli Mina Minaa Mindelehuvi Minrashanra Mintecrirn Mintiandoon Mirn Mirnus Mirtul Molsa Molu Molul Mom Mor Morn Mothass Mothuss Mul Muli Muliacalaa Mulil Mulnom Mum Mumi Mumir Mumluloss Mumoonkom Muns Mutha Muthaamki Muthaboono Muthabozum Muthalu Muthar Muthas Muthiar Muthibo Nan Nanaa Nandomkul Nanle Nanudulian Nanurtal Nas Nass Neh Nehunka Nelooro Nelsagrile Nemmeu Nemnusi Nigimas Nigru Nigrus Nigruss Nigruw Nim Nimnelleh Nin Ninal Ninel Nino Nins Nintudhos Noleruw Nolrodhiasa Nul Nulian Nulla Nulma Nulrins Nulu Nunnom Ph'taaguh Ph'tal Ph'taloono Ph'talul Ph'talunti Ph'tan Ph'tanla Ph'te Ph'tekern Ph'tokom Ph'tolroh Ph'tom Ph'tul Ph'tulnun Ph'tulo Ph'tun Ph'tunanno Ph'tunla Ph'tupamon Pha Phan Phandess Phar Phas Phassa Phaziabe Phedeki Phedes Phedom Phegaaw Phel Phem Phemem Phen Phenle Pherdurn Phes Phess Phethuvir Pheus Pheusiahibi Pheuw Pheuziappi Phezem Phiabo Phiarnu Phias Phibasa Phibbul Phibim Phibirn Phibu Phibuna Phibunanla Phicranan Phicreledul Phih Phim Phimme Phin Phinralom Phins Phinurn Phira Phirn Phirniass Phis Phiss Phithan Phiw Phizi Phizomdass Phodess Phodoshabe Phogaass Phoh Phollom Pholoosen Pholu Phonom Phoo Phoole Phoom Phoon Phooss Phore Phos Phosal Phoshos Phove Phul Phumiss Phuni Phurn Phus Phusa Phuss R'ha R'haa R'habew R'hanandoo R'hans R'happina R'hasa R'hegondi R'hegonless R'hel R'helooss R'helsi R'henno R'heu R'heuzialku R'hile R'himeuzess R'hinar R'hino R'hins R'hirdi R'hirn R'hiss R'hiw R'hizool R'hogis R'holko R'holmal R'horal R'hos R'hoses R'hoss R'hozo R'hu R'hudus R'hum R'hupenaa R'huss Ralmass Ran Rana Ranas Ranras Ranun Raponka Rappom Rar Rarele Rarelere Redhare Redooveze Redose Reduss Rekas Rekashunim Rekerdiw Rekeuss Rekiss Rem Remos Rernurnial Rhacal Rhal Rhar Rhedhor Rhedu Rhedulial Rhela Rhellass Rhelogaabew Rhem Rhemeuss Rhemne Rhen Rhendaruw Rhenra Rhethezess Rheu Rheuh Rheunlaas Rheusurn Rhi Rhiandal Rhiappis Rhibi Rhicuw Rhinrass Rhintial Rhis Rhizom Rho Rhodhi Rhodiw Rhogaa Rholoss Rholulilmon Rhon Rhonkass Rhoo Rhoocal Rhoole Rhoonlass Rhoono Rhoose Rhopaa Rhopisi Rhoppendass Rhoro Rhos Rhoss Rhossore Rhossorn Rhu Rhuduli Rhul Rhum Rhumis Rhumoses Rhuni Rhunle Rhuns Rhus Rhuss Rhuzom Ria Riacrel Rian Ridalaas Ridhass Ridhazaas Ridhoh Rilem Rilmam Rilmo Rilmondow Rilrecrass Rin Rina Rinaam Rindekass Rinicras Rirlu Rirtulla Rodelaankom Rodellaadel Rodhar Rodhoss Rodhusan Rodis Rodissorn Rodoovezom Rogi Rogimme Rogiss Roo Roolo Room Roomdasa Roomdurnia Roon Roono Roonra Roorn Rooveuzess Rorecreh Rorn Rornureu Roro Roroom Rudhogaal Rudhupen Rudul Rudurn Rugro Rugruh Tha Thaa Thaddess Than Thanki Thans Tharn Thas Thass Thazi Thedess Thedhanraw Thediw Them Thendosham Thenlaw Thennalmass Thenre Thess Thessal Theuziam Thezess Thia Thiahos Thiahosu Thiappin Thilla Thilmos Thilroor Thim Thimne Thinranaama Thins Thiraw This Thizi Thogi Thogriler Thogruw Tholkew Thon Thordi Thos Thoss Thul Thumomdemlu Thun Thunilla Thupegaadoo
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Rinrassa Fleet" "Fen Doss Fleet" "Hakosa Fleet" "K'sel Fleet" "D'ass Gel Fleet" "Mannass Fleet" "G'hisia Fleet" "Megrum Fleet" "Rhoow Fleet" "Fozem Fleet" 
+		}
+		sequential_name = MEDIA_STARWARS_BITH_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = MEDIA_STARWARS_BITH_xxASSAULTARMY_ORD
+		}
+
+		machine_defense = {
+			sequential_name = MEDIA_STARWARS_BITH_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = MEDIA_STARWARS_BITH_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = MEDIA_STARWARS_BITH_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = MEDIA_STARWARS_BITH_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxROBOTICDEFENSEARMY_ORD
+		}
+		psionic_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = MEDIA_STARWARS_BITH_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = MEDIA_STARWARS_BITH_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = MEDIA_STARWARS_BITH_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = MEDIA_STARWARS_BITH_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				D'elrem D'essu D'ethal D'hoocreu D'orni D'uthiass Denaal Duliaru Dullosu Durtanker Duvezem Duzi Duziacril F'hithass F'huziacal F'tamkem F'tiar Faaran Fikral Finilmi G'happos G'hesesi G'heuzes G'hiba G'hibu G'hizom G'honno G'hono G'hoss G'huss Gandom Gimner Gizillan Gondoo Goocrer Guhin Haadool Hakomken Hamaashoor Haziacal Hendom Hennal Hialker Holu Hunim Jaadooss Jaados Jedel Jehusa Jibim Jinun Jinunkissa K'sagrooler K'sandom K'sandoss K'surno Kappom Leulnom Lorn Lumis Lurn Lusa Mannar Mendarn Mentiss Migrinaal Mimne Mirtum Molo Mologruss Momdul Mulro Nanless Nanras Nimmem Nolul Ph'taaboo Phamniacal Phass Phedoollem Phialaass Phias Phiasalro Phibbun Phibo Phin Phirn Phosha Phumoo Phusu R'hemner R'hess R'hibaans R'himmeu R'himmoss R'hizum Rannar Redurno Reloon Remmeulnom Rhentiss Rhess Rhir Rhose Rhozuh Rhullosso Rhulre Rhulrem Rhuss Rodem Rodess Rogi Thaboze Thahoom Thass Thassu Thegaal Thibaan Thilmass This Thiss Thoondos Thoss Thum Thun
+				
+				D'as D'el D'ern D'hoo D'irn D'ishappi Dikraashoo Dikraass Dithamisu Dithammem Durn Duvirn F'hare F'taasholom F'tan F'te F'tekiss F'tokoser F'tupens Faaddekranu Fales Famkoove Fammem Fikra Fodes Foreuss Fozess Fozomdu Fozumilem Fubun Fuhumlu G'hasal G'hass G'hel G'hes G'heshassus G'hiappeun G'hiba G'hinra G'ho G'hoolreu G'hoolsi G'hooss G'hulrodel G'huss G'huve Gigriw Gimaar Gimnedom Gizoomam Gocrerins Golmi Gondal Gono Goolsiappen Goom Hentukass Hithirlo Jaass Jedhoshor Jehudhor Jibbu K'sa K'samne K'sanna K'se K'su Kappi Karn Kipegrel Lashana Leul Lulril Meni Mirle Mothadoss Mulmammi Nandess Nidal Ph'teciw Pheul Phih Phinre Phins Phoo Phoom Phumlucoss Phun Phussa R'heu R'hun R'hus Ralmom Redem Rhizo Rhol Rhoolu Rhun Ridal Riledes Rodhirn Rorn Thaandarno Thibaa Thol
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				D'recre D'rikran D'roollellan D'rulaas Dabe Denans Digiss Dikraw Dila Dubas Duhins Dulian Dullem F'taaboze F'taddal F'talker F'teken F'tiaruw F'toki F'tolkoko F'tupeun Faaranam Famkos Felkul Ficrus Fikraam Fuhiw G'happom G'hediw G'hellucos G'heuruzooss G'hibaans G'hibo G'hogaal G'huddin Gekral Gigrinaal Gizillaw Gocrer Goocreu Guhins Guhuss Haadekim Hakomku Hamaan Haziacril Henicuw Hiabew Holul Homkem Hozim Jaadoo Jamkel Jedelom Jinunkiss Jizom Jopi Kabbi Kaddeuw Kaho Kappins Kebbuns Kiabun Kihia Kipen Ph'tamkens Ph'tanker Ph'tecew Ph'tudum Ph'tuka Ph'tulial Ph'tupen Phelliar Phemkibu Pheuzes Phialkass Phiapon Phibbunkeus Phooler Phulloss Phumialaa Phupaaw Rappos Redu Rekass Reloonkoow Riahoor Riapiss Rodoss Roociw Roopam Roozom Ruddow Rugrus Thaboo Thazaa Thecral Thicrumkew Thoonkas Thoppegriw
+            }           
+            first_names_female = {			
+				D'hezess D'himmem D'hoocaaguh D'humlun D'huzi Dahira Degem Diannedhan Dithias Duvezes Duziass F'hiba F'himeu F'hunni F'husa Fahess Falnom Femlul Fennass Finilmaass Fodem Fooveuh Fozuh Fubul G'haashu G'hizum G'hosha G'hunli Gaammo Gandooss Geleh Genreh Geril Gimne Gomdul Gondos Goonlan Gugel Hathem Heloommiah Henless Hialnia Hoolsa Lamniacal Leshaa Leulnuduss Libim Lilmam Lulmonru Magroh Manle Mannal Megroondom Migruh Mologrum Momdal Moreus Mulilmass Nanlaass Nanraa Nehun Nimmoss Nulosul Phashoh Phelsenaa Phiathum Phinal Phusiami R'hados R'heci R'hemo R'heulnoom R'heumi R'hiasalmo R'hivul R'hizom R'hogi R'holsi R'honno R'hove Remmeul Rhaamis Rhace Rhedool Rhegon Rhiheus Rhogreshoom Rholedel Rhosa Ridhi Rodes Rorodhih Rudhooras Thabih Thahoon Thegaass Thibuss Thisia Those Thumoo
+
+            }			
+			second_names = {
+				D'agruss D'assu D'elre D'eru D'ess D'ethum D'irlo D'irnu D'isa D'ono D'orn D'ul D'una D'urtan D'uthal Dammirn Dan Dana Darnu Del Doner Dos Dosu Duntun Dure Durtom Falu Fam Fammo Fass Fess Fevus Fiss For Fozarn G'ham G'hanu G'hara G'has G'hemner G'hen G'heses G'hezem G'him G'hinte G'holmi G'horo G'hun G'hunim G'hurnu Garle Geme Gerdess Gern Gile Golro Golu Gon Gondarn Gugrom Hass Havirn Hendoss Hennar Hes Hirirn Hirtul Hithass Huni Hussa Jehuss Jern Jibir Jimo Jirdurn Jomdel Jona Joss Jurn K'sagrus K'sahiss K'salro K'sandess K'sele K'ser K'sesi K'sidho K'solo K'sortum K'sumno K'surn Kalo Kamom Kar Kare Kerel Kerni Kim Kiss Kodi Kos Kurno Lale Lamne Lar Lare Las Ledurn Lennur Les Lolrirn Loma Lorni Lulu Lumi Lurno Lusam Maru Mendel Mente Menti Mimnes Minras Mirtal Motha Mulrem Mumis Mun Muthil Nashin Nelas Nem Nemu Nidass Nigriss Nine Ninra Nolu Nun Phamnus Phedharn Phethass Phezo Philrem Phimal Phinun Phir Phishus Phisuss Phola Pholoss Phose Phoshar Phoss Phosso Phum R'hana R'hem R'hen R'hinom R'hirlom R'his R'hithan R'hol R'hono R'hose R'huvi Ral Ranni Rarn Rer Rhel Rhendas Rhern Rhessu Rhirlu Rhirn Rhordem Rhorn Rhoshe Rhozum Rhulrorn Rhundom Rhusso Rhusu Rila Rindi Rinel Rira Rogim Ror Thardis Thasa Thentiss Thilmil Thissa Thodhu Thuna
+			}
+            regnal_first_names_male = {
+				Dubas F'teken Jedelom Kabbi Kiabun Phooler Rappos Thazaa
+            }           
+            regnal_first_names_female = {
+				D'huzi Degem Fennass Gomdul Magroh Manle R'hemo Rhedool
+            }			
+			regnal_second_names = {
+				D'agruss D'orn Darnu Fess Jern Jurn Kar Nelas Phosso R'huvi Thentiss
+			}
+		}
+	}
+}

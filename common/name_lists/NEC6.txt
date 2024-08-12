@@ -1,0 +1,393 @@
+﻿### Necroid 6
+# Armies based on Necroid 2
+# fantasynamegenerator.com misc, including Prophet, Knight, Throne, and Warrior names for surnames, and Nephilim names for normal names
+
+NECROID6 = {
+	category = "Necroid"
+	ship_names = {
+
+		generic = {
+			Abedil Abegru Abekurmil Abemo Abeza Agi Agie Agijeetnul Agijez Agijoth Akuri Akurmal Akurmugue Akurzil Akuzasbu Amajarqol Amajas Amamuguel Amasbekiel Amatza Azegikemo Azejul Azeqedri Basbel Basbezan Basbunez Bememriez Bemitare Bemjia Bemru Bemyumal Berobez Berozia Berzi Berzial Bes Besbarjijia Besbuenqul Besbun Besesul Beseth Besianza Besierqol Bestarigal Besuetel Besul Besusza Beszenil Beszunqeda Biebinuza Biedjiel Biege Bien Bienul Bieth Bikaboki Bikal Bikeen Bikeeth Bisazol Bistiel Bome Bomegonutu Bomerobuenul Bomiazukatira Bomzezan Buka Bukami Bukan Bukanzizal Bukneebiegesul Buknegikan Buknez Bukol Bukoza Dagal Dagas Dagasesiel Dagra Dagrabul Dagrekurme Dagren Dagroba Dagru Dagrusa Dagruszu Demal Demasete Demjuekurie Demra Demrusbemyute Demrutre Des Desbes Desuszyajez Dijeebierjil Dijeza Dijil Dijonul Dijue Dijul Dijutol Dira Dirabu Dirama Dirqadil Dirqojeetas Dirzenqel Dugijes Dugijo Dun Dunqiel Ebu Ebuegomjieth Ebul Ebuquekiazo Ebuquel Ebuquetnusa Eegeberma Eegesun Eegijuth Ejel Ejemo Ejesba Ejezises Erjare Erjee Erjel Erjesiakabu Erjez Erjiel Erjil Ermenqa Ermeroberzun Ermul Erqasben Erqojonzal Erqol Erqoth Erque Erqueteteth Esul Esunokial Esuszu Esuszul Etiege Etiegi Etieqojez Etre Etren Etretnil Etrienil Etrigonus Etril Etrisbee Etryamo Etryaz Ezegebinuza Ezen Ezenqi Ezeqel Ezezisunee Ezia Ezise Ezitatzoge Ezith Gamias Gamjues Gamul Gamzogomemra Gamzul Gamzuz Ges Gesienqedri Gesun Geszyamemil Geth Getnees Gikal Gikeki Gikekoz Giki Gisba Gisbemas Gisbieroz Gises Gistas Gistie Gistiel Gistiez Gisul Gomegnamo Gomeri Gomjil Gomjoth Goza Gozyaju Gozyaka Guri Gurigoda Gurma Gurmegra Gurmenqe Gurmenul Gurmia Gurmu Gurmugel Gurmun Gurzediegezia Gurziseszu Gurzizisusa Habiel Habierjasbeda Habijues Habinieges Habokboth Habosetre Habu Habuquetez Hajez Hajuel Hajyatzal Hamen Hamjia Hamo Hamrisaz Hamyuszez Has Hasbedil Herme Hermegreqe Hermerzi Heroz Herzegebinul Hesba Hesbaruth Heses Heseszez Heso Hesos Hestath Hierqol Hieth Hima Himami Himamia Himano Himega Himegre Himemyul Himenuz Himeroz Hukaboth Hukabotna Hukan Hukatzeqol Hukatzoth Hukol Hukozitarobes Hus Husbedjyutol Husbel Husbin Hustasbajees Hustietneen Huszel Huth Hutol Hutoz Hutozya Hutren Hutrutol Hutueth Hutza Hutzol Hutzul Hyajul Hyakbez Hyari Hyarusaz Hyas Hyasbel Hyasieth Hyatre Iga Igan Iganqi Igasiaz Ijare Ijareqi Ijarunokbesun Ijasbiel Imajes Imal Imami Imano Imanzal Iqi Iqiedie Iqietnasia Iqil Istatre Istel Istesos Istieqadjieqe Itu Ituetetneges Jatniegel Jatnus Jediegre Jedjieqol Jedjijisetne Jedjyun Jedra Jedroretni Jedroz Jekamegrul Jekan Jekben Jekiegebatni Jekol Jekozi Jekuritre Jibidjaroz Jibierjas Jibos Jimemril Jimra Jimri Jimriguenul Josestel Joso Jostari Jostaru Jostel Josyajez Juri Jurme Jurmenul Jurmu Jurmugi Jurmul Jurmunias Jurmunoku Jurzege Jurzel Jurzezal Jurzis Jurzisuetnul Jyajesbesbegel Jyamanzas Jyare Jyarqotreqe Jyatetna Jyaz Jyudragrutes Jyudri Jyudrigues Jyumamermial Jyumzu Jyun Jyusbu Jyutzezu Kadel Kadil Kadol Kadonul Kagra Kagratzoth Kagre Kagrekan Kagren Kagreth Kagru Kagrunien Kagrus Kath Katnas Kiaka Kiakamyuszel Kianqajas Kianzi Kiasbu Kidel Kidjarekia Kidjiakanqi Kidrith Kidueth Kidul Kidyu Kigal Kigoda Kigol Kigomen Kiguegezan Kiguetnil Kisba Kisbemal Kistas Kisusa Kogebemrus Kogebinika Koges Kogetaroza Kogie Kogiebidyutel Kogijil Kogijonzisa Kognas Kogni Kogol Kues Kueth Kuetryarqol Nadiegebeeth Nadieth Nadil Nadja Nadol Nadonas Nadyumri Nan Nanqa Nanqas Nanqil Nanzedro Nanzez Nanzi Nanzol Nare Narith Narjasbu Narjel Narjiagru Narjie Narqueth Narutez Nath Natiel Natierzias Natnia Natzeni Natzeqol Nebajarul Nebarumrul Nebath Nebatniazul Nebeen Nebees Nebegreqa Nebieth Nebijue Nebin Nebinus Negel Negesoses Negi Negniku Negren Negron Nekal Nekamo Nekan Nekbosesuno Neki Nekie Nekurmenqieth Neramanza Nerjel Nermasiaz Nermeniku Nermil Nermu Nerona Nerzi Neth Netnez Niedi Niedrateseth Niedratie Niegiki Nieqa Nierqaseseth Nietes Nietrekabu Niez Nizal Nizatneeqeda Nizatnul Nizatre Niziakal Nizian Niziza Nosetnezal Nostaszeqajil Nosya Nosyasze Notol Nototh Nototoza Notzotol Ojee Ojeeqe Ojel Ojemrietnas Ojez Pamia Pamiaz Pamil Pamitasbun Pamjoth Pamju Pamragrun Pamyun Pamzun Pemal Pemamyusbieda Pematzejul Pemo Pemrith Pemru Pie Piegol Piegrus Pien Pini Pinieqera Pinikia Pomemi Pomemo Pomil Pomjo Pomjojoth Pomza Pomzoth Pomzun Pos Pose Posesues Postari Poste Posyajueth Puganqel Pugi Pugol Puguel Pugues Qan Qano Qegebekol Qegramyus Qegrun Qegrutotol Qeth Qetnezul Qigal Qigoda Qigonzo Qiguegrobunqel Qiguel Qogeth Qogniaz Qogoda Qugal Qugebareth Qugeth Qugetnas Qugijul Qugomege Quguesul Qusbegal Qusbes Quszukoz Qyu Qyumrun Qyumzukol Qyuno Qyusbu Qyutotnutol Rasbes Reka Rekamemru Rekboth Rekumi Rekurmun Ridegesus Ridegeth Ridel Ridjyakamul Ridristiez Riduel Ridueth Rie Riebiduenul Rieqa Rimal Riman Rime Rimratre Rimri Rimrutozyaz Rogebieqe Rogetel Rogeth Rogi Rogijes Rogijo Rogna Rognia Rognikekamu Rogol Rogona Rokbel Rokbokbosos Rokbosyare Rokiaz Rokurzuni Romemrus Romjisa Romjojez Romjonul Romzu Rore Rorekol Roreth Rormen Rormul Roth Rotnezunokia Rotol Rotzol Rudrisa Rudrormugon Ruduekol Rumatryarjas Rumi Rumra Rumri Rumria Rumrusazuno Rumzal Rumzan Rumzeqoth Rutoz Sadil Sadol Sadonzo Sare Sareka Saris Sarjasie Saronadegru Sarozyateth Sekal Sekbegeth Sekboth Sekiaz Sekierore Sekol Sekoz Sekuri Shas Shases Shaszeda Shebekal Shebiel Shebinuszase Sheeqerqueki Sheetes Sheeth Sheju Shemra Shemri Shemru Shemyutuekoz Sherjare Sheron Sheroreqe Sherqa Sherqol Sherzel Sherzitre Shia Shian Shianzol Shikbostare Shikemjuen Shikianzo Shimajyaz Shimal Shime Shimeni Shimeril Shini Shinil Shinus Shinutzedi Shinuza Shiqa Shiqajaronzi Shiqajijil Shiqas Shiqe Shiqedil Shiqel Shiqerqol Shise Shitas Shith Shitretryatnul Shon Shona Shonadyamru Shonaka Shonakanzil Shonul Shonzi Shoth Shotnezil Shotnia Shotol Shotryasieth Shotzejues Shotzu Shozal Shozi Shozil Shozith Shozyamzith Shozyaz Shudra Shudrabuque Shudro Shudrormu Shus Shyamjijeeth Shyamjijon Shyaz Shyazogijo Shyudrobath Shyun Shyusa Shyutu Sidegetel Sidegez Sidjisbateth Sidjyaz Sidri Sidul Sidyamil Sidyu Siga Sigal Sigoda Sigue Sikan Sikatzotre Sikbesza Sikiaz Sikieth Siraga Sirqa Sirqojo Sirzejul Sirziaz Sirziza Sobajeeqiegez Sobajyun Sobatrya Sobekal Sugebemragrus Sugel Sugetnieth Sugezatnadol Sugieth Sugikatez Sugol Sugon Temanzotze Teme Tememrith Temenqiedjyus Temiazogez Temo Temra Temrabiegra Temrial Temrigano Temril Temyudul Temyumra Temyumzez Tes Tesetel Thadel Thas Thasa Thasianza Thaz Thazol Thebajyaz Thebarqajyus Thebes Thebeza Thebiel Thebinia Theebijutel Theen Theetna Thejul Thejutoth Thejutueth Theramjutzukoz Therath Thermu Therozyaz Therzu Thiagru Thianqul Thikanzath Thikberozyath Thikiazol Thimas Thin Thinusbierjes Thinutotza Thinuza Thiqe Thiqel Thiqerobuel Thiqerziazo Thise Thisesesostiel Thusa Thusbemri Thusbu Thustarutozyas Thuszel Thya Thyamzez Thyarjeenqil Thyaronzatel Thyath Thyatre Thyaz Thyudrisbeeth Thyumria Thyuno Tibieth Tibijo Tibo Tibokbel Tiboth Tidel Tidjiakbel Tidjie Tidrath Tidril Tidue Tidyudro Tieda Tiegezith Tiegragro Tiegre Tieni Tieqadol Tieth Tietneeth Tiezal Tika Tikekiano Tikemasie Tikiagrus Tikuzal Tith Toba Tobajul Tobatetri Tobatzul Tobemyuszal Tobuel Tokbekoz Tokbemege Tokbes Tokbezan Tokbos Toku Tosesbajyun Tostatzotol Tostiez Toz Tozanzi Tozyatnial Tusa Tusazoth Tusbezu Tuszel Tyudramru Tyudul Tyumrus Tyun Tyuno Tyusza Udol Udon Ueqa Ueqadiel Ueqaje Ueqe Ueqel Ueqermul Ueqierozis Ueqil Ueqol Ueqotryarul Ujeeqol Ujeeth Ujeetren Ujemjo Ujojonzatel Ujonamu Ujonza Umzejutoth Umzil Umzistiel Umzoth Umzun Yamen Yamjisa Yamjisul Yamo Yamul Yamzul Zajas Zajeesul Zajeme Zajuel Zajyas Zaquegal Zaquel Zaquesbiegez Zaquetnutel Zaqul Zebees Zebeesiez Zebegniakal Zeberjas Zebieqadel Zebieril Zebijues Zebinia Zebinusbie Zes Zesia Zesian Zeth Ziragra Ziramyu Zirqol Zirquen Zirzi Zirzia Zukanzotza Zuknez Zukozyarqajul Zuth Zutol Zutotzamzitre Zutoz Zutozas Zutrutes Zutzasbes Zyamul Zyarqojo
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"By Sunlight Touched" "By King Empowered" "By Righteous Decree" "By Peers Accepted" "In Shadow Raised" "In Darkness Lost" "In Light Adorned" "In Patience Waiting" "With Honor Intact" "With Intention Set" "With Vigilance" "With Gentle Hand" "Of Glory Borne" "Of Strength Carried" "Of Memories Lost" "Of Days Promised" "On Waves Riding" "On Hope Alone" "On Sunrays Sailing" "On Paths Forgotten" "From Iron Womb" "From Ash Risen" "From Gates Opened" "From Times Ahead" "Under The Pale Star" "Among The Stars" "Amidst The Brave " "Below Stars Eternal" "In Fire Shaped" "In Void Waiting"
+		}
+		sequential_name = NEC6_xxFLEETNAMES_ORD
+	}
+		
+	army_names = {
+			
+		generic = {
+			sequential_name = NEC6_xxASSAULTARMY_ORD
+		}
+		
+		machine_defense = {
+			sequential_name = NEC6_xxMACHINEDEFENSE_ORD
+		}
+		
+		machine_assault_1 = {
+			sequential_name = NEC6_xxMACHINEASSAULT1_ORD
+		}
+		
+		machine_assault_2 = {
+			sequential_name = NEC6_xxMACHINEASSAULT2_ORD
+		}
+		
+		machine_assault_3 = {
+			sequential_name = NEC6_xxMACHINEASSAULT3_ORD
+		}
+		
+		defense_army = {
+			sequential_name = NEC6_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = NEC6_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = NEC6_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = { 
+			sequential_name = NEC6_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = NEC6_xxUNDEADARMY_ORD
+		}
+
+		robotic_army = {
+			sequential_name = NEC6_xxROBOTICARMY_ORD
+		}
+
+		robotic_defense_army = {
+			sequential_name = NEC6_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = { 
+			sequential_name = NEC6_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = NEC6_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = NEC6_xxGENEWARRIORARMY_ORD
+		}
+
+		occupation_army = {
+			sequential_name = NEC6_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = NEC6_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = NEC6_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = NEC6_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = NEC6_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = NEC6_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Ama Bemyuma Beszukol Bomenquel Dagrekal Deszyatiez Dugijueth Eda Erqajel Ezel Gikemri Habin Habuqul Haju Hamuneen Hasbajiel Huknegel Ija Istari Jekurzi Kagramias Katzo Kidyutoth Nanzogi Narqojoth Negetni Ojees Pamjie Puguego Qyuszeda Rekoz Rogetreth Rotoz Rutol Sadie Shebierjes Shiazol Shitatnul Shusba Sobatza Sugan Therobu Therqoth Thyarunqa Tibijeeth Tokumzoth Toso Udonuz Yamzil Zuka
+				
+				"Seda Darklands"
+				"Gunas Darklands"
+				"Thegial Darklands"
+				"Oszo Darklands"
+				"Tajisbul's Epiphany"
+				"Hyakonan's Prophecy"
+				"Ediszol's Laughter"
+				"Ganimo Tower"
+				"Gujenze Tower"
+				"Nebuknol Tower"
+				"Damje's Stones"
+				"Quze's Stones"
+				"Imri's Fear"
+				"Thomrel's Contemplation"
+				"Hezezan's Reflection"
+				"Adazo Doomstone"
+				"Ubirjuz Doomstone"
+				"Gaszural Doomstone"
+				"Jirzubeth Doomstone"
+				"Thojuta Doomstone"
+				"Jibol Pillar"
+				"Taben Pillar"
+				"Pyutin Pillar"
+				"Uta Pillar"
+				"Nuredel's Tomb"
+				"Kuerira's Tomb"
+				"Reqitez's Tomb"
+				"Jaqekbe's Tomb"
+				"Umeke's Tomb"
+				"Thediarzue's Tomb"
+
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Abeses Agietne Akuzath Atez Azeqe Basbemi Bermian Besun Bietnuth Bikurmul Bises Bomen Bukamzun Dematre Dijonzas Dirquese Dunikan Ebuel Eegebiel Ejemrul Erjezi Ermu Esueku Etie Etreqil Ezizith Game Gesiagro Getnasa Gistes Gomze Gozianza Gurmemo Herjaseth Hesbul Hienqi Himerath Husa Huszejue Hutrigue Hutu Hyajeeth Hyamrabu Igal Iman Iqieteth Itueth Jateth Jedjyazu Jibo Jimal Josyaz Juriebee Jurmuge Jyasbedi Jyusbesul Kadjisa Kiakbekiez Kigona Kisbezan Kogikiaz Kognakal Kuesbieqol Nadya Nanzeges Natnadil Nebare Nekaboth Nerzis Netryamo Niedragas Niegijil Nizamyu Nostaren Notnezun Odel Pamamith Pemril Piegrutol Pinus Pomikbel Postiegez Qanqe Qegru Qetaszal Qiga Qogomzu Qonzi Qugoda Qustira Rasieqas Ridjaru Rierzenieth Rimajas Rogez Rokbokia Romjoje Rormas Rudrore Rumrumil Rumrus Sarjijo Sekbenul Shadel Shejutol Shemrute Shikeki Shinia Shiqadol Shonamjul Shotzeza Shozyaron Shyasbun Sidegre Sidel Sigol Sikatrus Sira Temegal Temjia Tesoses Thasia Thazotryaz Theeberme Thimra Thinul Thiqeroz Thistas Thudul Thyudrial Tidratel Tierisus Tikeeqel Titre Tobegnil Toza Tusaz Tyunokbos Ueqedrith Ujez Ujo Umzal Zajyul Zaquen Zebiduel Zestas Zetel Zirzuzez Zutzul Zyakano
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				"the Herald of Water"
+				"the Diviner of Faith"
+				"the Oracle of Doom"
+				"the Diviner of the Mistress"
+				"the Envoy of Possibilities"
+				"the Prime Harbinger"
+				"the Skeletal Augur"
+				"the Primeval Magus"
+				"the Mighty Diviner"
+				"the Supreme Oracle"
+				"the Herald of Existence"
+				"the Diviner of the One"
+				"the Messenger of Redemption"
+				"the Oracle of the Beginning"
+				"the Augur of Creation"
+				"the Infernal Bringer"
+				"the Quiet Foreteller"
+				"the Bloody Foreteller"
+				"the Pure Herald"
+				"the Marked Emissary"
+				"the Diviner of the Master"
+				"the Emissary of Fire"
+				"the Emissary of the End"
+				"the Foreteller of Birth"
+				"the Harbinger of Balance"
+				"the Sleeping Emissary"
+				"the Fearless Foreteller"
+				"the Crimson Oracle"
+				"the Bright Prophet"
+				"the Ancient Diviner"
+				"the Observant"
+				"the Brave"
+				"the Fair"
+				"the Romantic"
+				"the Bold"
+				"the Earnest"
+				"the Young"
+				"the Vigilant"
+				"the Harbinger"
+				"the Pygmy"
+				"the South"
+				"the Polite"
+				"the Champ"
+				"the Friendly"
+				"the Ghost"
+				"the Clumsy"
+				"the Shy"
+				"the Brute"
+				"the Bane"
+				"the Valiant"
+				"the Champion"
+				"the Orphan"
+				"the Honorable"
+				"the Gorgeous"
+				"the Magnificent"
+				"of the North"
+				"the Invincible"
+				"the Orange"
+				"of the West"
+				"the Reckless"
+				"the Keen"
+				"the Devious"
+				"the Fierce"
+				"the Stubborn"
+				"the Tenacious"
+				"the Strong"
+				"the Magnificent"
+				"the Giant"
+				"the Martyr"
+				"the Freak"
+				"the Feral"
+				"the Fearless"
+				"the Shadow"
+				"the Cunning"
+				"the Hammer"
+				"the Valiant"
+				"the Hunger"
+				"the Limp"
+				"the Silent"
+				"the Defiant"
+				"the Deserter"
+				"the Menace"
+				"the Whisper"
+				"the Executioner"
+				"the Anvil"
+				"the Giantslayer"
+				"the Whisper"
+				"the Slayer"
+				"the Invincible"
+				"the Jester"
+				"the Champion"
+				"the Freak"
+				"the Paragon"
+				"of the Jade Throne"
+				"of the Onyx Throne"
+				"of the Obsidian Throne"
+				"of the Gold Throne"
+				"of the Silver Throne"
+				"of the Midnight Throne"
+				"of the Beastly Throne"
+				"of the Phantom Throne"
+				"of the Paragon Throne"
+				"of the Arcane Throne"
+				"of the Frozen Throne"
+				"of the Gentle Throne"
+				"of the Shadow Throne"
+				"of the Violet Throne"
+				"of the Grand Throne"
+				"of the Ruby Throne"
+				"of the Dread Throne"
+				"of the Iron Throne"
+				"of the Brilliant Throne"
+				"of the Butcher Throne"
+				"of the Chosen Throne"
+			}
+			
+			regnal_first_names = {
+				Besun Esueku Gomze Hienqi Nostaren Rumrumil Sidel Sigol Thudul Zyakano
+			}
+			
+			regnal_second_names = {
+				"of the Jade Throne"
+				"of the Onyx Throne"
+				"of the Obsidian Throne"
+				"of the Gold Throne"
+				"of the Silver Throne"
+				"of the Midnight Throne"
+				"of the Beastly Throne"
+				"of the Phantom Throne"
+				"of the Paragon Throne"
+				"of the Arcane Throne"
+				"of the Frozen Throne"
+				"of the Gentle Throne"
+				"of the Shadow Throne"
+				"of the Violet Throne"
+				"of the Grand Throne"
+				"of the Ruby Throne"
+				"of the Dread Throne"
+				"of the Iron Throne"
+				"of the Brilliant Throne"
+				"of the Butcher Throne"
+				"of the Chosen Throne"
+			}
+		}
+	}
+}

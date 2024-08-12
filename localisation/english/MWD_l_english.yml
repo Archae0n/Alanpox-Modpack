@@ -1,0 +1,19 @@
+﻿l_english:
+ # MWD_l_english
+ # By Metallichydra
+ 
+ MWD_siege_doctrine: "Siege Engines"
+ MWD_siege_doctrine_name: "Siege Engine Doctrine"
+ MWD_siege_doctrine_desc: "Strike hard and fast at the heart of an enemy and the fight is over within seconds.\n\n"
+ 
+ MWD_ambush_doctrine: "Strike from the Shadows"
+ MWD_ambush_doctrine_name: "Strike from the Shadows Doctrine"
+ MWD_ambush_doctrine_desc: "Patience is a virtue that most forget when under duress. Wait for the enemy to make their mistakes, then strike when they are most vulnerable.\n\n"
+ 
+ MWD_repair_doctrine: "War of Attrition"
+ MWD_repair_doctrine_name: "War of Attrition Doctrine"
+ MWD_repair_doctrine_desc: "A war is nothing more than a test of who has the most resources, or who can best use their available resources.\n\n"
+ 
+ MWD_replacement_doctrine: "Rapid Replacement"
+ MWD_replacement_doctrine_name: "Rapid Replacement Doctrine"
+ MWD_replacement_doctrine_desc: "Individual performance means little in the grand scheme of things. Only numbers can decide the outcome of a war.\n\n"

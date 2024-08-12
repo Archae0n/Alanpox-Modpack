@@ -1,0 +1,4 @@
+produces = {
+	food = $BBCB_OUTPUT$
+	mult = value:bbcb_food_building_output
+}

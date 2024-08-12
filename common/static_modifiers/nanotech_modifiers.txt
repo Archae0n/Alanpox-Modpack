@@ -1,0 +1,15 @@
+nanotech_summoning_mothership = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_shattered_planet.dds"
+	icon_frame = 3
+	planet_buildings_produces_mult = -0.15
+	planet_buildings_upkeep_mult = 0.15
+}
+nanotech_nanites_devastated = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_nanite_world.dds"
+	icon_frame = 3
+	planet_buildings_produces_mult = -0.05
+	planet_buildings_upkeep_mult = 0.05
+}
+nanotech_storm = {
+	
+}

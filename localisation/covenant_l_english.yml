@@ -1,0 +1,21 @@
+﻿l_english:
+ COVE:0 "Covenant"
+  ####################################
+ # Species Classes
+ ####################################
+ 
+ COVE_desc:1 "Species Class has no effect on your Empire, but Covenant-class Species may consider other Covenant to be less alien than other Species Classes."
+ COVE_plural:0 "Covenant"
+ COVE_insult_01:0 "beast"
+ COVE_insult_plural_01:0 "beasts"
+ COVE_compliment_01:0 "Covenant"
+ COVE_compliment_plural_01:0 "Covenant"
+ COVE_spawn:0 "cub"
+ COVE_spawn_plural:0 "cubs"
+ COVE_sound_01:0 "growling"
+ COVE_sound_02:0 "grunting"
+ COVE_sound_03:0 "yapping"
+ COVE_sound_04:0 "yowling"
+ COVE_sound_05:0 "worting"
+ COVE_organ:0 "stomach"
+ COVE_mouth:0 "mouth"

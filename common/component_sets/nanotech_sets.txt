@@ -1,0 +1,28 @@
+
+component_set = {
+	key = "nanotech_PERDITION_BEAM"
+
+	icon = "GFX_ship_part_perdition_beam"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "nanotech_ARCHAEO_TITAN"
+
+	icon = "GFX_ship_part_archaeo_titan_beam"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "GG_ENERGY_MISSILE"
+
+	icon = "GFX_bwm_torpedo"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "GG_STRIKE_CRAFT"
+	
+	icon = "GFX_bwm_drone"
+	icon_frame = 1
+}

@@ -1,0 +1,38 @@
+civic_rmartlet = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_rmartlet.dds"
+	potential = {
+		civics = {
+			value = civic_rmartlet
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		starbase_defense_platform_capacity_mult = 0.25
+		planet_stability_add = 2
+		mod_ship_naval_cap_usage_mult = -0.25
+		diplo_weight_mult = 0.5
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_rbanana = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_rbanana.dds"
+	potential = {
+		civics = {
+			value = civic_rbanana
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		country_base_influence_produces_add = 5
+		envoys_add = 1
+		envoy_skill_levels = 0.25
+		diplo_weight_mult = 0.4
+		pop_job_trade_mult = 0.25
+		pop_amenities_usage_mult = 0.1
+		country_food_cost_mult = 0.1
+		country_government_civic_points_add = 1
+	}
+}

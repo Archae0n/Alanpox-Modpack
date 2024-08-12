@@ -1,0 +1,4 @@
+# More Traditions
+has_hydras_more_traditions_active = {
+    always = no
+}

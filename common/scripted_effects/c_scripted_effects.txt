@@ -1,0 +1,130 @@
+impose_ideology_effect = {
+	if = {
+		limit = {
+			is_ai = yes
+			OR = {
+				has_origin = origin_legendary_leader
+				has_origin = origin_legendary_leader_imperial
+				has_origin = origin_legendary_leader_dictatorial
+			}
+		}
+		random_owned_leader = {
+			limit = { is_ruler = yes }
+			kill_leader = { show_notification = yes }
+		}
+		set_origin = origin_legendary_leader_death
+	}
+	copy_ethos_and_authority = root
+	if = {
+		limit = {
+			has_civic = civic_galactic_sovereign
+		}
+		force_remove_civic = civic_galactic_sovereign
+	}
+	if = {
+		limit = {
+			has_civic = civic_galactic_sovereign_megacorp
+		}
+		force_remove_civic = civic_galactic_sovereign_megacorp
+	}
+	if = {
+		limit = {
+			has_civic = civic_psionic_sovereign
+		}
+		force_remove_civic = civic_psionic_sovereign
+	}
+	
+	if = {
+		limit = {
+			has_civic = civic_palps
+		}
+		force_remove_civic = civic_palps
+	}
+	if = {
+		limit = {
+			has_civic = civic_marx
+		}
+		force_remove_civic = civic_marx
+	}
+	if = {
+		limit = {
+			has_civic = civic_cmbine
+		}
+		force_remove_civic = civic_cmbine
+	}
+	if = {
+		limit = {
+			has_civic = civic_pizdec
+		}
+		force_remove_civic = civic_pizdec
+	}
+	if = {
+		limit = {
+			has_civic = civic_gcpu
+		}
+		force_remove_civic = civic_gcpu
+	}
+	if = {
+		limit = {
+			has_civic = civic_greathive
+		}
+		force_remove_civic = civic_greathive
+	}
+	if = {
+		limit = {
+			has_civic = civic_1984
+		}
+		force_remove_civic = civic_1984
+	}
+	if = {
+		limit = {
+			has_civic = civic_xenophob
+		}
+		force_remove_civic = civic_xenophob
+	}
+	if = {
+		limit = {
+			has_civic = civic_startrek
+		}
+		force_remove_civic = civic_startrek
+	}
+	if = {
+		limit = {
+			has_civic = civic_crimes
+		}
+		force_remove_civic = civic_crimes
+	}
+	if = {
+		limit = {
+			has_civic = civic_hre
+		}
+		force_remove_civic = civic_hre
+	}
+	
+	if = {
+		limit = {
+			root = { has_authority = auth_corporate }
+			has_authority = auth_corporate
+		}
+		set_merchant_government_effect = yes
+	}
+	if = {
+		limit = {
+			root = { has_civic = civic_shared_burden }
+		}
+		force_remove_civic = 1
+		force_add_civic = civic_shared_burden
+	}
+	if = {
+		limit = {
+			root = { has_civic = civic_crusader_spirit }
+		}
+		force_remove_civic = 1
+		force_add_civic = civic_crusader_spirit
+	}
+	add_modifier = { modifier = recently_liberated days = 7200 }
+	add_opinion_modifier = { modifier = opinion_liberated_us who = root }
+	root = {
+		add_opinion_modifier = { modifier = opinion_we_liberated who = from }
+	}
+}

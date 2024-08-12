@@ -1,0 +1,22 @@
+namespace = tdf_dmm
+
+event = {
+	id = tdf_dmm.1
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = {
+		dmm_register_mod = {
+			DMM_NAME = technology_diffusion_dmm_loc
+			DMM_FLAG = technology_diffusion_dmm_menu_flag
+		}
+	}
+}
+
+ #dmm menu starter
+ country_event = {
+	id = tdf_dmm.2
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = { from = { has_leader_flag = technology_diffusion_dmm_menu_flag } }
+	immediate = { country_event = { id = tdf_content.0 } }
+}

@@ -1,0 +1,26 @@
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_bugged_mining_civic = yes
+		}
+	}
+	modifier = {
+		planet_housing_add = 1
+		job_miner_add = 1
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		uses_district_set = shattered_ring_world
+		exists = owner
+		owner = {
+			is_bugged_mining_civic = yes
+		}
+	}
+	modifier = {
+		planet_housing_add = 1
+		job_scrap_miner_add = 1
+	}
+}	

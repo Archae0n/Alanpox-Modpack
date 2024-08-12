@@ -1,0 +1,259 @@
+﻿### Necron Namelist
+### Made By Scudilo
+
+cybrxkhan_warhammer40k_necron = {
+	category = "Necroid"
+
+	ship_names = {
+
+		generic = {
+			"Aza'gorod" "Iash'uddra" "Llandu'gor" "Mephet'ran" "Nyadra'zatha" "Tsara'noga" "Mag'ladroth" Kalugura "Og'driada" "Yggra'nya"
+			"Zul'channec" Stardeath Emberresh "Crimson God" Nightbringer "Endless Swarm" Flayer Deceiver "Burning One" Outsider
+			"Void Dragon" Arisen "Moulder of Worlds" "Sun Eater" "Cosmic Fire" "Falling Star" "Time's Arrow" Thunderbolt "Gauntlet of Fire"
+			Covenant "Void Blade" "War Scythe" Aeonstave "Eldritch Lance" "Harp of Dissonance" "Void Reaper" Chronometron 
+			"Cloak of the C'tan" "Death Grip" "Death Mask" "Death Shroud" "Gaze of Flame" "Heart of Darkness" "Mantle of Doom" 
+			"Mind Shackle" Phylactery Crucible "Looming Shadow" Nightmare Eternity "Veil of Darkness" "Eye of Night" Merciless Nemesor
+			Phaeron Overlord "Silent King's Hand" Cryptek Diviner Infinity Illuminor Absolute Boundless
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {
+			#random_names = { }
+			#sequential_name = "%O% Frontier Outpost"
+		#}
+
+
+	}
+
+	ship_class_names = {
+		generic = {
+			"Night Shroud" "Night Scythe" "Doom Scythe" Dirge Jackal Shroud Scythe Cairn Wraith Scarab Stalker Acanthrite Monolith
+			Annihilator Spyder Sentinel Tesseract "Ghost Ark" Catacomb 
+		}		
+	}
+
+	fleet_names = {
+		random_names = {
+			"Agdagath Harbingers" "Atun Harbingers" "Altymbor Harbingers" "Arotepk Harbingers" "Arrynmarok Harbingers"
+			"Charnovokh Harbingers" "Dyvanakh Harbingers" "Hyrekh Harbingers" "Kayra Harbingers" "Khansu Harbingers" "Kardenath Harbingers"
+			"Maynarkh Harbingers" "Mephrit Harbingers" "Nekthyst Harbingers" "Nhemret Harbingers" "Nephrekh Harbingers"
+			"Nihilakh Harbingers" "Novokh Harbingers" "Ogdobekh Harbingers" "Oltep Harbingers" "Oroskh Harbingers" "Oruscar Harbingers"
+			"Rytak Harbingers" "Sautekh Harbingers" "Sarnekh Harbingers" "Sekemtar Harbingers" "Shemnoch Harbingers" "Suhbekhar Harbingers"
+			"Thokt Harbingers" "Xonthar Harbingers"
+		}
+		sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxFLEETNAMES_ORD
+	}
+	
+	army_names = {
+			
+		generic = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = { 
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxCLONEARMY_ORD
+		}
+		
+		undead_army = { 
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxROBOTICARMY_ORD
+		}
+
+		robotic_defense_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxROBOTICDEFENSEARMY_ORD
+		}
+
+		psionic_army = { 
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxGENEWARRIORARMY_ORD
+		}		
+		
+		occupation_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = MEDIA_WARHAMMER40K_NECRONS_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Icnarus Somonor Bardic Trakonn Sarkon Taharak Orrak Nagathar Perdita Qyrakotosh Moebius Krozha Aryand Gheden Cardrim
+				Solemnace Dhol Draven Tamar Cocholos Thanatos Mandragora Gidrim Davatas Hypnoth "Cano'var" Rithcarin Medusa Zapennec
+				Sarlok "Hollow Sun" Meghoshta Darkliss Jadoris Oblivios Primordus Akator Akynatos Ankekh Berien Brogrod "Carrion Deep"
+				Cthelmax Damnos Drazak Fordris Ghelleph Ixya Kavardia Kinbriar Maedrax Morrigar Naogeddon Nervkor Nymidae Phaethon
+				Pyrrhia Sanctarro Seidon Suranas Trantis Tyr Uttu Vorketh Zantragora Zykorak
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+
+			full_names = {
+				Vitokh Imotekh Szaron Thoekh Rakszan Akanabekh "Xun'bakyr" Ixatotekh Tlazolt Maktlan Kutlakh Toholk Ezandrakh
+				Khyrek Zarathusa Xergym Krispekh Kepakh Tarekh Trazyn Drizyan Ghalmakh Aramakh Khaygis Nahumekh Navgran Vargard Obyron
+				Ogdovakh Ossuar Nemesos Zahndrekh Thaszar Ahmontekh Ahhotekh Illmahnokh Thulekh Ozkan Rahkoz Vothimyt Varagon "R'zhan"
+				"R'drah" Tranz Henghast Zo Stygos "M'rrith" Emberresh Anrakyr Galmakh Hasist Korovoskh Kothorahn Naszar Szarekh
+				Valgul Aetekh Szeras Orikan Osiskor "Harri'apt" Azderon
+			}
+			
+			regnal_first_names = {
+				Vitokh Imotekh Szaron Thoekh Rakszan Akanabekh "Xun'bakyr" Ixatotekh Tlazolt Maktlan Kutlakh Toholk Ezandrakh
+				Khyrek Zarathusa Xergym Krispekh Kepakh Tarekh Trazyn Drizyan Ghalmakh Aramakh Khaygis Nahumekh Navgran Vargard Obyron
+				Ogdovakh Ossuar Nemesos Zahndrekh Thaszar Ahmontekh Ahhotekh Illmahnokh Thulekh Ozkan Rahkoz Vothimyt Varagon "R'zhan"
+				"R'drah" Tranz Henghast Zo Stygos "M'rrith" Emberresh Anrakyr Galmakh Hasist Korovoskh Kothorahn Naszar Szarekh
+				Valgul Aetekh Szeras Orikan Osiskor "Harri'apt" Azderon
+			}
+			
+			regnal_second_names = {
+				Agdagath Atun Altymbor Arotepk Arrynmarok Charnovokh Dyvanakh Hyrekh Kayra Khansu Kardenath Maynarkh Mephrit Nekthyst
+				Nhemret Nephrekh Nihilakh Novokh Ogdobekh Oltep Oroskh Oruscar Rytak Sautekh Sarnekh Sekemtar Shemnoch Suhbekhar Thokt
+				Xonthar
+			}
+		}
+	}
+}

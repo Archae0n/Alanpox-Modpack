@@ -1,0 +1,441 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	filetua = {
+		name = "Nama Tu'a"
+		plural = "Nama Tu'a"
+		home_planet = "File Tu'a"
+		home_system = Selesi
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	foanatu = {
+		name = Foanatuan
+		plural = Foanatuans
+		home_planet = Foanatu
+		home_system = Aholua'otu
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	serpentinecanvas = {
+		name = Vakuku'u
+		plural = Vakuku'u
+		home_planet = "Serpentine Canvas"
+		home_system = "Mists of Equilibrium"
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	mokoloa = {
+		name = Mokoloid
+		plural = Mokoloids
+		home_planet = Mokoloa
+		home_system = Kuleseleki
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	otulaapepi = {
+		name = 'otavei
+		plural = 'otavei
+		home_planet = 'otula'apepi
+		home_system = Sata'o 
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	hauprime = {
+		name = Ha'usai
+		plural = Ha'usais
+		home_planet = "Ha'u Prime"
+		home_system = Ha'u 
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	aAholua = {
+		name = Aholuan
+		plural = Aholuans
+		home_planet = Aholua
+		home_system = Lo'utumana 
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	toleanga = {
+		name = Toleangan
+		plural = Toleangans
+		home_planet = Toleanga
+		home_system = Nasiakala 
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	tofokele = {
+		name = Tofokelite
+		plural = Tofokelites
+		home_planet = Tofokele
+		home_system = "Longi Matā"
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	utuvataka = {
+		name = Utuvatakan
+		plural = Utuvatakans
+		home_planet = Utuvataka
+		home_system = Seleimo'otu
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	tangomamai = {
+		name = Mamaian
+		plural = Mamaians
+		home_planet = Tangomamai
+		home_system = Lefasitongo
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	vakani = {
+		name = Vakanish
+		plural = Vakanish
+		home_planet = Vakani
+		home_system = Musemisi
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	kiasaleu = {
+		name = Nuatan  
+		plural = Nuatans
+		home_planet = "Kia Saleu"
+		home_system = "Kia Uifo'o"
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	fulunga = {
+		name = Fulungan  
+		plural = Fulungans
+		home_planet = Fulunga
+		home_system = Manukusi
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	eiaeia = {
+		name = "'eia Matote"  
+		plural = "'eia Matote"
+		home_planet = "'eia 'eia"
+		home_system = 'aumu
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	poula = {
+		name = Poulish  
+		plural = Poulish
+		home_planet = Poula
+		home_system = Kolotopou
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	fanau = {
+		name = Fānauan 
+		plural = Fānauans
+		home_planet = Fānau
+		home_system = Ta'afulotu'u
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	nukupa = {
+		name = Nukupan 
+		plural = Nukupans
+		home_planet = Nukupa
+		home_system = Ha'ungi
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	ualikafootheserendipitous = {
+		name = Fahoikan 
+		plural = Fahoikans
+		home_planet = "Ualikafo'o the Serendipitous"
+		home_system = "Tafatale the Clandestine"
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	tofonga = {
+		name = Tofongan 
+		plural = Tofongans
+		home_planet = Tofonga
+		home_system = Maka-Veli
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	vavava = {
+		name = Vavavid 
+		plural = Vavavids
+		home_planet = Vavava
+		home_system = Peti
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	ofunuku = {
+		name = Ofunukid
+		plural = Ofunukids
+		home_planet = Ofunuku
+		home_system = Teuahousiake
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	pelovai = {
+		name = 'einī
+		plural = 'einī
+		home_planet = Pelovai
+		home_system = Tapu
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	sangasanga = {
+		name = Sangaian
+		plural = Sangaians
+		home_planet = Sanga
+		home_system = Anga
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	lonuka = {
+		name = Lonukid
+		plural = Lonukids
+		home_planet = Lonuka
+		home_system = Laletilela'a
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	futuautalau = {
+		name = Futu'autoid
+		plural = Futu'autoids
+		home_planet = Futu'autalau
+		home_system = Tonongolofoa
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	makafio = {
+		name = Makafian
+		plural = Makafians
+		home_planet = Makafio
+		home_system = Kivao-Silei
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	fakepa = {
+		name = Fakepian
+		plural = Fakepians
+		home_planet = Fakepa
+		home_system = Kata'onga
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	utuhonua = {
+		name = 'utu'ua
+		plural = 'utu'ua
+		home_planet = 'utuhonua
+		home_system = Ha'ave
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	lotonga = {
+		name = Lotongan
+		plural = Lotongans
+		home_planet = Lotonga
+		home_system = "Aegis of Mai Malo"
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	lofanasi = {
+		name = Lofanasian
+		plural = Lofanasians
+		home_planet = Lofanasi
+		home_system = Lualua
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	faheti = {
+		name = Fongoi
+		plural = Fongoi
+		home_planet = Fāheti
+		home_system = Ta'ahanga
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	silhouetteofimmortality = {
+		name = "Toa Aka"
+		plural = "Toa Aka"
+		home_planet = "Silhouette of Immortality"
+		home_system = "Paradise's Hypnosis"
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	mafulane = {
+		name = Mafulaneabn
+		plural = Mafulaneans
+		home_planet = Mafulane
+		home_system = Malevaio
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	ovatape = {
+		name = Ovatapumi
+		plural = Ovatapumis
+		home_planet = Ovatape
+		home_system = 'apu
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	tuuteaulata = {
+		name = Tu'ulatan
+		plural = Tu'ulatans
+		home_planet = Tu'uteaulata
+		home_system = Sakane
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	tokolonuku = {
+		name = Tokolonukuan
+		plural = Tokolonukuans
+		home_planet = Tokolonuku
+		home_system = Tokolonuku
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	haala = {
+		name = Ha'alite
+		plural = Ha'alites
+		home_planet = Ha'ala
+		home_system = Lualonuaki
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	lelikane = {
+		name = Lelikanid
+		plural = Lelikanids
+		home_planet = Lelikane
+		home_system = Onuaniu
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	fehifulesesi = {
+		name = Fesi
+		plural = Fesi
+		home_planet = Fehifulesesi
+		home_system = 'ofo'omoto
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	aipeni = {
+		name = Aipenid
+		plural = Aipenids
+		home_planet = Aipeni
+		home_system = Nolunga
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	lopuaungi = {
+		name = Kolua'oka
+		plural = Kolua'okas
+		home_planet = Lopua'ungi
+		home_system = Hatu'a
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	lotulapaprime = {
+		name = Lotulapan
+		plural = Lotulapans
+		home_planet = "Lotulapa Prime"
+		home_system = Lotulapa
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	lonasiki = {
+		name = Maamo
+		plural = Maamos
+		home_planet = Lonasiki
+		home_system = Ongia
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	manimaasisi = {
+		name = Manimaian
+		plural = Manimaians
+		home_planet = Manimaasisi
+		home_system = Pīkulafesisi
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	afipu = {
+		name = Afipoid
+		plural = Afipoids
+		home_planet = Afipu
+		home_system = 'alakopua
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	paputu = {
+		name = Paputic
+		plural = Paputics
+		home_planet = Paputu
+		home_system = Mu'avava
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	momungamisi = {
+		name = Momungamisian
+		plural = Momungamisians
+		home_planet = Momungamisi
+		home_system = "Otea Ma'eu"
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	gloriousshiningcolor = {
+		name = Matoan
+		plural = Matoans
+		home_planet = "Glorious Shining Color"
+		home_system = "Exquisite Diamond"
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	angauiha = {
+		name = Anga'uihan
+		plural = Anga'uihans
+		home_planet = Anga'uiha
+		home_system = Seleki
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+}
+
+
+# Toxoids
+
+TOX = {
+	fatatapu = {
+		name = Fātatapuan
+		plural = Fātatapuans
+		home_planet = Fātatapu
+		home_system = Founga
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	tulati = {
+		name = Tulatian
+		plural = Tulatians
+		home_planet = Tulati
+		home_system = "Kaotu Pukai"
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	mailia = {
+		name = Mailian
+		plural = Mailians
+		home_planet = Mailia
+		home_system = Pīkuha'apo
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+	vaangothegreatexplorer = {
+		name = 'ane
+		plural = 'ane
+		home_planet = "Va'ango the Great Explorer"
+		home_system = "Tokele the Fearless Eternity"
+		name_list = "cybrxkhan_handmade_tongan"
+	}
+}

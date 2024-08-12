@@ -1,0 +1,424 @@
+###########################################################
+# Shroud Rising Colony Events
+# Written by LastLeviathan
+###########################################################
+namespace = shroud_rising_colony
+###########################################################
+# shroud_rising_colony.1 | Whispers Beckon
+# shroud_rising_colony.2 | Discover Temple
+# shroud_rising_colony.3 | Choose a patron (small advantage) or destroy
+# shroud_rising_colony.4 | Ask for sacrifice (Small or big)
+# shroud_rising_colony.5 | Refused and spawns a monster
+# shroud_rising_colony.6 | Spawn entities
+# shroud_rising_colony.7 | Spawn a Horror
+###########################################################
+# Whispers beckon
+planet_event = {
+	id = shroud_rising_colony.1
+	title = "shroud_rising_colony.1.name"
+	desc = "shroud_rising_colony.1.desc"
+	picture = GFX_evt_unspeakable_horror
+	show_sound = event_psionic
+	location = root
+	pre_triggers = {
+		has_owner = yes
+		is_homeworld = no
+		original_owner = yes
+		# is_ai = no does not work due bug or wrong docu
+		has_ground_combat = no
+		is_capital = no
+		is_occupied_flag = no
+	}
+	trigger = {
+		owner = { is_ai = no is_machine_empire = no }
+		num_sapient_pops > 0
+		habitable_planet = yes
+		is_artificial = no
+	}
+	is_triggered_only = yes
+	immediate = { }
+	option = {
+		name = "terra.90.a"
+		hidden_effect = {
+			planet_event = { id = shroud_rising_colony.2 days = 60 }
+		}
+	}
+}
+
+# Temple discovered
+planet_event = {
+	id = shroud_rising_colony.2
+	title = "shroud_rising_colony.2.name"
+	desc = "shroud_rising_colony.2.desc"
+	picture = GFX_evt_habitable_dig_site
+	show_sound = event_alien_nature
+	location = root
+	is_triggered_only = yes
+	trigger = { }
+	immediate = { set_planet_flag = colony_event }
+	option = {
+		name = "astral_rift.2030.a"
+		add_deposit = d_shroud_temple
+		hidden_effect = {
+			planet_event = { id = shroud_rising_colony.3 days = 60 }
+		}
+	}
+}
+
+# Choose a patron or destroy
+planet_event = {
+	id = shroud_rising_colony.3
+	title = "shroud_rising_colony.3.name"
+	desc = "shroud_rising_colony.3.desc"
+	picture = GFX_evt_surreal_visions
+	show_sound = event_psionic
+	location = root
+	is_triggered_only = yes
+	trigger = { }
+	immediate = { }
+	# Composer of Strands
+	option = {
+		name = shroud_rising_colony.3.a
+		custom_tooltip = shroud_rising_colony.3.a.tooltip
+		add_modifier = { modifier = "shroud_composer_effect" }
+		hidden_effect = {
+			planet_event = { id = shroud_rising_colony.4 days = 720 }
+			set_global_flag = colony_composer_patron
+		}
+	}
+	# Eater of Worlds
+	option = {
+		name = shroud_rising_colony.3.b
+		custom_tooltip = shroud_rising_colony.3.b.tooltip
+		add_modifier = { modifier = "shroud_eater_effect" }
+		hidden_effect = {
+			planet_event = { id = shroud_rising_colony.4 days = 720 }
+			set_global_flag = colony_eater_patron
+		}
+	}
+	# Instrument of Desire
+	option = {
+		name = shroud_rising_colony.3.c
+		custom_tooltip = shroud_rising_colony.3.c.tooltip
+		add_modifier = { modifier = "shroud_desire_effect" }
+		hidden_effect = {
+			planet_event = { id = shroud_rising_colony.4 days = 720 }
+			set_global_flag = colony_desire_patron
+		}
+	}
+	# Whisperers in the Void
+	option = {
+		name = shroud_rising_colony.3.d
+		custom_tooltip = shroud_rising_colony.3.d.tooltip
+		add_modifier = { modifier = "shroud_whisperer_effect" }
+		hidden_effect = {
+			planet_event = { id = shroud_rising_colony.4 days = 720 }
+			set_global_flag = colony_whisperers_patron
+		}
+	}
+	# Destroy
+	option = { name = "astral_planes.15.b" custom_tooltip = shroud_rising_colony.3.e.tooltip remove_deposit = d_shroud_temple }
+}
+
+# Ask for sacrifice
+planet_event = {
+	id = shroud_rising_colony.4
+	title = "astral_rift.1955.name"
+	desc = "shroud_rising_colony.4.desc"
+	picture = GFX_evt_zro_2
+	show_sound = event_psionic
+	location = root
+	is_triggered_only = yes
+	trigger = { }
+	immediate = { }
+	# Sacrifice locals
+	option = {
+		name = shroud_rising_colony.4.a
+		custom_tooltip = shroud_rising_colony.4.a.tooltip
+		hidden_effect = {
+			planet_event = { id = shroud_rising_colony.6 days = 1 }
+		}
+		owner = {
+			add_modifier = { modifier = shroud_avatar_gift years = 10 }
+		}
+		random_owned_pop = { kill_pop = yes }
+		random_owned_pop = { kill_pop = yes }
+		random_owned_pop = { kill_pop = yes }
+	}
+	# Sacrifice planet
+	option = {
+		name = shroud_rising_colony.4.b
+		custom_tooltip = shroud_rising_colony.4.b.tooltip
+		hidden_effect = {
+			planet_event = { id = shroud_rising_colony.7 days = 1 }
+			add_deposit = d_zro_deposit_1
+		}
+		owner = {
+			add_modifier = { modifier = shroud_avatar_gift_2 years = 10 }
+		}
+	}
+	# refuse
+	option = {
+		name = "astral_rift.3075.b"
+		custom_tooltip = shroud_rising_colony.4.c.tooltip
+		hidden_effect = {
+			planet_event = { id = shroud_rising_colony.5 days = 1 }
+		}
+	}
+}
+
+# Refused spawn planet monster
+planet_event = {
+	id = shroud_rising_colony.5
+	title = "shroud_rising_colony.5.name"
+	desc = "shroud_rising_colony.5.desc"
+	picture = GFX_evt_zro_3
+	show_sound = event_psionic
+	location = root
+	is_triggered_only = yes
+	trigger = { }
+	immediate = {
+		remove_planet_flag = colony_event
+		if = {
+			limit = { NOT = { exists = event_target:shroud_storm_horror } }
+			create_country = {
+				name = "NAME_shroud_horrors"
+				type = shroud_entities
+				name_list = "SHROUD_HORRORS"
+				flag = {
+					icon = { category = "special" file = "the_shroud.dds" }
+					background = { category = "backgrounds" file = "00_solid.dds" }
+					colors = { "dark_purple" "black" "null" "null" }
+				}
+				effect = { apply_shroud_rising_difficulty = yes save_global_event_target_as = shroud_storm_horror }
+			}
+		}
+	}
+	# Pissed of demon
+	option = {
+		name = shroud_rising_colony.5.a
+		remove_deposit = d_shroud_temple
+		create_army = {
+			name = "NAME_greater_horror_hunger"
+			owner = event_target:shroud_storm_horror
+			# species = last_created_species
+			type = "shroud_greater_horror_army"
+		}
+		switch = { trigger = has_modifier
+			shroud_composer_effect = { remove_modifier = shroud_composer_effect }
+			shroud_eater_effect = { remove_modifier = shroud_eater_effect }
+			shroud_desire_effect = { remove_modifier = shroud_desire_effect }
+			shroud_whisperer_effect = { remove_modifier = shroud_whisperer_effect }
+		}
+		hidden_effect = {
+			remove_global_flag = colony_desire_patron
+			remove_global_flag = colony_composer_patron
+			remove_global_flag = colony_eater_patron
+			remove_global_flag = colony_whisperers_patron
+		}
+		random_owned_pop = { kill_pop = yes }
+		random_owned_pop = { kill_pop = yes }
+		add_planet_devastation = 40
+	}
+}
+
+# Sacrifice a couple of pops
+planet_event = {
+	id = shroud_rising_colony.6
+	title = "shroud_rising_colony.6.name"
+	desc = "shroud_rising_colony.6.desc"
+	picture = GFX_evt_space_monster
+	show_sound = event_psionic
+	location = root
+	is_triggered_only = yes
+	trigger = { }
+	immediate = {
+		remove_planet_flag = colony_event
+		if = {
+			limit = { NOT = { exists = event_target:shroud_storm_horror } }
+			create_country = {
+				name = "NAME_shroud_horrors"
+				type = shroud_entities
+				name_list = "SHROUD_HORRORS"
+				flag = {
+					icon = { category = "special" file = "the_shroud.dds" }
+					background = { category = "backgrounds" file = "00_solid.dds" }
+					colors = { "dark_purple" "black" "null" "null" }
+				}
+				effect = { apply_shroud_rising_difficulty = yes save_global_event_target_as = shroud_storm_horror }
+			}
+		}
+		event_target:shroud_storm_horror = {
+			set_faction_hostility = { set_hostile = no set_neutral = yes target = root.owner }
+		}
+		create_fleet = {
+			# name = random
+			settings = { spawn_debris = no is_boss = yes }
+			effect = {
+				set_owner = event_target:shroud_storm_horror
+				create_ship = { name = "NAME_ancient_god" design = "NAME_shroud_entity" }
+				set_location = root
+				set_fleet_stance = aggressive
+				set_fleet_bombardment_stance = devour
+				set_aggro_range_measure_from = self
+				set_aggro_range = 300
+			}
+		}
+	}
+	# oops
+	after = {
+		remove_deposit = d_shroud_temple
+		switch = { trigger = has_modifier
+			shroud_composer_effect = { remove_modifier = shroud_composer_effect }
+			shroud_eater_effect = { remove_modifier = shroud_eater_effect }
+			shroud_desire_effect = { remove_modifier = shroud_desire_effect }
+			shroud_whisperer_effect = { remove_modifier = shroud_whisperer_effect }
+		}
+		hidden_effect = {
+			remove_global_flag = colony_desire_patron
+			remove_global_flag = colony_composer_patron
+			remove_global_flag = colony_eater_patron
+			remove_global_flag = colony_whisperers_patron
+		}
+		add_modifier = { modifier = eater_unhappiness_planet_1 years = 5 }
+	}
+	option = { name = "shroud_rising_colony.7.a" }
+	option = { name = "shroud_rising_colony.7.b" }
+}
+
+# Sacrifice planet
+planet_event = {
+	id = shroud_rising_colony.7
+	title = "shroud_rising_colony.7.name"
+	desc = "shroud_rising_colony.7.desc"
+	picture = GFX_evt_dimensional_horror
+	show_sound = event_psionic
+	location = root
+	is_triggered_only = yes
+	trigger = { }
+	immediate = {
+		remove_planet_flag = colony_event
+		event_target:global_event_country = {
+			change_variable = { which = "shroud_planets" value = 1 }
+		}
+		if = {
+			limit = { NOT = { exists = event_target:shroud_horror_fleet } }
+			create_country = {
+				name = "NAME_shroud_horrors"
+				type = shroud_horrors
+				name_list = "SHROUD_HORRORS"
+				flag = {
+					icon = { category = "special" file = "the_shroud.dds" }
+					background = { category = "backgrounds" file = "00_solid.dds" }
+					colors = { "dark_purple" "black" "null" "null" }
+				}
+				effect = { apply_shroud_rising_difficulty = yes save_event_target_as = shroud_horror_fleet }
+			}
+		}
+		event_target:shroud_horror_fleet = {
+			set_faction_hostility = { set_hostile = no set_neutral = yes target = root.owner }
+		}
+		if = {
+			limit = { has_global_flag = colony_whisperers_patron }
+			create_fleet = {
+				# name = random
+				settings = { spawn_debris = no is_boss = yes }
+				effect = {
+					set_owner = event_target:shroud_horror_fleet
+					create_ship = { name = "NAME_greater_horror_whisper" design = "NAME_horror_whisper" }
+				}
+			}
+		}
+		else_if = {
+			limit = { has_global_flag = colony_composer_patron }
+			create_fleet = {
+				# name = random
+				settings = { spawn_debris = no is_boss = yes }
+				effect = {
+					set_owner = event_target:shroud_horror_fleet
+					create_ship = { name = "NAME_greater_horror_corruption" design = "NAME_horror_corruption" }
+				}
+			}
+		}
+		else_if = {
+			limit = { has_global_flag = colony_desire_patron }
+			create_fleet = {
+				# name = random
+				settings = { spawn_debris = no is_boss = yes }
+				effect = {
+					set_owner = event_target:shroud_horror_fleet
+					create_ship = { name = "NAME_greater_horror_desire" design = "NAME_horror_desire" }
+				}
+			}
+		}
+		else_if = {
+			limit = { has_global_flag = colony_eater_patron }
+			create_fleet = {
+				# name = random
+				settings = { spawn_debris = no is_boss = yes }
+				effect = {
+					set_owner = event_target:shroud_horror_fleet
+					create_ship = { name = "NAME_greater_horror_hunger" design = "NAME_horror_hunger" }
+				}
+			}
+		}
+		last_created_fleet = {
+			set_location = root
+			set_fleet_stance = aggressive
+			set_fleet_bombardment_stance = devour
+			set_aggro_range_measure_from = self
+			set_aggro_range = 300
+		}
+		# event_target:global_event_country = { double?
+		# 	change_variable = { which = "shroud_planets" value = 1 }
+		# }
+		destroy_colony = yes
+		reset_planet = yes
+		change_pc = pc_shrouded
+		add_modifier = { modifier = "devoured_world" days = -1 }
+	}
+
+	# My bad
+	after = {
+		remove_deposit = d_shroud_temple
+		switch = { trigger = has_modifier
+			shroud_composer_effect = { remove_modifier = shroud_composer_effect }
+			shroud_eater_effect = { remove_modifier = shroud_eater_effect }
+			shroud_desire_effect = { remove_modifier = shroud_desire_effect }
+			shroud_whisperer_effect = { remove_modifier = shroud_whisperer_effect }
+		}
+		hidden_effect = {
+			remove_global_flag = colony_desire_patron
+			remove_global_flag = colony_composer_patron
+			remove_global_flag = colony_eater_patron
+			remove_global_flag = colony_whisperers_patron
+		}
+	}
+	option = { name = shroud_rising_colony.7.a }
+	option = { name = shroud_rising_colony.7.b }
+}
+# TODO TEST
+planet_event = { # Handling achieve_ftl_effect - (on_capital_changed)
+	id = shroud_rising_colony.16
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		exists = owner
+		owner = {
+			OR = { is_primitive = yes has_country_flag = primitives_can_into_space }
+		}
+	}
+	immediate = {
+		every_country = {
+			limit = {
+				is_country_type = shroud_cult
+				NOR = { is_at_war_with = prev is_hostile_to = prev }
+			}
+			if = {
+				limit = { NOT = { has_communications = prev } }
+				establish_communications_no_message = prev
+			}
+			set_faction_hostility = { set_hostile = yes set_neutral = no set_friendly = no target = prev }
+		}
+	}
+}

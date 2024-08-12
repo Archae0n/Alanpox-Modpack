@@ -1,0 +1,103 @@
+virtuality_concentrated_production_mult = { #used by trait
+	base = 1.75
+	complex_trigger_modifier = {
+		trigger = count_owned_planet
+		trigger_scope = owner
+        parameters = {
+			limit = {
+				is_artificial = no
+				NOR = {
+					has_modifier = virtuality_server_shutdown
+					has_modifier = virtuality_server_dismantled
+				}
+				
+			}
+        }		
+		mult = 0.25
+		mode = subtract
+	}
+	
+	complex_trigger_modifier = {
+		trigger = count_owned_planet
+		trigger_scope = owner
+        parameters = {
+			limit = {
+				is_artificial = yes
+				NOR = {
+					has_modifier = virtuality_server_shutdown
+					has_modifier = virtuality_server_dismantled
+				}
+			}
+        }		
+		mult = 0.0625
+		mode = subtract
+	}
+}
+
+virtuality_num_colonies = {
+	base = 0.0
+	complex_trigger_modifier = {
+		trigger = count_owned_planet
+		trigger_scope = owner
+		parameters = {
+			limit = {
+				NOR = {
+					has_modifier = virtuality_server_shutdown
+					has_modifier = virtuality_server_dismantled
+				}
+			}
+		}
+		mult = 1.0
+		mode = add
+	}
+}
+
+num_pops = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger_scope = planet
+		trigger = count_owned_pop		
+		mult = 1
+		mode = add
+	}
+}
+
+num_virtual_pops = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger_scope = planet
+		trigger = count_owned_pop
+		parameters = {
+			limit = {
+				is_robotic_species = yes
+				has_virtual_species_trait = yes
+			}
+		}
+		mult = 1
+		mode = add
+	}
+	subtract = $MINUS$
+}
+
+num_virtual_unemployed_pops = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger_scope = planet
+		trigger = count_owned_pop
+		parameters = {
+			limit = {
+				is_unemployed = yes
+				is_robotic_species = yes
+				has_virtual_species_trait = yes
+			}
+		}
+		mult = 1
+		mode = add
+	}
+	subtract = $MINUS$
+}
+
+#Idea is to slightly rework Clustered Capacity
+#Keep debuff per colony, but make artificial worlds (IE habitats, ringworlds, machine worlds) have 0.25 the normal debuff
+#Make it give a flat +1.0 upkeep to virtual pops.
+#Allow worlds to be put to "sleep", disabling virtual debuff for it, and removing unemploying or removing virtual pops.

@@ -1,0 +1,28 @@
+tradition_est_benevolence = {
+	tree_template = "tree_est_0_0_12_1_1"
+	adoption_bonus = "tr_est_benevolence_adopt"
+	finish_bonus = "tr_est_benevolence_finish"
+	traditions = {
+		"tr_est_benevolence_1"
+		"tr_est_benevolence_2"
+		"tr_est_benevolence_3"
+		"tr_est_benevolence_4"
+		"tr_est_benevolence_5"
+	}
+
+	potential = {
+		est_benevolence_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 3
+			has_civic = civic_machine_servitor
+		}	
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

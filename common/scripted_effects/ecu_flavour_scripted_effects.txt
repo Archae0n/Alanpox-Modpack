@@ -1,0 +1,183 @@
+# I'd like to have these added by event later with more flavour, but for now just slapping them on is fine.
+# Planet scope
+ef_add_ecu_terraformed_modifiers = {
+    # I'd rather keep these focused on the narrative of vanilla city worlds, so non vanilla types don't have these.
+    if = {
+        limit = { is_planet_class = pc_city }
+        if = {
+            limit = {
+                not = {  has_deposit = d_ef_orbital_control_network  }
+            }
+            add_modifier = { modifier = ef_crowded_spacelanes days = -1 }
+        }
+        if = {
+            limit = {
+                not = {  has_deposit = d_ef_climate_management_centre  }
+            }
+            add_modifier = { modifier = ef_unstable_climate days = -1 }
+        }
+        if = {
+            limit = {
+                not = {  has_deposit = d_ef_seismic_stabilization_stations  }
+            }
+            add_modifier = { modifier = ef_vertical_sprawl days = -1 }
+        }
+    }
+}
+
+# Planet Scope
+ef_set_deep_levels_modifier= {
+    remove_modifier = ef_deep_levels_1
+    remove_modifier = ef_deep_levels_2
+    remove_modifier = ef_deep_levels_3
+    remove_modifier = ef_deep_levels_4
+    remove_modifier = ef_deep_levels_5
+    
+    if = {
+        limit = {
+            check_variable_arithmetic = {
+                which = ef_deep_level_count
+                divide = trigger:planet_size
+                value > 0
+            }
+        }
+        # Minor Deep Levels
+        if = {
+            limit = {
+                AND ={
+                    check_variable_arithmetic = {
+                        which = ef_deep_level_count
+                        divide = trigger:planet_size
+                        value < 0.25
+                    }
+                }
+            }
+            add_modifier = { modifier = ef_deep_levels_1 days = -1 }
+        }
+        # Moderate Deep Levels
+        else_if = {
+            limit = {
+                check_variable_arithmetic = {
+                    which = ef_deep_level_count
+                    divide = trigger:planet_size
+                    value < 0.5
+                }
+            }
+            add_modifier = { modifier = ef_deep_levels_2 days = -1 }
+        }
+        # Major Deep Levels
+        else_if = {
+            limit = {
+                check_variable_arithmetic = {
+                    which = ef_deep_level_count
+                    divide = trigger:planet_size
+                    value < 0.75
+                }
+            }
+            add_modifier = { modifier = ef_deep_levels_3 days = -1 }
+        }
+        # Enormous Deep Levels
+        else_if = {
+            limit = {
+                check_variable_arithmetic = {
+                    which = ef_deep_level_count
+                    divide = trigger:planet_size
+                    value < 1
+                }
+            }
+            add_modifier = { modifier = ef_deep_levels_4 days = -1 }
+
+        }
+        # Sprawling
+        else = {
+            add_modifier = { modifier = ef_deep_levels_5 days = -1 }
+        }
+    }
+}
+
+# I could always do this as a situation, but I think it's fine and less obstructive like this.
+# Actually really ought to do it as a situation
+ef_increase_stock_market = {
+    switch = {
+        trigger = has_modifier
+        ef_stock_market_1 = {
+            remove_modifier = ef_stock_market_1
+            add_modifier = { modifier = ef_stock_market_2 days = -1 }
+        }
+        ef_stock_market_2 = {
+            remove_modifier = ef_stock_market_2
+            add_modifier = { modifier = ef_stock_market_3 days = -1 }
+        }
+        ef_stock_market_3 = {
+            remove_modifier = ef_stock_market_3
+            add_modifier = { modifier = ef_stock_market_4 days = -1 }
+        }
+        ef_stock_market_4 = {
+            remove_modifier = ef_stock_market_4
+            add_modifier = { modifier = ef_stock_market_5 days = -1 }
+        }
+        # TODO: Would be nice to have a bubble effect for when the stock market goes > 5
+        # NOTE: This would be another good reason to shift it over to a situation instead
+    }
+}
+
+ef_decrease_stock_market = {
+    switch = {
+        trigger = has_modifier
+        ef_stock_market_5 = {
+            remove_modifier = ef_stock_market_5
+            add_modifier = { modifier = ef_stock_market_4 days = -1 }
+        }
+        ef_stock_market_4 = {
+            remove_modifier = ef_stock_market_4
+            add_modifier = { modifier = ef_stock_market_3 days = -1 }
+        }
+        ef_stock_market_3 = {
+            remove_modifier = ef_stock_market_3
+            add_modifier = { modifier = ef_stock_market_2 days = -1 }
+        }
+        ef_stock_market_2 = {
+            remove_modifier = ef_stock_market_2
+            add_modifier = { modifier = ef_stock_market_1 days = -1 }
+        }
+    }
+}
+
+# Root scope = situation
+ef_increase_pollution = {
+    if = {
+        limit = {situation_progress < 95}
+        add_situation_progress = 5
+    }
+}
+# Root scope = situation
+ef_increase_pollution_major = {
+    if = {
+        limit = {situation_progress < 90}
+        add_situation_progress = 10
+    }
+}
+
+# Root scope = situation
+ef_decrease_pollution = {
+    if = {
+        limit = {situation_progress > 5}
+        add_situation_progress = -5
+    }
+}
+
+# Root scope = situation
+ef_decrease_pollution_major = {
+    if = {
+        limit = {situation_progress > 10}
+        add_situation_progress = -10
+    }
+}
+
+# Root scope = situation
+ef_decrease_pollution_massive = {
+    if = {
+        limit = {situation_progress > 15}
+        add_situation_progress = -15
+    }
+}

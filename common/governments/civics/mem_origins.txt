@@ -1,0 +1,207 @@
+origin_mem_from_the_ashes = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_mem_from_the_ashes.dds"
+	picture = GFX_origin_mem_from_the_ashes
+
+	starting_colony = pc_relic  #Changes homeworld class regardless of what is picked for empire
+	max_once_global = yes
+
+	playable = {
+		always = yes
+	}
+
+	possible = {
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+		civics = {
+			NOT = { value = civic_agrarian_idyll }
+		}
+	}
+
+	description = "origin_tooltip_mem_from_the_ashes_effects"
+	flags = { custom_start_screen }
+
+	traits = {
+	}
+	
+	random_weight = { base = 0 factor = 0 }
+}
+
+origin_mem_fainthearted = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_post_apocalyptic.dds"
+	picture = GFX_origin_mem_fainthearted
+
+	max_once_global = yes
+
+	playable = {
+		always = yes
+	}
+
+	possible = {
+		ethics = {
+			OR = {
+				value = ethic_fanatic_pacifist
+				value = ethic_pacifist
+			}
+		}
+	}
+
+	description = "origin_tooltip_mem_fainthearted_effects"
+	flags = { custom_start_screen }
+
+	modifier = {
+		
+	}
+
+	traits = {
+	}
+	
+	random_weight = { base = 0 factor = 0 }
+}
+
+origin_mem_ceaseless_gaze = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_mem_ceaseless_gaze.dds"
+	picture = GFX_origin_mem_ceaseless_gaze
+
+	starting_colony = pc_relic
+	max_once_global = yes
+
+	playable = {
+		always = yes
+	}
+
+	possible = {
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+		civics = {
+			NOT = { value = civic_agrarian_idyll }
+		}
+	}
+
+	description = "origin_tooltip_mem_ceaseless_gaze"
+
+	flags = { custom_start_screen }
+
+	traits = {
+		
+	}
+
+	random_weight = { base = 0 factor = 0 }
+}
+
+origin_mem_exiles = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_gateway.dds"
+
+	playable = {
+		always = no
+	}
+
+	possible = {
+
+	}
+
+	modifier = {
+		pop_housing_usage_mult = -0.2
+		planet_pops_upkeep_mult = -0.25
+		pop_amenities_usage_mult = -0.25
+	}
+
+	random_weight = { base = 0 factor = 0 }
+}
+
+origin_mem_out_of_time = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_mem_out_of_time.dds"
+
+	playable = {
+		always = no
+	}
+
+	possible = {
+
+	}
+
+	modifier = {
+		command_limit_add = 10
+		country_naval_cap_add = 35	
+		starbase_shipyard_build_speed_mult = 0.33
+		ship_armor_mult = 0.25
+		ship_shield_mult = 0.25
+	}
+
+	description = "origin_tooltip_mem_out_of_time"
+
+	random_weight = { base = 0 factor = 0 }
+}
+
+origin_mem_freebotomites = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_mem_ceaseless_gaze.dds"
+
+	playable = {
+		always = no
+	}
+
+	possible = {
+		
+	}
+
+	#description = origin_no_effect
+
+	random_weight = { base = 0 factor = 0 }
+}
+
+origin_mem_eden_protocol = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origin_void_dwellers.dds"
+	picture = GFX_origin_mem_eden_protocol
+	max_once_global = yes
+
+	starting_colony = pc_habitat
+	habitability_preference = pc_habitat
+	initializers = { 
+		mem_eden_protocol_void_dweller_system
+		mem_eden_protocol_sol_system_void_dweller_system
+	}
+	preferred_planet_class_neighbor = no
+
+	playable = {
+		host_has_dlc = Federations
+	}
+
+	possible = {
+		authority = { 
+			value = auth_machine_intelligence
+		}
+		civics = {
+			NOR = { 
+				value = civic_machine_assimilator
+				value = civic_machine_terminator
+				value = civic_machine_servitor
+			}
+		}
+	}
+
+	description = "origin_tooltip_mem_eden_protocol_effects"
+
+	modifier = {
+		megastructures_habitat_cost_mult = -0.25
+		habitat_districts_building_slots_add = 0.25
+		habitat_max_districts_add = 2
+		habitat_district_jobs_add = 1
+		empire_size_colonies_mult = 0.5
+	}
+
+	flags = { custom_start_screen }
+	
+	random_weight = { base = 0 factor = 0 }
+}

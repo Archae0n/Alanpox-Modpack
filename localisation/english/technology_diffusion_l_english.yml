@@ -1,0 +1,21 @@
+﻿l_english:
+  technology_diffusion_dmm_loc:0 "Technology Diffusion - Customization"
+
+  tdf_content_title:0 "Technology Diffusion Menu"
+  tdf_content_desc:0 "Welcome to Tech Diffusion, here you can change the tech spreading rate for all empires!"
+  tdf_content_current_fast:0 "Currently configured to fast speed"
+  tdf_content_current_normal:0 "Currently configured to normal speed"
+  tdf_content_current_slow:0 "Currently configured to slow speed"
+  tdf_content_set_fast:0 "Set to fast propagation speed (+50%)"
+  tdf_content_set_normal:0 "Set to normal propagation speed (default)"
+  tdf_content_set_slow:0 "Set to slow propagation speed (-50%)"
+  tdf_content_cancel:0 "Cancel"
+  tdf_content_start:0 "Start game with default values"
+
+
+  tdf_technology_bonus_eng:0 "Engineering bonus"
+  tdf_technology_bonus_soc:0 "Society bonus"
+  tdf_technology_bonus_phy:0 "Physics bonus"
+  mod_country_base_engineering_research_produces_add:0 "Bonus research points in Engineering from technological diffusion"
+  mod_country_base_society_research_produces_add:0 "Bonus research points in Society from technological diffusion"
+  mod_country_base_physics_research_produces_add:0 "Bonus research points in Physics from techological diffusion"

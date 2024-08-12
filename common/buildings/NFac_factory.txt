@@ -1,0 +1,76 @@
+NFac_building_nanotech_factory = {
+	base_buildtime = @b2_time
+
+	category = manufacturing
+
+	potential = {
+		exists = owner
+		owner = { has_tradition = tr_nanotech_2 }
+		owner = { country_uses_consumer_goods = yes }
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+	}
+
+	allow = {
+		always = yes
+	}
+
+	upgrades = {
+		NFac_building_nanotech_factory_upgrade
+	}
+
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			NOT = { owner = { has_tradition = tr_nanotech_2 } }
+			has_modifier = slave_colony
+			has_modifier = resort_colony
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			alloys = @b3_minerals
+		}
+		upkeep = {
+			nanites = 3
+			energy = 30
+		}
+		produces = {
+			consumer_goods = 25
+		}
+	}
+}
+
+NFac_building_nanotech_factory_upgrade = {
+	base_buildtime = @b2_time
+
+	category = manufacturing
+
+	can_build = no
+	prerequisites = { "tech_nanotech_advanced_alloys_and_factory" }
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			NOT = { owner = { has_tradition = tr_nanotech_2 } }
+			has_modifier = slave_colony
+			has_modifier = resort_colony
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			alloys = @b3_minerals
+		}
+		upkeep = {
+			nanites = 10
+			energy = 50
+			exotic_gases = 2
+		}
+		produces = {
+			consumer_goods = 70
+		}
+	}
+}

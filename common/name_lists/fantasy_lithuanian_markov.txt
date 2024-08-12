@@ -1,0 +1,231 @@
+﻿### Fantasy Lithuanian
+### Tossed IRL Lithuanian names into a markov generator
+
+cybrxkhan_fantasy_lithuanian = {
+	category = "Avian"
+
+	ship_names = {
+		generic = {
+			Abiaigulipede Abies Abijonis Abiliakas Abinis Abirulis Abrantai Abratuliskes Abraus Abravaris Abrazius Abrëýa Adoma Adome Adomertai Adonas Adoryzinkas Agnas Agnavicinai Agnonas Aidasalda Aidykes Akas Akevis Akis Akreciunas Akupis Albeline Alberas Albertys Albiai Albilis Aldaustas Alde Aleciuna Aleczuitis Aleksciuskis Aleksockas Alektonis Alektrecius Alene Alewicius Alezylaitis Alezys Alfonvila Algirvydantas Algiskis Alis Alkas Alkpe Alkpedrius Alma Almaragdome Alme Almerkais Alys Alytas Alytuskuoji Amanciuskas Ambel Ambelis Ambradvicius Ambras Ambravaldikos Ambytis Anciuskas Andas Andasencius Andrana Andras Andrignis Andrikiai Andrinai Andrula Andrus Andruskis Ands Ane Anelmernikava Anelsinavis Anemantas Angai Ankaldas Ankas Ann Annas Annavas Annikauna Annis Annzevalda Anta Antai Antas Antos Anys Arbalciuste Arma Armanka Armaras Arnaitis Arnavicionis Arnimenè Arnonas Arnoninskys Arnorius Aruodovalcius Arvila Asilioniskas Asiuskis Astis Astiskusha Auda Audas Auga Augelewicz Augzdykestis Aus Ausimante Azhuko Azhukoniska Baciunas Baga Bagas Bagdas Bagdzimai Bage Bagentas Baginauna Bagnoris Bal Balangardas Balankaus Balaus Balceck Balda Baldas Baldorys Balekstis Balida Balis Balius Baltas Balys Balèius Baries Barijus Barius Barkuski Barrunaus Bartaus Barunas Benoniavicius Bernas Berude Biai Bienë Bietas Bievicinskis Bijuronvis Bilasaveckis Biliaitis Biliskis Bilkas Bird Birda Birgus Birmalys Biruda Birviciuskys Birzaitin Birzas Bis Boriencius Boris Boronas Bragdzmas Braitis Bras Bravicharai Bravis Braviskas Breniskienas Brenë Brokanas Brokas Broki Brondriga Bucinava Buckiaukis Buckis Buda Budas Budrigasas Bugzdas Bugzdytula Bukaitys Bukas Bukeskai Bukmenas Bulis Bulius Bulus Burbarnis Burtys Bute Butelmerdais Butis Butkaitis Ceponykeda Ceporys Ceskis Chai Chalcion Cheliai Chenis Cheskevickas Cimanas Cimantaigys Cimas Cimulcas Cimvyda Cipedeckuskas Ciplis Cizgiska Cizuitiskas Cupis Cuplytë Cuprys Dai Daizuige Dalaitis Daliaina Daltras Danas Dankas Dankasva Danta Danus Danuskis Danys Daumailnius Daus Dauskas Degauskaus Didas Didys Dionis Dirzartas Dolemeriule Dolenailis Domunskas Donai Donas Done Donis Donius Donys Dras Draturbaras Dravis Drigmas Drinelcas Driunas Drobijauska Droka Drokiene Dronailai Dronaite Drotas Drotvina Drus Drys Dzele Dzieskailai Edga Edmas Edulenavicius Edyna Edynaukaus Edys Eeiktrius Eidorys Eidus Eidyna Eies Eigai Eigis Eimalys Eimanukis Eimanyksch Eimas Eiminas Ekas Eleikaitë Eliadelmeras Elsintaus Elsionis Elvicius Elzbijus Endras Endrigis Endrutkai Endsberas Endulis Enta Entas Entis Entvicius Erda Erdel Eugulithius Evaizaule Evajonasila Evalvicionas Evalèius Evas Fabasagda Faberys Fabo Fabratus Fasva Fedailunas Fedrus Felitis Felsniaitis Fila Fugennas Fuguliulis Gai Gaiciusko Gailis Gailkal Gaimis Gais Gaitas Gaite Gaitin Gaitinai Gaitis Gaizas Galeksos Galis Galys Galèikas Gara Garienas Garkis Garlaunavas Garleinas Gartakretas Gartas Gaus Geda Gedai Gedaina Gedas Gede Gedimiennis Gedimondras Gedimvydas Gedranuskas Gela Gelecienas Gelektos Genas Genclonis Gene Geniapis Genë Geras Gergenasarras Gergzdas Giedas Gienaute Giene Gienë Gieras Gievikis Gila Gilkus Gina Ginai Ginas Ginaturadon Ginine Ginis Giniuda Ginkainis Ginkas Ginys Girviejaus Girvila Girvilnigmas Gitisis Gitiskai Gitë Gras Grasys Griciukas Griena Grienoninas Griersk Griga Grigis Grigulciciai Griguliskas Grijonagai Grikis Grikèius Grinaulis Grinkauge Gris Griukiskies Griunga Grius Griush Griuskalezai Guda Gudainis Gudarki Gudartas Gudriginskas Gula Gulius Guliuskus Gunas Gunaus Guninis Guzaitiski Guziuski Guzmarleksas Gytas Gytus Gytë Haauliai Haaupis Haaus Hena Henciunas Hene Igacius Igelis Igiladolfas Igis Ignainas Ignas Imberas Imbruozelis Indai Indris Ingalakas Ipolezys Ipolfabrëýa Ipolo Isas Isk Ivilnius Ivilu Ivis Iviskas Jabis Jakas Jakasaindai Janas Janaumarius Jane Jankas Janksas Jann Jannintiskas Jannis Janrine Jantas Jantozegulis Janulius Janus Jas Jasila Jaudai Jaunas Jauskis Jeciauskis Jeciute Jerkas Jerska Jerulai Jevisota Joji Jojiskis Jojiskus Jokas Jonai Jonaiduone Jonaltras Jonas Jonavdema Jondrenys Jondriusene Jonelmas Jonemas Joneme Jonevezys Jongas Joniaitis Jonys Judas Jukas Jukiai Jukme Jukofskaitis Julalis Julecius Julimienaspas Juliule Juna Junas Junasenis Juoda Juodas Juodoryzijus Juodzima Juopas Juozai Juozargzdai Juozartas Juozaus Juralimenas Juras Jurazijnskas Jurge Jurgzdai Jurgzdainis Juriguliskis Jurijona Jurokaitis Jurolgina Jurs Jurskaitis Juscharkis Juskas Juskaush Juskevis Juskis Jusota Jusotai Kabernorys Kabrëýa Kadaizgys Kadas Kade Kadotas Kailaus Kaitis Kajoji Kal Kala Kalaus Kald Kalnilkas Kalomas Kalys Kamas Kamazaris Kampys Kamunai Kanavicius Kancius Kangainas Kangarkas Kantis Kapabelene Kapakaitis Kapasiaina Kapede Kara Karalis Karas Karavilailute Karbas Karbsys Kardaras Kardugaras Karetkes Karigirminis Karis Karkas Karkasas Karkes Karnas Karokis Karonas Karrakas Karseciuskes Kartas Karvydas Kas Kasagdas Kaseikis Kasosylecius Kass Kataitis Katas Kaudas Kaulaivenkas Kaunska Kaurseskailis Kaus Kaushen Kauskarasius Kavièius Kazas Kaze Kazevas Kazimankevis Kazlas Kazlunas Kazula Kazuliulis Keda Kedarodziush Keicionas Keieys Keigys Keimerutis Keine Keinkas Keis Keizas Keliai Kelionas Kelis Kena Kes Keskienas Kestas Kevickaris Kewicis Kidai Kipliûnas Kirdýiunavis Klada Klai Klauna Klenelaitis Klevarle Klipe Klis Klithieika Klunauskis Klutistas Konas Kongarge Koniaparas Koniena Konkasvas Konskas Konys Kotavalal Kraclovirus Kramporys Krazavielius Kreciaitis Krenainis Krenevicz Krenys Krenë Krieckiskis Kriengis Krienë Krigenciai Krigima Krigonellete Krijus Krinis Krinykevas Kris Krius Kriutis Krkalenga Krkaus Krkelai Krulis Kruliskas Krunai Krunas Krunasarutkus Krungai Krys Kubalas Kubalce Kubaspas Kubelas Kubermonas Kubiestaus Kuckevila Kudarkeskes Kudas Kulai Kulavalys Kulionai Kulis Kulitiliai Kumaitis Kumanus Kunai Kunas Kunavedimuna Kundriga Kunskikas Kupangai Kupas Kupciustuare Kupinis Kupis Kupkis Kupris Kuraminska Kuramintis Kuras Kurat Kurbaltris Kurbnorys Kurge Kursimane Kurskis Kus Kuskasakikis Kybas Kys Labijaminis Labo Laimenas Laitis Laitynas Lanas Lansaitinkas Lapauguliai Lapsylys Lapûnai Lapûnas Latas Latastus Latavilai Latis Latusis Lauceckas Laulektosena Laulisele Lauliuskis Laus Lauzarge Leksos Lektrievydas Lektris Lencius Lente Leona Leonaine Leonasveck Leondsbelis Leone Lestupis Letinas Letrius Levedas Levicas Levicaskiskas Litas Litasipavas Litiniai Litis Liukybalytë Liuna Lius Liusk Liuskavis Liuskushas Luko Lybersestys Macancius Maciailkai Maciune Maciusiai Maclailis Maitkevezai Maka Makai Makmene Makreikèius Maldulis Mana Manaitis Mangai Manus Manutisonis Maradulentas Maragdas Maraitis Maralcas Maras Marasaitë Marazis Marazlutiska Marchiukas Mardaungulis Maretele Marierakuodai Maris Markis Marlikèius Marnis Marobintone Marokas Maroleknas Marrai Marratulas Marruopp Martas Marticinkas Martisevis Martus Martys Marude Marunavas Marus Marutkus Marvydai Mas Masaus Masenone Masiai Maskiavezys Masvena Mat Matas Matasiladas Mataujus Matinkas Matthai Matuaruski Matuliûnas Matvajonkus Mava Mazaras Mazdytë Mazetrenchas Mazius Mazlaudai Mathietas Mathius Mathiuskas Meciai Mecius Meciuskai Meckas Meckuozemies Micaitis Micas Micicys Micinis Micinkuce Micintas Micintasiai Micinteliskai Micius Miciuskas Mickis Micys Micz Miczius Miejus Miena Mienailkpe Miestauskis Mikai Mikailionds Mikas Mikaus Mikavicius Mikinkas Mikis Mikiskava Mikonintas Mila Milai Milaickai Milaitis Miliade Miliaus Mina Mindris Mis Molfonis Molka Molovskis Mona Monas Monginsas Monis Morovalys Morys Mus Nadotanutas Nage Nai Naidaulys Nalmas Nas Nasaus Nasiais Natus Naujus Nauniuskas Naus Naute Nautkuskas Nava Nazaujonius Nazdas Nazlaus Nazlund Nazysziulaus Nelonidais Nemerietretis Neminas Nemkas Nevenis Olgai Paaus Paauskaitis Pabaliuskis Pabalvydas Pabarrunatas Paberkeda Pabernaite Pakas Pakes Pakis Pakovicius Palceckas Palcius Paldaitis Paldas Paliaitenelis Palvys Palys Panaitis Panas Panus Parius Pas Pasas Paslovicius Pasockas Pasotvskis Pauknis Paulytë Paunas Paus Pauskel Pauskis Pavalce Pavicicionas Paviciuninis Pavicius Paviedas Peta Petanevys Petas Pete Petis Petistis Petkes Petkuskis Petos Petozai Petradvicius Petrat Petratas Petrijuskis Petris Petriuski Pijaminis Pikieckis Pilangas Pilingas Pinas Pingaitis Pingaskas Pinis Pinkanas Pinte Pirvicius Pirvitus Pis Piskevicas Plu Plumazutas Plundrantakas Plundras Plunskas Plys Povas Poviczai Preniaignas Pricius Priga Pris Prisionis Priunaulaiai Prius Priustis Pruoji Pruojiskis Prys Pukes Pukowskis Punas Punskis Puodas Puozas Puoze Pupangalys Pupciniskes Pupis Racas Raciuskas Radas Rade Radentas Radugzdai Radvilisas Radvilkai Radvilkoviaus Radvis Rai Raitis Rakaskas Rakeviczas Rakiai Rakielintoze Rakina Raksciulis Raksonis Rakus Ramai Ras Rasiai Rasvenes Raujoji Rautkurakas Rava Ravaitkeras Ravalikas Ravaretakaus Ravas Ravis Razdas Raziuliai Razius Razlutis Reicielkova Reikis Reis Remengai Remko Remyda Renevick Retauskas Riczuigys Rimanys Rimieika Rimunas Rinis Ris Risius Riskies Rodasys Rokaitkus Rokas Romaitis Romanelis Romartyna Romelecionas Rona Roserdthius Rozapedroda Rozas Rozautis Rozegalinas Roèkiedas Rudai Rudarrava Rudas Rulinagalcis Ruskertai Ruskis Rutas Rute Sabalcius Sabijus Sabrampolezys Sabras Sabrëýa Sagdzmis Sage Sai Sainelkas Sakas Sakiertis Saksniskaite Salada Salczai Sald Salda Saldas Salis Sandrenavis Sankeskeva Santangai Saparuonga Saragirde Saretis Sas Saujaugiruons Saus Sauskaite Sauzoleinas Seiksilada Seliaitis Semydaintas Senas Senasavde Senavas Sencai Sene Senevis Sennis Senyksagaitis Sera Sertis Ses Seskis Seskonas Sevièius Shalis Shas Shius Shiuska Shukys Shulis Siadis Siai Siaitë Sigulipedas Sila Silaitiskas Siliaitë Silis Siliskinai Silka Silkas Silkiernonas Silkosys Silkus Silninga Silnis Simvyda Sipas Sirdaitis Sirde Sirdenë Sirgzda Siriuskas Sirutaitë Sirviciokas Sirvydai Sirzacinys Siuna Skas Skaulen Skulaite Skupra Skus Sle Sleksotaras Slenciaitis Slergis Slezys Sliaite Slos Slovalvydas Sme Smenas Snila Snineviches Snis Solomundrena Sonadvilale Sonataus Soniauzos Ste Steknaskases Sugaitas Suge Sugulius Sugzdas Sugzdaulys Suhaeus Suhas Suterdas Sva Svalas Svalovartas Svas Svasipas Svena Svenai Svenë Svezys Svichius Svicius Svilniskis Svis Szeiksas Szeisaus Szelis Szetrigacius Szos Szylaitis Szys Taiten Tannzeine Tantai Tanus Taras Targzdas Tarkeslonas Tartas Tartaus Tarudas Taulaite Teisagnauda Telas Tepolga Teras Terda Terdviskaus Thuky Thunas Thunatulis Tomanciunius Tomankis Tubaravecius Tubiencius Tyle Ubarbute Ubardas Ugnas Ukas Ukes Ukme Uknis Uky Uletaka Uliaus Ulius Ulvicius Ulvys Urbai Urbal Urbarce Urbard Urbnonis Urbo Urbonemazlas Urbonkes Utis Vacioniai Vacionys Vacius Vackaus Vaclava Vaclo Vagaitis Vai Vailunieviai Vaitelaus Vala Valaus Valautis Valciukas Valdis Valinis Valis Valkeskas Valys Vanas Varancas Varas Variuskis Varkiertas Varsilai Vartas Vas Vasagdorotas Veneva Venis Venius Vennis Vicas Vichala Viciengris Vicinai Vicinasokavde Viciuka Viciuncius Viciunge Vicius Viciuskieys Viciuskis Vickavicina Vickeviene Vidaiziush Vidgalmers Vidonas Vidynauce Vidzeikton Vidziusk Vierakas Vierzaus Vievicasarta Vievickinius Vikas Vikofskas Vikovo Vila Vilai Vilainai Vilaitinas Vilaitis Vilaliskas Vilanuzarenë Vilinsaras Vilkaitis Vilkiedas Vinaviczis Vinavis Vine Vins Vinskas Virdai Virge Virutne Virzara Virzargzdynas Vis Visiuskaitila Viskybai Visotas Vite Vitis Vitisen Vitusturigute Vizai Vizas Vizaulankas Vizaulas Vizgis Vizutelionas Vièikus Vla Vlaitine Vlaoval Vlas Vlaus Voldondriga Volgis Volkiskas Vytai Vytë Wantosilkas Wanuky Winas Winavis Winga Winkus Wintas Yakas Yakiailiai Yakis Yakreige Yakretas Yaksos Yakuberzas Yand Yange Yankas Yantas Yantavas Yanys Zaitkuski Zariciai Zaris Zeleich Zeliaitkus Zelicius Zelijus Zelina Zelis Zema Zemanute Zemazdai Zeme Zemenë Zemierkis Zenas Zene Zieskai Zieys Zigirika Zigulione Zigute Zilaucion Ziluta Zilutkus Zinava Zinga Zintiskiaiza Zis Ziskaitë Ziskas Ziskis Zukas Zukovas Zurgzdykas Zuris Zurkauskis Zuyusta Zvina Zymieven Zymkas Zymkos Zymonagaus
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Vytë Navy" "Daukas Navy" "Zymkowskas Navy" "Varskys Navy" "Butkas Navy" "Paus Navy" "Karce Navy" "Pryzius Navy" 
+		}
+		sequential_name = FANTASY_LITHUANIAN_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_LITHUANIAN_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Akme Akmenai Akmenava Akmergzda Alys Alytustinina Anyksos Anys Birvilkpede Birviskiai Dainalai Daininiai Druoji Druojiskis Eigisai Eletiniuskis Fabijonai Fabrade Fabradvilu Fabrakava Fabrakruoji Fabrasos Gariguliavis Garijamienai Grigiskis Griguliai Griguliaipeda Gris Ignai Ignavilai Jonai Jonaininkai Jone Joniadviskes Jonina Jonys Jurbariskis Justiniai Kaujamies Kaujoji Kauliai Kaulintva Kaurakai Kazdai Kedai Kede Keliai Kelmenai Kelmerge Kelsiliniava Klalai Klaletasentva Klange Krena Krenai Krene Krentos Kretintva Kretintvaline Kurbariguliai Kurbarliniai Kurbarlis Kybarenciai Kybargzda Lazdaipedai Lazeinkai Lazlute Lena Mazlu Mazlunainai Mole Naujamies Naujampole Nauliai Nauna Naunas Naunge Naurage Naursenaina Naursencionys Neme Nemergzdai Pabijonai Pakai Pakruodaintos Pakruoji Palai Palciai Palcionai Palis Panelsiai Panga Pasagis Pilininelsiai Pilkai Pilkpede Pluna Plunai Priguliainkas Radorys Rasage Rokisagiskis Sakasage Sakrus Saliskiskis Salys Salytuskis Seskiaicionis Seskinas Seskiskes Sestinas Siaicinis Silai Silalys Siliai Silkpede Silninelinai Silu Sirvisage Sirzai Skuodai Skuoji Svenai Svencionis Svene Svenevenai Svezys Taunava Taunga Teliaipeda Telme Telmerge Ukmenai Utenai Utenainiai Varagisai Varakis Varisiaite Vartasiai Vienas Vienevena Vievenava Vilai Vilane Vilanevilniai Zaradvinius Zarienciai Zarkai Zarliai
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Adotas Adotautas Aidaulus Aidmuelis Aidors Aidotas Alberonas Albin Albintavas Alduar Ale Alenelis Alenolitanus Alenonas Alfoneliush Alfongaila Algiejus Algirgirgila Almantavas Almantis Almas Amaldas Amanus Ambras Andas Andras Andrejush Andrigmantas Andriush Antas Armandras Armas Arnolius Arnolovo Artas Artynas Arundas Arundras Audas Audrys Bal Baldas Baldautus Balovilas Baras Barius Barundas Benejus Beniutas Berdvitras Bernolo Bertas Budas Budras Bukas Bukos Cesas Ceskal Cestis Cestus Cestutupas Chestilavas Daidas Daldar Dalovaldas Danas Dantas Danus Daronas Darras Darunds Darvydas Daulus Dautaulis Dionalius Diongainadas Dionsaronius Donas Donejus Dongaimgas Dzidmulis Dzimas Dzimgaila Edgainas Edgaudas Edmanas Edmas Edmual Edmulus Edmunas Edus Eugas Eugenius Gedis Gedymincas Ginas Gincas Ginchas Girdas Girdaspas Girmas Grius Gytas Iponarius Iponius Irmas Irminas Irmintas Jeras Jeslo Jestis Jongailadas Juonas Juonidas Juonis Juonizas Kadas Kardaugenis Kardvila Karonsarius Kartas Kazieras Kaziernas Kazierolijus Kazimanas Kazimas Keis Kestus Kiprazys Kris Laila Leonejus Leongas Leonijus Letras Letrijus Letrislos Lintas Lius Mardvitras Marigmas Marolfas Martavas Marundas Mecis Micardas Micas Michardas Michas Mikal Mikaltris Mikas Mikelijus Mikelius Miksas Miktorigmas Mindrius Olgilas Olgisartynas Paald Paaltriustis Paugenius Paulus Paumas Petas Petaula Pincas Povas Prazimvydas Reminas Remintas Ricas Richas Rimanukos Rimelikas Rimelitrius Rimeronas Rimgaras Rimis Rimulis Rinartynas Rinas Rintas Rintis Ris Romantas Romelijus Romelius Romertynas Romonas Romonelius Romuarvydas Romuelius Sarigar Sautis Sautupasis Sha Slomeras Slovas Soldus Solis Solius Sonar Sonarijus Stepolfas Stepolfonas Stepolikas Steponsas Svila Tantas Taronas Tartynas Tomantas Tomanus Tomertas Tomunas Tyleksantas Ugniustus Vacla Vaclas Vailas Val Valdus Vicharunas Vichas Vidas Vidmantavas Viktoriutis Vinas Vintas Virdenizas Virdviladas Virgieras Virgis Vizas Vizgila Vizgimalovo Vizgimvydas Vla Vlas Vytantas Yanas Yantautas Zenius Zigas Zigmalijus Zigmanuka
+            }
+           
+            first_names_female = {
+				Agnele Agnella Alda Aldone Aldonele Ane Anella Anna Annikova Annikovajona Annikovalda Annila Annzele Annzella Annzeta Annzetare Astarcele Astarcella Astare Audima Audimannze Audimantare Audimanute Audimiedre Audre Audyta Audytarcele Audytarcella Audytare Danna Dannika Dannikova Dannze Danta Dantarcele Dantare Dante Elzbiedra Elzbiedre Elzbiera Elzbietare Elzbiete Eva Evajona Evajone Evajonele Evajonella Evaldona Evaldone Evaldonele Gaudima Gaudimiedra Gaudimiera Gaudra Gaudre Gaudyta Gaudytare Gaule Gauliya Gele Giedra Giera Gieta Gietare Giete Ginta Gintarcele Gintarcella Ginte Judima Judimanute Judimiedre Judimiera Judimiete Judra Judre Judytarcele Judytarcella Judytare Jule Kazima Kazimanta Kazimanute Kazimiedre Kazimieta Kazimiete Kennika Kennikova Kennila Kennze Kennzella Laimanna Laimannila Laimanta Laimante Laimanute Laimiedra Laimiera Laimieta Laimiete Marcele Mare Mika Mikovajone Mikovalda Mikovaldona Ramunele Ramunella Rozella Rozeta Rozetare Saudima Saudimanute Saudra Saudre Saudyta Saudytarcele Sauliya Sigitarcele Sigitarcella Sigitare Svajona Svajonele Svalda Svaldona Svaldonele Svaldonella Viedra Viedre Vieta Vietarcella Vietare Viete
+            }
+			
+			
+			second_names = {
+				Abiliaitinas Abis Abraltaus Alerskas Andrazius Andrikarutis Andris Antis Arleis Arlenys Baboniskas Babrëýa Backis Bagdomavicius Bagnaitis Bakewicius Balaitis Balas Balte Balys Barchimas Bermaikas Bersiunas Bielaicius Bielinis Bienè Bilko Bopas Braizius Bulis Bulius Burgutinkus Butas Butis Butiskas Butkuskaus Cheliakas Chermaite Ciminskes Cizutis Degaiteiksas Dicinis Dicius Didulys Dirma Domas Drobiaus Drotas Dzevichiuskas Dzevicius Edys Eidulauskaus Eiminis Ekas Elsne Elviciondulis Elvickis Endrazaviris Endriush Filkaskas Gailkevis Gaitis Gaitiskys Gaizutkes Gajauskas Galaviciuka Gilaulinksas Ginas Gras Grienë Guda Gudeckevicka Gulerieis Gunagdonaitis Gunas Gunavickas Guzas Haackarkaus Haaclaus Haautkasius Ignas Iviciunas Ivicius Jakas Jakowskas Janka Jankes Janrka Janskunas Januskaitis Januzarkonis Jaus Jukas Juopp Jurgutkus Juriskis Jurtkevicz Kabalimonis Kaduodzija Kamaviciunas Kanas Kapinaitis Karailas Karas Karaus Karauskas Kartkuns Kastas Kaus Kidys Kirmon Kleckis Klewicka Klinagdarulis Klumbrala Koninskevas Kraziunis Kriernautas Krigaickas Kriunaitis Krkas Kubis Kuciulytekys Kudaras Kunavièius Kunis Kureciulewick Kurgzda Kuriukas Kurs Labruoza Lapauzas Latulecius Lautis Leskieys Leviciunaskas Lybernis Macius Mackis Maclonis Makas Makinas Mako Maksaite Malchunis Maldikèilis Manuskas Marama Maras Marazaus Marbsylys Marus Masas Mataus Mazkon Mazlaiazas Mazuliûnas Miciuskas Mikienys Milaitis Paauciuskas Paauskartis Pabalis Pakas Paksaitis Paliskas Paliukis Pautavs Petras Preis Prulaulas Prulauskas Prulis Puodzeicius Puozavikieys Rackas Railaitis Raitë Rave-Mikis Reikas Reisokauna Ruitis Ruta Rutis Sablovas Sablovis Sancas Sapsukevis Sardýiunas Semardelipaus Semas Senevas Shiuliskieys Simaiteky Skaitiskas Skas Slewicius Slis Smetozas Sutas Szemys Tardemko Ternis Thunas Ubalciuskas Ubartkus Ulemkas Ulius Urbnonikisk Vagaitis Vaitis Valanas Valcas Valviaus Valvickas Vanksaitys Vencaitis Venelanskis Vidykalaus Vidys Vitis Vityszko Vizas Volga Volko Vosionavis Vosys Wanuliaus Wilionas Wiliskauskis Yancaiaus Yanclonis Yanus Zeliskas Zemaitkus Zembraus Zemkowskas Zemyda Zinkaìtìenë Ziskas Zukas Zutis Zvikas
+			}
+            regnal_first_names_male = {
+				Arnolovo Benejus Juonas Kardvila Olgilas Reminas Vacla Vidas
+            }
+           
+            regnal_first_names_female = {
+				Anella Audima Audytarcella Danta Jule Kazima Sigitare Svalda
+            }
+			
+			
+			regnal_second_names = {
+				Arleis Bienè Bilko Didulys Ekas Gaitis Lautis Makas Mazuliûnas Paliukis Raitë Rave-Mikis Szemys Tardemko Wiliskauskis Zinkaìtìenë
+			}
+		}
+	}
+}

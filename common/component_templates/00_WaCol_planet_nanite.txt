@@ -1,0 +1,25 @@
+weapon_component_template = { # World Cracker
+	key = "PLANET_KILLER_NANITE_CONSUMPTION"
+	size = planet_killer
+	power = -7500
+	type = planet_killer
+	use_ship_kill_target = no
+	prerequisites = { "tech_colossus" }
+
+	valid_for_country = {
+		has_tradition = tr_nanotech_3
+	}
+
+	icon = GFX_ship_part_nanobot_diffuser
+	icon_frame = 1
+
+	size_restriction = { colossus }
+	component_set = "PLANET_KILLER_NANITE_CONSUMPTION"
+	windup = { min = 180.0 max = 0.0 }
+	total_fire_time = 60
+	planet_destruction_gfx = "assimilation_nanobots_gfx"
+
+	ai_weight = {
+		factor = 2
+	}
+}

@@ -1,0 +1,7 @@
+triggered_country_modifier = {
+	potential = {
+		always = yes
+	}
+	country_naval_cap_add = $BBCB_OUTPUT$
+	mult = value:bbcb_naval_cap_building_output
+}

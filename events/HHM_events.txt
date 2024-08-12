@@ -1,0 +1,171 @@
+#########################################
+#
+# Hostage Events
+#
+#########################################
+
+namespace = HHM_events
+
+# This = country, leader attacker
+# From = country, planet owner
+# FromFrom = planet
+# Victory
+country_event = {
+	id = HHM_events.1
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		FROMFROM = {
+			exists = leader
+			leader = {
+				NOT = {
+					has_leader_flag = HMO_hostage
+				}
+			}
+			NOT = { has_planet_flag = HHM_attempted_kidnapping }
+		}
+		FROM = {
+			OR = {
+				is_regular_empire = yes
+				has_authority = auth_machine_intelligence
+				has_authority = auth_hive_mind
+			}
+			HHM_banned_civics = no
+			NOT = { has_country_flag = HHM_cant_capture_leaders }
+		}
+		OR = {
+			is_regular_empire = yes
+			has_authority = auth_machine_intelligence
+			has_authority = auth_hive_mind
+		}
+		HHM_banned_civics = no
+		NOT = { has_country_flag = HHM_cant_capture_leaders }
+	}
+
+	immediate = {
+		from = {
+			save_event_target_as = HHM_original_empire
+		}
+		random_list = {
+			20 = {
+				modifier = {
+					factor = 2
+					HHM_is_despoilers = yes
+				}
+				FromFrom = {
+					save_event_target_as = HHM_target_planet
+					leader = {
+						unassign_leader = this
+						set_owner = prevprev
+						add_trait_no_notify = HHM_hostage_trait
+						set_leader_flag = HHM_hostage@prev.from
+						set_leader_flag = HMO_hostage
+						event_target:HHM_original_empire = {
+							set_country_flag = HHM_owns_hostage@prev
+						}
+					}
+					set_timed_planet_flag = { 
+						flag = HHM_attempted_kidnapping
+						days = 720
+					}
+				}
+				From = {
+					create_message = {
+						type = MESSAGE_TYPE_HHM_STOLEN_LEADER_VICTIM
+						localization =  MESSAGE_TYPE_HHM_STOLEN_LEADER_VICTIM_DESC
+						days = @toast_message_days
+						target = event_target:HHM_target_planet
+					}
+				}
+				create_message = {
+					type = MESSAGE_TYPE_HHM_STOLEN_LEADER
+					localization =  MESSAGE_TYPE_HHM_STOLEN_LEADER_DESC
+					days = @toast_message_days
+					target = event_target:HHM_target_planet
+				}
+			}
+			80 = {
+				modifier = {
+					factor = 0.75
+					HHM_is_despoilers = yes
+				}
+				fromfrom = {
+					set_timed_planet_flag = { 
+						flag = HHM_attempted_kidnapping
+						days = 720
+					}
+				}
+			}
+		}
+	}
+}
+
+# Release Captured Leaders
+country_event = {
+	id = HHM_events.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		from = {
+			has_trait = HHM_hostage_trait
+		}
+	}
+
+	immediate = {
+		clone_leader = {
+			target = from
+		}
+		last_created_leader = {
+			save_event_target_as = HHM_released_leader
+		}
+		from = {
+			random_country = {
+				limit = {
+					has_country_flag = HHM_owns_hostage@prev
+				}
+				event_target:HHM_released_leader = {
+					set_owner = prev
+				}
+				country_event = { id = HHM_events.4 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = HHM_events.4
+	title = "HHM_events.4.name"
+	desc = "HHM_events.4.desc"
+	picture = GFX_evt_cover_blown
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		event_target:HHM_released_leader = {
+			remove_trait = HHM_hostage_trait
+			remove_leader_flag = HHM_hostage@owner
+			remove_leader_flag = HMO_hostage
+		}
+	}
+}
+
+leader_event = {
+	id = HHM_events.5
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_leader_flag = HHM_hostage@owner
+	}
+
+	immediate = {
+		remove_trait = HHM_hostage_trait
+		remove_leader_flag = HHM_hostage@owner
+		remove_leader_flag = HMO_hostage
+	}
+}

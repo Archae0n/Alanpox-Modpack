@@ -1,0 +1,414 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	ntoka = {
+		name = Ntokan
+		plural = Ntokans
+		home_planet = Ntoka
+		home_system = Mkangani
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	nkuxolwa = {
+		name = Nde
+		plural = Nde
+		home_planet = "Nku Xolwa"
+		home_system = Sithubandlo
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	sibula = {
+		name = Sibulan
+		plural = Sibulans
+		home_planet = Sibula
+		home_system = Mosiwe-Sani
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	amaranthineconvenant = {
+		name = Umdugu
+		plural = Umdugu
+		home_planet = "Amaranthine Convenant"
+		home_system = "Unguzi's Last Testament"
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	feathersandgrasses = {
+		name = Ninkizu
+		plural = Ninkizu
+		home_planet = "Feathers and Grasses"
+		home_system = "Undying Rock"
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	buko = {
+		name = Bukoese
+		plural = Bukoese
+		home_planet = Buko
+		home_system = Singazwe
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	sithulamandile = {
+		name = Mbe
+		plural = Mbe
+		home_planet = Sithulamandile
+		home_system = Ntomvusumthane 
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	mkanga = {
+		name = Mkangan
+		plural = Mkangans
+		home_planet = Mkanga
+		home_system = "Duzulu Nozo" 
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	bhonothiwe = {
+		name = Nothoid
+		plural = Nothoids
+		home_planet = Bho-Nothiwe
+		home_system = Hle-Anathelana 
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	manisasani = {
+		name = Mbu
+		plural = Mbu
+		home_planet = "Mani Sasani"
+		home_system = Amsiso
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	khamuko = {
+		name = Khamukoid
+		plural = Khamukoids
+		home_planet = "Nhlana Khamuko"
+		home_system = "Nhlana Bonkosiwe"
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	mbuya = {
+		name = Mbuyan
+		plural = Mbuyans
+		home_planet = Mbuya
+		home_system = Magebheni
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	gungana = {
+		name = Gunganian
+		plural = Gunganians
+		home_planet = Gungana
+		home_system = Buyizodwayawo
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	muzululu = {
+		name = Muzululu  
+		plural = Muzululu
+		home_planet = "Thi Dumba"
+		home_system = Ntomuzi
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	songugu = {
+		name = Songugese  
+		plural = Songugese
+		home_planet = Songugu
+		home_system = Mbatha
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	mbisimpika = {
+		name = Mbisimite  
+		plural = Mbisimites
+		home_planet = Mbisimpika
+		home_system = Lindile
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	dilanipho = {
+		name = Dilanid  
+		plural = Dilanids
+		home_planet = Dilanipho
+		home_system = "Mhla Mpanga"
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	sphodulu = {
+		name = Nda 
+		plural = Nda
+		home_planet = "S'pho Dulu"
+		home_system = Zulanduzithi
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	diswazi = {
+		name = Diswazian 
+		plural = Diswazians
+		home_planet = Diswazi
+		home_system = Bongande
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	khani = {
+		name = Khanite 
+		plural = Khanites
+		home_planet = Khani
+		home_system = "Kwandudule Mbizo"
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	bhembayo = {
+		name = Bhembayoid 
+		plural = Bhembayoids
+		home_planet = Bhembayo
+		home_system = S'busaniyazi
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	ntomba = {
+		name = Ngiso
+		plural = Ngiso
+		home_planet = Ntomba
+		home_system = Ntomvusakho
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	ndotambethevenerable = {
+		name = Bamhazi
+		plural = Bamhazis
+		home_planet = "Ndotambe the Venerable"
+		home_system = "Bikuzu the Relic"
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	dudulo = {
+		name = Duduloid
+		plural = Duduloids
+		home_planet = Dudulo
+		home_system = Bhekuzi
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	thekithile = {
+		name = Thekithian
+		plural = Thekithians
+		home_planet = Thekithile
+		home_system = Umidile
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	nandile = {
+		name = Nandiloid
+		plural = Nandiloids
+		home_planet = Nandile
+		home_system = Ntombali
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	phembamahle = {
+		name = Phemian
+		plural = Phemians
+		home_planet = Phem-bamahle
+		home_system = Njiwe
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	phembamahle = {
+		name = Wangindelean
+		plural = Wangindeleans
+		home_planet = "Mbani the Once-Ever King"
+		home_system = "Zindlela the Murdered"
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	siphiwe = {
+		name = Nko'Nko
+		plural = Nko'Nko
+		home_planet = Siphiwe
+		home_system = Siphiwe
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	bhongani = {
+		name = Bhonganese
+		plural = Bhonganese
+		home_planet = Bhongani
+		home_system = Jobhembi
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	nanyamagosi = {
+		name = Magosian
+		plural = Magosians
+		home_planet = "Nanya Magosi"
+		home_system = Sisimpando
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	bhengaka = {
+		name = Bhengakan
+		plural = Bhengakans
+		home_planet = Bhengaka
+		home_system = "Singo Mpika"
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	mka = {
+		name = Mka
+		plural = Mka
+		home_planet = Mosizandabu
+		home_system = Thangugugu
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	vulazulu = {
+		name = Vulaian
+		plural = Vulians
+		home_planet = Vula
+		home_system = Shabopa
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	sbuhle = {
+		name = S'bu
+		plural = S'bu
+		home_planet = S'buhle
+		home_system = Ayisi
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	unganomsithi = {
+		name = "Unga Nomsithian"
+		plural = "Unga Nomsithians"
+		home_planet = "Unga Nomsithi"
+		home_system = Manhle
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	nkuzizi = {
+		name = Nkuzite
+		plural = Nkuzites
+		home_planet = Nkuzizi
+		home_system = Bondila
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	nombinele = {
+		name = Nombinelid
+		plural = Nombinelids
+		home_planet = Nombinele
+		home_system = Ungandiwele
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	mbazulu = {
+		name = sinkuzi'Mba
+		plural = sinkuzi'Mba
+		home_planet = Mba
+		home_system = Nothila
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	phanzana = {
+		name = Phanzanian
+		plural = Phanzanians
+		home_planet = Phanzana
+		home_system = "Grand Phanzana"
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	ntombizi = {
+		name = Ntombish
+		plural = Ntombish
+		home_planet = Ntombizi
+		home_system = Sibuyazi
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	vusaka = {
+		name = Vusakan
+		plural = Vusakans
+		home_planet = Vusaka
+		home_system = Vusaka
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	khinko = {
+		name = Khinkoan
+		plural = Khinkoans
+		home_planet = Khinko
+		home_system = Thwandle
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	thembuko = {
+		name = Shwani
+		plural = Shwanis
+		home_planet = Thembuko
+		home_system = Phenga
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	ntongebathehealer = {
+		name = Bhemba
+		plural = Bhembas
+		home_planet = "Ntongeba the Healer"
+		home_system = "Nothozi the Prideful"
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	kheku = {
+		name = Khekuoid
+		plural = Khekuoids
+		home_planet = Kheku
+		home_system = Thabuhla
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	ntonathi = {
+		name = Ntonathian
+		plural = Ntonathians
+		home_planet = Ntonathi
+		home_system = "Zika Duzibo"
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	nyandele = {
+		name = Nyandelean
+		plural = Nyandeleans
+		home_planet = Nyandele
+		home_system = Bhembisizwe
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	nqethindlo = {
+		name = Bulu
+		plural = Bulus
+		home_planet = Nqethindlo
+		home_system = Nobhumgogo
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+	umbizwe = {
+		name = Umbizwean
+		plural = Umbizweans
+		home_planet = Umbizwe
+		home_system = Shabela
+		name_list = "cybrxkhan_handmade_zulu"
+	}
+}
+
+

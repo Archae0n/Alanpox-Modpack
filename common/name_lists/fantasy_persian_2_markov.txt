@@ -1,0 +1,232 @@
+﻿### Markov Persian
+### Names from throwing Iranian names and words into a markov generator
+
+cybrxkhan_handmade_persian_2 = {
+	category = "Avian"
+
+	ship_names = {
+		generic = {
+			Abarra Abashab Abdoo Abdoozh Abdullahad Abedad Abeh Abhahabad Abod Abodar Abodarteh Aboli Abtefehra Abtem Adestood Afnar Afnazd Afsa Afsani Afsht Afshti Afsoud Afsoun Aghahman Ahmahmehran Ahmuda-dows Ahobai Ahokht Ahoosstabi Ahvasarman Akhta Akhtia Akhtifeh Alad Alahnoudakin Alani Alarjad Alavan Alba Alilah Alla Alvasha Amehadeh Ammeh Amou Amoz Amud Ana Andak Anoossy Anoozbeh Ansurimbi Anucheh Anush Anvan Anvarzadi Arahvariyen Arami Aran Ardi Ardideh Areed Areh Arekta Areybodabody Arfan-ba Arfarz Arghahva Argmeilak Ariatta Arinihura Armabi Armani Armeed Asan Asgan Asghashqan Asha Ashaan Ashahban Ashat Ashina Assa Asstilebeh Ata Atam Atarezheh Atour Atouri Aur Aurahan Aurdi Avidegh Avistghek Awjirieh Awjiroo Azan Azang Azat Azeh Azi Babad Babadihda Babi Bafaram Bafsa Baghah Baghalal Baghazman Bah Bahahba Bahbasha Bahrandad Bahri Bahya Bakesh Bakpouzed Bamad Ban Bani Baniyadoleh Banjazizeh Banlahdiya Bara Bazafy Beereh Beh Behroudad Bih Bihmuzhahri Bijabihin Bijed Bijeh Biri Biru Bodaghardim Bojan Bojnouruz Bojtar Bollah Borokht Boroo Borou Borourtoleh Borrin Borrouzeh Borvazi Borvin Boyan Boyari Bukastar Buri Bus Busad Bushid Chahvasser Chal Cir Cireshr Ciri Cirin-bataz Dad Daee Daeed Dam Damilyara Dan Dand Dari Dariz Darri Darz Dassed Davar Dehr Del Delrosh Delzar Dezhmad Dhabanpur Dhad Dhah Dibetanan Dih Dihmani Dinafy Dogar Dogon Donayyer Dor Doraz Dorokht Dortezatour Dul Dulla Dullavar Ebibai Ebihee Ebihmadeh Ebrat Eft Elamshamsh Elhana Elhanjazi Elhayer Eman Esfanourad Esfariour Esla Esma Esmaalkan Esman Esmayat Estanour Estemana Estinirina Estooz Etti Eyvani Ezand Ezza Ezzad Ezzafq Fahabati Far Far-e Faramih Farand Farani Faranizeet Farazadegh Farb Fard Farhadeh Fari Farib Farri Farsa Farshan Farveh Fary Farz Fat Fatavi Fatem Fatervina Fazlumta Feela Feeva Ferdad Fereed Fereh Feri Filya Fir Firan Fireshr Fojabzeh Fojtand Fornaz Forya Foz Gan Ganoushqan Gargand Gari Garibibour Garram Gars Geedeh Gha Ghad Ghada Ghak Ghan Ghangishr Gharrandi Ghars Ghayvardeh Ghazieh Ghohra Ghona Ghorgmee Ghormsh Ghul Gili Gilouzeh Gistollar Gitab Gitanehrz Gitazafari Gitimin Gitin Gitramani Gol Golahhar Golbaht Golbashakht Golla Golnan Golorroun Goni Gors Gorudar Gorushzan Goruzadi Gorvan Guitan Guitar Habili Haf Haijab Haistoo Halarjafigud Hali Hamratteh Hamsabad Haqat Haqi Hasb Hashahadan Hastgh Hestan Heyly Hidan Hodsir Homad Homadram Hood Hoonir Hoosh Hooz Hoozheh Hor Hordaya Horoush Hoshkaz Hosrandin Houzeh Hoveed Hoveen Humeyvan Hushad Husht Ilah Ilharazi Imadari Irakhti Irami Iraneh Irazmadeh Isaderehrou Isan Isfarzin Ishhahani Itran Izad Izeshtimin Izzadeh Izzavan Ja'fabelzad Ja'i Jafi Jah Jahehrou Jaherah Jahi Jahmih Jahru Jala Jalamzeh Jalehr Jali Jalta Jamad Jamdandan Jamdaylan Jamehbadar Jami Jandi Jani Javen Javi Javi-Kia Jayarri Jayvani Jilavi Jiri Jirsareh Kamalamin Kaman Kameen Kamsh Kan Kandi Kari Kasheh Kass Kassein Kassy Kath Kavassa Kavehr Kayeh Kayhandad Kaziehni Kereebi Kermanjan Kesher Keydad Keydow Khab Khabahrooni Khad Khadari Khadegarad Khah Khahassim Khahbod Khahrdi Khakani Khan Khand Khari Khavonbar Khayeh Khaz Khobadi Khobri Khodabba Khohami Khohround Khojaneen Khokhol Khokhshir Kholeh Khoman Khonbad Khoncheh Khorganakdab Khormoussen Khorobriyoo Khorsari Khoshad Khoshr Khoyeh Khuds Khusa Khustan Kia-dowkan Kiamdar Kiasteem Kimali Kimi Kisa Kiyyihdan Koba Kokht Kooma Korkhti Korshi Korudi Korughak Koruz Kour Koureh Kow Kows Kuchedeh Kuchidegh Kurani Lad Lahee Lahlahr Laleqa Laqi Lavard Laviz Lavon Lein Lidak Likabi Likina Liloraneh Limsami Mah Maha Maham Mahid Mahita Mahla Mahlan Mahmeh Mahnanruzgam Mahodadi Mahr Mahri Mahrna Mahy Mahya Mahyatar Maj Majanaf Makdadeh Malam Mali-da Malkar Maloudan Man Manaz Mandarhaya Maneh Manei Mang Mar Mar-e Marabeh Marb Mareed Mari Maria Maruzeh Marzinarad Masa Masan Masha Mashah Mashalaqat Mashaldas Mashand Mashayar Masheh Mashin-dar Massan Massy Mastan Maz Maza Mazadi Mazgan Mazh Mazhgahein Mazluyareh Meh Mehbollaha Mehnarsami Mehrayyeh Mehzad Mesh Mih Mila Milaneh Min Minavari Mineh Mis Miti Mitrash Mohani Moheen Moher Mohgan Mohgandi Mohr Mohra Mohya Mojas Mojnuca Monaz Monbas Moneh Moni Mora Mors Morziarru Motan Mozbeh Mozhivasht Mu'id Mu'imin Mual Mualva Muhin Muq Mush Mutlah Mutlahr Mutlarjan Nada Nadayeri Naderan Nadi Nadri Nagh Naghad Naghiruji Naj Najiri Nam Naramma Narkhtar Nasadad Nash Nashtaneh Nasjed Nasjen Nasoozh Nasta Navanjan Navar Navat Navus Nayati Nayhaheh Nazevash Nazizhan Nedelam Negan Negapurami Neghaya Negheh Neghid Nema Nemama'id Nemarazi Nemnan Nez Nezat Nikak Nikoorkhtan Nikouda Nila Nimi Nirra Niyari Niyeh Niyehrayn Niyyih Noohabaz Nooshhah Noosiyyereh Nooz Norad Normireeta Nors Norughokhran Nory Noucheh Noudat Noughad Nourdaghin Noushan Nouz Nouzata Nouzedaman Nushahlol Nushi Omeez Oraboubi Oran Pakisa Par Par-e Parat Pareh Paresooheh Parih Parina Parzizer Pasbak Pash Paynam Pedegar Pegavan Pegh Peghid Peyhah Peyumak Pirudeh Pooshavan Poudni Poughar Poukabad Pour Pouraman Poush Poushim Poushtayla Puzgonazi Qa'il Qan Qandeh Qaravan Qasra Qassad Qody Qolehrahah Qollanjan Qolsh Qomeh Quca Quchireh Qudafargmed Qudaws Raf Raffar Rahlahr Rakhun Rakinam Rani Rashan Rass Rast Raws Rayoun Raz Razi Reen Reet Reeynandy Rey-khusa Reyam Reyhamahid Rim Rimin Rir Robad Robasef Rooshr Roossi Roshimpou Roster Rou Roxanamili Royegh Ruhahad Ruhath Ruhatjun Ruhod Ruhru Sa'fa Sa'i Sa'irari Sab Sabaz Sabeh Sabil Sad Sad-e Sadaghoo Sagh Saghaheili Sakeh Sala Salat Saleh Salehry Salessieh Sali Salipa Saliz Salla Salol Salorroo Salshani Salulland Samerd Samideh Sand Sanireh Saqi Sarbaby Sariavan Sascheer Sash Sastabi Sati Savan Savannaz Savisa Sayna Seedan Seer Sema Sepeel Sepehramva Seta Seyda Seymak Seyni Sha Shaang Shabod Shad Shafarkh Shagheh Shah Shahahin Shahdar Shahey Shahlah Shahma Shahnazjadeh Shaht Shahtand Shaj Shak Shakpoobad Shalehbasur Shalelkard Shali Shambod Shamshapa Shamvash Shan Shana Shanazitan Shani Shanjad Shanjan Shapak Shapur Shar Sharugh Sharva Shati Shavoobad Shayasroubad Shaz Shed Sheedarya Sheh Shehr Sher Sherdar Sherez Shia Shid Shigamdaeen Shigdolpad Shimi Shin Shiram Shiria Shiroughad Shobaheen Shohreen Shojnoun Shomeed Shouzeh Simahrehr Siramin Siri Siriou Sirokhu Siyarazari Sogaman Sogolayni Sohan Sohayeb Soheevasbad Soher Sohi Sohrish Soleh Solhang Sorayeh Sorouca Sorrigam Sorriyenaz Sorrous Souca Soushmanjafa Souz Suhad Sumat Surdilata Surieh Taba Tabetan Tabi Tahar Taheh Tahmanih Tahra Tahri Takan Takpoughah Talah Talahmoud Taldan Taleh Taleqanoud Taleydokht Tali Talla Tarani Targhid Tarkhud Tarman Tayb Tayyeh Teh Tesh Tesoo Tesoun Tess Tessad Teyb Teyda Too Tooz Torrusheh Torsan Toruzevan Toubateh Touneh Touzavarin Touzeeshal Urman Urmandarsa Vafi Vah Vaheeyn Vahy Valan Varezfulla Vari Varin Videh Visan Yagheh Yahrous Yaht Yalahnat-e Yallar Yash Yaz Yazdily Yazma Yegeedash Yek Yougheh Zab Zabba Zabedehad Zabra Zah Zahmatolpa Zahrahid Zahrid Zahyami Zakan Zala Zameinahman Zan Zandi Zanirs Zarakhran Zaran Zarivasoo Zarjanpur Zarma Zarzarass Zey Zhayara Zhidanirath Zhird Zhiri Zhitimsh Ziaravi Ziat Zibatul Ziyeh
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Za'ada Flotilla" "Faradat Flotilla" "Rakabi-e Flotilla" "Mohamir Flotilla" "Yasumeed Flotilla" "Bak Isfan Flotilla" "Maherdi Flotilla" "Fat-edegani Flotilla" "Nahsadran Flotilla"  "Farah-Veedri Flotilla"  "Bafa'irud Flotilla"  "Tirugheh Flotilla"  "Faridashr Flotilla"  "Mahlaqa Faraqa Flotilla" "Sagheh Flotilla" 
+		}
+		sequential_name = FANTASY_PERSIAN_2_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_PERSIAN_2_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Abadardows Abashhahr Abbat Abdanshm Abhahaal Abhahr Abhahri Abhak Abhalkhak Abhan Ahahr Ahm Ahvan Aligud Amozgavan Aramali Aramgheh Aran Ard Ardim Ardishaneh Asan Ashan Ashanshk Ashhahapur Ashk Azehdan Azestand Azevand Bab Babasujen Bafahr Bafar Bafard Bakeshabad Bal Balan Bali Bamabad-e Beh Bojnur Boran Borb Borkand Bormol Boy Boyeh Bushkin Chabri Chal Damiar Dammadistan Dehlorkand Dogonbad-e Dorbads Dorz Esfabad Esfabzeh Eslan Eslayeh Far-e Faran Fas Fashman Ferd Fermozgan Ganavan Garaj Ghahr Ghak Gol Gonbad Gonbaheh Hammad Hamshkinavi Heydar Hord Horkaz Iramshtian Irangan Irayeh Irazd Irazi Isfahari Izermar Izestan Jafahr Jafarsan Jahr Jamman Javan Javeh Javi Jiromeybol Jirvdan Kah Kaman Kammad Kan Kand Kanshahr Kar Karam Karian Karmshamar Karvar Kashar Kashk Kasim Kavan Kavand Ker Ker-e Kerb Kerd Kerdar Kermarmsad Khavi Khom Khomeydan Khord Khorgavehr Khorrabadand Khoyerd Khush Khuzer Kistandaran Kohad-e Kohar Korehdaj Kur Kurdishan Kurdishtan Kurdiyeh Kurdows Lah Lahahshk Lahin Lahrud Lan Landows Likandiyer Likanjan Likazd Lormol Lorrangan Mah Mahak Mahakestaneh Mahali Maham Mahistariz Mahr Mahrujer-e Mal Mali Mallam Mar-e Maran Marasabat Marb Mariz Markan Marz Masan Mashahaneh Maz Mazanjand Mesht Mestan Mestanshmal Meymal Meymaluyerd Meyman Miar Min Minan Minshahr Mohahr Mohgilat Nah Nahr Nahri Nahroft Najand Najangaveh Nashahr Nazanjan Nisht Pakhak Qa'emnan Qa'emnavan Qan Qazd Qodshalari Qomestan Qomeydar Quchabadsheh Quchahahakan Quchallan Rafq Rafsarman Ras Razal Robad Robad-e Robadan Robahr Sabordasa Saghed Saghedabod Saghedashtan Sagheh Sandan Sarez Savan Savanabahin Semnab Semnaveh Shad-e Shahalayeh Shahiraj Shahis Shakhshahr Shaligud Shallat Sham Shapurd Shar Sharazd Shijan Shirjan Shiromeyni Shus Siran Sirokhtian Sirvdan Sol Solestan Soleyni Tabad Tabadajan Tabiluchan Teh Torrabad Torz Urmiarkamshm Urmshahez Urmshtan Varan Yasheh Yaz Yaza Yazi Yazvi Zahr
+				
+				Abad-e Abbadar-e Albod-e Anzan-e Azer-e Bord-e Chahr-e Dorgand-e Fasan-e Gan-e Ghak-e Ghar-e Giluyehr-e Jafaras-e Jirjan-e Karamshahan-e Khalammad-e Khom-e Lahahr-e Lan-e Mahrokht-e Marasa-e Marmian-e Minavushak-e Naj-e Nistanavin-e Qanavinsht-e Sabad-e San-e Savazi-e Sirjandis-e Sirokht-e Zan-e
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Abba Abdia Abdows Abdullan Abod Abti Ahosh Alah Alahman Ali-Dan Anour Ara Arafang Araffa Ardin Armad Ars Aryus Arz Asgh Asghan Asghoba Ash Atan Ayari Bahan Bahhadi Bamrad Bamvan Barid Behranjad Behrour Biz Cyruz Dan Dang Dar Daraveh Darokhossad Darruzhmak Ebra Ebrabari Ebrad Ehservehr Esfa Far Far-Sal Farab Faranjar Fardaveh Fariavand Farshmour Fartos Farzafand Fazlullahbak Fehza Forokh Fortez Foruz Ghahim Ghodad Ghoshas Ghour Ghoushtam Habashak Haffara Hafsh Ham Hamhoss Hasein Hess Hey-ghol Hey-kh Homad Hood Hoosh Hoosrouri Horooshek Humangeed Hushimang Irabibod Ja'il Jafsh Jahr Jal Jalah Jam Javasb Javood Javoodyang Kam Kambi Kamin Kaveem Kavoosh Kayvad Keydourus Keyvood Keyyeshid Khandy Khod Khollah Kiavooshayn Kiusz Kiya Kooz Mah-Ver Mahan Mahma'fa Mak Makh Man Mand Manshah Mashid Mashirros Mashtin Masr-ed Massan Mazin Mehr Mehrad Mehrdayn Mehref Mihush Mohayar Mohr Moroosruz Morzooshan Mozormeez Musayarmad Museresan Nam Nash Nashti Naveed-Din Naveeza Navon Nemasrood Nezat Nosh Omehdi Parsha Payar Ped-Dad Peydollad Peymat Pezad Piroud Pour Poush Pujmad Rah Rahrziz Rak Rakani Ramashar Ramaziz Rami Rass Sa'il Sad Saeen Salahrzad Sanucheed Seymooshim Seymoud Shabi Shadiameed Shah Shahmakari Shahramman Shamya Shan Shand Sharameen Sheedad Sher Sia Siarrosrour Siarza Sin Soha Sohan Sohya Sornammeed Soroucher Suhol Suhra Tar Tarhajunesh Touroosh Varbod Vis Vishtan Yadi Zahmal Zak Zalahbad Zam Zamshimayn Zarhahim Zarsh
+            }
+           
+            first_names_female = {
+				Afar Afsh Ahokam Aholeh Akranaz Anusht Anuss Argeen Arghararee Aris Asheer Atem Atoo Aviz Azan Baha Baheenam Bahid Bahna Bandabeh Bitan Biti Bodak Bodsita Chalou Deefeh Dela Delba Delipak Delkasa Dondanin Elhahnazaleh Elna Ezzaf Ezzaneh Ezzanehroupa Fareh Fari Farinus Farkhta Farmana Fary Farya Fatababeh Forshid Geetar Ghad Ghahry Ghamih Ghayla Gishrna Gitar Gol Goleh Golnaheh Golous Hab Hailya Hali Ham Hasand Hashida Hasi Hedijeh Homeh Horri Ilhahadan Ilhamin Ilhan Irah Irat Itranizeh Izzannamzeh Izzatimid Jab Jaba Jaban Javaraheh Javasa Jila Kha Khan Kobabehrya Kokouneh Korma Korsuma Laid Lailla Laqi Layyih Leyma Lilaleh Mah Mahamdanehna Mahlayeba Mahzaneh Mala Maleh Mand Mareh Masheh Masouzanak Masri Mass Massamin Masta Meh Min Moncheeshia Mond Moneemesa Moneh Mota Nadaneh Nadeh Nahmeh Nahsa Nareh Nasousrin Nasra Nastereh Navaneh Naya Nayly Naz Nazgolshamih Nedeh Nila Niyoun Niyyih Noozhgam Nushara Para Parahtayeh Paraneh Pareeta Pareh Parrinou Peganazin Pour Qudsieh Rahleh Ramda Reynaz Ririsooran Robram Roxan Saghah Saghal Saghama Sakin Sal Saleh Sam Sama Samid Sati Sayyihee Sepee Shaby Shadeh Shaleh Shameh Shan Sharinoo Sharria Shaseh Shattar Shaya Shayyebeh Sheed Sheevasra Sheyva Shia Shin Shin-dokoura Shitra Shorsum Sogannaf Sohrou Soufeh Sussannaz Tahila Talda Taram Tarastoo Taya Tin Tou Yali Yasa Yased Yashidafsa Yasti Zar Zarafsoush Zarjan Zarven Zeynareh Zohee
+            }			
+			
+			second_names = {
+				Abed Abelzayn Abet Afnandi Ahra Ahradeh Ahrafy Ahraqtil Akhush Al-Doli Alai Alaq Ameched Ami Amman Ammary Ammazadeh Ammir Amubirpur Ansadegan Ansadegheri Ansadji Ansadr Ansan Ansur Ardi Arfa'imirdi Avadeh Avand Awjiria Azimi Bahehr Bakhtiatil Bakhushr Bakisbani Band Bihdi Bur Daldaei Daldaeinizi Dasch Dashradari Dashurumei Davandil Davary Dharudni Dibai Dibi Dibibi Dihdabihi Efteh Eftemin Estinan Estinch Ettekhahy Ettekhlabibi Fahdarbat Fahni Fahrary Gari Ghadr Ghuravi Habash Habbani Habibahr Ham Hameney Haqiqani Haqtilimi Hejand Hisadi Homayn Hovey Hoveymoullai Hushi Hushkatari Imani Imanlaba Imarour Iradi Iraqi Ishirdaei Ishiri Ishqai Ishualili Ishuzemand Jaheri Jahi Javi Javisara Javushman Jayb Kari Kazadegani Kazdizhan Kazi Kazimini Kesh Keshani Keshri Khahlai Kham Khani-Sadi Khanjani Khari Khayn Khomayhomeri Khon Khuapur Khuapurary Khurigan Korrughiri Korrumtam Lavanjazi Lavi Limbuwali Limi Mahed Mahon Maj Margani Mari Mary Meh Mehabet Mehaneymour Mehariasch Mehat Mehri Mini Misa Misandi Mohiyeh Mossad Mossari Mossy Moulavar Moun Mour Mouzi Mu'i Mu'imi Mu'imirdai Mu'ir Muapur Muapuruji Muhan Muhani Mumadati Mumecheri Musani Mushkatassy Mutla Na'inavar Na'ini Na'ir Naji Nakhan Nakhtil Nakisand Nemi Nemiri Nezai Nezarumami Nirdari Niri Nouriatju Paham Pahmudiyeh Pakpouzemi Pasch Qash Qashmudni Qazemini Qazmar Qoleqat Qolili Rabet Radai Radi Radizh Rafaqai Rafari Raffari Rafi Rahakpoudi Rahmudi Razlumani Reymour Roohi Roordi Roorrudi Roossadizh Sabatju Sabedi Sadi Sadizhand Saleqand Sanlai Shadilida Shafi Shaheri Shaji Shalili Shand Shandiqand Shani Shanjaz Sharba Shari Shazadi Siyahizi Sotoun Sotour Tabirsadji Tala Talai Talaqi Talaqtili Taldar Taldari Tali Talida Talim Tallamech Talvad Talvari Teyahni Vafaqai Vaffari Vahedzari Vahni Yalavusad Yali Za'imi Za'impour Zahedzad Zahi Zahmubidi Zahy Zand Zanlatju Zari
+			}
+            regnal_first_names_male = {
+				Abdullan Bamvan Farzafand Javood Massan Pezad Shahraman Vishtan			
+            }
+           
+            regnal_first_names_female = {
+				Anusht Fatababeh Goleh Layyih Niyoun Shadeh Sharinoo Zarjan
+            }
+			
+			
+			regnal_second_names = {
+				Afnandi Alaq Ansur Ardi Azimi Bakhtiatil Fahrary Ghadr Ghuravi Habibahr Hushi Hushkatari Imani Kazdizhan Kazimini Khomayhomeri Margani Mari Meh Mehat Mouzi Mu'i Na'ini Nakhtil Nirdari Qolili Radai Radizh Sabedi Sadi Shandiqand Talaqtili Talim Vahni Yalavusad
+			}
+		}
+	}
+}

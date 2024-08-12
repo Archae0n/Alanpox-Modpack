@@ -1,0 +1,2 @@
+# The following scripted variable can be used to determine if ACEMOD is loaded.
+@has_aggressive_crisis_engine = 1

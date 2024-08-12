@@ -1,0 +1,303 @@
+﻿### Arthropoid 8
+### Based on vanilla Arthropoid 4 - names from Spiderfolk name generator (neutral only, to distinguish from Fantasy 11 namelist)
+
+ART8 = {	
+	category = "Arthropoid"
+	ship_names = {
+	
+		generic = {
+			Ari Arid Arilleh Ariq Ariq'raq Arir Arirezeche Arirtas Arirul At'a At'i At'ie At'ierrih At'ierrod At'osni At'osnir At'osnissel Avid Avie Aviel Avierrod Avirterezecos Cak'zair Cak'zal Cak'zar Cak'zaruh Cak'zarzuro Cak'zeere Cak'zo Cakacheer Cakaci Cakacor Cakaq Cakavaca Caki Cakir Cakiruvaikker Cakkerrid Cakki Cakkirtaruh Cakkuh Can'qeh Can'qerel Can'qi Can'qu Cantas Cantera Cantessid Cantozo Cekachazaq Cekacheche Cekacheeh Cekachoqil Cekacisaq Cekaq'raq Cekaqar Cekaqrel Ceki Cekil Cekir Chachaq Chachuzas'teh Chacochirned Chair Chak'zo Chakkeri Chantis Chaq'raq Chaq'rirud Chaqih Chaqil Chaqillod Chaqo Chaqod Chaqruh Char Char'ier Charo Chavid Chaze Chazo Chazsaik'zo Chazsal Chazsuqasih Che Checa Checil Checillod Checiqasi Checisaiq Checor Cheeh Cheer Cheeriqrod Cheerneed Cheessel Chekaciel Chekacos Chekal Chekavuzarud Chen'qu Chenqod Cheq Cheqerel Cheqilleh Cher Chera Cherad Chere Cherro Cherrovier Chi Chiaqre Chiaqriq Chik'zenqor Chik'zuh Chikkir Chillavuzaid Chintas'ter Chir Chirtozo Chiveer Chivier Chizsaintoqod Chizul Cis Cisaruh Cisno Eceeh Eceel Eceer Eceeraqod Eceere Eceesner Eceq Eceqih Et'i Et'id Et'iel Evid Evie Evier Eviertasar Evih Evir Ial Ias Ias'tesniq Iasi Iasih Iasoqih Ici Icie Iciel Icieral Iciered Icil Icocuqruh Icor Icorteh Icortoq Icos Icosair Icuqa Icuqasoh Icuqasoqi Icuqre Icuqri Icuqrid Ik'zair Ik'zal Ik'zallod Ik'zar Ik'ze Ik'zecier Ik'zen'qu Ik'zir Ik'zisneer Ik'zo Ik'zoh Ik'zuro Iqrel Iqriq Iqrir Iqroq Iqroqosaq Iqrud Iqruvaqri Irne Irner Irnered Irni Khachovel Khacos Khaikkered Khaiq'rir Khair Khaired Khak'zas Khak'zo Khak'zoh Khak'zuroveeh Khan'qeraq Khan'qi Khan'qu Khantar Khaq Khaq'ral Khaqod Khaqruh Khar Kharoqi Kharoqisno Khavaqreze Khaveer Khavid Khavulriq Khazir Khazo Khazoh Khazsal Khazsuqa Khecacor Khechecos Khechi Kheci Khecilleh Kheciq'rire Khecisaqrid Kheciveer Khecivid Khecosid Kheed Kheeraq Kheerni Khen'qil Khenqo Kheq Kheqeh Kheqi Kheqih Kheqissi Kheraq Kherne Khi Khicaca Khicavirtesoq Khichar Khici Khicilleri Khiciveel Khicor Khik'zilluh Khik'zoh Khikker Khil Khintar Khintozo Khiq Khiq'ra Khir Khirezechikal Khirne Khirner Khirtos Khirul Khiveel Khivid Khize Khizsal Khizsaq Lachir Lachizeceer Lachovih Lachuzair Lacor Lacos Laid Laikir Laiq'ral Lair Laizen'qu Lasar Lasid Lasnirtesoqi Lasoh Lecachaveered Lechaki Lecheceel Lecil Lecillod Leciq Lecivid Lesne Lesni Lesoh Lesoqil Liak'zair Liak'zaqri Liakkir Liaq Liaqosnis Lias Lias'tesnir Lias'tessih Liazaiq'rad Liazicil Liazsaq Lik'zaikkuh Lik'zar'i Lik'ze Lik'zillera Lik'zo Likachuzarul Likacosno Likavuzarud Likirelraqor Likkillavul Likkuh Naid Naikkuh Nair Nairtas'teh Nairtasne Nazair Naze Nazecil Nazeed Nazeerro Nazisarzul Nazsad Nazsallod Nazsaq Nazsaqrir Nazsar Nazsuqril Nes Nesne Nesned Nesnere Nesni Nesnir Nesoh Nesoqos Nessih Niak'ze Niaq Niaq'raq Niaqachazoh Niaqro Niaqrud Nias Niasad Niaze Nicache Nicheed Nichiq'riq Nicielro Nicochizsaiq Nicosno Nik'zar Nik'zas'teraq Nik'zenqo Nik'zichuzas Nik'zuro Nikaq Nikaveeh Nikavelrir Nikir Nikker Nir Nirtozo Niruvaqro Noqih Noqiller Noqo Noqor Noqorteh Noqos Noqroqor Oceed Oceel Oceer Oceerrovid Oceq Ossad Ossal Ossaqar'i Ossel Osselrilluh Ossi Ossid Ossih Ovacociel Ovaiq Ovair Ovaq Ovaqa Ovat'a Ovat'eh Ovat'ie Ovat'ier Qar Qar'i Qar'id Qaro Qarud Qaruh Qarzuh Qeeceq Qeed Qeel Qeelrir Qeer Qeerne Qen'qeh Qenqod Qenqosad Qentaroq Qentasaiq Qentasi Qentasoh Qentis Qentisneeh Qentoq Qevache Qevaci Qevacis Qevair Qhairned Qhan'qis Qhaq Qhaqilleh Qhaqro Qharzurod Qhazecis Qhe Qheca Qhecaca Qhecavel Qheceed Qheceer Qhecilluh Qheciq'ra Qhecis Qhecissel Qhecocuqrel Qheer Qheeral Qhekacheesne Qhel Qhelral Qhentas Qheq Qheqer Qheqerel Qheqih Qher Qheraq Qheriq Qherirtozoh Qhertoq Qhicilleh Qhik'zasar Qhikaq'ri Qhikir Qhil Qhilleh Qhintar Qhinteerrovir Qhiq Qhiq'rad Qhiqro Qhir Qhirneer Qhirtessaruh Qica Qicavulrir Qicheci Qicillaveeh Qicillaveerad Qis Qisad Qisah Qisaq Qisnir Qisnirel Qizeelrirul Qizeer Qizenqo Qizentisal Qizsad Qizsaq Qizsaqi Qizsul Qizuh Qizulraqo Qizuro Qovid Qovielro Qovos Qovosoqi Raid Raik'zuh Raikkuh Raintessid Raiq Raiq'rad Raiq'rir Rair Rairezeeh Ran'qeh Ran'qer Ran'qih Ran'qu Rantazo Rantis Rantos Raveer Raveesoh Ravelri Ravelrih Raver Ravier Ravierid Ravih Ravuzaq Ravuzas Rekachazo Rekachik'zir Rekachovid Rekacortasnis Rekaq Rekaqih Rekaqrid Rekaveer Reki Rel Relrir Rer Rerad Rered Rereze Reri Rertas'teh Rhacharuvaqa Rhachechil Rhacheciq Rhachekaq Rhachuzar Rhachuzas Rhacillerir Rhaid Rhaikachica Rhaikal Rhainteeci Rhaintoqilluh Rhaired Rhairner Rhaizsulro Rhak'zilluh Rhak'zuro Rhakacharzul Rhan'qih Rhan'qu Rhantaruh Rhantas Rhantas'ter Rhantasal Rhanteeh Rhaq Rhaqar Rhaqas Rhaqod Rhaqri Rhar Rharo Rharod Rhaveer Rhavereze Rhavid Rhaviere Rhavulrad Rhavuzair Rhazeciq Rhazen'qu Rhaziaq Rhazillavul Rhazsaq Rhazsul Rhazsuqar Rhazsuqro Rhe Rhecachi Rhechuzal Rhecos Rheed Rheer Rheerneer Rheerrih Rhelriq'raqro Rhelro Rheqerelrir Rheqissel Rher Rherel Rheril Rhertosar Rhi Rhiaq'ral Rhiaqri Rhica Rhicisniq'ril Rhikacortos Rhikavuzal Rhil Rhillavid Rhillod Rhiq Rhiq'ra Rhiq'rir Rhir Rhirtes Rhiruh Rhivid Rhivir Rhizsal Rhizsuqacos Rhizul Rhoq Rhoqih Rhovel Rhover Rhovie Rhoviel Rhovosi Roq Roqi Roqih Roqis Roqod Roqor Roqril Ser Serad Sere Sered Serirtas Serrid Serril Set'a Set'eh Set'i Set'id Set'ier Set'os Set'osnerni Sochan'qer Soche Sochovered Sochovos Socilleral Socisad Socivid Socuqasal Socuqriq Socuqro Szairnisah Szairtaze Szal Szaq Szaq'riq'riq Szar Szar'id Szaro Szarod Szaruvat'a Szarzuro Szas Szasal Szasniq'rid Sze Szeceerad Szeci Szecil Szeeceel Szeeh Szeer Szen'qu Szenqo Szenqor Sziaq Sziaqi Sziaqis Sziaqrid Sziaqruvat'a Sziasaq Sziaziq Sziazissid Sziazoh Szica Szicachik'zuh Szicavid Szichacier Szichak'zar Szicheqih Szichuzar Szici Szicilluh Sziciq Sziciqre Szicivid Szicortas Szicos Szil Szillavid Szillerid Sziq Sziq'ral Szir Szirnir Szis Szisno Szissi Sziveesner Szivie Szivih Szivir Yaik'zallerid Yaik'zurod Yaikkir Yaikkuh Yaiq Yaiq'ral Yair Yairud Yaize Yaizenqos Yasallod Yasid Yasoqih Yazaq Yazaroqis Yazecacos Yazeesni Yazias Yazsul Yer Yera Yerad Yeri Yerrid Yerrod Yonqo Yonqortozo Yonqos Yonqosarzul Yonqosned Yontaro Yontas Yontasno Yontis Yontisni Yontissaq Yontosoh Yontosoqri Yontozo Yos Yosar Yosi Yosniq Yosnir Yosoh Yosoq Yosoqil Yosoqro Zak'zeeh Zak'zis Zak'zo Zak'zul Zak'zuro Zaki Zakkuh Zaq Zaq'rad Zaq'raqo Zaqa Zaqih Zaqri Zaqrid Zaqrih Zaqril Zaqrir Zaqrirnis Zaqrovirner Zaqruh Zekacacor Zekachovid Zekacor Zekacorteed Zekaqor Zekaqrel Zekaqrid Zekaveed Zekil Zekillod Zekir Zes Zesni Zesnir Zesno Zesoq Zesoqih Zesoqisno Zesselrod Zhacillaveed Zhaciq Zhaiq'raqrir Zhairud Zhak'zenqo Zhak'zenter Zhan'qerad Zhan'qu Zhantasah Zhantasi Zhaq Zhaqaruh Zhaqas Zhaqillod Zhaqrir Zhar Zhar'i Zhavaqri Zhavul Zhavuzasoh Zhazasaqro Zhaze Zhazeche Zhazeerelrir Zhazil Zhaziviel Zhazsad Zhazsul Zheca Zhecavie Zheceq Zhechaqro Zhechazo Zhechovelra Zheciveed Zhecosnered Zheed Zheki Zhentis Zheqeh Zher Zheral Zheri Zherid Zherrirned Zhi Zhiche Zhichoviel Zhicieri Zhicil Zhicis Zhicortozoh Zhik'zar Zhikacos Zhikal Zhikavul Zhiki Zhikir Zhikkuh Zhillod Zhintasid Zhintasnir Zhinteer Zhiq Zhiq'ri Zhiqar Zhiqred Zhir Zhired Zhirtered Zhirul Zhiveed Zhivel Zhivid Zhize Zhizsad Zhizuro Zhoq Zhoqi Zhoveed Zhoveer Zhovid Zhovie Zhoviered Zhovirne Zhovos Zhovosniq Ziaq Ziaq'rid Ziaqar Ziaqih Ziaqrud Ziasaqro Ziasih Ziazenqod Zik'ziciqred Zik'zis Zikacos Zikal Zikaq Zikillavul Zikilluh Zikir Zikkeraq Zikkir Zikkuh Zochar'ier Zocuqa Zocuqaro Zocuqrir Zocuqrovie
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Deep Space Flotilla" "Special Reaction Flotilla" "Punitive Response Flotilla" "Rapid Pursuit Flotilla" "Frontier Patrol Flotilla"
+		}
+		sequential_name = ART8_xxFLEETNAMES_ORD
+	}
+
+	army_names = {
+	
+		generic = {
+			sequential_name = ART8_xxASSAULTARMY_ORD
+		}
+	
+		machine_defense = {
+			sequential_name = ART8_xxMACHINEDEFENSE_ORD
+		}
+		
+		machine_assault_1 = {
+			sequential_name = ART8_xxMACHINEASSAULT1_ORD
+		}
+		
+		machine_assault_2 = {
+			sequential_name = ART8_xxMACHINEASSAULT2_ORD
+		}
+		
+		machine_assault_3 = {
+			sequential_name = ART8_xxMACHINEASSAULT3_ORD
+		}
+
+		defense_army = {
+			sequential_name = ART8_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = ART8_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = ART8_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = ART8_xxCLONEARMY_ORD
+		}
+
+		undead_army = {
+			sequential_name = ART8_xxUNDEADARMY_ORD
+		}
+
+		robotic_army = {
+			sequential_name = ART8_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = ART8_xxROBOTICDEFENSEARMY_ORD
+		}
+
+		psionic_army = {
+			sequential_name = ART8_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = ART8_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = ART8_xxGENEWARRIORARMY_ORD
+		}
+
+		occupation_army = {
+			sequential_name = ART8_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = ART8_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = ART8_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = ART8_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = ART8_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = ART8_POSTATOMICARMYxx_SEQ
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+			
+				Ariqrel Cakaqi Cekacher Chan'qu Chazaq Checi Cheki Chirtas Chizsul Cissi Eceerni Et'os Eviel Iasoq Icoche Irneed Khacor Khaqrir Kheciq Laciveeh Lasih Likkir Nairezeed Nesniq Nicosoh Nirteel Qarulra Qeecacheq Qen'qu Qevat'a Qhecier Qhichuzaiq Qichar Qizul Qovosaq Rairtos Rantasaq Relrod Rhar'i Rhavul Rhazsad Roqiller Szecos Sziakir Szicillod Yaikavir Yasal Yerril Yonqod Yonteh Zak'zal Zessel Zhaqacor Zhik'zis Zhirne Zhivih Zocuqrih
+ 
+			
+				"Black Hideout"
+				"Narrow Chasm"
+				"Plain Hideout"
+				"Fearsome Caverns"
+				"Narrow Overhang"
+				"Lightest Subterrane"
+				"Overhanging Chasms"
+				"Darkest Cavern"
+				"Windy Cavity"
+				"Unresting Cavern"
+				"Neverending Caves"
+				"Turquoise Abyss"
+				"Mysterious Cavity"
+				"Mysterious Sanctuary"
+				"Ethereal Subterrane"
+				"Golden Hole"
+				"Western Den"
+				"Eroded Hole"
+				"Giant Sanctuary"
+				"Dreary Hollow"
+				"Reef of Screams"
+				"Temple of Ice"
+				"Fields of Abandoned"
+				"Outpost of Ghosts"
+				"Silent Harbor"
+				"Crumbling Outpost"
+				"Bleak Forest"
+				"River of Silence"
+				"Farms of Undoing"
+				"Village of Abyss"
+				"Fields of Corrosion"
+				"Molded Fields"
+				"Forsaken River"
+				"Emptied Fields"
+				"Flowing Avenue"
+				"Bronze Avenue"
+				"Blue Comet Pass"
+				"Tavern Passage"
+				"Sunlight Way"
+				"Moonlight Alley"
+				"Ethereal Alley"
+				"Burning Fire Route"
+				"Final Nothing"
+				"Last Abyss"
+				"Ultimate Nothing"
+				"Black Void"
+				"Noiseless Nothing"
+				"Somber Vacuum"
+				"First Void"
+				"Wild Nothing"
+				"Final Void"
+				"Hidden Nothing"
+				"Resonant Hollow"
+				"Vibrant Nothing"
+				"Ceaseless Abyss"
+				"Sanguine Nothing"
+				"Silent Abyss"
+				"Fell Hollow"
+				"Frantic Hollow"
+				"Grand Hollow"
+				"Bleak Abyss"
+				"Radiant Abyss"
+				"Sacred Nothing"
+				"Panoramic Void"
+				"Pointless Nothing"
+				"Boundless Hollow"
+				"Abominable Abyss"
+				"Ebon Void"
+				"Lonely Abyss"
+				"Foul Abyss"
+				"Monstrous Vacuum"
+				"Ever Vacuum"
+
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Aviered At'eh At'id Cak'zuh Can'qer Chaintis Cheeraq'ri Cheqeh Equ Ialluh Iciq Icuqar Ik'zaroq Iqrid Khan'qih Khazsah Khenqos Khicavaid Khik'ze Khikaca Khiq'ral Laik'zo Leceeri Lesoqo Liazo Nazeer Niaqakker Nikkuh Noqro Oceqih Ossar Ovache Qarzuro Qhaqrovid Qhecil Qheraqrid Qhiasnir Qisno Ravuzar Rekachaq Rerro Rhachiq'rad Rhak'zivid Rhaveeriq Rheesnisair Rhere Rhintaze Rhizsuqas Rhovid Sertoqi Set'ie Socisner Szaruh Szas'ter Szentas Szicilleh Sziqa Szirtar Yazil Yosid Yosned Zaq'rir Zaqrud Zekal Zhaizechi Zhantozoh Zhechoqis Zhelrir Zhillavel Zhiruvaq Zhover Ziaqortes Zikil
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			
+			}
+			
+			regnal_first_names = {
+				Cak'zuh Ik'zaroq Khenqos Liazo Ossar Qarzuro Qhecil Sertoqi Yazil
+			}
+			
+			regnal_second_names = {
+				Za'Ca Che'Ri Qha'Qro Rhe'Zo Ya'Ter
+			}
+		}
+	}
+}

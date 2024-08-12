@@ -1,0 +1,24 @@
+on_monthly_pulse_country = {
+	events = {
+		cybernetics.5066
+		cybernetics.5076
+	}
+}
+
+on_colony_destroyed = {
+	events = {
+		cybernetics.2099
+	}
+}
+
+#on_planet_ownerless = {
+#	events = {
+#		cybernetics.2099
+#	}
+#}
+
+on_planet_transfer = {
+	events = {
+		cybernetics.2099
+	}
+}

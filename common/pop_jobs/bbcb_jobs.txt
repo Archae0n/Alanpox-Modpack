@@ -1,0 +1,2490 @@
+###################
+### Non-Criminal Jobs
+###################
+
+# Fun Facilitator
+bugged_fun_facilitator = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_amusement_megaplex
+	clothes_texture_index = 3
+	
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	possible = {
+		entertainer_job_check_trigger = yes
+	}
+	
+	resources = {
+		category = planet_entertainers
+		upkeep = {
+			consumer_goods = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_amenities_add = 30
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_pleasure_seeker = yes }
+		}
+		modifier = {
+			pop_growth_speed = 0.01
+		}
+	}
+
+
+	weight = {
+		weight = @high_prio_specialist_job_weight
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 3
+			has_trait = trait_robot_domestic_protocols
+			OR = {
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_job = bugged_fun_facilitator
+		}
+		modifier = {
+			factor = 0.1
+			is_domestic_servant = yes
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { has_job = bugged_fun_facilitator }
+			exists = planet
+			planet = {
+				free_amenities > 5
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = { has_job = bugged_fun_facilitator }
+			exists = planet
+			planet = {
+				free_amenities < 2
+			}
+		}
+	}
+}
+
+bugged_ham = {
+	category = ruler
+	condition_string = RULER_JOB_TRIGGER
+	building_icon = building_bugged_burger_empire
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_ruler_job
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			unity = 3
+		}
+		upkeep = {
+			consumer_goods = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_jobs_food_produces_mult = 0.2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_ham
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+bugged_misrat = {
+	category = ruler
+	condition_string = RULER_JOB_TRIGGER
+	building_icon = building_bugged_global_communications
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_ruler_job
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			unity = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_jobs_unity_produces_mult = 0.2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_misrat
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+bugged_mosorm = {
+	category = ruler
+	condition_string = RULER_JOB_TRIGGER
+	building_icon = building_bugged_virtual_entertainment_franchise
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_ruler_job
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			unity = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_jobs_consumer_goods_produces_mult = 0.2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_mosorm
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+bugged_prfehdgs = {
+	category = ruler
+	condition_string = RULER_JOB_TRIGGER
+	building_icon = building_bugged_research_global
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_ruler_job
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			unity = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_researchers_produces_mult = 0.2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_prfehdgs
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+bugged_psreo = {
+	category = ruler
+	condition_string = RULER_JOB_TRIGGER
+	building_icon = building_bugged_mining_global
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_ruler_job
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			unity = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_jobs_minerals_produces_mult = 0.2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_psreo
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+bugged_srtiwmmo = {
+	category = ruler
+	condition_string = RULER_JOB_TRIGGER
+	building_icon = building_bugged_industrial_complex
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+
+	possible_precalc = can_fill_ruler_job
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			unity = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_jobs_alloys_produces_mult = 0.2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_srtiwmmo
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+bugged_swto = {
+	category = ruler
+	condition_string = RULER_JOB_TRIGGER
+	building_icon = building_bugged_outer_heaven
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_ruler_job
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			unity = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 8
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_swto
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+###################
+### Criminal Jobs #
+###################
+
+bugged_unfun_facilitator = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_club_network
+	clothes_texture_index = 1
+	
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+	
+	possible = {
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+	
+	resources = {
+		category = planet_entertainers
+		upkeep = {
+			consumer_goods = 3
+		}
+	}
+
+	planet_modifier = {
+		trade_value_add = -2
+		branch_office_criminal_syndicate_value_add = 3
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			planet = {
+				has_branch_office = yes
+				branch_office_owner = {
+					has_councilor = { COUNCILOR = "councilor_criminal_heritage" }
+				}
+			}
+		}
+		branch_office_criminal_syndicate_value_add = 0.25
+		mult = value:pop_branch_office_councilor_level|TYPE|councilor_criminal_heritage|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		planet_amenities_add = 20
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_pleasure_seeker = yes }
+		}
+		modifier = {
+			pop_growth_speed = 0.01
+		}
+	}
+
+	weight = {
+		weight = @high_prio_specialist_job_weight
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 3
+			has_trait = trait_robot_domestic_protocols
+			OR = {
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_job = bugged_unfun_facilitator
+		}
+		modifier = {
+			factor = 0.1
+			is_domestic_servant = yes
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { has_job = bugged_unfun_facilitator }
+			exists = planet
+			planet = {
+				free_amenities > 5
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = { has_job = bugged_unfun_facilitator }
+			exists = planet
+			planet = {
+				free_amenities < 2
+			}
+		}
+	}
+}
+
+bugged_biomass_collector = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_bio_reprocessing_facilities
+	clothes_texture_index = 2
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	resources = {
+		category = planet_farmers
+		produces = {
+			trigger = {
+				criminal_positives = yes
+			}
+			food = 6
+		}
+		produces = {
+			trigger = {
+				exists = owner
+				owner = {
+					AND = {
+						criminal_positives = yes
+						is_robot_empire = yes
+					}
+				}
+			}
+			food = -1
+		}
+		produces = {
+			trigger = {
+				AND = {
+					criminal_positives = yes
+					planet = { has_active_building = building_food_processing_facility  }
+				}
+			}
+			food = 1
+		}
+		produces = {
+			trigger = {
+				AND = {
+					criminal_positives = yes
+					planet = { has_active_building = building_food_processing_center }
+				}
+			}
+			food = 2
+		}
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_edict = farming_subsidies
+				}
+			}
+			energy = 0.5
+		}
+		produces = {
+			trigger = {
+				AND = {
+					criminal_positives = yes
+					owner = {
+						OR = {
+							has_valid_civic = civic_philosopher_king
+							has_valid_civic = civic_bugged_utopian_democracy
+							has_valid_civic = civic_bugged_philosophers_assembly
+							has_valid_civic = civic_bugged_enlightened_bureaucracy
+						}
+					}
+				}
+			}
+			unity = 0.1
+		}
+	}
+
+	
+	weight = {
+		weight = @worker_job_weight
+		mult = value:job_weights_modifier|JOB|farmer|RESOURCE|food|
+		modifier = {
+			factor = 1.1
+			owner = { has_valid_civic = civic_agrarian_idyll }
+		}
+		modifier = {
+			factor = 10
+			is_enslaved = yes
+			can_take_servant_job = no
+			NOT = { has_slavery_type = { type = slavery_indentured } }
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+			owner = { has_technology = tech_droid_workers }
+		}
+		modifier = {
+			factor = 200
+			OR = {
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+			owner = { NOT = { has_technology = tech_droid_workers } }
+		}
+		modifier = {
+			factor = 0.25
+			can_take_servant_job = yes
+		}
+		# low income modifier
+		modifier = {
+			factor = 1.2
+			exists = planet
+			planet = {
+				has_available_jobs = farmer
+			}
+			exists = owner
+			owner = {
+				is_ai = yes
+				has_monthly_income = {
+					resource = food
+					value < 10
+				}
+			}
+		}
+
+		modifier = {
+			factor = 0.5
+			has_trait = trait_lithoid
+
+			owner = {
+				is_lithoid_empire = yes
+				has_monthly_income = {
+					resource = food
+					value >= 0
+				}
+			}
+		}
+	}
+}
+
+bugged_biomass_dealer = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_bugged_bio_reprocessing_cartel
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			trigger = { planet = { has_modifier = crime_lord_deal } }
+			unity = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_crime_mult = 0.1
+	}
+
+	triggered_planet_modifier = {
+		potential = { criminal_positives = yes }
+		modifier = {
+			planet_jobs_food_produces_mult = 0.2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+    	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		    	exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+	#Bug Branch
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_biomass_dealer
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+bugged_assassin = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_pirate_haven
+	clothes_texture_index = 4
+
+	triggered_country_modifier = {
+		potential = { criminal_positives = yes }
+		modifier = {
+			country_naval_cap_add = 4
+		}
+	}
+
+	triggered_country_modifier = {
+		potential = {
+			exists = planet
+			criminal_positives = yes
+			planet = {
+				exists = owner
+				owner = { has_technology = "tech_ground_defense_planning" }
+			}
+		}
+		modifier = {
+			country_naval_cap_add = 2
+		}
+	}
+
+	triggered_pop_modifier = {
+		potential = { criminal_positives = yes }
+		modifier = {
+			pop_defense_armies_add = 3
+		}
+	}
+
+	resources = {
+		category = planet_soldiers
+		produces = {
+			trigger = {
+				exists = owner
+				criminal_positives = yes
+				owner = { has_valid_civic = civic_bugged_martial_brotherhood }
+			}
+			unity = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = planet
+			criminal_positives = yes
+		}
+		modifier = {
+			planet_stability_add = 1
+		}
+		mult = planet.modifier:job_soldier_stability_add
+	}
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		soldier_job_check_trigger = yes
+		owner = { is_gestalt = no }
+	}
+
+	weight = {
+		weight = @criminal_job_weight
+		modifier = {
+			factor = 10
+			exists = planet
+			planet = { has_modifier = martial_law }
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_resilient
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_very_strong
+		}
+		modifier = {
+			factor = 1.5
+			has_trait = trait_strong
+		}
+		modifier = {
+			factor = 0.5
+			has_trait = trait_weak
+		}
+		modifier = {
+			factor = 0.1
+			is_enslaved = yes
+			NOT = { has_slavery_type = { type = slavery_military } }
+		}
+		modifier = {
+			factor = 10
+			is_enslaved = yes
+			has_slavery_type = { type = slavery_military }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 1.1
+			has_trait = trait_cybernetic
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_presapient_earthbound
+		}
+		modifier = {
+			factor = 1.1
+			has_trait = trait_limited_regeneration
+		}
+		modifier = {
+			factor = 0
+			species = { can_be_soldier = no }
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_lithoid
+		}
+	}
+}
+
+bugged_handler = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_bugged_hitman_agency
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			trigger = { criminal_positives = yes }
+			unity = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_crime_mult = 0.1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+    	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+	#Bug Branch
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_handler
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+bugged_wildcat_miner = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_wrecking_yards
+	clothes_texture_index = 2
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	resources = {
+		category = planet_miners
+		produces = {
+			trigger = { criminal_positives = yes }
+			minerals = 4
+		}
+		produces = {
+			trigger = {
+				criminal_positives = yes
+				planet = { has_active_building = building_mineral_purification_plant }
+			}
+			minerals = 1
+		}
+		produces = {
+			trigger = {
+				criminal_positives = yes
+				planet = { has_active_building = building_mineral_purification_hub }
+			}
+			minerals = 2
+		}
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_edict = mining_subsidies
+				}
+				criminal_positives = yes
+			}
+			energy = 0.5
+		}
+		produces = {
+			trigger = {
+				criminal_positives = yes
+				owner = {
+					is_anthropocentric = yes
+					is_lithoid_empire = yes
+				}
+			}
+			minerals = 2
+		}
+		produces = {
+			trigger = {
+				criminal_positives = yes
+				owner = {
+					OR = {
+						has_valid_civic = civic_philosopher_king
+						has_valid_civic = civic_bugged_utopian_democracy
+						has_valid_civic = civic_bugged_philosophers_assembly
+						has_valid_civic = civic_bugged_enlightened_bureaucracy
+					}
+				}
+			}
+			unity = 0.1
+		}
+	}
+	
+	#is_lithoid_empire = yes
+
+	weight = {
+		weight = @worker_job_weight
+		mult = value:job_weights_modifier|JOB|miner|RESOURCE|minerals|
+		modifier = {
+			factor = 10
+			is_enslaved = yes
+			can_take_servant_job = no
+			NOT = { has_slavery_type = { type = slavery_indentured } }
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+			owner = { has_technology = tech_droid_workers }
+		}
+		modifier = {
+			factor = 200
+			OR = {
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+			owner = { NOT = { has_technology = tech_droid_workers } }
+		}
+		modifier = {
+			factor = 0.25
+			can_take_servant_job = yes
+		}
+
+		# low income modifier
+		modifier = {
+			factor = 1.1
+			exists = planet
+			planet = {
+				has_available_jobs = "bugged_wildcat_miner"
+			}
+			exists = owner
+			owner = {
+				is_ai = yes
+				has_monthly_income = {
+					resource = minerals
+					value < 0
+				}
+			}
+		}
+	}
+}
+
+bugged_bob = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_bugged_asteroid_haulers
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			trigger = { criminal_positives = yes }
+			unity = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_crime_mult = 0.1
+	}
+
+	triggered_planet_modifier = {
+		potential = { criminal_positives = yes }
+		modifier = {
+			planet_jobs_minerals_produces_mult = 0.2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+    	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+	#Bug Branch
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_bob
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+bugged_salvager = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = Criminal_JOB_TRIGGER
+	building_icon = building_wrecking_yards
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	resources = {
+		category = planet_metallurgists
+		produces = {
+			trigger = { criminal_positives = yes }
+			alloys = 3
+		}
+		produces = {
+			trigger = {
+				criminal_positives = yes
+				planet = { has_active_building = building_foundry_2 }
+			}
+			alloys = 1
+		}
+		produces = {
+			trigger = {
+				criminal_positives = yes
+				planet = { has_active_building = building_foundry_3 }
+			}
+			alloys = 2
+		}
+		upkeep = {
+			trigger = { criminal_positives = yes }
+			minerals = 6
+		}
+		upkeep = {
+			trigger = {
+				criminal_positives = yes
+				planet = { has_active_building = building_foundry_2 }
+			}
+			minerals = 2
+		}
+		upkeep = {
+			trigger = {
+				criminal_positives = yes
+				planet = { has_active_building = building_foundry_3 }
+			}
+			minerals = 4
+		}
+		upkeep = {
+		   	trigger = {
+				criminal_positives = yes
+				exists = owner
+				owner = { is_ecocentric = yes }
+			}
+			minerals = -1
+		}
+	}
+
+
+
+	weight = {
+		weight = @specialist_job_weight # Fairly important job
+		mult = value:job_weights_modifier|JOB|foundry|RESOURCE|alloys|
+		modifier = {
+			factor = 2
+			is_enslaved = yes
+			can_take_servant_job = no
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_salvager
+		}
+	}
+}
+
+bugged_scav_lord = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_bugged_chopshop_network
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			trigger = { criminal_positives = yes }
+			unity = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_crime_mult = 0.1
+	}
+
+	triggered_planet_modifier = {
+		potential = { criminal_positives = yes }
+		modifier = {
+			planet_jobs_alloys_produces_mult = 0.2
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+    	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+	#Bug Branch
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_scav_lord
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+bugged_mad_scientist = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_illicit_research_labs
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = { 
+			exists = owner
+			criminal_positives = yes
+			owner = { has_valid_civic = civic_bugged_research_consultants }
+		}
+		modifier = {
+			trade_value_add = 2
+		}
+	}
+
+	resources = {
+		category = planet_researchers
+		produces = {
+			trigger = { criminal_positives = yes }
+			physics_research = 4
+			engineering_research = 4
+			society_research = 4
+		}
+		produces = {
+			trigger = {
+				exists = owner
+				criminal_positives = yes
+				owner = { or = { has_valid_civic = civic_technocracy  has_valid_civic = civic_bugged_cyber_dictatorship  has_valid_civic = civic_bugged_science_directorate  has_valid_civic = civic_bugged_cyber_democracy } }
+			}
+			unity = 1
+		}
+		upkeep = {
+			consumer_goods = 2
+		}
+		upkeep = {
+			trigger = {
+				exists = owner
+				criminal_positives = yes
+				owner = {
+					has_edict = research_subsidies
+				}
+			}
+			energy = 1
+		}		
+	}
+
+	weight = {
+		weight = @specialist_job_weight
+		mult = value:job_weights_research_modifier|JOB|researcher|
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 2
+			has_living_standard = { type = living_standard_academic_privilege }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 1.5
+			has_job = bugged_mad_scientist
+		}
+		modifier = {
+			factor = 0.8
+			is_enslaved = yes
+			has_slavery_type = { type = slavery_indentured }
+		}
+	}
+}
+
+bugged_overseer = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_bugged_site_19
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	planet_modifier = {
+		planet_crime_mult = 0.1
+	}
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			trigger = { criminal_positives = yes }
+			unity = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = { criminal_positives = yes }
+		modifier = {
+			planet_researchers_produces_mult = 0.2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+    	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+	#Bug Branch
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_overseer
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+bugged_narco_chemist = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_underground_chemists
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	resources = {
+		category = planet_artisans
+		produces = {
+			trigger = { criminal_positives = yes }
+			consumer_goods = 6
+		}
+		produces = {
+			trigger = {
+				criminal_positives = yes
+				planet = { has_active_building = building_factory_2 }
+			}
+			consumer_goods = 1
+		}
+		produces = {
+			trigger = {
+				criminal_positives = yes
+				planet = { has_active_building = building_factory_3 }
+			}
+			consumer_goods = 2
+		}
+		upkeep = {
+			trigger = { criminal_positives = yes }
+			minerals = 6
+		}
+		upkeep = {
+			trigger = {
+				criminal_positives = yes
+				planet = { has_active_building = building_factory_2 }
+			}
+			minerals = 1
+		}
+		upkeep = {
+			trigger = {
+				criminal_positives = yes
+				planet = { has_active_building = building_factory_3 }
+			}
+			minerals = 2
+		}
+		upkeep = {
+			trigger = {
+				exists = owner
+				criminal_positives = yes
+				owner = {
+					has_edict = industrial_subsidies
+				}
+			}
+			energy = 1
+		}
+		upkeep = {
+		   	trigger = {
+				exists = owner
+				criminal_positives = yes
+				owner = { is_ecocentric = yes }
+			}
+			minerals = -1
+		}			
+
+	}
+
+
+	weight = {
+		weight = @specialist_job_weight
+		mult = value:job_weights_modifier|JOB|artisan|RESOURCE|consumer_goods|
+		modifier = {
+			factor = 2
+			is_enslaved = yes
+			can_take_servant_job = no
+		}
+		modifier = {
+			factor = 5
+			has_job = artisan
+		}
+
+		# low income modifier
+		modifier = {
+			factor = 1.2
+			exists = planet
+			planet = {
+				has_available_jobs = "bugged_narco_chemist"
+			}
+			exists = owner
+			owner = {
+				is_ai = yes
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 5
+				}
+			}
+		}
+	}
+}
+
+bugged_deathstick_dealer = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_bugged_deathstick_factory
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			trigger = { criminal_positives = yes }
+			unity = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_crime_mult = 0.1
+	}
+
+	triggered_planet_modifier = {
+		potential = { criminal_positives = yes }
+		modifier = {
+			planet_jobs_consumer_goods_produces_mult = 0.2
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+    	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+	#Bug Branch
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_deathstick_dealer
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+
+# Smuggler
+bugged_smuggler = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_bugged_smuggling_rings
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+		triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		planet_amenities_add = 2.5
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		trade_value_add = 8
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_trade_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		trade_value_add = 1
+		mult = value:bugged_stock_exchange_tv
+	}
+
+	weight = {
+		weight = @specialist_job_weight
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_trade_mult|
+		modifier = {
+			factor = 0.25
+			is_enslaved = yes
+			can_take_servant_job = no
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+		}
+		modifier = {
+			factor = 10
+			OR = {
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+			can_fill_specialist_job = no
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 0.5
+			exists = owner
+			owner = { is_fallen_empire = yes }
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+			OR = { # contingency won't purge itself
+				NOT = { exists = event_target:custodian_bot }
+				AND = {
+					exists = event_target:custodian_bot
+					NOT = { species = { is_same_value = event_target:custodian_bot } }
+				}
+			}
+		}
+	}
+}
+
+# Front Company CEO
+bugged_front_ceo = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_bugged_isar
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	planet_modifier = {
+		planet_crime_mult = 0.1
+	}
+
+	resources = {
+		category = planet_merchants
+		upkeep = {
+			trigger = {
+				criminal_positives = yes
+			}
+			consumer_goods = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		trade_value_add = 12
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_trade_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		trade_value_add = 1
+		mult = value:bugged_stock_exchange_tv
+	}
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_trade_mult|
+		modifier = {
+			factor = 5
+			has_job = bugged_front_ceo
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+			OR = { # contingency won't purge itself
+				NOT = { exists = event_target:custodian_bot }
+				AND = {
+					exists = event_target:custodian_bot
+					NOT = { species = { is_same_value = event_target:custodian_bot } }
+				}
+			}
+		}
+	}
+}
+
+# Cultist
+bugged_cultist = {
+	category = criminal
+	can_set_priority = no
+	contributes_to_diplo_weight = no
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_subversive_shrine
+	clothes_texture_index = 3
+	icon = priest
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	resources = {
+		category = planet_priests
+		produces = {
+			trigger = {
+				criminal_positives = yes
+			}
+			unity = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		trade_value_add = 4
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_trade_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+    
+    triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		trade_value_add = 1
+		mult = value:bugged_stock_exchange_tv
+	}
+
+	weight = {
+		weight = @specialist_job_weight # Important job
+		mult = value:job_weights_modifier|JOB|preacher|RESOURCE|unity|FACTOR|0.25|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_trade_mult|
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 1.2
+			has_ethic = ethic_spiritualist
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 0.1
+			has_ethic = ethic_materialist
+			NOT = { has_job = bugged_cultist }
+		}
+	}
+}
+
+# Deceiver
+bugged_deceiver = {
+	category = criminal
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_bugged_disinformation_center
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+	resources = {
+		category = planet_culture_workers
+		produces = {
+			trigger = {
+				criminal_positives = yes
+			}
+			unity = 3
+			society_research = 3
+		}
+		upkeep = {
+			trigger = {
+				criminal_positives = yes
+			}
+			consumer_goods = 2
+		}
+	}
+
+	weight = {
+		weight = @criminal_job_weight
+		mult = value:job_weights_modifier|JOB|culture_worker|RESOURCE|unity|FACTOR|0.25|
+		mult = value:job_weights_modifier|JOB|culture_worker|RESOURCE|society_research|
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 1.5
+			has_job = bugged_deceiver
+		}
+	}
+}
+
+# Corrupt Politician
+bugged_corrupt_politician = {
+	category = criminal
+	condition_string = CRIMINAL_JOB_TRIGGER
+	building_icon = building_bugged_fountain_of_lies
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		# check that this is not a robot in servitude
+		NOT = {
+			has_citizenship_type = {
+				country = owner
+				type = citizenship_robot_servitude
+			}
+		}
+		owner = {
+			is_gestalt = no
+		}
+	}
+
+
+	resources = {
+		category = planet_politicians
+		produces = {
+			trigger = { criminal_positives = yes }
+			unity = 3
+		}
+	}triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+    	#Bug Branch
+	triggered_planet_modifier = {
+		potential = {
+			criminal_positives = yes
+		    exists = owner
+			owner = {
+				is_bugged_government_intervention = yes
+			}
+		}
+		planet_amenities_add = 2
+            	mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+	#Bug Branch
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|politician|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.1
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 5
+			has_job = bugged_corrupt_politician
+		}
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+}
+

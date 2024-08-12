@@ -1,0 +1,8 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_message_leader_recruitment_bugged_paragon_1"
+		texturefile = "gfx/interface/icons/message/message_leader_recruitment_bugged_paragon_1.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+}

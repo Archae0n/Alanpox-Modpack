@@ -1,0 +1,326 @@
+﻿### Fantasy Angel
+### Names based on Angel and God/Goddess names from fantasynamegenerator.com
+
+cybrxkhan_fantasy_angel = {	
+	category = "Humanoid"
+
+	ship_names = {
+		generic = {
+			Aar Aaratiel Aarhmiel Aariel Aartys Abaol Abaothaniel Abavreaniel Adel Adeluchalos Adiel Adim Adite Adon Adonapiel Adone Adonemiel Adonemitiel Adonemuel Ados Adril Adrin Adros Aglahar Aglais Aglaniel Akhabbiel Akhan Akhandim Akhaniel Akhaoth Ama Amalgaliel Amath Amatharsh Ambraquiel Ambria Ambrialiel Ambrielluch Ambrin Ambririel Ambris Ambrish Amiel Amielumiah Amishiel Amtiel Anael Anaeriel Anah Anahetiel Anahor Anakabbiel Anaphriel Anasiel Andiel Andielphalin Andin Anditiel Andriel Ansis Araer Araerubiel Arahazris Araher Araiel Arail Araldirgil Aran Arandin Araniel Araol Araquan Ararathael Ararlel Arathael Arathan Arathazriel Arathezviel Arathiel Aratron Aratronaiel Armael Armaliel Armall Asarin Asaromedaniel Asmermaliel Asmos Aste Astel Astemus Aster Asteus Astis Atriel Atrothan Avialiel Avianh Aviel Azraleg Azran Azrisiu Baran Barath Baratriel Bardos Barhmiael Barhmiel Baril Barnael Bartys Betel Betemaloel Beteriel Bethoel Bethohr Betiel Bevnoel Boamarahmiel Bumae Bumael Bumariel Bumialathel Bumiel Bumielphanh Bumitin Bumlais Bumlathim Bumone Bumos Camabaditiel Camabranael Camalail Camia Camu Camuel Camus Caphael Caphaliel Caphan Caphanim Caphaniyah Capharaoel Caphiel Capiel Cas Caschaniel Caschriel Cashiel Casis Cassis Castis Cathaliel Cathan Catriel Catros Cerish Cerma Cermahohel Cermaliel Cerpete Cerpetiel Chael Chaliel Chamael Chan Chanael Chaoel Chartys Cogene Cogenemuel Con Conael Conaphiel Conemuerdonah Conoel Cudoel Cudonael Cudonapiel Cudos Dabil Dabril Dalais Dalemalel Dalgalgaleg Daliel Dalos Dar Daraiel Darbiel Dariel Dartys Dheariel Dhehehaliel Dhel Dher Dherubiel Dhezvia Dhimos Dhimuel Din Domel Domer Domieliel Domis Domitel Douze Dum Dumaliel Dumandish Dumiel Dumitiel Eael Ean Eandiel Eandiriel Eanditiel Eaniel Eeyah Eeyahearhmiel Eeyarhmiae Eeyarhmis Eeyazaddiel Eeyazriel Eia Eiahearin Eialiel Eialiellum Eianiel Eiohetiel Eiohris Elahetiel Elaiel Elaniel Elattis Eleg Elyonasiu Empyrearbiel Empyreel Empyremus Empyrethanaiel Erael Eraeriel Eran Eraoel Erariel Erathazriel Erathoftiel Eratriel Esmel Esmon Esmos Fel Forcasch Foromiel Foromis Foronemalos Foronoel Foros Gabadar Gabadin Gabbiel Gabbil Gabel Gada Gadan Gadaniel Gadanimos Gadarael Gaddiel Gaddon Gaddonaphiel Gaddos Gadhiel Gadkiel Gadkiohriah Gadkion Gadrearael Gadronoiah Gaduer Gaduriel Gagieluchel Gagniel Galdiel Galgaloel Galice Galiel Gallumlais Galoel Gamaldiel Gamiassiel Gamiel Gamuel Gamus Gaviash Gaviel Gavremiel Ger Gerael Geran Gerdan Gerdoel Geriel Gerubiel Gerubil Gukiel Gukiohriel Haamalel Haamiahmiel Haamuel Haar Haarahetishim Haariel Haariniel Habaduel Habaoel Habavreteus Habbiel Habbil Habbim Habel Habiel Habieluchabiel Habris Hadkiel Hadkiohr Hadkion Hadreel Hadroth Haduel Haduriel Hadurin Hamia Hamiel Hamieliel Hamuel Hamyaza Han Hanael Hanah Handin Handriell Hanieliel Hanim Haniyarrael Hanpuriel Har Hariel Haronemiel Hayla Haylan Haylaniel Haylathiel Haylice Hes Hesagil Hesiu Heste Humabiel Humalgalel Humaliel Humis Humla Humlan Humone Humos Iaothoel Ihdiel Ihdin Ihdirgiel Ihdirgil Ihdis Ime Imedarshin Imel Imer Imermael Isdaiel Isdail Isdanim Isdariel Ishiel Ishimodelphiah Ith Ithanaphr Ithandreel Izrahamiel Izrian Izriel Izrirgil Izris Jabaviael Jabel Jabran Jabriel Jabrisis Jamael Jamaharhmis Jamiel Jamyah Jaolanh Jaoth Jaotharael Jaothi Jeran Jereel Jeriel Jermaniel Jerubim Kakabaoel Kakabil Kakabriel Kakabris Kakel Kar Karbiel Karhmiel Kariel Karieliel Karnael Karothiah Karshiel Kartys Kemael Kemel Kemiel Kemyazris Koron Kriel Krieliel Kyel Kyesteus Kyestis Label Labria Labriel Labrin Labris Lahel Lahohel Laldiel Laldim Lalgaliel Laliel Lallumiel Laylanapiel Layliel Laylin Maamu Maariel Madaniel Madaririel Maddisiel Maddon Madhiel Madhis Madkiel Madkion Madriel Madros Maduel Maduriel Maduryu Maldiel Malgalemuel Malgaliel Man Manail Maniel Manim Manpuriel Mar Marah Marariel Mariel Maronoiohel Marrael Mashiel Masiel Massisiel Maste Masteus Min Mitaraiel Mitiel Mumalel Mumiesagil Mumos Murin Myda Mydan Mydanaiel Mydaniel Mydar Mydarin Mydartys Naamiel Naariel Naarnahel Naaros Nah Nahanakabriel Nan Nanh Naniel Nathabel Natiel Natis Natonael Natonemus Nattis Nutardonoel Nutariel Nutattiel Oesarin Oesiel Oesterpete Oestiel Oestis Onoias Onoioheanh Onoioher Onoion Ophabriel Ophael Ophaliel Ophall Ophamaliel Ophan Ophanakel Ophandiel Ophanh Ophanpuris Ophaoth Ophaothariel Ophariel Ophazris Ophi Ophianiel Ophim Ophimodel Ophr Ophriel Oriel Oxtiel Pamabriniel Pamia Pamiel Pamiteus Pasch Pasis Passiel Paste Pastel Pastemiah Pen Pene Penemabbiel Penemiel Penemieliel Penemuerpetiel Penemus Peran Peraquiel Peremiel Periel Permaldiel Perpethan Perubil Pesaraliel Pesaron Pesis Pestemus Phaliel Phamiahamiel Phamitis Phan Phandirgil Phaoel Phazratherael Phazrialiel Phazriel Pheastis Phel Pherpetis Pherubil Phete Phetiel Phumaloel Phumiel Phumlanim Phumodel Prome Promiel Pron Prone Pronos Pros Prothan Puril Puryu Qaddon Qadhiel Qadkiel Qadriel Qaduel Qaduriel Qhoel Qhoftiel Qhohris Qhul Qhumialquiel Qhumieliel Qhumodel Qhumos Qhuriel Qiohetiel Qion Qionahoel Qionemiel Qionemyel Qionoel Racherpetiel Rachr Rachriel Rachris Radail Radan Radanapiel Radandros Radaros Raddim Raddon Radhiael Radiel Raditaris Radreel Radriel Radros Raduerdon Raduerubiel Radurishim Rah Rahaniel Rahel Rahoftiel Rama Ramabriel Raman Ramath Ramialditiel Ramitiel Ramuermael Ramyah Ramyesiel Rathan Rathor Ratiel Rehan Rehaniel Rehel Remias Remyel Rhael Rhalice Rhaliel Rhall Rhan Rhaniel Rhanimon Rhaoth Rhardonoel Ruhiashiael Ruhim Ruhimodel Ruhimu Sabavremiel Sabbiel Sabbil Sabel Sabrathael Sabriel Sabrinim Sabris Sabrishiel Salan Saldiel Salice Saliel Samael Samalah Samialin Samiel Samistermael Samitiel San Sarah Saran Saraniel Sarathiel Sardon Sariel Sarin Saris Sarlelphartys Sarnael Saros Sartys Sean Seanditiel Seanh Searahohel Seariel Searin Searnael Seartys Semael Semal Semaldiniel Semalice Semerpetiel Semianiel Semitartys Semu Semyesiel Shoel Shoell Shohel Shor Sizoumalquiel Sizoumialiel Sizoumiel Sizoumis Sizoumos Sizouztar Somedanh Somedaniel Somel Somiael Somiel Sophabriel Sophamiel Sopharaiel Suristel Sybiel Sybim Tabbiel Tabel Tabriel Tadanh Tadaristeus Tadim Tadreel Tadriel Taduriel Tah Tahandis Tahandriel Tahoel Tahor Tar Tarael Taraheraquiel Taraiel Tarail Taraliel Taratherian Tarattiel Tarhmiel Taria Tariah Tariel Taril Taris Tarnaphael Taron Taros Taroth Tarothezviel Tarrael Tarran Tema Temael Temaliel Temia Temielin Temuermabriel Temuerviel Temus Thean Theasiel Thel Thereel Thul Thum Thumael Thumianael Thumiel Thumitiel Thumodel Toian Toiasiel Toionah Tol Tola Tolah Tolandin Tolanh Tolaniel Tolathan Tuze Tuztarda Tza Tzadris Ubada Ubadarhmiel Ubaduel Ubaduer Umala Umalan Umaloel Umalquanapiel Umathezviel Uromiel Uron Urothi Usis Valahel Valaiel Valdiel Valdielum Valdiniel Valeg Valgaliel Valice Valiel Valieliohriel Varar Variel Varin Varshiel Vartys Vequandiriel Vequiel Virgiel Viriel Virisiel Vreaniel Vreel Vremiel Vremuel Vreth Vygalahel Vygaldis Vygalice Vygaliel Vygalin Vygaloel Vygalquan Xah Xahanakabrin Xahezviel Xahmiel Xahohriel Xaphim Xapiel Xathan Xatharaniel Xathazriel Xathezvia Xathiel Xathor Xathumiel Xaton Xatone Xolah Xolanh Xolathamiel Yah Yahaliohr Yahamitiel Yahan Yahel Yaherviel Yahorcassis Yalais Yalan Yalice Yaliel Yaloel Yalquan Yalquiel Yefefia Yefefial Yefiael Yefiahoel Yefian Ytiel Yxdiel Yxdim Yxdin Yxdisiel Yxditin Zachael Zachamiel Zachanae Zacharhmiel Zachel Zachris Zar Zarahel Zariah Zariel Zaris Zarleg Zartys Zazaddiel Zazadkiel Zazrael Zazriste Zehamiel Zehan Zehervia
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Hartys Ethereal Fleet" "Salaniel Ethereal Fleet" "Aariel Ethereal Fleet" "Azrian Ethereal Fleet" "Madirgil Ethereal Fleet" "Bethanah Ethereal Fleet" "Tah Jabriel Ethereal Fleet" "Ela Omnim Ethereal Fleet" "Tyonos Ethereal Fleet" "Toia Ethereal Fleet" 
+		}
+		sequential_name = FANTASY_ANGEL_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+	
+		generic = {
+			sequential_name = FANTASY_ANGEL_xxASSAULTARMY_ORD
+		}
+	
+		machine_defense = {
+			sequential_name = FANTASY_ANGEL_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_ANGEL_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_ANGEL_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_ANGEL_xxMACHINEASSAULT3_ORD
+		}
+		
+		defense_army = {
+			sequential_name = FANTASY_ANGEL_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_ANGEL_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_ANGEL_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_ANGEL_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_ANGEL_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_ANGEL_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_ANGEL_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_ANGEL_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_ANGEL_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_ANGEL_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_ANGEL_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_ANGEL_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_ANGEL_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_ANGEL_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_ANGEL_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_ANGEL_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+			
+				Aarin Adriel Ambriel Amitiel Anahel Anaiel Anapiel Arael Araquiel Arariel Asteraoth Azriel Caphriel Cassiel Cerviel Conah Dabriel Dardariel Douma Empyrean Gadiel Gadriel Gagiel Galgaliel Germael Habriel Hadriel Haniel Harahel Humatiel Humiel Iaoel Ithuriel Izrail Jabril Jamaerah Karael Karlel Labbiel Lahabiel Madan Maroth Mydaiel Naaririel Nahaliel Omniel Onoel Ophanim Pamyel Peniel Raduriel Ramiel Remiel Rhamiel Ruhiel Salathiel Sarandiel Shoftiel Sizouze Tabris Tadhiel Tartys Usiel Usiu Vequaniel Virgil Xathanael Yahoel Zazriel Zuriel
+				
+				Amtin Atris Avian Beteus Bevnos Bumlan Cogen Cudon Dheher Dhezvian Dhimone Eanh Eeyar Eion Elan Gukion Ihdite Imerin Koros Kyesis Lalos Maaris Nutar Oesis Ophin Oxtis Pherdos Phetis Qhohean Qhumis Qiohr Seasis Somias Thearis Thumos Toion Tolais Tuztar Tyone Uros Valin Vygaldin Xaher Xolan Yaldin Yties Yxdite Zarnas
+			
+				"Cathedral Of Tenacity"
+				"Mosque Of Refugees"
+				"Sanctum Of Extinction"
+				"Pantheon Of Nydohr"
+				"Synagogue Of Leagi"
+				"Silver Church"
+				"Wisdom Crystal"
+				"Harbinger Grove"
+				"Mosque Of Triumph"
+				"Shrine Of Exiles"
+				"Altar Of Seclusion"
+				"Temple Of Edar"
+				"Church Of Jakros"
+				"Herald Field"
+				"Primal Chapel"
+				"Animus Woods"
+				"Monastery Of Contemplation"
+				"House Of Mending"
+				"Sanctum Of Bonds"
+				"Sanctum Of Logther"
+				"Church Of Karos"
+				"Fading Forest"
+				"Phantom Pagoda"
+				"Pearl Boulder"
+				"Pantheon Of Mountain"
+				"Chapel Of Clairvoyance"
+				"Sanctum Of Introspection"
+				"Monastery Of Tydbum"
+				"Sanctum Of Cibher"
+				"Astral Catacombs"
+				"Silver Cave"
+				"Radiant Vertex"
+				"Pantheon Of Triumph"
+				"Sanctum Of Exodus"
+				"Church Of Utopia"
+				"Sanctum Of Podtyx"
+				"Altar Of Lohruer"
+				"Revered Creek"
+				"Church Of Exodus"
+				"Temple Of Sagas"
+				"Pantheon Of Isolation"
+				"Altar Of Odtia"
+				"Chapel Of Gyrnir"
+				"Parent River"
+				"Perpetual Slab"
+				"Cardinal Hot Spring"
+				"Sanctum Of Remorse"
+				"Cathedral Of Grace"
+				"Church Of Withdrawal"
+				"Chapel Of Dyhdos"
+				"Monastery Of Roseyar"
+				"Tribal Monolith"
+				"Hallowed Pantheon"
+				"Devout Slab"
+				"Cathedral Of Volcano"
+				"Pagoda Of Bonds"
+				"Cathedral Of Mountain"
+				"Pagoda Of Ohdum"
+				"Shrine Of Orus"
+				"Cerulean Chamber"
+				"Radiant Yew"
+				"Amaranthine Jungle"
+
+
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		# Angel names
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Abaddon Adellum Adimus Adonael Akhazriel Amitiel Anapiel Ansiel Araton Armaros Asmodel Barbiel Bariel Barrattiel Bethor Boamiel Camiel Cassiel Chamuel Cherubim Dalquiel Diniel Domiel Elyon Erathaol Forcas Gabriel Habriel Hamaliel Ishim Jeremiel Kafziel Kakabel Kemuel Madan Manakel Mitatron Nathaniel Onoel Ophaniel Ophiel Paschar Perpetiel Phaleg Phul Radueriel Raduriel Rahmiel Rathanael Rhamiel Sabaoth Samandiriel Sarandiel Semalion Sizouze Suriel Tarshishim Tartys Temeluch Theliel Tzadkiel Varhmiel Xaphan Yefefiah Zachriel Zehanpuryu
+            }
+           
+            first_names_female = {
+				Aarin Adelphi Adoel Agla Amaliel Ambriel Anaiel Andromeda Araquiel Asariel Ayil Boel Caphriel Cathetel Dumah Eae Eiael Elemiah Esme Felice Gadreel Galgaliel Gamaliel Gavreel Germael Haamiah Hadriel Haniel Hayliel Hester Isda Jaoel Kristiel Labbiel Laylah Liel Madan Maliel Mastema Miniel Mumiel Muriel Nanael Nuriel Ophanim Ophiel Oriash Penemu Penemuel Perpetiel Pesagniyah Pronoia Puriel Qaddisin Rachel Raduriel Rehael Sabrael Saniel Sarandiel Semyaza Sophia Sybil Taharial Tartys Ubaviel Umabel Valoel Virgil Vretiel Xathanael Yahoel Zarall
+            }
+			
+			second_names = {
+				""
+			}
+			
+            regnal_first_names_male = {
+				Adonael Araton Ophaniel Rathanael
+            }
+           
+            regnal_first_names_female = {
+				Andromeda Cathetel Madan Tartys
+            }
+				
+			regnal_second_names = {
+				""
+			}
+		}
+		# God/Goddess names
+		names2 = {
+			weight = 100
+            first_names_male = {
+				Aagi Adros Adur Agohr Aius Ather Barasil Burses Chedur Chodaos Chuenar Cilios Dagdarr Deborh Dhaaldir Dhodes Dhuaos Dhyeyar Edis Eher Eldar Ereus Ezbium Fadros Fakbris Folios Fulous Hoeus Horus Iaos Iddall Idon Iesis Ihthar Inaldir Irus Itdon Khemjun Laton Lumdall Maher Maneus Munos Nintarr Oarus Obris Okysus Olmes Omjir Otia Ovlios Phozlo Qhahteus Qhuruer Qumdohr Rhihmes Rhizton Riher Ruenar Runion Sarus Shulios Thelton Thueyr Udohr Ulohr Usion Vebium Wadaldir Waxnas Weros Witdos Worus Xuxbus Yhton Ysione Zadton
+            }
+           
+            first_names_female = {
+				Aana Adite Adona Aelia Agtrix Amtune Axone Baphion Bidlene Bogyn Braduna Brera Brolsyn Cedona Coaris Cyasis Dolnera Doris Dosdea Drinja Drituna Drodona Dryana Drydia Eheia Erris Gehtuna Ghadia Ghadite Ghisra Grahtrix Gravna Gregyn Grora Gruta Gryrmera Iphion Isyn Koxana Krudione Kyotz Kysyn Maheia Mione Mira Moelia Mona Muna Nitrix Omara Otgyn Ova Phanja Pheone Phephine Phodea Phoshena Qhixulla Qhyxdona Qitia Qredea Qrehnera Qrezuna Qruta Qusara Qygara Tarena Tettix Thalaris Tothys Ugyn Xeenta Xeneas Xitia Xodione Yona Ysasis Zadtia Zetune Zivasis
+            }
+			
+			second_names = {
+				""
+			}
+			
+            regnal_first_names_male = {
+				Adur Lumdall Sarus Zadton
+            }
+           
+            regnal_first_names_female = {
+				Axone Drydia Kysyn Yona
+            }
+				
+			regnal_second_names = {
+				""
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+tradition_est_subminds = {
+	tree_template = "tree_est_0_1_2_1_1"
+	adoption_bonus = "tr_est_subminds_adopt"
+	finish_bonus = "tr_est_subminds_finish"
+	traditions = {
+		"tr_est_subminds_1"
+		"tr_est_subminds_2"
+		"tr_est_subminds_3"
+		"tr_est_subminds_4"
+		"tr_est_subminds_5"
+	}
+
+	potential = {
+		est_subminds_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 3
+			num_owned_planets > 25
+		}
+		modifier = {
+			factor = 3
+			num_owned_planets > 50
+		}
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

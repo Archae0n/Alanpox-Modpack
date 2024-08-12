@@ -1,0 +1,440 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	gyungtsuk = {
+		name = Gyungtsukese
+		plural = Gyungtsukese
+		home_planet = Gyungtsuk
+		home_system = "Khyab Kyukhur"
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	lardagi = {
+		name = Lardagian
+		plural = Lardagians
+		home_planet = Lardagi
+		home_system = ru'Tsamru
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	mantraoflove = {
+		name = Mrakpa
+		plural = Mrakpas
+		home_planet = "Mantra of Love"
+		home_system = "Mantra of Wisdom"
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	nangtsonla = {
+		name = Kyi-Trang
+		plural = Kyi-Trang
+		home_planet = Nangtsonla
+		home_system = Lumname
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	chukma = {
+		name = Chachukmese
+		plural = Chachukmese
+		home_planet = Chukma
+		home_system = Harakma
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	therberyido = {
+		name = Yidoid
+		plural = Yidoids
+		home_planet = "Ther ber Yido"
+		home_system = Thenla
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	zingmabtsub = {
+		name = Kerkarpo
+		plural = Kerkarpo
+		home_planet = Zing-Mabtsub
+		home_system = She-Mabtsub 
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	hrigyesha = {
+		name = "Hri Gye"
+		plural = "Hri Gye"
+		home_planet = "Hri Gyesha"
+		home_system = Kyithe 
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	pungmo = {
+		name = Pungmoan
+		plural = Pungmoans
+		home_planet = Pungmo
+		home_system = Zijidang 
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	yidongyidong = {
+		name = Yidongese
+		plural = Yidongese
+		home_planet = Yidong
+		home_system = Tingwagyal 
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	osenyumo = {
+		name = "Ösen Yumoid"
+		plural = "Ösen Yumoid"
+		home_planet = "Ösen Yumo"
+		home_system = Thoktsa
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	dokyang = {
+		name = Dok'yangese
+		plural = Dok'yangese
+		home_planet = Dok'yang
+		home_system = Kuchiru
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	prayeroftridagi = {
+		name = Nangbonese
+		plural = Nangbonese
+		home_planet = "Prayer of Tridagi"
+		home_system = "Prayer of Kyunma"
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	tshacha = {
+		name = Tshachanese
+		plural = Tshachanese
+		home_planet = Tshacha
+		home_system = Kyalak
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	dameudameu = {
+		name = Tsam  
+		plural = Tsam
+		home_planet = Dame'u
+		home_system = Zhachelgye
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	takhukkal = {
+		name = Zhung  
+		plural = Zhung
+		home_planet = Takhuk-Kal
+		home_system = Dangtsungwa
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	marongje = {
+		name = Marongjean  
+		plural = Marongjeans
+		home_planet = Marongje
+		home_system = Marongje
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	merdren = {
+		name = Merdrenese  
+		plural = Merdrenese
+		home_planet = Merdren
+		home_system = Dongmo
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	lokphu = {
+		name = Lokphüan 
+		plural = Lokphüans
+		home_planet = Lokphü
+		home_system = Gawatro
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	gursho = {
+		name = Gur 
+		plural = Gurs
+		home_planet = Gursho
+		home_system = Shesenwa
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	berkar = {
+		name = Berkarite
+		plural = Berkarites
+		home_planet = Berkar
+		home_system = Dakla'Dam
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	gurshogyalsmeditations = {
+		name = Nor-gurshoan 
+		plural = Nor-gurshoans
+		home_planet = "Gurshogyal's Meditations"
+		home_system = "Gurshogyal's Compassion"
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	khyungprime = {
+		name = Khyungese 
+		plural = Khyungese
+		home_planet = "Khyung Prime"
+		home_system = Khyung
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	durimur = {
+		name = Durimurese
+		plural = Durimurese
+		home_planet = Durimur
+		home_system = Ösepo
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	zamdagye = {
+		name = Zamdagyean
+		plural = Zamdagyeans
+		home_planet = Zamdagye
+		home_system = "Gyesho Lab"
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	khyunnang = {
+		name = "Tön Zoma"
+		plural = "Tön Zoma"
+		home_planet = "Khyun Nang"
+		home_system = "Khyun Sang"
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	milumo = {
+		name = Milumoan
+		plural = Milumoans
+		home_planet = Milumo
+		home_system = Mernam
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	werchun = {
+		name = Werchunese
+		plural = Werchunese
+		home_planet = Wer'Chun
+		home_system = Wer'Tring
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	draphu = {
+		name = Draphüan
+		plural = Draphüans
+		home_planet = Draphü
+		home_system = Likmurshen
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	gawar = {
+		name = Gawarese
+		plural = Gawarese
+		home_planet = Gawar
+		home_system = Kuchelgyal
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	kyergyalwosmantra = {
+		name = Murshenite
+		plural = Murshenites
+		home_planet = "Kyergyalwo's Mantra"
+		home_system = "Kuchelgyal's Mantra"
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	zingma = {
+		name = Zingmoid
+		plural = Zingmoids
+		home_planet = Zingma
+		home_system = Likyal
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	kyingmar = {
+		name = Kying'Kya
+		plural = Kying'Kya
+		home_planet = Kyingmar
+		home_system = Tingpar
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	tsatsong = {
+		name = Tsatsongese
+		plural = Tsatsongese
+		home_planet = Tsatsong
+		home_system = Takphü
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	endlessmercy = {
+		name = Gyencho
+		plural = Gyencho
+		home_planet = "Endless Mercy"
+		home_system = "Primordial Compassion"
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	demardemar = {
+		name = Demarian
+		plural = Demarians
+		home_planet = Demar
+		home_system = Nyalwa
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	nametrab = {
+		name = Nametrabboid
+		plural = Nametrabboids
+		home_planet = Nametrab
+		home_system = "Trib Chang"
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	bernor = {
+		name = Bernorite
+		plural = Bernorites
+		home_planet = Bernor
+		home_system = Atimurshokgö
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	mukpang = {
+		name = Mukpangese
+		plural = Mukpangese
+		home_planet = Mukpang
+		home_system = Kyeripa
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	luminousvisualization = {
+		name = Chebuting
+		plural = Chebutings
+		home_planet = "Luminous Visualization"
+		home_system = "Palace of Meditation"
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	trabche = {
+		name = Trabchean
+		plural = Trabcheans
+		home_planet = Trabche
+		home_system = Zijidru
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	tobcha = {
+		name = Tobchite
+		plural = Tobchites
+		home_planet = Tobcha
+		home_system = Silüsamleke
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	semyumar = {
+		name = Sem-Yumaran
+		plural = Sem-Yumarans
+		home_planet = Sem-Yumar
+		home_system = Khyangrang
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	sringprime = {
+		name = "Dang tri Sring"
+		plural = "Dang tri Sring"
+		home_planet = "Sring Prime"
+		home_system = Sring
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	tongpo = {
+		name = Tongpoan
+		plural = Tongpoans
+		home_planet = Tongpo
+		home_system = Werime
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	merpungwa = {
+		name = Merpungwan
+		plural = Merpungwans
+		home_planet = Merpungwa
+		home_system = Trishe
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	samshen = {
+		name = Samshenish
+		plural = Samshenish
+		home_planet = Samshen
+		home_system = Drenrabpa
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	secondchanting = {
+		name = Liknya
+		plural = Liknya
+		home_planet = "Second Chanting"
+		home_system = "First Chanting"
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	hridagi = {
+		name = Hridagoid
+		plural = Hridagoids
+		home_planet = Hridagi
+		home_system = Batsatokgö
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	shangma = {
+		name = Shangmanese
+		plural = Shangmanese
+		home_planet = Shangma
+		home_system = Gyungpo
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	namshen = {
+		name = Namshenite
+		plural = Namshenites
+		home_planet = Namshen
+		home_system = Trigya
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	kungrabon = {
+		name = Sangzhe
+		plural = Sangzhe
+		home_planet = "Kung Rabon"
+		home_system = Atangze
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	tingzashamewa = {
+		name = Gurcho
+		plural = Gurcho
+		home_planet = Tingza-sha-Mewa
+		home_system = Lutse-sha-Lamje
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+	changmum = {
+		name = Changmumian
+		plural = Changmumians
+		home_planet = Changmum
+		home_system = Gunamrutsa
+		name_list = "cybrxkhan_fantasy_zhangzhung"
+	}
+}

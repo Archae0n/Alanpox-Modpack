@@ -1,0 +1,35 @@
+#Splinter_Colony
+#By Malthus
+
+mem_splinter_colony_category = {
+	picture = GFX_evt_ship_in_orbit
+	level = 3
+
+	max_once = yes
+	null_spawn_chance = 0.40 # 60% chance to spawn
+
+	spawn_chance = {		
+		modifier = {
+			OR = {
+				is_planet_class = pc_barren
+				is_planet_class = pc_barren_cold
+				is_planet_class = pc_frozen
+			}
+			add = 1
+		}
+		modifier = {
+			habitable_planet_not_urban = yes
+			NOT = {
+				exists = owner
+			}			
+			add = 10
+		}
+		modifier = {
+			habitable_planet_not_urban = yes
+			exists = owner
+			add = 1
+		}
+	}
+
+	on_success = mem_splinter_colony.1
+}

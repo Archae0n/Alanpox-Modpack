@@ -1,0 +1,633 @@
+# *
+# Traits (Cyborg) - POP Attributes
+#
+# 1. Resettlement Cost
+# *
+# *
+# Traits (Cyborg) - POP Outputs
+#
+# 1. Resources
+# 2. Food
+# 3. Energy Credits
+# 4. Minerals
+# 5. Researches
+# 6. Researches - Area
+# 7. Unity
+# *
+# *
+# Traits (Cyborg) - Leader Attributes
+#
+# 1. Leader Attributes
+# 2. Leader Level Cap
+# 3. Leader Experience Gain
+# *
+# *
+# Traits (Cyborg) - Special Attributes
+#
+# 1. Flying
+# 2. Weaponary
+# 3. Protection
+# *
+# *
+
+
+
+# *
+# Resettlement Cost
+# *
+
+
+trait_td_cybg_reassembly = {
+	cost = 1
+	icon = "gfx/interface/icons/traits/trait_td_rbot_reassembly.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+	
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	custom_tooltip_with_modifiers = CYBORG_ENERGY_UPKEEP_EFFECT
+
+	modifier = {
+		pop_resettlement_cost_mult = -0.25
+	}
+}
+
+
+
+# *
+# Resources
+# *
+
+
+trait_td_cybg_omni_functional_system = {
+	cost = 6
+	icon = "gfx/interface/icons/traits/trait_td_rbot_omni_functional_system.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	custom_tooltip_with_modifiers = CYBORG_ENERGY_UPKEEP_EFFECT
+
+	modifier = {
+		planet_jobs_produces_mult = 0.05
+		planet_jobs_engineering_research_produces_mult = 0.075
+		planet_jobs_physics_research_produces_mult = 0.075
+		planet_jobs_society_research_produces_mult = 0.075
+		pop_happiness = 0.05
+		negative_leader_traits_species = -1
+		leaders_upkeep_mult = -0.25
+		army_damage_mult = 0.50
+	}
+}
+
+
+# *
+# Food
+# *
+
+
+trait_td_cybg_pollinator_drones = {
+	cost = 2
+	icon = "gfx/interface/icons/traits/trait_td_rbot_pollinator_drones.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_cyborg_harvesters"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		planet_jobs_food_produces_mult = 0.15
+	}
+}
+
+
+
+# *
+# Energy Credits
+# *
+
+
+trait_td_cybg_negative_attenuation = {
+	cost = 2
+	icon = "gfx/interface/icons/traits/trait_td_rbot_negative_attenuation.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_cyborg_superconductive"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.15
+	}
+}
+
+
+# *
+# Minerals
+# *
+
+
+trait_td_cybg_earthshaking_excavators = {
+	cost = 2
+	icon = "gfx/interface/icons/traits/trait_td_rbot_earthshaking_excavators.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_cyborg_power_drills"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		planet_jobs_minerals_produces_mult = 0.15
+	}
+}
+
+
+# *
+# Researches
+# *
+
+
+trait_td_cybg_quantum_algorithms = {
+	cost = 3
+	icon = "gfx/interface/icons/traits/trait_td_rbot_quantum_algorithms.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_cyborg_logic_engines"
+		"trait_td_cybg_ternary_logic_circuits"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	custom_tooltip_with_modifiers = CYBORG_ENERGY_UPKEEP_EFFECT
+
+	modifier = {
+		planet_jobs_engineering_research_produces_mult = 0.175
+		planet_jobs_physics_research_produces_mult = 0.175
+		planet_jobs_society_research_produces_mult = 0.175
+		negative_leader_traits_species = -1
+		leaders_upkeep_mult = -0.25
+	}
+}
+
+
+trait_td_cybg_ternary_logic_circuits = {
+	cost = 2
+	icon = "gfx/interface/icons/traits/imported_icons/trait_robot_awoken.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_cyborg_logic_engines"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	custom_tooltip_with_modifiers = CYBORG_ENERGY_UPKEEP_EFFECT
+
+	modifier = {
+		planet_jobs_engineering_research_produces_mult = 0.15
+		planet_jobs_physics_research_produces_mult = 0.15
+		planet_jobs_society_research_produces_mult = 0.15
+	}
+}
+
+
+
+# *
+# Researches - Area
+# *
+
+
+trait_td_cybg_autoanalysis = {
+	cost = 2
+	icon = "gfx/interface/icons/traits/trait_td_technicism.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_td_cybg_mobile_synchrotrons"
+		"trait_td_cybg_curiosity_scripts"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	
+	modifier = {
+		planet_jobs_engineering_research_produces_mult = 0.20
+	}
+}
+
+
+trait_td_cybg_mobile_synchrotrons = {
+	cost = 2
+	icon = "gfx/interface/icons/traits/trait_td_physicalism.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_td_cybg_curiosity_scripts"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		planet_jobs_physics_research_produces_mult = 0.20
+	}
+}
+
+
+trait_td_cybg_curiosity_scripts = {
+	cost = 2
+	icon = "gfx/interface/icons/traits/trait_td_biologism.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		planet_jobs_society_research_produces_mult = 0.20
+	}
+}
+
+
+# *
+# Unity
+# *
+
+
+trait_td_cybg_machine_cults = {
+	cost = 1
+	icon = "gfx/interface/icons/traits/trait_td_rbot_machine_cults.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.15
+	}
+}
+
+
+# *
+# Leader Attributes
+# *
+
+
+trait_td_cybg_legendization_protocol = {
+	cost = 3
+	icon = "gfx/interface/icons/traits/trait_td_heroism.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_cyborg_enhanced_memory"
+		"trait_cyborg_learning_algorithms"
+		"trait_td_cybg_heroization_protocol"
+		"trait_td_cybg_insufficient_memory"
+		"trait_td_cybg_experience_database"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	custom_tooltip_with_modifiers = CYBORG_ENERGY_UPKEEP_EFFECT
+	
+	modifier = {
+		negative_leader_traits_species = -2
+		leaders_upkeep_mult = -0.30
+		species_leader_exp_gain = 0.15
+	}
+}
+
+
+
+# *
+# Leader Level Cap
+# *
+
+
+trait_td_cybg_heroization_protocol = {
+	cost = 2
+	icon = "gfx/interface/icons/traits/imported_icons/trait_robot_enhanced_memory.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+
+	opposites = {
+		"trait_cyborg_enhanced_memory"
+		"trait_td_cybg_insufficient_memory"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	custom_tooltip_with_modifiers = CYBORG_ENERGY_UPKEEP_EFFECT
+
+	modifier = {
+		negative_leader_traits_species = -1
+		leaders_upkeep_mult = -0.30
+	}
+}
+
+
+trait_td_cybg_insufficient_memory = {
+	cost = -1
+	icon = "gfx/interface/icons/traits/trait_td_rbot_insufficient_memory.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_cyborg_enhanced_memory"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	ai_weight = { weight = 0 }
+
+	modifier = {
+		negative_leader_traits_species = 1
+		leaders_upkeep_mult = 0.05
+	}
+}
+
+
+
+# *
+# Leader Experience Gain
+# *
+
+
+trait_td_cybg_experience_database = {
+	cost = 2
+	icon = "gfx/interface/icons/traits/imported_icons/trait_robot_learning_algorithms.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_cyborg_learning_algorithms"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	custom_tooltip_with_modifiers = CYBORG_ENERGY_UPKEEP_EFFECT
+
+	modifier = {
+		species_leader_exp_gain = 0.30
+	}
+}
+
+
+# *
+# Flying
+# *
+
+
+trait_td_cybg_flying = {
+	cost = 2
+	icon = "gfx/interface/icons/traits/imported_icons/leader_trait_ai_aided_design.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_td_cybg_heavy_bombers"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		pop_amenities_usage_mult = -0.10
+		pop_housing_usage_mult = -0.10
+	}
+}
+
+
+trait_td_cybg_heavy_bombers = {
+	cost = 2
+	icon = "gfx/interface/icons/traits/trait_td_rbot_heavy_bombers.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		army_damage_mult = 1.20
+		army_collateral_damage_mult = 1.20
+	}
+}
+
+
+
+# *
+# Weaponary
+# *
+
+
+trait_td_cybg_plasma_weaponary = {
+	cost = 1
+	icon = "gfx/interface/icons/traits/trait_td_rbot_plasma_weaponary.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_td_cybg_rocket_armaments"
+		"trait_td_cybg_laser_blasters"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		army_damage_mult = 0.60
+		army_collateral_damage_mult = 0.60
+	}
+}
+
+
+trait_td_cybg_rocket_armaments = {
+	cost = 1
+	icon = "gfx/interface/icons/traits/trait_td_rbot_rocket_armaments.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	opposites = {
+		"trait_td_cybg_laser_blasters"
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		army_damage_mult = 0.50
+		planet_jobs_engineering_research_produces_mult = 0.05
+	}
+}
+
+
+trait_td_cybg_laser_blasters = {
+	cost = 1
+	icon = "gfx/interface/icons/traits/trait_td_rbot_laser_blasters.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		army_damage_mult = 0.50
+		planet_jobs_physics_research_produces_mult = 0.05
+	}
+}
+
+
+
+# *
+# Protection
+# *
+
+
+trait_td_cybg_armoured = {
+	cost = 1
+	icon = "gfx/interface/icons/traits/trait_td_metal_exoskeleton.dds"
+	initial = no
+	randomized = no
+	category = cyborg
+	species_potential_add = {
+		can_add_cybernetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_cybernetic_traits = yes
+	}
+
+
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		army_health = 0.25
+	}
+}

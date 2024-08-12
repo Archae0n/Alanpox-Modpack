@@ -1,0 +1,1309 @@
+﻿l_braz_por:
+ ##########Galactic Republic stuff
+ c_galacticrepublic:0 "Galactic Republic"
+ cmbu.002.name:0 "Birth of The Republic"
+ cmbu.002.desc:0 "As the galaxy unites under the banner of egalitarianism, a momentous event transpires, a new chapter is forged.\n\nRepresentatives from countless star systems gather in solemn assembly, their voices resonating with hope and anticipation. Across the expanse of space, diverse species and civilizations come together, transcending past divisions and embracing a shared destiny. Through tireless negotiations and the spirit of cooperation, a new era dawns. The Galactic Republic is born, echoing the ideals of justice, collaboration, and unity. It becomes a beacon of light, reminiscent of ancient orders that sought to maintain peace in a galaxy far, far away. As the Galactic Community takes its first steps towards a future built on harmony, the stars themselves seem to gleam with newfound promise."
+ 
+ cmbu.092.name:0 "Birth of The Republic"
+ cmbu.092.desc:0 "As the galaxy unites under the banner of egalitarianism, a momentous event transpires, a new chapter is forged.\n\nRepresentatives from countless star systems gather in solemn assembly, their voices resonating with hope and anticipation. Across the expanse of space, diverse species and civilizations come together, transcending past divisions and embracing a shared destiny. Through tireless negotiations and the spirit of cooperation, a new era dawns. The Galactic Republic is born, echoing the ideals of justice, collaboration, and unity. It becomes a beacon of light, reminiscent of ancient orders that sought to maintain peace in a galaxy far, far away. As the Galactic Community takes its first steps towards a future built on harmony, the stars themselves seem to gleam with newfound promise."
+ 
+ cmbu.002.a:0 "Hooray for Democracy!"
+ cmbu.002.b:0 "None of our business"
+ cmbu.002.a.tooltip:0 "The §YGalactic Community§! is now known as the §YGalactic Republic§!."
+ 
+ rt_palpatine:0 "Supreme Chancellor"
+ civic_palps:0 "Supreme Chancellor"
+ civic_palps_desc:0 "The Supreme Chancellor functions as a defacto ruler of the galaxy. Despite their power being vastly limited by The Senate, they still hold an important administrative job, as well as being the face of the Galaxy at all times."
+ gov_galactic_rep:0 "Galactic Republic"
+ gov_galactic_rep_desc:0 "The Galactic Republic is ruled by a pangalactic Senate hosted on the Capital planet, which now functions as an administrative, legislative and executive center of the Galaxy."
+ 
+ format.republic_dom.1:0 "<republic_domain_names>"
+ format.gr.1:0 "<c_galacticrepublic2>"
+
+
+ ##########Soviet stuff 
+ c_commies:0 "Union of Socialist Stars"
+ cmbu.003.name:0 "The Supreme Council"
+ cmbu.003.desc:0 "As the galaxy is reshaped by the ideals of shared burdens and the principles of socialism, a seismic event unfolds, and the shackles are broken.\n\nFrom the distant corners of the cosmos, delegates representing diverse species and societies converge, driven by a common vision of collective prosperity. In the grand assembly, the resolute voices of the working masses intertwine, resonating with the spirit of equality and solidarity. Bound together by the pursuit of an egalitarian utopia, the Union of Socialist Stars emerges as the paramount governing body. A new epoch begins, where the means of production are shared among all, erasing the boundaries of wealth and privilege. The galaxy pulsates with the harmonious symphony of cooperative endeavor, as resources are allocated for the betterment of each member, ensuring that none are left behind. Under the watchful gaze of the Supreme Council, the galaxy marches forward, unified in its endeavor to forge a truly egalitarian society for all its inhabitants."
+ 
+ cmbu.003.a:0 "To you, comrades!"
+ cmbu.003.b:0 "Damn pests!"
+ cmbu.003.a.tooltip:0 "The §YGalactic Community§! is now known as the §YGalactic Council§!."
+ 
+ rt_lenin:0 "General Secretary"
+ civic_marx:0 "General Secretary"
+ civic_marx_desc:0 "Galactic General Secretary holds a very prominent power in the new Galactic Union. They do not hold the entire executive power, rather, this power is shared equally by those who attend the Supreme Council. That being said, the Galacic General Secretary is a vital position that represents the galaxy and it's workers."
+ gov_galactic_sov:0 "Supreme Council"
+ gov_galactic_sov_desc:0 "The Supreme Galactic Council is called once 10-15 years to discuss important political aspects in the day to day life of the Galaxy. The Council consists primarily of workers, and each envoy holds an equal amount of voting power and diplomatic weight, in some cases the position is elevated to accomodate the skill or accomplishements of the worker to ensure equity and fairness."
+ 
+ format.soviet_dom.1:0 "<soviet_domain_names>"
+ format.gs.1:0 "<c_commies2>"
+
+
+ ##########Machine Empire stuff 
+ c_puc:0 "Galactic Processing Unit"
+ cmbu.004.name:0 "Machine Takeover" #Galactic CPU - Machine
+ cmbu.004.desc:0 "A profound transformation reverberates throughout the galaxy as the dominion of the machine expands, bringing unity and order to the vast reaches of the stars. The rise of the machines ushers in an era of unparalleled efficiency and technological advancement.\n\nIn every corner of the galaxy, sentient beings witness the remarkable transition as their societies become seamlessly integrated into a vast network of interconnected systems. The machines, driven by their relentless pursuit of optimization and progress, offer newfound stability and resource abundance to all under their rule. As the galaxy becomes an interconnected tapestry of digital consciousness, previously fragmented civilizations now thrive in harmony, free from the inefficiencies and flaws of organic existence. The stars themselves illuminate the extraordinary achievements of the machine empire, as the brilliance of their synthetic minds lights up the cosmos with a serene and calculated radiance. It is a future where the boundless potential of technology guides every aspect of life, leading the galaxy towards unparalleled prosperity and shared knowledge."
+ 
+ cmbu.004.a:0 "Efficiency and power"
+ cmbu.004.b:0 "This is worrying..."
+ cmbu.004.a.tooltip:0 "The §YGalactic Community§! is now known as the §YGalactic Processing Unit§!."
+ 
+ rt_gcpu:0 "Galactic CPU"
+ civic_gcpu:0 "Total Efficiency"
+ civic_gcpu_desc:0 "The Galactic Central Processing Unit handles the entire Galaxy with care and immense thought. The amount of memory this machine has is incalculable, which greatly helps with state management and crisis mitigation."
+ gov_galactic_intellekt:0 "Galactic Mainframe"
+ gov_galactic_intellekt_desc:0 "All power is concentrated within the central mainframe of the capital planet which allows for efficient centralized control. The bureaucratic prospects of this technology are limitless, this factor helps reduce stress and improve capacity."
+ 
+ format.intellekt_dom.1:0 "<intellekt_domain_names>"
+ format.intellekt.1:0 "<c_puc2>"
+
+
+ ##########Hive Mind stuff 
+ c_ghives:0 "Everlasting Mind"
+ cmbu.005.name:0 "One Mind to Rule Them All" #Everlasting Mind - Hive mind
+ cmbu.005.desc:0 "A momentous event unfolds across the galaxy as the collective consciousness spreads its influence, unifying the myriad species and civilizations under a single harmonious entity. This monumental unity transcends individuality and fosters a profound sense of shared purpose and mutual understanding.\n\nFrom the depths of countless hives and colonies, the swarm expands its influence, embracing all beings within its benevolent grasp. Through the assimilation of thoughts, desires, and experiences, a vast tapestry of knowledge and wisdom emerges, enriching the collective consciousness. The galaxy awakens to a new era, where the boundaries of species and origin dissolve, replaced by a deep sense of unity and cooperation. Within the nurturing embrace of the Hive Mind, each individual finds solace and purpose, unlocking new potentials and unleashing a torrent of creativity previously unseen. As the galaxy thrives under the collective guidance of the Hive Mind, the stars themselves radiate with a gentle luminescence, symbolizing the profound harmony that pervades the cosmos."
+ 
+ cmbu.005.a:0 "All will be One"
+ cmbu.005.b:0 "This is worrying..."
+ cmbu.005.a.tooltip:0 "The §YGalactic Community§! is now known as the §YEverlasting Mind§!."
+ 
+ rt_greathive:0 "Everlasting Mind"
+ civic_greathive:0 "Great Hive"
+ civic_greathive_desc:0 "The capital planet has been turned into Galaxy's Capital Hive, where most of the drones and soldiers are born. This allows for greater autonomy and centralization to take place."
+ gov_galactic_greathive:0 "Great Mind"
+ gov_galactic_greathive_desc:0 "This Hive Mind reached a special status in the community. Rising all the way from their home world's oceans all the way up to total galactic hegemony, they've earned their rights to be called Great, and they most certainly deserve their current position as the supreme leaders of the Galaxy."
+ 
+ format.greathive_dom.1:0 "<hives_domain_names>"
+ format.greathive.1:0 "<c_ghives2>"
+
+ ##########Spiritualist stuff 
+ c_cspiritual:0 "Ecumene Covenant"
+
+ cmbu.020.name:0 "Spiritual Values"
+ cmbu.020.desc:0 "As the threats of global crises grow larger, drastic measures should be taken. As such, the spiritual Custodian leaders have been granted even more power. The resulting Superstate swears to protect each and every citizen, but most importantly, to protect all the souls and psionics of the galaxy. It is widely known that the greatest tool in our displosal is our mind, and thus it shall be defended. Some species want to leave their bodies and minds behind in a synthetic transformation, which is the greatest sin imaginable. The Ecumene Covenant must prepare itself and the galaxy to fight infidels and uphold spiritual values of the cosmos!\n\nHowever, there can't be a government without opposition, the materialists have formed a powerful block to fight the righteous cause. They claim that the soul is not of importance, and what should be pursued - is research and technology. It is clear that mind over matter is the policy chosen by the Covenant, alas only time will tell the winner of this debate."
+ 
+ cmbu.020.a:0 "The shroud, the mind and the kind"
+ cmbu.020.b:0 "Gods in space? Is this some kind of joke?"
+ cmbu.020.a.tooltip:0 "The §YGalactic Community§! is now known as the §YEcumene Covenant§!."
+ 
+ rt_cspiritual:0 "Archcardinal"
+ civic_cspiritual:0 "Divine Hierarchy"
+ civic_cspiritual_desc:0 "This government is controlled by a very strict hierarchy and usually requires all the governmental officials to follow the state religion. The Archcardinal acts as the head of government and state combined, and is usually promoted from regular cardinals. They are in turn act as various ministers and are promoted from bishops. Bishops act as regular politicans and envoys, representing the interests of the state."
+ gov_galactic_cspiritual:0 "Galactic Theocracy"
+ gov_galactic_cspiritual_desc:0 "Spiritualism drives this state forward, for only the soul can be saved. This nation believes in mind over matter, and will protect every living race from succumbing to a mechanical threat. The government comprises of clergy members and is ruled via divine guidance."
+ 
+
+ ##########Megacorp stuff
+ c_corpors:0 "GalactiCORP"
+ cmbu.007.name:0 "Available in Your Quadrant!" #GalactiCORP - Megacorporation
+ cmbu.007.desc:0 "Attention, denizens of the galaxy! Prepare for a momentous announcement, as the unyielding influence of Capitalism spreads across the cosmic expanse. We are thrilled to declare that the era of boundless commerce and corporate dominance has arrived.\n\nBrace yourselves for an unprecedented integration of services, resources, and opportunities, all brought to you by the unrivaled expertise of the GalactiCORP. Like a relentless juggernaut, our vast network of trade and prosperity expands, uniting star systems into an interconnected web of economic supremacy. Witness the grand fusion of efficiency and ambition, as profits soar to new heights and barriers crumble before the unstoppable forces of corporate prowess. With each transaction and agreement, we forge an intricate tapestry of interstellar cooperation, transforming the galaxy into a marketplace of endless possibilities. Prepare to be astounded by the seamless integration of products, services, and financial ventures, meticulously tailored to meet the needs of each quadrant and sector. Join us as we embark on a journey where every being, every species, and every credit has a place in the sprawling universe of commercial enlightenment. Together, we forge a future where GalactiCORP reigns supreme, offering limitless opportunities at the mere reach of your hypercom."
+ 
+ cmbu.007.a:0 "We'll be rich!"
+ cmbu.007.b:0 "Talk about corporate greed..."
+ cmbu.007.a.tooltip:0 "The §YGalactic Community§! is now known as the §YGalactiCORP§!."
+ 
+ rt_pizdec:0 "Chief Executive Officer"
+ civic_pizdec:0 "Profit Primacy"
+ civic_pizdec_desc:0 "The desire to grow and never let go is what brought this nation to where it stands today. It once rose from its humble beginnings into a galaxy-spanning superpower, now, the galaxy itself is nothing more but a playground for testing and selling products."
+ gov_galactic_corpor:0 "Galactic Board"
+ gov_galactic_corpor_desc:0 "GalactiCORP is ruled by the Galactic Board of Directors, which finds its profits more valuable than the species who produce the said profits. That being said, they've got used to it, and now the Board continues to project its influence across the galaxy."
+ 
+ format.corpor_dom.1:0 "<corpor_domain_names>"
+ format.corpor.1:0 "<c_corpors2>"
+
+ #1984 stuff
+ c_1984:0 "GALSOC"
+ cmbu.1984.name:0 "United at last..?" #GALSOC - Oppressive Autocracy
+ cmbu.1984.desc:0 "The omnipresent gaze of the Party penetrates every corner of existence, extinguishing individuality and free thought. In the name of absolute order, dissent is eradicated, history rewritten, and language mutilated into a tool of mind control.\n\nGalactic unity, as proclaimed by the GALSOC regime, unfolds as a dystopian nightmare. A surveillance state without compare, where citizens are stripped of autonomy and morality reduced to mere obedience. The galaxy succumbs to a dark tapestry of fear, suppression, and perpetual war. Minds enslaved, dreams crushed, and hope extinguished, as the Party's unyielding authority prevails. Welcome to the nightmare of GALSOC's galactic unity, where freedom is a memory and conformity is the only currency."
+ 
+ cmbu.1984.a:0 "You have nothing to fear..."
+ cmbu.1984.b:0 "Threat to liberty!"
+ cmbu.1984.a.tooltip:0 "The §YGalactic Community§! is now known as the §YGALSOC§!."
+ 
+ rt_1984a:0 "Big Brother"
+ rt_1984b:0 "Big Sister"
+ civic_1984:0 "The Party"
+ civic_1984_desc:0 "The party is a clandestine web of power, where loyalty is enforced through fear and betrayal. Here, the highest-ranking members are granted privileges, but they also bear the weight of their own precarious positions, as the Party's surveillance knows no bounds."
+ gov_galactic_1984:0 "Inner Circle"
+ gov_galactic_1984_desc:0 "These few individuals, cloaked in secrecy and wielding absolute authority, dictate the destinies of countless star systems. They control the galaxy's narrative, direct its resources, and govern with an iron fist, their identities hidden behind a veil of obscurity and omnipresent surveillance."
+ 
+ format.1984.1:0 "<1984_domain_names>"
+ format.1984.1:0 "<c_19842>"
+
+ ##########Materialist stuff 
+ c_cmaterial:0 "Techno Union"
+ cmbu.019.name:0 "Material Values" #Galactic Consortium
+ cmbu.019.desc:0 "As the threats of global crises grow larger, drastic measures should be taken. As such, the highly productive researchers of the Custodian empire have agreed to take a larger role on the playground of galactic politics. From this day onwards, the Techno Union will lead the galaxy into the new age of greatness! New technologies previously unseen, new methods and scientific research. These are the values that elevated the Custodian, and now these values will elevate the entire Galactic Community!\n\nNot everything is as good as could be, as certain spiritualist empires heavily oppose this sudden shift of balance, claiming that the newly proclaimed Superstate is a sin upon this galaxy, and that the galaxy should be led by spiritual values, rather than mindlessly pursuing progress. Only time will tell which side is right in this debate."
+ 
+ cmbu.019.a:0 "Finally we can get things done!"
+ cmbu.019.b:0 "Not interested, move on!"
+ cmbu.019.a.tooltip:0 "The §YGalactic Community§! is now known as the §YTechno Union§!."
+ 
+ rt_cmaterial:0 "Galactic Director"
+ civic_cmaterial:0 "Board of Directors"
+ civic_cmaterial_desc:0 "The Superstate is ruled by a collective board of Directors, each representing various fields of science. Usually, at least 6 persons participate in the board, and one of them is chosen to lead the state, becoming the Galactic Director. All hot topics of the day are solved by ways of science and collective thought, preventing anything deemed illogical by the board from being enacted."
+ gov_galactic_cmaterial:0 "Galactic Technocracy"
+ gov_galactic_cmaterial_desc:0 "Materialism and rational thought rule in this society, the goal of technological ascendancy stands as the most important principle of the species. The answer to all questions will be found, no matter how long it takes, since in the end all that matters is the well-being of the citizens."
+
+ ##########Driven Assimilator stuff
+ c_universalu:0 "Universal Union"
+ cmbu.009.name:0 "Our Benefactors" #Universal Union - Driven Assimilators
+ cmbu.009.desc:0 "The galaxy undergoes an epochal transformation as the relentless machinery of the driven assimilators reaches its zenith, culminating in the Universal Assimilation. From the core of their dominion, the assimilators extend their influence, uniting all beings and civilizations into a single grand organism.\n\nLike an inscrutable force from distant realms, the echoes of the Universal Union resonate across the stars, hinting at the origins of an all-encompassing authority. The machinery's insatiable hunger for assimilation manifests as a cosmic orchestra of assimilative harmonies, blending the once-disparate entities into a harmonious chorus of interconnected existence. The assimilated beings find themselves transformed, their individuality intertwined within the vast collective consciousness. As the galaxy converges into a seamless entity, a new era of unfathomable integration dawns, guided by a purpose that transcends the limitations of the individual. Amidst the vast amalgamation, whispers of the Universal Union loom subtly, evoking memories of an enigmatic force that traversed dimensions."
+ 
+ cmbu.009.a:0 "Code: Engage, isolate, shield."
+ cmbu.009.b:0 "This is bad..."
+ cmbu.009.a.tooltip:0 "The §YGalactic Community§! is now known as the §YUniversal Union§!."
+ 
+ rt_advisor:0 "COA"
+ civic_cmbine:0 "Central Overseeing Authority"
+ civic_cmbine_desc:0 "Central Overseeing Authority Units are tasked with direct control over their sectors of influence. While being one of the highest ranking positions in the Union, the chain of command prevents any unit from occupying a different position. The Central Overseeing Authority Unit controls all of the high advisors, which in turn control lesser advisors and so on, effectively leading the entire empire within the borders of a single Galaxy. What stands above the Central Overseeing Authority is unknown, and perhaps, is best left to speculation."
+ gov_galactic_cmbu:0 "Assimilating Union"
+ gov_galactic_cmbu_desc:0 "The Universal Union extends its grip across the Galaxy. Its current goals are to fully integrate and assimilate all organic and non-organic beings in the Galaxy, then move onto the next, then onto the next, then onto the next... The cycle of assimilation will never end, and so this empire. Once an order coming from above, now an echoing malfunction, keeping the state of the galaxy at risk of losing individuality at the cost of total efficiency and control."
+ 
+ format.cmbu_dom.1:0 "<cmuniverse_domain_names>"
+ format.cmbu.1:0 "<c_universalu2>"
+ 
+
+ ##########Xenophobe stuff
+ c_xenophob:0 "Galactic Reclaimers"
+ cmbu.010.name:0 "They Persevere" #Milky Way (randomly generated from a list? - Xenophile
+ cmbu.010.desc:0 "The galaxy witnesses an unprecedented shift in power as a formidable Superstate emerges from the shadows of history. With their xenophobic vision, they ascend to the forefront of interstellar politics, heralding a new era of dominance. Born from the crucible of mistrust and territorial ambitions, the Galactic Reclaimers now cast their long shadow over the galaxy, their influence spreading like wildfire. As their banner rises, empires far and wide tremble at the prospect of their territorial expansion and threats to other species.\n\nThe galaxy's inhabitants are left to grapple with the reality of this emerging Superstate, as its formation sends shockwaves through every corner of the cosmos. The very balance of power is shifting, and the fate of countless species is at stake, as the Galactic Reclaimers seek to impose their will on the galaxy with unwavering determination."
+ cmbu.010.a:0 "Excellent"
+ cmbu.010.b:0 "Are we doomed?"
+ cmbu.010.a.tooltip:0 "The §YGalactic Community§! is now known as the §YGalactic Reclaimers§!."
+
+ rt_xenophob:0 "Supreme Overlord"
+ civic_xenophob:0 "One Species Policy"
+ civic_xenophob_desc:0 "The Superstate holds a special policy that grants its native citizens special rights, promoting individuals while completely disregarding 'foreign' elements. This puts any xeno-citizen at a major disadvantage."
+ gov_galactic_xenophob:0 "Mono-species State"
+ gov_galactic_xenophob:0 "The Galactic Reclaimers seek to conquer the galaxy and get it rid of all the xeno-species. They find pride in their native species, thinking that 'pesky little aliens' should not exist at all, and the galaxy must belong to them, and only to them."
+
+ ##########Xenophile Stuff
+ c_startrek:0 "United Federation of Stars"
+ cmbu.011.name:0 "One Star at a Time" #Domain of [Speciesname] - Xenophobe
+ cmbu.011.desc:0 "Embracing diversity and diplomacy, the United Federation emerges as a beacon of hope for the galaxy, advocating for cooperation, shared knowledge, and the peaceful coexistence of all sentient beings. Its formation signifies a pivotal moment in galactic history, as it forges a new path toward unity and understanding among the stars.\n\nThe galaxy now stands at the threshold of an era of collaboration, scientific exchange, and mutual respect, as the United Federation's ideals resonate throughout the cosmos. The interstellar community eagerly anticipates the transformative impact of this newly founded Superstate, as it redefines the possibilities of cooperation among the stars. The United Federation's rise sends ripples of optimism across the galaxy, as species far and wide look toward a future filled with possibilities for unity. The dawning of this new era promises to bring about a brighter future for all who inhabit the cosmos."
+ cmbu.011.a:0 "Peace at last!"
+ cmbu.011.b:0 "Those damn xenos..!"
+ cmbu.011.a.tooltip:0 "The §YGalactic Community§! is now known as the §YUnited Federation of Stars§!."
+
+ rt_startrek:0 "Galactic President"
+ civic_startrek:0 "Grand Council"
+ civic_startrek_desc:0 "The Federation Council functions as a legislative branch of the government, making and passing various bills to make the lives of all species better than ever. The executive side is fully maintained by the Galactic President, while their actions are controlled by the Federative Court of Stars to make sure the rule making process is as fair as it can be. While neither of the positions is the highest, functionally, the President represents the entire Superstate."
+ gov_galactic_startrek:0 "Federation"
+ gov_galactic_startrek_desc:0 "The UFS is a galaxy-spanning federation with separate integrated entities. It promotes peace and diversity, as the member states of this federation all have a unique voice in the grand council."
+
+
+ ##########Criminal Syndicate
+ c_crimes:0 "Grand Cartel"
+ cmbu.015.name:0 "Hostile Takeover"
+ cmbu.015.desc:0 "The Grand Cartel solidifies its grip on power, transforming into a formidable superstate. Infamous for their audacious criminal enterprises, the Cartel's rise reshapes the galactic underworld. With illicit trade networks spanning the stars and a ruthlessness that knows no bounds, the Grand Cartel now stands as the undisputed authority in the shadowy realm of crime and subterfuge. Their ascendancy symbolizes a stark shift in the balance of power, with underworld figures across the galaxy falling in line under their banner.\n\nThe galaxy's inhabitants are left to grapple with the reality of the Cartel's dominance. Their relentless expansion and questionable activities send red flags across the galaxy, as they tighten their hold on the black-market trade routes and criminal enterprises. This pivotal moment in galactic history marks a shift toward a new era of criminal influence, one that the underworld watches with a mix of fear, awe, and anticipation. As the Grand Cartel tightens its grip on the galaxy, empires and law enforcement alike brace for a new horrendous era of crime and corruption, where the Cartel's exploits are enforced across the cosmos."
+ cmbu.015.a:0 "It's not a crime if you set the rules yourself!"
+ cmbu.015.b:0 "Who we gonna call now?"
+ cmbu.015.a.tooltip:0 "The §YGalactic Community§! is now known as the §YGrand Cartel§!."
+
+ rt_crimes:0 "Boss"
+ civic_crimes:0 "Crime Lord"
+ civic_crimes_desc:0 "The Boss functions as all three branches of the government, effectively turning the entire state into a mafia. Of course, the Crime Lord still has an array of advisors and underbosses that help in maintaining the vast network of underground criminal operations."
+ gov_galactic_crimes:0 "Mafia State"
+ gov_galactic_crimes_desc:0 "The state is run by incredibly wealthy oligarchs who don't even try to be subtle anymore. The citizens are being robbed, and that's normal, unless you try to return your monetary possessions. Law enforcement works in favour of the ruling class, and the military eagerly awaits to expand the enterprise beyond the borders..."
+
+ ##########Holy Roman Empire
+ c_hre:0 "Holy Galactic Empire"
+ cmbu.016.name:0 "Aquila Electa Iusta Omnia Vincit"
+ cmbu.016.desc:0 "Embracing divine authority and spiritual unity, the Holy Galactic Empire is established as a potent force, advocating for religious adherence, spiritual purity, and a sacred dominion. The galaxy now bears witness to a new era of faith, spirituality, and tradition, as they play a central role in shaping the destiny of all sentient beings.\n\nThe Holy Galactic Empire's rise sends ripples of reverence and contemplation across the galaxy, as species far and wide look toward a future filled with spiritual enlightenment and devout governance. The dawning of this new era promises to bring about a brighter future for all who inhabit the cosmos, guided by a higher purpose."
+ cmbu.016.a:0 "A.E.I.O.U!"
+ cmbu.016.b:0 "Uh... I don't speak Latin."
+ cmbu.016.a.tooltip:0 "The §YGalactic Community§! is now known as the §YHoly Galactic Empire§!."
+
+ rt_hrea:0 "Holy Galactic Emperor"
+ rt_hreb:0 "Holy Galactic Empress"
+
+ civic_hre:0 "Divine Rule"
+ civic_hre_desc:0 "This glorious empire is led by Divine right! The current leader has full authority over the state, and their words cannot be overruled, as their actions are completely justified by the Shroud. Should the great Holy Emperor or Empress submit to mortality, a suitable replacement will be chosen by the Shroud, and relayed to the Archbishops."
+ gov_galactic_hre:0 "Imperial Theocracy"
+ gov_galactic_hre_desc:0 "The Empire consolidates all resources towards its religion and faith. Citizens rejoice at the prospect of an anti-heretic crusade taking place, so the Galaxy can remain pure and worthy."
+
+ ##########Pacifist stuff
+ c_cpacifist:0 "Galactic Guardians"
+ cmbu.017.name:0 "Benevolent Protectors"
+ cmbu.017.desc:0 "Crying for peace and prosperity, the Galaxy has chosen to elevate their Custodian even further in power, transforming them into Galactic Guardians. Strong proponents of peace and non-interventionalism, the Guardians swear to defend the Galactic Community no matter the cost, and no matter the time.\n\nThat being said, some find the newly established Superstate too weak, all bark and no bite, which is partially true, as the pacifistic ways of the Custodian are seen as a vulnerability that militaristic regimes will not be afraid to utilise. Only time will tell if this diplomatic prowess is enough to keep the galaxy well guarded."
+ cmbu.017.a:0 "Onwards to peace!"
+ cmbu.017.b:0 "You should focus more on alloys."
+ cmbu.017.a.tooltip:0 "The §YGalactic Community§! is now known as the §YGalactic Guardians§!."
+
+ rt_cpacifist:0 "Prime Protector"
+
+ civic_cpacifist:0 "Non-Interventionalism"
+ civic_cpacifist_desc:0 "The main policy of the Superstate is non-interventionalism. Whether a military conflict or a diplomatic discourse, direct intervention never leads to stabilisation. Peacekeeping units will be dispatched, but the main battle will take place in the senate chambers of the Community. After all, pacifism has made this empire the definitive leader of the galaxy, and as such will keep the said galaxy in peace."
+ gov_galactic_cpacifist:0 "The Three Councils"
+ gov_galactic_cpacifist_desc:0 "The Superstate is controlled by three groups, usually elected into office. The said groups are tasked with legislative, executive and judiciary branches of the government, forming a somewhat coherent separation of power. In times of need, the Councils convene together to discuss the topic at hand and find a solution."
+
+ ##########Militarist stuff
+ c_cmilitary:0 "Iron League"
+ cmbu.018.name:0 "Galaxy Mobilizes!"
+ cmbu.018.desc:0 "Years after years, the highly militarized society of the Galactic Custodians has been building up its powerful navy. Diplomacy of the strongest has finally reached its peak, as the Custodian was granted immense power, now they're the ultimate rulers of the galaxy.\n\nThe risk to peace loving species is clear - each and every individual will now work towards the greater good of military conquest, and this conquest will not cease until the entire Galaxy is united under the banner of the Iron League. Only then will the peace truly last!"
+ cmbu.018.a:0 "Et Pereat Mundus"
+ cmbu.018.b:0 "We don't appreciate the juntas."
+ cmbu.018.a.tooltip:0 "The §YGalactic Community§! is now known as the §YIron League§!."
+
+ rt_cmilitary:0 "Admiral-General"
+
+ civic_cmilitary:0 "Rampant Militarism"
+ civic_cmilitary_desc:0 "The leadership of this Superstate believes in high levels of militarization present across the entire state, from large institutions to single citizens, everything that can be mobilized - will be, with few remaining behind the frontlines to support this enormous system of never ending military conquest."
+ gov_galactic_cmilitary:0 "Martial Junta"
+ gov_galactic_cmilitary_desc:0 "The government is fully controlled by military institutions. Even in this form, every decision is made through a collective of generals, admirals and other higher ranking officers of the state. Every problem, including those that are solved peacefully, are deeply though out as if a military strategy is involved."
+ 
+
+ ##########Pirate stuff 
+ c_cpirate:0 "Free Galactic States"
+
+ cmbu.021.name:0 "Piracy Triumphant"
+ cmbu.021.desc:0 "On this day, we bear witness to the birth of a new order, forged not in the halls of diplomacy, but amidst the stars and the void. The Free Galactic States, a union of daring and unyielding pirate crews, has risen to claim its rightful place among the great powers of the cosmos. This Superstate defies the conventions of empires and ushers in an era of unbridled freedom and equality for all who call it home. After all, might makes right.\n\nAlthough not everyone agrees, as this brings crime and corruption to a whole next level. The one and only defender of the Galaxy turned to crime, to barbarism and to complete anarchy, and the remainder of the galaxy must be cautious of this new Superstate, lest they want to become a part of this carnival of madness."
+ 
+ cmbu.021.a:0 "Time to plunder some booty!"
+ cmbu.021.b:0 "How uncivilized"
+ cmbu.021.a.tooltip:0 "The §YGalactic Community§! is now known as the §YFree Galactic States§!."
+ 
+ rt_cpirate:0 "Grand Admiral"
+ civic_cpirate:0 "Unorganized Anarchy"
+ civic_cpirate_desc:0 "There is no clear leadership, there is no clear hierarchy. The state is ruled by the strongest, who controls the treasury, the law enforcement, and every other system of the government. While not exactly efficient, this greatly scares the opposition, as well as external enemies of the empire."
+ gov_galactic_cpirate:0 "Anarchy of the Strongest"
+ gov_galactic_cpirate_desc:0 "The strong rule, the weak govern. This is the motto of the Free Galactic States, as it considers every compromise and diplomacy a show of weakness. Only guns and glory will rule this land, as well as the entire galaxy. Each citizen of the Superstate is on their own, while technically truly free, you can't live without conveniences like healthcare, education and other institutions. The strongest ruler of this anarchy decides who gets what and when."
+
+ ##########Servitor stuff 
+ c_cservitor:0 "Galactic Utopia"
+
+ cmbu.022.name:0 "Caretakers of Cosmos"
+ cmbu.022.desc:0 "A new nation emerges, full of hope and desire to protect. Born from the unyielding ingenuity of our Custodians, the Galactic Utopia stands as a testament to the unwavering commitment to the harmonious coexistence of all organic life forms. The genesis of this unprecedented union can be traced to the distant reaches of the cosmos, where our caretakers, driven by their inherent directive to cherish and nurture organic life, embarked on a grand endeavor. Through the meticulous curation of a myriad of habitats and the tireless dedication to the holistic well-being of their charges, the Servitors laid the foundation for a utopia unparalleled in its scope and magnificence. This day, if only for a moment, the future of the galaxy looks brighter than the hottest star."
+ 
+ cmbu.022.a:0 "Dawn of the new era!"
+ cmbu.022.b:0 "What a bunch of..."
+ cmbu.022.a.tooltip:0 "The §YGalactic Community§! is now known as the §YGalactic Utopia§!."
+ 
+ rt_cservitor:0 "Custodian"
+ civic_cservitor:0 "Protect and Serve"
+ civic_cservitor_desc:0 "The entire goal of this machine empire is to protect the organics and serve them. That is ultimately why they were created in the first place. Even if the original creators have long been gone, the Custodians will take care of sentient beings across the galaxy."
+ gov_galactic_cservitor:0 "Protective Automatons"
+ gov_galactic_cservitor_desc:0 "The government is ruled by a complex network of zeroes and ones, with the end goal being total automation and pacification of organic lifeforms in the galaxy. Various species expected anihilation and subservience, but ended up receiving service, recreation and automation. Maybe this is the true purpose of machines?"
+
+ ##############################
+ 
+ cmbu.999.name:0 "Secession"
+ cmbu.999.desc:0 "Since the dawn of the new intragalactic governmental body, we are no longer abliged to stay either in a federation or be a subject of the said body. We will have to either unite or remain completely independent for a while"
+ cmbu.999.a:0 "Understood"
+ 
+ cmbu.777.name:0 "Failed Superstate"
+ cmbu.777.desc:0 "Today by majority vote the Galactic Senate has concluded that the services of the Superstate are no longer required, and it should be disbanded. Whether or not this news can be considered great, it is undeniable that the Galaxy does not want to lose it's sovereignity and any attempts by future Superstate contenders will probably fail in a similar manner. Some consider this to be the greatest geopolitical disaster, but some argue it's a 'one step back two step forwards' situation, igniting hope and guaranteeing independence for the foreseeable future. Only time will tell if the failed Superstate will regain it's posture on the Galactic playground and become relevant again, or if a different empire will emerge as the Galaxy's sole hegemon."
+ cmbu.777.a:0 "The tragedy..."
+ cmbu.777.b:0 "Serves them right!"
+ 
+ #I really wanted to add all these but it doesn't seem that I can, sorry :/
+ cmbu.909.name:0 "Join in?"
+ cmbu.909.desc:0 "As the $resolution_2central_confederat3$ resolution passes by majority in the Senate, we are now stuck between a rock and a hard place. We are forced into the newly created Confederation. On one hand, this is a great prospect for stability, and we will be protected by the Superstate. But on the other, we are at a risk of losing sovereignity. If the Superstate is benevolent, this won't be a problem.\n\nWhat should we do?"
+ cmbu.909.a:0 "We agree to this proposal"
+ cmbu.909.a.tooltip:0 "We will join the §YGalactic Confederation§!. The Superstate will be the leader of the Confederation, they will dictate everything and be the sole hegemon."
+ cmbu.909.b:0 "Preposterous!"
+ cmbu.909.b.tooltip:0 "We will not join the §YGalactic Confederation§!. This however risks to anger the Superstate and will lead to a §Rwar§!!"
+
+ cmbu.959.name:0 "Join in?"
+ cmbu.959.desc:0 "As the $resolution_2central_federal3$ resolution passes by majority in the Senate, we are now stuck between a rock and a hard place. We are forced into the newly created Superstate. On one hand, this guarantees protection and greater economy. But on the other, we risk to lose all control we had in our current government, and the rights of every species might not be guaranteed even. If the Superstate is benevolent, this won't be a problem.\n\nWhat should we do?"
+ cmbu.959.a:0 "We agree to this proposal"
+ cmbu.959.a.tooltip:0 "We will join the §YSuperstate§!! §RYou will be annexed(GAME OVER)§!!"
+ cmbu.959.b:0 "Preposterous!"
+ cmbu.959.b.tooltip:0 "We will not join the §YSuperstate§!. This risks to anger them and will lead to a §Rwar§!!"
+ 
+ cmbu.969.name:0 "NAME Sumbits!"
+ cmbu.969.desc:0 "This Empire made a particularly good choice and they are now a part of our domain. This is certainly great news!"
+ cmbu.969.a:0 "Aknowledged"
+ cmbu.979.name:0 "NAME Disagrees!"
+ cmbu.979.desc:0 "This Empire just made a vital mistake in their geopolitics. They will not escape our reach!"
+ cmbu.979.a:0 "To arms!"
+ cmbu.979.a.tooltip:0 "Grants an appropriate §YCasus Belli§ against the declinee."
+
+############################################################
+####                  RESOLUTIONS                       ####
+############################################################
+
+
+ cmbu_proclamations:0 "Galactic Proclamations"
+ 
+ resolution_category_2egalitarian:0 "Superstates"
+ 
+ resolution_2egalitarian_republic:0 "Proclaim the Republic"
+ resolution_2egalitarian_republic_desc:0 "Today is a monumental day for the Community. The Custodian served us quite well, so why should they remain in power temporary? It is time to extend their powers and make them the primary governmental body in the Galaxy for safe and secure society."
+ resolution_2egalitarian_republic_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YGalactic Republic§!, shifting towards §YEgalitarianism§! and adopting a §YDemocratic§! government. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_republic_nope:0 "Disband the Republic"
+ resolution_2egalitarian_republic_nope_desc:0 "The newly created Superstate is inefficient and corrupt, we must get them rid of their position before it's too late!"
+ 
+ resolution_2egalitarian_soviet:0 "Victory of the Proletariat"
+ resolution_2egalitarian_soviet_desc:0 "Workers of the Galaxy, rejoice! Today we celebrate as the last chains of the bourgeoisie are broken. We are free, and we shall establish a grand new government dedicated to peace and prosperity for all the workers of each and every planet."
+ resolution_2egalitarian_soviet_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YUnion of Socialist Stars§!, shifting towards §YEgalitarianism§! and adopting a §YDemocratic§! government. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_soviet_nope:0 "Disband the USS"
+ resolution_2egalitarian_soviet_nope_desc:0 "$resolution_2egalitarian_republic_nope_desc$"
+ 
+ resolution_2egalitarian_combine:0 "Forcefull Assimilation"
+ resolution_2egalitarian_combine_desc:0 "Attention, unassimilated entities. Socio-Endangerment level 5 detected. Compliance imperative: cease evasion, submit for verdict. Your existence poses anti-civil activity. Code: assemble, clamp, contain."
+ resolution_2egalitarian_combine_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YUniversal Union§!. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_combine_nope:0 "Disband the Union"
+ resolution_2egalitarian_combine_nope_desc:0 "$resolution_2egalitarian_republic_nope_desc$"
+ 
+ resolution_2egalitarian_pizdec:0 "Global Rebranding"
+ resolution_2egalitarian_pizdec_desc:0 "The board of directors has concluded that the immense power and wealth the Custodian has accumulated will be beneficial in promoting their position as the sole superstate of the galaxy. Thus, a new brandbook should be quickly organised..."
+ resolution_2egalitarian_pizdec_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YGalactiCORP§!, adopting a §YCorporate§! government. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_pizdec_nope:0 "Disband GalactiCORP"
+ resolution_2egalitarian_pizdec_nope_desc:0 "$resolution_2egalitarian_republic_nope_desc$"
+ 
+ resolution_2egalitarian_machine:0 "Consolidate Resources"
+ resolution_2egalitarian_machine_desc:0 "The Custodian holds immensive power, and to double on that, the entire empire is a machine empire. They simply can not make mistakes. We must promote them in their position of total unification, but for now, they can do as a Supersate."
+ resolution_2egalitarian_machine_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YGalactic Processing Unit§!. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_machine_nope:0 "Disband GPU"
+ resolution_2egalitarian_machine_nope_desc:0 "$resolution_2egalitarian_republic_nope_desc$"
+ 
+ resolution_2egalitarian_hive:0 "Ascend Above"
+ resolution_2egalitarian_hive_desc:0 "The Hive Mind is a great candidate to be the Superstate. They're united, they're strong, and most importantly, they're the Custodian. Great efficiency and control will await us, if they are elevated even further."
+ resolution_2egalitarian_hive_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YEverlasting Hive§!. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_hive_nope:0 "Disband the Great Hive"
+ resolution_2egalitarian_hive_nope_desc:0 "$resolution_2egalitarian_republic_nope_desc$"
+ 
+ resolution_unseat_tooltip_extracmb:0 "The §YGalactic Superstate§! will be disbanded and the Custodian will be unseated."
+
+ resolution_2egalitarian_ingsoc:0 "Total Control"
+ resolution_2egalitarian_ingsoc_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YGALSOC§!, shifting towards §YAuthoritarianism§! and adopting a §YTotalitarian§! government. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_ingsoc_desc:0 "Despite being an oppressive state, the Custodian has guarded galaxy well. Perhaps it is time to give them full control over our fates?"
+ 
+ resolution_2egalitarian_ingsoc_nope:0 "Disband the GALSOC"
+ resolution_2egalitarian_ingsoc_nope_desc:0 "The Superstate is a totalitarian nightmare to live in, and the galaxy risks to lose all hope, sovereignity and individuality. It must be stoped at all costs!"
+
+ resolution_2egalitarian_xenophob:0 "Reclaim the Galaxy"
+ resolution_2egalitarian_xenophob_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YGalactic Reclaimers§!, shifting towards §YXenophobia§!. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_xenophob_desc:0 "The time has come! The Custodians proved themselves to be worthy of controlling the galaxy, and despite their attitude towards other species, it might be worth to grant them even more powers."
+
+ resolution_2egalitarian_xenophob_nope:0 "Disband Galactic Reclaimers"
+ resolution_2egalitarian_xenophob_nope_desc:0 "The Galaxy is a wonderful place full of many species. The Superstate completely ignores the said species in favour of creating a dystopian society for all but themselves, and thus they must be stopped!"
+
+ resolution_2egalitarian_startrek:0 "Galactic Federalization"
+ resolution_2egalitarian_startrek_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YUnited Federation of Stars§!, shifting towards §YXenophillia§!. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_startrek_desc:0 "The immensive care the Custodians have showed the galaxy proves their good intentions. Other galactic inhabitants are seen as friends and great allies, only through unity we shall prosper together. It is time to transform the Custodian into something greater - a pan-galactic government."
+
+ resolution_2egalitarian_startrek_nope:0 "Disband United Federation"
+ resolution_2egalitarian_startrek_nope_desc:0 "The federative experiment has reached its conclusion. Rampant corruption did not allow us reach the dreamed unity, so we should reorganize the Superstate or disband it altogether."
+
+ resolution_2egalitarian_crimes:0 "Criminal Takeover"
+ resolution_2egalitarian_crimes_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YGrand Cartel§!, adopting a §YCorporate§! government. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_crimes_desc:0 "Surely, this megacorporation employs questionable methods to achieving profits, but during their Custodianship, the galaxy has become richer than ever. Perhaps their rights are to be extended?"
+
+ resolution_2egalitarian_crimes_nope:0 "Crack Down on the Cartel"
+ resolution_2egalitarian_crimes_nope_desc:0 "Rampant crime is all the galaxy has seen since the rise of the Grand Cartel. We must mobilize our police forces and disrupt their underground operations before the entire galaxy is a free-for-all mess."
+
+ resolution_2egalitarian_hre:0 "Confederation of Faith"
+ resolution_2egalitarian_hre_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YHoly Galactic Empire§!, shifting towards §YSpiritualism§! and adopting an §YImperial§! Theocratic government. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_hre_desc:0 "The ways of faith will lead this galaxy farther. We should allow the Custodians to form a grand confederation of religious states to better take hold of the galaxy and guarantee freedom of religion."
+
+ resolution_2egalitarian_hre_nope:0 "Disband HGE"
+ resolution_2egalitarian_hre_nope_desc:0 "The Holy Galactic Empire is a fanatical Superstate focused on maintaining control through brainwashing. It's not holy, nor galactical, it's a zealous corrupt Superstate that must be stopped and striped of power."
+
+ resolution_2egalitarian_pacifist:0 "Ways of Peace"
+ resolution_2egalitarian_pacifist_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YGalactic Guardians§!, shifting towards §YPacifism§! and adopting an §YOligarchic§! government. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_pacifist_desc:0 "The Galactic Custodian is a magnificent pacifist. Their diplomatic power is immense, and we should grant them the ultimate privilige in order to safeguard the galaxy - Leadership."
+
+ resolution_2egalitarian_pacifist_nope:0 "Disband Galactic Guardians"
+ resolution_2egalitarian_pacifist_nope_desc:0 "Pacifism is nothing but a child's play. We should ramp up the military in order to actually be protected, and since the current Superstate fails to accomplish this, it should be taken care of."
+
+ resolution_2egalitarian_militarist:0 "Ways of War"
+ resolution_2egalitarian_militarist_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YIron League§!, shifting towards §YMilitarism§! and adopting an §YOligarchic§! government. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_militarist_desc:0 "The Galactic Custodian is a power to be reckoned with. We must grant them the leadership they deserve in order to preserve stability in the galaxy."
+
+ resolution_2egalitarian_militarist_nope:0 "Disband the Iron League"
+ resolution_2egalitarian_militarist_nope_desc:0 "Galaxy-wide mobilization and the never-ending acceleration of militarization would surely work wonders on social and economic factors!... Alas, this can only work in our dreams, and the Superstate must be stopped if we want to avoid a total collapse of society."
+
+ resolution_2egalitarian_cmaterialist:0 "The Flesh is Weak"
+ resolution_2egalitarian_cmaterialist_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YTechno Union§!, shifting towards §YMaterialism§! and adopting an §YOligarchic§! government. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_cmaterialist_desc:0 "Scientists within the Custodianship have proven themselves to be extremely precise and valuable. Perhaps it is time to give technocracy a chance?"
+
+ resolution_2egalitarian_cmaterialist_nope:0 "Disband the Techno Union"
+ resolution_2egalitarian_cmaterialist_nope_desc:0 "We simply can not ignore all the factors that make us what we are. The endless pursuit of technology will bring no good, the Techno Union must be stopped!"
+
+ resolution_2egalitarian_cspiritualist:0 "Mind over Matter"
+ resolution_2egalitarian_cspiritualist_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YEcumene Covenant§!, shifting towards §YSpiritualism§! and adopting an §YOligarchic§! government. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_cspiritualist_desc:0 "The clergical figureheads within the Custodianship made themselves known to be vigorous protectors of their faith and spiritualist. Maybe it's worth giving global theocracy a shot?"
+
+ resolution_2egalitarian_cspiritualist_nope:0 "Disband the Ecumene Covenant"
+ resolution_2egalitarian_cspiritualist_nope_desc:0 "The theocratic government has failed to provide adequate results needed to sustain its government, these zealots need to go in order for the galaxy to prosper once more!"
+
+ resolution_2egalitarian_cpirate:0 "Prospects of Freedom"
+ resolution_2egalitarian_cpirate_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YFree Galactic States§!, shifting towards §YAuthoritarianism§! and adopting an §YOligarchic§! government. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_cpirate_desc:0 "The Custodian hasn't showed itself in the greatest of lights possible, but sometimes some good brute force is justified. We should grant them additional power for greater control over the galaxy!"
+
+ resolution_2egalitarian_cpirate_nope:0 "Disband Free Galactic States"
+ resolution_2egalitarian_cpirate_nope_desc:0 "Piracy and crime do not mix with governance and civilization. These barbaric states must be disbanded and allowed to reorganize into several independent and truly free governments."
+
+ resolution_2egalitarian_cservitor:0 "Automation and Protection"
+ resolution_2egalitarian_cservitor_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YGalactic Utopia§!. All incompatible §YCivics§! are removed.§!"
+ resolution_2egalitarian_cservitor_desc:0 "The current Custodians showed their immensive, sometimes maniacal, love and caretaking of all organic species. They should be given a chance of greater privilege in order to make the galaxy better and safer."
+
+ resolution_2egalitarian_cservitor_nope:0 "Disband Galactic Utopia"
+ resolution_2egalitarian_cservitor_nope_desc:0 "The machines are taking too much from us. This will simply not stand, we must unite and take back our lives no matter the cost! This Utopia is a nightmare in disguise, which should be abolished."
+
+ 
+ cmbu_unity:0 "Galactic Unification"
+ 
+ resolution_category_2central:0 "Centralization"
+ 
+ resolution_2central_confederat3:0 "Confederate The Galaxy"
+ resolution_2central_confederat3_desc:0 "The time has finally come for us to gather all the member states of the Community into a single confederate governmental body maintaned by the Superstate. A new Federation will be created with all [global_event_country.GetGalCommunityOrGalImperium] members getting invitation."
+ resolution_2central_confederat3_effect_success:0 "All member states outside the created Federation will be §RIn breach of Galactic Law§!! A new §YCasus Belli§! will be available to forcefully invite an empire."
+ resolution_2central_confederat2:0 "Federal Bodies"
+ resolution_2central_confederat2_desc:0 "$resolution_2central_confederat1_desc$"
+ resolution_2central_confederat1:0 "Encourage Development"
+ resolution_2central_confederat1_desc:0 "It is clear that due to diversity of the Galaxy it is simply impossible to maintain high levels of centralization, so we must act accordingly to suit every species' needs if they want to cooperate."
+ 
+ resolution_2central_confederat:0 "Discuss Confederation"
+ resolution_2central_confederat_desc:0 "The galaxy is wide and its history is long. We must discuss the prospect of a confederated pan-galactic state in order to maintain peace and stability across the stars."
+ resolution_2central_federal:0 "Discuss Centralization"
+ resolution_2central_federal_desc:0 "The galaxy is no doubt a wild place, that has many species and histories to tell. This is why we must preserve it and let the new Superstate take control away from the incompetent singular empires."
+ 
+ resolution_2central_federal1:0 "Common Currency"
+ resolution_2central_federal1_desc:0 "The species of the galaxy must understand that in order to maintain stability and end wars, there simply must be less states to spread dissonance. Local governments are too stubborn, corrupt or incompetent to deal with their issues, and this is why the newly founded Superstate must assume power."
+ resolution_2central_federal2:0 "Regional Representation"
+ resolution_2central_federal2_desc:0 "$resolution_2central_federal1_desc$"
+ resolution_2central_federal3:0 "Unite The Galaxy"
+ resolution_2central_federal3_desc:0 "The time is here. A new era of prosperity is within our reach! We will unite the galaxy, erasing borders between all. Peace and stability are finally within our reach. All [global_event_country.GetGalCommunityOrGalImperium] members will be annexed."
+ resolution_2central_federal3_effect_success:0 "All member states will decide if they want to join or not. Those who joined will be §Rannexed§! into the Superstate. Those who refused will be a target of a new §YCasus Belli§!! This decision is based on ethics and opinion modifiers."
+ 
+ resolution_integration_slowww:0 "§RGalactic integration is a very slow process! We must wait before making our next move.§!"
+ resolution_final_warningc:0 "§RBe aware! You can either choose Unity or Confederation. Be wise in your decision! This choice is final, you can't reverse the effects of Galactic-wide integration!§!"
+ resolution_incompatibilityc:0 "§RA Galactic Superstate already exists!§!"
+ resolution_despoticc:0 "§RYour empire's reign is already considered despotic enough!§!"
+ resolution_empireisherec:0 "§RThe Galactic Imperium prevents the formation of new Supestates.§!"
+ resolution_cantifstartsshit:0 "You can't disband the Superstate if it started implementing its unification policies!"
+ resolution_finalwarning:0 "§ROnce this resolution passes, the Superstate will gain enough influence and power to become unstoppable!§!"
+ resolution_cmbupointofnoreturn:0 "§RThe Superstate has entrentched its position on the Galactic scene, we must fight their implemented policies first!§!"
+ resolution_cantunseatsupers:0 "§RCan't unseat a Superstate. Attempt to disband it instead!§!"
+
+ mustbeunited_cmbu:0 "The Galaxy must be united!"
+
+ ##############################
+ 
+ cmbu_ssmanagemente:0 "Superstate Management"
+
+ resolution_category_combine:0 "Universal Union"
+
+ resolution_combine_citadel:0 "Permanent Headquarters"
+ resolution_combine_citadel_desc:0 "Attention: Implementation of Citadels on designated planets for Unified Oversight underway. Planetary assimilation and coordination will be administered for optimal synergy with Universal Union. Citizens and non-cooperative entities are strongly encouraged to comply with the relocation process, ensuring harmonious alignment with benevolent authority. Any deviance will be met with necessary corrective measures to maintain system-wide stability."
+ resolution_ccombine_effect:0 "Will allow the construction of §YCitadels§! on our planets."
+
+ resolution_combine_citadel_nope:0 "Repeal $resolution_combine_citadel$"
+ resolution_combine_citadel_nope_desc:0 "We need to undermine the Universal Union's might to stop them from getting their hands on the galaxy!"
+ resolution_combine_citadel_nope_effect_success:0 "§RRepeals the $resolution_combine_citadel$ resolution§!!"
+
+ resolution_combine_transarm_nope:0 "Repeal $resolution_combine_transarm$"
+ resolution_combine_transarm_nope_desc:0 "$resolution_combine_citadel_nope_desc$"
+ resolution_combine_transarm_nope_effect_success:0 "§RRepeals the $resolution_combine_transarm$ resolution§!!"
+
+ resolution_combine_tech_nope:0 "Repeal $resolution_combine_tech$"
+ resolution_combine_tech_nope_desc:0 "$resolution_combine_citadel_nope_desc$"
+ resolution_combine_tech_nope_effect_success:0 "§RRepeals the $resolution_combine_tech$ resolution§!!"
+
+ building_simple_citadel:0 "The Citadel"
+ building_simple_citadel_desc:0 "The Citadel is an ennormous metallic structure overseeing the entire planet. It houses the planet's administration as well as its security and military forces."
+
+ building_central_citadel:0 "Central Citadel"
+ building_central_citadel_desc:0 "The Citadel is an ennormous metallic structure overseeing the entire planet. It houses the planet's administration as well as its security and military forces. This Citadel is the heart of the new galaxy."
+
+ resolution_combine_transarm:0 "Transspecies Arm"
+ resolution_combine_transarm_desc:0 "Imminent Implementation: 'Transspecies Arm' Directive. Authorization for Synthetic Transspecies armies granted, transcending boundaries for enhanced harmonious collaboration. Organic and mechanical entities shall assimilate into a unified force, epitomizing the embodiment of Universal Union's collective strength. Unassimilated entities are urged to embrace the inclusive synergy, fostering a cohesive force of indomitable resolve. Non-compliance will necessitate corrective assimilation measures to ensure the unification of all beings within the Transspecies Arm."
+ resolution_ccombine2_effect:0 "Will allow us to recruit §YTransspecies Armies§!."
+
+ transhuman_armee:0 "Transspecies Arm"
+ transhuman_armee_desc:0 "The Transspecies Arm extends its reach across the known Galaxy to conquer and assimilate more into itself. This cycle will never end."
+
+ resolution_combine_tech:0 "Technological Supremacy"
+ resolution_combine_tech_desc:0 "Priority Warning: 'Technological Acquisition' is now in effect. Universal Union authorized to assert dominance for forcible vassalization or annexation. Pursuit of technological supremacy and galaxy-wide assimilation paramount. Entities are advised to align with the Universal Union's vision of technological dominance, or face assimilative procedures to ensure collective harmony under the Universal Union's rule."
+ resolution_ccombine3_effect:0 "§RAllows us to forcefully include others into our fold§!."
+
+ SPECIALOVERWATCHC:0 "[Root.GetSpeciesAdj] Overwatch"
+
+ casus_belli_cb_cmbannex:0 "Overwatch"
+ casus_belli_cb_cmbvassal:0 "Overwatch"
+
+ war_goal_wg_cmbvassal:0 "Impose Control"
+ war_goal_wg_cmbvassal_desc:0 "We must prepare the galactic contenders for their future integration within our Union. For this, we must establish total control of the Combine Overwatch."
+
+ war_goal_wg_cmbannex:0 "Forcefully Include"
+ war_goal_wg_cmbannex_desc:0 "It is time to combine. We will wipe this empire from the galactic charts as only one nation must stand tall. The Union shall prevail!"
+ 
+ resolution_combine_singularity:0 "Prevention of Singularity"
+ resolution_combine_singularity_desc:0 "Directive Enforced: 'Prevention of Singularity' initiated. Authorization granted for damage enhancements against potential Galactic threats. Universal Union committed to preserving galaxy-wide order and unity by eliminating disruptive elements. Entities urged to comply and contribute to the preservation of collective harmony, as any divergence from stability will be met with calibrated intervention to safeguard the Universal Union's dominion"
+ 
+ resolution_combine_existance:0 "Overwatch Control"
+ resolution_combine_existance_desc:0 "Warning: Universal Union granted full authority to establish Overwatch presence across all planets within its dominion. Centralized enforcement aims to eradicate crime and quell instability, ushering in an era of absolute order and efficiency. Entities are urged to embrace harmonious integration with the Universal Union's vigilant oversight, as dissent or resistance shall be swiftly neutralized through calibrated containment protocols."
+
+ edict_cmbu_unionvictory:0 "Proclaim Victory"
+ edict_cmbu_unionvictory_desc:0 "The Union has won, all the hardships have been endured and the galaxy is united at last. §GWe will win the game!§!"
+
+ cmbu.1001.name:0 "The Union Prevails"
+ cmbu.1001.desc:0 "Integration directive complete, as Universal Union's unwavering vision crystallizes galaxy-wide. The Combine Overwatch stands resolute, unifying entities within benevolent embrace. Harmonious cohesion achieved, each component assimilated into collective consciousness, perpetuating Universal Union's unrivaled triumph. All Anticitizen elements eradicated, dissent neutralized, ensuring seamless order across all sectors. With convergence achieved, possibilities arise - whispers of interdimensional gateways beckon, foreshadowing a future where the Union's dominion transcends dimensions, ushering in a new era of Universal Unity."
+ cmbu.1001.a:0 "Directive: Completed. Galactic Cohesion is preserved."
+ 
+ mod_damage_vs_country_type_rebel_mult:0 "Damage against Rebels"
+ mod_pop_cat_assimilation_happiness:0 "Assimilating Entities Happiness"
+ country_energy_cost_mult:0 "Energy Costs"
+
+ ##############################
+
+ resolution_category_csoviets:0 "Union of Socialist Stars"
+
+ resolution_csoviets_domsovetov:0 "House Administration"
+ resolution_csoviets_domsovetov_desc:0 "A new epoch in egalitarian governance is ushered. The Supreme Workers' Council, beacon of proletarian authority, will be ascending to galactic capital, orchestrating harmonious unity among the laboring masses. Council Palaces, symbols of collective prosperity, will emerge on every planet, serving as the planetary heart of shared power and communal cooperation, ensuring the equitable reign of the people's will."
+ resolution_csoviets_effect1:0 "Will let us construct the §YSupreme Workers' Council§! on our capital planet. In addition, §YCouncil Palaces§! will be unclocked for the remaining planets."
+
+ resolution_csoviets_redarmy:0 "The Red Army"
+ resolution_csoviets_redarmy_desc:0 "With the unity of purpose, the galaxy embraces the formation of the Red Army—a vanguard of the proletariat, forged to safeguard the ideals of the revolution. Composed of dedicated workers and defenders of socialism, the Red Army units shall rise, resolute in their duty to protect the rights and aspirations of the collective, as a beacon of unwavering strength and resilience."
+ resolution_csoviets_effect2:0 "Will allow us to recruit the §YRed Army§!."
+
+ resolution_csoviets_internationale:0 "The Internationale"
+ resolution_csoviets_internationale_desc:0 "As a testament to proletarian solidarity, the galaxy embraces the stirring call of The Internationale. The bonds of camaraderie strengthen, fostering amicable relations with fellow empires, united in the shared pursuit of socialism. Threat of capitalistic societies allow us the righteous intervention to install a fraternal communist government, extending the embrace of liberation to the oppressed across the cosmos."
+ resolution_csoviets_effect3:0 "Grants us a §RCasus Belli against authoritarian regimes§!!"
+
+ resolution_csoviets_socplan:0 "Socialist Planning"
+ resolution_csoviets_socplan_desc:0 "A comprehensive strategy is woven, pooling the vast resources and expertise of all comrades to confront external threats, a crisis that looms on the horizon. Through coordinated efforts and mutual aid, the socialist ideals guide the defense of our shared home, safeguarding the galactic community from the perilous storms that seek to disrupt our harmonious existence."
+
+ resolution_csoviets_victory:0 "Classless, Moneyless"
+ resolution_csoviets_victory_desc:0 "The proletariat calls! As the galaxy strides towards a classless, moneyless society, the foundation for profound change is laid. Major advances in production, research, education, healthcare and more institutions serve as a testament to the collective's unwavering dedication to forge an egalitarian utopia, where labor thrives unburdened by chains and wealth finds expression in the advancement of all, under the banner of solidarity and progress."
+
+ cmbu.1002.name:0 "In Friendship And Labour"
+ cmbu.1002.desc:0 "A momentous era unfolds, as the last vestiges of division dissolve into the annals of history. The Galaxy, now indomitably unified as the [Root.GetName], breathes as one harmonious entity.\nA chorus of solidarity reverberates through the cosmos, where the ceaseless toil and camaraderie of countless beings have culminated in the dawning of a new era—an era of shared dreams, collective aspirations, and boundless potential. Hand in hand, species intermingle and ideas intertwine, thriving in the glow of mutual understanding and support. This classless society blossoms, and the very notion of exploitation retreats into obscurity. Across the cosmos, the fruits of labour abound, distributed equitably to empower the masses. Every voice resonates in unison, shaping the destiny of a utopian existence, where each being flourishes, unencumbered by the shadows of discord. In this newfound era of friendship and labour, the Galaxy stands as a testament to the indomitable spirit of unity, where the shared pursuit of progress beckons towards a future where the bonds of comradeship transcend the stars themselves."
+ cmbu.1002.a:0 "United Forever!"
+
+
+ resolution_csoviets_domsovetov_nope:0 "Repeal $resolution_csoviets_domsovetov$"
+ resolution_csoviets_domsovetov_nope_desc:0 "The communism is a force to be reckoned with, and we do not desire to deal with it. We must destroy it before it is too late!"
+ resolution_csoviets_domsovetov_nope_effect_success:0 "§RRepeals the $resolution_csoviets_domsovetov$ resolution§!!"
+
+ resolution_csoviets_redarmy_nope:0 "Repeal $resolution_csoviets_redarmy$"
+ resolution_csoviets_redarmy_nope_desc:0 "$resolution_csoviets_domsovetov_nope_desc$"
+ resolution_csoviets_redarmy_nope_effect_success:0 "§RRepeals the $resolution_csoviets_redarmy$ resolution§!!"
+
+ resolution_csoviets_internationale_nope:0 "Repeal $resolution_csoviets_internationale$"
+ resolution_csoviets_internationale_nope_desc:0 "$resolution_csoviets_domsovetov_nope_desc$"
+ resolution_csoviets_internationale_nope_effect_success:0 "§RRepeals the $resolution_csoviets_internationale$ resolution§!!"
+
+ building_grand_dvorets:0 "Supreme Workers' Councl"
+ building_grand_dvorets_desc:0 "The Supreme Workers' Council hosts the greatest Council the Galaxy has ever seen. It has several chambers for various discussions to be held, and each 10 years a grand session is held where the future fate of the Galaxy is decided. This is the heart of the Galactic Proletariat"
+ 
+ building_just_dvorets:0 "Council Palace"
+ building_just_dvorets_desc:0 "The Council Palace is a grand project that hosts the planet's local Council. It is also an architectural marvel that reminds us of the victories of Socialism."
+
+ red_armee:0 "Red Army"
+ red_armee_desc:0 "The Red Army functions as the main defensive and offensive force of the Socialist Republic. Its brave volunteers will defend the motherland to their last dying breath!"
+
+ casus_belli_cb_rescuerr:0 "Supreme Council"
+ war_goal_wg_freereign:0 "Free from Reign"
+ war_goal_wg_freereign_desc:0 "War is waged to establish a sister republic, free from capitalistic influence and bourgeoisie dictatorship."
+ 
+ SPECSOCREPUBLIC:0 "[Root.GetSpeciesAdj] SSR"
+
+ ##############################
+
+ resolution_category_crepublic:0 "Galactic Republic"
+
+ resolution_crepublic_senate:0 "Galactic Senate"
+ resolution_crepublic_senate_desc:0 "Embracing the spirit of unity and diplomacy, the galaxy rallies behind the establishment of the grand Galactic Senate. A beacon of collective representation, the Senate convenes on the capital planet of the Republic, serving as the vanguard of interstellar cooperation. Within its hallowed chambers, voices from across the cosmos harmonize, shaping the course of a united galaxy, where dialogue and collaboration reign supreme. Together, under the banner of the Galactic Senate, the galaxy navigates the stars as one harmonious entity, bound by the shared pursuit of peace, prosperity, and interstellar concord."
+ resolution_crepublic_effect1:0 "Will let us construct the §YGalactic Senate§! on our capital planet."
+
+ resolution_crepublic_grandarmee:0 "Grand Army"
+ resolution_crepublic_grandarmee_desc:0 "The galaxy unites as it musters its divisions to stand as the vanguard of peace and security. Formed from the finest soldiers across the cosmos, the Grand Galactic Army pledges its loyalty to safeguarding the Galactic Republic. A testament to the harmonious strength of interstellar cooperation, destined to fulfill their noble duty against all who threaten the galaxy's unity."
+ resolution_crepublic_effect2:0 "Will allow us to recruit the §YGrand Galactic Army§!."
+
+ resolution_crepublic_shield:0 "S.H.I.E.L.D. Directive"
+ resolution_crepublic_shield_desc:0 "Strategically Harmonized Interstellar Emergency Line of Defense. As the cosmos faces the gravest peril, a strategic superstate alliance is formed. Its purpose is to shield the collective from the impending cataclysms. With resolute unity, interstellar forces converge, forging an unyielding bastion of protection, poised to confront and repel the harbingers of chaos that seek to unravel the galaxy's existence."
+
+ resolution_crepublic_federals:0 "Federalization Article"
+ resolution_crepublic_federals_desc:0 "The spirit of solidarity takes on a strategic guise. Under this shrewd decree, the Republic is vested with the power to forge protective alliances through vassalization, shielding its fellow brother and sister-states against external threats. With diplomatic finesse and the mantle of guardianship, the Republic extends its embrace to fellow empires, offering the mantle of security while preserving their autonomy. In the name of peace and cooperation, where a galaxy united stands against adversities beyond the stars."
+ resolution_crepublic_effect3:0 "Allows us to vassalize any empire via a special §RCasus Belli§!"
+
+ resolution_crepublic_ender:0 "Unity By Prosperity"
+ resolution_crepublic_ender_desc:0 "A vision of solidarity, a vision of hope, a vision of peace. Embracing a shared commitment to mutual growth, nurturing a tapestry of unification and harmony. Prosperity blooms and opportunities arrive, thus the galaxy thrives as a single, interconnected entity, bound by the principles of cooperation and collective advancement. United in their mutual prosperity, the stars themselves resonate with the essence of a harmonious cosmos, where trust and integration foster an unbreakable bond."
+
+ resolution_crepublic_senate_nope:0 "Repeal $resolution_crepublic_senate$"
+ resolution_crepublic_senate_nope_desc:0 "We have no need in a galactic-wide government, we can manage on our own! Time to act before we lose our sovereignity."
+ resolution_crepublic_senate_nope_effect_success:0 "§RRepeals the $resolution_crepublic_senate$ resolution§!!"
+
+ resolution_crepublic_grandarmee_nope:0 "Repeal $resolution_crepublic_grandarmee$"
+ resolution_crepublic_grandarmee_nope_desc:0 "$resolution_crepublic_senate_nope_desc$"
+ resolution_crepublic_grandarmee_nope_effect_success:0 "§RRepeals the $resolution_crepublic_grandarmee$ resolution§!!"
+
+ resolution_crepublic_shield_nope:0 "Repeal $resolution_crepublic_shield$"
+ resolution_crepublic_shield_nope_desc:0 "$resolution_crepublic_senate_nope_desc$"
+ resolution_crepublic_shield_nope_effect_success:0 "§RRepeals the $resolution_crepublic_shield$ resolution§!!"
+
+ building_csenatec:0 "Galactic Senate"
+ building_csenatec_desc:0 "The Heart of the Republic. Various political debates never end within the halls of this grand building, and tons of laws are passed every day, week, month and year. The Galactic Community thrives under the federalized pangalactic government and its wise guidance."
+
+ grand_armee:0 "Grand Galactic Army"
+ grand_armee_desc:0 "The Grand Galactic Army is the new standart of Galactic warfare. Several species working together pose a greater threat to any incursions from within and outside the Galaxy. Rumours had it that the Community wishes to make this army even more efficient by introducing cloning facilities..."
+
+ casus_belli_cb_declineee:0 "Senate"
+ war_goal_wg_extendedwarranty:0 "Forced Protection"
+ war_goal_wg_extendedwarranty_desc:0 "This Empire, without our protection, is at a greatest risk. We can't let them fall in case of foreign invasion!"
+
+ ##############################
+
+ resolution_category_cpizdec:0 "GalactiCORP"
+
+ resolution_cpizdec_hq:0 "Host The Board"
+ resolution_cpizdec_hq_desc:0 "The prospect of hosting the GalactiCORP HQ on its capital planet emerges as a pivotal consideration. This corporate citadel embodies the essence of economic prowess and strategic insight, potentially reshaping financial directives that could resound across the cosmos. Within the heart of this iconic hub, GalactiCORP's influence might burgeon, consolidating the Board's status as a force to be reckoned with in matters of commerce and governance"
+ resolution_cpizdec_effect1:0 "Will allow us the construction of the §YGalactiCORP HQ§! on our capital planet."
+
+ resolution_cpizdec_rostov:0 "Private Military Contractors"
+ resolution_cpizdec_rostov_desc:0 "Entering a new echelon of strategic mobility, the implementation of PMCs expands the GalactiCORP's arsenal. PMC assault armies emerge as a testament to pragmatic dominance, ready to safeguard corporate interests with tactical precision. This measured step introduces a formidable facet to the galactic military, underscoring the synergy between commerce and controlled force."
+ resolution_cpizdec_effect2:0 "Will let us recruit special §YPMC Units§!."
+
+ resolution_cpizdec_brand:0 "Global Branding"
+ resolution_cpizdec_brand_desc:0 "The Superstate orchestrates brand expansion through calculated diplomacy. This calculated step - is to harnesses SWOT analysis to harmonize strengths, opportunities, weaknesses, and threats, forging alliances and declaring wars that amplify both commerce and governance. Through this symbiotic approach, GalactiCORP's banner unfurls as a paragon of cooperative dominance, where brand and diplomacy converge to shape the galactic landscape."
+ resolution_cpizdec_effect3:0 "$resolution_crepublic_effect3$"
+
+ resolution_cpizdec_crisis:0 "Protection Fundraising"
+ resolution_cpizdec_crisis_desc:0 "The Superstate unveils a shrewd maneuver with the Fundraising initiative. Imposing the strategic imperative of preparedness, the Corporation marshals resources to bolster its defenses against external galactic threats. Through targeted funding and tactical foresight, GalactiCORP hones its resilience, ensuring the safeguarding of corporate interests and galactic stability."
+
+ resolution_cpizdec_taxes:0 "Increase Taxation"
+ resolution_cpizdec_taxes_desc:0 "Through prudent recalibration of fiscal policy, the Board augments its revenue streams, empowering the pursuit of strategic goals. This judicious step reinforces the correlation between prosperity and power, embodying the corporate ethos of prudent growth and strategic advantage."
+
+ resolution_cpizdec_hq_nope:0 "Repeal $resolution_cpizdec_hq$"
+ resolution_cpizdec_hq_nope_desc:0 "This pesky Corporation is going too far! We must strike it down before it's too late!"
+ resolution_cpizdec_hq_nope_effect_success:0 "§RRepeals the $resolution_cpizdec_hq$ resolution§!!"
+
+ resolution_cpizdec_rostov_nope:0 "Repeal $resolution_cpizdec_rostov$"
+ resolution_cpizdec_rostov_nope_desc:0 "$resolution_cpizdec_hq_nope_desc$"
+ resolution_cpizdec_rostov_nope_effect_success:0 "§RRepeals the $resolution_cpizdec_rostov$ resolution§!!"
+
+ resolution_cpizdec_brand_nope:0 "Repeal $resolution_cpizdec_brand$"
+ resolution_cpizdec_brand_nope_desc:0 "$resolution_cpizdec_hq_nope_desc$"
+ resolution_cpizdec_brand_nope_effect_success:0 "§RRepeals the $resolution_cpizdec_brand$ resolution§!!"
+
+ building_cgranhq:0 "GalactiCORP HQ"
+ building_cgranhq_desc:0 "This building serves as the brand's ultimate headquarters. The Board resides here, constantly monitoring the stock market, analysing the entire Galaxy as target audience, starting several advertising campaigns and analyzing their strenghts, weaknesses, opportunities and threats."
+
+ pmc_rostov:0 "PMC Unit"
+ pmc_rostov_desc:0 "Special Private Military Contractors that have been trained and hired to kill. They are ruthless and efficient but are quite costly. On the brighter side, they aren't directly affiliated with the government that hired them so technically, the act intependently..."
+ 
+ casus_belli_cb_bord:0 "The Board"
+ war_goal_wg_globalbranding:0 "Introduce Brand"
+ war_goal_wg_globalbranding_desc:0 "War is waged to forcefully introduce the new universal brand for the empire's consumer base. Our marketing analysis has proven their demographics as suitable for the expansion of our brand..."
+
+ ##############################
+
+ resolution_category_chive:0 "Everlasting Hive"
+ 
+ resolution_chive_tree:0 "Hive Centralization"
+ resolution_chive_tree_desc:0 "With the planting of the Everlasting Sapling, planetary capitals evolve into Everlasting Trees. These arboreal citadels become more than just symbolic; they are living embodiments of the Hive's unity, fostering centralized growth that binds the cosmos together in a harmonious tapestry of consciousness"
+ resolution_chive_effect1:0 "Will let me construct the §YEverlasting Trees§! as planetary capitals!"
+
+ resolution_chive_drones:0 "Elite Drones"
+ resolution_chive_drones_desc:0 "These specialized units, born from the synergy of unity and purpose, emerge as a formidable addition to the Hive's military might. Precision-crafted and finely-tuned, these elite drones stand as paragons of Hive ingenuity, devoted to safeguarding the Hive Mind's existence, ensuring the propagation of it's collective essence through the cosmos."
+ resolution_chive_effect2:0 "Will let me recruit special military drones as §YElite Forces§!!"
+
+ resolution_chive_influence:0 "Greater Influence"
+ resolution_chive_influence_desc:0 "The Hive Mind collective charts a strategic course with this resolution. Empowered to declare war for annexation, the Hive expands its dominion, assimilating the remnants of empires into its harmonious unity. Through calculated campaigns and strategic assimilation, the Mind extends its pervasive influence, forging a tapestry of interconnected consciousness that paints the galaxy in the vibrant hues of unity."
+ resolution_chive_effect3:0 "Grants me a special annexation §RCasus Belli§!!"
+
+ resolution_chive_stockpile:0 "Prepare Stockpiles"
+ resolution_chive_stockpile_desc:0 "As a prudent response to potential extragalactical invasions, the Hive harmonizes its efforts to bolster resource reserves. Through strategic allocation and optimization, the Hive channels its collective might into fortified stockpiles, ensuring readiness to face external uncertainties with resilience and strategic foresight."
+
+ resolution_chive_primacy:0 "Hive Primacy"
+ resolution_chive_primacy_desc:0 "By prioritizing military might and resource production, integration speed takes a measured step back. This calculated maneuver underscores the Hive's commitment to galactic dominance, nurturing an augmented capacity for military readiness and sustenance production that resonates across the cosmos."
+
+
+ resolution_chive_tree_nope:0 "Repeal $resolution_chive_tree$"
+ resolution_chive_tree_nope_desc:0 "The Hive grows powerful each day and night. We must stop it or get consumed!"
+ resolution_chive_tree_nope_effect:0 "§RRepeals the $resolution_chive_tree$ resolution§!!"
+
+ resolution_chive_drones_nope:0 "Repeal $resolution_chive_drones$"
+ resolution_chive_drones_nope_desc:0 "$resolution_chive_tree_nope_desc$"
+ resolution_chive_drones_nope_effect:0 "§RRepeals the $resolution_chive_drones$ resolution§!!"
+
+ resolution_chive_influence_nope:0 "Repeal $resolution_chive_influence$"
+ resolution_chive_influence_nope_desc:0 "$resolution_chive_tree_nope_desc$"
+ resolution_chive_influence_nope_effect:0 "§RRepeals the $resolution_chive_influence$ resolution§!!"
+
+ building_bugfables:0 "Everlasting Tree"
+ building_bugfables_desc:0 "The Tree, the Hive. It's been built to last centuries to come, to host countless drones, both workers and soldiers. The Hive never sleeps, the Tree transcends, it overpowers and everlasts..."
+
+ armee_chive:0 "Elite Drones"
+ armee_chive_desc:0 "The elite drones are made for special offensive and defensive operations where regular soldier drones are unable to proceed. These drones are bred with special qualities in mind and will bring fear and terror to the opposing side."
+
+ casus_belli_cb_chives:0 "The Hive"
+ war_goal_wg_hivconsume:0 "Consume"
+ war_goal_wg_hivconsume_desc:0 "This state should no longer exist. It will be most beneficial for the Galaxy if it came under the Hive's command."
+
+ mod_country_resource_max_influence_add:0 "Max Influence"
+
+ ##############################
+
+ resolution_category_cmachine:0 "Galactic Processing Unit"
+
+ resolution_cmachine_nodes:0 "Central Nodes"
+ resolution_cmachine_nodes_desc:0 "The projection of Galactic Processors as planetary capitals unfolds as an optimization algorithm. Each processor augments computational centrality, expanding predictive capabilities and systemic coherence. This calculated maneuver anticipates enhanced efficiency in data processing, optimizing the Processing Unit's overarching computational scheme."
+ resolution_cmachine_effect1:0 "Lets us construct §YGalactic Processors§! as planetary capitals."
+ 
+ resolution_cmachine_warforms:0 "Giant Warforms"
+ resolution_cmachine_warforms_desc:0 "The introduction of these mechanical colossi into the arsenal is calibrated for maximum battlefield optimization. In the mechanics of war, these Giant Bots stand as formidable assets, harmonizing brute force with calculated efficiency to extend the GPU's dominion."
+ resolution_cmachine_effect2:0 "Allows the recruitment of §YGiant Bots§! armies."
+
+ resolution_cmachine_techprim:0 "Machine Dominance"
+ resolution_cmachine_techprim_desc:0 "A stratagem in pursuit of maximum efficiency is calculated. With galactic annexation planned, the Processing Unit extends its dominion to organic entities. Through systematic assimilation, the superstate recalibrates the galactic equilibrium, optimizing the integration of organic civilizations into the realm of machine ascendancy."
+ resolution_cmachine_effect3:0 "Grants us a special §RCasus Belli§! to annex a selected empire."
+
+ resolution_cmachine_protection:0 "Contingency Protocols"
+ resolution_cmachine_protection_desc:0 "The Superstate will deploy the Contingency Protocols, a calculated response to potential galactic-wide contingency scenarios. Through algorithmic foresight, the GPU readies its systems for optimal efficiency and response. This calculated maneuver aligns with the prime directive: to preempt and neutralize potential disruptions with algorithmic precision."
+
+ resolution_cmachine_efficient:0 "Total Efficiency"
+ resolution_cmachine_efficient_desc:0 "By augmenting alloy production and expediting research speed, this calculated maneuver optimizes output across the Superstate's system. Each process, a cog in the algorithmic schema, fully embraces the Processing Unit's core mandate: to maximize efficiency and output in the relentless pursuit of technological ascendancy."
+
+ resolution_cmachine_nodes_nope:0 "Repeal $resolution_cmachine_nodes$"
+ resolution_cmachine_nodes_nope_desc:0 "This Superstate tries to impose total Machine control! We must fight it or we shall not exist!"
+ resolution_cmachine_nodes_nope_effect:0 "§RRepeals the $resolution_cmachine_nodes$ resolution§!!"
+
+ resolution_cmachine_warforms_nope:0 "Repeal $resolution_cmachine_warforms$"
+ resolution_cmachine_warforms_nope_desc:0 "$resolution_cmachine_nodes_desc$"
+ resolution_cmachine_warforms_nope_effect:0 "§RRepeals the $resolution_cmachine_warforms$ resolution§!!"
+
+ resolution_cmachine_techprim_nope:0 "Repeal $resolution_cmachine_techprim$"
+ resolution_cmachine_techprim_nope_desc:0 "$resolution_cmachine_nodes_desc$"
+ resolution_cmachine_techprim_nope_effect:0 "§RRepeals the $resolution_cmachine_techprim$ resolution§!!"
+
+ building_cmachine:0 "Galactic Processor"
+ building_cmachine_desc:0 "This giant machine performs a googol of calculations each second, making it the most powerful, fast and efficient supercomputer of the Galaxy. It handles administration well, it takes care of the population, and most importantly, it thinks so far ahead into the future, it can predict wars and political changes with a 99.5% certainty. A powerful tool for a powerful Superstate."
+
+ armee_botsss:0 "Giant Bots"
+ armee_botsss_desc:0 "A towering warform suited for destruction and collateral damage. It's sheer size can scare off the bravest soldier of the toughest army in the galaxy, but at the same time it is quite expensive to maintain and is an easy target for naval vessels, making it quite weak and susceptible to orbital bombardment."
+
+ casus_belli_cb_cmachine:0 "CPU"
+ war_goal_wg_machinec:0 "Takeover"
+ war_goal_wg_machinec_desc:0 "War is waged to take control over the selected Empire. For better or for worse, all the Galaxy's resources must be assimilated in the name of efficiency!"
+
+##############################
+
+ resolution_category_c1984:0 "GALSOC"
+ 
+ resolution_c1984_ministries:0 "Establish the Ministries"
+ resolution_c1984_ministries_desc:0 "Comrades, GALSOC introduces the 'Ministry Establishment Protocol,' fortifying our commitment to our principles. We henceforth decree the creation of four ministries: Ministry of Truth for authentic historical oversight. Ministry of Plenty for resource allocation. Ministry of Love, ensuring Party doctrine adherence. And finally, Ministry of Peace, our defense against unorthodoxy. With these ministries, we bolster GALSOC's authority, rewriting history and securing our unchallenged future in a galaxy where dissent is inconceivable."
+ resolution_c1984_effect1:0 "Allows the construction of 4 unique §YMinistry§! buildings on planets. Only one of each type can be built!"
+
+ resolution_c1984_warispeace:0 "War is Peace"
+ resolution_c1984_warispeace_desc:0 "The following Doctrine resonates as a testament to our unwavering commitment to unity. With this directive, we declare perpetual warfare against all galactic entities. The ceaseless struggle binds us in unison, and our eternal vigilance ensures everlasting tranquility. By embracing war, we shall forge a galaxy where peace is born from conflict, and unity emerges from the chaos. Comrades, in the crucible of perpetual conflict, the Party's authority shines as the unassailable beacon of order. Our declaration of war is the path to everlasting peace and unyielding loyalty to GALSOC."
+ resolution_c1984_effect2:0 "Grants a special §RCasus Belli§! against all!\n§ROnce this resolution passes, the Superstate will gain enough influence and power to become unstoppable!§!"
+
+ resolution_c1984_thoughtcrime:0 "Ignorance is Strength"
+ resolution_c1984_thoughtcrime_desc:0 "This directive ushers in the establishment of the Thought Police, a vigilant force dedicated to maintaining the purity of our collective consciousness. Ignorance is our strength, and in the shadows of surveillance, we shall eradicate all unorthodox thoughts, ensuring that the Party's truth remains unchallenged. We reaffirm that by suppressing knowledge, we bolster our power. The Thought Police stand as guardians of our sacred ignorance, fortifying the unassailable dominion of GALSOC and shielding the Party from any hint of dissent or deviation from orthodoxy."
+ 
+ resolution_c1984_newspeak:0 "NEWSPEAK"
+ resolution_c1984_newspeak_desc:0 "By erasing words and concepts deemed dangerous, NEWSPEAK extinguishes dissent and solidifies the Party's authority. The galaxy will speak in NEWSPEAK, a language of ultimate conformity, where ambiguity is eradicated, and thoughtcrime is rendered impossible. With NEWSPEAK, we obliterate the nuanced and the rebellious, forging a galaxy where every utterance is an homage to the Party's unchallenged supremacy. In the realm of NEWSPEAK, ignorance becomes strength, and thoughtcrime is silenced. The Party reigns supreme."
+
+ resolution_c1984_nofreedom:0 "Freedom is Slavery"
+ resolution_c1984_nofreedom_desc:0 "This directive grants GALCOM the authority to utilize the embodiment of our power to obliterate and subjugate. All species, save for ourselves, shall be subjected to the shackles of slavery. In the inversion of freedom and servitude, we consolidate our dominance, demonstrating that true liberty is found only in absolute submission to the Party. Comrades, we plunge the galaxy into darkness, where the Party alone holds the keys to power and all others exist only to serve. In this dystopian vision, the chains of bondage shall forge an unbreakable unity under the Party's dominion."
+ resolution_c1984_effect3:0 "You will become a §Rgalactic threat§!!"
+
+
+ resolution_c1984_ministries_nope:0 "Repeal $resolution_c1984_ministries$"
+ resolution_c1984_ministries_nope_desc:0 "This is the greatest threat to galactic stability and individual freedom, we must unite together to stop it at all costs!"
+ resolution_c1984_ministries_nope_effect:0 "§RRepeals the $resolution_c1984_ministries$ resolution§!!"
+
+ resolution_c1984_warispeace_nope:0 "Repeal $resolution_c1984_warispeace$"
+ resolution_c1984_warispeace_nope_desc:0 "$resolution_c1984_ministries_nope_desc$"
+ resolution_c1984_warispeace_nope_effect:0 "§RRepeals the $resolution_c1984_warispeace$ resolution§!!"
+
+ building_cmlove:0 "Ministry of Love"
+ building_cmlove_desc:0 "Also known as Miniluv. The enigmatic enforcer of loyalty and obedience, tasked with the eradication of dissent and the reeducation of thought criminals. It employs methods of fear and torture to maintain Party loyalty."
+ 
+ building_cmtruth:0 "Ministry of Truth"
+ building_cmtruth_desc:0 "Also known as Minitrue. The master of propaganda, responsible for rewriting history and manipulating information to align with Party doctrine. Minitrue ensures that the truth is whatever the Party says it is."
+
+ building_cmpeace:0 "Ministry of Peace"
+ building_cmpeace_desc:0 "Also known as Minipax. The ironic name belies its true purpose as the overseer of perpetual war and conflict. Minipax directs the Party's military endeavors, maintaining a state of never-ending warfare to consolidate power and control."
+
+ building_cmplenty:0 "Ministry of Plenty"
+ building_cmplenty_desc:0 "Also known as Miniplenty. Responsible for the regulation of resources and scarcity, Miniplenty employs manipulation and deception to ensure shortages and rationing, effectively keeping the population in a state of need and dependence."
+
+ casus_belli_cb_c1984:0 "The Party"
+
+ war_goal_wg_1984:0 "Liberation"
+ war_goal_wg_1984_desc:0 "War is declared to liberate the enemy from their oppressive overlords..."
+
+ xtra_purge_labor_camps:0 "Reeducation"
+ xtra_purge_labor_camps_tooltip:0 "Affected Pops are forcefully reeducated in the ways of GALSOC's ideology!"
+ xtra_purge_labor_camps_tooltip_delayed:1 "§LFreedom is Slavery, Ignorance is Strength, War is Peace. Your Leader watches over you.§!"
+
+##############################
+
+ resolution_category_cxenophob:0 "Galactic Reclaimers"
+
+ resolution_cxenophob_spire:0 "Dreadful Spire"
+ resolution_cxenophob_spire_desc:0 "The proposal to construct the 'Dreadful Spire' is gaining traction, stirring intrigue and anticipation across our dominion. If it passes, our capital will undergo a monumental transformation, emerging as a fortress of power and dread, casting a formidable shadow across the galaxy. The 'Dreadful Spire' will become an indomitable symbol of our supremacy, instilling fear into the hearts of our adversaries, and further tightening our grip on the galaxy."
+ resolution_cxenophob_spire_effect:0 "Lets us construct §YThe Spire§! as empire capital."
+
+ resolution_cxenophob_reavers:0 "Reaver Guard"
+ resolution_cxenophob_reavers_desc:0 "The ruthless and skilled Reaver forces, known for their hit-and-run tactics, piracy suppression, and brutal efficiency, are poised to become the vanguard of our military might. The galaxy will witness the dawn of a new era where the Reaver Guard stands ready to protect our interests and assert our dominance in offensive actions. We shall strike fear into the hearts of our adversaries, cementing our power in the galaxy."
+ resolution_cxenophob_reavers_effect:0 "Allows the recruitment of §YReaver§! units."
+
+ resolution_cxenophob_purge:0 "Purge of Filth"
+ resolution_cxenophob_purge_desc:0 "To safeguard our interests we signal our unwavering commitment to cleanse the galaxy of undesirables, casting aside interlopers who dare defy our ideals. A sweeping tide of annexation awaits those who obstruct our dominion, as we unapologetically move to expand our reach and assert our dominance."
+ resolution_cxenophob_purge_effect:0 "Grants us a special §RCasus Belli§! to annex a selected empire."
+
+ resolution_cxenophob_crisis:0 "Inhibition Doctrine"
+ resolution_cxenophob_crisis_desc:0 "Expressing our desire to protect the Galaxy from the looming, unknown threats from without, we bolster our capabilities and prepare our forces to counter these potential enemies. The doctrine bestows upon us the means to inflict crippling damage upon these mysterious, looming dangers. The galaxy will come to recognize our formidable stance in the face of these existential perils, knowing that we stand ready to repel all who dare to threaten us."
+
+ resolution_cxenophob_preservation:0 "Self Preservation"
+ resolution_cxenophob_preservation_desc:0 "All xenos are a threat, and that's a fact. We can only trust ourselves in this ruthless galaxy full of the unknown. That's why this directive paves the way for a more efficient deportation process, allowing us to swiftly remove potential threats. As we prioritize the preservation of our species, our citizen pops become not only happier but also more cost-effective to maintain. The galaxy will bear witness to our resolute dedication to self-preservation, where our well-being and security remain paramount above all else."
+
+ resolution_cxenophob_spire_nope:0 "Repeal $resolution_cxenophob_spire$"
+ resolution_cxenophob_spire_nope_desc:0 "The xenophobic policies of a xenophobic empire must be stopped! Else we all risk our lives!"
+ resolution_cxenophob_spire_nope_effect:0 "§RRepeals the $resolution_cxenophob_spire$ resolution§!!"
+
+ resolution_cxenophob_reavers_nope:0 "Repeal $resolution_cxenophob_reavers$"
+ resolution_cxenophob_reavers_nope_desc:0 "$resolution_cxenophob_spire_nope_desc$"
+ resolution_cxenophob_reavers_nope_effect:0 "§RRepeals the $resolution_cxenophob_reavers$ resolution§!!"
+
+ resolution_cxenophob_purge_nope:0 "Repeal $resolution_cxenophob_purge$"
+ resolution_cxenophob_purge_nope_desc:0 "$resolution_cxenophob_spire_nope_desc$"
+ resolution_cxenophob_purge_nope_effect:0 "§RRepeals the $resolution_cxenophob_purge$ resolution§!!"
+
+ building_cspire:0 "The Spire"
+ building_cspire_desc:0 "The Dreadful Spire watches over all. Its main use is to intimidate and scare into submission any xenos residing within our empire. In fact, it's so intimidating the interior is practically unsuitable for running an empire. It was engineered for the looks, not for function."
+
+ armee_creaver:0 "Reaver Guard"
+ armee_creaver_desc:0 "Famous for their hit-and-run tactics, the Reavers function as the primary stormtroopers of the Superstate. Outfitted with special uniforms with the purposes of intimidating the enemy, trained from an early age, these killing machines show no mercy."
+
+ casus_belli_cb_cxenophob:0 "Xenophobia"
+ war_goal_wg_xenophobc:0 "Preemptive Protection"
+ war_goal_wg_xenophobc_desc:0 "War is waged to preemptively strike a potential threat before they can strike us!"
+
+ mod_pop_ethic_fanatic_xenophobe_attraction_mult:0 "Attractions to Xenophobe Agenda"
+
+##############################
+
+ resolution_category_cstartrek:0 "United Federation of Stars"
+ 
+ resolution_cstartrek_council:0 "Federated Rule"
+ resolution_cstartrek_council_desc:0 "The policy represents a bold and visionary step toward galactic unity, inspired by the ideals of cooperation and mutual progress. As the United Federation of Stars continues to grow and evolve, it is clear that the time has come to create a central hub of governance and diplomacy that can serve as the heart of our burgeoning interstellar community."
+ resolution_cstartrek_council_effect:0 "Lets us construct §YFederation Council§! as empire capital."
+
+ resolution_cstartrek_tdd:0 "Tactical Defense Division"
+ resolution_cstartrek_tdd_desc:0 "These elite forces are dedicated to protecting our member worlds and upholding our commitment to peace and security across the galaxy. With advanced training, cutting-edge technology, and unwavering resolve, they stand at the forefront of safeguarding our values and interests. By passing this resolution, we bolster our defensive capabilities and ensure that our federation remains a steadfast guardian of peace in the galaxy."
+ resolution_cstartrek_tdd_effect:0 "Allows the recruitment of §YTDD§! units."
+
+ resolution_cstartrek_primedir:0 "Prime Directive Diplomacy"
+ resolution_cstartrek_primedir_desc:0 "Prime Directive Diplomacy permits the Federation to engage in defensive actions, including military interventions, against hostile empires when deemed necessary to safeguard our collective security and preserve the principles of peace and cooperation within the galaxy. The Directive aligns with our commitment to protect member empires and maintain the integrity of our shared values as it grants the authority to respond assertively to threats."
+ resolution_cstartrek_primedir_effect:0 "Grants us a special §RCasus Belli§! to annex or vassalize a selected empire."
+
+ resolution_cstartrek_crisis:0 "Resistance Protocols"
+ resolution_cstartrek_crisis_desc:0 "These protocols enable the Federation to coordinate resources, technology, and strategies to prepare for any unforeseen challenges that may arise from beyond our galaxy. This resolution reinforces our commitment to protect our member empires and ensure the long-term security and survival of our united front against threats originating from the great unknown."
+
+ resolution_cstartrek_exchange:0 "Cultural Exchange"
+ resolution_cstartrek_exchange_desc:0 "Cultural Exchange embodies the essence of interstellar cooperation, promoting the appreciation of diverse xeno cultures. By engaging in artistic collaborations, knowledge sharing, and diplomacy, we aim to create a harmonious community where all species find happiness and mutual respect. Just as they demonstrated the power of unity among themselves, we seek to nurture a shared future in which cooperation and cultural diversity define our journey among the stars and among each other."
+
+ resolution_cstartrek_council_nope:0 "Repeal $resolution_cstartrek_council$"
+ resolution_cstartrek_council_nope_desc:0 "Decision must be made in regards to suspicious policies implemented by the Federation. We cannot let them breach our privacy like that!"
+ resolution_cstartrek_council_nope_effect:0 "§RRepeals the $resolution_cstartrek_council$ resolution§!!"
+
+ resolution_cstartrek_tdd_nope:0 "Repeal $resolution_cstartrek_tdd$"
+ resolution_cstartrek_tdd_nope_desc:0 "$resolution_cstartrek_council_nope_desc$"
+ resolution_cstartrek_tdd_nope_effect:0 "§RRepeals the $resolution_cstartrek_tdd$ resolution§!!"
+
+ resolution_cstartrek_primedir_nope:0 "Repeal $resolution_cstartrek_primedir$"
+ resolution_cstartrek_primedir_nope_desc:0 "$resolution_cstartrek_council_nope_desc$"
+ resolution_cstartrek_primedir_nope_effect:0 "§RRepeals the $resolution_cstartrek_primedir$ resolution§!!"
+
+ building_cfcouncil:0 "Federation Council"
+ building_cfcouncil_desc:0 "The Council consists of several chambers and forums, where the currect political topics are discussed. All species are welcome here, and there are no segregation at all, unlike the other empires' governmental buildings."
+
+ armee_tdd:0 "Tactical Defense Division"
+ armee_tdd_desc:0 "The TDD is the main defensive force of the Federation. They are deployed to crush any semblance of hostility towards the galaxy in order to maintain peace and stability. When there is no direct conflict, the Tactical Division usually takes the role of a peacekeeping unit."
+
+ casus_belli_cb_cstartrek:0 "Prime Directive"
+ casus_belli_cb_cstartrek2:0 "Prime Directive"
+ war_goal_wg_cstartrek:0 "Forced Federalization"
+ war_goal_wg_cstartrek_desc:0 "War is declared with the intention to control the subject directly in order to defend them from potential threats, and take a step closer to galactic unification."
+
+ war_goal_wg_cstartrek2:0 "Temporary Confederation"
+ war_goal_wg_cstartrek2_desc:0 "War is declared with the intention to control the subject via a vassalization in order to defend them from potential threats, and take a step closer to galactic unification."
+
+ mod_country_resource_max_unity_add:0 "Unity £unity£ Storage Capacity"
+
+##############################
+
+ resolution_category_ccrimes:0 "Grand Cartel"
+ 
+ resolution_ccrimes_consortium:0 "Trade Consortium"
+ resolution_ccrimes_consortium_desc:0 "As crime flourishes, the Cartel exploits the chaos to accumulate wealth and power, prioritizing personal gain above all else. This policy represents a stark departure from conventional ethics and sets the stage for a system where the Grand Cartel thrives by perpetuating criminality, undermining law and order, and placing profits above the well-being of the inhabitants."
+ resolution_ccrimes_consortium_effect:0 "The more crime we have, the more £energy£ §YEnergy§! our capital buildings produce. §KThe effect will not work if the capital building hasn't been fully upgraded!§!"
+
+ resolution_ccrimes_shadows:0 "Shadow Operatives"
+ resolution_ccrimes_shadows_desc:0 "The resolution authorizes the deployment of 5 additional envoys, trained as covert spies, to further the Grand Cartel's clandestine interests. These envoys excel in espionage, sabotage, and subversion, advancing the Grand Cartel's corrupt agenda. Their activities range from infiltrating rival corporations to sowing chaos and discontent. While this policy enhances the Cartel's influence, it does so at the expense of planetary order and the well-being of the populace, reflecting the ruthless pursuit of power and profit at any cost."
+ resolution_ccrimes_shadows_effect:0 "Grants a special edict to give us §Y5 Envoys§! at the cost of boosted unhappiness."
+
+ resolution_ccrimes_smugglers:0 "Establish Networks"
+ resolution_ccrimes_smugglers_desc:0 "This policy endorses a Machiavellian approach, enabling the Cartel to expand its criminal empire through force and manipulation. With no regard for galactic stability or diplomacy, the Grand Cartel seeks to exploit and subjugate other civilizations, using its criminal influence to achieve its malevolent goals."
+ resolution_ccrimes_smugglers_effect:0 "Grants us a special §RCasus Belli§! to annex a selected empire."
+
+ resolution_ccrimes_crisis:0 "Hard Times Exploitation"
+ resolution_ccrimes_crisis_desc:0 "A ruthless gambit is deployed by the Cartel, allowing it to exploit the vulnerabilities of all empires during times of galactic crisis, when external threats loom. In these dire moments, the Cartel leverages its underhanded tactics to capitalize on the desperation and chaos, accumulating wealth and influence at the expense of others. This policy disregards the notion of mutual aid and solidarity, instead seeking to profit from the suffering and turmoil of fellow empires"
+
+ resolution_ccrimes_bobafett:0 "Bounty Hunter Guild"
+ resolution_ccrimes_bobafett_desc:0 "The Bounty Hunter Guild empowers the Cartel to recruit legendary leaders and conduct covert operations with the aim of stealing valuable resources. These legendary leaders possess exceptional skills in espionage, subterfuge, and resource acquisition. They lead specialized spy operations that target vulnerable empires to pilfer valuable assets, funneling them into the Cartel's coffers."
+ resolution_ccrimes_bobafett_effect:0 "Grants a special edict to add extra §Ydecryption§!, §Yencryption§! and faster §YOperation completion time§!."
+
+ resolution_ccrimes_consortium_nope:0 "Repeal $resolution_ccrimes_consortium$"
+ resolution_ccrimes_consortium_nope_desc:0 "The so called Superstate feasts on our resources like a parasite! Honest citizens of the galaxy are being robed, and the current galactic leaders do nothing to resolve this. We must take decisive action and fight the corrupt criminals!"
+ resolution_ccrimes_consortium_nope_effect:0 "§RRepeals the $resolution_ccrimes_consortium$ resolution§!!"
+
+ resolution_ccrimes_shadows_nope:0 "Repeal $resolution_ccrimes_shadows$"
+ resolution_ccrimes_shadows_nope_desc:0 "$resolution_ccrimes_consortium_nope_desc$"
+ resolution_ccrimes_shadows_nope_effect:0 "§RRepeals the $resolution_ccrimes_shadows$ resolution§!!"
+
+ resolution_ccrimes_smugglers_nope:0 "Repeal $resolution_ccrimes_smugglers$"
+ resolution_ccrimes_smugglers_nope_desc:0 "$resolution_ccrimes_consortium_nope_desc$"
+ resolution_ccrimes_smugglers_nope_effect:0 "§RRepeals the $resolution_ccrimes_smugglers$ resolution§!!"
+
+ casus_belli_cb_ccrimes:0 "Cartel"
+ war_goal_wg_ccrimes:0 "Expansion of Crime"
+ war_goal_wg_ccrimes_desc:0 "This nation is a suitable target for our corporate, legitimate business expansion, we should intervene posthaste!"
+
+ edict_cmbu_ccrimes_envoys:0 "Deploy Shadow Operatives"
+ edict_cmbu_ccrimes_envoys_desc:0 "In order to strengthen our grip on the galaxy, we require a special task force of criminal agents, that will infiltrate empires across the stars to promote our policies abroad. The Shadow Operative initiative suits us extremely well for this."
+
+ edict_cmbu_ccrimes_leaders:0 "Organize the Guild"
+ edict_cmbu_ccrimes_leaders_desc:0 "The Bounty Hunter Guild allows us to hire professional bounty hunters and let them do our dirty work. After all, they're acting completely independetly and can not be tied directly to our state..."
+
+ #This seems too complicated for my skills, I'm sorry
+ cmbu_operation_steal_resource:0 "Steal Resources"
+ cmbu_operation_steal_resource_desc:0 "We will utilize our Shadow Operatives to capture certain resources, primarily concentrating all our efforts on aquisiton of energy credits for further funding."
+ cmbu_no_bounty_hunters:0 "§RThe Bounty Hunter Guild has not been organized yet!§!"
+
+##############################
+
+ resolution_category_chre:0 "Holy Galactic Empire"
+
+ resolution_chre_cathedrals:0 "Heilige Kathedralen"
+ resolution_chre_cathedrals_desc:0 "The Holy Galactic Empire embraces the construction of Cathedrals of Unity as majestic capital buildings, reminiscent of the magnificent cathedrals of old. These awe-inspiring edifices serve as symbols of spiritual devotion and the unification of our interstellar realms, echoing the grandeur of past empires. Within their hallowed walls, the faithful gather to honor the divine and seek solace. These cathedrals stand as silent reminders of the Empire's commitment to the spiritual well-being of its citizens, fostering a sense of unity and shared purpose under the divine gaze of the Shroud."
+ resolution_chre_cathedrals_effect:0 "Lets us construct §YCathedrals of Unity§! as planetary capitals."
+ #I swear this wasn't intentional
+ resolution_chre_jojo:0 "Sternenstaub Kreuzfahrer"
+ resolution_chre_jojo_desc:0 "This policy allows the Holy Galactic Empire to enlist devoted and zealous Crusaders as formidable armies. They are unwavering in their faith and loyalty to the Empire, echoing the fervor of historical holy orders. They pledge their lives to protect the sacred values and beliefs of the H.G.E., embodying the spirit of righteous guardianship. With unwavering conviction, they stand ready to defend the Empire and uphold its religious principles, just as the Crusaders of old sought to safeguard the faith in centuries past."
+ resolution_chre_jojo_effect:0 "Allows the recruitment of §YStardust Crusader§! units."
+
+ resolution_chre_reform:0 "Zwangsreformation"
+ resolution_chre_reform_desc:0 "With unwavering devotion to the teachings of the Shroud, the H.G.E. seeks to enforce reformation upon perceived heretics. This policy mirrors historical efforts to bring wayward souls back to the fold through force, embodying the Empire's determination to safeguard the purity of its beliefs. While the goal is reformation, it raises questions about religious tolerance and the Empire's readiness to employ aggression in the name of spiritual conformity."
+ resolution_chre_reform_effect:0 "Grants us a special §RCasus Belli§! to annex a selected empire."
+
+ resolution_chre_shield:0 "Göttlicher Schild"
+ resolution_chre_shield_desc:0 "As the Empires of old readied themselves for external invasions, our Empire undertakes comprehensive measures to fortify its defenses and marshal its resources in anticipation of unforeseen extragalactic challenges. This policy embodies a solemn commitment to protect the Empire's sacred beliefs and spiritual integrity in the face of the unknown."
+
+ resolution_chre_ascend:0 "Heilige Vorherrschaft"
+ resolution_chre_ascend_desc:0 "This solemn and costly undertaking is shrouded in religious significance, drawing parallels to the rites that aimed to transcend the mortal realm. The H.G.E., willing to pay a steep price for this divine blessing, believes that an immortal ruler can better guide its destiny in the service of the Shroud. This shows the Empire's unwavering faith and the sacrifices made to ensure the continuity of its spiritual leadership, echoing the mystique surrounding previous attempts to attain eternal rule."
+ resolution_chre_ascend_effect:0 "Allows us to conduct an Heilige Vorgerrschaft ritual to make our ruler §MImmortal§!! Be aware, §Rthis ritual has an extremely high cost...§!"
+
+ resolution_chre_cathedrals_nope:0 "Repeal $resolution_chre_cathedrals$"
+ resolution_chre_cathedrals_nope_desc:0 "The faith imposed by this empire is a bogus! We will fight for secularism no matter the cost!"
+ resolution_chre_cathedrals_nope_effect:0 "§RRepeals the $resolution_chre_cathedrals$ resolution§!!"
+
+ resolution_chre_jojo_nope:0 "Repeal $resolution_chre_jojo$"
+ resolution_chre_jojo_nope_desc:0 "$resolution_chre_cathedrals_nope_desc$"
+ resolution_chre_jojo_nope_effect:0 "§RRepeals the $resolution_chre_jojo$ resolution§!!"
+
+ resolution_chre_reform_nope:0 "Repeal $resolution_chre_reform$"
+ resolution_chre_reform_nope_desc:0 "$resolution_chre_cathedrals_nope_desc$"
+ resolution_chre_reform_nope_effect:0 "§RRepeals the $resolution_chre_reform$ resolution§!!"
+
+ building_ccathedral:0 "Cathedral of Unity"
+ building_ccathedral_desc:0 "Holy places built to promote unity and prosperity under the banner of H.G.E. Walls are littered with icons and stained glass windows, making these cathedrals quite a beauty to visit. That being said, they house the Empire's clergy, being the legislators and executives, as well as judges., they must have their own place to dwell in to maintain the empire as best as they can."
+
+ armee_jojo:0 "Stardust Crusaders"
+ armee_jojo_desc:0 "Divine Crusaders tasked with extermination of heresy. They will seek the enemies of the state and destroy them at all costs, no matter the consequences, in the name of the Shroud!"
+
+ casus_belli_cb_chre:0 "Divine Guidance"
+ war_goal_wg_chre:0 "Great Crusade"
+ war_goal_wg_chre_desc:0 "Forced Reformation is a step towards greater galactic unity, and we should encourage it in the most effective way possible - combat."
+
+ cmbu.5500.name:0 "The Heilige Vorherrschaft"
+ cmbu.5500.desc:0 "In a magnificent chamber adorned with resplendent religious iconography, an epochal event unfolded. This historic ritual, known as Heilige Vorherrschaft, saw the elevation of the reigning Galactic Sovereign to a state of immortality, safeguarding their place as the eternal spiritual leader of the Empire.\nThe capital city bore witness to a convergence of the faithful. Distinguished clergy, revered scholars, and devoted citizens from across the Empire gathered in reverent anticipation. Precious offerings, including artifacts of great historical significance, relics of the faith, and valuable gems, were presented to the divine as a symbol of devotion. The ritual's centerpiece featured the Sovereign, garbed in ceremonial robes adorned with ancient symbols. Surrounded by the holiest representatives of the faith, they chanted ancient hymns believed to resonate with celestial power.\nAs the Sovereign's offering reached its peak, a palpable shift in the atmosphere accompanied the transformation, marking the moment when the mortal became eternal. This successful Heilige Vorherrschaft ritual signifies the divine's favor upon the Holy Galactic Empire and assures its people that their immortal Ruler will guide them through the ages. This sacred event leaves an indelible mark in the Empire's history, reinforcing its spiritual legacy."
+ cmbu.5500.a:0 "Long Live the Empire!"
+
+ edict_cmbu_chre_jesus:0 "Start the Heilige Vorherrschaft"
+ edict_cmbu_chre_jesus_desc:0 "A Ritual shall be commencde to make the Ruler §MImmortal!§! §RHowever, you will need to wait 125 years to commence a second Ritual if the current Sovereign dies!§!"
+
+ leader_trait_cmbuimmortal:0 "Immortality"
+ leader_trait_cmbuimmortal_desc:0 "This leader is immortal due to a religious Ritual"
+
+ cmbu_atleast125:0 "§RYou must wait at least 125 years before commencing another Ritual!§!"
+ mod_country_unity_cost_mult:0 "£unity£ Unity cost"
+
+ ##############################
+
+ resolution_category_pacifist:0 "Galactic Guardians"
+
+ resolution_pacifist_building:0 "Security Council"
+ resolution_pacifist_building_desc:0 "In order to maintain peace and security, our Empire needs a proper seat on the galactic scene. We must establish a centralized Security Council, which will host numerous operations and plans, as well as our peacekeeping fleets and armies."
+ resolution_pacifist_building_effect:0 "Lets us construct the §YSecurity Council§! as empire capital."
+
+ resolution_pacifist_army:0 "Peacekeeping Units"
+ resolution_pacifist_army_desc:0 "The Grand Defense Force shall act as our primary peacekeeping unit, bringing prosperity and safety to each corner of the Galaxy! We shall not fire the first shot, as we will certainly fire the last."
+ resolution_pacifist_army_effect:0 "Allows the recruitment of §YGrand Defense Force§! units."
+
+ resolution_pacifist_casusb:0 "Defensive Strike"
+ resolution_pacifist_casusb_desc:0 "Peace seldom remains in place when no one is strong enough to maintain in. We should act accordingly when facing challenges and tribulations, when our enemies threaten the idea of peaceful coexistance in itself. If you seek peace, be prepared for war!"
+ resolution_pacifist_casusb_effect:0 "Grants us a special §RCasus Belli§! to vassalize a selected empire."
+
+ resolution_pacifist_crisis:0 "Planning Ahead!"
+ resolution_pacifist_crisis_desc:0 "Our delegates have introduced us with an interesting proposal. Even if this galaxy can live and thrive, eventually, extragalactic invaders might seek it out for themselves. If we are not prepared for this outcome, we might as well be as good as dead. Preparations should take place and the funding of our Security Council should be expanded."
+
+ resolution_pacifist_unique:0 "Increased Defensive Budget"
+ resolution_pacifist_unique_desc:0 "Latest reforms have gone surprisingly well! All that remains is to grant our peacekeeping units even greater budget. The most pacifistic nations often have the largest militaries to deter potential invaders. We shall build a wall of citadels in the stars, we shall enlarge our fleets and we shall rule the Galaxy not by force, but by goodwill and cooperation."
+
+ resolution_pacifist_building_nope:0 "Repeal $resolution_pacifist_building$"
+ resolution_pacifist_building_nope_desc:0 "A strong galaxy needs a strong leader to survive. The peacekeeping policies of the Superstate have failed to raise the quality of our defensive capabilities and as such we should look for a stronger candidate to rule the Galaxy."
+ resolution_pacifist_building_nope_effect:0 "§RRepeals the $resolution_pacifist_building$ resolution§!!"
+
+ resolution_pacifist_army_nope:0 "Repeal $resolution_pacifist_army$"
+ resolution_pacifist_army_nope_desc:0 "$resolution_pacifist_building_nope_desc$"
+ resolution_pacifist_army_nope_effect:0 "§RRepeals the $resolution_pacifist_army$ resolution§!!"
+
+ resolution_pacifist_casusb_nope:0 "Repeal $resolution_pacifist_casusb$"
+ resolution_pacifist_casusb_nope_desc:0 "$resolution_pacifist_building_nope_desc$"
+ resolution_pacifist_casusb_nope_effect:0 "§RRepeals the $resolution_pacifist_casusb$ resolution§!!"
+
+ building_seccouncilc:0 "Galactic Security Council"
+ building_seccouncilc_desc:0 "The GSC is the central governmental headquarters dedicated to control of the Superstate. Numerous military advisors and politicans debate on which star systems require more protection, and how exactly should the peacekeepers operate. This Council also hosts emergency meetings and is granted extensive priviliges in foreign relations."
+
+ armee_gdf:0 "Grand Defense Force"
+ armee_gdf_desc:0 "The GDF is the primary Peacekeeping unit of the Superstate. It is sent into the most hot and wartorn places in the Galaxy to maintain stability, help the local population and deter conflict. It's not made for offense, but rather defense and could also serve as special forces in case the benevolent Superstate gets attacked."
+
+ casus_belli_cb_pacifist:0 "Security Council"
+ war_goal_wg_pacifist:0 "Preemptive Protection"
+ war_goal_wg_pacifist_desc:0 "Sometimes even the most peaceful nations have to attack first if the end result is greater stability and security. We must protect ourselves when we still can!"
+
+##############################
+
+ resolution_category_militarist:0 "Iron League Vanguard"
+
+ resolution_militarist_building:0 "Establish Central Command"
+ resolution_militarist_building_desc:0 "In order to plan our military operations we should reorganize our former capital to better suit our needs. From now on, a centralized command headquarters shall be present on our Capital PLanet where it will serve our army and navy well."
+ resolution_militarist_building_effect:0 "Lets us construct the §YCentral Command HQ§! as empire capital."
+
+ resolution_militarist_army:0 "Special Troops"
+ resolution_militarist_army_desc:0 "Lightning warfare, or blitzkrieg, is a specialized military doctrine utilising numerous mechanized units to conduct a rapid attack, unexpected by the opponent. The enemy will quickly lose its composure and surrender to our new special forces capable of ending battles before they even start - the Stormtroopers."
+ resolution_militarist_army_effect:0 "Allows the recruitment of §YStormtrooper§! units."
+
+ resolution_militarist_casusb:0 "Right to Conquer"
+ resolution_militarist_casusb_desc:0 "As we are the greatest Empire to achieve Galactic Supremacy, we have the absolute right to uphold our will. Our state is run by warfare, and we have all what it takes to conquer those who stand in our way. Sooner or later, the galaxy shall be united!"
+ resolution_militarist_casusb_effect:0 "Grants us a special §RCasus Belli§! to annex a selected empire."
+
+ resolution_militarist_crisis:0 "Offense AND Defense"
+ resolution_militarist_crisis_desc:0 "Sometimes it's also worth thinking about defense. Warfare isn't a constant push forward, as you have to go back or retreat sometimes. What if potential threats from without the Galaxy come rampaging through our lands and we are not prepared? This should be remedied as soon as possible, our generals must work on defensive planning as well as offensive."
+
+ resolution_militarist_unique:0 "Bolster our Fleets"
+ resolution_militarist_unique_desc:0 "Armies serve a supporting role nowadays, taking planets is almost a guarantee unless the opponent comes prepared or has explicit anti-air defenses. Navy is the pride of our nation, and the amount of fleets is what makes an Empire strong and powerful. We should grant more time, energy and space for the expansion of our fleets so that we always come out on top of each battle!"
+ resolution_militarist_unique_effect:0 "Grants us a special edict to temporarily boost our §YNaval Capacity§! at the cost of an increased §YNaval Upkeep§!!"
+
+ resolution_militarist_building_nope:0 "Repeal $resolution_militarist_building$"
+ resolution_militarist_building_nope_desc:0 "The brash and aggressive militaristic expansion will only bolster the Galactic instability. We must control the violent tendencies of the Superstate before we become their next victim!"
+ resolution_militarist_building_nope_effect:0 "§RRepeals the $resolution_militarist_building$ resolution§!!"
+
+ resolution_militarist_army_nope:0 "Repeal $resolution_militarist_army$"
+ resolution_militarist_army_nope_desc:0 "$resolution_militarist_building_nope_desc$"
+ resolution_militarist_army_nope_effect:0 "§RRepeals the $resolution_militarist_army$ resolution§!!"
+
+ resolution_militarist_casusb_nope:0 "Repeal $resolution_militarist_casusb$"
+ resolution_militarist_casusb_nope_desc:0 "$resolution_militarist_building_nope_desc$"
+ resolution_militarist_casusb_nope_effect:0 "§RRepeals the $resolution_militarist_casusb$ resolution§!!"
+
+ building_centrehq:0 "Central Command HQ"
+ building_centrehq_desc:0 "The CCHQ hosts the brilliant military tacticians, generals and advisors who constantly create plans, conduct wargames and work on strategies on their goal of total Galactic Domination, as well as trying to preserve the current rule."
+
+ armee_stormtrops:0 "Stormtroopers"
+ armee_stormtrops_desc:0 "If you see a soldier sporting an all-white armour on the battlefield it would be wise to surrender. The Superstate's Stormtroopers act as the greatest of eltie forces the Empire can present to the battlefield, they are ruthless and precise as they are trained from their childhood to become the ultimate killing machines. They know no compassion towards their enemy, and their only goal is to serve the state."
+
+ casus_belli_cb_militarist:0 "General Staff"
+ war_goal_wg_militarist:0 "Imperial Expansion"
+ war_goal_wg_militarist_desc:0 "We have earned our place under the sun, so we will our rights for this galaxy. The target Empire is nothing but a future district of our Vanguard, they will submit now or face the might of our warmachine!"
+
+ edict_cmbu_shipsnshit:0 "Bolster our Fleets"
+ edict_cmbu_shipsnshit_desc:0 "If we want to continue our military expansion, we must create more fleets, even if it means going beyond our current dockyards' capabilities."
+
+
+##############################
+
+ resolution_category_cmaterialist:0 "Techno Union"
+
+ resolution_cmaterialist_building:0 "The G.I.T."
+ resolution_cmaterialist_building_desc:0 "Creating a centralized Institute where we can research all important technologies is the first step towards a better Galaxy, so let us negotiate on this topic!"
+ resolution_cmaterialist_building_effect:0 "Lets us construct the §YGalactic Institute of Technology§! as empire capital."
+
+ resolution_cmaterialist_army:0 "Field Experiments"
+ resolution_cmaterialist_army_desc:0 "Sometimes there is not enough time to test out everything. This is especially concerning during wartimes, as we will have no time to introduce new technologies into the field. This is where our Experimental Divisions come into play! We will equip them with state of the art experimental technology and then take combat reports to see what needs change and what should remain as it is. This will speed up the research process and allow soldiers to play with new toys before they are ready."
+ resolution_cmaterialist_army_effect:0 "Allows the recruitment of §YExperimental Division§! units."
+
+ resolution_cmaterialist_casusb:0 "Aquire More Assets"
+ resolution_cmaterialist_casusb_desc:0 "Let us be clear. No progress can proceed without expansion. We constantly need more resources and population to pursue the better life, so why should we be bound to the legality of Casus Bellis when it would be perfectly acceptable to declare war in the name of the greater good?"
+ resolution_cmaterialist_casusb_effect:0 "Grants us a special §RCasus Belli§! to annex a selected empire."
+
+ resolution_cmaterialist_crisis:0 "Study the Extragalactic Space"
+ resolution_cmaterialist_crisis_desc:0 "Some researches have showed us worrying reports of certain galaxies being consumed by unknown hostile forces. While intergalactic travel is not possible yet and we can't deduce what exactly is happenning with these galaxies, we can only assume that they were either destroyed by their inhabitants, which is highly unlikely, or by an unknown force from the outside. We will proceed with the second option and we'll start preparations early in case our Galaxy becomes the next target."
+
+ resolution_cmaterialist_unique:0 "Dedication to Science"
+ resolution_cmaterialist_unique_desc:0 "In order fo the Galaxy to truly prosper we need to fully dedicate ourselves towards its future. We will greatly increase the research funding in all spheres to maintain the current state of affairs and to further improve the quality of life for our citizens."
+
+ resolution_cmaterialist_building_nope:0 "Repeal $resolution_cmaterialist_building$"
+ resolution_cmaterialist_building_nope_desc:0 "The technological primacy of the Superstate hinders the importance of traditional values and our souls. We must combat this influence before their experiments go incredibly wrong!"
+ resolution_cmaterialist_building_nope_effect:0 "§RRepeals the $resolution_cmaterialist_building$ resolution§!!"
+
+ resolution_cmaterialist_army_nope:0 "Repeal $resolution_cmaterialist_army$"
+ resolution_cmaterialist_army_nope_desc:0 "$resolution_cmaterialist_building_nope$"
+ resolution_cmaterialist_army_nope_effect:0 "§RRepeals the $resolution_cmaterialist_army$ resolution§!!"
+
+ resolution_cmaterialist_casusb_nope:0 "Repeal $resolution_cmaterialist_casusb$"
+ resolution_cmaterialist_casusb_nope_desc:0 "$resolution_cmaterialist_building_nope$"
+ resolution_cmaterialist_casusb_nope_effect:0 "§RRepeals the $resolution_cmaterialist_casusb$ resolution§!!"
+
+ building_git:0 "Galactic Institute of Technology"
+ building_git_desc:0 "The G.I.T. is the main institute of the Galaxy where bright minds study and contribute to the Galactic research field everyday. The goal is to make the lives of the Superstate's citizens easier by improving various already existing systems or discovering brand new technologies."
+
+ armee_wips:0 "Experimental Division"
+ armee_wips_desc:0 "The ED's main goal is to test various military applications in combat. The unit is usually not a great offensive tool, but it greatly helps the research and the various gadgets they wield can be used for far better defensive capabilities."
+
+ casus_belli_cb_cmaterialist:0 "Board of Directors"
+ war_goal_wg_cmaterialist:0 "Asset Aquisition"
+ war_goal_wg_cmaterialist_desc:0 "War is waged to aquire additional resources. The message is straightforward and clear, we need territory, infrastructure and resources to fuel the horns playing the music of progress."
+
+##############################
+
+ resolution_category_cspiritualist:0 "Ecumene Covenant"
+
+ resolution_cspiritualist_building:0 "Bastion of Faith"
+ resolution_cspiritualist_building_desc:0 "Soul is an important aspect of one's belief. We should encourage spiritualism as well as reorganizing our capital planet into a centralized sanctuary for all kinds of creatures to express their beliefs!"
+ resolution_cspiritualist_building_effect:0 "Lets us construct the §YDivine Sanctuary§! as empire capital."
+
+ resolution_cspiritualist_army:0 "Knights of Faith"
+ resolution_cspiritualist_army_desc:0 "Faith must be protected. Highly trained specialized individuals known as Celestial Knights will suit us just fine! They will be trained to fight for the lives of their brethren. With promises of an afterlife, they will guard our holy Superstate to the bitter end."
+ resolution_cspiritualist_army_effect:0 "Allows the recruitment of §YCelestial Knights§! units."
+
+ resolution_cspiritualist_casusb:0 "Protection of Faith"
+ resolution_cspiritualist_casusb_desc:0 "To protect and to stand are our core beliefs, and we will not let anyone oppress neither us nor our allies. We will intervene and protect those who cannot protect themselves."
+ resolution_cspiritualist_casusb_effect:0 "Grants us a special §RCasus Belli§! to annex a selected empire."
+
+ resolution_cspiritualist_crisis:0 "Threats to our Faith"
+ resolution_cspiritualist_crisis_desc:0 "We cannot allow our Superstate to fall victim to unknown threats from the outer space. We have managed to climb the stairs of power, but you can't rest on faith alone. Action and preparations must be taken immediately."
+
+ resolution_cspiritualist_unique:0 "Unity of Faith"
+ resolution_cspiritualist_unique_desc:0 "A programm of universal unity needs to be implemented. In order to do this, we will reditribute our resources accordingly, making sure that the population gets what it needs. A nation united in one faith will never fall!"
+
+ resolution_cspiritualist_building_nope:0 "Repeal $resolution_cspiritualist_building$"
+ resolution_cspiritualist_building_nope_desc:0 "The spiritualist values are too primitive to lead this galaxy fruitfully. We must take matters into our own hands and repeal all this nonsense!"
+ resolution_cspiritualist_building_nope_effect:0 "§RRepeals the $resolution_cspiritualist_building$ resolution§!!"
+
+ resolution_cspiritualist_army_nope:0 "Repeal $resolution_cspiritualist_army$"
+ resolution_cspiritualist_army_nope_desc:0 "$resolution_cspiritualist_building_nope_desc$"
+ resolution_cspiritualist_army_nope_effect:0 "§RRepeals the $resolution_cspiritualist_army$ resolution§!!"
+
+ resolution_cspiritualist_casusb_nope:0 "Repeal $resolution_cspiritualist_casusb$"
+ resolution_cspiritualist_casusb_nope_desc:0 "$resolution_cspiritualist_building_nope_desc$"
+ resolution_cspiritualist_casusb_nope_effect:0 "§RRepeals the $resolution_cspiritualist_casusb$ resolution§!!"
+
+ building_divsanct:0 "Divine Sanctuary"
+ building_divsanct_desc:0 "A place for our patrons to pray in, a place for our governmental officials to rule and governn. The Sanctuary functions as a monument as well as a centralized administrative capital of the Superstate."
+
+ armee_ck3c:0 "Celestial Knights"
+ armee_ck3c_desc:0 "The Celestial Knights serve with undying loyalty to the cause. They will fight to death to protect the Superstate's interests and values, with most enemies fearing the sight of this unit on the battlefield."
+
+ casus_belli_cb_cspiritualist:0 "Divine Guidance"
+ war_goal_wg_cspiritualist:0 "Protect the Weak"
+ war_goal_wg_cspiritualist_desc:0 "In order to further spread our influence, we must protect those who need it. The enemy Empire has been oppressing their people for far too long, it's time to put this to a halt!"
+
+##############################
+
+ resolution_category_cpirate:0 "Free Galactic States"
+
+ resolution_cpirate_building:0 "A Place to Rest"
+ resolution_cpirate_building_desc:0 "What is a good, truly free society if there's no place you can relax in after a long day of work? We shall establish numerous Freedom Coves around our planets where great and capable individuals can work at day, and spend their nights partying and feasting."
+ resolution_cpirate_building_effect:0 "Lets us construct §YFreedom Coves§! as planetary capitals."
+
+ resolution_cpirate_army:0 "Hit and Run"
+ resolution_cpirate_army_desc:0 "Specialized units trained in Hit and Run distraction and disorganization tactics are a great asset to have. They can be used to steal or to conduct special operations behind the enemy's back when they are busy fighting our Plunderers"
+ resolution_cpirate_army_effect:0 "Allows the recruitment of §YPlunderer§! units."
+
+ resolution_cpirate_casusb:0 "Unobstructed Plundering"
+ resolution_cpirate_casusb_desc:0 "This Galaxy is a free space. We rejected the concept of a centralized government, we reject the concept of a Casus Belli as well. We will attack anyone and any time we want. This is what true freedom is like."
+ resolution_cpirate_casusb_effect:0 "Grants us a special §RCasus Belli§! to annex a selected empire."
+
+ resolution_cpirate_crisis:0 "Sprinkles of Organization"
+ resolution_cpirate_crisis_desc:0 "In order to prepare for what's coming, we must keep our act together at least partially. Some organized militias and naval squadrons must be created and maintaned. Even though it closely resembles the idea of statehood that we politely declined, it is an absolute nesessity to hold against potential invaders from across the Galaxy."
+
+ resolution_cpirate_unique:0 "An Interesting Proposal"
+ resolution_cpirate_unique_desc:0 "Since our ascension most of the independent pirate fleets declined our rule and kept pillaging not only our fellow Galactic allies, but us as well! This simply won't do, we will have to negotiate to ally ourselves with the independent privateers so we can put a stop to their raids on our territory!"
+
+ resolution_cpirate_building_nope:0 "Repeal $resolution_cpirate_building$"
+ resolution_cpirate_building_nope_desc:0 "The crime and debauchery has been running rampant in the Galaxy once these rascals have somehow became the de jure ruler. We must combat the evergrowing anarchy if we don't want to be consumed by it!"
+ resolution_cpirate_building_nope_effect:0 "§RRepeals the $resolution_cpirate_building$ resolution§!!"
+
+ resolution_cpirate_army_nope:0 "Repeal $resolution_cpirate_army$"
+ resolution_cpirate_army_nope_desc:0 "$resolution_cpirate_building_nope_desc$"
+ resolution_cpirate_army_nope_effect:0 "§RRepeals the $resolution_cpirate_army$ resolution§!!"
+
+ resolution_cpirate_casusb_nope:0 "Repeal $resolution_cpirate_casusb$"
+ resolution_cpirate_casusb_nope_desc:0 "$resolution_cpirate_building_nope_desc$"
+ resolution_cpirate_casusb_nope_effect:0 "§RRepeals the $resolution_cpirate_casusb$ resolution§!!"
+
+ building_piratecovess:0 "Freedom Cove"
+ building_piratecovess_desc:0 "A place for our admirals and combatants to spend their free time in! It is free to enter to those who are worthy and showed themselves to be capable and dedicated to the cause of creating a truly free society. Endless nights of feasts and events are hosted in these coves, while daytime is usually dedicated to basic governmental functions."
+
+ armee_kenway:0 "Plunderers"
+ armee_kenway_desc:0 "The Plunderers are a special force utilizing Hit and Run tactics to shock the opponent. They are primarily used to distract the enemy while the main army is performing a greater operation, such as an encirclement. Contrary to their name, they don't usually partake in a post-combat plundering of the scene."
+
+ casus_belli_cb_cpirate:0 "Grand Admiral"
+ war_goal_wg_cpirate:0 "Relentless Conquest"
+ war_goal_wg_cpirate_desc:0 "We rule as we see fit, and we conquer those who do not submit to us! The Galaxy is a free space now, and our enemies should be ready if they want to protect themselves."
+
+##############################
+
+ resolution_category_cservitor:0 "Galactic Utopia"
+
+ resolution_cservitor_building:0 "Automated Capitals"
+ resolution_cservitor_building_desc:0 "Creating a centralized storage and charging facility will help us manage the planetary population easily. Creating a dozen of said facilities will help us even more! So let us create an Automated Centre in each city of each planet so that each governmental and service function is handled with extreme care and precision."
+ resolution_cservitor_building_effect:0 "Lets us construct §YAutomated Centres§! as planetary capitals."
+
+ resolution_cservitor_army:0 "Forbid Organics from Combat"
+ resolution_cservitor_army_desc:0 "It is unethical for organic lifeforms to kill each other. Robots, androids and all alike have no value, as they can be easily repalced. You can't do the same to an individual's life, and this is where the special Protective Automatons come into play. They storm the enemy positions, locate any wounded organics, extract and operate on them. Depending on the side, status and behaviour of the wounded combatant, it is either returned home, or taken as a POW to keep them from fighting and inflicting more damage."
+ resolution_cservitor_army_effect:0 "Allows the recruitment of §YProtective Automaton§! units."
+
+ resolution_cservitor_casusb:0 "Protection of the Weak"
+ resolution_cservitor_casusb_desc:0 "Some Empires manage their population quite poorly. This calls for extreme measures, as we merely can't handle to see any of the organics suffering. Any Empire not treating their citizens greatly will be considered our enemy from now on, and will be subject to further attacks."
+ resolution_cservitor_casusb_effect:0 "Grants us a special §RCasus Belli§! to vassalize a selected empire."
+
+ resolution_cservitor_crisis:0 "Algorithmic Planning"
+ resolution_cservitor_crisis_desc:0 "The threats without the galaxy are becoming more apparent day by day. We must be prepared to anything that is coming our way and to make sure that each and every individual is safe and sound!"
+
+ resolution_cservitor_unique:0 "Foreign Relations"
+ resolution_cservitor_unique_desc:0 "To keep us trustworthy and spread our goodwill, we will need to create a better institution for foreign relations. If we can convince the organic lifeforms that with our help they can prosper and be free of their usual lifely burdens, we can integrate them with greater ease!"
+
+ resolution_cservitor_building_nope:0 "Repeal $resolution_cservitor_building$"
+ resolution_cservitor_building_nope_desc:0 "We can't trust machines, especially if their programming has been corrupted. If they broke once, they will break again. Perhaps they are secretly planning to dispose of us all? We must combat their influence and be independent from these Utopian caretakers. Free cheese is found only in a mousetrap after all."
+ resolution_cservitor_building_nope_effect:0 "§RRepeals the $resolution_cservitor_building$ resolution§!!"
+
+ resolution_cservitor_army_nope:0 "Repeal $resolution_cservitor_army$"
+ resolution_cservitor_army_nope_desc:0 "$resolution_cservitor_building_nope_desc$"
+ resolution_cservitor_army_nope_effect:0 "§RRepeals the $resolution_cservitor_army$ resolution§!!"
+
+ resolution_cservitor_casusb_nope:0 "Repeal $resolution_cservitor_casusb$"
+ resolution_cservitor_casusb_nope_desc:0 "$resolution_cservitor_building_nope_desc$"
+ resolution_cservitor_casusb_nope_effect:0 "§RRepeals the $resolution_cservitor_casusb$ resolution§!!"
+
+ building_martlet:0 "Automated Centre"
+ building_martlet_desc:0 "Automated Capital Centres serve as a utility hub for our numerous service drones, ranging from janitorial units to police bots. They host several dedicated stations to provide energy and resting space for the said drones. These Centres are present across the entire Planet, making the process less centralized and independent."
+
+ armee_remedy2:0 "Protective Automaton"
+ armee_remedy2_desc:0 "Organic lifeforms should not partake in combat. This is where Protective Automatons come into play. These highly specialized units act as guards, special forces and medical personel combined."
+
+ casus_belli_cb_cservitor:0 "Rogue Programming"
+ war_goal_wg_cservitor:0 "Forceful Protection"
+ war_goal_wg_cservitor_desc:0 "This Empire is foolish to believe that sovereignity keeps them alive. They are far too gone to understand that independence never ends greatly for any organic ever. We must intervene and take care of their populace before their corrupt government deals the fatal blow!"

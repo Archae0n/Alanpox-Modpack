@@ -1,0 +1,406 @@
+﻿### Dungeons and Dragons Orcs
+### Names all from random name generation at http://fantasynamegenerators.com/
+
+cybrxkhan_dd_orc = {	
+	category = "Necroid"
+
+	ship_names = {
+		generic = {
+			Aawgakk Aawgan Aawgang Aawgansovun Agvakzon Agvan Agvek Agvi Ahza Ahzabal Ahzakzuk Ahzaoll Ahzaovnek Ahzaovok Ahzaz Ahzokk Alzab Alzagzef Alzahzokzok Alzaof Alzok Alzong Aoll Aolluz Aolvek Aolvi Aolvief Aolvo Aolvok Arla Arlal Arlam Arlaman Arlamvi Autag Autagnadvou Autagzez Authrab Authri Authrovoulla Avne Avnel Avni Avningurzug Bahza Bahzab Bahzakzul Bamal Bamalviz Baman Bamvou Bamvoulzon Baulzonsov Baum Baumvi Baun Bauv Bavi Bavne Bavni Bavrod Bavrud Bavruggul Bengukk Benzef Benzukk Bhab Bhaban Bhaburzokk Bhad Bhaddogguk Bhaddogva Bhadgiel Bhagnaf Bhagnou Bhagzul Bhah Bhahzahza Bhahzolluz Bhak Bhall Bhalvi Bhan Bhang Bhansavnel Bhaok Bhar Bhatukk Bhatul Bhaumvi Bhaun Bhauvrob Bhauvrugvek Bhavievnel Bhil Bhing Bhinguk Bhingul Bhinsenzul Bhob Bhod Bhoddyenzef Bhof Bhok Bholluz Bhon Bhou Bhoul Bhovok Bhovou Bhovungur Bhoz Bhuagza Bhuall Bhuallu Bhualvoul Bhuk Bhukzung Bhul Bhull Bhulvek Bhulvief Bhulviz Bhulzok Bhulzon Bhun Bhunse Bhur Bhurdonsuk Bhutag Bhutagzul Bhuthri Bhuthul Bhuv Bhuvro Bhuz Bhuzug Bhuzul Bhuzun Bhyemdokk Boddo Boddyeh Bodrab Bodrak Bodrakk Bodrakzak Bodrakzartod Bodro Bodrok Bodrokk Bordogva Bordonse Bortoddyen Bortung Brab Brabang Brabur Brabzondokk Brajun Brak Brakzar Brakzull Bramvo Brarzul Brob Brobrad Brod Brodrull Brok Bron Bror Brub Brudkev Brudkevnek Brudkin Brudzug Brudzul Brudzungur Brug Brugguk Brugvan Brugven Brukk Brukzun Brul Brulvievnek Brun Brurdogvall Brurdok Brurduggukk Bumangulza Bumanse Bumvok Bumvortun Bumvug Bumzag Bumzahzahzab Bumzaof Byef Byeh Byemdogvek Byemza Byemzakk Byemzub Byen Byenko Byenzug Dagnabzong Dagvakk Dagzakk Dagzung Deng Denguk Denzug Denzul Dhab Dhabzon Dhad Dhaddyeh Dhadgak Dhag Dhagzab Dhahzab Dhahzon Dhak Dhal Dhall Dhalvortunaf Dhan Dhaolveng Dhar Dharzok Dhav Dhavief Dhavnin Dhavrokk Dhef Dhek Dhez Dhobok Dhobokk Dhobramviz Dhobrud Dhoddo Dhodrukzulvi Dhof Dhogguk Dhoggull Dhognab Dhok Dhokk Dholl Dhothrakk Dhothrod Dhothul Dhotram Dhou Dhoukrobruk Dhoutag Dhovnek Dhovo Dhovor Dhovu Dhoz Dhug Dhuh Dhuhzab Dhuhzaof Dhul Dhulzak Dhun Dhunabzokk Dhur Dhurdog Dhuthatulall Dhuthrab Dhuthrok Dhuv Dhuvrod Dhuz Dhuzub Ditharzuggub Dithok Ditholl Dithri Dithrobrakk Dithron Dithror Dithrovokk Dithuv Dondok Dong Donguk Dongukzug Dongun Donsukzon Douk Doukrokk Doul Doute Drab Drabur Drabzokk Drabzokza Drabzon Dradvun Drak Drakk Drakzon Dram Drar Drartod Drarur Drobokk Drobram Drobrar Drobrudrul Drok Drongunsovof Dronsuk Drub Drubangurdug Drubanse Drudkevni Drudkinse Drudkukk Drudrudro Drudzul Druggul Druggungukk Drugva Drugvak Drugvakk Drugvi Drukk Drul Drulvek Drun Drunaf Dull Dullamansen Duman Dumanguk Dumvi Dumviel Dumvievne Dumvo Dumvordugva Dumza Dumzahzagvek Dumzukk Duvrok Duvrokk Duvrur Ense Enseng Ensenguban Ensenzung Ensenzunse Ensovor Gaav Gaavnek Gansovon Geek Gevne Gevni Ghab Ghad Ghadvu Ghag Ghagvan Ghah Ghahzakk Ghahzok Ghak Ghakk Ghalvek Ghan Ghaod Ghaok Ghaokzahzag Gharzun Ghatukk Ghatunaf Ghaung Ghav Ghavi Ghek Ghethal Ghethavruk Ghethof Ghethug Ghethul Ghob Ghobrak Ghod Ghoggun Ghogvek Ghogviev Ghok Ghokk Ghon Ghothulamvug Ghovnek Ghovo Ghovok Ghovou Ghovun Ghoz Ghuaf Ghuall Ghualvief Ghuhzah Ghuk Ghul Ghull Ghulzi Ghunad Ghundarub Ghundon Ghur Ghuv Ghuvrokk Ghyef Ghyeh Ghyemdon Ghyemza Ghyemzul Ghyenzug Ghyenzunad Gimvi Gimviz Gimvo Gimvok Gimvongula Gimvoull Gimvun Gondo Gong Gongun Gonsenzez Gonsov Grab Grad Grajungul Graman Gramang Grar Grartull Grob Grobok Grobra Grobrarzug Grobruk Grobrurzokk Grod Groddo Groggukk Grognab Grokk Gron Grong Gronsovnel Grordokk Grortuk Grov Grub Grud Grug Gruk Grukk Grul Grulza Grun Grur Grurdog Gugguk Gugvi Gulal Gull Gullu Gulluz Gulvek Haul Haula Haullu Haun Heng Henko Henzuk Henzul Hing Hinse Hinsen Hinsengula Hinsenzul Hyeh Hyemdo Hyemdon Hyemdong Hyemza Hyenguk Idvo Idvok Idvokzok Idvor Idvou Idvu Idvugguk Jaddo Jadgakk Jadganguk Jobok Jobokk Jobokzun Jobrar Jobruban Jobruk Jobrulvek Jobrur Junab Junaf Jung Jungull Kaddogguk Kaddyemdo Kaddyemzug Kadgak Kognoul Kogvak Kogzakk Kogzef Kogzullu Kulvi Kulvok Labalvek Labzokk Labzolvof Labzonse Luball Ludking Ludkuhzab Ludrakk Ludzuk Ludzul Ludzung Ludzungub Lunab Lundo Lung Maban Mabzokk Mabzon Mabzong Magnab Magnaf Magnoula Magzaovokk Magzef Mahzab Mahzabzokk Mahzakk Mahzaong Mahzok Medgang Medgief Medgievne Medgievnek Medkev Medkin Medking Medkuh Medkuhzab Medvo Medvok Medvou Medvun Milzahzakk Milzaz Milzi Milzol Milzon Moggub Moggull Moggullu Moggulvi Mognoull Mohri Mohrob Mohrodrakk Mote Mothan Mothar Mothu Motrak Motrakk Motrarub Muaf Muag Muagnou Mual Muall Muggurdug Mugvakk Muhzabur Muhzaollu Muhzol Mull Mutag Mutagzabal Mutagzaz Mutagzef Mutagzung Muteek Muthab Muthrok Muzug Muzuk Muzundar Muzung Muzunsukzok Naaf Naav Nahzabang Nahzahzaod Nahzakk Nahzol Nahzong Nakzaof Naumvi Naumvok Naun Naunguk Nauvruk Nukk Nukrok Numal Numall Numan Numang Numvi Numvo Numvokk Numvoull Numvug Numzugvang Ogva Ogval Ogvallu Ogvek Ogvi Omza Omzab Omzabur Omzabzokk Omzabzon Omzag Omzaok Omzar Omzaz Omzugvek Omzull Omzun Omzunaf Otul Otull Otulluz Otulzah Otun Raddyemdong Radgak Radgakk Redgakzul Redgan Redgang Redkev Redkevne Redkukk Redvof Redvu Redvuggub Reng Rengull Rengur Renkuhzab Renzuban Renzuk Renzukrob Renzun Revnel Revninsukzok Rhef Rhel Rhob Rhobok Rhod Rhodrab Rhodrur Rhof Rhog Rhognouk Rhogvek Rhogzabzok Rhok Rhokk Rhon Rhonguk Rhoul Rhov Rhovon Rhovor Rhovouk Rhovug Rhoz Rhual Rhug Rhuh Rhukrokk Rhul Rhulal Rhullu Rhulluz Rhulzong Rhun Rhuthroggul Rhuthrogvan Rhuv Rhuz Rhuzug Rokk Rokzok Rokzug Rong Rongunaf Rongur Ronsuk Rote Roteeh Rothav Rothoz Rothrakk Rothrodrogva Rotra Rotrad Rotrakzaz Ruaf Rual Ruall Ruallu Rudkevnek Rudkuk Ruhza Ruhzaondon Rukrokk Rukzok Rulla Rumal Ruman Rumviel Rumvo Rumvok Rumvokk Rumvou Rumvouthri Rumvu Rumza Rumzar Rumzartodra Ruvrob Ruvrug Sagnaf Sagvak Sagvek Sagzabzok Sagzef Sagzulzok Samal Saman Samvok Samvordon Samvung Saod Saoddok Saodrabang Saodrar Saodrugvan Saof Saok Saolvek Saolvok Saon Saongukk Saovondogval Saovordognaf Saviz Savni Savning Savninsuk Savrugvakk Shab Shabansenzul Shabur Shabzokk Shadvouk Shadvugguk Shag Shahzagnaf Shahzaof Shahzaok Shahzaz Shak Shakk Shal Shall Shalla Shalvouk Shan Shanse Shaod Shaok Shar Shartod Shartun Sharunaf Shatull Shatun Shaul Shaumall Shaviz Shavne Shek Shethrovok Shilzokk Shin Shinsov Shinsovon Shinsovou Shiwnko Shiwnkuh Shob Shobrad Shobrug Shod Shodrartod Shodruk Shog Shognou Shogvakk Shogvi Shon Shondo Shonsovok Shoutagnouk Shov Shovo Shovoull Shovouthri Shoz Shuggub Shul Shull Shullu Shulzabalvi Shulzahzag Shun Shundokk Shungub Shur Shuthuk Shuv Shuvro Shuvrovnek Shuvrub Shuvruk Suaf Suag Suall Sualluz Udrab Udraburzull Udrad Udrarub Udrobruban Udrun Unzez Unzug Unzuggun Unzuk Unzula Unzull Unzulzok Vegzabur Vegzabzongub Vegzag Vegzaolvi Vegzaz Vegzez Vegzuball Vegzug Vegzuk Vegzukk Vegzul Vegzun Veng Vengub Venko Venkuk Venzef Venzez Venzukk Venzulzokk Vief Viev Vievni Vievningull Vogguk Voggur Vogvek Vogvenzug Vogzab Vogzez Vote Vothang Vothoukzug Vothrar Vothri Vothrogvang Vothung Votrakk Vukk Vukzakzun Zadvonsovouk Zajun Zajungukzug Zajunsavrun Zeng Zenko Zenzef Zenzug Zhag Zhah Zhahzagzez Zhahzah Zhakk Zhalvortullu Zhan Zhansovnin Zhaok Zhaolla Zhar Zharur Zharzolvi Zhavnel Zhavni Zhod Zhof Zhogvi Zhok Zhokzondar Zhondar Zhothro Zhothrog Zhothrok Zhoukzull Zhov Zhovok Zhovu Zhovun Zhuggul Zhuggull Zhugviz Zhuh Zhuk Zhukzaonse Zhull Zhullal Zhun Zhur Zhuthaod Zhuthod Zogva Zogvak Zogval Zogvek Zogzun Zukzub Zulam Zull Zullal Zullu Zulvok Zulzi Zulzok Zunaf Zundar Zundo Zung Zungubang Zurdo Zurdoggukk
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	Fleet_names = {
+		random_names = {
+			"Vogguk Horde" "Dhovof Horde" "Rhoz Draban Horde" "Ghakzar Horde" "Dhatull Horde" "Zhurdug Horde" "Benzul Horde" "Rudrakk Horde" "Shul Udram Horde" "Muall Voteeh Horde" "Brugva Horde" "Jobokk Horde" 
+		}
+		sequential_name = MEDIA_DD_ORC_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = MEDIA_DD_ORC_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = MEDIA_DD_ORC_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = MEDIA_DD_ORC_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = MEDIA_DD_ORC_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = MEDIA_DD_ORC_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = MEDIA_DD_ORC_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = MEDIA_DD_ORC_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = MEDIA_DD_ORC_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = MEDIA_DD_ORC_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = MEDIA_DD_ORC_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = MEDIA_DD_ORC_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = MEDIA_DD_ORC_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = MEDIA_DD_ORC_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = MEDIA_DD_ORC_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = MEDIA_DD_ORC_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = MEDIA_DD_ORC_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MEDIA_DD_ORC_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = MEDIA_DD_ORC_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = MEDIA_DD_ORC_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = MEDIA_DD_ORC_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = MEDIA_DD_ORC_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Agvall Agveng Ahzag Aolluz Arlalvi Arlamvouk Avne Avnel Bahzaz Baman Bamvun Bavief Bhabzong Bhagzez Bhan Bhauman Bhavi Bhilzong Bhing Bhovo Bhuk Bhul Bhull Bhun Bhung Bhute Bhyeh Bhyemzul Bortull Bortun Braddokk Brub Bruban Brudrabur Brug Brul Brullu Brundo Bumvi Bumvong Byeh Dagzagzez Deng Dhak Dhal Dhalluzul Dhaun Dhoddyemdo Dhof Dhogzakk Dhualla Dhugguk Dhuzul Dithri Dithuaf Dong Douk Drab Drakk Drar Drogva Drub Druball Drudkukrokk Drukzok Dulam Dumvordo Duvrug Ensav Gaavro Geek Ghabzol Ghah Ghahzab Ghakk Ghar Ghavrogvakk Ghel Ghovning Ghul Ghull Ghun Ghyemdog Ghyemzah Gimvok Gimvugguk Grad Gram Groddyemdon Grodrokk Grub Grul Haulallam Haum Haumvi Henzef Hyemdonguk Idvof Idvon Jungurzolvek Lundon Lungurzub Magnoul Medkev Medkevni Medvokk Milzi Mogzaz Mullall Muteeh Naavi Naavron Nahzahzoll Nahzaz Naulzabal Naulzong Nauv Nukrokk Numang Numzung Ogvak Ogval Omzag Omzung Otul Otung Renzukk Rhel Rhob Rhobrartul Rhof Rhokk Rhovo Rhul Rhutagzef Rhuv Rhuvrub Rong Rual Rudzull Ruhza Ruhzak Rukzub Rumall Rumvok Ruvro Saoddong Saof Saon Shab Shak Shakk Shal Shan Shaoddyen Shaol Shaon Shatul Shef Shez Shilzolvok Shin Shobrakzuk Shuk Shul Shull Shur Shuv Udradgiel Udrur Udrurzun Unzez Unzuk Unzul Vegzaon Venzez Vogzah Vothad Vothov Vothrobrul Zhabur Zhadvok Zharzon Zhavrovokk Zhuagvakk Zhur Zognoull Zull Zulzokk
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Ahzok Arlall Bahzar Bamvok Bhabzon Bhag Bhakk Bhal Bhogvakk Bhunab Bhuvrull Bod Bodrub Bordug Brad Brakk Brokk Brud Bruk Brukrob Brull Brungub Brur Bumal Dhakk Dhartun Dhatul Dhob Dhobrakk Dhodrar Dhull Dhuzuk Drad Drajun Draman Drarzok Drobok Drortod Drug Druggur Druk Drur Dul Dumvokk Dumzab Gan Ghabzon Gondon Grak Grok Grovor Grudrog Guggun Gul Jad Jobrun Jun Jundar Labur Lakk Luban Ludzug Lun Mab Mohrod Mokk Motrab Mugvall Nahzab Nakk Nakzok Nukzug Ogvan Omzul Raddog Rhogguk Rholl Rhongull Rhugvakk Rhull Rok Rokzak Ron Ruhzab Rukk Rull Shaball Shad Shahzag Shangukk Shokk Shukzun Shutag Udrak Unzub Zadgan Zajub Zhad Zharug Zhovug Zhul Zhurzun Zhuvrub Zogzul Zuk Zukk Zunad Zurdokk
+            }
+           
+            first_names_female = {
+				Aawgak Agva Alzi Aolven Atih Authu Avnek Baf Baula Baviz Beng Bhav Bhin Bhiwnko Bhuaf Bhuh Bhullam Bhyeng Byemzaz Dagvek Denzez Dhaovne Dhethoz Dhovok Dithauv Don Douthri Duv Ensen Gaaf Geeh Gevnel Ghal Ghaong Ghef Ghoullu Ghulzaof Ghunsuk Ghyemdo Gif Gimvof Haung Henkuh Hez Hinsov Hyef Idvoul Ilo Kadvon Kogvek Kulvo Magza Mah Medkuk Medvung Milzaok Mogvi Muagzah Muh Mul Mute Muz Naavni Naumvu Naz Nom Num Otuk Redgief Redkin Ren Revning Rhek Rhez Rhoteek Rhulzol Ronsav Rothra Rualvi Rudkev Rumvi Rumviev Ruv Sagnouk Sam Saoddyeh Saolluz Savro Shang Shav Shavrong Shel Shil Shing Shof Shok Shovou Sual Uanse Vaf Vegzef Vengul Viel Viz Vognaf Vothrok Vuk Zenzul Zif Zul
+            }
+			
+			
+			second_names = {
+				"Anger Butcher"
+				"Ankle Slayer"
+				"Ash Carver"
+				"Ash Destroyer"
+				"Battle Cruncher"
+				"Battle Pummel"
+				"Beast Defacer"
+				"Beast Shatterer"
+				"Bitter Sunderer"
+				"Black Dagger"
+				"Bone Blade"
+				"Breath Bruiser"
+				"Chaos Marauder"
+				"Chaos Scalper"
+				"Chest Crusher"
+				"Chin Ripper"
+				"Cold Destroyer"
+				"Cold Gouger"
+				"Dark Defacer"
+				"Dark Squisher"
+				"Death Gasher"
+				"Death Splitter"
+				"Dirt Dagger"
+				"Doom Slicer"
+				"Dream Skinner"
+				"Elf Squisher"
+				"Eye Saber"
+				"Fang Brand"
+				"Fang Quasher"
+				"Fang Squelcher"
+				"Feet Brand"
+				"Feet Gasher"
+				"Feet Pummel"
+				"Fiend Trasher"
+				"Finger Cutter"
+				"Finger Destroyer"
+				"Finger Sword"
+				"Flesh Squisher"
+				"Flesh Sword"
+				"Flesh Vanquisher"
+				"Foot Cruncher"
+				"Foot Pummel"
+				"Ghost Burster"
+				"Ghost Carver"
+				"Giant Marauder"
+				"Giant Sunderer"
+				"Gnome Snapper"
+				"Gore Masher"
+				"Hate Pummel"
+				"Hate Ripper"
+				"Hate Shatterer"
+				"Hate Slayer"
+				"Head Piercer"
+				"Head Render"
+				"Heart Gasher"
+				"Heel Defacer"
+				"Heel Splitter"
+				"Hell Breaker"
+				"Hell Render"
+				"Horror Blade"
+				"Iron Cracker"
+				"Iron Skinner"
+				"Iron Sunderer"
+				"Joint Crusher"
+				"Kidney Trampler"
+				"Knee Crusher"
+				"Nose Chopper"
+				"Pest Flayer"
+				"Pest Razer"
+				"Poison Cracker"
+				"Poison Quasher"
+				"Poison Slicer"
+				"Power Sunderer"
+				"Pride Scalper"
+				"Rib Piercer"
+				"Rib Scalper"
+				"Scale Pummel"
+				"Skin Marauder"
+				"Skin Ripper"
+				"Skull Gouger"
+				"Skull Wrecker"
+				"Sorrow Bruiser"
+				"Sorrow Dagger"
+				"Spine Despoiler"
+				"Spine Gasher"
+				"Spine Queller"
+				"Spine Smasher"
+				"Spine Squisher"
+				"Spite Clobberer"
+				"Spite Hammer"
+				"Steel Conquerer"
+				"Steel Gouger"
+				"Steel Mutilator"
+				"Storm Despoiler"
+				"Storm Scalper"
+				"Talon Blade"
+				"Talon Hacker"
+				"Teeth Glaive"
+				"Teeth Marauder"
+				"Teeth Wrecker"
+				"the Ancient"
+				"the Anguished"
+				"the Barbaric"
+				"the Barren"
+				"the Berserk"
+				"the Bloody"
+				"the Broad"
+				"the Brutal"
+				"the Butcher"
+				"the Coarse"
+				"the Cold"
+				"the Colossal"
+				"the Crazy"
+				"the Dark"
+				"the Defiant"
+				"the Deranged"
+				"the Enormous"
+				"the Fearless"
+				"the Feisty"
+				"the Fierce"
+				"the Forsaken"
+				"the Frantic"
+				"the Gargantuan"
+				"the Giant"
+				"the Glorious"
+				"the Grand"
+				"the Grave"
+				"the Gross"
+				"the Gruesome"
+				"the Hollow"
+				"the Lethal"
+				"the Lost"
+				"the Loyal"
+				"the Macabre"
+				"the Mad"
+				"the Mighty"
+				"the Miscreant"
+				"the Noxious"
+				"the Outlandish"
+				"the Powerful"
+				"the Prime"
+				"the Proud"
+				"the Putrid"
+				"the Radical"
+				"the Reckless"
+				"the Repulsive"
+				"the Rotten"
+				"the Ruthless"
+				"the Shady"
+				"the Sick"
+				"the Simple"
+				"the Smug"
+				"the Swift"
+				"the Venomous"
+				"the Vicious"
+				"the Vivid"
+				"the Volatile"
+				"the Vulgar"
+				"the Warped"
+				"the Wicked"
+				"the Wrathful"
+				"Throat Carver"
+				"Throat Chopper"
+				"Throat Dissector"
+				"Throat Saber"
+				"Toe Crusher"
+				"Toe Hammer"
+				"Tooth Cleaver"
+				"Vein Vanquisher"
+				"Venom Axe"
+				"War Flayer"
+			}
+            regnal_first_names_male = {
+				Bahzar Bodrub Dumvokk Ghabzon Rholl Udrak Zogzul
+            }           
+            regnal_first_names_female = {
+				Authu Ghunsuk Kulvo Mah Medvung Rualvi Shing Vengul
+            }
+			
+			
+			regnal_second_names = {
+				"Chaos Marauder"
+				"Black Dagger"
+				"Giant Marauder"
+				"Iron Sunderer"
+				"the Colossal"
+				"the Mighty"
+				"the Ruthless"
+			}
+		}
+	}
+}

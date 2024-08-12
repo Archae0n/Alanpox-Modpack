@@ -1,0 +1,319 @@
+﻿### Handmade Swahili
+### Swahili names and cities tossed into a markov generator
+
+cybrxkhan_handmade_swahili = {	
+	category = "Aquatic"
+
+	ship_names = {
+		generic = {
+			Abarrini Abawa Abda Abdalaikia Abduma Abdumbaskina Adiji Adiya Afia Afimbo Alime Amada Amadi Amar Amari Amariji Amavu Amida Amidi Amidija Amidikini Amidisi Amila Amili Amilidi Aminaba Aminara Amindi Aminga Aminika Amisa Amishane Amishi Amisi Amisika Amisma Antsi Antsina Anzambar Anzi Anzibibibar Anzizizah Arufana Arula Arusoro Ashafia Ashamarjane Ashani Ashanzid Ashata Ashaudijani Ashavi Ashemar Ashi Ashidi Ashika Ashiki Ashikumadiya Ashilamba Ashilambaski Ashinda Ashinde Ashindumarusi Ashine Ashinga Ashitwani Ashoma Ashomara Ashuki Ashupa Asud Asudi Asuf Asufani Asulu Asuru Asyah Asyahidaka Ayahida Ayube Ayubere Ayubi Ayubibaskia Ayubibi Ayubibibibi Azibibi Azibibibi Azima Azimbatu Azizidi Baba Babi Babu Bada Bade Badi Bahamaruf Bahani Bahaudiya Bahaushukini Bahidi Bahindi Bahiya Bahu Bahya Baka Bakambaraji Bakara Barahindomari Bari Baria Baruf Barweni Bazi Bazibibibi Bazida Baziza Biba Bukingo Bukobaha Buku Bwane Chadi Chadia Chala Chalehe Chalidi Chaliki Chama Chamadhaminya Chambarri Chamida Chamila Chamindi Chamisi Chandaka Changa Chani Chanzibi Chari Chatunzizima Chaud Chaudi Chaushiya Chavu Chia Chida Chidi Chidija Chika Chikia Chila Chinaba Chinabakaria Chinda Chinde Chindi Chineheme Chini Chinyi Chinyikura Chiti Chiyya Chukur Chur Chura Churah Churahuma Churufausiki Coma Comboro Dadala Dadi Dadiji Dadru Dadruli Dala Dalaida Dali Dalimba Dalki Dalla Dallamara Dalma Dara Darwe Darwesika Dasa Dasina Dassef Dasud Daud Daume Dausi Dodo Dodomba Dodomoh Enzibatu Enzizi Esha Eshamiswa Eshi Eshidia Eshiku Fara Farandi Fari Faria Farie Farija Farinifimbo Farinya Farri Fate Fati Fatumara Fatundi Fujoma Fujombo Fujomoro Gedijani Gediki Ghambara Ghamidalma Ghana Ghausema Ghausora Haba Habara Habi Habibi Habibique Habo Habu Hade Hadi Hadija Hajuma Hajume Hala Halehe Halfani Halki Halkinga Halla Halma Hama Hamavi Hamba Hambara Hambawaka Hambia Hambo Hamidiji Hamidiya Hamili Hamilla Haminda Hamisa Hamisma Hamlaidalidi Hamu Hana Hanaba Hanah Handi Hane Hanga Hangidi Hani Hanishiku Hanura Hanya Hanyi Hasa Hasema Hashali Hashiya Hashuku Hashura Hasi Haski Haskiya Hassa Hasuda Hasur Hasura Hasuraka Hawaji Hawaka Hawan Hawawanuru Hawe Hawena Hija Hijani Husi Husika Husoma Husoro Imadhina Imadi Imani Imanya Imara Imari Inha Inhali Inhamarjanga Inhambi Inhaudi Iria Irija Issanya Issef Issembaka Issomanyika Jaada Jaana Jaani Jaashambo Jaba Jabara Jabi Jabira Jafaras Jafika Jafima Jafimbito Jafiyya Jahadhindu Jahamaraki Jahamila Jahui Jamba Jambah Jambara Jambassembo Jambo Jamidi Jelaidali Jelandenzwani Jelaneh Jifia Jifiyani Jifu Jimba Jinda Jindaka Jine Jini Jinikar Jinyi Jinyika Jumadharie Jumani Jumara Jumbaha Jumbara Jumbo Jume Kaba Kabibandi Kabu Kadalmari Kadhausani Kadhi Kadi Kadia Kadisira Kaha Kahafarie Kahatata Kama Kamaadhini Kamaali Kaman Kamanara Kamaoyotta Kamaru Kamba Kambashurah Kambia Kambira Kambo Kamida Kamila Kaminga Kamisana Kamisaneh Kamla Kamlamini Kana Kanaji Kangidisi Kanika Kanya Kanziya Kapena Kapendenah Kapukume Kasa Kasana Kashi Kassani Kawadhi Kawanabi Kawani Kawanyah Kawar Kebi Kebiba Kebira Kebiti Kere Keri Keriji Keringadiya Keshina Kesiku Khafia Khama Khamba Khambo Khaminda Khanahika Khani Kharaji Khari Kharimoro Khatu Khaumbahur Kiba Kibahala Kibara Kibarimeira Kibi Kibira Kibita Kifia Kifika Kifimaoyotta Kifimbibi Kifiyyah Kigomadrusa Kigomor Kigomoro Kigoro Kili Kisa Kisanurusor Kisi Kita Kiti Kitwarja Kitwarusa Konga Korajuma Koro Korogwesikuru Lama Lamaoyo Lambati Lambo Lamidi Lamila Lamini Lamishitwa Leili Leilidiya Leilimbora Leilla Leira Leiraka Letatumbo Letu Letumeira Letunda Lezahalika Lezahanyika Lezama Lezarwena Lina Linahi Lindo Linga Lini Linya Lula Lulaida Lulandia Luli Machi Machidi Machui Machuki Mafa Mafika Mafime Mahali Maharimba Mahi Mahunda Mahura Mahya Maka Makarweni Makini Mako Malfalilwani Mali Malidakamili Malidakarini Malika Malla Malma Mapenabibia Mapenaha Mapenzamisi Mapukiya Mapuko Mara Marah Mari Maria Marria Masa Masanga Masani Masef Masembahi Maseme Mashi Mashidi Mashikiya Mashingoma Mashiniki Mashita Masi Maski Maskia Maskiya Massa Massoro Masulu Mata Mataane Mayo Mberi Mberia Mbib Mbibi Mbibibarweshi Mbirajuma Mbwadhama Mbwaka Mbwanisiku Mbwanu Mbwar Mfalili Mfana Mfanga Mhidi Mhinya Mhinyahi Mhita Mhiti Mnabibibi Mnahida Moga Mogo Mohinari Moma Momadhinga Momarjanisika Momba Moro Morogwe Moshida Moshina Moshinan Moshinani Moshinde Moshindiji Moshukuma Moshuma Moshun Mosikuma Mosinyere Mosira Moza Mozah Mozaha Mpana Mpanahid Mpangida Mpeni Mpenzidaka Mpenzidiyani Mtwadi Mtwajuma Mtwanariji Mtwango Mtwanura Musanza Musanzi Musef Musi Musika Musulu Mwadiji Mwajumaoyo Mwako Mwana Mwanah Mwanahamidiku Mwanar Mwanehe Mwangorogwe Mwani Mwanif Mwanifia Mwanisi Mwanu Mwanuru Mwanya Mwanyerie Mwari Mwaria Mwawana Mwawanifime Mwina Mwinahya Mwinda Mwine Mwingo Mwini Mwitaandisi Mwiti Mwito Mwitwanga Mzizi Mzizizi Mzuzima Mzuzimba Mzuzimora Nashanza Nasharweshia Nashon Nasi Nasiraka Nassa Nasufausiku Nasura Neemaoyo Neemaraji Neemarie Nura Nurahanya Nurahidiji Nuraji Nurulu Nurusa Nurushid Nurushomba Nuta Nutume Nutunzamaali Nutunzimbo Nutunziyya Oman Omana Omar Omaria Omarijani Paki Pakobawana Pandomani Pane Pani Panyeri Panza Panzibira Pati Patu Pemanzidi Pemara Pembara Pembeya Peme Pena Penaru Penati Peni Penzi Penzibib Pila Pilika Pilla Pilwana Pilwani Pilwawe Pria Prie Priji Prinah Prindomoro Prini Raadhi Raadhinangosi Raali Raan Raashiki Raasi Raaskiya Rachidi Rachina Rachukiya Rachuku Rachur Rada Rade Radi Radija Radiji Radiya Radru Rafia Rama Ramani Ramisi Ramu Rasanika Rasha Rashiki Rashina Rashini Rasi Rasufa Rasulu Rasura Raza Razamlani Razara Razi Rehe Rehemari Rhadendeni Rhalinehe Rhama Rhamla Rhamu Rukobawangosi Ruku Rukur Saadi Saalamina Saalikuma Saane Saani Saassa Sabi Sabu Sadhidaka Sadhinda Sadi Sadia Safa Safala Safangida Safika Safiku Safimbaru Safimbo Safimboro Safiyah Safiyahama Said Saika Saini Sakamu Sakara Sakinda Sakoba Sala Salan Salfa Salfana Sali Salida Salidiya Salillanzwaji Salkindiya Salla Salmarja Sana Sandi Sani Saudi Saudiya Sausemberia Sausi Sausikiya Sausura Sefunda Sekamilila Shadhamina Shadi Shafika Shafimbo Shala Shalimbiba Shama Shamani Shamaoyo Shambe Shati Shaud Shauda Shauma Shaumaoyotta Shaumar Shaushamanya Shausinahindi Shausini Shausora Shavu Shidalkia Shika Shikamani Shikamanikuma Shina Shinda Shinya Shoma Shomaanza Shomadi Shomba Shomban Shondo Shui Shuko Shuku Shuma Shupangea Sika Siki Sikuru Simbahamu Sime Simohillani Sina Sini Sinyah Sita Sito Sofa Sofali Sofalila Sofani Sofara Sofarie Sofarijanabi Sofarina Sondi Songa Songomari Songomoro Su'udi Sube Subiti Subu Suda Sudiku Suma Sumara Sumarwe Suta Sutatu Sutu Taba Tabi Tabibibi Tabibique Tabira Taboro Tama Tamavu Tambani Tamidi Tamidiyah Tamila Taminda Taminga Tanara Tani Tati Tatun Tema Teme Tisanu Tishonga Tisi Tisika Tisikaru Tisira Tisma Tismadena Tiswako Tunda Tunde Uhuki Uhuko Uhuma Uhume Uhur Wanu Wanya Wasa Wasana Wasani Washindi Waskiya Wassane Wina Winarimbo Winde Winya Yahausa Yahui Yahuku Yahuru Yaza Yazibasuru Yeta Yetatu Yetunziziza Yusanzi Yushana Yushi Yusi Yusiki Yusina Yusindena Yusini Yusirashidi Yusud Zahali Zahamili Zahamisi Zahana Zahanda Zahane Zahanzimba Zahikia Zahukini Zahyaha Zaida Zaidi Zaiku Zaina Zaka Zakara Zali Zalikiya Zalili Zana Zanatu Zandi Zane Zanehe Zanehemara Zangadhi Zango Zani Zanisi Zanuraji Zanurusi Zanyi Zanzibibah Zanzwaka Zawa Zawaji Zawanga Zawanur Zaweshalki Zube Zubeyah Zubi Zuhuki Zuwenabu Zuwenajuma Zuweni Zuweshika Zwenia Zwenza Zwenzi Zweshur Zweshura Zwesi
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Zawanza Adventurers" "Shati Adventurers" "Sutu Adventurers" "Bahausa Adventurers" "Dalmada Adventurers" "Ashavu Adventurers" "Zwenda Adventurers" "Farah Adventurers" "Mbere Adventurers" "Jafaria Adventurers" "Mashidi Adventurers" "Nashida Adventurers" "Jelangidi Adventurers" 
+		}
+		sequential_name = FANTASY_SWAHILI_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+				
+		generic = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		machine_defense = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_SWAHILI_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Anga Angida Angombakamba Antsira Antsirane Antsirani Anza Anzambas Anzimbique Arula Arulu Arushu Baba Babate Babora Baboro Baboroga Baborogadi Baza Bazama Bazamba Bazamu Bazar Buko Chila Chilla Chinda Chinyanangadi Coma Combawanziba Comorasula Comorogwe Dodomaoyotta Dodombara Dodombawandi Dodomoro Gedishu Hane Hanzara Inha Inhambique Inhamu Irima Irimbate Irimeira Irindumbara Iringida Kaha Kahambeyana Kahamu Kahi Kahindi Kasa Kasulane Kerima Kerimbati Kerimeira Kerinda Kerinya Kiba Kibahingida Kibar Kibaranda Kibarulu Kibati Kibawani Kigosha Kigoshi Kila Killane Kishi Kishu Kisma Kismaoyotta Kiswana Kiswar Kiswarananga Koroga Lama Lamba Lambaha Lambe Lindeni Linga Lingea Lingida Lingo Maha Mahajango Mahajani Mahambe Mahi Mahinya Makambakama Makamu Mako Makoba Makobaha Makobawane Mala Malangea Malindeni Malindishambe Malinga Malingea Mayo Mbeyanga Mbeyangoroga Mnandumbahi Mnane Moga Mogadi Mogadisha Mogoshu Mohi Mohila Mohilwandeni Mohinga Moma Mombar Mombati Morani Moras Moro Moroga Morogosha Morogwe Mosha Moshindeni Moza Mozamu Mozar Mpane Mpango Mpani Mpanzwane Mtwane Mtwanzambati Mtwar Mtwaranga Musha Mushambako Musombasa Musombique Musomorogwe Mwanda Mwanga Mwangadi Mwanzwanzwar Mzibahama Mzibahamu Mzimbeyanga Mzizizibar Njoma Njombakamu Njombanga Njombawandeni Pati Pembaha Pembandeni Pembe Prima Primeira Primeirani Prindi Pringa Pringida Prinyanga Shilla Shinda Shindeni Shinga Sindumba Singa Singadi Sinya Sofalana Sofalinduma Sofalingea Songa Songadisma Songoma Songosha Suma Sumbakambas Sumbate Sumbati Sumbeya Taboro Taboroga Tani Tanzibate Tunda Tundeni Tundiswanga Zana Zanani Zandi Zandishamba Zane Zanga Zani Zanzarusha Zanzibawandi Zanzimbara Zanziziba Zanzizibar Zanzwanzarulu Zanzwar
+				
+				"Kasula Coast"
+				"Angombique Coast"
+				"Songoma Coast"
+				"Shilla Coast"
+				"Kiswanarusoma Coast"
+				"Njombati Coast"
+				"Mpanara Coast"
+				"Lambique Coast"
+				"Antsira Coast"
+				"Baza Coast"
+				"Pati Coast"
+				"Lama Coast"
+				"Kigomoroga Coast"
+				"Kahingora Coast"
+				"Mala Coast"
+				"Linya Coast"
+				"Maha Coast"
+				"Taborogwe Coast"
+				"Mpani Coast"
+				"Kiswane Coast"
+				"Songadi Coast"
+				"Suma Coast"
+				"Tana Coast"
+				"Kaha Coast"
+				"Mushu Coast"
+				"Kiswanziba Coast"
+				"Mombique Coast"
+				"Coma Coast"
+				"Kerima Coast"
+				"Mahingadi Coast"
+				"Kerimbako Island"
+				"Hanga Island"
+				"Antsira Island"
+				"Shindisha Island"
+				"Primeira Island"
+				"Mwangea Island"
+				"Songa Island"
+				"Morogwe Island"
+				"Moza Island"
+				"Mwar Island"
+				"Baboroga Island"
+				"Kibasulu Island"
+				"Moshilwani Island"
+				"Zanzimbanzwar Island"
+				"Suma Island"
+				"Mwane Island"
+				"Mzima Island"
+				"Moga Island"
+				"Combakambara Island"
+				"Sindeni Island"
+				"Kaha Sea"
+				"Dodombar Sea"
+				"Buko Sea"
+				"Mala Sea"
+				"Sofalindeni Sea"
+				"Kilwanga Sea"
+				"Sinyanani Sea"
+				"Kilwangida Sea"
+				"Suma Sea"
+				"Arusoma Sea"
+				"Combane Sea"
+				"Dodomba Sea"
+				"Killandumbara Sea"
+				"Comoroga Sea"
+				"Lama Sea"
+				"Mora Sea"
+				"Musha Sea"
+				"Anga Sea"
+				"Songomora Harbor"
+				"Arulu Harbor"
+				"Kora Harbor"
+				"Gedishajanga Harbor"
+				"Baborasa Harbor"
+				"Sofalinga Harbor"
+				"Mahajandeni Harbor"
+				"Morogwe Harbor"
+				"Zana Harbor"
+				"Kiswangorogwe Harbor"
+				"Sindi Harbor"
+				"Taborogwe Harbor"
+				"Mahajanza Bay"
+				"Killa Bay"
+				"Kilwar Bay"
+				"Irimeirasa Bay"
+				"Tana Bay"
+				
+				
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Abarri Abassor Abasud Abasuf Abda Abdaka Ashindo Ashomadru Ashomari Ashui Ashupa Ayuberi Azi Azid Azidi Badaka Bade Badi Baka Bakaraji Bwakarinif Bwan Bwani Bwawawe Chambo Chamili Chani Chumara Chun Chupa Churu Dari Darie Darinya Daud Enzidiki Enzizi Fari Ghamari Hamaanisi Hamari Hamavi Hani Hashon Hasi Hassef Hassor Husa Husef Idiki Issanif Issefu Issor Jaadaka Jaana Jaani Jabu Jafan Jafani Jafia Jafimba Jafimbari Jimba Jimbo Jumade Jumadhi Jumari Jumaria Jume Kama Kamaani Kamari Kamba Kamidi Kani Kanya Kapukina Kawesi Keshi Keshomaria Khama Khambari Khamid Khan Kifiki Kita Kitaani Kitwan Kitwani Kitwanifiki Mari Marri Maskindali Massa Masuf Mata Mbwanu Mfani Mfarwe Mfaumarri Mfaumavi Mussor Mwakari Mwan Mwane Mwani Mwawan Mwindaka Mwini Mwitwan Mzuzid Mzuzidi Mzuzidiki Naski Nasudi Neemari Neembo Omade Omadru Omarrie Pane Pani Rade Rafanisi Rafia Rashi Rassor Rhane Saadi Saali Saana Saani Sada Sade Sadhi Sadi Safari Sali Salla Sallani Sef Shadhina Shadru Shali Shamarri Shamisi Shan Shomavi Shondo Simbo Suta Sutaade Sutaali Sutataane Sutu Tabib Tamisa Tema Uhupa Wini Yahi Yahidi Yahui Yahun Yahupa Yazi Yazidi Yusa Yusanif Yusanu Yusefu Yussani Zahi Zahuru
+            }
+           
+            first_names_female = {
+				Adija Adiya Adiyya Adiyyaha Afia Amila Amililika Amina Aminya Amisi Arufa Ashauda Ashida Ashiku Aya Ayfarah Ayfarija Ayfarjani Azizahida Bah Bahavu Bahiya Baria Barufa Bibah Bibibia Bibira Bibita Chama Charaka Chatuma Chaulu Chavu Chidija China Chinajuman Chinya Chiti Chiya Chuku Dadi Dadia Dalimbo Dashavu Eshausi Fara Farajuma Faria Farja Farjanyika Habu Hada Hadi Hadijanya Halaidia Hali Hasha Hashini Hasi Jahavu Jama Jaminabibiba Jifiya Jinda Kabi Kama Kamisi Kebita Kesika Khausika Kibi Kifima Kifunziyah Leilama Leilika Lezahiti Linah Luli Lulili Lulimbo Mala Malika Malila Malma Mapenda Mara Marija Masema Masi Masiku Maski Mauda Mausi Mbi Mosiku Mwakina Mwanajumanika Mwanyere Neemanyika Nura Pakiya Panabu Panika Panuru Panyika Panyikinah Pena Pende Pilamina Pililimbo Raadijanuraka Raasharija Rachidi Rachina Rachiya Rada Radhika Radhikura Ramlamisa Raseme Rasha Rashani Rashema Razi Raziza Ruki Ruku Rukuma Saaseme Sabi Sabia Sabiba Sabibi Sabu Safima Safimbo Safiya Safiyah Sausa Sausikuma Sharu Shausa Shausi Shuki Sika Sikuma Sikumanati Subi Subiba Tati Tatuma Tisanahausa Washaria Wasi Yetunda Zah Zaidi Zaika Zaina Zainati Zalila Zalkia Zalma Zalmanura Zawa Zawaka Zawanara Zawanikura Zuhuki Zuhuraki Zuwenabira Zuwenajuma Zuwenati
+            }
+			
+			
+			second_names = {
+				Abari Abarina Alila Amidi Amili Amilla Amillanga Amini Anga Anzamu Asulu Ayahine Ayfalki Bahambarrie Buki Bwani Bwar Chani Chata China Chinahajuma Chiya Churaka Combah Dalehemadiji Darinan Dassefu Dausi Dodo Farajane Fata Fujomoro Hada Hade Hamisangora Hanyah Hanzi Hasef Hawanati Jaani Jabo Kabibasanuru Kadhikur Kahavu Kamarri Kamarusa Kamba Kambari Kamida Kamisikume Kangea Kanzwane Kebi Kebique Keshura Khaji Khavu Kibiba Kibibique Kigomba Kilika Kisi Kongosha Linata Linyah Lula Luli Machuraji Mafiki Mahamla Mahan Maka Mala Malamini Mali Malika Malilwangosi Mallaminahya Mara Mashamba Mausikuma Mbique Mhilla Mnajaniku Moro Mtwa Mwanzizi Mwawania Mwitati Mzuziziza Nuranifu Nutuma Pakineh Panga Pati Pema Pembo Prie Rasa Rashavu Rashi Rhausi Sabi Sadi Safiyyah Saleh Salla Shalfa Shaulu Shaushinarie Shavi Shukoba Sikinde Sikinya Songa Su'uda Su'udi Su'udiji Su'udiya Sudiya Sutati Tani Tanzizizamina Tisi Wanarashika Wasa Wassef Zala Zali Zana Zani Zubeya Zubu Zuhuko Zuwesi
+			}
+            regnal_first_names_male = {
+				Azi Bwani Hassef Kitwani Mfani Mzuzidiki Neembo Shamarri
+            }
+           
+            regnal_first_names_female = {
+				Aminya Bahavu Chuku Hadi Mbi Raziza Safima Zah
+            }
+			
+			
+			regnal_second_names = {
+				Anzamu Hawanati Kamarusa Kamba Khavu Mwanzizi Nuranifu Su'uda
+			}
+		}
+	}
+}

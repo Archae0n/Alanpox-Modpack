@@ -1,0 +1,34 @@
+nanotech_overdrive = {
+	length = @EdictDuration
+	icon = "GFX_edict_type_time"
+	edict_lock_in_months = 180
+	resources = {
+		category = edicts
+		cost = {
+			nanites = 5000
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			nanites = 10
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	potential = {
+		has_tradition = tr_nanotech_5
+	}
+
+	modifier = {
+		planet_buildings_produces_mult = 1
+		planet_buildings_nanites_upkeep_mult = 10
+		planet_buildings_energy_upkeep_mult = 0.5
+
+	}
+
+	allow = {
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}

@@ -1,0 +1,270 @@
+﻿### Fantasy burmese
+### burmese names thrown into a markov generator
+
+cybrxkhan_handmade_burmese = {	
+	category = "Reptilian"
+
+	ship_names = {
+		generic = {
+			Ala Ala Alain-Naung Alamhkaw Alamree Alamtu Alanda Annaungma Anni Annin-U Aun Aung-U Aungat Aungbwin Aunggyit Aungin Aunglaungu Aungmali Aungyai Aungyushwe Aunsu Aunthe Aya Ayakem Ayan Ayani Ayatharee Ayawkang Ba-Aung Ba-Aungu Ba-ubinbyu Bagan Bagana Bagapu Bagapudat Bagwa Bagwe Bagweik Bagweik-U Bagyala Bagyi Ban Bangyaw Baut Bhabin Bhaddy Bhanain Bharrawksan Bila-U Bilang Bilayaung Bilinlyi Bodaunglong Bodaw Bodawa Bodawk Bogai-Hka Bogapon Bogyadawlaw Bogyin Bohmu Bohmu-Aun Bokphon Buda Budaw But Buthindale Butkain-Saw Buttaw Butthaungyi Chabu Chaddy Charraw Chaung Chaungawa Chay Dae Daei Daein-Saw Daeinsi Daewa Daewang Daewinbu Daikla Daiktwinegu Dain Dan Dawa Dawbi Dawkma Dawkse Dawli Dawpan-An Dedaukme Dedauktan Dedaw Dedim Demaunsu Demo Ein Ein-Nu Eine Einegup Eing Eintbyu Falaya Fali Gan Gan-Sa Ganatkar Gandaw Gang Gang-Saw Ganzung Gwada Gwaddy Gwan Gway Gyin Gyittaw Gyottama Hain Hainte Hak Hakem Hakhauksaw Hako Hakok Hing Hka Hkaikkhabu Hlai Hlaik Hlamein Hlana Hlaukmaung Hlaung Hlaw Hle Hma Hmamhkaw Hock-U Home Homet-Sawk Hopandok Hopat Hopatpi Hopaw Hopay Hopi Hopon Hopongok Hpa-Aung Hpa-Tun Hpakem Hpakhaukto Hpan Hpanghkaw Hpauktabin Hpaw Hpawa Hpay Hpayawa Hpayaye Hsan Hsangyi Hsathanaw Hsaung Hsaw Hsaway Hse Hsei Hseik Hseik-U Hseikkhabaw Hsenaw Hsengmyi Hsenyi Hsin Hsipangtung Hsipaya Hta Htagwa Htaw Htawkse Hti Htigo Htigongu Hwa Hwaddy Hwangdawk Inda Indasheik Indaung Indawaddy Indokpyu Indwegyi Ing Ing-U Ingdashwe Ingdaw Ingyinmu Kala Kalanlong Kale Kalebu Kalethei Kalin Kalu Kama Kamaik Kaman Kamaung Kamein Kamhkion Kamhkok Kamhkokphyu Kami Kampakokkyi Kamree Kamti Kamtigon Kamtungshin Kamtupakon Kamu Kamyi Kan Kan-Sagat Kang Kangkar Kanguping Karawe Karee Karraw Kaw Kawaddy Kawaein Kaway Kawbintbyu Kawbwe Kawk Kawla Kawla Kawpadawkaw Kawpakha Kawthe Kay Kayaung Kaye Kayei Kayethamtu Kenaing Kenante Kenaung Keng Kengin Kenyin Kenywa Khamhkion Khan Khang Kharaw Khaungyun Khautay Khay Khaye Khibaw Khidashinme Khin Khin-Nayaw Khin-Nyu Khinathit Khinbyu Khindwe Khing Khiong Khitkong Khittaw Kho Khongyidon Khungkhaun Kin Kindashit Kine Kinmet Kinthaze Kon Kong Kun Kun-Kya Kung Kung-San Kungin Kunglegion Kungup Kunhlaw Kunthedaw Kutala Kutalu Kutkyin Kwa Kwaddy Kwaya Kwe Kwebongyi Kwegio Kweje Kya Kyadashwe Kyadaukta Kyadaw Kyaddy Kyai Kyaika Kyain Kyak Kyala Kyan Kyan-U Kyandwing Kyang Kyant-Sat Kyar Kyarlinlay Kyat Kyauk Kyaukkain Kyaukmain Kyaukmet Kyaun Kyaung Kyaung-Gyi Kyaungaikku Kyaungaun Kyaunggo Kyaungokku Kyaungtung Kyaungu Kyauttwin Kyaw Kyei Kyi Kyikku Kyin Kyindawng Kyon Kyung Kyungtung Kyusenyet Kyushitko Kywa Kywan Kywandonzu Labaung-U Labu Lain Laing Lam Lamamyin Lamet Lamhkokpa-U Lamoenga Lamyaung Lanbaw Lang-Gyidaw Langgon Lansaung Lashe Lasheingyi Lashin Lashwe Lashwei Lathetchaye Lato Lauk Lauktao Laun Laung Launglaung Laungpauk Law Let Lewa Lewae Lewin Loikai Loikkhaik Loikyida Loilet Loiletweje Loili Lwe Lwegyi Lwi Lwinglethe Lwint Lwiyang Lwiyaungde Ma-Magoo Ma-Myi Ma-The Ma-Tung Ma-U Madaungio Madaw Mae Maeinmao Maewin Magaling Magandanbyu Magaw Magok Magokkhaze Magong Magwadala Magwe Magweje Magwesat Magyingai Mahla Mahlaika Mahlain Mahlatma Mahlau Mahlaungu Mahlaungyi Mahlayai Mana Mang-Sawa Mangdok Mani Mat Matmaukkaik Mau Mauk Maukkhan Maukmya Mauktao Mauktaw Mauktayauk Maun Maung Maunggyi Maunghkong Maunglebu Maungwa Maungyi Maungyit Maunte Maw Mawa Mawe Mawksat Mawngyaw Mawpat Mawtholaung Meik Meika Meikkyi Min-Kyi Min-Sali Min-Shwe Mina Minat Minawan Minbyu Minegon Ming Minggyinegu Mingkaikla Minglon Mingthe Minla-U Minle Minlon Minma Minnanubyu Minsat Minseng Minsu Mogain Mogapung Mogato Mogya Mogyi Mogyine Mohmu Mohn-An Moma Moman Momang Momao Momaung Mome Mon Monbyu Monbyushwe Mong-U Mongbwebon Mongdwegyi Monggyi Mongin Mongmyi Mongo Mongtha Mongyaya Monye Monyebonye Monyeik Monzu Monzung Mothauk Mraung Mraungyi Mraw Mrawadawa Mrawling Mudaw Mudawbi Mudawkse Mudokpying Musenyo Mushin Mya Myadauktigo Myaddy Myai Myakok Myan Myanaungzon Myapu Myatharee Myauk Myaukku Myaun Myaung-Mauk Myaungtung Myawbwe Mye Myei Myetchantaw Myetletlebo Myi Myidan-Nu Myidaw Myidawbwi Myiktagwada Myin Myine Mying Mying-U Myingbwin Myit Myittwin Myo Myonggyant Myonyet Myonyitko Myothan-San Naiktama Nam Namaung Name Namree Nan Nan-The Nana Nanaukkhami Nanbaukkhay Nandaw Nang Nanglan Nangmyaikyi Nangyaung Nangyi Nansenaw Nat Nathamoso Nathato Nathidaw Natkongyi Natkyi Natonyi Natthay Naung Naungkha Naungyung Naw Naye Ne-U Ne-Winlyik Nga Ngai Ngaikkyi Nganauk Ngapon Ngat Ngatpine Ngauk Ngaun-Hlamu Ngaung Ngaunghkon Ngaungyaik Ngaw Ngwa Ngwaeik Ngwan Ngwe Nyai Nyain Nyaint-San Nyat Nyathein-Nu Nyauk Nyaun-Shwe Nyaung Nyu Nyun-U Nyunghkok Nyungkhang Ohn-Aung Ohn-Win Ohnyi Ohnyobin Okpay Okphon Okpyin Oktamai Oktawaddy Oktwe Pagoo Pak Pakem Pakemoeng Pala Pala Palai Palam Palaungtun Pale Pali Palin Palu Palungtu Pan-Kywa Pana Panaine Panat Panauk Pandalatka Pandalindwe Pandashwe Pandaw Panggyi Pansaw Pansi Pant Pant-Nyato Paponnawlan Papu Papudala Papung Pat Paukkyint Pauksatkyit Pauktwe Pauktwi Paun Paung-U Paungkhabu Paungmyaddy Paungu Paungyinda Paunhla Pay Paypyi Peko Pekokku Pekokpying Pekong Pekongwe Pekyi Pha Phammaung Phamoenying Phan Phang Pharyi Phaunt Phay Phayebi Pin Pin-Sandauk Pinbyung Pine Ping Ping-Mat Ping-Wing Pingon Pingu Pinsi Pint Pint-Sali Pon Ponn Put Putaw Puthing Putka Putkon Puttwaddy Pwi Pwin Pwinmeik Pya Pyaik Pyain-Sat Pyan Pyant Pyaree Pyathinbauk Pyato Pyaukkyi Pyaun Pyaungkhang Pyi Pyidaung Pyikkha Pyin-Nu Pyine Pyinhla Pyinlein Pyintabu Pyittwa Pyungtu Ram Ramaung Ramtu Ramtung Ramu Rat Rathaung Rathin Ratkan-Oung Ratmaryi Regong Regyi Regyingyi Sagwa Sagyin Sala Salaung Salegu Sali Salu San San-Nat Sang Sangya Saninni Sanlamyi Santa Sante Sat Sathabeik Sathei Sawesaw Sawlanlat Sei Seik Seikkaraw Seikku Seikkyin Seiktaweje Sein-Shwe Seing Shidaw Shilebut Shilin Shin Shint Shion Shwedaw Shweday Shwegon Shwei Shweje Sidalaung-U Sidaw Sidon Sin Sin-Wing Sindat Sineyein Sing Singlonn Sinhlang Sinmu Sinthein Sit Sittagali Supanla Suping Suu-Kine Suu-Kya Suu-Kyu Tachammaw Tachinlon Tachitka Tadaunglebo Tadaw Taday Taddy Tagang Tago Tagonghkong Tagwebu Tagweje Tagyin Tagyusheing Tai Taik Taikla Taingsheik Tama Tamain Tamawadaun Tame Tamma Tammauk Tamo Tamoso Tampayang Tan Tanang Tanat Tanauk Tanbyungpan Tandaung Tang Tang-U Tangmarau Tangmyin-U Tangu Tangyin Tanthedim Tanthio Tanzung Tatung-U Tauk Taukkhaung Taukku Taukme Taukse Taukti Taun Taun-Win Taung Taunglebu Taunglon Taungu Taunhlay Tazi Tcha Tcharaw Tchingmyani Teda Tedashiling Tedaukme Tedaungchin Tedawng Thabu Thabutkyi Thai Tham Thamauk Thamaung Thamaw Thame Thamhka Thana Thandan-U Thandaw Thang Thanint Thansu Thant Thanubing Tharaw Tharein Tharli Tharraw Tharrawe Tharyi That Thatko Thauk Thaun Thaung Thaungdayat Thaungtup Thaunt Thaut Thay Thaya Thayai Thayaikya Thayat Thayeikka Thaze Thedaw Thedim Thegoktay Thegu Thegup Thegyint Thei Theikme Thein Theing Thet Thetwa Thidauk Thidaw Thin-Salu Thing Thinhing Tho Tholai Thon Thong Tin-Maung Tinghkong Tinpangbwin Tinthang Tla Tlan Tlaun Tonbyuseng Tongde Tung Tung-U Tunglon Tungshida Tunseng Twa Twaddy U-Nanbyung U-Nyang U-Nyaung U-Nyaw U-Sagwe U-Salin U-San U-Sat U-Shwein Wai Waik-U Wain Waingchain Waingio Wak Wakem Wet Wet-Namu Wetcha Wetpaddy Wetpaungkha Wetwa Wing Winma Winn Wun Wundong-U Wung Wungapung Wunghka Wungpan Wungyinbu Yammauk Yamrein Yan-Wintani Yangatogang Yanse Ye-Win Yedawa Yedim Yekokphyu Yenai Yeng Yengyi Zala Zalin Zalinni Zalu Zigo Zigong Zigoo Zigyi Zigyinggya
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Shinbyu Task Force" "Kyaung Task Force" "Ye-Wint Task Force" "Shin Task Force" "Myaun Task Force" "Tung-U Task Force" "Indwin-Saw Task Force" "Khung Task Force" 
+		}
+		sequential_name = FANTASY_BURMESE_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+	
+		generic = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxASSAULTARMY_ORD
+		}
+	
+		machine_defense = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+
+		psionic_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_BURMESE_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+			
+				Aung Bagai Bagain Bagwe Bogyine Bok Boktan Budan But Cha Chayaunsi Dantali Demali Demawlang Falaun Ganbalato Gwan Gyobin Haikmamti Hain Hakan Hinhing Hleik Hlet Hmao Hpadaw Hpangmansi Hsenywadaw Hsipawkaw Hsipayaung Htile Inda-An Indanghko Kam Kamamyin Kamaw Kamawk Kame Kanbaukkha Kandaw Kani Karee Karrauk Kat Kathaung Kaw Kawlampaddy Kawthamaw Keng Kunggyu Kya Kyaingapon Kyainglon Kyakhaung Kyangdawbwe Kyanlon Kyauk Kyaung Kyaunggyin Kyaw Kyawbwiyat Kye Kyo Labeikmyik Laik Lamu Lan Lang Lashwe Laungdokkyi Loilin Lwegyika Ma-ubyu Mago Magyi Man Manbaungo Manubinsi Maukpyinaw Mauktaw Maw Mawkmyin Min Minbyung Mineyeik-U Mogauk Mogo Mogyaung Moma Momao Mon Mongawng Mongdoktaw Monnang Monyeik Mothamyinte Mothe Mrawlang Myain-U Myanauk Myang Myauk Myaukkhaung Myawlaungyu Mye Myi Mying Myintao Myon Nain Nangma Nat Naton Naw Ngai Ngapu Ngat Ngaw Nyandaungu Nyauktay Nyaundaw Pak Pako Palame Panbu Papu Pattwiyan Pauktama Paya Pekyun Pint Ponpan Pwina Pyaikkying Pyauk Pyaung Pyi Pyidaypyu Pyin-U Pying Pyingon Pyuzayanse Ramao Ramtigyi Regup Sagaw Salamu Sein Shing Shitko Shwe Shwedalain Shweje Sin Sit Sitkarraw Sitkon Tachiong Tadalaye Taing Tatogyi Taukkha Taukmamtup Taung Taungzong-U Tha Tham Thamaung Thammaungyi Thamyin Thang Tharraw Thaun Thaya Theda Theik-U Waingu Wakandawk Wako Wung Yam Yamaung Yamrein Yamu Yedim Yekyung Zala Zalin Zigo Zigying
+				
+				"Kana Min"
+				"Shwe Ta"
+				"Kyaung Khin"
+				"Wak Taung"
+				"Kang Law"
+				"Nya Ma"
+				"Shwe Lain"
+				"Sein Byu"
+				"Tain Maw"
+				"Mei Lam"
+				"Hpat Su"
+				"Mat Thon"
+				"Aun Sagong"
+				"An Wak"
+				"Kaw Hpaddy"
+				"Manaut Kaw"
+				"Kamu Kyauk"
+				"Paung Wa"
+				"Kyu Pwin"
+				"Naw Kye"
+				"Yik Kan"
+				"Kaw Indwe"
+				"Kyauk Kaung"
+				"Nangon Kyo"
+				"Magwa Wa"
+				"Bhaung Tang"
+				"Shwe Sat"
+				"Chabi Myo"
+				"Kyaun Keng Pin"
+				"Hain Law"
+				"An Myin Aung"
+				"Let Wa"
+				"Kyaung Mo Ma"
+				"Hse Sin"
+				"Pan Tana Tai"
+				"Lwe Saw Cham"
+				"Regu Hpat"
+				"Wung Tu"
+				"Mo Gat"
+				"Aung Bagon"
+				
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Ala Ala-Maungka Alat Alaung Aun Aun-Aung Aun-Htayat Aun-Ma Aun-Nyu Aung-Htaya Aung-Htayat Aung-Maung Aung-Myi Aung-Win Aungdawgyi Aungka Aungpayat Aunt-Saw Ba-Thin Ba-Thin-Kyu Ba-Tung Bagan Bagan-Aun Bagan-Oun Bagan-Thein Baganda Bagandon Bagyi Bagyin Baung Baung-Win Baungu Boda Bohmu-Aunt Bohmu-Kin Bohmu-Kywae Dae Dawa Dawaewin Dawan Dawgyi Gyidaw Gyin Hla-Maung Hla-Theing Hla-Thing Hlat Hlaun Hlaung Hlaungu Hlaunt Hock-Aun-Nu Hock-Aung Hock-Aungu Hsin Hsin-Aun Hsin-Sa Hsin-Shwe Hsindaw Hsindon Hwa Hwaewi Hwan Hwan-Maung Khibaungdaw Khibaunt Khidaw Khidaw-Mau Khin Khin-Aunt Khin-Hla Khin-Htaya Khindon Khun Khun-Aun Khun-Nu Khung Kin Kin-Myarraw Kin-Sat Kindaw Kint Kon Konbau Konbaunt Konbaw Konbyu Konbyushin Kwa Kwaddy Kwae Kwaewin-Saw Kwaewing Kwan Kwan-Kyu Kwe Kyung Kywa Kywaddy Lwi Lwinbaw Lwint Lwint-Saw Mau Maung Maung-Hla Maung-Myat Maung-Saw Maw Maw-Mau Mawgyi Min-Aunt Min-Kywaddy Min-Maung Min-Nan Min-Nu Min-Saw Min-Wingu Minbyungu Mint Mya Myatkya Myi Myin Myin-San Myint Nan Nan-Kyida Nan-Win Nandonbyu Nau Naung Naung-Hlat Naungpayar Naunt Nayala-Tung Nayalat Nayat Ne-Win-San Ne-Wint Ohn-Htay Ohn-Nu Ohn-Oungda Ohn-San-Nu Ohn-Shwe Pagandaw Pagyi Pagyint Pay Payala Payat Payatkyat Pha Phan Phan-Saw Phar Pharraw Phau Phay Phayalat San San-Kyin San-Ma San-Myat San-Oun-Sa Sandonbyung Sat Sawgyin Sei Sein-Aung Seing Shwei Shwein Shweint Sin Sin-Kywa Sindon Supaya Supayat Suu-Aun Suu-Aungu Suu-Kin Suu-Kin-Ma Suu-Kyu Tchibaw Than Than-Kyu Than-Mawgyi Than-Nyu Thanda Thandon Thar Tharraw Tharraw-Mau Tharraw-Mya Thau Thaung Thaya Thayat Thei Thein Thein-Maung Thet-Nyu Thet-Sa Thet-San Thet-Saw Thet-Shwe Thidaw Thidawan Thin Thint Thint-San Tinda Tindonbyung Tint Tung-Htayat Tung-Maung Tungu U-Naung U-Sa U-San-San U-Sat U-Saw
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Alat Bodaw Dae Daw-Maung Dawa Dawgyin Hock-Aung Hsin Khin-The Kin Kinda Kwa Lwi Maung Min-Kyint Mindaw Mya Myar Myidaw Nan-Oung Naun Naung Naya Ne-Wint Pay Pha Phan-San San-Kin Sat Sei Sein-Myi Sein-Tung Shweindon Sin Supayat Suu-Aunt Than Thaya Thei Thet-San Thet-Shwe Thinda Tung-San U-San U-Saw
+			}
+
+			regnal_first_names = {
+				Aungpayat Bagandon Hlaung Nandonbyu Phayalat Sandonbyung Thaung
+			}
+			
+			regnal_second_names = {
+				Bodaw Hsin Lwi Mindaw Naung Ne-Win Supayat Thaya U-Saw
+			}
+		}
+	}
+}

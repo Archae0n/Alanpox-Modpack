@@ -1,0 +1,13 @@
+defined_text = {
+	name = rwf_expedition_counter_loc
+	text = {
+		trigger = { is_variable_set = rwf_expedition_counter }
+		#localization_key = gh_renaming_religion
+		localization_key = rwf_expedition_count_variable
+	}
+	text = {
+		trigger = { NOT = { is_variable_set = rwf_expedition_counter } }
+		#localization_key = RENAME_SPECIES
+		localization_key = rwf_expedition_count_0
+	}
+}

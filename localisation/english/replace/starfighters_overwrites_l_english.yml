@@ -1,0 +1,13 @@
+﻿l_english:
+
+ STRIKE_CRAFT_HANGAR_1: "Laser Strike Craft"
+ STRIKE_CRAFT_HANGAR_1_DESC: "These manned strike craft are launched from a mothership and equiped with a modified small UV laser, making them effective against armor. In battle they behave like 'bombers' and will focus on destroying enemy ships."
+
+ STRIKE_CRAFT_HANGAR_2: "X-Ray Laser Strikers"
+ STRIKE_CRAFT_HANGAR_2_DESC: "Strikers are the next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments. These carry a modified small X-ray laser and excel at punching through enemy armor."
+
+ STRIKE_CRAFT_HANGAR_3: "Gamma Starfighters"
+ STRIKE_CRAFT_HANGAR_3_DESC: "A further refinement in strike craft design, starfighters are a pilot's dream. Their performance far exceeds that of previous models. The modified small gamma lasers these carry will devastate any enemy ship relying on armor for protection."
+
+ tech_strike_craft_skrand:0 "Skravird Starfighters"
+ tech_strike_craft_skrand_desc:0 "Learning from the design expertise of Skrand and his people, these superior starfighters are capable of prolonged engagement and highly adaptive tactics."

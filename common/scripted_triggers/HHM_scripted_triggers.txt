@@ -1,0 +1,30 @@
+#	Example:
+#
+#	example_trigger = {
+#		is_country_type = default
+#		num_communications > 0
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		example_trigger = yes
+#	}
+#
+
+HHM_banned_civics = {
+	OR = {
+		has_civic = civic_fanatic_purifiers
+		has_civic = civic_hive_devouring_swarm
+		has_civic = civic_machine_terminator
+	}
+}
+
+HHM_is_despoilers = {
+	OR = {
+		has_civic = civic_barbaric_despoilers
+		has_civic = civic_criminal_heritage
+		has_civic = civic_crusader_spirit_corporate
+	}
+}

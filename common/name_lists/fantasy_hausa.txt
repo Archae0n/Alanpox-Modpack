@@ -1,0 +1,232 @@
+﻿### Fantasy Hausa
+### Real Hausa names put into a markov generator
+
+cybrxkhan_fantasy_hausa = {
+	category = "Avian"
+
+	ship_names = {
+		generic = {
+			Ababe Abagajeji Abagunkoto Abam Abamiddaru Abana Abanda Abashidarem Abasmiliyah Abbab Abbaga Abbahira Abbasham Abdu Abdulrabir Abdulramir Abubangaruq Abusha Adahimbe Adamah Adambyah Adami Adamussa Adaryah Adeji Adejia Adereem Aderen Adero Ahmah Ahmo Ahmu Ahmudamza Ahmushamud Ahmusseina Aisa Aisaba Aisah Aisamu Aisandu Aishahmed Aishaqubas Aisina Aissange Akkoki Akkunta Alifadija Alifaham Aliki Alila Alilalim Alilaru Alima Alimani Alimata Alimatumoud Alimbo Alimuna Alina Alino Aliya Aliyajiyah Alka Alkaraham Alkari Alkau Alkaud Ami Amidah Amidija Amil Amila Amilam Amilaren Amilil Amiliyah Amiliyu Amin Aminatatanu Aminatima Amino Aminusaiz Aminusu Aminuwa Amiraa Amirno Amishadam Amisoku Amiyyamma Ankah Ankaru Ankun Ankunkoto Are Areemahano Arees Arri Arrih Arzika Arzikkokume Arziz Arziza Arzizaur Asah Asanah Ashamah Ashidah Ashir Ashita Asma Asmansu Asmarees Asmatumfa Asmayda Asmingaril Atifa Atifadia Atikko Atima Atu Atumahmees Atumbo Atumoufur Atuwa Aud Audamina Autafa Autata Autatata Azika Azikaragara Azikko Azirama Bab Babamaure Baban Babe Babia Babibahidi Babil Babilamado Bagajejiyah Bagari Bagira Bagizu Baguji Bagujidah Bagunah Baguzah Bagwa Bakhira Baki Bakin Bakina Bakiya Bakoto Bakuba Bakunima Bala Balah Balala Balalil Baleyma Balifa Balil Balimah Balimareema Balimbe Balina Baliyajia Bar Bara Baraa Bare Bariam Barisoud Barya Bas Basambo Bashaleymani Bashatuna Bashi Basmai Basmano Bassau Bassoki Batimah Bau Baudah Baura Bauru Baurukuka Bauruq Bauta Bautaf Bawan Bawana Bawance Bawano Bawaraguji Bawarahyaki Baya Baydah Baytu Bayya Bel Bil Bila Bilari Bilatumbo Bir Birah Birahadi Birgiz Bur Burabibah Burahaddo Buren Burfuren Burjaba Burno Buta Butata Butawasheka Cikaruqah Cikko Cikku Daka Dakina Dakuna Dal Daladi Dalalil Dalaruqayah Dalifatu Dallo Dana Danagare Danajeji Danatumoud Danba Danbakariyya Danda Dango Daniyu Dankunuwa Danlam Danlarahana Danlata Danlawa Danniyya Dansufoud Dansur Dansuraki Dansureema Dansurja Dansurno Dantumme Daoudu Daoufu Dar Darbubani Dari Dariamunuwa Darka Daru Darunda Dau Dauchira Dauraa Dauta Dautafsare Dege Degello Dossa Dossamussa Dossara Dukri Dukuf Dukufu Fai Faid Faidi Faila Faima Faimam Faimango Faimayyakuf Fain Fainabe Faisahaki Faiz Faizakhir Faizawa Faizawata Faizir Faizizu Far Faraidah Faram Faraud Farawa Farba Farbubam Fare Faref Faren Fari Faria Faril Faru Faruna Farya Fatafisi Fatika Fuaddo Fuadeji Fuadi Fuado Fun Funa Funabe Funah Funfata Gadi Gadiji Gam Gamah Gamayyah Gamingaruke Gammah Gan Ganata Ganda Ganjuma Gannajimah Gano Gawansu Gere Gerewata Gero Gibah Gibakuke Gibrau Gibri Gija Gijabareem Gijabo Gijimah Gijiya Gima Gimah Gimahrawa Gimango Gimanjumbo Gimayyajia Gimuda Ginabir Ginassain Ginawo Gingo Giz Gizahir Gizu Gobib Gobibabe Gobibayya Gobil Gobilara Gobirgir Goma Gombayya Gombo Gud Gudah Gusso Gwa Gwange Gwaraguza Gwasa Gwata Hab Habashe Habaylama Habe Habia Habo Hadamina Haddo Hadeji Hadia Hadiji Hado Hafadi Hafahraa Hafiyya Hafsabah Hala Halaria Hali Halin Haman Hamansu Hamaramin Hamau Hamaure Hambassar Hami Hamil Hamila Hamin Hamina Hanba Hanbabe Hango Hanlatu Hansurewa Has Hasab Hasanla Hashekau Hashidi Hasin Hasinahir Hasma Hassa Hazau Hazir Hazira Hazzah Hazzaku Hazzau Husa Husah Husaidija Husala Husanimun Husanta Hushawon Hushirgir Hussabe Husseinawa Hussoki Husu Husurjah Ibrah Ibrima Ibrisa Idriah Idrima Idrimaizizu Idrimata Idriyah Idriyamma Ijabo Ijah Ima Imadija Imashata Imata Imauchir Inababo Inabo Inaguzaka Inaji Inna Innabasaiqah Inni Isau Isaurfu Ishadamahme Ishakau Ishalikah Ishaliyah Ishani Isheka Ishekahmed Ishid Ismainah Ismansura Issa Issalifah Issein Jal Jaladi Jalali Jalam Jaleymatifa Jalga Jalgajidda Jalima Jalimau Jallatumfa Jalzah Jam Jama Jamah Jamau Jambo Jambyah Jamidah Jamil Jamza Jatimatim Jatsir Jatu Jiba Jibabe Jibani Jibram Jibrau Jibriyah Juma Jumata Jumau Jumed Jumfa Jumo Kabir Kabo Kad Kaddah Kadijahim Kaki Kakunabo Kamauta Kamayero Kan Kana Kandah Kandamatatu Kange Kango Kani Kanimatumbo Kaniyyah Kannaguzam Kansurfu Kantawa Kar Karabana Karabirgir Karah Karahmuda Karau Karbu Karef Karewa Karia Kariah Kariam Karil Karilaruqah Kariyah Karkah Karu Karuq Karyamu Kata Katika Kha Khadi Khakinge Khakoto Khaku Khakuma Khalaref Khalimata Khalina Khallawa Kham Khambo Khaqubagarah Khaqubria Khara Kharaa Kharia Kharisoud Khashi Khatika Khatu Khawa Kila Kiladi Kilarbu Kilila Kilim Kisalgara Kishalimbo Kishiramano Kisina Kisoudulkah Kissaudul Kon Konna Konnimau Korambya Kub Kuba Kubabe Kubam Kubana Kubri Kubu Kukkuf Kukkuk Kukriya Kukuni Kummau Kummaylar Kura Kurfu Kurfuref Kwa Kwakwaki Laddo Lama Lamah Lamahdi Lamarba Lance Landa Landar Langel Laniman Lano Lansu Laraga Larah Lare Larem Lariah Lariammata Larima Larimaishatu Lariyahdi Lata Latim Latumbo Layah Layero Laylataf Laylatatu Laytummau Lin Linagajeji Linah Lingo Lino Lisa Lisahidamu Lishe Lisso Lubakufu Maga Magaji Magajidam Magalalifah Magara Magarah Magarau Magaren Magariyaka Magir Magujia Magujimada Maguzahma Magwa Mah Mahaq Maidah Maina Mainah Maizizizir Malawani Malima Malimahdi Maliyah Man Mana Manaharen Manda Mango Maraa Marabe Maragaru Marah Maraur Marba Marbu Mariamba Marimuna Mariyu Markau Maruq Maryah Minah Minata Mohada Mohadija Moham Mohida Mohidamatan Muhsi Muhsina Muhsino Musabarbuba Musali Musamata Musarisir Mushirau Mussa Mussein Musseina Musufu Musurem N'Konna N'Kora Nab Nababa Nabakumees Nabe Nabiahmedul Nabilam Nabir Nadah Nadi Nafa Nafadi Nafis Nafisingo Nafiya Nafiyah Nafiyya Nafizah Nafizikko Nafizu Nafsa Nafsauru Nagarbu Nagarka Naguna Naimbo Naina Naiqaylah Naisaila Nasheramino Nashida Nawa Nawanla Nawatafadi Nazaku Nazau Nazikah Nazza Nazzah Nazzahmed Nazzamida Nohaki Noham Nohamalilah Nohandahme Nohango Nohidia Noki Nokoto Nokuna Nomado Nombo Nombyahidah Pokokoto Pokoto Poku Pokukuka Rabagaru Rabibra Rabila Rah Rahir Rahme Ranba Ranla Rasabah Rasaino Rasaiziki Rasamina Rasammau Rashadijah Rashado Rashal Rasham Rashami Rashe Rasheramina Rasma Rasmi Rasseinu Rasso Rassoki Rasufoufou Rasurja Rumari Rumed Rumfadi Rumma Rumou Ruq Ruqah Ruqayero Safsa Sai Saingo Saino Saishamza Saiz Saizir Saizu Sakina Sakinajeji Sakufoud Sala Saladah Salah Salam Salaminasso Salawa Sale Salgalimu Sali Salifatau Salifatikko Salilamida Salilimango Salima Salimam Salinajeji Saliyahdija Salzau Sam Samahdi Samama Samata Samayyamasa Sambe Same Samed Samila Saminabir Sammarunu Samme Sammed Samudah San Sanda Sandah Sanim Sanka Sansufu Sha Shada Shadi Shadiah Shadijah Shadijiya Shah Shahalika Shahi Shahir Shaka Shaki Shakuf Shala Shalah Shalaruk Shalatau Shalifah Shaliya Shambo Shami Shamidamin Shan Shaniyu Shanna Shaq Shar Sharawanu Shariamzah Sharu Shasaisinah Shassa Shasuruq Shawa Sheka Shero Shuke Shukko Shukria Shukrih Shukriya Shuna Shunah Shunfadija Shunim Shunta Shuntano Shunusso Sidal Sidaren Siddah Siddaliya Sok Soki Soya Soyah Soyakhirgiz Sul Sulka Sulra Sulrawa Suma Sumata Sumbe Sumbyah Sumedu Sumoudulkau Tah Talah Talalim Talata Tale Talla Talzawatu Tan Tana Tanda Tandulkau Tani Tanna Tansurau Tsa Tsaban Tsabe Tsabo Tsaimata Tsama Tsamu Tsana Tsandalima Tsandu Tsange Tura Tureema Turukko Uba Ubah Ubayda Ubayyah Uma Umahid Umaina Umali Umandu Umari Umashe Usmadi Usmasseingo Usmatafa Wahyambyah Wala Walata Walawa Waliki Walila Waliyaji Warbu Warees Wurah Wurfu Wuruke Wuruqayyah Yah Yahmango Yajia Yajiyah Yakalarima Yakhid Yakhimata Yakhir Yaki Yakir Yakubra Yakuf Yakukko Yakumam Yan Yanbas Yango Yanku Yano Yansufurfu Yansufuruq Yantumeem Yaq Yaqubria Yaqubub Yasau Yasheka Yashidia Yassein Yasu Yerda Yere Yohadali Yohaddam Yohaku Yohakufurja Yohakumma Yoham Yohambe Yohaq Yoharilaram Yohas Yolarih Yolaris Yolata Yukriso Yuna Yunah Yundah Yunta Yusab Yusana Yusarah Yussarah Zahidah Zahma Zaida Zaimah Zaina Zaiqaylah Zaissabiba Zaizu Zakina Zakoto Zaku Zakub Zakubaya Zakummed Zamed Zammai Zamunim Zamza Zara Zarabanda Zariya Zayah Zayda Zaydah Zayerda Zayere Zayladi Zayya Zayyah Zayyaji Zazah Zazizaur Zub Zuba Zubani Zubayyako
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Hussa Fleet" "Gombo Fleet" "Zakuku Fleet" "Mahir Magwa Fleet" "Ismal Sid Fleet" "Shashaliyya Fleet" "Dau Malah Fleet" "Salika Fleet" 
+		}
+		sequential_name = FANTASY_MALIAN_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_MALIAN_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_MALIAN_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_MALIAN_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_MALIAN_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_MALIAN_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_MALIAN_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_MALIAN_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_MALIAN_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_MALIAN_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_MALIAN_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_MALIAN_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_MALIAN_xxROBOTICDEFENSEARMY_ORD
+		}
+	
+		psionic_army = {
+			sequential_name = FANTASY_MALIAN_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_MALIAN_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_MALIAN_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_MALIAN_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_MALIAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_MALIAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_MALIAN_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_MALIAN_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_MALIAN_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Akkoto Akku Akkuke Alka Alkala Alkalina Alkalingo Ankala Ankalawano Ankalinge Bau Baura Bauram Baurawa Baurni Baurno Bira Birawa Birawakukku Birawango Birawasaram Birno Dandu Dangel Dango Dano Dau Dauchi Dauram Daurawa Daure Dege Duke Dukko Dukkoto Dukkukko Dukkukku Gawa Gawaku Gawakukku Gawandu Gawangel Gawano Gawasara Gawasarawa Gawasau Gusaram Gusauram Gusaure Gusaurni Gusaurno Gwa Gwaku Gwakukkoto Gwakukku Gwasaram Gwasau Jala Jalawa Jalawasaram Jalina Jalinge Kandu Kange Kango Katsinge Katsingel Katsingo Kwa Kwaku Kwakukko Kwango Kwasaram Kwasaurno Randu Range Rangel Rango Soko Wura Wuram Wurawa Wurawango Wurawasarawa Wure Wurni Yolawa Yolawandu Yolawano Yolawasauchi Zandu Zange Zangel Zano Zazzauchi Zazzaura Zazzaurawa Zazzaure Zazzaurni Zazzaurno
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Abban Abdu Abduleyma Abduleymad Abdulrahimu Abub Abubaren Abussa Ada Ahmedulrahdi Ahmu Ahmud Alifa Alil Amil Ashareem Atu Bagujimadi Bagujimu Baguna Balil Bar Baria Baru Barukarisoki Basam Basarisir Basin Bawatu Bawon Baya Bayereemari Bayeren Bil Bir Bure Burem Cikko Cikkoki Dadalallam Dado Daka Dakub Dakuf Dakuku Dakukuf Dalil Danda Danimasu Danjumasa Danlatsin Dano Dansuren Darabe Darabibraur Dareem Dau Dautafizu Faid Faiddo Farau Faria Fariladdallo Farisammed Fuadi Gadi Gam Gana Ganda Gankoki Giji Gijimusaminu Gobil Gobilam Gowo Gugwatsi Had Hadam Hafa Hafatumban Hama Hamin Hamir Hashakuf Hasharahmed Husail Husar Hussamma Husta Ibrahmoud Ibris Ishanima Ishe Isma Ismar Jal Jalifa Jamiyaki Jatumamiyako Jatumfa Jib Jibrau Jibraurja Kabibri Kada Kam Kance Kani Kanim Kanimuda Kar Karbu Kareemau Karef Kari Karu Kata Kharbu Kis Kora Korahaku Kukau Kukunfa Mah Maharuq Mahmusano Mahyaji Mani Manla Manlama Mohidi Muhsi Muhsinajimu Nabe Nabib Nafa Nagujim Nagundal Nashe Nawa Nazaku Nohaku Nohiddamu Noma Rahmouda Rashare Rashero Rasi Rasuf Rumalare Rumanaji Rumarem Rumbo Saizu Sam Samu Shad Shan Shanim Shaq Shaqub Shasambo Shashero Sid Sidda Siddo Soya Soyajimud Suleymaruk Sulkarbu Sulra Tan Tana Tanlamudam Tsa Tsal Uma Umau Usmarem Wara Waren Yah Yahir Yajimu Yaka Yaki Yakubub Yaq Yohado Yohahir Yohal Yohidi Yohirakau Yuna Yunajejidi Yunashaki Yunu Yunussanna Yusseinasa Zakokufu Zaku Zarahdi Zarahmed
+            }
+           
+            first_names_female = {
+				Ali Alilah Alimbyama Ami Amidah Amidamishida Amila Amilah Amin Aminab Aminabah Aminagariah Amissah Arriyyah Arzika Arzikiyah Asa Asah Asaidah Atifah Atimunah Autatu Azir Baka Bata Danba Daniya Dau Dauru Faima Faimatifah Faina Farah Faria Farimbyah Fata Fatifah Fatika Fatu Gamina Gamino Gerdah Gerdam Gin Gina Gizahida Gizika Gizirgirami Gizizir Haba Habama Habia Hadijah Hafishata Hafiya Halah Halila Halimanbabah Halimu Halzah Hamah Hanba Hanbame Handah Hashadija Hassa Hassabila Hassai Hazirah Hussa Hussah Ima Inna Innagwarah Innah Jalima Jamatumo Jame Jamilika Jumatumma Jume Jummayya Kakwa Karaa Karia Karyam Kha Khadejiya Khadiah Khadiama Khakwa Khali Khalimaina Khaliya Khama Khamah Khatimah Khawa Kilarih Kuba Kubah Kubayyah Kuraa Ladia Lama Laminagizami Lan Larabah Larabibah Larih Larka Lata Laydama Laytu Laytuna Lin Linah Lisa Lisai Lubah Lubrah Magajia Magarabah Magarabe Magaria Magariama Magariyah Magiza Magwaria Magwatata Maidah Maina Mali Malimatana Maliyyahra Mandahrahra Mara Maraa Marah Mari Maryah Nabamunaba Nadejia Nadi Naidah Rabah Rabia Rabibaydama Rah Rasmanna Rassah Ruqah Safissa Safsah Saki Sali Salikirah Samatu Samees Samila Saniyah Santanna Sha Shadi Shamina Shatimah Shukri Sumees Sumo Talah Taliyah Tura Turah Turama Turu Wah Yaka Yakah Yakhida Yaki Yakwatana Yanahidah Yanuwa Yuku Yukummah Zah Zaizika Zakhida Zakiyah Zakummah Zakwata Zakwatu Zamatu Zamililariya Zamino Zamissaimah Zayda Zaylah Zaytu Zaytunkuna Zayyah Zuba Zubramansura
+            }
+			
+			
+			second_names = {
+				Abana Abano Adera Aderam Akkoto Akku Akkuke Alka Alkala Alkale Ankalawa Ankalawanda Ankalga Ankalinawa Ankalinge Are Arewano Bau Bauragalingo Bauram Baurni Baurno Bira Biragalina Birno Buta Butaf Butatsina Butatsingo Dana Danda Dandara Dandare Dandu Dangel Dango Dano Dantuwa Dantuwandu Dara Daraguzawa Daram Darawa Dare Dau Dauchi Daure Daurewa Daurno Dege Dossou Dossoufou Duke Dukko Dukkoto Dukkuke Funi Gawa Gawanda Gawasau Gibanda Gibandu Gibango Gibano Gusarawaku Gusare Gusauram Gusaurni Gusaurno Gwa Gwaku Gwakuke Gwango Gwano Gwanta Gwasauchi Isso Issou Issoufoufou Jale Jalgalingo Jalgarawa Jalinawa Kana Kandu Kangarawa Kara Karaguzawa Karewa Kata Katafada Katafadara Katatafada Katatata Katatawa Katatsingo Katawa Katawaku Kwa Kwaku Kwano Kwanta Maga Magale Maguzau Naf Nafadaram Noki Noko Pokoto Randu Sale Salgarewa Salina Salingo Shataf Shatata Shatawa Shatsina Shunta Shuntata Shuntuwa Shuntuwango Sok Soki Soko Tana Tanda Tandare Tano Tantata Wuraguzau Wuram Wure Wurewa Wurni Yolawa Zandarawa Zandu Zange Zano Zazzaure Zazzaurno Zazzawa Zazzawasau
+			}
+			
+            regnal_first_names_male = {
+				Balil Dakuf Hamir Jamiyaki Maharuq Shad Yakubub Zarahdi
+            }
+           
+            regnal_first_names_female = {
+				Alilah Fatu Karaa Kubayyah Magiza Turu Wah Yaki Yukummah Zaizika
+            }
+			
+			
+			regnal_second_names = {
+				Akku Birno Dau Funi Gawa Gwakuke Jale Kwa Maguzau Noki Pokoto Shunta Shuntuwango Tantata Wurewa Zazzawasau
+			}
+		}
+	}
+}

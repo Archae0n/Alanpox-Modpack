@@ -1,0 +1,230 @@
+﻿### Real Beothuk
+### Credits to duinin for compiling original CKII namelist, 
+
+cybrxkhan_real_beothuk = {
+	category = "Humanoid"
+
+	#randomized = no
+
+	ship_names = {
+		generic = {
+			A'ss-soyt Ae-u-eece Amina Anin Annooce Anun Ashei Badisut Bathuc Baubooshrat Boodowit Borod Bukashaman Bukashamesh Conasoob Demasduit Deyn-yad Dogajavick Edree Edru Eesheet Eewa-en Emamooset Gaboweete Gadgemish Gawzadun Kannabuch Kosweet Madyna Magorun Mamishet Mammadronit Mangarewius Moidewsee Mokothut Odusweet Osthuk Osuk Oubee Sha'poth Theehone Washewtch Waunathoake Weshomesh Yeathun Yeech
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Ashtunishish Celestial Fleet" "Mishta-Napes Celestial Fleet" "Tumassat Celestial Fleet" "Utshimau Celestial Fleet" "Corrasoob Celestial Fleet" "Nonosabasut Celestial Fleet" "Manishai Celestial Fleet" "Penash Celestial Fleet"  "Yeathun Celestial Fleet"
+		}
+		sequential_name = HUMAN99_REAL_BEOTHUK_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = HUMAN99_REAL_BEOTHUK_POSTATOMICARMYxx_SEQ
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Adenishit Ashmudyim Bogomot Boobasha Budiseet Ebautho Eeshang-eyghth Emoethook Ewinon Guashuwit Haoot Mattuis Moisamadrook Newin Nonosabasut Obseet Osweet Shawwayet Sosheet
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				A-aduth A-enamin Abideshook Adiab Adobonee Amet Ashaboo-uth Baroodisick Bathue Begodor Bogodoret Corrasoob Dattomeish Debine Deed-rashow Ebanthoo Eed Eeg Eenoaja Eeshoo Emamoose Gobidin Homedich Izzobauth Kius Madabooch Magaraguis Mamishet Mamshet Mozazeosh Odensook Odjet Oodrat Shanawdithit Shawatharott Shebohoweet Shedothun Wasemook Weenoun Wieith Woadthoowin Woas-eeash Woas-sut Woodch Zathrook
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				Ashaboo-uth Begodor Corrasoob Deed-rashow Ebanthoo Homedich Madabooch Odensook Shawatharott Woas-eeash Zathrook
+			}
+			
+			regnal_second_names = {
+				A-aduth A-enamin Dattomeish Eed Eeg Kius Magaraguis Oodrat Shedothun Wasemook Woas-sut
+			}
+		}
+	}
+}

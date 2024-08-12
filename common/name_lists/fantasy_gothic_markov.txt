@@ -1,0 +1,239 @@
+﻿### Fantasy gothic
+### Names made using a markov generator, based on Old gothic namelist by Blood Merchant
+
+cybrxkhan_handmade_gothic = {	
+	category = "Arthropoid"
+
+	ship_names = {
+		generic = {
+			Ablabadas Ablamelerus Ablaric Ablavilda Acheodobia Acheucgo Achilda Adobius Adoina Adoththa Aduarum Adubad Adus Agilda Agildaneswin Agilderima Agiles Agilic Agilis Agiwult Agrictoriuml Agrimarisca Agrittig Aidala Aiduar Aitaccespaha Aitamiric Aithar Aittamiras Aittis Alabada Alabium Alamprittha Alarbo Alasameritis Aliarigida Alimala Alimir Alinth Alintha Aliva Alivid Alivida Allamend Allamud Allaricus Allimala Altumum Amala Amalamirithi Amalandaga Amalar Amalarictic Amalarius Amalas Amalavigis Amaldebaith Amalerheus Amalia Amalind Amalinda Amaliv Amaliviric Amalla Amalligilda Amalswindiar Amalwar Amanda Amandusne Amaneric Amangilt Amanimelic Amanulf Amardana Amareagi Amariberium Amaric Amarida Amarrand Amathsehi Amatic Amatidild Amminafred Amminda Ammir Ammiric Anagos Andelivagis Andoiar Ania Anianum Ansi Ansiarja Ansild Ansildus Ansimen Aordas Aorimud Aorium Aortic Apahimal Apahius Aparida Aparidabadus Apulfred Apulph Apulus Arda Ardagar Ardagas Ardandefric Arduarja Ared Aredac Areducgotha Aredus Aretha Arga Argais Argas Arhana Arheoda Aridar Arigefried Arna Arnercittis Arnespar Arnopolf Arocheus Arocus Arogila Arossa Arvaetesvid Arvanand Arvibel Arvibild Arvorida Arvortius Asbada Asbaus Asparaga Atachila Atamir Atauloda Atha Athandabius Athara Atharciulo Atharitas Athasa Athastela Athegunder Athegur Atheimund Atheod Atheus Athiaraus Athselesuin Aurdus Aurseglis Avacibild Aviric Babadubad Babais Baberis Baberithig Babium Bada Badagis Badangunda Badegunda Badehimanna Badelismud Bainda Baisolf Baithaus Baiyarbo Baiyaricum Bebalingund Beberida Bebernfria Berhalimuniv Bericus Berida Beridescus Beridus Berisegus Bermuntorast Berundiudio Bervida Bervidada Bervith Bervoridaba Besceoda Besimeric Besimund Bespaha Bessalaba Bessintes Besust Besvibius Beswina Beucar Beus Beustrand Beuvarna Beuvir Bigeldus Bigilar Bigisas Bigiwulona Bildaga Bildes Bordacith Borido Braiarimala Brandigilda Brandoia Branopolivac Branum Brunda Bruntho Cana Canaba Canagoin Canas Candagarbo Candua Candus Canivir Canopolf Canular Cetessa Cetiarid Cetrogoth Chidium Chloda Chloddad Chlogoing Chloulen Chlous Cixilarja Cixild Cixildegis Cixildehin Cixilia Cixilt Cnigis Cnildeba Cnimuda Cnixila Cold Coliastrus Coliasus Colinthseri Corda Cordacia Coridamir Cortius Crogona Crogotheo Crogothseld Crogotsuilas Cronarcana Crothseld Cund Cundig Cunivaetigis Cunthis Cunus Cyricus Dubadus Dubalswin Dubigilar Dubranaras Ebelaha Ebelespa Ebelessa Ebelintha Eber Ebergilduca Eberhenna Eberic Eberida Eberidila Eberius Eberlias Eberling Eberna Ebernach Eberul Eberund Ebrand Ebransind Ebrarescluin Ebric Edic Ediger Edigis Edila Edio Erananixild Ereaga Ereagaias Ereagildeba Ereagotha Ered Erederha Eredubada Erelderothil Ereliach Ereteric Erimunthas Erintha Erit Ermerida Ermermundaha Ermerulf Ermerunda Ermulmoda Ermuniv Ervida Ervinio Ervirimirid Ervordus Ervortidar Eswintordus Etharimela Ethariwul Ethasuilda Eunhidium Eunila Eunimudigild Euntha Euribius Eurictorda Eutervanacit Euth Eutheoviach Euttaus Euttis Farara Fasarca Fasuinabur Feld Feldubra Felimisehida Felvia Feriberium Ferida Ferlis Fermer Fernes Fernopoliv Fevanas Fevania Filabad Filaric Fild Flar Flatza Franigio Fredeberi Freternoba Frias Friber Fribraniarid Frictorda Fried Friedessa Frigila Friketa Frild Frimne Frintha Fritidua Frocum Frocus Fronar Frotha Frothiland Frothilous Gaatachilda Gaatacus Gaatho Gaia Gaildaniova Gain Gaiththa Gaitild Gaitta Gaitthana Gaiyar Galacceoda Galafrid Galambald Galarca Galaric Galarius Galenthanaga Galf Galismund Garcaric Garcimoda Garigern Garsianii Gaulecad Gaulf Gaulmoda Gaulph Gaustius Gautha Gebad Gebadus Gebercopolf Gelaba Gelchila Gelder Gelencium Geletigilda Gelvibraula Gencia Geniv Gentha Gergaisclus Geric Gericiar Gervoric Gesariwulf Gesi Gessis Gesuin Geteld Getericus Getha Getheus Getic Giscus Giseleuca Gisuinabur Gisuinda Glimund Glinthar Glisuing Goaragila Goarca Goardus Goaredus Goaric Goarild Goarja Goaruntha Godago Godagothas Goddagared Godebad Godeberic Godelderid Godes Godesvidus Godosuina Goia Goindza Gosimirimund Gossa Gotha Gotheus Gothius Gotiscesia Gouluingas Gous Goutha Gudebrand Gudigila Gudigos Gudild Gund Gundigilde Gundius Gungilagiok Gunhius Guniarbo Gunila Gunilara Gunild Gunimir Gunimunum Gunitha Gunitiok Guniva Gunivir Guntha Guntharedus Gunusteric Guthila Guttha Haduintheova Hadusne Haleteri Hallianda Hela Heldaberid Helerintho Heliar Heliared Heliaric Heliarn Heliscluina Helmodius Hercomis Hergas Hergilana Hergiltuulf Hergis Herhariwulf Herhegund Heribercangi Heric Hericiulf Heriedund Herieva Herimungas Heriusia Herligilda Hermanda Hermesuintha Hermin Hermindubius Herminththar Hermir Hern Hernfrida Herochius Herulf Hervoric Herwoleuvae Hevaca Hevagaric Hildadabas Hildarida Hildelgunna Hildellabela Hilesisas Hiletumunega Hilgeliaric Hilgund Hilgundobai Hilingastis Hiloul Himergi Himiniarica Himoda Hisentho Hula Hulf Hulfrius Hund Hundaba Hundac Hundad Hundagaila Hundarn Hunderic Hundiarras Hundigiok Hundild Hundubia Hundus Hunigiwultha Hunimala Huniva Hunixild Huntha Hunththa Hunulph Hunuml Hunuseguniok Hunusis Ibbad Ibbada Ibbasuin Idiova Ildagunigil Ildebragisa Ildegildegus Innimerigis Irmalar Irmalismudio Irmesviv Irmirmunda Irnfrica Irnopolf Isolimne Isolis Isteld Isteri Isteric Istes Istesia Istigild Istigis Istildern Istrocus Jora Joricto Joricus Joritha Krildesuing Krius Lagaribragil Lagisen Lami Lamund Leodas Leodes Leovaccesis Leovigeris Leuvac Liva Livacum Livangas Livanii Lucada Lucarsis Luceoda Lucgona Lucgonas Mala Malafric Malf Maragilatas Marandiok Marbo Mardus Mariarisegis Maricus Maridas Maridel Marigern Marigiok Mariketessa Maritigild Marsia Matac Matas Mataudebad Mataus Matiga Matigon Matiova Matioviva Matius Modambatza Modefritha Modeglindas Moderic Modimiran Mund Munda Mundova Mundza Munia Muniaric Namelaric Namessimalf Namirimar Naricuse Narieva Narind Narnfriuse Narsehana Naulfila Nidigis Nidius Nidointheus Nidosina Nike Niketelic Niketerig Niketiova Nikia Novagothasa Novagus Novilderigi Odoballis Odobaus Odobilda Odobius Odoiasuina Odoinda Odoing Odoini Odointheuca Odosiaric Odosimescus Odossa Odosuith Odothar Odovae Odovigild Oesimulf Oestrotha Oius Olbercopolf Olberic Olberius Olberiwulf Olbius Olodosia Ologila Ologothalf Olous Ostelern Osterca Ostiok Ostiselind Ostranda Osuind Osuingund Osuintha Osuitheus Osunda Osunthseha Osunum Ovianardala Ovintha Oviragilis Ovivand Palaciana Palbericiar Palessa Patacheoda Patemeritica Patessarund Patheoda Patidotheus Patigergarn Patius Paviviv Radaber Radaga Randoias Raulf Rausehintha Rautelchimud Rautharailis Rautheus Ravidiovand Raviravigoin Recar Recca Reccadua Reccaduarda Reccadunus Reccelina Reccelis Recceodand Recceodar Recceodda Recceoviric Reccescus Reccesviaca Recciarcad Reccimala Reccitacus Reccitias Reccius Reccomir Rech Recheoda Rechilgund Recianda Recifric Recius Rekia Rekias Remer Remeric Remesi Remhidovir Remhikas Remhilava Remhilise Reminthild Retesvir Retrus Retuul Rhiliviritas Rhilogona Rhiltheus Ricadagaia Ricifric Ricittius Riketha Rikithar Roda Rodarasuina Rode Rodoingilt Rodotho Rugisa Sared Saridig Sariude Sarnerca Sigelviga Sigilderid Sigismoda Sinagnegild Sinda Sing Singundo Sintha Sinthana Sintheodilas Sirittautha Suergar Sueric Sund Sunda Sundagner Sundela Sunduingund Sungunus Sunianagi Sunnas Taetaca Taeththa Tarand Taranopolica Tarcanobia Tarcopolias Taribrava Tarigila Tarnafriulf Thegus Theimis Theimult Thenna Theoda Theodermeric Theova Theuca Theuces Theus Theuvindza Theuvir Thilas This Thra Thraga Thragilt Thragnegus Thranda Thrandus Thraridamala Thrarsilatza Thravida Toletas Toliedergais Tolievaetum Tolimundza Tolintho Tolisari Tominar Tomindua Tomir Tomiragon Tomis Tomisca Tomius Totiova Tousne Tric Tricaric Tulfild Tuloulf Turiasas Turibernes Turiduithius Turikia Turserheus Tyra Tyranda Tyrando Tyrasuntho Tyribium Tyric Tyrica Tyricias Tyricum Tyricuse Tyriketer Tyrimundus Tyriscus Tyrisuit Ulfilavilaha Ulricana Ulrida Ulrila Unimelanigas Unimir Uniovaethala Unithana Unithigilis Univ Unixi Urananda Vadefrid Vaduar Vadus Vala Valabad Valaberna Valariacus Valdegus Valias Valisamba Valiserin Vallinar Vallis Valswinansi Valswinthara Valwarda Vanafric Vand Vandigida Vannarieda Vanulmulf Veldua Velenda Velinto Velviric Veridointha Verlinthar Vetaulafric Vetelindari Veterias Vetha Vetiar Vetrotha Vetuult Vicitidua Vicopolis Vides Vidigotsund Vidubrangila Vidubric Viduca Vidus Vilarid Vildagasuila Vimodothius Vimund Vimunda Vimundoiarca Vinabailand Vinaga Vindarn Vingis Vinth Vintha Vinthseric Visintha Visold Vitha Vitheodadus Vithinth Vitidan Vitigeric Vitigilda Vitilamintha Vitild Vittheuva Vittida Vulfric Vulothildaba Vult Walagotheod Walara Walariemeric Walde Waleus Wallisa Walwar Walwaribius Walwarn Wamerca Wameridila Wampric Wilaburied Wilacciarum Wild Wildar Wildeba Wilinda Windigerius Witha Withilda
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Withila Navy" "Tulph Gergas Navy" "Suern Oviltum Navy" "Rechilar Navy" "Hundada Navy" "Ereaga Navy" "Cor Frica Navy" "Thrastocus Navy" "Heriedas Navy" "Amalagic Navy" 
+		}
+		sequential_name = FANTASY_GOTHIC_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_GOTHIC_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Apulogiduba Apuloulencia Apulous Arheimaras Arheimi Arheus Arheuse Aronacia Aros Arossa Baiyar Baiyarbo Baiyarcium Beron Beronacia Berossa Beruler Beruletum Berulous Bervia Bervir Corda Cordunum Coria Corianii Corin Estrossa Eunum Fergid Ferum Gothi Gothis Gothiscus Halergio Herum Iduba Idunii Idunixi Istel Istescus Istrochis Istrulona Lucgona Malagos Malenna Maletescum Mallin Mallis Marbo Mariaragossa Narago Narra Nicopolin Nicopolingid Nictoria Nictorin Nicum Nurduba Nurdunixi Oest Olbiacus Olbiarraga Ologi Ologidunum Olon Olona Palaga Palerviandza Palervir Paletel Paletescuse Pallin Pallis Pavencium Pavennacus Paviar Rana Randza Ranixi Ratia Ratianacia Ratiandza Remesianii Rugictorda Rugicum Rugicuse Rugidunii Rugio Sara Saraga Sarbo Sariar Sinacustron Singio Taetum Tarianopolis Theimar Theimi Theus Theustel Theustrulon Tolis Tomin Tomina Tomingidunum Toulogi Tous Turdunii Tursia Tursiacum Tyra Tyraga Tyragos Tyriarra Vergi Vergio Vervia Vicopoler Victorda Victorduba Vicum Vicus Vimar Vimi
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+
+		default = {
+			# A complete name
+			full_names = {
+				Abla Ablabadagis Acheodebas Achigotigis Achilamer Adeld Adelind Adessilda Adoind Agild Agilt Agis Agric Agrimer Aidabas Aidiar Aidoin Aitaulf Aith Aitharicus Ala Alataulfric Alianitha Alingild Alis Ama Amalamir Amalderga Amalessild Amalfilda Amalinth Amalis Amand Amaric Amata Ammis Ammisilderca Anannagaric Anas Anda Aniaric Anildebricus Anima Anivari Ansi Ansima Ansimerga Ansisa Apar Aparn Arda Ardagaric Areda Arga Argasa Argastigis Ariberida Aric Aridar Ariga Arimulf Arintha Arnegus Asbadus Athala Atheus Athilinthaut Athinariwulf Atho Aurida Avida Baburic Bad Bada Beric Beridagus Berieva Bermerwolda Bernega Bervir Berwolf Bessild Beus Beuvidegunda Beuvind Bige Bigelvitiok Bigernegis Borda Bordad Brand Brasasuitha Brasuinth Brus Cana Cand Canda Candic Chikas Chius Chlo Chloda Chlodefric Chlodegis Cixilas Cixild Cixilda Cniaric Cnigis Cnilda Cnitha Colf Crothannimir Cundespa Dud Eber Eberia Eberic Ebericifrica Eberidus Ebern Edigis Eransila Eravand Ermalac Ermeriaric Ermeriwulf Ermisar Etheova Eutelch Faric Farigoth Fasuilarda Felch Felescus Fevar Frand Fred Fredamaldeld Freduila Fric Frida Fridala Fridimud Frocus Frogothar Frothsentho Gaata Gaatachild Gaatelingila Gaiasteric Gaila Gainaga Gais Gala Galed Galwar Gardamerne Gaul Gauthar Geleuca Gelgunga Gelinarig Gelintha Gerca Ges Gescus Gespaha Gessared Gesus Geswintheus Getas Getel Giseha Glis Goaric Godabaderga Godimnegus Goiarco Goias Goind Gudila Gunda Gundic Gundus Gunnigeri Guntha Gunthand Gunto Gunula Gutho Hada Hela Helde Heliger Herha Heric Hericareswin Hericimud Hericitha Herige Herimulus Herius Hermala Hermeribius Hevariedeha Hila Hilaba Hilareda Hild Hilda Hildandeba Himudeberic Himund Hiscluing Hulf Humud Humundebad Hund Hunda Hundobad Huniltuul Hunimir Huntheuvigas Hunthth Ibbaduca Ibbaud Ildega Ilderic Innia Irmar Irmeric Irmirannas Irmius Irmudermud Irnobius Isold Joranabius Lagas Lamba Lamerithimud Lamprius Leoddarus Maraus Maric Mathiar Matza Moderitharid Modiga Modotheod Munes Namala Nault Odo Odobata Odobius Odoia Odoiaridus Odointo Odosinthil Ost Ostigefrid Ostildega Ostrarithana Osuila Osuind Osuintharic Rada Rec Reccelivith Recces Reccescus Reccibild Reccibius Reccithento Reccitic Recibilis Recifricitha Recimnerling Recitha Recithius Rekia Rekith Reminiok Remiran Remiriusne Res Reterca Retheovig Rhigait Rhimudila Ric Rica Ricaric Ricitauluin Rikitigeris Rodaranda Roderidius Roderido Sigeric Sigis Sund Sundeha Theoda Theuca Thilaba Thra Totigailda Tric Tulf Tulmodebaith Ulric Ulrimentho Ulrimunigild Uniasuinto Unigoth Urared Vad Valaba Valdeswintho Valed Valla Vandointh Vandovac Vannia Veld Veled Vetermarica Vetha Vida Vidalda Vidamala Vintha Vitastiok Vittambada Vulthardares Walabatza Walaberi Waleccifric Walintharans Wamaliand Wamerma Welaburic Weliemhidua Welintergast Wilis Wiltuulas Wingild Winilasuin Witas Witha Withaus Witho Withthsegur Witid
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				
+			}
+			
+			regnal_first_names = {
+				Aurida Eravand Frogothar Gutho Mathiar Sigeric Theoda Ulric Wingild
+			}
+			
+			regnal_second_names = {
+				Istrochis
+				Saragos
+				Tyriarii
+				Tarciumii
+				Ologio
+				Nurduba
+				Istronii
+				Arheus
+				Randza
+				"Taras Tyrago"
+				"Fer Naras"
+			}
+		}
+	}
+}

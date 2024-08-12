@@ -1,0 +1,19 @@
+﻿l_russian:
+  
+  #custom_starting_init_01_NAME: "Случайная тройная звезда I"
+  #custom_starting_init_02_NAME: "Случайная тройная звезда II"
+  custom_starting_init_03_NAME: "Случайная тройная звезда III"
+  custom_starting_init_04_NAME: "Случайная двойная звезда I"
+  custom_starting_init_05_NAME: "Случайная двойная звезда II"
+  #custom_starting_init_01_DESC: "Система из трех звезд, где каждая из них имеет свои планеты.\n\n$system_initializer_DESC$"
+  #custom_starting_init_02_DESC: "Система из трех звезд, сгруппированных в ее центре.\n\n$system_initializer_DESC$"
+  custom_starting_init_03_DESC: "Система из трех звезд, где две находятся в центре и одна на краю системы с собственными планетами.\n\n$system_initializer_DESC$"
+  custom_starting_init_04_DESC: "Система из двух звезд, где каждая из них имеет свои планеты.\n\n$system_initializer_DESC$"
+  custom_starting_init_05_DESC: "Система из двух звезд, сгруппированных в ее центре.\n\n$system_initializer_DESC$"
+  custom_starting_init_06_NAME: "Случайная одиночная звезда I"
+  custom_starting_init_06_DESC: "Стандартная система с одной звездой.\n\n$system_initializer_DESC$"
+  custom_starting_init_07_NAME: "Случайная одиночная звезда II"
+  custom_starting_init_07_DESC: "Система с одной звездой. Родной мир представляет собой луну, вращающуюся вокруг газового гиганта.\n\n$system_initializer_DESC$"
+  
+  
+  

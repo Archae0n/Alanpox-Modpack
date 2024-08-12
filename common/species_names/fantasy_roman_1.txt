@@ -1,0 +1,453 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	alintha = {
+		name = Alinthan
+		plural = Alinthans
+		home_planet = "Tarsius Alviatrex"
+		home_system = "Tarsius Plucentes"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	durius = {
+		name = Durian
+		plural = Durians
+		home_planet = Durius
+		home_system = Durius
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	penna = {
+		name = Pennan
+		plural = Pennans
+		home_planet = Penna
+		home_system = Niusentia
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	mylandrus = {
+		name = Mylandran
+		plural = Mylandrans
+		home_planet = Mylandrus
+		home_system = Mylandrus
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	sabiena = {
+		name = Sabienan
+		plural = Sabienans
+		home_planet = Sabiena
+		home_system = Sabiena
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	panthia = {
+		name = Panthian
+		plural = Panthians
+		home_planet = "Iron Panthia"
+		home_system = "Copper Panthia"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	adarlea = {
+		name = Adarlean
+		plural = Adarleans
+		home_planet = Adarlea
+		home_system = Milliana
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	daylordroman = {
+		name = Bromian
+		plural = Bromians
+		home_planet = Day-Lord
+		home_system = Night-Lord 
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	bromi = {
+		name = Bromian
+		plural = Bromians
+		home_planet = Bromium
+		home_system = Bromium 
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	antina = {
+		name = Antinan
+		plural = Antinans
+		home_planet = "Antinum Hierius"
+		home_system = "Antinum Comia" 
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	paestia = {
+		name = Paestian
+		plural = Paestians
+		home_planet = Paestia
+		home_system = "Vi Paestia"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	laeria = {
+		name = Laeroid
+		plural = Laeroids
+		home_planet = Laeria
+		home_system = "Cius Lurpia" 
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	otosa = {
+		name = Otosian
+		plural = Otosians
+		home_planet = Otosa
+		home_system = Otosa
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	samia = {
+		name = Samian
+		plural = Samians
+		home_planet = "Samia Bravium"
+		home_system = Iufentus
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	balasteria = {
+		name = Balsterian
+		plural = Balsterians
+		home_planet = "Bala Steria"
+		home_system = "Bala Bentia"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	vervinius = {
+		name = Vervinid
+		plural = Vervinids
+		home_planet = Vervinius
+		home_system = Ceniumensus
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	flerdia = {
+		name = Flerdian
+		plural = Flerdians
+		home_planet = Flerdia
+		home_system = Capuum
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	axeron = {
+		name = Axeron
+		plural = Axeron
+		home_planet = Protyporus
+		home_system = Fennaris
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	charbona = {
+		name = Charbona
+		plural = Charbona
+		home_planet = "Iustara Pencares"
+		home_system = "Iustara Dossiarus"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	odunum = {
+		name = Odunum
+		plural = Odunum
+		home_planet = "Levassis Sarbo"
+		home_system = Metraculus
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	proscul = {
+		name = Proscul
+		plural = Prosculii
+		home_planet = Adranos
+		home_system = Hostus
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	talia = {
+		name = Talian
+		plural = Talians
+		home_planet = "Epheta Talia"
+		home_system = "Cinium Tarus"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	circius = {
+		name = Circian
+		plural = Circians
+		home_planet = Circius
+		home_system = Nabaeus
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	niceum = {
+		name = Nicean
+		plural = Niceans
+		home_planet = Niceum
+		home_system = Niceum
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	clarsus = {
+		name = Clarsusian
+		plural = Clarsusians
+		home_planet = "Clarsus Ollandor"
+		home_system = "Clarsus Melatrix"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	separis = {
+		name = Separan
+		plural = Separans
+		home_planet = Separa
+		home_system = "Separis Iuna"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	castresia = {
+		name = Castresian
+		plural = Castresians
+		home_planet = Castresia
+		home_system = Castresia
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	mistressofthedawn = {
+		name = Margelusian
+		plural = Margelusians
+		home_planet = "Mistress of the Dawn"
+		home_system = "Mistress of the Night"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	caiusum = {
+		name = Caian
+		plural = Caians
+		home_planet = Caiusum
+		home_system = Catala
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	spusia = {
+		name = Spusian
+		plural = Spusians
+		home_planet = Spusia
+		home_system = Griogoria
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	macrinia = {
+		name = Macrinian
+		plural = Macrinians
+		home_planet = "Macrinia id Petrulum"
+		home_system = Macrinia
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	lactorisprime = {
+		name = Rasidian
+		plural = Rasidians
+		home_planet = "Lactoris Prime"
+		home_system = Lactoris
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	oppunus = {
+		name = Oppunoid
+		plural = Oppunoids
+		home_planet = Oppunus
+		home_system = Aponio
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	vacallia = {
+		name = Vacallian
+		plural = Vacallians
+		home_planet = Vacallia
+		home_system = "Dorsa Caralaus"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	exentia = {
+		name = Exentian
+		plural = Exentians
+		home_planet = Exentia
+		home_system = Berenia
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	luvoria = {
+		name = Luvorian
+		plural = Luvorians
+		home_planet = Luvoria
+		home_system = "Luvoria Prime"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	artalum = {
+		name = Artalan
+		plural = Artalans
+		home_planet = Artalum
+		home_system = Pholycora
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	secorium = {
+		name = Secorian
+		plural = Secorians
+		home_planet = Secorium
+		home_system = Phinostia
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	olyzaria = {
+		name = Olyzarian
+		plural = Olyzarians
+		home_planet = Olyzaria
+		home_system = Olyborum
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	daryma = {
+		name = Daryman
+		plural = Darymans
+		home_planet = Daryma
+		home_system = Messentia
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	acaxus = {
+		name = Acaxan
+		plural = Acaxans
+		home_planet = Acaxus
+		home_system = Justius
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	acaxus = {
+		name = Cetusite
+		plural = Cetusites
+		home_planet = Vio-Astuso
+		home_system = Vio-Quirmanus
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	perpidus = {
+		name = Daurite
+		plural = Daurites
+		home_planet = Perpidus
+		home_system = Rufetum
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	elvoria = {
+		name = Elvorian
+		plural = Elvorians
+		home_planet = Elvoria
+		home_system = Soppicus
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	pleasantcirmius = {
+		name = Calboid
+		plural = Calboids
+		home_planet = "Pleasant Cirmius"
+		home_system = "Even-Tempered Coquilia"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	clesus = {
+		name = Clessian
+		plural = Clessians
+		home_planet = Clesus
+		home_system = Ades
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	cetienus = {
+		name = Cetiennian
+		plural = Cetiennians
+		home_planet = Cetienus
+		home_system = "Lonius Sevius"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	fexima = {
+		name = Feximian
+		plural = Feximians
+		home_planet = Fexima
+		home_system = "Fiber Licus"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	valgusvenium = {
+		name = Asellian
+		plural = Asellians
+		home_planet = "Valgus Venium"
+		home_system = "Valgus Satium"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	agordius = {
+		name = Agordan
+		plural = Agordans
+		home_planet = Agordius
+		home_system = Bonnius
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	messili = {
+		name = Messilite
+		plural = Messilites
+		home_planet = Messili
+		home_system = Casitum
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	ebrinia = {
+		name = Ebrinian
+		plural = Ebrinians
+		home_planet = Ebrinia
+		home_system = Bellina
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	auralortum = {
+		name = Auralortoid
+		plural = Auralortoids
+		home_planet = Auralortum
+		home_system = Venatian
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	augutuasilo = {
+		name = Vumvena
+		plural = Vumvenas
+		home_planet = Augutuasilo
+		home_system = Apikostia
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	saejuna = {
+		name = Junid
+		plural = Junids
+		home_planet = "Sae Juna"
+		home_system = "Antius Vens"
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+	violium = {
+		name = Violiumese
+		plural = Violiumese
+		home_planet = Violium
+		home_system = Jupiesta
+		name_list = "cybrxkhan_fantasy_roman"
+	}
+}

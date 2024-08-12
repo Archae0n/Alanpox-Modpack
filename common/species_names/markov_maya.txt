@@ -1,0 +1,414 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	tikab = {
+		name = Tikaban
+		plural = Tikabans
+		home_planet = Tikab
+		home_system = Chil-Nakkul
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	flyingserpent = {
+		name = Kiu
+		plural = Kiu
+		home_planet = "Flying Serpent"
+		home_system = "Golden Throne of Hun Xulun"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	cobaj = {
+		name = Cobajite
+		plural = Cobajites
+		home_planet = Cobaj
+		home_system = Ahmalam
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	zotzaprime = {
+		name = Zot-Zot
+		plural = Zot-Zots
+		home_planet = "Zotza Prime"
+		home_system = Zotza
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	aracnapil = {
+		name = Tecouoh
+		plural = Tecouoh
+		home_planet = Aracna-Pil
+		home_system = Xpuhinak 
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	xcaobprime = {
+		name = Xcaobian
+		plural = Xcaobians
+		home_planet = "Xcaob Prime"
+		home_system = Xcaob 
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	bloodoftheaether = {
+		name = Zac
+		plural = Zac
+		home_planet = "Blood of the Aether"
+		home_system = "Primordial Altar"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	ekbal = {
+		name = Ek'Baloid
+		plural = Ek'Baloids
+		home_planet = Ek'Bal
+		home_system = Cac 
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	cobtikin = {
+		name = cob'Tikinese
+		plural = cob'Tikinese
+		home_planet = "Cob Tikin"
+		home_system = "Kana Tikin"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	chaanahlum = {
+		name = Chaanahlian
+		plural = Chaanahlians
+		home_planet = Chaanahlum
+		home_system = Chilas
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	zipak = {
+		name = Zipakite
+		plural = Zipakites
+		home_planet = Zipak
+		home_system = Pilamil
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	huncab = {
+		name = Huncabish
+		plural = Huncabish
+		home_planet = Huncab
+		home_system = "Coc Xcun"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	ixbaam = {
+		name = Ixbaamese  
+		plural = Ixbaamese
+		home_planet = Ixbaam
+		home_system = Wakantun
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	caamanyakul = {
+		name = Yakulid  
+		plural = Yakulids
+		home_planet = "Caaman Yakul"
+		home_system = "Caaman Tecal"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	grandmotherixbaaxcham = {
+		name = Ixbalam-Cha  
+		plural = Ixbalam-Cha
+		home_planet = "Grandmother Ixbaaxcham"
+		home_system = "Father Chachmok"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	itzizayum = {
+		name = Izayumian  
+		plural = Izayumians
+		home_planet = "Itz Iza-Yum"
+		home_system = "Itz Ixté"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	kanekel = {
+		name = Kanekeloid  
+		plural = Kanekeloids
+		home_planet = Kanekel
+		home_system = Tutukuman
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	oxchin = {
+		name = Utak 
+		plural = Utaks
+		home_planet = Oxchin
+		home_system = Bakbenqueh
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	mulumaya = {
+		name = Bamuluan 
+		plural = Bamuluans
+		home_planet = Mulu
+		home_system = Vatz
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	tikan = {
+		name = Tikanid
+		plural = Tikanids
+		home_planet = Tikan
+		home_system = "Bah Tutuja"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	kamal = {
+		name = Kamalese 
+		plural = Kamalese
+		home_planet = Kamal
+		home_system = Ahkiha
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	mocol = {
+		name = Xpu-Dzil
+		plural = Xpu-Dzil
+		home_planet = Mocol
+		home_system = Ahpopakuk
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	uxman = {
+		name = Uxmanese
+		plural = Uxmanese
+		home_planet = Uxman
+		home_system = "Xcun Noh"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	chaltunala = {
+		name = Chaltunalan
+		plural = Chaltunalans
+		home_planet = Chaltunala
+		home_system = Narantun
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	wakcal = {
+		name = Wakcalian
+		plural = Wakcalians
+		home_planet = "Wak Cal"
+		home_system = Utakantuna
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	azumazul = {
+		name = Azumazulid
+		plural = Azumazulids
+		home_planet = Azumazul
+		home_system = Uaxaque
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	kanek = {
+		name = Kanekoid
+		plural = Kanekoids
+		home_planet = Kanek
+		home_system = Kukpec
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	bakinyumanjo = {
+		name = Ixcutunoid
+		plural = Ixcutunoids
+		home_planet = "Bakin Yumanjo"
+		home_system = "Bakin Camigue"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	yumcabaanoftheritual = {
+		name = Lam'Ichcol
+		plural = Lam'Ichcol
+		home_planet = "Yumcabaan of the Ritual"
+		home_system = "Ek'Balan the Bloodthirsty"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	ixtakan = {
+		name = Ixtakanian
+		plural = Ixtakanians
+		home_planet = Ixtakan
+		home_system = Gucmul
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	mocomprime = {
+		name = Mocomese
+		plural = Mocomese
+		home_planet = "Mocom Prime"
+		home_system = Mocom
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	labalam = {
+		name = Labalamian
+		plural = Labalamians
+		home_planet = Labalam
+		home_system = Caazotz
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	xuntecaj = {
+		name = Yakanid
+		plural = Yakanids
+		home_planet = "Xun Tecaj"
+		home_system = Ek'Balapana
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	restlessfields = {
+		name = Yaxaque
+		plural = Yaxaque
+		home_planet = "Restless Fields"
+		home_system = "Obsidian Column"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	bakukkantun = {
+		name = Bonamian
+		plural = Bonamians
+		home_planet = "Bakuk Kantun"
+		home_system = Puchcouoh
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	chalteche = {
+		name = Chaltechean
+		plural = Chaltecheans
+		home_planet = Chalteche
+		home_system = Zacaibilhaam
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	gumatz = {
+		name = Gumoid
+		plural = Gumoids
+		home_planet = Gumatz
+		home_system = Uaxac
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	dzibil = {
+		name = Dzibilaean
+		plural = Dzibilaeans
+		home_planet = Dzibil
+		home_system = Kukum
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	pyramidtojoy = {
+		name = Kintuk
+		plural = Kintuks
+		home_planet = "Pyramid to Joy"
+		home_system = "Pyramid to Blood"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	bahxaque = {
+		name = Bahxaquian
+		plural = Bahxaquians
+		home_planet = Bahxaque
+		home_system = Yaxumalak
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	chalaman = {
+		name = Chalamanese
+		plural = Chalamanese
+		home_planet = Chalaman
+		home_system = Kukpecul
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	uxmatabna = {
+		name = Uxmataboid
+		plural = Uxmataboids
+		home_planet = Uxmatabná
+		home_system = "Cocoh Bolja"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	bormigua = {
+		name = Bormiguan
+		plural = Bormiguans
+		home_planet = Bormigua
+		home_system = Oxcuén-Ach
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	chenpalche = {
+		name = Che'Palchean
+		plural = Che'Palcheans
+		home_planet = Chen-Palche
+		home_system = Chen-Bal
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	ahmoncab = {
+		name = Ahmoncayan
+		plural = Ahmoncayans
+		home_planet = Ahmoncab
+		home_system = Kayomok
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	yakuman = {
+		name = Yakumanese
+		plural = Yakumanese
+		home_planet = Yakuman
+		home_system = "Ixbaanic Ucalen"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	azul = {
+		name = Azuli
+		plural = Azulis
+		home_planet = Azul
+		home_system = Puchun
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	balamal = {
+		name = Balamalese
+		plural = Balamalese
+		home_planet = Balamal
+		home_system = Ek'Bakan
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	borbona = {
+		name = Borbonid
+		plural = Borbonids
+		home_planet = "Bor Boná"
+		home_system = Chacanekel
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	tzilancaisstones = {
+		name = Utatzam
+		plural = Utatzam
+		home_planet = "Tzilancai's Stones"
+		home_system = "Tecoh's Pyramid"
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+	tecumul = {
+		name = Tecumulian
+		plural = Tecumulians
+		home_planet = Tecumul
+		home_system = Oxchun
+		name_list = "cybrxkhan_fantasy_maya"
+	}
+}

@@ -1,0 +1,5 @@
+# its own trigger
+has_expanded_stellaris_traditions_active = {
+    optimize_memory
+    always = yes
+}

@@ -1,0 +1,44 @@
+tradition_est_foundation = {
+	tree_template = "tree_est_0_1_2_1_1"
+	adoption_bonus = "tr_est_foundation_adopt"
+	finish_bonus = "tr_est_foundation_finish"
+	traditions = {
+		"tr_est_foundation_1"
+		"tr_est_foundation_2"
+		"tr_est_foundation_3"
+		"tr_est_foundation_4"
+		"tr_est_foundation_5"
+	}
+
+	potential = {
+		est_foundation_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10 
+		modifier = {
+			factor = 0.01
+			years_passed < 50
+		}
+		modifier = {
+			factor = 3
+			num_owned_planets < 11
+		}
+		modifier = {
+			factor = 3
+			num_owned_planets < 6
+		}
+		modifier = {
+			factor = 0.1
+			num_owned_planets > 25
+		}
+		modifier = {
+			factor = 0.01
+			num_owned_planets > 50
+		}
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

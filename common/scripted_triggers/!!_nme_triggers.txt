@@ -1,0 +1,17 @@
+cohesive_system = {	has_star_flag = cohesive_system }
+giga_is_any_ehof_non_flag = {
+		always = no
+}
+
+giga_has_an_active_ehof = {
+	any_system_megastructure = {
+		giga_is_any_ehof_non_flag = yes
+		NOR = {
+			has_megastructure_flag = ehof_phase_01_decommissioned
+			has_megastructure_flag = ehof_phase_02_decommissioned
+			has_megastructure_flag = ehof_phase_03_decommissioned
+			has_megastructure_flag = ehof_phase_04_decommissioned
+		}
+	}
+}
+

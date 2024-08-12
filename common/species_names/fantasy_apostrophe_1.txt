@@ -1,0 +1,421 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	rirfan = {
+		name = Rir'fan
+		plural = Rir'fanans
+		home_planet = Milmonap
+		home_system = Xus'gla
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	ashanggi = {
+		name = Ash'anggian
+		plural = Ash'anggians
+		home_planet = "Ash'anggi Par'la"
+		home_system = "Rak Chodo'om"
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	melethla = {
+		name = Me'lethian
+		plural = Me'lethians
+		home_planet = Me'leth'la
+		home_system = Dro'o
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	funeralofrospruka = {
+		name = Drath
+		plural = Drath
+		home_planet = "Funeral of Ros'pruka"
+		home_system = "Lament of Morg'carg"
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	dacaror = {
+		name = Dacaroran
+		plural = Dacarorans
+		home_planet = "Im'u Gaapu"
+		home_system = Dacaror 
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	rathgamon = {
+		name = Rath'gamon
+		plural = Rath'gamon
+		home_planet = Grim'gamon
+		home_system = Os'ala 
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	valpolglagion = {
+		name = Val'polese
+		plural = Val'polese
+		home_planet = "Val'polgla Gion"
+		home_system = "Maman'morg Gion"
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	spirithunter = {
+		name = Baalornese
+		plural = Baalornese
+		home_planet = "Spirit Hunter"
+		home_system = "Endless Chaos"
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	kakrul = {
+		name = Kak'rulian
+		plural = Kak'rulians
+		home_planet = Kak'rul
+		home_system = Berak
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	ul'don = {
+		name = Ul'donian
+		plural = Ul'donians
+		home_planet = Ul'don
+		home_system = Ctharath
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	meimgan = {
+		name = Meimgian
+		plural = Meimgians
+		home_planet = Meimgan
+		home_system = Bes-Rongriula
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	lasgud = {
+		name = Lasguddite
+		plural = Lasguddites
+		home_planet = Lasgud
+		home_system = Drar'sonfurius
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	rarg = {
+		name = Rargian
+		plural = Rargians
+		home_planet = Rarg
+		home_system = Us'lor
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	nethius = {
+		name = Ne'thiusan  
+		plural = Ne'thiusans
+		home_planet = Ne'thius
+		home_system = Toe'thild
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	basge = {
+		name = Bas'gean
+		plural = Bas'geans
+		home_planet = Bas'ge
+		home_system = "High Morana"
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	raugrun = {
+		name = Cho-Resh
+		plural = Cho-Resh
+		home_planet = Raugrun
+		home_system = Rax'ulu
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	anvisphe = {
+		name = Anviss
+		plural = Anviss
+		home_planet = Anvisphe
+		home_system = Shargshry
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	varorkhi = {
+		name = Varorkhi
+		plural = Varorkhi
+		home_planet = "Varor Reth'chi"
+		home_system = Shand'hu
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	dencer = {
+		name = Den'ceran 
+		plural = Den'cerans
+		home_planet = Den'cer
+		home_system = "Den'la Mon"
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	xysab = {
+		name = Xy'sab
+		plural = Xy'sab
+		home_planet = Xy'sab
+		home_system = Im'asgash
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	masdres = {
+		name = Drarg
+		plural = Drargs
+		home_planet = "Mas Dres"
+		home_system = Gorg'ba'go
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	ramorapostrophe = {
+		name = Ra'morean
+		plural = Ra'moreans
+		home_planet = Ra'mor
+		home_system = Sannorn
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	asruul = {
+		name = As'ruulian
+		plural = As'ruulians
+		home_planet = As'ruul
+		home_system = "Korhan Ash'a"
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	rakzarg = {
+		name = Rak'zarg
+		plural = Rak'zarg
+		home_planet = Mon'zarg
+		home_system = Lith'lial
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	hodruk = {
+		name = Ho'drukkite
+		plural = Ho'drukkites
+		home_planet = Ho'druk
+		home_system = Na'ulu
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	angen = {
+		name = Angennoid
+		plural = Angennoids
+		home_planet = Angen
+		home_system = Monbas
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	miaor = {
+		name = Mia'or
+		plural = Mia'or
+		home_planet = Mia'phar
+		home_system = "Mia'gan Las-vorg"
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	kelac = {
+		name = Kelac
+		plural = Kelacids
+		home_planet = "Kelac Ga'sane"
+		home_system = Santh'ra
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	yentmo = {
+		name = Yentmoid
+		plural = Yentmoids
+		home_planet = Yentmo
+		home_system = Anvidrak
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	stoneofrituals = {
+		name = Camy'lorg
+		plural = Camy'lorg
+		home_planet = "Stone of Rituals"
+		home_system = "House of Love"
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	cangor = {
+		name = Cangoran
+		plural = Cangorans
+		home_planet = Cangor
+		home_system = Via'don
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	kramcol = {
+		name = Kram'col
+		plural = Kram'col
+		home_planet = Kram'col
+		home_system = Rothca
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	verrath = {
+		name = Verrathian
+		plural = Verrathians
+		home_planet = Verrath
+		home_system = Niori-Omastharg
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	fendcerenvis = {
+		name = "Ruk ema Ne'son"
+		plural = "Ruk ema Ne'son"
+		home_planet = Fendcerenvis
+		home_system = Drath'ba
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	osega = {
+		name = Osegan
+		plural = Osegans
+		home_planet = Osega
+		home_system = Than'hane
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	sonimga = {
+		name = "Kon Sonimian"
+		plural = "Kon Sonimians"
+		home_planet = Sonimga
+		home_system = Ra'fen'rongry
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	visionofthefuture = {
+		name = Forg'fur
+		plural = Forg'fur
+		home_planet = "Vision of the Future"
+		home_system = "Tapestry of the Past"
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	lasroba = {
+		name = Lasro'bian
+		plural = Lasro'bians
+		home_planet = Lasro'ba
+		home_system = Nurg
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	zahunprime = {
+		name = Zahunnoid
+		plural = Zahunnoids
+		home_planet = "Zahun Prime"
+		home_system = Zahun
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	dushru = {
+		name = Dushsha
+		plural = Dushsha
+		home_planet = Dushru
+		home_system = "Marg Gas"
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	zargron = {
+		name = Zargronese
+		plural = Zargronese
+		home_planet = Zargron
+		home_system = Malor'grag
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	breathofgrarna = {
+		name = Gror
+		plural = Gror
+		home_planet = "Breath of Grar'na"
+		home_system = "Spit of Grar'na"
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	kabadapostrophe = {
+		name = Ka'baddi
+		plural = Ka'baddis
+		home_planet = Ka'bad
+		home_system = Mo'la
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	hagska = {
+		name = Hags'kalite
+		plural = Hags'kalites
+		home_planet = Hags'ka
+		home_system = E'am'dudork
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	marncutha = {
+		name = Marncuthan
+		plural = Marncuthans
+		home_planet = Marncutha
+		home_system = Araham'ro
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	daradaraghaba = {
+		name = Tur'is
+		plural = Tur'is
+		home_planet = Daradarag'haba
+		home_system = Shazag'shasau
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	imtushavan = {
+		name = Im'tushvian
+		plural = Im'tushvians
+		home_planet = Im'tusha'van
+		home_system = Sar'fal'susu
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	du_sa = {
+		name = Imal'pai
+		plural = Imal'pai
+		home_planet = Du'sa
+		home_system = Rudrud
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	meinorgma = {
+		name = Mei'norgmian
+		plural = Mei'norgmians
+		home_planet = Mei'norgma
+		home_system = Ka'ne
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	grakahan = {
+		name = Grakahanese
+		plural = Grakahanese
+		home_planet = Grakahan
+		home_system = Tharg'lezu
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+	lekrudruu = {
+		name = Mal'rak
+		plural = Mal'rak
+		home_planet = Lekrudru'u
+		home_system = Jamenevor
+		name_list = "cybrxkhan_fantasy_apostrophe_1"
+	}
+}

@@ -1,0 +1,43 @@
+spriteTypes = {
+	# bottom bar
+	spriteType = {
+		name = "GFX_ui_mapmode_background_static"
+		textureFile = "gfx/ui_overhaul_qhd/bottom_bar/mapmode_background_static.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_mapmode_background_wide_static"
+		textureFile = "gfx/ui_overhaul_qhd/bottom_bar/mapmode_background_wide_static.dds"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_ui_mapmode_background_stretch"
+		textureFile = "gfx/ui_overhaul_qhd/bottom_bar/mapmode_background_stretch.dds"
+		borderSize = { x = 0 y = 0 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+	spriteType = {
+		name = "GFX_ui_mapmode_manage"
+		textureFile = "gfx/ui_overhaul_qhd/bottom_bar/map_manage_mode.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_system_paused"
+		textureFile = "gfx/ui_overhaul_qhd/bottom_bar/system_paused.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/bottom_bar/system_paused_mask.dds"
+			animationtexturefile = "gfx/ui_overhaul_qhd/bottom_bar/system_paused_glow.dds"
+			animationrotation = 0.0
+			animationlooping = yes
+			animationtime = 5.0
+			animationdelay = 0.0
+			animationblendmode = "add"	#add, multiply, overlay
+			animationtype = "pulsing"	#scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+	}
+	spriteType = {
+		name = "GFX_ui_system_unclaimed"
+		textureFile = "gfx/ui_overhaul_qhd/bottom_bar/system_unclaimed.dds"
+		transparencecheck = yes
+	}
+}

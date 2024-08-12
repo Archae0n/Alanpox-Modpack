@@ -1,0 +1,235 @@
+namespace = est_militarism
+
+### MILITARISM ###
+
+#Militarism Adopt, gives bonus production while not under Naval Capacity. # (Metallichydra): Added triggered modifier to tradition
+#country_event = {
+#	id = est_militarism.1
+#	hide_window = yes
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		has_active_tradition = tr_est_militarism_adopt	
+#	}
+#
+#	immediate = {
+#		if = {	
+#			limit = {
+#				Not = {
+#					used_naval_capacity_percent < 1.0
+#				}
+#			}
+#			if = {
+#				limit = {
+#					Not = {
+#						has_modifier = mod_est_militarism_adopt
+#					}
+#				}
+#				add_modifier = {
+#					modifier = "mod_est_militarism_adopt"
+#				}
+#			}
+#		}
+#		else = {
+#			if = {
+#				limit = {
+#					has_modifier = mod_est_militarism_adopt
+#				}
+#				remove_modifier = "mod_est_militarism_adopt"
+#			}
+#		}
+#	}	
+#}
+	
+#Militarism/Might 5, leader gets xp trait and additional trait.
+country_event = {
+	id = est_militarism.2
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = { #(Ben_D) on_actions triggers this, as does tradition adoption # (Metallichydra): Trigger is still needed
+		OR = {
+			has_tradition = tr_est_militarism_5
+			has_tradition = tr_est_might_5
+		}
+		from = {
+			leader_class = commander 
+			Not = {
+				has_leader_flag = flag_est_militarism_5
+			}
+		}
+	}
+
+	immediate = {
+		from = {
+			if = {
+				add_trait_no_notify = "random_common" # Random common because traits may change and also this allows modded traits
+				set_leader_flag = flag_est_militarism_5
+			}
+		}
+	}
+}
+
+# (Metallichydra): Removed in favor of simpler event that does the same and will work on new and modded traits as well
+#		from = { #(Ben_D): Shouldn't be set here
+#			set_leader_flag = flag_est_militarism_5
+#		}
+#		every_owned_leader = {
+#			if = {
+#				limit = {
+#					NOT = {
+#						has_leader_flag = flag_est_militarism_5
+#					}
+#					has_trait = subclass_commander_admiral
+#				}
+#				from = {
+#					random_list = {
+#						1 = {
+#							modifier = {
+#								factor = 0
+#								Or = {
+#									has_trait = leader_trait_trickster
+#									has_trait = leader_trait_unyielding
+#								}
+#							}
+#							add_trait = leader_trait_trickster
+#							set_leader_flag = flag_est_militarism_5
+#						}
+#						1 = {
+#							modifier = {
+#								factor = 0
+#								Or = {
+#									has_trait = leader_trait_fleet_logistician
+#								}
+#							}
+#							add_trait = leader_trait_fleet_logistician
+#							set_leader_flag = flag_est_militarism_5
+#						}
+#						1 = {
+#							modifier = {
+#								factor = 0
+#								Or = {
+#									has_trait = leader_trait_engineer
+#									owner = {
+#										Not = {
+#											has_technology = tech_doctrine_fleet_size_3
+#										}
+#									}
+#								}
+#							}
+#							add_trait = leader_trait_engineer
+#							set_leader_flag = flag_est_militarism_5
+#						}
+#						1 = {
+#							modifier = {
+#								factor = 0
+#								Or = {
+#									has_trait = leader_trait_aggressive
+#									has_trait = leader_trait_cautious
+#								}
+#							}
+#							add_trait = leader_trait_aggressive
+#						}
+#						1 = {
+#							modifier = {
+#								factor = 0
+#								Or = {
+#									has_trait = leader_trait_aggressive
+#									has_trait = leader_trait_cautious
+#								}
+#							}
+#							add_trait = leader_trait_cautious
+#							set_leader_flag = flag_est_militarism_5
+#						}
+#						1 = {
+#							modifier = {
+#								factor = 0
+#								Or = {
+#									has_trait = leader_trait_scout
+#									owner = {
+#										Not = {
+#											has_technology = tech_sensors_2
+#										}
+#									}
+#								}
+#							}
+#							add_trait = leader_trait_scout
+#							set_leader_flag = flag_est_militarism_5
+#						}
+#						1 = {
+#							modifier = {
+#								factor = 0
+#								Or = {
+#									has_trait = leader_trait_unyielding
+#									has_trait = leader_trait_trickster
+#									has_trait = leader_trait_nervous
+#								}
+#							}
+#							add_trait = leader_trait_unyielding
+#							set_leader_flag = flag_est_militarism_5
+#						}
+#						1 = {
+#							modifier = {
+#								factor = 0
+#								Or = {
+#									has_trait = leader_trait_gale_speed
+#									has_trait = leader_trait_lethargic
+#								}
+#							}
+#							add_trait = leader_trait_gale_speed
+#							set_leader_flag = flag_est_militarism_5
+#						}
+#					}
+#				}
+#			}
+#		}
+#	}
+#}
+
+# Add special Admiral Trait
+country_event = {
+	id = est_militarism.3
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_active_tradition = tr_est_militarism_5
+			has_tradition = tr_est_might_5
+		}
+		from = {
+			NOT = { has_trait = leader_trait_admiral_est_militarism_5 }
+			has_trait = subclass_commander_admiral
+		}
+	}
+	
+	immediate = {
+		from = {
+			add_trait = leader_trait_admiral_est_militarism_5
+		}
+	}
+}
+
+# Add special general trait
+country_event = {
+	id = est_militarism.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_active_tradition = tr_est_militarism_2
+			has_tradition = tr_est_might_2
+		}
+		from = {
+			NOT = { has_trait = leader_trait_admiral_est_militarism_2 }
+			has_trait = subclass_commander_general
+		}
+	}
+
+	immediate = {
+		from = {
+			add_trait = leader_trait_admiral_est_militarism_2
+		}
+	}
+}

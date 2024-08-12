@@ -1,0 +1,433 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	nelamakam = {
+		name = Nelamakan
+		plural = Nelamakans
+		home_planet = "Kotti Nelamakam"
+		home_system = "Kotti Wavaram"
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	puzhur = {
+		name = Puzhurian
+		plural = Puzhurians
+		home_planet = Puzhur
+		home_system = Ari'Bharam
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	chelaipatti = {
+		name = Polbar
+		plural = Polbar
+		home_planet = "Chelai Patti"
+		home_system = Kundai
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	chirumanu = {
+		name = Chiruese
+		plural = Chiruese
+		home_planet = Chiru-mani
+		home_system = Ho-mani
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	thithapur = {
+		name = Thithan
+		plural = Thithans
+		home_planet = Thithapur
+		home_system = Komasipur 
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	avasi = {
+		name = Avasid
+		plural = Avasids
+		home_planet = Avasi
+		home_system = "Mayal Manam" 
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	poonipalur = {
+		name = Kovil
+		plural = Kovil
+		home_planet = "Pooni Palur"
+		home_system = Rajaputi 
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	aruchettai = {
+		name = Aruchettean
+		plural = Aruchetteans
+		home_planet = Aruchettai
+		home_system = Kunjai 
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	avaram = {
+		name = Avaramese
+		plural = Avaramese
+		home_planet = "Avaram Thurai"
+		home_system = Viruvoyam
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	chivani = {
+		name = Chivanoid
+		plural = Chivanoids
+		home_planet = "Vikudam Nelli-Chivani"
+		home_system = Dha'chavagi
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	nellipur = {
+		name = Nellian
+		plural = Nellians
+		home_planet = Nellipur
+		home_system = Wallithapur
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	ignitingglory = {
+		name = Maranal
+		plural = Maranals
+		home_planet = "Igniting Glory"
+		home_system = "Catching Knowledge"
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	thelveepuraram = {
+		name = Thel'Veepur  
+		plural = Thel'Veepur
+		home_planet = Thel'Veepur'Aram
+		home_system = Usi'Alaikur
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	melluram = {
+		name = Melluran  
+		plural = Mellurans
+		home_planet = Melluram
+		home_system = Karangai
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	arcothani = {
+		name = Arcothian  
+		plural = Arcothians
+		home_planet = Arcothani
+		home_system = "Rasi Nalleepul"
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	pundi = {
+		name = Pundian  
+		plural = Pundians
+		home_planet = Pundi
+		home_system = Kayannai
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	sangotattu = {
+		name = Udham 
+		plural = Udham
+		home_planet = "Sangot Attu"
+		home_system = Tiruppallur
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	nagalam = {
+		name = Nagalamese 
+		plural = Nagalamese
+		home_planet = "Nagalam Sri-Mani"
+		home_system = "Thengapur Sri-Gudi"
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	gudangai = {
+		name = Gudangite 
+		plural = Gudangites
+		home_planet = Gudangai
+		home_system = Thiruppadu
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	paduram = {
+		name = Padamian 
+		plural = Padamians
+		home_planet = Paduram
+		home_system = Dhagalpadam
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	sivakudhur = {
+		name = Pam
+		plural = Pam
+		home_planet = Sivakudhur
+		home_system = Veepuram
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	velangam = {
+		name = Velangamese
+		plural = Velangamese
+		home_planet = Velangam
+		home_system = Mellikudi
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	velangam = {
+		name = Velangamese
+		plural = Velangamese
+		home_planet = Velangam
+		home_system = Mellikudi
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	katrandurthelearned = {
+		name = Bhal
+		plural = Bhal
+		home_planet = "Katrandur the Learned"
+		home_system = "Kundur the Ethereal"
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	gudigulayam = {
+		name = Sani
+		plural = Sani
+		home_planet = Gudigulayam
+		home_system = "Aladi Koot"
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	patturam = {
+		name = Pattoid
+		plural = Pattoids
+		home_planet = Patturam
+		home_system = Pernamaram
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	kulirudi = {
+		name = Kulian
+		plural = Kulians
+		home_planet = Kulirudi
+		home_system = Nellanrudi
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	kasil = {
+		name = Kasilite
+		plural = Kasilites
+		home_planet = Kasil
+		home_system = Velliyakam
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	ramvaluram = {
+		name = Ram'Va
+		plural = Ram'Va
+		home_planet = Ram'Valuram
+		home_system = Ram'Valuram
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	oddai = {
+		name = Oddaian
+		plural = Oddaians
+		home_planet = Oddai
+		home_system = Pudigulakam
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	thengode = {
+		name = Thengodese
+		plural = Thengodese
+		home_planet = Thengode
+		home_system = "Kadur Neli"
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	vanamrammal = {
+		name = Rammalan
+		plural = Rammalans
+		home_planet = "Vanam Rammal"
+		home_system = Kayambal
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	maram = {
+		name = Maramite
+		plural = Maramites
+		home_planet = Maram
+		home_system = Tiruvagalai
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	jollam = {
+		name = Jollamese
+		plural = Jollamese
+		home_planet = Jollam
+		home_system = Velli
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	chinallur = {
+		name = Chinallurian
+		plural = Chinallurians
+		home_planet = Chinallur
+		home_system = Param
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	chiriyattai = {
+		name = Chiriyattoid
+		plural = Chiriyattoids
+		home_planet = Chiriyattai
+		home_system = "Usilli Nelam"
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	madalpattu = {
+		name = Madalpattian
+		plural = Madalpattians
+		home_planet = Madalpattu
+		home_system = Chirurai
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	tiruram = {
+		name = Tirurian
+		plural = Tirurians
+		home_planet = Tiruram
+		home_system = Sivakulindalli
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	sivakulindalli = {
+		name = Satorid
+		plural = Satorids
+		home_planet = Sivakulindalli
+		home_system = Anam
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	arannallipatti = {
+		name = Arannallese
+		plural = Arannallese
+		home_planet = Arannallipatti
+		home_system = Chivoyar
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	coillipal = {
+		name = Coillid
+		plural = Coillids
+		home_planet = Coillipal
+		home_system = Ranchaparani
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	varuntu = {
+		name = Varuntuan
+		plural = Varuntuans
+		home_planet = Varuntu
+		home_system = Patuku
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	motherkonramal = {
+		name = Konramal
+		plural = Konramals
+		home_planet = "Mother of Konramal"
+		home_system = "Father of Konramal"
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	virumatam = {
+		name = Virumatamese
+		plural = Virumatamese
+		home_planet = Virumatam
+		home_system = Piruntu
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	chenkalai = {
+		name = Chenkaloid
+		plural = Chenkaloids
+		home_planet = Chenkalai
+		home_system = Cheram
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	takkam = {
+		name = Takkama
+		plural = Takkamas
+		home_planet = Takkam
+		home_system = "Kil Tennatu"
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	surraptin = {
+		name = Mellaku
+		plural = Mellaku
+		home_planet = "Surrap Tin"
+		home_system = Katterra
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	madukam = {
+		name = Madukamese
+		plural = Madukamese
+		home_planet = Madukam
+		home_system = Pataram
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	Mutam = {
+		name = Mutamese
+		plural = Mutamese
+		home_planet = Mutam
+		home_system = Konpal
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	mellakudi = {
+		name = Mellakudian
+		plural = Mellakudians
+		home_planet = Mellakudi
+		home_system = Maduka
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	ambamambam = {
+		name = Ambamese
+		plural = Ambamese
+		home_planet = Ambam
+		home_system = Nantiyam
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	thavattai = {
+		name = Kottu
+		plural = Kottu
+		home_planet = Thavattai
+		home_system = Mutakappur
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+	piyumsatamil = {
+		name = "Vela Mellai"
+		plural = "Vela Mellai"
+		home_planet = "Piyum Satamil"
+		home_system = Panatam
+		name_list = "cybrxkhan_handmade_tamil"
+	}
+}

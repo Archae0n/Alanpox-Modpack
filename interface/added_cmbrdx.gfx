@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_resolution_rdxproclaim_zenith"
+		texturefile = "gfx/interface/icons/resolutions/resolution_rdxproclaim_zenith.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_rdxproclaim_banana"
+		texturefile = "gfx/interface/icons/resolutions/resolution_rdxproclaim_banana.dds"
+	}
+
+}

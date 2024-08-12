@@ -1,0 +1,7 @@
+###################################
+### GOVERMENTAL ASCENSION PERKS ###
+###################################
+
+mod_sartek_transcendent_learning = {
+	species_leader_exp_gain = 0.50
+}

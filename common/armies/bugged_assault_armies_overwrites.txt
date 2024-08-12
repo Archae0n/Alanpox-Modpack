@@ -1,0 +1,87 @@
+# Hunter-Killer Armies
+machine_assault_1 = {
+	damage = 1.00
+	health = 1.00
+	has_morale = no
+	morale_damage = 1.00
+	collateral_damage = 2.0
+	war_exhaustion = 0.5
+	time = 90
+	has_species = yes
+
+	icon = GFX_army_type_machine_assault
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	potential_country = { has_authority = auth_machine_intelligence }
+	potential = {
+		from = {
+			OR = {
+				has_trait = "trait_machine_unit"
+				has_trait = "trait_bugged_happy_machine"
+			}
+		}
+	}
+
+	show_tech_unlock_if = { has_authority = auth_machine_intelligence }
+
+	prerequisites = { "tech_assault_armies" }
+
+	ai_weight = {
+		base = 100
+		modifier = {
+			set = 0
+			has_technology = tech_adaptive_combat_algorithms
+		}
+	}
+}
+
+# Battle Frames
+machine_assault_2 = {
+	damage = 1.5
+	health = 2.5
+	has_morale = no
+	morale_damage = 1.5
+	collateral_damage = 2.0
+	war_exhaustion = 1.0
+	time = 120
+	has_species = yes
+
+	icon = GFX_army_type_machine_assault
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 200
+		}
+
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	potential_country = { has_authority = auth_machine_intelligence }
+	potential = {
+		from = {
+			OR = {
+				has_trait = "trait_machine_unit"
+				has_trait = "trait_bugged_happy_machine"
+			}
+		}
+	}
+
+	prerequisites = { "tech_adaptive_combat_algorithms" }
+
+	ai_weight = {
+		base = 100
+	}
+}

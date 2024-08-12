@@ -1,0 +1,109 @@
+d_lithoid_devastation = {
+	icon = d_gaseous_eruption
+
+	time = 360
+
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+	potential = { always = no }
+	can_be_cleared = {
+		custom_tooltip = {
+			fail_text = requires_actor_not_mineralizer
+			exists = owner
+			owner = {
+				is_bugged_terravore = no
+			}
+		}
+	}
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+		pop_environment_tolerance = -0.1
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 1000
+		}
+	}
+}
+
+d_bugged_stripmined_devastation = {
+	icon = d_gaseous_eruption
+
+	time = 360
+
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+	potential = { always = no }
+	can_be_cleared = {
+		custom_tooltip = {
+			fail_text = requires_actor_not_mineralizer
+			exists = owner
+			owner = {
+				is_bugged_terravore = no
+			}
+		}
+	}
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+		pop_environment_tolerance = -0.1
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 1000
+		}
+	}
+}
+
+d_big_nature_preserve_blocker = {
+	icon = d_lush_jungle
+	potential = { always = no }
+	can_be_cleared = {
+		custom_tooltip = {
+			fail_text = has_ranger_lodge
+			planet = {
+				NOT = { has_building = building_ranger_lodge }
+			}
+		}
+		custom_tooltip = {
+			fail_text = has_bugged_druid_grove
+			planet = {
+				NOT = { has_building = building_bugged_druid_grove }
+			}
+		}
+		custom_tooltip = {
+			fail_text = has_bugged_research_center
+			planet = {
+			NOT = { has_building = building_bugged_research_center }
+			}			
+		}
+	}
+
+	resources = {
+		category = deposit_blockers_natural
+	}
+
+	inline_script = deposits/ai_weight_natural_blocker
+
+	is_for_colonizable = yes
+	category = deposit_cat_blockers_natural
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+}

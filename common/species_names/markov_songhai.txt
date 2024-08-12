@@ -1,0 +1,412 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	littlezun = {
+		name = Zunist
+		plural = Zunists
+		home_planet = "Little Zun"
+		home_system = "Great Zun"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	tekeinyun = {
+		name = Tekeinite
+		plural = Tekeinites
+		home_planet = Tekeinyun
+		home_system = Maraynabbi
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	tagha = {
+		name = Sammah'Kibra
+		plural = Sammah'Kibra
+		home_planet = Tagha
+		home_system = "Rafi Fatakin"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	kukari = {
+		name = Kukar
+		plural = Kukars
+		home_planet = Kukari
+		home_system = Hussankiya
+		name_list = "cybrxkhan_markov_songhai"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	silversoils = {
+		name = Sorobankara
+		plural = Sorobankara
+		home_planet = "Silver Soils"
+		home_system = "Golden River" 
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	damekodi = {
+		name = Damek
+		plural = Dameks
+		home_planet = Damekodi
+		home_system = Kurunne-Gey 
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	fiqa = {
+		name = Fiqian
+		plural = Fiqians
+		home_planet = Fiqa
+		home_system = Kis'ma 
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	zakan = {
+		name = Zakanese
+		plural = Zakanese
+		home_planet = Zakan
+		home_system = "Rassa Mahin" 
+		name_list = "cybrxkhan_markov_songhai"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	kayakay = {
+		name = Kay
+		plural = Kays
+		home_planet = Kaya-Kay
+		home_system = Kaynafiqa
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	birayprime = {
+		name = Birayan
+		plural = Birayans
+		home_planet = "Biray Prime"
+		home_system = Biray
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	kangafitim = {
+		name = Arga
+		plural = Argas
+		home_planet = "Kanga Fitim"
+		home_system = Bishari
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	yamah = {
+		name = Yamoid
+		plural = Yamoids
+		home_planet = Yamah
+		home_system = Bonkodib
+		name_list = "cybrxkhan_markov_songhai"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	bandzokumaarprime = {
+		name = Banzkumaran  
+		plural = Banzkumarans
+		home_planet = "Bandzo Kumaar Prime"
+		home_system = "Bandzo Kumaar"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	fleetingwind = {
+		name = Mankulunkoy  
+		plural = Mankulunkoy
+		home_planet = "Fleeting Wind"
+		home_system = "Shining Spurs"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	marawalarah = {
+		name = Arga-Tondian  
+		plural = Arga-Tondians
+		home_planet = mara'Walarah
+		home_system = "Tondi sula'Layes"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	karah = {
+		name = Karahite  
+		plural = Karahites
+		home_planet = Karah
+		home_system = Bondu
+		name_list = "cybrxkhan_markov_songhai"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	daassaprime = {
+		name = Daassean 
+		plural = Daasseans
+		home_planet = "Daassa Prime"
+		home_system = Daassa
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	dakrtaghost = {
+		name = Daktagan 
+		plural = Daktagans
+		home_planet = "Dakr Taghost"
+		home_system = Al-hanbu
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	dumfaala = {
+		name = Dumfian 
+		plural = Dumfians
+		home_planet = "Dumfa Ala"
+		home_system = "Dumfa Kan"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	abbayaqub = {
+		name = Abbish 
+		plural = Abbish
+		home_planet = Abbayaqub
+		home_system = "Abbi Abbi"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	geykan = {
+		name = Geykanese
+		plural = Geykanese
+		home_planet = Geykan
+		home_system = Geykan
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	kouthma = {
+		name = Kouthman
+		plural = Kouthmans
+		home_planet = Kouthma
+		home_system = "Sur Bilmalati"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	canvasoftorobassan = {
+		name = Fayaman
+		plural = Fayamans
+		home_planet = "Canvas of Torobassan"
+		home_system = "Chisel of Aganahmud"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	falaynay = {
+		name = Falay
+		plural = Falays
+		home_planet = Falaynay
+		home_system = Kinsuli
+		name_list = "cybrxkhan_markov_songhai"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	bouctu = {
+		name = Bouctoid
+		plural = Bouctoids
+		home_planet = Bouctu
+		home_system = "Tekoy Daou"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	zakodinyunku = {
+		name = Abu'u
+		plural = Abu'u
+		home_planet = Zakodinyunku
+		home_system = Fandzo
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	kodinkaraw = {
+		name = Kodink
+		plural = Kodinks
+		home_planet = Kodinkaraw
+		home_system = Kodinkaraw
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	ishassa = {
+		name = Ishassian
+		plural = Ishassians
+		home_planet = Ishassa
+		home_system = Kandunkabi
+		name_list = "cybrxkhan_markov_songhai"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	niamakodi = {
+		name = Niam
+		plural = Niams
+		home_planet = Niamakodi
+		home_system = Babinyum
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	damma = {
+		name = Dammean
+		plural = Dammeans
+		home_planet = Damma
+		home_system = "Igou Maleh"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	kimyassib = {
+		name = Kim'Yassibid
+		plural = Kim'Yassibids
+		home_planet = Kim'Yassib
+		home_system = Kim'Hini
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	adazah = {
+		name = Adazin
+		plural = Adazins
+		home_planet = Adazah
+		home_system = Ibonkibu'u
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	salayla = {
+		name = Salayid
+		plural = Salayids
+		home_planet = Salayla
+		home_system = Kukabi
+		name_list = "cybrxkhan_markov_songhai"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	rhythmofrest = {
+		name = Daama
+		plural = Daamas
+		home_planet = "Rhythm of Rest"
+		home_system = "Auspicious Struggle"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	chinhussa = {
+		name = Chinussian
+		plural = Chinussians
+		home_planet = "Chin Hussa"
+		home_system = Tekeddaouda
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	outaghost = {
+		name = Ouanean
+		plural = Ouaneans
+		home_planet = Ouataghost
+		home_system = Abayrodi
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	kumfarunah = {
+		name = Kumfarunian
+		plural = Kumfarunians
+		home_planet = Kumfarunah
+		home_system = Tegdaamboy
+		name_list = "cybrxkhan_markov_songhai"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	arawgaou = {
+		name = Dakarbasi
+		plural = Dakarbasis
+		home_planet = "Araw Gaou"
+		home_system = Lamara
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	abaseina = {
+		name = Abaseinian
+		plural = Abaseinians
+		home_planet = Abaseina
+		home_system = Alkarawunbu'u
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	kumbi = {
+		name = Kumbite
+		plural = Kumbites
+		home_planet = Kumbi
+		home_system = Kunkano
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	birawanbu = {
+		name = Birawanbid
+		plural = Birawanbids
+		home_planet = Birawanbu
+		home_system = Baminayna
+		name_list = "cybrxkhan_markov_songhai"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	nuhankibuprime = {
+		name = Nuhankiban
+		plural = Nuhankibans
+		home_planet = "Nuhankibu Prime"
+		home_system = Nuhankibu
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	bonkani = {
+		name = Bonkanid
+		plural = Bonkanids
+		home_planet = Bonkani
+		home_system = Katilakoy
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	daoumaya = {
+		name = Daoumayan
+		plural = Daoumayans
+		home_planet = Daoumaya
+		home_system = Shinta
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	mousabba = {
+		name = Moussian
+		plural = Moussians
+		home_planet = "Mousa Abba"
+		home_system = "Mousa Haway"
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	tekeina = {
+		name = Tekeinoid
+		plural = Tekeinoids
+		home_planet = Tekeina
+		home_system = Dunni
+		name_list = "cybrxkhan_markov_songhai"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	kussarano = {
+		name = Kussaranoid
+		plural = Kussaranoids
+		home_planet = Kussarano
+		home_system = Kargoutomo
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	gwano = {
+		name = Gwanoid
+		plural = Gwanoids
+		home_planet = "Amisa Gwano"
+		home_system = Ahinta
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	kumakuma = {
+		name = "Kum Kinku"
+		plural = "Kum Kinku"
+		home_planet = Kuma
+		home_system = Kumbu
+		name_list = "cybrxkhan_markov_songhai"
+	}
+	hawankirma = {
+		name = Hawankir
+		plural = Hawankir
+		home_planet = Hawankirma
+		home_system = Sunta
+		name_list = "cybrxkhan_markov_songhai"
+	}
+}

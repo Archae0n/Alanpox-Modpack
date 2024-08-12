@@ -1,0 +1,388 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	jantai = {
+		name = Jantese
+		plural = Jantese
+		home_planet = Jantai
+		home_system = Jantai
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	bulantai = {
+		name = Bulantai
+		plural = Bulantai
+		home_planet = Bulantai
+		home_system = Khontooroi
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	guulig = {
+		name = Guuligian
+		plural = Guuligians
+		home_planet = Guulig
+		home_system = Shinekhan
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	ardalan = {
+		name = Ardalanese
+		plural = Ardalanese
+		home_planet = Ardalan
+		home_system = Kamasler
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	jewelofjamerdai = {
+		name = Jamerke
+		plural = Jamerke
+		home_planet = "Jewel of Jamerdai"
+		home_system = "Seraglio of Jamerdai"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	tokjin = {
+		name = Tokjinese
+		plural = Tokjinese
+		home_planet = Tokjin
+		home_system = Kizigakh 
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	hanteeg = {
+		name = Hanteegoid
+		plural = Hanteegoids
+		home_planet = Hanteeg
+		home_system = Khotsengel 
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	losthomeland = {
+		name = Teyamun
+		plural = Teyamun
+		home_planet = "Lost Homeland"
+		home_system = "Vestige of the Ancients" 
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	tserleg = {
+		name = Tserlegese
+		plural = Tserlegese
+		home_planet = Tserleg
+		home_system = Buur 
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	sagor = {
+		name = Sagoroid
+		plural = Sagoroids
+		home_planet = "Sagor Homeland"
+		home_system = "Great Sagor"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	niden = {
+		name = Nidenian
+		plural = Nidenians
+		home_planet = Niden
+		home_system = "Ertsogt Orhakent"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	childofthenight = {
+		name = Jogutai
+		plural = Jogutai
+		home_planet = "Child of the Night"
+		home_system = "Great Wanderer"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	bulinmongol = {
+		name = Bulinoid
+		plural = Bulinoids
+		home_planet = Bulin
+		home_system = Akteeg 
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	bugon = {
+		name = Bugonish  
+		plural = Bugonish
+		home_planet = Bugon
+		home_system = Naranlin
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	chandkhir = {
+		name = Chandkhiran  
+		plural = Chandkhirans
+		home_planet = Chandkhir
+		home_system = Hengqihar
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	inekhulha = {
+		name = Khulhan  
+		plural = Khulhans
+		home_planet = Inekhulha
+		home_system = Piravand
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	chormaysbow = {
+		name = Chormian  
+		plural = Chormians
+		home_planet = "Chormay's Bow"
+		home_system = "Ever-Flying Arrow"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	zuunvi = {
+		name = Zuunvian 
+		plural = Zuunvians
+		home_planet = Zuunvi
+		home_system = "Bilan Khukhir"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	zabohan = {
+		name = Zabohanese 
+		plural = Zabohanese
+		home_planet = Zabohan
+		home_system = Huzume
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	zabohan = {
+		name = Saitai 
+		plural = Saitai
+		home_planet = "Guun-Darteeg the Wise"
+		home_system = "Guun-Shirleg the Magnamious"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	kamanprime = {
+		name = Kan 
+		plural = Kans
+		home_planet = "Kaman Prime"
+		home_system = Kaman
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	ilirhan = {
+		name = Ilirhanese
+		plural = Ilirhanese
+		home_planet = "Mangas Ilirhan"
+		home_system = "Mangas Jinje"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	sashaat = {
+		name = Sashaatid
+		plural = Sashaatids
+		home_planet = Sashaat
+		home_system = "Iskabah Khairbulag"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	gokorsagprime = {
+		name = Gökorid 
+		plural = Gökorids
+		home_planet = "Gökorsag Prime"
+		home_system = Gökorsag
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	bultah = {
+		name = Bultite 
+		plural = Bultites
+		home_planet = Bultah
+		home_system = Bayanan
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	onmani = {
+		name = Onmanian
+		plural = Onmanians
+		home_planet = "Malraat Onmani"
+		home_system = "Malraat Kocarlar"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	khaikuhular = {
+		name = Khaanjinese 
+		plural = Khaanjinese
+		home_planet = "Khai Kihular"
+		home_system = "Khai Kihuli"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	blossomofthecovenant = {
+		name = Satganian
+		plural = Satganians
+		home_planet = "Blossom of the Covenant"
+		home_system = "Heart of the Stars"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	saljuutkhaan = {
+		name = Saljuut 
+		plural = Saljuuts
+		home_planet = Saljuutkhaan
+		home_system = Shasagan
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	abyastar = {
+		name = Abyastaran
+		plural = Abyastarans
+		home_planet = Abyastar
+		home_system = Genaman
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	badesar = {
+		name = Badesari
+		plural = Badesaris
+		home_planet = Badesar
+		home_system = Genadbar
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	kheryant = {
+		name = Kheryantese
+		plural = Kheryantese
+		home_planet = Kheryant
+		home_system = Tansu-Bulhoroot
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	khairgana = {
+		name = Khairganan
+		plural = Khairganans
+		home_planet = Khairgana
+		home_system = Altankhan
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	hanuunthewarrider = {
+		name = Shulunid
+		plural = Shulunids
+		home_planet = "Hanuun the War-Rider"
+		home_system = "Shin Kamay the Traveler"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	chaybaan = {
+		name = Chyabanid
+		plural = Chyabanids
+		home_planet = "Chay Baan"
+		home_system = Khererdelkan
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	akdakorenkh = {
+		name = Akdakörid
+		plural = Akdakörids
+		home_planet = Akdakörenkh
+		home_system = Gayimadelkan
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	dedsamazuyuk = {
+		name = Baanghanese
+		plural = Baanghanese
+		home_planet = Dedsamazüyük
+		home_system = Tanagaang
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	osmadenganthepatient = {
+		name = Ulaat
+		plural = Ulaat
+		home_planet = "Osmadengan the Patient"
+		home_system = "Gasakörerlen the Energetic"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	kharaantprime = {
+		name = Tarkh
+		plural = Tarkh
+		home_planet = "Kharaant Prime"
+		home_system = Kharaant
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	sardenlar = {
+		name = Sardenlarid
+		plural = Sardenlarids
+		home_planet = Sardenlar
+		home_system = Gökorsagatur
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	khanguugi = {
+		name = Tser-Shai
+		plural = Tser-Shai
+		home_planet = "Khan Guugi"
+		home_system = "Khan Chuun"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	tsenkhonshir = {
+		name = Tsenkhonese
+		plural = Tsenkhonese
+		home_planet = Tsenkhonshir
+		home_system = Kharichunar
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	hanjin = {
+		name = Hanjinese
+		plural = Hanjinese
+		home_planet = Hanjin
+		home_system = Chulagasagan
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	ogtou = {
+		name = Sühkhonsai
+		plural = Sühkhonsai
+		home_planet = Ogtou
+		home_system = Ganuungo
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	kharolkum = {
+		name = Sarahanese
+		plural = Sarahanese
+		home_planet = "Khar Olkum"
+		home_system = "Khar Narangüi"
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	chutugal = {
+		name = Tugaloid
+		plural = Tugaloids
+		home_planet = Chutugal
+		home_system = Chulaqud
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+	baikhbataa = {
+		name = Baikhbatan
+		plural = Baikhbatans
+		home_planet = Baikhbataa
+		home_system = Mönkhoi
+		name_list = "cybrxkhan_fantasy_mongol"
+	}
+}

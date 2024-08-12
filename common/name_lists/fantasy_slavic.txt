@@ -1,0 +1,235 @@
+﻿### Fantasy slavic
+### Names all from random name generation at donjon
+
+cybrxkhan_fantasy_slavic = {
+	category = "Necroid"
+
+	ship_names = {
+		generic = {
+			Anastasliyev Aniyov Atador Benov Biko Bilyamillov Bino Bisino Bisla Blakiyov Blava Bodorov Bogoip Boha Bojian Bora Borce Borisliysky Bosek Bosksky Bozhdanski Bozhdar Bozhienasky Bozhsto Bozysky Braha Brandorsky Bretkaski Bretski Cena Chavhail Covcadca Danezhdov Darikov Dariya Dartiev Datiansky Dejelsa Desiliya Desiment Desisdarov Desisyankski Desla Deslaski Deyguna Dezda Dince Diskaski Disla Dislski Dobra Dola Donvenasky Dragogev Dranka Droslasky Duse Evganaski Evlena Evmilev Filgunski Galica Gavel Girebard Girozny Groimirov Groztiana Hararski Hrielyaski Hristva Humory Ilislavov Ioenasky Ivanimirev Ivanlgev Ivayerov Ivaystol Jana Jara Jarmir Komoldinc Kovysa Krasenov Krastilov Krasya Kravce Kulica Kvankasky Kvetla Kvetlsky Ladaski Ladov Ladski Lanka Lasa Lava Lavov Lena Lidiyanev Liezanska Liko Liliezhdov Liliiov Lindor Lohala Loslov Luba Lubsky Lusksky Lyudsandrov Marenca Marierov Markletski Marlo Marna Mavska Michumich Mila Milov Milsky Mira Miraski Mirmilski Mirov Mirski Mlada Mlavov Mlavski Moldejels Momezev Moroky Morova Mory Nadidarev Natandarev Natanritov Naykal Neda Neuska Nevritov Nicek Nikoden Nikogeliyev Ogadin Ognankski Ognelya Olliyov Pasvarev Pavezsky Pavomir Pobenov Prada Praltova Prino Promir Prosta Pruska Pruskov Pusobry Radla Radliyaski Radoliya Radoozdanev Radov Radta Ragnyan Rahsky Rainski Ratsky Ravet Rayozdanev Raytiov Retov Ribski Roshidarsky Roslasky Roznova Ruzela Senusa Sica Silvslavsky Slousan Sobov Stanenov Stanimira Stankbomir Stanlgov Statralta Stranca Stresamor Suroke Svetomir Sveziny Svuca Svuse Teodorov Tizamka Todorrinasky Tovev Traha Trence Tsveslavaski Valsky Vany Varov Vasek Vaselyov Vata Vela Velsky Ventseansky Veseila Veta Vetkski Vetla Vetlov Vierka Viklav Viktorar Viktortanka Vladilinov Vlata Vlavov Vlavsky Vluba Voce Vojar Vojta Vomir Vrence Vusksky Yaerev Yodorkski Yoralev Yordanmira Yorodnev Yorozdana Yorvetov Yulidara Zaharey Zamirasky Zanska Zarna Zayski Zbora Zbyhnov Zdislski Zdravrinov Zeko Zela Zelov Zheankasky Zhenar Zhengomir Zhevet Zhivmil Zidov Zita Zlanka Zlatdov Zlavov Zlavsky Zlenov Zluba Zoezasky Zoilov Zvuca			
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Serbomir Task Force" "Blagovara Task Force" "Radona Task Force" "Yayazko Task Force" "Bilyalav Task Force" "Iogomir Task Force" "Danada Task Force" "Zhelitsa Task Force" "Svetvara Task Force" "Hranova Task Force" "Bytca Task Force" "Namory Task Force" "Zomborce Task Force" "Dunovo Task Force" "Giropky Task Force" "Mikapov Task Force" "Bebravce Task Force" "Trebystra Task Force" "Stovsky Task Force" "Nitrozna Task Force" "Vidzansky Task Force"  "Svoca Task Force"  "Stislice Task Force"  "Svoca Task Force" 
+		}
+		sequential_name = FANTASY_SLAVIC_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_SLAVIC_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_SLAVIC_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_SLAVIC_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_SLAVIC_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_SLAVIC_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_SLAVIC_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_SLAVIC_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_SLAVIC_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_SLAVIC_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_SLAVIC_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_SLAVIC_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_SLAVIC_xxROBOTICDEFENSEARMY_ORD
+		}
+
+		psionic_army = {
+			sequential_name = FANTASY_SLAVIC_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_SLAVIC_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_SLAVIC_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_SLAVIC_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_SLAVIC_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_SLAVIC_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_SLAVIC_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_SLAVIC_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_SLAVIC_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Alekrail Aspis Bahadora Banska Banske Bargorodna Borca Boriian Bozlambi Braniadin Bystrica Chavbov Dobsovce Dolica Emiva Fozozdana Georel Groezhda Hliptovske Hrika Ilina Kezmika Kosova Koststo Kravce Kulara Kysury Lais Larey Levou Lyurina Margao Michumold Millav Milno Mitsandrina Nabomir Ogmila Penmila Ponya Puchumavsk Radiana Radosil Rance Ruzdar Samedza Samir Sasada Silvia Sirala Sobrica Sovce Stopolca Stova Stoyila Tisova Toan Topavo Tovsky Trenca Trencovce Turzarna Vazsky Veronra Vesril Zahartiana Zovca Zvake
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Angean Bilar Bislambi Blagoryu Blavoi Boggor Bogjidar Bogsen Boha Bojur Bovo Bozov Brada Braniase Breta Darnya Dessire Deydan Elnya Evanilo Evdokiva Evian Georlen Georment Iliofor Ivanfor Ivangeni Kaimir Katebomir Kieon Krashail Krastian Krastio Lava Ludhidar Marnya Migomil Mila Milgun Mira Mirolo Momlai Nevar Nevmir Nikigei Nikitin Ogngan Ognlambi Pavlen Pemil Petimir Petsen Plachil Premir Radosif Rayeon Raytanas Reta Rosta Salav Seko Simben Stankrail Stankvan Stoeon Svetfor Tertanas Tiko Tolav Tsvetail Valenslav Vasildar Vasilgeni Vasmir Veko Vena Vojta Yakgan Yordanchil Zbesla Zhelril Zhencho Zhetin Zhivdrei Zhivo Ziva Zivoi Zogel
+            }
+           
+            first_names_female = {
+				Anha Anlana Apoislava Asmira Beska Billava Bisernya Boozdana Bozha Brada Brana Brandana Dobra Donica Druse Duska Ekatmila Evda Evena Gerdana Iliidara Iliuna Jara Jarka Kadiya Konstania Konstanra Kvanka Kvela Kvelka Lada Lava Lena Lyuduna Mila Mira Mirka Momdara Nadejstasiya Nadokiya Nisla Olrodna Petelya Radoanka Raha Rana Riba Rosda Sahidara Samtia Staniena Sveta Tsvetiana Tsvevena Veronva Vesislava Veta Yaislava Yanislava Yaveta Yohidara Yulnya Zboza Zdobra Ziva Zlaia Zlava
+            }
+			
+			
+			second_names = {
+				Adov Alanev Alekvarov Benev Benov Beskev Bilyadanov Bino Blavev Bozhritov Brahev Brandanov Branirov Branov Brostov Bysov Dasandrev Dradov Dragmillev Dronev Droslasky Drostev Dubnova Duna Duskov Elisadorov Emiilov Evgenstasiyov Gageliyov Gerzhanov Iltianov Ioenasky Ivayvet Janov Kalodorov Kavenov Kolice Kvankasky Kvetlev Kvetlsky Ladov Lamirev Lata Latov Lavev Lavov Levazska Leveca Lidivarov Linov Ludelyov Lyudtankov Maranov Marenev Marnice Michana Milov Mirev Mirkov Mirov Moldetvo Moruza Nadev Nova Novce Ogenov Pasmirev Piny Podava Previdza Prozno Rainski Ramillev Ratsky Rianske Ribski Roshidarsky Roslasky Rostev Roznova Ruskov Ruzilov Ruzunev Serglgov Sergodnov Silmilov Sova Spartepla Svankev Svetov Svuse Tsveezov Valenvov Velsky Vencesl Ventseansky Vetev Vetkski Vetlev Vetlov Viktov Vlavov Vlubov Vusksky Yankev Yaozov Yayov Yodorkski Yomillov Yoriov Yornev Zayski Zdezhdev Zdislski Zelov Zenov Zitev Zitov Zivov Zlusov Zoezasky Zorev Zorov
+			}
+            regnal_first_names_male = {
+			
+				Boggor Evanilo Ivangeni Katebomir Migomil Mirolo Nikigei Petimir Premir Salav Tolav Venlenslav Vasildar Vasmir Zhencho
+
+            }
+           
+            regnal_first_names_female = {
+			
+				Anlana Brada Donica Evena Iliuna Konstania Kvanka Lyuduna Nadokiya Petelya Sveta Tsvetiana Veta Yanislava Zborza Zlava
+
+            }
+			
+			
+			regnal_second_names = {
+				Adov Alanev Alekvarov Benev Benov Bilyadanov Bozhritov Brostov Dragmillev Droslasky Duskov Ioenasky Kvetlsky Lamirev Lavov Lyudtankov Marenev Milov Pasmirev Ratsky Ribski Ruskov Ruzunev Sergodnov Svetov Vetlov Vusksky Yankev Yodorkski Yornev Zayski Zitov Zlusov Zoezasky
+			}
+		}
+	}
+}

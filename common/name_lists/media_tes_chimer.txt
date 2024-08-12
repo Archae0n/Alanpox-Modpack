@@ -1,0 +1,273 @@
+﻿### Chimer
+### Some names from uesp.net and fantasynamegenerators, but also tossed some into a Markov generator along with Dunmer names to generate more names
+
+cybrxkhan_chimer_tes = {
+	category = "Humanoid"
+
+	ship_names = {
+		generic = {
+		
+			Adrahilroc Adralse Adren Adrith All Allen Allia Allo Allogith Allom Allovath Alma Almas Almia Almin Almingelvi Almoath Almu Almuso Alnam Alnerot Alnod Alnolramos Alnot Andonrith Andot Andras Andrith Anrith Anroc Anron Anrothilmos Anrslixi Arsliret Asper Asperna Aspi Athith Baabelvi Baathre Baatithan Bal Bale Baledam Balenvis Balmulren Balnas Balvar Balvarale Bamerlath Bameth Bamethryr Bamoadomnen Bel Belrel Belvi Bet Bethyni Bin Bingazath Binola Binon Binsa Binuserenvu Birlexi Birni Boadalmu Boadarna Boadas Boarmar Boath Bom Bon Boni Bonlith Bonse Bovammu Bovamna Bovarath Bovarnot Bovarvu Bovra Bovraho Bovrendriru Bovreroc Bovres Bubohn Bubolahith Bubrahos Bubrath Bubrodre Budibamnam Budibitho Budixeen Budixi Dabelu Dabelvare Dabes Dabessu Dabras Dabredrilnor Dad Dadamnanlas Dadramoaheth Dadrasa Dagnobes Dagvel Dam Damerod Dar Degan Degen Deges Dele Delle Delu Delve Demmoath Demmu Demmulixi Demmulni Den Denas Denath Dennen Denrslid Dense Dil Dilma Dilmidom Dilnerlixi Dilraabrothan Dilren Dilro Dilu Din Dinlo Dir Dirale Diraxi Dirlazath Dirnol Dirot Dirvuvod Divarath Divarvunlixi Divayn Divi Divic Divis Divod Divoom Divos Divozon Divren Doadre Doahia Doahod Doanru Doar Doarith Doath Doavath Dor Dordas Dorlis Dornensa Dornobela Doulic Doulithres Doulu Doumnen Doumnod Dounelvispi Dounlovath Dounvu Dout Dul Dulen Dulmidon Dumarini Dummu Dumnam Dumnathan Dumnol Durheth Durhethan Durhildris Duromna Durongith Duru Elmaho Elmia Elmo Elmulihet Elraxia Elrengitho Elril Elrith Elro Elrot Ennelroth Ennen Ennet Enneth Enni Ennid Ennidriru Enu Enuseroc Enuso Erdale Erdam Erdamnen Erdazam Erdom Erdonlia Erdonsa Essurnol Faallith Faandram Faas Fagnonsurnoth Fagnotha Fagot Fagoth Fagvegota Fagvos Fal Falle Fallo Falrilmulmos Falrool Fan Fanvozonas Farensernas Farliheth Farlilmul Farmalvam Farme Farmeth Fid Fidom Fidot Fidoth Fin Fingavod Finges Finorinse Finrslingith Finsa Fol Folae Folmohinsa Folnodral Folranlas Fooc Foolmaho Foomnas Foot Fumma Fumnadot Fumnam Fumnanve Fumnas Fumnom Fun Funen Funenam Funvi Funvis Gan Ganlath Ganraxi Ganrinith Ganrodyn Gar Garath Garevis Garilmas Garith Garlia Garmeth Gen Gena Genandrathrel Genas Genrslith Gense Genvu Geralnobes Gereth Gernozo Geroc Gerohn Gil Gilran Gilu Gimalseran Gimeth Givamet Givec Giveghia Givirota Givreth Good Goom Gooth Goovren Gorixi Gorlimerohes Gornen Got Gothrelu Gothyn Goubreth Goule Goulenven Goumma Gout Haabel Haadaras Haalmul Haalran Haan Haanot Haas Habelvid Habes Habre Habret Habroc Habrohessu Habrot Hadal Hadral Hadras Hadratith Hadreth Hadril Hadvirlilmule Hale Halle Hallis Halmi Halryn Halryr Halvarlae Han Hanonlath Hanoth Hanratith Hanvod Har Haradvi Haran Harellom Harenser Harensii Harilro Harin Harirlae Harith Harmercuc Hedarmas Hedrad Hedu Hel Hele Hellenat Helu Helvegen Hera Herni Hernonrith Hero Heron Heronameth Herot Hervidoth Hignom Hignoth Higvec Hirlat Hirle Hirlensu Hirlia Hirlic Hirlir Hirnas Hiroth Hirvec Hivanonvidra Hivanru Hivayth Hivenvu Hivic Hivoc Hivos Hivyl Hoadare Hoandot Hoanraanroc Hoavan Hoavareth Hoodyn Hoorilroth Hoorir Hoot Horerod Horixa Ibra Ibrelath Ibrendom Ibrod Ibrodrilnom Ibrolazac Idibam Idibith Idixeen Idradoth Idre Idril Idrinsa Idrixa Idron Ilogith Ilom Ilot Ilovayth Ilovi Ilse Ilseret Imall Imas Indoadrilnod Indom Indon Indonvi Indot Indrath Indrildrot Indrirnam Indrith Irlaho Irle Irlid Irlil Irlis Irlitho Irlixe Iruse Iruser Iruseroc Ivras Ivre Ivredazath Ivrel Ivrelroot Ivrengen Ivrensu Ivret Lal Lalrirvi Lalryl Lani Lanraalreth Lanrilae Lanrohn Lanrothren Lanrslir Lanru Ledal Ledas Ledazath Ledre Ledumnen Legeladrith Legen Legessii Leghia Legoth Levayth Levi Lin Lingavozon Lingen Linothryr Linroc Lir Lirvec Lirvelovarme Lirvu Lisper Lun Lunerood Lunlae Lunsercuc Maabres Maanrod Maas Mad Madamet Madorne Madrith Madvis Mal Male Maledareth Malen Malenas Malennerlae Malexi Malmia Malmohilmuso Malo Malradoth Malren Malrilmu Malro Malronlovic Malroth Malsu Malven Malvengith Malvennenath Man Manrith Manrslin Manvozo Maret Marlaho Marne Mas Mavat Mavath Mavoc Meboheth Mebolath Memmadrod Memmar Memmarenvozo Memmas Memmi Memmu Memmuso Miheth Mihia Mihil Mihith Mingac Minom Minris Minrohn Mir Miras Mireth Mirlic Mirnobes Miru Mirvi Mirvunsa Mithanroth Mithryr Mithyn Modradroc Modras Modrith Moodam Moodrith Moodronlae Mool Moolazat Moolminid Moolnena Mooth Moubolasa Moul Mouledyn Moulnom Moulnon Moulnozo Moulroth Moulryr Moumma Mounlath Mout Mouthinot Murheth Murhia Murnidral Murnom Murnon Murnot Naabes Naad Naadrith Naale Naalmas Naalse Naandordas Naanot Naas Naath Nagnomia Nagnonas Nagoth Nal Nale Naledra Nalmadoth Nalno Nalo Nalridot Nalsu Nan Nandrad Nandrot Nanlorel Nanrath Nanrslimeth Nanvod Nen Nena Nenadummi Nenam Nendrohilmo Nengac Nengazac Nennel Nenrslic Nenve Nercuc Nervunladar Nil Nilminozo Nilmovam Nilnizam Nilno Nilnonsu Nilrathyn Nilrolmoad Nilrot Nilu Nilvarnendri Nilvi Nirlaho Nirnith Nirnithan Niroc Nizam Nizon Noahimohn Noahith Noath Noavar Nogve Nogvelran Nummalsu Numnel Numnen Nun Nunenameroc Nunlic Nunlir Nunlot Nunvu Nunvunlas Oangandorixa Oanges Oanrslis Oanvu Orlaho Orlat Orlath Orlin Orlis Ovraalrelvic Ovrat Ovrengac Ovreth Radamos Radas Radrith Ral Ralen Ralenath Ralenrot Ralle Ralnomneth Raloth Ralrengith Ralsu Ralvare Rathryr Regot Regoth Rel Relomnath Relras Relu Relvirothryr Ren Renas Rengith Ril Rilae Rilmos Rilmu Rilroc Rilvarne Rithith Ritho Rithryl Rod Rodarelor Rodren Rodrer Rodyn Rogith Rogris Rogve Rogvos Rom Ron Ronizamet Ronlo Rood Roodris Rool Room Rubohexia Rubohith Rubol Rubre Saadoavaren Saalvam Saalvelvar Sad Sadarel Sadon Sadot Sadrathodyr Sadrelve Sadvi Salle Salliheth Sallo Sallordot Salorlime Salsernidot Ser Serale Seram Serar Serel Seri Seris Serisperlixe Serla Serlae Serlihil Sernonith Seroc Serom Serot Sheges Shessu Sheth Shexi Shia Shime Shimet Shin Shino Shith Shithet Sibam Sibameth Sibithan Sid Sidom Sidoth Signobes Signoth Sigvos Sigvozothreth Sildra Silmos Silmovan Silmovar Silmu Silni Silnol Silryr Silu Sol Solazam Solnot Son Sona Soni Sonrith Sonsu Sonvec Sonvoc Sooc Sool Soolrenassuru Soot Sooth Sor Soreth Sorilnam Sornen Sornic Sornon Soryr Sota Soth Soubol Soul Soulidron Soummarnon Sul Sulil Sulmid Sulrilvayth Sulu Terassu Teraxi Tercuc Tere Terol Teroth Tes Tessii Tin Tinganon Tingazam Tinrin Tinrslidom Tuma Tumahos Tummahilrenvo Tumnas Turnadonlo Turnoth Turu Ummadril Ummingitho Umminsa Ummulirla Ummuso Usperilnamo Uspernolat Usperonsa Uspuxeen Vahet Vahilvameth Vahilvis Vahimovayni Vahith Vahod Vahodyr Vahos Vedarar Vedrathryl Vedreth Vedyn Vell Vellexia Velrahod Velvegot Vignodris Vignolna Vignorlil Vigvec Vigvodrith Vil Vilae Vilmarma Vilmulnomnas Vilrahilnod Vilroc Vilvanozot Vivanlovayth Vivath Vive Vivegoth Vivena Vivi Vivic Vivis Vivisii Vivrer Vivreroc Vivreth Vivyl Vol Volae Vom Vominges Vomnen Von Vonsii Vooc Voodrath Voodreth Voolae Voom Voor Vooryr Vooth Voovanona Voovi Voovrensin Vordonsa Vore Vorelaheth Vori Voridom Vorith Vorixeenadoth Vorla Vorle Vorlic Vorlixia Voulic Vout Vouthanram Vovame Vovaras Vovayth Vul Vule Vulime Vulimeth Vulis Vulmu Vulmusero Zaabralensa Zaalenvell Zadam Zadoadra Zadongac Zadrat Zadrixa Zammuse Zamnot Zar Zarilath Zarlath Zarmarvuvos Zarnom Zel Zelvidorith Zelvidoth Zil Zilminonseron Zilmohn Zilmu Zilmulmuserot Zilo Zilrenath Zilrith Zol Zolmin Zolnom Zolren Zon Zonammu Zonlae Zonlorlith Zonseri Zordal Zore Zoril Zorilrodrasa Zorith Zorlahodyr Zorno Zouledu Zoulihinon Zounen Zout Zouth					
+			
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {		
+			"Velothi Fleet" "Boethiah Fleet" "Mephala Fleet" "Prophetic Fleet" "Resdayn Fleet" "Moon and Star Fleet" "Red Mountain Fleet" 
+		}
+		sequential_name = MEDIA_TES_CHIMER_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = MEDIA_TES_CHIMER_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = MEDIA_TES_CHIMER_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = MEDIA_TES_CHIMER_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = MEDIA_TES_CHIMER_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = MEDIA_TES_CHIMER_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxROBOTICDEFENSEARMY_ORD
+		}
+
+		psionic_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxGENEWARRIORARMY_ORD
+		}	
+		
+		occupation_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = MEDIA_TES_CHIMER_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = MEDIA_TES_CHIMER_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = MEDIA_TES_CHIMER_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = MEDIA_TES_CHIMER_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Alnon Bingavar Birnizam Bovidot Dadrithrer Damminu Degot Delviru Dilmu Divre Doandoth Dorlimas Doumnon Elmule Elroc Erdon Farnot Foota Fumnerom Gimohn Gorith Habren Hadris Halsero Harmeris Hivarel Hordarel Ibroth Idrixeen Ivrelu Lallo Langazath Lanril Legele Lirvi Manvooc Mebol Mihilu Moubraadren Moulrohith Naadom Nagvoc Nalnanoth Nenroodril Nenvunel Nilnot Niredas Nizo Nunsu Rallith Ralmovath Rodram Roovan Sernath Sheghime Sibith Signon Solmar Soril Sout Tervuvo Tessivi Turhia Vaho Vedam Vomnas Vornozon Zaabes
+
+				"Sercuc Sec"
+				"Memmo Hir"
+				"Shithes Rath"
+				"Memma Za"
+				"Zonven Zam"
+				"Ath Hood"
+				"Ilsu Bamet"
+				"Alle Doul"
+				"Mith Gool"
+				"Er Goul"
+				"Min Voun"
+				"Hal Maan"
+				"Ilo Roornom"
+				"Vivre Dumnen"
+
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = { # Chimer
+			weight = 100
+            first_names_male = {
+				Divayth Vivec
+				Adras Balreth Genvis Hedyn Radrathren Mavos Sadal Sulinor Veloth Vildras
+				Arslic Athynic Nerevar Sil Voryn
+				
+				Anrslir Ban Belron Beth Bodazac Bonseroc Dabrethryl Gerladrir Givyl Goth Hes Hor Irlath Mirol Nanrslis Nilryr Nogrith Orlic Ovrar Relvegac Rilnol Rith Rogvel Sadvic Salogith Vigvodyr Volrath Vovreroth Zic Zilrath
+
+            }
+           
+            first_names_female = {
+			
+				Almalexia
+				Aspera Enuse Farena Levisii Malvari Rathila Rendrasa Nall Nilae Turoni
+				
+				Allixi Darale Demmaho Denni Densini Dilmia Dulmi Durhexi Enne Essu Harve Heraxia Idixa Ima Iru Leduma Linsa Lispi Lunvu Madu Massuru Murnena Nalvi Nummuso Tinruse Tummu Ummu Uspuxe Vilmulia Vulu
+				
+            }
+			
+			
+			second_names = {
+				Fyr
+				Andrano Faledran Gilvayn Malena Siloreth Velae
+				Dagoth Indoril Oan Sotha
+				
+				Baas Balres Boad Bomnameth Buboheth Budibam Dingen Dirlas Doatith Faal Fagnod Fandoadam Fidoavod Finlidreth Folat Funloth Ganrad Garnobel Gengith Gouth Haath Hanrid Helrin Hignon Hiraheth Hivoahil Hoathan Malrith Marath Mirlenas Modradom Moot Nanlazat Noarmad Reges Romid Ronlom Rubrodroth Saal Sidonad Songanith Sonlahin Soom Soothos Sout Vivozot Vonrod Vood Vool Voot Vulnid Zadot Zamnam Zamos Zarlihet Zellovam Zilmoahod Zolneth Zorlil Zoul
+
+			}
+            regnal_first_names_male = {
+				Divayth Vivec
+				Veloth Nerevar
+            }
+           
+            regnal_first_names_female = {
+				Almalexia Farena Rathila
+            }
+			
+			
+			regnal_second_names = {
+				Fyr
+				Andrano Faledran Gilvayn Malena Siloreth Velae
+				Dagoth Indoril Oan Sotha
+			}
+		}
+	}
+}

@@ -1,0 +1,182 @@
+
+# All leaders will have a common trait-point value set in defines, which they use to grab traits
+
+# leader_trait = yes - this tags the trait as a leader-trait and not a species-trait
+# initial = no - if set to no, this trait can not be granted to leaders when they are generated
+# leader_class = { commander scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
+# requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
+# requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
+# prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
+
+#####################
+# Admiral Traits    #
+#####################
+
+leader_trait_trickster_3_est = {
+	replace_traits = { leader_trait_trickster_2 }
+	inline_script = {
+		script = trait/icon
+		CLASS = commander
+		ICON = GFX_leader_trait_trickster
+		RARITY = common
+		COUNCIL = no
+		TIER = 3
+	}
+
+	fleet_modifier = {
+		ship_emergency_ftl_mult = -0.25
+		ship_disengage_chance_mult = 0.5
+	}
+	triggered_modifier = {
+		potential = { has_first_contact_dlc = yes }
+		ship_cloaking_strength_add = 2
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_academy_finish
+		}
+		has_trait = subclass_commander_admiral
+	}
+	leader_class = { commander }
+	opposites = {
+		leader_trait_unyielding
+		leader_trait_unyielding_2
+		leader_trait_unyielding_3_est
+		leader_trait_reckless
+		leader_trait_reckless_2
+	}
+}
+
+leader_trait_fleet_logistician_2_est = {
+	replace_traits = { leader_trait_fleet_logistician }
+	inline_script = {
+		script = trait/icon
+		CLASS = commander
+		ICON = GFX_leader_trait_fleet_logistician
+		RARITY = common
+		COUNCIL = no
+		TIER = 2
+	}
+	leader_potential_add = {
+		has_paragon_dlc = no
+		FROM = {
+			has_active_tradition = tr_est_academy_finish
+		}
+		has_trait = subclass_commander_admiral
+	}
+	fleet_modifier = {
+		ships_upkeep_mult = -0.15
+	}
+	leader_class = { commander }
+}
+
+leader_trait_engineer_3_est = {
+	replace_traits = { leader_trait_engineer_2 }
+	inline_script = {
+		script = trait/icon
+		CLASS = commander
+		ICON = GFX_leader_trait_engineer
+		RARITY = common
+		COUNCIL = no
+		TIER = 3
+	}
+	fleet_modifier = {
+		ship_hull_regen_add_perc = 0.0075
+		ship_armor_regen_add_perc = 0.15
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_academy_finish
+		}
+		has_trait = subclass_commander_admiral
+	}
+	leader_class = { commander }
+}
+
+leader_trait_aggressive_3_est = {
+	replace_traits = { leader_trait_aggressive_2 }
+	inline_script = {
+		script = trait/icon
+		CLASS = commander
+		ICON = GFX_leader_trait_aggressive
+		RARITY = common
+		COUNCIL = no
+		TIER = 3
+	}
+	fleet_modifier = {
+		ship_fire_rate_mult = 0.075
+		ship_weapon_damage = 0.075
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_academy_finish
+		}
+		has_trait = subclass_commander_admiral
+	}
+	leader_class = { commander }
+	opposites = {
+		leader_trait_cautious
+		leader_trait_cautious_2
+		leader_trait_cautious_3_est
+	}
+}
+
+leader_trait_cautious_3_est = {
+	replace_traits = { leader_trait_cautious_2 }
+	inline_script = {
+		script = trait/icon
+		CLASS = commander
+		ICON = GFX_leader_trait_cautious
+		RARITY = common
+		COUNCIL = no
+		TIER = 3
+	}
+	fleet_modifier = {
+		ship_weapon_range_mult = 0.2
+		ship_disengage_chance_mult = 0.1
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_academy_finish
+		}
+		has_trait = subclass_commander_admiral
+	}
+	leader_class = { commander }
+	opposites = {
+		leader_trait_aggressive
+		leader_trait_aggressive_2
+		leader_trait_aggressive_3_est
+	}
+}
+
+leader_trait_unyielding_3_est = {
+	replace_traits = { leader_trait_unyielding_2 }
+	inline_script = {
+		script = trait/icon
+		CLASS = commander
+		ICON = GFX_leader_trait_unyielding
+		RARITY = common
+		COUNCIL = no
+		TIER = 3
+	}
+	fleet_modifier = {
+		ship_hull_mult = 0.25
+		ship_disengage_chance_mult = -0.15
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_academy_finish
+		}
+		has_trait = subclass_commander_admiral
+	}
+	leader_class = { commander }
+	opposites = {
+		leader_trait_nervous
+		leader_trait_nervous_2
+		leader_trait_slipshod
+		leader_trait_slipshod_2
+		leader_trait_trickster
+		leader_trait_trickster_2
+		leader_trait_trickster_3_est
+	}
+}

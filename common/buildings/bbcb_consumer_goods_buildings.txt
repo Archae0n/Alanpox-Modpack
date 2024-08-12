@@ -1,0 +1,463 @@
+#Entertainment - Artisans - Consumer Goods
+
+building_virtual_entertainment_studios = {
+    base_buildtime = @b1_time
+
+    owner_type = corporate
+
+    category = manufacturing
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = no }
+    }
+
+    inline_script = {
+		script = jobs/factory_add
+		AMOUNT = 1
+	}
+
+    resources = {
+    	category = planet_branch_office_buildings
+        cost = {
+            	minerals = 500
+        }
+        upkeep = {
+		energy = 2
+        }
+        produces = {
+		consumer_goods = 6
+        }
+		inline_script = {
+			script = "building_output/bbcb_consumer_goods_building_output"
+			BBCB_OUTPUT = 0.5
+		}
+    }
+
+    prerequisites = {
+    }
+
+    upgrades = {
+        "building_bugged_virtual_entertainment_publisher"
+    }
+
+	triggered_desc = {
+		text = bbcb_consumer_goods_tier_1_output
+	}
+
+    ai_weight = {
+		weight = 3
+		modifier = {
+			factor = 5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 0
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value >= 10
+				}
+			}
+		}
+	}
+}
+
+
+building_bugged_virtual_entertainment_publisher = {
+    base_buildtime = @b1_time
+    can_build = no
+
+    owner_type = corporate
+
+    category = manufacturing
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = no }
+    }
+
+    inline_script = {
+		script = jobs/factory_add
+		AMOUNT = 2
+	}
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+            rare_crystals = 50
+        }
+        upkeep = {
+			energy = 4
+			rare_crystals = 1
+        }
+        produces = {
+			consumer_goods = 12
+        }
+		inline_script = {
+			script = "building_output/bbcb_consumer_goods_building_output"
+			BBCB_OUTPUT = 1
+		}
+    }
+
+    prerequisites = {
+        "tech_bugged_branch_tier_2"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = no
+	}
+
+    upgrades = {
+        "building_bugged_virtual_entertainment_franchise"
+    }
+
+	triggered_desc = {
+		text = bbcb_consumer_goods_tier_2_output
+	}
+
+    ai_weight = {
+		weight = 3
+		modifier = {
+			factor = 5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 0
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value >= 10
+				}
+			}
+		}
+	}
+}
+
+
+building_bugged_virtual_entertainment_franchise = {
+    base_buildtime = @b1_time
+    can_build = no
+
+    owner_type = corporate
+
+    category = manufacturing
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = no }
+    }
+
+    inline_script = {
+		script = jobs/factory_add
+		AMOUNT = 3
+	}
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+            rare_crystals = 100
+        }
+        upkeep = {
+			energy = 6
+			rare_crystals = 2
+        }
+        produces = {
+			consumer_goods = 24
+        }
+		inline_script = {
+			script = "building_output/bbcb_consumer_goods_building_output"
+			BBCB_OUTPUT = 1.5
+		}
+    }
+
+    prerequisites = {
+        "tech_bugged_branch_tier_3"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = no
+	}
+
+	triggered_desc = {
+		text = bbcb_consumer_goods_tier_3_output
+	}
+
+    ai_weight = {
+		weight = 3
+		modifier = {
+			factor = 5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 0
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value >= 10
+				}
+			}
+		}
+	}
+}
+
+#Entertainment - Narco-Chemists - Consumer Goods
+
+building_underground_chemists = {
+    base_buildtime = @b1_time
+
+    owner_type = corporate
+
+    category = manufacturing
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+        planet_crime_add = 15
+		job_bugged_narco_chemist_add = 1
+    }
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+        }
+        upkeep = {
+			energy = 2
+        }
+        produces = {
+			consumer_goods = 6
+        }
+		inline_script = {
+			script = "building_output/bbcb_consumer_goods_building_output"
+			BBCB_OUTPUT = 0.5
+		}
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 1
+	    planet_crime_add = 5
+    }
+
+    prerequisites = {
+    }
+
+    upgrades = {
+        "building_bugged_secret_drug_factory"
+    }
+
+	triggered_desc = {
+		text = bbcb_consumer_goods_tier_1_output
+	}
+
+    ai_weight = {
+		weight = 3
+		modifier = {
+			factor = 5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 0
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value >= 10
+				}
+			}
+		}
+	}
+}
+
+
+building_bugged_secret_drug_factory = {
+    base_buildtime = @b1_time
+    can_build = no
+
+    owner_type = corporate
+
+    category = manufacturing
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+        planet_crime_add = 30
+	    job_bugged_narco_chemist_add = 2
+    }
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+            rare_crystals = 50
+        }
+        upkeep = {
+			energy = 4
+			rare_crystals = 1
+        }
+        produces = {
+			consumer_goods = 12
+        }
+		inline_script = {
+			script = "building_output/bbcb_consumer_goods_building_output"
+			BBCB_OUTPUT = 1
+		}
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 2
+	    planet_crime_add = 10
+    }
+
+    prerequisites = {
+        "tech_bugged_branch_tier_2"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = yes
+	}
+
+    upgrades = {
+        "building_bugged_deathstick_factory"
+    }
+
+	triggered_desc = {
+		text = bbcb_consumer_goods_tier_2_output
+	}
+
+    ai_weight = {
+		weight = 3
+		modifier = {
+			factor = 5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 0
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value >= 10
+				}
+			}
+		}
+	}
+}
+
+
+building_bugged_deathstick_factory = {
+    base_buildtime = @b1_time
+    can_build = no
+
+    owner_type = corporate
+
+    category = manufacturing
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+    
+    planet_modifier = {
+        planet_crime_add = 45
+		job_bugged_narco_chemist_add = 3
+    }
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+            rare_crystals = 100
+        }
+        upkeep = {
+			energy = 6
+			rare_crystals = 2
+        }
+        produces = {
+			consumer_goods = 24
+        }
+		inline_script = {
+			script = "building_output/bbcb_consumer_goods_building_output"
+			BBCB_OUTPUT = 1.5
+		}
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 3
+	    planet_crime_add = 15
+    }
+
+    prerequisites = {
+        "tech_bugged_branch_tier_3"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = yes
+	}
+    
+	triggered_desc = {
+		text = bbcb_consumer_goods_tier_3_output
+	}
+
+    ai_weight = {
+		weight = 3
+		modifier = {
+			factor = 5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 0
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value >= 10
+				}
+			}
+		}
+	}
+}

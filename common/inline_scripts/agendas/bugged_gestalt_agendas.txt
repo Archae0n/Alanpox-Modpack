@@ -1,0 +1,18 @@
+agenda_bugged_foci_$FOCUS$_change = {
+	agenda_cost = 3500
+	allow = {
+		is_ai = no
+	}
+	potential = {
+		is_gestalt = yes
+		NOT = { has_ethic = ethic_foci_$FOCUS$ }
+		has_policy_flag = bugged_foci_agenda_flag_show
+	}
+	# modifiers = {
+	# 	{
+	# 	}
+	# }
+	effect = {
+		bugged_change_foci_$FOCUS$_effect = yes
+	}
+}

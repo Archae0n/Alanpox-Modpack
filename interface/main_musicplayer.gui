@@ -1,0 +1,67 @@
+guiTypes = {
+	### TOPBAR FOR MUSICPLAYER
+	positionType = {
+		name = "maingui_lower_topbar_size"
+		# width less than x increase size with y
+		position = { x = 0 y = 0 }
+	}
+	containerWindowType = {
+		name = "maingui_lower_topbar"
+		size = { width = 130 height = 27 }
+		position = { x = -300 y = -70 }
+		if_scaled_resolution = {
+			min_width = 3440
+			position = { x = -400 y = -70 }
+		}
+		orientation = lower_right
+		origo = lower_right
+		clipping = no
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_ui_topbar_musicplayer_background"
+		}
+		buttonType = {
+			name = "music_controls_toggle"
+			quadTextureSprite = "GFX_music_commands_icon"
+			position = { x = 0 y = -2 }
+			pdx_tooltip = "MUSIC_CONTROLS_TOGGLE_VISIBLE"
+			clicksound = interface
+			oversound = no_sound
+			alwaysTransparent = yes
+		}
+		####################
+		# Music
+		####################
+		containerWindowType = {
+			name = "music_commands_win"
+			size = { width = 96 height = 25 }
+			position = { x = 30 y = 5 }
+			clipping = no
+			background = {
+				name = "music_commands_win"
+				spriteType = "GFX_green_vertical_delimiters"
+				alwaysTransparent = yes
+			}
+			buttonType = {
+				name = "music_pause_button"
+				quadTextureSprite = "GFX_music_pause_button"
+				position = { x = 5 y = -7 }
+				clicksound = confirmation
+			}
+			buttonType = {
+				name = "music_next_button"
+				quadTextureSprite = "GFX_music_next_button"
+				position = { x = 35 y = -7 }
+				pdx_tooltip = "MUSICPLAYER_NEXT"
+				clicksound = increment_click
+			}
+			buttonType = {
+				name = "musicplayer_button"
+				quadTextureSprite = "GFX_musicplayer_button"
+				position = { x = 65 y = -7 }
+				pdx_tooltip = "MUSICPLAYER_OPEN_PLAYER"
+				clicksound = interface
+			}
+		}
+	}
+}

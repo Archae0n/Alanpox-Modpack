@@ -1,0 +1,84 @@
+tech_nanotech_caster = {
+	cost = 25000
+	area = engineering
+	category = { nanotech_category }
+	tier = 3
+	is_rare = yes
+	ai_update_type = all
+	weight = @tier3weight3
+	prerequisites = { "tech_advanced_nanites" }
+	potential = {
+		has_tradition = tr_nanotech_finish 
+	}
+}
+tech_advanced_nanites = {
+	cost = 23000
+	area = engineering
+	category = { nanotech_category }
+	tier = 3
+	is_rare = yes
+	ai_update_type = all
+	weight = @tier3weight3
+    modifier = {
+		planet_building_build_speed_mult = 0.5
+		planet_structures_nanites_upkeep_mult = 0.1
+	}
+
+	potential = {
+		has_tradition = tr_nanotech_finish 
+	}
+	prereqfor_desc = {
+		#custom = {
+		#	title = "tech_nanotech_advanced_nanite_trait"
+		#	desc = "tech_nanotech_advanced_nanite_trait_desc"
+		#}
+		tech = {
+			title = "tech_nanotech_advanced_alloys_and_factory"
+			desc = "tech_nanotech_advanced_alloys_and_factory_desc"
+		}
+		tech = {
+			title = "tech_nanotech_specialised_transmuters"
+			desc = "tech_nanotech_specialised_transmuters_desc"
+		}
+	}
+}
+
+#tech_nanotech_advanced_nanite_trait = {
+#	cost = @tier3cost3
+#	area = engineering
+#	category = { nanotech_category }
+#	tier = 3
+#	is_rare = yes
+#	ai_update_type = all
+#	weight = @tier3weight3
+  #  prerequisites = { "tech_advanced_nanites" }
+#	potential = {
+	#	has_tradition = tr_nanotech_finish 
+#	}
+#}
+
+tech_nanotech_advanced_alloys_and_factory = {
+	cost = 30000
+	area = engineering
+	category = { nanotech_category  }
+	tier = 3
+	is_rare = yes
+	ai_update_type = all
+	weight = @tier3weight3
+    prerequisites = { "tech_advanced_nanites" }
+	potential = {
+		has_tradition = tr_nanotech_finish 
+	}
+}
+tech_nanotech_specialised_transmuters = {
+	cost = 12000
+	area = engineering
+	tier = 2
+	category = { nanotech_category  }
+	weight = @tier2weight3
+	is_rare = yes
+    prerequisites = { "tech_advanced_nanites" }
+	potential = {
+		has_tradition = tr_nanotech_finish 
+	}
+}

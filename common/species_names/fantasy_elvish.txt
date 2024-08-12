@@ -1,0 +1,412 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	elredhir = {
+		name = Elredhir
+		plural = Elredhiri
+		home_planet = Tinwe
+		home_system = "Tinwe Indilin"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	argellor = {
+		name = Argellorian
+		plural = Argellorians
+		home_planet = "Argellor Enelel"
+		home_system = Erdadriel
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	lariande = {
+		name = Lariandean
+		plural = Lariandeans
+		home_planet = "Bastion of Eniriel-Gandir"
+		home_system = Elothor
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	nagaltie = {
+		name = Galtian
+		plural = Galtians
+		home_planet = "Na Galtie"
+		home_system = "Sar Irianye" 
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	elmurediel = {
+		name = Elmurediel
+		plural = Elmurediel
+		home_planet = Elmurediel
+		home_system = Elmurediel 
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	angrisil = {
+		name = Angrisilan
+		plural = Angrisilans
+		home_planet = "Angrisil Sorthir"
+		home_system = Erohin 
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	melancholyhope = {
+		name = Irieloid
+		plural = Irieloids
+		home_planet = "Melancholy Hope"
+		home_system = "Sorrowful Whisper" 
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	edhinde = {
+		name = Edhindean
+		plural = Edhindeans
+		home_planet = Edhinde
+		home_system = Bardatie 
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	ingwil = {
+		name = Ingwilan
+		plural = Ingwilans
+		home_planet = "Barrow of Ingwil"
+		home_system = "Circle of Gindil"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	galwen = {
+		name = Galwenese
+		plural = Galwenese
+		home_planet = Galwen
+		home_system = Dionaelast 
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	nimlinelscunning = {
+		name = Finglian
+		plural = Finglians
+		home_planet = "Nimlinel's Cunning"
+		home_system = "Penwethel's Mirth" 
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	indorelfish = {
+		name = Indoroid
+		plural = Indoroids
+		home_planet = Indor
+		home_system = "Ealdas Angrolien" 
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	annaelin = {
+		name = Annaelin  
+		plural = Annaelin
+		home_planet = Ginwellon
+		home_system = Doloriand
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	veleglor = {
+		name = V'leglorite
+		plural = V'leglorites
+		home_planet = "Vel Eglor"
+		home_system = "Vel Eone" 
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	elrondelthebeloved = {
+		name = Nevrethian
+		plural = Nevrethians
+		home_planet = "Elrondel the Beloved"
+		home_system = "Annael the Seafarer"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	elrodmarnan = {
+		name = Argondean
+		plural = Argondeans
+		home_planet = "Elrod Marnan"
+		home_system = Nelodrien 
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	maengolas = {
+		name = Maengolan 
+		plural = Maengolans
+		home_planet = "Tower of Maengolas"
+		home_system = Dorthilar
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	seronel = {
+		name = Seronelan  
+		plural = Seronelans
+		home_planet = "Fields of Aloth Orured"
+		home_system = "Haven of Seronel"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	eglaled = {
+		name = Egla  
+		plural = Egla
+		home_planet = Eglaled
+		home_system = Cilgalathon
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	araser = {
+		name = Araserese  
+		plural = Araserese
+		home_planet = Araser
+		home_system = Imimril
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	edrode = {
+		name = Edrodan
+		plural = Edrodans
+		home_planet = "Edrode Gondolond"
+		home_system = "Chambers of Ellar"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	idrel = {
+		name = Idrelian
+		plural = Idrelians
+		home_planet = Idrel
+		home_system = Idrel
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	nellonspodium = {
+		name = Altaseroid
+		plural = Altaseroids
+		home_planet = "Nellon's Podium"
+		home_system = "Enwel's Column"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	findsaebrie = {
+		name = Saebrite
+		plural = Saebrites
+		home_planet = "Findel Saebrie"
+		home_system = "Findel Erdhin"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	barania = {
+		name = Baranians
+		plural = Baranians
+		home_planet = Barania
+		home_system = Baraddor
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	cirith = {
+		name = Cirithoid
+		plural = Cirithoids
+		home_planet = "Gul Cirith"
+		home_system = "Gul Orodgoth"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	dorisendor = {
+		name = Dor
+		plural = Dor
+		home_planet = Isendor
+		home_system = Amondor
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	elwelidred = {
+		name = Duilian
+		plural = Duilians
+		home_planet = "Elwel Idred"
+		home_system = "Elwel Egiol"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	everdawntruth = {
+		name = Erildian
+		plural = Erildians
+		home_planet = "Ever-Dawn Truth"
+		home_system = "Manifold Path"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	eglarestiel = {
+		name = Eglaressian
+		plural = Eglaressians
+		home_planet = Eglarestiel
+		home_system = Elegrolfine
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	daele = {
+		name = Daelean
+		plural = Daeleans
+		home_planet = "House of Daele"
+		home_system = Ar-Feleth
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	fero = {
+		name = Fero
+		plural = Fero
+		home_planet = "Realm of Elradie"
+		home_system = "Light of Amasiel"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	ginlea = {
+		name = Ginlean
+		plural = Ginleans
+		home_planet = Ginlea
+		home_system = "Inglaelor the Lifegiver"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	rothfalas = {
+		name = "Roth Falas"
+		plural = "Roth Falas"
+		home_planet = "House of Life"
+		home_system = "Mansion of the Blessed"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	galad = {
+		name = Galadian
+		plural = Galadians
+		home_planet = "Obsidian Crown of Galad"
+		home_system = "Ivory Throne of Dungard"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	cirith = {
+		name = Ia-Cirith
+		plural = Ia-Cirith
+		home_planet = "Cirith the Endless Birthgiver"
+		home_system = "Celdor the Everlasting Light"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	belegia = {
+		name = Belegian
+		plural = Belegians
+		home_planet = Bel-Belegia
+		home_system = "Baradroth the Strongest"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	cardatharprime = {
+		name = Cardathrian
+		plural = Cardathrians
+		home_planet = "Cardathar Prime"
+		home_system = Cardathar
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	neladhen = {
+		name = Eathonese
+		plural = Eathonese
+		home_planet = Neladhen
+		home_system = "Ser Imlode"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	heavenlyperfume = {
+		name = Arwinian
+		plural = Arwinians
+		home_planet = "Heavenly Perfume"
+		home_system = "Argalmis' Garden"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	culormelirelund = {
+		name = Culoruian
+		plural = Culorians
+		home_planet = "Culor mel'Irielund"
+		home_system = "Culor sa'Cellad"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	himlis = {
+		name = Himloid
+		plural = Himloids
+		home_planet = Himlis
+		home_system = Atielonande
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	ilmithel = {
+		name = Ilmith
+		plural = Ilmith
+		home_planet = Ilmithel
+		home_system = Celladre
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	mightyallmaster = {
+		name = "Mael Gildorfian"
+		plural = "Mael Gildorfians"
+		home_planet = "Mighty All-Master"
+		home_system = "Fragrant Concubine"
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	inderdas = {
+		name = Inderite
+		plural = Inderites
+		home_planet = "Ind Erdas"
+		home_system = Algaldas
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	quene = {
+		name = Quenean
+		plural = Queneans
+		home_planet = Quene
+		home_system = Goglatiriel
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+}
+
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	alothrende = {
+		name = Alothrendean
+		plural = Alothrendeans
+		home_planet = Alothrende
+		home_system = Gilemis
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	gallondel = {
+		name = Gallondelese
+		plural = Gallondelese
+		home_planet = Gallondel
+		home_system = Iriand
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	niserwen = {
+		name = Niserwenese
+		plural = Niserwenese
+		home_planet = Niserwen
+		home_system = Ingronael
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+	malodor = {
+		name = Malodorid
+		plural = Malodorids
+		home_planet = Malodor
+		home_system = Mirethir
+		name_list = "cybrxkhan_fantasy_elvish"
+	}
+}

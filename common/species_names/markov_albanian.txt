@@ -1,0 +1,386 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	maltri = {
+		name = Maltrian
+		plural = Maltrians
+		home_planet = Maltri
+		home_system = Smajë
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	landofthelillies = {
+		name = Ramiran
+		plural = Ramirans
+		home_planet = "Land of the Lillies"
+		home_system = "Wing of Steel"
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	gjolsoke = {
+		name = Sokë-Kor
+		plural = Sokë-Kor
+		home_planet = "Gjol Sokë"
+		home_system = "Dalli Sokë"
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	elbasta = {
+		name = Elbastan
+		plural = Elbastans
+		home_planet = Elbasta
+		home_system = Leksardinaj
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	ueslla = {
+		name = Uesllan
+		plural = Uesllans
+		home_planet = Ueslla
+		home_system = Shqi 
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	gaste = {
+		name = Gastëian
+		plural = Gastëians
+		home_planet = Gastë
+		home_system = Kria 
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	balal = {
+		name = Balalian
+		plural = Balalians
+		home_planet = Balal
+		home_system = Shabadiu 
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	kresja = {
+		name = Kresjoid
+		plural = Kresjoids
+		home_planet = Kresja
+		home_system = Bogola 
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	qenta = {
+		name = Qentoid
+		plural = Qentoids
+		home_planet = Qenta
+		home_system = Dëfri
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	rezaj = {
+		name = Rezajjian
+		plural = Rezajjians
+		home_planet = Rezaj
+		home_system = Thë-Kryeziu
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	kranvergj = {
+		name = Precipëti
+		plural = Precipëti
+		home_planet = Kranvergj
+		home_system = Zami
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	bashibaj = {
+		name = Edon
+		plural = Edon
+		home_planet = "Bashi Baj"
+		home_system = "Bukë Baj"
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	endresha = {
+		name = Endreshian  
+		plural = Endreshians
+		home_planet = Endresha
+		home_system = Odera
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	jushniqtheprovider = {
+		name = Xhela  
+		plural = Xhelas
+		home_planet = "Jushniq the Provider"
+		home_system = "Rexhafi the Deliberator"
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	ymetefi = {
+		name = Ymetefian  
+		plural = Ymetefians
+		home_planet = Ymetefi
+		home_system = Mallka
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	peqirita = {
+		name = Peqiritan  
+		plural = Peqiritans
+		home_planet = Peqirita
+		home_system = Skranëz
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	blenvaje = {
+		name = Blenavajëan 
+		plural = Blenavajëans
+		home_planet = "Blen Vajë"
+		home_system = Këllshkumë
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	rezim = {
+		name = Rezimite 
+		plural = Rezimites
+		home_planet = Rezim
+		home_system = Gendri
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	sokovode = {
+		name = Klek 
+		plural = Kleks
+		home_planet = Sokovodë
+		home_system = Lavajra
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	agelessjewelstone = {
+		name = Vetelian 
+		plural = Vetelians
+		home_planet = "Ageless Jewel-Stone"
+		home_system = "Martyr's Flame"
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	leksana = {
+		name = Leksanan 
+		plural = Leksanans
+		home_planet = Leksana
+		home_system = Beslliq
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	fraberda = {
+		name = Frabërdoid
+		plural = Frabërdoids
+		home_planet = Frabërda
+		home_system = "Feter Mehu"
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	corioni = {
+		name = Corionese
+		plural = Corionese
+		home_planet = Corioni
+		home_system = Xhalës
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	klerjisnik = {
+		name = Arjanese
+		plural = Arjanese
+		home_planet = "Klerj Isnik"
+		home_system = Fushni
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	baresh = {
+		name = Bareshian
+		plural = Bareshians
+		home_planet = Baresh
+		home_system = Shëngji
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	durri = {
+		name = Durrian  
+		plural = Durrians
+		home_planet = Durri
+		home_system = Skranëz
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	brasnikuprime = {
+		name = Brasnite
+		plural = Brasnites
+		home_planet = "Brasniku Prime"
+		home_system = Brasniku
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	unbreakableglory = {
+		name = "Maj Llea"
+		plural = "Maj Llea"
+		home_planet = "Unbreakable Glory"
+		home_system = "Cosmic Heart"
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	xhevahu = {
+		name = Xhevaian
+		plural = Xhevaians
+		home_planet = Xhevahu
+		home_system = Fatilezhi
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	muzaj = {
+		name = Muzajian
+		plural = Muzajians
+		home_planet = Muzaj
+		home_system = Engjinë
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	ajetonika = {
+		name = Ajetonikan
+		plural = Ajetonikans
+		home_planet = Ajetonika
+		home_system = Smatbadani
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	pukajthekindbard = {
+		name = Jastrian
+		plural = Jastrians
+		home_planet = "Pukaj the Kind Bard"
+		home_system = "Edoniku the Bold Mage"
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	vrianiq = {
+		name = Vrianiqid
+		plural = Vrianiqids
+		home_planet = Vrianiq
+		home_system = Gendria
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	kasgjet = {
+		name = Gjettian
+		plural = Gjettians
+		home_planet = "Kas Gjet"
+		home_system = Beqi
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	kamalli = {
+		name = Kamallian
+		plural = Kamallians
+		home_planet = Kamalli
+		home_system = Rilira
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	shpermenk = {
+		name = Smat'Kon
+		plural = Smat'Kon
+		home_planet = Shpërmenk
+		home_system = Durbneslla
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	floska = {
+		name = Floskoid
+		plural = Floskoids
+		home_planet = Floska
+		home_system = Reditër
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	gjaxhafer = {
+		name = Gjaxite
+		plural = Gjaxites
+		home_planet = Gjaxhafer
+		home_system = Endergi
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	jetandete = {
+		name = Jetandetian
+		plural = Jetandetians
+		home_planet = Jetandete
+		home_system = Shë-Kria
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	burbereci = {
+		name = Burbërecid
+		plural = Burbërecids
+		home_planet = Burbëreci
+		home_system = "Burri Shiu"
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	fusufta = {
+		name = Fusufese
+		plural = Fusufese
+		home_planet = Fusufta
+		home_system = Libërrekë
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	peqardina = {
+		name = Peqling
+		plural = Peqlings
+		home_planet = Peqardina
+		home_system = Barakë
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	pollanese = {
+		name = Pollanese
+		plural = Pollanese
+		home_planet = Pollan
+		home_system = "Pran Arbën"
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	donavalir = {
+		name = Donavalirid
+		plural = Donavalirids
+		home_planet = Donavalir
+		home_system = Tanajrab
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	floreshkor = {
+		name = Flo'koroid
+		plural = Flo'koroids
+		home_planet = Floreshkor
+		home_system = "Elmardh Zahu"
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	vorengjir = {
+		name = Vorengjirran
+		plural = Vorengjirrans
+		home_planet = Vorengjir
+		home_system = Rexhirastë
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+	valbonoran = {
+		name = Redit
+		plural = Redits
+		home_planet = Valbonoran
+		home_system = Ajevahiu
+		name_list = "cybrxkhan_handmade_albanian"
+	}
+}

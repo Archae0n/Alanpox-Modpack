@@ -1,0 +1,100 @@
+################################
+# Federations Events
+###############################
+
+
+namespace = vfefpulse
+
+country_event = {
+	id = vfefpulse.2000
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_war_leader = yes
+		has_federation = yes
+		is_federation_leader = yes
+		federation = { has_federation_type = empire_federation }
+	}
+
+	immediate = {
+
+		if = {
+			limit = { from = { any_attacker = { is_same_empire = root } } }
+			from = {
+				every_war_participant = {
+					limit = {
+						has_overlord = root
+						NOT = {
+							any_agreement = {
+								OR = {
+									has_term_value = {
+										term = joins_overlord_wars
+										value = joins_overlord_wars_all
+									}
+									has_term_value = {
+										term = joins_overlord_wars
+										value = joins_overlord_wars_offensive
+									}
+								}
+							}
+						}
+					}
+					prev = { remove_war_participant = prev }
+				}
+			}
+		}
+		else = {
+			from = {
+				every_war_participant = {
+					limit = {
+						has_overlord = root
+						NOT = {
+							any_agreement = {
+								OR = {
+									has_term_value = {
+										term = joins_overlord_wars
+										value = joins_overlord_wars_all
+									}
+									has_term_value = {
+										term = joins_overlord_wars
+										value = joins_overlord_wars_defensive
+									}
+								}
+							}
+						}
+					}
+					prev = { remove_war_participant = prev }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = vfefpulse.3000
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_federation = yes
+		federation = { has_federation_type = empire_federation }
+		# Changed from any_subject for compat with FirePrince's Unique Ascension Perks
+		any_playable_country = {
+			is_subject = yes
+			has_overlord = root
+			NOT = { is_in_federation_with = root }
+		}
+	}
+
+	immediate = {
+		every_playable_country = {
+			limit = {
+				is_subject = yes
+				has_overlord = root
+				NOR = { is_in_federation_with = root }
+			}
+			join_alliance = { who = root override_requirements = yes }
+		}
+	}
+}

@@ -1,0 +1,35 @@
+necroids = {
+	sets = {
+		mem_necroids
+	}
+}
+
+humanoids = {
+	sets = {
+		mem_synthetic_humanoids
+	}
+}
+
+arthropoids = {
+	sets = {
+		mem_arthropoids
+	}
+}
+
+machines = {
+	sets = {
+		mem_machines
+	}
+}
+
+# cybernetics = {
+# 	sets = {
+# 		mem_cybernetic_humanoids
+# 	}
+# }
+
+synthetics = {
+	sets = {
+		mem_synthetic_humanoids
+	}
+}

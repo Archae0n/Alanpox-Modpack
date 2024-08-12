@@ -1,0 +1,32 @@
+tradition_est_administratum = {
+	tree_template = "tree_est_0_1_0_0_134"
+	adoption_bonus = "tr_est_administratum_adopt"
+	finish_bonus = "tr_est_administratum_finish"
+	traditions = {
+		"tr_est_administratum_1"
+		"tr_est_administratum_2"
+		"tr_est_administratum_3"
+		"tr_est_administratum_4"
+		"tr_est_administratum_5"
+	}
+
+	potential = {
+		est_administratum_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_authority = auth_democratic
+		}
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_efficient_bureaucracy
+		}
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

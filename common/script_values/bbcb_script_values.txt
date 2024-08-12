@@ -1,0 +1,178 @@
+bbcb_mineral_building_output = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = count_owned_pop
+		trigger_scope = planet
+		parameters = {
+			limit = {
+				OR = {
+					has_job = miner
+					has_job = scrap_miner
+					has_job = bugged_deep_core_miner
+					has_job = bugged_wildcat_miner
+				}
+			}
+		}
+		mode = add
+		mult = 1
+	}
+}
+
+bbcb_food_building_output = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = count_owned_pop
+		trigger_scope = planet
+		parameters = {
+			limit = {
+				OR = {
+					has_job = farmer
+					has_job = angler
+					#has_job = pearl_diver
+					has_job = livestock
+					has_job = bugged_biomass_collector
+				}
+			}
+		}
+		mode = add
+		mult = 1
+	}
+}
+
+bbcb_energy_building_output = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = count_owned_pop
+		trigger_scope = planet
+		parameters = {
+			limit = {
+				OR = {
+					has_job = entertainer
+					has_job = duelist
+					has_job = clerk
+					has_job = technician
+					has_job = bugged_unfun_facilitator
+				}
+			}
+		}
+		mode = add
+		mult = 1
+	}
+}
+
+bbcb_naval_cap_building_output = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = count_owned_pop
+		trigger_scope = planet
+		parameters = {
+			limit = {
+				OR = {
+					has_job = soldier
+					has_job = bugged_mercenary
+					has_job = bugged_commander
+					has_job = bugged_assassin
+				}
+			}
+		}
+		mode = add
+		mult = 1
+	}
+}
+
+bbcb_alloy_building_output = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = count_owned_pop
+		trigger_scope = planet
+		parameters = {
+			limit = {
+				OR = {
+					has_job = foundry
+					has_job = bluelotus_technician
+					has_job = catalytic_technician
+					has_job = overlord_metallurgist
+					has_job = bugged_salvager
+				}
+			}
+		}
+		mode = add
+		mult = 1
+	}
+}
+
+bbcb_research_building_output = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = count_owned_pop
+		trigger_scope = planet
+		parameters = {
+			limit = {
+				OR = {
+					has_job = researcher
+					has_job = archaeoengineers
+					has_job = head_researcher
+					has_job = bugged_mad_scientist
+				}
+			}
+		}
+		mode = add
+		mult = 1
+	}
+}
+
+bbcb_unity_building_output = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = count_owned_pop
+		trigger_scope = planet
+		parameters = {
+			limit = {
+				OR = {
+					has_job = clerk
+					has_job = priest
+					has_job = death_priest
+					has_job = telepath
+					has_job = culture_worker
+					has_job = bureaucrat
+					has_job = unifier
+					has_job = death_chronicler
+					has_job = high_priest
+					has_job = politician
+					has_job = noble
+					has_job = bugged_templar
+					has_job = bugged_luminosity_priest
+					has_job = bugged_warrior_priest
+					has_job = bugged_gravity_priest
+					has_job = bugged_lifescribe
+					has_job = bugged_techno_priest
+					has_job = bugged_priest_of_the_dark_sun
+					has_job = bugged_herald_of_lifes_path
+					has_job = bugged_intricate_techno_priest
+				}
+			}
+		}
+		mode = add
+		mult = 1
+	}
+}
+
+bbcb_consumer_goods_building_output = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = count_owned_pop
+		trigger_scope = planet
+		parameters = {
+			limit = {
+				OR = {
+					has_job = artisan
+					has_job = artificer
+					has_job = pearl_diver
+					has_job = bugged_narco_chemist
+				}
+			}
+		}
+		mode = add
+		mult = 1
+	}
+}

@@ -1,0 +1,107 @@
+"Sathorian War Cult"={
+	key="Sathorian War Cult"
+	ship_prefix={
+		key="SWC"
+	}
+	species={
+		class="REP"
+		portrait="rep12"
+		species_name={
+			key="SPEC_Sathori"
+		}
+		species_plural={
+			key="SPEC_Sathori_pl"
+		}
+		species_adjective={
+			key="%ADJECTIVE%"
+			variables={
+				{
+					key="adjective"
+					value={
+						key="SPEC_Sathori"
+					}
+				}
+ 
+			}
+		}
+		trait = "trait_strong"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_decadent"
+		trait = "trait_quarrelsome"
+		name_list="REP2"
+		gender=not_set
+	}
+	name={
+		key="Sathorian War Cult"
+		literal=yes
+	}
+	adjective={
+		key="%ADJECTIVE%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="SPEC_Sathori"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_military_junta"
+	planet_name={
+		key="SPEC_Zaydran_planet"
+	}
+	planet_class="pc_tundra"
+	system_name={
+		key="SPEC_Zaydran_system"
+	}
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="toxoid"
+			file="toxoid_03.dds"
+		}
+		background={
+			category="backgrounds"
+			file="flag_BG_8.dds"
+		}
+		colors={
+			"teal"
+			"dark_brown"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name={
+			full_names={
+				key="Bug Behemoth"
+				literal=yes
+			}
+		}
+		portrait="rep12"
+		texture=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="runic_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_fanatic_spiritualist"
+	ethic="ethic_anthropocentric"
+	civics={
+		"civic_bugged_war_cult"
+		"civic_bugged_war_council"
+		"civic_distinguished_admiralty"
+	}
+	origin="origin_default"
+}

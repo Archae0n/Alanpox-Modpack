@@ -1,0 +1,44 @@
+tradition_est_malice = {
+	tree_template = "tree_est_0_1_0_3_24"
+	adoption_bonus = "tr_est_malice_adopt"
+	finish_bonus = "tr_est_malice_finish"
+	traditions = {
+		"tr_est_malice_1"
+		"tr_est_malice_2"
+		"tr_est_malice_3"
+		"tr_est_malice_4"
+		"tr_est_malice_5"
+	}
+
+	potential = {
+		est_malice_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_ethic = ethic_xenophobe
+		}
+		modifier = {
+			factor = 3
+			has_ethic = ethic_fanatic_egalitarian
+		}	
+		modifier = {
+			factor = 2
+			has_civic = civic_fanatic_purifiers
+		}	
+		modifier = {
+			factor = 2
+			has_civic = civic_slaver_guilds
+		}	
+		modifier = {
+			factor = 2
+			has_civic = civic_machine_terminator
+		}			
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

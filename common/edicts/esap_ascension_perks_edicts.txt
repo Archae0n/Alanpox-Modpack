@@ -1,0 +1,21 @@
+esap_cornucopia = {
+	icon = "GFX_colonies"
+	length = -1
+
+	edict_lock_in_months = 12
+
+	resources = { 
+		category = edicts
+		upkeep = {
+			unity = 30
+			multiplier = value:edict_size_effect
+		}
+	}
+	potential = {
+		has_ascension_perk = ap_esap_ct1_expansion
+	}
+	effect = { 
+		#Check esap_cornucopia_beacon event - it triggers on_colonized
+	}
+	ai_weight = { weight = 9 }
+}

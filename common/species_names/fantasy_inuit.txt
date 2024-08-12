@@ -1,0 +1,376 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	tokaani = {
+		name = Tokaanian
+		plural = Tokaanians
+		home_planet = "Tokaani Pulaqq"
+		home_system = "Tokaani Aktok"
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	qavalok = {
+		name = Qavalokan
+		plural = Qavalokans
+		home_planet = Qavalok
+		home_system = Idiilut
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	umanuuq = {
+		name = Umanuuq
+		plural = Umanuuq
+		home_planet = Kalak
+		home_system = Ayapulaa
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	patook = {
+		name = Patookite
+		plural = Patookites
+		home_planet = Patook
+		home_system = Qamuuq
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	ayak = {
+		name = Ayakese
+		plural = Ayakese
+		home_planet = Ayak
+		home_system = "Imaq Kavaa"
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	arkattaaq = {
+		name = Arkattaaq
+		plural = Arkattaaq
+		home_planet = Arkattaaq-Yaku
+		home_system = Arkattaaq-Naduum 
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	sakiik = {
+		name = Sakiik
+		plural = Sakiik
+		home_planet = "Ilak-aq Sakiik"
+		home_system = Ilak
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	watersoflife = {
+		name = Kubvaatian
+		plural = Kubvaatians
+		home_planet = "Waters of Life"
+		home_system = "Cerulean Fountain"
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	umialak = {
+		name = Umialakese
+		plural = Umialakese
+		home_planet = Umialak
+		home_system = Tikaya
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	kaniikiq = {
+		name = Kaniikiq
+		plural = Kaniikiq
+		home_planet = Aviik-Kaniikiq
+		home_system = Aviik-Isila
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	atokma = {
+		name = Atokman
+		plural = Atokmans
+		home_planet = Atokma-Irin
+		home_system = Aroar
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	valuuq = {
+		name = Valuuqian
+		plural = Valuuqians
+		home_planet = Valuuq
+		home_system = Valuuq
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	kitiasaaq = {
+		name = Asaaqese
+		plural = Asaaqese
+		home_planet = "Kiti Asaaq"
+		home_system = "Kiti Tokaq"
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	oosaq = {
+		name = Oosaqan  
+		plural = Oosaqans
+		home_planet = Oosaq
+		home_system = Atokii
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	arrataluk = {
+		name = Arrataluk  
+		plural = Arrataluk
+		home_planet = Arrataluk
+		home_system = Arrataluk
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	justprudence = {
+		name = Kamarooq  
+		plural = Kamarooq
+		home_planet = "Just Prudence"
+		home_system = "Patience of Adversity"
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	shipofprovidence = {
+		name = Qussuk  
+		plural = Qussuk
+		home_planet = "Ship of Providence"
+		home_system = "Itokuu the Rower"
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	ukaakkimo = {
+		name = Ukaakkimo 
+		plural = Ukaakkimo
+		home_planet = "Ukaakkimo Prime"
+		home_system = Ahpoktak
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	aukadlaq = {
+		name = Aukadlaq 
+		plural = Aukadlaq
+		home_planet = Niitok
+		home_system = Umulkaa
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	arvaq = {
+		name = Arvaq
+		plural = Arvaq
+		home_planet = Anyok
+		home_system = Anyok
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	alikaak = {
+		name = Aliq
+		plural = Aliq
+		home_planet = Alikaak
+		home_system = "Turaq Akkiia"
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	qopokkula = {
+		name = Qopokkulan
+		plural = Qopokkulans
+		home_planet = Qopokkula
+		home_system = Qiikama
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	asylumofthefallen = {
+		name = Vaqiika
+		plural = Vaqiika
+		home_planet = "Asylum of the Fallen"
+		home_system = "Benevolent Protector"
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	kubvaq = {
+		name = Kubvoid
+		plural = Kubvoids
+		home_planet = Kubvaq
+		home_system = Saraq
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	yaluktiya = {
+		name = Yalukid
+		plural = Yalukids
+		home_planet = Yaluktiya
+		home_system = Sakaat
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	tunga = {
+		name = Tungian
+		plural = Tungians
+		home_planet = Tungalaq
+		home_system = Tokayalaq
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	boisteroussword = {
+		name = Akaniiq
+		plural = Akaniiq
+		home_planet = "Boisterous Sword"
+		home_system = "Brazen Sheath"
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	qusaak = {
+		name = Qusaakite
+		plural = Qusaakites
+		home_planet = Qusaak
+		home_system = Etoka
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	kaskaprime = {
+		name = Nika-Kaskian
+		plural = Nika-Kaskians
+		home_planet = "Kaska Prime"
+		home_system = Kaska
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	tooyaq = {
+		name = Tooyaq
+		plural = Tooyaq
+		home_planet = Tooyaq
+		home_system = Tookanuyaq
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	nuuvuq = {
+		name = Nuuvuq
+		plural = Nuuvuq
+		home_planet = Nuuvuq
+		home_system = Apiimuq
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	tamavak = {
+		name = Tamavakan
+		plural = Tamavakans
+		home_planet = Iik-Tamavak
+		home_system = Anunvut
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	nootka = {
+		name = Nootkan
+		plural = Nootkans
+		home_planet = Nootka
+		home_system = Alamuk
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	nikuana = {
+		name = Nikuanese
+		plural = Nikuanese
+		home_planet = Nikuana
+		home_system = "Aulu Tikti"
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	tuyok = {
+		name = Tuyokoid
+		plural = Tuyokoids
+		home_planet = Tuyok
+		home_system = Yaluq
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	diamondbarrow = {
+		name = Nertok
+		plural = Nertoks
+		home_planet = "Diamond Barrow"
+		home_system = "Skyfaring Jewel"
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	kulluqiia = {
+		name = Kulluqian
+		plural = Kulluqians
+		home_planet = Kulluqiia
+		home_system = Qatuyoka
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	kakma = {
+		name = Kakmean
+		plural = Kakmeans
+		home_planet = Kakma
+		home_system = Nutaik
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	itokiitaprime = {
+		name = Itokiitean
+		plural = Itokiiteans
+		home_planet = "Itokiita Prime"
+		home_system = Itokiita
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	pukayathewarden = {
+		name = Qatuyok
+		plural = Qatuyoks
+		home_planet = "Pukaya the Warden"
+		home_system = "Bastion of the East"
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	iliktaaraq = {
+		name = Iliktaarid
+		plural = Iliktaarids
+		home_planet = Iliktaaraq
+		home_system = Anuga
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	akkii = {
+		name = Nartok
+		plural = Nartoks
+		home_planet = Akkii
+		home_system = Umiiak
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	katuyok = {
+		name = Katuyokese
+		plural = Katuyokese
+		home_planet = Katuyok
+		home_system = Pikpok
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	tuputak = {
+		name = Tuputakese
+		plural = Tuputakese
+		home_planet = Tuputak
+		home_system = Kungak
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+	sakriqiiteprime = {
+		name = Nainga
+		plural = Nainga
+		home_planet = "Sakriqiite Prime"
+		home_system = Sakriqiite
+		name_list = "cybrxkhan_fantasy_inuit"
+	}
+}

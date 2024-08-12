@@ -1,0 +1,266 @@
+#################
+#  Ruler Traits #
+#################
+
+# Ruler-traits have the same parameters as leader-traits
+# leader_class has to be set to include "ruler" for a ruler to be valid for a trait
+# modifiers granted to rulers are applied to the entire Empire
+
+leader_trait_ruler_esap_egalitarian_2_nerd = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_nerd.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_nerd.dds"
+	modifier = {
+		ship_anomaly_research_speed_mult = 0.66
+	}
+	self_modifier = {
+		species_leader_exp_gain = 0.17
+	}	
+	councilor_modifier = {
+		category_computing_research_speed_mult = 0.39
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+}
+
+leader_trait_ruler_esap_egalitarian_2_competitive = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_competitive.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_competitive.dds"
+	modifier = {
+		ship_anomaly_research_speed_mult = 0.22
+		science_ship_survey_speed  = 0.33
+	}
+	self_modifier = {
+		species_leader_exp_gain = 0.32
+	}
+	councilor_modifier = {
+		rivalries_influence_produces_mult = 0.66
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+}
+
+leader_trait_ruler_esap_egalitarian_2_race_watcher = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_race_watcher.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_race_watcher.dds"	
+	modifier = {
+		ship_speed_mult = 0.08
+	}
+	fleet_modifier = {
+		ship_speed_mult = 0.05
+	}
+	councilor_modifier = {
+		ship_speed_mult = 0.03
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+}
+
+leader_trait_ruler_esap_egalitarian_2_academic = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_academic.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_academic.dds"	
+	self_modifier = {
+		species_leader_exp_gain = 0.44
+	}
+	councilor_modifier = {
+		species_leader_exp_gain = 0.88
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+}
+
+leader_trait_ruler_esap_egalitarian_2_pious = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_pious.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_pious.dds"	
+	sector_modifier = {
+		pop_government_ethic_attraction = 0.13
+		pop_ethic_spiritualist_attraction_mult = 0.45
+	}
+	councilor_modifier = {
+		country_unity_produces_mult = 0.17
+		pop_government_ethic_attraction = 0.20
+		pop_ethic_spiritualist_attraction_mult = 0.27
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+}
+
+leader_trait_ruler_esap_egalitarian_2_stargazer = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_stargazer.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_stargazer.dds"	
+	modifier = {
+		ship_anomaly_research_speed_mult = 0.66
+		science_ship_survey_speed  = 0.55
+	}
+	councilor_modifier = {
+		science_ship_survey_speed  = 0.25
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+}
+
+leader_trait_ruler_esap_egalitarian_2_shrewd_politician = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_shrewd_politician.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_shrewd_politician.dds"	
+	modifier = {
+		pop_factions_produces_mult = 0.45
+	}
+	councilor_modifier = {
+		pop_factions_produces_mult = 0.35
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { official }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+}
+
+leader_trait_ruler_esap_egalitarian_2_military_background = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_military_background.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_military_background.dds"	
+	sector_modifier = {
+		ship_starting_experience_add = 100
+		army_starting_experience_add = 100
+	}
+	councilor_modifier = {
+		ship_starting_experience_add = 150
+		army_starting_experience_add = 150
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander official }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+}
+
+leader_trait_ruler_esap_egalitarian_2_progressive = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_progressive.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_progressive.dds"
+	self_modifier = {
+		species_leader_exp_gain = 0.66
+	}	
+	councilor_modifier = {
+		all_technology_research_speed = 0.17
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { scientist official }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+}

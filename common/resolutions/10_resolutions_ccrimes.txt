@@ -1,0 +1,544 @@
+@resolution_weight_fuckingloathed = -5
+@resolution_weight_hated = 3
+@resolution_weight_disliked = 4
+@resolution_weight_unpopular = 5
+@resolution_weight_normal = 6
+@resolution_weight_popular = 6.5
+@resolution_weight_loved = 7
+
+@resolution_cost_t1 = 100
+@resolution_cost_t2 = 150
+@resolution_cost_t3 = 200
+@resolution_cost_t4 = 250
+@resolution_cost_t5 = 300
+@resolution_cost_denounce = 25
+
+@resolution_flag_timer = 360
+
+#Capital
+resolution_ccrimes_consortium = {
+	icon = "GFX_resolution_ccrimes_consortium"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t1
+		}
+	}
+	target = no
+
+	level = 1
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_ccrimes_consortium = 1
+		}
+	}
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_ccrimes_consortium_effect
+		hidden_effect = {
+			set_global_flag = galactic_community_resolution_passed
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_ccrimes days = @resolution_flag_timer }
+			set_global_flag = cmbu_noreturn
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_ccrimes days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOR = {
+				is_active_resolution = "resolution_ccrimes_consortium"
+				is_active_resolution = "resolution_ccrimes_shadows"
+				is_active_resolution = "resolution_ccrimes_smugglers"
+				is_active_resolution = "resolution_ccrimes_crisis"
+				is_active_resolution = "resolution_ccrimes_bobafett"
+			}
+		}
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_active_resolution = resolution_2egalitarian_crimes
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	ai_weight = {
+		base = @resolution_weight_disliked
+		
+		modifier = {
+			#WIP
+		}
+	}
+}
+
+#Army
+resolution_ccrimes_shadows = {
+	icon = "GFX_resolution_ccrimes_shadows"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t2
+		}
+	}
+	target = no
+
+	level = 2
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_ccrimes_consortium = 2
+			resolution_ccrimes_shadows = 1
+		}
+	}
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_ccrimes_shadows_effect
+		hidden_effect = {
+			set_global_flag = galactic_community_resolution_passed
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_ccrimes days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_ccrimes days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_active_resolution = resolution_2egalitarian_crimes
+	}
+
+	allow = {
+		is_active_resolution = "resolution_ccrimes_consortium"
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	#The Galaxy is against you
+	ai_weight = {
+		base = @resolution_weight_disliked
+	}
+}
+
+#Casus Belli
+resolution_ccrimes_smugglers = {
+	icon = "GFX_resolution_ccrimes_smugglers"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t3
+		}
+	}
+	target = no
+
+	level = 3
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_ccrimes_consortium = 3
+			resolution_ccrimes_shadows = 1
+			resolution_ccrimes_smugglers = 1
+		}
+	}
+
+	modifier = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_active_resolution = resolution_2egalitarian_crimes
+	}
+	
+
+	effect = {
+		hidden_effect = {
+			set_global_flag = galactic_community_resolution_passed
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_ccrimes days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_ccrimes days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	allow = {
+		is_active_resolution = "resolution_ccrimes_shadows"
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	#The Galaxy is against you
+	ai_weight = {
+		base = @resolution_weight_hated
+	}
+}
+
+#Crisis damage
+resolution_ccrimes_crisis = {
+	icon = "GFX_resolution_ccrimes_crisis"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t4
+		}
+	}
+	target = no
+
+	level = 4
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_ccrimes_consortium = 4
+			resolution_ccrimes_shadows = 1
+			resolution_ccrimes_smugglers = 2
+			resolution_ccrimes_crisis = 1
+		}
+	}
+
+	modifier = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_active_resolution = resolution_2egalitarian_crimes
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_finalwarning
+		hidden_effect = {
+			set_global_flag = galactic_community_resolution_passed
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_ccrimes days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_ccrimes days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	allow = {
+		is_active_resolution = "resolution_ccrimes_smugglers"
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	#The Galaxy is against you
+	ai_weight = {
+		base = @resolution_weight_normal
+	}
+}
+
+#Extra
+resolution_ccrimes_bobafett = {
+	icon = "GFX_resolution_ccrimes_bobafett"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	level = 5
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_ccrimes_consortium = 5
+			resolution_ccrimes_shadows = 2
+			resolution_ccrimes_smugglers = 2
+			resolution_ccrimes_crisis = 1
+			resolution_ccrimes_bobafett = 1
+		}
+	}
+
+	modifier = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_active_resolution = resolution_2egalitarian_crimes
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_ccrimes_bobafett_effect
+		hidden_effect = {
+			set_global_flag = galactic_community_resolution_passed
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_ccrimes days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_ccrimes days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	allow = {
+		is_active_resolution = "resolution_ccrimes_crisis"
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	#The Galaxy is against you
+	ai_weight = {
+		base = @resolution_weight_fuckingloathed
+	}
+}
+
+resolution_ccrimes_consortium_nope = {
+	icon = "GFX_resolution_ccrimes_nope"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t3
+		}
+	}
+	target = no
+	fire_and_forget = yes
+
+	effect = {
+		custom_tooltip = resolution_ccrimes_consortium_nope_effect
+
+		hidden_effect = {
+			cancel_resolution = "resolution_ccrimes_consortium"
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_ccrimes_repeal days = @resolution_flag_timer }
+			remove_global_flag = cmbu_noreturn
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_ccrimes_repeal days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	modifier = {
+	}
+
+	potential = {
+		is_active_resolution = "resolution_ccrimes_consortium"
+	}
+
+	ai_weight = {
+		base = @resolution_weight_normal
+	}
+}
+
+resolution_ccrimes_shadows_nope = {
+	icon = "GFX_resolution_ccrimes_nope"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t3
+		}
+	}
+	target = no
+	fire_and_forget = yes
+
+	effect = {
+		custom_tooltip = resolution_ccrimes_shadows_nope_effect
+
+		hidden_effect = {
+			cancel_resolution = "resolution_ccrimes_shadows"
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_ccrimes_repeal days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_ccrimes_repeal days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_ccrimes_consortium = 1
+		}
+	}
+
+	modifier = {
+	}
+
+	potential = {
+		is_active_resolution = "resolution_ccrimes_shadows"
+	}
+
+	ai_weight = {
+		base = @resolution_weight_popular
+	}
+}
+
+resolution_ccrimes_smugglers_nope = {
+	icon = "GFX_resolution_ccrimes_nope"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t3
+		}
+	}
+	target = no
+	fire_and_forget = yes
+
+	effect = {
+		custom_tooltip = resolution_ccrimes_smugglers_nope_effect
+
+		hidden_effect = {
+			cancel_resolution = "resolution_ccrimes_smugglers"
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_ccrimes_repeal days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_ccrimes_repeal days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_ccrimes_consortium = 2
+			resolution_ccrimes_shadows = 1
+		}
+	}
+
+	modifier = {
+	}
+
+	potential = {
+		is_active_resolution = "resolution_ccrimes_smugglers"
+	}
+
+	ai_weight = {
+		base = @resolution_weight_popular
+	}
+}

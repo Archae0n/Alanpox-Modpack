@@ -1,0 +1,211 @@
+leader_trait_scientist_esap_egalitarian_2_bioinformatician = {
+	cost = 0
+#	inline_script = {
+#		script = trait/icon
+#		CLASS = scientist
+	#	ICON = "GFX_leader_trait_scroll"
+#		ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_bioinformatician.dds"
+#		RARITY = common
+#		COUNCIL = no
+#		TIER = none
+#	}
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_bioinformatician.dds"
+	councilor_modifier = {
+		category_biology_research_speed_mult = 0.27
+		category_computing_research_speed_mult = 0.27
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+	ai_weight = 75
+}
+
+leader_trait_scientist_esap_egalitarian_2_navy_background = {
+	cost = 0
+#	inline_script = {
+#		script = trait/icon
+#		CLASS = scientist
+	#	ICON = "GFX_leader_trait_scroll"
+#		ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_navy_background.dds"
+#		RARITY = common
+#		COUNCIL = no
+#		TIER = none
+#	}
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_navy_background.dds"
+	councilor_modifier = {
+		category_voidcraft_research_speed_mult = 0.27
+		category_military_theory_research_speed_mult = 0.27
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+	ai_weight = 75
+}
+
+leader_trait_scientist_esap_egalitarian_2_racer = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = scientist
+	# #	ICON = "GFX_leader_trait_scroll"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_racer.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_racer.dds"
+	modifier = {
+		ship_speed_mult = 0.22
+	}
+	councilor_modifier = {
+		category_voidcraft_research_speed_mult = 0.17
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+	ai_weight = 75
+}
+
+leader_trait_scientist_esap_egalitarian_2_mathematician = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = scientist
+	# #	ICON = "GFX_leader_trait_scroll"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_mathematician.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_mathematician.dds"
+	councilor_modifier = {
+		category_field_manipulation_research_speed_mult = 0.27
+		category_particles_research_speed_mult = 0.27
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+	ai_weight = 75
+}
+
+leader_trait_scientist_esap_egalitarian_2_explorer = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = scientist
+	# #	ICON = "GFX_leader_trait_scroll"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_explorer.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_explorer.dds"
+	modifier = {
+		science_ship_survey_speed  = 0.36
+	}
+	councilor_modifier = {
+		category_new_worlds_research_speed_mult = 0.17
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+	ai_weight = 75
+}
+
+leader_trait_scientist_esap_egalitarian_2_systematic = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = scientist
+	# #	ICON = "GFX_leader_trait_scroll"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_systematic.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_systematic.dds"
+	modifier = {
+		ship_anomaly_fail_risk = -0.10
+		ship_anomaly_generation_chance_mult = 0.50
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+	ai_weight = 75
+}
+
+leader_trait_scientist_esap_egalitarian_2_traveler = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = scientist
+	# #	ICON = "GFX_leader_trait_scroll"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_traveler.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_traveler.dds"
+	councilor_modifier = {
+		category_statecraft_research_speed_mult = 0.27
+		category_new_worlds_research_speed_mult = 0.27
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+	ai_weight = 75
+}
+
+leader_trait_scientist_esap_egalitarian_2_chemist = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = scientist
+	# #	ICON = "GFX_leader_trait_scroll"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_chemist.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_chemist.dds"
+	councilor_modifier = {
+		category_materials_research_speed_mult = 0.27
+		category_propulsion_research_speed_mult = 0.27
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = @class_trait_weight
+	ai_weight = 75
+}

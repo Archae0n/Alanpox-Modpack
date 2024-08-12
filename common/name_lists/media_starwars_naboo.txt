@@ -1,0 +1,273 @@
+﻿### Naboo
+### Names from fantasynamegenerator.com
+
+cybrxkhan_starwars_naboo = {
+	category = "Humanoid"
+
+	ship_names = {
+		generic = {
+
+			Actis Admonitor Aggressor Allegiance Annihilator Arbitrator Archer Arquitens Assiduous Avarice Avenger Basilisk Bellicose Brazen Carrack Cerberus Certainty Chimaera Colossus Commander Conquest Corrupter Dauntless Deliverance Delta Denunciator Detainer Devastator Direption Eclipse Electrum Emancipator Emperor Empire Enforcer Erinnic Eta Eviscerator Exactor Executor Executrix Expedient Flanchard Forager Forger Freebird Freedom Fremond Garrett Ghost Gibbon Gladiator Glory Gnisnal Goliath Gorgon Gozanti Guardian Hammer Harbinger Harpox Havoc Hunter Hydra Immortal Imperial Imperialis Imputator Indictor Individous Inexorable Inquisitor Interdictor Interrogator Intimidator Intrepid Judicator Juggernaut Lagos Lambda Lance Lancet Lawbringer Liberator Liquidator Majestic Malice Manticore Moonshadow Nemesis Neuer Nimbus Nullifier Oculus Patrol Peremptory Pradeux Qaz Raptor Ravager Ravagor Razor Reaper Reckoning Redoubtable Rejuvenator Relentless Reprisal Retaliator Reticent Revenge Salliche Secutor Sentinel Singularity Skyhook Sovereign Spectre Stalker Stormhawk Striker Subjugator Tector Terror Thunderflare Titan Titania Torment Truant Ultima Upsilon Vector Vehement Venator Venegeance Victory Visage Whelm Wrath Zeta
+
+			"Ill Wind" "Battle Lance" "Emperor's Revenge" "Empire Maker" "Errant Venture" "Death's Head" "Grey Wolf" "Red Gauntlet" "Right to Rule" "Iron Fist" "Knight Hammer" "Razor's Kiss" "Second Death" "Shadow Caster" "Carrion Spike" "Stellar Vista" "Quasar Fire" "Last Chance"
+		
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Grand Fleet" "Immortal Fleet" "Relentless Fleet" "August Fleet" "Undiminished Fleet" "Great Fleet" "Glorious Fleet" "Mighty Fleet" "Impervious Fleet" "Majestic Fleet"
+		}
+		sequential_name = MEDIA_STARWARS_NABOO_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = MEDIA_STARWARS_NABOO_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+
+				Aevenn Aisinth Akmes Barekmy Barors Barriledla Barsh Beershanne Berla Bia Bilt Binare Bindasaulgaa Binno Blal Brilt Carbirbormush Carraném Carvaal Cererlanth Cerriró Chrak Chralt Chram Chran Chras Chrenn Cinvias Colan Colimé Cud Cudlass Debot Deegaun Deerl Deerólt Dengol Denth Dinda Diness Dowrantolt Duriargel Duries Edenn Fallis Falt Fess Fiskit Fissollekmy Flarvilev Flesel Flon Gad Gel Gelly Gidakor Giprialli Girth Grah Gralechahnall Gralik Grallonisir Gramen Grare Gre Grermo Gresad Gress Grilgollo Grollello Gronn Grornanme Grurdelly Hama Havek Heger Hiandilt Huleskorna Ihtes Ilo Ilondaangom Inoli Iprariengés Ith Jalek Jarbo Jarmussolt Jarvors Javot Jeagaaprils Jeagan Jearrann Jerrahnan Jeske Jiale Jiare Jirgal Jonkelondaan Kapormira Kaprimess Kat Kavill Kebammas Kebirth Khananth Kiten Kla Kladleh Klan Klarettor Klaséh Klom Kollis Kreed Krervamall Kressan Kri Krolt Lahna Largillils Mar Marde Marrils Medlet Meers Mikme Month Mulelli Narmentam Neekesema Nen Niam Nurranth Nushoh Odniele Papri Parvan Polledars Ponnendarviem Porverda Pospeteprem Purranne Radmass Radonth Rados Rann Regrossen Rerveny Rerél Rhadokme Rhadom Rhindenné Rhivekesa Rhiverl Rhol Rholo Rilel Sachanth Salush Sem Shanth Shengaule Shiross Shit Shutenn Strar Strellieny Suchad Sunnadmé Sunne Tambanth Tarvam Tarvenvokmy Telilt Tevekes Thalt Tigonkilpa Tom Tombasol Ucenn Ucenne Ucestih Uncumba Urlargés Urlis Vangané Vim Vogrolis Wealgarunno Wearé Wurlias Yachin Yerdaat Yerén Yimeseress Yobalangén Zaanarbias Zassaunnisket Zirvias Zunkila
+				
+				"Panth Bam"
+				"Bindar Samma"
+				"Séh Ful"
+				"Ite Nar"
+				"Gril Ta'Gren"
+				"Hul Gaunil"
+				"Onés Jiama"
+				"Vo Prol"
+				"Bram Char"
+				"Am Carrak"
+				"Lan Nir"
+				"Zaa Bralt"
+				"Vummo Ponn"
+				"Tam Akmen"
+				"Benar Armusé"
+				"Mon Barshi"
+				"Buséh Brenn"
+				"Khal Urlik"
+				"Fle Zaande"
+				"Aevam Ino"
+				"Lom Blar"
+				"Gén Oba"
+				"Tom Gres"
+				"Mor Fis"
+				"Panth Ta"
+				"Nalt Rarmid"
+				"Ye Don"
+				"Har Don"
+				"Mik Flem"
+				"Kran Bat"
+				"Per Sermosh"
+				"Ais Rannji"
+				"An Kerrol"
+				"Rhi Lan"
+				"Pol Enmi"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Aevesam Antarak Ardamarl Armonth Baenmelorsh Bak Bamis Barganth Beenth Bin Bor Brars Breasemun Brintrursh Caantekam Carsh Cersh Chraarlarud Chral Chranmusuv Chrars Chrerlenth Cinderl Cinth Dargilar Darth Deerlana Dov Dowram Duriel Gaem Gelanar Gid Graehlelom Grak Grallesad Greer Grornae Haermusa Harnalev Hearasad Hegrorsh Hers Hinnenth Hurliem Hurth Ihtar Ilorarsh Ithaanorsh Jaed Jeal Jealum Jes Khaendilenth Khannad Kheagol Krahtenanth Kram Krannenth Krarmid Krennierl Krer Krordulek Lahnar Lantrek Largaesal Lavokas Mandaas Marsh Meegrusirs Mik Mullars Neargere Neehlud Novekan Pak Pan Parmud Pon Porvaasin Regrol Rormienth Sandersh Sharmesanth Shavias Shirth Shutesen Soviesanth Tumaanar Tunmike Ucenos Uhled Uncum Untrisir Urlasun Vanth Veehlimenth Vihte Vogrilinth Wak Weahlanth Wurvesen Zaak Zaarlor Zan Zanth Zarvarers Zehtiamanth Zirlisan Zuncesam	
+            }
+           
+            first_names_female = {
+				Abés Aisho Aissys Akme Akmy Alelli Batih Belella Beny Biardé Bileme Blallel Blaséh Blecha Bleety Bleli Blete Blikme Blisha Blurdas Budla Budna Busé Caidellas Ceere Cerram Cidmas Cindarram Cudla Dainarrem Dedlé Dichas Dindé Dormim Doshoh Eda Eellam Eellene Eles Eshah Eshi Eyé Halemo Haven Heda Hiarmora Hiassoni Idmé Irdeném Jaiborre Jararrén Jedom Jerelli Jiabe Jiarros Jicho Jucha Larde Lashol Lasseran Lednine Leseré Leye Lishalén Litemi Makmere Medlello Mese Monda Nardono Neelis Niama Niamellyn Nodnin Nushine Obam Odnis Padmé Peerme Peerrola Pudos Radlere Rardeh Ridal Sacharrim Seba Seekma Sekmy Sokmena Suchimes Tamari Tanden Tarelleh Tassolly Teednis Tushyh Urmoré Vasolla Vele Vessa Viabin Yachire Yaisym Yatamé Yedly Yedme Yermi Yiasy Yimén Yoba
+            }
+			
+			
+			second_names = {
+				Allorgon Amidala Anenness Anvam Barel Baronkó Berbot Brals Brarda Brarvall Brerderrolt Bress Brit Bross Call Capropet Carvols Cem Cemmi Cerdonann Cerito Ciskos Coll Colpa Curvill Dals Debi Denn Dintol Diraas Eban Edennelt Enmatol Enmiake Errakor Estin Fagals Fali Femalt Fenn Fespiar Fessianém Festekess Finsaunn Fiskettol Flabalt Flas Flat Fledakor Flenn Flermel Flontaull Fluss Fulgaatter Fumbot Funterrils Gadokes Gilt Gipargom Girveté Golt Gopa Grallolo Gram Grarvils Grem Gremas Gremir Grenvenno Greskit Grimengar Grimes Gron Grubiró Hadom Ham Haren Has Hebor Hen Hencaal Hult Inoll Ipra Jalaurra Jarqal Javaapor Jenn Jennollo Jeski Jess Jevauttes Jirbo Jonseless Jorrall Kaprangén Kar Kardargém Katengo Kavo Kebials Ker Kerver Kirvial Kit Kladonés Klalt Klann Klanta Klilpaupo Klonn Klulponkilt Koll Krandilt Krangaut Krevalt Krilt Krit Krolgaa Krubass Kruntepan Kus Las Leve Lillils Limbaunkell Lis Mambolt Massaunn Merols Morqaull Nengolonn Nirqia Niss Nur Nurverol Paprengols Parmaléll Perqales Pimma Polt Poss Pur Pus Raliann Ranviapi Rat Regall Regell Rervorrél Rhadmetter Rharbekem Rhenvannel Rhes Rhessori Rhiprialen Rhit Rhols Rhot Rilgoli Ris Rorkargés Sagaunnilt Salgaunné Sam Sass Sassané Sel Semils Sepronnan Serqorols Shangos Shel Shinsenn Shintekels Sols Solt Strall Stralt Strammores Strarvel Streprirolt Stress Sulerólt Sun Sut Tandaréls Tarengen Teless Tevengéss Thall Thine Thinsenn Thivere Thon Thospeka Tigoto Tincom Tomba Ule Uncenn Ustorror Vanman Varderrer Varqilli Venn Verdels Vimoss Vinvotilt Voprettels Vostals Vumbass Vummat Zangar Zas Zerbirgols Zet Zimbauls
+
+			}
+            regnal_first_names_male = {
+				Antarak Deerlana Jes Parmud Shavias Zaak
+            }
+           
+            regnal_first_names_female = {
+				Belella Eyé Jerelli Larde Leseré Padmé Tamari Yimén
+            }
+			
+			
+			regnal_second_names = {
+				Amidala Errakor Femalt Jalaurra Kladonés Poss Sulerólt Tarengen Thivere Vummat
+			}
+		}
+	}
+}

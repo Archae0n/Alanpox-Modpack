@@ -1,0 +1,156 @@
+spriteTypes = {
+	# character portraits
+	# faded portraits
+	## 575x500
+	portraitType = {
+		name = "GFX_ui_portrait_character_fade_large"
+		texturefile = "gfx/interface/main/unselected_portrait.dds"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/species_fade_mask_large.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		type = character_large
+		character = yes
+		alternate_configurations = {
+			holographic
+		}
+	}
+	# framed portraits
+	## 575x380
+	portraitType = {
+		name = "GFX_ui_portrait_character_frame"
+		textureFile = "gfx/interface/main/unselected_portrait.dds"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/species_frame_mask.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		type = character
+		character = yes
+	}
+	## 575x500
+	portraitType = {
+		name = "GFX_ui_portrait_character_frame_large"
+		texturefile = "gfx/interface/main/unselected_portrait.dds"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/species_frame_mask_large.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		type = character_large
+		character = yes
+		alternate_configurations = {
+			holographic
+		}
+	}
+	# Empire selection - select_empire_design.gui
+	portraitType = {
+		name = "GFX_ui_portrait_character_empire_select"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/portrait_empire_select_mask_fade.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		type = character_without_room
+		character = yes
+		alternate_configurations = {
+			holographic
+		}
+	}
+	# Council portraits - council_view.gui
+	portraitType = {
+		name = "GFX_portrait_character_council_ruler"
+		texturefile = "gfx/interface/main/unselected_portrait.dds"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/portrait_council_ruler_mask_fade.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget_hologram.shader"
+		type = character
+		character = yes
+		mid_close_up = yes
+	}
+	portraitType = {
+		name = "GFX_portrait_character_council"
+		texturefile = "gfx/interface/main/unselected_portrait.dds"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/portrait_council_mask_fade.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget_hologram.shader"
+		type = character
+		character = yes
+		mid_close_up = yes
+	}
+	# Demographics - government_view.gui
+	portraitType = {
+		name = "GFX_ui_demographics"
+		texturefile = "gfx/interface/main/unselected_portrait.dds"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/species_mask_demographics.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		type = character
+		character = yes
+		alternate_configurations = {
+			holographic
+		}
+	}
+	# Planets and Sectors - empire_view.gui
+	portraitType = {
+		name = "GFX_ui_portrait_character_empire"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/portrait_empire_mask_fade.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		type = character_without_room
+		character = yes
+		alternate_configurations = {
+			holographic
+		}
+	}
+	# Head of Reasearch technology_view.gui
+	portraitType = {
+		name = "GFX_ui_portrait_character_research"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/portrait_research_mask_fade.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		type = character_without_room
+		character = yes
+		alternate_configurations = {
+			holographic
+		}
+	}
+	# Leader selection - topbar_leaders_view.gui
+	portraitType = {
+		name = "GFX_ui_portrait_character_leaders"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/portrait_leaders_mask_fade.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		type = character_without_room
+		character = yes
+		alternate_configurations = {
+			holographic
+		}
+	}
+	portraitType = {
+		name = "GFX_ui_portrait_character_leaders_expanded"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/portrait_leaders_expanded_mask_fade.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		type = character_large
+		character = yes
+		alternate_configurations = {
+			holographic
+		}
+	}
+	# Species selection - topbar_species_view.gui
+	portraitType = {
+		name = "GFX_ui_portrait_character_species"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/portrait_species_mask_fade.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		type = character_without_room
+		character = yes
+		alternate_configurations = {
+			holographic
+		}
+	}
+	# Federation - federation_view.gui
+	portraitType = {
+		name = "GFX_ui_portrait_character_federation"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/portrait_federation_mask.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		type = character_without_room
+		character = yes
+		alternate_configurations = {
+			holographic
+		}
+	}
+	# Galactic Communtiy - galactic_community_view.gui
+	portraitType = {
+		name = "GFX_ui_portrait_character_galcom"
+		masking_texture = "gfx/ui_overhaul_qhd/leaders/masks/portrait_galcom_mask.tga"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		type = character_without_room
+		character = yes
+		alternate_configurations = {
+			holographic
+		}
+	}
+}

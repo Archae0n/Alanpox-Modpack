@@ -1,0 +1,16 @@
+# Maven Origin
+d_bugged_secure_vault = {
+	is_for_colonizable = yes
+	icon = "d_quarantine_zone"
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			alloys = 4
+		}
+	}
+	custom_tooltip = d_bugged_secure_vault_effect
+}

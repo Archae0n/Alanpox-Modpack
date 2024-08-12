@@ -1,0 +1,228 @@
+﻿### Fantasy Sarmatian
+### Names from the real Sarmatian namelist tossed into markov generators
+
+cybrxkhan_fantasy_sarmatian = {
+	category = "Fungoid"
+
+	ship_names = {
+		generic = {
+			Abagos Abalas Aban Abanosug Abdakos Abdam Abdarondon Abdasakos Abeaces Abeauagos Abeauos Abetagoi Aboi Abrac AbragdosSorz Abrana Aca Acages Acau Acauaca Acaun Achodos Adon Aefsaz Aefsaziamos Aeg Aeganas Aegir Aeldeiras Aeleimicusi Aelos Aernar Aersêos Aevate Aexsta Akan Akanêssas Akkask Akkasmodos Akkastanos Akkatovo Alaeldas Alag Alagan Alagos Alah Alahos Alakos Alan Alanôn Alasi Aldagos Aldaii Aldakos Aldamphôn Aldaros Aldarsar Aldimnard Aleiakos Alenakos Alenchargan Alenddakos Alentepnos Ama Amacillês Amaiin Amakossarnos Aman Amanadastê Amanês Amig Amôsazaraspe Amôspouakos Ana Anas And Andar Andarnoi Andas Anddais Andrani Andzhadesty Antani Ante Antepnoxolag Antespors Anttarati Aorzos Apharima Aphorsanavo Apsakês Apsaunagos Apsazatty Apsôn Aranas Arazos Arbayakios Arcillana Ard Ardaii Ardas Ardos Ardy Ardôzis Argamos Arganos Argoi Argorcharnos Argos Argtadarazis Arguin Arinagos Arindinos Ariss Ariôn Ariôsazargos Arkos ArkosSozun Aron Arsais Arsakos Arsamytz Arsarsazos Arsauardes Arsaziakos Arsi Arspalah Arsêochôkano Artae Arthag Artharanagos Arthiman Arthiqaugza Arthorin Arzakas Arzarspos Arzavsetae Arzhag Arzhik'orya Arzos Asag Asaii Asakos Asan Asaras Asas Asaubadakos Asaziss Ashthar Ashti Ashtiamagos Asis Aspalauas Aspalo Aspamagos Aspe Aspos Asudakas Asumos Asusk Asustaphos Atsazaii Atsazosaspal Attaelovae Attanahos Auar Auasista Auba Aubaghadis Aubazos Aun Aunos Auntes Aurakos Aurauibês Aurt Avdsadinos Avdsali Avdsas Avdzag Avdzambaya Avdzhakos Avdzhikos Avdziakos Avgasmorgos Azavo Aziamagoi Badag Badaryakos Badikos Badios Bag Bagabanas Bagibês Bagiris Bagoi Bagos Bagousios Baiourthos Baiouêgos Baiôn Balanes Balda Bali Baliauarthos Balos Ban Bandon Banpsanamos Bar Barasum Barduk Barmigos Baros Barthimakês Basazis Basmais Bateis Bates Battagoi Baxaragos Baxarthi Bes Besta Beucagoum Bid Bidagasil Bis Bistun Bodistun Boraces Brasmoubazyg Bur Burd Burt Burthodarnê Buryzmacus Bôran Bôrazos Bôrnakos Bôrnês Bôros Cani Car Cardiakos Caris Carobazos Caroni Cauan Cauargan Cauos Chagos Chakos Chalgantespe Charaodios Chardakos Cheos Chettaces Chik'orspos Chikos Chima Chimeirgta Chin Chinakior Chiqauos Choazos Chodmênos Chophôdios Chopsôn Choras Choros Chorzos Chos Choudigos Chourgos Chous Chsasmos Chôdes Chôdi Chôdis Chôdisêos Chôdondama Chôkas Chôn Chôros Chôroug Ciphadarna Ciphagas Ciphanos Ciphas Ciphos Cirgaes Ciriphôda Coma Cupos Cuppamphaira Dadekas Dadiau Dadios Dan Danahos Danas Dandoêsakos Danoi Darnos Darys Dasios Datag Dateimae Dathalga Dati Datra Did Didaki Diganos Digos Digzavodin Dikos Donae Dos Duachuk Duagos Duakos Duarazês Dzaiors Dzambazis Dzarthos Dzauosasin Eis Elkhadakos Elkhakas Elkhart Eochagos Eocharnes Eochors Eochothos Eochôdambais Eochôdassy Eochôdin Eubas Eun Euntas Fae Fanakano Fanamês Fand Fanos Fanês Far Faragorciuna Farakos Farasmos Farat Faros Faziôsar Fazos Fes Festos Fezdakos Fezdos Feznyges Finoi Finos Firazos Firinakos Firspourakos Fon Fonbetas Fonbeticus Fondzhae Furthinamag Furthos Gada Gadaeldis Gadagae Gadagos Gadasos Gadeiê Gaiauibazos Gaios Gal Galtos Galyros Gar Garines Garuk Gas Gasty Gochos God Goderzhalyr Godiga Godmênos Gos GosSozestae Gôdescus Gôdios Gôsoi Halakos Haldes Haliôn Hamagos Hetichos Horm Huyae Huyakos Huyal Iapakê Iaphazos Iaspenamibês Iasôn Iauakones Iauarthaios Iaxarnos Iaxartae Iaxazyges Iazaga Iazain Iazos Ieus Ieznyg Iezunoi Iezunos Ini Inios Iniosanos Insai Insais Irakatos Irakos Iran Irana Iranakos Iras Irasinag Irasud Irazdos Irbagista Irbanos Irbaras Irboaces Irboi Irbour Irbouêgoi Irippaliakês Iroas Iroban Irondranin Iros Iôdae Iôdagos Iôdaistorsin Iôdeirthag Iôdik'orzba Iôdimakoi Iôdos Jasos Jaxartepnos Kae Kaeg Kaegandos Kaer Kaes Kaifal Kamoxarina Kamês Kamêsani Kar Kara Karagos Karas Kargibani Kargos Karnês Karsarasturd Kas Kasios Kastanan Kastes Katasaliôma Katrandios Katyrostae Kheimerdekas Kheis Kher Kizg Kizgaeiagos Kizgamês Kizgandais Konbeaun Koni Kophakos Kophano Kophrasôn Kopsates Kopsazis Kos Krenarzhar Krenchuloga Kud Kudis Kulo Kulukês Kurbistor Kurgtasazios Kuvaerm Kuval Lae Leimae Leimagos Leis Lima Limagibês Limer Liminagos Madas Madasarnôn Madi Mae Maelenakos Mai Mainana Maios Mairagos Mais Maista Maiôspousi Mali Maliakos Maliôn Maliôsos Manamsar Manavo Manos Manteimna Mar Marandos Marnakos Marnamboata Maros Marsês Mart Marthostanos Marzbadin Mas Maskos Mastorg Mastunagos May Mayakês Mayalirantae Mazos Mazês Me'mbagos Me'mbar Meg Megiom Megos Meti Meu Midag Miwaes Mojnagos Mojnamitê Mojnay Mor Mous Mozdagos Mozes Mozestanos Moziag Mozun Mudag Mês Mêsas Mêthadacagos Mêthos Nabala Nabarakasmos Nabazae Nai Naii Naiindara Naios Nais Naitos Namaegos Namazis Nampsarna Namytz Nardy Naristok Narnos Naros Narthon Nau Naunasto Naunasug Nomorga Nomos Nuagdok Nuas Nykhadas Nykhagos Nykhardagos Nykharnos Nykhos Ochourdôzis Olga Omraxarnagos Orsi Orsig Orsil Ouacesty Ouadakos Ouagamate Ouagdon Ouagos Ouaippada Ouaiôsassasi Ouakon Ouali Ouar Ouaradakos Ouas Ouasarafalo Our Oura Ourdos Ourtadikos Ourteimeu Ourtharakos Ourya Ourys Ous Ousk Ouzauos Ouziakos Ouziauas Ouzis Oxag Oxarnamytz Oxarthos Padardon Padiourt Pag Pagios Parnôn Parophadiaun Parthors Patae Pateimachag Pateistados Patesmos Patiakosinos Patobassakos Patovanaya Patranestes Phag Phagoi Phagos Phakoslaegas Phaldios Phalga Phan Phana Phanes Phanosta Phanzes Pharafalasug Pharakos Pharanês Pharin Phariphakos Pharis Pharna Pharnos Pharomitovod Pharos Phart Pharukês Pharza Pharzharazau Phata Phazos Phazês Phiqauas Phlenadali Phliauarsakê Phlirtanas Phodisgos Phophôdoês Phorgos Phorm Phorsêoazin Phorês Phos Phosasium Phouarg Phouchora Pitaeotos Poumous Pouêgos Pêranas Qae Qaegos Qaeldes Qar Qarouas Rada Radagourgos Radaiemmeima Radakos Radamsaios Radargos Radeimati Rades Radeu Radianos Radig Radin Radiorês Ragdos Raghazarzos Raoubazêssy Rapadag Rapadarnos Rapakos Raphadag Raphaza Raphos Raphthos Raspakos Rastovo Rasty Ratiakos Ratiauakos Res Rhanakos Ros Roxazos Sadaielovaes Sadamgês Safal Safalanos Saiemmais Saifa Saiinesmos Sain Saindigana Saios Saiphar Sais Saisty Sal Saliauos Samag San Sananes Sani Sanon Sanzes Sar Saraf Saragos Saraxarzae Sard Sardas Sarigos Saris Sarnos Sarobag Saron Saros Sarozdas Sartes Sarthin Sarthos Sarzos Satar Satiumodig Satiumos Satosati Satran Sau Sauaielos Sauakios Sauakos Sauart Saun Saunaron Saunos Sauntes Sauos Seacauakos Seauadakos Seauos Senddambis Senquer Senquerzae Ser Serzos Shon Siakos Sialand Siau Siganos Sigzaiôn Sir Sirakos Siran Sirandzathor Siranôn Siras Sirazdos Sirgask Sirgorya Sirgos Siris Siristanês Siôn Sor Sorgos Sorsazyg Sos Sozurtagostê Spal Spamas Span Spanos Sparbagos Sphalganos Sphoriôspe Sphragorakos Steiakos Steiakês Stest Sto Stokas Ston Storcaunt Stordis Storos Stos Stova Stovo Stun Stuna Sturdagos Suachodos Suagos Suagousil Suardakos Suarzhagos Sug Syngetachos Syngetae Syngiounos Syngis Sênos Sênês Taielo Tais Tamakolanos Tamos Tanae Taninos Tas Tasazos Tastyr Teiakos Teimanadanos Teimeirt Teimnag Teirg Teirgis Teis Teiê Ter Terbidar Terbount Thazos Theis Theos Thers Thersaiôn Thes Thettyrd Thikios Thukês Tibar Til Tillae Tir Tiraxarasos Tirdas Tirg Tirindzhakês Tirthos Tis Tola Tolana Toland Tolard Toud Tourgos Touzia Touzis Touêgos Tses Tuacauibagos Tuadiordasôn Tuagosadag Tuakês Tuard Tuart Tutyrdones Tutyrdy Tutyros Tyr Uac Uaces Uachara Uiraxaranos Uirazos Uirazyg Uirtharanin Uirthernos Uirthimibês Ullan Ullanos Ullos Ullês Uor Urses Ursparnês Ury Uryzmazos Uspentyr Uspus Vicus Warna Warnamgêssy Wartes Xai Xain Xaior Xaios Xar Xarg Xarnon Xarnêssy Xarnôn Xaros Xarzhin Xarzhizga Xiakos Xiambidae Xiau Xiauasum Xobadar Xobaliaun Xobazoata Xorganos Xoron Xorsi Xuadis Xuagos Xuanês Xus Xêgoikios Xêgouranos Zaba Zabachos Zabaios Zabaiôn Zabalird Zabanarnês Zabard Zabas Zabaya Zabaz Zabazaerm Zabazinakês Zabazos Zabazyg Zanos Zarnês Zavsey Zavsin Zavsios Zeldig Zhos Zhoslae Zorigos Zoris Zorm Zos Êlmakas Êras
+			
+		}
+			
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Chôkaninos Celestial Horde" "Apsôn Celestial Horde" "Chsaun Celestial Horde" "Alenddagos Celestial Horde" "Cippaliakês Celestial Horde" "Spitondas Celestial Horde" "Abal Celestial Horde" "Eubastovo Celestial Horde" "Huyae Celestial Horde" "Alani Celestial Horde" 
+		}
+		sequential_name = HUMAN99_REAL_SARMATIAN_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+				
+		generic = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxASSAULTARMY_ORD
+		}
+		
+		machine_defense = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxROBOTICDEFENSEARMY_ORD
+		}
+
+		psionic_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = HUMAN99_REAL_SARMATIAN_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+			
+				Achas Achatepnoi Achates Achuk Ala Alag Alan Alana Alenais Alenchar Alenquercium Ardeus Bar Bekanais Bes Cher Chermod Chermodok Chikolag Chikolan Chiqau Commernaielo Dar Dardag Dardon Dartepnoi Dza Dzavo Dzavodon Elkharag Elkhartepnoi Elkhas Elkhates Elkhotova Hetagir Hetagiraga Irag Iris Iristova Irisza Jaxar Jaxaraf Jaxardok Jaxardon Kar Karacena Karaf Kardon Kartepnoi Kartes Karyali Kudag Kudaga Kudaielo Kudais Kuryaki Kuryali Maya Mayali Mozdon Nardeus Nardon Nartepnoi Nartes Narteslag Narya Nykhar Nykhates Nykhotium Nykhoton Sal Sali Sir Siracenchuk Stes Suadar Suadardok Suadartes Tan Tana Tharaf Thas Thercium Thermodok Therna Tis Tiston Tistova Tistovaltovo Tistovo Ullovo Victon Victova Victovo Victovod Zavdzhiqau Zelenquer Zelenquermod Zeloval	
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Abachagês Aboachoatova Aboi Abranos Abrozirazae Aelendos Aevates Akas Alaeznyges Alahos Alanaya Alasty Alaun Alaura Aldakoi Aleiê Alendos Ama Amakês Anadios Andamytz Anthophos Apsôn Aranês Arbagdones Arbaios Arga Argos Aris Aros Arsaratig Arsey Arta Artaeos Arthourbid Atsarbiduk Attiakoi Avdziakos Azaiorzauas Bagos Baiam Baios Bais Bali Bana Barauos Bastangetta Baxagênês Baxar Baxarandon Biszar Bodiounos Borm Bôrnos Canos Caranos Carin Cauos Cheossazos Chi Chorasphan Chos Chotok Choton Cippakos Cippal Comakoni Cuppal Dadag Darzos Dikos Donbetiun Elkharnos Eochae Eun Euni Fae Fani Fanteimatos Far Fines Fir Firadar Firs Garanos Gas Gocharaun Horis Iazis Iazyg Ieus Irakos Irgtada Jasask Jastigos Kae Kamodos Kathadas Kheiso Kizg Kizgamazos Kurakês Kurbistaer Lae Limakos Limeus Madamag Madamos Maii Maiomon Mali Marithasos Marthazios Masantes Masatos Mask Mayakos Meg Metinanaga Meuadok Meus Midakiorma Mourd Mozirakos Muda Mudis Mês Nabarobala Nais Namos Nauibês Naun Nommeiê Nomos Olgamagos Olgan Orsis Ouanan Ourt Ouzios Patestos Phakos Phalanasti Phamgês Phard Phardos Phart Phlenddakos Phoanars Phodard Phorgos Phorsesmoxar Phos Qardiste Qarigos Qarophordy Qarsêouzavo Radachos Radag Radakoi Radarsines Radas Radigzaun Ragos Rati Sadagos Safal Sain San Saninaes Sar Sardumbalga Saron Saros Sask Saspouziakês Satobabasi Sauar Saug Sauos Shodial Siasta Siratige Sirazines Sirguibazos Siros Soroubazar Sozeotok Sozeotovalan Sozurga Spadas Spakos Spandos Stophae Stos Stunos Sênos Tamos Tampsôn Teik'orsês Teiron Thadeuagos Thaegos Theos Tibababal Tibagos Tira Touchoti Tuaisgos Uiris Uspharnos Waristas Waromos Xaisos Xarnaxazos Xarnesmazês Xiakos Xidamos Xidauos Xobani Xorgosaziôn Xorgta Xormakos Xorêrakos Xuas Zaba Zanakos Zavdziastos Zavsettas Zelos Zhos Êlmazos
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+				Alanaya Caranos Firadar Iazyg Kheiso Kurakês Mask Tampsôn Xorêrakos
+			}
+			
+			regnal_second_names = {
+				Alanôn Arcium Baraxaragos Bran Cupostae Dikios Furthodis Karones Kuva Leimerdar Nabakos Ousis Padar Phakêsakoso Pouêgos Terasmodmês Urdara Xart Xobagoum Xorimas Xuchateis
+			}
+		}
+	}
+}

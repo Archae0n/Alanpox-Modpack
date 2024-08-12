@@ -1,0 +1,233 @@
+﻿### Fantasy samoan
+### Tossed IRL Samoan names into a markov generator
+
+cybrxkhan_handmade_samoan = {
+	category = "Aquatic"
+
+	ship_names = {
+		generic = {
+			A'ufonotelu Aase Aasiluatu Aeloa Afaga Afago Afai Afailipa'a Afaitelee Afana Afea Afelavasu Afelevailea Afile Afilinotua Afina Afotomatau Agulisinia Agulu Aigaleafau Aigamasufi Aima Aimeko Aiona Aitau Aitiva Alana Alata Alatafeono Alatauli Aleleli Alena Aletagisina Aloa Alogia Amalu Amane Amasa Amoa Amoaisa Amoega Amosegatua Anama Anata Aniale Aoli Aolia Apanoa Apao Apaoifuala Apati Apelataga Apeni Apeteupolo Apipulomia Apitelea Apoa Apola Asa'afulea Asa'eti Asai Asinato'e Asini Asoa Asololofono Asolu Asosefisili Asosina Atasiumeau Atavaeteapa Atavaiala Atua Atuala Atualo Atuatau Atula Auali Aualiilitu Aualo Aueloagi Aueniu Auiai Auiga Auilea Auitologia Aumana Aumao Aumasepoau Aumo Aumoa Aumoneai Aumono Aumu Aumuai Aune Auni Auta Autalaua Autaulitoa Autu Autulo Ekenenonei Ekerele Ekereti Elaunifula Elii Eliu Eliualova Etea Eteailipusu Eteleatoga Etelela Eteleleau Eteupuna Fa'a Fa'amaiga Fa'amono Fa'atau Fa'atiu Fa'ato Fa'i Fa'ilipo Fa'itoga Fa'o Fa'veamai Faae Faaela Faafeone Faai Faaialetua Faailea Faaiulipalo Faamani Faasigasi Fagai Fagamali Fagana Faganeasua Faganualega Fagati Fagi Fago Fagoa Fagono Fai'ulu Faifasualea Faili Faine Faisana'u Faitu Fala Falai Falaiumati Fale Falea Falealava Faleasi Faleatera Faleipusufi Falelu Falesefaga Faletasilo Faleva Fali'i Fali'iulose Faliatete Falivaisa Falo Faloa Faloamou Falolu Falou Falu Faluana Faluapepusu Falufaua Faluimalea Fanu'u Fasa Fasaiva Fasaoa Fasarivao Fasi Fasolu'u Fata Fataivaoa Fatasatausa Fati Fatia Fau'u Fepaga Fepaitoa Fepeniuma Fepoia Fera Fera'a Fese Fesepa Fesigaga Fesoauga'i Feti Fetia Feuia Fili Fina'ili Finatoa Fini Finiamani Fino Fiteanolito Fitenasaga Foafi Fofaivao Foga Fogapa Fogi Fogoaga Fola Folofoua Foma Fonataula'i Fonavi Fone Fonitagala Fono Fotiatai Foto Foto'ala Foto'atase Fualeapali Fualolima Fuema Fuesi Fuigaputi Fuipu Fuipune Fuitua Funi Fusilili Fusu Futafa Futaga Gali Galua Gata Gati Gatiu Gatupusi I'a I'auga Iamesi Iamitia Iamua Iene Iliaapo'o Ilifisa Iliila Ilimoa Ilipu Iliu Ioa Iono Iononona Iputi Isaga Isalamasa Isalao Isaleumi Isalo Ituala Itufe Iulipaiso Iupepo'i Ivai Ivasi Kale Kalesilo Kalo Komaga Komasi Komolu Kuemanasi Lafaga Lafunuai Laga Lala Lalaula Lalauli Lale Lali'i Laliala Lalogi Lalufo Lamalumusi Lamani Lamaniu Lamaunimata Lamoa Lamuala Lana Lani Lanuofono Lapa Lapi Lapualeu Lata Lato'otafu Lau Laua Lauailu Laufoau Lauga Laula Laule Laulo Laulutele Launi Lausefao Lautaga Lautasa Lautu Laveafa Le'eteli Leaegaleafu Leai Lealatufoa Leale Lealua Leama Leatu Leau Leausovaose Lefa Lefaika Lefaipoa Lefano Lefe'ema Lefoa Leia Leiatailii Leiatu Leiga Leilaega Leilo Leimuemi Leitaga Lelea Leleai Leleisili Lelofilao Leluga Leluolifone Lema Lemaunuga Lemesa Lemi Lemiagata Lemisa Lena Leneso'atai Leniumu Leniutu Lenoipi Lenoto'o Leo Leono Lepa'iu Lepai Lepaiva Lepala Lepetafouli Lesi Leteauga Letelu Letu Letu-ta Letua Leu'ufaulo Leuileisi Leusina Levao Levaofila Limisega Limoe Litoali Logiagatoa Lokereta Lolaga Lolama Lolo Loloana Lolose Lomafamaga Lomase Lomato Lota Lotelii Loto'o Lotua Lotuaine Lualofoa Lufatauna Lufili Lufota Lufuna Luia Luileipoa Luiologa Luita Lumea Lumeai Lumua Luni Luto Ma'a Mafua Maga Magaga Magai Magia Mai Mainu Maiputupu'u Maisili Maitu-uti Mako Malaele Malafo Malagia Malako Malamou Male Maleli Malepo'i Malese Maletafago Mali Malo Maloa Maloafali Maloloata Malu Malumea Malutoa Mana Mani Maniga Mano Manu Manuafeo Manuuli Manuvaioni Mapene Mapita Mapua Mapuanua Mapusu Masa Masaga Masefa Masi Mata Matae Matafasiti Matafati Matagalo Matai Mataiga Matala Matati Matau Mataula Mataule Mataupolo Mateli Matigaliaga Matiu Mativito'a Mato Mato'a Matoa Matoega Matogaga Matolo Matu Matu'uu Matua Matuatoa Matula Matupuolo Mauasanu Maugi Maula Mauloi Mausuasi Mavaagali Mavao Maveata Maveau Mavi Melealu Melema Melupetola Mesi Mesoa Misaati Misi Misiga Moa Moafa Moamau Moega Moelu Mosefa Mosefoailai Mosoa Mosova Motaga Motu Muina Mula Mulaga Mulaule Muleta'afii Mulia Musi Muta Mutamana Mutoma Mutu Nafau Nama Namaga Namania Namataloa Namua Namuaou Neia Neilina Niuta Nofaiatupu Nofili Nofisane Nofoa Nogo Nu'a Nu'ufele Ofulu'a Oloa Olomua Olota Ona Onane Onoa Paga Pagi Paheaniutai Palago Palaili Pale Palelea Paleluai'i Palemia Pali Paloa Palu Panieele Panitea Papaielele Papana Papi Papo Papuologi Pasi Pata Pata'ata Pataiti Patasu Patau Patiata Patiga Patiuti Pato Pau Paua Pauliai Pauluitapu Pautolati Pavaipu'uli Pela'oti Pelae Peleali'i Peretelesi Peretoa Periva'veai Peroma Pesanu'uloa Pesao Pesau Pesi Peta Petase Petasilo Petaufita Petava Petelaele Petelo Petoana Piola Pionava Pitafai Pitau Piteali Pitefite Piterelu Pito'asi Pituaua Pitufoa Pitulati Poli'itaia Poloma Polu Polua Polutuai Pono Posaafona Poso Puasofono Puataisao Puiolafuanu Pulau Puli Puliiloiao Pulu Pusi Pusiluva Pusu Reua'amali Reuli Ruto Rutulolo Sa'a Sa'amuai Sa'i Sa'ito Saafa Saasata Saase Saasiti Saelesi Safa Safu Saganefale Sagiaili Sainapuato Saiono Sako Salaga Salale Salata Salatala Salaumosi Sale Salega Salei Saleia Salenaugisi Salepo Salesefaili Sali Salo Saloga Saloloulua Salomoanave Salualana Saluase Salupeta Sama'etea Samaai Samafaeli Samafau Samafo Samagale Samalii Samana Samaniga Samanu Samati Samau Samauva Same Samoa Samoelimi Samosoa Samu Samua Samueu Samuiono Samuni Sano Sapasi Sapo Sapu'afoa Sasileta Sata Sataga Satagai Satasia Satasitau Satau Satavi Satea Sati Satoga Satola Satu Satua Savaifilo Savao Se'alotua Se'o Seai Seiataina Semala Semala'i Sese Setasinoa Setelele Setoona Seufoama Seuia Seumusu Seuna Seunefeaula Seusa Seusi Siao Silemau Siliago Silu Sima Simaga Simu Sinamaisa Sinao Sinatu Sinava Sinavaelei Siniu Sinuva'i Siolu Sioluala Sisa Sisoli'i Sitela Siufau Siule Siumulo Sivaafaga Sivailoa Solinitui Solo Soloa Solomato Solu Sopaia Sose Sosolua Sosonama Sota Sotu'a Suali'i Suaoifi Susi Susu Ta'ulu Taatai Taato'oti Tafa Tafaga Tafagolo Tafailipale Tafanasi Tafane Tafanu Tafatelea Tafatomana Tafila Tafo Tafotoala Tafu Tafuai Tafune Tagata Tagi Tagia Tahea Tailisiga Tailo Talana Talatauti Taleautuia Taleufua Talu Tamano Tamueuiota Tana Taniu Tano Tanonoto Tanu Tanuapu Taoa Taofaga Taolatutu'u Tapa Tapasua Tapia Tapisigoa Tapu'u Tapulo Taputufati Tatoa Tauaili Taualu Tauatogi Tauelaupu Tauga Taugama Taugia Taule Tauli Taune Tausa Tausatanu Tausi Tausu Tautaga Tauti Tautu Tautualeapu Tava Tava'atau Tava'ia Tavaoai Tave Tavea Taviti Temi Temuse Teufi Tevailu Tevitiu Tiafi Tina Tinera Tiumatele Tiumua Tiumuele Tiusina Tiuti Tiutuli To'ala To'aloleau To'e To'i To'ola To'opoama Toa Toaitena Toasi Tofaga Tofi Tofii Tofoa Toga Togi Togo Togotafeo Toia Tolamau'ufo Tologa Tolupa Tomalena Tomauga Toone Toto Totuai Totumali Tu'alavaniu Tu'alise Tu'u Tu'uta Tua'ita Tualaea Tuali Tualualepo Tuanuaialei Tuao Tuata Tuatava Tuatiga Tufa Tufagala Tufotimoega Tufuala Tuialano Tuili'i Tuilu Tuima Tuimanua Tuimau Tuino Tuio Tuiono Tuitoa Tulaeleupe Tulaua Tuli'i Tune Tuniulia Tupale Tupamalu Tupe Tupelea Tupena Tupoleiao Tupuli Tupusata Tuto'o Uafanoanuga Uafautafili Uafeaifa Uafo Uafugafu Ualamaga Ualauli Ualaupai Uale Ualo Ufaiva Uiteleisiu Ulua Ulualauli Ulufaga Uluileale Upata Upelea Upo'otulu Utaia Utu-utau Utualai Utuato Utufa Utufaaina Va'apusu Vaeamulogi Vaela Vaeleleii Vaelu Vaese Vaetolo Vai Vai'iti Vaia Vaiafagi Vaialea Vaifili Vaifou Vaiga Vaiko Vailii Vailili Vaina Vainavaili Vaineasi Vaisi Vaito'omia Vaitoa Vaituaiu Vaivaina Valooa Vane Vani Vaoi Vaoifili Vasiono Vava Vavalausilo Vealoo Vilati
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Le'afani Navigators" "Tomito Navigators" "Mapi Taana Navigators" "Tau'afai Navigators" "Lautu-uta Navigators" "Fa'ase Navigators" "Fatiu Navigators" "Toa Salega Navigators" "Polaugale Navigators" "Uto'elu Navigators" "Aleailu Navigators" 
+		}
+		sequential_name = FANTASY_SAMOAN_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+
+		
+		occupation_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_SAMOAN_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Aasao Aasautu Aasia Aelele Afotu Agulanu'u Aiti Aitogi Aitoia Alaga Alano Ale Aleapiagi Aleautapo Aloala Amala Amaleapoli Amalogo Aoale Aologaga Aololosefou Aopoai Aopu'u Apaia Apiatavai Apipiamua Apo'opo Asagamata Asaoamoa Auapo'a Aumagoneanu Auniu Elii Etelea Faaivao Fagaisito Fagaputimau Fagi Fago Failufo Falaga Falamatia Falaoa Fale Faleane Faleta Fali Falilua Faloa Falomana Falufili Falugulu Fasaga Fasi Fasito'itia Fata Fataivai Fatao Fitu-ta Fitua Foalaluailu Fofagapua Fofoa Foga Fogi Gata'aua Ili'itufu Ilimogi Itu'u Ituilufau Iva'i Ivai'ila Lautafu Le'a Leailu Leasi Lefoa Leii Leilesefago Lelea Lepalega Lepata Letaipiata Letau Leufatu Leuse Lufi Lufisa Lufuna Ma'i Ma'vea Malalu Malea Malepa'otu Malimi Malosoale Mana Mana'i Manaoa Manonea Manua Mata'i Matai Mataieelea Matava'i Mateleipu'u Mati Matu Matulinu Moalausoa Motu Musiusiga Mutatuaiva Mutimi Nofaga'i Nualefausi Paga Pagatauvai Pavaolae Pese Pesegano Puiagatu Safaa Safagatata Safoa Saga Sagone Sai Saiga Saigale Sailo Sailupoama Sala Salae Salalamu Sale Saleana Salega Saleimuale Salelei Salii Saloata Saloomu Salupoli Samea Sameali Sapoloa Sata Satafilua Sataga Satauvai Sato'ou Satoga Satulagapoa Sausituiama Savaelea Savai Savailimi Savase Se'uuli Silaea Siutai Sogala Tafa Tafaga Tafau Tafu Tagasi Tagi Tanu Tiafotoga Too Tuatasi Tufa Tufi Tufia Tufualagapu Tulaua Utavaiu Utiaasu Utuala Utuluapaga Utumeasau Utusago Vaileii Vailu Vailufu Vaioloata Vaipu Vaisigaia Vaitufi Vaiusumua Vata Vata'iu Vatavai Vavale'e
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+    ### CHARACTERS
+
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Ala Alagi Alataulo Alatiu Ale Aleko Aniko Anitele Ape Apisaga Apisi Etiu Fa'a Fa'ai Fa'aia Fa'ama Fa'amo Fa'amuelu Fa'asefaga Fa'atausi Fa'ati Fa'atua Fa'i Fai Faile Failipo Faione Faiti Filipo'o Filolo Folata Folato'otoa Folo Foloma'ama Folu Fui Fuione Funa Funati Fune I'aia I'ama I'amaio I'asino Ioana Ioanatau Ioele Ioelea Ioelele Iona Iose Iosefanasi Iosefo Isa Isa'ataulu Isaga Kalato Kalelu Kalo Lama Lama'i Lamala Lamaua Lamauto Lapa'ama Lapa'amo Lapa'i Lapatupe Lea Leaeaega Leaeala Lealaki Lealako Leale Lealo Lealu Lema Lemia Lemuelemisa Lemuese Lenefo Lota Lotaulolaua Loto'atao Loto'otao Loto'oto Lotoa Luaia Luio Luionasi Luiono Mala Malaga Malako Malatao Malataueli Malati Malau Malauto Male Mali Malo Malomasi Malu Mana Mataulofili Mataulolo Mati Matupo Misagi Misaiona Misi Misina Mosefa Mosefane Mosefo Ne'a Ofa Palano Palautu Pale Palufana Paniko Pano Papa'amesi Papa'atu Papana Papano Papata Papataumese Pauase Pauelaulo Pelatasina Pelu Pitefa Pitefalo Piti Poloaniti Poluofisaia Pusagi Pusi Pusina Sala Salagi Salatao Salemia Sali Salili Salo Saloa Saloma Sama'atauai Samafa Samafalo Samafato'o Samai Samalo Samasi Sameko Samo Sau Semia Semisai Setela Seti Silaumesi Silausi Sili Sina Sino Sio Sioelu Sioelupe Siona Sisa Sisaile Sisale Sose Sotase Sotaso'o Sotu Sotupo'o Tahifi Tama Tamafana Tameti Tau Taua Taulo Tauloa Taulofi Taulofilagi Taulolu Taumeko Tausila Tausilaulo Tautupana Tavitasefo Tavitefo Taviti Temaio Temeti Temisa Temuelea Tofi Tofilemuese Tofisa'i Tofisi Tofisina Tofitau Tolaga Tolato'emia Tolo Toloa Tolupu Totase Totaso'ako Toto Tua Tuaita Tuasefalau Tuasi Tune Tunefalo Tunefo Tupameko Tupatanasi Tuperoma Tupo Tupo'aivasi Tupo'o Tuto Tuto'o Ufaga Uita Va'amasefo Va'ametiu Va'amuese Va'asi Va'ati Vaega Vai Vaia Vaili Vaioela Vaioelu Vaiona Vaionasaia Vaita
+            }
+           
+            first_names_female = {
+				Aia Aiagisili Aiaifo Aialama Aiatela Aiatogi Aiatola Apola Apola'a Apolagi Apoli Elaifo Eli'alu Eli'i Elia Fa'a Fa'afi Fa'ali'i Fa'alisa'e Fa'ataivao Fa'i Faafana Faafi Faafini Faali Faapeleo Fala Falagi Faloifi Falua Fila Filai Filia Filiu Filoifo Finenene'a Fuila Fuili Fuili'i Fuimatai Fuionama'e Fuito Isa Isapaila Lala Lalagi Laliaga Lami Lamu Lamua Lanavala Lanua Lanuoli Lau'ula Laufai Lauli Laulia Lelaga Lelagi Leleilisa'e Lepai Lepaia Lepaina Lepaivalagi Leva Levaaloma'i Levai Levali'i Lilala Lilamua Liliaini Lilisina Liloua Loma Loma'atele Lomasapaifi Lomata Lomi Lomia Lomiaga Lomiagi Lotoe Lotoga Lotogi Lotolaliaga Lotoliu Lualu Luanua Mala'a Malaevao Malai Male Maliala Maliatele Malisalia Maloma'ata Masalua Masapa Masifini Masifua Masiliagamu Masilipai Mela Melalaufana Meleiliu Moe Moeama Moeama'e Nafai Nafalaga Nafali Nafana Nafina Nafisala Nafisi Nama'aloifo Nami Namoga Namogata Namua Nua Nuai Nuana Palaga Palamua Panafi Panua Panuoliu Pau'ula Pauga Pausana Pela Pelaga Pelasiloifi Peleila Peleini Peleo Pita Pitoeama'e Pitoga Pitogi Poga Pogi Polaevaiva Polatele Polauga Poliu Polu Polua Pua Puai Puana Pusapai Pusapelai Pusapeta Sala'atoga Salaga Salagatogi Salagi Salaifo Salaina Sale Sali'atele Salia Saliala Saliu Saloifua Saloma Saluaia Samasiliaga Samia Sana Sanualito Sanuola Sanuolua Sasapaia Sasi Sasila Sasina Seiga Seila Seilaufai Seili'i Seilia Seilipa Seina Seineneni Sesila'ale Sesinava Simeaivala Sinafanamai Sinama Sinamu Sine'ataiai Sini Sisala Sisalamata Sisaloua Sisapeta Sisi Sisilala'a Sisilatoga Sisili Sivaala Sivaia Sivaiva Sivala Sivalaufai Sivao Soona Soonafina Soonama'a Soono Sosefi Susa'a Susa'i Susala Susapainava Tala Talama Talasina Tali'afai Taloifi Talu Tau'ula Tau'uliaga Taufala Taufalita Taula Tausa Tausa'afana Tausapa Teuili Teuiloifi Teuima Teuimeaina Teuiona Tilitogi Toagi Toagisa Tulama Tuliatoe Tuliu Ula'a Ulaga Valiai Valu Vanavalomi Vanua
+            }
+			
+			
+			second_names = {
+				A'apu Afa Afagao Afoaigameko Aiona Alaifilogi Alofi Amoeua Asifili Asoa Asono Asosesili Aumoeu Aumolofoafa Aumueluti Aumuema Auta Ene Eneati Fa'afua Fa'apalii Fai Falua Fani Fanoimetogo Fau Fesa Fesanu Fesosefe'e Fetagia Feti Fia Fona Fona'i Fuelemasi Fuematu Gali Galipao Iosolau'uli Lafaleia Lau Lausua Lea Leafoa Lealau Leauga Leave Lefe Lemaleifali Liua Liuliota Loga Lokenietai Lopolu Luteafe Lutelii Mageotolofi Mali Matasega Mati Mau Mise Moson Muia Namalilii Niu Nuala Palielu Pasai Petelua Polo Ponoa Puli Punigame Sagane Sagavasale Saka Salegale Sanolu Sea Seitasi Seu'ua Seu'ulupusu Seupelu Sili Sina Sioni Soipotu Soli Solu Sooaualiili Suana Talea Tamono Tanuva Tao Taofinia Tauao Taulagapo Tavasa Tavatoali Tineneni Tiumuelu Toa Toeulaga Tofia Togai Togi Togolivaoi Tomosopolo Tualu Tui Tuiamualea Tuiga Tuigo Tuini Tupusi Vaesosea Vagolose Vaiali Vaiko Vaosonoa Veafonoipu Via Viloani			
+			}
+			
+            regnal_first_names_male = {
+				Fai I'ama Lama'i Mosefa Papata Tuto Va'asi
+            }
+           
+            regnal_first_names_female = {
+				Apola Fila Nafai Polu Pua Susa'i Tau'ula
+            }
+			
+			
+			regnal_second_names = {
+				A'apu Alofi Fa'afua Lopolu Sanolu Talea Vaosonoa			
+			}
+		}
+	}
+}

@@ -1,0 +1,174 @@
+spriteTypes = {
+	# add animation to small buttons
+	spriteType = {
+		name = "GFX_edit_sectors"
+		textureFile = "gfx/interface/buttons/button_sector_edit.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtextureFile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 12
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_button_open_sector_view"
+		textureFile = "gfx/interface/buttons/button_open_sector_view.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtextureFile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 12
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_button_sector_new"
+		textureFile = "gfx/interface/buttons/button_sector_new.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtextureFile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 12
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_button_automate_construction"
+		textureFile = "gfx/interface/buttons/button_automate_construction.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtextureFile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 12
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_button_upgrade_ascension_tier"
+		textureFile = "gfx/interface/buttons/button_upgrade_ascension_tier.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtextureFile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 12
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_fleet_action_button_move_capital"
+		textureFile = "gfx/interface/fleet_view/fleet_action_button_move_capital.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtextureFile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 12
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_button_sector_new"
+		textureFile = "gfx/interface/buttons/button_sector_new.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtextureFile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 12
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_button_move_sector_capital"
+		textureFile = "gfx/interface/buttons/button_move_sector_capital.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtextureFile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 12
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_government_emergency_selection"
+		textureFile = "gfx/interface/government_mod_window/government_emergency_selection.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtextureFile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 12
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+}

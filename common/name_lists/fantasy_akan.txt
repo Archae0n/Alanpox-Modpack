@@ -1,0 +1,228 @@
+﻿### Fantasy Akan
+### From Anansi name generator https://www.fantasynamegenerators.com/anansi-names.php
+
+cybrxkhan_fantasy_akan = {
+	category = "Arthropoid"
+
+	ship_names = {
+		generic = {
+			Abebo Abeboadur Abeboasi Aben Abena Aberewah Abeye Abeyi Aboa Aboadéedéedie Aboah Aboamiam Aboasi Aboatakwawum Aboatenen Abor Aborah Aborékyi Aboréour Abróama Abróampare Abróamponuor Abróe Abróemum Abróteneborful Abéuo Abéuorarewe Achamah Achamuman Achaméour Acquarúh Acququuah Acquua Acquuku Ada Adadu Adaidoheeme Adainéma Adainémandoh Adaisie Adde Addededjó Adiamílankonso Adiawu Adiyáyi Adiyáyimpah Adjooah Adjooata Adjoomfah Adjoomóeme Adjoong Adjoonúququah Adjoosaonsa Adjoosiampíme Adjour Adjuah Adjuainaa Adjuau Adjíjuah Adjíjuarifa Adjíjuaua Adjó Adoh Adohenaa Adoosa Adu Aduah Adur Aduúwamfour Afi Afii Afiikarosuauah Afirimoah Afiriramémlá Afiríyie Afrah Afremanko Afremanquasí Afremumankosil Afrewaa Afrewah Afríiyi Afríiyieduasie Afríiyáyiaká Afríremémlá Afrírento Afróamfa Afróamím Afúe Afúomi Afúoméor Agye Agyekyere Agyekyie Agyeká Agyere Agyereme Agyewen Agyi Agyiawaa Agyie Agyienah Agyiiw Agyimomanquah Agyua Agyuah Agyuarpé Agyuaua Ahinful Ahinfuo Ahinooto Ahinémanódoh Ahinódoh Ajwe Ajweeméamom Ajwei Ajweo Ajwereponsrako Ako Akoba Akobúnkarpén Akome Akomímempah Akong Akonsa Akonwah Akonúsah Akooméourariene Akootimóriri Akoowa Akor Akorful Akosa Akosae Akosah Akosiah Akosie Akosu Akwaaa Akwuah Akwumantoto Akwá Ama Amah Amambéba Amamfe Amami Amamílan Aman Amankiakúan Amanká Amansa Amansah Amansí Amanódo Amanódoh Amanúaká Amanúquauah Amanúququuah Amateiah Amateng Ameabu Ameah Ameeboa Amema Ami Amia Amo Amoa Amoadu Amoaduah Amoadwa Amoaomfo Amoatei Amoatene Amofo Amofosam Amofíoduah Amome Amomfo Amoo Amoom Amoong Amoonáonkosu Amoowe Amor Amorful Ampaa Ampadwó Ampah Ampamfe Ampampapaa Ampapaa Amparpoponuor Ampartene Ampeh Amponaaiakyi Amponah Ampong Amponuo Amponáo Ampímeah Ampío Ampíonuo Amua Amuah Amumah Amuman Amumanúa Amórifaoadwa Andediah Andedu Andei Andoo Andoonah Andóo Andóong Ankanqua Ankaro Ankarpong Ankiim Anko Ankomfiríre Ankoméor Ankomórikri Ankábiuonsaong Ankábiusi Ankóonaa Ankóong Ankóonsrah Annah Anni Ansafirime Ansonsrako Ansoomfuonwa Ansrah Ansramfeeiah Ansramoa Ansérah Ansí Appiako Appiawamíame Appii Appon Apponsaah Appopong Appíonsó Arko Arkoba Arkom Arkomia Arkomor Arkoméamah Arkonsrah Arkoo Arkor Asa Asaakaróameei Asaam Asafuie Asafíonko Asah Asama Asamoamémamfiri Asi Asiah Asiam Asiawum Asiedua Asiifófiikomómi Asil Asiwarosiuauah Aso Asona Asonsaong Asonáonai Asoo Asoonsrah Assi Assil Assío Assíon Atakareku Atakomémah Atakúyie Atatunteng Atatuo Ayaa Ayaadwa Ayakye Ayamfah Ayamfirah Ayampímparpén Ayan Ayankah Ayanúsrah Ayawanko Ayawanúwan Ayawei Ayeká Ayeremah Ayáyiawerewa Ayáyie Ayáyiikaririia Baa Baaa Baadádofúe Baan Badjuai Badjuareme Badu Badwa Badwanúquah Badwó Badwúwaa Badwúwasásiw Badéededuseiah Badéwawasi Baia Baiabuoro Bainfuie Bainóinfáfosi Bedaidoh Bedéw Bekarekéafuo Beku Bekyie Bekyien Bekábia Beman Bemandohene Bemeabiamoowaan Bemeawei Bememe Bemeng Beraméam Bere Beredadwando Berefui Bereh Bereour Berewere Bereyiah Boa Boaamo Boadur Boadwaah Boadwúwa Boagãyeríre Boah Boaonúwah Boasi Boasiaw Boasásia Boatatata Boataá Boaten Bonaa Bonaakúa Bonainoo Bong Bonkaron Bonkaṍe Bonsa Bonsó Bonuo Bonuor Bre Breh Bremankobia Brememah Brepon Brese Busi Busiah Busie Búduarúsaful Cofuo Cofúe Cofúom Cofúomia Creme Cremenenaisi Crerewadjoo Crew Cufféfour Cuféfo Dan Dandoo Danko Dankoo Dankóoh Danquau Dansí Danódoh Danúa Danúako Danúankaṍe Danúankia Danúququa Danúquuku Danúsrakú Dapa Dapaa Dapadusil Dapah Dapaparerereh Daparema Daparikia Dareobúnkakoong Dari Darim Dariri Darpona Darékyi Darúh Darúsraririedae Dedededéediyie Dediah Dediyimatenah Dediyáyi Dedjíjua Dedua Deduah Dedur Dedusei Dedéwadwankaṍe Dedéwarékyi Dedéwaw Dia Diah Diakyiawene Diawa Djan Djanóini Djanúsrah Djasa Djasae Djasah Dom Domeawenah Domfafirifófo Domfour Domfuyampapame Domi Domimoadjíjuah Domoamful Doméoméambéá Domépéwasiwah Domíamfi Dona Dong Donsa Donsí Donuorokosie Donúan Donúanúququah Duah Duasi Duasíona Dúkúanko Dúkúanquah Dúkúyi Dúkúyie Eberah Eberemuman Eberíreh Ebeyeah Ebeyi Ebeyiamo Efuah Enna Ennaaméoro Ennah Ennaido Enni Enninfuoro Enninfuyamfrari Enninfául Enninéman Enninódofour Essi Essiaw Essie Essiuo Essí Essío Essíodu Esuah Esín Esío Esíonsaa Farewa Farewewere Farii Farponkosi Farpoponkom Faréor Farúikrúan Fii Fiiah Fiiaku Fiimómi Firah Firam Firie Firikiah Firima Fofuah Fofuo Fofãofaonuorfuo For Forah Forarikosae Fordedie Fordei Forfuyamfourah Foro Forosie Foréoah Forúsramfi Fre Freful Freme Fremeku Frempartei Freponsa Frerah Frereríiyá Frerewe Frew Fri Frifah Friiakwaa Gadu Gaduúwampah Gadwó Gadwúwadwó Gadwúwah Gadádoh Gadéedu Gyaa Gyamfi Gyamumata Gyamémlá Gyankiiw Gyankóoh Gyanququa Gyanso Gyasah Gyasásia Gyaw Gyawaa Gyawaaiaw Gyemah Gyemamémlá Gyemeaw Gyerakoba Gyeríiyáyiakwá Gyi Gyiakyie Gyie Gyiediyie Gyim Inkarah Inkóoh Kakoba Kakomémah Kakomépé Kakyie Kakúyiako Kandur Kankarpong Kansósoonaa Kante Kanódo Karah Karakú Kari Karikyie Karimoatuo Karo Karong Karpo Karponsonaa Karten Karótenah Karúantoto Karúh Kataá Katei Kateneboah Katuo Kaua Kauah Kauai Kiwaa Kiwaweei Koda Kodainfául Kodu Kodua Koduúwa Kodío Kodíonáo Koful Kofãofúomeeng Kofíodu Kofúome Kokom Kokomímeah Kokoom Kom Komansram Komfah Komfe Komfiikéyereh Komfirah Komfiri Komfirifaoa Komfuo Komiah Komépén Konaah Kong Konsami Konsésoateng Konuorah Konáonwah Koo Koomfah Koong Koowewe Kordeda Korful Korfuo Koroko Kuffáua Kuffáuah Kuffáuau Kufféfe Kufféfo Kuféfeei Kusi Kusiakonuonsrah Kusie Kusil Kusiuong Kusiw Kusúusiiakyeká Kuua Kuuah Kuwa Kuwamémah Kuwan Kuwarponaa Kwa Kwah Kwan Kwandoheemeah Kwansrah Kwaro Kwasási Kye Kyeabiusia Kyeah Kyee Kyeei Kyeemuauah Kyekaṍe Kyekyie Kyeká Kyemankobúnkom Kyeme Kyemena Kyempare Kyemua Kyerah Kyere Kyereemuma Kyereh Kyerema Kyeremah Kyeremeah Kyeremekábiah Kyereo Kyerereman Kyerereponsí Kyerew Kyerewah Kyereweia Kyewere Káonsooah Káonúsamfour Mankiakor Mankóo Mansafí Manto Mantoto Manúwa Mmo Mmoa Mmoo Mmoom Mmor Mponso Mponsoah Mpoppiah Mpoppãah Nii Niia Niiwah Nkah Nkako Nkanúqua Nkareobiah Nkaronah Nkarponah Nkarpong Nkasásiuo Nkriikaṍe Nkrikanúsrarte Nkrosa Nkrosua Nkrúh Nkrúsa Nsi Nsiakorepong Nsiakwá Nsie Nsienaampong Nsienah Nsil Nsiuo Nsiwah Nso Nsoa Nsoaa Nsoambéba Nsona Nsong Nsonsrah Nsoomimene Ntiaini Ntiakyerefuau Ntimpeh Nua Nuarótei Nyaa Nyakyiawadwah Nyakúanúakú Nyamfeemekari Nyamfi Nyamfróteng Nyamia Nyampa Nyampo Nyasi Nyasí Nyaw Nyawah Nyaweemélá Nyawenah Níme Nímeabuorosu Nóoh Nóonsóso Obuo Obuonúansí Obuorékyeraro Obím Obíme Obímpeh Obímpío Odu Oduareyien Ofosafí Ofosah Ofour Ohee Ohen Oheng Okwa Okwaa Okwaaroko Okwasia Okwaw Okwawasil Okwua Okwum Okwuo Okwuon Okye Okyeebor Okyewan Okyi Okyiaméafíonúwa Okyien Ome Omeku Omenebenaa Opa Opaa Opaaah Opaan Opaanóintatene Opaarikiako Opadu Opah Opamélá Oparenaa Oparúsa Oppia Oppiah Oppiifa Oppãah Opuie Opuninai Opuninfuo Opunininful Opuninooataá Opuninéman Opunte Opuntei Opunto Opuntsiako Opuntuninful Opuntuo Osa Osaadwúwansí Osah Osamfi Osaong Ose Osei Oseiakakwah Osesesei Osóso Osósoadádoh Osósoah Osóson Osósonuor Otakome Otakorúsrah Otaku Otakúandóo Otatako Otataá Otatuorful Otaá Otuntototo Otuorde Owoh Oyi Oyiabiuo Oyiah Oyiakú Oyiaw Oyie Oyiedae Oyiediawah Oyiikéye Oyim Oyimoagãyereei Pai Paidofui Paintuo Pepo Pepong Peponwah Pinaainoome Pinful Pinfáuah Pini Pininful Pinémanóinah Pre Predu Prewah Qua Quah Sare Sareourah Sarepong Sari Sarimansó Sarong Sarpon Sarponah Sarpong Sarpoppãah Sartei Saréoméafío Saróamiah Sarúikyie Sasiai Saséramfour Saséramuah Sasérarikyimom Sasésonaa Sasíong Sia Siah Siia Siifa Siikiakwuo Siimorékyi Siirah Sikah Sikakosaa Sikiikasa Sikiikomanódo Sikikyie Sikonsérah Sikrúikarii Sikrúsa Sikyia Sikyim Sikéyeaw Sikéyeme Sikéyerese Sinaai Sinfuong Sinfáfosu Sinoonah Sinootim Soa Soagãyerereng Soah Sowa Sowaah Sowadusi Sowerefuo Sowereme Tanúquuku Tuffa Tuffah Tuffául Tuféfeebéomfour Tuféfeemua Twaarepoppãah Twadwah Twaremuah Twawaw Twe Twei Twen Twenebeboa Tweng Twentsiuong Tweo Tweoba Tweobia Twere Tweremah Twerenene Twewei Twuah Twum Twíwu Twíwumah Twíwuor Twíwuorarpé Táwii Táwiikasásiah Yan Yankona Yankóo Yansaaa Yansósonko Yantsie Yareful Yaremumah Yarikrosu Yaw Yawewanóinémlá Yawu Yawuong Yebebebene Yebebéuo Yebentsi Yeboa Yeborakaréom Yemah Yemansíonuo Yemeeméoméoa Ákronáonséso Ákrúa Ákrúh Ákrúikyie
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Agyewan Stellar Formation" "Yawaw Stellar Formation" "Kuféfour Stellar Formation" "Yanúakong Stellar Formation" "Essí Djasásie Stellar Formation" "Amah Gadu Stellar Formation" "Kodua Stellar Formation" "Ahininémankomfe Stellar Formation" "Yaren Badwó Stellar Formation" "Afi Stellar Formation" 
+		}
+		sequential_name = FANTASY_AKAN_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+	
+		generic = {
+			sequential_name = FANTASY_AKAN_xxASSAULTARMY_ORD
+		}
+	
+		machine_defense = {
+			sequential_name = FANTASY_AKAN_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_AKAN_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_AKAN_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_AKAN_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_AKAN_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_AKAN_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_AKAN_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_AKAN_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_AKAN_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_AKAN_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_AKAN_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_AKAN_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_AKAN_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_AKAN_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_AKAN_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_AKAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_AKAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_AKAN_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_AKAN_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_AKAN_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				A Abebeyie Ableá Abéá Acqóh Adda Addedai Adjoowa Adjua Afiiríyie Afríiyie Agyeei Agyemeeman Agyii Agyuare Akomeah Akosi Am Amankonah Amiah Amoah Amoateng Ampampadu Amuma Amá Amómi Ando Andóoh Annaan Appoppiah Arkorful Arkoréorful Asaare Asiamiamah Ayew Aá Bemah Boasásiako Bonsíonsrah Bonuonsrah Bonáonsrah Bremupong Brepong Danséso Danúwah Dapaaa Dja Djansonsi Doméomfe Domóe Dua Díũ E Enninóinful Farékyi Fofúe Fordedjour Freduah Frepong Gadádo Gyakari Gyamfuyamfi Gyeabiuor Gyimah Kanúande Koduauah Kodíoduah Koffafi Komílan Konaadu Kuffáfour Kusiwaa Kyereeme Mansóso Mmomorosa Mmoosa Mpo Nkansa Nsia Nsiah Nyaaméama Ním Oheene Oke Omemenah Opare Oyiakwan Oyiakúakwan Quauainoo Sarpopong Sarpén Siiaw Soadwa Twerewerefuo Táwiia Ákrikron
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				A Aa Abeyie Aboagãye Aboh Aborampah Aborarampah Abróema Abéba Acquuah Adae Adiyáyiah Adjooa Adjáua Adjíjua Adofãofo Adusei Afre Afróam Afúom Ahinfául Ajweoba Akomfaomfrah Akomimeah Akosi Akosua Akwuasi Amaméamfo Amankikonah Amankona Amankwah Amankóona Ameaw Amoaako Amofah Ampa Ampíonsah Andoh Ankobúnkobiah Ankábiah Ansaong Appiiah Appãah Asaante Asae Asoadu Ata Au Ayaw Ayawa Ayawawa Ayá Baai Baduúwaa Badéwaa Baidoo Bediaiako Bemuah Berako Boamumah Boatei Bonúsrah Busiusia Busúusia Bé Crentsil Cufféfee Danququah Dapaah Daroko Dedie Dedu Dedéedei Diaweiawuo Djasi Donkakor Donuonkor E Ebebo Efo Efua Enninainful Essín Esu Fiifófi Firikiikyi Fofí Foréour Freh Frempímpon Frimórimpong Ga Inkoom Kaká Kandu Kariikari Karúikari Katakúyie Keu Kiw Kodadjó Koi Koko Komélá Komémlá Korúsah Ku Kui Kusiiwaa Kwadwúwadwó Kwasí Kyekéyeku Kyereme Kyererewaa Kyerírematen Kãi Kú Mí Niimo Nkasah Nkrúa Nsoah Nsonwah Nsĩã Ntiamoa Nuah Nyamekye Nyantuntakyi Ná Nãw Nóo Nú Oduraro Ofosu Okyerie Opambéuor Opapare Opare Opu Opui Opuni Opunini Osafío Osó Otatuo Otuo Owohene Paisil Peprúh Pinéman Prempeh Sarpoong Saséraku Siabuor Sikia Sintotim Sowe Tanódoh Tweeboa Tweneneboa Tweweneboa Twu Ya Yanúankah Yeboaoah Yebéoah Yi Yé Yemépéw Okwá
+
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Abebenaa Abeberese Achamíamfour Afiririfa Akomfirah Akooto Ansoong Asiedu Assiuah Atataá Bekaṍe Beká Bereko Boatei Bé Búdu Cofuie Da Danúquah Dúkú Essien Esí Foreour Gyasi Kau Ko Koomi Kuffófour Kuuku Kuwamíme Kwawarteng Kyererewaa Kyereyereme Káo Obu Ofo Oppíg Osesei Oyiakwan Sii Sikéafuo Soadwah Tuféfour Twasam Twíwum Yarótei Yaweo Yu Yú			
+			}
+			
+			regnal_first_names = {
+				Ahinfául Ayá Bonúsrah Nú Opapare Paisil Twu
+			}
+			
+			regnal_second_names = {
+				Asiedu Bereko Ko Kyereyereme Káo Tuféfour Twasam Twíwum Yarótei Yú
+			}
+		}
+	}
+}

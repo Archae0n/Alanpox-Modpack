@@ -1,0 +1,386 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	alfangiewsk = {
+		name = Karnek
+		plural = Karneks
+		home_planet = "Alf Angiewsk"
+		home_system = "Alf Mielski"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	ropodarciski = {
+		name = Ropodar
+		plural = Ropodars
+		home_planet = Ropodarciski
+		home_system = Jarozewidnice
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	spicelandsofjabrowice = {
+		name = Wirowlese
+		plural = Wirowlese
+		home_planet = "Spicelands of Jabrowice"
+		home_system = "Cauldron of Wirow"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	bieman = {
+		name = Biemanean
+		plural = Biemaneans
+		home_planet = Bieman
+		home_system = Szald
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	natowski = {
+		name = Natowskian
+		plural = Natowskians
+		home_planet = Natowski
+		home_system = "Grzych Macki" 
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	pelewska = {
+		name = Pelawskaran
+		plural = Pelawskarans
+		home_planet = Pelawska
+		home_system = Rojewski-Domono 
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	wejrozer = {
+		name = Wej-rozeroid
+		plural = Wej-rozeroids
+		home_planet = Wej-rozer
+		home_system = Siezim 
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	ernoch = {
+		name = Ernochite
+		plural = Ernochites
+		home_planet = Ernoch
+		home_system = Antyn 
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	biena = {
+		name = Bienese
+		plural = Bienese
+		home_planet = Biena
+		home_system = Wolfora
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	wabloch = {
+		name = Gdaj
+		plural = Gdaj
+		home_planet = Wabloch
+		home_system = "Wir Gliki"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	secondsolace = {
+		name = Lubarnian
+		plural = Lubarnians
+		home_planet = "Second Solace"
+		home_system = "First Solace"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	palik = {
+		name = Palíkid
+		plural = Palíkids
+		home_planet = Palík
+		home_system = Miczurz
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	kroda = {
+		name = "Kla Krodan"  
+		plural = "Kla Krodans"
+		home_planet = Kroda
+		home_system = Mlazynoraw
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	luboda = {
+		name = Lubodian  
+		plural = Lubodians
+		home_planet = Luboda
+		home_system = "Wilan Groda"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	augustskybringer = {
+		name = Przylaw  
+		plural = Przylaw
+		home_planet = "August Skybringer"
+		home_system = "Enduring Visage"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	moklonrysz = {
+		name = Moklonrite  
+		plural = Moklonrites
+		home_planet = Moklonrysz
+		home_system = Rabek
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	jaskiprime = {
+		name = Jaskite 
+		plural = Jaskites
+		home_planet = "Jaski Prime"
+		home_system = Jaski
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	glomorek = {
+		name = Glomor 
+		plural = Glomors
+		home_planet = Glomorek
+		home_system = Idzierona
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	janielarna = {
+		name = Janielarnese 
+		plural = Janielarnese
+		home_planet = Janielarna
+		home_system = Wrozistka
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	swiczkinopol = {
+		name = Kinopole 
+		plural = Kinopoles
+		home_planet = "Swicz kin-Opol"
+		home_system = "Tar Zajewit"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	wingsofalewski = {
+		name = Jelinskian 
+		plural = Jelinskians
+		home_planet = "Wings of Alewski"
+		home_system = "Wind of Bobalcz"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	zabliwiec = {
+		name = Zablian 
+		plural = Zablians
+		home_planet = Zabliwiec
+		home_system = Androwiczef
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	moslarprime = {
+		name = Moslaric
+		plural = Moslarics
+		home_planet = "Moslar Prime"
+		home_system = Moslar
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	sierabki = {
+		name = Sierabese
+		plural = Sierabese
+		home_planet = Sierabki
+		home_system = Wirkamski
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	samorcieslaw = {
+		name = Cieslawite
+		plural = Cieslawites
+		home_planet = "Samor Cieslaw"
+		home_system = "Samor Marastiak"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	auryk = {
+		name = Aurykoid
+		plural = Aurykoids
+		home_planet = Auryk
+		home_system = Zycjus
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	bogdaria = {
+		name = "Bochy Bogdaroid"
+		plural = "Bochy Bogdaroids"
+		home_planet = Bogdaria
+		home_system = Alen-Jezno
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	tamir = {
+		name = Tamirid
+		plural = Tamirids
+		home_planet = Tamir
+		home_system = Pulawice
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	firstawakening = {
+		name = Kupa
+		plural = Kupas
+		home_planet = "First Awakening"
+		home_system = "Grand Cycle"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	rochanczak = {
+		name = Rochanese
+		plural = Rochanese
+		home_planet = Rochanczak
+		home_system = Bokot
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	komslenaj = {
+		name = Komslenian
+		plural = Komslenians
+		home_planet = Kom-Slenaj
+		home_system = "Bogodz Ber Slenaj"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	muszegslegacy = {
+		name = "Skus Goda"
+		plural = "Skus Goda"
+		home_planet = "Muszeg's Legacy"
+		home_system = "Wolecki's Majesty"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	kostazowthelightmother = {
+		name = Adakowian
+		plural = Adakowians
+		home_planet = "Kotazow the Light Mother"
+		home_system = "Leodam the Dark Father"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	jarnifa = {
+		name = Jarnifan
+		plural = Jarnifans
+		home_planet = Jarnifa
+		home_system = Miewiczyce
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	kamowski = {
+		name = Kamowskian
+		plural = Kamowskians
+		home_planet = Kamowski
+		home_system = Strzeja
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	lubiuka = {
+		name = Lubiukoid
+		plural = Lubiukoids
+		home_planet = Lubiuka
+		home_system = Regiel
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	podzilins = {
+		name = Podzilese
+		plural = Podzilese
+		home_planet = Podzilins
+		home_system = Chalinski
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	jardolszka = {
+		name = Jardolite
+		plural = Jardolites
+		home_planet = Jardolszka
+		home_system = "Szej Hal"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	dudzina = {
+		name = Dudzinite
+		plural = Dudzinites
+		home_planet = Dudzina
+		home_system = Zygiusz
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	nienarcz = {
+		name = Niener
+		plural = Nieners
+		home_planet = "Nie Narcz"
+		home_system = "Nie Okrek"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	bladowsky = {
+		name = Bladovian
+		plural = Bladovians
+		home_planet = Bladow
+		home_system = Viszow
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	sparkofeternity = {
+		name = Mazurian
+		plural = Mazurians
+		home_planet = "Spark of Eternity"
+		home_system = "Dying Ember"
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	muszow = {
+		name = Muszovite
+		plural = Muszovites
+		home_planet = Muszow
+		home_system = Wyslawasz
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	narnekprime = {
+		name = Narnekid
+		plural = Narnekids
+		home_planet = "Narnek Prime"
+		home_system = Narnek
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	zygiotla = {
+		name = Zygiotian
+		plural = Zygiotians
+		home_planet = Zygiotla
+		home_system = Wiecki
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	karyn = {
+		name = Karynite
+		plural = Karynites
+		home_planet = Karyn
+		home_system = Pilaw
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+	mosniek = {
+		name = Mosniekoid
+		plural = Mosniekoids
+		home_planet = Mosniek
+		home_system = Zbinstach
+		name_list = "cybrxkhan_fantasy_polish"
+	}
+}

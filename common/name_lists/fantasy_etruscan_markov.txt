@@ -1,0 +1,232 @@
+﻿### Handmade Etruscan
+### Threw Etruscan names in a markov word generator
+
+cybrxkhan_handmade_etruscan = {	
+	category = "Fungoid"
+
+	ship_names = {
+		generic = {
+			Achertun Achnazus Achre Aisle Alavina Aluna Ampies Ampina Ampiteruna Amplara Amrena Amrenara Amrenarsia Amrepevelsu Amrez Anthanas Anthania Anthlia Anthrena Antiesina Aralars Aralia Aralis Arametuskes Arana Aras Aratia Aratus Arclamuteia Arcle Arclekus Arculcal Areama Areia Areiassulia Arenia Ares Arha Arhatun Arim Arina Arinia Arkeia Arkhvili Arkia Arkna Armnia Arna Arnza Arpianu Arrana Arratathria Arratia Arren Arrenthania Arrez Arrienia Arries Arriesna Arriessula Arrimna Arrina Arrinna Artatia Artha Arthana Arthi Arthuzas Aruia Aruinth Arume Arumen Arums Arumsna Arus Asia Asitalunis Athur Aties Atintia Atitumna Atra Atramnies Atrialineia Atrita Atritha Auries Aveia Aviteniena Avrea Azcumne Azcuvivine Belpha Beltha Berana Berumna Bira Birazus Birea Birena Birene Bireni Birenia Bireplia Cahia Cahisies Caice Caicnia Caina Caine Caintha Caira Cairenienia Cais Caisania Caisanthi Caishnais Caisna Caisramnua Caisranies Caisraziia Cala Calanthana Calarcl Calfia Calia Calumena Caluna Cames Camna Camu Camuthra Cana Canas Cania Cansna Canthna Canthuza Capanthvina Capekia Capnanthra Capnia Capu Capul Capuria Carcla Carcumne Carhant Caria Carina Carka Carkeries Carkes Carkhuskes Carmne Carpia Carpina Carrepua Carrixia Carthna Cartne Caska Catithina Catria Caturia Caviles Cavina Cavna Ceia Ceianses Ceicnia Ceitia Chaice Chailes Chana Chanthlinas Chartes Chatia Chatrina Clamu Clamutha Clarkneis Clartha Clatrethia Clavivilia Clekia Clenthanies Cleria Clesart Clesina Cleuthaisa Cleva Cureitma Curimna Curra Cusana Cuseties Cusinna Cuskais Cuthicla Cuthila Fanas Fania Fant Fassithra Fela Felkais Fellonia Felsu Felthuna Feltria Feluna Felus Felzna Ferchnaziia Ferknes Fice Ficla Ficni Ficocla Ficocleva Ficra Ficria Fire Fireampeva Firei Fireia Firen Firena Firenes Firepel Firepelia Fires Firethulka Freina Frenz Freplnia Frepu Fres Fresia Frua Fruina Frumnia Frums Fruna Frunas Frunthurna Frus Frusa Fruseia Frusia Fruskes Fuflun Fuflunatia Fuflunthuna Fuflus Fulfia Gale Galekia Gales Galesies Galia Galu Halatia Hale Haleknes Halfia Haluna Harthleukes Harusalia Hatalia Hatha Hathurri Hatina Hatra Hefatria Heinia Hepailis Hepana Hepekutheia Heplia Hepua Hepuvinia Hera Herine Herusla Hevana Hulne Hulnia Hurinnazusa Hurisala Hurithia Hurries Hurthia Hurthva Hurtnathur Huthipeva Huthna Huthul Huthusina Hutur Hutus Icullonia Icumena Icumeruna Icumetia Icumna Icuva Icuvinua Ikutha Inatia Irnei Irntes Irnthrenzas Irntine Kaes Kafarka Kafarkesa Kafarkne Kafas Kaicna Kaicoclia Kaina Kaine Kainia Kainna Kainuna Kainusnes Kairea Kaireitimna Kairenes Kaishna Kaisra Kaisri Kaita Kaite Karkne Kastun Kava Kavanthina Kavesi Kaviles Kavilevsia Kavina Kavnas Kavrenthna Keicri Keisna Keithurnais Kesarkhumna Kisantilnia Kisla Kisna Kisrinuna Kneia Knelthi Kuia Kuina Kuinas Kulnelp Kuluna Kutumne Kuva Laisanthi Lamaralia Lara Larcmena Larha Larias Larkais Larkeruina Larkna Larmna Larmun Larna Larth Larthrez Lartia Lartna Latina Leburnazus Lekna Lekne Lekuines Lekuinumna Lekutus Lekuvilthna Libur Liburenthia Liburies Liburnas Liburreti Mamna Mamuna Mana Manarkas Mankhva Manth Manthania Manthia Manthiph Marensetha Marha Marine Markaishna Markia Marnthia Marpinna Martesina Marth Marthei Marthia Marthva Martna Maruna Melarime Melekne Melhais Melsia Melthinera Melthrana Meltur Meluna Menas Menesa Merthura Mesaluntha Mesia Mesina Messiesna Messina Metalartna Metalus Metenelkha Metenthna Metha Methesa Methilnia Methines Methipina Metia Metlu Metna Meva Mevanthren Mevelsulina Mevenacnies Mevsi Mevsia Mevsitena Muna Munanus Mutha Muthanthrea Muthia Muthiphia Muthukes Muthus Mutne Mutunthi Muturine Mutusarthre Narma Nepa Nepapurna Nepelzna Neperina Nepethia Nepetinia Neplu Nepulkavile Nepulthia Nera Nerchna Nerkhuzas Nerna Neruna Nesia Neva Nortin Nucalia Nucria Nulamam Nulni Nulunati Numarthi Numena Numer Numnus Nurinchra Nurrim Nurt Nurtnas Nuzas Ortne Paiclarkia Paina Pankhva Panthun Panthusi Papapnia Papapua Papavilara Papevelp Parkia Parkna Parnthrena Parpiles Parsna Parth Parthra Parthsa Partia Pathi Paties Patilia Pauina Pauna Peia Peines Peisesna Peisia Pekna Pekne Pekula Pekus Pekutues Peltus Perala Perana Peraniesia Peraties Peratina Percherna Percla Percliana Percmes Peri Peria Perinia Perisina Perkes Perkia Perna Persies Perth Perua Perumna Perun Perunia Perus Pesna Petianarkas Pevelznatia Pevsia Pevthia Pevthila Pevthuri Pheisna Phesi Phle Phlia Piesa Pila Pile Pilena Pilesu Pilia Pina Pisethias Pisies Pisiesna Pisineis Pisita Pisra Pisusalia Piten Plaisra Plalesi Plamna Plantia Plekuina Plekuskes Ples Plesanthe Plia Prun Prusa Pularas Pulia Pulkaithus Pulkavre Pulumnartun Pumes Pumesina Pumna Pumnaina Pumnarkesne Pupeltha Pupessu Pupethna Pupetinxna Pupursitena Purha Purime Purnz Purnzassul Purthan Purthi Purtumet Raina Rainia Rairenies Raitma Ramnumnatia Rania Rankhva Ranus Rastesula Rath Rathia Rathna Rathras Ratia Ratlia Ratna Rauna Raunas Rava Ravi Ravine Regiun Regiunth Remna Remnia Rumerimna Rumnais Rumsna Ruslessia Ruvana Sabathva Sabati Sabaties Saene Saentias Saes Sainesu Sairesia Saisithi Saiterim Saiteruna Sathurenzas Sathusna Satia Scala Scankhukes Seina Seitaluna Seitatia Selthna Selzna Semna Semnazusa Semnes Senia Sesi Sesusna Sethna Sethva Setia Setianxna Setim Setlitna Skavina Skesialiana Spitena Spitmamne Spuria Spurialun Spurim Spurthia Stairesi Staisa Stalekus Staleusina Stali Starthatia Startna Stathilia Statina Steia Stena Stenesna Sterkia Sterter Steukesul Sues Suesu Sureia Surie Surime Surinis Surnthre Surrimna Suthuretra Suthuries Sutuma Svea Sveame Svel Sventhuzas Tala Talipla Tarathi Tarcle Tarclete Tarclia Tareia Tares Tarkia Tarkna Tarnatues Tars Tartha Tarthava Tarthiana Tarthilia Teinia Teisemneva Telara Telpuvfna Telsnazus Telthra Tenthansna Tenzas Terthukesia Tesa Tethia Tetlia Tetners Teukeratria Teukes Teukessina Teusanumna Teuthatim Than Thankhurthi Thantha Thavrea Thefas Theia Thena Thens Thercums Theria Thes Thesie Thesna Thessine Thia Thila Thiletumsna Thilia Thilthntena Thina Thipiteis Thipsu This Thisa Thlesaluna Thlesia Thna Thnaskes Thra Threna Threnes Threnia Thriesula Thritesita Thsa Thukes Thukesia Thums Thuna Thunthria Thuperies Thur Thures Thurina Thurities Thurnz Thus Thusinisa Thuzas Thvan Tinuanas Titala Titathus Tite Titel Titeria Tithatna Titmarmamu Tlainta Tlarina Tlarkne Tlartna Trena Trenatia Trenia Trent Trenthice Tres Tresul Tula Tulamarka Tuleuthis Tulfia Tulia Tuliana Tulkhuna Tultuna Tuluna Tutha Tuthatia Tuthri Ucrauna Ucrenzas Urchnathva Urchre Urclanthula Urcme Urcstesa Uriena Uries Urinxna Usclamuna Usclena Uvies Uvileukes Uvilne Uvina Uvithuluna Vatia Vaties Vatim Veicna Veiterciu Veitha Veithis Veiturne Velailia Velainna Velalus Velamarria Velarana Velarpile Velca Velcan Velchna Velchrena Velcina Velcla Velclekne Velha Velis Velisia Velka Velkaina Vellia Vellona Velphava Velphes Velphi Velpullita Velsi Velsia Velsina Velsna Velsula Velth Velthais Velthana Velthes Velthi Velthia Velthina Velthiphia Velthla Velthus Veltrentha Veltriturea Veltues Veltumnuma Veltumplnes Veltur Veluna Velzna Vena Venas Venaziia Venia Venthanua Ventharana Veraziia Verce Vercumama Veria Verim Vesites Vesna Vesnais Vetherua Vethis Vethries Vethusi Vetia Vetlia Vetlu Vetna Vetumnathus Vienzassusa Vies Viesna Viles Vilia Vines Vipetercia Vipeva Vipevsina Vipha Viphefara Viphi Viphia Viphiani Viphilia Viphina Vipia Vipiliten Vipina Vipith Viptesinna Visaniala Visi Visia Visna Visrania Vite Vithur Vitna Vivies Vivina Vivintha Vrensna Vularisle Vulcli Vulekia Vulia Vulun Zerana Zerkia
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Classis Herus" "Classis Thava" "Classis Cutesulia" "Classis Purina Pina" "Classis Pesia" "Classis Laria Rassi" "Classis Capanthis" "Classis Parkhumsna" "Classis Setia Rais" "Classis Melath" 
+		}
+		sequential_name = FANTASY_ETRUSCAN_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = { #mid-Republic based
+			
+		generic = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxASSAULTARMY_ORD
+		}
+	
+		machine_defense = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+				
+		psionic_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_ETRUSCAN_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Achna Acrei Acreisna Acrenthia Acris Aisalama Aisina Aisna Ampala Ampete Ampetna Ampevsina Ampie Ampiensna Ampies Ampilthrina Amplathes Amreicnia Amreisramna Amretena Amrez Archrienth Aretna Arimne Arinchna Arrena Arrene Arusalarna Aure Aurna Aursna Aurta Azculu Azcuma Azcumsna Belchna Belesi Belevansnth Belkha Beltha Beltrim Berchuna Berne Bire Bireicni Birena Birez Cahinia Caicna Caine Cainies Cairena Caite Caith Cala Calalipitma Caluna Calunia Camna Camnas Camplumnei Camu Capa Capain Capaini Capalis Capavna Capete Capevsi Capevsina Capnas Capul Capuleva Capulp Capulun Capuvfna Carce Carciuna Carcuvi Carenthurt Carharmna Carim Carna Cart Cartim Cartums Caset Caturethi Cavnasi Ceicnia Ceisetna Ceite Chaina Chaini Chainua Chainxna Chaira Chaireplne Chaite Chales Chalesna Charcleva Chatri Chavna Claisnara Cletlunas Clevsina Curce Curha Curitenz Curna Curthate Cusina Cusla Cutenthi Cuth Cuthina Cutna Fanuza Fanxna Felpuvant Felsi Feltumsnas Felzna Ferua Ferumnarha Ficla Ficna Ficnia Ficrim Firena Firenacnia Firepetias Frua Fruias Fruine Frumna Fruna Frunas Frusetluna Fuletluna Fulia Furim Furrenth Galisa Halaliase Halame Halamun Halevsinia Halinas Harcmerunia Harmne Hatluna Hatra Hera Hercla Hernth Herun Hevsi Hortura Hulcania Hurcuvfna Hurena Hurina Hurna Hurrenthina Huthaicnia Huthvana Icumsna Ikuvfna Ikuvilthuri Ikuvine Irntiena Kaisinua Kavanxna Kavina Lara Leburthi Libura Mana Mani Maniena Mansna Manthia Marinia Mart Melaina Melha Melkhaite Melmu Melsul Meltha Metiena Mevansna Mevsina Misalesina Misine Misna Misuli Munthai Mutha Muthene Muthi Muthiana Muthina Muthurne Muthusine Mutie Nepeva Neplne Nepulpuvfna Nortaluna Northina Northuna Nucrei Nucri Nulph Nurtal Pariena Part Parthi Parumna Pathia Patlunth Paturisne Pauias Pauin Pauinia Peia Peialis Perale Perchnth Percina Permna Perna Phefara Phlama Phlesina Phlevanua Piletuna Pilevanua Pili Pilia Pilth Pishnthuset Pisles Pitna Plara Platra Platria Pritna Prunasina Prusinia Puluna Puma Pumna Pumne Pumsna Puplia Pursi Raicocla Rainei Ruvina Sabatim Sabatine Sabatne Sabatria Sabaturtna Saentali Saithi Satrana Scal Senz Spite Spitina Stalisriana Statuesna Statumna Suesna Surimne Surinia Surne Surntiesnas Surrepulis Surretuna Surtna Suthai Sveamera Sveamna Sveamne Sveamu Svena Tarciuna Tarcla Tarcme Tarial Tarkini Tarmun Tarna Tarumna Telth Thefara Thuli Thulia Thurth Thurthia Thusina Thusinaset Tlaishna Tlaturimnua Tlava Tlavi Trena Tulfa Tulloni Tultri Tuthi Tutna Urchna Urciu Urcme Usclantia Vatena Vathi Vathnta Velais Velana Velchna Velchritera Velcia Velcin Velclaleva Velcle Velhales Vellona Velph Velpha Velthi Velthina Velthna Veltriana Veltuesna Veltuma Veltun Velturixia Vergomsne Vesna Vesul Vetha Vetuna Viene Vieneicl Vipetim Vipevsina Vipile Vipileva Vipite Vipitera Vipithra Vipitia Vipla Vipsulesulu Vipte Viptene Vipua Vipuana Vipuvi Visa Visinxna Visna Visri Volthine Volthna Voltria Voltuna
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+    ### CHARACTERS
+
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Aranais Aranas Aranazus Arantes Aranthefars Aranthresus Aranthukes Aranthumes Aranthuzas Arnzaskes Artesies Arthis Arthumenies Arthuriesus Artnas Avies Avileknes Avilekneves Fel Feltheis Felus Kailekus Kailesantes Kavileknes Kaviles Kavres Keinel Keintes Keis Keisies Keitus Kuinelus Kuines Kuineves Kuinthres Lariesnais Lariesus Larker Larkhur Lartes Larthur Lartnazus Mamaries Mamarker Mamartes Mamarthur Mamarthuzas Mamartnazus Markeriesus Methis Methres Methukes Methumentes Methuzas Nertes Nerthur Nertnazus Numen Numenel Numenes Numes Numesnas Papnies Papnisies Pesnazus Plesus Ranas Rantes Rantheis Ranthus Ras Sethukes Sethur Seties Setiesies Spur Tarker Tarkes Tartes Teinel Teines Teinthis Teinthres Teinthumes Teukes Teukesnazus Thefarkes Thefars Thefarthus Theis Theitus Thesies Thres Thus Thuzas Thuzaskes Titus Tituskes Velthis Velthumes Velthuries Velus Veluskes Veneves Veniesus Venis Ventes Venthres Venthur Venthuries Veties Vulkasker Vulkaskes Zeries Zerthus Zertnailes
+            }
+           
+            first_names_female = {
+				Aratia Arrinatia Aruna Arunarthlia Aruntha Arunthila Arunthiphia Atianthia Atila Atilnia Hathra Hathva Hatia Heria Herkarpia Herknarkia Kaesa Kaesitenia Kaessia Kafathia Kafathra Kafatila Kainnartha Laria Larinna Larkna Larknatia Larpia Larpianusa Larthania Larthilnia Larthratia Mesanatia Mesia Mesita Mesitellia Methia Metia Munarkartha Munathania Munatilia Muntha Munthia Munthilia Munthlia Munthraziia Neria Nerka Nerkartha Nerkia Nesia Nessia Pankhva Panseia Peria Perkarkna Perkna Pevthia Pevthra Pineia Puria Purineia Ramuthia Ramuthila Ramuthiphia Ramuthva Rauna Raunthilia Sesia Sesitela Sesitenia Setia Setila Ska Skarkarka Skartha Skarthurea Steniana Tethlia Tetiantha Tha Thanarpia Thankhvilia Thanthilia Thanusana Thilia Thiliana Thiphila Thupela Thupelia Thupellia Titenia Titha Tithia Tithilia Tithra Vellia Veltha Velthia Velthra Velthraziia Vessia Vitenia Vithupela Vithvinna Vivila Vivilia Vivina Vivinatia Vivineia
+            }
+			
+			
+			second_names = {
+				Arana Arantes Aranthania Aratia Arthefathia Artnazus Atianaziia Avilekia Avilnia Hatia Herkerkes Kafaties Kailia Kailnia Kainna Kainthva Kavila Kavres Keiten Kneitus Knesa Kuines Laries Larkhva Larknaziia Larknes Lartenes Larthes Lartna Lartnazus Mamuthia Markarpia Methvilekna Metia Muntelthres Nerka Nerkes Nerthia Nerthus Numenthur Numesanthia Papnia Pekus Pesies Pevthupela Pinel Pleknes Ramarkna Ranis Ranthures Rastia Setha Sethia Sethumes Setia Setilesia Setlia Skartes Spuriessia Taries Tartes Tarthia Teithlia Tetianies Tetlia Thanthila Thanthlia Thanus Thefartna Thiphia Thratilia Thres Titesanten Tithiphia Vellia Velthres Velus Vetha Vetilia Vivies Vivila Vivilekia Vulkartha Vulnia Vulnis		
+			}
+			
+            regnal_first_names_male = {
+				Felus Lartes Numen Tarker Velus
+            }
+           
+            regnal_first_names_female = {
+				Aratia Herkarpia Ramuthia Skartha
+            }
+			
+			
+			regnal_second_names = {
+				Arantes Keiten Lartna Numenthur Thanus Vulkartha		
+			}
+		}
+	}
+}

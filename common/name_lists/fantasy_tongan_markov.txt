@@ -1,0 +1,233 @@
+﻿### Fantasy Tongan
+### Tossed IRL Tongan names into a markov generator
+
+cybrxkhan_handmade_tongan = {
+	category = "Aquatic"
+
+	ship_names = {
+		generic = {
+			'aka 'alape 'alatu 'angalo 'apa 'ate 'atotono 'eapuleika 'eau 'eilino 'einī 'ekafu 'ekaputu 'eseseino 'eseseleo 'esi 'eu 'euei 'eueto 'eulifeva 'o'a 'ofulahika 'ofuli 'ohouleki 'okululo 'oleiti 'olo'ou 'olo'umo 'omafāna 'ona 'onga 'ongame 'oni 'ono 'onukautu 'onukeleka 'onuku 'oteo 'otoneini 'otu'u 'otuanokū 'otumosise 'ou 'ouamoka 'oumata 'uakamo 'ufu 'ufua 'ui 'uihonga 'ulanevata 'ume 'unamolotu 'unau 'unga 'ungo 'unukamota 'uta'amaio 'uta'anga 'uta'ui 'utahi 'utanaka 'utanau 'utangata 'ute 'utua 'āna A'afeleki A'ala A'apaea A'atume A'uta Afai Afipoke Afoa Afolua Afotaeango Afou Afu Afuai Afule Afuselelemei Aha'a Aiha'apua Aikutulaki Aini Ala'a Alapi Alapu Alatulu Aleu Aloa Aloni Alonu Anangatala Anasisio Anau Anei Anga Ango Ani Anisiu Ano Anoa Anohoke Anovenini Eleme Eli Elimatā Emi Emorite Emosakifu Fa'a Fa'ali Fa'au Faani Faasiatua Faeaua Faeu Fahi Fai Faiapua Faio Faisopopu Fakamo'o Faki Faki-va Faktoke Fala Falala Faliamuiva Faloni Fanangi Fanani Fananonga Fanasemi Fane Fanono Fanua Faseleka Fasesi Fasia Fasie Fasipea Fasiu Fata Fatafo'okū Fatana Fatapa Fatau Fatiica Fato Fatofu Fatonutateua Fatu Fehaka Fele Feli Felimokoloa Felisie Fesi Fesia Fetapanga Fetauifu Feti Fetiica Fetonga Fetongi Feva Fevaiafafu Fevakaleheti Fine Finiua Fino Fio Fionga Fo'oha'o Fo'otata Fo'ote Fo'ou Fo'ua'ui Fo'ungahi Foiata'ane Foikalale Foiki Foiki-toke Foilikiua Fololou Fone Foneakala Fonga Fongasi Fongatau Fongelelua Fongi Fongiake Fongolu Fonoa Fonongia Fonua Fonuka Fonukaha'a Fonukama Fotu'uma'a Fotua'o Foulalango Foumu Fua Fuka Fuku Fukulata Fule Fuletikilike Fusei Fusī Fute Futone Futuamine Fā'iameleta Fā'iatonga Fāna Fānala Fānalo Fānaneau Fātahu Fātufai Ha'a Ha'aka Ha'ala Ha'alapaua Ha'ale Ha'alesikapa Ha'ame Ha'ameai Ha'amoto Ha'ane Ha'anga Ha'anoia Ha'apa Ha'apunga Ha'ata'aki Ha'ava Ha'aveleki Ha'eu Ha'one Ha'oteo Ha'oule-ki Ha'u Ha'ua Ha'ui Ha'uta Ha'utunga Hafakilia Hafui Haha'ui Hahia Haka Hakana Hakango Hake Hakelaleia Hakifonga Hakolongino Halahou Halau Halesi Haliapa Hama'a Hana Hanga Hangia Hata Hatafaneva Hatelano Hatu Hatu'ava Hava Havaotoa Havaveinga Havilaka Havutasini Ho'ou Ho'utōua Hoiamelei Hoka Hokeni Hokoula Hokumai Hokū Holau Holoa Holomu'ala Holotuine Holu Hopo Hopuenga Hoto Hotu Hotu'a Hotueiho Hotufukake Hotui Hou Houa'u Hungi Hunoifu Hunoilapu Hunoka Hōfolafa Hōfone Hōfonua Ikaota Ikapuku Ikilahu Ikotu'atiica Ikunga Inga Ini Isai Isielemeau Isiu Ka'ou Kafo'ou Kai Kaili Kameniu Kamotaiputa Kane Kanga Kaoa Kapa'aka Kapane'ia Kapepikane Kata Kau Kavalafepa Kelitofu Kengata Keni Kepaha Kifusia Kili Kioa Kiva Koa Kolasili Kolau Kole'ia Koleau Koleitu Koli Kolipe Kolo'o'u Kolofanga Kolofu Kololopu Kolomamo Kolopuku Kolota Kolotonu Kolou Kolua Kolungiao Kolutufatu Kolutulola Kone Kopo Kotafisi Kotai Kotoane Kotu'ula Kotulasi Kou Koulomafo Koumaasia Koungia Kuha'otua Kula Kulua Kungi Kupuhe Laaki Laataha Lahifu Lahā Laka Lakane Laki Lalini Lapaea Lapeka Lasifuetui Lata Lata'ata Latu'ufaine Lau Lauluamo Lautungani Le-ki Lehe Lele-ki Leo Leo'u Leva'a Levaoa Liaote Lietoninonga Lika Liki Linimana Lisipu Litelia Lo'onga Lo'onukuhe Lo'u Lo'utoa Loa Lofokū Lolongia Lolonukule Lomiseletou Lomisiteli Lomotonua Lomuinga Lone Lone'ou Lonei Longa Loni Lonuatu Lonumuiti Lopangala Lope Losalia Losika Losino Lotemelekao Lotonuku Lotuheua Loumalia Lua Lua'ala Luafa Luafotonga Luahe Luanga Luanua Luapu Luatani Lula Lulaua Lulipo Luluteo Lunga Lungatu Lungite Luse Lusī Lutu Lutu'a Lutumu Lāve Lāvela Lāvelehefa Lāveni Ma'a Ma'ala Ma'ua Maahu Maamala Maani Maanitoa Maasesi Maataha Maatea Mafatape Mafo Mafoa Mai Maiatakai Maiki Maisi Maka Makafutava Makahifa Makahifo'u Makalasi Makapi Makatu Makaveli Make Makeni Maki Makifoa Makilau Makiva Maktopu Malaufasia Maleitopu Maleka Malelesiu Maleva Malifoulia Maliki Maloni Mame Mami Mamo Mana Manaki Manata Manau Mane Maneau Maneinī Manga Mangasi Manoke Manuafu Manuma Mapeta'u Mapole'ia Mapu Maputama Maputuleva Maramaka Masi Masiakai Masietā Masisiu Mata Mata'u Mataeua Mataha'ou Matana Matape Matatapangai Matele Matelemise Mati Matofa Matokaka Matu Matu'ape Matu'apeto Matu'utea Matumo Matā Mau Mautu Mea Meainī Meananga Melatafioa Melieti Melua Meni Meniutu Mikilifo Mini Minine Miniuataua Minī Misiafokao Mo'one Moka Molau Mole-kia Molo Monga Moramakafai Moramaki Mosata Motalaulotu Motanoa Motea Moteualu Moto Motonua Motua Mu'aka Mu'aleia Mu'analelia Mu'asino Muimo Mulaneiaui Muluanana Munga Mungiami Mungo Naka Nakatanine Namele Nameletu Namini Nasia Neia Nekai Nesi Nga Ngamaname Ngateliatā Ngati Ngo Ngua'ahifu Nimafone Nimosaikio Ningakalea Nito'unga Nitui Niu Niutuhiki Nivaka Noifo'uatoha Noke None Noni Novaoa Novele Nua Nua'atake Nua'ati Nua'utupu Nuahiaka Nuahiha Nuamotolu Nuapu Nuatangau Nuka Nukai Nukao Nukuha'ahi Nukuhi Nukula Nukule Nukulia Nukulotoka Nukumate Nukunau Nukuta Nuto Ofa'ototu Ofaei Ofane Ofo Ofo'utau Ofouma Ofua'atelia Ofuatava Ofulu Okelesiesi Okomu Okufatu Ominokumau Onea Ongiato Ongo Onoi Onuka Otu Ova'anerva Ovai Ovaiholonoka Ovalaka Ovavutelia Oveli Pa'asimo Paeu Pahauite Pahihouafua Paisie Pane Panua Pau Pele Pelia Pelika Peniva Petanomu Petu Poa Pola Polo Poloa Polofo'u Polopu Polotonga Polotu Polualosa Popa Popeto'ou Popu Pou Poumara Poumoto Poungeli Pueiki Puha'uinone Pukuluai Punga Puni Putani Putu Pāta Pātafahaka Pīku Pīkupouanga Pīkusia Sai Saikai Sailevaini Saine Saisi Saka Sakai Sakapula Saki Sale Salei Salo Samai Samalini Sanga Sangai Sanganiua Sapa Sapahau Sapou Sata Satanana Sea Seaunga Seia Seitofoiki Sele Selelua Selia Seliatuloni Selua Sesemeakami Sesi Siamailau Siamali Siapekao Siatele Siau Siaungiata Sikamano Sikau Sikaupaeua Sikiti Sili Silitu Simonga Sini Siniuafoa Sipu Sito Siuatatapa Soa Soamisi Soanga Sonea Songa Songoifoa Sonuaniuaka Sopoloa Sosai Soseiakenga Ta'ana Ta'u Ta'ui Ta'utu Taea Taeia Taeua Tafa Tafilele Tafonerva Tafonukupu Tafu Tafuka Tafunga Tafutu Taha Taha'akahu Tahafongia Tahala Tahi Taholo Tahu Taipa'a Taka Takafoa Takilielia Takāve Talaasiata Talalapa Talesikatu Tali Taloni Tama Tamo Tane Tanga Tangalata Tangia Tao Tapapau Tapauahifa Tape Tapea Tapue'otonga Tasifusī Tasikuhe Tasiu Tateni Tatopu Tatuka Tauafato Taui Tea Teana Teanoa Tefila Tefioa Tei Teihika Teito Teka Tele Teleimuihi Televaini Telia Teluatau Telusi Temeanga Teninoku Teone Teuetili To'u To'ulula Toa Tofa Tofai Tofalau Tofanawuna Tofoluahu Tofonua'a Toholauku Toka Toka'a Tokaunga Toke Tokeleo Tokoa Tokou Toku Tokulua Tolia Tolo Tolonga Tolopuku Tonani Tone Tonea Tonukamelei Tonuteli Topea Topu Tora Totapeniu Tote Totoa Totu Tou Toua Tu'a Tu'ahunga Tu'avilate Tu'o'o'u Tu'u Tua Tufana Tufu Tuhakelulule Tuihifula Tula Tulale Tulua Tulula Tumaatu Tumataka Tumula Tunga Tupungatou Tutu Uahouma Uala Uata'a Uimise Uiva Uivaimapuka Uola Uolo Uolo'u Uolomata Uone Uongala Uoni Uono Utua Utuifua Utumu Va'atake Va'o'a Vahaunga Vahifu Vai Vaiki Vaikupuhoi Vailoa Vaimolo Vain Vainongo Vaiva Vakakalane Vakamo'apa Vakapoa Vakaua Vala Valani Valapa Valau Valauato Vao Vaosia Vaota'utau Vavaka Vave Vaveni Vei Veiatā Vele Velielua Veni Vikau Vikitu Vikoloa Vili Vilia Vitaveine Vito Vitui Vitulala Āfaleti Āfaletiica
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Le-ki Navigators" "'otu'ala Navigators" "Maka'a Navigators" "Alapokū Navigators" "Fo'utauku Navigators" "Tokolōloa Navigators" "Fāteaka Navigators" "Ha'anga Pokoa Navigators" "Vitofongi Navigators" "Ha'oumea Navigators" "'euli Navigators" "Kepapuahe Navigators" 
+		}
+		sequential_name = FANTASY_TONGAN_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+
+		
+		occupation_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_TONGAN_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				'Alautonua 'Ama'akile 'Amamisia 'Amamisitu 'Atailo 'Atasinī 'Eua'akāve 'Eue'imoto 'O'ufanga 'Oloa 'Oneau 'Otoku 'Otolo 'Otu'aka 'Uihihifanga 'Umula 'Utuanga A'atuahā Alemea Fa'anuapaupu Fa'atapeke Fafui Fai Fakilolololu Faleka Fangi Fango Fasia Fasiapahake Fata'a Fata'anea Fatatu'unga Fatoka Fatopu Feta'ei Fofa Foi Fonevakaunga Fongato Fongofa Fongofongo Fotu Fotuleto Fungate Futaha Fā'ia Fāheto Fāna Ha'angotoa Ha'asi Ha'ulala Ha'una Ha'utupu Hakahu Hakilifa Halefesia Hava Have Hiho Holoa Hopuliesia Kamotahiku'a Kani Kelei Kenga'o Kitoa Koleleme Kolini Kolofa Lomamunga Lonekipeau Longa Lonūafā Lotonuaia Lotu Lotupuaikave Lua Lua'eai Lua'eama Lua'ufa Luafesiu Luahi Luaketa Luanga Luatu Lāveleo'o Ma'asiu Ma'avao Ma'uno Maka Malaangakili Malaka Malau Malehake Mana Manga Mangahi Mangi Manukupa'ata Masiu Mata Mata'atoa Matahautu Matahi Matapai Matau Matunga Mo'oumanga Monga Motokoa Motopo Mu'unga Mui Muifevai Muivalei Neihakana Ngatu'atoa Ngofanga Ninokahā Niuta Nukau Nukulungaha Nukunau Nukuseiti Nukusi Nukutu Ofo'uaio Oneke Ova'amai Pahau Panau Pango Pele Polo Popaino Pukamisi Pīkunga Pīkupu Siafo Sie Sikafeva Ta'ake Ta'anuke Ta'ata Ta'au Ta'otanga Tahaunga Tahu Takioa Tangite Taolongo Tata Tautulano Tele Teufailova Teufutaki Tofuahokū Toka Toke Toko Tonga Tonguaio Tonua Tonua'anoa Tonume Topu Topungahau Tu'a Tu'atu'atu Tu'u Tu'una Tueihi Tuenutu Tungomotuta Uolōlonga Uongofo'u Utu'a Vai Vainitoa Vaipolofo Vaivitofu Vakafa Vao Vaolo Vaotapoa Vavitutapu
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+    ### CHARACTERS
+
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Aisai Aisaia Aisaiaki Aisake Aisea Aisi Aisia Aisiati Aisila Aisone Aisoni Aisonita'u Ale Aleki Alelepi Alelu Alese Alesi Aleti Ali Alipeti Ani Anitaeula Anite Anitele Anitone Arami Aramisi Eloa Emomi Emosili Fele Felelelimi Fepi Fepike Fepiki Fila Fili Filimosakane Filipata Fusi Fusili Fusilimi Halelesila Haleluta Halemi Halese Haleti Haletilimomi Haloanawune Halone Haloni Ikai Ikanawune Ikangalese Isi Isiku Isila Isilaulaula Isili Isiliami Isita'u Kata'u Kateni Katenita'u Keleki Keleti Keli Keluta Kelutangaloa Lisaiaosi Lisake Lise Lisesi Lisi Lisoni Lope Lopou Maahou Maakaiaosi Maakanase Maakane Maakanesi Maaki Maami Maamisiku Makaiake Make Maktoni Manasesi Manasi Manasiami Manawuni Mane Mangaloa Mani Mata Mataea Mate Mateki Mati Mike Miku Moea Moeake Moeaki Mosi Mosilipati Nase Nasi Nasia Nata'u Nataeula Nate Nati Natiliakane Ofaake Ofaama Paeula Paeulaulauni Pelele Pelepiku Penite Pitaea Pitane Pitolutaea Pitolutanesi Pola Polaune Polu Poluta Saleki Saloane Saloni Sama Samise Sata Sataeula Satane Satele Saufaahou Saulaufaami Saune Sauni Saunitola Seleki Seleleli Seluta Semea Semeake Semisai Semisoni Sesea Sesesi Sesi Sesila Sesiliata Sesite Sia Siama Simisitola Simomi Simosake Simosiami Sioni Sionitua Soa Soanawune Soanawunesi Soangalemi Sonese Sonita Sosakai Sosake Sosakeli Sosaki Sosaktoni Sosesi Sosi Take Taki Taktoni Tanasea Tanawuni Tane Taufa Taula Taune Tauni Taunitua Tevita'u Tevite Tevitoni Tevitua Tola Tolu Toluta Tolutane Tope Topeti Uateki Uati Vileki Vili Vilia Vilipate
+            }
+           
+            first_names_female = {
+				Aili Ailia Ailini Ailinisi Ailita Aka Akai Akaiseini Akaliseane Akaloa Akaloteliame Akanama Akanese Ali Alia Aliama Alisea Alisitua Alita Ana Anama Anamalea Anamali Aname Anasi Anawune Anawunesi Ane Aramali Aramalia Arame Fepikali Fipau'u Fuse Fuseanama Fuseini Fusi Fusilia Kata Kata'u Kate Kateki Katili Ketaeana Ketilimomi Lese Lesi Lesietili Lesietilia Lesilielesi Lesita Lesitua Liame Losanama Losane Losangali Losangaloa Luse Luseaktola Luseangaloa Luseangalote Luseini Lusi Lusielese Lusieta'u Lusilia Lusita'u Luta Luta'u Luteki Maahou Maamali Maamaloa Maamalote Maame Maate Maateki Maati Maatili Mai Maisietilia Maisipe Maisitaeula Maka Makaise Makaloteki Makane Makangaloa Maktola Maktoluta Male Malesi Mali Malimomi Malitaeane Maloa Malote Malotelesi Mana Manasi Mane Mata Mata'u Mataeaktolia Mataeane Mate Mateki Mateli Matelisi Mati Mela Melese Meleseanese Melesi Melesilia Melesilisi Melesita'u Melesitua Meli Melia Meliama Melieta'u Melimomi Melini Meliseini Melita Moea Moeaka Moeana Moeane Moeangalesi Moeangaloa Nana Nane Ofaama Ofaamalia Ofaata Paeakane Paeaktolita Paeana Paeane Paeula Pola Polia Polimomi Poline Poluta Polute Polutelia Sale Salese Sali Salia Saliamalia Saliame Salise Saloa Salotela Sata Sata'u Sate Satilia Seine Seiniseana Seiniseine Seinisi Sele Selea Seleane Selesi Selia Selini Selise Selita Selitua Sise Siseini Sisieta Sisilisi Takali Takanasi Takane Takanese Taktoli Taktolute Taktolutela Tana Tanama Tanasipe Tane Tanesi Tau'u Taufa Taufaati Uine Uini Uiniseine Uinisi Vikai Vikaiseine Vikanasi Viku
+            }
+			
+			
+			second_names = {
+				Afaeaka Afaeinga Afaeinoa Ahotanga Ahotau Ahotu Faka Faki Fakilikonau Fala Faleo Faleti Falolika Faloliti Fataeinga Fataeinginoa Fatafu Fataninoa Fatau Fatoriti Fatu Fin Fina Finga Finoa Hafiliki Hafiliti Hafu Hatani Hatau Hato Hatoriti Hatu Hatuma Huboka'osi Koulatu Koulau Lataeaka Lataeinga Lataninau Latau Lato Latora Lika Liki Likona Lopeni Lopeninga Lotafiliki Lotau Lotu Maasifoka Mafiliki Mafilitiica Mafoka Mafu Mala Malau Maleo Maletafu Meni Menin Mola Molatafoka Molika Mora Moriti Moritika Moritiki Moritikongin Nala Nalatafu Naletiica Nalolikongin Nalolitiica Nalolu Otora Otoriti Otoritika Taika Taiki Tanga Tanginga Tani Tanina Taninau Tataeaka Tato Tatuma Tona Tonau Topenin Topetaeinoa Topeti Topetiica Topetiki Tuetau Tuetiica Tuetiki Vai Vaika Vaiki Vakileo Vakilitiica			
+			}
+			
+            regnal_first_names_male = {
+				Aisea Isita'u Kateni Pitaea Tanasea Tolu
+            }
+           
+            regnal_first_names_female = {
+				Aname Fipau'u Lusita'u Moeaka Tau'u Vikai
+            }
+			
+			
+			regnal_second_names = {
+				Afaeaka Faleo Fatu Huboka'osi Lotafiliki Mola Nalatafu Nalolu Tanginga Tona Tonau Tuetiki Vaika		
+			}
+		}
+	}
+}

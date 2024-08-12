@@ -1,0 +1,422 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	isdan = {
+		name = Isdanese
+		plural = Isdanese
+		home_planet = Isdan
+		home_system = Kemitiel
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	sanctuaryoftheevermorelight = {
+		name = Ophandissian
+		plural = Ophandissians
+		home_planet = "Sanctuary of the Evermore Light"
+		home_system = "Temple of the One"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	xathoel = {
+		name = Empyreel
+		plural = Empyreel
+		home_planet = Xathoel
+		home_system = Camabri
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	amandin = {
+		name = Amandinian
+		plural = Amandinians
+		home_planet = Amandin
+		home_system = "Xath Aviael"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	xethalmos = {
+		name = Xethalmoid
+		plural = Xethalmoids
+		home_planet = Xethalmos
+		home_system = Qionoia 
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	virgia = {
+		name = Virgian
+		plural = Virgians
+		home_planet = Virgia
+		home_system = Amtifora 
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	jerpetis = {
+		name = Jerpetoid
+		plural = Jerpetoids
+		home_planet = "Jerpetis Prime"
+		home_system = Jerpetis 
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	isdandra = {
+		name = Isdandrian
+		plural = Isdandrians
+		home_planet = Isdandra
+		home_system = Labria 
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	perman = {
+		name = Permanese
+		plural = Permanese
+		home_planet = Perman
+		home_system = "Adir Tabria"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	yxdiel = {
+		name = Pesiu
+		plural = Pesiu
+		home_planet = Yxdiel
+		home_system = Salgalaia
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	altartohope = {
+		name = Mitarlegid
+		plural = Mitarlegids
+		home_planet = "Altar to Hope"
+		home_system = "Hallowed Ground"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	eialione = {
+		name = Sabelite
+		plural = Sabelites
+		home_planet = Eialione
+		home_system = Dabrian
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	naamielarah = {
+		name = Naamiaran  
+		plural = Naamiarans
+		home_planet = "Naamiel Arah"
+		home_system = Maddos
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	ophriel = {
+		name = Ophrielan  
+		plural = Ophrielans
+		home_planet = Ophriel
+		home_system = Dhezvia
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	thunderousglory = {
+		name = Seashian  
+		plural = Seashians
+		home_planet = "Thunderous Glory"
+		home_system = "Bellowing Illumination"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	aratielthesecond = {
+		name = Humitian  
+		plural = Humitians
+		home_planet = "Aratiel the Second"
+		home_system = "Dherviel the First"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	bartys = {
+		name = Bartyssian 
+		plural = Bartyssians
+		home_planet = Bartys
+		home_system = Sophriel
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	aglan = {
+		name = Aglanese 
+		plural = Aglanese
+		home_planet = Aglan
+		home_system = Dhean
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	shoel = {
+		name = El'Sho 
+		plural = El'Sho
+		home_planet = Shoel
+		home_system = Salemiea
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	bevnoionprime = {
+		name = Bevnaean 
+		plural = Bevnaeans
+		home_planet = "Bevnoion Prime"
+		home_system = Bevnoion
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	mumalia = {
+		name = Avianim
+		plural = Avianim
+		home_planet = Mumalia
+		home_system = Tuztarshia
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	semalemus = {
+		name = Semalemoid
+		plural = Semalemoids
+		home_planet = Semalemus
+		home_system = Ytiel-Xola
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	shrinetoeeyahael = {
+		name = Hadurite
+		plural = Hadurites
+		home_planet = "Shrine to Eeyahael"
+		home_system = "Shrine to Habel"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	eralia = {
+		name = Eralian
+		plural = Eralians
+		home_planet = Eralia
+		home_system = Mitelade
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	qaduria = {
+		name = Qadurite
+		plural = Qadurites
+		home_planet = Qaduria
+		home_system = Rathados
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	galgalice = {
+		name = Galgalian
+		plural = Galgalians
+		home_planet = Galgalice
+		home_system = Maarleg
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	yahmielthebelovedhome = {
+		name = Yahmieloid
+		plural = Yahmieloids
+		home_planet = "Yahmiel the Beloved Home"
+		home_system = "Mandin the Cherished Doom"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	varaelia = {
+		name = Varaelite
+		plural = Varaelites
+		home_planet = Varaelia
+		home_system = Thermalia
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	rhanbete = {
+		name = Valan
+		plural = Valans
+		home_planet = "Rhan Bete"
+		home_system = "Rhan Pamis"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	aglania = {
+		name = Aglanite
+		plural = Aglanites
+		home_planet = Aglania
+		home_system = Sizoumiel
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	galdia = {
+		name = Galdite
+		plural = Galdites
+		home_planet = Galdia
+		home_system = Dalgalluchan
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	aratisthedaring = {
+		name = Cerchanian
+		plural = Cerchanians
+		home_planet = "Aratis the Daring"
+		home_system = "Yalquiel the Vigilant"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	zazamydan = {
+		name = Aza'Mydanite
+		plural = Aza'Mydanites
+		home_planet = "Zaza Mydan"
+		home_system = Radaisis
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	madimon = {
+		name = Madimonian
+		plural = Madimonians
+		home_planet = Madimon
+		home_system = Aarahel
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	dinaviel = {
+		name = Dinavian
+		plural = Dinavians
+		home_planet = "Din Aviel"
+		home_system = "Din Seartys"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	mumael = {
+		name = Aar
+		plural = Aar
+		home_planet = Mumael
+		home_system = Xolaia
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	emeraldtabernacle = {
+		name = Qaddonese
+		plural = Qaddonese
+		home_planet = "Emerald Tabernacle"
+		home_system = "Room of Illumination"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	amandiria = {
+		name = Amandirian
+		plural = Amandirians
+		home_planet = Amandiria
+		home_system = Humialgalos
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	bumos = {
+		name = Bumid
+		plural = Bumids
+		home_planet = Bumos
+		home_system = Amtiea
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	umaea = {
+		name = Cassinite
+		plural = Cassinites
+		home_planet = Umaea
+		home_system = Conaea
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	baraoel = {
+		name = Fel-Pene
+		plural = Fel-Pene
+		home_planet = Baraoel
+		home_system = Radanael
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	oestesgarden = {
+		name = Oestian
+		plural = Oestians
+		home_planet = "Oeste's Garden"
+		home_system = "Tablet of Chel'Haarael"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	xattia = {
+		name = Xattian
+		plural = Xattians
+		home_planet = Xattia
+		home_system = Xathoftia
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	hasthal = {
+		name = Hasthalese
+		plural = Hasthalese
+		home_planet = Hasthal
+		home_system = "Hel Vygal"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	azatiel = {
+		name = Azatielan
+		plural = Azatielans
+		home_planet = Azatiel
+		home_system = Amegon
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	estishel = {
+		name = Estishelid
+		plural = Estishelids
+		home_planet = Estishel
+		home_system = Yxdel
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	ladieles = {
+		name = Ladieloid
+		plural = Ladieloids
+		home_planet = Ladieles
+		home_system = Ophesaniean
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	virgilamah = {
+		name = Ithamiel
+		plural = Ithamiels
+		home_planet = "Virgil Amah"
+		home_system = "Virgil Arah"
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	samyeste = {
+		name = Samyestean
+		plural = Samyesteans
+		home_planet = Samyeste
+		home_system = Gadanael
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	malos = {
+		name = Malossid
+		plural = Malossids
+		home_planet = Malos
+		home_system = Tolanmash
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+	yahabbil = {
+		name = Yahabibi
+		plural = Yahabibis
+		home_planet = Yahabbil
+		home_system = Cerubil
+		name_list = "cybrxkhan_fantasy_angel"
+	}
+}
+
+
+

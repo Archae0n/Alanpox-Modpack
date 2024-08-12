@@ -1,0 +1,409 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	veedam = {
+		name = Nijk
+		plural = Nijk
+		home_planet = Veedam
+		home_system = Naardam
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	hasterwingen = {
+		name = Hasterian
+		plural = Hasterians
+		home_planet = "Gout Hasterwingen"
+		home_system = Alkerwingen
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	stertricke = {
+		name = Stertish
+		plural = Stertish
+		home_planet = Stertricke
+		home_system = "Ooscht vie Wortogen"
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	gestersfoorg = {
+		name = Gesterese
+		plural = Gesterese
+		home_planet = Gestersfoorg
+		home_system = Oogendinscht
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	volle = {
+		name = Vollid
+		plural = Vollids
+		home_planet = Volle
+		home_system = "Naar Arnen" 
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	groenbert = {
+		name = Groenbic
+		plural = Groenbics
+		home_planet = Groenbert
+		home_system = Kendijl 
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	doedamstavork = {
+		name = "Vlaar Leeken"
+		plural = "Vlaar Leeken"
+		home_planet = Doedamstavork
+		home_system = Lemstarlel 
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	heedaanen = {
+		name = Heedaanenese
+		plural = Heedaanenese
+		home_planet = Heedaanen
+		home_system = Goudendijk 
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	hilburg = {
+		name = Hiloid
+		plural = Hiloids
+		home_planet = Hilburg
+		home_system = Gronderg
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	culemstijs = {
+		name = Culemstian
+		plural = Culemstians
+		home_planet = Culemstijs
+		home_system = Mattavoldoost
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	haaldethemanyarmed = {
+		name = Utphemese
+		plural = Utphemese
+		home_planet = "Haalde the Many-Armed"
+		home_system = "Hilleid the Unceasing"
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	dordkerden = {
+		name = Kerdenese
+		plural = Kerdenese
+		home_planet = "Dord Kerden"
+		home_system = Hilleen
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	zwolden = {
+		name = Zwoldite  
+		plural = Zwoldites
+		home_planet = Zwolden
+		home_system = Lembollelve
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	kluissen = {
+		name = Klu  
+		plural = Klu
+		home_planet = Kluissen
+		home_system = "Klum Culstburg"
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	abeldelburgprime = {
+		name = Abeldelian  
+		plural = Abeldelians
+		home_planet = "Abeldelburg Prime"
+		home_system = Abeldelburg
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	naastia = {
+		name = Naastian  
+		plural = Naastians
+		home_planet = Naastia
+		home_system = Sast-Gradje
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	frad = {
+		name = Vort-Helo 
+		plural = Vort-Helo
+		home_planet = Frad
+		home_system = Alkmaalmondt
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	grandlegacy = {
+		name = "Hilveen Goeven" 
+		plural = "Hilveen Goeven"
+		home_planet = "Grand Legacy"
+		home_system = "Last Refuge"
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	ijlstaveen = {
+		name = Altstaveenish 
+		plural = Altstaveenish
+		home_planet = Ijlstaveen
+		home_system = Tieuwar
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	eineerden = {
+		name = Eineerdenian 
+		plural = Eineerdenians
+		home_planet = Eineerden
+		home_system = Zeveekenlo
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	appingen = {
+		name = "Then Appingese"
+		plural = "Then Appingese"
+		home_planet = Appingen
+		home_system = Deloorn
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	nichemst = {
+		name = Nichemoid
+		plural = Nichemoids
+		home_planet = Nichemst
+		home_system = Zworg
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	goevortje = {
+		name = Goevort
+		plural = Goevorts
+		home_planet = Goevortje
+		home_system = "Jost Hagen"
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	enteingen = {
+		name = Enteingenese
+		plural = Enteingenese
+		home_planet = Enteingen
+		home_system = Lidewijl
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	grandcelestiallevee = {
+		name = Anstere
+		plural = Anstere
+		home_planet = "Grand Celestial Levee"
+		home_system = "Blazing Flood"
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	tiendampenprime = {
+		name = Tiendampian
+		plural = Tiendampians
+		home_planet = "Tiendampen Prime"
+		home_system = Tiendampen
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	palehorizon = {
+		name = Wijk
+		plural = Wijk
+		home_planet = "Pale Horizon"
+		home_system = "Endless Desire"
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	huis = {
+		name = Huissian
+		plural = Huissians
+		home_planet = Huis
+		home_system = Tielve
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	sneappin = {
+		name = Snappinid
+		plural = Snappinids
+		home_planet = Sne-Appin
+		home_system = Ijk-Tieke
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	midelem = {
+		name = Midelemite
+		plural = Midelemites
+		home_planet = Midelem
+		home_system = Geerechricht
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	hardampenvorn = {
+		name = Roer
+		plural = Roer
+		home_planet = "Hardampen Vorn"
+		home_system = Hassen
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	goudredenburg = {
+		name = Goudrian
+		plural = Goudrians
+		home_planet = Goudredenburg
+		home_system = Woudamstem
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	wingenoorkrad = {
+		name = Oorkish
+		plural = Oorkish
+		home_planet = "Wingen Oorkrad"
+		home_system = "Wingen Doeveek"
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	monnickesburg = {
+		name = Monnickese
+		plural = Monnickese
+		home_planet = Olle'Monnickesburg
+		home_system = Olle'Roogeveerg
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	hoveredam = {
+		name = Hoverean
+		plural = Hovereans
+		home_planet = Hoveredam
+		home_system = Hingenzaassen
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	aarien = {
+		name = Aarienoid
+		plural = Aarienoids
+		home_planet = Aarien
+		home_system = Aans
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	aldeline = {
+		name = Aldelinese
+		plural = Aldelinese
+		home_planet = Aldeline
+		home_system = Madelbustadt
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	veedam = {
+		name = Veedamese
+		plural = Veedamese
+		home_planet = Veedam
+		home_system = "Verden Fren"
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	rhoudend = {
+		name = Rhoudenddian
+		plural = Rhoudenddians
+		home_planet = Rhoudend
+		home_system = Arlemuistijk
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	keraale = {
+		name = Keraalite
+		plural = Keraalites
+		home_planet = "Ker Aale"
+		home_system = "Ker Aarden"
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	dykesofdestiny = {
+		name = Lodenian
+		plural = Lodenians
+		home_planet = "Dykes of Destiny"
+		home_system = "Celestial Wave"
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	appina = {
+		name = Appinese
+		plural = Appinese
+		home_planet = Appina
+		home_system = Jandam
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	leedameren = {
+		name = Leedameran
+		plural = Leedamerans
+		home_planet = Leedameren
+		home_system = Minemielden
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	arneke = {
+		name = Arnekese
+		plural = Arnekese
+		home_planet = Arneke
+		home_system = Ricoerijl
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	rotterg = {
+		name = Rottergan
+		plural = Rottergans
+		home_planet = Rotterg
+		home_system = "Huise Kluk"
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	culaard = {
+		name = Culaardian
+		plural = Culaardians
+		home_planet = Culaard
+		home_system = Nichelundo
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	wolderder = {
+		name = Wolderderian
+		plural = Wolderderians
+		home_planet = Wolderder
+		home_system = Adaemuiden
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	brentje = {
+		name = Brentjian
+		plural = Brentjians
+		home_planet = Brentje
+		home_system = Maaguelotter
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	lievorgprime = {
+		name = Lievorgian
+		plural = Lievorgians
+		home_planet = "Lievorg Prime"
+		home_system = Lievorg
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+	adriselem = {
+		name = Adriselan
+		plural = Adriselans
+		home_planet = Adriselem
+		home_system = Dooriem
+		name_list = "cybrxkhan_fantasy_dutch"
+	}
+}
+
+

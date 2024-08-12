@@ -1,0 +1,237 @@
+#############
+# Capital buildings
+#############
+@buildings_t1 = 1
+@buildings_t2 = 2
+@buildings_t3 = 3
+@buildings_t4 = 4
+
+@tier_2_capital_defense_armies = 4
+@tier_3_capital_defense_armies = 8
+@tier_4_capital_defense_armies = 16
+
+building_cmlove = {
+	base_buildtime = @b3_time
+	can_be_ruined = no
+	can_be_disabled = no
+	empire_limit = {
+		base = 1
+	}
+
+	category = resource
+
+	potential = {
+		exists = owner
+		owner = {
+			is_galactic_custodian = yes
+		}
+		OR = {
+			is_active_resolution = "resolution_c1984_ministries"
+			is_active_resolution = "resolution_c1984_warispeace"
+			is_active_resolution = "resolution_c1984_thoughtcrime"
+			is_active_resolution = "resolution_c1984_newspeak"
+			is_active_resolution = "resolution_c1984_nofreedom"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_c1984_ministries"
+			is_active_resolution = "resolution_c1984_warispeace"
+			is_active_resolution = "resolution_c1984_thoughtcrime"
+			is_active_resolution = "resolution_c1984_newspeak"
+			is_active_resolution = "resolution_c1984_nofreedom"
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		produces = {
+			trigger = { exists = owner }
+			influence = 2
+		}
+		cost = {
+			minerals = 500
+			alloys = 100
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_crime_mult = -1.0
+		pop_happiness = -0.25
+		job_bureaucrat_add = 5
+	}
+}
+
+building_cmtruth = {
+	base_buildtime = @b3_time
+	can_be_ruined = no
+	can_be_disabled = no
+	empire_limit = {
+		base = 1
+	}
+
+	category = resource
+
+	potential = {
+		exists = owner
+		owner = {
+			is_galactic_custodian = yes
+		}
+		OR = {
+			is_active_resolution = "resolution_c1984_ministries"
+			is_active_resolution = "resolution_c1984_warispeace"
+			is_active_resolution = "resolution_c1984_thoughtcrime"
+			is_active_resolution = "resolution_c1984_newspeak"
+			is_active_resolution = "resolution_c1984_nofreedom"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_c1984_ministries"
+			is_active_resolution = "resolution_c1984_warispeace"
+			is_active_resolution = "resolution_c1984_thoughtcrime"
+			is_active_resolution = "resolution_c1984_newspeak"
+			is_active_resolution = "resolution_c1984_nofreedom"
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		produces = {
+			trigger = { exists = owner }
+			unity = 100
+			influence = 2
+		}
+		cost = {
+			minerals = 500
+			alloys = 100
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	planet_modifier = {
+		pop_government_ethic_attraction = 0.5
+		job_bureaucrat_add = 5
+	}
+}
+
+building_cmpeace = {
+	base_buildtime = @b3_time
+	can_be_ruined = no
+	can_be_disabled = no
+	empire_limit = {
+		base = 1
+	}
+
+	category = resource
+
+	potential = {
+		exists = owner
+		owner = {
+			is_galactic_custodian = yes
+		}
+		OR = {
+			is_active_resolution = "resolution_c1984_ministries"
+			is_active_resolution = "resolution_c1984_warispeace"
+			is_active_resolution = "resolution_c1984_thoughtcrime"
+			is_active_resolution = "resolution_c1984_newspeak"
+			is_active_resolution = "resolution_c1984_nofreedom"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_c1984_ministries"
+			is_active_resolution = "resolution_c1984_warispeace"
+			is_active_resolution = "resolution_c1984_thoughtcrime"
+			is_active_resolution = "resolution_c1984_newspeak"
+			is_active_resolution = "resolution_c1984_nofreedom"
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		produces = {
+			trigger = { exists = owner }
+			alloys = 40
+			influence = 2
+		}
+		cost = {
+			minerals = 500
+			alloys = 100
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_army_build_speed_mult = 0.5
+		job_bureaucrat_add = 5
+		job_soldier_add = 15
+	}
+}
+
+building_cmplenty = {
+	base_buildtime = @b3_time
+	can_be_ruined = no
+	can_be_disabled = no
+	empire_limit = {
+		base = 1
+	}
+
+	category = resource
+
+	potential = {
+		exists = owner
+		owner = {
+			is_galactic_custodian = yes
+		}
+		OR = {
+			is_active_resolution = "resolution_c1984_ministries"
+			is_active_resolution = "resolution_c1984_warispeace"
+			is_active_resolution = "resolution_c1984_thoughtcrime"
+			is_active_resolution = "resolution_c1984_newspeak"
+			is_active_resolution = "resolution_c1984_nofreedom"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_c1984_ministries"
+			is_active_resolution = "resolution_c1984_warispeace"
+			is_active_resolution = "resolution_c1984_thoughtcrime"
+			is_active_resolution = "resolution_c1984_newspeak"
+			is_active_resolution = "resolution_c1984_nofreedom"
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		produces = {
+			trigger = { exists = owner }
+			food = 120
+			minerals = 50
+			alloys = 40
+		}
+		cost = {
+			minerals = 500
+			alloys = 100
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_jobs_energy_produces_mult = 0.01
+		job_bureaucrat_add = 5
+	}
+}

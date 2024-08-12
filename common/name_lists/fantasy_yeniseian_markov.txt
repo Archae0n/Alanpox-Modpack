@@ -1,0 +1,258 @@
+﻿### handmade yeniseian
+### Names randomly generated based on syllables from real yeniseian names, words, and place names
+cybrxkhan_handmade_yeniseian = {
+	category = "Plantoid"
+    ### SHIPS
+
+    ship_names = {
+
+        generic = {
+			Ala Alagarin Alagim Alagimpilomay Alagin Alagsi Alaikot Alais Alaisla Alaislagsi Alam Alama Alams Alin Aling Ang Anga Angarin Aqta Aqtasiang Aqtaspul Aqtaspuloma Aqtaspulomarin Aqtaspuls Aqtaspulsi Aqtaspur Aqtaspürek Aqtaspurgun Aqtastin Aqtasting Arah Arahi Arahis Aran Arana Arang Aring Aringa Aspula Aspulagimpil Aspulagsi Aspulams Aspuloma Aspulomarin Aspulomay Aspuls Aspulsi Aspulsiana Aspur Aspura Aspurang Aspureik Aspurek Aspurgun Aspurgut Aspurugun Aspuruki Assana Assang Assanga Assantszüy Baik Baika Baikam Baikams Baikhalma Baikhe Baikhes Baikhoi Baikok Baikoksem Baikott Baiktu Bais Baisla Baislam Bala Balaga Balagsi Balaikot Balais Balaislaiktu Balam Balamay Balams Balmar Balmara Balmaran Balmarin Balmaring Balmay Bel Bela Belaga Belagarah Belagim Belagimpil Belagin Belagsi Belaik Belaikott Belegim Belegimpil Beles Beyijia Beyijian Beyijiana Beyijiang Beyijianga Beyijiangar Beyijiantszüy Beyiyijia Beyiyijiana Beyiyijiang Beyiyiyijiana Beyiyiyijiang Beyiyiyiyiyiyu Beyiyiyiyu Beyiyiyu Beyiyü Boga Bogar Bogara Bogarin Bogdena Bogdeng Bogdengara Bogdenin Bogdenong Bogdenoums Bogeta Bogetasi Bogetasia Bogetaspula Bogetastin Bokhalmay Bokham Bokhams Bokhang Bokhe Bokhenin Bokhes Bokhoi Bokkokham Bokkokkok Bokkokkokhak Bokkokkot Bokkokseda Bokkoksedam Bokkoksi Bokkot Bokkott Bokseda Boksedam Boksem Boksemchak Boksemchala Boksemelegin Boksi Boksia Boksiana Bukhak Bukhakam Bukhala Bukhalais Bukhalmar Bukhalmarin Bükhalmay Bukham Bükhama Bukhams Bukhan Bukhang Bükhantszüy Bükhe Bukhen Bukheng Bukhengarana Bukhes Bukhoi Büki Bukling Buklit Bukreik Bukreika Bukreikhaka Bukreikok Bukreikokseda Bukreikot Bukreiktu Che Chen Chena Chenin Chening Chenong Chenoums Ches Chi Chika Chikam Chikams Chikhakeng Chikhalama Chikhalmarahis Chikhan Chikhanga Chikhantszüy Chikhe Chikhen Chikheng Chikhes Chikhoi Chikok Chikokhoi Chikot Chikott Chiktü Chisla Chislaikam Chislais Dübchak Dubchakena Dubchaksem Dubchaksi Dubchaksia Dubchalams Dubchalma Dubchalmar Dubcham Dubchama Dubchamay Dubchan Dubchana Dubchang Dübchanga Dubche Dubchen Dubchena Dubcheng Dubchenin Dubchening Dubchenough Dyndam Dyndama Dyndamarin Dyndamay Dyndams Fen Feng Fenga Fenin Fening Feninga Fenong Fenonnong Fenonnough Fenough Fenoügla Fenougüt Fenoum Fenoums Gwan Gwana Gwanga Gwangar Gwangarah Gwantszüy Haga Hagar Hagara Hagarin Hagim Hagimpil Hagimpilomara Hagimpilomay Hagin Haging Hagsia Hagsiantszüy Hak Haka Hakam Hakamarah Hakamay Hakams Haken Hakena Hakeng Hakenough Hakenoum Hakseda Haksedam Haksedamay Haksemela Haksi Haksia Han Hang Hanga Hantszüy Hasi Hasia Hasian Haspul Haspüloma Haspulomarah Haspuls Haspulsi Haspulsian Haspulsiang Haspurahikot Haspureik Haspurugut Hastin Hasting Hok Hokhala Hokhalma Hokham Hokhams Hokhan Hokhana Hokhen Hokhes Hokhoi Hokkok Hokkokhak Hokkokham Hokkoksi Hokkot Hokkott Hokseda Hoksedams Hoksemchak Hoksia Hoksiana Hoksiantszüy Holsi Holsia Holsiang Holsiantszüy Hoseda Hosedama Hosedamar Hosedamarin Hosedams Hosem Hosemchak Hosemcham Hosemchamar Hosemchams Hosemchan Hosemche Hosemchen Hosemel Hosemela Hosemeles Imbaka Imbakam Imbaken Imbakena Imbakeng Imbakenin Imbakening Imbakenougbu Imbakseda Imbaksedam Imbaksemchalma Imbaksi Imbaksian Imbaksiana Imbaksiantszüy Jugbu Jugh Jugla Juglagim Juglaik Juglaikam Juglaikok Juglam Jugut Kak Kaka Kakam Kakama Kakena Kakeng Kakenin Kakenougla Kakseda Kaksedam Kaksedama Kaksedams Kaksem Kaksemcheng Kaksi Kam Kama Kamay Kams Kara Karahis Karan Karang Karangara Karin Karing Karingar Kem Kemchak Kemchaksi Kemchala Kemcham Kemchamar Kemchan Kemche Kemcheng Kemches Kemel Kemelaga Kemelagin Kemelaikokkott Kemelams Kemelegim Kemelegin Kemeleging Kemeles Khumi Khums Khura Khurang Khureikhang Khureikhoi Khurek Khurgun Khurgut Khurugh Khurugla Khurugun Khurur Khururah Khururang Kis Kislaga Kislaiktu Kislam Kong Konga Kongarin Konnonnonnong Konnonnoügbü Konnonnoum Konnonnoums Konnougbu Konnougla Konnougun Konnougut Konnoum Konnoumi Kot Kougbu Kough Kougla Kouglam Kouglamay Kouglams Kougun Kougut Koum Koums Kra Krah Krahi Krahika Krahikok Krahip Krahis Krahisla Kran Krana Krantszüy Krugbu Krugh Krugla Kruglaga Krugun Krugut Krukham Krukhoi Kruki Kruklin Kruklit Krukreik Krukreikam Krukreikhana Krukreikot Krukrek Krur Krura Krurang Krurgut Krurugbu Krurukrek Krurur Krurura Krururgut Krururuki Kur Kura Kurahislaikhoi Kurang Kureikok Kurek Kurgun Kurgut Kurugh Kuruglam Kurugut Kuruki Kürüklin Kurur Kurürgut Mim Mimpiloma Mimpilomar Mimpilomara Mimpilomarin Onkhak Onkhaka Onkhakam Onkhaksedam Onkhaksi Onkhala Onkhalagsi Onkhalaikam Onkhalma Onkhalmarin Onkhalmay Onkham Onkhamay Onkhan Onkhana Onkhang Onkhe Onkhen Onkhena Onkheng Onkhenin Onkhenoüm Onkhes Pachak Pachakam Pachakena Pachaksem Pachaksemeles Pachala Pachalaisla Pachalma Pachalmar Pachan Pachang Pachantszüy Pache Pachen Pachena Pacheng Pachenga Pachengarin Pachenin Pachenoumi Paches Pen Pena Penga Penin Pening Penong Penongarin Penonnougla Penonnoumi Penougbu Penoumi Penoums Pik Pika Pikam Pikams Pikhak Pikhakam Pikhakenougla Pikhama Pikhana Pikhang Pikhoi Pikok Pikokkot Pikoksian Pikot Pikott Piktu Pymela Pymelaga Pymelagim Pymelagin Pymelaikok Pymelais Pymelam Pymelegim Pymelegimpil Pymelegin Pymeleging Pymeles Qah Qahik Qahika Qahikhalaikhes Qahikot Qahip Qahis Qahisla Qahislaik Qan Qana Qanga Qangara Qantszüy Qimpil Qimpiloma Qimpilomar Qimpilomara Qimpilomarin Qimpilomay Qiyijian Qiyijiana Qiyijiang Qiyiyijia Qiyiyijiana Qiyiyijiang Qiyiyu Qiyu Qoseda Qosedama Qosedamar Qosedamara Qosedamay Qosedams Qosem Qosemchana Qosemche Qosemches Qosemel Qosemeles Qra Qrahi Qrahikhena Qran Qrana Qrang Qrantszüy Sen Sena Seng Senga Sengar Sengarang Senin Senong Senonga Senonnong Senonnougla Senoüglais Senoum Senoümi Shik Shika Shikam Shikhanga Shikheng Shikokhe Shikokkoksia Shikokseda Shiktü Ship Shis Shisla Shislagaringa Shislam Sil Silomar Silomara Silomarin Silomaring Silomay Sogar Sogara Sogarang Sogarin Sogden Sogdena Sogdeng Sogdenin Sogdenong Sogdenonnoum Sogeta Sogetasi Sogetasia Sogetasiang Sogetastin Sogetasting Sul Sula Sulagimpiloma Sulagsi Sulaikam Sulaikot Sulaiktu Sulais Sulaisla Sulam Suloma Sulomar Sulomara Sulomaran Sülomarin Sulomaring Süls Sulsi Sülsia Sulsiana Sura Surahi Surahis Süran Surang Sureikam Sureikhoi Sureikott Sureiktu Sürek Surgun Surugbu Surugh Surugla Surugun Surukhes Surukhoi Suruki Suruklit Surukrek Surur Surura Sururang Taga Tagar Tagara Tagaran Tagarang Tagarin Tagimpil Tagimpiloma Tagimpilomay Tagin Taging Tagsi Tagsia Tagsian Tak Taka Takama Takamay Taken Takena Takeng Takenin Takenoümi Takseda Taksedam Taksedama Taksedams Taksem Taksemchala Taksemelegin Taksemeles Taksi Tisla Tislagsi Tislaisla Tislam Toga Togar Togara Togarang Togarin Togaring Togden Togdena Togdeng Togdengar Togdening Togdenoums Togetasi Togetasia Togetaspula Togetaspulsia Togetaspür Togetaspurgut Togetastin Tok Tokhak Tokhaka Tokhan Tokhang Tokhe Tokhen Tokhes Tokhoi Tokkok Tokkokhalma Tokkoksia Tokkot Tokkott Toksedam Toksedams Toksemcham Toksemel Toksemela Toksi Toksia Tsi Tsia Tsiang Tukhaka Tukhalma Tukham Tukhams Tukhana Tukhang Tukhe Tukhen Tukhes Tukhoi Tuklin Tuklit Tukreika Tukreikam Tukreikhan Tukreikhes Tukreikoksedam Tukreikoksi Tukreikott Tükreiktu Tukrek Tul Tula Tulagim Tulagsi Tulagsiang Tulaikhakenin Tulaikhe Tulais Tulam Tuloma Tulomar Tulomara Tulomarana Tulomay Tuls Tulsiang Tulsiantszüy Tum Tumi Tur Turah Türahi Turahiktu Turahis Türang Türanga Tureiktu Turek Turgun Turgut Türügbü Turugh Turugun Turukhes Turuki Turukreikot Turukreiktu Türükrek Turur Tururah Tururugbu Ulegim Ulegimpil Ulegimpiloma Ulegimpilomara Ulegimpilomay Ulegin Uleging Urugbu Urugh Uruglaga Uruglam Urugun Urugut Urukhalmay Urukham Urukhang Urukhena Urukhoi Uruki Uruklin Urukling Uruklit Urukrek Urura Urürah Ururangarang Urureikhe Ururek Urürgun Ururgut Ururukheningar Wan Wana Wanga Wantszüy Yar Yara Yarah Yarahi Yarahis Yaran Yarang Yaring Yasi Yasia Yasiang Yaspul Yaspula Yaspulomar Yaspulomara Yaspulomaring Yaspulomay Yaspulsi Yaspur Yaspüra Yaspurek Yaspurgut Yaspurukhak Yaspurura Yasting Yey Yeye Yeyijia Yeyijian Yeyijiang Yeyiyijia Yeyiyiyu Yik Yika Yikam Yikama Yikams Yikhala Yikhang Yikhoi Yikok Yikokhoi Yikoksemel Yikot Yikott Yugbu Yugla Yuglagin Yuglagsia Yuglaik Yuglais Yuglam Yugun Yugut Zem Zemchala Zemchalaika Zemcham Zemchams Zemchang Zemchantszüy Zemche Zemchen Zemches Zemel Zemela Zemelaikot Zemelam Zemelegim Zemelegin Zemeles
+        }
+
+        corvette = {
+        }
+      
+        destroyer = {
+        }
+      
+        cruiser = {
+        }
+      
+        battleship = {
+        }
+      
+        science = {
+        }
+      
+        colonizer = {
+        }
+      
+        constructor = {
+        }
+
+        mining_station = { }
+        research_station = { }
+        #wormhole_station = { }
+        #terraform_station = { }
+        #observation_station = { }
+        #outpost_station = {
+            #random_names = { }
+            #sequential_name = "%O% Frontier Outpost"
+        #}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		} 
+    }
+
+    fleet_names = {
+        random_names = {
+            "Krüklit Adventurers" "Tagaran Adventurers" "Uleging Adventurers" "Tümi Turugh Adventurers" "Onkhalais Adventurers" "Tulomay Adventurers" "Suloma Adventurers" "Hak Urugun Adventurers" "Fenga Hang Adventurers" "Hok Adventurers" 
+        } 
+        sequential_name = FANTASY_YENISEIAN_MARKOV_xxFLEETNAMES_ORD
+    }
+  
+    army_names = {
+          
+        generic = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxASSAULTARMY_ORD
+        }
+      	
+        machine_defense = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxMACHINEDEFENSE_ORD
+        }
+          
+        machine_assault_1 = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxMACHINEASSAULT1_ORD
+        }
+          
+        machine_assault_2 = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxMACHINEASSAULT2_ORD
+        }
+          
+        machine_assault_3 = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxMACHINEASSAULT3_ORD
+        }
+	
+        defense_army = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxDEFENSEARMY_ORD
+        }
+          
+        assault_army = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxASSAULTARMY_ORD
+        }
+      
+        slave_army = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxSLAVEARMY_ORD
+        }
+      
+        clone_army = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxCLONEARMY_ORD
+        }
+      
+        undead_army = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxUNDEADARMY_ORD
+        }
+      
+        robotic_army = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxROBOTICARMY_ORD
+        }
+      
+        robotic_defense_army = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxROBOTICDEFENSEARMY_ORD
+        }
+      
+        psionic_army = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxPSIONICARMY_ORD
+        }
+      
+        xenomorph_army = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxXENOMORPHARMY_ORD
+        }
+      
+        gene_warrior_army = {
+            sequential_name = FANTASY_YENISEIAN_MARKOV_xxGENEWARRIORARMY_ORD
+        }
+				
+		occupation_army = {
+			sequential_name = FANTASY_YENISEIAN_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_YENISEIAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_YENISEIAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_YENISEIAN_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_YENISEIAN_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_YENISEIAN_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+    }
+      
+
+    ### PLANETS
+
+    planet_names = {
+
+        generic = {
+            names = {
+                Ala Alagsi Alam Alin Alingar Ang Aqta Aqtaspür Arah Arang Aring Aspurgut Assana Assang Assantszüy Baik Baika Baikokhalma Baiktü Baislagin Bala Balam Balmay Beles Beyijia Beyiyü Boga Bogdenin Bokhang Bokhoi Bokkott Boksia Bukham Bukhoi Buki Bukreika Ches Chi Chika Chikams Chisla Dubcham Dubchen Dubchena Dyndam Dyndamara Fen Feng Fenough Fenoums Gwan Gwantszüy Haga Hagar Hakena Hakeng Haksi Hasi Haspüloma Haspurek Hastin Hokhala Hokhe Hoksedams Holsi Hoseda Hosemchang Imbaka Imbaksedam Jugh Jugla Juglaik Kak Kakams Kakeng Kakenoümi Kam Kara Karangara Karin Kemchan Kemelegim Kemelegin Khüreiktu Konnongar Konnouglam Konnoum Kot Koüm Koums Kra Kruki Krukreik Kruruki Kur Kura Kürek Kurgut Kuruklin Kürür Mim Onkhak Onkhala Onkhalagin Onkham Onkhang Onkhes Pachak Pachala Pachalma Pache Paches Penga Pika Pikams Piktu Pymela Pymeles Qahikhes Qahis Qimpiloma Qiyü Qoseda Qosemcham Qra Sena Seng Shika Shiktu Ship Shis Sil Sogar Sogara Sogdeng Sül Sula Sulam Suloma Suls Suranga Surek Surugbu Taga Tagsi Tak Toga Togar Tok Tsi Tükheng Tukhoi Tuklin Tuklit Tülomar Tuls Tumi Tur Turek Tururek Ulegim Ulegimpil Urugbu Urügh Urugla Uruglaisla Uruklin Uruklit Yarah Yarahip Yarang Yasting Yik Yügla Zemchama Zemela Zemelagin Zemelam
+				
+				"Sparkling Fields"
+				"Sliding Plains"
+				"Pale Tundra"
+				"Whispering Taiga"
+				"Thundersnow Forests"
+				"Permafrost Fields"
+				"Shattering Desert"
+				"Chillwind Forests"
+				"Cracking Desert"
+				"Snowfall Plains"
+				"Frostfinger Expanse"
+				"Snow Pack Tundra"
+				"Snow Owl Plains"
+				"Iceshelf Expanse"
+				"Silver Field"
+				"Cold Sheet"
+				"Anchored Field"
+				"Aching Glacier"
+				"Auroral Ice Field"
+				"Blue Ice Field"
+				"Careless Giant"
+				"Absorbing Field"
+				"Gentle Glacier"
+				"Thunderous Slide"
+				"Wretched Glacier"
+				"Hallowed Berg"
+				"Twin Field"
+				"Primal Field"
+				"Adamant Sheet"
+				"Roaring Berg"
+				
+				
+            }
+        }
+      
+        pc_desert = {
+            names = {
+            }
+        }
+      
+        pc_tropical = {
+            names = {
+            }
+        }
+      
+        pc_arid = {
+            names = {
+            }
+        }
+      
+        pc_continental = {
+            names = {
+            }
+        }
+      
+        pc_ocean = {
+            names = {
+            }
+        }
+      
+        pc_tundra = {
+            names = {
+            }
+        }
+      
+        pc_arctic = {
+            names = {
+            }
+        }
+      
+    }
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Ala Alagim Alagimpil Alagin Alaging Alagsi Alais Alam Alams Aqta Aqtaspül Aqtaspuls Aqtaspur Aqtaspura Aspula Aspüls Aspulsi Aspur Aspura Aspurah Bala Balaga Balagim Balais Balaisla Balam Balams Balmar Balmara Balmarana Bel Bela Belais Belam Belegim Beleging Beles Beyijia Beyiyijia Beyiyiyü Beyiyu Bokhala Bokhalma Bokham Bokhamar Bokhe Bokhoi Bokkokham Bokkokkok Bokkoksi Boksedam Boksedams Boksi Buki Chi Chikham Chikhams Chikhe Chikhoi Chiktu Chisla Chislais Fen Feng Fenin Fening Fenong Fenonnong Fenougbu Fenoüm Fenoumi Gwana Haga Hagim Hagimpil Hagin Haging Hakam Hakamara Hakams Haken Hakena Hakeng Hakenin Hakening Hakenoum Haksedam Haksi Hang Hasi Haspul Haspulais Haspuls Haspulsi Haspura Hoi Hok Hokhala Hokham Hokhe Hokhoi Hokkok Hokkokhe Hokkokkok Hokkoksem Hoksedam Hoksem Holsi Hosedama Hosedams Hosem Kakam Kakama Kakams Kakena Kakeng Kakening Kakenong Kakenoum Kaksedam Kaksedama Kaksedams Kaksem Kaksemela Kaksi Kam Kama Kamar Kamarang Kams Kara Karah Karahis Karana Karang Kem Kemel Kemelais Kemelegim Kemeles Khumi Khums Khura Khürang Kis Kislaga Kong Konnougbu Konnougla Konnoum Konnoumi Konnoums Kougbu Kougla Kouglagin Kouglais Kouglam Koum Koums Kra Krah Krahi Krahip Krana Krugbu Krugla Kruglam Krüglams Krur Krura Krurah Krurahip Mim Onkhalam Onkhalma Onkham Onkhe Onkhosem Pachala Pachalaga Pachalais Pachalama Pachalma Pachalmar Pachama Pachamar Pachams Pen Pena Penin Pening Penong Penonnong Penoügbü Penouglam Penoümi Penoums Pik Pikhalma Pikham Pikhams Pikhoi Piktu Pymela Pymelais Pymelam Pymelams Pymeles Qah Qahik Qahikhala Qahiktu Qahip Qahis Qahisla Qahislams Qana Qimpil Qiyiyijia Qiyiyiyu Qiyiyu Qiyu Qosedama Qosedamar Qosedams Qosem Qosemel Qosemela Qosemeles Qra Qrahi Qrahiktü Qrang Sen Sena Seng Senin Senong Senonnong Senonnoum Senoum Senoüms Sogeta Sogetasi Sul Süla Sulais Sulam Süls Sülsi Sura Surah Surahikhe Sürahiktu Surang Taga Tagimpil Tagin Taging Tagsi Takams Taken Takena Takeng Takening Takenong Takenoum Taksedam Taksedama Taksem Taksemel Taksi Tisla Tislagsi Tislais Tislaisla Tislam Toga Togetasi Tok Tokhalma Tokham Tokhe Tokhoi Tokkokham Toksedam Toksemel Toksi Tükrek Tul Tula Tulais Tuls Tüm Tumi Tur Turahis Turang Ulegim Ulegimpil Ulegin Uleging Urügbü Urugla Uruglaga Uruglagim Uruglais Urüglam Urura Ururah Ururang Yey Yeye Yeyijia Yeyiyijia Yeyiyiyü Yik Yikhala Yikhalma Yikhe Yikhoi Yikhosem Yü
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Ala Alagim Alagimpil Alagin Alaging Alagsi Alais Alam Alams Aqta Aqtaspül Aqtaspuls Aqtaspur Aqtaspura Aspula Aspüls Aspulsi Aspur Aspura Aspurah Bala Balaga Balagim Balais Balaisla Balam Balams Balmar Balmara Balmarana Bel Bela Belais Belam Belegim Beleging Beles Beyijia Beyiyijia Beyiyiyü Beyiyu Bokhala Bokhalma Bokham Bokhamar Bokhe Bokhoi Bokkokham Bokkokkok Bokkoksi Boksedam Boksedams Boksi Buki Chi Chikham Chikhams Chikhe Chikhoi Chiktu Chisla Chislais Fen Feng Fenin Fening Fenong Fenonnong Fenougbu Fenoüm Fenoumi Gwana Haga Hagim Hagimpil Hagin Haging Hakam Hakamara Hakams Haken Hakena Hakeng Hakenin Hakening Hakenoum Haksedam Haksi Hang Hasi Haspul Haspulais Haspuls Haspulsi Haspura Hoi Hok Hokhala Hokham Hokhe Hokhoi Hokkok Hokkokhe Hokkokkok Hokkoksem Hoksedam Hoksem Holsi Hosedama Hosedams Hosem Kakam Kakama Kakams Kakena Kakeng Kakening Kakenong Kakenoum Kaksedam Kaksedama Kaksedams Kaksem Kaksemela Kaksi Kam Kama Kamar Kamarang Kams Kara Karah Karahis Karana Karang Kem Kemel Kemelais Kemelegim Kemeles Khumi Khums Khura Khürang Kis Kislaga Kong Konnougbu Konnougla Konnoum Konnoumi Konnoums Kougbu Kougla Kouglagin Kouglais Kouglam Koum Koums Kra Krah Krahi Krahip Krana Krugbu Krugla Kruglam Krüglams Krur Krura Krurah Krurahip Mim Onkhalam Onkhalma Onkham Onkhe Onkhosem Pachala Pachalaga Pachalais Pachalama Pachalma Pachalmar Pachama Pachamar Pachams Pen Pena Penin Pening Penong Penonnong Penoügbü Penouglam Penoümi Penoums Pik Pikhalma Pikham Pikhams Pikhoi Piktu Pymela Pymelais Pymelam Pymelams Pymeles Qah Qahik Qahikhala Qahiktu Qahip Qahis Qahisla Qahislams Qana Qimpil Qiyiyijia Qiyiyiyu Qiyiyu Qiyu Qosedama Qosedamar Qosedams Qosem Qosemel Qosemela Qosemeles Qra Qrahi Qrahiktü Qrang Sen Sena Seng Senin Senong Senonnong Senonnoum Senoum Senoüms Sogeta Sogetasi Sul Süla Sulais Sulam Süls Sülsi Sura Surah Surahikhe Sürahiktu Surang Taga Tagimpil Tagin Taging Tagsi Takams Taken Takena Takeng Takening Takenong Takenoum Taksedam Taksedama Taksem Taksemel Taksi Tisla Tislagsi Tislais Tislaisla Tislam Toga Togetasi Tok Tokhalma Tokham Tokhe Tokhoi Tokkokham Toksedam Toksemel Toksi Tükrek Tul Tula Tulais Tuls Tüm Tumi Tur Turahis Turang Ulegim Ulegimpil Ulegin Uleging Urügbü Urugla Uruglaga Uruglagim Uruglais Urüglam Urura Ururah Ururang Yey Yeye Yeyijia Yeyiyijia Yeyiyiyü Yik Yikhala Yikhalma Yikhe Yikhoi Yikhosem Yü
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Ang Angarin Ant Arast Arema Aren Ariesik Asie Asingdang Assang Assangara Assantszüy Baika Baikott Bain Bangde Bogdeng Bogdengara Bukaika Bukhak Bukhan Bükhang Bukhangara Bukhantszüy Buntikaka Cha Chen Chengara Chengarin Ches Dübchak Dubchan Dubchantszüy Dubchen Dubcheng Dubchengara Dubchengarin Dugutin Ima Imba Jian Jiangürikloma Jiein Jikasaklot Jiklomba Jin Jiüttika Jugh Jugut Juraiu Jürün Kogay Komaren Komch Kot Kubarikoma Kügdema Kuk Küreikot Kurgun Kurgut Kurukhak Kuruklin Lik Likhia Likomaru Lin Sha Shaszüy Shesiay Sia Sieszüy Sika Silomay Singüt Suguremcha Suloma Suntiaru Sureika Sureikot Sürgün Surukhang Suruklin Tsian Tsiang Tsiangara Tsiangarin Tst Tszüyn Tulomch Tureika Tureikot Turgun Turgut Türiema Turukhangarin Turuklin Wai Wan Wangara Wangarin Wanguran Wantszüy Xügaing Xughan Xukarent Xurgurikan Yaia Yang Yangug Yara Yaranghaszüy Yas Yüg Yugun Yugut Yuklomchan Zemba Zemchan Zemchang Zemchangarin Zemchantszüy Zemchen Zemchengara Zemchengarin Zemches Zengulomch Zest			
+			}
+			
+			regnal_first_names = {
+				Aspüls Bokkokham Chi Haspura Khums Qrang Sogeta Tokhoi Tokkokham Tur Yeyiyiyü
+			}
+			
+			regnal_second_names = {
+				Ang Bogdeng Bukaika Bukhantszüy Buntikaka Jiein Kogay Lik Likhia Sha Sia Singüt Sürgün Zemchantszüy Zemchen
+			}
+		}
+	}
+}

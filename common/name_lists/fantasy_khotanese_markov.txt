@@ -1,0 +1,264 @@
+﻿### Handmade khotanese
+### khotanese names put into a Markov name generator
+
+cybrxkhan_handmade_khotanese = {
+	category = "Mammalian"
+
+	ship_names = {
+		generic = {
+			Alsa Alsamgula Alsan Alsattinan Alyora Alyorai Alyoraka Alyorakamgu Alyorta Alyortux Alysa Alysam Alysamgaka Arma Armadrabgu Armala Armalukai Armattana Arsam Arsamgan Arsamna Arse Arsh Arshamna Arsharyonj Arta Artanaza Artani Artanpana Artaskaita Artta Arttandamai Artti Arttina Artusalaka Artushga Artushirta Artusta Artustandana Arya Aryambasa Aryarmaina Aryatsi Aryatti Aryonj Aryortti Asimala Asimata Asimhya Asimhyama Asimhyau Asimi Bagain Bagala Baghuq Baghuran Bagize Baha Bahadrala Bahagitaka Bahanaya Baharya Bahu Bahudaka Bahuk Bahuka Bahuq Bala Balacustana Balai Balaka Bambhavama Bamna Bara Barai Barama Barka Barkama Barma Barmalai Barmasa Bhaga Bham Bhana Bhandaka Bhandaya Bhane Bhani Bhanoha Bharaka Bharma Bharse Bharusa Bhavam Bira Birabhaghuq Biraka Biramaysa Birapumshira Biresaa Birgana Birganna Birma Birsh Birtana Brabgu Brabgutina Bradam Brain Brala Bram Bramai Bramgam Brana Brasharrjama Bribharusta Brikram Briti Britina Briya Briyarala Cada Cadamgyauna Cadar Cadarmalakam Cadarmana Cadaya Cadhama Cadhana Cadra Cadradraka Cadrama Capaka Capasudatsi Capra Caprabgulac Caprabhagiti Capraingrala Capramnala Capuramguti Cegu Cegula Cegulac Ceguladam Cegulain Cegutta Chikrabguti Chinaramala Chira Chirala Chiram Chirgula Chivyambasta Daina Dainarmatti Daisamgand Dhadaradhar Dhadharam Dham Dhamaushara Dhamdarkaina Dhana Dhanca Dhand Dhandra Dhani Dhar Dharchudeva Dharmadatta Dharrjam Duma Dumaluka Dumasharuka Dumatani Dumatta Dumi Dumnayamgula Dumsh Dumshara Dumshtrugita Dumshudama Dumthana Dumxuk Dumxuka Dzatandaya Dzatcuna Dzatta Dzatti Gauna Gaunarsarma Gaunekula Gausa Gausai Gausalacu Gaushgarana Gausta Gaustakana Gaustandatan Gausya Gausyata Gaya Gayai Gayam Gayarka Gayarmaysa Gaysa Gaysatandaka Gaysatti Goda Godai Godaka Godaksha Godam Godamdana Godamga Godan Godanaya Godardaka Godasata Godata Godatana Gosta Gostan Gostanali Gostanda Gosthana Gula Gulacusaa Guladhamgan Guladhavata Guman Gumatti Gumna Gumtha Gumxuk Gumxuka Gumxukam Hara Harchu Hardaka Hardashuka Hardatana Hardha Harkent Harma Harmai Harmatti Harrjahu Harrjahuk Harrjamdaka Haruka Hasalaka Hasam Hasha Hasham Hashirse Hasi Haska Hasta Hina Hinai Hinana Hinane Hinara Hota Hotana Hotandaka Hoto Hvala Hvalaka Hvamadaka Hvambasataka Hvambasha Hvambasi Hvambasthana Hvamda Hvamdaka Hvamdashana Hvamdhadra Hvamdu Hvamduka Hvamgula Hvamgulac Hvamgya Hvarala Hvaramna Hvarka Hvarkadara Hvarkadra Hvarkent Hvarma Hvarmadaka Hvarmaya Hvarrjama Hvarrjamga Hvarsharamna Hvarugize Hvata Hvatcainga Hvatti Hvima Hvimaskaina Hvimdai Hvira Hviresala Hviresaluka Hviresaralai Hvirtta Hvirvam Ikaniyaunala Irabhangra Irai Irala Iramala Iramna Iranazatcu Irastanohar Jabgula Jabha Jabhamai Jabharamgula Jajam Jajama Jajamgula Kama Kamain Kamayau Kamdhirmala Kamgan Kamgya Kamna Kara Karane Kardasi Kardhardhana Karma Karmaluka Karna Karnaladha Kasa Kasha Kaska Kastanpaka Kasudha Kaya Kayasi Kayausa Kaysa Kaysai Kaysam Kaysata Keri Keribham Kerika Keriksharaka Kerita Keritina Khadana Khamdhaniya Khamgula Khanna Khavaramna Khimata Khimhyi Khira Khiraladoto Khiresam Khirmatta Khirtti Khirvardaka Khivaruk Khivyasane Khota Khotani Khotanohana Khotasala Khoto Khudha Khudharaisa Khuk Khuq Khurai Khurgula Khva Khvam Khvamga Khvarma Khvaruka Kima Kimala Kimash Kimata Kimaune Kimdaka Kimdu Kimduka Kimhya Kimhyatancai Kimhyau Kimhyi Kimi Kimin Kimina Kiminaya Kira Kiraka Kiresam Kirgai Kirmatta Kirse Kirshaghuq Kirttana Kirtushannai Kribhana Kriksh Krita Krora Krorabgula Krorakaisa Krorama Kroramna Krorapra Krortanarala Krorttinaa Krortusta Kuna Kunai Kunana Kunar Kunekula Kusa Kusaa Kusai Kusam Kusama Kusamna Kusana Kush Kusha Kusharugiti Kusta Kustaka Kustasa Kusthana Kusthavam Kusya Mambasaa Mambharmadha Mamgarkhoto Mamgu Mamgula Mamguti Mamna Mana Mancai Mani Maniya Mayamgya Mayasa Mayau Maysaina Maysaismala Maysara Mura Muradamna Muradhasudha Muraka Muram Murapasta Murapram Murapramata Murga Murganaitina Murgarmatta Murgu Murguti Murguttina Murli Murlimha Murlimhyi Murlimi Naga Naganga Nagarchuda Naghuq Nagize Nana Nanca Nanekulapra Naniyamna Nanna Nanpaka Nanpandasi Nipaka Nipakya Nipan Nipanaya Nipandana Nirai Nirgaka Nirmatta Nirta Niyai Niyarchudata Niyau Padai Padaka Padana Padandra Padaya Padhirmatta Padota Padrai Padram Padramgula Paka Pakai Pakama Pakshika Pakyatti Phadainanda Phadraka Phagaina Phana Phara Phardaka Phardha Phikra Phikshavam Phima Phimhadatti Phimi Phina Phiva Phivalaka Phivara Phivyam Prali Pramga Prashimata Presa Presai Presala Presam Presamgana Presamgu Presana Presanpaka Presarmau Puna Punaa Punai Punanarkhoto Punaza Pune Punekulacu Puraina Puram Puramga Purapashuq Purgakai Purgulac Purguttana Purli Raga Ragai Ragam Ragamdu Raganna Ragaradotana Raghudatti Raghudhani Safala Safalaka Safalapumna Safaluka Samaina Samasta Sambastane Sambhanana Samda Samdarka Samdashina Samdu Samga Samgani Samganiya Samna Sana Sanainalimha Sanaya Sand Sandane Sandatcu Sani Sanna Sanohara Sanpaka Saya Sayai Sayau Sayauna Saysa Saysaa Shac Shamatta Shambham Shamdharma Shamduk Shamna Shan Shana Shanca Shanda Shandaka Shandamgai Shandramgula Shanna Shannaya Shanoharkana Sharama Sharchura Sharkent Sharma Shavala Shavam Shavamga Shavirma Shika Shikandra Shikra Shikrabgulac Shikraka Shikrasta Shiksha Shikshivyama Shima Shimha Shimhyi Shimina Shina Shinaryonj Shira Shiram Shiresaa Shiresam Shiresamgya Shirmata Shirmatta Shirta Shirttinai Shirtux Shita Shitan Shiti Shiva Shivya Shivyar Shivyau Shivyaush Shivyausya Shribha Shribhamna Shribhana Shribhar Shrika Shrikram Shrikshanaa Shritana Shriti Shriya Shriyaina Shriyamata Shriyau Shta Shtashikana Shtrugitane Shtruka Shtrusta Shtrusyai Shudaka Shudane Shudaraluka Shudevalai Shudharugize Shuk Shuka Shuq Shuraka Shurga Shurgam Shurgula Shurli Shurlimaska Sida Sidai Sidaita Sidanala Sidasa Sidata Sihyaitina Sihyam Sihyausta Sihyaustasi Sihyi Sila Sima Simainai Simala Simasa Simaysa Simdatcune Simhaga Siminalaka Stha Sthadatsimi Stham Sthama Sthamatsi Sthamda Sthan Sthana Sthane Sthanohava Stharchurli Stharmadatta Stharustaka Sthasimhana Suda Sudaisala Sudakya Sudamatsi Sudaraka Sudarkhotasa Sudasimhyi Sudeva Sudevatti Sudha Sudhandai Sudhara Sudharugize Sudharusam Suma Sumasta Sumau Sumina Sumna Sumnarda Sumthanna Sumtharkent Sumxuk Sumxuka Sumxukaingra Taya Tayai Tayamgala Tayarma Tayata Tayatcai Tayau Tayausattana Taysa Taysamdam Taysata Tcuna Tcusa Tcusta Tisa Tish Tishamdai Tishancai Tishga Tishuq Tismaiti Tismana Tisyamna Tisyau Tuma Tumasta Tumi Tumina Tuminga Tumna Tumnai Tumnain Tumshanekula Tumshu Tumtha Tumthardham Tumxuka Usta Usthan Vada Vadaka Vadakshavata Vadamdhana Vadaralaka Vadarmata Vadhadarka Vadharma Vadotanna Vadoto Vadraka Vaga Vagaka Vagakya Vagana Vagaramgaka Vaghuq Vaghurga Vagitan Vaha Vahac Vahacunaa Vahadarna Vahamatta Vahaniya Vahanna Vahara Vaharaiti Vaharkhota Vaharmada Vaharmatsi Vahasa Vahastana Vahu Vahuka Vara Varadama Varalai Varalaka Varam Varana Varchuq Vardaka Vardarmasi Varka Varkent Varma Varmaushand Varna Varnaina Varnala Varugita Varuk Varusyai Varyonj Vasa Vasai Vasha Vashina Vashu Vasi Vaska Vasta Vastaka Vastakyau Vastan Vastana Vastandraina Vastasha Vida Vidaka Vidakanpaka Vidakshganca Vidamga Vidan Vidana Vidand Vidaniyau Vidaraska Vidarma Vidasham Vidasi Vidata Vidatanca Vidatti Vijitaka Vijitancai Vijitandra Vijitangara Vijiti Vijitina Vika Vikai Vikra Vikraka Vikram Vikranaa Vima Vimai Vimalai Vimasi Vimatandraka Vimatcaita Vimatcunayam Vimauna Vimausha Vimda Vimdhadra Vimdham Vimduk Vimha Vimhya Vimhyi Vimi Vimina Vira Viraisyar Viraka Viramgya Virapram Viresa Virsharmatca Virva Visa Visaiti Visam Visama Visamna Visardaya Visata Visattana Vish Vishana Vishga Vishgai Vishikrapana Vishtrugize Vismala Vismasi Vismaya Visya Visyam Visyamga Visyata Visyatcu Visyau Yaradatta Yaradaya Yaranna Yardaiti Yardana Yardara Yardham Yardhina Yarka Yarma Yarmana Yarmandayau Yarmasa Yarmatanna Yarmatasi Yarmatca Yarna Yarugitanoha Yarugize Yarusam Yarusta Yaryamaustan Yava Yavalai Yavama Yavamna Yavata Yavataka Yavimandaka Yavimdaka Yavimduka Yavimhadaka Yavirasa Yavirtusa Yopumatti Yopumayausa Yopumna Yopurgulaka Yopurli Yopurlima Yopurlimina Ysai Ysam Ysamga Ysata Yumalapra Yumaluka Yumina Yumshga Yumshgara Yumtha Yumthavala Yumxuk Yuti Yutta Yuttaka Yutti Zama Zamdhadatca Zamgara Zamgyai Zamna
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Sambaska Celestial Travelers" "Kimdaka Celestial Travelers" "Jabhana Celestial Travelers" "Vima Vagakya Celestial Travelers" "Kuna Vahadhara Celestial Travelers" "Vagamgula Celestial Travelers" "Vadota Celestial Travelers" "Safaprash Celestial Travelers" "Sudan Puna Celestial Travelers" "Kunekula Celestial Travelers" 
+		}
+		sequential_name = FANTASY_KHOTANESE_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_KHOTANESE_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Artushga Artushgarkent Artushuk Artushuq Artustana Artusthacu Artusthan Artustharuk Artustharuka Bala Baluk Balukand Balukaniya Bar Barchuka Barchuq Barka Barkana Barkaniya Barkent Baruk Baruka Bhacu Bhan Bhana Bhand Bhaniya Bhar Bharkent Cadotan Cadotana Cadotaniya Gaush Gaushuk Gaushuka Gaushukan Gaushuq Gausta Gaustan Gaustand Gaustaniya Gausthacu Gausthan Gausthar Gaustharchuq Gaustharka Gaustharuk Godan Godand Gumi Gumsh Gumshga Gumshuk Gumshuq Gumxuk Gumxuka Hota Hotana Hotand Hotaniya Hvata Hvatan Hvatand Hvataniya Kash Kashga Kashgarukan Kashuk Kashukan Kashuq Khota Khotana Khotaniya Muraluk Muraluka Murga Murgar Murgarchuka Murgarchuq Murgarkent Murgaruk Shan Shana Shand Shaniya Shar Sharchukana Sharchuq Sharka Sharukaniya Tuma Tumi Tumsh Tumshga Tumshgar Tumshgarchuka Tumshuka Tumshukana Tumxuka Yar Yarchuk Yarchuka Yarchukana Yarchuq Yarka Yarkan Yaruk Yaruka Yopurala Yopuraluk Yopuraluka Yopurgar Yopurgarchuq Yopurgaruk Yopurgaruka Yuma Yumsh Yumshgar Yumshgaruk Yumshgaruka Yumshuq Yumxuk Yumxuka Yumxukana
+
+				"Hvanargan Pass"
+				"Yuma Pass"
+				"Hothuq Pass"
+				"Yurtaluk Pass"
+				"Tutashala Pass"
+				"Yuxu Pass"
+				"Arana Pass"
+				"Arka Pass"
+				"Arkerta Pass"
+				"Hodanaluxu Pass"
+				"Yopux Pass"
+				"Hvamar Pass"
+				"Khopumux Fortress"
+				"Araukananama Fortress"
+				"Bamstanar Fortress"
+				"Yotusta Fortress"
+				"Bhumsatuta Fortress"
+				"Khastarga Fortress"
+				"Tukerak River"
+				"Yustaniyarka River"
+				"Gusatauma River"
+				"Batan River"
+				"Shuti Oasis"
+				"Arumana Oasis"
+				"Yuma Oasis"
+				"Hotana Oasis"
+				"Khara Oasis"
+				"Yuxuta Oasis"
+				"Mount Gandauk"
+				"Mount Yushoda"
+				"Mount Tuka"
+				"Mount Yuxumndacuk"
+				"Mount Ninala"
+				"Mount Tuman"
+				"Mount Archustiya"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Alsa Alsai Alysala Alysama Alysamga Alysamgalac Alysaram Arma Armalaka Armaunai Arsamdaka Arse Arshava Arya Aryam Aryasala Aryatti Aryau Bagakamna Bagize Baha Bahadamda Bahava Bahura Bamala Bamda Bamga Bamgana Bhagalai Bhana Bhanaina Bharmata Braka Brikra Brita Caprambasi Caprambaska Capumna Cegu Cegula Cegulai Chikra China Chinganda Chirakam Chiramdu Chiti Chivya Chivyamduka Daina Dainana Dhadaka Dhadra Dhadrakada Dhamguti Dhana Dhani Dhanpanca Dumna Dzata Dzatta Dzatti Gosta Gostaka Gula Gulaina Gulaka Harma Hasi Hastana Hastandasta Hvala Hvamgai Hvamgu Hvarmannai Hvimau Hviramga Hviramgya Ikai Iradharka Iramgalaina Jabham Jabharma Jajahada Jajahagize Jajam Kambasi Kamdaka Kamdu Kamguti Kaya Kayarmatti Kayatsi Kayatta Khada Khancaina Khika Khimina Khiradha Khitaka Khuda Khudam Khudarse Khudeva Khudhara Khudharna Khura Khurgula Khurli Khvam Khvamadaka Khvaraka Kima Kimadamaya Kimala Kimasimhava Kimatta Kimauna Kimaya Kimdatani Kimdhimhyi Kimdu Kimduka Kimhyi Kimina Kimingra Kiram Kirsana Kribha Kribhadhiti Kribhana Kribhanna Kuna Kunana Kusa Kusam Kusyam Mama Mamai Mambasimham Mamdaka Mamga Mamgalimham Mana Manara Mangalai Mayatti Maysa Maysai Maysamau Murgu Murli Murlima Murlimai Murlimaska Naga Naghudhara Naghudhina Nagiti Nagize Nana Nanai Nandayam Nandra Nipakyarda Nipanda Nipaniyasi Nipashagaka Nipasta Nira Niresa Nirmastaka Padrabgulac Paka Phimdhikram Phimhyi Phiminainga Phira Phirtta Phivala Praka Presa Presama Presamdatti Puna Punai Punala Puram Purasta Purgu Purlimdam Raga Ragai Ragain Ragaisam Raganna Ragita Safala Safalai Samala Sambasta Samgandasa Samgulac Sana Sayai Sayasta Saysam Shadraka Shaga Shaganai Shana Shanca Shanpastan Shara Sharaka Sharaska Sharugize Shikshagize Shikshiva Shimdhana Shin Shina Shinga Shiresa Shirse Shirshiva Shirtta Shirtti Shirva Shirvala Shirvalaisa Shirvama Shiti Shiva Shivam Shribhadha Shribhaga Shribharsaa Shribhasta Shribhava Shrikai Shriti Shta Shuda Shudham Shuradaka Shuraska Shurguti Shurli Shurlima Sida Sidai Sidatsi Sihyi Sila Silac Silaka Sima Simala Simatsi Simhyauna Sthadai Sthanai Stharma Stharna Sudaka Sudarugita Sudatta Sudha Sudham Sudhamdhana Sumna Sumnardakya Sumtha Sumthana Sumthasima Tayasi Tayatta Tcusam Tisha Tishan Tisma Vadaka Vadhirva Vadra Vadramali Vagai Vagaka Vaha Vahadha Vahandatsi Vahannala Vahara Vahardaka Vaharmala Vahudara Varaka Varam Varnaram Vasha Vashanpaka Vasta Vidai Vidaka Vidatti Vijiti Vikrakadra Vima Vimai Vimatcainai Vimatti Vimdu Vimham Vimin Vimingana Virtti Virvamasi Virvamna Visa Visaa Visama Visamgakai Visan Vishitaska Vishiti Vismai Visya Visyau Visyauna Yava Yavardatta Yavirtti Zamdasta Zamdhin Zamga Zamgai Zamnara
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Birgamna Birgamnaa Birgamnaza Gaysa Gaysataka Gaysatana Gaysatanaza Hina Hinaa Hinaysataka Hinaysatane Hvamdara Hvamdaryora Hvamnaa Hvamnaysa Hvamnaza Kara Karaina Karainaysa Karainaza Karkhoto Karyortaka Krora Krorainaa Krorainaysa Krorta Krortaka Krortana Krortane Kusta Kustaka Kustanaysa Kustanaza Kustane Pha Phamna Phamnaysata Usta Ustana Ustanaza Ustane Vishamna Vishamnaa Vishamnaysa Yara Yaraina Yarainaa Yarainaza Yaryora Yaryoraina Yaryorta Yaryortaka Yaryortane Yuttinaa Yuttinaza
+			}
+			
+			regnal_first_names = {
+				Arshava Bhana Dhadaka Hvamgai Khudeva Nandra Sharaka Sudhamdhana Vishiti
+			}
+			
+			regnal_second_names = {
+				Hvamdara Krortana Pha Ustane
+			}
+		}
+	}
+}

@@ -1,0 +1,62 @@
+namespace = dmm_mod
+#####################################
+#####################################
+#####							#####
+#####	Shroud Rising			#####
+#####							#####
+#####	DMM Access Event		#####
+#####							#####
+#####################################
+#####################################
+
+# New Dynamic Mod Menu support.
+event = {
+	id = dmm_mod.332
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		NOR = {
+			mid_game_years_passed > 30
+			has_global_flag = eot_active
+		}
+	}
+	immediate = {
+		dmm_register_mod = {
+			DMM_NAME = "shroud_rising_settings.1.name"
+			DMM_FLAG = dmm_mod_333
+		}
+	}
+}
+
+country_event = {
+	id = dmm_mod.333
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		exists = from
+		has_global_flag = dmm_installed # 3.0 version
+		from = { has_leader_flag = dmm_mod_333 }
+		is_ai = no
+	}
+	immediate = {
+		if = {
+			limit = {
+				NOR = {
+					has_global_flag = eot_active
+					has_global_flag = sr_settings_active
+				}
+				mid_game_years_passed < 31
+			}
+			country_event = { id = shroud_rising_trigger.1 }
+		}
+		else_if = {
+			limit = { mid_game_years_passed > 30 }
+			dmm_deregister_mod = { DMM_FLAG = dmm_mod_333 }
+		}
+	}
+	after = {
+		if = { limit = { has_global_flag = dmm_mod_333_opened }
+			remove_global_flag = dmm_mod_333_opened
+		}
+	}
+}

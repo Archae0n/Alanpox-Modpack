@@ -1,0 +1,457 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	robales = {
+		name = Robalean
+		plural = Robaleans
+		home_planet = Robales
+		home_system = "Des Adro"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	artefiguim = {
+		name = "Meas Pina"
+		plural = "Meas Pina"
+		home_planet = "Árte Figuim"
+		home_system = Glóriago
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	bapasonio = {
+		name = Amano
+		plural = Amano
+		home_planet = Bapa-Sónio
+		home_system = Bene-Sarcoaque
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	corencelo = {
+		name = Corêncelan
+		plural = Corêncelans
+		home_planet = Corêncelo
+		home_system = Gongústépos
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	guarva = {
+		name = Guarvese
+		plural = Guarvese
+		home_planet = Guarva
+		home_system = Guarva-Cavo
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	guasisarto = {
+		name = Goureda
+		plural = Goureda
+		home_planet = "Guas Isarto"
+		home_system = "Guas Ouroz" 
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	entoreso = {
+		name = Entóressan
+		plural = Entóressans
+		home_planet = Entóreso
+		home_system = Cecílis 
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	tranturo = {
+		name = Trantoid
+		plural = Trantoids
+		home_planet = Tranturo
+		home_system = Meale 
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	cabrecoro = {
+		name = Bor-o-Nogosué
+		plural = Bor-o-Nogosué
+		home_planet = "Cabre Coro"
+		home_system = Febecílipe 
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	almazarto = {
+		name = Almazoid
+		plural = Almazoids
+		home_planet = Almazarto
+		home_system = Bardite-Res
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	olivida = {
+		name = Olívidan
+		plural = Olívidans
+		home_planet = Olívida
+		home_system = Iveiça
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	sanhaento = {
+		name = Água
+		plural = Água
+		home_planet = "Sanha Ento"
+		home_system = Famunco
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	odivelga = {
+		name = Odivelgan
+		plural = Odivelgans
+		home_planet = Odivelga
+		home_system = Agueidão
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	zezerpao = {
+		name = Zêzerpãolese  
+		plural = Zêzerpãolese
+		home_planet = Zêzerpão
+		home_system = Dilva
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	arandradiocecorte = {
+		name = "Suciogo Sim"  
+		plural = "Suciogo Sim"
+		home_planet = "Arandra dio Cecorte"
+		home_system = "Gança dio Sima"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	firsthouse = {
+		name = Montoseces  
+		plural = Montoseces
+		home_planet = "First House"
+		home_system = "Hail of Fire"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	venustista = {
+		name = Vénustian  
+		plural = Vénustians
+		home_planet = Vénustista
+		home_system = Henemistia
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	cundrinho = {
+		name = Cundri 
+		plural = Cundris
+		home_planet = Cundrinho
+		home_system = Penterreiro
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	olguel = {
+		name = Olggian 
+		plural = Olggians
+		home_planet = Olguel
+		home_system = Bruzias
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	farcedualha = {
+		name = Farceduan 
+		plural = Farceduans
+		home_planet = Farcedualha
+		home_system = Séro
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	fortuneoftheliving = {
+		name = "Rodo Pes" 
+		plural = "Rodo Pes"
+		home_planet = "Fortune of the Living"
+		home_system = "Ancestor's Hopeful Light"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	alvafrarito = {
+		name = Alvean
+		plural = Alveans
+		home_planet = "Alva fra Rito"
+		home_system = "Alva fra Vouré"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	euguaris = {
+		name = Euguar
+		plural = Euguars
+		home_planet = Euguaris
+		home_system = "Dande Sela"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	arpenotade = {
+		name = Ulistinto
+		plural = Ulistinto
+		home_planet = "Arpe Notade"
+		home_system = Olíquede
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	toronoto = {
+		name = Guarreu
+		plural = Guarreu
+		home_planet = Tor-o-Valda
+		home_system = Áumes
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	camalos = {
+		name = Camalid
+		plural = Camalids
+		home_planet = Camalos
+		home_system = Notenda
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	rosvitonio = {
+		name = Vitónian
+		plural = Vitónians
+		home_planet = "Ros Vitónio"
+		home_system = "Ros Alcácedelo"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	angral = {
+		name = Angralese
+		plural = Angralese
+		home_planet = Angral
+		home_system = Cacheco
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	madade = {
+		name = Braço
+		plural = Braço
+		home_planet = Madade
+		home_system = Maré
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	oreso = {
+		name = Óresoid
+		plural = Óresoids
+		home_planet = Óreso
+		home_system = Ermeiago
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	bittersweetnostalgia = {
+		name = Saudade
+		plural = Saudade
+		home_planet = "Bittersweet Nostalgia"
+		home_system = "Old Memory"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	almarros = {
+		name = Almarran
+		plural = Almarrans
+		home_planet = Almarros
+		home_system = "Poranta Here"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	pediano = {
+		name = Pedianish
+		plural = Pedianish
+		home_planet = Pediano
+		home_system = "Gantia pas Qual"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	plutiagal = {
+		name = Plutiagalese
+		plural = Plutiagalese
+		home_planet = Plutiagal
+		home_system = "Reiro Nicelha"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	estodinceano = {
+		name = Dinceanan
+		plural = Dinceanans
+		home_planet = "Esto Dinceano"
+		home_system = "Esto Maroseta"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	esmorenco = {
+		name = Esmorêncian
+		plural = Esmorêncians
+		home_planet = Esmorênco
+		home_system = "Pasco Rona"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	camilvede = {
+		name = Camilvedan
+		plural = Camilvedans
+		home_planet = Camilvede
+		home_system = Sendes
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	andelgalo = {
+		name = Andelgalese
+		plural = Andelgalese
+		home_planet = Andelgalo
+		home_system = Contelutão
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	mirrea = {
+		name = Mirrean
+		plural = Mirreans
+		home_planet = Mirrea
+		home_system = Maronto
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	tavelga = {
+		name = Xirancan
+		plural = Xirancans
+		home_planet = Tavelga
+		home_system = "Éria Mourno"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	erimbalhao = {
+		name = Érimbese
+		plural = Érimbese
+		home_planet = Érimbalhão
+		home_system = Agueirreu
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	invilo = {
+		name = Inviloid
+		plural = Inviloids
+		home_planet = Invilo
+		home_system = Leiros
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	estaxo = {
+		name = Var
+		plural = Var
+		home_planet = Estaxo
+		home_system = Lamuncha
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	jupistepolo = {
+		name = Mancheans
+		plural = Mancheans
+		home_planet = Júpistépolo
+		home_system = Vendes
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	aguares = {
+		name = Águar
+		plural = Águars
+		home_planet = Águares
+		home_system = "Alcos Vilos"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+}
+
+
+### AQUATICS
+
+AQUATIC = {
+	jupido = {
+		name = Júpidan
+		plural = Júpidans
+		home_planet = Júpido
+		home_system = Sancinho
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	albeitao = {
+		name = Albeitoid
+		plural = Albeitoids
+		home_planet = Albeitão
+		home_system = "Tâmeu Pomede"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	enesalvardo = {
+		name = Álvardian
+		plural = Álvardians
+		home_planet = "Enes Álvardo"
+		home_system = Cacudadreiça
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	venueica = {
+		name = Vénu
+		plural = Vénu
+		home_planet = Vénueiça
+		home_system = Dermânia
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	almanotherectifier = {
+		name = Catinte
+		plural = Catinte
+		home_planet = "Almano the Rectifier"
+		home_system = "Rossor the Proper"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	maskofprotection = {
+		name = Cacian
+		plural = Cacians
+		home_planet = "Mask of Protection"
+		home_system = "Constellation of Joy"
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	pondancaoprime = {
+		name = Pondançian
+		plural = Pondançians
+		home_planet = "Pondanção Prime"
+		home_system = Pondanção
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	priogo = {
+		name = Priogese
+		plural = Priogese
+		home_planet = Priogo
+		home_system = Douramenha
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	alcantugus = {
+		name = Alcântugese
+		plural = Alcântugese
+		home_planet = Alcântugus
+		home_system = Moniçal
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	monical = {
+		name = Moniçalese
+		plural = Moniçalese
+		home_planet = Moniçal
+		home_system = Poladortia
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	barvale = {
+		name = Barvalid
+		plural = Barvalids
+		home_planet = Barvale
+		home_system = Rodomeu
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+	focanca = {
+		name = Foçancese
+		plural = Foçancese
+		home_planet = Foçanca
+		home_system = Se-Cacade
+		name_list = "cybrxkhan_fantasy_portuguese"
+	}
+}

@@ -1,0 +1,1264 @@
+namespace = rwf_flavour
+
+event = {
+	id = rwf_flavour.0
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		set_global_flag = relic_world_flavour
+	}
+}
+
+# Gatekeeper
+planet_event = {
+	id = rwf_flavour.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		# Don't waste events on empty worlds for whatever reason.
+		if = {
+			limit = {
+				is_colony = yes
+				owner = {
+					is_gestalt = no
+				}
+			}
+			random_list = {
+				14 = { } # Approximately a new event every 20 years or so. (Ideally)
+				1 = {
+					random_list = {
+						1 = { planet_event = { id = rwf_flavour.10 }}
+						1 = { planet_event = { id = rwf_flavour.20 }}
+						1 = { planet_event = { id = rwf_flavour.50 }}
+						1 = { planet_event = { id = rwf_flavour.60 }}
+						1 = { planet_event = { id = rwf_flavour.110 }}
+
+					}
+				}
+			}
+		}
+		# Loop the event
+		if = {
+			limit = {
+				rwf_is_current_history_relic_world = yes
+			}
+			planet_event = { id = rwf_flavour.1 days = 360 }
+		}
+		# The planet has been developed
+		else = {
+			random_list = {
+				4 = { planet_event = { id = rwf_flavour.1 days = 360 }}
+				1 = { remove_planet_flag = rwf_gatekeeper_active}
+			}
+		}
+	}
+}
+
+# The gatekeeper gatekeeper. Lmao
+planet_event = {
+	id = rwf_flavour.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		# Don't waste events on empty worlds for whatever reason.
+		if = {
+			limit = {
+				AND = {
+					rwf_was_ever_history_relic_world = yes
+					not = { has_planet_flag = rwf_gatekeeper_active}
+				}
+			}
+			set_planet_flag = rwf_gatekeeper_active
+			planet_event = { id = rwf_flavour.1 days = 360 }
+		}
+	}
+}
+
+# Enterprising Adventurers
+planet_event = {
+	id = rwf_flavour.10
+	title = rwf_flavour.10.name
+	desc = "rwf_flavour.10.desc"
+	picture  = GFX_evt_ancient_artifact
+	location = root
+	is_triggered_only = yes
+
+	trigger = {
+		rwf_was_ever_history_relic_world = yes
+		NOT = {
+			has_modifier = rwf_adventurer_archaeologists
+		}
+	}
+
+	option = {
+		name = rwf_flavour.10.a
+		add_modifier = { modifier = rwf_adventurer_archaeologists }
+	}
+}
+
+# Artefact Smugglers
+# Part 1, mysterious discrepancies
+planet_event = {
+	id = rwf_flavour.20
+	title = rwf_flavour.20.name
+	desc = "rwf_flavour.20.desc"
+	picture  = GFX_evt_ship_offloading_cargo
+	location = root
+	is_triggered_only = yes
+
+	trigger = {
+		rwf_was_ever_history_relic_world = yes
+		NOT = {
+			owner = {
+				has_country_flag = rwf_artefact_smuggling
+			}
+		}
+	}
+
+	immediate = {
+		owner = {
+			set_country_flag = rwf_artefact_smuggling
+		}
+	}
+
+	# Investigate
+	option = {
+		name = rwf_flavour.20.a
+		allow = {
+			owner = { resource_stockpile_compare = { resource = influence value >= 50 } }
+		}
+		owner = {
+			add_resource = { influence = -50 }
+		}
+		add_modifier = {
+			modifier = rwf_mysterious_discrepancies
+			years = 5
+		}
+		hidden_effect = {
+			random_list = {
+				30 = { planet_event = { id = rwf_flavour.21 days = 90 }}
+				10 = { planet_event = { id = rwf_flavour.22 days = 90 }}
+			}
+		}
+	}
+	# Ignore
+	option = {
+		name = rwf_flavour.20.b
+		add_modifier = {
+			modifier = rwf_mysterious_discrepancies
+			years = 5
+		}
+		hidden_effect = {
+			random_list = {
+				10 = { planet_event = { id = rwf_flavour.21 days = 90 }}
+				30 = { planet_event = { id = rwf_flavour.22 days = 90 }}
+			}
+		}
+	}
+}
+
+# The smugglers uncovered
+planet_event = {
+	id = rwf_flavour.21
+	title = rwf_flavour.21.name
+	desc = "rwf_flavour.21.desc"
+	picture  = GFX_evt_gunrunning
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.21.a
+		remove_modifier = rwf_mysterious_discrepancies
+		owner = {
+			add_resource = { minor_artifacts = 500 }
+		}
+	}
+}
+
+# No trace of the smugglers
+planet_event = {
+	id = rwf_flavour.22
+	title = rwf_flavour.22.name
+	desc = "rwf_flavour.22.desc"
+	picture  = GFX_evt_analyzing_artifacts
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.22.a
+	}
+}
+
+# Flavour event for the first relic we survey
+ship_event = {
+	id = rwf_flavour.30
+	title = rwf_flavour.30.name
+	desc = "rwf_flavour.30.desc"
+	picture  = GFX_evt_relic_world
+	location = root
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = { # Planet scope
+			is_planet_class = pc_relic
+		}
+		owner = {
+			NOR = {
+				has_country_flag = rwf_has_surveyed_a_relic
+				has_origin = origin_remnants
+			}
+		}
+	}
+
+	immediate = {
+		owner = {
+			set_country_flag = rwf_has_surveyed_a_relic
+		}
+	}
+
+	option = {
+		name = rwf_flavour.30.a
+	}
+}
+
+# Discovered ruins with no nearby relic surveyed
+ship_event = {
+	id = rwf_flavour.40
+	title = rwf_flavour.40.name
+	desc = "rwf_flavour.40.desc"
+	picture  = GFX_evt_alien_ruins
+	location = root
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = { # Planet scope
+			NOT = { is_planet_class = pc_relic }
+			OR = {
+				has_deposit = rwf_related_ruins_minor
+				has_deposit = rwf_related_ruins_medium
+				has_deposit = rwf_related_ruins_large
+			}
+			# We don't want it popping up for multiple planets in the system.
+			NOT = {
+				solar_system = {
+					has_star_flag = rwf_related_ruins_orphans
+				}
+			}
+
+			NOT = {
+				solar_system = {
+					any_neighbor_system = {
+						any_system_planet = {
+							is_planet_class = pc_relic
+							is_surveyed = {
+								status = yes
+								who = root.owner
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		solar_system = {
+			set_star_flag = rwf_related_ruins_orphans
+		}
+	}
+
+	option = {
+		name = rwf_flavour.40.a
+		owner = {
+			add_resource = {
+				society_research = 250
+			}
+		}
+	}
+	option = {
+		name = rwf_flavour.40.b
+		trigger = {
+			owner = {
+				has_origin = origin_remnants
+			}
+		}
+		allow = {
+			owner = {
+				has_origin = origin_remnants
+			}
+		}
+		owner = {
+			add_resource = {
+				unity = 250
+			}
+		}
+	}
+}
+
+# Discovered ruins with a nearby relic surveyed
+ship_event = {
+	id = rwf_flavour.41
+	title = rwf_flavour.41.name
+	desc = "rwf_flavour.41.desc"
+	picture  = GFX_evt_alien_ruins
+	location = root
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = { # Planet scope
+			NOT = { is_planet_class = pc_relic }
+			OR = {
+				has_deposit = rwf_related_ruins_minor
+				has_deposit = rwf_related_ruins_medium
+				has_deposit = rwf_related_ruins_large
+			}
+			# We don't want it popping up for multiple planets in the system.
+			NOT = {
+				solar_system = {
+					has_star_flag = rwf_related_ruins_orphans
+				}
+			}
+			solar_system = {
+				any_neighbor_system = {
+					any_system_planet = {
+						is_planet_class = pc_relic
+						is_surveyed = {
+							status = yes
+							who = root.owner
+						}
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		solar_system = {
+			set_star_flag = rwf_related_ruins_orphans
+
+			random_neighbor_system = {
+				limit = {
+					any_system_planet = {
+						is_planet_class = pc_relic
+						is_surveyed = {
+							status = yes
+							who = root.owner
+						}
+					}
+				}
+				random_system_planet = {
+					limit = {
+						is_planet_class = pc_relic
+						is_surveyed = {
+							status = yes
+							who = root.owner
+						}
+					}
+					save_event_target_as = rwf_related_ruins_source
+				}
+			}
+		}
+	}
+
+	option = {
+		name = rwf_flavour.41.a
+		owner = {
+			add_resource = {
+				society_research = 250
+			}
+		}
+	}
+	option = {
+		name = rwf_flavour.41.b
+		trigger = {
+			owner = {
+				has_origin = origin_remnants
+			}
+		}
+		allow = {
+			owner = {
+				has_origin = origin_remnants
+			}
+		}
+		owner = {
+			add_resource = {
+				unity = 250
+			}
+		}
+	}
+}
+
+# Survey relic with nearby ruins discovered
+# There's no point in doing Relic surveyed without ruins, that's captured by event 41
+ship_event = {
+	id = rwf_flavour.42
+	title = rwf_flavour.42.name
+	desc = "rwf_flavour.42.desc"
+	picture  = GFX_evt_city_ruins
+	location = root
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = { # Planet scope
+			is_planet_class = pc_relic
+
+			# We don't want it popping up for multiple planets in the system.
+			NOT = {
+				solar_system = {
+					has_star_flag = rwf_related_ruins_parent
+				}
+			}
+			solar_system = {
+				any_neighbor_system = {
+					any_system_planet = {
+						OR = {
+							has_deposit = rwf_related_ruins_minor
+							has_deposit = rwf_related_ruins_medium
+							has_deposit = rwf_related_ruins_large
+						}
+						is_surveyed = {
+							status = yes
+							who = root.owner
+						}
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		solar_system = {
+			set_star_flag = rwf_related_ruins_parent
+		}
+	}
+
+	option = {
+		name = rwf_flavour.42.a
+		owner = {
+			add_resource = {
+				society_research = 250
+			}
+		}
+	}
+	option = {
+		name = rwf_flavour.42.b
+		trigger = {
+			owner = {
+				has_origin = origin_remnants
+			}
+		}
+		allow = {
+			owner = {
+				has_origin = origin_remnants
+			}
+		}
+		owner = {
+			add_resource = {
+				unity = 250
+			}
+		}
+	}
+}
+
+# Scientific Interests
+planet_event = {
+	id = rwf_flavour.50
+	title = rwf_flavour.50.name
+	desc = "rwf_flavour.50.desc"
+	picture  = GFX_evt_archaeology_camp
+	location = root
+	is_triggered_only = yes
+
+	trigger = {
+		rwf_was_ever_history_relic_world = yes
+		NOR = {
+			has_modifier = rwf_scientific_focus
+			has_modifier = rwf_archaeology_focus
+		}
+	}
+
+	option = {
+		name = rwf_flavour.50.a
+		owner = {
+			add_resource = {
+				physics_research = 1000
+				engineering_research = 1000
+			}
+		}
+		add_modifier = { modifier = rwf_scientific_focus }
+	}
+	option = {
+		name = rwf_flavour.50.b
+		owner = {
+			add_resource = {
+				society_research = 2000
+			}
+		}
+		add_modifier = { modifier = rwf_archaeology_focus }
+	}
+}
+
+# Past Visitors
+planet_event = {
+	id = rwf_flavour.60
+	title = rwf_flavour.60.name
+	desc = "rwf_flavour.60.desc"
+	picture = GFX_evt_dead_city
+	location = root
+	is_triggered_only = yes
+
+	trigger = {
+		rwf_was_ever_history_relic_world = yes
+		NOT = {
+			owner = {
+				has_country_flag = rwf_has_past_visitors
+			}
+		}
+	}
+
+	immediate = {
+		owner = {
+			set_country_flag = rwf_has_past_visitors
+		}
+	}
+
+	option = {
+		name = rwf_flavour.60.a
+		enable_special_project = {
+			name = rwf_past_visitors_relic
+		}
+	}
+	option = {
+		name = rwf_flavour.60.b
+		owner = {
+			add_resource = {
+				influence = 25
+			}
+		}
+	}
+}
+
+# Past Visitors: Hideout found
+planet_event = {
+	id = rwf_flavour.61
+	title = rwf_flavour.61.name
+	desc = "rwf_flavour.61.desc"
+	picture = GFX_evt_dead_city
+	location = event_target:rwf_past_visitor_hideout
+	is_triggered_only = yes
+
+	immediate = {
+		solar_system = {
+			random_neighbor_system_euclidean = {
+				random_system_planet = {
+					save_event_target_as = rwf_past_visitor_hideout
+				}
+			}
+		}
+	}
+
+	option = {
+		name = rwf_flavour.61.a
+		event_target:rwf_past_visitor_hideout = {
+			enable_special_project = {
+				name = rwf_past_visitors_hideout
+			}
+		}
+	}
+}
+
+# Past Visitors: Treasure snatched
+ship_event = {
+	id = rwf_flavour.62
+	title = rwf_flavour.62.name
+	desc = "rwf_flavour.62.desc"
+	picture = GFX_evt_resource_cache
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.62.a
+		owner = {
+			add_resource = {
+				energy = 5000
+				society_research = 3000
+				minor_artifacts = 250
+			}
+		}
+	}
+}
+
+planet_event = {
+	id = rwf_flavour.70
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		# Calculate an outcome for the expedition
+		random_list = {
+			50 = { planet_event = { id = rwf_flavour.71 }} # Nothing
+			30 = { planet_event = { id = rwf_flavour.72 }} # Resources
+			20 = { planet_event = { id = rwf_flavour.73 }} # Techs
+			# This one has slightly higher odds, but only fires once
+			20 = { planet_event = { id = rwf_flavour.74 }} # Unique outcomes
+		}
+	}
+}
+
+# Nothing found
+planet_event = {
+	id = rwf_flavour.71
+	title = rwf_flavour.71.name
+	desc = "rwf_flavour.71.desc"
+	picture = GFX_evt_relic_world
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.71.a
+	}
+}
+
+# Resources found
+planet_event = {
+	id = rwf_flavour.72
+	title = rwf_flavour.72.name
+	desc = "rwf_flavour.72.desc"
+	picture = GFX_evt_resource_cache
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.72.a
+		owner = {
+			add_resource = {
+				alloys = 1500
+				exotic_gases = 150
+				rare_crystals = 150
+				volatile_motes = 150
+			}
+		}
+	}
+}
+
+# Techs found
+planet_event = {
+	id = rwf_flavour.73
+	title = rwf_flavour.73.name
+	desc = "rwf_flavour.73.desc"
+	picture = GFX_evt_ancient_databank
+	location = root
+	is_triggered_only = yes
+
+	immediate = {
+	}
+
+	option = {
+		name = rwf_flavour.73.a
+		owner = {
+			# It looks like these just arent available. Need to come up with a plan because they are failing.
+			add_random_research_option = {
+				category = archaeostudies
+				fail_effects = {
+					add_resource = {
+						# TODO: consider scaling this to their income
+						physics_research = 2500
+						society_research = 2500
+						engineering_research = 2500
+					}
+				}
+			}
+		}
+	}
+}
+
+# Unique outcomes gatekeeper
+planet_event = {
+	id = rwf_flavour.74
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			# You only get to roll one of these per planet
+			limit = {
+				not  = { has_planet_flag = rwf_unique_reward_found}
+			}
+			# Calculate an outcome for the expedition
+			switch = {
+				trigger = has_planet_flag
+
+				rwf_kirth = {
+					# Kirth custom outcome
+					planet_event = { id = rwf_flavour.75 }
+				}
+
+				rwf_carachel = {
+					# Carachel custom outcome
+					planet_event = { id = rwf_flavour.76 }
+				}
+
+				# Fen Habbanis
+				first_league_homeworld = {
+					# Fen Habbanis custom outcome
+					planet_event = { id = rwf_flavour.77 }
+				}
+
+				# Rubricator Planet
+				rubricator_planet = {
+					# Rubricator custom outcome
+					planet_event = { id = rwf_flavour.78 }
+				}
+
+				# Larionessi Planet
+				hive_planet_larion = {
+					# Larionessi custom outcome
+					planet_event = { id = rwf_flavour.85 }
+				}
+
+				# Omnicodex Planet
+				# C.A.R.E Planet
+				# Miniature Galaxy Planet
+				# Sursect
+
+				default = {
+					random_list = {
+						1 = { planet_event = { id = rwf_flavour.79 }} # Treasure Hall
+						1 = { planet_event = { id = rwf_flavour.80 }} # Ancient Armories
+						# Lost Dreadnought Coords, only once per country
+						1 = {
+							if = {
+								limit = { owner = { not = { has_country_flag =  rwf_lost_dreadnought_coords }}}
+								planet_event = { id = rwf_flavour.81 }
+							}
+							else = {
+								planet_event = { id = rwf_flavour.70 } # Reroll
+							}
+						}
+						# Unique techs, only once per country
+						1 = {
+							if = {
+								limit = { owner = { not = { has_country_flag =  rwf_unique_tech_cache_found }}}
+								planet_event = { id = rwf_flavour.83 }
+							}
+							else = {
+								planet_event = { id = rwf_flavour.70 } # Reroll
+							}
+						}
+						1 = { planet_event = { id = rwf_flavour.84 }} # Rare Artifact Cache
+					}
+				}
+			}
+			set_planet_flag = rwf_unique_reward_found
+		}
+		else = {
+			planet_event = { id = rwf_flavour.70 } # Reroll
+		}
+	}
+}
+
+# Kirth Outcome
+planet_event = {
+	id = rwf_flavour.75
+	title = rwf_flavour.75.name
+	desc = "rwf_flavour.75.desc"
+	picture = GFX_evt_relic_world_street
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.75.a
+		add_deposit = rwf_kirth_temple_of_the_goddess_blocker
+		owner = {
+			add_resource = {
+				society_research = 15000
+				unity = 5000
+			}
+		}
+	}
+}
+
+# Carachel Outcome
+planet_event = {
+	id = rwf_flavour.76
+	title = rwf_flavour.76.name
+	desc = "rwf_flavour.76.desc"
+	picture = GFX_evt_death_from_above
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.76.a
+		add_deposit = rwf_carachel_arsenal
+	}
+}
+
+
+# Fen Habbanis Outcome
+planet_event = {
+	id = rwf_flavour.77
+	title = rwf_flavour.77.name
+	desc = "rwf_flavour.77.desc"
+	picture = GFX_evt_rwf_first_league
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.77.a
+		add_deposit = rwf_first_league_great_senate
+	}
+	option = {
+		name = rwf_flavour.77.b
+		add_deposit = rwf_first_league_ruins
+	}
+}
+
+# Rubricator Outcome
+planet_event = {
+	id = rwf_flavour.78
+	title = rwf_flavour.78.name
+	desc = "rwf_flavour.78.desc"
+	picture = GFX_evt_junkheap
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.78.a
+		add_deposit = rwf_forgotten_hoards
+	}
+}
+
+# Treasure Hall
+planet_event = {
+	id = rwf_flavour.79
+	title = rwf_flavour.79.name
+	desc = "rwf_flavour.79.desc"
+	picture = GFX_evt_treasure_pile
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.79.a
+		owner = {
+			add_resource = {
+				energy = 15000
+				exotic_gases = 500
+				volatile_motes = 500
+				rare_crystals = 500
+			}
+		}
+		add_deposit = rwf_ancient_vaults
+	}
+}
+
+# Ancient Armories
+planet_event = {
+	id = rwf_flavour.80
+	title = rwf_flavour.80.name
+	desc = "rwf_flavour.80.desc"
+	picture = GFX_evt_generator_powerup
+	location = root
+	is_triggered_only = yes
+
+	# Get the armies
+	option = {
+		name = rwf_flavour.80.a
+		custom_tooltip = rwf_ancient_weapons_cache_open_effects
+		owner = {
+			add_modifier = { modifier = rwf_archaeotech_weaponry }
+		}
+		while = {
+			count = 10
+			create_army = {
+				owner = root.owner
+				type = gene_warrior_army
+				name = rwf_revitalized_army_name
+			}
+		}
+		while = {
+			count = 2
+			create_army = {
+				owner = root.owner
+				type = cybrex_warform
+				name = rwf_revitalized_warform_name
+			}
+		}
+	}
+	# Study them
+	option = {
+		name = rwf_flavour.80.b
+		owner = {
+			add_resource = {
+				society_research = 15000
+			}
+		}
+	}
+}
+
+# Lost Dreadnought
+planet_event = {
+	id = rwf_flavour.81
+	title = rwf_flavour.81.name
+	desc = "rwf_flavour.81.desc"
+	picture = GFX_evt_shroud_tunnel
+	location = root
+	is_triggered_only = yes
+
+	immediate = {
+		solar_system = {
+			random_neighbor_system_euclidean   = {
+				random_system_planet = {
+					limit = { is_star = no}
+					save_event_target_as = rwf_lost_dreadnought_site
+				}
+			}
+		}
+	}
+
+	option = {
+		name = rwf_flavour.81.a
+		# Create a special project
+		event_target:rwf_lost_dreadnought_site = {
+			enable_special_project = {
+				name = rwf_lost_dreadnought
+			}
+		}
+	}
+}
+
+# Lost Dreadnought found
+ship_event = {
+	id = rwf_flavour.82
+	title = rwf_flavour.82.name
+	desc = "rwf_flavour.82.desc"
+	picture = GFX_evt_relic_shipyard
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.82.a
+		custom_tooltip = rwf_flavour.82.a.tooltip
+		owner = {
+			create_fleet = {
+				name = "NAME_rwf_lost_dreadnought"
+				settings = {
+					spawn_debris = no
+				}
+				effect = {
+					set_owner = prev
+					create_ship_design = {
+						design = "NAME_rwf_lost_dreadnought"
+					}
+					random_list = {
+						10 = {
+							create_ship = {
+								name = "NAME_rwf_lost_dreadnought"
+								design = last_created_design
+								graphical_culture = "plantoid_01"
+								prefix = no
+								upgradable = no
+							}
+						}
+						10 = {
+							create_ship = {
+								name = "NAME_rwf_lost_dreadnought"
+								design = last_created_design
+								graphical_culture = "avian_01"
+								prefix = no
+								upgradable = no
+							}
+						}
+						10 = {
+							create_ship = {
+								name = "NAME_rwf_lost_dreadnought"
+								design = last_created_design
+								graphical_culture = "molluscoid_01"
+								prefix = no
+								upgradable = no
+							}
+						}
+					}
+					set_location = root
+					set_event_locked = yes
+					add_modifier = { modifier = rwf_damaged_systems }
+					enable_special_project = {
+						name = rwf_lost_dreadnought_repair
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = rwf_flavour.82.b
+		owner = {
+			if = {
+				limit = { NOT = { has_technology = tech_archaeo_mass_accelerator} }
+				add_tech_progress = { tech = tech_archaeo_mass_accelerator progress = 0.75 }
+			}
+			else = {
+				add_resource = { physics_research = 10000 }
+			}
+			if = {
+				limit = { NOT = { has_technology = tech_archaeo_mass_drivers} }
+				add_tech_progress = { tech = tech_archaeo_mass_drivers progress = 0.75 }
+			}
+			else = {
+				add_resource = { society_research = 10000 }
+			}
+			add_resource = { engineering_research = 10000 }
+			add_resource = { alloys = 5000 }
+		}
+	}
+}
+
+# Unique Techs
+planet_event = {
+	id = rwf_flavour.83
+	title = rwf_flavour.83.name
+	desc = "rwf_flavour.83.desc"
+	picture = GFX_evt_ancient_databank
+	location = root
+	is_triggered_only = yes
+
+	immediate = {
+		owner = {
+			set_country_flag = rwf_unique_tech_cache_found
+		}
+	}
+
+	option = {
+		name = rwf_flavour.83.a
+		owner = {
+			add_tech_progress = {
+				tech = tech_rwf_relic_drive_core
+				progress = 0.1
+			}
+			add_tech_progress = {
+				tech = tech_rwf_nanobot_treatments
+				progress = 0.1
+			}
+			add_tech_progress = {
+				tech = tech_rwf_microgravity_alloy_blends
+				progress = 0.1
+			}
+		}
+	}
+}
+
+# Rare Artifact Printer
+planet_event = {
+	id = rwf_flavour.84
+	title = rwf_flavour.84.name
+	desc = "rwf_flavour.84.desc"
+	picture = GFX_evt_habitable_dig_site
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.84.a
+		owner = {
+			add_resource = {
+				minor_artifacts = 2000
+				physics_research = 7500
+				society_research = 7500
+				engineering_research = 7500
+			}
+		}
+		add_deposit = rwf_shattered_campus
+	}
+}
+
+# Larionessi Outcome
+planet_event = {
+	id = rwf_flavour.85
+	title = rwf_flavour.85.name
+	desc = "rwf_flavour.85.desc"
+	picture = GFX_evt_society_research
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.85.a
+		add_deposit = rwf_larionessi_cloning_vats
+	}
+}
+
+# Relic world decay tracker
+planet_event = {
+	id = rwf_flavour.100
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		#is_colony = no
+		is_planet_class = pc_city
+	}
+
+	immediate = {
+		if = {
+			limit = { is_variable_set = rwf_ecu_decay_counter}
+			change_variable = {
+				which = rwf_ecu_decay_counter
+				value = 1
+			}
+		}
+		else = {
+			set_variable = {
+				which = rwf_ecu_decay_counter
+				value = 1
+			}
+			add_modifier = {
+				modifier = rwf_abandoned_ecu_tracker
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					which = rwf_ecu_decay_counter
+					value >= 240
+				}
+			}
+			planet_event = { id = rwf_flavour.102 }
+			if = {
+				limit = {
+					#exists = solar_system.owner
+					always = yes
+				}
+				save_event_target_as = rwf_decayed_ecu
+				solar_system.owner = {
+					country_event = { id = rwf_flavour.101 }
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					is_colony = no
+				}
+				planet_event = { id = rwf_flavour.100 days = 30 }
+			}
+			else = {
+				remove_modifier = rwf_abandoned_ecu_tracker
+				clear_variable = rwf_ecu_decay_counter
+			}
+		}
+	}
+}
+
+# Decayed into relic world
+country_event = {
+	id = rwf_flavour.101
+	title = rwf_flavour.101.name
+	desc = rwf_flavour.101.desc
+	picture = GFX_evt_relic_world
+	location = event_target:rwf_decayed_ecu
+	is_triggered_only = yes
+	show_sound = event_wind_ruins
+	is_triggered_only = yes
+
+	#trigger = {
+	#	event_target:rwf_decayed_ecu = {
+	#		is_colony = no
+	#		is_planet_class = pc_city
+	#	}
+	#}
+
+	option = {
+		name = rwf_flavour.101.a
+		tooltip = {
+			event_target:rwf_decayed_ecu = {
+				change_pc = pc_relic
+			}
+		}
+	}
+}
+
+planet_event = {
+	id = rwf_flavour.102
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_colony = no
+		is_planet_class = pc_city
+	}
+
+	immediate = {
+		remove_modifier = rwf_abandoned_ecu_tracker
+		clear_variable = rwf_ecu_decay_counter
+		change_pc = pc_relic
+		if = {
+			# Avoid upgraded relic worlds having their history erased
+			limit = {
+				not = { has_deposit = d_former_relic_world}
+			}
+			set_planet_flag = rwf_recent_relic
+		}
+		while = {
+			count = 4
+			add_deposit = d_relic_metal_boneyard
+		}
+		add_modifier = { modifier = rwf_recently_was_ecu }
+		add_modifier = { modifier = colonial_remains }
+	}
+}
+
+# Shephard beacon expy
+planet_event = {
+	id = rwf_flavour.110
+	title = rwf_flavour.110.name
+	desc = "rwf_flavour.110.desc"
+	picture  = GFX_evt_obelisk_tourists
+	location = root
+	is_triggered_only = yes
+
+	trigger = {
+		rwf_was_ever_history_relic_world = yes
+		NOT = {
+			owner = {
+				has_country_flag = rwf_relic_beacon
+			}
+		}
+	}
+
+	immediate = {
+		owner = {
+			set_country_flag = rwf_relic_beacon
+		}
+		save_event_target_as = rwf_beacon_location
+	}
+
+	option = {
+		name = rwf_flavour.110.a
+		enable_special_project = {
+			name = rwf_mysterious_relic_beacon
+		}
+	}
+
+	option = {
+		name = rwf_flavour.110.b
+	}
+}
+
+# Beacon traits gained
+ship_event = {
+	id = rwf_flavour.111
+	title = rwf_flavour.111.name
+	desc = "rwf_flavour.111.desc"
+	picture  = GFX_evt_obelisk_tourists
+	location = event_target:rwf_beacon_location
+	is_triggered_only = yes
+
+	option = {
+		name = rwf_flavour.111.a
+		leader = {
+			add_trait = rwf_rejuvenated_vitality
+			add_trait = rwf_alien_memories
+		}
+	}
+}

@@ -1,0 +1,28 @@
+tradition_est_fury = {
+	tree_template = "tree_est_0_1_0_13_0"
+	adoption_bonus = "tr_est_fury_adopt"
+	finish_bonus = "tr_est_fury_finish"
+	traditions = {
+		"tr_est_fury_1"
+		"tr_est_fury_2"
+		"tr_est_fury_3"
+		"tr_est_fury_4"
+		"tr_est_fury_5"
+	}
+
+	potential = {
+		est_fury_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10	
+		modifier = {
+			factor = 2
+			has_civic = civic_machine_terminator
+		}	
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

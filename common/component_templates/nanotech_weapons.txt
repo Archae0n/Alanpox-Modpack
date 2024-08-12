@@ -1,0 +1,102 @@
+# ####################
+# Titan Laser
+# ####################
+
+# ## Perdition Beam
+weapon_component_template = {
+	key = "nanotech_PERDITION_BEAM_TITAN"
+	size = titanic
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_perdition_beam"
+	icon_frame = 1
+
+	firing_arc = 10.0
+	use_ship_kill_target = no
+
+	tags = { weapon_type_energy weapon_role_artillery t_slot }
+	component_set = "nanotech_PERDITION_BEAM"
+	projectile_gfx = "perdition_beam"
+	size_restriction = { nanotech_mothership}
+	power = -500
+	damage = { min = 5000 max = 10000 }
+	hull_damage = 1.25
+	shield_damage = 0.75
+	shield_penetration = 0
+	armor_damage = 1.50
+	armor_penetration = 0
+	
+	windup = { min = 30 max = 120 }
+	total_fire_time = 180
+	range = 250
+	accuracy = 0.85
+	tracking = 0
+
+	target_weights = {
+		nanotech_mothership = 4
+		titan = 3
+		battleship = 2
+	}
+
+	ai_weight = {
+		weight = 1
+		
+	}
+}
+weapon_component_template = {
+	key = "nanotech_ARCHAEO_TITAN"
+	size = titanic
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_archaeo_titan_beam"
+	icon_frame = 1
+
+	firing_arc = 10.0
+	use_ship_kill_target = no
+
+	tags = { weapon_type_energy weapon_archaeotech weapon_role_artillery t_slot }
+
+	prerequisites = { "tech_archaeo_titan_beam" }
+	component_set = "nanotech_ARCHAEO_TITAN"
+	projectile_gfx = "perdition_beam"
+	size_restriction = { nanotech_mothership }
+	firing_arc = 10.0
+	min_range = 30.0
+	#static_rotation = yes
+	use_ship_kill_target = no
+	
+	#cost = 1000
+	power = -500
+	damage = { min = 5000 max = 10000 }
+	hull_damage = 1.25
+	shield_damage = 0.5
+	shield_penetration = 0
+	armor_damage = 1.75
+	armor_penetration = 0
+	
+	windup = { min = 20 max = 90 }
+	total_fire_time = 90
+	range = 125
+	accuracy = 0.85
+	tracking = 0
+
+	target_weights = {
+		nanotech_mothership = 4
+		titan = 3
+		battleship = 2
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			add = 2.5
+			owner = { has_ascension_perk = ap_archaeoengineers }
+		}
+		
+			}
+		}
+	
+
+

@@ -1,0 +1,772 @@
+guiTypes = {
+	containerWindowType = {
+		name = "topbar_factions_view"
+		size = { width = 1560 height = 940 }
+		position = { x = 35 y = 50 }
+		if_scaled_resolution = {
+			min_width = 2560
+			position = { x = 55 y = 50 }
+		}
+		clipping = no
+		background = {
+			name = "factions_view_background"
+			spriteType = "GFX_ui_tile_large_bg_plain"
+		}
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_bg"
+			position = { x = 0 y = -12 }
+			if_scaled_resolution = {
+				min_width = 2560
+				position = { x = -10 y = -12 }
+			}
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "factions_header_line"
+			quadTextureSprite = "GFX_line_long"
+			position = { x = 6 y = 21 }
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "factions_header"
+			font = "font_header_20"
+			text = "topbar_button_factions_name"
+			position = { x = 35 y = 2 }
+			if_scaled_resolution = {
+				min_width = 2560
+				position = { x = 25 y = 2 }
+			}
+			maxWidth = 300
+			maxHeight = 30
+			fixedSize = yes
+			format = left
+			vertical_alignment = center
+		}
+		buttonType = {
+			name = "close"
+			quadTextureSprite = "GFX_close"
+			position = { x = -45 y = 7 }
+			orientation = upper_right
+			shortcut = "ESCAPE"
+			clicksound = "back_click"
+			pdx_tooltip = "CLOSE_TITLE"
+		}
+		buttonType = {
+			name = "tab_council"
+			quadTextureSprite = "GFX_ui_tab_1_long_inactive"
+			position = { x = 0 y = 0 }
+			orientation = lower_left
+			buttonFont = "font_text_16"
+			buttonText = "COUNCIL"
+			borderSize = { x = 20 y = 0 }
+			multiline = yes
+			shortcut = "z"
+			clicksound = "tab_click"
+		}
+		buttonType = {
+			name = "tab_factions"
+			quadTextureSprite = "GFX_ui_tab_2_long_active"
+			position = { x = 155 y = 0 }
+			orientation = lower_left
+			buttonFont = "font_text_16"
+			buttonText = "FACTIONS"
+			borderSize = { x = 20 y = 0 }
+			multiline = yes
+			shortcut = "x"
+			clicksound = "tab_click"
+		}
+		buttonType = {
+			name = "tab_edicts_and_policies"
+			quadTextureSprite = "GFX_ui_tab_2_long_inactive"
+			position = { x = 330 y = 0 }
+			orientation = lower_left
+			buttonFont = "font_text_16"
+			buttonText = "EDICTS_AND_POLICIES"
+			borderSize = { x = 20 y = 0 }
+			multiline = yes
+			clicksound = "tab_click"
+			shortcut = "c"
+			oversound = no_sound
+		}
+		containerWindowType = {
+			name = "background"
+			position = { x = 10 y = 48 }
+			size = { width = 400 height = 120 }
+			background = {
+				name = "background"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+			iconType = {
+				name = "hex_bg_left"
+				position = { x = -79 y = 35 }
+				spriteType = "GFX_hex_center_bg"
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "hex_bg_right"
+				position = { x = 79 y = 35 }
+				spriteType = "GFX_hex_center_bg"
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+		}
+		iconType = {
+			name = "faction_icon"
+			quadTextureSprite = "GFX_faction_icon_imperialist"
+			position = { x = 10 y = 48 }
+		}
+		instantTextBoxType = {
+			name = "selected_faction_name_label"
+			font = "font_text_20"
+			text = "Klaxxagons liberation front"
+			position = { x = 80 y = 48 }
+			maxWidth = 320
+			maxHeight = 64
+			fixedSize = yes
+			format = left
+			vertical_alignment = center
+		}
+		buttonType = {
+			name = "rename"
+			quadTextureSprite = "GFX_invisible"
+			position = { x = 80 y = 48 }
+			size = { x = 320 y = 64 }
+			pdx_tooltip = "RENAME_FACTION_TOOLTIP"
+			oversound = no_sound
+		}
+		containerWindowType = {
+			name = "stat_box"
+			size = { width = 400 height = 100 }
+			position = { x = 43 y = 120 }
+			iconType = {
+				name = "stat_bg_01"
+				quadTextureSprite = "GFX_value_slot_short"
+				position = { x = 0 y = 0 }
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "approval_icon"
+				spriteType = "GFX_mod_pop_happiness"
+				position = { x = 14 y = 3 }
+			}
+			instantTextBoxType = {
+				name = "approval_value"
+				font = "font_text_18"
+				text = "0"
+				position = { x = 38 y = 0 }
+				maxWidth = 65
+				maxHeight = 30
+				fixedSize = yes
+				format = center
+				vertical_alignment = center
+				text_color_code = "E"
+			}
+			iconType = {
+				name = "stat_bg_02"
+				quadTextureSprite = "GFX_value_slot_short"
+				position = { x = 115 y = 0 }
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "support_icon"
+				spriteType = "GFX_faction_attraction_icon"
+				position = { x = 122 y = 4 }
+			}
+			instantTextBoxType = {
+				name = "support_value"
+				font = "font_text_18"
+				text = "0"
+				position = { x = 153 y = 0 }
+				maxWidth = 65
+				maxHeight = 30
+				fixedSize = yes
+				format = center
+				vertical_alignment = center
+				text_color_code = "Y"
+			}
+			iconType = {
+				name = "stat_bg_03"
+				quadTextureSprite = "GFX_value_slot_short"
+				position = { x = 230 y = 0 }
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "pops_icon"
+				spriteType = "GFX_planet_view_pop"
+				position = { x = 244 y = 0 }
+			}
+			instantTextBoxType = {
+				name = "pops_amount"
+				font = "font_text_18"
+				text = "0"
+				position = { x = 264 y = 0 }
+				maxWidth = 68
+				maxHeight = 30
+				fixedSize = yes
+				format = center
+				vertical_alignment = center
+				text_color_code = "E"
+			}
+		}
+		### manage faction
+		buttonType = {
+			name = "manage"
+			quadTextureSprite = "GFX_standard_button_230_34_button"
+			position = { x = 83 y = 170 }
+			buttonFont = "font_text_18"
+			buttonText = "POP_FACTION_MANAGE"
+		}
+		### issues
+		containerWindowType = {
+			name = "demands"
+			position = { x = 10 y = 240 }
+			size = { width = 400 height = -10 }
+			containerWindowType = {
+				name = "background"
+				position = { x = 0 y = 40 }
+				size = { width = 100% height = 100%% }
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+			}
+			iconType = {
+				name = "hex_bg"
+				spriteType = "GFX_hex_bg"
+				position = { x = -11 y = -14 }
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "demands_header_line"
+				quadTextureSprite = "GFX_line"
+				position = { x = 4 y = 23 }
+				alwaysTransparent = yes
+			}
+			instantTextBoxType = {
+				name = "demands_label"
+				font = "font_header_20"
+				text = "POP_FACTIONS_COLUMN_DEMANDS"
+				position = { x = 25 y = 5 }
+				maxWidth = 300
+				maxHeight = 20
+				fixedSize = yes
+				format = left
+				#text_color_code = "E"
+			}
+			smoothListboxType = {
+				name = "list"
+				position = { x = 5 y = 45 }
+				size = { x = 381 y = 640 }
+				scrollbarType = "standardlistbox_slider_thick"
+				autohide_scrollbar = no
+			}
+		}
+		buttonType = {
+			name = "sort_type"
+			spriteType = "GFX_button_header_75_34"
+			position = { x = 412 y = 48 }
+			buttonFont = "font_text_16"
+			buttonText = "TYPE"
+			pdx_tooltip = "FACTIONS_VIEW_SORT_TYPE"
+			pdx_tooltip_delayed = "POP_FACTIONS_COLUMN_TYPE_DESC"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+		}
+		buttonType = {
+			name = "sort_name"
+			spriteType = "GFX_button_header_250_34"
+			position = { x = 490 y = 48 }
+			buttonFont = "font_text_16"
+			buttonText = "NAME"
+			pdx_tooltip = "FACTIONS_VIEW_SORT_NAME"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+		}
+		buttonType = {
+			name = "sort_approval"
+			spriteType = "GFX_button_header_150_34"
+			position = { x = 743 y = 48 }
+			buttonFont = "font_text_16"
+			buttonText = "UIO_APPROVAL_TITLE"
+			pdx_tooltip = "FACTIONS_VIEW_SORT_APPROVAL"
+			pdx_tooltip_delayed = "POP_FACTIONS_APPROVAL_DESC"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+		}
+		buttonType = {
+			name = "sort_size"
+			spriteType = "GFX_button_header_95_34"
+			position = { x = 896 y = 48 }
+			buttonFont = "font_text_16"
+			buttonText = "UIO_SIZE_TITLE"
+			pdx_tooltip = "FACTIONS_VIEW_SORT_SIZE"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+		}
+		buttonType = {
+			name = "sort_support"
+			spriteType = "GFX_button_header_116_34"
+			position = { x = 994 y = 48 }
+			buttonFont = "font_text_16"
+			buttonText = "UIO_SUPPORT_TITLE"
+			pdx_tooltip = "FACTIONS_VIEW_SORT_SUPPORT"
+			pdx_tooltip_delayed = "POP_FACTIONS_COLUMN_SUPPORT_DESC"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+		}
+		buttonType = {
+			name = "sort_ethics"
+			spriteType = "GFX_button_header_116_34"
+			position = { x = 1113 y = 48 }
+			buttonFont = "font_text_16"
+			buttonText = "ETHICS"
+			pdx_tooltip = "FACTIONS_VIEW_SORT_ETHIC"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+		}
+		buttonType = {
+			name = "sort_demands"
+			spriteType = "GFX_button_header_190_34"
+			position = { x = 1232 y = 48 }
+			buttonFont = "font_text_16"
+			buttonText = "UIO_ISSUES_TITLE"
+			pdx_tooltip = "FACTIONS_VIEW_SORT_DEMANDS"
+			pdx_tooltip_delayed = "POP_FACTIONS_COLUMN_DEMANDS_DESC"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+		}
+		buttonType = {
+			name = "sort_effects"
+			spriteType = "GFX_button_header_116_34"
+			position = { x = 1425 y = 48 }
+			buttonFont = "font_text_16"
+			buttonText = "UIO_EFFECTS_TITLE"
+			pdx_tooltip = "FACTIONS_VIEW_SORT_EFFECTS"
+			pdx_tooltip_delayed = "POP_FACTIONS_COLUMN_SUPPORT_EFFECTS_DESC"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+		}
+		containerWindowType = {
+			name = "list_background"
+			size = { width = 1130 height = -145 }
+			position = { x = -10 y = 104 }
+			orientation = upper_right
+			origo = upper_right
+			background = {
+				name = "list_background"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+		smoothListboxType = {
+			name = "pop_faction_list"
+			position = { x = 429 y = 112 }
+			size = { x = 1105 y = 675 }
+			scrollbarType = "standardlistbox_slider_thick"
+			autohide_scrollbar = no
+			spacing = 0
+		}
+		containerWindowType = {
+			name = "ethics_header"
+			position = { x = -755 y = -100 }
+			size = { width = 400 height = 40 }
+			orientation = lower_right
+			origo = lower_right
+			clipping = no
+			background = {
+				name = "background"
+				spriteType = "GFX_invisible"
+			}
+			iconType = {
+				name = "hex_bg"
+				spriteType = "GFX_hex_bg"
+				position = { x = 0 y = -14 }
+				alwaysTransparent = yes
+			}
+			instantTextBoxType = {
+				name = "header"
+				font = "font_header_20"
+				text = "UIO_ETHICS_ATTRACTION"
+				position = { x = 35 y = 4 }
+				maxWidth = 365
+				maxHeight = 20
+				fixedSize = yes
+				format = left
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "header_line"
+				spriteType = "GFX_line"
+				position = { x = 14 y = 22 }
+				alwaysTransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "ethics_attraction_background"
+			position = { x = -10 y = -10 }
+			size = { width = 1130 height = 90 }
+			orientation = lower_right
+			origo = lower_right
+			background = {
+				name = "background"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+		gridBoxType = {
+			name = "ethics_attraction_list"
+			position = { x = -1130 y = -92 }
+			orientation = lower_right
+			size = { width = 1095 height = 70 }
+			slotSize = { width = 75 height = 40 }
+			max_slots_vertical = 2
+			max_slots_horizontal = 14
+			format = "UPPER_LEFT"
+			add_horizontal = no
+		}
+		### ACTIONS
+		containerWindowType = {
+			name = "actions"
+			position = { x = 10 y = 240 }
+			size = { width = 440 height = 420 }
+			background = {
+				name = "background"
+				spriteType = "gfx_message_bg"
+			}
+			smoothListboxType = {
+				name = "list"
+				position = { x = 10 y = 10 }
+				size = { x = 420 y = 400 }
+				scrollbarType = "standardlistbox_slider_thick"
+				spacing = 15
+			}
+		}
+	}
+	containerWindowType = {
+		name = "ethics_attraction_entry"
+		size = { width = 70 height = 35 }
+		background = {
+			name = "bg"
+			quadTextureSprite = "GFX_interface_list_light"
+		}
+		iconType = {
+			name = "ethic_icon"
+			position = { x = 4 y = 3 }
+			quadTextureSprite = "GFX_ethics"
+		}
+		instantTextBoxType = {
+			name = "ethics_label"
+			font = "font_text_14"
+			text = "100%"
+			position = { x = 34 y = 0 }
+			maxWidth = 35
+			maxHeight = 35
+			fixedSize = yes
+			format = center
+			vertical_alignment = center
+		}
+	}
+	### POP FACTION ENTRY
+	containerWindowType = {
+		name = "pop_faction_demand"
+		size = { width = 380 height = 24 }
+		background = {
+			name = "demand_hitbox"
+			spriteType = "GFX_invisible"
+		}
+		iconType = {
+			name = "icon_good"
+			spriteType = "GFX_dot_green_icon"
+			position = { x = 10 y = 12 }
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "icon_bad"
+			spriteType = "GFX_dot_red_icon"
+			position = { x = 10 y = 12 }
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "icon_neutral"
+			spriteType = "GFX_dot_yellow_icon"
+			position = { x = 10 y = 12 }
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		# REMOVE TEXT
+		instantTextBoxType = {
+			name = "text"
+			font = "font_text_16"
+			text = "POP_FACTION_DEMAND"
+			position = { x = 20 y = 0 }
+			maxWidth = 360
+			maxHeight = 24
+			fixedSize = yes
+			format = left
+			vertical_alignment = center
+			alwaysTransparent = yes
+		}
+	}
+	@pop_faction_action_w = 420
+	@pop_faction_action_h = 85
+	containerWindowType = {
+		name = "pop_faction_action"
+		size = { width = @pop_faction_action_w height = @pop_faction_action_h }
+		containerWindowType = {
+			name = "background"
+			position = { x = 0 y = 0 }
+			size = { width = @pop_faction_action_w height = @pop_faction_action_h }
+			background = {
+				name = "background"
+				spriteType = "GFX_tile_outliner_bg"
+			}
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "font_header_20"
+			text = "POP_FACTION_ACTION_TITLE"
+			position = { x = 10 y = 3 }
+			maxWidth = 400
+			maxHeight = 30
+			fixedSize = yes
+			format = left
+			text_color_code = "E"
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "text"
+			font = "font_text_14"
+			text = "POP_FACTION_ACTION_DESCRIPTION"
+			position = { x = 10 y = 35 }
+			maxWidth = 360
+			maxHeight = 110
+			#fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+		}
+		buttonType = {
+			name = "button"
+			quadTextureSprite = "GFX_accept_hammer"
+			position = { x = -55 y = 23 }
+			orientation = upper_right
+			font = "font_text_14"
+		}
+	}
+	containerWindowType = {
+		name = "pop_faction_list_entry"
+		size = { width = 1105 height = 48 }
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_clean_frame_area"
+		}
+		# Change texture to this one when selected
+		# GFX_glow_tile_orange
+		# OR show this object and hide the background.
+		containerWindowType = {
+			name = "selected_box"
+			size = { width = 1107 height = 50 }
+			position = { x = -1 y = -1 }
+			background = {
+				name = "selection_area"
+				spriteType = "GFX_glow_tile_orange"
+				clicksound = select_click
+			}
+		}
+		containerWindowType = {
+			name = "selection_box"
+			size = { width = 100% height = 100% }
+			background = {
+				name = "selection_area"
+				spriteType = "GFX_invisible"
+			}
+		}
+		iconType = {
+			name = "faction_icon"
+			quadTextureSprite = "GFX_faction_icon_imperialist"
+			position = { x = 8 y = 0 }
+			scale = 0.75
+		}
+		instantTextBoxType = {
+			name = "faction_name_header_label"
+			font = "font_text_16"
+			text = "FACTION_NAME"
+			position = { x = 73 y = 4 }
+			maxWidth = 250
+			maxHeight = 40
+			fixedSize = yes
+			format = left
+			vertical_alignment = center
+		}
+		containerWindowType = {
+			name = "approval"
+			size = { width = 150 height = 40 }
+			position = { x = 326 y = 4 }
+			background = {
+				name = "approval_hitbox"
+				spriteType = "GFX_invisible"
+				clicksound = select_click
+			}
+			instantTextBoxType = {
+				name = "value"
+				font = "font_text_14"
+				text = "0"
+				position = { x = 0 y = 0 }
+				maxWidth = 150
+				maxHeight = 40
+				fixedSize = yes
+				format = center
+				vertical_alignment = center
+				text_color_code = "E"
+				alwaysTransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "pops"
+			size = { width = 95 height = 40 }
+			position = { x = 479 y = 4 }
+			background = {
+				name = "pops_hitbox"
+				spriteType = "GFX_invisible"
+				clicksound = select_click
+			}
+			iconType = {
+				name = "icon"
+				spriteType = "GFX_planet_view_pop"
+				position = { x = 2 y = 7 }
+				alwaysTransparent = yes
+				scale = 0.85
+			}
+			instantTextBoxType = {
+				name = "amount"
+				font = "font_text_14"
+				text = "0"
+				position = { x = 0 y = 0 }
+				maxWidth = 95
+				maxHeight = 40
+				fixedSize = yes
+				format = center
+				vertical_alignment = center
+				text_color_code = "E"
+				alwaysTransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "support"
+			size = { width = 116 height = 40 }
+			position = { x = 577 y = 4 }
+			background = {
+				name = "support_hitbox"
+				spriteType = "GFX_invisible"
+				clicksound = select_click
+			}
+			iconType = {
+				name = "icon"
+				spriteType = "GFX_has_ftl_magnet"
+				position = { x = 15 y = 3 }
+				alwaysTransparent = yes
+			}
+			instantTextBoxType = {
+				name = "value"
+				font = "font_text_14"
+				text = "0"
+				position = { x = 0 y = 0 }
+				maxWidth = 116
+				maxHeight = 40
+				fixedSize = yes
+				format = center
+				vertical_alignment = center
+				text_color_code = "Y"
+				alwaysTransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "ethic"
+			size = { width = 116 height = 40 }
+			position = { x = 696 y = 4 }
+			background = {
+				name = "ethic_hitbox"
+				spriteType = "GFX_invisible"
+			}
+			instantTextBoxType = {
+				name = "ethic_texticons"
+				font = "font_text_14"
+				text = ""
+				position = { x = 0 y = 0 }
+				maxWidth = 116
+				maxHeight = 40
+				fixedSize = yes
+				format = center
+				vertical_alignment = center
+			}
+		}
+		gridBoxType = {
+			name = "demands_list"
+			position = { x = 814 y = 16 }
+			size = { width = 190 height = 15 }
+			slotSize = { width = 15 height = 15 }
+			max_slots_vertical = 1
+			max_slots_horizontal = 13
+			format = "CENTERED_UP"
+			add_horizontal = yes
+		}
+		containerWindowType = {
+			name = "influence_hitbox"
+			size = { width = 104 height = 40 }
+			position = { x = 0 y = 4 }
+			orientation = upper_right
+			origo = upper_right
+			background = {
+				name = "influence_hitbox"
+				spriteType = "GFX_invisible"
+				clicksound = select_click
+			}
+			instantTextBoxType = {
+				name = "influence_label"
+				font = "font_text_14"
+				text = "INFLUENCE_GAIN_FROM_FACTION"
+				position = { x = 0 y = 0 }
+				maxWidth = 104
+				maxHeight = 40
+				fixedSize = yes
+				format = center
+				vertical_alignment = center
+				text_color_code = "E"
+				alwaysTransparent = yes
+			}
+		}
+	}
+	containerWindowType = {
+		name = "pop_faction_icon_entry_green"
+		size = { width = 16 height = 16 }
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_dot_green_icon"
+			position = { x = 0 y = 0 }
+			#alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "pop_faction_icon_entry_yellow"
+		size = { width = 16 height = 16 }
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_dot_yellow_icon"
+			position = { x = 0 y = 0 }
+			#alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "pop_faction_icon_entry_red"
+		size = { width = 16 height = 16 }
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_dot_red_icon"
+			position = { x = 0 y = 0 }
+			#alwaysTransparent = yes
+		}
+	}
+}

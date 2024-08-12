@@ -1,0 +1,387 @@
+#Military - Soldier - Naval Cap
+
+building_military_contractors = {
+	base_buildtime = @b1_time
+
+	owner_type = corporate
+
+	category = army
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+
+	planet_modifier = {
+		planet_army_build_speed_mult = 0.05
+		job_soldier_add = 1
+	}
+
+	country_modifier = {
+		country_naval_cap_add = 10
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 2
+		}
+		produces = {
+		}
+	}
+
+	inline_script = {
+		script = "building_output/bbcb_naval_cap_building_output"
+		BBCB_OUTPUT = 0.5
+	}
+
+	prerequisites = {
+	}
+
+	upgrades = {
+		"building_bugged_military_company"
+	}
+	
+	triggered_desc = {
+		text = bbcb_naval_cap_tier_1_output
+	}
+
+	ai_weight = {
+		factor = 10
+	}
+}
+
+
+building_bugged_military_company = {
+	base_buildtime = @b1_time
+	can_build = no
+
+	owner_type = corporate
+
+	category = army
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+
+	planet_modifier = {
+		planet_army_build_speed_mult = 0.10
+		job_soldier_add = 2
+	}
+
+	country_modifier = {
+		country_naval_cap_add = 10
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 500
+			volatile_motes = 50
+		}
+		upkeep = {
+			energy = 4
+			volatile_motes = 1
+		}
+		produces = {
+		}
+	}
+
+	inline_script = {
+		script = "building_output/bbcb_naval_cap_building_output"
+		BBCB_OUTPUT = 1
+	}
+
+	prerequisites = {
+		"tech_bugged_branch_tier_2"
+	}
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = no
+	}
+
+	upgrades = {
+		"building_bugged_outer_heaven"
+	}
+
+	triggered_desc = {
+		text = bbcb_naval_cap_tier_2_output
+	}
+
+	ai_weight = {
+		factor = 10
+	}
+}
+
+
+building_bugged_outer_heaven = {
+	base_buildtime = @b1_time
+	can_build = no
+
+	owner_type = corporate
+
+	category = army
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+
+	planet_modifier = {
+		planet_army_build_speed_mult = 0.15
+		job_soldier_add = 3
+	}
+
+	country_modifier = {
+		country_naval_cap_add = 10
+	}
+
+	army_modifier = {
+		army_starting_experience_add = 100
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 500
+			volatile_motes = 100
+		}
+		upkeep = {
+			energy = 6
+			volatile_motes = 2
+		}
+		produces = {
+		}
+	}
+
+	inline_script = {
+		script = "building_output/bbcb_naval_cap_building_output"
+		BBCB_OUTPUT = 1.5
+	}
+
+	prerequisites = {
+		"tech_bugged_branch_tier_3"
+	}
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = no
+	}
+
+	triggered_desc = {
+		text = bbcb_naval_cap_tier_3_output
+	}
+
+	ai_weight = {
+		factor = 10
+	}
+}
+
+#Haven - Assassin - Naval Cap
+
+building_pirate_haven = {
+    base_buildtime = @b1_time
+
+    owner_type = corporate
+
+	category = army
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+		planet_crime_add = 30
+		job_bugged_assassin_add = 1
+    }
+
+	country_modifier = {
+		country_naval_cap_add = 10
+	}
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+        }
+        upkeep = {
+			energy = 2
+        }
+        produces = {
+        }
+    }
+
+	inline_script = {
+		script = "building_output/bbcb_naval_cap_building_output"
+		BBCB_OUTPUT = 0.5
+	}
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 1
+	    planet_crime_add = 5
+    }
+
+    prerequisites = {
+    }
+
+    upgrades = {
+        "building_bugged_assassins_guild"
+    }
+
+	triggered_desc = {
+		text = bbcb_naval_cap_tier_1_output
+	}
+
+	ai_weight = {
+		factor = 10
+	}
+}
+
+
+building_bugged_assassins_guild = {
+    base_buildtime = @b1_time
+    can_build = no
+
+    owner_type = corporate
+
+	category = army
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+		planet_crime_add = 60
+		job_bugged_assassin_add = 2
+    }
+
+	country_modifier = {
+		country_naval_cap_add = 20
+	}
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+            exotic_gases = 50
+        }
+        upkeep = {
+			energy = 4
+			exotic_gases = 1
+        }
+        produces = {
+        }
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 2
+	    planet_crime_add = 10
+    }
+
+	inline_script = {
+		script = "building_output/bbcb_naval_cap_building_output"
+		BBCB_OUTPUT = 1
+	}
+
+    prerequisites = {
+        "tech_bugged_branch_tier_2"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = yes
+	}
+
+    upgrades = {
+        "building_bugged_hitman_agency"
+    }
+
+	triggered_desc = {
+		text = bbcb_naval_cap_tier_2_output
+	}
+
+	ai_weight = {
+		factor = 10
+	}
+}
+
+
+building_bugged_hitman_agency = {
+    base_buildtime = @b1_time
+    can_build = no
+
+    owner_type = corporate
+
+	category = army
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+		planet_crime_add = 90
+		job_bugged_assassin_add = 3
+    }
+
+	country_modifier = {
+		country_naval_cap_add = 30
+	}
+
+	army_modifier = {
+		army_starting_experience_add = 100
+	}
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+            exotic_gases = 100
+        }
+        upkeep = {
+			energy = 8
+			exotic_gases = 2
+        }
+        produces = {
+        }
+    }
+
+	inline_script = {
+		script = "building_output/bbcb_naval_cap_building_output"
+		BBCB_OUTPUT = 1.5
+	}
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 3
+	    planet_crime_add = 15
+    }
+
+    prerequisites = {
+        "tech_bugged_branch_tier_3"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = yes
+	}
+
+	triggered_desc = {
+		text = bbcb_naval_cap_tier_3_output
+	}
+
+	ai_weight = {
+		factor = 10
+	}
+}

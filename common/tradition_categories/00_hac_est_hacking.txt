@@ -1,0 +1,32 @@
+tradition_est_hacking = {
+	tree_template = "tree_est_0_1_2_3_0"
+	adoption_bonus = "tr_est_hacking_adopt"
+	finish_bonus = "tr_est_hacking_finish"
+	traditions = {
+		"tr_est_hacking_1"
+		"tr_est_hacking_2"
+		"tr_est_hacking_3"
+		"tr_est_hacking_4"
+		"tr_est_hacking_5"
+	}
+
+	potential = {
+		est_hacking_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_machine_ota_updates
+		}	
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_machine_assimilator
+		}		
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

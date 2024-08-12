@@ -1,0 +1,1527 @@
+#Removes PD Modifiers
+remove_pd_modifier = {
+	#Continental
+	remove_pd_continental_modifier = yes
+	#Ocean
+	remove_pd_ocean_modifier = yes
+	#Tropical
+	remove_pd_tropical_modifier = yes
+	#Desert
+	remove_pd_desert_modifier = yes
+	#Arid
+	remove_pd_arid_modifier = yes
+	#Savannah
+	remove_pd_savannah_modifier = yes
+	#Arctic
+	remove_pd_arctic_modifier = yes
+	#Alpine
+	remove_pd_alpine_modifier = yes
+	#Tundra
+	remove_pd_tundra_modifier = yes
+	#Gaia
+	#remove_modifier = pd_gaia_world
+}
+
+remove_pd_continental_modifier = {
+	#Continental
+	if = {
+		limit = { has_modifier = pd_continental }
+		remove_modifier = pd_continental
+	}
+	if = {
+		limit = { has_modifier = pd_retinal }
+		remove_modifier = pd_retinal
+	}
+	if = {
+		limit = { has_modifier = pd_lake }
+		remove_modifier = pd_lake
+	}
+	if = {
+		limit = { has_modifier = pd_tepid }
+		remove_modifier = pd_tepid
+	}
+	if = {
+		limit = { has_modifier = pd_mushroom }
+		remove_modifier = pd_mushroom
+	}
+	if = {
+		limit = { has_modifier = pd_forest }
+		remove_modifier = pd_forest
+	}
+	if = {
+		limit = { has_modifier = pd_temperate }
+		remove_modifier = pd_temperate
+	}
+	if = {
+		limit = { has_modifier = pd_sakura }
+		remove_modifier = pd_sakura
+	}
+	if = {
+		limit = { has_modifier = pd_megaflora }
+		remove_modifier = pd_megaflora
+	}
+	if = {
+		limit = { has_modifier = pd_petrified }
+		remove_modifier = pd_petrified
+	}
+}
+
+remove_pd_ocean_modifier = {
+	#Ocean
+	if = {
+		limit = { has_modifier = pd_ocean }
+		remove_modifier = pd_ocean
+	}
+	if = {
+		limit = { has_modifier = pd_cascadian }
+		remove_modifier = pd_cascadian
+	}
+	if = {
+		limit = { has_modifier = pd_swamp }
+		remove_modifier = pd_swamp
+	}
+	if = {
+		limit = { has_modifier = pd_crag }
+		remove_modifier = pd_crag
+	}
+	if = {
+		limit = { has_modifier = pd_fog }
+		remove_modifier = pd_fog
+	}
+	if = {
+		limit = { has_modifier = pd_kelp }
+		remove_modifier = pd_kelp
+	}
+	if = {
+		limit = { has_modifier = pd_algae }
+		remove_modifier = pd_algae
+	}
+	if = {
+		limit = { has_modifier = pd_reef }
+		remove_modifier = pd_reef
+	}
+	if = {
+		limit = { has_modifier = pd_archipelago }
+		remove_modifier = pd_archipelago
+	}
+}
+
+remove_pd_tropical_modifier = {
+	#Tropical
+	if = {
+		limit = { has_modifier = pd_tropical }
+		remove_modifier = pd_tropical
+	}
+	if = {
+		limit = { has_modifier = pd_atoll }
+		remove_modifier = pd_atoll
+	}
+	if = {
+		limit = { has_modifier = pd_tepui }
+		remove_modifier = pd_tepui
+	}
+	if = {
+		limit = { has_modifier = pd_mangrove }
+		remove_modifier = pd_mangrove
+	}
+	if = {
+		limit = { has_modifier = pd_cenote }
+		remove_modifier = pd_cenote
+	}
+	if = {
+		limit = { has_modifier = pd_fungal }
+		remove_modifier = pd_fungal
+	}
+	if = {
+		limit = { has_modifier = pd_aerial }
+		remove_modifier = pd_aerial
+	}
+	if = {
+		limit = { has_modifier = pd_lilypad }
+		remove_modifier = pd_lilypad
+	}
+	if = {
+		limit = { has_modifier = pd_geothermal }
+		remove_modifier = pd_geothermal
+	}
+	if = {
+		limit = { has_modifier = pd_biolumen }
+		remove_modifier = pd_biolumen
+	}
+}
+
+remove_pd_desert_modifier = {
+	#Desert
+	if = {
+		limit = { has_modifier = pd_desert }
+		remove_modifier = pd_desert
+	}
+	if = {
+		limit = { has_modifier = pd_dune }
+		remove_modifier = pd_dune
+	}
+	if = {
+		limit = { has_modifier = pd_oasis }
+		remove_modifier = pd_oasis
+	}
+	if = {
+		limit = { has_modifier = pd_outback }
+		remove_modifier = pd_outback
+	}
+	if = {
+		limit = { has_modifier = pd_coastal }
+		remove_modifier = pd_coastal
+	}
+	if = {
+		limit = { has_modifier = pd_fungi }
+		remove_modifier = pd_fungi
+	}
+	if = {
+		limit = { has_modifier = pd_salt }
+		remove_modifier = pd_salt
+	}
+	if = {
+		limit = { has_modifier = pd_aquifer }
+		remove_modifier = pd_aquifer
+	}
+}
+
+remove_pd_arid_modifier = {
+	#Arid
+	if = {
+		limit = { has_modifier = pd_arid }
+		remove_modifier = pd_arid
+	}
+	if = {
+		limit = { has_modifier = pd_mesa }
+		remove_modifier = pd_mesa
+	}
+	if = {
+		limit = { has_modifier = pd_fog_desert }
+		remove_modifier = pd_fog_desert
+	}
+	if = {
+		limit = { has_modifier = pd_mediterranean }
+		remove_modifier = pd_mediterranean
+	}
+	if = {
+		limit = { has_modifier = pd_badlands }
+		remove_modifier = pd_badlands
+	}
+	if = {
+		limit = { has_modifier = pd_succulent }
+		remove_modifier = pd_succulent
+	}
+	if = {
+		limit = { has_modifier = pd_striped }
+		remove_modifier = pd_striped
+	}
+	if = {
+		limit = { has_modifier = pd_coral }
+		remove_modifier = pd_coral
+	}
+	if = {
+		limit = { has_modifier = pd_primal }
+		remove_modifier = pd_primal
+	}
+}
+
+remove_pd_savannah_modifier = {
+	#Savannah
+	if = {
+		limit = { has_modifier = pd_savannah }
+		remove_modifier = pd_savannah
+	}
+	if = {
+		limit = { has_modifier = pd_steppe }
+		remove_modifier = pd_steppe
+	}
+	if = {
+		limit = { has_modifier = pd_prairie }
+		remove_modifier = pd_prairie
+	}
+	if = {
+		limit = { has_modifier = pd_veld }
+		remove_modifier = pd_veld
+	}
+	if = {
+		limit = { has_modifier = pd_semi_arid }
+		remove_modifier = pd_semi_arid
+	}
+	if = {
+		limit = { has_modifier = pd_aspen }
+		remove_modifier = pd_aspen
+	}
+	if = {
+		limit = { has_modifier = pd_sandstone }
+		remove_modifier = pd_sandstone
+	}
+	if = {
+		limit = { has_modifier = pd_supercontinent }
+		remove_modifier = pd_supercontinent
+	}
+	if = {
+		limit = { has_modifier = pd_sinkhole }
+		remove_modifier = pd_sinkhole
+	}
+}
+
+remove_pd_arctic_modifier = {
+	#Arctic
+	if = {
+		limit = { has_modifier = pd_arctic }
+		remove_modifier = pd_arctic
+	}
+	if = {
+		limit = { has_modifier = pd_cold_desert }
+		remove_modifier = pd_cold_desert
+	}
+	if = {
+		limit = { has_modifier = pd_glacial }
+		remove_modifier = pd_glacial
+	}
+	if = {
+		limit = { has_modifier = pd_antarctic }
+		remove_modifier = pd_antarctic
+	}
+	if = {
+		limit = { has_modifier = pd_aeolian }
+		remove_modifier = pd_aeolian
+	}
+	if = {
+		limit = { has_modifier = pd_ice_spike }
+		remove_modifier = pd_ice_spike
+	}
+	if = {
+		limit = { has_modifier = pd_crevasse }
+		remove_modifier = pd_crevasse
+	}
+	if = {
+		limit = { has_modifier = pd_ice_dunes }
+		remove_modifier = pd_ice_dunes
+	}
+	if = {
+		limit = { has_modifier = pd_storm }
+		remove_modifier = pd_storm
+	}
+	if = {
+		limit = { has_modifier = pd_iceberg }
+		remove_modifier = pd_iceberg
+	}
+}
+
+remove_pd_alpine_modifier = {
+	#Alpine
+	if = {
+		limit = { has_modifier = pd_alpine }
+		remove_modifier = pd_alpine
+	}
+	if = {
+		limit = { has_modifier = pd_boreal }
+		remove_modifier = pd_boreal
+	}
+	if = {
+		limit = { has_modifier = pd_snow }
+		remove_modifier = pd_snow
+	}
+	if = {
+		limit = { has_modifier = pd_highland }
+		remove_modifier = pd_highland
+	}
+	if = {
+		limit = { has_modifier = pd_dune_forest }
+		remove_modifier = pd_dune_forest
+	}
+	if = {
+		limit = { has_modifier = pd_fjord }
+		remove_modifier = pd_fjord
+	}
+	if = {
+		limit = { has_modifier = pd_blossom }
+		remove_modifier = pd_blossom
+	}
+	if = {
+		limit = { has_modifier = pd_glaciovolcanic }
+		remove_modifier = pd_glaciovolcanic
+	}
+	if = {
+		limit = { has_modifier = pd_lanthanide }
+		remove_modifier = pd_lanthanide
+	}
+}
+
+remove_pd_tundra_modifier = {
+	#Tundra
+	if = {
+		limit = { has_modifier = pd_tundra }
+		remove_modifier = pd_tundra
+	}
+	if = {
+		limit = { has_modifier = pd_bog }
+		remove_modifier = pd_bog
+	}
+	if = {
+		limit = { has_modifier = pd_mycelium }
+		remove_modifier = pd_mycelium
+	}
+	if = {
+		limit = { has_modifier = pd_mud }
+		remove_modifier = pd_mud
+	}
+	if = {
+		limit = { has_modifier = pd_basalt }
+		remove_modifier = pd_basalt
+	}
+	if = {
+		limit = { has_modifier = pd_tuya }
+		remove_modifier = pd_tuya
+	}
+	if = {
+		limit = { has_modifier = pd_cryoflora }
+		remove_modifier = pd_cryoflora
+	}
+	if = {
+		limit = { has_modifier = pd_lichen }
+		remove_modifier = pd_lichen
+	}
+}
+
+#Make Gaia
+pd_make_all_gaia_worlds_effect = {
+    set_global_flag = pd_terraforming
+    pd_make_uncommon_gaia_worlds_effect = yes
+    pd_make_regular_gaia_worlds_effect = yes
+    remove_global_flag = pd_terraforming
+}
+
+pd_make_uncommon_gaia_worlds_effect = {
+	#Tidally Locked
+	if = {
+		limit = {
+			is_planet_class = pc_pd_wet_tidally_locked
+		}
+		set_planet_entity = {
+			picture = pc_pd_gaia_tidally_locked
+			entity = tidallygaia_planet_01_entity
+		}
+	}
+	if = {
+		limit = {
+			is_planet_class = pc_pd_dry_tidally_locked
+		}
+		set_planet_entity = {
+			picture = pc_pd_dry_gaia_tidally_locked
+			entity = tidally_dry_gaia_planet_01_entity
+		}
+	}
+	if = {
+		limit = {
+			is_planet_class = pc_pd_cold_tidally_locked
+		}
+		set_planet_entity = {
+			picture = pc_pd_cold_gaia_tidally_locked
+			entity = tidally_cold_gaia_planet_01_entity
+		}
+	}
+	#Superhabitables
+	if = {
+		limit = {
+			is_planet_class = pc_pd_wet_superhabitable
+		}
+		set_planet_entity = {
+			picture = pc_pd_gaia_superhabitable
+			entity = pd_gaia_superhab_planet_01_entity
+		}
+	}
+	if = {
+		limit = {
+			is_planet_class = pc_pd_dry_superhabitable
+		}
+		set_planet_entity = {
+			picture = pc_pd_dry_gaia_superhabitable
+			entity = pd_dry_gaia_superhab_planet_01_entity
+		}
+	}
+	if = {
+		limit = {
+			is_planet_class = pc_pd_cold_superhabitable
+		}
+		set_planet_entity = {
+			picture = pc_pd_cold_gaia_superhabitable
+			entity = pd_cold_gaia_superhab_planet_01_entity
+		}
+	}
+	#Caves
+	if = {
+		limit = {
+			is_planet_class = pc_pd_wet_cave
+		}
+		set_planet_entity = {
+			picture = pc_pd_gaia_cave
+			entity = pd_gaia_cave_planet_01_entity
+		}
+	}
+	if = {
+		limit = {
+			is_planet_class = pc_pd_dry_cave
+		}
+		set_planet_entity = {
+			picture = pc_pd_dry_gaia_cave
+			entity = pd_gaia_dry_cave_planet_01_entity
+		}
+	}
+	if = {
+		limit = {
+			is_planet_class = pc_pd_cold_cave
+		}
+		set_planet_entity = {
+			picture = pc_pd_cold_gaia_cave
+			entity = pd_gaia_cold_cave_planet_01_entity
+		}
+	}
+}
+
+pd_make_regular_gaia_worlds_effect = {
+	#Regular
+	if = {
+		limit = {
+			OR = {
+				pd_is_planet_class_tidally_locked = no
+				pd_is_planet_class_superhabitable = no
+				pd_is_planet_class_cave = no
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+					capital_scope = {
+						is_wet = yes
+					}
+				}
+			}
+			change_pc = pc_pd_wet_gaia
+		}
+		if = {
+			limit = {
+				owner = {
+					capital_scope = {
+						is_dry = yes
+					}
+				}
+			}
+			change_pc = pc_pd_dry_gaia
+		}
+		if = {
+			limit = {
+				owner = {
+					capital_scope = {
+						is_cold = yes
+					}
+				}
+			}
+			change_pc = pc_pd_cold_gaia
+		}
+	}
+}
+
+remove_pd_modifiers_and_add_continetal = {
+	remove_pd_continental_modifier = yes
+	add_modifier = {
+		modifier = pd_continental
+		days = -1
+	}
+}
+
+pd_remove_ocean_modifiers = {
+	remove_pd_modifier = yes
+}
+
+pd_remove_uninhabitable_modifiers = {
+	remove_modifier = pd_diamond
+	remove_modifier = pd_carbon
+	remove_modifier = pd_chthonian
+	remove_modifier = pd_iron
+	remove_modifier = pd_volcanic
+	remove_modifier = pd_hydrocarbon
+	remove_modifier = pd_hot_gas_giant
+	remove_modifier = pd_cloudless_gas_giant
+	remove_modifier = pd_cold_gas_giant
+	remove_modifier = pd_dwarf_gas
+	remove_modifier = pd_ethane_ocean
+	remove_modifier = pd_subglacial
+	remove_modifier = pd_hothouse
+}
+
+pd_remove_dummy_traits = {
+	#Continental
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_retinal_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_retinal_preference
+			add_trait = trait_pc_continental_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_lake_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_lake_preference
+			add_trait = trait_pc_continental_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_tepid_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_tepid_preference
+			add_trait = trait_pc_continental_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_mushroom_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_mushroom_preference
+			add_trait = trait_pc_continental_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_temperate_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_temperate_preference
+			add_trait = trait_pc_continental_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_sakura_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_sakura_preference
+			add_trait = trait_pc_continental_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_forest_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_forest_preference
+			add_trait = trait_pc_continental_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_megaflora_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_megaflora_preference
+			add_trait = trait_pc_continental_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_petrified_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_petrified_preference
+			add_trait = trait_pc_continental_preference
+		}
+	}
+	#Ocean
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_cascadian_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_cascadian_preference
+			add_trait = trait_pc_ocean_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_swamp_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_swamp_preference
+			add_trait = trait_pc_ocean_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_crag_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_crag_preference
+			add_trait = trait_pc_ocean_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_mushroom_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_mushroom_preference
+			add_trait = trait_pc_ocean_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_fog_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_fog_preference
+			add_trait = trait_pc_ocean_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_kelp_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_kelp_preference
+			add_trait = trait_pc_ocean_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_algae_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_algae_preference
+			add_trait = trait_pc_ocean_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_reef_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_reef_preference
+			add_trait = trait_pc_ocean_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_archipelago_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_archipelago_preference
+			add_trait = trait_pc_ocean_preference
+		}
+	}
+	#Tropical
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_atoll_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_atoll_preference
+			add_trait = trait_pc_tropical_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_tepui_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_tepui_preference
+			add_trait = trait_pc_tropical_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_mangrove_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_mangrove_preference
+			add_trait = trait_pc_tropical_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_cenote_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_cenote_preference
+			add_trait = trait_pc_tropical_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_fungal_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_fungal_preference
+			add_trait = trait_pc_tropical_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_aerial_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_aerial_preference
+			add_trait = trait_pc_tropical_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_lilypad_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_lilypad_preference
+			add_trait = trait_pc_tropical_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_geothermal_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_geothermal_preference
+			add_trait = trait_pc_tropical_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_biolumen_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_biolumen_preference
+			add_trait = trait_pc_tropical_preference
+		}
+	}
+	#Desert
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_dune_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_dune_preference
+			add_trait = trait_pc_desert_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_oasis_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_oasis_preference
+			add_trait = trait_pc_desert_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_outback_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_outback_preference
+			add_trait = trait_pc_desert_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_coastal_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_coastal_preference
+			add_trait = trait_pc_desert_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_fungi_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_fungi_preference
+			add_trait = trait_pc_desert_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_salt_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_salt_preference
+			add_trait = trait_pc_desert_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_aquifer_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_aquifer_preference
+			add_trait = trait_pc_desert_preference
+		}
+	}
+	#Arid
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_mesa_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_mesa_preference
+			add_trait = trait_pc_arid_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_fog_desert_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_fog_desert_preference
+			add_trait = trait_pc_arid_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_mediterranean_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_mediterranean_preference
+			add_trait = trait_pc_arid_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_badlands_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_badlands_preference
+			add_trait = trait_pc_arid_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_succulent_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_succulent_preference
+			add_trait = trait_pc_arid_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_striped_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_striped_preference
+			add_trait = trait_pc_arid_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_coral_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_coral_preference
+			add_trait = trait_pc_arid_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_primal_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_primal_preference
+			add_trait = trait_pc_arid_preference
+		}
+	}
+	#Savanna
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_steppe_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_steppe_preference
+			add_trait = trait_pc_savannah_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_prairie_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_prairie_preference
+			add_trait = trait_pc_savannah_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_veld_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_veld_preference
+			add_trait = trait_pc_savannah_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_semi_arid_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_semi_arid_preference
+			add_trait = trait_pc_savannah_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_aspen_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_aspen_preference
+			add_trait = trait_pc_savannah_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_sandstone_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_sandstone_preference
+			add_trait = trait_pc_savannah_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_supercontinent_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_supercontinent_preference
+			add_trait = trait_pc_savannah_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_sinkhole_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_sinkhole_preference
+			add_trait = trait_pc_savannah_preference
+		}
+	}
+	#Arctic
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_cold_desert_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_cold_desert_preference
+			add_trait = trait_pc_arctic_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_glacial_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_glacial_preference
+			add_trait = trait_pc_arctic_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_antarctic_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_antarctic_preference
+			add_trait = trait_pc_arctic_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_aeolian_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_aeolian_preference
+			add_trait = trait_pc_arctic_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_ice_spike_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_ice_spike_preference
+			add_trait = trait_pc_arctic_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_crevasse_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_crevasse_preference
+			add_trait = trait_pc_arctic_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_ice_dunes_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_ice_dunes_preference
+			add_trait = trait_pc_arctic_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_storm_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_storm_preference
+			add_trait = trait_pc_arctic_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_iceberg_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_iceberg_preference
+			add_trait = trait_pc_arctic_preference
+		}
+	}
+	#Alpine
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_boreal_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_boreal_preference
+			add_trait = trait_pc_alpine_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_snow_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_snow_preference
+			add_trait = trait_pc_alpine_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_highland_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_highland_preference
+			add_trait = trait_pc_alpine_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_dune_forest_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_dune_forest_preference
+			add_trait = trait_pc_alpine_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_fjord_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_fjord_preference
+			add_trait = trait_pc_alpine_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_blossom_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_blossom_preference
+			add_trait = trait_pc_alpine_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_glaciovolcanic_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_glaciovolcanic_preference
+			add_trait = trait_pc_alpine_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_lanthanide_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_lanthanide_preference
+			add_trait = trait_pc_alpine_preference
+		}
+	}
+	#Tundra
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_bog_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_bog_preference
+			add_trait = trait_pc_tundra_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_mycelium_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_mycelium_preference
+			add_trait = trait_pc_tundra_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_mud_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_mud_preference
+			add_trait = trait_pc_tundra_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_basalt_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_basalt_preference
+			add_trait = trait_pc_tundra_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_tuya_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_tuya_preference
+			add_trait = trait_pc_tundra_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_cryoflora_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_cryoflora_preference
+			add_trait = trait_pc_tundra_preference
+		}
+	}
+	every_galaxy_species = {
+		limit = {
+			has_trait = trait_pc_pd_lichen_preference
+			NOR = {
+				has_trait = trait_machine_unit
+				has_trait = trait_mechanical
+			}
+		}
+		change_species_characteristics = {
+			remove_trait = trait_pc_pd_lichen_preference
+			add_trait = trait_pc_tundra_preference
+		}
+	}
+}

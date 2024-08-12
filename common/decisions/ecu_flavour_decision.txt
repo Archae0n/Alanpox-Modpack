@@ -1,0 +1,464 @@
+decision_ef_expand_deep_levels = {
+	owned_planets_only = yes
+
+	enactment_time = 360
+	resources = {
+		category = decisions
+		cost = {
+			influence = 75
+			consumer_goods = 750
+			minerals = 2500
+		}
+	}
+
+	potential = {
+		ef_is_ecu = yes
+	}
+
+	allow = {
+		NOT = {
+			has_modifier = ef_deep_levels_5
+		}
+	}
+
+	effect = {
+		custom_tooltip = decision_ef_expand_deep_levels_effects_short
+		hidden_effect = {
+            random_list  = {
+                25 = { add_deposit = d_ef_ventilation_system } # Add tribals
+                25 = { add_deposit = d_ef_underground_tramways } # Add gangsters
+                25 = { add_deposit = d_ef_deep_level_districts } # Add deep dwellers
+                25 = { add_deposit = d_ef_subterranean_habitation_zones } # Add smugglers
+            }
+			if = {
+				limit = { is_variable_set  = ef_deep_level_count }
+				change_variable = {
+					which = ef_deep_level_count
+					value = 1
+				}
+			}
+			else = {
+				set_variable = {
+					which = ef_deep_level_count
+					value = 1
+				}
+			}
+			ef_set_deep_levels_modifier= yes
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			num_free_districts = { type = any value > 2}
+		}
+		modifier = {
+			factor = 2
+			num_free_districts = { type = any value = 0}
+		}
+	}
+}
+
+decision_ef_block_off_deep_levels = {
+	owned_planets_only = yes
+
+	enactment_time = 360
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			consumer_goods = 750
+			minerals = 2500
+		}
+	}
+
+	potential = {
+		ef_is_ecu = yes
+		OR = {
+			has_modifier = ef_deep_levels_1
+			has_modifier = ef_deep_levels_2
+			has_modifier = ef_deep_levels_3
+			has_modifier = ef_deep_levels_4
+			has_modifier = ef_deep_levels_5
+		}
+	}
+
+	effect = {
+		custom_tooltip = decision_ef_block_off_deep_levels_effects_short
+		hidden_effect = {
+			if = {
+				limit = { has_deposit = d_ef_ventilation_system }
+				remove_deposit = d_ef_ventilation_system
+			}
+			else_if = {
+				limit = { has_deposit = d_ef_underground_tramways }
+				remove_deposit = d_ef_underground_tramways
+			}
+			else_if = {
+				limit = { has_deposit = d_ef_deep_level_districts }
+				remove_deposit = d_ef_deep_level_districts
+			}
+			else_if = {
+				limit = { has_deposit = d_ef_subterranean_habitation_zones }
+				remove_deposit = d_ef_subterranean_habitation_zones
+			}
+			change_variable = {
+				which = ef_deep_level_count
+				value = -1
+			}
+			ef_set_deep_levels_modifier= yes
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# TODO: Need to have these remove a district if the planet is maxed, otherwise they can just ignore it.
+decision_ef_construct_spaceport = {
+	owned_planets_only = yes
+	icon = "decision_federation_fleet"
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+			consumer_goods = 250
+			minerals = 1500
+		}
+	}
+
+	potential = {
+		ef_is_ecu = yes
+		NOT = { has_deposit = d_ef_spaceport}
+	}
+
+	effect = {
+		#custom_tooltip = decision_ef_expand_deep_levels_effects_short
+		add_deposit = d_ef_spaceport
+
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_ef_construct_orbital_control_network = {
+	owned_planets_only = yes
+	icon = "decision_satellite_in_orbit"
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+			consumer_goods = 250
+			minerals = 1500
+		}
+	}
+
+	potential = {
+		ef_is_ecu = yes
+		NOT = { has_deposit = d_ef_orbital_control_network}
+	}
+
+	effect = {
+		#custom_tooltip = decision_ef_expand_deep_levels_effects_short
+		add_deposit = d_ef_orbital_control_network
+		remove_modifier = ef_crowded_spacelanes
+
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+decision_ef_establish_climate_regulation_systems = {
+	owned_planets_only = yes
+	icon = "decision_drilling_for_gas"
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+			consumer_goods = 250
+			minerals = 1500
+		}
+	}
+
+	potential = {
+		ef_is_ecu = yes
+		NOT = { has_deposit = d_ef_climate_management_centre}
+	}
+
+	effect = {
+		#custom_tooltip = decision_ef_expand_deep_levels_effects_short
+		add_deposit = d_ef_climate_management_centre
+		remove_modifier = ef_unstable_climate
+
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_ef_construct_seismic_stabilization_stations = {
+	owned_planets_only = yes
+	icon = "decision_arcology_project"
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 25
+			consumer_goods = 250
+			minerals = 1500
+		}
+	}
+
+	potential = {
+		ef_is_ecu = yes
+		NOT = { has_deposit = d_ef_seismic_stabilization_stations}
+	}
+
+	effect = {
+		#custom_tooltip = decision_ef_expand_deep_levels_effects_short
+		add_deposit = d_ef_seismic_stabilization_stations
+		remove_modifier = ef_vertical_sprawl
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_ef_designate_parklands = {
+	owned_planets_only = yes
+	icon = "decision_animal_wildlife"
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			minerals = 1000
+		}
+	}
+
+	allow = {
+		free_district_slots >= 1
+	}
+
+	potential = {
+		is_planet_class = pc_city
+		has_planet_flag = ef_diplomacy_specialisation
+		NOT = { has_deposit = d_ef_urban_parklands}
+	}
+
+	effect = {
+		add_deposit = d_ef_urban_parklands
+		# Event for collecting all the deposits
+		if = {
+			limit = {
+				AND = {
+					has_deposit = d_ef_grand_presidium
+					has_deposit = d_ef_imperial_conservatory
+					has_deposit = d_ef_urban_parklands
+					has_deposit = d_ef_lake_district
+					has_deposit = d_ef_galactic_expo_centre
+				}
+			}
+			planet_event = { id = ef_diplo.40 }
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_ef_terraform_urban_lakes = {
+	owned_planets_only = yes
+	icon = "decision_resort_colony"
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			minerals = 1000
+		}
+	}
+
+	potential = {
+		is_planet_class = pc_city
+		has_planet_flag = ef_diplomacy_specialisation
+		NOT = { has_deposit = d_ef_lake_district}
+	}
+
+	allow = {
+		free_district_slots >= 1
+	}
+
+	effect = {
+		add_deposit = d_ef_lake_district
+		# Event for collecting all the deposits
+		if = {
+			limit = {
+				AND = {
+					has_deposit = d_ef_grand_presidium
+					has_deposit = d_ef_imperial_conservatory
+					has_deposit = d_ef_urban_parklands
+					has_deposit = d_ef_lake_district
+					has_deposit = d_ef_galactic_expo_centre
+				}
+			}
+			planet_event = { id = ef_diplo.40 }
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_ef_establish_imperial_academies= {
+	owned_planets_only = yes
+	icon = "decision_art_monument"
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			minerals = 1000
+		}
+	}
+
+	allow = {
+		free_district_slots >= 1
+	}
+
+	potential = {
+		is_planet_class = pc_city
+		has_planet_flag = ef_diplomacy_specialisation
+		NOT = { has_deposit = d_ef_imperial_conservatory}
+	}
+
+	effect = {
+		add_deposit = d_ef_imperial_conservatory
+		# Event for collecting all the deposits
+		if = {
+			limit = {
+				AND = {
+					has_deposit = d_ef_grand_presidium
+					has_deposit = d_ef_imperial_conservatory
+					has_deposit = d_ef_urban_parklands
+					has_deposit = d_ef_lake_district
+					has_deposit = d_ef_galactic_expo_centre
+				}
+			}
+			planet_event = { id = ef_diplo.40 }
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_ef_prepare_diplomatic_quarter= {
+	owned_planets_only = yes
+	icon = "decision_deal"
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			minerals = 1000
+		}
+	}
+
+	allow = {
+		free_district_slots >= 1
+	}
+
+	potential = {
+		is_planet_class = pc_city
+		has_planet_flag = ef_diplomacy_specialisation
+		NOT = { has_deposit = d_ef_grand_presidium}
+	}
+
+	effect = {
+		add_deposit = d_ef_grand_presidium
+		# Event for collecting all the deposits
+		if = {
+			limit = {
+				AND = {
+					has_deposit = d_ef_grand_presidium
+					has_deposit = d_ef_imperial_conservatory
+					has_deposit = d_ef_urban_parklands
+					has_deposit = d_ef_lake_district
+					has_deposit = d_ef_galactic_expo_centre
+				}
+			}
+			planet_event = { id = ef_diplo.40 }
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_ef_host_galactic_exhibitions= {
+	owned_planets_only = yes
+	icon = "decision_alien_propaganda"
+
+	enactment_time = 180
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			minerals = 1000
+		}
+	}
+
+	allow = {
+		free_district_slots >= 1
+	}
+
+	potential = {
+		is_planet_class = pc_city
+		has_planet_flag = ef_diplomacy_specialisation
+		NOT = { has_deposit = d_ef_galactic_expo_centre}
+	}
+
+	effect = {
+		add_deposit = d_ef_galactic_expo_centre
+		# Event for collecting all the deposits
+		if = {
+			limit = {
+				AND = {
+					has_deposit = d_ef_grand_presidium
+					has_deposit = d_ef_imperial_conservatory
+					has_deposit = d_ef_urban_parklands
+					has_deposit = d_ef_lake_district
+					has_deposit = d_ef_galactic_expo_centre
+				}
+			}
+			planet_event = { id = ef_diplo.40 }
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}

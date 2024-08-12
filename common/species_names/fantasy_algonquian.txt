@@ -1,0 +1,394 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	matepi = {
+		name = Alsokw
+		plural = Alsokw
+		home_planet = "Mat Epi"
+		home_system = Nakik
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	kimis = {
+		name = Kimisese
+		plural = Kimisese
+		home_planet = Kimis
+		home_system = Enkaun-Sunu
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	continuedprosperity = {
+		name = Nakik
+		plural = Nakik
+		home_planet = "Continued Prosperity"
+		home_system = "Shower of Fire"
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	mak = {
+		name = Mekmek
+		plural = Mekmeks
+		home_planet = Mak
+		home_system = Mekah
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	nitechakau = {
+		name = Nitecha
+		plural = Nitechas
+		home_planet = Nitechakau
+		home_system = Araki 
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	mossun = {
+		name = Mossoo
+		plural = Mossoo
+		home_planet = "Mos Sun"
+		home_system = Sooaatin 
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	oogannonagichi = {
+		name = Awawa
+		plural = Awawas
+		home_planet = Oogannon-Agichi
+		home_system = Ana-Tinganat 
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	annose = {
+		name = Annosean
+		plural = Annoseans
+		home_planet = Annose
+		home_system = Akki 
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	waw = {
+		name = Wawwaw
+		plural = Wawwaw
+		home_planet = Waw
+		home_system = "Greater Waw"
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	simisue = {
+		name = Simisoid
+		plural = Simisoids
+		home_planet = Simisue
+		home_system = "Hanck Dagan"
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	matwami = {
+		name = Matwamian
+		plural = Matwamians
+		home_planet = Matwami
+		home_system = Enkau
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	michkialsoon = {
+		name = Alsoonan  
+		plural = Alsoonans
+		home_planet = Michki'Alsoon
+		home_system = Michki'Agichitt
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	wilawa = {
+		name = Wilawan  
+		plural = Wilawans
+		home_planet = Wilawa
+		home_system = "Toti hon Makapi"
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	pearloflife = {
+		name = Atchi  
+		plural = Atchi
+		home_planet = "Pearl of Life"
+		home_system = "Haunts of Joy"
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	atwau = {
+		name = Wik  
+		plural = Wik
+		home_planet = Atwau
+		home_system = Edooteawa
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	aratchki = {
+		name = Aratch 
+		plural = Aratches
+		home_planet = Aratchki
+		home_system = Naatnijlonu
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	abunu = {
+		name = Abunid 
+		plural = Abunids
+		home_planet = Abunu
+		home_system = Tagichi
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	anname = {
+		name = Annami
+		plural = Annamis
+		home_planet = Anname
+		home_system = Chetau
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	amompseami = {
+		name = "Anu Pit" 
+		plural = "Anu Pit"
+		home_planet = Amompse-Ami
+		home_system = Ooteaunu-Ami
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	ansoosmakprime = {
+		name = Ansoosite
+		plural = Ansoosites
+		home_planet = "Ansoos'Mak Prime"
+		home_system = Ansoos'Mak
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	akki = {
+		name = Akkian
+		plural = Akkians
+		home_planet = Akki
+		home_system = Ekakiki
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	matwanck = {
+		name = Wanck
+		plural = Wanck
+		home_planet = Matwanck
+		home_system = Naatwa
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	heesetehiteau = {
+		name = "Ati Akau"
+		plural = "Ati Akau"
+		home_planet = "Heese Tehiteau"
+		home_system = Adie
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	lightbringer = {
+		name = Churowau
+		plural = Churowau
+		home_planet = "Light Bringer"
+		home_system = "Silver Garden"
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	hurowa = {
+		name = Hurowan
+		plural = Hurowans
+		home_planet = Hurowa
+		home_system = Mekaun
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	awaunka = {
+		name = Awaunkian
+		plural = Awaunkians
+		home_planet = Awaunka
+		home_system = Sitteau
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	adiesegunu = {
+		name = Adieseg
+		plural = Adiesegs
+		home_planet = Adiesegunu
+		home_system = "Akki Wik"
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	mekiti = {
+		name = Kittid
+		plural = Kittids
+		home_planet = Mekiti
+		home_system = Kit
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	everflyingshadow = {
+		name = Hogquawau-Nadiewatwa
+		plural = Hogquawau-Nadiewatwa
+		home_planet = "Ever-Flying Shadow"
+		home_system = "Variable of the Occident"
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	namatwaunak = {
+		name = Pun'Mon'Namatian
+		plural = Pun'Mon'Namatians
+		home_planet = Namatwau-Nak
+		home_system = Nadienmatwau
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	arakakakik = {
+		name = Kakakian
+		plural = Kakakians
+		home_planet = Arakakakik
+		home_system = Wilawau
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	matwakitau = {
+		name = Etleaw
+		plural = Etleaw
+		home_planet = "Matwa Kitau"
+		home_system = "Matwa Minu"
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	seklun = {
+		name = Seklunese
+		plural = Seklunese
+		home_planet = Seklun
+		home_system = Matechi
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	mukkahsue = {
+		name = Mukkayan
+		plural = Mukkayans
+		home_planet = Mukkahsue
+		home_system = Nijloowat
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	kimimikki = {
+		name = Mukkite
+		plural = Mukkites
+		home_planet = Kimi-Mukki
+		home_system = Cheesuck
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	nitipanse = {
+		name = Nitipp
+		plural = Nitipps
+		home_planet = Nitipanse
+		home_system = Doatwahki
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	nakat = {
+		name = Nakatean
+		plural = Nakateans
+		home_planet = Nakat
+		home_system = Kookwati
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	kitinganckistheforgotten = {
+		name = Pitasootian
+		plural = Pitasootians
+		home_planet = "Kitinganckis the Forgotten"
+		home_system = "Pitingeta the Ever-Searching"
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	nixkaki = {
+		name = Nixkakian
+		plural = Nixkakians
+		home_planet = Nixkaki
+		home_system = Atingenat
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	senauroaat = {
+		name = Ootwah
+		plural = Ootwah
+		home_planet = Senauroaat
+		home_system = Aba-Anoook
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	sunaditsu = {
+		name = Sunadish
+		plural = Sunadish
+		home_planet = Sunaditsu
+		home_system = Miechipu
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	shakingleaves = {
+		name = Enunamiti
+		plural = Enunamiti
+		home_planet = "Shaking Leaves"
+		home_system = "Fiery Crawler"
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	awagewa = {
+		name = Awagewan
+		plural = Awagewans
+		home_planet = Awagewa
+		home_system = Mauwaati
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+}
+
+
+
+# Toxoids
+
+TOX = {
+	piteaw = {
+		name = Pitewean
+		plural = Piteweans
+		home_planet = Piteaw
+		home_system = Ansoose
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	nakiwik = {
+		name = Kimish
+		plural = Kimish
+		home_planet = Naki-Wik
+		home_system = Egetaw-Han
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	skydancer = {
+		name = Seklon
+		plural = Seklons
+		home_planet = "Sky Dancer"
+		home_system = "Shackles of Light"
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+	tehingetse = {
+		name = Tehingetsian
+		plural = Tehingetsians
+		home_planet = Tehingetse
+		home_system = Ahachin
+		name_list = "cybrxkhan_fantasy_algonquian"
+	}
+}
+

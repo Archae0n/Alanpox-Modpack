@@ -1,0 +1,14 @@
+deep_dweller_modifier = {
+	custom_tooltip = deep_dweller_modifier_tt
+	show_only_custom_tooltip = no
+
+	empire_size_colonies_mult = 1
+	empire_size_branch_office_mult = 1
+}
+
+deep_dweller_planet_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_hollow_planet.dds"
+	
+	planet_max_districts_add = 1
+	deep_dweller_environment_tolerance = 0.1
+}

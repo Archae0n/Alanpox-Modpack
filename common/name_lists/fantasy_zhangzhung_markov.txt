@@ -1,0 +1,231 @@
+﻿### Fantasy Zhangzhung
+### Crusader Kings 3's Zhangzhung names put into a markov generator
+
+cybrxkhan_fantasy_zhangzhung = {	
+	category = "Avian"
+
+	ship_names = {
+		generic = {
+			Ata Atakbernor Atakholha Ataklakpa Ataklumthun Atakphü Ataktsel Ataktsele Ataktsuk Atang Atangbochipar Atangtsa Atime Atime'u Atimetsa Atimur Bato Batokthuk Batsa Batsamle Batshang Batsubkyangma Batsuk Batsungbong Ber Beri Berme Brubkya Brubkyangpa Brubkyilwa Brutsepo Bum Bumo Bumtser Bumtson Chachanyen Chache Chachimurid Chakmardagi Chaktsadang Chang Changbong Changje Changkyabu Changrasha Changtokgö Changtse Changyal Chanyiru Chatsong Chi Chiknyi Chikyer Chime Chimuring Chimurse Chimursho Chipai Chirutsampang Chu Chucha Chuk Chukhö Chukma Chukmar Chuktsa Chuktsatshe Chun Chung Chungberyalwa Chungmatsame Chungrakhö Chungwa Chunlhang Chunma Chur Churang Dakbergye Dakberya Dakchen Dakhuchencha Dakhuktse Daklai Daklumtser Dakma Dakmo Dakrid Dakthukma Dam Dama Damdagi Dame Dame'u Dametsamdrub Damle Dampa Dang Dangke Dangleke Dangma Dangtsukma Dangza Dangze Danyi Dem Dema Demar Demdagyar Demdridak Den Dencho Denwagi Denza Dok Dokchakliwer Dokcho Dokchuk Dokgö Doktsa Doktsamigyer Doktsatse Doktseng Doktshu Don Dongberu Donlhato Dra Drabchacho Drabche Drabchen Drabla Drabochenwar Drabpa Drabpardagi Drabtsukmar Drabu Drache Drachen Drachenwa Drachi Drachikye Drachungze Drak Drakber Drakchipar Drakhung Drakliwerigya Drakphü Draktshen Drame Drang Drangke Drangzhen Draphü Drasamtsungza Drashe Drashel Drawa Dren Drenchiknye Dreng Dron Dronggetrabu Dronglumo Dronlha Dronlhangmo Droto Drotokchen Drubkya Drubkye Drubkyi Drukhuk Drumar Drutsame Duddula Duddular Duddun Duddung Duddungto Dudring Dudrinyal Dudripa Dudristakho Dudru Dudrumo Dudrumthunlai Dukhukpa Dukhung Dukhunlai Dukhurshelek Dukhö Dukmiknyasho Dukpa Dukpai Duktsame During Durse Dursel Durserpun Durshor Dzoma Dzomarkar Dzomartaktsuk Gawa Gawar Gawardagi Gawarje Gawarpo Gur Gurab Gurawar Gurigya Guripai Gurista Guriwerpo Gurse Gursenlha Gursenwa Gursho Guwergya Guwernorgyi Guwerpo Guwerpungto Guwerpungtse Gya Gyal Gyar Gyaron Gye Gyen Gyenpa Gyenwa Gyerkarab Gyerpo Gyerpungto Gyerumtsukmo Gyeryal Gyeshekyal Gyichen Gyid Gyideiöpo Gyido Gyidru Gyikmarje Gyikmikmo Gyikmo Gyikyar Gyilemar Gyilum Gyilumthung Gying Gyiru Gyirub Gyite Gyitsatsong Gyuk Gyukhö Gyun Gyunggyal Gyungke Gyungma Gyungmar Gyungmo Gyunma Göwagi Göwara Har Harpo Hartangpa Hri Hrib Hrid Hridon Hridpar Hridriwer Hridula Hrigya Hrigyakchang Hrigyergyunma Hrime Hring Hringke Hringpo Hringza Hripai Jön Jönpa Jönwagyung Kal Kala Kalwagi Kalwarje Kalwo Ker Keringrangmar Khya Khyab Khyabu Khyal Khyalarpo Khyalwo Khyuktshek Khyun Khyungber Khyungke Khyungwa Khyunmar Kongje Kongjo Konglumtsame Konlakpai Konlar Kuchenpa Kuchime Kuchipa Kucho Kuchu Kuchukhor Kuchung Kung Kunglek Kungto Kungzhen Kunma Kya Kyabu Kyal Kyang Kyar Kyencheng Kyenrab Kyer Kyergyer Kyerimurse Kyerimuwer Kyi Kyichatse Kyiche Kyichenza Kyicho Kyichok Kyidema Kyikma Kyikmikma Kyikmuwer Kyiknyingrame Kyikyen Kyilwa Kying Kyingjo Kyingpa Kyinyikyi Kyirukhok Kyiruma Kyite Kyithele Kyitsenwagi Kyuk Kyukmar Kyukthung Kyung Kyungwa Kyungyer Kyunla Lab Labche Labla Labpa Labpai Labpar Labtsa Labtsato Labu Lak Lakbernor Lakhö Laklumtsame Lakma Lakphü Lakthen Laktsong Lam Lama Lamdrido Lame Lamikyilumo Lamse Lang Langke Langpa Langram Langze Lar Larabtsa Larta Lekye Lho Lhogya Lhogyerya Lhogyungmo Lhokpa Lholhatsame Lhor Likma Likmar Likmaraktshe Likmardagi Likmikmatse Likmiknya Likmithukmar Likmithur Likmithursepo Likmo Likmurshe Likmuwerido Likmuwernor Liknya Liknyalwo Liknyang Liknye Liknyer Liknyi Liknyile Liknyilwa Liknyirhyang Likyab Likyakhö Likyal Likyangber Likye Likyen Likyer Likyi Likyichen Liwergyal Liwergye Liwerpungtsa Lok Lokcheleke Lokcho Lokchu Lokchuktsam Lokgö Lokpa Loktshung Lopönpai Lopönwa Lud Luddul Luddunggetse Luddungza Ludrido Ludridon Ludringze Ludrubkyiru Ludrumo Lum Luma Lumthung Lur Lurak Lurib Lurse Lursele Lursenlaroto Lutsam Lutsamdangpo Lutsatsa Lutsel Lutshe Lutshor Lutshungwa Lutsung Mab Mabpa Mabtsuktsen Magi Magyer Magyerme Magyernor Magyukpa Mang Mangje Manglum Mangza Manyichame Mar Mardakchungmo Mardakla Marje Marpung Martak Martaklum Martangze Mebaroto Mebarpungzhen Mebochacho Mebochen Mebong Mebu Mek Mekar Mekya Men Menchamlema Menpa Menrak Mer Mergyal Mergyenpa Merkya Meryasam Meuchen Meuchi Mewa Mikma Mikmatsuk Mikmigye Miknya Miknyileke Miknyithunla Mikyilumo Mile Mileke Milemdang Milemdrukmo Miluma Milumo Milwar Milüsamru Molhachenrang Molhang Molhato Molhatsa Mrab Mrabla Mrabong Mrabpa Mrabpai Mrabtsamrukhö Mrabtse Mrabu Mrachenla Mrachi Mrachipa Mrachuk Mrachungyasa Mrakchiknyi Mrakma Mrakmar Mrakmite Mrakpa Mrakringke Mraktsubkyara Mraktsuk Mram Mrama Mramdridpa Mrame Mramle Mrang Mrangbongpa Mrangkyi Mrangpai Mrangtsa Mraphü Mrasamiknyer Mrasamtsa Mrasho Mrashungwa Mrawagi Mrawar Muchen Mucher Muchogyunglek Muchu Muk Mukhungze Mukmar Mukmithung Mukphü Muktsamsel Mul Mula Mum Mumo Mumtsame Muweridul Muwerkyi Muweru Muwerubkyal Nam Nama Namdrista Name Name'u Namenpai Namigyal Namikmur Namiknyer Namite Namlek Nampar Namser Namsho Namthenrache Namtshe Nang Nangber Nangbergyal Nangje Nangjo Nangke Nangkyal Nangrasa Nangto Nangwar Nangza Nangzhuktser Nar Narabla Neu Neuchen Neuchenchirub Neuchime Neuchipa Neucholha Norgya Norgyal Norgye Nya Nyabchiparpo Nyakliwer Nyaktsampar Nyal Nyala Nyalwa Nyalwo Nyarang Nyarpungbon Ong Ongberpungwa Ongke Onglumo Ongto Ongtsa Ongze Pebardagi Pebartakcha Pebonla Pha Phachuk Phaklumtsukpa Phang Pho Phogyakla Phokchenpa Phokgö Phoktson Pholhaklum Pholhatsa Pungke Pungkyilekyi Pungma Pungtsampai Pungze Rab Rabchikmo Rabpa Rabtsong Rabu Rak Rakhukma Rakla Rakliwer Rakliwerpo Rakmar Rakmithenchor Raktsam Raktsamje Raktser Raktserya Rawagi Rawagyalwa Rawar Ring Ringbon Ringgetrachak Ringgyal Ringmar Ringpo Ringtsub Ringze Rinyerpung Rme Rmen Sal Sala Sang Sanggya Sanggyungto Sanglek Sanglumo Sangmarje Sangmo Sangpa Sangtsa Sangyi Sangza Sangze Sanyi Sehrib Sehrid Sehridong Sehridongjo Sehridungza Sehrigya Sehrigyen Sehrime Sehring Sem Sema Semar Semdangza Semdridema Sen Sencha Senlha Senpa Senrakhokpa Senza Sha Shachuchek Shakmara Shamdagi Shame Shampai She Shebon Shek Shel Shelek Sheleke Shelgyal Shelgye Shelgyungle Shen Shenchek Sheng Shenla Shenlakber Shenpar Shenra Shenrache Shenrachel Shenwa Shernorgya Sherpo Sile Silekar Silemar Silum Silumthungpa Silwa Silüsam Sri Srid Sridongje Sridul Srigya Sring Sringmar Sripa Tak Takberid Takberigyung Takchen Takchenche Takchipa Takchur Takho Takhukhung Takhuktsel Takhun Takhung Takhunma Takhur Takliwerme Taklum Takmarawa Takmarkyang Takmigyingle Takmikyer Takmuwer Takrid Taktsamle Taktse Taktshen Thebarpo Then Thengma Thenrabu Thikma Thipanggetsam Tho Thogyalai Thogyasamen Thogye Tholhang Tholhangza Thor Thu Thuk Thukmarpo Thung Tinamse Tingbochen Tinggyeshu Tingkyer Tingle Tingma Tingmo Tingpa Tingzhukma Tinyeryabu Tinyichu Tobche Tobchipa Tobchoktsuk Tobchukhok Tong Tongmo Tongwa Tra Trab Trabpa Trachenchenza Trakhö Traktse Trang Trangto Trasa Trasha Trawa Tri Trib Trid Tridagi Tridagyungze Tridema Tridemdagyab Tridpa Tridpar Tridparje Tridrimursel Trigyabchen Trigyal Trigyernor Trime Trimenpangbon Trimurse Trimuwer Trinam Triname Tring Tringmo Tringrachang Tringwa Tringya Tripa Triparabla Triwerme Tro Tron Trotoktse Tsadagyal Tsam Tsame'u Tsamen Tsametrang Tsamithek Tsamje Tsamlekar Tsampa Tsamshangzhuk Tsamsheke Tsamtsamdru Tsamtse Tsamtsuk Tsato Tsatoktsampa Tsatsen Tsatsham Tse Tselgyi Tsenpa Tsenrab Tser Tshe Tshek Tshen Tshenla Tshogya Tshor Tön Tönpar Tönparpung Tönwa Tönwagyer Tönwar Wer Wergyeripai Wergyi Weridem Weristangtse Yang Yangkyalarje Yangma Yangza Yangze Yidang Yideiöpo Yidemar Yido Yidon Yidpa Yidpar Yidparkarje Yidrum Yidung Yidungje Yuma Yumar Yumaro Yumatse Yumo Yumthuk Yumthungkyal Yumtsa Yumtsam Yumtsub Yuyidula Yuyilek Yuyilumo Yuyirubkye Zachelek Zachen Zachenpa Zachime Zachungpa Zachunma Zam Zamar Zame Zame'u Zamlekar Zamrutser Zamshenza Zamtsatsame Zang Zanggyasame Zangle Zanglumtsame Zangmar Zangtsong Zanyid Zha Zhang Zhuchen Zhuktsamse Zhun Zhungbong Zhungma Zhungtshebu Zhunla Zijidang Zijideiöpo Zijidong Zijidul Zing Zingbon Zinglum Zingma Zingpo Zingwa Zinyabpa Zinyichuchok Zutsa Zutsame Zutsel Zutshel Zutsubkya Zutsukpar Zutsukthukpa Öka Ökardagi Ökarkarje Öse Ösen Öseru
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Zangtsame'u Celestial Fleet" "Lopönpa Celestial Fleet" "Trakpa Celestial Fleet" "Atime Celestial Fleet" "Yidul Celestial Fleet" "Tsel Chime Celestial Fleet" "Chukphü Celestial Fleet" 
+		}
+		sequential_name = FANTASY_TIBETAN_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_TIBETAN_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Atakbernor Ataklumthen Atakring Atimuwergyer Brutsen Brutsub Bumar Chachi Cham Chang Chatsuk Chatsukpar Chuktsel Chunglumo Chungra Dakbernorgya Dakhu Dakliwer Dame'u Damsepo Damtsuk Dema Demdang Denlai Denza Drabu Drachikmigyal Drak Drangpai Dren Drenpai Droto Drotok Drumtsamle Dukmitsukma Durablar Gyal Gyang Gyergye Gyichung Gyikya Gying Göwa Hring Hringke Hristang Keripartang Khyalwagi Khyung Konlar Kuchikmuwer Kuchokche Kung Kunglumo Kungwa Kyalwa Kyer Kyeshorgya Kyichi Kying Kyiru Kyithenrame'u Kyunglek Labchukphü Lakthung Lame Lame'u Lang Lekarache Lekarpo Lhokcho Likmar Likmo Likmura Liknyi Liknyithe Liwerme Loktsen Luddun Ludru Lutsame Mabla Mangmo Mebaramen Mewa Mikmarpo Miknyido Mikyi Mile Mrache Mrakber Mrang Muchele Mukhuk Muktsepo Mula Mulai Mumo Muwerpo Namdru Name'u Namparka Namshe Namtsuk Nang Nanggyesho Nangle Nangza Narje Neuchuk Nyal Phamrukhuk Phangtsongyab Phogya Phogyesha Rabtsa Rinam Ringmo Ringpo Sangmo Sangwa Senchen Shen Sheng Shenglumo Shenparabpa Shenra Silwo Sriwer Taklumo Takripa Taktsa Thogyabpa Thogye Thogyunla Thorgyi Tiname Tinggetsame Tingma Tingyang Tinye Tobchang Tobchukmo Trakliwerpo Trib Trid Tridpa Trigyernor Trinyalwo Tristakluma Triweru Trotokchokgö Tsadagyarpo Tsamdang Tsametra Tsametrabon Tsatsa Tsel Tsenpai Tshenza Tshokphü Tshukhun Walwa Yanggyernor Yidematsa Yidemdrubkyer Yidpa Yidrub Yidul Yumar Yumo Yumtsub Yuyichuridpa Yuyitsub Zhang Zhangya Zhuk Zhung Zhungza Ziname Zing Zingmar Zutsungpo
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Atimen Atimengpo Bernor Chimen Chipa Chirukpa Chungjo Chunla Damigyi Damle Damsepo Demdang Dokphü Doktse Dongwa Drachen Drasa Dren Drenggetraphü Dura Dzomardang Gur Guwerya Gyeshe Göwa Hridrideiöpo Hrimenla Hring Hringbon Hriwer Kalwo Khya Khyab Kucheng Kuchenpa Kuchor Kung Kyabpa Kyalwa Kyilüsa Kyite Labchiparaphü Labonlha Lakhuchenpa Lamdakhö Lamle Likma Likmikma Likmite Liknyal Liknyikmar Liknyirutse Likya Likyab Liwer Liweri Lud Luram Lursel Mebardangye Mebonla Mebu Mekaroto Merpungjo Merya Mikmithenlha Mikmuwer Miknyichuche Miknyilüsamle Mikyermen Mile Milek Milwarasamite Milüsa Mrachukhurse Mrak Mrakhung Mrangwa Muche Muchirukhur Mukhuk Mukhunlar Muwergyeshe Muwerkye Muweryabtse Namshen Nang Nanyithel Norgyer Pebar Phor Pungjo Pungzhe Sangkyer Sehridem Sehripa Senlha Shek Shekarpungpa Shen Srideiöpo Takhur Takhö Thele Thor Thung Tobche Tobchenpa Tobchenrabpar Trab Tri Trido Tridpa Trigyabon Trimuwer Tripai Tsele Tselgya Tser Walwar Zachenpai Zijidem Zijidrutsuk Zingwa Ösepo
+            }
+           
+            first_names_female = {
+				Atakber Atakberinyen Atakchang Atakchikma Atakliwer Atakma Atakmatsame Atakthun Ataktsatsame Batok Batsam Bumo Bumtsama Bumtsame Bumtsukmo Chang Changma Changtsame Chatsadagi Chuk Chung Chungmatsame Dangza Drachanglumo Draklum Drakma Drakmar Drakmo Drangza Drong Drongmo Dukmatsame Dukmo Gyid Gyidagi Gyidongber Gyidonglek Gyilekyi Gyilema Gyingza Gyitsam Keriname Khyukmo Khyuktsame Khyun Khyung Kyingma Kyingtsungma Kyung Kyungber Lek Lekyicha Lekyilum Lho Lumtsame Magi Menchanglum Menza Mewarkar Mewarkarkar Molhame Molhang Mrablai Mracha Nang Nangma Nangza Neucha Neuchungtsam Neuchungtsun Nyakber Nyakchikmo Nyal Onglek Onglema Ongze Ringber Ringtsame Ringza Ringze Sema Sematok Shen Silemar Tak Takberingmo Takcha Takma Takthuk Tinam Tinglema Tinglum Tingza Tinyenza Trablai Trakber Tranglek Tring Tringmatsame Tsam Tsamatok Tsamatsukma Tsho Yidagi Yidagyakliwer Yumo Yumtsukthun Yuyichungber Yuyilumo Yuyitsame Zama Zame Zang Zangtsam Zangtsungmo Zangze
+            }
+			
+			
+			second_names = {
+				Chacho Chak Chaktsa Chang Changzhuk Chu Chuk Chuktsa Chun Chung Chungzhuk Dakpa Daktsa Daktshak Daktshaktsa Daktshang Daktshangzhuk Dra Drak Drakpa Draktshang Guridun Guridung Guriwer Kongzhu Kongzhuktsa Kongzhung Mrak Mrakpa Mraktsa Mraktshacho Mraktshang Namthu Namthuktsa Namthun Namthung Phak Phakpa Phaktshang Phang Phangzhu Phangzhuktsa Phangzhun Shacho Shak Shakpa Shaktshak Shaktshangzhu Shangzhuk Trib Tridung Zhacho Zhak Zhakpa Zhaktsa Zhaktshang Zhang Zhangzhu Zhangzhuktsa Zhangzhun Zhuk Zhuktsa Zhuktshang Zhung
+			}
+            regnal_first_names_male = {
+				Chungjo Gyeshe Milüsa Pungzhe Sangkyer Trido Ösepo
+            }
+           
+            regnal_first_names_female = {
+				Chuk Drakmo Kyung Nangma Sematok Tingza Zangtsam
+            }
+			
+			
+			regnal_second_names = {
+				Chuk Dakpa Dra Drak Mrak Namthu Tridung Zhaktsa Zhangzhuktsa Zhuktshang
+			}
+		}
+	}
+}

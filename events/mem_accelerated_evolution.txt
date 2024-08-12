@@ -1,0 +1,55 @@
+# Accelerated Evolution
+# Idea and Writing by ForeMole
+# Code by LamilLerran
+
+namespace = mem_accelerated_evolution
+
+#set this to trigger on_colony_2_years_old (as this is basically what that on_action is for...) with 0.67% chance (which is a bit more than it had been (I calculate 0.37%), but less than most Vanilla events)
+planet_event = {
+	id = mem_accelerated_evolution.1
+	title = "mem_accelerated_evolution.1.name"
+	desc = "mem_accelerated_evolution.1.desc"
+	picture = GFX_evt_animal_wildlife
+	location = ROOT
+	
+	is_triggered_only = yes
+	
+	pre_triggers = {
+		has_owner = yes
+		is_homeworld = no
+		original_owner = yes
+		has_ground_combat = no
+		is_capital = no
+	}
+	trigger = {
+		exists = owner
+		OR = {
+			is_planet_class = pc_alpine
+			is_planet_class = pc_tundra
+			is_planet_class = pc_arctic
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tropical
+			is_planet_class = pc_continental
+			is_planet_class = pc_arid
+			is_planet_class = pc_desert
+			is_planet_class = pc_savannah
+			is_planet_class = pc_gaia
+		}		
+		owner = { is_ai = no }
+		NOT = { has_planet_flag = mem_accelerated_evolution_flag } 
+		exists = controller
+		controller = { is_same_value = root.owner }
+		num_pops > 0
+	}
+	
+	immediate = {
+		set_planet_flag = mem_accelerated_evolution_flag
+	}
+	
+	option = {
+		name = mem_accelerated_evolution.1.a
+		add_modifier = {
+			modifier = mem_accelerated_evolution_modifier
+		}
+	}
+}

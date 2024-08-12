@@ -1,0 +1,269 @@
+﻿### Fantasy Maya
+### EUIV Maya names thrown into a markov generator
+
+cybrxkhan_fantasy_maya = {
+	category = "Lithoid"
+
+	ship_names = {
+		generic = {
+			Ahki Ahkiha Ahkihac Ahkiham Ahkihan Ahkihao Ahkin Ahkina Ahkinai Ahkinam Ahkinan Ahkinich Ahkiniche Ahkinitz Ahkinkuk Ahkinkultul Ahkinkum Ahkintun Ahkinxochaana Ahmai Ahmaibilam Ahmal Ahmalan Ahman Ahmancacna Ahmantun Ahmatabná Ahmatla Ahmatz Ahmatza Ahmet Ahmetabaj Ahmetakinxok Ahmetatzaman Ahmokop Ahmokopoxté Ahmona Ahmonal Ahmoncanekel Ahmoná Ahmul Ahmule Ahmultic Ahmulun Ahmulunina Ahna Ahnac Ahnacaam Ahnah Ahnahxac Ahnai Ahnakalamaz Ahnakmuleu Ahnakumatz Ahnalanahxac Ahnam Ahpop Ahpop-Ach Ahpop-Achacaj Ahpop-Achal Ahpop-Achil Ahpop-Achtz Ahpopac Ahpopakan Ahpopakkum Ahpopan Ahpopancal Ahpopantunich Ahpopop Ahpopoxté Ahpoxtakab Ahpoxtakan Ahpoxté Ahpu Ahpuhi Ahpuhicha Ahpuhil Ahpuhinxok Altic Altich Altichacutz Altuja Altuk Altukpec Altukul Altulonin Altuna Altunana Altunil Arac Aracab Arachacuén Arachel Arachunuyg Aracnach Aracyuman Aral Aralam Aralan Aralantunum Araltuk Aran Aranai Aranchucmigue Aranqueros Aras Azule Azulona Azulu Azulum Azulun Azum Azumai Azumal Azumalja Azuman Azumaran Azumatzam Azumchac Azumche Azumchmok Bah Baha Bahaan Bahalaman Bahao Bahaqueh Bahlu Bahluch Bahlucsuc Bahlumai Bahlunumki Bahpop Bahpu Bahxac Bahxacantun Bahxacohoba Bahxacuén Bahxaqueh Bahxaqui Bak Bakab Bakaljuyilchi Bakalun Bakanchaob Bakancultuk Bakantunac Bakbe Baki Bakiha Bakihaman Bakin Bakmul Bakmule Bakukuk Bakuloc Bakum Bakumazotze Baká Bal Bala Balakkuk Balamaret Balamaz Balamazum Balamiguanic Balamina Balampacol Balan Balana Balanai Balanal Balanchan Balapakumai Balapantok Balchel Balchi Balchocal Bale Balja Baljuyg Baljuyilan Baljuyu Baljuyum Baltic Baltuja Baltuk Baltukum Baltul Baltun Baltunalam Baluchichel Balucsucac Baluman Balun Baluna Balunchmoná Becaibilas Becain Beche Bechel Bechen Bechilapaki Bechocal Bechtze Becoh Becoja Becoljuyu Becolocor Becor Beculu Becum Becuman Becumazotze Becunal Becunumatz Becunuyg Becutun Becuén Boaracan Boaracyumche Boaral Boaralan Boaran Boarantunin Boaras Boarcaani Boarcab Boarcacaleu Boarcaha Boarcam Boarcarcaj Boaret Boaretak Boaretakum Boaretatlam Bol Bolja Boljuyg Boljuyil Boljuyiltuk Boljuyu Bolocaj Bolochacan Bolochcom Boloni Boloná Bona Bonal Bonalan Bonalch Bonam Bonchmonai Bonchochel Bonikan Bonikin Bonil Boninkulen Bonitz Bonitzekel Bormigua Bormiguan Bormigueros Bormil Bormila Bormilleu Borminai Borminak Borminalamatz Borminalu Borran Borras Borro Borros Butuja Butuk Butun Butza Butzantun Butze Butzekel Caac Caacchobala Caachel Caacyum Caamancuén Caancana Caancanekel Caax Caazotz Caazulum Cac Cacab Cacaj Cacalu Cacanek Cacaret Cacche Cacchel Cach Cachana Cachao Cachaquirigua Cachel Cachuchilche Cachucuén Cactun Cacucul Cacunitz Cacuén Cacyumazotz Cah Cahaachel Cahalja Cahlu Cahlucaj Cahluch Cahluchcom Cahluchichan Cahlum Cahlumatz Cahlumatze Cahxacoui Cahxaquirigua Cal Cala Calam Calan Calancham Calas Calchcoja Caltun Calucul Caluman Cam Camacyu Camalam Camalja Caman Camanainaib Camataki Caminkuk Canachel Canah Canai Canaibil Canainxok Canaklmal Canalan Canalchcouic Canalun Canam Canan Cancal Cancaman Canche Canchob Canic Canjo Canque Canquerén Canquillen Canquitz Cantok Cantokop Cantuk Cantulun Cantun Cantunic Cantuninil Cantunum Car Caran Carantunuyg Caras Carcan Carcantun Carcantunac Carcaran Caret Caretakin Caretatatz Caretatlam Cero Ceros Cerracanai Cerral Cerran Cerras Cerro Cha Chaacahpop Chaanal Chaancaazulen Chaanjo Chaantok Chaantunam Chaax Chaaxachtz Chaaxhan Chaaz Chaazum Chac Chacaan Chacab Chacac Chacal Chacalaká Chacan Chacana Chacaobal Chacaret Chacche Chacchen Chacchoc Chach Chacham Chachanai Chachel Chachen Chachi Chachiampan Chacmilanjo Chacmul Chacoja Chactuk Chactun Chactunuyg Chacum Chacun Chacunit Chacutzam Chacyum Chacyumatak Chal Chala Chalak Chalam Chalan Chalapakanit Chalas Chalchcolja Chale Chalumalen Chamigueh Chana Chanai Chanaina Chaobal Chaobe Chaque Chaquic Chaquinkuk Chaquit Chaquitz Che Chen Chenque Chi Chiamacaj Chiamalch Chiamatab Chiamatzcaj Chic Chich Chichalanche Chichcolja Chiche Chichichel Chichil Chil Chila Chilam Chilan Chilantun Chilas Chilch Chilchcolja Chilche Chilleu Chiltuja Chiltuniche Chin China Chinahlun Chinak Chinaká Chinaleu Chinan Chini Chintuja Chintuk Chinxocala Chinxocan Chinxoch Chuc Chucacah Chucal Chuche Chuchoben Chucsucab Chucun Chucutz Chun Chuna Chuncan Chunculeu Chuni Chunic Chunitze Civil Civilam Civilan Civilantok Civilch Civilchmok Civilchoccha Civilhac Civille Civilleu Civilnocche Civiltichacch Cob Cobaleu Coben Coc Cocaan Cocaana Cocab Cocai Cocaj Cocal Cocala Cocale Cocan Cocanikin Cocao Cocch Cocchacyu Cocchen Cocchi Cocchoba Cocchtza Coch Cocha Cochalam Cochaltic Cochan Cochaobe Cochcouohob Coche Cochel Cochen Cochenquerros Cochenquerén Cochi Cochinai Cochinintuja Cochinxoche Cochmok Cochmokop Cochmoni Cochtz Cochtze Cochucal Cocoh Cocol Cocormila Cocorro Cocouohobe Cocouohoc Cona Conai Conaib Conakal Conal Conalaman Conalan Conam Concam Concan Concao Coni Conil Conilchel Coná Cop Cop-Ach Cop-Achacyu Cop-Achan Cop-Ache Cop-Achilam Copakbe Copakmul Copanek Copoxté Cotukpec Cotun Cotunch Cotunuyg Cotz Cotza Cotzam Cotzcaaz Cotzcalam Cotze Dzib Dzibaan Dzibaj Dzibal Dzibalam Dzibalamatz Dzibalchob Dzibil Dzibilantun Dzibilch Dzibilcha Dzibilchal Dzibilchanche Dzibilche Dzibille Dzibiltun Dzil Dzilamar Dzilan Dzilanale Dzilchacan Dzilchen Dzille Dzilnoc Dzilnoche Dzilnochtz Dziltun Dzique Dziqueh Dziquerracyum Dziquerras Dziquerro Dziquerén Dziqui Dziquic Dziquich Dziquilamigue Dziquinaltun Dziquirigue Dziquisila Dziquit Dziquitz Ek'Bahlu Ek'Bakul Ek'Bal Ek'Bala Ek'Balaman Ek'Baltul Ek'Baltun Ekabaantun Ekabná Ekalanekel Ekan Ekani Ekanikin Guc Gucaibaj Gucal Gucan Gucantokop Gucarac Guchaax Guchana Guchel Guchenquerro Guchin Guchmarcal Guchtz Gucmigue Gucmin Gucmintun Gucmul Gucmuloc Gucsuch Gucsucmil Gucsucmin Gucsucumarac Gucucmul Gucumantok Gucumchal Gucun Gucuén Gum Guman Gumanan Gumatz Gumatza Gumatzcaacab Gumcan Gumchen Gumkiha Gumkin Gumkina Gumkinam Hnum Hnumal Hnumalakul Hnumaltunum Hnumatakkul Hnumatz Hnumatze Hnumazotz Hnuyil Hnuyilana Hnuyiltunum Hnuyu Hnuyum Hnuyumatabaan Hnuyumazum Hoc Hocab Hocahache Hocaj Hocalchel Hoch Hoche Hochel Hochinxok Hochmatze Hochmok Hochmultun Hocoh Hocol Hor Hormigua Hormil Hormilam Hormin Horminachmoná Hun Huna Hunactun Hunan Hunikantunin Hunuman Hunuyg Hurac Huracmigue Huractun Huracyumatab Hural Huralan Huraleu Huraltun Huran Huranic Huranjo Hurantun Huras Ich Ichacan Ichacaob Ichachun Ichalam Ichale Ichalja Ichan Ichcoja Ichcolochana Iche Ichel Ichen Ichenqui Ichi Ichil Ichmatzekel Ichmoná Ichoba Ichobe Ichobenqueh Ichochaam Ichochel Ichochinxok Ichtz Ichun Itz Itzam Itzaman Itzamatz Itzaminal Itzcai Itzcain Itzcan Itzcaraccha Itze Itzek Itzekel Ixba Ixbaac Ixbaam Ixbaan Ixbaanek Ixbaazotza Ixbah Ixbaj Ixbal Ixbalam Ixbalamiltul Ixbalapakum Ixch Ixcha Ixchaan Ixchacyumkin Ixchal Ixchan Ixchanqueh Ixche Ixchmoná Ixchmule Ixchob Ixcul Ixcultun Ixcun Ixcuna Ixcutz Ixcutza Ixcuén Ixib Ixiba Ixibaana Ixibaj Ixibal Ixibil Ixibilan Ixibilchaan Ixibilchtz Ixibilnoch Ixibiltultul Ixibiltunana Ixilam Ixilamalam Ixilampan Ixilchmazul Ixim Iximcaan Iximcain Iximcalam Iximcaret Iximch Iximchacana Ixluchac Ixlucmigueh Ixlucminxok Ixlum Ixlumactun Ixlumcamatla Ixlumchal Ixlumchel Ixlun Ixlunic Ixtabale Ixtak Ixtakancal Ixtakihaax Ixtakihal Ixtakkul Ixtakuloc Ixtatab Ixtatatak Ixté Iza Izam Izamalja Izamaltun Izamiguan Izampakum Izan Izanjo Jai Jain Jainkuk Jainkul Jaintok Jainxok Jol Joljuyilhan Joljuyu Joloc Jolocaam Jolocche Jolocchen Jolochin Jolona Joloncac Jolonche Joyapacaib Joyapach Joyapacyum Joyapakancuén Joyapaki Joyapakinin Joyapan Joyapantun Kab Kaba Kabahacaax Kabahluch Kabal Kabná Kam Kamac Kaman Kamancantok Kamani Kamanin Kamatza Kana Kanai Kanalan Kancaluna Kancam Kanchel Kanek Kanina Kanjo Kanque Kanquero Kanquerén Kanqui Kanquit Kantok Kantuja Kantul Kantun Kantuna Kantunaltun Kantunche Kantunikin Kaya Kayapantok Kayil Kayilakalchan Kayilan Kayilanakum Kayille Kayillen Kayiltun Kayomoná Kina Kinalakuleu Kinalchen Kinkul Kinkumatz Kintunala Kinxocorro Kinxok Kiu Kiui Kiuichaaxum Kiuichoc Kiuila Kiuilan Kiuilas Kiuinam Kiuinxok Kiuiriguero Kiuisviltiche Kiuitz Kiuitza Kiuitzaman Kukpec Kukpecaanich Kukpecal Kukpechal Kukpechen Kukpecun Kukpecutuk Kukuk Kukukpec Kukukpech Kukukul Kukukule Kukul Kukultuja Kukulu Kukulun Kukum Kukumal Kukumalapak Kukumar Kukumcantok Kukumcaob Kukumchic Kukumkihaac Kíina Kíinikihaque Kíinitz Kíinkuk Kíintok Kíinxoch Kíinxok Lab Labal Lam Lamal Laman Lamana Lamanekel Lamaralam Lamaralchaan Lamaran Lamarcal Lamatze Lamil Lamilnoc Lamin Lampancal Louinkukum Louinxocoja Louit Louoh Louohobe Louohochtz Luba Lubaacoja Lubaacyum Lubaam Lubaan Lubaana Lubaax Lubaaxche Lubaaz Lubaazotuk Lubah Lubahxac Lubaj Lubal Lubalakmul Lubalam Lubalancha Lubalanque Lubaltic Mac Macab Macabal Macan Macchil Mach Machacal Machunai Macmul Macoh Macol Macouitzam Macyum Macyumcani Man Manah Manai Manakkuk Manaklmar Manal Mancaax Manek Mantok Mantun Mayapakkultun Mayil Mayilch Mayille Mayilnochob Mayom Mayomok Mayomona Moc Mocahlumal Mocaltun Mocam Mocan Mocarcaan Mocch Moccham Mocchinxochi Mocchmok Moch Mochacai Mochacyu Mochal Mochao Moche Mochen Mochi Mochilha Mochmokopoxté Mochobaj Mochocouina Mochucutunich Mocom Mocouoh Mokop Mokop-Achob Mua Muanac Muanacnam Muanaman Muanan Muancab Muanic Muaninkul Muanjo Mul Mule Muleu Mulonamaintun Muloninxok Multun Muyg Muyilam Muyilamacaj Muyilan Muyilchmul Muyilhan Muyum Muyumaib Muyuman Muyumarcan Nac Nacaachan Nacaaxaqui Nacan Nach Nachcom Nachel Nachicham Nachob Nacmigua Nacnac Nacohob Nactun Nacutul Nacyum Nak Nakal Nakan Nakbenque Naki Nakihalch Nakina Nakintok Nakkuk Nakkultunuyg Naklmantul Naklmatak Nakmul Nakmultun Nakmulu Nakul Nakumana Nakumkin Naká Nar Naracac Naracala Naralam Naran Narana Narancaj Narancal Naras Narcaibil Narcancaba Narcaran Naret Naretak Naretakukpech Naretakukukum Neba Nebaacalam Nebaach Nebaan Nebaana Nebaazotun Nebah Nebahlun Nebalam Nebalchac Nebaltic Negracan Negracch Negractunalan Negralja Negran Negrancanquit Negranekel Negrantun Nimcal Nimcalan Nimcanin Nimch Noh Nohob Nohobahluncha Nohobal Nohobe Nohoc Nohocahaquero Nohocchel Nohochil Nohochmul Nohocom Okop-Ach Okop-Achala Okop-Achalas Okop-Achcol Okop-Ache Okop-Achel Okop-Achoc Okopacna Okopakana Okopaki Okopoxtatz Oxchacamana Oxcham Oxche Oxchel Oxchen Oxchiam Oxchiaman Oxchinan Oxchob Oxcuchaob Oxcuchen Oxculen Oxculeu Oxcum Oxcun Oxcunini Oxcutz Oxibaam Oxibal Oxibila Oxibilam Oxibilan Oxibiltun Oxilan Oxilana Oxilche Oxilchenqui Oxilha Oxillenqui Oximchaqui Oxki Oxkihal Oxkihaqui Oxkin Oxkinakini Oxkinalam Oxkini Oxkinkukuk Oxkinkul Oxkintun Oxkinxok Pacaan Pacaax Pacabaj Pacac Pacactuja Pacah Pacaha Pacai Pacainitz Pacaj Pacalan Pacalapan Pacaleu Pacaljuyg Pacamilchel Pacan Pacana Pacanaiba Pacantun Pacchaltun Pacchantun Pach Pacha Pachcoh Pache Pachmetak Pachob Pachtz Pachun Pacmiguanque Pacmul Pacmulu Pacoja Pacom Pacouoh Pacouohoche Pactun Pactunalapan Pactuncha Pactunuyu Pacuén Pacyu Pacyumalam Pacyuman Pal Pala Palamaz Palas Palch Paljuyumal Paltunumatz Pec Pecac Pechaculoche Pechcolja Pechcolona Pechel Pechichantuja Pechmetaki Pechob Pechtz Pecol Pecoloc Pecormil Pecouohoc Pecul Pecuén Piedrac Piedracchen Piedrach Piedracmintun Piedracouoh Piedracyu Piedral Piedralche Piedralen Piedran Piedranai Piedranch Piedranjo Pil Pilam Pilaman Pilan Pilapacan Pilch Pilchanek Pilchcor Pilche Pilchtzek Pillen Pilnoc Pilnochel Pilnochmonai Piltultun Pom Pomok Puc Pucacab Pucai Pucam Pucanaintunin Puchalanjo Puchenquit Puchoben Puchochel Pucmiguan Pucsucsucan Pucun Pucuén Pun Puna Puncacan Puncaoba Punich Punichtze Punikihacan Punum Pusil Pusila Pusilam Pusilas Pusilche Pusilchmok Pusillen Pusilnocal Pusiltun Que Queros Querracacan Querracmulona Querracnam Querral Querran Querros Querén Qui Quic Quich Quichach Quicham Quiche Quil Quila Quilam Quilan Quille Quillen Quiltun Quinaini Quini Quinit Quintok Quinxochic Quinxok Quiriguan Quiriguana Quiriguanjo Quiriguerros Quiriguerén Quisil Quisvila Quit Quitz Quitza Quitzantun Quitzcabná Saya Sayapacal Sayapakmul Sayille Sayilnochmok Sayom Sayomok Seib Seibaam Seibah Seibil Seibilaman Seibilana Seibilas Seibilch Seibilhache Seibilnoc Sisil Sisilam Sisilchob Sisilleu Sisvil Sisvilam Sisville Sisviltukum Tan Tana Tanai Tanainxok Tanal Tanchmok Tancun Tanek Taz Tazotun Tazotz Tazotzek Tazul Tazuleu Tazulona Tazultichoch Tazultun Tazultunikab Tazulun Tazum Tazuman Tec Tecaan Tecab Tecabná Tecal Tecan Tecar Tech Techa Techaanai Techcouoh Teche Techel Techoc Techun Tecoja Tecoljuyum Tecomona Tecor Tecorralen Tecouin Tecouoh Tecouohob Tecuchmulun Tecucsuc Tecul Tecumatlan Tecumatz Tecumcan Tecumkihachin Tecun Tecuna Tecutz Tecuén Tikabná Tikan Tikantun Tiki Tikihal Tikihan Tikin Tikinikalam Tona Tonai Tonam Toncabahlum Toncai Toncalam Toncan Tonchi Tonic Tonitza Toná Top Top-Acha Top-Achaan Top-Achacal Top-Achactuk Top-Achel Top-Achi Top-Achil Top-Achmet Top-Achob Topac Topacai Topach Topactuni Topakben Topakumal Topan Topanchel Topantok Topantun Tul Tulen Tulonit Tultichen Tultuja Tultun Tultunai Tulun Tutukpecaj Tutun Tutunaltun Tutunantuja Tutuni Tutz Tutza Tutzam Tutzanjo Tutze Tzib Tzibilch Tzilan Tzilanch Tzilhal Tzique Tziquero Tziquil Uax Uaxacha Uaxacyu Uaxacyum Uaxhac Uaxhal Uaxham Uaxhaque Uaxum Uaxumar Ucaachoba Ucacun Ucahlu Ucahpop Ucal Ucalam Ucalaman Ucalun Ucam Ucanekel Ucantuk Ucantultun Ucantun Utab Utaba Utabaan Utabahpoxtab Utabná Utakan Utakbe Utakiham Utakin Utakintuja Utakmul Utakmultun Utakmulum Utatz Utatzantok Uxmachucul Uxmaculocabná Uxmar Uxmatakkul Uxmatakkum Uxmatatabná Uxmatz Uxmatzcan Vah Vahlun Vahlunai Vahlunitze Vahpu Vatab Vatak Vatakabná Vatakbe Vatakukul Vataká Vatatz Vatatzcao Vatatze Vatatzekel Vatla Vatlan Vatlapachel Vatlapan Vatz Vatze Wakab Wakabaj Wakan Wakbe Waki Wakkukpec Waklmatatze Waklmatza Wakmul Wakul Xcaam Xcaan Xcaantun Xcab Xcabaan Xcabaaz Xcabala Xcabná Xcacalam Xcacmigua Xcacuc Xcacyu Xcah Xcahxac Xcal Xcala Xcalapantul Xcalja Xcaltuja Xcaltun Xcam Xcan Xcana Xcancul Xcani Xcantok Xcantun Xcantuna Xcoh Xcoja Xcoloc Xcor Xcouisvil Xcouohob Xcucaina Xcuche Xcucmul Xcucmultun Xcucsuchmul Xcul Xculoná Xcultultun Xcultun Xculum Xcuman Xcumatz Xcumchactun Xcumkinai Xcun Xcuna Xcunic Xcunil Xcunin Xcutz Xcutza Xcuén Xiui Xiuichalas Xiuisil Xiuisvil Xiuisvilanah Xiuit Xiuitz Xla Xlakbe Xlaká Xlam Xlamai Xlamatz Xlamatzcan Xlancal Xpu Xpuhi Xpuhiam Xpuhic Xpuhichcol Xpuhiche Xpuhilan Xpuhin Xpuhinic Xpuhinxok Xul Xule Xuloc Xultich Xultuja Xultuniltun Xulucumatze Xulumcalam Xulumcalancun Xuluni Xun Xunchochmok Xunic Xunichel Xunum Xunuyu Yak Yakab Yakan Yakanquichini Yakbenqui Yakin Yakina Yakmul Yakmultun Yakuk Yaxac Yaxachiam Yaxacnal Yaxaque Yaxaqui Yaxaquilche Yaxaquilleu Yaxaquin Yaxaquitz Yaxch Yaxcha Yaxchac Yaxchactun Yaxchel Yaxchen Yaxchic Yaxchob Yaxchtze Yaxchuc Yaxchunuyil Yaxculunina Yaxcun Yaxhaan Yaxhac Yaxhalam Yaxhaman Yaxhan Yaxumac Yaxumach Yaxumaibil Yaxuman Yaxumcah Yaxumcantok Yaxumch Yo'ok Yum Yumai Yumalamintok Yumalanala Yuman Yumana Yumancaob Yumanque Yumatla Yumatz Yumcaan Yumcalen Yumcalja Yumcana Yumcarachal Yumchcoja Yumche Yumchel Yumchob Yumkina Zac Zacaan Zacab Zacah Zacainal Zacan Zach Zachcoja Zache Zachel Zachi Zacmigua Zacor Zactun Zacun Zacyumkin Zipacch Zipachel Zipacyum Zipak Zipakiha Zipakum Zipaká Zipan Zipanam Zipanek Zipantun Zotuja Zotun Zotunahal Zotuncal Zotunic Zotunichoch Zotunuyil Zotza Zotzcaj Zotzcan Zotzcantun Zotze Zotzek
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Ixbaani Ethereal Travelers" "Tecuén Ethereal Travelers" "Ixba Ethereal Travelers" "Gumal Ethereal Travelers" "Xcan Mayom Ethereal Travelers" "Chin Caltun Ethereal Travelers" "Pacyuman Ethereal Travelers" "Top-Achmok Ethereal Travelers" "Gucmuloc Ethereal Travelers" "Pilan Ethereal Travelers" 
+		}
+		sequential_name = FANTASY_MAYA_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_MAYA_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Altich Bechmultunit Bona Bonahac Cal Caluchaque Can Cha Chaacan Chil Civilhaan Cobaj Dzibiltun Hocab Hocanch Hocchmancaj Horras Hun Huras Ichel Ixba Ixilch Ixlum Ixtatlan Ixtatza Ixté Kab Kanai Lab Lampananchel Louichun Louil Louirigua Man Manjo Naracuc Nebaacnai Oxkihacana Oxkina Palapaklman Paljuyu Pec Piedracoh Punch Pusil Pusilnoc Seibilha Tazotza Tazum Tikalchmul Tikihaan Tonit Uaxac Uaxacuén Ucaj Utabná Uxman Uxmaras Uxmatla Wakmulumantun Xcahalam Xcan Xcolja Xcul Xlan Xpu Xun Yo'ok Zacminintun Zipakmulocan
+				
+				Altunai Altunch Azultuna Azultunit Bechinai Bolja Cahacmule Cantun Cantunille Carac Caras Carcaj Caret Cerras Cerro Chacab Chalja Chila Chilch Chinam Chuchel Civil Civilnocche Cobal Copoxtatlan Dzibahpu Dzibil Dzibila Dzibille Ekalam Ekaltunit Gumkini Hocarachel Hocchmulu Hormigue Horros Hurancaret Huras Ichmultun Ixche Ixcuén Ixilamac Ixilchob Ixilha Ixlucmul Joyapantun Kamazotzcan Kinkumai Kiuil Labalchoben Lamazultun Lamigua Lampacaj Lubaanjo Lubah Lubaj Macmul Manam Manamal Manchobaj Mancultun Manic Mantok Muyilnoc Nakmul Nakmultun Nakmulu Nakumaras Naras Nebaan Nebahpu Nebalja Nebalum Negrac Negral Negralumai Nimchen Okopana Okopoxtab Okopoxté Oxkihaque Oxkinin Paljuyu Pechilnoc Pecoloncul Piedrache Piedralan Pilanjo Pille Pomonit Pucsuc Quilchac Seibila Sisvil Taninic Tanjo Tazotzekel Tikihal Tonichel Topakmultun Tultun Tulumatzana Uaxachun Ucacol Ucaret Utaba Uxmacuén Wakmule Xcachmultun Xcalan Xcaras Xcorras Xculen Xculona Xcumal Xcuén Xunic Yaxac Yaxch Yaxcul Yo'ok Zipaklman Zipakulu Zipanquic
+				
+				"Ha Carcan"
+				"Ha Dzibil"
+				"Ha Xlanain"
+				"Ha Ek'Balaklmal"
+				"Ha Yaxacanal"
+				"Ha Negral"
+				"Ha Chucmilapan"
+				"Ha Negracan"
+				"Ha Pomona"
+				"Ha Cala"
+				"Ha Pecab"
+				"Ix Maya"
+				"Ix Copantun"
+				"Ix Xcucultic"
+				"Ix Campak"
+				"Ix Sisvilanch"
+				"Ix Ixcha"
+				"Ix Louic"
+				"Ix Wakmul"
+				"Ix Quisilas"
+				"Ix Caral"
+				"Ix Negracnamin"
+				"Ix Pilapantokop"
+				"K'a Ixtatz"
+				"K'a Yo'okopoxté"
+				"K'a Azumancuén"
+				"K'a Xcachel"
+				"K'a Utab"
+				"Hun Chucuén"
+				"Hun Ek'Bale"
+				"Hun Oxkin"
+				"Hun Xcanculumai"
+				"Tik Dzil"
+				"Tik Oxchobahpu"
+				"Tik Kamaracmigua"
+				"Tik Yaxhaquerén"
+				"Yo'ok Xcan"
+				"Yo'ok Negralchel"
+				"Yo'ok Ixba"
+				"Yo'ok Calu"				
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Ahki Ahkin Ahmetakan Ahmetaki Ahmetakum Ahmetakumatze Ahna Ahnacyum Ahnacyumcam Ahnakinxocaam Ahnakkukpecun Ahpop-Ach Ahpop-Achaan Ahpop-Achaaz Ahpop-Achac Ahpop-Acham Ahpop-Achan Ahpop-Achcoja Ahpop-Achcom Ahpop-Ache Ahpop-Achiam Aran Aranacyum Aranek Bahlunum Bahlunumatz Bahxaqui Bahxaquitz Bahxaquitze Bakanek Baki Bakin Bakinxochcom Bakinxocoja Bakinxok Bakkukuk Bakkukukul Bakkul Bakukul Bakukumatz Bakul Bakumcanek Bal Balaman Balamanakan Butuja Caan Caax Caaxumatze Caaz Cac Cacaana Cacaib Cacalam Cacaob Cach Cachaam Cachi Cacyum Cacyuman Cacyumcal Cana Canac Cancaan Chaax Chaaz Chac Chacaaz Chacaib Chach Chache Chachi Chacyuman Chacyumatakul Chacyumcalam Chaman Chana Chanakan Chancaana Chancaax Chancaib Chancao Chi Coc Cocalam Cocam Coch Cochachan Cochan Cochancaax Cochcouohoch Coche Cochi Cocouoh Cocouohocham Cocouohoche Cocouohocoja Cocouohocom Cona Conacaam Conakan Cotz Gucaaz Gucaib Gucalam Gucam Gucan Gucana Gucanek Gucaob Hnum Hnumatz Kanac Kanek Kukpecun Kukpecunuyg Kukuk Kukukuk Kukukul Kukukum Kukukumatze Kukul Kukum Kukumataki Kukumatakin Kukumcaib Kíinxocaob Kíinxochao Kíinxocom Kíinxok Moc Mocana Moch Mochac Mochan Mochao Moche Mochiam Mocoja Muana Muanakkul Nac Nacaam Nacal Nacalam Nach Nache Nacyum Nacyuman Nacyumancaam Nacyumatz Noh Nohoc Nohocaan Nohocalam Nohocao Nohochan Pacaamancaob Pacaaxumcal Pacaaz Pacaib Pacalam Pacam Pacan Pacanakuman Pacao Pacham Pachan Pachaob Pache Pachi Pacyum Pacyumatz Pacyumcal Pacyumcan Qui Quin Quinxok Quitz Tech Teche Tecun Tecunum Tecunumatz Tecunumcalam Tecunumcan Tecunuyg Tutuja Tutz Tziqui Tziquinxochi Tziquitz Tziquitze Vahlun Vahlunum Vahlunuman Vahlunumatze Vahlunumcaib Vahlunuyg Vahxaquitz Vahxaquitze Vatakan Vatakana Vatakin Vatakukumatze Vatakumcaob Vatz Vatze Yaxuman Yaxumancaax Yaxumatze Yaxumcaaz Yaxumcaib Yaxumcal Yaxumcaob Yum Yuman Yumatz Yumcal Yumcam Zotuja Zotul Zotze
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				Ahna Gucam Kukukul Kíinxocom Pachi Tecun Yuman
+			}
+			
+			regnal_second_names = {
+				Gucaam Cochao Techcom Mocal Chanakan Pacao
+			}
+		}
+	}
+}

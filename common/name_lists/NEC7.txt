@@ -1,0 +1,245 @@
+﻿### Necroid 7
+# Armies based on Necroid 3
+# fantasynamegenerator.com misc, including Demon and Hellhound
+
+NECROID7 = {
+	category = "Necroid"
+	ship_names = {
+
+		generic = {
+			Agdrarin Agdrathuarg Agdroman Agdron Agdroog Agdror Algoch Algog Algog'dik Algoman Algrer Algrerthren Angral'galor Angrangroch Angras Angraz Angrin Angrog Angrol Angror'goukk Angroth Angrothoc Aniuth Ar'ach Ar'al Ar'elvaman Ar'en Ar'zun Araaldrurdon Arach Aralnoken Aralog Arkan Arkar Arkidongrogith Arkoch Arkoth Arkoz Arkuthukk Arnadeth Arnamauk Arnathren Arnekaumoxog Arnerth Arralikan Arrariuz Arraxas Arren Arriud Arrolvan Arrorth Arrurdian Arzer Arzerangrinal Arzokk Arzokoch Arzom Arzoman Arzomath Arzord Arzorlaner Azaaggaik Azaal Azach Azad Azar'en Azard Azgigg Azgigth Azgith Azgomannor'en Azgomaurd Azgomuth Azgondik Azgongrith Azgongror Azgor Azgouk Azgoulvannoth Azgukanithrer Azgum Azguun Azguurth'tan Azrolar Azrug Azrugg Azrur Bal'goc Baldrundik Ballmak Ballmath'tan Baluz Bar'ac Bar'lus Bargrogg Barrur Beg'drur Begdraard Begth Big'dian Big'dros Bigomakk Bigrath Bigthon Bogg Bogigth Bogmongrach Bogmuth Bogth Bor'enugdran Bor'ur Borar'al'roth Bord Borkothrerac Borth Borun Borzerog'droch Brag'drar'ur Bragan Bramaurd Bran Brannorth Brarurg Brath Brathoch Braxas Briuth Briz'gaman Brog Brogdrur Brol Brolvan Bron Brondianiuth Bror'en Bror'ok Brord Broth Broukoth Broul Bruargam Bruk Brun Brur Bur'luzuur Burg Burog Burolord Dag'th Dagach Dagaldron Dagoch Dagouch Dagrodiangror Dar'ok Dargam Dho'rath Dho'zomauth Dhoc Dhomakk Dhomauthrekan Dhomon Dhomurd Dhon Dhonalon Dhoogg Dhookar Dhooken Dhor Dhord Dhos Dhoth Dhothord Dhothreth Dhuagg Dhuagrach Dhuch Dhuk Dhukamach Dhukauman Dhun Dhungraggon Dogdrogthomath Dogg Doggorug Dogig Dogmuth Dogrothomon Dokamakk Dokan Dokaniud Dokargrer Dokid Dokidokk Dokiz Dokk Dokon Dolarkoth Dolas Dolgon Dolinath Dollmaum Dolmon Dolmothuk Dolvan Dor'an Doramangroukk Dord Dorkauth Dorkuth Dorlar Dornath Dorth Dorzok Dozmauth Dozzad Drac Drach Drad Drag Dragg Dral Dral'gal Dral'gok Dral'gokozrun Dral'gomaud Dral'guug Dralgrer Draloz Dramolazus Dran Drard Drargathagg Drarin Drath Drathos Draxiud Draxiuthagokk Drid Drith Drius Driuthon Droch Drod Drodak Drodard Drog Drogrol Drol Drolmakk Drolmothrumon Drolmuch Drolruard Drolvamaun Dromaukk Dron Dronomathoch Droorthon Droorur Dror Dror'guur Drord Drorthrekk Drorul Droth Drouk Drukoch Drukon Drul Drun Drur'ach Drurgrogdrog Drurgros Druth Duraard Durargrorus Dururd Dustrun Egth Egthas Egthiz Egthord Ekdar Ekdaz Ekdon Elgomogman Elgralargrad Elgrazoth Elgrith Elgrondazoth Elgronolvak Elgroth Elgrouk Engrolvan Engros Engroth Er'ach Er'gonekk Er'luthukk Er'ok Er'ur'angrik Er'urongroch Er'zomaur Ezman Ezmath Ezmaur Ezmoth Gagg Gaglozzuurd Gagonorkon Gagreron Gagrinaloth Gangror Gar'goch Gargror Gargrordithas Garik Garkoth Gath Gathreman Gathreror Gezmakk Gir'ac Gir'ach Gir'ellith Gir'gaman Gir'gangralvok Gir'zuazoman Girg Girnegath Girorth Glellerath Glelvamaman Glelvimaun Glenath Glenollmik Glenoman Glerbair'luth Glik Glin Glinathegth Glinnoth Glinoragth Glith Glithik Gliud Gluzun Gogdrul'gal Gogguurth Gogth Golargro'zus Gollmurath Golmaur'zom Golmikamaum Goor'galmuth Goornekk Goorrethuch Goorzok Grad Gral Graldrog Gran Groch Grolmollmik Gron Grongraruth Gronorord Grord Groth Groukonath Gruargan Gruggan Grukan Grulgogguman Grulgrariud Grulrur Grulviman Grun Grurothreth Gugdruarizzuug Gugg Gul'gath Gul'gukk Gul'rog Guleralan Gullmangrik Gurugg Hastrag Henath Hez'garuk Hez'gon Hezman Hezorremazzuur Hordik Horzer Huzun Igren Igrinnik Igromath Igromon Igrongroch Igror Igrorzerth Il'gal Il'galach Il'galdroth Il'gokk Il'rodith Ildriuth Ildrogg Ildron Ildroth Ildrukard Ildrungron Ingramard Ingrin Ir'ac Ir'elith Ir'en Ir'gomannith Ir'goz Ir'ur'ach Ir'zoman Irgac Irgral'gath Irgralornamath Irgrogran Irgroord Irgrothag Irrer Irrerbaik Irrerras Irrethreth Irrun Iz'gal Iz'gam Iz'gamaun Iz'gan Iz'ganegrokoz Iz'gomaun Iz'gukk Izgiggelon Izgokozar Izgoz Jakk Jal'druagg Jal'gokoch Jalas Jaliuth Jastrag Jastrath Jeg'dil Jegthruk Jenad Jenugdrard Jenugg Jir'eloner Jirg Jirgroord Jirgrorth Jirnerord Jiros Jiroth Jozmangran Jozmath Jugdrangrinath Jugdrolvimaun Juggangrik Juggorkon Jukar Jukk Jukoz Jural Jurar Jurgriz Jurth Jurukon Jurun Kagarkaman Kagg Kaglon Kagmauth Kagog Kagomaur Kagron Kagth Kal'drin Kalaz Kaldras Kaldrugg Kalius Kallmik Kalothrenath Kaluz Kath Kathruk Kaz'goch Kazomuch Kazoth Kenaik Kerag'tan Keratho'zoth Kerogg Kerolazoth Keronoth Khagamogdran Khagozgoch Khal Khalman Khaloth Khaud Khauth Khin Khinnoth Kig'drorth Kig'drug Kigg Kigrariz Kigronokargrar Kookauth Koorarinath Koornad Koornaik Koorth Korran Krag Kragon Kral Kral'gum Kralnoth Kran Krangral Krangran Kraz Krekan Kremauk Kremauth Kren Krer Krerolor'las Krerth Krerthardon Krethik Kridon Krin Krinnom Kriroukoch Kris Kriud Krolan Kron Krorzodakk Krun Krus Kuran Kuroch Laigth Laik Lairnadeth Lairnath Lilgoukk Lillach Lillas Lugdror Magairo'zuugg Magarg Magg Maggoch Maglen Maglozgith Magmogg Magolin Magrinamath Magroth Magth Mar'gollmos Mar'luthomaun Mard Marid Maz'gum Mazomaumach Mazomur Mazoth Mazus Mazuugdroner Migg Migonoth Migrekan Migth Migthiz Monal'guur Monath Mondith Mongroth Monolrugg Mu'ral Mu'raxiustrar Mu'rog Mu'rogg Mu'rol Mu'rolokiz Mu'roruard Mulen Murad Nag'dror Nagg Nagmolmolrun Nigog Nigomakdakk Nigrethrun Nigthiz'goman Niz'gach Niz'galok Niz'gogith Niz'gonorrath Nizzundianik Nizzus Nor'en Nor'goc Nor'zoth Nord Noruk Og'dik Og'drar'gondik Og'draz Og'drithon Og'drolvok Og'tan Og'thran Oglelokoch Oglen Oglerbaikan Ogleror'luz Oglerth Oglorthonaik Ogloth Ogman Ogmogrog Ogmuthor Ok'draz Ok'drod Ok'drokk Ok'drul Okraaluz Okrarg Okrarkan Okren Okrerol Okrerth Olgoch Olgon Olgrinath Ollach Ollas Ollmik Ollmon Onegrerth Onegror Onekk Onezoth Orkamac Orkan Orkidon Orkizzuun Orkoth Orkothrer Orrargridokiz Orrer Orriustrul Orrolgomonorth Orron Orror'gon Orth Orth'th Orthard Ortheg Orthik Orthon Orthos Orthrath Orthrer Ral'romach Ralok Ralvamakk Ralvan Rar'las Rardongrin Rariud Rarkuthagomaud Rarrazoth Reg'diangrouk Regarkiz Regath Regdrith Regrolgom Rhuk Rhukk Rogg Roggoz Rogroch Rogth Rogth'tanath Rollmuth Rolmathraluth Rozaag Rozgoc Rozgon Rozruth Ruagallmur Ruak Ruarbaiggoz Rundakk Rungran Runnithuz Sard Sardongrathas Sarg Sarrekan Sarurg Songror Sord Sorollinadeth Soruarkid Sostrath Sostrugdrorog Sostruk Tar'okon Tard Targan Tarur Thag Thagal Thaganath Thagarbuun Thagg Thagomutho'zod Thagth'tan Thal'gon Thalmath Thar Thard Thardik Thargrothezman Thas Thauk Thaur Thauth Theg Thez Thez'gac Thez'galin Thez'goman Thik Thilgoch Thillan Thillmikan Thin Thinaman Thinnath Thinokid Thinor Thinor'okk Thiz Tho'roth Thoch Thomannokan Thomazzach Thon Thookothukoz Thor'lach Thorlan Thornatho'roth Thos Thostraar Thoth Thothegdridon Tinaigg Tinath Tinnoth Tinok Tir'ach Tir'an Tirnamannath Tirnezac Tokenorug Tokk Tokoch Tor'gath Toraaluz Tord Torlanithal Tridokoth Trinad Tris Triz'galdruag Trogdroukk Trol Trookk Troth Troukk Ukralvamar Ukramard Ukran Ukrard Ukrarkan Ukrathor Ukrekk Ukrer Ukreran Ukrerth Ukrethiz Ul'gan Ul'gogg Ul'goman Ul'gon Ul'ral Vagal Vagg Vagreros Vagthrug Vanekarg Vannaik Vannik Vannor Var'guk Vard Varg Varik Variuth Varkan Veralvokaukk Verbuun Veronokon Verthin Volmolvan Volmongron Voloz Volvakk Volvam Vomak Voman Vomard Vomolmonolvan Vomolvimaunnik Vomurd Vrallmazzac Vran Vrath Vrathez Vren Vrenuggan Vrik Vrin Vrinnoth Vrirnath Vris Vriud Vrizzus Vroch Vrodakk Vroggair Vrolmik Vrolornaloz Vron Vroner Vrorth Vroth Vrothon Vroukk Vrouleras Vrul Vrul'drinalok Vrurthagg Vul'gokon Vul'gom Vullmaud Vurth Vurthauth Vurug Xar'gozzuun Xarbuur Xarkar Xarkid Xarkidondith Xarulgon Xaz'gonamos Xazodakk Xazokon Xazor'enug Xazorkauthord Xazoth Xazothag Xazuar'lard Xegal'gamos Xegamauth Xegridongral Xegth Xez'gozman Xezadeth Xezmaum Xezmon Xinadeth Xinnik Xinomakk Xinord Xir'gor Xirnaigoman Xog'dralnoth Xog'drun Xogdragman Xogdroth Xogg Xogmakk Xogmurth Xolius Xolmon Xolok Xolozad Xolrul Xoner Xongral'gon Xongrinnik Xor'elithag Xor'gargrogg Xord Xorlach Xozmaunnadeth Xozmos Xul'ragan Xul'ron Xul'rord Xulelon Xulen Xulgroroth Xulgros Zaalvakdazuard Zaar Zamach Zamak Zaman Zamath Zamauth Zamazok Zamogg Zamol Zamollmurth Zangraxas Zar'gonorzoman Zar'zus Zarbaig Zarbaik Zarg Zargrorlanith Zarkoch Zarron Zinaikan Zinniuthillmik Zirg Zirgrer Zirogmaz Ziroth Zorneg Zostragman Zostruggoukk Zouch Zouk Zoulelik Zozror Zozzuagrin Zrach Zrad Zraglord Zral'gomur Zran Zrar Zrarbuugdriz Zrariuth Zrathiz Zrazoman Zruar'lan Zruggog Zruggon Zrul Zrul'roth Zrullmollag Zrun Zrunnith Zrur Zrurd Zruth Zugdraz Zugdroth Zugdrothord Zugdrumakk Zugg Zul'gamangras Zul'gamar Zul'goch Zullman Zulvakdon
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+		
+			"Procession of Drathongroth" "Procession of Arrid" "Procession of Dror'ur" "Procession of Dron Brun" "Procession of Xar'golach" "Procession of Tir'ok" "Procession of Jalozad" "Procession of Xul" 
+			
+			"Cortege of Kag'tannath" "Cortege of Vard" "Cortege of Dhorukk" "Cortege of Araxius" "Cortege of Zrathrun" "Cortege of Jegth" "Cortege of Thorriuzuarg" "Cortege of Vrerorkid" 
+			
+		}
+		sequential_name = NEC7_xxFLEETNAMES_ORD
+	}
+		
+	army_names = {
+			
+		generic = {
+			sequential_name = NEC7_xxASSAULTARMY_ORD
+		}
+		
+		machine_defense = {
+			sequential_name = NEC7_xxMACHINEDEFENSE_ORD
+		}
+		
+		machine_assault_1 = {
+			sequential_name = NEC7_xxMACHINEASSAULT1_ORD
+		}
+		
+		machine_assault_2 = {
+			sequential_name = NEC7_xxMACHINEASSAULT2_ORD
+		}
+		
+		machine_assault_3 = {
+			sequential_name = NEC7_xxMACHINEASSAULT3_ORD
+		}
+		
+		defense_army = {
+			sequential_name = NEC7_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = NEC7_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = NEC7_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = { 
+			sequential_name = NEC7_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = NEC7_xxUNDEADARMY_ORD
+		}
+
+		robotic_army = {
+			sequential_name = NEC7_xxROBOTICARMY_ORD
+		}
+
+		robotic_defense_army = {
+			sequential_name = NEC7_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = { 
+			sequential_name = NEC7_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = NEC7_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = NEC7_xxGENEWARRIORARMY_ORD
+		}
+
+		occupation_army = {
+			sequential_name = NEC7_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = NEC7_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = NEC7_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = NEC7_xxPRIMITIVEARMY_ORD
+		}
+		industrial_army = {
+			sequential_name = NEC7_xxINDUSTRIALARMY_ORD
+		}
+		postatomic_army = {
+			sequential_name = NEC7_xxPOSTATOMICARMY_ORD
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+			
+				# Demon
+				Algoz Angrius Arnamoth Azadeth Balvamath Bar'urun Doggarun Dokoth Drolmikan Druggoman Elgoruth Gangroloth Gargrag Gath'tan Gezomon Gir'goch Golviman Guggelog Irrerod Iz'gallith Kigroman Kurthrer Mazuug Mig'thos Mustraxas Ogloz Orrannor Orthrumoth Regdroth Roggog Sar'aniuz Sornath Thagamaud Thal'guman Thorthrulen Tir'golar Trollmuth Vagmuch Var'gan Varkozar Verthrun Vurgan Xargrith Xegros Xog'draxiud Xogthoth Xolvak Xongrorun Xozzodith Xungrenug
+				
+				# Hellhound
+				Azgoc Boch Brordian Brul'gogg Darrad Dhoch Dhoor Dhorlaz Dordon Drogrik Ekdokk Er'zord Ezmaum Glelvokk Gluz Goch Gook Gror'gon Gruagg Has Jakdakk Jeg Kag Ken Khik Krar Krinnaik Kroldroog Krul'gaik Lair Lakk Lilgrouch Lugg Moch Mu'rar Nagoukk Nizzac Nor'las Okrer Ralnord Rarg Rondard Ruch Vom Vos Vrerbuurd Vror Zangrard Zar'lagg Zargroc Zord Zraldragg Zruarg Zrugdrus
+
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			
+				# Demon
+				Agdrothun Angroral Anith Ar'alan Aral Arkuthaur Arreran Arzerath Azgoken Azgukan Azruran Begach Bigonoth Bogriuth Bornath Braglellach Briron Brur'en Burgras Dagathon Dog'dran Dogguun Dokoch Dolrukoth Dorthremauth Dozroroth Dral'gonor Dralgrath Drazoth Drolgrath Drolmarin Dror'okiz Egthez Egthoth Engroron Gagthalin Girnekan Gogmaz Gulgroth Il'galuth Ingrenad Ir'ach Irgrodaz Izgig Jal'gaman Jastrur Jenomauth Jirgral Kagomach Kalmon Kath'taner Kazoman Kerrothas Korthreth Magrok Magronoth Markamauk Mongrazoth Murath Oggathon Ogmoxog Olgomath Ollmath Onezaal Orkonal Orthrarin Rogith Rolmolon Songroth Sostramon Targroller Thag'droth Theg'drog Thegthoman Thigthomak Thillmos Thiz'gon Thoneg Thongroth Thorkidon Tinnol Tokan Torzokaun Triz'galor Vanath Volmolik Vullmamol Xaz'galok Xazzunnik Xez'gomuth Xinad Xir'eliuth Xongrothin Xorrillan Xulrul Zillmuron Zinath Zostron Zozgon Zulvannoth
+				
+				# Hellhounds
+				Arrur Brach Brogdrug Dho'zus Dhuaz Dhukk Dhuz Draagg Drarg Dris Dur Dus Glen Glinok Goc Gral'droch Gro'rog Grur Gur'lus Hen Hezmakk Hord Huzuard Igrer Ildrid Joz Jugdrouk Jugg Juk Jur Kal'ron Kavuz Kharkard Koord Krarbaigg Krekk Mul Nigg Og'drun Ok'dik Ren Rhuch Rozmogg Ruakk Rug Rundil Ukrac Ul'guurd Vrag Vriz Vrog Vroul Vruar Zaard Zam Zir Zoukk Zrangrin Zruk Zugdrugg
+
+			}
+			
+			# Always combined with a second name
+			first_names_male = {
+				
+			}
+			first_names_female = {
+				
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				
+			}
+			
+			regnal_first_names = {
+				Ar'alan Drazoth Kalmon Ollmath Thag'droth Thillmos Tokan Zulvannoth
+			}
+			
+			regnal_second_names = {
+				"the Fanged" "the Wrathful" "the Onyx" "the Cruel" "the Swift" "the Cursed" "the Somber" "the Venom" "the Sanguine" "the Crimson" "the Silent" "the Jaw"
+			}
+		}
+	}
+}

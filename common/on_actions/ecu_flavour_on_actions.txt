@@ -1,0 +1,11 @@
+on_planet_class_changed = {
+	events = {
+		ef_flavour.1 # Check if planet changed to an ecu type and give it the flavour event rolls
+	}
+}
+
+on_game_start = {
+	events = {
+		ef_flavour.2 # Set the flag to show the mod is active
+	}
+}

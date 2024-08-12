@@ -1,0 +1,18 @@
+# A fleet has entered a system
+# Scope = Fleet
+# From = System
+on_entering_system_fleet = {
+	events = {
+		mem_last_orila.2
+		mem_last_orila.6
+	}
+}
+
+on_monthly_pulse_country = {
+	events = {
+		mem_last_orila.8
+		mem_last_orila.11
+		mem_last_orila.13
+		mem_last_orila.17
+	}
+}

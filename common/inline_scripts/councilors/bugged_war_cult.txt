@@ -1,0 +1,8 @@
+councilor_$CIVIC_NAME$ = {
+	leader_class = { commander }
+	is_leader_possible = {
+		leader_class = commander
+	}
+	civic = civic_$CIVIC_NAME$
+	custom_tooltip =  "councilor_bugged_war_cult_custom_modifier_desc"
+}

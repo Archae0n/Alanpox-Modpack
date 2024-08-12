@@ -1,0 +1,21 @@
+﻿l_german:
+  technology_diffusion_dmm_loc:0 "Technologieverbreitung – Anpassung"
+
+  tdf_content_title:0 "MenüTechnologieverbreitung"
+  tdf_content_desc:0 "Willkommen bei Tech Diffusion, hier können Sie die Technologieverbreitungsrate für alle Imperien ändern!"
+  tdf_content_current_fast:0 "Derzeit auf schnelle Geschwindigkeit konfiguriert"
+  tdf_content_current_normal:0 "Derzeit auf normale Geschwindigkeit konfiguriert"
+  tdf_content_current_slow:0 "Derzeit auf langsame Geschwindigkeit konfiguriert"
+  tdf_content_set_fast:0 "Auf schnelle Ausbreitungsgeschwindigkeit (+50 %) einstellen"
+  tdf_content_set_normal:0 "Auf normale Ausbreitungsgeschwindigkeit einstellen (Standard)"
+  tdf_content_set_slow:0 "Auf langsame Ausbreitungsgeschwindigkeit einstellen (-50 %)"
+  tdf_content_cancel:0 "Stornieren"
+  tdf_content_start:0 "Starten Sie das Spiel mit den Standardwerten"
+
+
+  tdf_technology_bonus_eng:0 "Ingenieursbonus"
+  tdf_technology_bonus_soc:0 "Gesellschaftsbonus"
+  tdf_technology_bonus_phy:0 "Physik-Bonus"
+  mod_country_base_engineering_research_produces_add:0 "Bonus-Forschungspunkte im Ingenieurwesen durch technologische Verbreitung"
+  mod_country_base_society_research_produces_add:0 "Bonus-Forschungspunkte in der Gesellschaft durch technologische Verbreitung"
+  mod_country_base_physics_research_produces_add:0 "Bonus-Forschungspunkte in der Physik durch technologische Verbreitung"

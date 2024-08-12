@@ -1,0 +1,387 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	ragya = {
+		name = Ragyalese
+		plural = Ragyalese
+		home_planet = Ragya
+		home_system = Ostván
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	hallofgrandeur = {
+		name = Takalmalo
+		plural = Takalmalo
+		home_planet = "Hall of Grandeur"
+		home_system = "Chamber of Valor"
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	konynad = {
+		name = Kony'Nádian
+		plural = Kony'Nádians
+		home_planet = "Kony Nád"
+		home_system = Gyusza
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	istanikorsgift = {
+		name = Ött
+		plural = Ött
+		home_planet = "Ista Nikor's Gift"
+		home_system = "Kárdomana's Error"
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	vincfoly = {
+		name = Vincfölian
+		plural = Vincfölians
+		home_planet = Vincföly
+		home_system = Fácsartony
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	boroszt = {
+		name = Serzsogy
+		plural = Serzsogy
+		home_planet = Boröszt
+		home_system = Egercs 
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	horsarf = {
+		name = Sárfese
+		plural = Sárfese
+		home_planet = "Hor Sárf"
+		home_system = "Hor Újlek" 
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	vernosoldhut = {
+		name =  "kal'Szapos Vernó"
+		plural = "kal'Szapos Vernó"
+		home_planet = "Vernó's Old Hut"
+		home_system = "Mists of Sziházmény" 
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	dempok = {
+		name = Dempokoid
+		plural = Dempokoids
+		home_planet = Dempok
+		home_system = Bajózsonyi 
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	imrekab = {
+		name = Imrekaboid
+		plural = Imrekaboids
+		home_planet = Imrekab
+		home_system = Vistalovammes
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	szadmond = {
+		name = Únyean
+		plural = Únyeans
+		home_planet = Szad'Mond
+		home_system = Ásod'Mond
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	geny = {
+		name = Gényoid
+		plural = Gényoids
+		home_planet = Gény
+		home_system = Joószta
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	petefalja = {
+		name = Petefalian
+		plural = Petefalians
+		home_planet = Petefalja
+		home_system = Csenederényi
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	szokvelako = {
+		name = Zalato  
+		plural = Zalatos
+		home_planet = "Szok Vel Áko"
+		home_system = "Szok Áko"
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	varikarpac = {
+		name = Várikar  
+		plural = Várikars
+		home_planet = Várikarpác
+		home_system = Ebessy
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	kets = {
+		name = Belyzák  
+		plural = Belyzák
+		home_planet = Kéts
+		home_system = Gyadánya
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	szabor = {
+		name = Szaborese  
+		plural = Szaborese
+		home_planet = Szabor
+		home_system = Urafoly
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	dobodzsas = {
+		name = Bodz 
+		plural = Bodz
+		home_planet = Dobodzsas
+		home_system = Blomosil
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	eternalbirth = {
+		name = Vejentkan 
+		plural = Vejentkans
+		home_planet = "Eternal Birth"
+		home_system = "Iron Girdle"
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	lovargyhal = {
+		name = Lovargyhean 
+		plural = Lovargyheans
+		home_planet = Lovargyhál
+		home_system = Bakosztárréka
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	szegy = {
+		name = Szegyite 
+		plural = Szegyites
+		home_planet = Szegy
+		home_system = Kermisbábatobos
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	tapolomon = {
+		name = Tápolomonid
+		plural = Tápolomonids
+		home_planet = Tápolomon
+		home_system = Babozky
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	sajope = {
+		name = Sajópean
+		plural = Sajópeans
+		home_planet = Sajópe
+		home_system = Hegkibrő
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	notagyjasgravitas = {
+		name = Baludomosian
+		plural = Baludomosians
+		home_planet = "Notagyjás's Gravitas"
+		home_system = "Barandszó's Hubris"
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	bany = {
+		name = Bány
+		plural = Bány
+		home_planet = Bány
+		home_system = Bány
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	bocza = {
+		name = Örmik
+		plural = Örmiks
+		home_planet = Bocza
+		home_system = Nábata
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	sehidarka = {
+		name = Sehidar
+		plural = Sehidars
+		home_planet = Sehidarka
+		home_system = Ármedgyve
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	harmonyofbereszom = {
+		name = Várokid
+		plural = Várokids
+		home_planet = "Harmony of Bereszom"
+		home_system = "Melody of Edvagyi"
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	bikorosny = {
+		name = Bikorösoid
+		plural = Bikorösoids
+		home_planet = Bikorösny
+		home_system = Egyörga
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	jagyhaza = {
+		name = Jágyházian
+		plural = Jágyházians
+		home_planet = Jágyháza
+		home_system = Velevelyháza
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	epokoz = {
+		name = Epöközite
+		plural = Epöközites
+		home_planet = Epököz
+		home_system = Géndrollános
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	komoronodprime = {
+		name = Komor
+		plural = Komors
+		home_planet = "Komorónod Prime"
+		home_system = Komorónod
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	nyirpisdy = {
+		name = Nyírpian
+		plural = Nyírpians
+		home_planet = Nyírpisdy
+		home_system = Bénály
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	zarkefalia = {
+		name = Zarkid
+		plural = Zarkids
+		home_planet = Zarkefalia
+		home_system = "Dea Galake"
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+}
+
+
+### LITHOIDS
+
+LITHOID = {
+	lapony = {
+		name = Láponish
+		plural = Láponish
+		home_planet = Lápony
+		home_system = Vagyóróc
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	horgutan = {
+		name = Horgutanese
+		plural = Horgutanese
+		home_planet = Horgutan
+		home_system = Kiszaborse
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	kiszoorgely = {
+		name = Kiszóörgian
+		plural = Kiszóörgians
+		home_planet = Kiszóörgely
+		home_system = Vasbénykös
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	csekel = {
+		name = Csekelite
+		plural = Csekelites
+		home_planet = Csekel
+		home_system = Pinizsó
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	resdok = {
+		name = Resdokoid
+		plural = Resdokoids
+		home_planet = Resdok
+		home_system = Nagyes
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	kovazdoeverpouring = {
+		name = Kovazdian
+		plural = Kovazdians
+		home_planet = "Kovazdó Ever-Pouring"
+		home_system = "Zilár Brim-Filled"
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	vemelia = {
+		name = Vémelian
+		plural = Vémelians
+		home_planet = Vémelia
+		home_system = Sajthegyház
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	rudizsodmer = {
+		name = Zsódmérian
+		plural = Zsódmérians
+		home_planet = Rudizsódmér
+		home_system = Apacskay
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	lencyvaluthevenerable = {
+		name = Rócsök
+		plural = Rócsök
+		home_planet = "Lency Valu the Venerable"
+		home_system = "Vasz the Glorious"
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	viszaprime = {
+		name = Viszacite
+		plural = Viszacites
+		home_planet = "Visza Prime"
+		home_system = Visza
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	veszohod = {
+		name = Veszohoddian
+		plural = Veszohoddians
+		home_planet = Veszohod
+		home_system = Sérda
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	penetratinginsight = {
+		name = Kétsenese
+		plural = Kétsenese
+		home_planet = "Penetrating Insight"
+		home_system = "Weaving Eternity"
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+	bezentgolna = {
+		name = Bezentgolnoid
+		plural = Bezentgolnoids
+		home_planet = Bezentgolna
+		home_system = Csáratmiklós
+		name_list = "cybrxkhan_fantasy_hungarian"
+	}
+}

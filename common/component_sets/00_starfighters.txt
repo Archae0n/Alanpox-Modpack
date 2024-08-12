@@ -1,0 +1,259 @@
+# Icons set here are the ones shown in compnent editor list.
+
+component_set = {
+	key = "SCOUT_HANGAR_1"
+
+	icon = "GFX_ship_part_strike_craft_scout_1"
+	icon_frame = 1
+}
+
+# PD FIGHTERS
+
+component_set = {
+	key = "PD_HANGAR_1"
+
+	icon = "GFX_ship_part_strike_craft_pd_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "PD_HANGAR_2"
+
+	icon = "GFX_ship_part_strike_craft_pd_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "PD_HANGAR_3"
+
+	icon = "GFX_ship_part_strike_craft_pd_3"
+	icon_frame = 1
+}
+
+# LASER BOMBERS
+
+component_set = {
+	key = "STRIKE_CRAFT_HANGAR_1"
+
+	icon = "GFX_ship_part_strike_craft_laser_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "STRIKE_CRAFT_HANGAR_2"
+
+	icon = "GFX_ship_part_strike_craft_laser_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "STRIKE_CRAFT_HANGAR_3"
+
+	icon = "GFX_ship_part_strike_craft_laser_3"
+	icon_frame = 1
+}
+
+# PLASMA BOMBERS
+
+component_set = {
+	key = "PLASMA_HANGAR_1"
+
+	icon = "GFX_ship_part_strike_craft_plasma_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "PLASMA_HANGAR_2"
+
+	icon = "GFX_ship_part_strike_craft_plasma_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "PLASMA_HANGAR_3"
+
+	icon = "GFX_ship_part_strike_craft_plasma_3"
+	icon_frame = 1
+}
+
+# DISRUPTOR BOMBERS
+
+component_set = {
+	key = "DISRUPTOR_HANGAR_1"
+
+	icon = "GFX_ship_part_strike_craft_disruptor_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "DISRUPTOR_HANGAR_2"
+
+	icon = "GFX_ship_part_strike_craft_disruptor_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "DISRUPTOR_HANGAR_3"
+
+	icon = "GFX_ship_part_strike_craft_disruptor_3"
+	icon_frame = 1
+}
+
+# FLAK FIGHTERS
+
+component_set = {
+	key = "FLAK_HANGAR_1"
+
+	icon = "GFX_ship_part_strike_craft_flak_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "FLAK_HANGAR_2"
+
+	icon = "GFX_ship_part_strike_craft_flak_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "FLAK_HANGAR_3"
+
+	icon = "GFX_ship_part_strike_craft_flak_3"
+	icon_frame = 1
+}
+
+
+# RAILGUN BOMBERS
+
+component_set = {
+	key = "RAILGUN_HANGAR_1"
+
+	icon = "GFX_ship_part_strike_craft_bomber_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RAILGUN_HANGAR_2"
+
+	icon = "GFX_ship_part_strike_craft_bomber_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RAILGUN_HANGAR_3"
+
+	icon = "GFX_ship_part_strike_craft_bomber_3"
+	icon_frame = 1
+}
+
+# AUTOCANNON BOMBERS
+
+component_set = {
+	key = "AUTOCANNON_HANGAR_1"
+
+	icon = "GFX_ship_part_strike_craft_fighter_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AUTOCANNON_HANGAR_2"
+
+	icon = "GFX_ship_part_strike_craft_fighter_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AUTOCANNON_HANGAR_3"
+
+	icon = "GFX_ship_part_strike_craft_fighter_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AUTOCANNON_HANGAR_4"
+
+	icon = "GFX_ship_part_strike_craft_nanite"
+	icon_frame = 1
+}
+
+# PSI FIGHTERS
+
+component_set = {
+	key = "PSI_HANGAR_PD"
+
+	icon = "GFX_ship_part_strike_craft_psi_fighter"
+	icon_frame = 1
+}
+
+# PSI STRIKERS
+
+component_set = {
+	key = "PSI_HANGAR_DISRUPTOR"
+
+	icon = "GFX_ship_part_strike_craft_psi_striker"
+	icon_frame = 1
+}
+
+# PSI BOMBERS
+
+component_set = {
+	key = "PSI_HANGAR_TELEPATHIC"
+
+	icon = "GFX_ship_part_strike_craft_psi_bomber"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EXTREADIMENSIONAL_HANGAR"
+
+	icon = "GFX_ship_part_strike_craft_extradimensional"
+	icon_frame = 1
+}
+
+#  MINING LASER BOMBERS
+
+component_set = {
+	key = "MINING_LASER_HANGAR_1"
+
+	icon = "GFX_ship_part_strike_craft_mining_laser_1"
+	icon_frame = 1
+}
+
+#  ENERGY SIPHON BOMBERS
+
+component_set = {
+	key = "ENERGY_SIPHON_HANGAR_1"
+
+	icon = "GFX_ship_part_strike_craft_energy_siphon_1"
+	icon_frame = 1
+}
+
+#  NULL VOID BOMBERS
+
+component_set = {
+	key = "NULL_VOID_HANGAR_1"
+
+	icon = "GFX_ship_part_strike_craft_null_void_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMOEBA_STRIKE_CRAFT_1"
+
+	icon = "GFX_ship_part_amoeba_strike_craft_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMOEBA_STRIKE_CRAFT_2"
+
+	icon = "GFX_ship_part_amoeba_strike_craft_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMOEBA_STRIKE_CRAFT_3"
+
+	icon = "GFX_ship_part_amoeba_strike_craft_3"
+	icon_frame = 1
+}

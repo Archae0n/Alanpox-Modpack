@@ -1,0 +1,43 @@
+﻿l_english:
+ rwf_adventurer_archaeologists:0 "Adventurer Archaeologists"
+ rwf_adventurer_archaeologists_desc:0 "Enterprising souls are drawn to this world by the promise of making a fortune through discovering long-lost treasure."
+
+ rwf_mysterious_discrepancies:0 "Mysterious Discrepancies"
+ rwf_mysterious_discrepancies_desc:0 "Official storage logs for minor artifacts appear to be incorrect. Items are disappearing."
+
+ rwf_scientific_focus:0 "Scientific Interests: Research"
+ rwf_scientific_focus_desc:0 "The research community of this world has a particular focus on recovering and understanding the principles behind lost technologies."
+
+ rwf_archaeology_focus:0 "Scientific Interests: Archaeology"
+ rwf_archaeology_focus_desc:0 "The research community of this world is deeply invested in the study of its original inhabitants."
+
+ rwf_archaeotech_weaponry:0 "Archaeotech Weaponry"
+ rwf_archaeotech_weaponry_desc:0 "This empire possesses a finite stock of extremely potent Archaeotech weapons."
+
+ rwf_damaged_systems:0 "Damaged Systems"
+ rwf_damaged_systems_desc:0 "The passage of time decays all things."
+
+ rwf_recent_relic_expedition:0 "Recent Relic Expedition"
+ rwf_recent_relic_expedition_desc:0 "We have recently surveyed a section of the planet's ruins."
+
+ rwf_abandoned_ecu_tracker: "Abandoned Ecumenopolis"
+ rwf_abandoned_ecu_tracker_desc: "Absent of its population, this enormous city-planet has been left to decay and rust.\n\n§Y[This.rwf_ecu_decay_counter]/240§! months have passed before it will decay into a §YRelic World§!"
+
+ rwf_recently_was_ecu:0 "Former City World"
+ rwf_recently_was_ecu_desc:0 "This planet was once a developed city world only a few decades ago, but has fallen into neglect and decay. Perhaps with some effort it could be restored."
+
+ rwf_orbital_wreckage:0 "Orbital Wreckage"
+ rwf_orbital_wreckage_desc:0 "This planet's orbit contains the remains of a number of large trade stations."
+
+ rwf_exotic_life:0 "Exotic Metabolisms"
+ rwf_exotic_life_desc:0 "This world's native plant life has adapted to incorporate a number of residual industrial contaminants into their biology"
+
+ rwf_debris_ecosystems: "Overgrown Ruins"
+ rwf_debris_ecosystems_desc: "Large sections of this planet's ruins are covered in overgrown jungles and alien vines."
+
+ rwf_unstable_structures: "Unstable Structures"
+ rwf_unstable_structures_desc: "Time and general decay has eroded the stability of many of the intact structures on this world. Colonists must be cautious of collapse."
+
+ rwf_recycle_cities: "Scrap Cities"
+ rwf_recycle_cities_desc: "This planet is covered in the remains of a dead civilization. Plenty of processed materials are available to anyone who wishes to recycle them into something new."
+

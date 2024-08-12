@@ -1,0 +1,14 @@
+﻿l_english:
+
+ tech_repeatable_improved_information_exchange:0							"Research Information Network"
+ tech_repeatable_improved_information_exchange_desc:0						"Increase research speed through an enhanced research information network."
+ 
+ tech_repeatable_improved_information_exchange_corporate:0					"Research Information Market"
+ tech_repeatable_improved_information_exchange_desc_corporate:0				"It is a market system that speeds up the exchange of knowledge. Accelerate your company's research."
+ 
+ tech_repeatable_improved_information_exchange_machine_intelligence:0		"Research Terminal Network"
+ tech_repeatable_improved_information_exchange_desc_machine_intelligence:0	"Optimize the end-to-end connectivity of the research network to speed up research."
+ 
+ tech_repeatable_improved_information_exchange_hive_mind:0					"$job_brain_drone$ Neural Network"
+ tech_repeatable_improved_information_exchange_desc_hive_mind:0				"Strengthen the neural network between $job_brain_drone_plural$ to speed up the Hive's knowledge acquisition."
+ 

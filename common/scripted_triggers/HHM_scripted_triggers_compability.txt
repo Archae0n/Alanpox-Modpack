@@ -1,0 +1,5 @@
+# compatability
+has_hydras_hostage_mod_active = {
+    optimize_memory
+    always = yes
+}

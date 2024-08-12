@@ -1,0 +1,379 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	sagwe = {
+		name = Sagwean
+		plural = Sagweans
+		home_planet = Sagwe
+		home_system = Thang
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	nyuphaddy = {
+		name = Myauk
+		plural = Myauk
+		home_planet = "Nyu Phaddy"
+		home_system = Mongpaw
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	dainmyida = {
+		name = Myidoid
+		plural = Myidoids
+		home_planet = Dain-Myida
+		home_system = "Sei Khin"
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	pyathayat = {
+		name = Pyathayese
+		plural = Pyathayese
+		home_planet = Pyathayat
+		home_system = Magwebi
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	myaunmyawprime = {
+		name = Kyain-Shwe
+		plural = Kyain-Shwe
+		home_planet = "Myaun-Myaw Prime"
+		home_system = Myaun-Myaw 
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	myimongu = {
+		name = Mongulese
+		plural = Mongulese
+		home_planet = "Myi Mongu"
+		home_system = "Gyin Mongu" 
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	tharaw = {
+		name = Tharawian
+		plural = Tharawians
+		home_planet = Tharaw
+		home_system = Aunggo 
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	maunggo = {
+		name = Maunggonese
+		plural = Maunggonese
+		home_planet = Maunggo
+		home_system = Dedaw 
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	naungmon = {
+		name = Naungmonese
+		plural = Naungmonese
+		home_planet = "Naung Mon"
+		home_system = Kaling-Mauk
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	kewkalaitheprovider = {
+		name = "Wung Budokian"
+		plural = "Wung Budokians"
+		home_planet = "Kwe Kalai the Provider"
+		home_system = "Hopon the Justice-Bringer"
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	muday = {
+		name = Mudayan
+		plural = Mudayans
+		home_planet = Muday
+		home_system = Natogo
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	bhatkaikang = {
+		name = Bogoo
+		plural = Bogoo
+		home_planet = Bhatkaikang
+		home_system = Payaungyin
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	annaw = {
+		name = "Laung Annaw"  
+		plural = "Laung Annaw"
+		home_planet = Annaw
+		home_system = Bagyi
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	kayaung = {
+		name = Kayaungese  
+		plural = Kayaungese
+		home_planet = Kayaung
+		home_system = Kyushin
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	hainmogo = {
+		name = Mo  
+		plural = Mo
+		home_planet = "Hain Mogo"
+		home_system = U-Saw
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	nayauk = {
+		name = Nayaukkite  
+		plural = Nayaukkites
+		home_planet = Nayauk
+		home_system = Aungongyi
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	lwewinda = {
+		name = Windoid 
+		plural = Windoids
+		home_planet = "Lwe Winda"
+		home_system = Kyaikton
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	pakamawbwe = {
+		name = Hakok 
+		plural = Hakoks
+		home_planet = Pakamawbwe
+		home_system = Bokpyi
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	yewing = {
+		name = Yewingite 
+		plural = Yewingites
+		home_planet = Ye-Wing
+		home_system = Dawpaddy
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	museng = {
+		name = Musengese 
+		plural = Musengese
+		home_planet = Museng
+		home_system = Pansaung
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	songofthesouthernsky = {
+		name = Tchaungese
+		plural = Tchaungese
+		home_planet = "Song of the Southern Sky"
+		home_system = "Fortuitous Birth"
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	kalinlongyi = {
+		name = Tamaik-U
+		plural = Tamaik-U
+		home_planet = Kalinlongyi
+		home_system = Min-Hti
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	zigong = {
+		name = Zigongese
+		plural = Zigongese
+		home_planet = Zigong
+		home_system = Kyan-Sa
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	laungda = {
+		name = Laungdian
+		plural = Laungdians
+		home_planet = Laungda
+		home_system = Lokyung
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	kyebon = {
+		name = Kyebonese
+		plural = Kyebonese
+		home_planet = Kyebon
+		home_system = Phaypyit
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	wuntheiku = {
+		name = Kengdanian
+		plural = Kengdanians
+		home_planet = Wuntheik-U
+		home_system = Nain-U
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	eyeofthechosen = {
+		name = Theda
+		plural = Theda
+		home_planet = "Eye of the Chosen"
+		home_system = "Voice of the Unseen"
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	gyinlabin = {
+		name = Labinese
+		plural = Labinese
+		home_planet = "Gyin Labin"
+		home_system = Thabeik
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	hopayaung = {
+		name = Hopayaungese
+		plural = Hopayaungese
+		home_planet = Hopayaung
+		home_system = Kayalinthat
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	hsesatham = {
+		name = Hse-Sathamese
+		plural = Hse-Sathamese
+		home_planet = "Hse Satham"
+		home_system = "Hse Sing"
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	kamaun = {
+		name = Kamaunese
+		plural = Kamaunese
+		home_planet = Kamaun
+		home_system = "Mon Indaung"
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	ramao = {
+		name = Ramaoan
+		plural = Ramaoans
+		home_planet = Ramao
+		home_system = Latung
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	mawaddy = {
+		name = Mawaddish
+		plural = Mawaddish
+		home_planet = Mawaddy
+		home_system = Mawaddy
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	thamaomaan = {
+		name = "Tha Myu"
+		plural = "Tha Myu"
+		home_planet = "Thamao Ma-An"
+		home_system = "Thamu Ma-An"
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	kyaunguprime = {
+		name = Kyaungunese
+		plural = Kyaungunese
+		home_planet = "Kyaungu Prime"
+		home_system = Kyaungu
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	tlawkuthi = {
+		name = Tlawite
+		plural = Tlawites
+		home_planet = "Tlaw Kuthi"
+		home_system = "Tlaw Putkyi"
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	kameingpat = {
+		name = Kameingian
+		plural = Kameingians
+		home_planet = Kameingpat
+		home_system = Labein
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	radiantdemise = {
+		name = Myet-Sagonese
+		plural = Myet-Sagonese
+		home_planet = "Radiant Demise"
+		home_system = "Raised Sceptre"
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	hlaya = {
+		name = Hlayan
+		plural = Hlayans
+		home_planet = Hlaya
+		home_system = Khinbyung
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	thamuaung = {
+		name = Thamish
+		plural = Thamish
+		home_planet = Thamu-Aung
+		home_system = Hakarrawpay
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	nammaint = {
+		name = Nammaintese
+		plural = Nammaintese
+		home_planet = Nammaint
+		home_system = Hwadashwe
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	pyaddy = {
+		name = Kyu-Win
+		plural = Kyu-Win
+		home_planet = Pyaddy
+		home_system = Pindalang
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	nangbwe = {
+		name = Nangoid
+		plural = Nangoids
+		home_planet = Nangbwe
+		home_system = Ayain
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	wintdedawa = {
+		name = Dedawan
+		plural = Dedawans
+		home_planet = "Wint Dedawa"
+		home_system = Mongyinthin
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	sinandwedim = {
+		name = "Lang Hpang"
+		plural = "Lang Hpang"
+		home_planet = Sinandwedim
+		home_system = Lwineye
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+	hsenai = {
+		name = Hsenaian
+		plural = Hsenaians
+		home_planet = Hsenai
+		home_system = Lammangyi
+		name_list = "cybrxkhan_handmade_burmese"
+	}
+}

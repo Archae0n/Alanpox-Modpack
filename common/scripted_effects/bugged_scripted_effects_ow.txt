@@ -1,0 +1,167 @@
+consume_world = {
+	random_list = {
+		1 = {
+			modifier = {
+				factor = 0
+				num_districts = { type = district_hive value = 0 }
+			}
+			remove_district = district_hive
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				num_districts = { type = district_generator value = 0 }
+			}
+			remove_district = district_generator
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				num_districts = { type = district_mining value = 0 }
+			}
+			remove_district = district_mining
+		}
+		3 = {
+			modifier = {
+				factor = 0
+				num_districts = { type = district_farming value = 0 }
+			}
+			remove_district = district_farming
+		}
+	}
+	random_list = {
+		10 = {
+			modifier = {
+				factor = 0
+				num_free_districts = { type = any value < 2 }
+			}
+			add_deposit = d_lithoid_devastation
+			add_deposit = d_lithoid_devastation
+			create_pop = {
+				species = root.owner.owner_main_species
+			}
+			planet_event = {
+				id = bugged_hive_growth_civic.1
+			}
+			add_planet_devastation = 20
+
+			if = {
+				limit = { owner = { is_ai = yes } }
+				random_owned_pop = {
+					limit = {
+						is_being_purged = no
+					}
+					resettle_pop = {
+						pop = this
+						planet = owner.capital_scope
+					}
+				}
+			}
+			owner = {
+				create_message = {
+					type = MESSAGE_TERRAVORE_CONSUME_WORLD
+					localization = MESSAGE_TERRAVORE_CONSUME_WORLD_POP_TEXT
+					days = 30
+					target = prev
+
+					variable = {
+						type = name
+						localization = PLANET
+						scope = prev
+					}
+				}
+			}
+		}
+		10 = {
+			modifier = {
+				factor = 0
+				num_free_districts = { type = any value < 2 }
+			}
+			add_deposit = d_lithoid_devastation
+			add_deposit = d_lithoid_devastation
+			owner = {
+				add_monthly_resource_mult = {
+					resource = minerals
+					value = 5
+					min = @tier1materialmin
+					max = @tier1materialmax
+				}
+				create_message = {
+					type = MESSAGE_TERRAVORE_CONSUME_WORLD
+					localization = MESSAGE_TERRAVORE_CONSUME_WORLD_MINERALS_TEXT
+					days = 30
+					target = prev
+
+					variable = {
+						type = name
+						localization = PLANET
+						scope = prev
+					}
+				}
+			}
+			add_planet_devastation = 20
+		}
+		10 = {
+			modifier = {
+				factor = 0
+				num_free_districts = { type = any value < 2 }
+			}
+			add_deposit = d_lithoid_devastation
+			add_deposit = d_lithoid_devastation
+			owner = {
+				add_monthly_resource_mult = {
+					resource = alloys
+					value = 3
+					min = @tier1materialmin
+					max = @tier1materialmax
+				}
+				create_message = {
+					type = MESSAGE_TERRAVORE_CONSUME_WORLD
+					localization = MESSAGE_TERRAVORE_CONSUME_WORLD_ALLOYS_TEXT
+					days = 30
+					target = prev
+
+					variable = {
+						type = name
+						localization = PLANET
+						scope = prev
+					}
+				}
+			}
+			add_planet_devastation = 20
+		}
+		10 = {
+			# There's only one district slot left on the planet
+			modifier = {
+				factor = 0
+				num_free_districts = { type = any value >= 2 }
+			}
+			add_deposit = d_lithoid_devastation
+			owner = {
+				add_monthly_resource_mult = {
+					resource = minerals
+					value = 3
+					min = @tier1materialmin
+					max = @tier1materialmax
+				}
+				create_message = {
+					type = MESSAGE_TERRAVORE_CONSUME_WORLD
+					localization = MESSAGE_TERRAVORE_CONSUME_WORLD_MINERALS_TEXT
+					days = 30
+					target = prev
+
+					variable = {
+						type = name
+						localization = PLANET
+						scope = prev
+					}
+				}
+			}
+			add_planet_devastation = 10
+		}
+	}
+	set_timed_planet_flag = {
+		days = 360
+		flag = recently_eaten_planet
+	}
+}

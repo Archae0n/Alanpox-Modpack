@@ -1,0 +1,36 @@
+tradition_est_shroudborn = {
+	desc = {
+		trigger = { is_regular_empire = yes }
+		text =  tradition_est_shroudborn_ap_desc
+	}
+	tree_template = "tree_est_0_1_2_3_0"
+	adoption_bonus = "tr_est_shroudborn_adopt"
+	finish_bonus = "tr_est_shroudborn_finish"
+	traditions = {
+		"tr_est_shroudborn_1"
+		"tr_est_shroudborn_2"
+		"tr_est_shroudborn_3"
+		"tr_est_shroudborn_4"
+		"tr_est_shroudborn_5"
+	}
+
+	potential = {
+		est_shroudborn_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_hive_one_mind
+		}	
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_hive_subspace_ephapse
+		}	
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

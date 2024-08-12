@@ -1,0 +1,421 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	athamatan = {
+		name = Athamatanese
+		plural = Athamatanese
+		home_planet = Athamatan
+		home_system = "Yah Yarikum"
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	yazilthevigilant = {
+		name = Salhaqr
+		plural = Salhaqr
+		home_planet = "Yazil the Vigilant"
+		home_system = "Rakis the Mad"
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	abshin = {
+		name = Abshinoid
+		plural = Abshinoids
+		home_planet = Abshin
+		home_system = Barahylayda
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	awsal = {
+		name = Awsallian
+		plural = Awsallians
+		home_planet = Awsal
+		home_system = Nagra
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	muhanprime = {
+		name = Muhanian
+		plural = Muhanians
+		home_planet = "Muhan Prime"
+		home_system = Muhan 
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	marim = {
+		name = Marimite
+		plural = Marimites
+		home_planet = Marim
+		home_system = Arbam'rala 
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	zaribab = {
+		name = Zaribabbian
+		plural = Zaribabbians
+		home_planet = Zaribab
+		home_system = Yuharig 
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	honoroftheeternal = {
+		name = Athalayyanim
+		plural = Athalayyanim
+		home_planet = "Honor of the Eternal"
+		home_system = "Pride of Justice" 
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	ghawanim = {
+		name = Ghawanian
+		plural = Ghawanians
+		home_planet = Ghawanim
+		home_system = Yuhid
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	marihah = {
+		name = Abshanese
+		plural = Abshanese
+		home_planet = "Mari Hah"
+		home_system = Tabir-Aqyat
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	tabaman = {
+		name = Tabamoid
+		plural = Tabamoids
+		home_planet = Tabaman
+		home_system = Karan
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	hawabum = {
+		name = Hawabumid
+		plural = Hawabumids
+		home_planet = Hawabum
+		home_system = Awsaramari
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	amralta = {
+		name = "Shar Wa'add"
+		plural = "Shar Wa'add"
+		home_planet = Amralta
+		home_system = Sa'nahz
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	zalaym = {
+		name = Zalite  
+		plural = Zalites
+		home_planet = Zalaym
+		home_system = Darahuz
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	mar_daman = {
+		name = Mar'Da  
+		plural = Mar'Da
+		home_planet = Mar'Daman
+		home_system = Sa'natgawn
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	dhuzprime = {
+		name = Dhussian  
+		plural = Dhussians
+		home_planet = "Dhuz Prime"
+		home_system = Dhuz
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	zabib = {
+		name = Zabibian  
+		plural = Zabibians
+		home_planet = Zabib
+		home_system = Muharid
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	yasbihthewise = {
+		name = Azadthadshan  
+		plural = Azadthadshan
+		home_planet = "Yasbih the Wise"
+		home_system = "Akhammyat the Arrogant"
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	hawfan = {
+		name = Hawfanese 
+		plural = Hawfanese
+		home_planet = Hawfan
+		home_system = Sirum
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	abkalidum = {
+		name = Abkalidian 
+		plural = Abkalidians
+		home_planet = Abkalidum
+		home_system = Rasi'umum
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	usalat = {
+		name = Usalatish
+		plural = Usalatish
+		home_planet = Usalat
+		home_system = Asir-Aqyat
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	hamarib = {
+		name = Hamarite 
+		plural = Hamarites
+		home_planet = Hamarib
+		home_system = Anmarib
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	chancelloryuhasbium = {
+		name = Nasumese
+		plural = Nasumese
+		home_planet = "Chancellor Yuhasbium"
+		home_system = "Emperor Yakhum"
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	qudan = {
+		name = Qudanid
+		plural = Qudanids
+		home_planet = Qudan
+		home_system = Azaharan'el
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	marathawlan = {
+		name = Ma'thaw
+		plural = Ma'thaw
+		home_planet = Marathawlan
+		home_system = Lamaqran
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	sukhub = {
+		name = Sukhuboid
+		plural = Sukhuboids
+		home_planet = Sukhub
+		home_system = Wa'aba'abili
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	ahmin = {
+		name = Ahminian
+		plural = Ahminians
+		home_planet = Ahmin
+		home_system = "Samarib Tawum"
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	hababamm = {
+		name = Hababa
+		plural = Hababas
+		home_planet = Hababamm
+		home_system = Yuhar
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	zorahid = {
+		name = Zorayan
+		plural = Zorayans
+		home_planet = Zorahid
+		home_system = Alhan'el
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	aymind = {
+		name = Aymindoid
+		plural = Aymindoids
+		home_planet = Aymind
+		home_system = Alaqashi
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	rathaban = {
+		name = Rathabanese
+		plural = Rathabanese
+		home_planet = Rathaban
+		home_system = Madad
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	abrahdi = {
+		name = Abrazean
+		plural = Abrazeans
+		home_planet = Abrahdi
+		home_system = Sham-Rafi
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	tubawshub = {
+		name = Ta'
+		plural = Ta'
+		home_planet = "Tub Awshub"
+		home_system = Gadhantanuf
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	hawamsgaze = {
+		name = Maribbian
+		plural = Maribbians
+		home_planet = "Hawam's Gaze"
+		home_system = "Scales of Wat Baqil"
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	karatbarib = {
+		name = Shay
+		plural = Shay
+		home_planet = Karat'Barib
+		home_system = Samdabill
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	nabir = {
+		name = Nabirite
+		plural = Nabirites
+		home_planet = Nabir
+		home_system = Gada'ad
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	muhiq = {
+		name = Muh
+		plural = Muh
+		home_planet = Muhiq
+		home_system = Yattharib
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	marinat = {
+		name = Marinid
+		plural = Marinids
+		home_planet = Marinat
+		home_system = "Tab Shatum"
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	hahargeb = {
+		name = Hahargian
+		plural = Hahargians
+		home_planet = Hahargeb
+		home_system = Yuharib
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	thawan = {
+		name = Thawanese
+		plural = Thawanese
+		home_planet = Thawan
+		home_system = Zamarib
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	muyat = {
+		name = Muyatid
+		plural = Muyatids
+		home_planet = Muyat
+		home_system = Muyat
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	yuharala = {
+		name = Yuharalan
+		plural = Yuharalans
+		home_planet = Yuharala
+		home_system = Wa'amartatak
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	azlan = {
+		name = Azlanese
+		plural = Azlanese
+		home_planet = Azlan
+		home_system = Sumhum
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	yuharid = {
+		name = Yahr
+		plural = Yahr
+		home_planet = Yuharid
+		home_system = Hahralakir
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	awshibabprime = {
+		name = Awshibbian
+		plural = Awshibbians
+		home_planet = "Awshibab Prime"
+		home_system = Awshibab
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	hadha = {
+		name = Hadhite
+		plural = Hadhites
+		home_planet = Hadha
+		home_system = Malid
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	hadabat = {
+		name = Hadabatoid
+		plural = Hadabatoids
+		home_planet = Hadabat
+		home_system = Ha-Hawn
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	saaddanprime = {
+		name = Sa'addanian
+		plural = Sa'addanians
+		home_planet = "Sa'addan Prime"
+		home_system = Sa'addan
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	mayathan = {
+		name = Mayathanid
+		plural = Mayathanids
+		home_planet = Mayathan
+		home_system = "Rayy Walikarib"
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	networkofparadoxes = {
+		name = 'Amm
+		plural = 'Amm
+		home_planet = "Network of Paradoxes"
+		home_system = "Field of Fragments"
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	taym = {
+		name = Taym
+		plural = Taym
+		home_planet = Taym
+		home_system = Taym
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+	ilshib = {
+		name = Ilshibboid
+		plural = Ilshibboids
+		home_planet = Ilshib
+		home_system = Aynat
+		name_list = "cybrxkhan_fantasy_himyarite"
+	}
+}

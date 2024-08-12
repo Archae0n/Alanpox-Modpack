@@ -1,0 +1,16 @@
+# color_index starts at 1 and refers to which sprite frame to use. More frames can be added in galactic_community_view.gfx.
+
+cmbu_proclamations = {
+	color_index = 1
+	text_color_code = "Y"
+}
+
+cmbu_unity = {
+	color_index = 2
+	text_color_code = "M"
+}
+
+cmbu_ssmanagemente = {
+	color_index = 4
+	text_color_code = "R"
+}

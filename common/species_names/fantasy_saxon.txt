@@ -1,0 +1,383 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	kennald = {
+		name = Kennaldian
+		plural = Kennaldians
+		home_planet = Kennald
+		home_system = Kennald
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	hallwine = {
+		name = Hallwinese
+		plural = Hallwinese
+		home_planet = Hallwine
+		home_system = Fromund
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	halldora = {
+		name = Halldoran
+		plural = Halldorans
+		home_planet = Halldora
+		home_system = Kolfinna
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	ingri = {
+		name = Ingrian
+		plural = Ingrians
+		home_planet = Ingri
+		home_system = Cwenburh
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	sawhamshome = {
+		name = Sawese
+		plural = Sawese
+		home_planet = "Sawham's Home"
+		home_system = "Cawadun's Creek"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	botulf = {
+		name = Botulfoid
+		plural = Botulfoids
+		home_planet = "Bert-Botulf Biolan"
+		home_system = "Bert Wardric" 
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	hendina = {
+		name = Hendinan
+		plural = Hendinans
+		home_planet = Hendina
+		home_system = Hendina-Gethwine 
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	humblestrength = {
+		name = Enufell
+		plural = Enufell
+		home_planet = "Humble Strength"
+		home_system = "Shining Glory"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	sigebor = {
+		name = Sigeborid
+		plural = Sigeborids
+		home_planet = Sigebor
+		home_system = Walethast
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	hlif = {
+		name = Hlif
+		plural = Hlif
+		home_planet = "Mother Hlif"
+		home_system = "Father Hlif"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	pawica = {
+		name = Pawician
+		plural = Pawicians
+		home_planet = Pawica
+		home_system = Granlafelm
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	dilde = {
+		name = Dildoid
+		plural = Dildoids
+		home_planet = Dilde
+		home_system = Kord
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	wafeld = {
+		name = Wafeldean
+		plural = Wafeldeans
+		home_planet = Wafeld
+		home_system = Fulbert
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	cenred = {
+		name = Cenredian  
+		plural = Cenredians
+		home_planet = Cenred
+		home_system = Farulf
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	burwena = {
+		name = Burwenan  
+		plural = Burwenans
+		home_planet = Burwena
+		home_system = Hanne-Oda
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	sadoleahsoath = {
+		name = Sadolean  
+		plural = Sadoleans
+		home_planet = "Sadoleah's Oath"
+		home_system = "Asagr's Watch"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	cynamild = {
+		name = "Cyna Hilfean"
+		plural = "Cyna Hilfeans"
+		home_planet = "Cyna Mild"
+		home_system = Bafecot
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	dagr = {
+		name = Dagr 
+		plural = Dagr
+		home_planet = Dagr-Hereward
+		home_system = Dagr-Beag
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	cwen = {
+		name = Cwenid 
+		plural = Cwenids
+		home_planet = Cwenburh
+		home_system = Beyhild
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	etherealgathering = {
+		name = Scawic 
+		plural = Scawic
+		home_planet = "Ethereal Gathering"
+		home_system = "Assembly of Fire"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	saegytherteldprime = {
+		name = Hilbert 
+		plural = Hilberts
+		home_planet = "Saegytherteld Prime"
+		home_system = Saegytherteld
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	acwuld = {
+		name = Acwuldite
+		plural = Acwuldites
+		home_planet = Acwuld
+		home_system = Wilhere
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	wynn = {
+		name = Wynn
+		plural = Wynn
+		home_planet = Leofwynn
+		home_system = Saewynn
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	cynarenhiththehero = {
+		name = Dawithorh
+		plural = Dawithorh
+		home_planet = "Cynarenhith the Heroic"
+		home_system = "Fallen Master"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	cacot = {
+		name = Cacotese
+		plural = Cacotese
+		home_planet = Cacot
+		home_system = Gara
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	bradford = {
+		name = Bradfordian
+		plural = Bradfordians
+		home_planet = "Alcred Bradford"
+		home_system = "Inger Leofwynn"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	forwin = {
+		name = Forwinoid
+		plural = Forwinoids
+		home_planet = Forwin
+		home_system = Brondolf
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	eada = {
+		name = Eadan
+		plural = Eadans
+		home_planet = Eada
+		home_system = Eada
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	weadburhofhonor = {
+		name = "Burh Ragna"
+		plural = "Burh Ragna"
+		home_planet = "Weadburh of Honor"
+		home_system = "Wulbrythith of Mischief"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	baelstow = {
+		name = Baelstean
+		plural = Baelsteans
+		home_planet = Baelstow
+		home_system = Camorwich
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	taleham = {
+		name = Talehamite
+		plural = Talehamites
+		home_planet = Taleham
+		home_system = Haleburh
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	eoldwine = {
+		name = Eoldwinean
+		plural = Eoldwineans
+		home_planet = Eoldwine
+		home_system = "Gene Tancrelm"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	arallerma = {
+		name = Arallerman
+		plural = Arallermans
+		home_planet = Arallerma
+		home_system = Ans-Helthru
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	promiseofmirth = {
+		name = Witting
+		plural = Wittings
+		home_planet = "Promise of Mirth"
+		home_system = "Evoking Glory"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	wabastund = {
+		name = Wabast
+		plural = Wabast
+		home_planet = Wabastund
+		home_system = Frerert
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	eaduntheplanter = {
+		name = Weow
+		plural = Weow
+		home_planet = "Eadun the Planter"
+		home_system = "Inmord the Slayer"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	hiltundprime = {
+		name = Acwunese
+		plural = Acwunese
+		home_planet = "Hiltund Prime"
+		home_system = Hiltund
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	bwaold = {
+		name = Bawoldish
+		plural = Bawoldish
+		home_planet = Bawold
+		home_system = Hafor
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	egbered = {
+		name = Egberic
+		plural = Egberics
+		home_planet = Egbered
+		home_system = Taddwend
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	cabrycg = {
+		name = Cabrian
+		plural = Cabrians
+		home_planet = Cabrycg
+		home_system = Hyrstow
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	hilham = {
+		name = Hilhamian
+		plural = Hilhamians
+		home_planet = Hilham
+		home_system = "Turquoise Beam"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	eanlawilda = {
+		name = Eanlawildan
+		plural = Eanlawildans
+		home_planet = Eanlawilda
+		home_system = Basteada
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	ingcabryth = {
+		name = Cabrythian
+		plural = Cabrythians
+		home_planet = "Ing Cabryth"
+		home_system = "Ing Regild"
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	redwe = {
+		name = Redwean
+		plural = Redweans
+		home_planet = Redwe
+		home_system = Bergard
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	wifecot = {
+		name = Wifecottese
+		plural = Wifecottese
+		home_planet = Wifecot
+		home_system = Wabrytha
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+	riberga = {
+		name = Ribergan
+		plural = Ribergans
+		home_planet = Riberga
+		home_system = Morane
+		name_list = "cybrxkhan_fantasy_saxon"
+	}
+}

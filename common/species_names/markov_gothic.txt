@@ -1,0 +1,373 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	tyridius = {
+		name = Tyridian
+		plural = Tyridians
+		home_planet = Tyridius
+		home_system = Bileus
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	adotha = {
+		name = Glied
+		plural = Glied
+		home_planet = Adotha
+		home_system = Rodeforise
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	fortunaterodeforise = {
+		name = Galswinan
+		plural = Galswinans
+		home_planet = "Fortunate Rodeforise"
+		home_system = "Unwavering Vida"
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	thennach = {
+		name = Gaulf
+		plural = Gaulf
+		home_planet = "Thennach Prime"
+		home_system = Thennach
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	ramerigis = {
+		name = Ramerigian
+		plural = Ramerigians
+		home_planet = Ramerigis
+		home_system = Theus 
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	atasaricar = {
+		name = Aricarid
+		plural = Aricarids
+		home_planet = "Atas Aricar"
+		home_system = "Atas Aricar" 
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	ablagoticprime = {
+		name = Ablagotish
+		plural = Ablagotish
+		home_planet = "Ablagotic Prime"
+		home_system = Ablagotic 
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	himermerna = {
+		name = Himeroid
+		plural = Himeroids
+		home_planet = Himermerna
+		home_system = Himermerna 
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	gunnasund = {
+		name = Rugild
+		plural = Rugild
+		home_planet = "Gunna Sund"
+		home_system = Gunna
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	gointhar = {
+		name = Gointharite
+		plural = Gointharites
+		home_planet = Gointhar
+		home_system = Olberheus
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	trimuda = {
+		name = Trimudan
+		plural = Trimudans
+		home_planet = Trimuda
+		home_system = Marisagis
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	altum = {
+		name = Altumese
+		plural = Altumese
+		home_planet = Altum
+		home_system = Gailis
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	euthagoth = {
+		name = "Vith Euthean"  
+		plural = "Vith Eutheans"
+		home_planet = Eutha
+		home_system = Gaatza
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	getelimud = {
+		name = Getelimese  
+		plural = Getelimese
+		home_planet = Getelimud
+		home_system = Gosiarbo
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	helanidig = {
+		name = Helanidite  
+		plural = Helanidites
+		home_planet = "Hela Nidig"
+		home_system = Remhindo
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	velabiud = {
+		name = Vinii  
+		plural = Vinii
+		home_planet = Velabiud
+		home_system = Velabiud
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	rugusi = {
+		name = Rugisii 
+		plural = Rugisii
+		home_planet = Rugisi
+		home_system = Hunilagarius
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	gundaremerius = {
+		name = "Gunda Remeran"
+		plural = "Gunda Remerans"
+		home_planet = "Gunda Remerius"
+		home_system = Vidigic
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	vedanda = {
+		name = Gestic 
+		plural = Gestics
+		home_planet = Vedanda
+		home_system = Chlodaha
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	godova = {
+		name = Godovan 
+		plural = Godovans
+		home_planet = Godova
+		home_system = Etharic
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	atheovaga = {
+		name = Atheovagan
+		plural = Atheovagans
+		home_planet = Atheovaga
+		home_system = Rictigi
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	tulfrekia = {
+		name = "Tulf Rekian"
+		plural = "Tulf Rekians"
+		home_planet = "Tulf Rekia"
+		home_system = Niketius
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	galwarin = {
+		name = Galwarinese
+		plural = Galwarinese
+		home_planet = Galwarin
+		home_system = Ervordar
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	oesia = {
+		name = Oesian
+		plural = Oesians
+		home_planet = Oesia
+		home_system = Athsen
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	isolis = {
+		name = Isolian
+		plural = Isolians
+		home_planet = Isolis
+		home_system = Idanabala
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	gailar = {
+		name = Gailarese
+		plural = Gailarese
+		home_planet = Gailar
+		home_system = Innaga
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	garidiusthecosmicmeridian = {
+		name = Eutho
+		plural = Eutho
+		home_planet = "Garidius the Cosmic Meridian"
+		home_system = "Frona the Sage"
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	cundiova = {
+		name = Cundiovii
+		plural = Cundiovii
+		home_planet = Cundiova
+		home_system = Aniga
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	allagarboprime = {
+		name = Allagarboid
+		plural = Allagarboids
+		home_planet = "Allagarbo Prime"
+		home_system = Allagarbo
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	galaratis = {
+		name = Rhimer
+		plural = Rhimer
+		home_planet = "Gala Ratis"
+		home_system = Hergasuina
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	oestida = {
+		name = Oestican
+		plural = Oesticans
+		home_planet = Oestica
+		home_system = Euntharda
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	ebonyshieldofachitilis = {
+		name = Erimerese
+		plural = Erimerese
+		home_planet = "Ebony Shield of Achitilis"
+		home_system = "Sky-Dragon of Etharigild"
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	witheo = {
+		name = Withish
+		plural = Withish
+		home_planet = Witheo
+		home_system = Retum
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	tomirpava = {
+		name = Tomirite
+		plural = Tomirites
+		home_planet = "Tomir Pava"
+		home_system = Babasund
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	franasa = {
+		name = Franasite
+		plural = Franasites
+		home_planet = Franasa
+		home_system = Rechinto
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	guthbilar = {
+		name = Bilaran
+		plural = Bilarans
+		home_planet = Guth'Bilar
+		home_system = Vittius
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	retern = {
+		name = Reternese
+		plural = Reternese
+		home_planet = Retern
+		home_system = Gunilis
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	tearsoftheaether = {
+		name = Thegii
+		plural = Thegii
+		home_planet = "Tears of the Aether"
+		home_system = "Ethereal Blood"
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	amalandus = {
+		name = Amalandic
+		plural = Amalandics
+		home_planet = Amalandus
+		home_system = Lamundus
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	arvoricus = {
+		name = Arvorican
+		plural = Arvoricans
+		home_planet = Arvoricus
+		home_system = "Ereler Amalandus"
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	cyras = {
+		name = Cyrassid
+		plural = Cyrassids
+		home_planet = Cyras
+		home_system = Godegus
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	gossi = {
+		name = Gossian
+		plural = Gossians
+		home_planet = Gossi
+		home_system = Naric
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	livagi = {
+		name = Livagoid
+		plural = Livagoids
+		home_planet = Livagi
+		home_system = Matacianda
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	sundarius = {
+		name = Sundarii
+		plural = Sundarii
+		home_planet = Sundarius
+		home_system = Ibbadus
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+	hunna = {
+		name = Hunnian
+		plural = Hunnians
+		home_planet = Hunna
+		home_system = Odotho
+		name_list = "cybrxkhan_handmade_gothic"
+	}
+}
+

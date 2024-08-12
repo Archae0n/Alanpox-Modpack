@@ -1,0 +1,322 @@
+﻿### Portuguese Names
+### Created by The Cuirassier (16/07/2016) (aka CT-6827 on the PI forums) updated on 19/03/2021
+
+
+cybrxkhan_real_portuguese = {
+	category = "Humanoid"
+
+	randomized = no
+
+	ship_names = {
+
+		generic = {
+		"São Gabriel" "São Rafael" "Flor do mar" "Lobo Soares" "Santa Catarina do Monte Sinai" "Águia" "Garça" "Cinco Chagas" "São Mateus" "São Cristóvão" "São Filipe" "São Luís" "São Marcos" "Santiago" "São Bernardo" "Relíquias" "São Tomé" "Madre de Deus" "Santo Alberto" "Chagas" "Santo Amaro" "Santo Alberto" "São João Baptista" "Santa Teresa de Jesus" "São Carlos" "São José" "São Xavier" "Santa Isabel" "São João" "N.S. da Quietação" "N.S. da Conceição" "São Sebastião" "Padre Eterno" "São Pedro" "Santo António" "Santo André" "N.S. das Brotas" "São José" "São Vicente Ferreira" "São Francisco de Paula" "São Pedro de Alcântara" "Princesa da Beira" "N.S. do Monte do Carmo" "N.S. do Pilar" "N.S. do Bom Sucesso" "N.S. de Belém e São José" "São Sebastião" "Santo Agostinho" "Golfinho" "Amazónia" "Pérola" "Tritão" "Medusa" "D. Maria I" "Princesa da Beira" "Andorinha" "Vénus" "Serpente" "Diligente" "Real Fonsor" "Bengo" "Cacheu" "António Enes" "João Coutinho" "Jacinto Cândido" "General Pereira d'Eça" "Augusto Castilho" "Honório Barreto" "Baptista de Andrade" "Afonso Cerqueira" "João Roby" "Oliveira e Carmo" "Foca" "Delfim" "Espadarte" "Náutilo" "Albacora" "Ave" "Sado" "Mondego" "Zêzere" "São Pedro da Ribeira" "Tejo" "Espadarte" "Arpão" "Dão" "Lima" "Vouga" "Tâmega" "Douro" "Adrão" "Agrela" "Agadão" "Alcobaça" "Alcofra" "Alenquer" "Alheda" "Alfusqueiro" "Alva" "Alviela" "Alvôco" "Âncora" "Anços" "Angueira" "Antuão" "Arado" "Arcossó" "Raia" "Arda" "Ardena" "Bustelo" "Ardila" "Arnóia" "Arões" "Arouce" "Arunca" "Asnes" "Assureira" "Ave" "Avelames" "Azibo" "Baça" "Bacieiro" "Balsemão" "Bastelo" "Beça" "Beselga" "Bestança" "Boco" "Avelosa" "Botão" "Branco" "Gresso" "Brazela" "Bugio" "Bustelo" "Caia" "Caima" "Cabanelas" "Cabral" "Cabrom" "Azenha" "Cabril" "Cabrum" "Caia" "Caldo" "CAlvo" "Calabor" "Carapito" "Carvalhosa" "Cáster" "Castro Laboreiro" "Cávado" "Cavalos" "Cavalum" "Ceira" "Cercal" "Cértima" "Chança" "Côa" "Cobral" "Cobrão" "Cobres" "Coja" "Corvo" "Couto" "Covas" "Covelas" "Covo" "Colares" "Corgo" "Dueça" "Costa" "Coura" "Criz" "Covelas" "Curros" "Dão" "Degebe" "Dinha" "Divor" "Douro" "Drave" "Diogo" "Diz" "Eirôgo" "Erges" "Espiçandeira" "Este" "Ega" "Eiriz" "Estorãos" "Fafião" "Febros" "Felgueiras" "Ferreira" "Ferro" "Fervença" "Figueira" "Fílveda" "Dornelas" "Fim" "Fontão" "Fora" "Fornelo" "Frades" "Freixieiro" "Freson" "Frio" "Froufe" "Furnas" "Gadanha" "Galvão" "Gamuz" "Gerês" "Gilão" "Grande" "Carregado" "Gresso" "Guizando" "Guadiana" "Homem" "ínsua" "Isna" "Inha" "Joanes" "Juliano" "Jamor" "Laboreiro" "Labriosca" "Labruja" "Lebesta" "Leça" "Lena" "Levira" "Lima" "Lis" "Lizandro" "Lordelo" "Lourêdo" "Loures" "Maçãs" "Macedo" "Macieira" "Maior" "Manco" "Marão" "Marnel" "Massueime" "Mata" "Mau" "Meão" "Mega" "Meio" "Mel" "Mente" "Mesio" "Minho" "Mira" "Mondego" "Nabão" "Negro" "Neiva" "Nisa" "Noéme" "Novais" "Ocreza" "Odeceixe" "Odeleite" "Odelouca" "Odres" "Olo" "Onda" "Onor" "Ota" "Ouro" "Ovil" "Palhais" "Paiva" "Paivô" "Paivó" "PAvia" "Peculhos" "Trancão" "Peio" "Pele" "Pelhe" "Pêra" "Pinçães" "Pinhão" "Poio" "Pombeiro" "Ponsul" "Ponte" "Pontes" "Prado" "Pranto" "Pinheiro" "Pinhal" "Bravio" "Matagal" "Carvalho" "Faia" "Alecrim" "Silva" "Bétula" "Freixieiro" "Castanheiro" "Sobreiro" "Queijais" "Rabaçal" "Rabagão" "Raia" "Ramalhoso" "Real" "Regadias" "Ribeirinha" "Sabor" "Sado" "Safarujo" "Salas" "Saltadouro" "Sangue" "Sanguinhedo" "Saramadigo" "Sardoura" "Sátão" "Seco" "Seia" "Seixo" "Selho" "Selho" "Couros" "Séqua" "Sever" "Silves" "Silveira" "Simonte" "Sizandro" "Soalheiro" "Sor" "Sordo" "Sorraia" "Sótão" "Soure" "Sousa" "Soutelo" "Sul" "Sousa" "Tábuas" "Tâmega" "Tamente" "Tanha" "Tarouca" "Távora" "Tedinho" "Tedo" "Teixeira" "Tejo" "Terva" "Tinhela" "Toinhesa" "Tora" "Tornada" "Trancão" "Trancoso" "Tripeiro" "Troço" "Trofa" "Trovela" "Trutas" "Tua" "Tuela" "Temilobos" "Tigre" "Uíma" "Ul" "Unhais" "Urtigosa" "Urtigoso" "Vade" "Varosa" "Varôso" "Vascão" "Vau" "Veade" "Veiga" "Verdelha" "Vez" "Vide" "Videoeira" "Vigues" "Vila" "Vizela" "Vouga" "Volga" "Olga" "Zêzere" "Zela" "Zoio" 
+		}
+
+		corvette = {
+		"São Gabriel" "São Rafael" "Flor do mar" "Lobo Soares" "Santa Catarina do Monte Sinai" "Águia" "Garça" "Cinco Chagas" "São Mateus" "São Cristóvão" "São Filipe" "São Luís" "São Marcos" "Santiago" "São Bernardo" "Relíquias" "São Tomé" "Madre de Deus" "Santo Alberto" "Chagas" "Santo Amaro" "Santo Alberto" "São João Baptista" "Santa Teresa de Jesus" "São Carlos" "São José" "São Xavier" "Santa Isabel" "São João" "N.S. da Quietação" "N.S. da Conceição" "São Sebastião" "Padre Eterno" "São Pedro" "Santo António" "Santo André" "N.S. das Brotas" "São José" "São Vicente Ferreira" "São Francisco de Paula" "São Pedro de Alcântara" "Princesa da Beira" "N.S. do Monte do Carmo" "N.S. do Pilar" "N.S. do Bom Sucesso" "N.S. de Belém e São José" "São Sebastião" "Santo Agostinho" "Golfinho" "Amazónia" "Pérola" "Tritão" "Medusa" "D. Maria I" "Princesa da Beira" "Andorinha" "Vénus" "Serpente" "Diligente" "Real Fonsor" "Bengo" "Cacheu" "António Enes" "João Coutinho" "Jacinto Cândido" "General Pereira d'Eça" "Augusto Castilho" "Honório Barreto" "Baptista de Andrade" "João Roby" "Afonso Cerqueira" "Oliveira e Carmo" "Foca" "Delfim" "Espadarte" "Náutilo" "Albacora" "Ave" "Sado" "Mondego" "Zêzere" 
+		}
+
+		constructor = {
+		
+		}
+
+		colonizer = {
+		"N.S. da Boa Viagem" "N.S. das Ondas" "Santa Teresa de Jesus" "N.S. da Conceição" "N.S. da Estrela" "N.S. da Esperança" "Nossa Cacheu" "Senhora do Bom Sucesso" "N.S. da Penha de França" "N.S. do Monte do Carmo" "N.S. da Piedade" "N.S. das Mercês" "N.S. da Caridade" "N.S. da Misericórdia" "N.S. da Nazaré" "N.S. das Necessidades" "N.S. da Natividade" "N.S. da Ajuda" "N.S. dos Prazeres" "Pioneiro" 
+		}
+
+		science = {
+		"Carvalho Araújo" "N.S. dos Remédios" "N.S. da Saúde" "N.S. das Necessidades" "N.S. da Piedade" "Rainha dos Anjos" "N.S. da Boa Viagem" "N.S. do Bom Sucesso" "N.S. da Nazaré" "São Francisco de Paula" "Coração de Jesus" "Carvalho Araújo" "Pacheco Pereira" "Liz" "Mondego" "Coimbra" "Académica" 
+		}
+
+		destroyer = {
+		"São Pedro da Ribeira" "Padre Eterno" "Santo António de Tana" "Princesa do Céu" "N.S. de Bettencourt" "N.S. do Vale" "São Joaquim" "N.S. das Angústias" "N.S. da Palma" "N.S. do Pilar" "Santa Rosa" "São Lourenço" "N.S. da Luz" "N.S. do Monte do Carmo" "N.S. do Cabo" "São Pedro de Alcântara" "N.S. da Penha de França" "São João Evangelista" "N.S. da Atalaia" "Santo António" "N.S. do Rosário" "N.S. da Conceição" "São Francisco Xavier e Todo o Bem" "N.S. Madre de Deus" "Pérola" "Teresa" "Boa Ventura" "Tejo" "Liz" "Guadiana" "Douro" "Tâmega" "Vouga" "Lima" "Dão" "Espadarte" "Arpão" 
+		}
+
+		cruiser = {
+		"São João Baptista" "São Paulo" "São Martinho" "Santo António" "N.S. de Conceição" "Santo André" "Misericórdia" "São Simão" "N.S. da Guia" "São Pedro" "Cinco Chagas" "São João" "N.S. de Belém" "Bom Jesus" "Santa Teresa" "N.S. da Assunção" "N.S. das Portas do Céu de Rosette" "N.S. da Guia" "São Francisco Xavier" "N.S. do Rosário" "N.S. da Arrábida" "N.S. da Oliveira de Guimarães" "N.S. da Assunção" "N.S. da Caridade" "São Sebastião" "Santa Teresa" "Ulisses" "Nuno Tristão" "Diogo Gomes" "Diogo Cão" "Corte Real" "Pêro Escobar" "Álvares Cabral" "Dom Francisco de Almeida" "Vasco da Gama" "Almirante Pereira da Silva" "Almirante Gago Coutinho" "Almirante Magalhães Correia" "Comandante João Belo" "Comandante Roberto Ivens" "Comandante Hermenegildo Capelo" "Comandante Sacadura Cabral" "Bartolomeu Dias" "Narval" "Barracuda" "Elegante" 
+		}
+
+		battleship = {
+		"Santa Catarina do Monte Sinai" "Sacramento" "N.S. da Atalaia" "N.S. da Conceição" "São Jorge" "Santa Ana" "Providência" "Golias" "Resoluta" "Resoluto" "Nau" "N.S. Madre de Deus" "São Francisco Xavier" "N.S. da Vitória" "N.S. da Oliveira" "N.S. da Nazaré" "N.S. do Livramento" "N.S. da Glória" "N.S. do Bom Sucesso" "São João Baptista" "N.S. do Vencimento" "São José" "Santo António e Justiça" "Rainha de Portugal" "Vasco da Gama" "Assunção" "Derradeiro" "Derradeira" "Príncipe Real" "Afonso de Albuquerque" "Infante Dom Pedro" "Belém" "Hidra" "Neptuno" "Cachalote" "Tridente" "Lusitânia" "Roma" "Viriato" "D. Afonso Henriques" "D. João I" "D. João II" "D. Manuel I" "D. João IV" "D. Afonso III" "D. Pedro" "Marcelo" "Sacadura Cabral" "Gago Coutinho" "Guimarães" "São Mamede" "Condessa Mumadona" "D. Dinis" "D. Afonso IV" "Salado" "Ourique" "César Augusto" "Martim Moniz" "Oliveira de Salazar" "Bérrio" "Vimaranes" "Audaz" "Audácia" "Bravura" "Bravo" "Brava" "Coragem" "Valoroso" "Virtude" "Ira" "Intrépido" "Intrépida" "Ousadia" "Irreverente" "Redentor" "Furacão" "Tufão" "Tempestade" "Tornado" "Vaga" "Trovão" "Relâmpago" "Lopo" "Lince" "Peneireiro" "Falcão" "Perdigueiro" "Serra" "Águia" "Rapina" "Guarda Rios" "Dom Carlos" "Dom Luiz" "Dom Lotário" "Dom Guido" "Dom Lamberto" "Dom Arnolfo" "Dom Berengário" "Dom Otão" "Dom Henrique" "Dom Afonso" "Dom Conrado" "Dom Sigismundo" "Dom Frederico" "Dom Maximiliano" "Dom Fernando" "Dom Rudolfo" "Dom Matthias" "Dom Leopoldo" "Dom José" "Dom Francisco" "Covadonga" "Salado" "Valdevez" "São Mamede" "Ourique" "Aljubarrota" "Atoleiros" "Linha de Torres" 
+		}
+
+		titan = {
+		"Titã" "Atlas" "Derradeiro" "Colosso" "Diplomata" "Imperator" "Pátria" 
+		}
+
+		colossus = {
+		"Guarda" "Justiceiro" "Carrasco" "Devastador" "Executor"  
+		}
+
+		transport = {
+		
+		}
+
+		military_station_small = {
+		"Fortim" "Fortaleza" "Forte" "Baluarte" "Redentor" "Jano" "Escudeiro" "Escudo" "Armadura" "Braçal" "Capacete" "Guarda" "Trincheira" "Fosso" "Torre" 
+		}
+
+		ion_cannon = {
+		"Sapador" "Artilheiro" "Mina" "Sabotador" "Pequeno" 
+		}
+
+	}
+
+	ship_class_names = {
+		generic = {
+		"São Gabriel" "São Rafael" "Flor do mar" "Lobo Soares" "Santa Catarina do Monte Sinai" "Águia" "Garça" "Cinco Chagas" "São Mateus" "São Cristóvão" "São Filipe" "São Luís" "São Marcos" "Santiago" "São Bernardo" "Relíquias" "São Tomé" "Madre de Deus" "Santo Alberto" "Chagas" "Santo Amaro" "Santo Alberto" "São João Baptista" "Santa Teresa de Jesus" "São Carlos" "São José" "São Xavier" "Santa Isabel" "São João" "N.S. da Quietação" "N.S. da Conceição" "São Sebastião" "Padre Eterno" "São Pedro" "Santo António" "Santo André" "N.S. das Brotas" "São José" "São Vicente Ferreira" "São Francisco de Paula" "São Pedro de Alcântara" "Princesa da Beira" "N.S. do Monte do Carmo" "N.S. do Pilar" "N.S. do Bom Sucesso" "N.S. de Belém e São José" "São Sebastião" "Santo Agostinho" "Golfinho" "Amazónia" "Pérola" "Tritão" "Medusa" "D. Maria I" "Princesa da Beira" "Andorinha" "Vénus" "Serpente" "Diligente" "Real Fonsor" "Bengo" "Cacheu" "António Enes" "João Coutinho" "Jacinto Cândido" "General Pereira d'Eça" "Augusto Castilho" "Honório Barreto" "Baptista de Andrade" "Afonso Cerqueira" "João Roby" "Oliveira e Carmo" "Foca" "Delfim" "Espadarte" "Náutilo" "Albacora" "Ave" "Sado" "Mondego" "Zêzere" "São Pedro da Ribeira" "Tejo" "Espadarte" "Arpão" "Dão" "Lima" "Vouga" "Tâmega" "Douro" "Vimaranes" "Audaz" "Bravura" "Bravo" "Brava" "Coragem" "Valoroso" "Virtude" "Ira" "Intrépido" "Intrépida" "Ousadia" "Resoluto" "Resoluta" "Redentor" "Furacão" "Tufão" "Tempestade" "Tornado" "Vaga" "Trovão" "Relâmpago" "Lopo" "Lince" "Peneireiro" "Falcão" "Perdigueiro" "Águia" "Rapina" "Guarda Rios" "Dom Carlos" "Dom Luiz" "Dom Lotário" "Dom Guido" "Dom Lamberto" "Dom Arnolfo" "Dom Berengário" "Dom Otão" "Dom Henrique" "Dom Afonso" "Dom Conrado" "Dom Sigismundo" "Dom Frederico" "Dom Maximiliano" "Dom Fernando" "Dom Rudolfo" "Dom Matthias" "Dom Leopoldo" "Dom José" "Dom Francisco" "Covadonga" "Salado" "Valdevez" "São Mamede" "Ourique" "Aljubarrota" "Valverde" "Atoleiros" "Linha de Torres" "Dom Constantino" "Dom Dioclétio" "Dom Túlio" "Dom Gaio" "Dom Marco" "Dom Adalfonso" "Dom Ildefonso" "Dom Rudolfo" "Dom Teotónio" "Dom Orlando" "Dom Adolfo" "Dom Adelmundo" "Dom Alfredo" "Dom Archibaldo" "Dom Godofredo" "Dom Raimundo" "Dom Beoulfo" "Dom Eldrico" "Dom Reinarto" "Dom Enguelberto" "Dom Geraldo" "Geraldo Geraldes" "Dom Ramiro" "Dom Pelágio" "Dom Leopoldo" "Dom Manfredo" "Dom Teodoro" "Dom Ulriche" "Dom Lopo" "Dom Tristão"  
+		}
+
+	}
+
+		fleet_names = {
+			random_names = {
+				"Armada d'El-Rei" "Armada de Endovélico" "Armada Solar" "Armada de Larouco" "Armada de Nabia" "Armada de Guerra" "Frota dos Bravos" "Frota da Guerra" "Frota de Vimaranes" "Frota do Teixo" "Frota do Freixo" "Frota do Urze" "Frota do Sobreiral" "Frota Hiperbórea" "Frota de Coura" "Frota de Geraz" "Frota de Fãol" "Frota de Briteiros" "Frota d'Aguda" "Frota de Varzim" "Frota de Creixomil" "Frota de Ourense" "Frota de Fisterra" "Frota do Esteiro" "Frota d'El-Rei" "Frota dos Besteiros" "Frota dos Piqueiros" "Frota dos Alabardeiros" "Frota dos Canhoneiros" "Frota dos Artilheiros" "Frota dos Dragões" "Frota dos Caçadores" "Frota de Valadares" "Frota dos Marinheiros" "Frota dos Fuzileiros" "Frota dos Mosqueteiros" "Frota dos Metralheiros" "Frota dos Espingardeiros" "Frota dos Atiradores" "Frota dos Carabineiros" "Frota dos Guerreiros" "Esquadrão Azul" "Esquadrão Vermelho" "Esquadrão Laranja" "Esquadrão Verde" "Esquadrão Amarelo" "Esquadrão Castanho" "Esquadrão Branco" "Esquadrão Preto" }
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxFLEETNAMES_ORD
+		}
+
+	army_names = {
+	
+		generic = {
+			#random_names = {
+			#	"Comandos da Marinha" "Regimento Elite de Cavalaria"  }
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxMACHINEASSAULT_ORD
+		}
+
+		machine_defense = {
+			#random_names = {
+			#	"Guarda Real Portuguesa"  }
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxOCCUPATIONARMY_ORD
+		}
+
+		machine_assault_1 = {
+			#random_names = {
+			#	"Comandos da Marinha" "Regimento Elite de Cavalaria"  }
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxMACHINEASSAULT_ORD
+		}
+
+		machine_assault_2 = {
+			#random_names = {
+			#	"Comandos da Marinha" "Regimento Elite de Cavalaria"  }
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxMACHINEASSAULT_ORD
+		}
+
+		machine_assault_3 = {
+			#random_names = {
+			#	"Comandos da Marinha" "Regimento Elite de Cavalaria"  }
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxMACHINEASSAULT_ORD
+		}
+		
+		defense_army = {
+			#random_names = {
+			#	"Guarda Real Portuguesa"  }
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxOCCUPATIONARMY_ORD
+		}
+
+		assault_army = {
+			#random_names = {
+			#	"Comandos da Marinha" "Regimento Elite de Cavalaria"  }
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxMACHINEASSAULT_ORD
+		}
+
+		slave_army = {
+			random_names = {
+				}
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxSLAVE_ORD
+		}
+
+		clone_army = {
+			random_names = {
+				}
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxCLONE_ORD
+		}
+
+		undead_army = {
+			random_names = {
+				}
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxUNDEAD_ORD
+		}
+
+		robotic_army = {
+			random_names = {
+				}
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		robotic_defense_army = {
+			random_names = {
+				}
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		#android_army = {
+		#	random_names = {
+		#		}
+		#	sequential_name = "Regimento Andróide Autónomo %R%"
+		#}
+		#
+		#android_defense_army = {
+		#	random_names = {
+		#		}
+		#	sequential_name = " %R%"
+		#}
+
+		psionic_army = {
+			random_names = {
+				}
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxPSIONIC_ORD
+		}
+
+		xenomorph_army = {
+			random_names = {
+				 }
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxXENOMORPH_ORD
+		}
+
+		gene_warrior_army = {
+			random_names = {
+				}
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxGENE_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = HUMAN99_REAL_PORTUGUESE_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = HUMAN99_REAL_PORTUGUESE_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = HUMAN99_REAL_PORTUGUESE_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = HUMAN99_REAL_PORTUGUESE_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+
+	}	
+
+	planet_names = {
+		generic = {
+			names = {
+				"Mercúrio" "Urano" "Vénus" "Marte" "Júpiter" "Saturno" "Neptuno" "Plutão" "Éris" "Ceres" "Áumea" "Maíque" "Gliêse" "Caos" "Gaia" "Eros" "Érebo" "Ponto" "Óreas" "Henera" "Éter" "Dóris" "Tártaro" "Afrodite" "Titã" "Oceano" "Céus" "Crio" "Hiperião" "Jápeto" "Cronos" "Teia" "Reia" "Têmis" "Mnemósine" "Febe" "Tétis" "Hecatônquiros" "Briareu" "Gias" "Ciclopes" "Arges" "Brontes" "Estépores" "Polifemo" "Zeus" "Hera" "Hades" "Héstia" "Deméter" "Poseidão" "Apolo" "Ares" "Ártemis" "Atena" "Hermes" "Hefesto" "Dionísio" "Hélio" "Selene" "Eros" "Bóreas" "Noto" "Zéfiro" "Eurus" "Nereu" "Éolo" "Quione" "Perséfone" "Íris" "Morfeu" "Juno" "Vesta" "Febo" "Diana" "Vulcano" "Minerva" "Baco" "Cupido" "Latona" "Somno" "Áquilo" "Juvente" "Invidia" "Nova Coimbra" "Nova Lisboa" "Nova Braga" "Nova Bragança" "Nova Faro" "Nova Abrantes" "Nova Agualva-Cacém" "Nova Águeda" "Nova Albufeira" "Nova Alcácer do Sal" "Nova Alcobaça" "Nova Almada" "Nova Almeirim" "Nova Amadora" "Nova Amarante" "Nova Amora" "Nova Anadia" "Nova Angra do Heroísmo" "Nova Aveiro" "Nova Barcelos" "Nova Barreiro" "Nova Beja" "Nova Caldas da Rainha" "Nova Câmara dos Lobos" "Novo Caniço" "Nova Cantanhede" "Novo Cartaxo" "Novo Castelo Branco" "Nova Chaves" "Nova Costa da Caparica" "Nova Covilhã" "Novas Elvas" "Novo Entroncamento" "Nova Ermesinde" "Novo Esmoriz" "Novo Espinho" "Nova Esposende" "Nova Estarreja" "Nova Estremoz" "Nova Évora" "Nova Fafe" "Nova Faro" "Nova Fátima" "Nova Felgueiras" "Nova Figueira da Foz" "Nova Fiães" "Nova Freamunde" "Novo Funchal" "Novo Fundão" "Nova Gafanha da Nazaré" "Nova Gandra" "Novo Gondomar" "Nova Gouveia" "Nova Guarda" "Nova Guimarães" "Nova Horta" "Nova Ílhavo" "Nova Lagoa" "Nova Lagos" "Nova Lamego" "Nova Leiria" " Nova Lixa" "Nova Loulé" "Nova Loures" "Nova Lourosa" "Novo Macedo de Cavaleiros" "Novo Machico" "Nova Maia" "Nova Mangualde" "Novo Marco de Canaveses" "Nova Marinha Grande" "Novo Matosinhos" "Nova Mealhada" "Nova Mêda" "Nova Miranda do Douro" "Nova Mirandela" "Novo Montemor-o-Novo" "Novo Montijo" "Nova Moura" "Nova Odivelas" "Novo Olhão" "Nova Oliveira de Azeméis" "Nova Oliveira do Bairro" "Nova Oliveira do Hospistal" "Novo Ourém" "Novo Ovar" "Novo Paços de Ferreira" "Nova Paredes" "Nova Penafiel" "Nova Peniche" "Novo Peso da Régua" "Novo Pinhel" "Novo Pombal" "Nova Ponta Delgada" "Nova Ponte de Sor" "Novo Portalegre" "Novo Portimão" "Novo Porto" "Novo Porto Santo" "Nova Póvoa de Santa Iria" "Nova Póvoa de Varzim" "Nova Praia da Vitória" "Nova Quarteira" "Nova Queluz" "Nova Rebordosa" "Novo Reguengos de Monsaraz" "Nova Ribeira Grande" "Novo Rio Maior" "Novo Rio Tinto" "Novo Sabugal" "Novo Sacavém" "Nova Santa Comba Dão" "Nova Santa Cruz" "Nova Santa Maria da Feira" "Nova Santana" "Novo Santiago do Cacém" "Novo Santo Tirso" "Novo São João da Madeira" "Novo São Mamede de Infesta" "Novo São Salvador de Lordelo" "Nova Seia" "Novo Seixal" "Nova Serpa" "Nova Setúbal" "Nova Silves" "Nova Sines" "Nova Tarouca" "Nova Tavira" "Nova Tomar" "Nova Tondela" "Nova Torres Novas" "Nova Torres Vedras" "Novo Trancoso" "Nova Trofa" "Novo Valbom" "Novo Vale de Cambra" "Novo Valongo" "Nova Valpaços" "Nova Vendas Novas" "Nova Vila do Conde" "Nova Vila Franca de Xira" "Nova Famalicão" "Nova Foz Côa" "Nova Gaia" "Nova Vila de Santo André" "Nova Vila Real" "Nova Vila Real de Santo António" "Novo Viseu" "Nova Vizela" "Gemeses" 
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Arraiolos" "Oleirita" "Comenda Grande" "Águas Vivas" "Canaviais" "Évora" "Beja" "Alcalva" "Boa Fé" "Nogueirinha" "Machede" "Seixo" "Fuzeira" "Lajes" "Pau" "Faia" "Pomarinho" "Zambujal" "Álamo" "Carrascal" "Escoural" "Portel" "Viçosa" "Chouriço" "Cuba" "Vidigueira" "Vila de Frades" "Baleizão" "Rosal" "Brinches" "ORdem" "Andreza" "Alqueva" "Serpa" "Campo" "Vila Ruiva" "Vila Alva" "Alvita" "Trolho" "Panasqueira" "Corte Negra" "Brinches" "Rosal" "MontalvoMedeiros" "Margalea" "Brinces" "Rosal" "Pias" "Quintos" "Giralda" 
+			}
+		}
+
+		pc_desert = {
+			names = {
+				"Caparica" "Capuchos" "Trafaria" "Almada" "Pragal" "Cacilhas" "Laranjeiro" "Feijó" "Charneca" "Marta do Pinhal" "Corroios" "Cova da Piedade" "Sobreda" "Alfeite" "Arialva" "Banática" "Laranjeiro" "Amora" "Seixal" "Arrentela" "Paio  Pires" "Barreiro" "Verderena" "Lavradio" "Vale de Amoreira" "Vale" "Banheira" "Palhais" "Moita" "Gaio" "Sarilhos Pequenos" "Sarilhos Grandes" "Alhos Vedros" "Venda das Raparigas" "António da Cherneca" "Montijo" "Alcochete" "Atalaia" "Jardia" "Estanqueiro" "Samouco" "Manchoso" "Pinhal Novo" "Carvalhinho" "Palmela" "Santana" "Azeitão" "Meco" "Arrábida" "Sesimbra" 
+			}
+		}
+
+		pc_savanna = {
+			names = {
+				"Chantarim" "Entrocamento" "Torres Novas" "Golegã" "Azinhaga" "Pombalinho" "Alcanhões" "Vale de Carros" "Cantarinhas" "Pernancha" "Junco" "Mata  Fome" "Almoster" "Cortiçada" "Pontével" "Azambuja" "Marinhais" "Malhada" "Cantarinhas" "Junco" "Cruzetp" "Serrão" "Riba" "Chamusca" "Jardoa" "Alcanena" "Abrã" "Gançaria" "Alcobertas" "Rio Maior" "PussosArega" "Castanheira" "Ferreira" "Zêzere" "Ourém" "Moita" "Formigais" "Carregueiros" "Cem Soldos" "Paialvo" "Assentiz" "Chancelaria" "Pedrógão" "Casalinho" "Sardoal" "Martinchel" "Mação" "Tramagal" "Sardoal" "Abrantes" 
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				"Hiperbórea" "Serra da Malcata" "Monte Pico" "Torre da Estrela" "Pico  Ruivo" "Torres" "Areeiro" "Cidrão" "Cedro" "Pedrice" "Poio" "Casado" "Brancos" "Santinha" "Nevosa" "Sobreiro" "Larouco" "Bento" "Taloeiros" "Alvoaça" "Lombarda Grande" "Montesinho" "Açor" "Picoto" "Serra" "Soajo" "Marão" "Montemuro" "Amarela" "Nogueira" "Cabreira" "Alvão" "Barroso" "Coroa" "Gardunha" "Bigorne" "Lousã" "Bornes" "Padrela" "Esculqueira" "Falperra" "Vidual" "Arada" "Gralheira" "Vara" "Freita" "Alvéolos" "Mairos" "Caramulo" "Coelheira" 
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				"Hiperbórea" "Esperança" "Verde" "Quente" "Macário" "Cabeço Gordo" "Comba" "Temão" "Mamede" "Bárbara" "Leomil" "Fundão" "Mogadouro" "Pisco" "Marofa" "Aboboreira" "Reboredo" "Castelo de Matos" "Lapa" "Farinha" "Morro Alto" "Monchique" "Merouço" "Corno de Bico" "Moradal" "Marvão" "Arestal" "Estreitinho" "Arga" "Oural" "Aire" "Montejunto" "Ossa" "Bando" "Alvaiázere" "Candeeiros" "Ansião" "Malriça" "Alto" "Caldeirão" "Sicó" "Buçaco" "Rabaçal" "Agrela" "Sintra" "Adiça" "Pico do Facho" "Arrábida" "Maunça" "Portel" 
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Hiperbórea" "Monte Figo" "Arraiolos" "Montachique" "Círculo" "Coirão" "Tiago" "Grândola" "Cercal" "Valongo" "Montemor" "Facho de Machico" "Amoreira" "Espinhaço de Cão" "Boa Viagem" "Pedrada" "Sobreiro" "Nevosa" "Nogueira" "Marão" "Detrelo da Malhada " "Montemuro" "Serra da Estrela" "Serra da Cebola" "Neve" "Pinhal" "Pinheiros" "Pinhaça" "Pinhalada" "Serra de Aire" "Montejunto" "Mamede" "Formosinho" "Ossa" "Fóia" "Escovas" "Manteigas" "Gonçalo" "Souto" "Orjais" "Salgueiro de Baixo" "Teixoso" "Covilhã" "Folgosinho" "Faia" "Porto da CArne" "Celorico" "Azares" "Sortes" "Paio" 
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"Arga de Cima" "Cabração" "Coura" "Padomelo" "Geraz" "Bravães" "Amonde" "Montaria" "NeivaGemeses" "Alvito" "Fão" "Fafe" "Minho" "Briteiros" "Vimaranes" "Guimarães" "Abação" "Rendufe" "Pencelo" "Souto" "Campos" "Carvalho" "Silvares" "Mesão Frio" "Creixomil" "Moreira do Rei" "Veade" "Arnóia" "Cavalum" "Bétula" "Aboadela" "Faia" "Anelhe" "Meixide" "Friões" "Vidago" "Rebordãos" "Penso" "Valadares" "Frechas" "Besteiros" "Pinhal" "Larouco" "Endovélico" "Teixo" "Freixo" "Amieiro" "Urze" "Nabia" "Sobreiro" 
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				"Gafanha" "Nazaré" "Aveiro" "Vagos" "Tocha" "Ourentã" "Figueira" "Redondos" "Quiaios" "Brenho" "Maiorca" "Esmoriz" "Marinha" "Meão" "Furadouro" "Miramar" "Lavadores" "Aguda" "Sardoal" "Leça" "Matosinhos" "Mundo do Cabo" "Sardoal" "Chã" "Lavra" "Varzim" "A Ver-o-Mar" "Aguçadoura" "Navais" "Apúlia" "Neptuno" "Poseidom" "Ofir" "Pedrinhas" "Cedo Bem" "Cepães" "Sines" "Moledo" "Cristelo" "Afife" "Âncora" "A Guarda" "Baiona" "Pardinheiros" "Sardinheira" "Portinho" "Retorta" "Barrosa" "Quelha" "Laje" 
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				"A Silva" "Trazo" "Sigueira" "Negreira" "Bertimerãs" "Lucus" "O Castro" "Teixeiro" "Outeiro Grande" "Sobrado" "Ourense" "Os Ferreiros" "Teixeira" "Samos" "Incio" "Pobra de Brolom" "Eixom" "Esgos" "Chornes" "Balsa" "Muxia" "Queuroso" "Fisterra" "Agris" "Ézaro" "Tal" "Esteiro" "Muros" "Louro" "Porto do Som" "Caamanho" "Faro" "Cortes" "Ilha de Arousa" "Barrantes" "Cambados" "Rouxique" "Sanchencho" "Noala" "Combarro" "Pontevedra" "Vilaboa" "Redondela" "Fraga do Rei" "Cernadela" "Tui" "Cegonheira" "Granxa" "Sobreira" "Peinador" 
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				"Belavista" "Benção dos Deuses" "Mundo d'El-Rei" "Ricavida" "Vidabela" "Belavista" "Paraíso d'El-Rei" "Pátrica Rica" "Mundoditoso" "Guimarães" "Caminha" "Lamego" 
+			}
+		}
+
+		pc_nuked = {
+			names = {
+				"Lisboa" "Trofa" "Estarreja" "Amadora" "Algarve" 
+			}
+		}
+
+	}
+	
+	### CHARACTERS
+
+	character_names = {
+		names1 = {
+			weight = 100
+
+			first_names_male = {
+				"Roberto" "Marcelo" "Sérgio" "Filipe" "Marco" "Raul" "Frederico" "Pedro" "Florêncio" "Eusébio" "Demétrio" "Xavier" "Emílio" "Luís" "Tiago" "Gustavo" "Camilo" "Estêvão" "Virgílio" "Salomão" "Ulisses" "João" "Afonso" "Lucas" "Rui" "Miguel" "Eduardo" "Manoel" "Paulo" "Isidoro" "Bernardo" "Nicolau" "Ernesto" "Felipe" "Dionísio" "Abraão" "Gonçalo" "Maximiliano" "David" "Martim" "Teodósio" "Alcides" "Cesário" "Luciano" "Alberto" "Óscar" "Mário" "Martins" "Mateus" "Miguel" "Osvaldo" "Pascoal" "Pedro" "Raimundo" "Ramiro" "Ronaldo" "Rodrigo" "Rodolfo" "Ricardo" "Renato" "Simão" "Zacarias" "Afonso" "Alexandre" "André" "António" "Armando" "Artur" "Baltasar" "Bartolomeu" "Augusto" "Benedito" "Bernardo" "Bonifácio" "Cláudio" "Daniel" "David" "Dinis" "Diogo" "Brites" "Cristiano" "César" "Élder" "Estêvão" "Hermenegildo" "Eugénio" "Fábio" "Fausto" "Fernando" "Filipe" "Francisco" "Gonçalo" "Gonçalvo" "Gustavo" "Henrique" "Horácio" "Humberto" "Isidoro" "Jacinto" "Joaquim" "Jorge" "Josué" "Leonardo" "Luís" "Manoel" "Manuel" "Vitor" "Victor" "Orlando" "Álvaro" "Anselmo" "Armando" "Avelino" "Bertrand" "Bogarte" "Brando" "Gil" "Gerardo" "Godofredo" "Guilherme" "Hendrique" "Rogério" "Tristão" 
+			}
+
+			first_names_female = {
+				"Bruna" "Joana" "Rita" "Isabel" "Teresa" "Gabriela" "Leandra" "Érica" "Lúcia" "Gabriela" "Rebeca" "Cristiana" "Cristina" "Salomé" "Emília" "Maria" "Ana" "Mariana" "Cecília" "Clarissa" "Perpétua" "Cátia" "Adriana" "Rosa" "Patrícia" "Lídia" "Helena" "Margarida" "Natália" "Olga" "Olívia" "Paula" "Rosário" "Rute" "Rosário" "Sónia" "Alexandra" "Amanda" "Amélia" "Bárbara" "Benedita" "Cecília" "Conceição" "Cristiana" "Eugénia" "Eva" "Fátima" "Felisberta" "Francisca" "Gabriela" "Gertrudes" "Fernanda" "Graça" "Helena" "Henrieta" "Inês" "Júlia" "Liliana" "Linda" "Lúcia" "Cláudia" "Luísa" "Luzia" "Isabel" "Teresa" "Gabriela" "Leandra" "Érica" "Constança" "Letícia" "Luciana" "Eduarda" "Marta" "Raquel" "Clemência" 
+			}
+
+			second_names = {
+				"Abreu" "Abril" "Agostinho" "Águas" "Aguiar" "Albuquerque" "Agra" "Alcântara" "Almeida" "Álvares" "Alves" "Alves da Silva" "Alvim" "Amaral" "Amorim" "Andrade" "Antunes" "Araújo" "Assunção" "Azevedo" "Bandeira" "Baptista" "Barbosa" "Barboza" "Barreto" "Barros" "Bento" "Bento Gonçalves" "Bettencourt" "Borges" "Branco" "Botelho" "Braga" "Brandão" "Brito" "Cabral" "Câmara" "Campos" "Cardoso" "Carneiro" "Carreira" "Carriço" "Carvalho" "de Castro" "Castro" "Cavaco" "Cerqueira" "Coelho" "Coimbra" "Conceição" "Cordeiro" "Correira" "Corte-Real" "Cortes" "Costa" "Coutinho" "Couto" "Cruz" "Cunha" "Dantas" "de Freitas" "de Lima" "do Rosário" "Dias" "Dimas" "Duarte" "Falcão" "Faria" "Fernandes" "Ferreira" "Fidalgo" "Figueiredo" "Florêncio" "Fonseca" "Freitas" "Furtado" "Gama" "Gomes" "Gonçalves" "Gouveia" "Guardado" "Guedes" "Guerra" "Guerreiro" "Gusmão" "Henriques" "Leitão" "Leite" "Lima" "Lobo" "Lopes" "Luz" "Macedo" "Machado" "Madureira" "Magalhães" "Martins" "Mascarenhas" "Mata" "Matos" "Medeiros" "Melo" "Mendes" "Mendonça" "Menezes" "Mesquita" "Miranda" "Moleiro" "Moniz" "Morais" "Moreira" "Moreno" "Moura" "Mourinho" "Nascimento" "Neves" "Nicolau" "Nogueira" "Noronha" "Nunes" "Nápoles" "Oliveira" "Pacheco" "Paiva" "Pascoal" "Passos" "Pereira" "Pereira da Silva" "Peres" "Pimentel" "Pinto" "Pires" "Prates" "Queiroz" "Rebelo" "Rego" "Reis" "Resende" "Ribeiro" "Rocha" "Rodrigues" "Rosa" "Sá" "Saldanha" "Santiago" "Santos" "Sapateiro" "Saraiva" "Seixas" "Serra" "Serrano" "Silva" "Silveira" "Silvestre" "Siqueira" "Soares" "Sousa" "Tavares" "Teixeira" "Torres" "Valente" "Vasconcelos" "Vaz" "Venâncio" "Vieira" "Vila" "Peres Cortes Campos" "Pascoal Luz" "Bento Gonçalves Torres" "Águas Fidalgo" "Alves da Silva Teixeira" "Antunes Aguiar" "Lopes Ferreira" "Pires do Rosário Vaz" "Falcão Freitas Pereira" "Siqueira Mourinho Pimentel" "Serra Carneiro Mata" "Santiago Pereira da Silva" "Dias Nascimento" "Macedo Queiroz" "Brito Henriques" "Henriques Guardado Cardoso" "Leitão Rocha Fernandes Gusmão" "Duarte Silvestre Borges" "Gomes Seixas" "Agostinho Nogueira" "Medeiros Barbosa" "Barreto Vila Amorim" "Passos Serrano Fonseca Sá" "Matos Figueiredo Resende" "Monteiro Pacheco Bandeira" "Alves Rego Machado" "Barros Couto Gonçalves Cabral" "Braga Moreira Castro" "Abril Faria Moura" "Dimas Mendonça Morais" "Mascarenhas Mendes" "Madureira Abreu Pinto" "Conceição Reis da Gama" "Azevedo Nicolau Lobo" "Corte-Real de Saldanha" "Moniz Soares" "Neves Saraiva" "Cavaco Bettencourt" "Mesquita Rosa Carriço" "Carvalho Valente Miranda" "Barboza Câmara Ribeiro" "Moreno Araújo Magalhães" "Álvares Alvim Brandão" "Almeida Nápoles" "Oliveira Lima" "Silveira de Castro" "Martins Dantas Guerreiro" "Vieira Rodrigues dos Santos" "Leite Gouveia Vasconcelos" "Amaral Noronha de Lima" "Coutinho Menezes" "Florêncio Agra Guerra" "Costa de Freitas Bento Cerqueira" "Sousa Venâncio Carreira" "Sapateiro Nunes Coelho" "Cordeiro Prates Botelho" "Melo Coimbra" "Alcântara Andrade Cruz" "Guedes Moleiro Baptista" "Albuquerque Assunção Correira" "Tavares Rebelo Silva" "Peres" 
+			}
+
+			regnal_first_names = {
+			
+			}
+
+			regnal_first_names_male = {
+				"João" "Afonso" "Pedro" "Artur" "Carlos" "Miguel" "Fernando" "Dinis" "Duarte" "Manuel" "Augusto" "Francisco" "Gonçalo" "Jorge" "Luís" "Gustavo" "Alexandre" "Lotário" "Lamberto" "Arnolfo" "Berengário" "Pelágio" "Otão" "Conrado" "Lotário" "Sigismundo" "Frederico" "Constantino" "Dioclétio" "Túlio" "Marco" "Maximiliano" "Vímara" "Gaio" "Adalfonso" "Ildefonso" "Rudolfo" "Teotónio" "Orlando" "Eugénio" "Leonardo" "Adolpho" "Adalberto" "Adelmundo" "Adelardo" "Adelmundo" "Alarico" "Alfredo" "Arnélio" "Archibaldo" "Baldrico" "Godofredo" "Raimundo" "Beoulfo" "Bernardo" "Carlo" "Clovis" "Dietrico" "Ecberto" "Eldrico" "Reinarto" "Enguelberto" "Ernesto" "Geraldo" "Eudes" "Gerardo" "Ramiro" "Cláudio" "Guilherme" "Hugo" "Leopoldo" "Leonardo" "Manfredo" "Normando" "Ramiro" "Raimundo" "Ricardo" "Rodrigo" "Teodoro" "Ulriche" "Humberto" "Lopo" "Tristão"  
+			}
+
+			regnal_first_names_female = {
+				"Joana" "Isabel" "Gabriela" "Luzia" "Carla" "Lúcia" "Maria" "Ana" "Natália" "Manuela" "Patrícia" "Cristina" "Inês" "Júlia" "Luísa" "Eva" "Alexandra" "Clemência" "Urraca" "Hermengarda" "Érica" "Isolde"  
+			}
+
+			regnal_second_names = {
+				"de Borgonha" "Avis" "de Bragança" "Peres" "de Valença" "de Lafões" "de Bragança-Saxe-Coburgo e Gotha" "de Vimaranes"  
+			}
+
+		}
+	}
+}

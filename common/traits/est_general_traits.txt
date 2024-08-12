@@ -1,0 +1,227 @@
+# All leaders will have a common trait-point value set in defines, which they use to grab traits
+
+# leader_trait = { commander } - this tags the trait as a leader-trait and not a species-trait
+# initial = no - if set to no, this trait can not be granted to leaders when they are generated
+# leader_class = { admiral scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
+# requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
+# requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
+# prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
+
+##################
+# General Traits #
+##################
+
+leader_trait_general_est_mystic = { #(Ben_D): basically just "leader_trait_dreaded"
+	leader_trait_type = veteran
+#	inline_script = {
+#		script = trait/icon
+#		CLASS = commander
+		ICON = GFX_leader_trait_est_mystic
+#		RARITY = veteran
+#		COUNCIL = no
+#		TIER = none
+#	}
+	army_modifier = {
+		army_morale_damage_mult = 0.15
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_mystery_5
+		}
+		has_trait = subclass_commander_general
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = no
+}
+
+leader_trait_general_est_militarism_2 = {
+	leader_trait_type = veteran
+#	inline_script = {
+#		script = trait/icon
+#		CLASS = commander
+		ICON = GFX_leader_trait_est_militarism_5
+#		RARITY = veteran
+#		COUNCIL = no
+#		TIER = none
+#	}
+	self_modifier = {
+		species_leader_exp_gain = 0.2
+	}
+	army_modifier = {
+		army_attack_damage_mult = 0.05
+		army_morale_damage_taken_mult = -0.4
+		armies_energy_upkeep_mult = -0.05
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_militarism_2
+		}
+		has_trait = subclass_commander_general
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = no
+}
+
+leader_trait_general_est_militarism_2_free = {
+	leader_trait_type = veteran
+#	inline_script = {
+#		script = trait/icon
+#		CLASS = commander
+		ICON = GFX_leader_trait_est_militarism_5
+#		RARITY = veteran
+#		COUNCIL = no
+#		TIER = none
+#	}
+	self_modifier = {
+		species_leader_exp_gain = 0.2
+		leaders_upkeep_mult = -1.0
+	}
+	army_modifier = {
+		army_attack_damage_mult = 0.05
+		army_morale_damage_taken_mult = -0.4
+		armies_energy_upkeep_mult = -0.05
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_militarism_2
+		}
+		has_trait = subclass_commander_general
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = no
+}
+
+leader_trait_general_est_might_2 = {
+	leader_trait_type = veteran
+#	inline_script = {
+#		script = trait/icon
+#		CLASS = commander
+		ICON = GFX_leader_trait_est_might_5
+#		RARITY = veteran
+#		COUNCIL = no
+#		TIER = none
+#	}
+	self_modifier = {
+		species_leader_exp_gain = 0.2
+	}
+	army_modifier = {
+		army_attack_damage_mult = 0.05
+		army_morale_damage_mult = 0.20
+		armies_energy_upkeep_mult = -0.05
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_might_2
+		}
+		has_trait = subclass_commander_general
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = no
+}
+
+leader_trait_general_est_might_2_free = {
+	leader_trait_type = veteran
+#	inline_script = {
+#		script = trait/icon
+#		CLASS = commander
+		ICON = GFX_leader_trait_est_might_5
+#		RARITY = veteran
+#		COUNCIL = no
+#		TIER = none
+#	}
+	self_modifier = {
+		species_leader_exp_gain = 0.2
+		leaders_upkeep_mult = -1.0
+	}
+	army_modifier = {
+		army_attack_damage_mult = 0.05
+		army_morale_damage_mult = 0.20
+		armies_energy_upkeep_mult = -0.05
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_might_2
+		}
+		has_trait = subclass_commander_general
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = no
+}
+
+leader_trait_general_est_cognition_central = {
+	leader_trait_type = veteran
+#	inline_script = {
+#		script = trait/icon
+#		CLASS = commander
+		ICON = GFX_leader_trait_est_cognition_central
+#		RARITY = veteran
+#		COUNCIL = no
+#		TIER = none
+#	}
+	army_modifier = {
+		army_morale_damage_mult = 0.15
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_cooperativity_4
+		}
+		has_trait = subclass_commander_general
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = no
+}
+
+leader_trait_general_est_chivalry = {
+	leader_trait_type = veteran
+#	inline_script = {
+#		script = trait/icon
+#		CLASS = commander
+		ICON = GFX_leader_trait_est_chivalry
+#		RARITY = veteran
+#		COUNCIL = no
+#		TIER = none
+#	}
+	army_modifier = {
+		army_morale_damage_mult = 0.15
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_chivalry_adopt
+		}
+		has_trait = subclass_commander_general
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = no
+}
+
+leader_trait_general_est_chivalry_hero = {
+	leader_trait_type = veteran
+#	inline_script = {
+#		script = trait/icon
+#		CLASS = commander
+		ICON = GFX_leader_trait_est_chivalry_hero
+#		RARITY = veteran
+#		COUNCIL = no
+#		TIER = none
+#	}
+	army_modifier = {
+		army_morale_damage_mult = 0.15
+		army_morale_damage_taken_mult = -0.5
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_chivalry_adopt
+		}
+		has_trait = subclass_commander_general
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = no
+}

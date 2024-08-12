@@ -1,0 +1,229 @@
+﻿### handmade nivkh
+### Names randomly generated based on syllables from real nivkh names, words, and place names
+cybrxkhan_handmade_nivkh = {
+	category = "Fungoid"
+    ### SHIPS
+
+    ship_names = {
+
+        generic = {
+			Ankan Ankangatuk Ankangun Ankanko Ankanokin Ankaylak Ankaylin Ankaylita Ankaynvin Ankazik Ankazin Ankin Ankiner Ankit Ankita Ankizik Ankizin Anko Anyun Anyunergat Atvura Atvurain Atvuran Atvurik Atvurin Ayziksa Ayziksavuk Ayzin Azmuk Azmunguk Azmungun Azmunka Azruner Azrunergat Azrungan Azrunguk Azrungun Azrunkan Azrunkita Azrunko Chalguk Chalgun Chaluner Chalungun Cham Chamun Chan Changan Changatuk Changuk Changun Chankayn Chankazin Chankin Chankizik Chankizin Chanko Chanok Chanokin Chanokizik Chanokizin Chants Chavlin Chavlineyk Chavlit Chavlita Chavtugin Chavtuk Chavuk Chavura Chavurain Chavurin Chaylak Chaylin Chaylychk Chaylymkh Chayn Chaynvik Chaynvin Chuk Chun Chuneyk Chungants Efkun Efkuner Efkungan Efkura Efkurain Efkurangun Efkurankin Efkurik Efkurin Esa Esavlik Esavlin Esavlit Esavtugin Esavtuk Esavuk Esavurik Esavurin Ezdan Ezdangan Ezdangin Ezdanguk Ezdangun Ezdankants Ezdankazin Ezdankin Ezdanko Ezdanokin Ezdants Ezgin Ezgineyk Ezgun Ezguneyk Ezgungin Ezgungun Ezgunkin Hytkun Hytkunergat Hytkuneyk Hytkura Hytkurain Hytkuran Hytkuranguk Hytkurangun Hytkurik Hytkurin Igliksa Iglin Iglineyk Iglit Iglita Itkuk Itkura Itkurain Itkuran Itkurik Itkurin Kashk Kashkh Kashkhtik Kashkuk Kashkun Kashkuner Kashkungun Kashkunkin Kasholik Kasholin Kasholit Kasholvik Kasholvin Kask Kaska Kaskan Kaskanokin Kaskaylik Kaskayn Kaskaynvik Kaskazin Kaskin Kaskiner Kaskit Kaskita Kaskizin Kekhalgun Kekhalun Kekham Kekhamun Kekhanko Kekhanokin Kekhanokit Kekhants Kekhavlik Kekhavlin Kekhavtugin Kekhavuk Kekhaylymk Kekhayn Kekhnik Kekhniksa Kekhtik Kekhuk Kekhun Kekhungun Kekhunko Kelik Kelit Kelita Kelk Kengan Kenganguk Kenganok Kenganokin Kengants Kengat Kengin Kenguk Kengun Kenguneyk Kengungun Kenra Kenrain Kenranguk Kenrants Khalgun Khalgungin Khalgunko Khalun Khaluneyk Khalungun Kham Khamuk Khamun Khan Khangin Khangun Khanokizik Khants Khavlin Khavtuk Khavuk Khavura Khavurik Khavurin Khaylak Khaylik Khaylit Khaylymgun Khaylymk Khayn Khaynvik Khaynvin Khik Khiksa Khiksavlin Khiksavtuk Khivcham Khivchamuk Khivchan Khivchanko Khivchants Khivchik Khivchivchk Khivchk Khivchkhun Khivchkuk Khivchkura Khivchun Kok Kokineyk Kokit Kokita Kokizik Kokizin Lan Langan Langat Langatugin Langin Langun Lanka Lankanko Lankin Lankizik Lanko Lanok Lanokin Ler Lerganguk Lergangun Lergankit Lerganok Lergants Lergat Lergatugin Lergatuk Lidiksa Lidiksavlin Lidiksavuk Lidin Lisk Liska Liskan Liskanok Liskants Liskaylak Liskaylin Liskaylymk Liskayn Liskaynvik Liskaynvin Liskazik Liskazin Liskin Liskita Liskizik Lon Lonashk Lonashkhuk Lonasholik Lonasholin Lonask Lonaska Lonaskayn Lonaskazin Lonaskin Lonaskizik Longangin Longat Longin Longuk Lushk Lushkh Lushkhalun Lushkhnik Lushkhtik Lushkhun Lushkuk Lushkun Lushkungun Lushkurik Lusholik Lusholiksa Lusholin Lusholit Lusholita Lusholvik Lusholvin Luzginergan Luzguk Luzgun Luzgungun Luzgunko Lyk Lykh Lykhangun Lykhankin Lykhnik Lykhuk Lykhun Memzgin Memzguk Memzguner Memzgunguk Memzgunka Memzgunko Mufchalguk Mufcham Mufchamuk Mufchan Mufchanok Mufchavlin Mufchavtuk Mufchaylak Mufchivchk Mufchivchkh Mufchk Mufchkh Mufchkhan Mufchkuk Mufchkun Mufchuk Mufchun Mufchunguk Napuineyk Napuineykh Niftyun Niftyunguk Niftyungun Niftyunko Nyengan Nyenganguk Nyengangun Nyenganka Nyengants Nyengat Nyengatuk Nyengin Nyengineyk Nyenguk Nyenguneyk Nyengungin Nyengunguk Nyengunka Nyengunko Nyenra Nyenrain Nyenran Nyenranok Nyenrants Nygsk Nygska Nygskazik Nygskazin Nygskin Nygskita Nygskizik Nygvin Nygvineyk Nygzyk Nygzykh Nygzykhan Nygzykhtik Nygzykhun Nyuk Nyun Nyuner Nyunergants Nyunguk Ochalgun Ochalguner Ochalun Ochangin Ochavlit Ochavtuk Ochavuk Ochavura Ochaylak Ochayn Ochik Ochivcham Ochivchik Ochivchuk Ochivchun Ochk Ochkh Ochkuk Ochkun Ochkura Ochuk Ochun Odra Odrainer Odran Odrangun Odrangunko Odrankit Odranok Odrants Okh Okhamun Okhanganok Okhankizik Okhants Okhavlin Okhavtuk Okhayn Okhtik Okhtiksa Okhuk Okhun Okhungun Otlonashk Otlonashkh Otlonashkuk Otlonask Otlonaskin Otlonaskit Otlongan Otlongat Otlongin Otlonguk Otlongun Palguk Palgungun Palun Palunko Pan Pangants Pangat Pangin Pangun Panguner Pangunergan Pangunko Pankan Pankanokin Pankizin Panok Panokin Panokizik Pants Parka Parkan Parkanok Parkaylak Parkaynvik Parkaynvin Parkazik Parkin Parkit Parkita Parkizik Parun Paruner Paruneyk Parunko Pilguk Pilguneyk Pilgunkin Pin Piner Pon Ponashkhuk Ponashkuk Ponashkura Ponasholin Ponask Ponaska Ponaskants Ponaskaylin Ponaskita Pongan Pongatuk Pongin Ponguk Pongun Pongungun Pulychalguk Pulychalun Pulychan Pulychanko Pulychik Pulychk Pulychkhnik Pulychuk Pulychun Pulymguk Pulymgun Pulymk Pulymkh Pulymkhan Pulymkhnik Pulymkhtik Pun Puner Punergan Puneyk Puneykh Punguk Pungun Punka Pygska Pygskan Pygskants Pygskaylak Pygskayn Pygskaynvin Pygskazik Pygskin Pygskit Pygskizik Pygvik Pygviksa Pygviksavuk Pygvin Pygzykh Pygzykhan Pygzykhnik Pygzykhtik Pygzykhuk Pylak Pylik Pylin Pylit Pylychalun Pylychan Pylychavuk Pylychayn Pylychik Pylychk Pylychuk Pylychun Pylymguk Pylymgun Pylymkhtik Rshk Rshkh Rshkham Rshkhavlin Rshkhaynvin Rshkhtik Rshkhun Rshkuk Rshkun Rshkurain Rshkurin Rsholik Rsholit Rsholvik Rsholvin Sik Smeduner Smeduneyk Smedungun Tat Tatugin Tatugineykh Tavlik Tavlin Tavlineyk Tavlit Tavlita Tavtuk Tavuk Tavura Tavurain Tavuran Tavurik Tavurin Tolik Tolin Tolineyk Tolit Tolita Tolvik Tolviner Tolvineyk Tymgun Tymguneyk Tymgungin Tymgungun Tymgunko Tymk Tymkh Tymkhalgun Tymkhan Tymkhavlin Tymkhnik Tymkhtik Tymkhuk Tyn Tynvik Tynviksa Ukrik Ukriner Ukrinergan Ukrineyk Ulik Uliksavtuk Ulin Ulit Umk Umkh Umkham Umkhan Umkhanguk Umkhaylin Umkhnik Umkhtik Umkhtiksa Umkhuk Urka Urkan Urkangun Urkankangun Urkaylak Urkaylita Urkaynvik Urkaynvin Urkazik Urkazin Urkin Urkit Urkita Urkizik Uryamuk Uryamun Uryamunkin Vaduner Vadungun Vadunkin Vadunko Velik Veliksa Velin Velineyk Velit Velita Vysk Vyska Vyskangun Vyskankin Vyskanko Vyskanok Vyskants Vyskaylak Vyskaylin Vyskayn Vyskaynvik Vyskazik Vyskin Vyskit Vyskizik Ykylik Ykylin Ykyliner Ykylychan Ykylychik Ykylychk Ykylychkh Ykylychun Ykylychuner Ykylymguk Ykylymgun Ykylymk Ykylymkh Yudik Yudiksa Yudiner Yudinergat Yura Yurain Yuran Yurangin Yurangun Yurankazin Yuranko Yuranokin Yuriksa Yurin Zarka Zarkan Zarkanguk Zarkanko Zarkanok Zarkaylak Zarkaynvik Zarkaynvin Zarkazik Zarkazin Zarkaziner Zarkin Zarkiner Zarkit Zarkita Zarkizik Zarunergat Zarungan Zarungat Zarunguk Zarunkayn Zarunkin Zuyun Zuyuner Zuyunergat Zuyuneyk Zuyunguk
+        }
+
+        corvette = {
+        }
+      
+        destroyer = {
+        }
+      
+        cruiser = {
+        }
+      
+        battleship = {
+        }
+      
+        science = {
+        }
+      
+        colonizer = {
+        }
+      
+        constructor = {
+        }
+
+        mining_station = { }
+        research_station = { }
+        #wormhole_station = { }
+        #terraform_station = { }
+        #observation_station = { }
+        #outpost_station = {
+            #random_names = { }
+            #sequential_name = "%O% Frontier Outpost"
+        #}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		} 
+    }
+
+    fleet_names = {
+        random_names = {
+            "Lelvunok Adventurers" "Azikin Adventurers" "Pyelkin Adventurers" "Cheta Adventurers" "Khuneran Adventurers" "Likask Adventurers" "Lylikun Adventurers" "Kholk Adventurers" 
+        } 
+        sequential_name = FANTASY_NIVKH_MARKOV_xxFLEETNAMES_ORD
+    }
+  
+    army_names = {
+         
+        generic = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxASSAULTARMY_ORD
+        }
+      	
+        machine_defense = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxMACHINEDEFENSE_ORD
+        }
+          
+        machine_assault_1 = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxMACHINEASSAULT1_ORD
+        }
+          
+        machine_assault_2 = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxMACHINEASSAULT2_ORD
+        }
+          
+        machine_assault_3 = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxMACHINEASSAULT3_ORD
+        }
+	
+        defense_army = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxDEFENSEARMY_ORD
+        }
+          
+        assault_army = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxASSAULTARMY_ORD
+        }
+      
+        slave_army = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxSLAVEARMY_ORD
+        }
+      
+        clone_army = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxCLONEARMY_ORD
+        }
+      
+        undead_army = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxUNDEADARMY_ORD
+        }
+      
+        robotic_army = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxROBOTICARMY_ORD
+        }
+      
+        robotic_defense_army = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxROBOTICDEFENSEARMY_ORD
+        }
+      
+        psionic_army = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxPSIONICARMY_ORD
+        }
+      
+        xenomorph_army = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxXENOMORPHARMY_ORD
+        }
+      
+        gene_warrior_army = {
+            sequential_name = FANTASY_NIVKH_MARKOV_xxGENEWARRIORARMY_ORD
+        }
+				
+		occupation_army = {
+			sequential_name = FANTASY_NIVKH_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_NIVKH_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_NIVKH_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_NIVKH_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_NIVKH_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_NIVKH_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+    }
+      
+
+    ### PLANETS
+
+    planet_names = {
+
+        generic = {
+            names = {
+                Ankazik Ankazin Anyun Anyuner Atvurin Ayziksavtuk Azmuk Azrunkazik Chalguk Chalgun Chan Chanok Chants Chavlin Chavtuk Chavuk Chayn Chaynvin Chuk Efkun Efkura Efkurain Efkuran Esavtugin Esavtuk Esavuk Ezdan Ezdangin Ezdants Ezgin Ezgun Hytkun Iglin Iglit Iglita Itkurain Itkuran Itkurin Kashk Kaskan Kekhanok Kekhayn Kekhnik Kekhtik Kekhun Kelk Kengin Kengun Khants Khaylik Khik Khivchalun Khivchk Khivchuneyk Kok Kokizik Lan Langin Lankin Lerganok Lidin Liskankin Lonashk Lonaskin Longin Longuk Lushk Lushkhnik Lushkuk Lusholin Lusholvin Luzguk Luzgun Lyk Memzgin Memzguk Mufchan Niftyun Niftyunko Nyengin Nyenguk Nyenra Nyenrain Nyenran Nygskazin Nygvin Nygzyk Nyuk Nyun Ochalgun Ochangun Ochik Ochivchan Ochivchk Ochkhnik Ochun Odran Okhayn Okhtik Otlonashkh Otlonaska Palguk Paluner Pan Pangin Panokizik Parkan Parkazin Parkin Parun Pilguk Pilgunkayn Pilgunkin Pilgunkit Pin Pinergat Pon Pongun Pulychik Pulychkuk Pulymguk Pulymgun Pun Pungin Pygskayn Pygskazin Pygvik Pygvin Pygzykhun Pylak Pylik Pylychan Pylymgun Rsholik Rsholvik Rsholvin Sik Tat Tatugin Tavlik Tavlin Tavtuk Tolik Tolin Tolita Tolvik Tymgun Tymguneyk Tymk Tymkh Tymkhtik Tyn Tynvik Ukrik Umk Umkh Umkhalun Umkhavlik Umkhavtuk Umkhnik Umkhtik Urkanka Urkita Uryamun Vaduner Vadungun Vadunkazik Velik Veliksa Velin Vyska Vyskin Vyskita Ykylik Yudik Yura Yuran Yurants Yurin Zarkin Zarkiner Zarkit Zaruneyk Zuyun				
+            }
+        }
+      
+        pc_desert = {
+            names = {
+            }
+        }
+      
+        pc_tropical = {
+            names = {
+            }
+        }
+      
+        pc_arid = {
+            names = {
+            }
+        }
+      
+        pc_continental = {
+            names = {
+            }
+        }
+      
+        pc_ocean = {
+            names = {
+            }
+        }
+      
+        pc_tundra = {
+            names = {
+            }
+        }
+      
+        pc_arctic = {
+            names = {
+            }
+        }
+      
+    }
+
+    ### CHARACTERS
+
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Azmuner Azmunergan Azrungun Chalgun Chalungants Chalunkizik Chan Chanokin Chaylak Chun Ezdan Ezdangin Ezdangun Ezdants Itkungin Kaskazin Kekh Kekhayn Kengungin Kenrants Khalun Khan Khants Khayn Kok Kokizik Kokizin Lan Langin Langun Langungun Lanokin Lanokizik Lergants Lergat Lon Longat Longin Luzgun Memzgin Memzgunkin Mufchan Nyengan Nyengat Nyengin Nyengungun Nyenrain Nyenranok Nyenranokin Nyun Nyungin Nyungun Ochanokin Ochkh Ochkhanokin Odran Odranok Odrants Otlongat Otlongin Otlongun Palgunkizin Palun Palunkin Parkan Parkizik Parun Parungun Pilguner Pilgunkizin Pulychan Pulychaylak Pulychik Pulychkh Pun Pungin Pungun Punkin Rsholvin Smedungin Tolin Tyn Urkangat Urkangun Urkaylin Urkin Urkizik Urkizin Vadungin Vadungun Vadunkin Vyskayn Vyskaynvin Vyskazik Vyskazin Ykylin Zarkan Zarkin Zarunkin
+            }
+           
+            first_names_female = {
+				Anko Ayziksa Ayziksavlik Ayziksavura Chavliksa Chavlit Chavlita Chavura Chavurik Efkura Efkurik Efkuriksa Esa Esavlik Esavliksa Esavlit Esavlita Esavurik Hytkura Hytkurik Hytkuriksa Igliksa Igliksavlik Igliksavura Iglit Iglita Khivchun Lidiksa Lidiksavlik Lidiksavlit Lidiksavura Lisk Liskita Lushk Lushkuk Lushkurik Lyk Lykhnik Lykhniksa Lykhtiksa Lykhuk Lykhun Nygsk Nygskit Nygskita Nygviksa Nygzyk Nygzykhnik Nygzykhtik Nygzykhuk Okhniksa Okhtik Okhtiksa Okhuk Okhun Panka Pineykhnik Pineykhtik Pineykhuk Pineykhun Ponashkuk Ponashkura Ponashkurik Pygskit Pygskita Pygvik Pygviksa Pygzykhnik Pygzykhtik Pygzykhuk Pygzykhun Pylymguk Pylymkhnik Pylymkhtik Pylymkhuk Pylymkhun Sik Siksavlik Siksavlita Siksavura Tymk Tymkhnik Tymkhtik Tymkhtiksa Tymkhuk Tymkhun Ulik Uliksa Uliksavlik Uliksavlit Uliksavlita Uliksavura Ulit Umk Umkhnik Umkhtik Umkhtiksa Umkhuk Yura Yuriksa
+            }
+			
+			
+			second_names = {
+				Ankan Ankaylak Ankazik Anko Anyun Atvuran Ayzin Azmuk Azmunkin Chalgun Chan Changun Chanok Chaylin Chaynvik Efkun Esavuk Esavurain Ezdan Ezgin Ezgun Hytkun Iglin Itkuk Itkunko Itkurin Kashkuk Kekhuk Kekhunergan Kelk Kenguk Kengun Khalgun Lan Languk Langun Ler Lergatugin Liskazik Lon Lonashkh Lonaskita Longan Lushk Lusholita Luzgun Mufchalun Mufchk Niftyun Nyengin Nyenra Nyenrain Nygskizik Ochuk Ochun Okhuner Otlonashk Palun Parkazik Parun Pilgungat Pin Pineykh Ponguk Pulychkhuk Pulymk Pun Pygvik Pygvin Pylik Rsholik Rsholvin Sik Tatugin Tavtuk Tavurain Tavurik Tolin Tolvik Tolvinergat Tymgun Tymgunkita Tymkhangin Tynvik Tynviksa Urkin Urkit Urkizin Velit Vyskizik Ykylychik Ykylymguk Ykylymk Yudik Yuran Zuyun		
+			}
+			
+            regnal_first_names_male = {
+				Azrungun Chanokin Chaylak Kokizin Nyungun Urkizin
+            }
+           
+            regnal_first_names_female = {
+				Anko Iglita Khivchun Lyk Ponashkuk Yura
+            }
+			
+			
+			regnal_second_names = {
+				Ankaylak Azmuk Chaylin Ezgin Kekhunergan Languk Niftyun Nyengin Palun Pulymk Tymkhangin Urkit Velit Zuyun		
+			}
+		}
+	}
+}

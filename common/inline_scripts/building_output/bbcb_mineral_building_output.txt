@@ -1,0 +1,4 @@
+produces = {
+	minerals = $BBCB_OUTPUT$
+	mult = value:bbcb_mineral_building_output
+}

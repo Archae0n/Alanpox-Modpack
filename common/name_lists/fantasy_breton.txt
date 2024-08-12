@@ -1,0 +1,232 @@
+﻿### Fantasy Breton
+### Breton names tossed in a markov generator
+
+cybrxkhan_fantasy_breton = {	
+	category = "Aquatic"
+
+	ship_names = {
+		generic = {
+			Aammig Ade Adegon Adened Aelian Aelio Aellerh Aelyf Aendan Agan Agangan Aginian Ala Alampoë Alan Albel Albiuhon Albiuneg Ale Alen Alena Aletaez Aleven Aliaunan Alinig Aliviad Alizinbina Almkel Alorañcha Alouriagan Alugone Alunellez Alunolo Alunor Alunvefa Alwenn Alèth Ananic'h Andazhurenin Anded Andre Andren Ann Anned Anner Annoc Annoray Annus Antin Aodala Aode Aodelant Aodremp Aodristel Aoparenn Aoperme Aos Aoulfinan Aouli Aoulinerifin Aouluno Aoureg Aourielan Aourien Archanideg Archar Archel Argadez Argal Argallen Argann Armeli Armervant Arn Art-Naig Arzec Arzen Arzena Arzenneala Arzh Arzhaelle Arzharenez Arzhed Arzhenn Arzhennig Arzheuz Arzhezny Arzhiano Arzhou Arzhurac Arzhuricaer Arzhvaelez Arzhvarn Arzhwan Arzia Arzinel Aubed Aubinan Audolé Avene Aveniagani Aviauenian Awenn Awent Aweza Aze Azianto Azilduna Balla Bar Baraged Barzhval Basian Basta Bedick Bend Bennok Benog Bentin Ber Berian Berig Bermarnig Bernesbel Berry Beuziazi Bielio Bieuzell Bilia Bin Blan Bleit Blene Blenn Blennou Blenolleg Bleraderve Blerneza Blesbed Bleun Bleus Bodanor Bodoc Bodog Bozen Bozentin Bozer Bozig Bozinv Bozio Bre Brec'h Bred Breg Brell Brenonogman Brestinnoc Breven Brevili Brewalar Brey Brez Brez-Plo Brianervemp Briantitaer Brier Brieri Briernel Brifin Brig Brim Brion Brionk Bristig Bristinin Brival Brivefa Brivennick Briverven Brizabelie Brog Brolé Bronno Bruzekez Budele Budeznic Budierwi Budo Budwan Cad Cadutustan Caiegan Cara Carcha Catrilier Cerevin Cerwalan Chant-Naz Chard Chelistie Cheunvan Col Cone Congadvi Conguy Conig Conio Convet Conwal Conwenael Dahenn Daolla Darba Dariveud Darvla Davaegon Davan Delyf Den Den-Tegon Denan Denanig Deneg Denguenn Denina Denol Dentie Der Derler Dernach Deval Devin Dick Dimig Dimigenla Dimper Din Dinbiunan Divenoc Dogamm Dogatina Dogvan Dolounegon Don Donas Donez Donhon Donk-Ken Donog Dononvefa Donus Donvan Doux Dre Dren Drevei Ede Edec Eder Edwal Edwalduina Edwele Edwi Efflaez Efladrio Eflamper Eflauna Eflerwi Egig Egio Egiorlé Ehoic Ehomonou Ehouan Ehougan Ehour Elaelarisefa Elaell Elairacutwan Elannoé Eled Elegarn Elennig Elenogantel Elerry Eleuc Elevin Elig Elizabu Elo Elondre Elonouara Elorvan Emeel Emetenan Emeurvrig Emig Emignell Emmaz Eneda Enez Enn Enog Enor Enoual Envalon Envann Envera Eozeleuc Eozig Ergalt Ergarc'h Erian Erleiza Erman Erneg Ernez Ervan Erveradas Erwaloman Erwalomban Ery Eryltaella Eud Eudezhel Eur Eurvi Eva Evaela Evaelig Evarieneza Eveiz Evelan Evelezaf Evenig Evenn Evern Evezia Ewalan Ewenan Ewenolin Ewiheval Ewill Ewiot Ezval Faieg Faier Faierman Faig Faned Faneg Fiancha Fianig Fiann Fiazig Fienten Filduneg Filha Filig Filin Filina Fin Finaireg Fineg Fintel Fleus Fouan Fouran Fra Fradrened Fran Fray Frig Frinioc Gae Gaele Garialammiau Garle Garnesteni Gaudmoruz Gevanna Gevenn Gilbinogan Gild Gildendren Gili Giliavarst Gilig Gilineryl Giliz Girielan Gla Glez Glezegoux Goazhutwal Gobriaz Gona Gonan Gonguy Gonoulv Gorgatron Gou Goualomaer Gouan Gouarivild Gouarn Gouay Goube Gouen Goulioc Goulmoran Gourenn Gourioc Gouriz Govray Gozen Grane Guena Guenn Guentit Guesbed Guet Guicaell Guig Guineler Guinnog Guisez Guisil Gure Gured Gurieg Guriven Guy Gwal Gwaloz Gwel Gwela Gwelamp Gwelarag Gweleuc Gwelgus Gweliag Gwen Gwen-Teiz Gwenas Gwenata Gwendréa Gwengala Gweni Gwenig Gwenne Gwennec Gwennia Gwenog Gwenouaned Gwenoulchan Gwent-en Gwerviz Gwi Gwient Gwiheo Gwilia Gwinig Gwithael Gwithia Gwy Gwyddnon Hael Haeladery Haelgera Haell Haelv Haernig Haraelleun Hauen Henna Henouler Heonnourey Herban Herboth Herista Hertus Hoelandan Hoeliar Hoell Hoeva Hoevan Houaled Houan Houlm Houlmian Houluguy Hourig Ila Ilazeg Iltan Iodellamm Ivoi Ivoio Ivoiowenoc Ivoneg Ivonegouliz Ivonmon Ivonni Ivonwanara Iza Izoun Jacmel Jagan Jakezny Jakr Jant Jaollenez Jaougen Jaourog Jel Jeliadelm Jenorged Jerch Jez Jezian Jezny Jilduan Jilhaelyf Jodaskell Joe Joel Joelaelou Joelig Joelyf Joemga Joevenn Jor Jori Jose Josez Josselan Jossez Jossyl Josteg Jostierve Jozeklael Jozeklan Judegarbor Judel Judeniern Judiegou Judiern Judocme Judwin Juhomoren Juhono Julfin Julua Jut Jutinour Jutus Kadal Kadegan Kadeog Kadez Kadoc Kadogar Kaod Kaorna Kaorneg Kaorver Kaoud Kaouena Kaouenn Kaoul Kaoulmel Karina Karla Karlez Karourig Karrenian Karvel Karzhammig Karzhelank Kas Kataz Katr Kavann Kemelmaer Kemely Kempern Kena Keniennig Kennaèll Kenonou Kenorged Kent Ker Kerry Kervla Kieg Kielaig Kilhefa Kilheford Kiliaglo Kilig Kiresbed Kirivon Kla Kleiziaux Kleizig Klen Klened Klerantinio Klervael Kol Kolael Kolé Komael Komantele Komgennian Kon Kondi Konel Konez Konga Konhoulmia Konig Konouriot Konveo Konwi Kor Koreg Kou Kouau Koulch Koureg Kourgadréa Kourien Kourio Krenoned Krevel Kriac Krian Krianezena Kriez Krifin Krin Krivela Krizhulmil Laded Ladorgad Lannor Laodel Laodez Laodrevenog Laolerrivi Laour Laovena Lened Lenezenn Lennoran Ler Lerwen Levadez Levaell Libodan Libodreg Libothel Liz Loc Loev Loiowen Loir Lorewan Lorger Lorunog Lou Lun Lunvenendoc Lupithia Mac Mac'h Maclourvan Madateliern Maderwez Madueli Madvan Maelado Maele Maelei Maelmorgan Maer Mahenn Mahuliowez Mainec Mainian Majant Mala Mall Malounig Maodig Maoriel Maourest March Mard Mardier Marevelier Mariagan Marieun Marig Marn Marned Maron Marry Marst Marven Marzig Matael Matel Mater Matman Matrivi Maudi Maula Maulig Mauna Meeniau Meliaker Meliau Meliowel Mer Meriig Mern Mernikaela Mernvonain Mervla Merwalern Mevadoc Mewan Mewenig Mewennean Mikaelia Mikaeran Mildal Milli Modann Moder Moderlé Modoc Modred Modregwena Modrel Moell Moezheles Moireg Mole Moler Moli Moloa Moloureve Molvondrian Molé Monaig Monan Moneris Montaran Mor Morana Morangal Morc'h Morcham Morche Mord Mordoc More Morenna Moreveranes Morey Morgei Morger Morn Morvinn Mwyddnolior Mwyddnorde Naienolla Naiwal Naorn Naz Ned Nevalarig Nevell Neverm Nevinnogam Nikaell Nikêl Ninonogan Nolarlo Nolduig Nollouaris Nonhoneg Norgenna Noyal Noyaloulig Odo Olîerva Onedez Onervelig Oneza Orian Orid Pabed Padec Padegig Paden Padez Padonog Padvan Paourig Pasiavalan Perev Perierbouar Pervran Pierzher Ploulfin Ploura Ponannanezny Ponhonor Prilion Prisa Pèrenouren Quinnourzh Redolé Reurgeizh Reuzenwanna Riagammani Rian Rieunvon Rio Rioll Rion Rionaix Rior Riowenogal Riviacman Rivon Rivongan Riwalorian Riwalou Riwanz Riwazilio Riwen Roc Rogadeta Rogmaell Rogou Roned Ropaig Ropar Rua Ruval Ruve Saieuc Sain Sairale Saiwenenna Saix Sampoë San Sanna Sanwal Seg Segweznoc Sekla Sekoliadez Senegal Senorinn Seval Sevanwene Seves Sevielm Sez-Plun Sidernez Sielamp Sienn Sieuned Simpoë Sisiank Sklansoel Sklara Sklaün Soard Soarizolv Soazeg Sol Solammig Solerry Stefor Ster Stevizabed Sulenocez Sulfina Sulmarzhut Sulwen Tan Tanna Tannan Ted Tegay Teiz Teizhoig Teizig Teklan Tell Telyf Ten Teneg Thélispoë Thélor Tienog Tineg Tinnord Tinoceznig Tirest Tirestina Tival Tivina Tivongard Tivonoev Treved Triadal Trian Trimp Trinan Tristenezen Tuarzhed Tudeogan Tudie Tudikaz Tudoc Tudonvan Tugadec Tugan Tugenian Tuger Tugernengue Tujanchaer Tujanigar Tujenoc Tunez Turantaell Turezi Turzhulwen Unoral Unorennan Unorvan Urfoll Urforgen Urforvar Uricael Uridwalmon Uriena Urientith Uuinenoc Van Vana Visponer Vita Vithien Vive Vivoaiquen Vonantieun Vongon Vouendréa Voulervae Win Winail Winelan Winen Winezhutwan Winig Winin Wiun Wrmaela Wrmeelau Yanec Yans Yansefa Yaodel Yaoulchan Yeues Youengig Youlig Youlisandier Yourenn Yunel Yunez Yunou Yunvan Yuzela Yuzelig Yuzered
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	Fleet_names = {
+		random_names = {
+			"Tuderlé Host" "Ewalec'ha Host" "Armellon Host" "Charzheg Host" "Gauent-enen Host" "Arzhud Host" "Rivonac'h Host" "Meot Colé Host" "Brewalortus Host" "Sendrian Host" "Gaell Host" "Arnez Host" "Kloi Host" 
+		}
+		sequential_name = FANTASY_WELSH_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+	
+		generic = {
+			sequential_name = FANTASY_WELSH_xxASSAULTARMY_ORD
+		}
+	
+		machine_defense = {
+			sequential_name = FANTASY_WELSH_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_WELSH_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_WELSH_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_WELSH_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_WELSH_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_WELSH_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_WELSH_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_WELSH_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_WELSH_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_WELSH_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_WELSH_xxROBOTICDEFENSEARMY_ORD
+		}
+	
+		psionic_army = {
+			sequential_name = FANTASY_WELSH_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_WELSH_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_WELSH_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_WELSH_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_WELSH_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_WELSH_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_WELSH_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_WELSH_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_WELSH_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Auraez Bre Bres Brester Briaquer Bried Brieg Briened Brienes Brienest Brieuc Caray Card Caried Carieuc Carieudieg Carnan Carnedon Carnes Carnez Carst Carster Daonan Daont Daougeres Daougerle Daoumant Dinac'h Dinant-en Dinarnez Dinarst Dint Dint-en Dint-Malou Dintron Douger Dougere Dougerne Douguengamp Douguer Doulaimper Doulas Doule Doulez Doumanned Felin Felinaraez Felinard Fouaray Fouger Fougerlanne Fougerre Fouguenes Fouguere Fougueresto Fouguerres Foulain Foulas Foule Foumarne Foumarst Foumarsto Guimp Guimper Guinac Guinannac'h Guinarster Guint Gwen Gwen-Ter Gwenennac Gwenes Gwenez Gwengamper Gwennac Gwennuone Gwennuones Gwennuont Gwent Josselger Josselgerle Josselint Karay Kard Karnac Karnac'h Karned Karnes Karst Kemp Kemperes Kempon Kempont Ker Kerest Kerle Kernac Kernannes Kerrester Kon Konan Koned Konk-Kemper Kont-Naont Lan Lanac'h Lanant-Bres Lanarsto Lannac Lannan Lannen Lant-Bruz Lant-Malo Lant-Malou Lant-Nazer Lantron Lantroulas Locheforieg Locheforlan Locheforle Locmannard Locmaraez Locmard Locmarnac Locronk-Ker Locront Locrouger Locrougères Locroulez Loriant Lorieudi Lorlannest Lorlannez Lorlas Lorle Lort-Brieuc Lort-Bruz Lort-enez Lort-Malo Mon Monac'h Monester Monk-Ker Morieg Morlain Morlaint Morlez Naon Naonant-Bre Naondi Naouger Naougèresto Naoulas Nazer Nazeres Nazerlez Nazhon Nazhonk-Ker Oriant-Bruz Oriaquen Oriaqueres Oriaquerned Oried Oriedon Orieg Orien Orien-Ter Orieudieg Paimp Paimper Paingamper Paint Paix Plo Plouguernez Plougères Ploulas Ploulez Plouman Pluger Pluguened Pluguerrest Plugères Pon Pondieuc Ponen Ponened Quimp Quimperest Quimperres Quimpon Quin Quinac'h Quinanned Quingamper Quint Red Redonac'h Ren-Ter Renes Rengamp Rengamper Rennard Rennuon Reudi Reudiened Roazer Roazeresto Roazerres Roazhondi Roazhoned Roazhont Rocheforieg Rocheforle Rocmarnes Rocronac'h Rocrones Rocrougeres Saimp Saimper Saimpernes Sain Sainac'h Sainan Sainannant Saix Sanac Sanan Sananarsto Sanaraez Sannant-en Sannantrou Sannarne Sanned Sannent Sannes Sannuon Sannuondi Sant Sant-Bres Sant-Bruz Sant-Ervlas Vanac'h Vanarnes Vant-Ervlas Vantrouman			
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Adoc Agnaog Alan Alaord Albe Alberan Albinioc Alig Alleg Allou Alonval Alèth And Andal Andaskel Andateo Annig Anninoc Aofreo Aopardier Argu Artudoc Arzheg Arzhen Arzhenael Arzhutus Auber Aubiu Audegan Avemo Aveneg Avetham Aveu Awendard Azaerian Bal Baskez Bedenican Bedoc Beu Beuzen Billaelan Bla Blan Blar Blenae Blenoran Boda Bodal Bozh Bozher Bozig Bre Brec Bredoc Bren Brentien Breo Breon Bri Bricaeleg Brier Brig Brion Brizian Bud Budy Cadoch Catin Cerryn Chard Coevan Colvonnig Conus Cyragenord Dag Dagada Dentinig Denwal Deval Dewentigen Dewiheu Dog Dogan Donhomban Dreg Dren Drevar Drevin Eder Edwalour Edwinten Egig Ehomanch Elaou Eleizian Elerner Elig Elio Elon Elord Elven Emilin Eneg Eneloireg Ennaourig Ennig Enoremern Eozeg Eozh Eozig Erliel Ern Erwal Evenour Ewihenn Ezvi Fael Faien Fair Fie Flarev Folv Foradoc Fragen Fraglouran Fral Fran Gard Gauenneler Gildat Gilig Giliniann Gilinwan Giren Glei Goardoc Gobri Goneg Gord Gouarven Gour Gouran Gourgatig Gourvran Gous Gudeg Gudrendan Guenig Guic'h Guin Guinec Guiscarzhur Gulo Gun Gur Gurag Gurian Gurilier Gwel Gwen Gwengal Gwet Gwezny Gwie Gwin Gwinelgu Gwiniden Gwinig Gwiog Hael Heg Herh Heriel Hernian Hervaerig Hild Hildua Houen Iduengoual Idutig Illinnenig Illwen Iudoc Ivin Ivinoel Izoulin Izunan Jac Jacutus Jakr Jaodarlé Jaog Jaugouarn Jaut Jezenig Jeznourvan Jezny Jilbe Joarc'h Jodre Jodred Jor Jossel Josseznoc Jostinig Judec Judi Judochel Judrianig Julch Kad Kadegard Kadez Kairacmel Kaodeo Kaodriven Karañchen Karch Karli Kemeun Ken Kenaignaog Keniagan Kenni Kentan Kol Kolaume Kolazieran Kolled Konmor Kono Koren Kould Kouriven Kriakeran Kric'h Krio Kristig Leo Leor Lou Louaudo Louli Loulv Lour Madegou Madenig Madoceun Maeliakr Maouan Mategat Matevel Matronna Maud Maudy Maumelignen Maun Maus Mazhiad Mean Melamm Melm Meor Merblonva Meriezi Merive Merizio Mern Mildec Milig Milles Modoc Moick Moien Moiogal Moirantin Moreg Morvarvan Mwythevet Nevennou Nevenogva Ninninoe Nintig Pader Paodeguy Paor Pastan Pergueli Peri Perleiz Pern Polammill Prian Prio Priotheg Riennogan Rivel Riviereda Riwalael Riwalare Riwantelmaz Riwen Rogal Ronwantig Ropar Roparlon Ruvan Sal Sanniado Sannin Sekael Seklan Sekol Sel Seloun Serivin Sklan Soaren Solez Stec Steonmor Stery Sulch Suli Sulmorun Tel Telist Thelan Theuzenan Tieg Tiniakr Tiren Tombarnin Tonmor Treve Urfolamzun Uriadeg Uristeo Uuenannio Venna Vian Vianz Vith Wineg Wiun Yeu You Youlfin Yuze
+            }
+           
+            first_names_female = {
+				Aamela Aamorganwi Aamoria Aamorna Adeg Adegona Adenta Aelarifina Aelfinnog Aelizig Aell Aellarbor Aellenna Aenn Aganen Agiolue Agioluened Ahel Albin Albinn Aliz Aliza Almena Almig Alwennora Alwenta Anaig Andolduina Andrevane Ann Annie Annoc Annonn Antelarada Aodinaig Aodregon Aodria Aoula Aoule Aoulmed Aoupit Aourel Aourela Aourenoria Arc'han Archa Arganed Arganeda Argann Arganuenn Argentel Armell Armennie Armennon Arzhed Arzheda Arzheliz Arzhudréa Arzhulan Arzhule Arzhulmia Arzhulmig Arzhurella Arzhuren Arzhurgan Arzhva Avefa Avel Avez Awenn Awenna Azel Azena Azengunig Azenn Azennig Azennika Azennog Azenorid Azig Azil Azinn Azvennor Azvenovel Bermed Bermel Ble Bleunv Blez Breg Brev Buregonn Bélinez Bélisilig Bélistlenn Claig Clanez Clantaell Claourey Dahulmig Deklanelan Denezen Denn Dera Derna Dog Dogmanoc'h Duna Dunven Efle Eflenn Elevenon Eleza Elia Elizig Emmanez Emmant Enonn Enorwann Erelarba Ermael Ermanna Erwanaig Erwenn Erylt Eura Eurey Eurifinn Even Ewaleta Frade Frans Frantell Gaele Gla Glaoula Guena Guenig Gwel Gwelleuna Gwena Gwenena Gwenenn Gwenezig Gwenganaig Gweniel Gwenlera Gwennin Gwenon Gwenor Gwenorched Gwenorgena Gwentela Gwenvenela Gweron Gwervank Gwila Haudrenvel Heot Hoeit Hoelig Hoell Ivon Ivone Ivonig Izabed Izolig Izolina Jane Janel Jansezig Jenn Jennig Jerwenn Jutwala Jutwan Kanchanaig Kanwen Karia Karifina Karistell Katel Katervie Katria Katriel Keria Keronig Kinnoc Kinvenenn Kinvregon Kla Klan Klane Klarbancha Klerolina Klerwenna Klesbell Klodalenor Kolwenn Kouba Kouban Koulmet Koulmianen Kounven Kourella Kourewank Krec'h Krenn Krenna Kriel Krifin Krifinn Kriig Krijena Kris Krised Krivian Lannig Laorifin Lavene Lenez Lenganoc Levela Lez Liborgan Lilie Lizabela Lizhvaelle Loel Lupaia Mada Madez Madréa Mael Maell Maellevael Mara Maran Marba Mared Marganez Margena Marid Maridwena Maridwenez Marig Marijen Marijenn Marinaig Maristel Maron Melaourga Mevael Mevaell Mika Mikaell Monn Monna Monnora Mor Mora Moradalen Moraned Moranora Morgatrie Morig Naiwen Neneza Nengusia Nina Ninaig Ninvenez Noeit Noeita Noela Noell Nolia Nolis Nora Norijenla Noyalena Noyalerba Oana Oaned Oann Oannick Oans Oned Onell Onez Ozvaeld Ozvefa Ozveot Pade Padez Paodeta Paskelenn Paskell Pered Pez Pia Renn Riviell Riwan Riwena Riwenonez Rozennig Rozennin Ruvenna Ruveot Ruvon Senn Senna Senorwi Sevanton Sidwen Sidwenn Sidwennig Sisez Skla Tir Tirienel Tirig Trid Triell Trig Triig Tuden Tudonez Tunved Tunvena Tunvenn Urielduin Urijenna Verchel Verhed Vermaela Vivonene Vourid Youra Yourie Yula Yulie Yulmianta Yunvann Yunvans Yuven Yuvonaèll Yuvonnoc
+            }
+			
+			
+			second_names = {
+				Agini Alan Aleizhen Alla Alwenongun Alèthian Anaell Andinuen Ando Aodres Aouel Aougen Aoulael Aouriavar Arman Arzharig Arzhelan Arzhell Arzhut Arzhwalo Audonez Avian Awez Azel Beatronus Beneg Beniellez Bennig Berwal Bierizhwan Blentan Blerbore Blethel Bleudmo Boda Bodegan Bozabu Briel Brielerog Brig Brijen Brio Brist Briziel Buderiez Cader Charnarzhan Colunou Conguen Daondog Daray Deli Deneg Dive Dogman Dolazeg Dourilin Dozeg Duna Eflaig Eflaün Elec'h Elonved Eloulcha Emethille Emmig Enoeveornez Enorve Eozekolig Ergado Ergan Eudocroliz Euriarn Evann Evemerlorey Ewalous Fael Fanez Fielig Filduanz Fint-Brist Frac'han Fran Friauman Gall Garev Geviz Gireadez Girin Gobrianed Gonwentig Goulfinnig Goulig Goven Govre Guennaiwan Guic'hian Guirinarec Gurestel Gurieg Gwen Gwenella Gwenoc Gwetal Gwin Gwina Haelmianned Hara Hare Hern Hoeig Hougay Iduen Iodieus Iodren Izabed Izun Jacloulv Jalla Jaor Joalas Jobrivoig Jorianeg Jostelo Judec Kaonwenned Kaoulm Kaourevran Kard Karia Karrig Kennicar Kenoé Klec Koliz Kollael Kontelinnig Kouldasian Kour Kourevalo Kourgunoren Krean Kria Kricarna Krig Kris Levalaig Levant-Mat Levelinaig Liboth Lizabu Loceus Lochana Loe Loel Loell Louli Lunick Lunougduin Macmeu Madez Madezielei Madon Mala Marnied Marzhian Marzhulch Mazel Mealae Meat Melez Melfin Merifig Mikaz Mild Mildas Milieuc Modie Monaskern Morevael Morivizied Nenoganse Nevrey Niog Noevae Nola Nolé Noyalod Orina Paberban Padeg Padez Padvaegoneg Pasilia Pielant Pien Pola Pona Quant-Bri Quimperian Riocmancha Riwalennier Riwantig Rocez Rogal Roparlé Roper Ruanse Saiques Saired Salau Sanerisilig Sanig Seremp Sevall Skla Solez Steveforia Sulfinian Sulig Sulomorle Sulou Thélivoick Tintenni Toellia Tudeadenan Tugengour Urfoli Uriez Uuenn Uueryn Vouenig Voul Wiuhez Yaned Yaolenan Yuveznok
+			}
+			
+            regnal_first_names_male = {
+				Alèth Arzhutus Denwal Elerner Guic'h Judochel Kouriven Modoc Nevennou Riennogan Treve
+            }
+           
+            regnal_first_names_female = {
+				Aamela Arzhed Frantell Gwenvenela Izolina Maellevael Marijen Nolis Tuden Vourid
+            }
+			
+			
+			regnal_second_names = {
+				Arzhwalo Audonez Briziel Buderiez Colunou Daondog Elonved Emethille Evann Geviz Gonwentig Gwenoc Joalas Kenoé Kontelinnig Loceus Louli Monaskern Noevae Nolé Padez Pielant Riwalennier Saiques Sanerisilig Seremp Tugengour
+			}
+		}
+	}
+}

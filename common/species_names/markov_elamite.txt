@@ -1,0 +1,415 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	halankip = {
+		name = Halan-kippite
+		plural = Halan-kippites
+		home_planet = Halan-kip
+		home_system = Kur-ram-shi
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	namyaakpi = {
+		name = Namyaak
+		plural = Namyaaks
+		home_planet = Nam-yaak-pi
+		home_system = Sháud-dum
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	ostraconofsaba = {
+		name = Sa-bíin
+		plural = Sa-bíin
+		home_planet = "Ostracon of Sa-ba"
+		home_system = "Golden Chisel"
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	duhashuum = {
+		name = Duhashuumese
+		plural = Duhashuumese
+		home_planet = Duhashuum
+		home_system = Siitir
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	kuurhaa = {
+		name = Ku-ur
+		plural = Ku-ur
+		home_planet = Ku-ur-Ha-a
+		home_system = "Ba-ri Halin" 
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	shiip = {
+		name = Shiipic
+		plural = Shiipics
+		home_planet = Shiip
+		home_system = Zikkap 
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	saazzi = {
+		name = Sa'azan
+		plural = Sa'azans
+		home_planet = Sa-azzi
+		home_system = Innimar-mi-pi 
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	hielan = {
+		name = Hielanoid
+		plural = Hielanoids
+		home_planet = Hielan
+		home_system = Kikrium 
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	haankikriprime = {
+		name = Shtuul
+		plural = Shtuul
+		home_planet = "Haan-kik-ri Prime"
+		home_system = Haan-kik-ri
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	periumasutun = {
+		name = Periumese
+		plural = Periumese
+		home_planet = Periumasu-tun
+		home_system = Puhuhash-tin
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	haakri = {
+		name = Aaakra
+		plural = Aaakra
+		home_planet = Ha-ak-ri
+		home_system = Kán-raak
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	orificeofnectar = {
+		name = Zamite
+		plural = Zamites
+		home_planet = "Orifice of Nectar"
+		home_system = "Glorious Codex"
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	barmititi = {
+		name = Barmitian
+		plural = Barmitians
+		home_planet = Barmititi
+		home_system = Sháiriki
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	shaal = {
+		name = Shá-alese  
+		plural = Shá-alese
+		home_planet = Shá-al
+		home_system = Ishera-um
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	dallateip = {
+		name = Dal-la-te-ipian  
+		plural = Dal-la-te-ipians
+		home_planet = Dal-la-te-ip
+		home_system = A-a-ra-api
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	uumnithemirthsinger = {
+		name = Ukiinish  
+		plural = Ukiinish
+		home_planet = "U-um-ni the Mirth-Singer"
+		home_system = "Kazal-li the Justice-Giver"
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	kutuhu = {
+		name = Kuttite  
+		plural = Kuttites
+		home_planet = "Kut Úhu"
+		home_system = Uz-zib-be
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	beitir = {
+		name = Beitirese  
+		plural = Beitirese
+		home_planet = Beitir
+		home_system = Hatel
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	turuu = {
+		name = Turuan 
+		plural = Turuans
+		home_planet = Turu-ú
+		home_system = Telpi-ki
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	bunnapri = {
+		name = Qaqaban 
+		plural = Qaqabans
+		home_planet = "Bun Nap-ri"
+		home_system = "Bun Ir-piya"
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	emeraldlock = {
+		name = Shà-ru-na 
+		plural = Shà-ru-na
+		home_planet = "Emerald Lock"
+		home_system = "Ivory Chains"
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	puushinaqa = {
+		name = Pu-naqian 
+		plural = Pu-naqians
+		home_planet = Pu-ushi-naqa
+		home_system = A-an-nu
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	duhhiipiik = {
+		name = Ah-Hiipi-ikian 
+		plural = Ah-Hiipi-ikians
+		home_planet = Du-h-hiipi-ik
+		home_system = Si-kum-ma-ik-ni
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	haarri = {
+		name = Isha-masu
+		plural = Isha-masu
+		home_planet = Ha-ar-ri
+		home_system = Ir-ki-nah-sh
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	pabasuprime = {
+		name = Pabasid
+		plural = Pabasids
+		home_planet = "Pa-ba-su Prime"
+		home_system = Pa-ba-su
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	musakitu = {
+		name = Kut-Kut
+		plural = Kut-Kut
+		home_planet = "Musa Kitú"
+		home_system = "Musa Ruttáh"
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	pisasisu = {
+		name = Pisasisoid
+		plural = Pisasisoids
+		home_planet = Pisasisu
+		home_system = Tukkirsh
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	hakrashin = {
+		name = Dunza
+		plural = Dunzas
+		home_planet = Hak-ra-shin
+		home_system = Hash-shu-te-ir
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	pushari = {
+		name = Pusharian
+		plural = Pusharians
+		home_planet = Pu-shá-ri
+		home_system = Hishiip-pi
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	tarulaan = {
+		name = Tarulese
+		plural = Tarulese
+		home_planet = Taru-laan
+		home_system = Kus-shá-ag-gi
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	zibbel = {
+		name = Zibbelese
+		plural = Zibbelese
+		home_planet = Zibbel
+		home_system = Áshá
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	vinazco = {
+		name = Uzzian
+		plural = Uzzians
+		home_planet = "Mother Uz-zaate"
+		home_system = "Father Uz-zaate"
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	elaluun = {
+		name = Hu-h
+		plural = Hu-h
+		home_planet = Ela'Lu-un
+		home_system = Ela'Lu-un
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	ullubbathedefender = {
+		name = Ullu-Kutiinian
+		plural = Ullu-Kutiinians
+		home_planet = "Ullubba the Defender"
+		home_system = "Hutuur the Wise"
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	kirahpu = {
+		name = Tar-Rah
+		plural = Tar-Rah
+		home_planet = Ki-rahpi
+		home_system = Ta-alki-ip
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	ukkutin = {
+		name = Ukkutinese
+		plural = Ukkutinese
+		home_planet = Ukkutin
+		home_system = Halpirsh
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	huunpurmee = {
+		name = Huunpurite
+		plural = Huunpurites
+		home_planet = "Hu-unpur Mee"
+		home_system = "Ri-in-ti-lah Mee"
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	puungi = {
+		name = Pu-ungian
+		plural = Pu-ungians
+		home_planet = Pu-ungi
+		home_system = Ku-halpilhi
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	shaateum = {
+		name = Sháateumese
+		plural = Sháateumese
+		home_planet = Sháateum
+		home_system = Tu-usarshi
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	zuukpuulluum = {
+		name = Hutur-ri
+		plural = Hutur-ri
+		home_planet = Zuuk-pu-ullu-um
+		home_system = Puuman-gi-ki
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	aadduprime = {
+		name = Aaddite
+		plural = Aaddites
+		home_planet = "A-ad-du Prime"
+		home_system = A-ad-du
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	mushadahsha = {
+		name = Mushádayan
+		plural = Mushádayans
+		home_planet = Mushádahshà
+		home_system = "Kush Mashu"
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	luutiitti = {
+		name = Lutititian
+		plural = Lutititians
+		home_planet = Lu-uti-it-ti
+		home_system = Ruukri-ut
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	buum = {
+		name = Hu-um
+		plural = Hu-um
+		home_planet = Bu-um
+		home_system = Bun
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	murmaamya = {
+		name = Mur-maamese
+		plural = Mur-maamese
+		home_planet = Mur-maam-ya
+		home_system = Me-ena-at
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	kurpah = {
+		name = Kurpite
+		plural = Kurpites
+		home_planet = Kurpah
+		home_system = Turanna
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	qabaul = {
+		name = Qabaulite
+		plural = Qabaulites
+		home_planet = Qa-baul
+		home_system = Ru-bi
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	kuukkurra = {
+		name = Ku'uk'kurran
+		plural = Ku'uk'kurrans
+		home_planet = Ku-uk-kur-ra
+		home_system = "Bar-ra Ku-du"
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	sarutraki = {
+		name = Sarutrak
+		plural = Sarutraks
+		home_planet = "Sa-ru Tra-ki"
+		home_system = Te-ri-inu-tu
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	suunkuun = {
+		name = Shàri
+		plural = Shàri
+		home_planet = Suunku-un
+		home_system = Ma-irin
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+	irshupur = {
+		name = Ir-shupurid
+		plural = Ir-shupurids
+		home_planet = Ir-shu-pur
+		home_system = Unap-hari-i
+		name_list = "cybrxkhan_handmade_elamite"
+	}
+}
+

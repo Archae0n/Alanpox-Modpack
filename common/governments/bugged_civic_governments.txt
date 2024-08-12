@@ -1,0 +1,54 @@
+# Criminals 
+# Criminal Collective
+gov_democratic_criminal_syndicate = {
+	ruler_title = RT_PRESIDENT
+
+	should_force_rename = yes
+
+	possible = {
+		has_authority = auth_bugged_corporate_democratic
+		has_valid_civic = civic_criminal_heritage
+	}
+
+	weight = {
+		base = @gov_civic_override_weight
+	}
+}
+
+# Crime Family
+gov_imperial_criminal_syndicate = {
+	ruler_title = RT_PATRIARCH
+	ruler_title_female = RT_MATRIARCH
+	heir_title = HT_CROWN_PRINCE
+	heir_title_female = HT_CROWN_PRINCESS
+
+	should_force_rename = yes
+
+	possible = {
+		has_authority = auth_bugged_corporate_imperial
+		has_valid_civic = civic_criminal_heritage
+	}
+
+	weight = {
+		base = @gov_civic_override_weight
+	}
+}
+
+gov_bugged_war_cult = {
+	ruler_title = RT_BUGGED_WAR_CULT
+	ruler_title_female = RT_BUGGED_WAR_CULT_FEMALE
+
+	should_force_rename = yes
+
+	possible = {
+		has_authority = auth_oligarchic
+		OR = {
+			has_valid_civic = civic_bugged_war_cult
+			has_valid_civic = civic_bugged_war_cult_corpo
+		}
+	}
+
+	weight = {
+		base = @gov_civic_prio_weight
+	}
+}

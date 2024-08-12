@@ -1,0 +1,169 @@
+
+namespace = mem_tales_of_yore
+
+#Tales of Yore
+#Writing and idea by ForeMole
+#Code by LamilLerran
+
+#Initial Event
+#yearly pulse
+country_event = {
+	id = mem_tales_of_yore.100
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+		NOR = {
+			has_country_flag = mem_tales_of_yore_started
+			has_ethic = ethic_gestalt_consciousness
+		}
+		any_owned_planet = {
+			is_capital = no
+			NOT = { has_planet_flag = colony_event }
+			habitable_planet_not_urban = yes
+			num_pops > 6
+		}
+	}
+
+	immediate = {
+		random_list = {
+			100 = {
+			}
+			1 = { # not in this playthrough
+				set_country_flag = mem_tales_of_yore_started
+			}
+			2 = { # start the event
+				set_country_flag = mem_tales_of_yore_started
+				random_owned_planet = {
+					limit = {
+						is_capital = no
+						NOT = { has_planet_flag = colony_event }
+						habitable_planet_not_urban = yes
+						num_pops > 6
+					}
+					set_planet_flag = colony_event
+					planet_event = {
+						id = mem_tales_of_yore.1
+						days = 1
+						random = 355
+					}
+				}
+			}
+		}
+	}
+}
+
+planet_event = {
+	id = mem_tales_of_yore.1
+	title = "mem_tales_of_yore.1.name"
+	desc = "mem_tales_of_yore.1.desc"
+	picture = GFX_evt_colony_settlement
+	
+	location = root
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mem_tales_of_yore.1.a
+		enable_special_project = {
+			name = "MEM_TALES_OF_YORE_PROJECT"
+			location = this
+			owner = owner
+		}
+	}
+}
+
+#Success
+planet_event = {
+	id = mem_tales_of_yore.2
+	title = "mem_tales_of_yore.2.name"
+	desc = "mem_tales_of_yore.2.desc"
+	picture = GFX_evt_mem_mountain_ruin
+	
+	location = root
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mem_tales_of_yore.2.default
+		trigger = {
+			owner = {
+				NOR = {
+					has_ethic = ethic_materialist
+					has_ethic = ethic_fanatic_materialist
+					has_ethic = ethic_spiritualist
+					has_ethic = ethic_fanatic_spiritualist
+					has_ethic = ethic_militarist
+					has_ethic = ethic_fanatic_militarist
+					has_ethic = ethic_pacifist
+					has_ethic = ethic_fanatic_pacifist
+				}
+			}
+		}
+		add_modifier = {
+			modifier = "mem_tales_of_yore_modifier_gen"
+			days = -1
+		}
+	}
+	option = {
+		name = mem_tales_of_yore.2.mat
+		trigger = {
+			owner = {
+				OR = {
+					has_ethic = ethic_materialist
+					has_ethic = ethic_fanatic_materialist
+				}
+			}
+		}
+		add_modifier = {
+			modifier = "mem_tales_of_yore_modifier_mat"
+			days = -1
+		}
+	}
+	option = {
+		name = mem_tales_of_yore.2.spi
+		trigger = {
+			owner = {
+				OR = {
+					has_ethic = ethic_spiritualist
+					has_ethic = ethic_fanatic_spiritualist
+				}
+			}
+		}
+		add_modifier = {
+			modifier = "mem_tales_of_yore_modifier_spi"
+			days = -1
+		}
+	}
+	option = {
+		name = mem_tales_of_yore.2.mil
+		trigger = {
+			owner = {
+				OR = {
+					has_ethic = ethic_militarist
+					has_ethic = ethic_fanatic_militarist
+				}
+			}
+		}
+		add_modifier = {
+			modifier = "mem_tales_of_yore_modifier_mil"
+			days = -1
+		}
+	}
+	option = {
+		name = mem_tales_of_yore.2.pac
+		trigger = {
+			owner = {
+				OR = {
+					has_ethic = ethic_pacifist
+					has_ethic = ethic_fanatic_pacifist
+				}
+			}
+		}
+		add_modifier = {
+			modifier = "mem_tales_of_yore_modifier_pac"
+			days = -1
+		}
+	}
+}

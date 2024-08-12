@@ -1,0 +1,615 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_republic"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_republic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_soviet"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_soviet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_combine"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_combine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_pizdec"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_pizdec.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_machine"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_machine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_hive"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_hive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_ingsoc"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_ingsoc.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_xenophob"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_xenophob.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_startrek"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_startrek.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_crimes"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_crimes.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_hre"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_hre.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_pacifist"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_pacifist.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_militarist"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_militarist.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_cmaterialist"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_cmaterialist.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_cspiritualist"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_cspiritualist.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_cpirate"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_cpirate.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_2egalitarian_cservitor"
+		texturefile = "gfx/interface/icons/resolutions/resolution_2egalitarian_cservitor.dds"
+	}
+	
+
+	spriteType = {
+		name = "GFX_armee_cmb_ww"
+		texturefile = "gfx/interface/icons/armies/armee_cmb_ww.dds"
+	}
+	spriteType = {
+		name = "GFX_red_armee_ww"
+		texturefile = "gfx/interface/icons/armies/red_armee_ww.dds"
+	}
+	spriteType = {
+		name = "GFX_grand_armee_ww"
+		texturefile = "gfx/interface/icons/armies/grand_armee_ww.dds"
+	}
+	spriteType = {
+		name = "GFX_pmc_rostov"
+		texturefile = "gfx/interface/icons/armies/pmc_rostov.dds"
+	}
+	spriteType = {
+		name = "GFX_armee_chive"
+		texturefile = "gfx/interface/icons/armies/armee_chive.dds"
+	}
+	spriteType = {
+		name = "GFX_armee_botsss"
+		texturefile = "gfx/interface/icons/armies/armee_botsss.dds"
+	}
+	spriteType = {
+		name = "GFX_armee_creaver"
+		texturefile = "gfx/interface/icons/armies/armee_creaver.dds"
+	}
+	spriteType = {
+		name = "GFX_armee_tdd"
+		texturefile = "gfx/interface/icons/armies/armee_tdd.dds"
+	}
+	spriteType = {
+		name = "GFX_armee_jojo"
+		texturefile = "gfx/interface/icons/armies/armee_jojo.dds"
+	}
+	spriteType = {
+		name = "GFX_armee_gdf"
+		texturefile = "gfx/interface/icons/armies/armee_gdf.dds"
+	}
+	spriteType = {
+		name = "GFX_armee_ck3c"
+		texturefile = "gfx/interface/icons/armies/armee_ck3c.dds"
+	}
+	spriteType = {
+		name = "GFX_armee_kenway"
+		texturefile = "gfx/interface/icons/armies/armee_kenway.dds"
+	}
+	spriteType = {
+		name = "GFX_armee_remedy2"
+		texturefile = "gfx/interface/icons/armies/armee_remedy2.dds"
+	}
+	spriteType = {
+		name = "GFX_armee_wips"
+		texturefile = "gfx/interface/icons/armies/armee_wips.dds"
+	}
+	spriteType = {
+		name = "GFX_armee_stormtrops"
+		texturefile = "gfx/interface/icons/armies/armee_stormtrops.dds"
+	}
+	spriteType = {
+		name = "GFX_armee_czenith"
+		texturefile = "gfx/interface/icons/armies/armee_czenith.dds"
+	}
+
+
+	
+	spriteType = {
+		name = "GFX_resolution_combine_citadel"
+		texturefile = "gfx/interface/icons/resolutions/resolution_combine_citadel.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_combine_transarm"
+		texturefile = "gfx/interface/icons/resolutions/resolution_combine_transarm.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_combine_tech"
+		texturefile = "gfx/interface/icons/resolutions/resolution_combine_tech.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_combine_singularity"
+		texturefile = "gfx/interface/icons/resolutions/resolution_combine_singularity.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_combine_existance"
+		texturefile = "gfx/interface/icons/resolutions/resolution_combine_existance.dds"
+	}
+	spriteType = {
+		name = "GFX_combine_nope"
+		texturefile = "gfx/interface/icons/resolutions/combine_nope.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_resolution_csoviets_domsovetov"
+		texturefile = "gfx/interface/icons/resolutions/resolution_csoviets_domsovetov.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_csoviets_redarmy"
+		texturefile = "gfx/interface/icons/resolutions/resolution_csoviets_redarmy.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_csoviets_internationale"
+		texturefile = "gfx/interface/icons/resolutions/resolution_csoviets_internationale.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_csoviets_socplan"
+		texturefile = "gfx/interface/icons/resolutions/resolution_csoviets_socplan.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_csoviets_victory"
+		texturefile = "gfx/interface/icons/resolutions/resolution_csoviets_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_csoviets_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_csoviets_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_crepublic_senate"
+		texturefile = "gfx/interface/icons/resolutions/resolution_crepublic_senate.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_crepublic_grandarmee"
+		texturefile = "gfx/interface/icons/resolutions/resolution_crepublic_grandarmee.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_crepublic_shield"
+		texturefile = "gfx/interface/icons/resolutions/resolution_crepublic_shield.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_crepublic_federals"
+		texturefile = "gfx/interface/icons/resolutions/resolution_crepublic_federals.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_crepublic_ender"
+		texturefile = "gfx/interface/icons/resolutions/resolution_crepublic_ender.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_crepublic_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_crepublic_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_cpizdec_hq"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpizdec_hq.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cpizdec_rostov"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpizdec_rostov.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cpizdec_brand"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpizdec_brand.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cpizdec_crisis"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpizdec_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cpizdec_taxes"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpizdec_taxes.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cpizdec_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpizdec_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_chive_tree"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chive_tree.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_chive_drones"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chive_drones.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_chive_influence"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chive_influence.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_chive_stockpile"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chive_stockpile.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_chive_primacy"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chive_primacy.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_chive_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chive_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_cmachine_nodes"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmachine_nodes.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cmachine_warforms"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmachine_warforms.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cmachine_techprim"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmachine_techprim.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cmachine_protection"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmachine_protection.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cmachine_efficient"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmachine_efficient.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cmachine_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmachine_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_c1984_ministries"
+		texturefile = "gfx/interface/icons/resolutions/resolution_c1984_ministries.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_c1984_warispeace"
+		texturefile = "gfx/interface/icons/resolutions/resolution_c1984_warispeace.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_c1984_thoughtcrime"
+		texturefile = "gfx/interface/icons/resolutions/resolution_c1984_thoughtcrime.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_c1984_newspeak"
+		texturefile = "gfx/interface/icons/resolutions/resolution_c1984_newspeak.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_c1984_nofreedom"
+		texturefile = "gfx/interface/icons/resolutions/resolution_c1984_nofreedom.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_c1984_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_c1984_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_cxenophob"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cxenophob.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cxenophob_spire"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cxenophob_spire.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cxenophob_reavers"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cxenophob_reavers.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cxenophob_purge"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cxenophob_purge.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cxenophob_crisis"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cxenophob_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cxenophob_preservation"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cxenophob_preservation.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cxenophob_repeal"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cxenophob_repeal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_cstartrek"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cstartrek.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cstartrek_council"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cstartrek_council.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cstartrek_tdd"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cstartrek_tdd.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cstartrek_primedir"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cstartrek_primedir.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cstartrek_crisis"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cstartrek_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cstartrek_exchange"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cstartrek_exchange.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_ccrimes"
+		texturefile = "gfx/interface/icons/resolutions/resolution_ccrimes.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_ccrimes_consortium"
+		texturefile = "gfx/interface/icons/resolutions/resolution_ccrimes_consortium.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_ccrimes_shadows"
+		texturefile = "gfx/interface/icons/resolutions/resolution_ccrimes_shadows.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_ccrimes_smugglers"
+		texturefile = "gfx/interface/icons/resolutions/resolution_ccrimes_smugglers.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_ccrimes_crisis"
+		texturefile = "gfx/interface/icons/resolutions/resolution_ccrimes_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_ccrimes_bobafett"
+		texturefile = "gfx/interface/icons/resolutions/resolution_ccrimes_bobafett.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_ccrimes_repeal"
+		texturefile = "gfx/interface/icons/resolutions/resolution_ccrimes_repeal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_chre"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chre.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_chre_cathedrals"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chre_cathedrals.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_chre_jojo"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chre_jojo.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_chre_reform"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chre_reform.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_chre_shield"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chre_shield.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_chre_ascend"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chre_ascend.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_chre_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_chre_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_militarist"
+		texturefile = "gfx/interface/icons/resolutions/resolution_militarist.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_militarist_building"
+		texturefile = "gfx/interface/icons/resolutions/resolution_militarist_building.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_militarist_army"
+		texturefile = "gfx/interface/icons/resolutions/resolution_militarist_army.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_militarist_casusb"
+		texturefile = "gfx/interface/icons/resolutions/resolution_militarist_casusb.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_militarist_crisis"
+		texturefile = "gfx/interface/icons/resolutions/resolution_militarist_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_militarist_unique"
+		texturefile = "gfx/interface/icons/resolutions/resolution_militarist_unique.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_militarist_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_militarist_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_pacifist"
+		texturefile = "gfx/interface/icons/resolutions/resolution_pacifist.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_pacifist_building"
+		texturefile = "gfx/interface/icons/resolutions/resolution_pacifist_building.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_pacifist_army"
+		texturefile = "gfx/interface/icons/resolutions/resolution_pacifist_army.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_pacifist_casusb"
+		texturefile = "gfx/interface/icons/resolutions/resolution_pacifist_casusb.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_pacifist_crisis"
+		texturefile = "gfx/interface/icons/resolutions/resolution_pacifist_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_pacifist_unique"
+		texturefile = "gfx/interface/icons/resolutions/resolution_pacifist_unique.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_pacifist_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_pacifist_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_cmaterialist"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmaterialist.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cmaterialist_building"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmaterialist_building.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cmaterialist_army"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmaterialist_army.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cmaterialist_casusb"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmaterialist_casusb.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cmaterialist_crisis"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmaterialist_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cmaterialist_unique"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmaterialist_unique.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cmaterialist_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmaterialist_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_cspiritualist"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cspiritualist.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cspiritualist_building"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cspiritualist_building.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cspiritualist_army"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cspiritualist_army.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cspiritualist_casusb"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cspiritualist_casusb.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cspiritualist_crisis"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cspiritualist_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cspiritualist_unique"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cspiritualist_unique.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cspiritualist_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cspiritualist_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_cpirate"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpirate.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cpirate_building"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpirate_building.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cpirate_army"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpirate_army.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cpirate_casusb"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpirate_casusb.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cpirate_crisis"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpirate_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cpirate_unique"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpirate_unique.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cpirate_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cpirate_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_cservitor"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cservitor.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cservitor_building"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cservitor_building.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cservitor_army"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cservitor_army.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cservitor_casusb"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cservitor_casusb.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cservitor_crisis"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cservitor_crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cservitor_unique"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cservitor_unique.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cservitor_nope"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cservitor_nope.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_cmartlet"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cmartlet.dds"
+	}
+	spriteType = {
+		name = "GFX_resolution_cbananas"
+		texturefile = "gfx/interface/icons/resolutions/resolution_cbananas.dds"
+	}
+}

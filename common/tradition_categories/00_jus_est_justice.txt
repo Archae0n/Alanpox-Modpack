@@ -1,0 +1,36 @@
+tradition_est_justice = {
+	tree_template = "tree_est_0_1_1_3_4"
+	adoption_bonus = "tr_est_justice_adopt"
+	finish_bonus = "tr_est_justice_finish"
+	traditions = {
+		"tr_est_justice_1"
+		"tr_est_justice_2"
+		"tr_est_justice_3"
+		"tr_est_justice_4"
+		"tr_est_justice_5"
+	}
+
+	potential = {
+		est_justice_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_ethic = ethic_egalitarian
+		}
+		modifier = {
+			factor = 3
+			has_ethic = ethic_fanatic_egalitarian
+		}	
+		modifier = {
+			factor = 2
+			has_ai_personality = democratic_crusaders
+		}	
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

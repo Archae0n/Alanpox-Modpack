@@ -1,0 +1,400 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	jirpur = {
+		name = Jirpurid
+		plural = Jirpurids
+		home_planet = Jirpur
+		home_system = Mohanjaz
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	mujipez = {
+		name = Mujipezer
+		plural = Mujipezers
+		home_planet = "Valley of Muji Pez"
+		home_system = "Mount Estani"
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	rasiyyerb = {
+		name = Rasiyyerbian
+		plural = Rasiyyerbians
+		home_planet = Rasiyyerb
+		home_system = Rayar
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	tarsadiz = {
+		name = Tarsadizzian
+		plural = Tarsadizzians
+		home_planet = Tarsadiz
+		home_system = "Bahan Mahvaz"
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	parzi = {
+		name = Parzid
+		plural = Parzids
+		home_planet = Parzi
+		home_system = Hejmader
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	gishka = {
+		name = Gishkid
+		plural = Gishkids
+		home_planet = Gishka
+		home_system = Shafaroo 
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	talaq = {
+		name = Talaqid
+		plural = Talaqids
+		home_planet = Talaq
+		home_system = Roozhad 
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	shamdar = {
+		name = Shamdarese
+		plural = Shamdarese
+		home_planet = Shamdar
+		home_system = Za'faqaideh 
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	khoshti = {
+		name = Khoshtoid
+		plural = Khoshtoids
+		home_planet = Khoshti
+		home_system = Sur-e 
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	hamgham = {
+		name = Hamghamid
+		plural = Hamghamids
+		home_planet = Hamgham
+		home_system = Chahtanabi
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	khahhadieh = {
+		name = Khahhadian
+		plural = Khahhadians
+		home_planet = Khahhadieh
+		home_system = Tahrdandary
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	nedadad = {
+		name = Nedadadid
+		plural = Nedadadids
+		home_planet = Nedadad
+		home_system = "Bani Lai"
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	zarushadeh = {
+		name = Zarushadic
+		plural = Zarushadics
+		home_planet = Zarushadeh
+		home_system = Khabehr
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	eyvoody = {
+		name = Eyvoodian  
+		plural = Eyvoodians
+		home_planet = Eyvoody
+		home_system = Hisaneh
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	vanazvi = {
+		name = Vanazvian  
+		plural = Vanazvians
+		home_planet = Vanazvi
+		home_system = Armandas
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	heavensstelae = {
+		name = Khussid
+		plural = Khussids
+		home_planet = "Heaven's Stelae"
+		home_system = "Amber Citadel"
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	maham = {
+		name = Mahamese  
+		plural = Mahamese
+		home_planet = Maham
+		home_system = Mada-Ahah
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	azishah = {
+		name = Azishean  
+		plural = Azisheans
+		home_planet = Azishah
+		home_system = Hornan
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	roukhtferin = {
+		name = Ferinite 
+		plural = Ferinites
+		home_planet = "Rokht Ferin"
+		home_system = "Rokht Forush"
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	salvad = {
+		name = Salvadian 
+		plural = Salvadians
+		home_planet = Salvad
+		home_system = Mahrdolba
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	neghezza = {
+		name = Neghian 
+		plural = Neghians
+		home_planet = "Negh Ezza"
+		home_system = Sitazhakh
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	kayariprime = {
+		name = Kayarid 
+		plural = Kayarids
+		home_planet = "Kayari Prime"
+		home_system = Kayari
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	farshallaqi = {
+		name = Farsha 
+		plural = Farshas
+		home_planet = Farshallaqi
+		home_system = Mujta
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	borokhtani = {
+		name = Borokhtanid
+		plural = Borokhtanids
+		home_planet = Borokhtani
+		home_system = Mahloman
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	hidistari = {
+		name = Hidistarian
+		plural = Hidistarians
+		home_planet = Hidistari
+		home_system = Noorughirdeh
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	hadkhan = {
+		name = Hadkhanite
+		plural = Hadkhanites
+		home_planet = "Had Khan"
+		home_system = "Raz Mouzad"
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	mahmalim = {
+		name = Ammalimoid
+		plural = Ammalimoids
+		home_planet = Mah-Malim
+		home_system = Bahaneyniros
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	shakdagh = {
+		name = Shakdaghian
+		plural = Shakdaghians
+		home_planet = Shakdagh
+		home_system = "Zakht Rahya"
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	saghak = {
+		name = Saghakoid
+		plural = Saghakoids
+		home_planet = Saghak
+		home_system = Golhajid
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	mahehr = {
+		name = "Sa'ad Meh"
+		plural = "Sa'ad Meh"
+		home_planet = Mahehr
+		home_system = Gitandar
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	babebil = {
+		name = Babebilian
+		plural = Babebilians
+		home_planet = Babebil
+		home_system = Paryad
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	jafighir = {
+		name = Jafighiroid
+		plural = Jafighiroids
+		home_planet = Jafighir
+		home_system = "Pey Mah"
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	izanhashar = {
+		name = I-Hasharite
+		plural = I-Hasharites
+		home_planet = "Izan Hashar"
+		home_system = Ramghasht
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	kashparez = {
+		name = Kashparian
+		plural = Kashparians
+		home_planet = Kashparez
+		home_system = Marvi
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	jaidad = {
+		name = Ja'idian
+		plural = Ja'idians
+		home_planet = Ja'idad
+		home_system = Toud-Fareh
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	lovelysinger = {
+		name = Lallal
+		plural = Lallal
+		home_planet = "Lovely Singer"
+		home_system = "Graceful Dancer"
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	azamarvi = {
+		name = Azamarvid
+		plural = Azamarvids
+		home_planet = Azamarvi
+		home_system = Soharkhzat
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	bussad = {
+		name = Bussadid
+		plural = Bussadids
+		home_planet = Bussad
+		home_system = Zahlomasb
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	khahlanur = {
+		name = Khahlanurid
+		plural = Khahlanurids
+		home_planet = Khahlanur
+		home_system = Shahroorza
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	parramdonbaran = {
+		name = Donbaranite
+		plural = Donbaranites
+		home_planet = "Par ram'Donbaran"
+		home_system = Mahruzeva
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	qain = {
+		name = Jah
+		plural = Jah
+		home_planet = Qa'in
+		home_system = Puzfari
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	abbadia = {
+		name = Abbadid
+		plural = Abbadids
+		home_planet = Abbadia
+		home_system = Zarsa
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	rouravandi = {
+		name = Rouravandid
+		plural = Rouravandids
+		home_planet = Rouravandi
+		home_system = Satkhormaj
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	masbadi = {
+		name = Masbadian
+		plural = Masbadians
+		home_planet = Masbadi
+		home_system = Nouzem
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	jaljahi = {
+		name = Jaljahid
+		plural = Jaljahids
+		home_planet = Jaljahi
+		home_system = Kan'Khodad
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	majandad = {
+		name = Majandadid
+		plural = Majandadids
+		home_planet = Majandad
+		home_system = Sohya
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	firooneh = {
+		name = Firoonid
+		plural = Firoonids
+		home_planet = Firooneh
+		home_system = Behza
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	forang = {
+		name = Forangese
+		plural = Forangese
+		home_planet = Forang
+		home_system = Behni-Tarin
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+	habnedeh = {
+		name = Habnedean
+		plural = Habnedeans
+		home_planet = Habnedeh
+		home_system = "Jahr Lor"
+		name_list = "cybrxkhan_handmade_persian_2"
+	}
+}

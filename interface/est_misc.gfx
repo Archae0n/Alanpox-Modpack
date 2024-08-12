@@ -1,0 +1,21 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_est_wg_plunder"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_war.dds"
+		noOfFrames = 2
+	}	
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_text_admiral_small"
+		texturefile = "gfx/interface/icons/text_icons/text_icon_admiral_small.dds"
+	}	
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_text_general_small"
+		texturefile = "gfx/interface/icons/text_icons/text_icon_general_small.dds"
+	}	
+}

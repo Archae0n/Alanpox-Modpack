@@ -1,0 +1,197 @@
+tr_est_academy_adopt = {
+	custom_tooltip = tr_est_academy_adopt_desc
+	unlocks_agenda = agenda_est_academy
+
+	on_enabled = {
+		country_event = {
+			id = est_academy.1
+		}
+	}
+	
+	# Triggered Modifiers
+	
+	tradition_swap = {
+		name = tr_est_academy_adopt_picked
+		inherit_effects = no
+		inherit_icon = yes
+		inherit_name = yes
+		trigger = {
+			has_country_flag = est_academy_opener_picked
+		}
+		triggered_modifier = {
+			potential = { has_country_flag = flag_est_academy_adopt_particles }
+			category_particles_research_speed_mult = 0.15
+		}
+	
+		triggered_modifier = {
+			potential = { has_country_flag = flag_est_academy_adopt_computing }
+			category_computing_research_speed_mult = 0.15
+		}
+		
+		triggered_modifier = {
+			potential = { has_country_flag = flag_est_academy_adopt_field_manipulation }
+			category_field_manipulation_research_speed_mult = 0.15
+		}
+		
+		triggered_modifier = {
+			potential = { has_country_flag = flag_est_academy_adopt_voidcraft }
+			category_voidcraft_research_speed_mult = 0.15
+		}
+		
+		triggered_modifier = {
+			potential = { has_country_flag = flag_est_academy_adopt_materials }
+			category_materials_research_speed_mult = 0.15
+		}
+		
+		triggered_modifier = {
+			potential = { has_country_flag = flag_est_academy_adopt_industry }
+			category_industry_research_speed_mult = 0.15
+		}
+		
+		triggered_modifier = {
+			potential = { has_country_flag = flag_est_academy_adopt_rocketry }
+			category_propulsion_research_speed_mult = 0.15
+		}
+		
+		triggered_modifier = {
+			potential = { has_country_flag = flag_est_academy_adopt_biology }
+			category_biology_research_speed_mult = 0.15
+		}
+		
+		triggered_modifier = {
+			potential = { has_country_flag = flag_est_academy_adopt_statecraft }
+			category_statecraft_research_speed_mult = 0.15
+		}
+		
+		triggered_modifier = {
+			potential = { has_country_flag = flag_est_academy_adopt_military_theory }
+			category_military_theory_research_speed_mult = 0.15
+		}
+		
+		triggered_modifier = {
+			potential = { has_country_flag = flag_est_academy_adopt_new_worlds }
+			category_new_worlds_research_speed_mult = 0.15
+		}
+		weight = { factor = 1 }
+	}
+}
+
+tr_est_academy_finish = {
+	custom_tooltip = tr_est_academy_finish_desc
+
+	on_enabled = {
+		## (Ben_D): Depricated
+		# every_owned_leader = {
+		# 	owner = {
+		# 		country_event = {
+		# 			id = est_academy.3
+		# 			scopes = { 
+		# 				from = prev
+		# 			}
+		# 		}
+		# 	}
+		# }
+	}
+	
+	modifier = {	
+		ascension_perks_add = 1
+	}
+}
+
+
+tr_est_academy_1 = {
+	custom_tooltip = tr_est_academy_1_desc
+
+	modifier = {
+		country_leader_pool_size = 3
+	}
+
+	ai_weight = {
+		factor = 2000
+	}
+}
+
+tr_est_academy_2 = {	
+	custom_tooltip = tr_est_academy_2_desc
+
+	possible = {
+		has_tradition = tr_est_academy_1
+	}
+	
+	modifier = {
+		leader_initial_skill = 1
+	}
+	
+	on_enabled = {
+		every_owned_leader = {
+			add_experience = 200
+		}
+	}
+
+	ai_weight = {
+		factor = 3000
+	}
+}
+
+tr_est_academy_3 = {
+	possible = {
+		has_tradition = tr_est_academy_2
+	}
+	
+	modifier = {		
+		species_leader_exp_gain = 0.33
+	}
+
+	ai_weight = {
+		factor = 3000
+	}
+}
+
+tr_est_academy_4 = {
+
+	possible = {
+		has_tradition = tr_est_academy_3
+	}
+
+	modifier = {
+		job_researcher_add = 1
+	}
+
+	ai_weight = {
+		factor = 4000
+	}
+}
+
+tr_est_academy_5 = {
+
+	modifier = {
+		ship_starting_experience_add = 200
+		army_starting_experience_add = 200
+	}
+	
+	on_enabled = {
+		if = {
+			limit = {
+				has_paragon_dlc = yes
+			}
+			every_owned_leader = {
+				limit = {
+					leader_class = commander
+				}
+				add_skill_without_trait_selection = 1
+			}
+		}
+		else = {
+			every_owned_leader = {
+				limit = {
+					leader_class = commander
+				}
+				add_skill = 1
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 2000
+	}
+}

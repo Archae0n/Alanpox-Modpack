@@ -1,0 +1,19 @@
+
+
+message_type = {
+	key = "FTM_MESSAGE"
+	icon = "GFX_message_fleet_detected"
+	icon_frame = 1
+
+	sound = "discovery"
+	ping = "mixed_notification_yellow"
+}
+
+message_type = {
+	key = "FTM_AUCTION_LOT_LOST"
+	icon = "GFX_ftm_message_auction_lot_lost"
+	icon_frame = 1
+
+	sound = "notification"
+	ping = "ping_notification_red"
+}

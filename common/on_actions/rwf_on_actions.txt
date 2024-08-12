@@ -1,0 +1,28 @@
+on_survey_planet = {
+    events = {
+        rwf_flavour.30
+        rwf_flavour.40
+        rwf_flavour.41
+        rwf_flavour.42
+    }
+}
+
+# A colony has been destroyed. Called just before owner and controller is cleared
+# Scope = Planet
+on_colony_destroyed = {
+	events = {
+		rwf_flavour.100 # Ecu decay gatekeeper.
+	}
+}
+
+on_game_start = {
+	events = {
+		rwf_flavour.0 # Set the flag to show the mod is active
+	}
+}
+
+on_colonized = {
+	events = {
+		rwf_flavour.2 # Check if planet is a relic and give it the flavour event rolls
+	}
+}

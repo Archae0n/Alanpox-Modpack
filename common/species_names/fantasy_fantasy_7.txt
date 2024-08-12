@@ -1,0 +1,447 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	bisara = {
+		name = Bisarans
+		plural = Vilcanchans
+		home_planet = Bisara
+		home_system = Edzior
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	vapilah = {
+		name = Vapilian
+		plural = Vapilians
+		home_planet = Vapilah
+		home_system = Igalarg
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	crimlaria = {
+		name = Crimlarian
+		plural = Crimlarians
+		home_planet = Crimlaria
+		home_system = Crogan
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	stytori = {
+		name = Stytorian
+		plural = Stytorians
+		home_planet = Stytori
+		home_system = Etherlios
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	spigon = {
+		name = Spigonese
+		plural = Spigonese
+		home_planet = Spigon
+		home_system = Obsithrax 
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	ong = {
+		name = Ong
+		plural = Ong
+		home_planet = Ongant
+		home_system = Ongu 
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	xisranoria = {
+		name = Xisranorian
+		plural = Xisranorians
+		home_planet = Xisranoria
+		home_system = Vohne 
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	zahne = {
+		name = Bornear
+		plural = Bornear
+		home_planet = Zahne
+		home_system = Fysoth 
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	eyah = {
+		name = Eyah
+		plural = Eyah
+		home_planet = "Mant Jisa"
+		home_system = "Sedogab"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	torjin = {
+		name = Torjini
+		plural = Torjini
+		home_planet = Torjin
+		home_system = Savalar
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	torjin = {
+		name = Torjini
+		plural = Torjini
+		home_planet = Torjin
+		home_system = Savalar
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	zahrnneth = {
+		name = Dhar'Thesh
+		plural = Dhar'Thesh
+		home_planet = Zahrnneth
+		home_system = Ohisneth
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	uinti = {
+		name = Uinese  
+		plural = Uinese
+		home_planet = Uinti
+		home_system = Vantti
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	codanga = {
+		name = Codangan  
+		plural = Codangans
+		home_planet = Codanga
+		home_system = Biloran
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	aethenula = {
+		name = Aethenulan  
+		plural = Aethenulans
+		home_planet = Aethenula
+		home_system = "Mastra Crytori"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	talodon = {
+		name = Talodian  
+		plural = Talodians
+		home_planet = Talodon
+		home_system = Brutaron
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	glyseththeseeker = {
+		name = Zaenvynian  
+		plural = Zaenvynians
+		home_planet = "Glyseth the Seeker"
+		home_system = "Joranya the Just"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	felona = {
+		name = Felonan  
+		plural = Felonans
+		home_planet = Felona
+		home_system = Dhyer
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	pisar = {
+		name = Pisarid 
+		plural = Pisarids
+		home_planet = Pisar
+		home_system = "Ospi Varod"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	lorahra = {
+		name = Lorian 
+		plural = Lorians
+		home_planet = Lorahra
+		home_system = Lorahil
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	scorah = {
+		name = Scoran 
+		plural = Scorans
+		home_planet = Scorah
+		home_system = Eterras
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	primadun = {
+		name = Primadian 
+		plural = Primadians
+		home_planet = Primadun
+		home_system = "Anarlak Sulon"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	egodah = {
+		name = Egodite
+		plural = Egodites
+		home_planet = Egodah
+		home_system = Sasanteg
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	mogonte = {
+		name = Mogontean
+		plural = Mogonteans
+		home_planet = Mogonte
+		home_system = "Hedah Ogigoda"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	warros = {
+		name = Warrish
+		plural = Warrish
+		home_planet = Warros
+		home_system = Crypgo
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	evagora = {
+		name = Evagoran
+		plural = Evagorans
+		home_planet = Evagora
+		home_system = Savamajin
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	gagiol = {
+		name = Gagiolese
+		plural = Gagiolese
+		home_planet = Gagiol
+		home_system = "Megm Gagiol"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	brugauros = {
+		name = Brugauroid
+		plural = Brugauroids
+		home_planet = Brugauros
+		home_system = Frogan
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	qhesixprime = {
+		name = Qhe
+		plural = Qhe
+		home_planet = "Qhesix Prime"
+		home_system = Qhesix
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	jorran = {
+		name = Jhorranese
+		plural = Jhorranese
+		home_planet = Jhorran
+		home_system = Fyrnne
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	aralla = {
+		name = Arallan
+		plural = Arallans
+		home_planet = Aralla
+		home_system = "Dandah Barangot"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	razgar = {
+		name = Razgarite
+		plural = Razgarites
+		home_planet = Razgar
+		home_system = "Atarax Tarria"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	chariotofiphisned = {
+		name = Iphisnean
+		plural = Iphisneans
+		home_planet = "Chariot of Iphisned"
+		home_system = "Sword of Kryn Jorraxyth"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	orateva = {
+		name = Oratevish
+		plural = Oratevish
+		home_planet = Orateva
+		home_system = Ginonnya
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	chantraulonsa = {
+		name = Bahrah
+		plural = Bahrah
+		home_planet = "Chantra Ulonsa"
+		home_system = "Chantra Pime"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	yahran = {
+		name = Vhesh-Yarr
+		plural = Vhesh-Yarr
+		home_planet = Yahran
+		home_system = Erahibalito
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	jirontul = {
+		name = Jirontulese
+		plural = Jirontulese
+		home_planet = Jirontul
+		home_system = Yarasag
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	zarosarus = {
+		name = Zarosaran
+		plural = Zarosarans
+		home_planet = Zarosarus
+		home_system = Medius
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	joraebolas = {
+		name = "Jora Ebolan"
+		plural = "Jora Ebolans"
+		home_planet = "Jora Ebolas"
+		home_system = Orame
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	diagon = {
+		name = Diagonese
+		plural = Diagonese
+		home_planet = Diagon
+		home_system = Etheyahi
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	reachingsoulmaker = {
+		name = Staxboran
+		plural = Staxborans
+		home_planet = "Reaching Soul-Maker"
+		home_system = "Seething Doom-Tower"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	warantornix = {
+		name = Warantorian
+		plural = Warantorians
+		home_planet = Warantornix
+		home_system = Etheyahi
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	nyrran = {
+		name = Nyrranese
+		plural = Nyrranese
+		home_planet = Nyrran
+		home_system = Vhey
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	spingas = {
+		name = Spingassid
+		plural = Spingassids
+		home_planet = Spingas
+		home_system = Pthra
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	crolagthesailboat = {
+		name = Orellean
+		plural = Orelleans
+		home_planet = "Crolag the Sailboat"
+		home_system = "Catax the Harpoon"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	phaonnethemistedisle = {
+		name = Bilak
+		plural = Bilaks
+		home_planet = "Phaonne the Misted Isle"
+		home_system = "Charuda the Celestial Volcano"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	pimnarax = {
+		name = Pimnaraxoid
+		plural = Pimnaroids
+		home_planet = Pimnarax
+		home_system = "Spion Ondro"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	aethrami = {
+		name = Aethramid
+		plural = Aethramids
+		home_planet = Aethrami
+		home_system = Mazriam
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	yarubor = {
+		name = Ruborite
+		plural = Ruborites
+		home_planet = Ya-rubor
+		home_system = Nethey
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+}
+
+
+
+# Toxoids
+
+TOX = {
+	ullesh = {
+		name = Ulleshian
+		plural = Ulleshians
+		home_planet = Ullesh
+		home_system = Grilgaro
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	veniba = {
+		name = Veniban
+		plural = Venibans
+		home_planet = Veniba
+		home_system = "Pimidoya Pria"
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	cormgon = {
+		name = Cormgonite
+		plural = Cormgonites
+		home_planet = Cormgon
+		home_system = Yarti-Moda
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	crylan = {
+		name = Crylanoid
+		plural = Crylanoids
+		home_planet = Crylan
+		home_system = Ageramevora
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+	monzilan = {
+		name = Monzilanese
+		plural = Monzilanese
+		home_planet = Monzilan
+		home_system = Zohrney
+		name_list = "cybrxkhan_fantasy_fantasy_7"
+	}
+}
+
+
+

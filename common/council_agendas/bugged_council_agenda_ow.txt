@@ -1,0 +1,25 @@
+@base_agenda_cost = 7000
+agenda_unlock_slot = {
+	agenda_cost = @base_agenda_cost
+	potential = {
+		is_gestalt = no
+		has_paragon_dlc = yes
+		OR = {
+			has_unlocked_council_positions < 4
+			AND = {
+				has_unlocked_council_positions < 5
+				civics_count >= 3
+				has_technology = tech_galactic_administration
+			}
+		}
+	}
+	allow = {
+		always = yes
+	}
+	effect = {
+		unlock_council_slots = 1
+	}
+	ai_weight = {
+		base = 9999
+	}
+}

@@ -1,0 +1,66 @@
+# Synthetic Ascension (Machine Intelligence or Individualistic Machine)
+ap_synthetic_age = {
+	potential = {
+		OR = {
+			has_synthetic_dawn = yes
+			has_machine_age_dlc = yes
+		}
+		OR = {
+			has_authority = auth_machine_intelligence
+			is_individual_machine = yes
+		}
+		NOR = {
+			has_ascension_perk = ap_synthetic_age
+			has_origin = origin_gray_goo
+		}
+		is_natural_design_empire = no
+	}
+
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_2"
+			num_ascension_perks > 1
+		}
+		custom_tooltip = {
+			fail_text = "requires_not_ap_organo_machine_interfacing"
+			NOT = { has_ascension_perk = ap_organo_machine_interfacing_assimilator }
+		}
+		custom_tooltip = {
+			fail_text = "requires_not_origin_gray_goo"
+			NOT = { has_origin = origin_gray_goo }
+		}
+		custom_tooltip = {
+			fail_text = "requires_free_tradition_tree"
+			num_tradition_categories < @max_tradition_trees
+		}
+	}
+
+	custom_tooltip = "synthetic_age_tooltip"
+
+	tradition_swap = {
+		inherit_name = yes
+		inherit_effects = no
+		inherit_icon = yes
+		trigger = {
+			has_machine_age_dlc = yes
+		}
+		custom_tooltip = "synthetic_age_tooltip_machine_age"
+		on_enabled = {
+			hidden_effect = {
+				country_event = { id = machine_age.4000 }
+			}
+		}
+
+		weight = {
+			factor = 1
+		}
+	}
+
+	ai_weight = {
+		factor = @ascension_path_base_weight
+		modifier = {
+			factor = @ascension_path_anti_synergy_weight
+			has_synthetic_age_anti_synergy = yes
+		}
+	}
+}

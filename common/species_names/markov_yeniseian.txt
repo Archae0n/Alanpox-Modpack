@@ -1,0 +1,405 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	yiktu = {
+		name = Yiktuoid
+		plural = Yiktoids
+		home_planet = Yiktu
+		home_system = Balma
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	pymelagarantheseeker = {
+		name = Tislagan
+		plural = Tislagans
+		home_planet = "Pymelagaran the Seeker"
+		home_system = "Fingers of Feningarek"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	pachachiskurugla = {
+		name = Tulams
+		plural = Tulams
+		home_planet = "Pacha chis'Kurugla"
+		home_system = "Ara she'Tulams"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	krurantszuy = {
+		name = Kakling
+		plural = Kaklings
+		home_planet = Krurantszüy
+		home_system = Aspuruglaga
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	bokksegila = {
+		name = Bokksegilan
+		plural = Bokksegilans
+		home_planet = Bokksegila
+		home_system = Pamsedeil 
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	ongdakrahen = {
+		name = Hongurik
+		plural = Honguriks
+		home_planet = "Ongda Krahen"
+		home_system = "Senda Krahen" 
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	jurukhkofhonor = {
+		name = Krukangese
+		plural = Krukangese
+		home_planet = "Jurukh of Honor"
+		home_system = "Pymchoi of Mischief" 
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	tompuras = {
+		name = Tompurid
+		plural = Tompurids
+		home_planet = Tompuras
+		home_system = Küyms 
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	harugdel = {
+		name = Harugdelese
+		plural = Harugdelese
+		home_planet = Harugdel
+		home_system = "Min Hamara"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	minbegan = {
+		name = Keloülam
+		plural = Keloülam
+		home_planet = "Min Began"
+		home_system = Kainglan
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	hanjika = {
+		name = Hanjikan
+		plural = Hanjikans
+		home_planet = Hanjika
+		home_system = Tugiai
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	zeiyungla = {
+		name = Zeiyüng
+		plural = Zeiyüngs
+		home_planet = Zeiyüngla
+		home_system = Fembalamaissin
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	hoiakh = {
+		name = Talst  
+		plural = Talst
+		home_planet = Hoiakh
+		home_system = Xukogink
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	kahaklamaprime = {
+		name = Alak  
+		plural = Alaks
+		home_planet = "Kahaklama Prime"
+		home_system = Kahaklama
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	stallofwonders = {
+		name = Ongalian  
+		plural = Ongalians
+		home_planet = "Stall of Wonders"
+		home_system = "Mercury Market"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	qilakangin = {
+		name = Qilakanginid  
+		plural = Qilakangids
+		home_planet = Qilakangin
+		home_system = Asemem-Yüyikha
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	tairemem = {
+		name = Tairemese 
+		plural = Tairemese
+		home_planet = Tairemem
+		home_system = Jiksalaspi
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	sissuk = {
+		name = Sissukian 
+		plural = Sissukians
+		home_planet = "Sis Suk"
+		home_system = "Yay Suk"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	lanceofthegods = {
+		name = Pyurak 
+		plural = Pyuraks
+		home_planet = "Lance of the Gods"
+		home_system = "Soothing Whistle"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	chisenongdeg = {
+		name = Nongdegian 
+		plural = Nongdegians
+		home_planet = Chisenongdeg
+		home_system = Yaghenaiyuk
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	sijianotuk = {
+		name = Togaspian
+		plural = Togaspians
+		home_planet = Sijianotuk
+		home_system = Hangikhai
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	almeyiakkog = {
+		name = Tüyüyü
+		plural = Tüyüyü
+		home_planet = Almeyiakkog
+		home_system = Bokai-Min'Tug
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	qargima = {
+		name = Qargimoid
+		plural = Qargimoids
+		home_planet = Qargima
+		home_system = Pispu
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	kegama = {
+		name = Kegamian
+		plural = Kegamians
+		home_planet = Kegama
+		home_system = Kokszükangba
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	hotsims = {
+		name = Hotsimer
+		plural = Hotsimers
+		home_planet = Hotsim
+		home_system = "Soikom Chaks"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	khichiyia = {
+		name = Khi'Chiyean
+		plural = Khi'Chiyeans
+		home_planet = Khi'Chiyia
+		home_system = Kogagdaks
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	elderwarden = {
+		name = Kontukelen
+		plural = Kontukelen
+		home_planet = "Elder Warden"
+		home_system = "Novice Warden"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	seken = {
+		name = Bog'Sekenian
+		plural = Bog'Sekenians
+		home_planet = Seken
+		home_system = Koslingant
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	pamengalman = {
+		name = Zeng
+		plural = Zeng
+		home_planet = Pamengalman
+		home_system = Yarisem
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	sugsput = {
+		name = Sugspüttian
+		plural = Sugspüttians
+		home_planet = Sugspüt
+		home_system = "Uril Durgei"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	fespur = {
+		name = Fespurite
+		plural = Fespurites
+		home_planet = Fespur
+		home_system = Xuramjuren
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	qiyumtheeldersibling = {
+		name = Bemchisil
+		plural = Bemchisils
+		home_planet = "Qiyüm the Elder Sibling"
+		home_system = "Yugisik the Matron"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	kourituk = {
+		name = Kourituk
+		plural = Kourituk
+		home_planet = Kourituk
+		home_system = Kourituk
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	kuresikhesiy = {
+		name = Kuresikhian
+		plural = Kuresikhians
+		home_planet = Kuresikhesiy
+		home_system = "Bamcha Aqt"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	houlog = {
+		name = Houlogese
+		plural = Houlogese
+		home_planet = Houlog
+		home_system = Bonurim
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	qrayhoghi = {
+		name = Qray-Qray
+		plural = Qray-Qray
+		home_planet = Qray-Hoghi
+		home_system = Qray-Sum
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	imaiktseprime = {
+		name = Imaikoid
+		plural = Imaikoids
+		home_planet = "Imaiktse Prime"
+		home_system = Imaiktse
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	kranokk = {
+		name = Krann
+		plural = Krann
+		home_planet = Kranokk
+		home_system = Shon
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	chaiymslan = {
+		name = Iymslanian
+		plural = Iymslanians
+		home_planet = Chaiymslan
+		home_system = Paikkhik
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	dutika = {
+		name = Dutikan
+		plural = Dutikans
+		home_planet = Dutika
+		home_system = Qomikt
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	yurem = {
+		name = Yüremoid
+		plural = Yüremoids
+		home_planet = Yürem
+		home_system = "Takhan Kurum"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	surukhan = {
+		name = Sürükhanid
+		plural = Sürükhanids
+		home_planet = Sürükhan
+		home_system = Chislagsia
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	jugun = {
+		name = Jugunese
+		plural = Jugunese
+		home_planet = Jugun
+		home_system = Qosemelam
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	taksiana = {
+		name = Taksianan
+		plural = Taksianans
+		home_planet = Taksiana
+		home_system = Sulsia
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	turanga = {
+		name = Turangan
+		plural = Turangans
+		home_planet = Turanga
+		home_system = Chislaika
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	khumsuran = {
+		name = "Khum Sur"
+		plural = "Khum Surs"
+		home_planet = "Khum Suran"
+		home_system = "Khum Hoksem"
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	aspurugut = {
+		name = Aspuruguttian
+		plural = Aspuruguttians
+		home_planet = Aspurugut
+		home_system = Pikhalaging
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	zemchamay = {
+		name = Ara-Qahi
+		plural = Ara-Qahi
+		home_planet = Zemchamay
+		home_system = Bukrek
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+	buklit = {
+		name = Büklitic
+		plural = Büklitics
+		home_planet = Büklit
+		home_system = Sürakamay
+		name_list = "cybrxkhan_handmade_yeniseian"
+	}
+}

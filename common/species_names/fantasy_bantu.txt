@@ -1,0 +1,430 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	ngombe = {
+		name = Ngombe
+		plural = Ngombe
+		home_planet = Ngombe
+		home_system = Ngombe
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	mkuzi = {
+		name = Mkuzi
+		plural = Mkuzi
+		home_planet = "Mkuzi Babombe"
+		home_system = "Mkuzi Chimbu"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	kiwe = {
+		name = Kiwe
+		plural = Kiwe
+		home_planet = Kiwe
+		home_system = Kiwe-biza
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	chiongo = {
+		name = Chiongo
+		plural = Chiongo
+		home_planet = Lingbu
+		home_system = Mwaanga
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	kwaminganza = {
+		name = Kwa-Minga
+		plural = Kwa-Minga
+		home_planet = Kwa-Minganza
+		home_system = "Sigil of Time"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	changa = {
+		name = Changan
+		plural = Changans
+		home_planet = Changa
+		home_system = "Changa Chianga"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	mpounga = {
+		name = Mpounga
+		plural = Mpounga
+		home_planet = Muamba
+		home_system = Mumbamata
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	kawanga = {
+		name = Kawangan
+		plural = Kawangans
+		home_planet = Kawanga
+		home_system = Kokozi
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	mpozi = {
+		name = Mpozi
+		plural = Mpozi
+		home_planet = Mpozi
+		home_system = Kolampozi
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	bwingo = {
+		name = Bwingonese
+		plural = Bwingonese
+		home_planet = Bwingo
+		home_system = Kolampozi
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	machamba = {
+		name = Machamban
+		plural = Machambans
+		home_planet = Machambabokala
+		home_system = Machambabobonga
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	ekan = {
+		name = Ekanoid
+		plural = Ekanoids
+		home_planet = Ekan
+		home_system = "Nbetu Ekan"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	sepulchreofnativity = {
+		name = Mpingwala
+		plural = Mpingwala
+		home_planet = "Sepulchre of Nativity"
+		home_system = "Fountain of Reason"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	chawenga = {
+		name = Chawengan
+		plural = Chawengans
+		home_planet = Chawenga
+		home_system = "Dako Balu"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	sokosa = {
+		name = Sokosa  
+		plural = Sokosa
+		home_planet = Sokosa
+		home_system = Sokosa
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	ngware = {
+		name = Ngware  
+		plural = Ngware
+		home_planet = "Mpuzi Prime"
+		home_system = Mpuzi
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	taso = {
+		name = Tasoan  
+		plural = Tasoans
+		home_planet = Taso
+		home_system = Mbisi
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	anawazi = {
+		name = Anawazian  
+		plural = Anawazians
+		home_planet = Anawazi
+		home_system = Imitongo
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	ngamako = {
+		name = Ngamako 
+		plural = Ngamako
+		home_planet = Ngamako
+		home_system = Ngamako
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	chingwezu = {
+		name = Chingwezu 
+		plural = Chingwezu
+		home_planet = Chingwezu-Kaza
+		home_system = Chingwezu-Mbumbi
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	banatshaba = {
+		name = Ba-tshabian
+		plural = Ba-tshabians
+		home_planet = "Bana Tshaba"
+		home_system = "Muta Tshaba"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	chivungomba = {
+		name = Mbongan
+		plural = Mbongans
+		home_planet = Chivungomba
+		home_system = Muolu
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	katuba = {
+		name = Katuban
+		plural = Katubans
+		home_planet = Katuba
+		home_system = "Maki Ngita"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	nguku = {
+		name = Nguku 
+		plural = Nguku
+		home_planet = Nguku
+		home_system = Chiambe
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	egombe = {
+		name = Egombean 
+		plural = Egombeans
+		home_planet = Egombe
+		home_system = Azembezi
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	potionofcertainty = {
+		name = Dakochama
+		plural = Dakochama
+		home_planet = "Potion of Certainty"
+		home_system = "Potion of Mirth"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	sealoftheancients = {
+		name = Mkanza
+		plural = Mkanza
+		home_planet = "Seal of the Ancients"
+		home_system = "Sign of the Firmament"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	nkankola = {
+		name = Nkankolan
+		plural = Nkankolans
+		home_planet = Nkankola
+		home_system = Mbukasa
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	mangmusa = {
+		name = Mang-Mang 
+		plural = Mang-Mang
+		home_planet = "Mang Musa"
+		home_system = "Mang Kinga"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	sambusa = {
+		name = Sambusan
+		plural = Sambusans
+		home_planet = Sambusa
+		home_system = Nkong
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	nkosi = {
+		name = Nkosi
+		plural = Nkosi
+		home_planet = Nkosi
+		home_system = Nkosi
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	bakambe = {
+		name = Bakambean
+		plural = Bakambeans
+		home_planet = Bakambe
+		home_system = Utanga
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	ngodo = {
+		name = Ngodoan
+		plural = Ngodoans
+		home_planet = "Ngodo Ba"
+		home_system = "Ngodo Timbu"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	kikaye = {
+		name = Kikayese
+		plural = Kikayese
+		home_planet = Mimu-Kikaye
+		home_system = Chamosongo
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	ubangasgift = {
+		name = Ubangian
+		plural = Ubangians
+		home_planet = "Ubanga's Gift"
+		home_system = "Ubanga's Expanse"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	chiwu = {
+		name = Chiwu
+		plural = Chiwu
+		home_planet = Chiwuzu
+		home_system = Chiwazi
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	chabala = {
+		name = Chabalan
+		plural = Chabalans
+		home_planet = Chabala
+		home_system = Kaungoyi
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	mungoyi = {
+		name = Tshawe
+		plural = Tshawe
+		home_planet = Mungoyi
+		home_system = Kachivungo
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	nimbaleala = {
+		name = "Mang Lembwe"
+		plural = "Mang Lembwe"
+		home_planet = Nimbaleala
+		home_system = Boma-Boma
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	mpinka = {
+		name = Mpinkian
+		plural = Mpinkians
+		home_planet = Mpinka
+		home_system = Mungwenga
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	tshipamba = {
+		name = Tshipambian
+		plural = Tshipambians
+		home_planet = Tshipamba
+		home_system = "Kaya Pasa"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	impambu = {
+		name = Gwingwean
+		plural = Gwingweans
+		home_planet = Impambu
+		home_system = Kachiko
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	kadatusawakening = {
+		name = Tshombian
+		plural = Tshombians
+		home_planet = "Kadatu's Awakening"
+		home_system = "Ngulu's Demise"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	bongo = {
+		name = Bongolese
+		plural = Bongolese
+		home_planet = Bongo
+		home_system = Biamba
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	chambo = {
+		name = Chamboan
+		plural = Chamboans
+		home_planet = Chambo
+		home_system = Bwinga
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	tshingo = {
+		name = Tshingoloid
+		plural = Tshingoloids
+		home_planet = Tshingo
+		home_system = Bombwe
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	sambalulula = {
+		name = Lulula
+		plural = Lululas
+		home_planet = "Samba Lulula"
+		home_system = "Passa Lulula"
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	kasamba = {
+		name = Kasamban
+		plural = Kasambans
+		home_planet = Kasamba
+		home_system = Mumbongo
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	mongo = {
+		name = Mongoese
+		plural = Mongoese
+		home_planet = Mongo
+		home_system = Nkaungwala
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	nkaungwala = {
+		name = Nkaungwalan
+		plural = Nkaungwalans
+		home_planet = Nkaungwala
+		home_system = Kombwe
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	chawenda = {
+		name = Chawendese
+		plural = Chawendese
+		home_planet = Chawenda
+		home_system = Chipama
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+	bombaya = {
+		name = Bombayan
+		plural = Bombayans
+		home_planet = Bombaya
+		home_system = Mungwa
+		name_list = "cybrxkhan_fantasy_bantu"
+	}
+}

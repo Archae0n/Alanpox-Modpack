@@ -1,0 +1,127 @@
+﻿l_english:
+ rwf_flavour.10.name:0 "Ancient Treasures"
+ rwf_flavour.10.desc:0 "[This.GetName] has received a sharp influx of colonists and immigrants recently. It appears that many of our citizens have heard rumors of the relic world's lost treasures and seek to make a fortune themselves.\n\nAlthough we've restricted access to the most scientifically valuable sites, these freelance scavengers have uncovered some interesting finds."
+ rwf_flavour.10.a:0 "Good luck to them I suppose."
+
+ rwf_flavour.20.name:0 "Mysterious Disappearances"
+ rwf_flavour.20.desc:0 "It appears that somebody has taken a liking to some of the Minor Artifacts we have been uncovering on [This.GetName]. Objects frequently go missing during shipping. Some digsites have even been returning fewer items than we would expect. It appears something strange is going on here."
+ rwf_flavour.20.a:0 "Order an investigation."
+ rwf_flavour.20.b:0 "It's probably nothing."
+
+ rwf_flavour.21.name:0 "Smugglers: Cache Discovered"
+ rwf_flavour.21.desc:0 "Our authorities on [This.GetName] have successfully broken the smuggling ring responsible for embezzling our ancient artifacts. It appears that the conspiracy was wider than initially thought.\n\nNumerous scientists and other personnel have been implicated and it appears that their stockpile was larger than we expected. Naturally all of it is in our [This.OWNER_MAIN_SPECIES.GetHandNamePlural] now of course."
+ rwf_flavour.21.a:0 "Excellent news."
+
+ rwf_flavour.22.name:0 "Smugglers: Vanished Without a Trace"
+ rwf_flavour.22.desc:0 "Despite our best efforts, we've been unable to pinpoint the source of the artifact disappearances. It appears that whoever is responsible has taken our investigation as a sign to go to ground.\n\nWe are unlikely to recover the missing artifacts."
+ rwf_flavour.22.a:0 "Unfortunate."
+
+ rwf_flavour.30.name:0 "Rubble and Dust"
+ rwf_flavour.30.desc:0 "This world was once great.\n\nOrbital surveys from the §Y[This.GetName]§! show that huge swathes of §Y[From.GetName]'s§! surface is covered in the decaying remains of cities. At its height it must have been populated by great spires and magnificent arcologies.\n\nThat is no longer the case. The planet has been devastated by means unknown and left to decay. It is unclear what motivated its inhabitants to abandon their world, but it is evident that they are long gone."
+ rwf_flavour.30.a:0 "Intriguing."
+
+ rwf_flavour.40.name:0 "Ancient Ruins"
+ rwf_flavour.40.desc:0 "Orbital surveys by the [This.GetName] over [From.GetName] reveal several locations of interest. It appears that this planet was inhabited by an advanced alien civilization in the past.\n\nSeveral sites contain decayed ruins, at least several millennia old. It's unclear at present whether this world was a major colony or a mere outpost, or the true age of these ruins, but the scientific value is significant."
+ rwf_flavour.40.a:0 "Remarkable"
+ rwf_flavour.40.b:0 "Could it have been our own ancestors' work?"
+
+ rwf_flavour.41.name:0 "Familiar Architecture"
+ rwf_flavour.41.desc:0 "The §Y[This.GetName]§! has uncovered evidence of alien ruins on §Y[From.GetName]§!. The age of the ruins and their architectural similarity suggest they were built by the same civilization that once inhabited §Y[event_target:rwf_related_ruins_source.GetName]§!.\n\nIt's not clear how extensive the ruins are, but our science teams and archaeologists are excited to investigate them further."
+ rwf_flavour.41.a:0 "Fascinating."
+ rwf_flavour.41.b:0 "Could it have been our own ancestors' work?"
+
+ rwf_flavour.42.name:0 "Ruins of the Past"
+ rwf_flavour.42.desc:0 "[From.GetName] is world unlike the others we've discovered in the [From.solar_system.GetName] Cluster.\n\nThis planet was clearly significant to the civilization responsible for establishing the colonies we've uncovered so far.\n\nIf this wasn't their homeworld, then it surely must have been of near equal importance. The ruined cities and arcologies covering its surface must have housed a truly massive population."
+ rwf_flavour.42.a:0 "Then we had best investigate it further."
+ rwf_flavour.42.b:0 "Could we have been the ancient inhabitants of this world?"
+
+ rwf_flavour.50.name:0 "Scientific Interests"
+ rwf_flavour.50.desc:0 "[This.GetName] has developed a great deal of interest in the wider [This.Owner.GetAdjective] scientific community. The planet's ruined cityscapes contain an enormous wealth of information about the species that built it and their technology.\n\nTwo camps have developed among the researchers on the planet. Some have argued that we ought to prioritize recovering information about the technology on this world. Others claim that we ought to focus on learning more about the planet's inhabitants and their ultimate demise."
+ rwf_flavour.50.a:0 "Prioritise understanding the technology we recover."
+ rwf_flavour.50.b:0 "We must learn more about this world's past inhabitants."
+
+ rwf_flavour.60.name:0 "Previous Visitors: Traces of the Past"
+ rwf_flavour.60.desc:0 "Some of our archaeologists on [This.GetName] have found evidence of more recent visitors to the planet. It appears that several centuries ago a spacefaring race established a minor outpost on the planet.\n\nThey clearly did not stay long as the outpost shows significant signs of decay. However some of the databanks appear to still be in working condition and we may be able to extract some useful information from them."
+ rwf_flavour.60.a:0 "Let us investigate the trail."
+ rwf_flavour.60.b:0 "We have other priorities."
+
+ rwf_flavour.61.name:0 "Previous Visitors: Hideout Located"
+ rwf_flavour.61.desc:0 "After intensive efforts, our linguists have decoded the databanks uncovered on [This.GetName].\n\nIt appears that the aliens visiting [This.GetName] were doing so illegally according to the authorities of their time. Upon being discovered, they seeming abandoned their operation on the planet.\n\nWe have been able to track the coordinates of their base of operations to a small asteroid in orbit of [event_target:rwf_past_visitor_hideout.GetName]. A science ship would have the necessary facilities to scan and identify the asteroid in question."
+ rwf_flavour.61.a:0 "Then off we go."
+
+ rwf_flavour.62.name:0 "Past Visitors: Forgotten Stockpiles"
+ rwf_flavour.62.desc:0 "The crew of the [This.GetName] have discovered a substantial find. Hidden within the interior of a minor asteroid captured in orbit of [event_target:rwf_past_visitor_hideout.GetName], they have located the main base of operations of the illegal scavengers.\n\nIt's unclear what happened to them, but it appears that they had to abandon their base in a hurry. The asteroid hideout is home to large cargo bays filled with valuable relics and pieces of lost technology that were left behind."
+ rwf_flavour.62.a:0 "Excellent."
+
+ rwf_flavour.71.name:0 "Expedition: Fruitless Efforts"
+ rwf_flavour.71.desc:0 "Despite our team's best efforts, nothing of note was discovered in their investigations on [This.GetName]. A few fragments and trinkets were recovered, but the expedition did not turn up anything more valuable."
+ rwf_flavour.71.a:0 "Disappointing."
+
+ rwf_flavour.72.name:0 "Expedition: Forgotten Caches"
+ rwf_flavour.72.desc:0 "Our archaeological teams on [This.GetName] have found a sealed vault buried beneath a substantial pile of rubble. It appears to contain stores of resources, likely for industrial use.\n\nAlthough any organic materials have long since decomposed, the processed goods can be recovered and made use of."
+ rwf_flavour.72.a:0 "Remarkable."
+
+ rwf_flavour.73.name:0 "Expedition: Fragments of the Past"
+ rwf_flavour.73.desc:0 "Our expedition into some of [This.GetName]'s most untouched areas have borne fruit. Our team has found a series of ancient databanks within the planet's ruins.\n\nAlthough large chunks of the information within have degraded over time, there is enough data to point our scientists down some very interesting paths."
+ rwf_flavour.73.a:0 "Excellent."
+
+ rwf_flavour.75.name:0 "Expedition: The Scouring of Kirth"
+ rwf_flavour.75.desc:0 "Excavations on [This.GetName] reveal that this planet was inhabited in the distant past by a flourishing spacefaring civilization.\n\nIt appears that this civilization came into conflict with a rival galactic culture. Over several centuries, it appears to have gradually lost its territories in these conflicts, culminating in a final massed bombardment of the planet, obliterating most of the population from orbit.\n\nInterestingly, several of the cultural motifs and translated texts bear an uncanny resemblance to those present among the nearby Marauder clans of the [event_target:rwf_kirth_maruaders.GetName]."
+ rwf_flavour.75.a:0 "Fascinating."
+
+ rwf_flavour.76.name:0 "Expedition: The Sack of Carachel"
+ rwf_flavour.76.desc:0 "Our expedition among the ruins of [This.GetName] have compiled a comprehensive report on what they have pieced together of the world's history.\n\n[This.GetName] was once united under a single world-spanning planet-state, the §HCarachel Argosy§!. The planet was able to use its larger and more advanced economy to extend its influence over its neighbors.\n\nFor several centuries it seems to have maintained this ascendancy, subjugating or befriending its rivals.\n\nThis period of prosperity came to an end suddenly when they were attacked by an unknown race from outside their cluster. Many of their unwilling subjects appear to have joined the invaders and risen in rebellion.\n\nThe resulting fighting was vicious and left [This.GetName] devastated and defeated. The planet appears to have entered an extended period of decline and was abandoned only a few decades latter."
+ rwf_flavour.76.a:0 "Fascinating."
+
+ rwf_flavour.77.name:0 "Expedition: Fragments of the First League"
+ rwf_flavour.77.desc:0 "Our survey teams on [This.GetName] have discovered the ruins of a massive structure buried beneath the rubble. It appears that this building was once a major legislative center for the member races of the First League.\n\nThe foundations are well preserved and can easily be excavated for further study, or even to be reused by the planetary governing body."
+ rwf_flavour.77.a:0 "An excellent find. Restore the building."
+ rwf_flavour.77.b:0 "Let us preserve and study it."
+
+ rwf_flavour.78.name:0 "Expedition: Piles of Loot"
+ rwf_flavour.78.desc:0 "While mapping one of the less explored regions of [This.GetName], our science teams have made a remarkable discovery.\n\nThe planet's previous inhabitants seem to have used the area as a colossal dumping yard for anything they had no need for.\n\nWhile most of the piles contain nothing more than trash, there are numerous machines and components that seem to have been discarded as well. Our scientists can learn a great deal from these ancient artifacts."
+ rwf_flavour.78.a:0 "An unexpected, but useful discovery."
+
+ rwf_flavour.79.name:0 "Expedition: Treasure Halls"
+ rwf_flavour.79.desc:0 "The expedition on [This.GetName] has uncovered an enormous vault on the planet. It appears that this vault was used a sort of treasury by the previous inhabitants.\n\nThe vault seems to have been undiscovered until now, protecting its valuable contents from looters and explorers.\n\nHidden inside is a nearly endless supply of valuable materials and rare resources."
+ rwf_flavour.79.a:0 "Excellent."
+
+ rwf_flavour.80.name:0 "Expedition: Ancient Armories"
+ rwf_flavour.80.desc:0 "Our teams on [This.GetName] have encountered a major find. Contained within a remarkably well preserved bunker near the planet's southern pole, they have found a large cache of weapons and military materiel.\n\nThe scientists are confident that the gene-treatments they have recovered could still be viable and that much of the military equipment is still usable.\n\nWith appropriate volunteers we could make use of this forgotten stockpile to produce a strong military force."
+ rwf_flavour.80.a:0 "Activate the weapons caches, they will prove useful."
+ rwf_flavour.80.b:0 "No. It would be better to study the contents."
+
+ rwf_flavour.81.name:0 "Expedition: Traces in the Dust"
+ rwf_flavour.81.desc:0 "We have discovered a ruined naval facility on [This.GetName]. Much of the facility is destroyed, but we have been able to recover logs from some of the better-preserved databanks.\n\nMuch of it is mundane records of ship's passages and logistics reports, but there are some interesting entries. Several records describe losing an experimental warship in a freak drive core accident.\n\nAlthough they eventually tracked it to the §Y[event_target:rwf_lost_dreadnought_site.solar_system.GetName]§! system, they seem to have written it off as not worth salvaging. In all likelihood the wreck is still there."
+ rwf_flavour.81.a:0 "Perhaps we can find this lost warship."
+
+ rwf_flavour.82.name:0 "Expedition: Ancient Shipwreck"
+ rwf_flavour.82.desc:0 "We have located the experimental warship on [event_target:rwf_lost_dreadnought_site.GetName]. It is much better condition than we expected. Most systems have been well preserved and the majority of the hull is intact.\n\nThe ships descent onto the planet seems to have been relatively controlled and although the reactor and FTL system are both badly damaged, the ship could still be returned to service.\n\nSeveral of the ship's systems make use of novel technologies however and certain parts of the [This.Owner.GetName] scientific community would greatly benefit from being allowed to study the samples."
+ rwf_flavour.82.a:0 "Commission the vessel into service."
+ rwf_flavour.82.a.tooltip:0 "§HThe recovered warship will need to be repaired before it can be used.§!"
+ rwf_flavour.82.b:0 "Study the designs further."
+
+ rwf_flavour.83.name:0 "Expedition: Wonders of Ages Past"
+ rwf_flavour.83.desc:0 "Buried deep within [This.GetName] we have made a valuable discovery. Our scientists have discovered a secretive research facility hidden beneath mountains of rubble.\n\nIt appears to have been a classified research post used by the governing polity of [This.GetName], although it has fallen into a state of substantial decay after the planet's decline.\n\nDespite its age, we have been able to recover schematics and notes from the facility's databanks."
+ rwf_flavour.83.a:0 "Excellent."
+
+ rwf_flavour.84.name:0 "Expedition: Lost Archives"
+ rwf_flavour.84.desc:0 "We have discovered the ruins of an enormous series of archives on [This.GetName]. The original inhabitants appear to have used the site as a major research campus.\n\nAlthough much of the data has been corrupted by time, many of the delicate scientific instruments have been remarkably well preserved."
+ rwf_flavour.84.a:0 "Splendid."
+
+ rwf_flavour.85.name:0 "Expedition: Legacy of Larion"
+ rwf_flavour.85.desc:0 "Our science teams on [This.GetName] have excavated a massive underground facility buried beneath the planetary rubble.\n\nThe rows of cloning vats and gene-labs reveal that it is clearly one of the cloning facilities that the ancient §YLarionessi Consciousness§! constructed in a bid for the survival of their species.\n\nTime has decayed the machinery into oblivion, but the samples are well preserved and most of the data is still decipherable. We can easily study it to better understand the long-lost technologies used in the place's creation."
+ rwf_flavour.85.a:0 "Excellent."
+
+ rwf_flavour.101.name: "Left to Rot"
+ rwf_flavour.101.desc: "Even a world as urbanised and developed as [event_target:rwf_decayed_ecu.GetName] isn't free of the ravages of time. Too many decades have passed on the abandoned world without a population to maintain and upkeep it.\n\nThe city planet has increasingly fallen into ruin and decay. It has begun to resemble an ancient relic world far more than a modern, well-maintained urban agglomeration."
+ rwf_flavour.101.a: "Tragic."
+
+ rwf_flavour.110.name: "Mysterious Monolith"
+ rwf_flavour.110.desc: "A party of citizens on [This.GetName] have made a startling discovery. Concealed in an isolated area near one of the main planetary settlements is a strange alien monolith.\n\nUnlike the majority of preserved structures on [This.GetName], the monolith appears to be well preserved and active. Initial surveys report strange magnetic anomalies and emissions readings when the structure is approached.\n\nIt appears that there may be something here deserving of further study."
+ rwf_flavour.110.a: "Investigate further."
+ rwf_flavour.110.b: "This is not a priority."
+
+ rwf_flavour.111.name: "Message from the Past"
+ rwf_flavour.111.desc: "While conducting an investigation into the unknown structure discovered on [event_target:rwf_beacon_location.GetName], [This.Leader.GetName] reports receiving a strange vision when working near the monolith.\n\n[This.Leader.GetSubjectPronounCap] claims to have seen a series of moments in [event_target:rwf_beacon_location.GetName]'s history, along with a final foreboding sense of doom. It's unclear if this was a warning or a prophecy, or whether such a thing has already come to pass."
+ rwf_flavour.111.a: "Interesting."

@@ -1,0 +1,65 @@
+@minor_artifact_decision_cost = 100
+@minor_artifact_decision_duration = 3600
+
+decision_tidal_lock_planet = {
+	owned_planets_only = yes
+	sound = event_energy_field
+	icon = decision_tidal_lock_planet
+
+	potential = {
+		owner = {
+			has_country_flag = tidal_lock_knowledge
+		}
+		OR = {
+			is_moon = yes
+			has_moon = yes
+		}
+		NOR = {
+			has_modifier = intentionally_tidally_locked
+			has_planet_flag = tidally_locked_world
+			pd_is_planet_class_tidally_locked = yes
+		}
+	}
+
+	effect = {
+		custom_tooltip = decision_tidal_lock_planet_tt
+		#set_planet_flag = tidally_locked_world
+		if = {
+			limit = {
+				pd_is_planet_class_gaia = yes
+			}
+			add_modifier = {
+				modifier = pd_uncommon_gaia_world
+				days = -1
+			}
+		}
+		if = {
+			limit = {
+				is_wet = yes
+			}
+			change_pc = pc_pd_wet_tidally_locked
+		}
+		if = {
+			limit = {
+				is_dry = yes
+			}
+			change_pc = pc_pd_dry_tidally_locked
+		}
+		if = {
+			limit = {
+				is_cold = yes
+			}
+			change_pc = pc_pd_cold_tidally_locked
+		}
+		if = {
+			limit = {
+				has_modifier = pd_uncommon_gaia_world
+			}
+			pd_make_uncommon_gaia_worlds_effect = yes
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}

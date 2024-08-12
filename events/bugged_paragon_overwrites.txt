@@ -1,0 +1,401 @@
+# # NOTHING HERE YET, I'm just scared to move/delete it and lose it
+
+
+# namespace = paragon
+
+# country_event = { # ethic leader lottery machine
+# 	id = paragon.40001
+# 	hide_window = yes
+# 	is_triggered_only = yes
+# 	trigger = {
+# 	}
+
+# 	immediate = { # Chosing leaders to put them into the lottery machine, based on ethics
+# 		random_list = { # Putting leaders inside the lottery machine, and taking out those who are already hired
+# 			0 = { # xenophile 1
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|xenophile|LEADER_ID|xenophile_leader_1|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = xenophile_leader_1 EVENT_ID = paragon.40100 }
+# 			}
+# 			0 = { # xenophile 2
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|xenophile|LEADER_ID|xenophile_leader_2|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = xenophile_leader_2 EVENT_ID = paragon.40200 }
+# 			}
+# 			0 = { # militarist 1
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|militarist|LEADER_ID|militarist_leader_1|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = militarist_leader_1 EVENT_ID = paragon.40300 }
+# 			}
+# 			0 = { # militarist 2
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|militarist|LEADER_ID|militarist_leader_2|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = militarist_leader_2 EVENT_ID = paragon.40400 }
+# 			}
+# 			0 = { # xenophobe 1
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|xenophobe|LEADER_ID|xenophobe_leader_1|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = xenophobe_leader_1 EVENT_ID = paragon.40500 }
+# 			}
+# 			0 = { # xenophobe 2
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|xenophobe|LEADER_ID|xenophobe_leader_2|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = xenophobe_leader_2 EVENT_ID = paragon.40600 }
+# 			}
+# 			0 = { # egalitarian 1
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|egalitarian|LEADER_ID|egalitarian_leader_1|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = egalitarian_leader_1 EVENT_ID = paragon.40700 }
+# 			}
+# 			0 = { # egalitarian 2
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|egalitarian|LEADER_ID|egalitarian_leader_2|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = egalitarian_leader_2 EVENT_ID = paragon.40800 }
+# 			}
+# 			0 = { # materialist 1
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|materialist|LEADER_ID|materialist_leader_1|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = materialist_leader_1 EVENT_ID = paragon.40900 }
+# 			}
+# 			0 = { # materialist 2
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|materialist|LEADER_ID|materialist_leader_2|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = materialist_leader_2 EVENT_ID = paragon.41000 }
+# 			}
+# 			0 = { # pacifist 1
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|pacifist|LEADER_ID|pacifist_leader_1|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = pacifist_leader_1 EVENT_ID = paragon.41100 }
+# 			}
+# 			0 = { # pacifist 2
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|pacifist|LEADER_ID|pacifist_leader_2|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = pacifist_leader_2 EVENT_ID = paragon.41200 }
+# 			}
+# 			0 = { # authoritarian 1
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|authoritarian|LEADER_ID|authoritarian_leader_1|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = authoritarian_leader_1 EVENT_ID = paragon.41300 }
+# 			}
+# 			0 = { # authoritarian 2
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|authoritarian|LEADER_ID|authoritarian_leader_2|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = authoritarian_leader_2 EVENT_ID = paragon.41400 }
+# 			}
+# 			0 = { # spiritualist 1
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|spiritualist|LEADER_ID|spiritualist_leader_1|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = spiritualist_leader_1 EVENT_ID = paragon.41500 }
+# 			}
+# 			0 = { # spiritualist 2
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|spiritualist|LEADER_ID|spiritualist_leader_2|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = spiritualist_leader_2 EVENT_ID = paragon.41600 }
+# 			}
+# 			# BUG BRANCH BELOW #
+# 			0 = { # anthropocentric 1
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|anthropocentric|LEADER_ID|anthropocentric_leader_1|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = anthropocentric_leader_1 EVENT_ID = bugged_paragon.1 }
+# 			}
+# 			# 0 = { # anthropocentric 2
+# 			# 	modifier = {
+# 			# 		add = value:ethic_leader_randomizer|ETHIC|anthropocentric|LEADER_ID|anthropocentric_leader_2|
+# 			# 	}
+# 			# 	ethic_leader_hire_event = { LEADER_ID = anthropocentric_leader_2 EVENT_ID = bugged_paragon.2 }
+# 			# }
+# 			0 = { # ecocentric 1
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|ecocentric|LEADER_ID|ecocentric_leader_1|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = ecocentric_leader_1 EVENT_ID = bugged_paragon.3 }
+# 			}
+# 			# 0 = { # ecocentric 2
+# 			# 	modifier = {
+# 			# 		add = value:ethic_leader_randomizer|ETHIC|ecocentric|LEADER_ID|ecocentric_leader_2|
+# 			# 	}
+# 			# 	ethic_leader_hire_event = { LEADER_ID = ecocentric_leader_2 EVENT_ID = bugged_paragon.4 }
+# 			# }
+# 			0 = { # competitive 1
+# 				modifier = {
+# 					add = value:ethic_leader_randomizer|ETHIC|competitive|LEADER_ID|competitive_leader_1|
+# 				}
+# 				ethic_leader_hire_event = { LEADER_ID = competitive_leader_1 EVENT_ID = bugged_paragon.5 }
+# 			}
+# 			# 0 = { # competitive 2
+# 			# 	modifier = {
+# 			# 		add = value:ethic_leader_randomizer|ETHIC|competitive|LEADER_ID|competitive_leader_2|
+# 			# 	}
+# 			# 	ethic_leader_hire_event = { LEADER_ID = competitive_leader_2 EVENT_ID = bugged_paragon.6 }
+# 			# }
+# 			# 0 = { # cooperative 1
+# 			# 	modifier = {
+# 			# 		add = value:ethic_leader_randomizer|ETHIC|cooperative|LEADER_ID|cooperative_leader_1|
+# 			# 	}
+# 			# 	ethic_leader_hire_event = { LEADER_ID = cooperative_leader_1 EVENT_ID = bugged_paragon.7 }
+# 			# }
+# 			# 0 = { # cooperative 2
+# 			# 	modifier = {
+# 			# 		add = value:ethic_leader_randomizer|ETHIC|cooperative|LEADER_ID|cooperative_leader_2|
+# 			# 	}
+# 			# 	ethic_leader_hire_event = { LEADER_ID = cooperative_leader_2 EVENT_ID = bugged_paragon.8 }
+# 			# }
+# 			# 0 = { # pluralist 1
+# 			# 	modifier = {
+# 			# 		add = value:ethic_leader_randomizer|ETHIC|pluralist|LEADER_ID|pluralist_leader_1|
+# 			# 	}
+# 			# 	ethic_leader_hire_event = { LEADER_ID = pluralist_leader_1 EVENT_ID = bugged_paragon.9 }
+# 			# }
+# 			# 0 = { # pluralist 2
+# 			# 	modifier = {
+# 			# 		add = value:ethic_leader_randomizer|ETHIC|pluralist|LEADER_ID|pluralist_leader_2|
+# 			# 	}
+# 			# 	ethic_leader_hire_event = { LEADER_ID = pluralist_leader_2 EVENT_ID = bugged_paragon.10 }
+# 			# }
+# 			# 0 = { # elitist 1
+# 			# 	modifier = {
+# 			# 		add = value:ethic_leader_randomizer|ETHIC|elitist|LEADER_ID|elitist_leader_1|
+# 			# 	}
+# 			# 	ethic_leader_hire_event = { LEADER_ID = elitist_leader_1 EVENT_ID = bugged_paragon.11 }
+# 			# }
+# 			# 0 = { # elitist 2
+# 			# 	modifier = {
+# 			# 		add = value:ethic_leader_randomizer|ETHIC|elitist|LEADER_ID|elitist_leader_2|
+# 			# 	}
+# 			# 	ethic_leader_hire_event = { LEADER_ID = elitist_leader_2 EVENT_ID = bugged_paragon.12 }
+# 			# }
+# 		}
+# 	}
+# }
+
+# country_event = {
+# 	id = paragon.41234
+# 	is_triggered_only = yes
+# 	hide_window = yes
+
+# 	trigger = {
+# 		has_paragon_dlc = yes
+# 	}
+
+# 	immediate = {
+# 		random_owned_leader = {
+# 			limit = { has_leader_flag = renowned_leader }
+# 			switch = {
+# 				trigger = has_leader_flag
+# 				renowned_xenophile1 = { # Lysator Syng
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.40110 days = 1 random = 1800 } } # The Treasure of Zteg-Mayr
+# 						10 = { leader_event = { id = paragon.40120 days = 1 random = 1800 } } # Safe Haven
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_xenophile2 = { # Nona
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.40210 days = 1 random = 1800 } } # Lost Tribute
+# 						10 = { leader_event = { id = paragon.40220 days = 1 random = 1800 } } # A Blorg Comes Calling
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_militarist1 = { # Baron Vyctor Jariden
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.40310 days = 1 random = 1800 } } # Free of His Burdens
+# 						10 = { leader_event = { id = paragon.40320 days = 1 random = 1800 } } # Outspoken Expansionist
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_militarist2 = { # Gia'Zumon
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.40410 days = 1 random = 1800 } } # Drawn by Bloodshed
+# 						10 = { leader_event = { id = paragon.40420 days = 1 random = 1800 } } # Blood and Sand
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_xenophobe1 = { # Factorator Shuladun
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.40510 days = 1 random = 1800 } } # Optimization Proposal
+# 						10 = { leader_event = { id = paragon.40520 days = 1 random = 1800 } } # Promising Experiments?
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_xenophobe2 = { # Aturion
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.40610 days = 1 random = 1800 } } # Population Control Program
+# 						10 = { leader_event = { id = paragon.40620 days = 1 random = 1800 } } # Criminal Reformation Program
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_egalitarian1 = { # Jynn
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.40710 days = 1 random = 1800 } } # A Skilled Apprentice
+# 						10 = { leader_event = { id = paragon.40720 days = 1 random = 1800 } } # Numinous Support
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_egalitarian2 = { # Zosira K'Tun
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.40810 days = 1 random = 1800 } } # Science is Magic
+# 						10 = { leader_event = { id = paragon.40820 days = 1 random = 1800 } } # Adopted Alien Pet
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_materialist1 = { # Xondar
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.40910 days = 1 random = 1800 } } # Xondar 2.0
+# 						10 = { leader_event = { id = paragon.40920 days = 1 random = 1800 } } # Valuable Alloys
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_materialist2 = { # Borin
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.41010 days = 1 random = 1800 } } # I Was Born in the Year of ...
+# 						10 = { leader_event = { id = paragon.41020 days = 1 random = 1800 } } # Say Hello to Beryllia
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_pacifist1 = { # Judge Uld Dagr
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.41110 days = 1 random = 1800 } } # Criminals Exposed
+# 						10 = { leader_event = { id = paragon.41120 days = 1 random = 1800 } } # On the Nature of Crime
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_pacifist2 = { # Vas the Gilded
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.41210 days = 1 random = 1800 } } # Peace and Prosperity
+# 						10 = { leader_event = { id = paragon.41220 days = 1 random = 1800 } } # In Our Time of Need
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_authoritarian1 = { # Kai-Sha
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.41310 days = 1 random = 1800 } } # Gathered Intel
+# 						10 = { leader_event = { id = paragon.41320 days = 1 random = 1800 } } # Expanded Contact Network
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_authoritarian2 = { # Q'la-Minder
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.41410 days = 1 random = 1800 } } # Vanity Palace
+# 						10 = { leader_event = { id = paragon.41420 days = 1 random = 1800 } } # The Embezzler
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_spiritualist1 = { # Ulastar
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.41510 days = 1 random = 1800 } } # The Great Prophecy
+# 						10 = { leader_event = { id = paragon.41520 days = 1 random = 1800 } } # Heeding the Call
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_spiritualist2 = { # Nasuz Demetor
+# 					random_list = {
+# 						10 = { leader_event = { id = paragon.41610 days = 1 random = 1800 } } # Relics of an Ancient Past
+# 						10 = { leader_event = { id = paragon.41620 days = 1 random = 1800 } } # Voices in the Void
+# 						80 = {}
+# 					}
+# 				}
+# 				renowned_anthropocentric1 = { #TBD
+# 					random_list = {
+# 						10 = { leader_event = { id = bugged_paragon_events.1 days = 1 random = 1800 } } # Ecu Project if you own Megacorp
+# 						10 = { leader_event = { id = bugged_paragon_events.2 days = 1 random = 1800 } } # TBD
+# 						80 = {}
+# 					}
+# 				}
+# 				# renowned_anthropocentric2 = { #TBD
+# 				# 	random_list = {
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.3 days = 1 random = 1800 } } # TBD
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.4 days = 1 random = 1800 } } # TBD
+# 				# 		80 = {}
+# 				# 	}
+# 				# }
+# 				# renowned_ecocentric1 = { #TBD
+# 				# 	random_list = {
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.5 days = 1 random = 1800 } } # TBD
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.6 days = 1 random = 1800 } } # TBD
+# 				# 		80 = {}
+# 				# 	}
+# 				# }
+# 				# renowned_ecocentric2 = { #TBD
+# 				# 	random_list = {
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.7 days = 1 random = 1800 } } # TBD
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.8 days = 1 random = 1800 } } # TBD
+# 				# 		80 = {}
+# 				# 	}
+# 				# }
+# 				# renowned_competitive1 = { #TBD
+# 				# 	random_list = {
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.9 days = 1 random = 1800 } } # TBD
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.10 days = 1 random = 1800 } } # TBD
+# 				# 		80 = {}
+# 				# 	}
+# 				# }
+# 				# renowned_competitive2 = { #TBD
+# 				# 	random_list = {
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.11 days = 1 random = 1800 } } # TBD
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.12 days = 1 random = 1800 } } # TBD
+# 				# 		80 = {}
+# 				# 	}
+# 				# }
+# 				# renowned_cooperative1 = { #TBD
+# 				# 	random_list = {
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.13 days = 1 random = 1800 } } # TBD
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.14 days = 1 random = 1800 } } # TBD
+# 				# 		80 = {}
+# 				# 	}
+# 				# }
+# 				# renowned_cooperative2 = { #TBD
+# 				# 	random_list = {
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.15 days = 1 random = 1800 } } # TBD
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.16 days = 1 random = 1800 } } # TBD
+# 				# 		80 = {}
+# 				# 	}
+# 				# }
+# 				# renowned_pluralist1 = { #TBD
+# 				# 	random_list = {
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.17 days = 1 random = 1800 } } # TBD
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.18 days = 1 random = 1800 } } # TBD
+# 				# 		80 = {}
+# 				# 	}
+# 				# }
+# 				# renowned_pluralist2 = { #TBD
+# 				# 	random_list = {
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.19 days = 1 random = 1800 } } # TBD
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.20 days = 1 random = 1800 } } # TBD
+# 				# 		80 = {}
+# 				# 	}
+# 				# }
+# 				# renowned_elitist1 = { #TBD
+# 				# 	random_list = {
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.21 days = 1 random = 1800 } } # TBD
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.22 days = 1 random = 1800 } } # TBD
+# 				# 		80 = {}
+# 				# 	}
+# 				# }
+# 				# renowned_elitist2 = { #TBD
+# 				# 	random_list = {
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.23 days = 1 random = 1800 } } # TBD
+# 				# 		10 = { leader_event = { id = bugged_paragon_events.24 days = 1 random = 1800 } } # TBD
+# 				# 		80 = {}
+# 				# 	}
+# 				# }
+# 			}
+# 		}
+# 	}
+# }

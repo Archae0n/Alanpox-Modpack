@@ -1,0 +1,46 @@
+nanotech_storm_caster = {
+	icon = "GFX_starbase_nanotech_storm_caster"
+	construction_days = 360
+
+	potential = {
+		exists = owner
+		owner = { has_technology = tech_nanotech_caster }
+		is_normal_starbase = yes
+	}
+
+	resources = {
+		category = starbase_buildings
+		cost = {
+			nanites = 10000
+		}
+		upkeep = {
+			energy = 20
+			nanites= 50
+		}
+	}
+
+	ai_weight = {
+		weight = 50
+	}
+
+	on_finished = {
+		if = {
+			limit = {
+				solar_system = { NOT = { has_modifier = nanotech_storm } }
+			}
+			solar_system = {
+				system_event = { id = nanotech.2 }
+			}
+		}
+	}
+
+	on_destroyed = {
+		solar_system = {
+			system_event = { id = nanotech.3 }
+		}
+	}
+
+	custom_tooltip = sm_nanotech_caster_desc_modifier
+
+	show_in_tech = "tech_nanotech_caster"
+}

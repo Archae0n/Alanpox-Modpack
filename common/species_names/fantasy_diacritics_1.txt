@@ -1,0 +1,431 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	babayetu = {
+		name = Bäbäyëtu
+		plural = Bäbäyëtu
+		home_planet = "Father of Bäbäyëtu"
+		home_system = "Grandfather of Bäbäyëtu"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	zegasa = {
+		name = Zegäsean
+		plural = Zegäseans
+		home_planet = Zegäsä
+		home_system = Ngomilde
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	figoki = {
+		name = Figokite
+		plural = Figokites
+		home_planet = Fäng-Figoki
+		home_system = Fäng-Fuki
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	cisa = {
+		name = Cisan
+		plural = Cisans
+		home_planet = Cisayera
+		home_system = Cisangalng
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	kefudun = {
+		name = Kefudun
+		plural = Kefudun
+		home_planet = Kefudun
+		home_system = Kefudun
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	ngir = {
+		name = Ngirese
+		plural = Ngirese
+		home_planet = "Mello Deko"
+		home_system = Ngirkango 
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	nelica = {
+		name = Nëlican
+		plural = Nëlicans
+		home_planet = Nëlica
+		home_system = "Beyeldo Kan"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	balgo = {
+		name = Balgoid
+		plural = Balgoids
+		home_planet = Balgo
+		home_system = "Siläln Digän" 
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	altarofbodi = {
+		name = Bodïyan
+		plural = Bodïyans
+		home_planet = "Altar of Bodï"
+		home_system = "Temple of Wärci"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	nul = {
+		name = Nul
+		plural = Nul
+		home_planet = Nul
+		home_system = Këwir
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	greaterleyibel = {
+		name = Lëyibëloid
+		plural = Lëyibëloids
+		home_planet = "Greater Lëyibël"
+		home_system = "Lesser Lëyibël"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	ngulyi = {
+		name = Ngul
+		plural = Ngul
+		home_planet = Ngulyï
+		home_system = Yalwëbi
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	gibang = {
+		name = Gïbängese
+		plural = Gïbängese
+		home_planet = Gïbäng
+		home_system = "Beca Wïlngir"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	madol = {
+		name = Madolish  
+		plural = Madolish
+		home_planet = Madol
+		home_system = Kola'Ning
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	gilmor = {
+		name = Gilmorian  
+		plural = Gilmorians
+		home_planet = Gilmor
+		home_system = Woteln'Melir
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	dargal = {
+		name = Dargalian  
+		plural = Dargalians
+		home_planet = Dargal
+		home_system = Zurebën
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	tuyilenuthehonest = {
+		name = Sëmämean  
+		plural = Sëmämeaans
+		home_planet = "Tuyïlënu the Honest"
+		home_system = "Nurïng the Cheery"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	yubil = {
+		name = Yubïlid 
+		plural = Yubïlids
+		home_planet = Yubïl
+		home_system = Tälkärdol
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	lirwi = {
+		name = Lirwian 
+		plural = Lirwians
+		home_planet = Lirwïnung
+		home_system = Lirwï'Buduzï
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	zibekingi = {
+		name = Kifo 
+		plural = Kifo
+		home_planet = "Zibe Kïngi"
+		home_system = "Fazu Domïci"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	borilna = {
+		name = Borilnian 
+		plural = Borilnians
+		home_planet = Borilnä
+		home_system = Cïsingëlrem
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	yemizi = {
+		name = Yemizid
+		plural = Yemizids
+		home_planet = Yemizï'Lum
+		home_system = Wodu'For
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	resan = { # Has issues???
+		name = Rësänese
+		plural = Rësänese
+		home_planet = Rësän
+		home_system = Folkuzan
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	ciyi = {
+		name = Ciyoid
+		plural = Ciyoids
+		home_planet = Ciyi'Zïloryï
+		home_system = Ciyi'Lïlm
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	destinedgrandeur = {
+		name = Ngeng
+		plural = Ngeng
+		home_planet = "Destined Grandeur"
+		home_system = "Fallacious Inception"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	beruce = {
+		name = Bërucean
+		plural = Bëruceans
+		home_planet = Bëruce
+		home_system = "Wïwa Dasu"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	longulda = {
+		name = Longuldan
+		plural = Longuldans
+		home_planet = Longulda
+		home_system = Nëwogong
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	rigul = {
+		name = Rïguloid
+		plural = Rïguloids
+		home_planet = Rïgul'Mu'Täm
+		home_system = Täm
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	selwa = {
+		name = Kocaco
+		plural = Kocaco
+		home_planet = Selwa
+		home_system = Ngoyu
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	mabelm = {
+		name = Mäbelmese
+		plural = Mäbelmese
+		home_planet = Mäbelm
+		home_system = Seyar-Mäbelm
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	zusi = {
+		name = Zusian
+		plural = Zusians
+		home_planet = Zusi
+		home_system = Zusi-si
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	butem = {
+		name = Buteman
+		plural = Butemans
+		home_planet = Ngol'Butem
+		home_system = Ngol'Yärra
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	ngasir = {
+		name = Ngasiran
+		plural = Ngasirans
+		home_planet = Ngasir
+		home_system = Zol'cïze
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	tusalrnafashammer = {
+		name = Wïlngiran
+		plural = Wïlngirans
+		home_planet = "Tusälr Näfa's Hammer"
+		home_system = "Celestial Forge"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	nezilwefan = {
+		name = Nëzilite
+		plural = Nëzilites
+		home_planet = Nëzilwefan
+		home_system = Tisongëgule
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	gidawa = {
+		name = Gidäwean
+		plural = Gidäweans
+		home_planet = Gidäwä
+		home_system = Ngungir
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	busadicritics = {
+		name = Nulm
+		plural = Nulm
+		home_planet = Busä
+		home_system = "Ngem Cësäm"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	ngotanika = {
+		name = Zagumese
+		plural = Zagumese
+		home_planet = Ngota-Nika
+		home_system = Mutä-Yïsa
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	ngukici = {
+		name = Ngukician
+		plural = Ngukicians
+		home_planet = Ngukici
+		home_system = Metiser-Yiln
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	merofing = {
+		name = Mërofingian
+		plural = Mërofingians
+		home_planet = "Mëro Fing"
+		home_system = Ngonërn
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	finestillumination = {
+		name = Kalëngese
+		plural = Kalëngese
+		home_planet = "Finest Illumination"
+		home_system = "Jaws of Fire"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	corcin = {
+		name = Corcinese
+		plural = Corcinese
+		home_planet = Corcin
+		home_system = Dïkerdireltëm
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+}
+
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	ngisabelta = {
+		name = Ngisabeltean
+		plural = Ngisabelteans
+		home_planet = Ngisabeltä
+		home_system = Lïyä
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	lekel = {
+		name = Lëkelese
+		plural = Lëkelese
+		home_planet = Lëkel
+		home_system = Cesur'Zëde
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	cizome = {
+		name = Cizomish
+		plural = Cizomish
+		home_planet = Cizomë
+		home_system = Farzelzän
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	miyasadal = {
+		name = Mïyäsadälid
+		plural = Mïyäsadälids
+		home_planet = "Mïyä Sadäl"
+		home_system = "Yecël Fïl"
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+}
+
+
+
+# Toxoids
+
+TOX = {
+	gacame = {
+		name = Gäcämean
+		plural = Gäcämeans
+		home_planet = Gäcäme
+		home_system = Zërwu
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	warcata = {
+		name = Wärcatoid
+		plural = Wärcatoids
+		home_planet = Wärcatä
+		home_system = Debelmotome
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	kokomeme = {
+		name = Bïsïlng
+		plural = Bïsïlng
+		home_planet = Kokëmem
+		home_system = Dëlyin
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	zezan = {
+		name = Zezanite
+		plural = Zezanites
+		home_planet = Zezan
+		home_system = Wërwunu
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+	nekurima = {
+		name = Mesinese
+		plural = Mesinese
+		home_planet = Nekurïmä
+		home_system = Yïmïrbu
+		name_list = "cybrxkhan_fantasy_diacritics_1"
+	}
+}
+
+
+
+
+

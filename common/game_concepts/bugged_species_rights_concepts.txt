@@ -1,0 +1,5 @@
+concept_bugged_decadent_lifestyle = {
+}
+
+concept_living_standard_dystopian_society = {
+}

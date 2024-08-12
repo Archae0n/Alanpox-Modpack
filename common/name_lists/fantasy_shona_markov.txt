@@ -1,0 +1,231 @@
+﻿### Fantasy Shona
+### Shona names put into a Markov name generator
+
+cybrxkhan_handmade_shona = {
+	category = "Mammalian"
+
+	ship_names = {
+		generic = {
+			Aiza Aizaishe Aizi Aizivai Aizivashe Akai Akaishe Anai Anakaedza Ananatsai Anatidekawa Anekedzo Anenenesei Anera Anero Aneshe Aneso Aneta Anevani Anoda Anodishe Anodiwaripa Anodzwanashe Anokadzo Anokoshe Anokunyu Anombiririri Anopaka Anopakwashe Anopashou Anora Anorwa Anotipiwe Atiri Atitida Auya Auyaita Babadza Babarai Babwe Bashasaika Bashe Bashoru Batitye Bato Batsimba Biri Biribo Birishe Buva Buvika Chafadzi Chanyaro Cheanaya Chembwero Chererevase Chida Chidafarwa Chidai Chidaiinake Chidawa Chidayika Chideka Chidzaishe Chidzemai Chidzi Chidzo Chiedzijendi Chiiso Chikidzibo Chiko Chinda Chineriro Chineso Chinesu Chineyikuru Chinga Chingetai Chino Chinomudza Chipakuda Chipash Chipiwe Chira Chirashe Chiria Chiridza Chishe Chishendei Chiwa Chiwanaki Chiwo Chiwoyo Dadadzwa Dadinaida Dadiwanashe Dadzisi Dadziva Dadzo Daka Dakunasa Damba Dambgai Dambida Dambidafadiwe Damirira Damoindo Damoitadzo Danashe Dane Daneneshe Daneso Danetendwe Diinoro Dovangai Dovaro Dovastidza Dudza Dudzurai Dudzwashe Duno Dzianyu Dzibayaka Dzineshe Dzira Edzei Edziva Edzondore Fadai Fadii Fadzei Fara Farerai Fari Farireva Faro Farudzokata Fudzivai Funatsai Funguri Funyai Funzvi Garadzashe Garai Gonai Gonakute Goneso Gonzwa Gora Goraishe Gore Goreai Goreva Goro Gurai Guri Guridza Gurirai Guriri Guro Guru Gwina Gwinei Hamisha Hamunga Hamusa Harai Hare Harera Hareva Hateguve Hatendishe Hatendo Hatido Hatidzo Hatsa Hatsamisa Hazi Hazvaishere Hazvi Hazvirira Hazvitama Hoshe Hosheratosei Hunderai Hupa Hupenyai Hupenyi Hupiwa Hupo Hupochema Huponge Ibwa Ibwei Idafadzira Ingai Ingaisa Ingaishe Ipai Ipashirirai Iribo Irira Ishe Ishoro Itara Iwedzayi Iwesu Izive Jeka Jekerai Jeyanakidai Jeyariki Jeyikaruda Kamo Kamungai Kapa Kapere Kapineregwei Kapinganaye Kariru Karo Karudocha Karwa Katsa Kitai Kitamhu Kitapomuma Kitwa Kubvo Kubvora Kubvorcupakwa Kubvoruwa Kubvorwe Kuchaneso Kuchaya Kuche Kudaneshe Kudiswanashe Kudo Kudza Kudzei Kudzemupenga Kudziba Kudzo Kudzou Kudzvira Kudzwa Kuendii Kuenya Kufadzi Kufadzwa Kufari Kufaru Kugaakai Kugai Kugarwa Kuma Kumbonavo Kuna Kunatenda Kunda Kundayash Kundi Kunesu Kungai Kungara Kungaraishe Kunopa Kunyara Kunzwa Kupera Kupi Kupinga Kupiwa Kupo Kusa Kusaido Kusamai Kusamhurai Kusawe Kuse Kusei Kusvityenda Kute Kutungana Kuzi Kuzivaraishe Kuzive Kuzo Kuzukunya Kwadzi Kwanatida Kwanda Kyarira Kyashe Lumbonda Magu Magudzive Maguve Maguvimburu Maishemwoyo Majai Majaishe Majanerereru Majani Majapa Maka Makai Makakutundai Makayi Make Makidawoyo Makomumbo Makudzai Makupo Makwa Makwari Makwashe Mamishe Mamuwa Manaka Manakud Manakudza Manana Mananetenga Manashe Manashema Manashewei Manatenda Manatenyu Manaye Manayi Manda Manesh Manesho Manga Mangaru Mangedzai Mangwa Mani Manyashirai Manyu Maradiishatsi Marai Maro Mashe Mashenana Mashohwe Matai Matendairo Matetai Matete Mati Matidai Matidekatsai Matidzai Matidzi Matidzwa Mato Matsa Matye Matyemaishe Mauyanekai Mavora Mavorcupi Mawanyu Mawe Mawizibadzai Mazo Mazokashorero Mazviedzi Mazvinoto Mazviru Mbadii Mbanataishe Mbeso Mbesu Mbevayengwa Mbidzashe Mbiraishe Mbirudai Mbishe Mesu Mharai Mhashe Mhayi Mhudayi Mhudzaireva Mhumba Mhundi Mhungana Mhungwe Mhunurwandiso Mhurai Mhurirashendi Mhuvirai Mombiri Momtenderegwa Momurupa Mucha Muchafarai Muchafaro Muchamba Muchambo Muchamhuma Mucharo Muchashe Muchazvasa Muche Muchi Muchiinaishe Muchiiso Muchipakudzi Muchiwedzemwe Muda Mudhe Mudzai Mudzi Mufadineka Muka Mukatsai Mukawanashe Mukodza Mukudzana Mukurud Muna Munai Munasaisira Munashemekedu Mundaaneka Munetidzo Munevi Mungaakaratsi Mungaatswai Mungai Mungetsei Munguru Mungwanduka Mungwe Muno Munoda Munodii Munundekosi Munungarai Mununyarai Munyashe Munzwa Musa Musai Mushe Musvi Muta Mutai Mute Mutendamwona Mutenjera Mutenya Muterashe Mutsambidanyu Mutsei Mutseika Mutsitsi Mutungu Muziro Muzo Muzuka Muzurudzo Mwanashe Mwarerotonga Mwedza Mwoyarai Naka Nakudzira Nakwa Nasai Nathe Natsira Ndaanyanashe Ndai Ndaisai Ndaishe Ndakudza Ndawenashe Ndiedzo Ndisheniso Ndoche Ndukuchazo Nendekadzuka Nengai Nengwa Nenjekedza Netenkosei Netenyi Ngaakedzambwe Ngai Ngamadzai Nganashe Ngonzive Ngudhi Ngurai Ngurathe Nguri Nhamba Nhamborero Nhamudziruda Nhamudzwa Nhiedzi Nhipinotiko Nhishireri Nhiwa Nhohwe Nhou Njaisatsawe Njapo Njiva Noka Nokai Nokaisa Nokomuwashe Nokud Nokuna Nokunotidzei Nokupendawe Nomba Nombai Nombonga Nomtena Nyadzai Nyadzwe Nyai Nyanatirirai Nyanyu Nyaradi Nyariri Nyashe Nyedzuka Nyedzwesu Nyembo Nyemwiraishe Nyendo Nyeneteni Nyengariba Nyengetida Nyenkomuwa Nzokarai Onanashe Onashe Pama Pamara Pamba Pamoyo Panatidzo Paneteni Pangai Pepuwa Pepuwanai Pfumai Pfumudo Porerai Poro Ramasatengumb Rambidzei Ranashe Ranastidzo Ranate Rani Ranyi Ranyu Ratendii Ratenyu Ratidzwa Rato Ratsiridai Ratswadzi Ropa Ropafadiwo Ropiwanido Rudai Rudiwanye Rudza Rudzai Rudzaisityema Rudzangwe Rudzegurunopa Rudzo Rudzwa Rudzwase Rufadzonishe Rujendukudzo Rujera Rujeriba Ruka Rukai Rukaitirai Rukaye Rukuchiedzi Rukudaatsitai Rukudiwa Rukunandai Rukuru Rukutendiwa Rukutunyashe Rumapfumai Rundekai Runga Runge Rupa Rupaisai Ruperoyo Rupi Rupo Rupomborotira Ruponashe Rura Rurudzwa Rutsai Rutsiririrish Ruva Ruvana Ruve Ruvi Ruvire Ruwa Ruwanatengwe Ruwandiwa Ruwaraka Sadzwangwadza Sama Samvu Sarai Saro Sarudzayika Seka Sekandidzei Shadzwa Shamoita Shashe Shidao Shiishecnjero Shinashe Shindao Shipo Shipocha Shire Shishe Shohwe Shumapingetai Shumbirai Shundairiki Shungira Shununyi Shura Shurai Shuvai Sika Sikatsai Sikodzivashe Sikoga Simbira Simburu Simbwai Simudo Simumbo Simupa Simupei Simuwashe Tada Taddzokai Tadi Tadiinetengai Tadingudzwa Tadzai Tadzaisa Tadzani Tadzei Tadziva Tadzivanashe Tadzo Tadzoni Tadzwa Tadzwangwe Tafadza Tafadzani Taka Takai Takaka Takakwashendi Takashe Takawa Take Takeru Taki Takudhe Takudzayi Takwa Takwanai Tama Tamb Tamba Tamboreanashe Tamhurai Tamisa Tamisaitwa Tamisamb Tamishe Tamisherega Tamiswashe Tamoinderai Tamoitwa Tamoyo Tamukuno Tamuwa Tamwiwa Tana Tanai Tanaisai Tanaisatida Tanaisha Tananategwe Tanashe Tanashewei Tanatsai Tandiwasei Tanekaripashe Tanesei Tangwadzo Tani Tanidai Tanunotendo Tanyari Tanyika Tapa Tapafarai Tapakashenda Tapasa Tapashatero Tapashe Tapeiso Tapendai Tapendei Tapfumari Tapiwanashiwo Tapiwash Tapomuro Tapukudzwanai Tapuwanesu Tara Taradi Tarai Taratyedzai Tari Tarikombo Taripiwenyi Taro Tarorcupei Tarwe Tashamhipo Tashe Tategaisira Tatendiwa Tathe Tati Tatidai Tatido Tatipo Tatsa Tatsaita Tatsi Taurai Taurirai Taurorwa Tauyaniso Tauyarayaishe Tauyaro Tauyashe Tavhunopa Tavina Tawa Tawashe Tawe Tawei Tawere Tawiri Tawoya Tazia Tazo Tazvi Tazviedza Tazvikaedzwa Tazvimba Tazviri Tenashe Tendakundero Tendakwa Tendii Tendishe Tendwedzei Tenere Tenesu Tenetadzwe Tengeta Tenyaru Tenyika Tenyu Terai Tere Teri Tesei Tesu Tesuishe Teuka Teukaedza Teukuru Teuraidiwe Tichadzaya Tichamborero Tichambudaka Tichao Tichashe Tiche Tichewe Tichiri Timbirai Timbo Tina Tinai Tinaishe Tinakudza Tinanda Tinane Tinanyarudzai Tinatashecnji Tinatido Tinayashe Tinayedzibo Tindavi Tindo Tine Tinei Tineke Tinerai Tinerererash Tinesundai Tineviripo Tinga Tingai Tingarai Tingeta Tingetsa Tingetsai Tingiri Tingwe Tino Tinoda Tinonzwashe Tinoona Tinopa Tinyaguvirai Tira Tirai Tirashe Tireanaiti Tireregamishe Tiriradiedza Tiro Tirorwa Tiroyo Todaka Todishe Toineva Toinodai Toinopa Tomb Tombanatswa Tomborunge Tomtenetsi Tomupenda Tondeke Tonesu Toziba Toziborai Tozo Tsuishendiso Tsuna Tuma Tumbanya Tumbirira Tumbo Twiwa Twizaidai Twizijerai Uchaoni Ucheani Uchendei Unotegwa Upenda Upendeke Upenekodza Upenendei Upengaruda Upenyaripiwa Vamo Vanganashe Vani Vanyara Vanyashe Vanyi Variraripai Varirashe Varwangani Vatendai Vateneka Vatengwe Vatidzai Vatidzoka Vatiriba Vatonguru Vatsi Vendaishe Veneshe Venevimba Venyarira Vhema Vimba Vimbayikarai Vimbesai Vimbeso Vimbeva Vimbga Vimbidaita Vimbo Vimboruda Vimbudocha Vimbwe Vimuse Vonda Vongetenda Vongo Vonishiwe Vudza Vudzaiso Vudzwakurudza Wadiwa Wadzai Watira Wato Watsa Watsamishe Watsimbore Watswa Watya Wonatideka Wonda Wonekerotidai Wonga Wongarayarai Wonishe Yanashe Yeuri Yeuro Yeuru Zadzaisa Zadzei Zadzona Zhorcupo Zhorwaremwe Zimbwei Zimukaitai Zimuriripo Zimuwa Ziva Zivaraishayi Zivarwa Zive Zivoro Zorero Zori Zoro Zuvamoinopa Zuvanaya Zuvanei Zuvarai Zvaishamira Zvanashe Zvangedzega Zvara Zvayika Zviedzaishido Zviedzore Zvika Zvimba Zvimbai Zvimbaneko Zvimbirai Zvimutswa Zvingamhuro Zviondiedzou Zviraishe Zviramborwa Zvitwanyendai
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Tonzivorero Starfarers" "Rudzai Starfarers" "Rambwera Starfarers" "Kunai Starfarers" "Venyi Starfarers" "Kumbo Starfarers" "Mufara Starfarers" 
+		}
+		sequential_name = FANTASY_XHOSA_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_XHOSA_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Anai Anei Aneyi Anodiedzai Auyaro Chashe Chenyu Chidzwa Chiwa Dakangurai Damiroyo Danani Dangara Dovai Dovanye Garero Garudaishe Hupinomba Jekaedza Kambaitsai Kudza Kunga Kunopai Kusvirakudo Kutsai Kutsi Kutswasha Kuzi Kuzou Kuzukurai Maisaiso Majairirai Makwa Manai Manashero Manesei Manodai Matya Maura Maziba Mbesei Mbevayana Mbida Mbirirashe Mesuripa Momuse Mucha Muchazia Mudzai Mufariro Munashenge Mundisa Mungamapfumba Mungetai Munodai Munzijerewa Musa Museka Mute Mutswa Mutunopa Mwongarai Nakwayi Ndaisi Ndaitwashe Nenkoda Nhamishe Nhazvi Nomba Nombese Nyadzo Nyemupenakai Ongundiro Pfumadi Randayengai Rando Ratsi Rudochamuwa Rudzei Rujero Ruka Ruwa Ruwanopa Shoro Shuradza Shuvai Simbevikuru Tadzegwe Takuda Tana Tanai Taneka Tanoto Tapfumba Tarai Taraishe Tashe Tashinetsa Tauyaraishe Tawashe Tawindiwe Tazishe Tazvi Tesu Tinasai Tinoda Tinya Tiraitai Tiri Tiriri Todai Toindirai Toitashe Toma Tona Tongudzemwe Tsimbo Tumbiso Twiramiso Uchambani Vambishe Vanashe Vimbgai Watinopa Watiro Yemboro Yeuruwashe Zadzo Zimbeshenda Ziva Zivashazo Zvai Zvikombo Zvimbgai
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Babarevanyu Bashou Bhunzi Chatonda Chipi Daka Dakadzi Dakwa Damba Diindo Diinesu Dungwe Funyarerai Funziva Goreai Goreva Goro Gorwa Hamba Hambadzegwe Hamoinoro Hatendo Hatiri Hungama Hungwedzi Hupaka Hupashe Inga Ingai Ingwa Ishe Itamuwa Izivashe Jekudzwa Jona Jonguru Kapendera Kapfumb Kapfumba Kara Karai Karibabwe Kudineti Kuendai Kuenyikutsi Kuma Kumadza Kupenyu Kusvi Kutaingwa Kutenji Magungetswa Makunoro Makwa Mamutuperai Mana Mauria Mazokunorwa Muchipinesu Muda Mundai Mundaongo Mundo Muneva Muneya Mungai Mungwe Munya Musafarai Museka Nashenda Ndumba Ngurudinga Nhou Noka Nokudiwa Nokundaisi Nokunderai Nyariki Nzokutsi Ramoinaishe Rudziva Sama Samba Shunya Sikaremwo Simbo Simbonashe Tadzi Taka Takarai Takomba Takombwe Takuchare Takuche Takurai Takutai Takutunda Tamb Tamba Tamuwa Tanesu Taneya Taneyi Tanga Tani Tapi Tapombabare Tarai Tarashe Tari Tashe Tatona Tatonashoro Tatoshema Tavoreva Tawe Tawo Tazvasafara Tazvi Tenda Tendekunga Tenjenjenyu Tenyaro Tereai Tichayi Tiche Tindumb Tingaisi Tire Tondo Twirai Uchazvimba Vudingamba Vudzwa Ziva Zvari Zvashe Zvashida
+            }
+           
+            first_names_female = {
+				Anainashe Anei Anesaishe Anodisha Anodishe Atida Bira Biriririda Chidza Chidzai Chidzive Chiedzai Chii Chisai Dadishe Dadzai Dadzei Dakatyeneru Dovai Harai Idangira Ishe Izibo Kamiso Kate Kunashenda Kunatsai Kunyariraii Kusa Kutapiwa Maka Manavinata Manei Mani Manyaro Mari Mashe Masherambo Matsa Matsai Mavorira Mawa Mbevikai Muchamishe Mudoche Mudzo Mukudza Munandwei Musei Musviko Mutadziboni Mweyakai Nakwa Ndai Ndanevirai Nhafarirake Nhambura Nharo Njapiwa Nyakai Nyedza Nyendo Pambayiko Pando Pfumai Ranashe Ratapa Ratidai Ratidisa Ratsa Ratsei Ruda Rudavhuma Rudoche Rudorai Rudza Rukunga Runda Runopafara Ruvayi Ruvinopa Ruviriva Ruwa Ruwanye Ruwayi Shamupiwoyo Shidzai Shiro Shishe Simbo Simuka Tadii Tadiwashe Tadziva Tadzokashe Tadzwashe Tafadi Tafadiiswa Tafarai Tanashe Tanatsai Tano Tanopa Tanyemwiwa Tapiwashe Tarari Tasheanai Tate Tateneka Tatenko Tatswa Tawa Tawani Tenekai Teurai Teuropa Tinaisa Tinasi Tinga Tinokanashe Tinopa Tiradzai Tirirerai Todi Toitai Tozivanai Tuma Uchafadzai Uchashe Vamisatsa Vatida Vendaka Vimbo Wadi Watenyu Yanashe Yanishe Zvai Zvamupei
+            }
+			
+			
+			second_names = {
+				Anotidai Anoto Chamapiwere Chambga Chemasama Chemashoro Chembudzo Chenda Chikai Chikomapine Chikomasai Chikombo Chira Chirai Chiro Chirorai Chiwa Chiwanai Chiwandere Chiwe Chiweshenai Chiwesu Damapine Damasai Dambai Damvu Dandai Dandero Danga Dangai Dangara Dange Dangwa Dudzanai Dudzanesu Dudzangaro Dudzisamvu Dudzuriro Fara Fari Farira Farirai Faro Faroto Faruwari Guri Gurirai Guriro Guriroro Gwine Gwinetariro Gwinetaro Hatendai Hathe Ishe Ishemapine Ishenai Ishohwe Ishora Ishorai Kyagumba Kyagumumbo Kyai Lumbanai Lumbgai Lumborera Lumboro Lumumbai Lumumumba Lumumumbgai Majanai Majane Majangai Majangwa Masai Masama Mashe Masheanai Matendai Matendi Matheanai Mathengai Mawanetara Mawe Mbai Mbaitidai Mbangai Mbangariro Mbange Moma Momapiwerai Momapiweshe Momasai Momashohwe Momba Mombeshoro Mombesu Mombo Mudzai Mudzandai Mudzisai Mudzurira Mufara Mushe Mushendi Mushore Muzo Muzora Muzoro Mwangai Mwara Mware Mwaro Mwaroro Mwaroto Nenai Nenaishorai Nenga Nengwaruwa Ongarai Onge Porai Porcupiwera Porewanai Porewara Poro Porora Poroto Ranai Ranaitida Randera Ranetaruwa Rangai Range Rufara Rufaraitida Rufarere Rufarero Tafari Tafarira Tafarirai Tafariro Tafaro Tawa Tawe Tawere Tawero Tine Tinesu Tinetaro Tinyagumbai Tinyagumbo Tonai Tonda Tondero Tongai Tonge Vimbga Vimboro Vonaisha Vonda Vondai Vonga Vongaishe Vonge Vongombesu Vongombo Wadzane Wadzishe Wadzo Wadzorero Wonda Wonderai Wondi Wonga Wongaitikai Wongaruwa Yeuka Zadzai Zadzisamvu Zadzuri Ziva Zivangai Zore Zoro Zororembga Zuvai Zvai Zvandera
+			}
+            regnal_first_names_male = {
+				Dungwe Jonguru Kuma Nzokutsi Tazvi
+            }
+           
+            regnal_first_names_female = {
+				Anodisha Dadzai Manyaro Rukunga Vendaka
+            }
+			
+			
+			regnal_second_names = {
+				Anoto Chiwanai Dangai Faruwari Majangwa Mathengai Momasai Mombo Rufarero Tafari Vondai Zvai
+			}
+		}
+	}
+}

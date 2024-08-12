@@ -1,0 +1,290 @@
+﻿### Necroid 8
+# Armies based on Necroid 4
+# fantasynamegenerator.com misc, including Necromancer
+
+NECROID8 = {
+	category = "Necroid"
+	ship_names = {
+		generic = {
+			"Baited Switch" "Bitter Nerves" "Bladed Monster" "Broken Core" "Burning Seasons" "Chained Dawn" "Classic Denial" "Constant Requiem" "Cracked Misfortune" "Dark and Twisty Road" "Darkened Core" "Deepest Murk" "Different Faces" "Dischordant Soul" "Diseased Ambition" "Don't Fall" "Downtrodden" "Dulled Senses" "Endless Thorns" "False Prophecy" "Fear of Change" "Fear of Stasis" "Flesh for Life" "Funereal Toll" "Ghosts Within Ghosts" "Gloomy Den" "Gone, Gone, Gone" "Grand Dysphoria" "Grave-Stretcher" "Harsh Judgement" "Hollow Echo" "Icy Embrace" "Killing Jar" "Life in Gray" "Lifeless Sparks" "Little Sacrifice" "Message in Wind" "Morbid Solution" "Myth-Faker" "Noisy Secrets" "Nothing Less Than Violence" "Nth Skin" "Other Side" "Pale Leaf Echo" "Perpetual Toil" "Piercing Wing" "Prodigal Death" "Resurrection of Woe" "Rooted Suffering" "Sacred Void" "Scarlet Thing" "Shrouded Hope" "Silenced Hope" "Silent Memory" "Sinking Feeling" "Slow Fade" "Slow Fire" "Strange Sapience" "Submission of Purpose" "Switchblade" "That Corrosion" "Twice Misery" "Twisted Reflection" "Unending Sleep" "Unhappy House" "Uninvited" "Untouchable Dreams" "Valley of Despair" "Vapid Longing" "Vengeance in Existence" "Vile Purpose" "Vile Seduction" "Voice of Darkness"
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+    ship_class_names = {
+        generic = {
+            "Abasement" "Anxiety" "Avarice" "Bane" "Complacency" "Conceit" "Concupiscence" "Contagion" "Conviction" "Covetous" "Creed" "Depravity" "Destitution" "Doctrine" "Dogma" "Dysphoria" "Endemic" "Famine" "Guilt" "Melancholia" "Misfortune" "Penalty" "Pestilence" "Schism" "Scourge" "Shame" "Vainglory" "Woe"
+        }
+    }
+
+	fleet_names = {
+		random_names = {
+			"Aching Armada" "Afflicted Armada" "Agonized Armada" "Anguished Armada" "Bleak Armada" "Desolate Armada" "Destitute Armada" "Disaster Armada" "Dismal Armada" "Distressed Armada" "Dolorous Armada" "Dreary Armada" "Forlorn Armada" "Mortified Armada" "Persecuted Armada" "Pestilent Armada" "Shamed Armada" "Somber Armada" "Tormented Armada" "Troubled Armada" "Wretched Armada"
+		}
+		sequential_name = NEC8_xxFLEETNAMES_ORD
+	}
+		
+	army_names = {
+			
+		generic = {
+			sequential_name = NEC8_xxASSAULTARMY_ORD
+		}
+		
+		machine_defense = {
+			sequential_name = NEC8_xxMACHINEDEFENSE_ORD
+		}
+		
+		machine_assault_1 = {
+			sequential_name = NEC8_xxMACHINEASSAULT1_ORD
+		}
+		
+		machine_assault_2 = {
+			sequential_name = NEC8_xxMACHINEASSAULT2_ORD
+		}
+		
+		machine_assault_3 = {
+			sequential_name = NEC8_xxMACHINEASSAULT3_ORD
+		}
+
+		defense_army = {
+			sequential_name = NEC8_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = NEC8_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = NEC8_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = { 
+			sequential_name = NEC8_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = NEC8_xxUNDEADARMY_ORD
+		}
+
+		robotic_army = {
+			sequential_name = NEC8_xxROBOTICARMY_ORD
+		}
+
+		robotic_defense_army = {
+			sequential_name = NEC8_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = { 
+			sequential_name = NEC8_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = NEC8_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = NEC8_xxGENEWARRIORARMY_ORD
+		}
+
+		occupation_army = {
+			sequential_name = NEC8_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = NEC8_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = NEC8_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = NEC8_xxPRIMITIVEARMY_ORD
+		}
+		industrial_army = {
+			sequential_name = NEC8_xxINDUSTRIALARMY_ORD
+		}
+		postatomic_army = {
+			sequential_name = NEC8_xxPOSTATOMICARMY_ORD
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Agrishis Asazis Avrocix Badrem Bexhin Breiwix Brouleki Cethir Chouqis Chrimorn Chritos Chrouwith Cixhin Crexas Edeishis Efecix Epenus Feprix Fixhin Fumin Gobrix Goumek Griocrux Hocix Ipraxith Keithas Lazael Loumek Mexhin Monoth Ochriyor Ocowith Ocriprix Otizael Pedrex Pemorn Pratos Prewith Priwith Sexis Sheghrin Sheibaem Shioqrax Sibrix Staxhin Strabrix Tughrin Ushixith Voshis Weidrem Weyor Woyor Wreimin Wriopeth Xenirn Xoxas Yaxis Yexiem Zouleki Zrioxhin			
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			
+			}
+		}
+		
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names_male = {			
+				Acheixor Brelak Bremon Chiorow Crozad Diovras Dithik Drubrum Dugan Esheilekai Fagan Fipent Fizor Gaqir Geicular Hiodan Hioxor Hirow Isouzor Iwamien Kedum Keizius Kelekai Kemien Laedum Lakar Loqir Luzhar Nezor Nilekai Orokras Pakai Peigrim Pomien Poxor Praukras Rexor Rikras Salazar Sheirael Shodhur Stozad Streghor Strotic Tivok Torael Uzathum Vakai Vauxor Vigan Vreigan Wepent Wouvok Wrarael Wrizor Wrozar Zokai Zraexor Zriorow Zrulazar
+			}
+			first_names_female = {			
+				Adrisin Azraughana Bebetha Braedita Brobetha Brudita Brulian Chotulah Chraselm Chriomura Drotulah Ecamona Eduroti Elopeste Esogrid Eyugami Ezrugrid Feris Geilian Gereda Goucia Grauverra Hovana Humish Igrepris Izraelya Kralya Kribetha Lazaen Leizaen Lemona Maress Maumira Mireas Nivris Nuress Piorina Pretulah Proven Proviah Raereda Riopris Sidira Somira Staelen Straghana Tauselm Tihilde Ugrouroti Unigrid Vibetha Vragrid Womira Wradira Wraevash Wrihilde Xilen Yebetha Zrabrix Zrevris			
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				
+				Carnage Doomwhisper Bonecall Deathbloom Bane Doomweaver Nightshade Nightfall Shadowend Sanguis Ashes Doomtower Blacktower Blackthrone Deaththrone Deathblade Shadowblade Dreadchild Dreadmind Dreadblossom Deathblossom Shadowend Molder Plasma Mildew Shade Incarnate Void Mort Deathbringer Slayer
+			
+				"the Raised"
+				"the Constructor"
+				"the Black"
+				"the Defiler"
+				"the Putrid"
+				"the Gorish"
+				"the Corpsemaker"
+				"the Desecrator"
+				"the Serpent"
+				"the Undead"
+				"the Raised"
+				"the Surgeon"
+				"the Demise"
+				"the Defiler"
+				"the Vivisector"
+				"the Analyzer"
+				"the Extinguisher"
+				"the Maggot"
+				"the Abominable"
+				"the Reaper"
+				"the Reaper"
+				"the Harvester"
+				"the Wraith"
+				"the Experiment"
+				"the Nightmare"
+				"the Fleshrender"
+				"the Eternal"
+				"the Harvester"
+				"the Decrepit"
+				"the Corrupted"
+				"the Vivisector"
+				"the Reanimator"
+				"the Abomination"
+				"the Putrid"
+				"the Harvester"
+				"the Surgeon"
+				"the Corrupted"
+				"the Plaguebringer"
+				"the Constructor"
+				"the Unliving"
+				"the Necro"
+				"the Experimentor"			
+			
+			}
+			
+			regnal_first_names = {
+				Brelak Chotulah Dugan Humish Nilekai Proviah Shodhur Wepent Zrabrix
+			}
+			
+			regnal_second_names = {
+				"the Deathless"
+				"the Master"
+				"the Prince"
+				"the All-Destroyer"
+			}
+		}
+	}
+}

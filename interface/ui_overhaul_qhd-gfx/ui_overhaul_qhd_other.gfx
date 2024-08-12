@@ -1,0 +1,10 @@
+spriteTypes = {
+    frameAnimatedSpriteType = {
+        name = "GFX_ui_toot"
+		textureFile = "gfx/ui_overhaul_qhd/Ω/toot.tga"
+        noOfFrames = 21
+        animation_rate_fps = 5
+        looping = yes
+        play_on_show = yes
+    }
+}

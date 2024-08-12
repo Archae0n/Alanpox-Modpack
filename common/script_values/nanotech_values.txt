@@ -1,0 +1,8 @@
+summoning_progress = {
+	base = 1
+	modifier = {
+		mult = target.num_districts_terravore
+	}
+	pow = 1
+
+}

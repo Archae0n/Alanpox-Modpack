@@ -1,0 +1,11 @@
+﻿l_english:
+ tr_nanotech_1_modifier_desc: "§Y$AVAILABLE_BUILDINGS$§! $building_nanolab_2$"
+ tr_nanotech_2_modifier_desc: "§Y$AVAILABLE_BUILDINGS$§! $building_nanotech_cauldron$\n§Y$AVAILABLE_BUILDINGS$§! $NGen_building_nanotech_generator$  \nResearch option gained: §Y£engineering£ $tech_nanite_transmutation$§!"
+ tr_nanotech_3_modifier_desc: "§YUnlocks Planetary Decision: §!$decision_nanotech_swarm_consume_world$"
+ tr_nanotech_4_modifier_desc: "§YUnlocks Ship:§! Nanite Swarmer\n\nResearch options gained: $TABBED_NEW_LINE$- §Y£engineering£ $tech_nanite_autocannon$§! $TABBED_NEW_LINE$- §Y£engineering£ $tech_nanite_repair_system$§! $TABBED_NEW_LINE$- §Y£engineering£ $tech_nanite_flak_batteries$§!"
+ tr_nanotech_5_modifier_desc: "§YUnlocks Edicts:§!$TABBED_NEW_LINE$- $edict_nanotech_naval_augmentation$$TABBED_NEW_LINE$- $edict_nanotech_alloy_augmentation$$TABBED_NEW_LINE$- $edict_nanotech_energy_augmentation$$TABBED_NEW_LINE$- $edict_nanotech_overdrive$"
+ tr_nanotech_finish_modifier_desc: "§YUnlocks Ships:§! Nanite Interdictor and Nanite Modership \n§YUnlocks Planetary Decision: §!$decision_nanotech_swarm_create_mothership$ \n§Y$sm_nanite_harvester_plural$§! yield improvements every §Y5§! years, either increasing the size of $r_nanites$ deposits or yielding a sum of nanites. This effect is limited by the size of the planet that deposits are created upon."
+ GG_STRIKE_CRAFT: "Nanite Microswarm"
+ GG_ENERGY_MISSILE: "Von-Neumann Cluster"
+
+

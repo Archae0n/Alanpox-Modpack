@@ -1,0 +1,465 @@
+namespace = bugged_paragon
+
+country_event = { # anthropocentric 1
+	id = bugged_paragon.1
+	title = "bugged_paragon.1.name"
+	desc = "bugged_paragon.1.desc"
+	show_sound = par_portrait_04
+	is_triggered_only = yes
+
+	picture = GFX_leader_recruitment_bg_renowned
+	auto_opens = no
+	notification_event_icon = "GFX_message_leader_recruitment_bugged_paragon_1"
+
+	event_window_type = leader_recruit
+
+	immediate = {
+		ethic_leader_creator = {
+			SPECIES_CLASS = random_non_machine
+			LEADER_PORTRAIT = buggedanthropocentric1 #tox14 #buggedelite1 #anthropocentric_leader_gov
+			CLASS = official
+			NAME = NAME_anthropocentric1
+			LEVEL = 4
+			GENDER = male
+			IMMORTAL = no
+			ETHIC = anthropocentric
+			DESC = anthropocentric1
+			CATCH_PHRASE = anthropocentric1_catch_phrase
+		}
+		last_created_leader = {
+			add_trait = subclass_official_governor
+			add_trait = leader_trait_urbanist
+			add_trait = leader_trait_insider_trading
+			add_trait = leader_trait_manufacturer
+			add_trait = leader_trait_assembler
+			set_age = 40
+		}
+	}
+
+	picture_event_data = {
+		portrait = event_target:ethic_leader
+		room = ethic_spaceship_room
+	}
+
+	option = {
+		name = DISMISS
+		tag = dismiss_leader
+		hidden_effect = {
+			remove_global_flag = anthropocentric_leader_1
+			ethic_leader_kill_effect = yes
+			set_country_flag = dismissed_anthropocentric_leader_1
+		}
+	}
+	option = {
+		name = bugged_paragon.1.a
+		response_text = bugged_paragon.1.a.response
+		is_dialog_only = yes
+	}
+	option = {
+		name = bugged_paragon.1.b
+		response_text = bugged_paragon.1.b.response
+		is_dialog_only = yes
+	}
+	option = {
+		name = bugged_paragon.1.c
+		response_text = bugged_paragon.1.c.response
+		is_dialog_only = yes
+	}
+	option = {
+		name = HIRE
+		tag = hire_leader
+		custom_tooltip = bugged_paragon.1.hire_custom_tooltip
+		hidden_effect = {
+			ethic_leader_hire_effect = {
+				GLOBAL_EVENT_TARGET = renowned_anthropocentric1
+			}
+		}
+	}
+}
+
+country_event = { # ecocentric 1
+	id = bugged_paragon.3
+	title = "bugged_paragon.3.name"
+	desc = "bugged_paragon.3.desc"
+	show_sound = par_portrait_11
+	is_triggered_only = yes
+
+	picture = GFX_leader_recruitment_bg_renowned
+	auto_opens = no
+	event_window_type = leader_recruit
+	notification_event_icon = "GFX_message_leader_recruitment_nona"
+
+	immediate = {
+		ethic_leader_creator = {
+			SPECIES_CLASS = random_non_machine
+			LEADER_PORTRAIT = par_renown_11 #ecocentric_leader_sci
+			CLASS = scientist
+			NAME = NAME_ecocentric1
+			LEVEL = 4
+			GENDER = female
+			IMMORTAL = no
+			ETHIC = ecocentric
+			DESC = ecocentric1
+			CATCH_PHRASE = ecocentric1_catch_phrase
+		}
+		last_created_leader = {
+			add_trait = subclass_scientist_governor
+			add_trait = leader_trait_naturalist_2
+			add_trait = leader_trait_procrastinator
+			add_trait = leader_trait_collaborator
+			add_trait = leader_trait_surveyor
+			set_age = 32
+		}
+	}
+
+	picture_event_data = {
+		portrait = event_target:ethic_leader
+		room = ethic_spaceship_room
+	}
+
+	option = {
+		name = DISMISS
+		tag = dismiss_leader
+		hidden_effect = {
+			remove_global_flag = ecocentric_leader_1
+			ethic_leader_kill_effect = yes
+			set_country_flag = dismissed_ecocentric_leader_1
+		}
+	}
+	option = {
+		name = bugged_paragon.3.a
+		response_text = bugged_paragon.3.a.response
+		is_dialog_only = yes
+	}
+	option = {
+		name = bugged_paragon.3.b
+		response_text = bugged_paragon.3.b.response
+		is_dialog_only = yes
+	}
+	option = {
+		name = bugged_paragon.3.c
+		response_text = bugged_paragon.3.c.response
+		is_dialog_only = yes
+	}
+	option = {
+		name = HIRE
+		tag = hire_leader
+		custom_tooltip = bugged_paragon.3.hire_custom_tooltip
+		hidden_effect = {
+			ethic_leader_hire_effect = {
+				GLOBAL_EVENT_TARGET = renowned_ecocentric1
+			}
+		}
+	}
+}
+
+country_event = { # competitive 1
+	id = bugged_paragon.5
+	title = "bugged_paragon.5.name"
+	desc = "bugged_paragon.5.desc"
+	show_sound = par_portrait_10
+	is_triggered_only = yes
+
+	picture = GFX_leader_recruitment_bg_renowned
+	auto_opens = no
+	event_window_type = leader_recruit
+	notification_event_icon = "GFX_message_leader_recruitment_vas"
+
+	immediate = {
+		ethic_leader_creator = {
+			SPECIES_CLASS = random_non_machine
+			LEADER_PORTRAIT = par_renown_10 #pacifist_leader_gov
+			CLASS = official
+			NAME = NAME_competitive1
+			LEVEL = 4
+			GENDER = female
+			IMMORTAL = no
+			ETHIC = competitive
+			DESC = competitive1
+			CATCH_PHRASE = competitive1_catch_phrase
+		}
+		if = {
+			limit = {
+				is_criminal_syndicate = yes
+			}
+			last_created_leader = {
+				add_trait = subclass_official_diplomacy_councilor
+				add_trait = leader_trait_bugged_trader
+				add_trait = leader_trait_substance_abuser
+				add_trait = leader_trait_ambassador_ear_to_the_ground
+				add_trait = leader_trait_ambassador_pact_keeper
+				set_age = 30
+			}
+		}
+		else_if = {
+			last_created_leader = {
+				add_trait = subclass_official_diplomacy_councilor
+				add_trait = leader_trait_bugged_trader
+				add_trait = leader_trait_substance_abuser
+				add_trait = leader_trait_ambassador_commercial_pact_focus
+				add_trait = leader_trait_ambassador_pact_keeper
+				set_age = 30
+			}
+		}
+	}
+
+	picture_event_data = {
+		portrait = event_target:ethic_leader
+		room = ethic_spaceship_room
+	}
+
+	option = {
+		name = DISMISS
+		tag = dismiss_leader
+		hidden_effect = {
+			remove_global_flag = competitive_leader_1
+			ethic_leader_kill_effect = yes
+			set_country_flag = dismissed_competitive_leader_1
+		}
+	}
+	option = {
+		name = bugged_paragon.5.a
+		response_text = bugged_paragon.5.a.response
+		is_dialog_only = yes
+	}
+	option = {
+		name = bugged_paragon.5.b
+		response_text = bugged_paragon.5.b.response
+		is_dialog_only = yes
+	}
+	option = {
+		name = bugged_paragon.5.c
+		response_text = bugged_paragon.5.c.response
+		is_dialog_only = yes
+	}
+	option = {
+		name = HIRE
+		tag = hire_leader
+		custom_tooltip = bugged_paragon.5.hire_custom_tooltip
+		hidden_effect = {
+			ethic_leader_hire_effect = {
+				GLOBAL_EVENT_TARGET = renowned_competitive1
+			}
+		}
+	}
+}
+
+# country_event = { # elitist 1
+# 	id = bugged_paragon.11
+# 	title = "bugged_paragon.11.name"
+# 	desc = "bugged_paragon.11.desc"
+# 	show_sound = par_portrait_12
+# 	is_triggered_only = yes
+	
+# 	picture = GFX_leader_recruitment_bg_renowned
+# 	auto_opens = no
+# 	event_window_type = leader_recruit
+# 	notification_event_icon = "GFX_message_bombardment_gave_control"
+
+# 	immediate = {
+# 		ethic_leader_creator = { 
+# 			SPECIES_CLASS = random_non_machine # Species class, for animation purposes, example: MAM4
+# 			LEADER_PORTRAIT = buggedelite1 # ecocentric_leader_gen # Leader portrait
+# 			CLASS = official
+# 			NAME = NAME_bugged_elitist1
+# 			LEVEL = 4
+# 			GENDER = male
+# 			IMMORTAL = no
+# 			ETHIC = elitist
+# 			DESC = elitist1
+# 			CATCH_PHRASE = elitist1_catch_phrase
+# 		}
+# 		last_created_leader = {
+# 			add_trait = subclass_governor_visionary
+# 			add_trait = leader_trait_bugged_elitist_ideals
+# 			add_trait = leader_trait_principled_2
+# 			add_trait = trait_ruler_deep_connections
+# 			add_trait = leader_trait_tyrannical
+# 			set_age = 27
+# 		}
+# 	}
+
+# 	picture_event_data = {
+# 		portrait = event_target:ethic_leader
+# 		room = ethic_spaceship_room
+# 	}
+	
+# 	option = {
+# 		name = DISMISS
+# 		tag = dismiss_leader
+# 		hidden_effect = {
+# 			remove_global_flag = elitist_leader_1 # Put this leader back into the pool, so player could still get him
+# 			ethic_leader_kill_effect = yes
+# 			set_country_flag = dismissed_elitist_leader_1
+# 		}
+# 	}
+# 	option = {
+# 		name = bugged_paragon.11.a
+# 		response_text = bugged_paragon.11.a.response
+# 		is_dialog_only = yes
+# 	}
+# 	option = {
+# 		name = bugged_paragon.11.b
+# 		response_text = bugged_paragon.11.b.response
+# 		is_dialog_only = yes
+# 	}
+# 	option = {
+# 		name = bugged_paragon.11.c
+# 		response_text = bugged_paragon.11.c.response
+# 		is_dialog_only = yes
+# 	}
+# 	option = {
+# 		name = HIRE
+# 		tag = hire_leader
+# 		custom_tooltip = bugged_paragon.11.hire_custom_tooltip
+# 		hidden_effect = {
+# 			ethic_leader_hire_effect = {
+# 				GLOBAL_EVENT_TARGET = renowned_elitist1
+# 			}
+# 		}
+# 	}
+# }
+
+# country_event = { # elitist 2
+# 	id = bugged_paragon.12
+# 	title = "bugged_paragon.12.name"
+# 	desc = "bugged_paragon.12.desc"
+# 	show_sound = par_portrait_12
+# 	is_triggered_only = yes
+	
+# 	picture = GFX_leader_recruitment_bg_renowned
+# 	auto_opens = no
+# 	event_window_type = leader_recruit
+# 	notification_event_icon = "GFX_message_bombardment_gave_control"
+
+# 	immediate = {
+# 		ethic_leader_creator = { 
+# 			SPECIES_CLASS = random_non_machine # Species class, for animation purposes, example: MAM4
+# 			LEADER_PORTRAIT = art11 # ecocentric_leader_gen # Leader portrait
+# 			CLASS = commander
+# 			NAME = NAME_bugged_elitist2
+# 			LEVEL = 4
+# 			GENDER = male
+# 			IMMORTAL = no
+# 			ETHIC = elitist
+# 			DESC = elitist2
+# 			CATCH_PHRASE = elitist2_catch_phrase
+# 		}
+# 		last_created_leader = {
+# 			set_age = 33
+# 		}
+# 	}
+
+# 	picture_event_data = {
+# 		portrait = event_target:ethic_leader
+# 		room = ethic_spaceship_room
+# 	}
+	
+# 	option = {
+# 		name = DISMISS
+# 		tag = dismiss_leader
+# 		hidden_effect = {
+# 			remove_global_flag = elitist_leader_2 # Put this leader back into the pool, so player could still get him
+# 			ethic_leader_kill_effect = yes
+# 			set_country_flag = dismissed_elitist_leader_2
+# 		}
+# 	}
+# 	option = {
+# 		name = bugged_paragon.12.a
+# 		response_text = bugged_paragon.12.a.response
+# 		is_dialog_only = yes
+# 	}
+# 	option = {
+# 		name = bugged_paragon.12.b
+# 		response_text = bugged_paragon.12.b.response
+# 		is_dialog_only = yes
+# 	}
+# 	option = {
+# 		name = bugged_paragon.12.c
+# 		response_text = bugged_paragon.12.c.response
+# 		is_dialog_only = yes
+# 	}
+# 	option = {
+# 		name = HIRE
+# 		tag = hire_leader
+# 		custom_tooltip = bugged_paragon.12.hire_custom_tooltip
+# 		hidden_effect = {
+# 			ethic_leader_hire_effect = {
+# 				GLOBAL_EVENT_TARGET = renowned_elitist2
+# 			}
+# 		}
+# 	}
+# }
+
+# country_event = { # anthropocentric 1
+# 	id = bugged_paragon.21
+# 	title = "bugged_paragon.21.name"
+# 	desc = "bugged_paragon.21.desc"
+# 	show_sound = par_portrait_12
+# 	is_triggered_only = yes
+	
+# 	picture = GFX_leader_recruitment_bg_renowned
+# 	auto_opens = no
+# 	event_window_type = leader_recruit
+# 	notification_event_icon = "GFX_message_bombardment_gave_control"
+
+# 	immediate = {
+# 		ethic_leader_creator = { 
+# 			SPECIES_CLASS = random_non_machine # Species class, for animation purposes, example: MAM4
+# 			LEADER_PORTRAIT = buggedanthropocentric1 # ecocentric_leader_gen # Leader portrait
+# 			CLASS = scientist
+# 			NAME = NAME_bugged_anthropocentric1
+# 			LEVEL = 4
+# 			GENDER = male
+# 			IMMORTAL = no
+# 			ETHIC = anthropocentric
+# 			DESC = anthropocentric1
+# 			CATCH_PHRASE = anthropocentric1_catch_phrase
+# 		}
+# 		last_created_leader = {
+# 			add_trait = subclass_scientist_researcher
+# 			add_trait = leader_trait_bugged_megastructure
+# 			set_age = 33
+# 		}
+# 	}
+
+# 	picture_event_data = {
+# 		portrait = event_target:ethic_leader
+# 		room = ethic_spaceship_room
+# 	}
+	
+# 	option = {
+# 		name = DISMISS
+# 		tag = dismiss_leader
+# 		hidden_effect = {
+# 			remove_global_flag = anthropocentric_leader_1 # Put this leader back into the pool, so player could still get him
+# 			ethic_leader_kill_effect = yes
+# 			set_country_flag = dismissed_anthropocentric_leader_1
+# 		}
+# 	}
+# 	option = {
+# 		name = bugged_paragon.21.a
+# 		response_text = bugged_paragon.21.a.response
+# 		is_dialog_only = yes
+# 	}
+# 	option = {
+# 		name = bugged_paragon.21.b
+# 		response_text = bugged_paragon.21.b.response
+# 		is_dialog_only = yes
+# 	}
+# 	option = {
+# 		name = bugged_paragon.21.c
+# 		response_text = bugged_paragon.21.c.response
+# 		is_dialog_only = yes
+# 	}
+# 	option = {
+# 		name = HIRE
+# 		tag = hire_leader
+# 		custom_tooltip = bugged_paragon.21.hire_custom_tooltip
+# 		hidden_effect = {
+# 			ethic_leader_hire_effect = {
+# 				GLOBAL_EVENT_TARGET = renowned_anthropocentric1
+# 			}
+# 		}
+# 	}
+# }

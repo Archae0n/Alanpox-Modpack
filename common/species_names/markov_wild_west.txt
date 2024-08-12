@@ -1,0 +1,524 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	nuellytheswift = {
+		name = Chadictowian
+		plural = Chadictowians
+		home_planet = "Nuelly the Swift"
+		home_system = "Kanzon the Exotic"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	lucinahora = {
+		name = Lucinahoran
+		plural = Lucinahorans
+		home_planet = Lucinahora
+		home_system = Marrie-Iva
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	plantationoftheblessed = {
+		name = Salmbrian
+		plural = Salmbrians
+		home_planet = "Plantation of the Blessed"
+		home_system = "Allyworde's Mansion"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	roackson = {
+		name = Roacksonian
+		plural = Roacksonians
+		home_planet = Roackson
+		home_system = Wyorginey
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	Ssilvinna = {
+		name = Silvinnean
+		plural = Silvinneans
+		home_planet = Silvinna
+		home_system = "Valia Knox"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	bartin = {
+		name = Bartínese
+		plural = Bartínese
+		home_planet = Bartín
+		home_system = Sillausto
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	steedofjustice = {
+		name = Gidgelian
+		plural = Gidgelians
+		home_planet = "Steed of Justice"
+		home_system = "Dueler's Redoubt" 
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	asangeon = {
+		name = Asangeonese
+		plural = Asangeonese
+		home_planet = Asangeon
+		home_system = Dandaide 
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	jeriet = {
+		name = Jerietoid
+		plural = Jerietoids
+		home_planet = Jeriet
+		home_system = Marriam 
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	evandoriaprime = {
+		name = Evandorian
+		plural = Evandorians
+		home_planet = "Evandoria Prime"
+		home_system = Evandoria 
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	franassaloon = {
+		name = Rivenetean
+		plural = Riveneteans
+		home_planet = "Frana's Saloon"
+		home_system = "Roaquez Gulch" 
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	baurhamer = {
+		name = Baurhamerian
+		plural = Baurhamerians
+		home_planet = Baurhamer
+		home_system = Miandy
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	jossecattheworldflower = {
+		name = Jacornian
+		plural = Jacornians
+		home_planet = "Josse Catt the World-Flower"
+		home_system = "Vivelison the Undefeated"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	oziana = {
+		name = Ozianan
+		plural = Ozianans
+		home_planet = Oziana
+		home_system = Abnewyon
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	plateauoftheoutcasts = {
+		name = Luizan
+		plural = Luizans
+		home_planet = "Plateau of the Outcasts"
+		home_system = "Baynore Junction"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	celbranaprime = {
+		name = Celbranoid
+		plural = Celbranoids
+		home_planet = "Celbrana Prime"
+		home_system = Celbrana
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	quiss = {
+		name = Quissling  
+		plural = Quisslings
+		home_planet = Quiss
+		home_system = Aving
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	mayatlope = {
+		name = "Mayat Lópean"  
+		plural = "Mayat Lópeans"
+		home_planet = "Mayat Lópe"
+		home_system = Chridallina
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	luilfredothepriest = {
+		name = Chridallian  
+		plural = Chridallians
+		home_planet = "Luilfredo the Priest"
+		home_system = "Abbouveli the Outlaw"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	huguiza = {
+		name = Huguizan  
+		plural = Huguizans
+		home_planet = Huguiza
+		home_system = Biandalley
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	lightevermore = {
+		name = Morrency  
+		plural = Morrency
+		home_planet = "Light Evermore"
+		home_system = "Fistful of Lights"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	clanda = {
+		name = Clandite  
+		plural = Clandites
+		home_planet = Clanda
+		home_system = Cob-Emon
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	goodoftheheavens = {
+		name = Rivegean 
+		plural = Rivegeans
+		home_planet = "Good of the Heavens"
+		home_system = "Bad in the Sky"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	lelquise = {
+		name = Quiselian 
+		plural = Quiselians
+		home_planet = "Lel Quise"
+		home_system = Aurthark
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	mantock = {
+		name = Mantockian 
+		plural = Mantockians
+		home_planet = Mantock
+		home_system = Valetts
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	blondgunslinger = {
+		name = Clintian 
+		plural = Clintians
+		home_planet = "Blond Gunslinger"
+		home_system = "Angel's Eyes"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	doydez = {
+		name = Albenean 
+		plural = Albeneans
+		home_planet = Doydez
+		home_system = Birgio
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	leonithestoryteller = {
+		name = Westoid
+		plural = Westoids
+		home_planet = "Leoni the Storyteller"
+		home_system = "Morricona the Musician"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	nordah = {
+		name = Boralk
+		plural = Boralks
+		home_planet = Nordah
+		home_system = Estenton
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	gronvison = {
+		name = Gronvisonian
+		plural = Gronvisonians
+		home_planet = Gronvison
+		home_system = Hartyle
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	firstwasteland = {
+		name = Barrasoid
+		plural = Barrasoids
+		home_planet = "First Wasteland"
+		home_system = "Never-Living Canyon"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	margosas = {
+		name = Margosian
+		plural = Margosians
+		home_planet = Margosas
+		home_system = Miladrita
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	lundenasfarm = {
+		name = Isandan
+		plural = Isandans
+		home_planet = "Lundena's Farm"
+		home_system = "Javade Plains"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	kentavia = {
+		name = Kentavian
+		plural = Kentavians
+		home_planet = Kentavia
+		home_system = Roserce
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	rosamuez = {
+		name = Rosamuezan
+		plural = Rosamuezans
+		home_planet = Rosamuez
+		home_system = "Fer Emina"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	midnightoutpost = {
+		name = Mardoan
+		plural = Mardoans
+		home_planet = "Midnight Outpost"
+		home_system = "Souls of the Wanderers"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	montego = {
+		name = Montegoid
+		plural = Montegoids
+		home_planet = Montego
+		home_system = Ephinas
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	leoperprime = {
+		name = Leoperish
+		plural = Leoperish
+		home_planet = "Leoper Prime"
+		home_system = Leoper
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	emmar = {
+		name = Emmarite
+		plural = Emmarites
+		home_planet = Emmar
+		home_system = Auderson
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	sarvissatheangle = {
+		name = Golguelese
+		plural = Golguelese
+		home_planet = "Sarvissa the Angel"
+		home_system = "Abelie the Devil"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	ramigan = {
+		name = Ramiganid
+		plural = Ramiganids
+		home_planet = Ramigan
+		home_system = Cittio
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	emiansspring = {
+		name = Clentean
+		plural = Clenteans
+		home_planet = "Emián's Spring"
+		home_system = "Hope-Enduring Desert"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	sheriffofheaven = {
+		name = Ellinewan
+		plural = Ellinewans
+		home_planet = "Sheriff of Heaven"
+		home_system = "Honorable Bandit"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	portwallioprime = {
+		name = Portwallish
+		plural = Portwallish
+		home_planet = "Portwallio Prime"
+		home_system = Portwallio
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	lajana = {
+		name = Lajanan
+		plural = Lajanans
+		home_planet = Lajana
+		home_system = Garity
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	flormosa = {
+		name = Flormosoid
+		plural = Flormosoids
+		home_planet = Flormosa
+		home_system = Saberwasquer
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	delluker = {
+		name = Dellukerid
+		plural = Dellukerids
+		home_planet = Delluker
+		home_system = Conedeller
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	evaeztheshadow = {
+		name = Domiánite
+		plural = Domiánites
+		home_planet = "Evaez the Shadow"
+		home_system = "Hawye the Fool"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	banquetofthechosen = {
+		name = Gardling
+		plural = Gardlings
+		home_planet = "Banquet of the Chosen"
+		home_system = "Fate of Weeds"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	cueliana = {
+		name = Cuelianan
+		plural = Cuelianans
+		home_planet = Cueliana
+		home_system = Leorvac
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	wanez = {
+		name = Denter
+		plural = Denters
+		home_planet = Danez
+		home_system = Dorsvia
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	holsteredwanderer = {
+		name = "Wale Cobellian"
+		plural = "Wale Cobellians"
+		home_planet = "Holstered Wanderer"
+		home_system = "Outlaw of Justice"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	mortiz = {
+		name = Sebenan
+		plural = Sebenans
+		home_planet = Mortíz
+		home_system = Alliveler
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	suarett = {
+		name = Suárettian
+		plural = Suárettians
+		home_planet = "Suárett's Saloon"
+		home_system = "Gilfiego River"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	faelian = {
+		name = Faeling
+		plural = Faelings
+		home_planet = Faelián
+		home_system = Aguez
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	marparrand = {
+		name = Marparrian
+		plural = Marparrians
+		home_planet = "Mar Parrand"
+		home_system = Tomstage
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	garon = {
+		name = Garonese
+		plural = Garonese
+		home_planet = Garon
+		home_system = Motordem
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	merantia = {
+		name = Merantian
+		plural = Merantians
+		home_planet = Merantia
+		home_system = Nelpalk
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	bileste = {
+		name = Bilestean
+		plural = Bilesteans
+		home_planet = Bileste
+		home_system = Calley
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	grandmord = {
+		name = Mordean
+		plural = Mordeans
+		home_planet = "Gran Mord"
+		home_system = "Bar Mord"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	floredia = {
+		name = Floredian
+		plural = Floredians
+		home_planet = Floredia
+		home_system = Sanamo
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	chestpaullesprings = {
+		name = Chestpaullian
+		plural = Chestpaullians
+		home_planet = "Chestpaulle Springs"
+		home_system = "Baray Peak"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	santetacas = {
+		name = Pilanas
+		plural = Pilanas
+		home_planet = "Sante Tacas"
+		home_system = "Sante Rand"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	sandton = {
+		name = Sandtonese
+		plural = Sandtonese
+		home_planet = Sandton
+		home_system = Stonebella
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	darwich = {
+		name = Darwichian
+		plural = Darwichians
+		home_planet = Darwich
+		home_system = "Wilton Routh"
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+	batown = {
+		name = Batownian
+		plural = Batownians
+		home_planet = Batown
+		home_system = Bedensaga
+		name_list = "cybrxkhan_handmade_wild_west"
+	}
+}

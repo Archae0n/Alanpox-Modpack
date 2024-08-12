@@ -1,0 +1,52 @@
+﻿# l_english:
+# l_spanish:
+# l_german:
+# l_french:
+# l_polish:
+# l_russian:
+l_braz_por:
+# l_simp_chinese:
+# l_korean:
+# l_japanese:
+
+ edict_intervene_help_friendly_nation:0 "Ajudar Nação Amiga"
+ edict_intervene_help_friendly_nation_desc:0 "Convencer a opinião pública de que nossos interesses nacionais estão alinhados aos interesses de outras nações é algo deveras complicado, mas através do uso de nosso capital política podemos intervir em uma guerra e ajudar uma nação amiga."
+ edict_intervene_help_friendly_nation_federated:0 "Ajudar Nação Amiga"
+ edict_intervene_help_friendly_nation_federated_desc:0 "Convencer a opinião pública de que nossos interesses nacionais estão alinhados aos interesses de outras nações é algo deveras complicado, mas através do uso de nosso capital política podemos intervir em uma guerra e ajudar uma nação amiga."
+ intervene.1000.name:0 "Uma mão amiga"
+ intervene.1000.desc:0 "Uma nação amiga está em guerra. O sucesso (ou fracasso) dela pode nos afetar indiretamente. Podemos lhes dar uma ajudinha para garantir de que seremos afetados positivamente."
+ 
+ intervene.1000.intervene_1:0 "§H[intervene_friendly_nation_1.GetName]§!, Guerras Ativas: §Y[intervene_friendly_nation_1.friendly_nation_war_count]§!"
+ intervene.1000.intervene_2:0 "§H[intervene_friendly_nation_2.GetName]§!, Guerras Ativas: §Y[intervene_friendly_nation_2.friendly_nation_war_count]§!"
+ intervene.1000.intervene_3:0 "§H[intervene_friendly_nation_3.GetName]§!, Guerras Ativas: §Y[intervene_friendly_nation_3.friendly_nation_war_count]§!"
+ intervene.1000.intervene_4:0 "§H[intervene_friendly_nation_4.GetName]§!, Guerras Ativas: §Y[intervene_friendly_nation_4.friendly_nation_war_count]§!"
+ intervene.1000.intervene_5:0 "§H[intervene_friendly_nation_5.GetName]§!, Guerras Ativas: §Y[intervene_friendly_nation_5.friendly_nation_war_count]§!"
+ intervene.1000.intervene_6:0 "§H[intervene_friendly_nation_6.GetName]§!, Guerras Ativas: §Y[intervene_friendly_nation_6.friendly_nation_war_count]§!"
+ intervene.1000.intervene_7:0 "§H[intervene_friendly_nation_7.GetName]§!, Guerras Ativas: §Y[intervene_friendly_nation_7.friendly_nation_war_count]§!"
+ intervene.1000.intervene_8:0 "§H[intervene_friendly_nation_8.GetName]§!, Guerras Ativas: §Y[intervene_friendly_nation_8.friendly_nation_war_count]§!"
+ intervene.1000.intervene_9:0 "§H[intervene_friendly_nation_9.GetName]§!, Guerras Ativas: §Y[intervene_friendly_nation_9.friendly_nation_war_count]§!"
+ intervene.1000.intervene_10:0 "§H[intervene_friendly_nation_10.GetName]§!, Guerras Ativas: §Y[intervene_friendly_nation_10.friendly_nation_war_count]§!"
+
+ intervene.1000.desist:0 "Pensando bem, pra que se envolver na guerra de outro império?"
+
+ intervene_cooldown_text:0 "\n§R Temos que esperar um ano antes de considerar outra intervenção. §! \nn"
+ intervene_recent_intervention:0 "Intervenção Recente"
+ intervene_recent_intervention_timed:0 "Intervenção Recente"
+
+ intervene_opinion_military_help:0 "Ajuda Militar"
+
+ unity_fail_text_intervene:0 "§HUnidade§! §Rinsuficiente§!"
+
+ intervene.2000.name:0 "$intervene.1000.name$"
+ intervention.2000.desc:0 "O §Y[event_target:friendly_multiple_wars.GetAdj]s§! estão envolvidos em múltiplas guerras. A que guerra devemos nos unir?"
+
+ intervene.2000.intervene_1:0 "O §Y[intervene_friendly_war_1.GetName]§!."
+ intervene.2000.intervene_2:0 "O §Y[intervene_friendly_war_2.GetName]§!."
+ intervene.2000.intervene_3:0 "O §Y[intervene_friendly_war_3.GetName]§!."
+ intervene.2000.intervene_4:0 "O §Y[intervene_friendly_war_4.GetName]§!."
+ intervene.2000.intervene_5:0 "O §Y[intervene_friendly_war_5.GetName]§!."
+ intervene.2000.intervene_6:0 "O §Y[intervene_friendly_war_6.GetName]§!."
+ intervene.2000.intervene_7:0 "O §Y[intervene_friendly_war_7.GetName]§!."
+ intervene.2000.intervene_8:0 "O §Y[intervene_friendly_war_8.GetName]§!."
+ intervene.2000.intervene_9:0 "O §Y[intervene_friendly_war_9.GetName]§!."
+ intervene.2000.intervene_10:0 "O §Y[intervene_friendly_war_10.GetName]§!."

@@ -1,0 +1,20 @@
+concept_bugged_aquatic = {
+}
+
+concept_bugged_highborn = {
+}
+
+concept_bugged_slave_gene = {
+}
+
+concept_bugged_symbiotic = {
+}
+
+concept_leader_trait_crusader = {
+}
+
+concept_leader_trait_zealot = {
+}
+
+concept_leader_trait_corsair = {
+}

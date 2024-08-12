@@ -1,0 +1,41 @@
+namespace = deep_dwellers
+
+# start of game effect when subterranean,
+# allows choosing expansion mechanic. Cave dwellers = default, Deep dwellers = new
+# deep dwellers lose the growth malus and size malus of cave dwellers but in return gain a new malus
+# their empire suffers +100% size from planets and +150% size from systems and branch offices
+# they do however gain +20% max districts.
+# in addition, the pops suffer -15% growth from immigration and +25% resettlement cost, and their habitability floor is reduced to just 25% 
+
+country_event = {
+	id = deep_dwellers.1
+	is_triggered_only = yes
+	picture = GFX_evt_underground_city
+	title = "deep_dwellers.1.title"
+	desc = "deep_dwellers.1.desc"
+
+	trigger = {
+		has_origin = origin_subterranean
+	}
+	option = {
+		name = "deep_dwellers.1.a" 
+		custom_tooltip = "deep_dwellers.1.a.tooltip"
+	}
+	option = {
+		name = "deep_dwellers.1.b" 
+		custom_tooltip = "deep_dwellers.1.b.tooltip"
+		hidden_effect = {
+			set_country_flag = deep_dweller_empire
+			add_modifier = {
+				modifier = deep_dweller_modifier
+			}
+			owner_main_species = {
+				change_species_characteristics = {
+					remove_trait = trait_cave_dweller
+					add_trait = trait_deep_dweller
+					add_traits_at_start_of_list = yes
+				}
+			}
+		}
+	}
+}

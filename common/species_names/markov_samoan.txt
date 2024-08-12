@@ -1,0 +1,346 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	ututia = {
+		name = Ututian
+		plural = Ututians
+		home_planet = Ututia
+		home_system = Taunauna
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	vainithegroudmother = {
+		name = Laulo
+		plural = Laulo
+		home_planet = "Vaini the Ground-Mother"
+		home_system = "Sapua the Sky-Flame"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	taufa = {
+		name = Taufaean
+		plural = Taufaeans
+		home_planet = Taufa
+		home_system = Vasi-Tafa
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	toela = {
+		name = Muituan
+		plural = Muituans
+		home_planet = Toela
+		home_system = Lama'atiu
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	saniaato = {
+		name = Sania'atoan
+		plural = Sania'atoans
+		home_planet = Sania'ato
+		home_system = Sila'i 
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	iulailofini = {
+		name = Ulatau
+		plural = Ulatau
+		home_planet = Iulailofini
+		home_system = Faafai'i 
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	vaialafala = {
+		name = Tulivao
+		plural = Tulivao
+		home_planet = Vai-Alafala
+		home_system = Vai-Lalela 
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	faimetea = {
+		name = Faimetoid
+		plural = Faimetoids
+		home_planet = Faimetea
+		home_system = Gatapanu'u 
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	niuna = {
+		name = Niunian
+		plural = Niunians
+		home_planet = Niuna
+		home_system = "Lepoi Itu'u"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	savauga = {
+		name = Savaugoid
+		plural = Savaugoids
+		home_planet = Savauga
+		home_system = Saopo'i
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	glimpseofeuphoria = {
+		name = Neia
+		plural = Neia
+		home_planet = "Glimpse of Euphoria"
+		home_system = "Melodious Dream"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	tafega = {
+		name = Tafegite
+		plural = Tafegites
+		home_planet = Tafega
+		home_system = Matu
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	salafau = {
+		name = Salafauan  
+		plural = Salafauans
+		home_planet = Salafau
+		home_system = Soonauti
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	azuldiamond = {
+		name = Sinesegan  
+		plural = Sinesegans
+		home_planet = "Azul Diamond"
+		home_system = "Mines of Afea Pona"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	pahifao = {
+		name = Pahifaoan  
+		plural = Pahifaoans
+		home_planet = Pahifao
+		home_system = "Leui anu Sai"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	iamaula = {
+		name = Iamaulan  
+		plural = Iamaulans
+		home_planet = Iamaula
+		home_system = Ulufotualoi
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	liumafaluprime = {
+		name = Liumafaloid 
+		plural = Liumafaloids
+		home_planet = "Liumafalu Prime"
+		home_system = Liumafalu
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	teutufai = {
+		name = Teu-Tu 
+		plural = Teu-Tu
+		home_planet = Teu-Tufai
+		home_system = Fesine
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	pateleia = {
+		name = Pateleian 
+		plural = Pateleians
+		home_planet = Pateleia
+		home_system = Sale'aliu
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	growlingsphere = {
+		name = Temisid 
+		plural = Temisids
+		home_planet = "Growling Sphere"
+		home_system = "Brimstone Grip"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	lamatupe = {
+		name = Lamatupean 
+		plural = Lamatupeans
+		home_planet = Lamatupe
+		home_system = "Sapo Fale"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	faito = {
+		name = Fa'i
+		plural = Fa'i
+		home_planet = Faito
+		home_system = Lafaua
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	fomoleko = {
+		name = Fomolekoid
+		plural = Fomolekoids
+		home_planet = Fomoleko
+		home_system = Amale
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	sameavaea = {
+		name = Sameavoid
+		plural = Sameavoids
+		home_planet = Sameavaea
+		home_system = "Sata Auaifi"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	cinnamonmanor = {
+		name = Tausinan
+		plural = Tausinans
+		home_planet = "Cinnamon Manor"
+		home_system = "Heavenly Beam"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	falauathepurified = {
+		name = Fuia
+		plural = Fuia
+		home_planet = "Falaua the Purified"
+		home_system = "Luipa the Sacred"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	faamuau = {
+		name = Tafu-Tafu
+		plural = Tafu-Tafu
+		home_planet = Fa'amuau
+		home_system = Satanu
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	anai = {
+		name = Ana'i-Sioloan
+		plural = Ana'i-Sioloans
+		home_planet = Ana'i
+		home_system = Laufai
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	tavatalola = {
+		name = Tavatalolan
+		plural = Tavatalolans
+		home_planet = Tavatalola
+		home_system = Tutiaga
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	tomafagaprime = {
+		name = Tomafagese
+		plural = Tomafagese
+		home_planet = "Tomafaga Prime"
+		home_system = Tomafaga
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	leipailoga = {
+		name = Leipailogan
+		plural = Leipailogans
+		home_planet = Leipailoga
+		home_system = "Mosono Sapai"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	createtheprofound = {
+		name = Loto'e
+		plural = Loto'e
+		home_planet = "Create the Profound"
+		home_system = "Born Stalwart"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	lalotoma = {
+		name = Lalotoman
+		plural = Lalotomans
+		home_planet = "Lalo Toma"
+		home_system = Vesryon
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	saigapo = {
+		name = Saigapish
+		plural = Saigapish
+		home_planet = Saigapo
+		home_system = Taumesava
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	faala = {
+		name = Fa'aloid
+		plural = Fa'aloids
+		home_planet = Fa'ala
+		home_system = "Tau Aasi"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	faileimeko = {
+		name = Sagi-Toa
+		plural = Sagi-Toa
+		home_planet = Fa'ileimeko
+		home_system = Salipune'e
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	maluapoa = {
+		name = "Malu Apoan"
+		plural = "Malu Apoans"
+		home_planet = "Malu Apoa"
+		home_system = Fagapa
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	amosefi = {
+		name = Nu'uu
+		plural = Nu'uu
+		home_planet = Amosefi
+		home_system = Lololoma
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	olomalafuprime = {
+		name = Olomalafoid
+		plural = Olomalafoids
+		home_planet = "Olomalafu Prime"
+		home_system = Olomalafu
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	moalu = {
+		name = Moalish
+		plural = Moalish
+		home_planet = Moalu
+		home_system = "Vaima Tani"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	lucksbreath = {
+		name = Lealefese
+		plural = Lealefese
+		home_planet = "Luck's Breath"
+		home_system = "Blistering High-Flame"
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+	mulasamoan = {
+		name = Mula'aian
+		plural = Mula'aians
+		home_planet = Mula
+		home_system = Fonerele
+		name_list = "cybrxkhan_fantasy_samoan"
+	}
+}

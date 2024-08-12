@@ -1,0 +1,6 @@
+	NGameplay = {
+		TRADITION_CATEGORIES_MAX = 16
+	}
+	NAI = {
+		NUM_TRADITIONS_FOR_EDICTS = 112 # (5 traditions + adoption effect + completion effect) * 16
+	}

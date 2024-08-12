@@ -1,0 +1,544 @@
+@resolution_weight_fuckingloathed = -5
+@resolution_weight_hated = 3
+@resolution_weight_disliked = 4
+@resolution_weight_unpopular = 5
+@resolution_weight_normal = 6
+@resolution_weight_popular = 6.5
+@resolution_weight_loved = 7
+
+@resolution_cost_t1 = 100
+@resolution_cost_t2 = 150
+@resolution_cost_t3 = 200
+@resolution_cost_t4 = 250
+@resolution_cost_t5 = 300
+@resolution_cost_denounce = 25
+
+@resolution_flag_timer = 360
+
+#Capital
+resolution_chre_cathedrals = {
+	icon = "GFX_resolution_chre_cathedrals"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t1
+		}
+	}
+	target = no
+
+	level = 1
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_chre_cathedrals = 1
+		}
+	}
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_chre_cathedrals_effect
+		hidden_effect = {
+			set_global_flag = galactic_community_resolution_passed
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_chre days = @resolution_flag_timer }
+			set_global_flag = cmbu_noreturn
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_chre days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOR = {
+				is_active_resolution = "resolution_chre_cathedrals"
+				is_active_resolution = "resolution_chre_jojo"
+				is_active_resolution = "resolution_chre_reform"
+				is_active_resolution = "resolution_chre_shield"
+				is_active_resolution = "resolution_chre_ascend"
+			}
+		}
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_active_resolution = resolution_2egalitarian_hre
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	ai_weight = {
+		base = @resolution_weight_disliked
+		
+		modifier = {
+			#WIP
+		}
+	}
+}
+
+#Army
+resolution_chre_jojo = {
+	icon = "GFX_resolution_chre_jojo"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t2
+		}
+	}
+	target = no
+
+	level = 2
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_chre_cathedrals = 2
+			resolution_chre_jojo = 1
+		}
+	}
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_chre_jojo_effect
+		hidden_effect = {
+			set_global_flag = galactic_community_resolution_passed
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_chre days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_chre days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_active_resolution = resolution_2egalitarian_hre
+	}
+
+	allow = {
+		is_active_resolution = "resolution_chre_cathedrals"
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	#The Galaxy is against you
+	ai_weight = {
+		base = @resolution_weight_disliked
+	}
+}
+
+#Casus Belli
+resolution_chre_reform = {
+	icon = "GFX_resolution_chre_reform"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t3
+		}
+	}
+	target = no
+
+	level = 3
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_chre_cathedrals = 3
+			resolution_chre_jojo = 1
+			resolution_chre_reform = 1
+		}
+	}
+
+	modifier = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_active_resolution = resolution_2egalitarian_hre
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_chre_reform_effect
+		hidden_effect = {
+			set_global_flag = galactic_community_resolution_passed
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_chre days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_chre days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	allow = {
+		is_active_resolution = "resolution_chre_jojo"
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	#The Galaxy is against you
+	ai_weight = {
+		base = @resolution_weight_hated
+	}
+}
+
+#Crisis damage
+resolution_chre_shield = {
+	icon = "GFX_resolution_chre_shield"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t4
+		}
+	}
+	target = no
+
+	level = 4
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_chre_cathedrals = 4
+			resolution_chre_jojo = 1
+			resolution_chre_reform = 2
+			resolution_chre_shield = 1
+		}
+	}
+
+	modifier = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_active_resolution = resolution_2egalitarian_hre
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_finalwarning
+		hidden_effect = {
+			set_global_flag = galactic_community_resolution_passed
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_chre days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_chre days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	allow = {
+		is_active_resolution = "resolution_chre_reform"
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	#The Galaxy is against you
+	ai_weight = {
+		base = @resolution_weight_normal
+	}
+}
+
+#Extra
+resolution_chre_ascend = {
+	icon = "GFX_resolution_chre_ascend"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	level = 5
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_chre_cathedrals = 5
+			resolution_chre_jojo = 2
+			resolution_chre_reform = 2
+			resolution_chre_shield = 1
+			resolution_chre_ascend = 1
+		}
+	}
+
+	modifier = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_active_resolution = resolution_2egalitarian_hre
+	}
+	
+
+	effect = {
+		hidden_effect = {
+			set_global_flag = galactic_community_resolution_passed
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_chre days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_chre days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	allow = {
+		is_active_resolution = "resolution_chre_shield"
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	#The Galaxy is against you
+	ai_weight = {
+		base = @resolution_weight_fuckingloathed
+	}
+}
+
+resolution_chre_cathedrals_nope = {
+	icon = "GFX_resolution_chre_nope"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t3
+		}
+	}
+	target = no
+	fire_and_forget = yes
+
+	effect = {
+		custom_tooltip = resolution_chre_cathedrals_nope_effect
+
+		hidden_effect = {
+			cancel_resolution = "resolution_chre_cathedrals"
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_chre_repeal days = @resolution_flag_timer }
+			remove_global_flag = cmbu_noreturn
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_chre_repeal days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	modifier = {
+	}
+
+	potential = {
+		is_active_resolution = "resolution_chre_cathedrals"
+	}
+
+	ai_weight = {
+		base = @resolution_weight_normal
+	}
+}
+
+resolution_chre_jojo_nope = {
+	icon = "GFX_resolution_chre_nope"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t3
+		}
+	}
+	target = no
+	fire_and_forget = yes
+
+	effect = {
+		custom_tooltip = resolution_chre_jojo_nope_effect
+
+		hidden_effect = {
+			cancel_resolution = "resolution_chre_jojo"
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_chre_repeal days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_chre_repeal days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_chre_cathedrals = 1
+		}
+	}
+
+	modifier = {
+	}
+
+	potential = {
+		is_active_resolution = "resolution_chre_jojo"
+	}
+
+	ai_weight = {
+		base = @resolution_weight_popular
+	}
+}
+
+resolution_chre_reform_nope = {
+	icon = "GFX_resolution_chre_nope"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t3
+		}
+	}
+	target = no
+	fire_and_forget = yes
+
+	effect = {
+		custom_tooltip = resolution_chre_reform_nope_effect
+
+		hidden_effect = {
+			cancel_resolution = "resolution_chre_reform"
+			set_timed_country_flag = { flag = galactic_community_resolution_passed_chre_repeal days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_passed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	fail_effects = {
+		hidden_effect = {
+			set_timed_country_flag = { flag = galactic_community_resolution_failed_chre_repeal days = @resolution_flag_timer }
+			add_modifier = {
+				modifier = resolution_failed_diplomatic_weight
+				days = 2200
+			}
+		}
+	}
+
+	triggered_modifier = {
+		potential = {
+			is_galactic_custodian = yes
+		}
+		modifier = {
+			resolution_chre_cathedrals = 2
+			resolution_chre_jojo = 1
+		}
+	}
+
+	modifier = {
+	}
+
+	potential = {
+		is_active_resolution = "resolution_chre_reform"
+	}
+
+	ai_weight = {
+		base = @resolution_weight_popular
+	}
+}

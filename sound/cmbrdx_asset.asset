@@ -1,0 +1,12 @@
+sound =
+{
+	name = "cmbrdx_remedy"
+	file = "event/cmbrdx_remedy.wav"
+	volume = 0.5
+}
+sound =
+{
+	name = "cmbrdx_banana"
+	file = "event/cmbrdx_banana.wav"
+	volume = 0.4
+}

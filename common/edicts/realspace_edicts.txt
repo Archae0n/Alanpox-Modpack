@@ -1,0 +1,18 @@
+realspace_menu = {
+	length = 1
+	icon = "GFX_edict_realspace_menu_icon"
+
+	effect = {
+		custom_tooltip = edict_realspace_menu_tooltip
+		hidden_effect = {
+			country_event = { id = realspace.206 }
+		}
+	}
+
+	potential = {
+		#NOT = { has_global_flag = dmm_installed } #hide this edict when 'Dynamic Mod Menu' is enabled
+		is_ai = no
+	}
+
+	ai_weight = { weight = 0 }
+}

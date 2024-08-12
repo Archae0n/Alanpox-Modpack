@@ -1,0 +1,9 @@
+
+#Error Suppression for compat check. Overwritten by Evolved
+councilor_tec_aiauth_development = {
+	leader_class = { scientist }
+
+	possible = {
+		always = no
+	}
+}

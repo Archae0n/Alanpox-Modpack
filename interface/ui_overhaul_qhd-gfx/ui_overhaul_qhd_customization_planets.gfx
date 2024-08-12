@@ -1,0 +1,23 @@
+spriteTypes = {
+	# customize_species_editors.gui
+	spriteType = {
+		name = "GFX_ui_planet_icon"
+		textureFile = "gfx/ui_overhaul_qhd/masks/planet_mask.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_planet_icon_rare"
+		textureFile = "gfx/ui_overhaul_qhd/masks/planet_mask_rare.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_planet_icon_wet"
+		texturefile = "gfx/ui_overhaul_qhd/masks/planet_mask_wet.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_planet_icon_dry"
+		texturefile = "gfx/ui_overhaul_qhd/masks/planet_mask_dry.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_planet_icon_frozen"
+		texturefile = "gfx/ui_overhaul_qhd/masks/planet_mask_frozen.dds"
+	}
+}

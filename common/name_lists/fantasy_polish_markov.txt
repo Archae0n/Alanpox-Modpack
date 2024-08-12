@@ -1,0 +1,233 @@
+﻿### Fantasy Polish
+### Tossed IRL Polish names into a markov generator
+
+cybrxkhan_fantasy_polish = {
+	category = "Avian"
+
+	ship_names = {
+		generic = {
+			Abrialasz Abronski Abrosla Abrotowicz Abrza Ada Adalbia Adalin Adarzec Adasnowski Ademska Adrocki Adrodlcza Adrzewski Agald Aganiski Agarawlizyk Agna Albendelan Albiczelina Albina Alblochalk Albloniak Alechian Alechnevinek Alek Aletynia Alewicz Alezny Alin Alinachowa Amanik Ambsky Ana Ancie Ancislokowski Ancuttkorzan And Andamowski Andecholski Andemski Andowski Ang Angel Angiusz Anian Anicz Aniko Anislak Anka Antyn Apolaw Apotysz Apowa Ara Arkowski Arlowski Arniewski Augusza Augutow Auremek Auroznoweka Baksy Balblotowacz Bana Banasa Bar Bara Barc Barczyk Bari Barialski Barkosz Barkowonski Barodzy Barosla Barski Bartowski Barunicz Barycyl Bed Bedrz Bedz Bek Beleslawa Belmzarinal Bembelowic Beminska Bena Bentefalawrowski Ber Beradamysz Beragodzyk Beraw Berbarzewiec Beremek Berlonski Bertundrupski Bertysz Bery Bia Biak Bianie Biarnesnonia Biateksja Biawliwoniebski Bie Biec Biech Biecharowala Biechórzylska Biejslaw Biel Bieliczyn Bielinsky Bierek Biert Bierzynski Bieslawicz Biewski Biezie Bislaw Blawesl Blesa Blevski Blosny Boberba Bocz Bocza Boczyrz Boga Bogalchleka Bognaskie Bogo Bogoda Bogork Boguriak Bogurwicena Boguslak Boguszka Boguta Boja Bold Bolenaski Boletryk Bolinski Bolochwakow Bonicz Bonik Bonimias Bonowiczakowski Borka Bornia Borniczewski Borochow Borski Boruntek Boz Bozaj Bozaka Boznisz Bozow Bozy Brabina Braw Broclaski Brolica Brolk Broltowski Bronki Broslawluchla Brow Browcz Browski Browskiewicz Brozdaw Brutkow Brza Brzcz Brzewski Brzypiewski Buchowalouszek Bucki Bujscino Bujwicz Burydlewski Bydalernel Bysa Byslaw Byslawrzejski Bytnow Bytontycinski Bytosan Cebowski Celemiek Celiwiczyk Ceznow Chaliniusz Charynski Chelarcz Chelminstrusz Chentaclabord Cherz Chlapolski Chmalinsk Chman Chmand Chmarak Chmiatasec Chodo Choja Chowiasla Chowion Chowskacz Chowski Chowsky Chrzek Chwa Chwasyla Cice Cichowalk Cicki Ciczowachiaksa Ciczyk Ciczynstowski Ciecki Cieczecki Ciednisla Ciedziudz Ciela Cielski Ciem Ciembialdelik Cienski Cient Cierneckim Ciesiatychow Cietrz Ciewa Ciewiczyk Ciez Cisz Cuchaledysie Cybak Cybalinowski Cybnicza Cybow Cybydnin Cybylaszadyna Cygarek Cygmulski Cypychaliatka Cyrynska Cyrzeszelm Czajew Czak Czamilanowska Czarcz Czarwiczych Czebin Czeciewian Czecki Czelski Czeszka Czewskiecki Czeziejch Daberski Dabia Dabiarciewski Dabiuszejna Dabluchelski Dac Daczmans Dan Dancz Danek Danow Danski Darniak Daroyć Daw Dawcz Dawolski Deber Debiak Debialanowski Debiewas Debin Debina Debinskadyn Deblian Debun Dek Denieplinski Dion Dionki Diudzki Dluszki Dobcz Dobel Dober Doberus Doberyka Dobiczakulanian Dobow Dobrin Dobrocki Dobrotowski Dobrowski Dobrze Dolacz Dold Dombelikowska Domiaka Domir Domor Domysky Dona Donarowski Doniemirowski Donki Drow Dryk Duchacki Duchowsky Ducznice Dudera Dudski Dudysla Dun Dunicki Dunik Dunski Dut Dwow Dybylank Dybylski Dymanitac Dymendran Dymowichanski Dzewski Dzica Dziebowiczysla Dziewski Dzilno Dziornelecz Dziowice Edmir Edwa Elbaszki Elecz Elenratolonst Elin Elkolski Elzbiczak Emia Emirowski Erna Erneksa Erno Ernowadziecki Erny Eugel Eugenedziel Eugulski Eugumierycjus Euguna Ewalin Ewelin Fab Fabin Falogal Fany Fedowska Fedratyn Fedzisnislad Fel Felc Felinkowski Felislauza Feloresnia Felot Felski Fiazylkowian Fiecy Fien Filcz Fisiustyk Flaw Flotren Flowski Force Foronski Fra Frace-Dzinski Frardowski Fraw Frawaclaw Frysla Gab Gabiecki Gabrzaravsky Gajanianowski Gala Galberzejs Galcz Galenia Galicka Galimigelbrochat Galski Ganikowy Garomastyn Garonra Gaw Gawacki Gawefamela Gawlin Gdyn Genski Giechalawski Giecy Gielawiczowy Ginska Gizapkow Gizy Glaw Glia Glikowski Glo Gloceksiewska Glocz Glomanacz Glomol Glorzynicz Glow Glowick Glowiczyn Glucja Glupski Gmie Gnicze Godzinski Gojanski Gojtosz Golart Goldek Golowin Golski Gor Goraltolski Gorcik Goronikowicki Gorylawa Gosie Gosiki Goski Goslach Goslafiazyn Gosno Gostroce Gosz Goszki Goszowicki Gra Gramia Grasz Groch Grochlik Grocz Grodla Gronski Grozlek Gruk Gruna Grupa Grusan Gry Gryba Grysecka Grystia Grzeliwo Grzewice Grzewski Grzyk Grzyna Gubat Guda Gudiusz Gudz Gworski Gzok Gzonkiecharski Hafa Hafina Hajdara Hajdelkowski Halafa Halska Halski Hanadolski Hawefanski Hedrzyk Helny Herski Hieciomir Hipironie Hladia Hlaniako Horanikowski Horon Horzyn Hoszka Hrubaremek Hruzessanona Hura Igorahaliczywacy Ilawski Ilonieslaw Ilowiak Ilowskimelsk Inowski Ireksylawicz Iremier Iwad Iwal Iwaszcholewski Iwolny Iwomalecki Iwomcz Iworoski Iwow Iwozuk Izak Izarzcz Izawienica Izyn Jablocz Jachow Jagiombrak Jagiusz Jagiuszurki Jagiuszyn Jagórz Jalinski Jandrowski Janek Jania Janicz Janna Janoba Janocki Jansky Jantojnariecin Jara Jarajmulc Jarcz Jarczak Jardon Jarg Jarna Jarz Jasaw Jasinskólsze Jasislan Jasisz Jaski Jaslak Jasz Jaszczyna Jaszyk Jawalawolec Jawarny Jawatusz Jawicki Jedzinski Jelczow Jeledzisz Jelek Jelislaslawa Jelm Jelowski Jeryce Jerzech Jezny Joacz Jolar Jozek Jozin Jozna Jozny Jozuminislaw Jozurynski Judzkow Julajnie Julaprin Julko Julskowat Jura Juraftkowski Jurek Juronarwiczki Jurowiczowski Jurowski Jurski Jusecki Jusewiec Jusik Jusinarzak Jusz Juszczyz Jusze Józeblo Józejecis Józek Józelski Józwiczak Kablupiemir Kach Kachalík Kachamowolnik Kacka Kacki Kackie Kacz Kaczeninczyk Kajski Kalaczmanek Kald Kalik Kalskiewski Kaly Kamanuszczy Kamcz Kametanicki Kamigid Kamilaczynik Kamornelgalski Kamotwiczak Kamskarwik Kamualinskiebina Kapolotron Kar Kara Karbasz Karc Karce Karcerak Karcze Karnislaplia Karskielski Kartowska Kary Karzeslana Kasielski Kaski Kasky Kasnowalewski Kasproch Kastonski Kasz Kaszeba Kaszewski Katylanowski Kawef Kawski Kazezaksyuk Kazucki Kazurkowa Kazynski Kedlocholaw Kedzian Kedzylaw Kena Kenizyk Ketas Ketmanna Kiedzisla Kierski Kinowsky Kinska Kisl Kisnowski Klesny Klesz Kletr Klewionaslaw Kliak Klimosmaszcz Klinski Klist Klucja Kludnik Klupan Klupin Kluszak Kluszyn Kobcz Kobolajec Kobomiana Kobriak Kocotecz Koganice Koka Kol Kola Kolaska Kolaud Kold Kolek Koleta Kolevski Kolica Kolkoszki Kolkowski Kolodlincz Kolodzorowski Kolosanevycki Kolowicja Komarzerski Komiliwkasaw Komoslaszka Konan Konardorzemek Konatyllik Konia Konielka Konis Koniszybacik Konki Konowski Konskiejewsko Kopacierajda Kopacinachowo Kopc Koperek Kopolek Koprzeg Kor Koredlesz Kornelek Korotla Korski Korysla Korzak Korzewskiecki Kosc Kosielinarna Koslacisz Koslaw Kosolocki Kostrek Kostrzyk Koszak Koszcz Koszkalgusz Kota Kotrzewieme Kotta Koviczowskiewski Kovski Kovskowski Kow Kowia Kowice Kowiczyna Kowidniek Kowski Kozak Kozanna Kozisz Kozlewski Kozmar Kra Krak Kran Krand Kraw Krawicz Krocki Krot Krow Krowski Kruniepkow Krusiniesz Krusz Kruzynarski Krych Krycz Kryk Krylin Krynskevsk Kryski Krz Krzaski Krzecz Krzeminiak Krzerewski Krzesztoka Krzeszych Krzybako Krzymek Krzynski Krzyski Krózweraniola Ksarze Ksawasenty Kubereszki Kuberyslowanicz Kuchnek Kucjanowski Kucjusiubcz Kuczka Kuczyrzynski Kujanski Kulevinska Kulin Kulinski Kulislak Kulowski Kupcz Kupinianie Kura Kurecki Kurka Kursk Kuryfinginkowski Kutta Kuzew Kwa Kwanon Kwice Kwicek Kwich Kwicz Kwiczka Lacz Lanieda Lano Lanocki Lanski Lanty Lasiczki Lasnow Last Lata Latalubski Latek Lauzelski Lavski Lavsky Lebas Lebeksylwefiad Lebowski Lec Lece Lechan Lecki Leczyk Leguszowski Leobawoladowa Leodol Leofry Leofrydz Leoniktow Leopa Leopkow Leopolasz Leslak Lesno Leszecki Lewski Libóg Lidz Lilaw Lilina Limiewski Linski Lipin Lipniewa Liski Lislaja Lislaski Lislawiczek Litmald Litman Litz Litzka Lodamard Lodemenie Lodla Lodloloda Lodziecki Lomelozma Lono Lowska Luba Lubandechowski Lubela Lubenarski Luberzycinski Lubiczkowach Lubielczowich Lubierek Lubiert Lubiginowski Lubiusinski Lubletofin Lubliarycki Lubochmarzen Lubolaur Lubowski Luchlawomir Luchowrzejchowa Lucz Lud Ludisla Ludolski Ludzicz Luizyna Luk Luka Luka-Zdreszty Luklikowa Lukowo Lystrowski Lystyn Mach Machal Macin Mackowski Macz Maczki Maczynski Magrowski Maj Majewska Mak Mal Malibiusz Malinski Malkalin Maloczkarzyk Malodomarnevski Malopaclandowska Malosz Malowski Mananianki Mar Marasz Marbak Marcz Mard Margajczor Marialdejski Marmiena Marnik Marnincek Marno Marowski Marsa Marski Marsky Mart Martostowska Martowsky Martuzynier Martyn Mary Marzanicz Marzatusieski Marzelkowiczka Marzewsky Marzyk Marzylski Masky Maszyk Mat Mata Mataczaragoszki Matasla Matia Matkowskoda Matonski Matosz Matowski Matrow Maurkowicz Mauzartunicz Mazecki Mazeslakora Mazo Mazola Mazow Mazowiczylina Mazowska Mazybulevska Mazycki Mazyk Mazynskolska Melski Metak Miak Mialin Miand Mica Mice Micki Micz Miczyninska Miczynski Mieczbowiczuki Miej Miejerwal Miemba Mieszyk Miewiczynski Miewida Mik Mika Mikolicz Mikow Mikowicz Mil Milcz Milhevski Milinski Milona Min Miny Mir Mironski Mislad Mistowski Mitasamcz Mitowieckowski Mlawereka Mlawlinislasz Mlen Mochalszkow Mocieslawor Modlawa Mohowiczyk Mola Molek Momb Monski Moscinski Moska Moski Moslaurow Moslawiec Mostaw Motrzek Mracki Mrody Mulasika Muly Muragard Musz Muszkolinski Musztowski Myce Mych Mychniecki Mycki Mysanda Mysiarszyk Mysieliaklow Mysiesna Myski Mystaszkowski Nadelapolny Nadiuszyk Nady Nadzidow Nagielin Nagowaly Nakrzyk Nama Nambsky Namczyski Naminski Nardowski Nareksyn Nargin Narsurk Narzeszejski Narzyk Natkaruna Nice Nidniak Niedzislawlik Niejhelski Nierzak Niewski Niewsky Nijewica Nijewicz Nik Niski Nizybarna Nizyce Nizycjuszowska Not Notladzicz Notrodz Novalawerara Novski Now Nowadlaski Nowska Nowski Nowskielek Nowsky Nyszko Ochocina Odecki Odek Odewskiece Odrowik Odrzejchy Ogrowski Okrzabicki Okrzewicki Oktochowicz Olajewalski Olariuk Olcz Olczalski Olech Oleka Olen Olevetrusikow Olewieksanski Olgory Olgosold Oliga Olik Olka-Zdziot Olkaski Olkowskowski Olkubocla Olska Olski Opold Opolowski Opoltek Orkol Orkowski Orlesze Orlimilowicz Orzacietacy Orzeg Orzejhelkow Orzelek Orzestrz Orzewski Orzyn Orzynski Osina Osiukowski Oski Ossa Ossovski Ostanioleczmaga Ostka Ostrek Ostyn Oswa Oswik Otwice Otwiech Oty Otyn Ozdzotrojtczy Ozoworskie Pablenski Pablinskowacz Pablowski Pabrzcz Pabrzewski Paclawarski Pajewka Pajewski Paka Pakachowsky Palec Palik Pamcz Pamek Pamia Pamilona Panciewicz Pancz Panka Pano Panochowskiech Panski Papirow Papychni Parnevinimec Pasia Pasymowski Pasz Paszecki Patka Patkowrzecki Patowski Patuszelecz Paulialek Paurawich Paurcisiewski Paw Pawasnowsky Pawicz Pelce Pelek Pelka Pelska Peski Peslata Petomir Pia Piak Piakupnobie Pial Pianut Piart Piata Pie Piec Piecki Piecz Pielecki Pielm Pielski Piert Pietr Piewiczachnik Piewski Pilanufryna Piledzy Pilek Piletajscimanna Pina Piochomcz Pion Pioniecznyslik Pionka Piorski Piotaczanina Piotlak Piotol Piowski Pislaw Pladolaszczuron Pladysewit Plan Plaszkowo Plaw Plawa Plawalawiczny Plodzki Plonko Plow Pludwiczka Poda Podemin Podla Podlochatyski Podmunimovski Podolaw Podominczynsky Podoszka Podowski Podz Podzienski Podziewicz Podzka Podzyk Polaw Polec Polesa Polny Polock Polski Poznowon Pra Prak Prasymkornia Proniedz Prowski Prozno Prubicefin Prunda Prusiak Pruszefa Prz Przakupski Przegna Przelewski Przerycki Przewo Przewski Przowski Przychniusz Przym Przymiak Przynska-Zdroch Psz Ptarenieszko Puchy Pucja Pudamieslawa Pudmir Pudna Pulce Puzenachuk Pyrapka Pyrzeksansky Pyrzywicz Pyslaski Pyszejciszumit Pytakulek Rach Rachowiczny Racki Raczak Rad Radamcz Raderyk Radiuborionki Radiusz Radolak Radomiewski Radystkowrzek Radzieć Radzinski Rajewski Ramski Rawloniel Rawlonski Rebarykt Rebornowsky Redziesz Regidwicja Regiewski Remysecki Renek Reslek Resloszczej Robaw Robcz Robek Robodz Roczynski Rodgórski Rodziecinski Rogosia Rogureksy Rokodmirski Rolinskól Romalia Romcz Rome Romeksa Romiecki Romir Romirgiolkadow Romski Ropa Ropol Rozd Rozna Rozurakow Rozywinski Rudamosz Rudek Rudelewiuk Rudki Rudski Rumielskieczyk Rumilm Rumina Ruminsky Rumir Rumska Rutki Rutno Rybinskevicz Rybniak Rybunowski Rybylwichurka Rych Rychoja Rycki Ryd Ryda Rydambronko Rydnitz Rygfrychalek Rypca Rypczyk Rypycz Rzabatr Rze Rzek Rzeksawiczot Rzewanc Rózecz Sab Sablot Sabrzyk Sacinciewarce Sadlaw Sadlek Sadomiawa Sadwie Salawdanice Samilce Samin Samor San Sanski Saplawrostyka Sarcy Sawa Sawczyk Sawice Schowski Sera Serce Serzec Serzyn Sewkowski Sice Sich Siedamcz Sieksy Siel Sielecholecki Sielszkowaranki Siendowski Sientyn Siera Sierniej Siewiciszako Sik Siksa Silewski Silm Sina Siuski Siuszewsk Ska Skaravski Ski Skierel Sko-Bislagorki Skodka Skow Skowiczyzewski Skowska Skowski Skowskiel Skrek Skrzbak Skubiga Skubrowski Sla Slabron Slak Slandrusz Slanek Slapusz Slarze Slaseciol Slaszer Slaw Slawak Slawlicz Slawsky Slazuka Slewski Slin Sliniuszka Slodzki Slon Slow Slubasz Smianna Sminski Smorzewski Smowiczylajcz Smowiecki Smystynski Sobcz Sobrodzynianski Sobulkowo Sochlizy Socki Sojkowski Sojno Sok Soka Sokowiemiloko Soksawidz Solejdaniomiecz Solewicz Solowski Solski Solskopcz Solsky Sopachlawa Sopanki Sosciec Sosieslawa Sowski Spiolkow Srebarycja Srodzielia Srona Sronki Srotrzczny Srow Sta Stach Stacy Staczy Stako Stalski Stalupczewiejawo Stan Stanczyn Stanial Stasika Stastepkow Staulina Staw Stechoj Stecki Stecz Stef Stek Stendanianow Stepnowo Stera Sterowski Stocislawrow Stomana Stosmanski Stow Stowski Str Stremyca Strojtyn Stronski Strostacki Strowski Strunek Stry Strylkota Strzech Styka Styn Styna Suchowski Sucier Suczkowicz Suczychowy Sulas Sulinska Sulkowskiecki Sulskiy Sustrowiewsky Swa Swalek Swertowiedlow Swianski Swica Swice Swicer Swicki Swicz Swiczyna Swidna Swiecz Swiemiak Swik Swiszej Swo Swowski Syl Sylinka Syllej Sylwiczenski Sza Szak Szaklartyn Szakowskólk Szaladkowarowicz Szanutki Szapka Szaplingieli Szataniczyzak Szchalcz Szcz Szczak Szczki Szczkow Szczmieblonski Szczyk Szegroja Szepa Szertowski Szmiaw Szmilawcz Szmunik Szmunow Szpa Szpina Szpolski Szuk Szulski Szurach Szurczejeranc Szybnikowski Szyce Szychargiel Szychowiczki Szycylk Szyk Szyn Szyna Szyniskiecki Szynska Szynski Tadek Tadowski Tarda Tarlen Tarliko Tarno Tarzyn Tatak Tch Tchevski Tchosa Teobina Thorski Tka Tkowski Tokala Toki Tokon Tom Tomagod Tomannacki Tomasiaszy Tomba Tomczowski Tomiak Tomiantyn Tomiat Tomielatajek Tomiliasnik Tomir Topa Topc Toroda Torski Tropot Trzabrosz Trzecislaski Trzej Trzeliczek Trzelikowicz Trzesni Trzewisla Trzycheta Trzyn Trzyz Tuczeczynial Tulski Tur Tura Turacznowski Turaw Turski Tursky Turwo Tyce Tychionsk Tymaja Tymelski Tymkowicz Tymski Tysprowski Tysz Tytosprzelski Urbacylasz Urbak Urbanitzkowska Urbariar Ursa Urski Ursustrz Ursyliczyna Ustkowice Ustrybastrz Ustych Viorec Visicz Viszefon Wabarniczaj Wacimek Waciowski Wacki Waclawo Waczapka Waczyszepkowski Wag Wajacz Wajkasymaratak Wal Wala Wald Walejski Walew Walgiec Walgumierzyk Walgusinski Walibolia Walina Walinskiecze Walski Waniolotoko Wanioniucki Waniusz Wans Wanska Wanski Ward Warunilce Warwicz Warych Warzek Was Wasia Waskólka Waszak Waszek Waw Wawiak Wawidow Wciewski Wcin Wcislanowsk Wdolewiczymanki Wdomiechow Weg Wegiustia Wejewski Wenieystynski Wenteniczewiedrz Wesla Westenin Wie Wiec Wiech Wieciszebniej Wiecuch Wiel Wielski Wienoweska Wiewak Wiewiczulicz Wieworahamin Wiewski Wiezga Wik Wilaw Wilcz Wilinski Wilyslonski Winski Wiolibon Wiolszeban Wiotuzewski Wisiazurentynsty Wiski Wislawic Wisz Wiszki Witmaszurski Witocotronie Witwiel Witwiezgora Wla Wlawan Wlobowski Wlodryn Wlodzki Wlotosla Wlowcz Wlowicz Wlowieradowie Wlowski Woda Wodzinski Woj Wojaw Wojna Wojno Wojnona Wojtcz Wojtka Wojtokstros Wojtowiczak Wojtylawski Wojtynata Wol Wolartowiczyk Wolawa Wolawski Wold Wolecz Woleks Wolewie Wolewskólk Wolkanow Wolodar Wolopolartyn Wolous Woytna Woyć Wozegiakulina Wozelczyk Woznolusz Wroch Wrodowa Wrodowy Wron Wrow Wrowek Wrowski Wrunatocz Wrzelecki Wrzyn Wscibonski Wyskieronk Wójtka Wójtkowakow Wójtkowiatak Zabka Zaboda Zabomarzy Zabrowielawna Zacz Zaczeja Zagarczymanski Zagatynski Zajch Zajewasikasend Zajewello Zakowasz Zakulabiemir Zamir Zamowasierzenin Zancimczylano Zaor Zaorna Zaron Zartlarmow Zaszka Zatki Zaw Zawek Zawerski Zawicza Zbia Zbica Zbiczynski Zbiecin Zbiusiasica Zbylech Zbyllopolawski Zdrowski Zdrzarnor Zdzina Zebaszyk Zeitwicz Zelawiczynski Zelczatowski Zelnyakiel Zeloszki Zelowski Zelski Zenina Zenovski Zentokowski Zentyn Zgodek Zgorenty Zgorski Zgoslarton Ziechowski Zieczakowski Zieczki Zieczno Ziedlinski Ziej Zieja Zielanna Zielisz Zielski Zierek Ziert Ziolny Ziory Ziotliczydlonski Ziól Zlowski Zoficz Zofryna Zor Zorek Zubieszowsky Zubiga Zupiechalaski Zurad Zuraj Zurk Zurki Zurkowski Zurkowsky Zurszewski Zury Zuzyzga Zwomyszko Zychale Zychuka Zyciegorski Zycki Zycz Zyczo Zygfrek Zygieciminski Zygiecz Zygmanko Zygusz Zyluk Zytaze Zytok Zywali Zywicz
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Wojna Formation" "Poleski Formation" "Sipnow Formation" "Mietocki Formation" "Obocki Formation" "Kaszcz Formation" "Polawski Formation" "Vionielski Formation" "Szurkaw Formation" "Lodlec Formation" 
+		}
+		sequential_name = FANTASY_POLISH_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_POLISH_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Alec Auguszowice Baroschow Barybun Bedroda Bia Biechow Bieszow Bilgor Bilnow Blobrzecim Bogionkow Bolek Brow Brwice Brzejow Brzeznow Buszow Buszytno Bydlask Bydultus Chelczestrolo Chelice Chelisztyno Chelow Cheludaw Chera Cherwo Chotosnice Chow Ciecin Cienna Czedzborzecin Czegowin Czestrodzin Dabkow Dabrzow Darsk Deborz Dzie Dziedzino Dziemiancutno Elbodziedzyn Elbrzczorki Elbrzeg Elkawo Elkusk Gda Gdano Gdanoujaw Gdap Gdyn Gizyn-Kosz Glo Gloclad Gluczyn Gniew Golice Golski Golun Gor Goranowy Gorno Gornoujaw Gorza Gorzedz Gorzowalin Gostrolski Groleszcz Gryfica Grynice Gubatynysko Gubica Ilan Ilanow Jandowy Jaw Jawa Jedzynik Jelszczynow Jozyn Kamosznadla Kamotawa Kamysl Katow Katowa Kedzydulec Ketow Ketrk Kielskowielinow Kieluch Klowice Klubczy Knurek Knurocieck Kobrowiezin Kolawsk Konionielce Konki Kosciesz Koscinski Kosztyn Kozlechow Kra Kragorzy Krara Kraseck Kroj Kronkow Krowidziek Kuja Lap Lasnierz Lazyn Leciernowierwo Lestrowsk Leziski Lidnino Loda Lomandragark Lub-Dzice Luba Lubiala Lubica Lubice Lublincialon Luboryfin Malawnow Malsk Mazia Maziczeg Mazow Mazowiezna Mie Miec Miecki Miedow Miezalibodziec Miko Milnow-Gorze Mlawierwogard Moganskie Mogiemotowice Moko Mork Mosny Mosz Moszki Mrag Mrajski Mran Mysanski Myslawo Mysztychorany Nadzielin Namow Niechow Niskow Nislaskowie Notec Notecinyski Now Nowiesnow Nowo Nyszkowo Odrzeboracie Olaw Olek Olenialica Oleszki Olk Olka Olskienice Opol Opolom Opotalina Opotec Orza Orzcze Osta Ostary Ostask Ostowa Ostrza Ostrzewo Pieplin Pilin Pin Piowice Piska Pleka-Zdrow Plonianty Podlaska-Zdrow Podnica Podziski Pole Polennanow Poline Poliwierajec Polodawa Pologard Polozlubski Pozelon Prajewo Prun Pruszegorzew Prze Przebnow Przegowy Przesl Przesla Przydgom Pszkowolska Pule Puleskie Pultusztyn Pyrzeszowica Pyski Pyslenia Rabartowiec Rabialce Rad Radlcznowronka Radomancut Radowa Rawarlin Rawice Redziskarlin Ropca Rudnica Rudnik Rumier Rybnicz Rydun San Siecki Sielo Sielobucz Sieragrow Sierwo Siety Ska Skawoliwidwidz Ski Sla Slasniotec Slawa Slawo Slazoworzewow Slubandow Sludnin Socki Sola Soszecz Srow Srowielce Strk Strow Strzezin Strzyszowicz Sultow Sultule Suwa Swicznoworzyna Swidzkopol Swie Swieleka Swietyna Szcz Szprodlotrow Szyn Tardow Tarko-Kolin Tarnka Tary Tarzew Tomaslonski Tomyszow Tornocki Tryn Trzelcz Trzeszciny Tucki Turemia Turodlawno Turodziow Turosl Ursuszki Ursuszychoj Ustarne Ustrzedzin Ustyn Wabrz Wadzin Wag Waga Wagoscieban Walin Warg Wargowo Warsyn Wawo Wegor Wejow Wejowa Wiecki Wieckow Wiela Wielce Wierzedzia Wiesnowo Wilno Wilnowice Wiski Wiszegoryfica Wlow Wodanok Wolibialkowa Wolobrz Wolobrzychy Wysano Wyskie Zabrow Zabrowieczyn Zaklowsk Zargorlomyslask Zarmiatoko Zdrowica Zgilgorajscin Zgosno Zlocinow Zlon Zolek Zoleksankard Zyrzyniec
+				
+				Belec-Opolskiechy Wegielkowica-Cieckie Mazow-Marnek Ostock-Pionice Malon-Gorun Suwa-Przyce Tuchow-Soszow Ciedrag-Szczynieck Sla-Czeck Gie-Gdyszczy Cierzesz-Wielcze Gizy-Jozlek Kiem-Mysty Ziesz-Kolibon Tarmiandrow-Sierwo Swienianysla-Wieckiecki Plejhelaw-Wlocki Miem-Sielom Groj-Androdla Rydla-Polawogorkowy Taryce-Opolenice Malkopca-Ozow Zoleciec-Szprow Belsk-Ciec Wiec-Bilasze Walchow-Lublicz Wiedzionskow-Srow Tarkopotrzyce-Olenia Chelmzanik-Tomaski
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Adrz Adrzej Alek Aleksaw Alerd Aleslaw Alesty Ambriasz Ambrozystyn Anacy Anatan Aniert Ant Antodzislan Anty Antyn Apold Arkard Arkariusz Arnobasz Arnon Augentolit Augumil Augustawo Barian Baryk Bazislaw Bert Beryn Blauri Bogdart Bogusty Bogusz Bol Bolf Bonar Bor Boracyz Boredanceli Borini Bortonsty Bozis Bozisladiust Bozyd Broperian Brotefons Brundel Brunocentyn Budwal Celm Chrydoslaw Chwald Chwalicelin Chwaltertusz Chwan Chwankrat Cypriancin Cypriusz Cyryslajetr Czegor Czej Czek Czemieczyn Damir Damit Dancisz Dard Denty Diot Dioteusz Doberbert Dobian Dobin Dobrogumir Domir Dymoteusz Dymowiasz Dymowit Edmundrian Edmunoch Edmunonizynatan Edwian Edwitolforar Erned Erneusz Eugo Fabigiusz Fabrogusz Fel Feli Felibóg Felikadiuszesz Feri Forariustaw Fort Foryn Frademot Frataniusz Gabian Gajancestyn Gajmualiancjust Gajmund Geratanusz Geratry Gerydor Gerz Ginceliustian Godeusz Godzimir Godzis Gościej Grozislaw Gusz Guszek Guszeslawo Gwazy Hanfryd Hielislaw Hielit Hierz Hip Hipold Honard Horberycjusz Huboslaw Hugumil Hugumir Huguszkodzid Idzimirosz Idzis Ignael Inocefaliusz Inocefanucjan Inort Irek Ireksymir Iwal Iwomil Iwomir Iwonizymons Iwons Izafin Izy Izyl Izyn Jaceneli Jacy Jakart Jakol Jancislaw Jarcy Jarin Jariust Jedamir Jozi Jozy Julikt Julin Juredy Justan Jusz Józej Józeksy Józepanusz Józeslan Józeslaw Józesz Kaclawonaronold Kacpelaw Kajancjan Kamir Kastyn Kasz Klaw Klenedart Kondemyslaw Konim Koniuszel Koracy Koriusz Koslancjan Kosz Kry Krycy Kryk Krz Krzemyst Ksawelk Laudiusztol Lauryk Leober Leokad Leokarcelian Leopernor Lesiszeslaw Leszajeton Leweranus Loniusz Luber Luberwazisz Lubornel Luborzek Lucjusz Ludol Ludomiej Ludzislancin Lukadomiloryk Lukadomin Makodyn Maksaw Makubomilawo Mald Malek Marcy Mard Mardyslaw Martloslaw Martodzi Martur Mary Maryslacyz Matrys Maudzimil Maurenrafat Maurentoniusz Maurenty Mauriusz Maury Maurycjan Medanufryd Micef Micel Micelm Micenryk Michim Michimir Miech Miej Mielm Miemyslaw Mikodemir Miliusz Napold Napolipolaw Narp Nicent Niej Niko Nikold Noredardy Oktaleslaf Olaw Olemiemoteusz Oleniusz Onusz Oskard Oskariasz Oswalemeni Oswalenornael Oswandrzegor Pabrondelik Pelislaw Petoslawerard Piond Piorek Piotryd Polaw Polim Pronoldergin Przelagiej Radiusz Radoleslaw Rador Rafalbiaspyn Remystiaspyn Robrianty Robronor Rocel Roma Romantyniej Romary Romiesz Romin Romir Rudiusz Rudomiron Rudzi Ryslaw Sebasz Serzymowid Sew Siechoslazis Slagiusl Slart Slawiasz Slawitold Sofil Stald Ston Swit Szczesz Szczy Szczydomil Szydomin Szyn Szynat Tady Teo Teon Teonat Tobiestan Tomil Tomirozafil Tymierold Tymonsteriusz Tymowieweryn Tytusz Wacy Walaw Wali Waliasz Walibóg Walim Walintyn Walisz Wanfryk Wanfryslacy Wanufroslaw Wawiktal Wenorbald Wenty Wieciesz Wiej Wiel Wiemenislaw Wier Wiertustand Wiest Wiko Wiktoliktan Wiliusz Win Wislaury Wislawerad Wiszemantyn Witan Witofin Witol Wlaw Wlonacy Wlorneli Wojcielian Zachimielibóg Zacy Zbian Zbiaszaf Zbignarin Zygfry
+            }
+           
+            first_names_female = {
+				Adelina Adeta Adetalwiera Adra Adreata Adrela Adrena Adrietta Agna Agnina Aleksanda Alekstyna Alemela Alia Amania Amanuta Amara Amelagmartyna Amelika Ana Anda Andalwika Andra Aneguneta Anegustyna Anelena Anelia Anetaziszulika Anga Angata Angelawa Angelia Angelizalga Angenina Ania Anielina Anika Anikolawa Anislawa Anta Antonika Antylina Apola Apoliarycja Arlena Arlenia Arlonika Arlonita Aura Aurea Aurelina Aurenia Balga Balina Balwia Bara Baryna Bera Berena Bognika Bogumiera Bogunda Bogundra Boguslaria Bogustylia Bogustylina Bozara Brycja Bryda Brygfryna Bryka Bryna Cecylina Cecyn Cecyna Cecynata Cela Czesla Dagda Dagia Dagida Dagidia Dagina Dagmarzana Dana Danta Dara Darlonia Daryka Deksa Deksana Deksja Dekstyna Domilaroslawa Domilhelagina Domilia Domina Dona Donika Dorneta Dornetaria Dzefa Dzefanna Dzeja Dzena Dzenietosla Dzesana Edytanna Elena Eletta Elia Elina Elinastyna Emilianda Emilina Emina Eugelia Eugelina Eugena Eugeniktosla Ewefanuta Ewelia Fabela Fabelagina Fabiolona Fabiolonobia Fabiolota Fabria Fauslawa Fausta Fra Franiania Gabina Gabria Gena Genielena Genieslawa Gra Haniera Hanina Hedwigatrycja Hedwina Helaulawa Helawa Helina Hena Henryna Iloniszka Irenrycja Irenta Ireslawa Izabelanna Jadia Jana Janda Jandrela Januta Jolawa Jolemenina Jula Julina Józeja Józeslawa Kajda Kaleodora Kalindria Kaliwiga Kamanna Kamentonia Kamietta Kartyna Karyna Kasanaszulawa Kasanna Kata Katrycja Kazieslawa Kazyna Kina Kinastera Kla Klenata Klenryda Korzyna Kryda Krygina Kryna Krystylawa Ksena Kunda Kundra Kundria Kunela Kunelinisza Kuneta Kunetosla Laulina Lausta Lilaringa Lilawa Lilheleonia Lina Lingela Lucyliwieta Ludia Ludianta Ludmilia Ludwigata Luizalwiga Magida Majda Malbieta Malia Maliwinata Malwia Mara Maranna Marazisla Marbarlonia Marbarycja Mariana Marieta Marlentorzyna Marlonina Marona Maroslawa Martylianda Marygfrylwia Melana Melina Michaleona Micja Mirgida Mona Nadwinita Nata Natastyna Natia Natryna Nikolawa Olgora Olia Olina Olinianta Otyna Pamarlota Pamona Pata Patantoslawa Paudmilajda Paulawa Pauliania Paura Pausla Paustazja Pelawa Pelina Pelmierea Ramanika Ramaria Ramelingelina Ramila Regidia Rena Rokstylinda Rokstyna Rozeja Rozena Rozesika Rozeslawa Rutasanna Sabiola Samana Samania Samelanda Samieliwika Samilia Saneta Sania Santyna Saria Sariela Sterenowelawa Swia Swiara Swiga Sylina Tamena Tamila Tamonieliza Tata Tatia Teodoriana Teodoriolenta Teona Tera Terea Teroleksanna Teroleta Urszatia Urszka Urszulina Viola Walia Walianuta Wana Waniktona Wanisla Werena Wianegina Wiela Wiesika Wieta Wietta Wika Wilia Wiola Wioleksanieszka Wirgia Wirgina Wirota Zaklia Zanetta Zanna Zanta Zantyna Zdzielagda Zdziszka Zena Zuza Zygfrygia Zygfryna Zygfrystyna Zygina Zytara Zytastyna Zywiessana
+            }
+			
+			
+			second_names = {
+				Abrodzik Alewski Andowiak Androbolazuka Andrzyby Antecki Babak Babiewski Bacinski Baludek Barloch Bedzilliwiczky Biak Biasny Biatki Biecki Biemba Biewicz Biewska Blarski Blasz Bocz Bojandowski Bojanowiczyk Bojtysinska Boniarzyk Boninski Bonowski Borozilasnist Brocz Broczyk Browski Brozdz Brzewacz Bugodowski Chanowski Chevycha Chowczynski Chrodewiczak Cickiec Ciejnowaszcz Ciejowski Cielba Ciewski Cyba Cyga Cygaj Czak Czanski Czarda Czawicki Czestang Czewskiewski Dachanik Dawicz Debrowskier Dlucki Domalchnek Duchalabrowski Ducz Dudec Dudowskarki Duniecki Dybulkowichurki Dymkowski Dziak Dziatefanki Dzikoch Dziorastrusza Fielewski Fiszeracki Frawicz Ganki Gasioch Gasny Gaszak Giecki Gieglac Giewich Glinki Glodowska Godamek Gosiec Gruk Gruka Grut Grymanek Grzer Grzynowski Gwikulkowski Górskiecki Haftkocki Hlarnek Hutosovski Jaczyk Jaga Jandorowski Jandrowski Janiak Jarnowski Jaski Jurek Jurki Jurystacz Kalokowski Kamalski Karak Karanowierwozny Karanski Karciewiatalsur Kasiczula Kawliczelewsky Kedziol Kijowskiejnovski Kitski Kitwicki Kleniczynska Kobranski Kockiewski Kolinski Komanski Komiak Kopek Koprzyk Kora Korch Korubelaszkowski Kosniedna Kostanski Kotaszynska Kotlak Kotwiczypczko Kotyk Kovalicz Kovicz Kovski Kowska Kowski Kowskieysinski Kozmigiegla Kozny Krak Krancz Kranowskiewski Krawiczki Krusiak Krzak Kubalinski Kubaniak Kubek Kubel Kubiczak Kubiudzielski Kubowiczewinski Kucheviczurzyk Kucielinski Kula Kulinski Kunicz Kuron Kurzcz Kuzejski Kwach Kwalek Kwarubowska Kwaszki Kwisnowski Lancz Lanikowo Lanska Latyski Lesicki Lewiczkacz Lewska Lewski Lijinski Lijowski Litmalawicz Lowski Lubick Lubomalkowicz Luchalonski Lucz Luka Macki Majewsky Malak Malanis Malinowsky Marz Masniewski Maszechowski Matuszky Mazdowicz Mazumsky Mazurkochalewska Michrowski Miczyzar Mosialewicki Moski Moslik Muchy Mucz Muraki Murek Muszcz Muszerek Myszka Narniagienkowski Nieda Niesla Nijewski Nowaszkowskól Nowiczankor Nowski Okowskólko Okrz Olcz Ossarski Ostrzelcz Pajcz Palawicz Paligalochorzcz Pareziak Parowski Partkowidert Pawcz Pesa Pesarcz Pesiak Pesnik Piak Pianski Piedziubenski Piemcz Pilczkornacki Pilinski Plarczmiercz Plarlik Podzecki Polecki Polniak Przejewicz Przelewski Przycz Pudzilewidecek Puzanialushevski Rach Rachatoka Racki Raczny Radakoslawski Radziazurek Rajewski Rebiech Reszkowski Rodalikowski Rodziorski Roguatki Rosmanski Rudecimolarz Rudz Rumkowskietsovak Rutkoloski Rybanowica Rybik Rych Rychiewic Sabrackierski Salerniarawlaski Samek Sapuszynsky Sarczak Siec Sieszejcz Siewicz Siko Silek Sipiel Skowatuszatunik Skowiszewianski Skowski Slajnarzejewicki Slecki Slepa Slon Slowalowski Slowic Slowska Smiak Smiaszepek Smin Smolewiewski Smowski Smychajna Sokowart Sowski Spielcz Spyciorowski Srowski Stachla Stacki Stana Stanowski Startowachowski Stonowski Stostrzapliwich Stowiak Strodz Strzek Strzesniatka Sulski Swiczebiuk Szak Szakowski Szanowski Szapla Szarczyk Szch Szchalankowicz Szchy Szcz Szech Szenski Szewinczak Szpa Szpacz Szureziuk Szybod Szyk Szylazynski Szylkorocinski Szyluchal Szynski Tarowskierzecki Toch Tokowisz Tomarcz Tomidt Tomowski Tront Turcz Turkowski Turkulski Turoch Turski Urbanopa Vrusecki Wachalinski Waczynski Wajdek Wajewiczyk Wajnacz Walakolocki Walartyszki Walcz Wanufnik Wasa Wastanociak Wasyuk Waszeslawlucz Wdowinski Wiedorwo Wiewski Wigur Wirowski Wirsky Wiszka Wojanowitwiczyn Wojerwiana Wojtki Wojtowski Wolniewiczak Wozlowski Wozny Wydrowski Wyslak Zabanik Zabelski Zablosliwkowicz Zacz Zaczki Zagieniembanda Zajewidecz Zaki Zaraminowska Zaraszawski Zarski Zawcz Zawicz Zawski Zelik Zelipollarsky Ziecki Ziewkowcz Ziolk Ziomarcimcz Zubinska Zurkowski Zurwicz Zycki Zylakocki
+			}
+            regnal_first_names_male = {
+				Adrzej Augumil Czek Grozislaw Koriusz Luborzek Maksaw Pabrondelik Rudiusz Walibóg
+            }
+           
+            regnal_first_names_female = {
+				Aurelina Bogustylina Dzena Józeslawa Micja Olina Rokstyna Saria Wiola Zanna
+            }
+			
+			
+			regnal_second_names = {
+				Alewski Baludek Barloch Boninski Dawicz Glinki Jandrowski Kostanski Kowska Kubek Lanska Majewsky Pesnik Rosmanski Stowiak Sulski Turkowski Turoch Wozny Zurwicz Zylakocki
+			}
+		}
+	}
+}

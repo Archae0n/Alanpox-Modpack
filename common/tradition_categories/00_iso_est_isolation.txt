@@ -1,0 +1,52 @@
+tradition_est_isolation = {
+	desc = {
+		trigger = { is_gestalt = yes }
+		text =  tradition_est_isolation_GC_desc
+	}
+	tree_template = "tree_est_0_0_12_3_3"
+	adoption_bonus = "tr_est_isolation_adopt"
+	finish_bonus = "tr_est_isolation_finish"
+	traditions = {
+		"tr_est_isolation_1"
+		"tr_est_isolation_2"
+		"tr_est_isolation_3"
+		"tr_est_isolation_4"
+		"tr_est_isolation_5"
+	}
+
+	potential = {
+		est_isolation_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 3
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_xenophobe
+		}
+		modifier = {
+			factor = 3
+			has_ethic = ethic_fanatic_xenophobe
+		}	
+		modifier = {
+			factor = 2
+			has_ai_personality = xenophobic_isolationists
+		}	
+		modifier = {
+			factor = 3
+			has_civic = civic_inwards_perfection
+		}		
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

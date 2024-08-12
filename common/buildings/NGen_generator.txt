@@ -1,0 +1,73 @@
+NGen_building_nanotech_generator = {
+	base_buildtime = @b2_time
+
+	category = resource
+
+	potential = {
+		exists = owner
+		owner = { has_tradition = tr_nanotech_2 }
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+	}
+
+	allow = {
+		always = yes
+	}
+
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			NOT = { owner = { has_tradition = tr_nanotech_2 } }
+			has_modifier = slave_colony
+			has_modifier = resort_colony
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			alloys = @b3_minerals
+		}
+		produces = {
+			energy = 25
+		}
+		upkeep = {
+			nanites = 10
+			volatile_motes = 3
+		}
+	}
+
+	upgrades = {
+		NGen_building_nanotech_generator_upgrade
+	}
+}
+
+NGen_building_nanotech_generator_upgrade = {
+	base_buildtime = @b2_time
+
+	category = resource
+	can_build = no
+
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			NOT = { owner = { has_tradition = tr_nanotech_2 } }
+			has_modifier = slave_colony
+			has_modifier = resort_colony
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			alloys = @b3_minerals
+		}
+		produces = {
+			energy =100
+		}
+		upkeep = {
+			nanites = 30
+			volatile_motes = 10
+		}
+	}
+}

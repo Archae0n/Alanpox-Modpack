@@ -1,0 +1,20 @@
+spriteTypes = {
+	# government_view.gui and planet_view.gui
+	PieChartType = {
+		name = "GFX_species_piechart_75"
+		size = 75
+	}
+	PieChartType = {
+		name = "GFX_species_piechart_150"
+		size = 150
+	}
+	spriteType = {
+		name = "GFX_pie_chart_overlay_300"
+		texturefile = "gfx/ui_overhaul_qhd/government/pie_chart_overlay_300.dds"
+	}
+	# species piechart entry plupp
+	spriteType = {
+		name = "GFX_ui_species_plupp"
+		textureFile = "gfx/ui_overhaul_qhd/government/species_plupp.dds"
+	}
+}

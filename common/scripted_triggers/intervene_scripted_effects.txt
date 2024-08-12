@@ -1,0 +1,18 @@
+
+###############################
+### FunEFork by MrFunEGUY ###
+###############################
+
+
+can_do_intervention = {
+	custom_tooltip = {
+		fail_text = influence_fail_text_intervene
+		NOT = {
+			resource_stockpile_compare = {
+				resource = influence
+				value = 5
+				mult = root.intervention_cost_multiplier
+			}
+		}
+	}
+}

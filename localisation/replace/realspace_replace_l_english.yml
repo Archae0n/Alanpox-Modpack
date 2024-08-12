@@ -1,0 +1,12 @@
+﻿l_english:
+
+  custom_starting_init_03_NAME: "Random Trinary III"
+  custom_starting_init_04_NAME: "Random Binary I"
+  custom_starting_init_05_NAME: "Random Binary II"
+  custom_starting_init_03_DESC: "Trinary system where two are in the center and one on the edge of the system with its planetary system.\n\n$system_initializer_DESC$"
+  custom_starting_init_04_DESC: "Binary system where each star has its own planetary system.\n\n$system_initializer_DESC$"
+  custom_starting_init_05_DESC: "Binary system where the two stars are clustered together at its center.\n\n$system_initializer_DESC$"
+  custom_starting_init_06_NAME: "Random Unary I"
+  custom_starting_init_06_DESC: "Standard unary system with a single star.\n\n$system_initializer_DESC$"
+  custom_starting_init_07_NAME: "Random Unary II"
+  custom_starting_init_07_DESC: "Unary system with a single star. Homeworld is a moon orbiting a gas giant.\n\n$system_initializer_DESC$"

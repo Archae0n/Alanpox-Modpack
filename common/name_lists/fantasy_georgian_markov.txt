@@ -1,0 +1,228 @@
+﻿### Fantasy georgian
+### Threw georgian names into a markov generator
+
+cybrxkhan_handmade_georgian = {	
+	category = "Avian"
+
+	ship_names = {
+		generic = {
+			Abade Abadishvadze Abadze Abadzhutaspi Abakhaleni Abakhere Abakhiasov Abakhvidze Abam Abametsbi Abamsametrov Aban-Minov Abani Abanov Abasadze Abashi Abashvi Abashvili Abashviliko Abashvishvili Abataiano Abatavadze Abatov Abatovani Abi Abiani Abitsidze Abkheri Abkheteladze Abkhimeli Abkhvili Abkhvilik Abulamariista Abuleki Abutabel Abutavov Agiridze Agishurian Akashvitana Akhalakidze Akhechandov Akherati Akherov Akhiamani Akhisudze Akhuriev Akhvandrov Aladishvili Alakashvil Alareli Alashvili Alavan Alavili Alenidze Alenov Aletratua Amanavchianov AmaraurIan Amarelsky Amaz Ambadabadze Amban Ambashvili Ameli Amelisudze Amelov Ami Amidze Amili Amiliashviladze Amilidze Amilika Aminov Amira Amiradze Amiran Amishviani Amishvilakidat Anakha Anaktanidze Anchadze Anchanidze Anchi Anchianvelidze Anchievari Anchura Anchutov Andam Andandro Andieli Andishvili Andro Androv Ara Arab Aragradze Aragre Arajibitsiel Araksidze Aramidze Aravaratua Argebulikvili Arghavdshvilis Argista Argunaki Arguni Argutistavili Artko Arvan Arvare Arveltkov Asmanov Asmili Asmishvili Avabatashvili Avachani Avadze Avakhanidze Avakhri Avani Avanov Avanvelov Avaratuman Avaridze Avarkukhmetinov Avashvili Avtab Avtakhvili Avtanishvi Avtavlenkov Azar Azarani Azare Azarginginsky Azari Azaro Bab Babadiashvili Babegov Babegtashinov Babulashvili Badze Baga Bagashvili Baghdabakov Baghdamazi Baghna Bagi Bagorashviladze Bagov Bagragre Bagreli Bagvili Bagvskhojanov Bagvsky Bar Barabeli Baradze Barghda Bari Baridze Barierkezi Barishvilididze Baristandre Barkezi Barlekht Barshvili Bati Batin Batishvili Batov Batumbro Baturi Bebua Bebuli Bebulov Bebuta Bebutavadzeli Bebutioni Beginidze Beginortvili Begolnik Begorle Begova Begta Begtabuli Begtakhvili Bestaevarati Bestanskhvanti Bogi Bogirinabatis Bogov Bolaurishvili Bolnishvi Bolov Boloz Boritisky Borjaakhvidze Borushvili Botavidze Botsidiranov Botubsky Botura Cha Chani Charidzeshvili Chariishidov Cheiridze Cherdze Cherjolov Chi Chia Chide Chidze Chierelenov Chierov Chievanstab Chikeshvili Chikov Chimsadze Chimuky Chin Chinerdze Chis Chishvili Chishvilipiani Chkeladis Chkeshvili Chkhaz Chkhe Chkhikhanov Chkholakhi Chkhvili Chobitov Chokashimshvili Cholaksi Cholov Choni Chonichkhmetri Chonsky Cri Criista Dadishvi Dadnashvili Dadrejoming Dadze Dadzestov Davadze Davaladze Davaltuni Davandian Davanov Davchab Davdginkli Daveli Davidze Davili Davilikov Dedev Dedov Demeli Demelov Demphyramilia Demsandro Dgeaiashidze Dgebulukhmeli Dgerejolov Dianikvili Diashimukht Diati Dmanatumbatov Dmani Dmatinkov Doladze Dolov Dolyubsky Duli Dulidze Dulis Dushvili Dusiti Dusladze Dustani Dzhuringra Emukhuralakadze Emukhvili Emukidze Emukilidze Emuragvili Emurdiasandro Emurgebuladze Endieri Endili Endista Endro Endron Endry Eria Eriadze Eridze Erierkhrabegi Eriishvili Eris Erisidze Gachais Gachikali Gamili Garadze Gari Gedek Gedeshkhashvili Gedestadze Gedestan Gedev Gedi Gedisishvili Gedov Gelavka Geli Gelis Gelli Gelov Gion Gioni Giori Giorneuli Godjavili Gogov Goradze Gorgay Gorghi Gorjangiashvili Gorjomili Gorjomino Gorlaghade Gugalenkov Gugaris Gugashvi Gugdiri Gulaulishvili Guleki Gura Guradze Guramaragvsky Gurambadze Guranashvi Gurat Guraulov Gurda Gurdabatov Guri Guriadze Guridze Gurkhev Gurkhvili Gurkuri Gurman Ianiko Iashvadzelsky Inabeli Inabuli Inagre Inat Inateli Inatiorga Irab Iradze Iradzhev Irashvi Iratashvadze Iratashvidze Iratov Jamanov Jamare Jamenjibili Jamis Jamov Jamsanis Jamtro Jandiev Jandrov Jani Jania Janikrashvili Japa Japani Japansky Japar Javadevaridze Javani Javarov Javdshvili Javeli Javlengrda Jelagre Jeli Jorgishvilikvi Jvalaktaev Jvali Kakhra Kaklarajidze Kaksidze Kaktashvili Kara Karabel Karamtri Karanikrab Karashkhvili Karatino Karaz Kare Kari Karieritsidze Karierjoloz Kartkov Kasaltsky Kashvili Kavachavilikov Kavar Kavchimetev Kaveli Kavidze Kavili Kavkashvanvelek Kereleksalashvi Kerkeliparke Ketadzeshvili Ketani Ketanichab Ketantia Keteli Keteloqaraura Ketev Keti Ketinanov Ketis Ketradze Ketre Ketredirbeli Ketriis Ketrov Ketsqalka Kha Khali Khang Khekhijamina Kherkhugay Khervelov Kheva Khevalaghnavili Khidianov Khidze Khijaan-Mingre Khina Khinotubov Khishvili Khobili Khobimeipi Khobulavi Khojaansky Khojavi Khokashisudze Khokherdishvili Khokherveli Kholavov Kholgolov Kholov Khon Khonni Khornishvili Khotsidze Khotskishravili Khov Kinov Kipandroloz Kipani Kipanishvili Kiparetrat Kiparnergingre Kipartki Kipi Kipiashvili Kobi Kobiani Kobimurdze Kobit Kobitabeli Kobitafonni Kobua Kobulauli Kobuletelsky Kobuli Kobutadze Kobutani Koni Konidiri Konidzela Koniko Konishvadev Korgetri Korgran-Baghna Korlagvili Ksamonstaki Ksarleni Ksartvili Ksni Ksnidze Ksno Ksnova Kurab Kuri KurIasov Kuridze Kuriev Kutanidze Kuti Kutingi Kva Kvadze Kvakheidze Kvakishvili Kvalakhotumi Kvanti Laghab Lagolov Lagvili Lanashvili Landron Lani Lano Lazaradze Lazi Lazirbeli Lazirov Levaratafoni Levarusidze Lioni Lionsky Liorgisuridze Lode Lodek Lodestov Lodev Lodjameidze Lorabadze Loradanadev Lorjamanidze Lorjominishvili Lorlenov Machab Machalov Machere Machev Machia Machishvili Machna Machuritiani Machuti Magebuli Magetadze Magoladi Magov Magra Mai Maiani Maiatakli Maichetaev Mais Maishiani Maishvi Maishviliki Maistsidze Maka Makashvili Makasikaev Makhereli Makhotansky Makhotianveli Makhotsqari Maki Makis Makishvili Makukhvidze Mamargunishvi Mambamani Mambronidze Mamirbeli Manchali Mandisistani Mandro Mang Mani Manididze Manidze Manishvili Manstavacha Mantieva Manvelli Maqalikhadze Maqashvi Mara Marab Maragradze Marajikhek Maravchavaradze Maravkashvili Mardze Margebuadze Mari Maria Maris Marne Maro Maronsky Meilikhani Meipa Meipani Meladiashvili Melashikov Melenergay Meli Melokaev Meloz Meramov Merkeshvi Metev Meti Metsi Mike Mikhev Mikhugaruni Mikov Mikvi Minadielli Minashviliadze Mingrabutieri Minkov Mkhabulad Mkhaniko Mkhavili Mkhek Mkhiani Mkhijavov Mkhonidze Mkht Mkhvili Mkhvilishvili Mourashvili Mouratov Mourguti Mouriana Mouriev Mourkhishvili Mourkhvili Mtsidze Mtsruli Mukhavilakhaia Mukhonis Mukhov Mukhutini Murabashvili Muravdshvili Murdiai Murishvi Nakhvili Nakishvili Naktaev Nakuri Nan Nanchutaichvili Nani Nashidze Nashikov Nashvili Nata Natelavdshvi Natoni Natov Natumbada Nemelistavili Nemphyrasidze Nemsakli Nikashvili Nikovadze Ninadze Ninaspia Ninat Ninatonidze Ninerejo Ningrakukhev Ningrat Ninkli Ninkov Ninov Ninstadze Nizi Orbegiristoni Orbegistanavi Orbegiz Orbelidze Ordandov Ordani Ordze Ozura Ozurab Ozuratoni OzurIani Ozurinsky Pagay Pagharoni Paghnashvidze Pagi Pagorashkhabua Paianasi Paiashvili Paishi Paishvakhvit Palad Palekhonidov Paleno Palishviladze Palkashvil Palov Paltkis Pavarad Pavov Potanov Potsidze Potsqaradze Qara Qaridze Qaronis Qiparam Qiparoni Qipi Rachavili Rachna Raman Ramanvelashvili Ramatishutansky Rambadirbeli Rameli Ramili Rati Ratingiansky Ratinkov Ratov Ratuna Ratunikov Robimeli Robulekili Robuli Robulov Robutishvili Robutov Rushilis Rushvil Rushvila Rushvili Rushvilikov Rusiani Rusikov Rusit Ruslade Rusladze Ruslavidia Rustafonni Rustashvis Rusudanov Rusudze Rusurali Saakhriandi Saaki Saakli Sachijaandov Sachize Sagay Sagichkharat Sagrdze Samari Samaz Samshvili Senerveli Seneuli Seni Senov Shab Shani Shanistov Shavili She Sheidze Sheiravil Shekili Sheli Sheretan Sherov Sheti Shetradze Shetreli Sheulamonisky Sheule Sheuli Shev Shojameli Shorukhonis Shotunishvili Sidestano Sidze Sigha SighurIasov Sikov Siugashvi Siugdi Siuguna Siuguni Soladze Solgorgharov Solgov Solov Solyubo Sulametev Sulavkashvili Suli Sulov Sulukhvidze Suluky Suman Sumareli Sumarkurdani Sumateli Sumaz Sumazi Sumbad Sumbadze Sumbakov Sumbat Sumbatiev Sumbatina Sumbatubo Sumili Svabuti Svakhevashvili Svanveli Takasarev Takashvili Takhavili Takhetriev Takhmeno Takidze Takishvili Tamatov Tamingranikvili Taminov Tamov Tan Taradze Tarat Taravilikidze Tariashvili Taridabadze Taridze Tarkezi Tartvili Tavadze Tavaritsmili Tavchavleteli Tavdshishidev Tavili Tavilidze Tavkaev Tavkasisi Tbi Tbiansky Teidze Teimukha Teladze Telavil Tele Telenov Teli Tenjisky Tenov Terab Terdia Terishviladze Terkestadabelov Terkura Tetev Teti Tetis Tetrov Tetsky Tina Tineulavili Tingiani Tinkov Tinsky Torjadze Torjomidze Tsagharidze Tsakhokadrov Tsala Tsalavad Tsali Tsalishvili Tsaltsi Tsamtrelia Tsan-Mouri Tsarelidze Tseradianov Tsergerkeli Tserov Tsi Tsidze Tsiko Tsistafoni Tsitsqaradze Tskibili Tsky Tsni Tsnidze Tsnov Tsqaravili Tsqashizev Tsqashvili Tsudan Tsudze Tumatov Tumbronidzev Tumbrov Tumili Tuminakidze Tuminsky Turadiridze Turashvili Turgiandam Turi Turinasidze Turjani Tushvara Tusitioni Tusudze Urukhuta Uruli Urunadze Uruni Urusudatiereli Vachaz Vacherkhtano Vachichkherov Vachkhvidze Vakaki Vakhe Vakhonishvili Vakht Vakhtaevakhvili Vakhvila Vakhvilakov Vakidze Vaklakhoni Vaklisimshiz Vakta Vaktavarov Vakvili Valauratonidze Valikov Valtubsky Van Vanchichaz Vandronovari Vengrdze Venjishvidze Vezirinsky Vezov Viz Vize Vizhani Viziradilidze Yagenov Yagize Yagvilana Zemel Zemeni Zemnabegov Zemphyraz Zemsaridze Zemshvisky Zesha Zeshvilidze Zesta Zestashvili Zeynagindroni Zeynashvarelov ZourIanis Zouriistaev Zourmanikezov Zugalavilidze Zugarov Zugdia Zugdiani Zugdidze Zugdiri Zugutashvili Zuram Zurdze Zuriasov Zuridze Zuriev Zurkezi Zvili Zviliana Zvilikhi Zviliko
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Dadze Navy" "Guraghab Navy" "Magori eri Davili Navy" "Guragavsky Navy" "Makheriev Navy" "Gortvitsmili Navy" "Rusule Khidze Navy" "Janikvili Navy" "Konsky Navy" "Djishvili Navy" "Endreli Navy" 
+		}
+		sequential_name = FANTASY_GEORGIAN_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+		
+		defense_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_GEORGIAN_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Abani Abanisi Abashe Akha Akhale Akhasha Akhashashura Akhaspi Akhe Akheritsqari Akherjo Akheti Akhetrela Akhia Akhurjo Akhutavi Ambro Bagarda Bagetri Baghia Bati Batubo Batura Baturjaani Bola Bolaki Bolni Bori Borjaani Chia Chiatubo Dedi Dediati Dediatubo Dedidi Dedopli Dedoplisi Dmani Dmanisikhale Dmanisikhetri Dusha Dusta Dustsi Gare Garo Garola Garolaurjaani Garolni Gartvi Goritsmi Gorjo Gorjomi Guri Guritsi Jvarejo Jvarejomi Jvarneuleti Jvartvi Kardaturgeri Karejominda Karelauri Kartvi Khalka Khaspi Khobuli Khonisi Khonista Kobi Kobili Kobuletreli Kobuli Kuta Kutafoni Kuti Kvarda Kvardatubo Kvarelisi Kvarneuli Kvaro Kvartvi Lagarejo Lagartvi Lagerjaani Lagerjo Laghi Lani Mardabani Mare Maredi Maredoplisi Mari Maro Marolaki Martvi Mtsqaro Mtsqartvilisi Ninoti Onistavi Ozuri Ozurjo Ozurjolavi Potskhmeta Potskhuri Rusha Rushala Rusta Sachkha Sachkheti Sachkhetri Sachkhi Sachkhutaisi Sagarneulisi Sagarola Samtre Samtrelaki Samtrelavili Samtri Samtritsmi Senaghda Senjikheti Senjikhi Sighda Sighdati Sighdatubo Sighdatuminda Sighi Telaurjo Teli Teredoplisi Terelisi Teri Terjomi Tetavi Teti Tsagari Tsageti Tsaghdati Tsaghi Tsagodekherjo Tsala Tsalavili Tsalenjikheti Tsaleti Tsaltumi Tsalturi Tsalturjo Tsnoti Tsqalauri Tsqardabasha Tsqari Vala Valka Valkalauri Valtuminoti Vanchkha Vanchkhetri Zesta Zestaisikheti Zestsikha Zestskhiatubo Zestsqaro Zugdi Zugdia Zugdididi Zugdididia
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Akakht Akakhtan Akakliko Aleksan Aleksana Aleksandi Aleksandil Aleksanikht Aleksantino Ameil Ametelar Ametevan Ametre Anab Asmanab Asmangiz Asmarab Asmaz Avta Avtan Avtanab Avtandre Avtang Avtaniko Avtantiad Bad Bagra Bagrab Bagrakide Bagraz Davia Daviamana Demeil Demeirin Demnantin Demphyra Demphyrab Dula Dulike Dulikhi Giornike Gulantinab Guli Kakli Kakliko Ketel Ketevaniko Ketevantina Ketre Konsta Konstantia Levandi Maiad Maiadre Maiam Maiamatiam Man Mana Mandre Mariel Markukhi Marla Marlan Marlarlamat Mera Merakheil Merakhi Mike Mikhi Mikht Miko Mikoloz Mura Murab Muratiam Nan Nanang Nandil Nantina Nat Natevan Natevang Natiamandry Natin Natinab Natino Nike Nikheil Niko Nin Ninat Nine Ninerab Nineraz Raman Rusla Ruslam Rusudanat Rusudantino Shotan Tam Tamandil Tamarat Tamariel Tamatevan Tar Tara Tarino Tarkukheiria Teimurab Teiriam Teiriel Teirielantin Tene Tenerab Teng Tengi Tin Tina Tinat Tino Torgiz Torni Vakheirin Vakht Vakhtan Vakhtandry Vakide Vaklike Varakide Varia Varina Vene Venerab Venerat Vengi Zemeimura Zemeimurab Zemetela Zemna Zemnan Zemphyrab Zeyna Zeynan Zoura Zourmarakide Zourmarina Zourmaz Zura Zurakht Zuraz Zurman Zvit
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Abadia Abadiani Abadze Abashvili Abitsimenidze Abkhichvili Abkhize Abkhov Abkhvili Abuli Abutionikov Aginadze Agironishvili Agishvili Alaksidze Amandrov Amaratishvilava Amatov Amidze Amilashvilidze Amili Amingradze Aminklavachiev Amiri Ancherdze Anchuragiria Andiashvili Andishvili Androv Aradirishvidze Aradze Aradzev Araktandrov Arashvilis Arationistakaev Argali Artsianov Avarov Azariani Babadze Babakadieli Babameni Babamonov Babegorgenkov Babeli Babelli Babua Bagay Baghaladze Bagolashvilikov Bagrani Baranov Barov Barshvili Bebuli Beshvilishvili Botsianishvili Botsisky Botuni Botunidze Botunikashvilis Chabadze Chalavadze Charanov Chavarishvidze Chiais Chidze Chijadze Chkezov Chkhanishvili Chojamelov Chojamovaradia Chojanov Choni Chonov Chotua Crishvili Dadze Davalov Davaravlek Davlenov Dgenishvili Djibia Dolokaev Dolyubskhetrov Dzhavadze Dzhazaramaronov Emukhai Endiridze Eridze Eridzhabegov Eriishvili Gamateladze Gamov Gedeshvili Gedev Godhe Godjis Gogishansky Gorgalashvili Gorlenov Gugashvili Guguni Guradze Guradzeva Gurajishvili Guravi Guravili Gurdadze Gurdamili Gurdze Gurga Guriaishize Guridze Gurkeshis Gurkharauli Jameli Jameni Jamenov Jamili Jamsariishva Jandrov Janskhimeli Jansky Javadishvi Javali Javaravabelenov Javlenishvili Jorjansky Jorlenov Kavili Kerghazov Kheulakhadze Khichetsidze Khidze Khili Khishishvili Kholagvsky Khoni Khotunadze Kinsky Kiparishvili Kobia Kobitiev Kobuladze Kobuli Ksadze Ksamili Ksanishvili Ksnichalakvali Ksnishvili Kurajidov Kurdze KurIani Kvaksiev Lazari Lioni Lorakhraladze Loriishvili Lorjadze Lortkidzhuradze Machadev Machanov Machavili Machnadze Machnavkashvili Machua Maghavdshvili Maghutis Magvili Makhavili Makhelov Makholov Makhvi Makhvilia Mandrov Manishijadze Manov Maqashvilianov Mariskhorgeais Maroni Meidze Meidzeli Meiparoni Melokheli Melov Mikishvili Mikov Mingradze Mingraladze Minov Minsky Mkhanov Mkhov Mkhvili Mouratakheuli Mourgebutava Mukidze Mukipianov Nakheli Nemsamili Nemsaminkladze Nemshvili Orbegichiev Orbegorudze Orbegov Orbelenidze Orbeli Ordze Pagichutionov Pagov Paishvidze Palaghargay Palavlenikov Palik Palikhazov Pavakashvili Pavali Pavili Qaran Qaridze Qipanveli Racharadze Rachuadze Ratov Ratuadze Ratuni Robulavadze Robutingralov Rusia Rusimeni Rusimshvi Rusitsrukhradze Sagharshvili Sagicheiparidze Sagolov Shabuladze Shadze Shanik Shanov Sharishvili Shaziris Sheidze Sheipia Sheli Shergutavili Sherkeli Sheronikidze Shetsrudze Sheulakhvili Sheuli Sidze Siugalidze Siugashvi Siugunadze Soladze Solgov Sumanov Sumaradze Sumbadze Svanov Takaev Takhabamilia Takhov Taradze Tarasadiani Tareli Tavadev Tavkaev Tavkashvili Teteli Tetelsky Tsierierelov Tsurkhvili Tumaralashek Tumbadze Turadze Turajishvili Turdzhua Tusitierveli Tusitsrukhadze Tustakhev Urukhimenov Vachua Vezirbeli Vezov Viziri Yashviladze Yasishvili
+			}
+			
+			regnal_first_names = {
+				Aleksana Bagrab Konsta Raman Vakhtan Zoura Zurman
+			}
+			
+			regnal_second_names = {
+				Aginadze Aradzev Babua Guravili Jorlenov Kheulakhadze Ksanishvili Makhavili Sagharshvili Siugashvi Tusitsrukhadze
+			}
+		}
+	}
+}

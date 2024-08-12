@@ -1,0 +1,461 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	lucimudegiolo = {
+		name = Giolese
+		plural = Giolese
+		home_planet = "Lucimu de Giolo"
+		home_system = "Giolo Prasia"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	caiorlu = {
+		name = Midi
+		plural = Midis
+		home_planet = Caiorlu
+		home_system = Anti'Malo
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	aurramissu = {
+		name = Aurramissian
+		plural = Aurramissians
+		home_planet = Aurramissu
+		home_system = Nicalvia
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	songofgiorghia = {
+		name = "Giudu Giulu"
+		plural = "Giudu Giulu"
+		home_planet = "Song of Giorghia"
+		home_system = "Song of Sfintore"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	pizziani = {
+		name = Pizzianese
+		plural = Pizzianese
+		home_planet = Pizziani
+		home_system = Lucenaca
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	biacarea = {
+		name = Biacarean
+		plural = Biacareans
+		home_planet = Biacarea
+		home_system = Maruscaldru 
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	malosiluviso = {
+		name = Malosil
+		plural = Malosils
+		home_planet = Malosilu-Viso
+		home_system = Ciardoscu 
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	cantabileofthelight = {
+		name = Curoan
+		plural = Curoans
+		home_planet = "Cantabile of the Light"
+		home_system = "Cantabile of the Darkness" 
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	rizzameddu = {
+		name = Rizzameddan
+		plural = Rizzameddans
+		home_planet = Rizzameddu
+		home_system = "Cucinu Accara" 
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	crescendoofhope = {
+		name = Gugustian
+		plural = Gugustians
+		home_planet = "Crescendo of Hope"
+		home_system = "Diminuendo of Eternity"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	caraddello = {
+		name = Caraddellan
+		plural = Caraddellans
+		home_planet = Caraddello
+		home_system = Colviaruna
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	salavittu = {
+		name = Salàvittese
+		plural = Salàvittese
+		home_planet = "Salà Vittu"
+		home_system = Modinavanna
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	arranuarranu = {
+		name = Arranuoid
+		plural = Arranoids
+		home_planet = Arranu
+		home_system = Carbondri
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	totorapu = {
+		name = Totorapan  
+		plural = Totorapans
+		home_planet = Totorapu
+		home_system = Boemu
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	stirringadagio = {
+		name = Salentiman  
+		plural = Salentimans
+		home_planet = "Stirring Adagio"
+		home_system = "Hopeful Allegro"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	lammunicca = {
+		name = Lammunid  
+		plural = Lammunids
+		home_planet = Lammunicca
+		home_system = Agne-Fila
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	mancifaciu = {
+		name = Mancifacian  
+		plural = Mancifacians
+		home_planet = Mancifaciu
+		home_system = Rijituru
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	bionefassalo = {
+		name = Sesfu 
+		plural = Sesfu
+		home_planet = "Bione Fassalo"
+		home_system = "Bione Venchi"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	costinavosaprime = {
+		name = Costinavosan 
+		plural = Costinavosans
+		home_planet = "Costinavosa Prime"
+		home_system = Costinavosa
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	littleraguzzo = {
+		name = Raguzzan
+		plural = Raguzzans
+		home_planet = "Little Raguzzo"
+		home_system = "Grand Raguzzo"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	bacchiasfantasia = {
+		name = Bacchian 
+		plural = Bacchians
+		home_planet = "Bacchia's Fantasia"
+		home_system = "Lavaranu's Concerto"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	vitari = {
+		name = Vitarid
+		plural = Vitarids
+		home_planet = Vitari
+		home_system = Serianasti
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	lambera = {
+		name = Lamberoid
+		plural = Lamberoids
+		home_planet = Lambera
+		home_system = Colavia
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	grandsoprano = {
+		name = Liviu
+		plural = Liviu
+		home_planet = "Grand Soprano"
+		home_system = "Grand Tenor"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	alenaalena = {
+		name = Alenese
+		plural = Alenese
+		home_planet = Alena
+		home_system = Cotinu
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	augnastanu = {
+		name = Augnastian
+		plural = Augnastians
+		home_planet = Augnastanu
+		home_system = Cardu
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	catone = {
+		name = Catonese
+		plural = Catonese
+		home_planet = Catone
+		home_system = Tiniardita
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	cavanna = {
+		name = Cavannese
+		plural = Cavannese
+		home_planet = Cavanna
+		home_system = Rica-Fila
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	immortaltarantella = {
+		name = Filadian
+		plural = Filadians
+		home_planet = "Immortal Tarantella"
+		home_system = "Golden Capriccio"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	agattasi = {
+		name = Agattasian
+		plural = Agattasians
+		home_planet = Agattasi
+		home_system = Masiaru
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	orlera = {
+		name = Orlerian
+		plural = Orlerians
+		home_planet = Orlera
+		home_system = Rinu
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	accibbino = {
+		name = Accibbinese
+		plural = Accibbinese
+		home_planet = Accibbino
+		home_system = Umbrottaru
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	cocolo = {
+		name = Cocoloid
+		plural = Cocoloids
+		home_planet = Cocolo
+		home_system = Orazicchella
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	valentu = {
+		name = Valentic
+		plural = Valentics
+		home_planet = Valentu
+		home_system = Biora
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	rousingsaltarello = {
+		name = Daminan
+		plural = Daminans
+		home_planet = "Rousing Saltarello"
+		home_system = "Drifting Madrigal"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	elvesa = {
+		name = Elvesan
+		plural = Elvesans
+		home_planet = Elvesa
+		home_system = Carfila
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	firstmelody = {
+		name = Pugghian
+		plural = Pugghians
+		home_planet = "First Melody"
+		home_system = "First Inspiration"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	zucazuca = {
+		name = Zucoid
+		plural = Zucoids
+		home_planet = Zuca
+		home_system = Binu
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	eugnaviuprime = {
+		name = Eugnavian
+		plural = Eugnavians
+		home_planet = "Eugnaviu Prime"
+		home_system = Eugnaviu
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	gualla = {
+		name = Guallan
+		plural = Guallans
+		home_planet = Gualla
+		home_system = Damannavolfu
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	oliaolia = {
+		name = Olianese
+		plural = Olianese
+		home_planet = Olia
+		home_system = Liviutona
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	birthsongofmardualu = {
+		name = Coccudi
+		plural = Coccudi
+		home_planet = "Birthsong of Mardualu"
+		home_system = "Dirge of Mardualu"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	valdalisi = {
+		name = Valdalisoid
+		plural = Valdalisoids
+		home_planet = Valdalisi
+		home_system = Tumìnicu
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	coccenzu = {
+		name = Coccenzoid
+		plural = Coccenzoids
+		home_planet = Coccenzu
+		home_system = Maufeminizzo
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	giulcoppola = {
+		name = Giulcoppian
+		plural = Giulcoppians
+		home_planet = Giulcoppola
+		home_system = Maracchemu
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	cabrabruzzo = {
+		name = Apaduan
+		plural = Apaduans
+		home_planet = "Cabra Bruzzo"
+		home_system = "Mòdi Seve"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	remnantlibretto = {
+		name = Bagusoid
+		plural = Bagusoids
+		home_planet = "Remnant Libretto"
+		home_system = "Heavenly Opera"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	timpicchello = {
+		name = Timpicchellan
+		plural = Timpicchellans
+		home_planet = Timpicchello
+		home_system = Rinumatu
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	caimia = {
+		name = Caimian
+		plural = Caimians
+		home_planet = Caimia
+		home_system = Puluminassi
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	adermuna = {
+		name = Adermunid
+		plural = Adermunids
+		home_planet = Adermuna
+		home_system = "Clina eda Zina"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	ilanto = {
+		name = Ilantese
+		plural = Ilantese
+		home_planet = Ilanto
+		home_system = Viricudiu
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	crasimi = {
+		name = Crasiminese
+		plural = Crasiminese
+		home_planet = Crasimi
+		home_system = Crasiminora
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	ruvasca = {
+		name = Ruvascan
+		plural = Ruvascans
+		home_planet = Ruvasca
+		home_system = Adiacanu
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	IU = {
+		name = Sibberran
+		plural = Sibberrans
+		home_planet = Sibberra
+		home_system = Sebangioco
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	panolo = {
+		name = Panoloid
+		plural = Panoloids
+		home_planet = Panolo
+		home_system = Fallazziana
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	IU = {
+		name = Rugussi
+		plural = Rugussi
+		home_planet = "Cardinal Instrument"
+		home_system = "Divine Conductor"
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+	guacci = {
+		name = Guaccian
+		plural = Guaccians
+		home_planet = Guacci
+		home_system = Sgrogio
+		name_list = "cybrxkhan_fantasy_sicilian"
+	}
+}

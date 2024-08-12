@@ -1,0 +1,81 @@
+rwf_decision_relic_expedition = {
+    owned_planets_only = yes
+    icon = decision_archaeological_dig
+
+    enactment_time = 360
+	resources = {
+		category = decisions
+		cost = {
+			energy = 1000
+			influence = 25
+		}
+	}
+
+    potential = {
+        rwf_was_ever_history_relic_world = yes
+        OR = {
+            NOT = { is_variable_set = rwf_expedition_counter}
+            check_variable = {
+                which = rwf_expedition_counter
+                value < 5
+            }
+        }
+    }
+
+    allow = {
+        NOT = {
+            has_modifier = rwf_recent_relic_expedition
+        }
+
+    }
+
+    effect = {
+        hidden_effect = {
+            planet_event = { id = rwf_flavour.70 }
+            add_modifier = {
+                modifier = rwf_recent_relic_expedition
+                years = 5
+            }
+            if = {
+                limit = { is_variable_set = rwf_expedition_counter}
+                change_variable = {
+                    which = rwf_expedition_counter
+                    value = 1
+                }
+            }
+            else = {
+                set_variable = {
+                    which = rwf_expedition_counter
+                    value = 1
+                }
+            }
+        }
+        custom_tooltip = rwf_decision_relic_expedition_effects
+    }
+
+    ai_weight = {
+        base = 10
+        modifier = {
+            mult = 100
+            owner = {
+                resource_stockpile_compare = {
+                    resource = energy
+                    value >= 5000
+                }
+            }
+        }
+        modifier = {
+            add = 25
+            years_passed > 30
+        }
+        modifier = {
+            add = 100
+            owner = {
+                resource_stockpile_compare = {
+                    resource = energy
+                    value >= 10000
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,685 @@
+civic_palps = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_palps.dds"
+	potential = {
+		civics = {
+			value = civic_palps
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		country_leader_cap_add = 2
+		country_civics_influence_produces_add = 3
+		diplo_weight_mult = 0.5
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_marx = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_marx.dds"
+	potential = {
+		civics = {
+			value = civic_marx
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		country_leader_cap_add = 1
+		country_civics_influence_produces_add = 4
+		diplo_weight_mult = 0.5
+		planet_crime_mult = -0.3
+		diplo_weight_pops_mult = 0.25
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_cmbine = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_cmbine.dds"
+	potential = {
+		civics = {
+			value = civic_cmbine
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		species_empire_size_mult = -0.3
+		country_subject_integration_speed_add = 5
+		diplo_weight_mult = 0.5
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_pizdec = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_pizdec.dds"
+	potential = {
+		civics = {
+			value = civic_pizdec
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		job_soldier_stability_add = 5
+		diplo_weight_mult = 0.5
+		country_energy_produces_mult = 0.25
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_gcpu = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_gcpu.dds"
+	potential = {
+		civics = {
+			value = civic_gcpu
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		empire_size_mult = -0.3
+		intel_decryption_mult = 0.25
+		intel_encryption_mult = 0.25
+		diplo_weight_mult = 0.5
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_greathive = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_greathive.dds"
+	potential = {
+		civics = {
+			value = civic_greathive
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		job_spawning_drone_per_pop = 0.1
+		country_food_produces_mult = 0.15
+		country_minerals_produces_mult = 0.15
+		diplo_weight_mult = 0.5
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_1984 = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_1984.dds"
+	potential = {
+		civics = {
+			value = civic_1984
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_mult = 0.5
+		country_government_civic_points_add = 1
+		pop_purge_speed = 0.25
+		spy_network_value_mult = 0.5
+	}
+}
+
+civic_xenophob = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_xenophob.dds"
+	potential = {
+		civics = {
+			value = civic_xenophob
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_mult = 0.5
+		citizen_pop_same_species_class_happiness = 0.15
+		citizen_pop_different_species_class_happiness = 0.15
+		pop_purge_speed = 0.05
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_startrek = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_startrek.dds"
+	potential = {
+		civics = {
+			value = civic_startrek
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_mult = 0.5
+		country_base_influence_produces_add = 4
+		country_resource_max_influence_add = 2000
+		pop_happiness = 0.15
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_crimes = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_crimes.dds"
+	potential = {
+		civics = {
+			value = civic_crimes
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_mult = 0.5
+		planet_crime_mult = 0.25
+		branch_office_criminal_syndicate_value_add = 2
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_hre = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_hre.dds"
+	potential = {
+		civics = {
+			value = civic_hre
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_mult = 0.5
+		subject_tribute_mult = 0.15
+		country_subject_power_penalty_mult = -0.2
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_cpacifist = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_cpacifist.dds"
+	potential = {
+		civics = {
+			value = civic_cpacifist
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_mult = 0.5
+		country_war_exhaustion_mult = -0.15
+		planet_stability_add = 5
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_cmilitary = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_cmilitary.dds"
+	potential = {
+		civics = {
+			value = civic_cmilitary
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_mult = 0.5
+		army_morale = 0.15
+		command_limit_add = 80
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_cmaterial = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_cmaterial.dds"
+	potential = {
+		civics = {
+			value = civic_cmaterial
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cspiritual
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_mult = 0.5
+		all_technology_research_speed = 0.25
+		num_tech_alternatives_add = 2
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_cspiritual = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_cspiritual.dds"
+	potential = {
+		civics = {
+			value = civic_cspiritual
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cpirate
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_mult = 0.5
+		country_unity_produces_mult = 0.05
+		diplo_weight_pops_mult = 0.1
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_cpirate = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_cpirate.dds"
+	potential = {
+		civics = {
+			value = civic_cpirate
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cservitor
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_mult = 0.5
+		planet_stability_add = -5
+		country_resource_max_add = 100000
+		country_government_civic_points_add = 1
+	}
+}
+
+civic_cservitor = {
+	modification = no
+	icon = "gfx/interface/icons/governments/civics/civic_cservitor.dds"
+	potential = {
+		civics = {
+			value = civic_cservitor
+		}
+	}
+	possible = {
+		civics = {
+			NOR = {
+				value = civic_galactic_sovereign
+				value = civic_palps
+				value = civic_marx
+				value = civic_cmbine
+				value = civic_pizdec
+				value = civic_gcpu
+				value = civic_greathive
+				value = civic_1984
+				value = civic_xenophob
+				value = civic_startrek
+				value = civic_crimes
+				value = civic_hre
+				value = civic_cpacifist
+				value = civic_cmilitary
+				value = civic_cmaterial
+				value = civic_cspiritual
+				value = civic_cpirate
+			}
+		}
+	}
+	random_weight = { base = 0 }
+	modifier = {
+		diplo_weight_mult = 0.5
+		planet_amenities_mult = 0.25
+		country_unity_cost_mult = -0.25
+		country_government_civic_points_add = 1
+	}
+}

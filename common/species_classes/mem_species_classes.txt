@@ -1,0 +1,7 @@
+MEM_ANCIENT = {
+	playable = { always = no }
+	archetype = BIOLOGICAL
+	randomized = no
+	graphical_culture = mem_ancient_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

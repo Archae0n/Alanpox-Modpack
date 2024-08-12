@@ -1,0 +1,240 @@
+@attack_range = 10
+@engagement_range = 100
+@launch_time = 2
+@count = 8
+@regen = 0.5
+
+# ####################
+# Critter Weapons - Space Amoeba
+# ####################
+
+@critter_cost_value = 35
+
+
+### Standard Amoeba Weapon
+
+weapon_component_template = {
+	key = "LARGE_SPACE_AMOEBA_WEAPON"
+
+	size = large
+	entity = "medium_space_amoeba_weapon_entity"
+	type = instant
+	icon = "GFX_ship_part_space_whale_weapon_1"
+	icon_frame = 1
+	projectile_gfx = "space_amoeba_weapon"
+	tags = { weapon_type_energy weapon_type_space_fauna }
+	ai_tags = { weapon_role_anti_armor }
+	size_restriction = {
+		reanimated_space_amoeba_mother
+		reanimated_space_amoeba
+		reanimated_space_amoeba_centenarian
+		space_amoeba_mother
+		space_amoeba
+		space_amoeba_centenarian
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @critter_cost_value
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "SMALL_SPACE_AMOEBA_WEAPON"
+
+	size = small
+	entity = "small_space_amoeba_weapon_entity"
+	type = instant
+	icon = "GFX_ship_part_space_whale_weapon_1"
+	icon_frame = 1
+	projectile_gfx = "small_space_amoeba_weapon"
+	tags = { weapon_type_energy weapon_type_space_fauna }
+	ai_tags = { weapon_role_anti_armor weapon_type_space_fauna }
+	size_restriction = {
+		reanimated_space_amoeba_mother
+		reanimated_space_amoeba
+		reanimated_space_amoeba_centenarian
+		space_amoeba_mother
+		space_amoeba
+		space_amoeba_centenarian
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @critter_cost_value
+		}
+	}
+}
+
+### Strike Craft
+
+strike_craft_component_template = {
+	key = "AMOEBA_STRIKE_CRAFT"
+
+	size = LARGE
+	entity = "space_amoeba_small_entity"
+	#power = -30
+	resources = {
+		category = ship_components
+		cost = {
+			food = 250
+			#alloys = 60
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			food = @l_t3_upkeep_energy
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 14 max = 21 }
+	cooldown = 5
+	range = @attack_range
+	engagement_range = @engagement_range
+	accuracy = 1.00
+	tracking = 0.50
+
+	health = 30 #20
+	armor = 0
+	shield = 0
+	evasion = 0.35 #0.50
+
+	speed = 500
+	rotation_speed = 0.8
+	acceleration = 1
+
+	#shield_damage = 1.0
+	#shield_penetration = 1
+	#armor_damage = 1.5
+
+	armor_damage = 1.25
+	hull_damage = 1.33
+
+	ship_behavior = "bombers_behavior"
+
+	weapon_type = instant # Not PD, unlike other strike craft
+	projectile_gfx = "small_space_amoeba_weapon"
+
+	component_set = "AMOEBA_STRIKE_CRAFT_1"
+	prerequisites = { "tech_amoeba_strike_craft_1" }
+	upgrades_to = "AMOEBA_STRIKE_CRAFT_2"
+
+	icon = "GFX_ship_part_amoeba_strike_craft_1"
+	icon_frame = 1
+	tags = { weapon_type_strike_craft weapon_type_space_fauna }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+strike_craft_component_template = {
+	key = "AMOEBA_STRIKE_CRAFT_2"
+
+	size = LARGE
+	entity = "space_amoeba_small_entity"
+	#power = -30
+	resources = {
+		category = ship_components
+		cost = {
+			food = 325
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			food = @l_t4_upkeep_energy
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 18 max = 27 }
+	cooldown = 5
+	range = @attack_range
+	engagement_range = @engagement_range
+	accuracy = 1.00
+	tracking = 0.55
+
+	health = 40
+	armor = 0
+	shield = 0
+	evasion = 0.50
+
+	speed = 600
+	rotation_speed = 0.8
+	acceleration = 1
+
+	armor_damage = 1.25
+	hull_damage = 1.33
+
+	ship_behavior = "bombers_behavior"
+
+	weapon_type = instant
+	projectile_gfx = "small_space_amoeba_weapon"
+
+	component_set = "AMOEBA_STRIKE_CRAFT_2"
+	prerequisites = { "tech_amoeba_strike_craft_1" "tech_gene_seed_purification" }
+	upgrades_to = "AMOEBA_STRIKE_CRAFT_3"
+
+	icon = "GFX_ship_part_amoeba_strike_craft_2"
+	icon_frame = 1
+	tags = { weapon_type_strike_craft weapon_type_space_fauna }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+strike_craft_component_template = {
+	key = "AMOEBA_STRIKE_CRAFT_3"
+
+	size = LARGE
+	entity = "space_amoeba_small_entity"
+	#power = -30
+	resources = {
+		category = ship_components
+		cost = {
+			food = 425
+		}
+		upkeep = {
+			energy = @l_t5_upkeep_energy
+			food = @l_t5_upkeep_energy
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 24 max = 36 }
+	cooldown = 5
+	range = @attack_range
+	engagement_range = @engagement_range
+	accuracy = 1.00
+	tracking = 0.60
+
+	health = 50
+	armor = 0
+	shield = 0
+	evasion = 0.65
+
+	speed = 700
+	rotation_speed = 0.8
+	acceleration = 1
+
+	armor_damage = 1.25
+	hull_damage = 1.33
+
+	ship_behavior = "bombers_behavior"
+
+	weapon_type = instant
+	projectile_gfx = "small_space_amoeba_weapon"
+
+	component_set = "AMOEBA_STRIKE_CRAFT_3"
+	prerequisites = { "tech_amoeba_strike_craft_1" "tech_gene_seed_purification" "tech_leviathan_transgenesis" }
+	#upgrades_to = "SWARM_STRIKE_CRAFT"
+
+	icon = "GFX_ship_part_amoeba_strike_craft_3"
+	icon_frame = 1
+	tags = { weapon_type_strike_craft weapon_type_space_fauna }
+	ai_tags = { weapon_role_anti_armor }
+}

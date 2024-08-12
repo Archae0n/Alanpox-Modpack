@@ -1,0 +1,405 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	darsujan = {
+		name = Sujanese
+		plural = Sujanese
+		home_planet = "Dar Sujan"
+		home_system = Talindhi
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	khurakhura = {
+		name = Khuranian
+		plural = Khuranians
+		home_planet = Khura
+		home_system = Sandhkari
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	lullohan = {
+		name = Lu'Lohanite
+		plural = Lu'Lohanites
+		home_planet = Lul-Lohan
+		home_system = Lul-Kuksh
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	morayan = {
+		name = Morayanid
+		plural = Morayanids
+		home_planet = Morayan
+		home_system = Dodhwanjagho
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	sabhattan = {
+		name = Sabhattanese
+		plural = Sabhattanese
+		home_planet = Sabhattan
+		home_system = Malrejani 
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	malmuri = {
+		name = Mal-e-Murid
+		plural = Mal-e-Murids
+		home_planet = "Mal Muri"
+		home_system = Marayo 
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	mehmori = {
+		name = Mehmoroid
+		plural = Mehmoroids
+		home_planet = Mehmori
+		home_system = Aikk 
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	khanwan = {
+		name = Khanwanian
+		plural = Khanwanians
+		home_planet = Khanwan
+		home_system = Pyassui 
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	maaraachatto = {
+		name = Kharianese
+		plural = Kharianese
+		home_planet = "Maar Aachatto"
+		home_system = "Maar Sunhuto"
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	haushma = {
+		name = Haushmid
+		plural = Haushmids
+		home_planet = Haushma
+		home_system = Tanwarayo
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	evolvingpoetry = {
+		name = Sharkotki
+		plural = Sharkotkis
+		home_planet = "Evolving Poetry"
+		home_system = "Plane of Wonders"
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	sutkani = {
+		name = Sutkanite
+		plural = Sutkanites
+		home_planet = Sutkani
+		home_system = Makhi
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	sujani = {
+		name = Sujanese  
+		plural = Sujanese
+		home_planet = Sujani
+		home_system = Bhago
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	qurgar = {
+		name = Qurgarid  
+		plural = Qurgarids
+		home_planet = Qurgar
+		home_system = Chalhoodhi
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	kalpiro = {
+		name = Meh'Pir  
+		plural = Meh'Pirs
+		home_planet = Kal'Piro
+		home_system = Longahi
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	sumalo = {
+		name = Sumaloan  
+		plural = Sumaloans
+		home_planet = Sumalo
+		home_system = Sakshagh
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	ganilalo = {
+		name = Ganiloid 
+		plural = Ganiloids
+		home_planet = Ganilalo
+		home_system = Kahro
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	rakhara = {
+		name = Rakharan 
+		plural = Rakharans
+		home_planet = Rakhara
+		home_system = Buxapeer
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	arenaofbargam = {
+		name = Badlanese 
+		plural = Badlanese
+		home_planet = "Arena of Bhar Gam"
+		home_system = "Plains of Bhar Maiz"
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	daral = {
+		name = Daralite 
+		plural = Daralites
+		home_planet = Daral
+		home_system = Ameediqui
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	badoriala = {
+		name = Badorialan
+		plural = Badorialans
+		home_planet = Badoriala
+		home_system = Sakhi
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	sahathur = {
+		name = Sahathuran
+		plural = Sahathurans
+		home_planet = Sahathur
+		home_system = Haakotheeri
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	hamwas = {
+		name = Hamwasid
+		plural = Hamwasids
+		home_planet = Hamwas
+		home_system = Mehrah
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	meholahroprime = {
+		name = Meholan
+		plural = Meholans
+		home_planet = "Meholahro Prime"
+		home_system = Meholahro
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	sarsoban = {
+		name = Jino-Sar
+		plural = Jino-Sar
+		home_planet = "Sar Sobhan"
+		home_system = "Sar Sadpur"
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	tanamal = {
+		name = Qurite
+		plural = Qurites
+		home_planet = Ta-Na-Mal
+		home_system = Ras-Moo-Jurj
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	victoryofharmony = {
+		name = Jamali
+		plural = Jamalis
+		home_planet = "Victory of Harmony"
+		home_system = "Victory of Joy"
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	krialavi = {
+		name = Krialavian
+		plural = Krialavians
+		home_planet = Krialavi
+		home_system = Duljhri
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	hubdad = {
+		name = Hubdadean
+		plural = Hubdadeans
+		home_planet = Hubdad
+		home_system = Khal-Rabat
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	makhatan = {
+		name = Makhatanish
+		plural = Makhatanish
+		home_planet = Makhatan
+		home_system = Chutriwani
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	heeri = {
+		name = Heerid
+		plural = Heerids
+		home_planet = Heeri
+		home_system = Dadlaviran
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	badkotsaba = {
+		name = Badkottian
+		plural = Badkottians
+		home_planet = "Badkot Saba"
+		home_system = "Rupa Saba"
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	zorejana = {
+		name = Zorejanese
+		plural = Zorejanese
+		home_planet = Zorejana
+		home_system = Maakhan
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	puntalreja = {
+		name = Puntali
+		plural = Puntalis
+		home_planet = Puntalreja
+		home_system = Saandhu
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	shigaro = {
+		name = Shigaroid
+		plural = Shigaroids
+		home_planet = Shigaro
+		home_system = Bachhur
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	gullarsoor = {
+		name = Gullarote
+		plural = Gullarites
+		home_planet = "Gullar Soor"
+		home_system = "Bho Sari"
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	eiddi = {
+		name = Eiddite
+		plural = Eiddites
+		home_planet = Eiddi
+		home_system = Wenazi
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	rohpopan = {
+		name = Ropopanese
+		plural = Ropopanese
+		home_planet = Roh-Popan
+		home_system = Heedi
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	alimori = {
+		name = Alimorian
+		plural = Alimorians
+		home_planet = Alimori
+		home_system = Muhaamtarwan
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	invinciblefreedom = {
+		name = Sadsoori
+		plural = Sadsooris
+		home_planet = "Invincible Freedom"
+		home_system = "Resolute Foundation"
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	dhanjh = {
+		name = Heenh
+		plural = Heenh
+		home_planet = Dhanjh
+		home_system = Sajhahratto
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	gamiran = {
+		name = Gamirani
+		plural = Gamiranis
+		home_planet = Gamiran
+		home_system = Neediqui
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	rawani = {
+		name = Rawanian
+		plural = Rawanians
+		home_planet = Rawani
+		home_system = Aqqanjo-Dadi
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	karimal = {
+		name = Karimalese
+		plural = Karimalese
+		home_planet = Karimal
+		home_system = Aasai
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	saarvech = {
+		name = Saarvechoid
+		plural = Saarvechoids
+		home_planet = Saarvech
+		home_system = Naushmoro
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	bengkhi = {
+		name = Bengkhid
+		plural = Bengkhids
+		home_planet = Bengkhi
+		home_system = Rabapurj
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	dijhalkang = {
+		name = "Bukh Saani"
+		plural = "Bukh Saani"
+		home_planet = Dijhalkang
+		home_system = Benjo-Dad
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	asookprime = {
+		name = Asookite
+		plural = Asookites
+		home_planet = "Asook Prime"
+		home_system = Asook
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+	rupahani = {
+		name = Rupahanid
+		plural = Rupahanids
+		home_planet = Rupahani
+		home_system = Khubhul
+		name_list = "cybrxkhan_fantasy_sindhi"
+	}
+}

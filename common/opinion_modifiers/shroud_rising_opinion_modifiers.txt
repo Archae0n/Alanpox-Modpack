@@ -1,0 +1,66 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+##########################################################################
+# HARD FIXED STATE - DO NOT REMOVE OR RENAME ANY OF THESE
+##########################################################################
+opinion_shared_monolith_knowledge = {
+	opinion = { base = 50 }
+	decay = { base = 0.5 }
+}
+
+opinion_withheld_monolith_knowledge = {
+	opinion = { base = -50 }
+	decay = { base = 1 }
+}
+
+opinion_sealed_eye_of_terror = {
+	opinion = { base = 100 }
+}
+
+opinion_sealed_eye_of_terror_negative = {
+	opinion = { base = -200 }
+}
+
+opinion_reopened_eye_of_terror = {
+	opinion = { base = -300 }
+}
+
+opinion_reopened_eye_of_terror_positive = {
+	opinion = { base = 150 }
+}
+
+opinion_defeated_ancient_god = {
+	opinion = { base = 75 }
+	decay = { base = 0.5 }
+}
+
+triggered_opinion_shroud_cult_personality_to_other = {
+	trigger = {
+		merg_is_default_empire = yes
+		has_civic = civic_shroud_worship
+		from = {
+			merg_is_default_empire = yes
+			NOT = { has_civic = civic_shroud_worship }
+		}
+	}
+	opinion = { base = -50 }
+}
+
+triggered_opinion_shroud_cult_personality_to_cult = {
+	trigger = {
+		merg_is_default_empire = yes
+		NOT = { has_civic = civic_shroud_worship }
+		from = { merg_is_default_empire = yes has_civic = civic_shroud_worship }
+	}
+	opinion = { base = -50 }
+}
+
+triggered_opinion_shroud_cult_personality_both = {
+	trigger = {
+		merg_is_default_empire = yes
+		has_civic = civic_shroud_worship
+		from = { merg_is_default_empire = yes has_civic = civic_shroud_worship }
+	}
+	opinion = { base = 25 }
+}

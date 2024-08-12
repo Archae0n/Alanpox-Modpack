@@ -1,0 +1,400 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	abumak = {
+		name = Abumak
+		plural = Abumak
+		home_planet = "Abumak Onba"
+		home_system = "Abumak Aytam"
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	chelber = {
+		name = Chelberan
+		plural = Chelberans
+		home_planet = Chelber
+		home_system = Batti-Sandin
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	vatul = {
+		name = Vatulan
+		plural = Vatulans
+		home_planet = "Vatul Tri-dzukni"
+		home_system = Alnur
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	mertulkhi = {
+		name = Mertulkhian
+		plural = Mertulkhians
+		home_planet = Mertulkhi
+		home_system = "Eltun Urkhad"
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	titaniumaegis = {
+		name = Asgekite
+		plural = Asgekites
+		home_planet = "Titanium Aegis"
+		home_system = "Erdju the Dread Ravager"
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	shambonor = {
+		name = Shambonor
+		plural = Shambonor
+		home_planet = Shambonor
+		home_system = Ersinvundrash 
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	khadbelk = {
+		name = Khadbelk
+		plural = Khadbelks
+		home_planet = Khadbelk
+		home_system = Tamkre 
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	khadbelk = {
+		name = Khadbelk
+		plural = Khadbelks
+		home_planet = Khadbelk
+		home_system = Tamkre 
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	khadbelk = {
+		name = Khadbelk
+		plural = Khadbelks
+		home_planet = Khadbelk
+		home_system = Tamkre 
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	dihu = {
+		name = Dihu
+		plural = Dihu
+		home_planet = Ta-Dihu
+		home_system = Ta-Gos
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	batyakza = {
+		name = Batyakzan
+		plural = Batyakzans
+		home_planet = Batyakza
+		home_system = Onhu-eltur
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	ubelgosthescourge = {
+		name = Tinturese
+		plural = Tinturese
+		home_planet = "Ubelgos the Scourge"
+		home_system = "Ayrazich the Merciless"
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	tamrigek = {
+		name = Tamrigekian
+		plural = Tamrigekians
+		home_planet = Tamrigek
+		home_system = Gosra
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	eldzuk = {
+		name = Eldzukian  
+		plural = Eldzukians
+		home_planet = "Grand Eldzuk"
+		home_system = Eldzuk
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	bitulsu = {
+		name = Bitulsuan  
+		plural = Bitulsuans
+		home_planet = Bitulsu
+		home_system = Bitulsu-Tralam
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	asvaurmun = {
+		name = Asvaurmian  
+		plural = Asvaurmians
+		home_planet = "Asva Urmun"
+		home_system = Ergekstrialec
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	rarganhu = {
+		name = Rarganhuese  
+		plural = Rarganhuese
+		home_planet = Rarganhu
+		home_system = Bervun
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	elkurlac = {
+		name = Elkurlac 
+		plural = Elkurlacese
+		home_planet = Elkurlac
+		home_system = "Edos-Tar Imer"
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	zangurnach = {
+		name = Zangurnach 
+		plural = Zangurnach
+		home_planet = Zangurnach
+		home_system = Kurlamsu
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	cherkakren = {
+		name = Ulechian 
+		plural = Ulechians
+		home_planet = "Cherka Kren"
+		home_system = Eltam-Etam
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	mersuden = {
+		name = Mersudenese 
+		plural = Mersudenese
+		home_planet = Mersuden
+		home_system = Oclypkur
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	ergiz = {
+		name = Ergizan
+		plural = Ergizans
+		home_planet = Ergiz
+		home_system = Ichelzan
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	atganbir = {
+		name = Atganbiran
+		plural = Atganbirans
+		home_planet = Atganbir
+		home_system = Lamdingi
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	emeultamthehelpful = {
+		name = khi'Rutrian
+		plural = khi'Rutrians
+		home_planet = "Eme'Ultam the Helpful"
+		home_system = "Naclyp the Maimed"
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	ilgekdilikhi = {
+		name = Tura
+		plural = Tura
+		home_planet = Ilgekdilikhi
+		home_system = Ockur
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	ocdzuk = {
+		name = Ocdzuk
+		plural = Ocdzuk
+		home_planet = Ocdzuk
+		home_system = Ilmerlac
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	urvabelk = {
+		name = Urvabelkian
+		plural = Urvabelkians
+		home_planet = Urvabelk
+		home_system = Urvabelk
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	divineeternalsentiment = {
+		name = Emekhi
+		plural = Emekhi
+		home_planet = "Divine Eternal Sentiment"
+		home_system = "Galloping Euphoria"
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	bobelprime = {
+		name = Bobelese
+		plural = Bobelese
+		home_planet = "Bobel Prime"
+		home_system = Bobel
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	adlikh = {
+		name = Adlikhite
+		plural = Adlikhites
+		home_planet = Adlikh
+		home_system = Mostidin
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	tuntulx = {
+		name = Tuntulan
+		plural = Tuntulans
+		home_planet = Tuntul
+		home_system = Elkur
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	ocbalaab = {
+		name = Ocbalan
+		plural = Ocbalans
+		home_planet = Ocbala-Ab
+		home_system = Uvund-Ab
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	shamgurgos = {
+		name = Gurgan
+		plural = Gurgans
+		home_planet = Colyp-Shamgurgos
+		home_system = Dzukbelk
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	stramak = {
+		name = Stramakese
+		plural = Stramakese
+		home_planet = Stramak
+		home_system = "Va Gizkusu"
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	goldenmemoryoflove = {
+		name = Elganian
+		plural = Elganians
+		home_planet = "Golden Memory of Love"
+		home_system = "Dancing Nostalgia"
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	coolio = {
+		name = Ilzankh
+		plural = Ilzankh
+		home_planet = "Nac Etar"
+		home_system = Urlam
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	lalambatri = {
+		name = Lambatrian
+		plural = Lambatrians
+		home_planet = Lalambatri
+		home_system = Lahuva
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	ilsuzanthecelibate = {
+		name = Giga'Cor
+		plural = Giga'Cor
+		home_planet = "Ilsuzan the Celibate"
+		home_system = "Gizankh the Lover"
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	alypnur = {
+		name = Alypnurese
+		plural = Alypnurese
+		home_planet = Alypnur
+		home_system = Cozichtam
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	gigosmerprime = {
+		name = Gigosmian
+		plural = Gigosmians
+		home_planet = "Gigosmer Prime"
+		home_system = Gigosmer
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	asvanurta = {
+		name = Asvanurtan
+		plural = Asvanurtans
+		home_planet = Asvanurta
+		home_system = Zazicher
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	idiedjula = {
+		name = Ididjak
+		plural = Ididjak
+		home_planet = Idi'Edjula
+		home_system = Edjula
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	dreamlandofmemories = {
+		name = Atlonor
+		plural = Atlonor
+		home_planet = "Dreamland of Memories"
+		home_system = "Wistful Lights"
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	bubelkunia = {
+		name = Bubelkunian
+		plural = Bubelkunians
+		home_planet = Bubelkunia
+		home_system = Ilzasan
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	tarbun = {
+		name = Tarbunoid
+		plural = Tarbunoids
+		home_planet = Tarbun
+		home_system = Aldlikh
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	bizunuvur = {
+		name = Bizunu
+		plural = Bizunus
+		home_planet = Bizunuvur
+		home_system = Ovarst
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	artasher = {
+		name = Artasherite
+		plural = Artasherites
+		home_planet = Artasher
+		home_system = Elypanvuh
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	eldela = {
+		name = Eldelan
+		plural = Eldelans
+		home_planet = Eldela
+		home_system = Tukarbi
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+	alygir = {
+		name = Alygirid
+		plural = Alygirids
+		home_planet = Alygir
+		home_system = Tunosh
+		name_list = "cybrxkhan_handmade_hunnic"
+	}
+}

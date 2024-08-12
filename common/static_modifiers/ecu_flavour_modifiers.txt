@@ -1,0 +1,215 @@
+# Crowded Spacelanes
+ef_crowded_spacelanes ={
+	trade_value_mult = -0.2
+    pop_growth_from_immigration = -0.25
+	icon = "gfx/interface/icons/planet_modifiers/ef_crowded_spacelanes.dds"
+	icon_frame = 3
+}
+
+# Vertical Sprawl
+ef_vertical_sprawl ={
+    planet_building_build_speed_mult = -0.5
+	icon = "gfx/interface/icons/planet_modifiers/ef_vertical_sprawl.dds"
+	icon_frame = 3
+}
+
+# Unstable Climate
+ef_unstable_climate ={
+	pop_environment_tolerance = -0.2
+	icon = "gfx/interface/icons/planet_modifiers/ef_unstable_climate.dds"
+	icon_frame = 3
+}
+
+# Deep Levels
+ef_deep_levels_1 ={
+	job_ef_deep_dweller_per_pop = 0.05
+	icon = "gfx/interface/icons/planet_modifiers/pm_arcology_project.dds"
+	icon_frame = 2
+}
+ef_deep_levels_2 ={
+	job_ef_deep_dweller_per_pop = 0.05
+	planet_amenities_mult= -0.1
+	icon = "gfx/interface/icons/planet_modifiers/pm_arcology_project.dds"
+	icon_frame = 2
+}
+ef_deep_levels_3 ={
+	job_ef_deep_dweller_per_pop = 0.05
+	planet_structures_upkeep_mult = 0.1
+	planet_amenities_mult= -0.15
+	icon = "gfx/interface/icons/planet_modifiers/pm_arcology_project.dds"
+	icon_frame = 2
+}
+ef_deep_levels_4 ={
+	job_ef_deep_dweller_per_pop = 0.05
+	planet_structures_upkeep_mult = 0.25
+	planet_amenities_mult= -0.20
+	icon = "gfx/interface/icons/planet_modifiers/pm_arcology_project.dds"
+	icon_frame = 2
+}
+ef_deep_levels_5 ={
+	job_ef_deep_dweller_per_pop = 0.05
+	job_ef_hive_ganger_per_pop = 0.05
+	planet_structures_upkeep_mult =0.25
+	planet_amenities_mult= -0.25
+	icon = "gfx/interface/icons/planet_modifiers/pm_arcology_project.dds"
+	icon_frame = 2
+}
+
+ef_financial_hub = {
+	trade_value_mult = 0.15
+	icon = "gfx/interface/icons/planet_modifiers/ef_financial_hub.dds"
+	icon_frame = 1
+}
+
+ef_marketplace = {
+	trade_value_mult = 0.10
+	planet_crime_mult = 0.25
+	icon = "gfx/interface/icons/planet_modifiers/ef_marketplace.dds"
+	icon_frame = 1
+}
+
+ef_glitchy_machines = {
+	trade_value_mult = -0.10
+	icon = "gfx/interface/icons/planet_modifiers/pm_synth_sabotage.dds"
+	icon_frame = 3
+}
+
+ef_ai_insight = {
+	planet_jobs_physics_research_produces_mult = 0.1
+	icon = "gfx/interface/icons/planet_modifiers/pm_engineering_research.dds"
+	icon_frame = 1
+}
+
+ef_stock_market_1 = {
+	trade_value_mult = -0.25
+	icon = gfx/interface/icons/planet_modifiers/ef_stock_market.dds
+	icon_frame = 3
+}
+
+ef_stock_market_2 = {
+	trade_value_mult = -0.1
+	icon = gfx/interface/icons/planet_modifiers/ef_stock_market.dds
+	icon_frame = 3
+}
+
+ef_stock_market_3 = {
+	icon = gfx/interface/icons/planet_modifiers/ef_stock_market.dds
+	icon_frame = 2
+}
+
+ef_stock_market_4 = {
+	trade_value_mult = 0.1
+	icon = gfx/interface/icons/planet_modifiers/ef_stock_market.dds
+	icon_frame = 1
+}
+
+ef_stock_market_5 = {
+	trade_value_mult = 0.25
+	icon = gfx/interface/icons/planet_modifiers/ef_stock_market.dds
+	icon_frame = 1
+}
+
+ef_embedded_corruption = {
+	trade_value_mult = -0.1
+	planet_crime_add = 10
+	icon = gfx/interface/icons/planet_modifiers/pm_stellar_culture_shock.dds
+	icon_frame = 3
+}
+
+ef_corrupt_collusion = {
+	trade_value_mult = -0.2
+	planet_crime_add = 30
+	job_criminal_per_crime = 0.05
+	icon = gfx/interface/icons/planet_modifiers/pm_stellar_culture_shock.dds
+	icon_frame = 2
+}
+
+ef_labour_disputes = {
+	planet_jobs_worker_produces_mult = -0.25
+	planet_jobs_specialist_produces_mult = -0.1
+	icon = gfx/interface/icons/planet_modifiers/pm_slave_riots.dds
+	icon_frame = 2
+}
+
+ef_robust_law_enforcement = {
+	trade_value_mult = 0.1
+	planet_crime_add = -10
+	icon = gfx/interface/icons/planet_modifiers/pm_default.dds
+	icon_frame = 1
+}
+
+ef_financial_chaos = {
+	trade_value_mult = -0.1
+	planet_stability_add = -5
+	icon = gfx/interface/icons/planet_modifiers/ef_stock_market.dds
+	icon_frame = 3
+}
+
+ef_corporate_monopoly = {
+	trade_value_mult = 0.15
+	pop_happiness = -0.10
+	icon = gfx/interface/icons/planet_modifiers/ef_inequality.dds
+	icon_frame = 2
+}
+
+ef_rebuilding = {
+	planet_building_build_speed_mult = 0.1
+	planet_jobs_produces_mult = -0.05
+	icon = gfx/interface/icons/planet_modifiers/pm_resources.dds
+	icon_frame = 2
+}
+
+ef_shattered_economy = {
+	planet_stability_add = -10
+	planet_jobs_produces_mult = -0.1
+	icon = gfx/interface/icons/planet_modifiers/pm_resources.dds
+	icon_frame = 3
+}
+
+ef_economic_boom = {
+	trade_value_mult = 0.15
+	planet_jobs_produces_mult = 0.05
+	icon = gfx/interface/icons/planet_modifiers/ef_shipping_hub.dds
+	icon_frame = 1
+}
+
+ef_polluted_forge_world = {
+	pop_environment_tolerance = -0.5
+	planet_jobs_alloys_produces_mult = 0.4
+	planet_jobs_consumer_goods_produces_mult = 0.4
+	pop_happiness = -0.25
+	pop_growth_speed = -0.25
+	icon = gfx/interface/icons/planet_modifiers/pm_irradiated.dds
+	icon_frame = 2
+}
+
+ef_orbital_waste_disposal = {
+	icon = gfx/interface/icons/planet_modifiers/pm_trash_rings.dds
+	icon_frame = 2
+}
+
+ef_playground_of_the_elite = {
+	planet_jobs_unity_produces_mult = 0.1
+	trade_value_mult = 0.1
+	icon = gfx/interface/icons/planet_modifiers/pm_museum.dds
+	icon_frame = 1
+}
+
+ef_luxury_goods_exports = {
+	trade_value_mult = 0.1
+	diplo_weight_mult = 0.05
+	icon = gfx/interface/icons/planet_modifiers/pm_resources.dds
+	icon_frame = 1
+}
+
+ef_space_hollywood = {
+	planet_culture_workers_produces_mult = 0.15
+	job_culture_worker_per_pop = 0.05
+	icon = gfx/interface/icons/planet_modifiers/pm_minor_artifact_decision.dds
+	icon_frame = 1
+}
+
+# Country modifier
+ef_galactic_centre_of_diplomacy = {
+	diplo_weight_mult = 0.15
+}

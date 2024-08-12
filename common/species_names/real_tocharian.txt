@@ -1,0 +1,333 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	ridhasena = {
+		name = Ridhasenan
+		plural = Ridhasenans
+		home_planet = Ridhasena
+		home_system = Ridhasena
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	kalyanawartane = {
+		name = Kalyanawartane
+		plural = Kalyanawartaneans
+		home_planet = Kalyanawartane
+		home_system = Kalyanawartane
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	sagimoya = {
+		name = Sagimoyan
+		plural = Sagimoyans
+		home_planet = Asokaraksite
+		home_system = Jnanakupte
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	kalyigeya = {
+		name = Kalyigeya
+		plural = Kalyigeyi
+		home_planet = Kusulaka-Kutre
+		home_system = Kusulaka-Cramaena
+		name_list = "cybrxkhan_real_tocharian"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	saluveta = {
+		name = Saluvetan
+		plural = Saluvetans
+		home_planet = Saluveta
+		home_system = Saluveta 
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	yudhatiniya = {
+		name = Yudhatinese
+		plural = Yudhatinese
+		home_planet = Yudhatiniya
+		home_system = Srana 
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	pusdhinamcika = {
+		name = Camasu
+		plural = Camasu
+		home_planet = Pusdhinamcika
+		home_system = Sugiyanicgoae 
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	tiluvara = {
+		name = Tiluvaran
+		plural = Tiluvarans
+		home_planet = Tiluvara
+		home_system = Sriya 
+		name_list = "cybrxkhan_real_tocharian"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	mukalanti = {
+		name = Mukalanti
+		plural = Mukalanti
+		home_planet = Pgeca-Pgi
+		home_system = Pgi-saca-katge-khara 
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	vugaca = {
+		name = Vugacan
+		plural = Vugacans
+		home_planet = Vugaca
+		home_system = Vugaca 
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	stalwartlance = {
+		name = Vyakan
+		plural = Vyakans
+		home_planet = "Stalwart Lance"
+		home_system = "Iridescent Willpower" 
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	purnamto = {
+		name = Purnamtian
+		plural = Purnamtians
+		home_planet = Purnamto
+		home_system = Vugnugi
+		name_list = "cybrxkhan_real_tocharian"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	vaisravane = {
+		name = Vaisravane  
+		plural = Vaisravane
+		home_planet = Bushibi
+		home_system = Pite
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	nyagrodhe = {
+		name = Nyagrodhian  
+		plural = Nyagrodhians
+		home_planet = Nyagrodhe
+		home_system = Nyagrodhe
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	kanasaga = {
+		name = Kanasagan  
+		plural = Kanasagans
+		home_planet = Kanasaga
+		home_system = Kanasaga
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	wandofritual = {
+		name = Vutrakian  
+		plural = Vutrakians
+		home_planet = "Wand of Ritual"
+		home_system = "Wand of Power"
+		name_list = "cybrxkhan_real_tocharian"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	pakvaya = {
+		name = Pakvayan  
+		plural = Pakvayans
+		home_planet = Pakvaya
+		home_system = Pakvaya
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	wrauske = {
+		name = Wrauskian  
+		plural = Wrauskians
+		home_planet = Wrauske
+		home_system = Ekasrinke
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	kriti = {
+		name = Kritian
+		plural = Kritians
+		home_planet = Kriti
+		home_system = Larishka
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	svadhars = {
+		name = Pru
+		plural = Pru
+		home_planet = Svadhars
+		home_system = Acuii
+		name_list = "cybrxkhan_real_tocharian"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	purnnyabala = {
+		name = Purnnyabalan
+		plural = Purnnyabalans
+		home_planet = Purnnyabala
+		home_system = Kacana-Camca
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	shieldofshadows = {
+		name = Kulayan
+		plural = Kulayans
+		home_planet = "Shield of Shadows"
+		home_system = "Face of Embers"
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	suracga = {
+		name = Suracgian
+		plural = Suracgians
+		home_planet = Suracga
+		home_system = Vamcamniga
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	rohaksena = {
+		name = Rohaksenese
+		plural = Rohaksenese
+		home_planet = Rohaksena
+		home_system = Tamluvala
+		name_list = "cybrxkhan_real_tocharian"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	pumfi = {
+		name = Pumfite
+		plural = Pumfites
+		home_planet = Pumfijaya
+		home_system = Dayijaya
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	sadarmaja = {
+		name = Sadarmajan
+		plural = Sadarmajans
+		home_planet = Sadarmaja
+		home_system = Lyicimna
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	cikgataya = {
+		name = Apeyae
+		plural = Apeyae
+		home_planet = Cikgataya
+		home_system = "Mitu Svaka"
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	valetombofsvirmata = {
+		name = Paniya-Jaya
+		plural = Paniya-Jaya
+		home_planet = "Vale-Tomb of Suvirmata"
+		home_system = "Kayaniyae the Dark Titan"
+		name_list = "cybrxkhan_real_tocharian"
+	}
+}
+
+
+### HUMANOIDS
+
+HUM = {
+	sarntala = {
+		name = Sarntalan
+		plural = Sarntalans
+		home_planet = "Jnana Sarntala"
+		home_system = Nammitra
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	budhajaya = {
+		name = Jayan
+		plural = Jayans
+		home_planet = Budha-Jaya
+		home_system = Budha-Geya
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	asotika = {
+		name = Asotikan
+		plural = Asotikans
+		home_planet = Asotika
+		home_system = "Ajisena Wrausava"
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	tiraphises = {
+		name = Tiraphian
+		plural = Tiraphians
+		home_planet = Tiraphises
+		home_system = Uttayi
+		name_list = "cybrxkhan_real_tocharian"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	ramitu = {
+		name = Rohamgae
+		plural = Rohamgae
+		home_planet = Ramitu
+		home_system = Kuryaramo
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	sagila = {
+		name = Sagilaean
+		plural = Sagilaeans
+		home_planet = Sagila
+		home_system = Ramcitra
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	ramkva = {
+		name = Pisaya
+		plural = Pisayas
+		home_planet = Ramkva
+		home_system = "Para Salayae"
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	cadarata = {
+		name = Cadaratan
+		plural = Cadaratans
+		home_planet = Cadarata
+		home_system = Rohra
+		name_list = "cybrxkhan_real_tocharian"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	bharuve = {
+		name = Bharuvid
+		plural = Bharuvids
+		home_planet = Bharuve
+		home_system = Cinayae
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	vukaacunga = {
+		name = Parovan
+		plural = Parovans
+		home_planet = "Vuka Acunga"
+		home_system = "Vuka Codisa"
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	samoya = {
+		name = Samoyite
+		plural = Samoyites
+		home_planet = Samoya
+		home_system = Bimitranae
+		name_list = "cybrxkhan_real_tocharian"
+	}
+	vanaga = {
+		name = Vanagoid
+		plural = Vanagoids
+		home_planet = Vanaga
+		home_system = Ramcgo
+		name_list = "cybrxkhan_real_tocharian"
+	}
+}

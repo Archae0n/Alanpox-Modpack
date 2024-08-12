@@ -1,0 +1,145 @@
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_catalytic_empire = no
+			is_bugged_war_cult = no # Bug Branch
+		}
+	}
+	modifier = {
+		job_foundry_add = $AMOUNT$
+	}
+}
+
+triggered_desc = {
+	trigger = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_catalytic_empire = no
+			is_bugged_war_cult = no # Bug Branch
+		}
+	}
+	text = job_foundry_effect_desc
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_catalytic_empire = yes
+		}
+	}
+	modifier = {
+		job_catalytic_technician_add = $AMOUNT$
+	}
+}
+
+triggered_desc = {
+	trigger = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_catalytic_empire = yes
+		}
+	}
+	text = job_catalytic_technician_effect_desc
+}
+
+triggered_planet_modifier = { # Bug Branch
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_bugged_war_cult = yes
+		}
+	}
+	modifier = {
+		job_bugged_war_forger_add = $AMOUNT$
+	}
+}
+
+triggered_desc = { # Bug Branch
+	trigger = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_bugged_war_cult = yes
+		}
+	}
+	text = job_bugged_war_forger_effect_desc
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+			is_catalytic_empire = no
+		}
+	}
+	modifier = {
+		job_alloy_drone_add = $AMOUNT$
+	}
+}
+
+triggered_desc = {
+	trigger = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+			is_catalytic_empire = no
+		}
+	}
+	text = job_alloy_drone_effect_desc
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+			is_catalytic_empire = no
+		}
+	}
+	modifier = {
+		job_fabricator_add = $AMOUNT$
+	}
+}
+
+triggered_desc = {
+	trigger = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+			is_catalytic_empire = no
+		}
+	}
+	text = job_fabricator_effect_desc
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			is_catalytic_empire = yes
+		}
+	}
+	modifier = {
+		job_catalytic_drone_add = $AMOUNT$
+	}
+}
+
+triggered_desc = {
+	trigger = {
+		exists = owner
+		owner = {
+			is_gestalt = yes
+			is_catalytic_empire = yes
+		}
+	}
+	text = job_catalytic_drone_effect_desc
+}

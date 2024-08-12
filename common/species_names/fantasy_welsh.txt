@@ -1,0 +1,397 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	flonel = {
+		name = Flonelan
+		plural = Flonelans
+		home_planet = "Flonel Herch"
+		home_system = Perigan
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	eliwain = {
+		name = Eliwainian
+		plural = Eliwanians
+		home_planet = "Eliwain Cuwel"
+		home_system = "Olwerd Cuwel"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	landdydd = {
+		name = Landdydd
+		plural = Landdydd
+		home_planet = "Culle Eimrei"
+		home_system = Lauld
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	niarona = {
+		name = Niaronan
+		plural = Niaronans
+		home_planet = Niarona
+		home_system = Lyndelyn
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	cudwyr = {
+		name = Cudwyr
+		plural = Cudwyr
+		home_planet = Augulin
+		home_system = Eiloena
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	erdred = {
+		name = Erdredan
+		plural = Erdredans
+		home_planet = Erdred
+		home_system = "Florvudd Elian" 
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	gwyriath = {
+		name = Gwyriathian
+		plural = Gwyriathian
+		home_planet = Gwyriath
+		home_system = Belangaine 
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	bellane = {
+		name = Bellanian
+		plural = Bellanians
+		home_planet = Bellane
+		home_system = Condwis 
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	blaidtaenntheliferestorer = {
+		name = Carionan
+		plural = Carionans
+		home_planet = "Blaid Taenn the Life-Restorer"
+		home_system = "Gelleon the Night-Vanquisher" 
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	lluannan = {
+		name = Lluannan
+		plural = Lluannan
+		home_planet = Gwemour
+		home_system = Lamodderch
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	caerlarguddprime = {
+		name = Caerr
+		plural = Caerr
+		home_planet = "Caerlargudd Prime"
+		home_system = Caerlargudd
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	mellowengaderi = {
+		name = Llairoid
+		plural = Llairoids
+		home_planet = "Mel Lowengaderi"
+		home_system = "Mel Rhyiene"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	gwelt = {
+		name = Gweltish
+		plural = Gweltish
+		home_planet = Gwelt
+		home_system = Howenwen
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	amerryn = {
+		name = Amerryn  
+		plural = Amerryn
+		home_planet = Oldwywr
+		home_system = "Mordog Maedur"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	pyrserell = {
+		name = Pyrserell  
+		plural = Pyrserell
+		home_planet = Gwyste
+		home_system = Blallean
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	rightlyguidedpalm = {
+		name = Modgedian  
+		plural = Modgedians
+		home_planet = "Rightly-Guided Palm"
+		home_system = "Fortress Peliynla"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	pyrhenoc = {
+		name = Pyrhenic  
+		plural = Pyrhenic
+		home_planet = Pyrhenoc
+		home_system = Coltere
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	guidamor = {
+		name = Guidamoran 
+		plural = Guidamorans
+		home_planet = "Guidamor Sille"
+		home_system = Yseuse
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	arann = {
+		name = Arann 
+		plural = Arann
+		home_planet = Galanfal
+		home_system = "Glawys Angyn"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	clawsofdalmann = {
+		name = Dalmannite 
+		plural = Dalmannites
+		home_planet = "Claws of Dalmann"
+		home_system = "Wings of Pemreu"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	nailbrawd = {
+		name = Nialbrian 
+		plural = Nialbrians
+		home_planet = "Nial Brawd"
+		home_system = "Pene Angois"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	rhyerdin = {
+		name = Rhyerdinian
+		plural = Rhyerdians
+		home_planet = Rhyerdin
+		home_system = Clarawd
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	clavar = {
+		name = Clavar
+		plural = Clavari
+		home_planet = Tenwen
+		home_system = Gynelleas
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	maredwelsh = {
+		name = Maredoid
+		plural = Maredoids
+		home_planet = Mared
+		home_system = "Gan Caerynn"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	llyweth = {
+		name = Llywethian
+		plural = Llywethians
+		home_planet = Llyweth
+		home_system = Gann'Artin
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	rhoell = {
+		name = Rhoellese
+		plural = Rhoellese
+		home_planet = Rhoell
+		home_system = Goleuvannon
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	gwera = {
+		name = Gweran
+		plural = Gwerans
+		home_planet = Gwera
+		home_system = "Glynrick elb Cedlas"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	eheudric = {
+		name = Dricid
+		plural = Dricids
+		home_planet = Eheudric
+		home_system = Eheudric
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	pasaythan = {
+		name = Pasathian
+		plural = Pasathians
+		home_planet = Pas'Aythan
+		home_system = Colgraflell
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	shadowedclock = {
+		name = Gwengantid
+		plural = Gwengantids
+		home_planet = "Shadowed Clock"
+		home_system = "Frozen Time"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	bismern = {
+		name = Bismernite
+		plural = Bismernites
+		home_planet = Bismern
+		home_system = "Tarth Unirenn"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	beawg = {
+		name = Beawg
+		plural = Beawg
+		home_planet = Beawg
+		home_system = Adenawdwr
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	greidfael = {
+		name = Greidian
+		plural = Greidians
+		home_planet = "Eien Greidfael"
+		home_system = "Eien Tristenhin"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	lavance = {
+		name = Lavancish
+		plural = Lavancish
+		home_planet = "Peres s'Lavance"
+		home_system = "Peres s'Pelligan"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	elyanna = {
+		name = Elyannan
+		plural = Elyannans
+		home_planet = Elyanna
+		home_system = Bleonna
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	elyanna = {
+		name = "Crymwy Landedd"
+		plural = "Crymwy Landedd"
+		home_planet = "Jeweled Corpse"
+		home_system = "Soul of the Universe"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	tallwinviloch = {
+		name = Mertantean
+		plural = Mertanteans
+		home_planet = "Tall win Viloch"
+		home_system = "Flod wyn Ettados"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	heridwydde = {
+		name = Heridwyddian
+		plural = Heridwyddians
+		home_planet = Heridwydde
+		home_system = Goraibred
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	marennthepleasing = {
+		name = Ilwch
+		plural = Ilwch
+		home_planet = "Marenn the Pleasing"
+		home_system = "Gaellade the Lustruous"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	teideverprime = {
+		name = Teideverese
+		plural = Teideverese
+		home_planet = "Teidever Prime"
+		home_system = Teidever
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	aythoren = {
+		name = Aythorenian
+		plural = Aythorenians
+		home_planet = Aythoren
+		home_system = Aralmos
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	belagueresseat = {
+		name = Belaguese
+		plural = Belaguese
+		home_planet = "Belaguere's Seat"
+		home_system = "Belaguere's Crown"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	dallnerene = {
+		name = Nerenite
+		plural = Nerenites
+		home_planet = "Dall Nerene"
+		home_system = Argafire
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	eiliynna = {
+		name = Eiliynnian
+		plural = Eiliynnians
+		home_planet = Eiliynna
+		home_system = Phewas
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	eyele = {
+		name = Eyelese
+		plural = Eyelese
+		home_planet = Eyele
+		home_system = Gargoelwed
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	blagwinsvant = {
+		name = Angainid
+		plural = Angainids
+		home_planet = "Bla Gwins Vant"
+		home_system = "Bram Llynn"
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	ewilyn = {
+		name = Ewilynian
+		plural = Ewilynians
+		home_planet = Ewilyn
+		home_system = Dydyondor
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+	floien = {
+		name = Kelisite
+		plural = Kelisites
+		home_planet = Floien
+		home_system = Mallevallan
+		name_list = "cybrxkhan_fantasy_welsh"
+	}
+}

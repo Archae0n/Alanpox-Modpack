@@ -1,0 +1,172 @@
+##########################################################################
+# Empire Policies
+#
+# #####
+#
+# AI:
+# Base AI-weight is 100, if unchanged
+# AI will grab whatever policy-option has the highest weight
+#
+# #####
+#
+##########################################################################
+
+war_doctrine = {
+	potential = {
+		OR = {
+			AND = {
+				is_country_type = default
+				has_tradition = tr_supremacy_finish
+			}
+			is_country_type = enclave_mercenary
+		}
+	}
+
+	option = {
+		name = "defense_in_depth_doctrine"
+
+		policy_flags = {}
+		modifier = {
+			ship_home_territory_fire_rate_mult = 0.10
+		}
+
+		AI_weight = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "hit_and_run_doctrine"
+
+		policy_flags = {}
+		modifier = {
+			ship_disengage_opportunities_add = 2
+			ship_disengage_chance_mult = 0.33
+			ship_emergency_ftl_mult = -0.25
+		}
+
+		AI_weight = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOR = {
+					has_ethic = ethic_pacifist
+					has_ethic = ethic_fanatic_pacifist
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "MWD_siege_doctrine"
+
+		policy_flags = {}
+		modifier = {
+			ship_orbital_bombardment_mult = 0.25
+			ship_damage_against_starbases_mult = 0.2
+		}
+
+		AI_weight = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = "MWD_repair_doctrine"
+
+		policy_flags = {}
+		modifier = {
+			ship_hull_regen_add_perc = 0.01
+			ship_armor_regen_add_perc = 0.005
+		}
+
+		AI_weight = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_ai_personality = ruthless_capitalists
+			}
+		}
+	}
+	
+	option = {
+		name = "MWD_ambush_doctrine"
+
+		valid = {
+			has_technology = tech_cloaking_1
+		}
+
+		policy_flags = {}
+		modifier = {
+			ship_cloaking_strength_add = 2
+		}
+
+		AI_weight = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = "MWD_replacement_doctrine"
+
+		policy_flags = {}
+		modifier = {
+			starbase_shipyard_build_speed_mult = 0.25
+		}
+
+		AI_weight = {
+			factor = 5
+		}
+	}
+	
+	option = {
+		name = "rapid_deployment_doctrine"
+
+		policy_flags = {}
+		modifier = {
+			ship_speed_mult = 0.25
+			ship_weapon_range_mult = 0.10
+		}
+
+		AI_weight = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_country_type = enclave_mercenary
+			}
+		}
+	}
+	
+	
+
+	option = {
+		name = "no_retreat_doctrine"
+
+		valid = {
+			OR = {
+				has_ethic = ethic_militarist
+				has_ethic = ethic_fanatic_militarist
+				has_ethic = ethic_gestalt_consciousness
+				has_civic = civic_fanatic_purifiers
+			}
+		}
+
+		policy_flags = {}
+		modifier = {
+			ship_disengage_chance_reduction = 1
+			ship_emergency_ftl_min_days_mult = 0.5
+			ship_fire_rate_mult = 0.33
+		}
+
+		AI_weight = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOR = {
+					has_ai_personality = honorbound_warriors
+					has_ai_personality = devouring_swarm
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1033 @@
+### CANS EXTRA NECROIDS
+
+NECROID = {
+	brichley = {
+		name = Brich
+		plural = Briches
+		home_planet = Brichley
+		home_system = Cherham
+		name_list = "NECROID1"
+	}
+	louttonprime = {
+		name = Lout
+		plural = Louts
+		home_planet = "Loutton Prime"
+		home_system = Loutton
+		name_list = "NECROID1"
+	}
+	apenbree = {
+		name = Apen'Brek
+		plural = Apen'Brek
+		home_planet = Apenbree
+		home_system = "Paton Enster"
+		name_list = "NECROID1"
+	}
+	eadnehagham = {
+		name = Haghite
+		plural = Haghites
+		home_planet = "Eadne Hagham"
+		home_system = Bulwelsham
+		name_list = "NECROID1"
+	}
+	uxbridne = {
+		name = Uxbrian
+		plural = Uxbrians
+		home_planet = Uxbridne
+		home_system = Dalmerley
+		name_list = "NECROID1"
+	}
+	poolby = {
+		name = Po'o-La
+		plural = Po'o-La
+		home_planet = Poolby
+		home_system = Frixhalton
+		name_list = "NECROID1"
+	}
+	borslow = {
+		name = Borsloweian
+		plural = Borsloweians
+		home_planet = Borslow
+		home_system = Farronbury
+		name_list = "NECROID1"
+	}
+	colnwilllow = {
+		name = Reen
+		plural = Reens
+		home_planet = "Colnwill Low"
+		home_system = "Colnwill High"
+		name_list = "NECROID1"
+	}
+	worsley = {
+		name = Wandonese
+		plural = Wandonese
+		home_planet = Worsley
+		home_system = Sworsley
+		name_list = "NECROID1"
+	}
+	parston = {
+		name = Paristite
+		plural = Paristites
+		home_planet = Parston
+		home_system = Burnewstock
+		name_list = "NECROID1"
+	}
+	feadfordprime = {
+		name = Feadish
+		plural = Feadish
+		home_planet = "Feadford Prime"
+		home_system = Feadford
+		name_list = "NECROID1"
+	}
+	norming = {
+		name = "Fill Normian"
+		plural = "Fill Normians"
+		home_planet = Norming
+		home_system = Alvence
+		name_list = "NECROID1"
+	}
+	coleforbant = {
+		name = Grood-Barant
+		plural = Grood-Barants
+		home_planet = "Colefor Bant"
+		home_system = "Colefor Grood"
+		name_list = "NECROID1"
+	}
+	barthwoolces = {
+		name = Hirketh
+		plural = Hirketh
+		home_planet = Barthwoolces
+		home_system = Wicham
+		name_list = "NECROID1"
+	}
+	tingtocham = {
+		name = Tingtoan
+		plural = Tingtoans
+		home_planet = Tingtocham
+		home_system = Mouthwel
+		name_list = "NECROID1"
+	}
+	hoemand = {
+		name = Hoemian
+		plural = Hoemians
+		home_planet = Hoemand
+		home_system = Teham
+		name_list = "NECROID1"
+	}
+	emokh = {
+		name = Raptek
+		plural = Rapteks
+		home_planet = Emokh
+		home_system = Omut
+		name_list = "NECROID2"
+	}
+	khetamusis = {
+		name = Akut
+		plural = Akut
+		home_planet = Khet'Amusis
+		home_system = Khet'Ynon
+		name_list = "NECROID2"
+	}
+	mekynotetprime = {
+		name = Mekteth
+		plural = Mekteth
+		home_planet = "Mek'Ynotet Prime"
+		home_system = Mek'Ynotet
+		name_list = "NECROID2"
+	}
+	bhetmhunhet = {
+		name = Mhunese
+		plural = Mhunese
+		home_planet = Bhet'Mhun-Het
+		home_system = Bhet'Rapek
+		name_list = "NECROID2"
+	}
+	thethinateri = {
+		name = Ith'Obenkh
+		plural = Ith'Obenkh
+		home_planet = Theth'Inateri
+		home_system = Sobitept'Ubath
+		name_list = "NECROID2"
+	}
+	japanek = {
+		name = Netetite
+		plural = Netetites
+		home_planet = Jap'anek
+		home_system = Jap'etethet
+		name_list = "NECROID2"
+	}
+	behtmek = {
+		name = Tep
+		plural = Teps
+		home_planet = Beht'mek
+		home_system = Beht'obes
+		name_list = "NECROID2"
+	}
+	nethetubat = {
+		name = Thetthese
+		plural = Thetthese
+		home_planet = Nethet'Ubat
+		home_system = Etetreth
+		name_list = "NECROID2"
+	}
+	amokobebis = {
+		name = Amit
+		plural = Amit
+		home_planet = Amok'obebis
+		home_system = Emapek'ukop
+		name_list = "NECROID2"
+	}
+	pothdunut = {
+		name = Kheth
+		plural = Kheth
+		home_planet = Poth-Dunut
+		home_system = "Nek Mukhep"
+		name_list = "NECROID2"
+	}
+	ometteth = {
+		name = Mettian
+		plural = Mettians
+		home_planet = Omet'Teth
+		home_system = Omet'Noht
+		name_list = "NECROID2"
+	}
+	bhetmhunhet = {
+		name = Mhunese
+		plural = Mhunese
+		home_planet = Bhet
+		home_system = Bhet
+		name_list = "NECROID2"
+	}
+	amuthubathoph = {
+		name = Erethekoid
+		plural = Erethekoids
+		home_planet = Amuth'Ubathoph
+		home_system = Amun-Etes
+		name_list = "NECROID2"
+	}
+	tathtetebis = {
+		name = Nikhekothethet
+		plural = Nikhekothethet
+		home_planet = Tath'Tetebis
+		home_system = Tath'Bhekop
+		name_list = "NECROID2"
+	}
+	eterinetekti = {
+		name = Akupoid
+		plural = Akupoids
+		home_planet = Eteri'Netekti
+		home_system = Eteri'Bastop
+		name_list = "NECROID2"
+	}
+	nisbhet = {
+		name = Nakhakoppian
+		plural = Nakhakoppians
+		home_planet = Nis'Bhet
+		home_system = Nis'Anubet
+		name_list = "NECROID2"
+	}
+	uquizelu = {
+		name = Uquizelan
+		plural = Uquizelans
+		home_planet = Uquizelu
+		home_system = Uquizelu
+		name_list = "NECROID3"
+	}
+	tecumascurse = {
+		name = "Loctuh Relu"
+		plural = "Loctuh Relu"
+		home_planet = "Tecuma's Curse"
+		home_system = "Zuico's Tomb"
+		name_list = "NECROID3"
+	}
+	jucotl = {
+		name = Zuetl
+		plural = Zuetl
+		home_planet = Jucotl
+		home_system = Uximeqcuentoc
+		name_list = "NECROID3"
+	}
+	zpena = {
+		name = Zpe'Tehanese
+		plural = Zpe'Tehanese
+		home_planet = Zpena
+		home_system = Nectoz
+		name_list = "NECROID3"
+	}
+	cotloctiah = {
+		name = Cotlocti
+		plural = Cotlocti
+		home_planet = Cotloctiah
+		home_system = Zenquetzi
+		name_list = "NECROID3"
+	}
+	qemauquelea = {
+		name = Teclotl
+		plural = Teclotl
+		home_planet = "Qema Uquelea"
+		home_system = Cuantlaca
+		name_list = "NECROID3"
+	}
+	qatlasheart = {
+		name = Guatl
+		plural = Guatl
+		home_planet = "Qatla's Heart"
+		home_system = "Qatla's Blood"
+		name_list = "NECROID3"
+	}
+	azuma = {
+		name = Azum
+		plural = Azums
+		home_planet = Azuma
+		home_system = Xauctl
+		name_list = "NECROID3"
+	}
+	cochtlaprime = {
+		name = Cochtli
+		plural = Cochtli
+		home_planet = "Cochtla Prime"
+		home_system = Cochtla
+		name_list = "NECROID3"
+	}
+	yactlezocten = {
+		name = Yazemean
+		plural = Yazemeans
+		home_planet = Yactle'Zocten
+		home_system = Zoctenzemesact
+		name_list = "NECROID3"
+	}
+	bemactiluxi = {
+		name = Bemaian
+		plural = Bemaians
+		home_planet = Bemactiluxi
+		home_system = Cacticotua
+		name_list = "NECROID3"
+	}
+	loquixi = {
+		name = Xuenoc
+		plural = Xuenoc
+		home_planet = Loquixi
+		home_system = Szimule
+		name_list = "NECROID3"
+	}
+	cocalotla = {
+		name = Cocalan
+		plural = Cocalans
+		home_planet = Cocalotla
+		home_system = Gmoxatl
+		name_list = "NECROID3"
+	}
+	yizemeclo = {
+		name = Yizemid
+		plural = Yizemids
+		home_planet = Yizemeclo
+		home_system = Xizmodoc
+		name_list = "NECROID3"
+	}
+	pintlismajesty = {
+		name = "Quatl-Zazi Pintli"
+		plural = "Quatl-Zazi Pintli"
+		home_planet = "Pintli's Majesty"
+		home_system = "Pintli's Wrath"
+		name_list = "NECROID3"
+	}
+	xizecaquaztl = {
+		name = Xizecetl
+		plural = Xizecetl
+		home_planet = Xizecaqaztl
+		home_system = Tiuahuteclea
+		name_list = "NECROID3"
+	}
+	sarden = {
+		name = Sardenid
+		plural = Sardenids
+		home_planet = Sarden
+		home_system = Kordenn
+		name_list = "NECROID4"
+	}
+	whisperingabyss = {
+		name = Sarsenne
+		plural = Sarsenne
+		home_planet = "Whispering Abyss"
+		home_system = Bleakvoid
+		name_list = "NECROID4"
+	}
+	jharmonn = {
+		name = Jharr
+		plural = Jharr
+		home_planet = Jharmonn
+		home_system = Squarsen
+		name_list = "NECROID4"
+	}
+	toncordia = {
+		name = Toncoran
+		plural = Toncorans
+		home_planet = Ton-Cordia
+		home_system = Ostin
+		name_list = "NECROID4"
+	}
+	nightbloom = {
+		name = Sarthiton
+		plural = Sarthitons
+		home_planet = Nightbloom
+		home_system = "Sacred Tower"
+		name_list = "NECROID4"
+	}
+	deathscream = {
+		name = Sten'Dafen
+		plural = Sten'Dafen
+		home_planet = Deathscream
+		home_system = "Ivory Grasp"
+		name_list = "NECROID4"
+	}
+	yatehc = {
+		name = Simen
+		plural = Simens
+		home_planet = Yateh'c
+		home_system = Osteh'c
+		name_list = "NECROID4"
+	}
+	bustirthedoomed = {
+		name = Yatenese
+		plural = Yatenese
+		home_planet = "Bustir the Doomed"
+		home_system = "Welfyn the Proud"
+		name_list = "NECROID4"
+	}
+	sarden = {
+		name = Sardenid
+		plural = Sardenids
+		home_planet = Sarden
+		home_system = Kordenn
+		name_list = "NECROID4"
+	}
+	chardia = {
+		name = "Miche Chardian"
+		plural = "Miche Chardians"
+		home_planet = Chardia
+		home_system = Canzen
+		name_list = "NECROID4"
+	}
+	dimmingflare = {
+		name = Pethean
+		plural = Petheans
+		home_planet = "Dimming Flare"
+		home_system = "Shadow Nexus"
+		name_list = "NECROID4"
+	}
+	mandenvlakton = {
+		name = Vlakka
+		plural = Vlakkas
+		home_planet = "Manden Vlakton"
+		home_system = "Boron Vlaklon"
+		name_list = "NECROID4"
+	}
+	monpersenne = {
+		name = Persenoid
+		plural = Persenoids
+		home_planet = "Mon Persenne"
+		home_system = "Mon Landmer"
+		name_list = "NECROID4"
+	}
+	sarden = {
+		name = Rhosenian
+		plural = Rhosenians
+		home_planet = "Howling Sea"
+		home_system = "Hollow Hunger"
+		name_list = "NECROID4"
+	}
+	michenntheeverdying = {
+		name = Vin'Mon
+		plural = Vin'Mon
+		home_planet = "Michenn the Ever-Dying"
+		home_system = "Vlammordin the Reaper"
+		name_list = "NECROID4"
+	}
+	amatenprime = {
+		name = Amatenish
+		plural = Amatenish
+		home_planet = "Amaten Prime"
+		home_system = Amaten
+		name_list = "NECROID4"
+	}
+	bathorley = {
+		name = Bathorleian
+		plural = Bathorleians
+		home_planet = Bathorley
+		home_system = Joacullins
+		name_list = "NECROID5"
+	}
+	sannolecove = {
+		name = Sannolian
+		plural = Sannolians
+		home_planet = "Sannole Cove"
+		home_system = "Flyncase Fortress"
+		name_list = "NECROID5"
+	}
+	howeme = {
+		name = Lutt
+		plural = Lutts
+		home_planet = Howeme
+		home_system = Cortfit
+		name_list = "NECROID5"
+	}
+	berthaver = {
+		name = Berthaveran
+		plural = Berthaverans
+		home_planet = Berthaver
+		home_system = Patfidge
+		name_list = "NECROID5"
+	}
+	barrotten = {
+		name = Barrottenese
+		plural = Barrottenese
+		home_planet = Barrotten
+		home_system = Ampton
+		name_list = "NECROID5"
+	}
+	jacyney = {
+		name = Gorn
+		plural = Gorn
+		home_planet = Jacyney
+		home_system = "Holyn Manecall"
+		name_list = "NECROID5"
+	}
+	edmax = {
+		name = Edmaxian
+		plural = Edmaxians
+		home_planet = Edmax
+		home_system = Jancheld
+		name_list = "NECROID5"
+	}
+	swilton = {
+		name = Swiltonese
+		plural = Swiltonese
+		home_planet = Swilton
+		home_system = Patthremood
+		name_list = "NECROID5"
+	}
+	glistoft = {
+		name = Alving
+		plural = Alvings
+		home_planet = Glistoft
+		home_system = Flockwood
+		name_list = "NECROID5"
+	}
+	blexleyprime = {
+		name = Blexlite
+		plural = Blexlites
+		home_planet = "Blexley Prime"
+		home_system = Blexley
+		name_list = "NECROID5"
+	}
+	judrane = {
+		name = Aplewmack
+		plural = Aplewmacks
+		home_planet = Judrane
+		home_system = Karsouse
+		name_list = "NECROID5"
+	}
+	montognar = {
+		name = Montognarish
+		plural = Montognarish
+		home_planet = Montognar
+		home_system = Verfiston
+		name_list = "NECROID5"
+	}
+	jenham = {
+		name = Jenhamite
+		plural = Jenhamites
+		home_planet = Jenham
+		home_system = "Bley Burs"
+		name_list = "NECROID5"
+	}
+	eughenrie = {
+		name = Ferem
+		plural = Ferems
+		home_planet = Eughenrie
+		home_system = Rockingay
+		name_list = "NECROID5"
+	}
+	swaley = {
+		name = Swaleyan
+		plural = Swaleyans
+		home_planet = Swaley
+		home_system = "Stel Lerre"
+		name_list = "NECROID5"
+	}
+	easternceruleantower = {
+		name = Larew
+		plural = Larews
+		home_planet = "Eastern Cerulean Tower"
+		home_system = "Pillar of Darkness"
+		name_list = "NECROID5"
+	}
+	stanchcomay = {
+		name = Woodmonian
+		plural = Woodmonians
+		home_planet = "Stanch Comay"
+		home_system = Jostrek
+		name_list = "NECROID5"
+	}
+	luckermadley = {
+		name = Luckermadlite
+		plural = Luckermadlites
+		home_planet = Luckermadley
+		home_system = Sham-Fulley
+		name_list = "NECROID5"
+	}
+	marlestonthesorcerer = {
+		name = Jillerian
+		plural = Jillerians
+		home_planet = "Marleston the Sorcerer"
+		home_system = "Boydon the Bard"
+		name_list = "NECROID5"
+	}
+	howdell = {
+		name = Howdellian
+		plural = Howdellians
+		home_planet = Howdell
+		home_system = Julvenry
+		name_list = "NECROID5"
+	}
+	udidel = {
+		name = Udidelese
+		plural = Udidelese
+		home_planet = Udidel
+		home_system = Qazormajal
+		name_list = "NECROID6"
+	}
+	rozadasza = {
+		name = Atraqoan
+		plural = Atraqoans
+		home_planet = "Roza Dasza"
+		home_system = Patnukiqota
+		name_list = "NECROID6"
+	}
+	nomzereben = {
+		name = Nomzerebian
+		plural = Nomzerebians
+		home_planet = Nomzereben
+		home_system = Tiequnzyu
+		name_list = "NECROID6"
+	}
+	halpisumeth = {
+		name = Hal-Pisuan
+		plural = Hal-Pisuans
+		home_planet = "Hal Pisumeth"
+		home_system = "Hal Hazamzu"
+		name_list = "NECROID6"
+	}
+	yaraji = {
+		name = Yarajic
+		plural = Yarajics
+		home_planet = "Yaraji Prime"
+		home_system = Yaraji
+		name_list = "NECROID6"
+	}
+	gozedol = {
+		name = Gozedolite
+		plural = Gozedolites
+		home_planet = Gozedol
+		home_system = Ninqutriel
+		name_list = "NECROID6"
+	}
+	qosabeza = {
+		name = Qosabezan
+		plural = Qosabezans
+		home_planet = Qosabeza
+		home_system = Qudarqo
+		name_list = "NECROID6"
+	}
+	rotegral = {
+		name = Rotegralian
+		plural = Rotegralians
+		home_planet = Rotegral
+		home_system = Ijobie
+		name_list = "NECROID6"
+	}
+	hyaraju = {
+		name = Hyarajuite
+		plural = Hyarajites
+		home_planet = Hyaraju
+		home_system = Pothie
+		name_list = "NECROID6"
+	}
+	theromzus = {
+		name = Theromzian
+		plural = Theromzians
+		home_planet = Theromzus
+		home_system = Geti'Del
+		name_list = "NECROID6"
+	}
+	qebkuth = {
+		name = Qebkuthian
+		plural = Qebkuthians
+		home_planet = Qebkuth
+		home_system = Tyasegero
+		name_list = "NECROID6"
+	}
+	agakbeel = {
+		name = Agak'Beelite
+		plural = Agak'Beelites
+		home_planet = "Agak Beel"
+		home_system = Hyakdasol
+		name_list = "NECROID6"
+	}
+	thuberzun = {
+		name = Berzunese
+		plural = Berzunese
+		home_planet = Thu'Berzun
+		home_system = Titedeemel
+		name_list = "NECROID6"
+	}
+	chantingdoomlands = {
+		name = Nimasthean
+		plural = Nimastheans
+		home_planet = "Chanting Doomlands"
+		home_system = "Hymn of Space"
+		name_list = "NECROID6"
+	}
+	thidasalsepulchre = {
+		name = Tojakboan
+		plural = Tojakboans
+		home_planet = "Thidasal Sepulchre"
+		home_system = "Abenurin the Cold"
+		name_list = "NECROID6"
+	}
+	ronsherqu = {
+		name = Ezegazul
+		plural = Ezegazul
+		home_planet = "Ron Sherqu"
+		home_system = "Qeth Didiszie"
+		name_list = "NECROID6"
+	}
+	dedijud = {
+		name = Dedijudian
+		plural = Dedijudians
+		home_planet = Dedijud
+		home_system = Akokbo
+		name_list = "NECROID6"
+	}
+	rosbutha = {
+		name = Rosbuthean
+		plural = Rosbutheans
+		home_planet = Rosbutha
+		home_system = Yaqes
+		name_list = "NECROID6"
+	}
+	azusalprime = {
+		name = Azusalese
+		plural = Azusalese
+		home_planet = "Azusal Prime"
+		home_system = Azusal
+		name_list = "NECROID6"
+	}
+	vampiriclair = {
+		name = Ruemagatid
+		plural = Ruemagatids
+		home_planet = "Vampiric Lair"
+		home_system = "Dread Marcher"
+		name_list = "NECROID6"
+	}
+	tiarzan = {
+		name = Tiarzanid
+		plural = Tiarzanids
+		home_planet = Tiarzan
+		home_system = Nastenqa
+		name_list = "NECROID6"
+	}
+	vomath = {
+		name = Vomathian
+		plural = Vomathians
+		home_planet = Vomath
+		home_system = Engras
+		name_list = "NECROID7"
+	}
+	xolozthehealer = {
+		name = Xarkizian
+		plural = Xarkizians
+		home_planet = "Xoloz the Healer"
+		home_system = "Duran the Cursed"
+		name_list = "NECROID7"
+	}
+	bogdrogg = {
+		name = Vrouch
+		plural = Vrouch
+		home_planet = Bog'drogg
+		home_system = Arnegdronok
+		name_list = "NECROID7"
+	}
+	tardhorth = {
+		name = Gluthite
+		plural = Gluthites
+		home_planet = "Tar Dhorth"
+		home_system = Iz'gomaz
+		name_list = "NECROID7"
+	}
+	jenkaz = {
+		name = Jenkazian
+		plural = Jenkazians
+		home_planet = Jenkaz
+		home_system = Zar'enair'al
+		name_list = "NECROID7"
+	}
+	lughenug = {
+		name = Lugnugian
+		plural = Lugnugians
+		home_planet = Lug'Henug
+		home_system = Henug
+		name_list = "NECROID7"
+	}
+	azguk = {
+		name = Azgukoid
+		plural = Azgukoids
+		home_planet = Azguk
+		home_system = Dozmard
+		name_list = "NECROID7"
+	}
+	kathboc = {
+		name = Kathborite
+		plural = Kathborites
+		home_planet = Kathboc
+		home_system = Dok-Xargrar
+		name_list = "NECROID7"
+	}
+	zozgrugg = {
+		name = Thagg
+		plural = Thaggs
+		home_planet = Zoz-Grugg
+		home_system = Zoz-Gogg
+		name_list = "NECROID7"
+	}
+	arzerarbaig = {
+		name = Vurdokid
+		plural = Vurdokids
+		home_planet = Arzerarbaig
+		home_system = Jal'gomoth
+		name_list = "NECROID7"
+	}
+	gezgachtheagile = {
+		name = "Brin Doth"
+		plural = "Brin Doth"
+		home_planet = "Gez'gach the Agile"
+		home_system = "Drazok the Brute"
+		name_list = "NECROID7"
+	}
+	arkuth = {
+		name = Arkuthian
+		plural = Arkuthians
+		home_planet = Arkuth
+		home_system = Zingath
+		name_list = "NECROID7"
+	}
+	brathmigg = {
+		name = Brathmiggian
+		plural = Brathmiggians
+		home_planet = Brathmigg
+		home_system = Grugdrundik
+		name_list = "NECROID7"
+	}
+	thorothalprime = {
+		name = Tho'rothalian
+		plural = Tho'rothalians
+		home_planet = "Tho'rothal Prime"
+		home_system = Tho'rothal
+		name_list = "NECROID7"
+	}
+	azgon = {
+		name = Azgonites
+		plural = Azgonites
+		home_planet = Azgon
+		home_system = "Orth Elgragrik"
+		name_list = "NECROID7"
+	}
+	thostrun = {
+		name = Thostrunaean
+		plural = Thostrunaeans
+		home_planet = Thostrun
+		home_system = Vulgronath
+		name_list = "NECROID7"
+	}
+	arremach = {
+		name = Arremoid
+		plural = Arremoids
+		home_planet = Arremach
+		home_system = Rogriz
+		name_list = "NECROID7"
+	}
+	vraxiuth = {
+		name = Vraxian
+		plural = Vraxians
+		home_planet = Vraxiuth
+		home_system = Groukozmoth
+		name_list = "NECROID7"
+	}
+	gathrukanscomedy = {
+		name = Xazzuun
+		plural = Xazzuun
+		home_planet = "Gathrukan's Comedy"
+		home_system = "Ingrogg's Zeal"
+		name_list = "NECROID7"
+	}
+	thoordon = {
+		name = Dhun'Thoor
+		plural = Dhun'Thoor
+		home_planet = Thoordon
+		home_system = Zozaagg
+		name_list = "NECROID7"
+	}
+	giroth = {
+		name = Girothoid
+		plural = Girothoids
+		home_planet = Giroth
+		home_system = Xolvimauth
+		name_list = "NECROID7"
+	}
+	brauvok = {
+		name = Brauvokid
+		plural = Brauvokids
+		home_planet = Brauvok
+		home_system = Lakai
+		name_list = "NECROID8"
+	}
+	praexor = {
+		name = Praexorian
+		plural = Praexorians
+		home_planet = Praexor
+		home_system = Protuzar
+		name_list = "NECROID8"
+	}
+	fipris = {
+		name = Nilian
+		plural = Nilians
+		home_planet = Fipris
+		home_system = "Mir Kemor"
+		name_list = "NECROID8"
+	}
+	ecamienus = {
+		name = Ecamienan
+		plural = Ecamienans
+		home_planet = Ecamienus
+		home_system = Zrubrulek
+		name_list = "NECROID8"
+	}
+	fiprix = {
+		name = Fiprixoid
+		plural = Fiprixoids
+		home_planet = Fiprix
+		home_system = Streitos
+		name_list = "NECROID8"
+	}
+	womienus = {
+		name = Womienoid
+		plural = Womienoids
+		home_planet = Womienus
+		home_system = Nurozad
+		name_list = "NECROID8"
+	}
+	gerraxis = {
+		name = Gerraxian
+		plural = Gerraxians
+		home_planet = Gerraxis
+		home_system = Drudira
+		name_list = "NECROID8"
+	}
+	kelekluzha = {
+		name = Kelek'Lom
+		plural = Kelek'Lom
+		home_planet = "Kelek Luzha"
+		home_system = Hovrimi
+		name_list = "NECROID8"
+	}
+	ushin = {
+		name = Ushinoid
+		plural = Ushinoids
+		home_planet = Ushin
+		home_system = Chotizor
+		name_list = "NECROID8"
+	}
+	loulazatosprime = {
+		name = Loulazatian
+		plural = Loulazatians
+		home_planet = "Loulazatos Prime"
+		home_system = Loulazatos
+		name_list = "NECROID8"
+	}
+	elopen = {
+		name = Elopenese
+		plural = Elopenese
+		home_planet = Elopen
+		home_system = Pemien
+		name_list = "NECROID8"
+	}
+	geilekaithedreadmother = {
+		name = Azrumite
+		plural = Azrumites
+		home_planet = "Geilekai the Dread Mother"
+		home_system = "Sheghris the Dread Father"
+		name_list = "NECROID8"
+	}
+	staxis = {
+		name = Ocow
+		plural = Ocow
+		home_planet = Staxis
+		home_system = Straedumeki
+		name_list = "NECROID8"
+	}
+	lemir = {
+		name = Lemirite
+		plural = Lemirites
+		home_planet = Lemir
+		home_system = Xoxhin
+		name_list = "NECROID8"
+	}
+	wrauvok = {
+		name = Krix
+		plural = Krix
+		home_planet = Wrauvok
+		home_system = Azrabrow
+		name_list = "NECROID8"
+	}
+	staelek = {
+		name = Praxish
+		plural = Praxish
+		home_planet = Staelek
+		home_system = Ezralazis
+		name_list = "NECROID8"
+	}
+	yebethprime = {
+		name = Yebethian
+		plural = Yebethians
+		home_planet = "Yebeth Prime"
+		home_system = Yebeth
+		name_list = "NECROID8"
+	}
+	pedir = {
+		name = Pedirite
+		plural = Pedirites
+		home_planet = Pedir
+		home_system = Igrixor
+		name_list = "NECROID8"
+	}
+	mauventtheslytongued = {
+		name = Graganan
+		plural = Graganans
+		home_planet = "Mauvent the Sly-Tongued"
+		home_system = "Prozar the Poisoner"
+		name_list = "NECROID8"
+	}
+	zraelah = {
+		name = Zraelian
+		plural = Zraelians
+		home_planet = Zraelah
+		home_system = Zraen-Vos
+		name_list = "NECROID8"
+	}
+	rexis = {
+		name = Rexoid
+		plural = Rexoids
+		home_planet = Rexis
+		home_system = Iwamorix
+		name_list = "NECROID8"
+	}
+}

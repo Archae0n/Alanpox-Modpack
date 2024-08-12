@@ -1,0 +1,6 @@
+
+mem_neochadamus_scorned = {
+	opinion = {
+		base = -100
+	}
+}

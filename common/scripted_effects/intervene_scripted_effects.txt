@@ -1,0 +1,80 @@
+
+###############################
+### FunEFork by MrFunEGUY ###
+###############################
+
+
+# Get Intervention Effects
+get_flag_war_effect = {
+	every_war = {
+		every_war_participant = {
+			limit = {
+				is_war_leader = yes
+				is_same_value = prevprev	
+			}
+			prev = { set_war_flag = war_friendly_nation_@prev }
+		}
+		prev = { change_variable = { which = friendly_nation_war_count value = 1 } }
+	}
+}
+
+intervention_cost_effect = {
+	add_resource = {
+		influence = -5
+		mult = root.intervention_cost_multiplier
+	}
+}
+
+intervention_multiplier_effect = {
+	if = {
+		limit = { NOT = { has_country_flag = recent_intervention } }
+		set_timed_country_flag = { flag = recent_intervention years = 15 }
+		set_variable = { which = recent_interventions value = 1 }
+		set_variable = { which = intervention_cost_multiplier value = 40 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = recent_intervention
+			check_variable = { which = recent_interventions value = 1 }
+		}
+		set_timed_country_flag = { flag = recent_intervention years = 15 }
+		change_variable = { which = recent_interventions value = 1 }
+		set_variable = { which = intervention_cost_multiplier value = 50 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = recent_intervention
+			check_variable = { which = recent_interventions value = 2 }
+		}
+		set_timed_country_flag = { flag = recent_intervention years = 15 }
+		change_variable = { which = recent_interventions value = 1 }
+		set_variable = { which = intervention_cost_multiplier value = 65 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = recent_intervention
+			check_variable = { which = recent_interventions value = 3 }
+		}
+		set_timed_country_flag = { flag = recent_intervention years = 15 }
+		change_variable = { which = recent_interventions value = 1 }
+		set_variable = { which = intervention_cost_multiplier value = 85 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = recent_intervention
+			check_variable = { which = recent_interventions value = 4 }
+		}
+		set_timed_country_flag = { flag = recent_intervention years = 15 }
+		change_variable = { which = recent_interventions value = 1 }
+		set_variable = { which = intervention_cost_multiplier value = 110 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = recent_intervention
+			check_variable = { which = recent_interventions value >= 5 }
+		}
+		set_timed_country_flag = { flag = recent_intervention years = 15 }
+		change_variable = { which = recent_interventions value = 1 }
+		set_variable = { which = intervention_cost_multiplier value = 140 }
+	}
+}

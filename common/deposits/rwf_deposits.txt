@@ -1,0 +1,543 @@
+rwf_related_ruins_minor = {
+    is_for_colonizable = yes
+	icon = d_ruins_small
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        planet_jobs_society_research_produces_mult = 0.1
+    }
+
+    resources = {
+        category = planet_deposits
+        produces = {
+            minor_artifacts = 0.1
+        }
+    }
+
+	potential = {
+        NOR = {
+            has_deposit = rwf_related_ruins_minor
+            has_deposit = rwf_related_ruins_medium
+            has_deposit = rwf_related_ruins_large
+        }
+        solar_system = {
+            OR = {
+                any_neighbor_system = {
+                    any_system_planet = {
+                        is_planet_class = pc_relic
+                        is_colony = no
+                    }
+                }
+                any_system_planet = {
+                    is_planet_class = pc_relic
+                    is_colony = no
+                }
+            }
+        }
+	}
+	drop_weight = { weight = 25 }
+}
+
+rwf_related_ruins_medium = {
+    is_for_colonizable = yes
+	icon = d_ruins_medium
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        planet_jobs_society_research_produces_mult = 0.15
+    }
+
+    resources = {
+        category = planet_deposits
+        produces = {
+            minor_artifacts = 0.25
+        }
+    }
+
+	potential = {
+        NOR = {
+            has_deposit = rwf_related_ruins_minor
+            has_deposit = rwf_related_ruins_medium
+            has_deposit = rwf_related_ruins_large
+        }
+        solar_system = {
+            OR = {
+                any_neighbor_system = {
+                    any_system_planet = {
+                        is_planet_class = pc_relic
+                        is_colony = no
+                    }
+                }
+                any_system_planet = {
+                    is_planet_class = pc_relic
+                    is_colony = no
+                }
+            }
+        }
+	}
+	drop_weight = { weight = 25 }
+}
+
+rwf_related_ruins_large = {
+    is_for_colonizable = yes
+	icon = d_ruins_large
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        planet_jobs_society_research_produces_mult = 0.2
+    }
+
+    resources = {
+        category = planet_deposits
+        produces = {
+            minor_artifacts = 0.5
+        }
+    }
+
+	potential = {
+        NOR = {
+            has_deposit = rwf_related_ruins_minor
+            has_deposit = rwf_related_ruins_medium
+            has_deposit = rwf_related_ruins_large
+        }
+        solar_system = {
+            OR = {
+                any_neighbor_system = {
+                    any_system_planet = {
+                        is_planet_class = pc_relic
+                        is_colony = no
+                    }
+                }
+                any_system_planet = {
+                    is_planet_class = pc_relic
+                    is_colony = no
+                }
+            }
+        }
+	}
+	drop_weight = { weight = 25 }
+}
+
+rwf_first_league_great_senate = {
+    is_for_colonizable = yes
+	icon = unused/d_galactic_senate
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        planet_jobs_unity_produces_mult = 0.25
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            owner_is_machine_intelligence = yes
+        }
+        job_maintenance_drone_add = 2
+        job_archaeo_unit_add = 2
+    }
+
+
+    triggered_planet_modifier = {
+        potential = {
+            owner_is_hive_empire = yes
+        }
+        job_maintenance_drone_add = 2
+        job_archaeo_drone_add = 2
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            owner_is_machine_intelligence = no
+            owner_is_hive_empire = no
+        }
+        job_politician_add = 2
+        job_archaeoengineers_add = 2
+    }
+
+	drop_weight = { weight = 0 }
+}
+
+rwf_first_league_ruins = {
+    is_for_colonizable = yes
+	icon = rwf_horizon_ruins
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        planet_jobs_society_research_produces_mult = 0.15
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            owner_is_machine_intelligence = yes
+        }
+        job_archaeo_unit_add = 4
+    }
+
+
+    triggered_planet_modifier = {
+        potential = {
+            owner_is_hive_empire = yes
+        }
+        job_archaeo_drone_add = 4
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            owner_is_machine_intelligence = no
+            owner_is_hive_empire = no
+        }
+        job_archaeoengineers_add = 4
+    }
+
+	drop_weight = { weight = 0 }
+}
+
+rwf_forgotten_hoards = {
+    is_for_colonizable = yes
+	icon = rwf_d_trash_piles
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        planet_jobs_minor_artifacts_produces_mult = 0.1
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            owner_is_machine_intelligence = yes
+        }
+        job_archaeo_unit_add = 5
+    }
+
+
+    triggered_planet_modifier = {
+        potential = {
+            owner_is_hive_empire = yes
+        }
+        job_archaeo_drone_add = 5
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            owner_is_machine_intelligence = no
+            owner_is_hive_empire = no
+        }
+        job_archaeoengineers_add = 5
+    }
+
+	drop_weight = { weight = 0 }
+}
+
+rwf_shattered_campus = {
+    is_for_colonizable = yes
+	icon = rwf_d_shattered_campus
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        planet_jobs_physics_research_produces_mult = 0.1
+        planet_jobs_society_research_produces_mult = 0.1
+        planet_jobs_engineering_research_produces_mult = 0.1
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            owner_is_machine_intelligence = yes
+        }
+        job_archaeo_unit_add = 3
+    }
+
+
+    triggered_planet_modifier = {
+        potential = {
+            owner_is_hive_empire = yes
+        }
+        job_archaeo_drone_add = 3
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            owner_is_machine_intelligence = no
+            owner_is_hive_empire = no
+        }
+        job_archaeoengineers_add = 3
+    }
+
+	drop_weight = { weight = 0 }
+}
+
+rwf_ancient_vaults = {
+    is_for_colonizable = yes
+	icon = d_ancient_vault
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        trade_value_mult = 0.15
+    }
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			volatile_motes = 10
+			rare_crystals = 10
+			exotic_gases = 10
+		}
+	}
+
+	drop_weight = { weight = 0 }
+}
+
+rwf_larionessi_cloning_vats = {
+    is_for_colonizable = yes
+	icon = rwf_cloning_vats
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        planet_jobs_society_research_produces_mult = 0.3
+    }
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			society_research = 30
+		}
+	}
+
+	drop_weight = { weight = 0 }
+}
+
+rwf_kirth_temple_of_the_goddess_blocker = {
+	time = 270
+	icon = d_ruins_small
+
+	is_for_colonizable = yes
+	category = deposit_cat_rare_blocker
+
+	potential = { always = no }
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+
+	use_weights_for_blocker_swap_types = no
+
+	blocker_swap_types = {
+		rwf_kirth_temple_of_the_goddess
+	}
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 2500
+		}
+	}
+}
+
+rwf_kirth_temple_of_the_goddess = {
+    is_for_colonizable = yes
+	icon = unused/d_medieval_alien_civilization
+    category = deposit_cat_rare
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			society_research = 30
+            unity = 30
+		}
+	}
+
+    triggered_planet_modifier = {
+        potential = {
+            owner = {
+                is_spiritualist = yes
+            }
+        }
+        job_priest_add = 2
+    }
+
+     triggered_planet_modifier = {
+        potential = {
+            owner = {
+                is_spiritualist = no
+                is_gestalt = no
+            }
+        }
+        job_culture_worker_add = 2
+    }
+
+	potential = {
+        always = no
+    }
+}
+
+rwf_carachel_arsenal = {
+    is_for_colonizable = yes
+	icon = rwf_arsenal
+    category = deposit_cat_rare
+
+    planet_modifier = {
+        planet_jobs_alloys_produces_mult = 0.15
+    }
+
+	inline_script = {
+		script = jobs/industrial_districts_foundry_add
+		AMOUNT = 8
+	}
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                OR = {
+                    is_regular_empire = yes
+                    has_origin = origin_fear_of_the_dark
+                }
+            }
+        }
+        modifier = {
+            job_foundry_add = 16
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_hive_empire = yes
+            }
+        }
+        modifier = {
+            job_alloy_drone_add = 16
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_machine_empire = yes
+            }
+        }
+        modifier = {
+            job_fabricator_add = 16
+        }
+    }
+    drop_weight = { weight = 0 }
+}
+
+rwf_carachel_ancient_vault_blocker = {
+	time = 270
+	icon = d_ancient_vault
+
+	is_for_colonizable = yes
+	category = deposit_cat_rare_blocker
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+
+	potential = { always = no }
+
+	use_weights_for_blocker_swap_types = no
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 1000
+            minerals = 1000
+		}
+	}
+
+    on_cleared = {
+        owner = {
+            add_resource = { engineering_research = 1000 }
+        }
+    }
+}
+
+rwf_carachel_ancient_crater_blocker= {
+	time = 270
+	icon = d_crater
+
+	is_for_colonizable = yes
+	category = deposit_cat_rare_blocker
+
+	planet_modifier = {
+		planet_max_districts_add = -2
+	}
+
+	potential = { always = no }
+
+	use_weights_for_blocker_swap_types = no
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 1000
+            minerals = 1000
+		}
+	}
+}
+
+rwf_carachel_ancient_battlefield_blocker= {
+	time = 270
+	icon = d_crashed_ship
+
+	is_for_colonizable = yes
+	category = deposit_cat_rare_blocker
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+
+	potential = { always = no }
+
+	use_weights_for_blocker_swap_types = no
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 1000
+            minerals = 1000
+		}
+	}
+
+    on_cleared = {
+        owner = {
+            add_resource = { alloys = 1000 }
+        }
+    }
+}
+
+rwf_carachel_orbital_debris_blocker= {
+	time = 270
+	icon = d_ruined_system
+
+	is_for_colonizable = yes
+	category = deposit_cat_rare_blocker
+
+	planet_modifier = {
+		planet_max_districts_add = -1
+        pop_environment_tolerance = -0.1
+	}
+
+	potential = { always = no }
+
+	use_weights_for_blocker_swap_types = no
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 1000
+            minerals = 1000
+		}
+	}
+
+    on_cleared = {
+        solar_system = {
+            every_system_ambient_object = {
+                limit = {
+                    or = {
+                        is_ambient_object_type = small_debris_object
+                        is_ambient_object_type = medium_debris_01_object
+                    }
+                }
+                destroy_ambient_object = this
+            }
+        }
+    }
+}

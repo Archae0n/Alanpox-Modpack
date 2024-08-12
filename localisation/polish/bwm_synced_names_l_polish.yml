@@ -1,0 +1,245 @@
+﻿l_russian:
+ NAME_bwm_Gatekeepers:0 "Gatekeepers"
+ 
+ ########## Ancestors ##########
+  #Systems/Planets
+  NAME_bwm_Vanth:0 "Vanth"
+  NAME_bwm_Sechma:0 "Sech'ma"
+  NAME_bwm_Mathu:0 "Ma'thu"
+  NAME_bwm_Mazal:0 "Ma'zal"
+  NAME_bwm_Maci:0 "Ma'ci"
+  NAME_bwm_Mamach:0 "Ma'mach"
+  NAME_bwm_Mahuth:0 "Ma'huth"
+  NAME_bwm_Masha:0 "Ma'sha"
+  
+  #Countries
+  NAME_bwm_Chosen_of_Thesan:0 "Chosen of Thesan"
+  
+  #Fleets
+  NAME_bwm_Herald_of_Thesan:0 "Herald of Thesan"
+  NAME_bwm_Infant_Star_Spawn:0 "Infant Star Spawn"
+  NAME_bwm_Young_Star_Spawn:0 "Young Star Spawn"
+  NAME_bwm_Adult_Star_Spawn:0 "Adult Star Spawn"
+  NAME_bwm_Elder_Star_Spawn:0 "Elder Star Spawn"
+  NAME_bwm_Dying_Star_Spawn:0 "Dying Star Spawn"
+  NAME_bwm_Warden_of_Thesan:0 "Warden of Thesan"
+  NAME_bwm_Vessel_of_Thesan:0 "Vessel of Thesan"
+  NAME_bwm_Thesan:0 "Thesan"
+  
+  #Ships
+  NAME_bwm_Hinthial:0 "Hinthial"
+  NAME_bwm_Favi:0 "Favi"
+  NAME_bwm_Fler:0 "Fler"
+  NAME_bwm_Capra:0 "Capra"
+  NAME_bwm_Fanu:0 "Fanu"
+  NAME_bwm_Ais:0 "Ais"
+  
+  #Designs
+  NAME_bwm_Vetis:0 "Vetis"
+  NAME_bwm_Eita:0 "Eita"
+  NAME_bwm_Alpan_I:0 "Alpan I"
+  NAME_bwm_Alpan_II:0 "Alpan II"
+  NAME_bwm_Alpan_III:0 "Alpan III"
+  NAME_bwm_Alpan_IV:0 "Alpan IV"
+  NAME_bwm_Alpan_V:0 "Alpan V"
+  NAME_bwm_Tmia:0 "Tmia"
+  NAME_bwm_Persipnei_I:0 "Persipnei I"
+  NAME_bwm_Persipnei_II:0 "Persipnei II"
+  NAME_bwm_Persipnei_III:0 "Persipnei III"
+  NAME_bwm_Persipnei_IV:0 "Persipnei IV"
+  NAME_bwm_Tinia_I:0 "Tinia I"
+  NAME_bwm_Tinia_II:0 "Tinia II"
+  
+ 
+ ########## Ancient ##########
+  #Fleets
+  NAME_bwm_Gravitational_Anomaly:0 "Gravitational Anomaly"
+  NAME_bwm_Skidbladnir:0 "Skidbladnir"
+  
+  #Ships
+  NAME_bwm_Gungnir:0 "Gungnir"
+  NAME_bwm_Hagalaz:0 "Hagalaz"
+  NAME_bwm_Inguz:0 "Inguz"
+  NAME_bwm_Isa:0 "Isa"
+  NAME_bwm_Kaunaz:0 "Kaunaz"
+  NAME_bwm_Perth:0 "Perth"
+  
+  #Designs
+  NAME_bwm_Geri_I:0 "Geri-I"
+  NAME_bwm_Geri_II:0 "Geri-II"
+  NAME_bwm_Ginnungagap_I:0 "Ginnungagap-I"
+  NAME_bwm_Ginnungagap_II:0 "Ginnungagap-II"
+  NAME_bwm_Ginnungagap_III:0 "Ginnungagap-III"
+  NAME_bwm_Fenrir:0 "Fenrir-II"
+  NAME_bwm_Freki_I:0 "Freki-I"
+  NAME_bwm_Freki_II:0 "Freki-II"
+  NAME_bwm_Laguz_I:0 "Laguz-I"
+  NAME_bwm_Laguz_II:0 "Laguz-II"
+  NAME_bwm_Midgard:0 "Midgard-II"
+  NAME_bwm_Ragnarok:0 "Ragnarok"
+  NAME_bwm_Sleipnir:0 "Sleipnir-II"
+  NAME_bwm_Utgard:0 "Utgard-II"
+ 
+ ########## Artifact ##########
+  #Systems/Planets
+  NAME_bwm_Charun:0 "Charun"
+  NAME_bwm_Culsu:0 "Culsu"
+  NAME_bwm_Gandvik:0 "Gandvik"
+  NAME_bwm_Letham:0 "Letham"
+  NAME_bwm_Nihara:0 "Nihara"
+  
+  #Countries
+  NAME_bwm_Abyss_Wardens:0 "Abyss Wardens"
+  NAME_bwm_Beautiful_Erasure:0 "Beautiful Erasure"
+  NAME_bwm_The_Lament:0 "The Lament"
+  
+  #Fleets
+  NAME_bwm_1st_Cipher:0 "1st Cipher"
+  NAME_bwm_2nd_Cipher:0 "2nd Cipher"
+  NAME_bwm_3rd_Cipher:0 "3rd Cipher"
+  NAME_bwm_Drone_Squadron_Algiz:0 "Drone Squadron Algiz"
+  NAME_bwm_Drone_Squadron_Eiwaz:0 "Drone Squadron Eiwaz"
+  NAME_bwm_Drone_Squadron_Nauthiz:0 "Drone Squadron Nauthiz"
+  NAME_bwm_Psionic_Projection:0 "Psionic Projection"
+  NAME_bwm_Royal_Heartbreaker:0 "Royal Heartbreaker"
+  NAME_bwm_Shroudward:0 "Shroudward"
+  NAME_bwm_Shroudborn:0 "Shroudborn"
+  NAME_bwm_The_Cipher:0 "The Cipher"
+  NAME_bwm_The_Relic:0 "The Relic"
+  
+  #Ships
+  NAME_bwm_AbHu:0 "Ab'Hu"
+  NAME_bwm_AiZa:0 "Ai'Za"
+  NAME_bwm_AmRta:0 "Am'Rta"
+  NAME_bwm_AnTu:0 "An'Tu"
+  NAME_bwm_CapAla:0 "Cap'Ala"
+  NAME_bwm_Culsan:0 "Culsan"
+  NAME_bwm_GoPa:0 "Go'Pa"
+  NAME_bwm_PaRa:0 "Pa'Ra"
+  NAME_bwm_PratIbha:0 "Prat'Ibha"
+  NAME_bwm_Prototype_Nauthiz:0 "Prototype Nauthiz"
+  NAME_bwm_RaMi:0 "Ra'Mi"
+  NAME_bwm_SanAtana:0 "San'Atana"
+  NAME_bwm_SauRa:0 "Sau'Ra"
+  NAME_bwm_Teiwaz:0 "Teiwaz"
+  NAME_bwm_Thurisaz:0 "Thurisaz"
+  NAME_bwm_TiMira:0 "Ti'Mira"
+  NAME_bwm_UnMada:0 "Un'Mada"
+  NAME_bwm_VaZin:0 "Va'Zin"
+  NAME_bwm_ValUkatva:0 "Val'Ukatva"
+  NAME_bwm_VicInta:0 "Vic'Inta"
+  NAME_bwm_YajJiya:0 "Yaj'Jiya"
+  NAME_bwm_ZunYata:0 "Zun'Yata"
+  
+  #Designs
+  NAME_bwm_AmbAra_I:0 "Amb'Ara I"
+  NAME_bwm_AmbAra_II:0 "Amb'Ara II"
+  NAME_bwm_AvRta_I:0 "Av'Rta I"
+  NAME_bwm_AvRta_II:0 "Av'Rta II"
+  NAME_bwm_Calu:0 "Calu"
+  NAME_bwm_DaiVata:0 "Dai'Vata"
+  NAME_bwm_Garmr:0 "Garmr"
+  NAME_bwm_DhVani_III:0 "Dh'Vani III"
+  NAME_bwm_NirRti_I:0 "Nir'Rti I"
+  NAME_bwm_NirRti_II:0 "Nir'Rti II"
+  NAME_bwm_NirRti_III:0 "Nir'Rti III"
+  NAME_bwm_NirRti_IV:0 "Nir'Rti IV"
+  NAME_bwm_NirRti_V:0 "Nir'Rti V"
+  NAME_bwm_RuHa:0 "Ru'Ha"
+  NAME_bwm_VarUtr:0 "Var'Utr"
+ 
+ 
+ ########## Conduit ##########
+  #Systems/Planets
+  NAME_bwm_Acheron:0 "Acheron"
+  NAME_bwm_Arcadia:0 "Arcadia"
+  NAME_bwm_Cocytus:0 "Cocytus"
+  NAME_bwm_Compressed_Star:0 "Compressed Star"
+  NAME_bwm_Cronus:0 "Cronus"
+  NAME_bwm_Elysion:0 "Elysion"
+  NAME_bwm_Lethe:0 "Lethe"
+  NAME_bwm_Oceanus:0 "Oceanus"
+  
+  #Countries
+  NAME_bwm_The_Garden:0 "The Garden"
+  
+  #Fleets
+  NAME_bwm_First_Tower:0 "First Tower"
+  NAME_bwm_Second_Tower:0 "Second Tower"
+  NAME_bwm_Third_Tower:0 "Third Tower"
+  NAME_bwm_Fourth_Tower:0 "Fourth Tower"
+  NAME_bwm_Eternal_Bulwark:0 "Eternal Bulwark"
+  NAME_bwm_Eternal_Crucible:0 "Eternal Crucible"
+  NAME_bwm_Eternal_Flotilla:0 "Eternal Flotilla"
+  NAME_bwm_Eternal_Guardian:0 "Eternal Guardian"
+  NAME_bwm_Eternal_Holdfast:0 "Eternal Holdfast"
+  NAME_bwm_Eternal_Vanguard:0 "Eternal Vanguard"
+  NAME_bwm_Pilgrims:0 "Pilgrims"
+  
+  #Ships
+  NAME_bwm_Conduit:0 "Conduit"
+  NAME_bwm_Bound_Avatar:0 "Bound Avatar"
+  NAME_bwm_Unbound_Avatar:0 "Unbound Avatar"
+  
+  #Designs
+  NAME_bwm_Anhur:0 "Anhur"
+  NAME_bwm_Aten:0 "Aten"
+  NAME_bwm_Atum:0 "Atum"
+  NAME_bwm_Avatar:0 "Avatar"
+  NAME_bwm_Kheruur:0 "Kheru'ur"
+  NAME_bwm_Matet:0 "Matet"
+  NAME_bwm_Nephtys:0 "Nephtys"
+  NAME_bwm_Ptah:0 "Ptah"
+  NAME_bwm_Osiris:0 "Osiris"
+  NAME_bwm_Seqtet:0 "Seqtet"
+  NAME_bwm_Seth:0 "Seth"
+  NAME_bwm_Thoth:0 "Thoth"
+ 
+ 
+ ########## Grave ##########
+  #Systems/Planets
+  NAME_bwm_Danann:0 "Danann"
+  NAME_bwm_Falias:0 "Falias"
+  
+  #Countries
+  NAME_bwm_Forlorn:0 "Forlorn"
+  
+  #Fleets
+  NAME_bwm_Awakened_Gravekeeper:0 "Awakened Gravekeeper"
+  NAME_bwm_Gravekeeper:0 "Gravekeeper"
+  
+  #Ships
+  NAME_bwm_Finias:0 "Finias"
+  NAME_bwm_Gorias:0 "Gorias"
+  NAME_bwm_Murias:0 "Murias"
+  
+  #Designs
+  NAME_bwm_Esras:0 "Esras"
+  NAME_bwm_Semias:0 "Semias"
+  NAME_bwm_Fessus:0 "Fessus"
+  NAME_bwm_Uscias:0 "Uscias"
+  
+ 
+ ########## Throne ##########
+  #Systems/Planets
+  NAME_bwm_Araboth:0 "Araboth"
+  NAME_bwm_Kolob:0 "Kolob"
+  
+  #Countries
+  NAME_bwm_Throne_Watchers:0 "Throne Watchers"
+  
+  #Fleets
+  NAME_bwm_Ancient_Warform:0 "Ancient Warform"
+  NAME_bwm_Solar_Envoy:0 "Solar Envoy"
+  
+  #Ships
+  NAME_bwm_Chamuel:0 "Chamuel"
+  NAME_bwm_Haniel:0 "Haniel"
+  NAME_bwm_Metatron:0 "Metatron"
+  NAME_bwm_Zadkiel:0 "Zadkiel"
+  
+  #Designs
+  NAME_bwm_Geburah:0 "Geburah"
+  NAME_bwm_Kether:0 "Kether"
+  NAME_bwm_Netzach:0 "Netzach"
+  NAME_bwm_Chesed:0 "Chesed"

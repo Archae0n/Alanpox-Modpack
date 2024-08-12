@@ -1,0 +1,237 @@
+namespace = origin
+
+country_event = {
+	id = origin.6165
+	title = origin.6165.name
+	desc = origin.6165.desc
+
+	show_sound = event_screams
+	picture = GFX_evt_fear_of_the_dark
+	show_sound = evn_fc_disunity_origin
+
+	is_triggered_only = yes
+
+	location = fromfrom
+
+	option = {
+		name = origin.6165.a
+		icon = {
+			icon = GFX_fanatic_purifier
+			text = WILL_TURN_TO_PURIFIER
+		}
+
+		if = {
+			limit = {
+				is_megacorp = yes
+			}
+			change_government = {
+				cooldown = no
+				authority = auth_oligarchic
+				remove_invalid_civics = yes
+			}
+		}
+		shift_ethic = ethic_fanatic_xenophobe
+		if = {
+			limit = {
+				is_militarist = no
+				is_spiritualist = no
+			}
+			shift_ethic = ethic_militarist
+		}
+		set_country_flag = dark_forest_achievement
+		force_add_civic = civic_fanatic_purifiers
+		set_government_cooldown = no
+		
+		add_resource = { unity = 5000 }
+		event_target:fotd_seperatist_planet@root = {
+			owner = {
+				every_owned_fleet = {
+					set_owner = root
+				}
+			}
+			set_owner = root
+		}
+		hidden_effect = {
+			every_playable_country = {
+				limit = {
+					exists = overlord
+					overlord = {
+						is_same_value = root
+					}
+				}
+				release_subject = yes
+			}
+			if = {
+				limit = {
+					exists = overlord
+					NOT = {
+						is_same_species = root.species
+					}
+				}
+				release_subject = yes
+			}
+			every_envoy = {
+				limit = {
+					has_envoy_task = {
+						task = improve_relations
+					}
+				}
+				unassign_leader = this
+			}
+			every_playable_country = {
+				limit = {
+					NOT = {
+						species = {
+							is_same_species = root.species
+						}
+					}
+				}
+				end_all_treaties_with = root
+			}
+			remove_from_galactic_community = yes
+		}
+	}
+
+	option = {
+		name = origin.6165.b
+		add_resource = { unity = 5000 }
+	}
+}
+
+namespace = preftl
+
+# Communion
+situation_event = {
+	id = preftl.2160
+	title = preftl.2160.name
+	desc = preftl.2160.desc
+	picture = GFX_evt_progenitor_throne
+	show_sound = event_bad_omen
+	location = target
+	situation = this
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_situation_flag = singular_communion
+		}
+	}
+
+	immediate = {
+		set_situation_flag = singular_communion
+		target.observation_outpost = {
+			set_event_locked = no
+		}
+		owner = {
+			set_country_flag = engineering_insights
+			set_predictive_observation_insight = {
+				VALUE = 10
+			}
+		}
+	}
+	
+	option = {
+		name = EXCELLENT
+		custom_tooltip = preftl.2160.tt
+		owner = {
+			add_observation_insight_effect = {
+				VALUE = 10
+				OUTPOST = root.target.observation_outpost 
+			}
+			add_monthly_resource_mult = {
+				resource = engineering_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+		}
+		hidden_effect = {
+			target = {
+				remove_modifier = singularity_situation_01
+				remove_modifier = singularity_situation_02
+				remove_modifier = singularity_situation_05
+				remove_modifier = singularity_situation_06
+				remove_all_buildings = yes
+				set_planet_flag = organic_singularity_communion #To avoid clash with observation event Nascent Collective
+			}
+
+			target.owner = {
+				clear_ethos = yes
+				country_add_ethic = ethic_gestalt_consciousness
+				country_add_ethic = ethic_form_convergent
+				country_add_ethic = ethic_form_impassive
+				country_add_ethic = ethic_form_extrospective
+				country_add_ethic = ethic_foci_progression
+				change_government = {
+					authority = auth_hive_mind
+					remove_invalid_civics = yes
+					civics = random
+				}
+				species = {
+					modify_species = {
+						species = this
+						add_trait = trait_hive_mind
+						remove_trait = trait_self_modified
+						remove_trait = trait_latent_psionic
+						remove_trait = trait_psionic
+						change_scoped_species = no
+	
+						effect = {
+							save_event_target_as = convert_to_species
+						}
+					}
+				}
+				set_country_flag = organic_singularity_communion # To identify this country in 'abort' blocks, such as for Espionage Operations
+				
+				every_owned_pop = {
+					limit = {
+						is_robotic_species = no
+					}
+					change_species = event_target:convert_to_species
+				}
+	
+				ruler = {
+					kill_leader = { show_notification = no }
+				}
+				
+				add_pre_ftl_buildings = yes
+	
+				random_list = {
+					20 = {
+						if = {
+							limit = {
+								owner = {
+									NOT = {
+										has_valid_civic = civic_hive_devouring_swarm
+									}
+								}
+							}
+							change_government = {
+								civics = {
+									civic = civic_hive_devouring_swarm
+								}
+							}
+						}
+					}
+					80 = { }
+				}
+			}
+		}
+	}
+
+	after = {
+		destroy_situation = this
+		target = {
+			check_planet_employment = yes
+			remove_planet_flag = has_on_going_observation_situation
+		}
+		owner = {
+			remove_country_flag = had_observation_situation
+			set_timed_country_flag = {
+				flag = had_observation_situation
+				days = 7200
+			}
+		}
+	}
+}

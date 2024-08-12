@@ -1,0 +1,10 @@
+on_released_as_vassal = {
+	events = {
+		action.229 # Sort out their origin
+		action.230 # Convert released megacorps into oligarchies
+		specialist.700
+		origin.3270 # Progenitor hive
+		paragon.5940
+		cmbu.255
+	}
+}

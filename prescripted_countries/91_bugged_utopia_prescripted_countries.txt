@@ -1,0 +1,73 @@
+CuriConsciousness = {
+	name = "Curi Consciousness"
+	adjective = "Curian"
+	spawn_enabled = yes
+	ignore_portrait_duplication = no
+
+	playable = has_utopia # scripted_triggers
+	
+	species = {
+		class = "FUN"
+		portrait = "fun15"
+		name = "Curi"
+		plural = "Curi"
+		adjective = "Curi"
+		name_list = "HIVE2"
+		trait = "trait_hive_mind"
+		trait = "trait_intelligent"
+		trait = "trait_natural_sociologists"
+		trait = "trait_weak"
+	}
+
+	room = "personality_hive_mind_room"
+
+	ethic = "ethic_gestalt_consciousness"
+	ethic = "ethic_form_convergent"
+	ethic = "ethic_form_affective"
+	ethic = "ethic_form_introspective"
+	ethic = "ethic_foci_analysis"
+
+	authority = "auth_hive_mind"
+	civics={ "civic_bugged_hive_researcher" "civic_hive_pooled_knowledge" "civic_hive_natural_neural_network" }
+	government = "gov_hive_mind"
+
+	origin = "origin_tree_of_life"
+
+	planet_name = "Gues"
+	planet_class = "pc_savannah"
+	initializer = ""
+	system_name = "Illi"
+
+	graphical_culture = "molluscoid_01"
+	city_graphical_culture = "molluscoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "pointy"
+			file = "flag_pointy_20.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "diagonal.dds"
+		}
+		colors = {
+			"pink"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		gender = female
+		name = "Synaptic Nexus"
+		portrait = "fun17"
+		texture = 1
+		hair = 0
+		clothes = 0
+		trait = "trait_ruler_charismatic"
+	   leader_class = scientist
+	}
+	ship_prefix = "CCV"
+	spawn_as_fallen = no
+}

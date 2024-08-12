@@ -1,0 +1,59 @@
+##################
+# General Traits #
+##################
+leader_trait_general_shroud_veteran = {
+	inline_script = {
+		script = trait/icon
+		CLASS = commander
+		ICON = GFX_leader_trait_shroud_veteran
+		RARITY = common
+		COUNCIL = no
+		TIER = 1
+	}
+	army_modifier = {
+		army_morale = 0.1
+		army_collateral_damage_mult = -0.15
+	}
+	planet_modifier = {
+		planet_stability_add = 15
+	}
+	sector_modifier = {
+		planet_stability_add = 15
+	}
+	modifier = {
+		damage_vs_country_type_shroud_entities_mult = 0.25
+		damage_vs_country_type_shroud_horrors_mult = 0.25
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = no
+}
+
+leader_trait_general_cultist_veteran = {
+	inline_script = {
+		script = trait/icon
+		CLASS = commander
+		ICON = GFX_leader_trait_cultist_veteran
+		RARITY = common
+		COUNCIL = no
+		TIER = 1
+	}
+	army_modifier = {
+		army_morale = 0.1
+		army_collateral_damage_mult = -0.15
+	}
+	planet_modifier = {
+		planet_stability_add = 15
+	}
+	sector_modifier = {
+		planet_stability_add = 15
+	}
+
+	modifier = {
+		damage_vs_country_type_shroud_cult_mult = 0.25
+		# damage_vs_country_type_shroud_cult_uprising_mult = 0.25
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = no
+}

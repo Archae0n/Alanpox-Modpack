@@ -1,0 +1,138 @@
+﻿l_french:
+ NANOTECH_MOTHERSHIP_BOW_G2: "$NANOTECH_MOTHERSHIP_MID_G3$" #NT!
+ NANOTECH_MOTHERSHIP_BOW_H2: "$NANOTECH_MOTHERSHIP_MID_H3$" #NT!
+ NANOTECH_MOTHERSHIP_BOW_L2: "$NANOTECH_MOTHERSHIP_MID_L3$" #NT!
+ NANOTECH_MOTHERSHIP_BOW_XL1: "Mothership Siege" #NT!
+ NANOTECH_MOTHERSHIP_MID_G3: "Mothership Missiles" #NT!
+ NANOTECH_MOTHERSHIP_MID_H3: "Mothership Hangers" #NT!
+ NANOTECH_MOTHERSHIP_MID_L3: "Mothership Artillery" #NT!
+ NANOTECH_MOTHERSHIP_STERN_G1: "$NANOTECH_MOTHERSHIP_MID_G3$" #NT!
+ NANOTECH_MOTHERSHIP_STERN_H1: "$NANOTECH_MOTHERSHIP_MID_H3$" #NT!
+ NANOTECH_MOTHERSHIP_STERN_L1: "$NANOTECH_MOTHERSHIP_MID_L3$" #NT!
+ nanotech_mothership: "$NAME_Nanite_Mothership$" #NT!
+ nanotech_mothership_plural: "Nanite $graygoo_mothership_plural$" #NT!
+ decision_nanotech_swarm_create_mothership: "Summon Nanite Mothership" #NT!
+ decision_nanotech_swarm_create_mothership_desc: "Create a Mothership using this planet's nanites" #NT!
+ nanotech_restraint_effect: "We changed our mind and dont need another mothership" #NT!
+ nanotech.2.name: "Mothership summoning complete" #NT!
+ nanotech.2.desc: "Our project to summon an Mothership using this planet's nanites has been completed" #NT!
+ nanotech_summon_finish_tooltip: "Use nanites of this world to summon mothership" #NT!
+ nanotech_summon_effect: "Use nanites of this world to summon mothership" #NT!
+ situation_nanotech_create_mothership: "Summoning Nanite Mothership" #NT!
+ situation_nanotech_create_mothership_desc: "We're using this planet's nanites to create Nanite Mothership" #NT!
+ situation_nanotech_create_mothership_type: "Summon Nanite Mothership" #NT!
+ nanotech_stage_summoning: "These nanites will find a new purpose" #NT!
+  
+ ####starbase building 
+ STARBASE_AURA_NANOTECH_STORM: "Nanite Cloud" #NT!
+ aura_starbase_nanotech_storm: "Defensive Aura - Sensor Blocker" #NT!
+ nanotech_storm_caster: "Stellar Nanite Diffuser" #NT!
+ sm_nanotech_storm_caster: "Stellar Nanite Diffuser" #NT!
+ sm_nanotech_caster_desc_modifier: "Creates an §YNanite Cloud§! in the system:\nBlocks §YSensors§! \nReduces §YShip Speed§! and §YFire Rate§!\nDecreases §YArmor§! of enemy ships" #NT!
+ sm_nanotech_storm_caster_desc: "Our advancements in Nanite technology allow us to release a cloud of specialized nanite straight into space." #NT!
+ nanotech_storm_caster_desc: "Our advancements in Nanite technology allow us to release a cloud of specialized nanite straight into space." #NT!
+ tech_nanotech_caster: "Stellar Nanite Diffuser" #NT!
+ tech_nanotech_caster_desc: "If nanites are just a small robots, what stops us from turning them into a microscopic ships " #NT!
+  
+  
+ ##buildings## 
+ building_nanotech_refinery: "Nanite Refinery" #NT!
+ building_nanotech_refinery_desc: "These Buildings have specialised in exotic Gas production." #NT!
+ building_nanotech_Chemical: "Nanite Chemical Plant" #NT!
+ building_nanotech_Chemical_desc: "These Buildings have specialised in the production of Volatile Motes." #NT!
+ building_nanotech_Crystal: "Nanite Crystal Plant" #NT!
+ building_nanotech_Crystal_desc: "These Buildings have specialised in the production of Rare Crystals." #NT!
+ nanotech_summoning_mothership: "Mothership summoning" #NT!
+ nanotech_summoning_mothership_desc: "Nanites of this world are currently used to summon a mothership" #NT!
+ nanotech_nanites_devastated: "Nanites devastated" #NT!
+ nanotech_nanites_devastated_desc: "Nanites of this world were used in the creation of the mothership and are now left severely devastated" #NT!
+ nanotech_mothership_FISSION_REACTOR: "$FISSION_REACTOR$" #NT!
+ nanotech_mothership_FUSION_REACTOR: "$FUSION_REACTOR$" #NT!
+ nanotech_mothership_COLD_FUSION_REACTOR: "$COLD_FUSION_REACTOR$" #NT!
+ nanotech_mothership_ANTIMATTER_REACTOR: "$ANTIMATTER_REACTOR$" #NT!
+ nanotech_mothership_ZERO_POINT_REACTOR: "$ZERO_POINT_REACTOR$" #NT!
+ nanotech_mothership_DARK_MATTER_REACTOR: "$DARK_MATTER_REACTOR$" #NT!
+ nanotech_mothership_FISSION_REACTOR_DESC: "$FISSION_REACTOR_DESC$" #NT!
+ nanotech_mothership_FUSION_REACTOR_DESC: "$FUSION_REACTOR_DESC$" #NT!
+ nanotech_mothership_COLD_FUSION_REACTOR_DESC: "$COLD_FUSION_REACTOR_DESC$" #NT!
+ nanotech_mothership_ANTIMATTER_REACTOR_DESC: "$ANTIMATTER_REACTOR_DESC$" #NT!
+ nanotech_mothership_ZERO_POINT_REACTOR_DESC: "$ZERO_POINT_REACTOR_DESC$" #NT!
+ nanotech_mothership_DARK_MATTER_REACTOR_DESC: "$DARK_MATTER_REACTOR_DESC$" #NT!
+ nanotech_COMPUTER_ARTILLERY_BASIC: "Combat Computer (Artillery)" #NT!
+ nanotech_COMPUTER_CARRIER_BASIC: "Combat Computer (Carrier)" #NT!
+ nanotech_COMPUTER_ARTILLERY_BASIC_DESC: "$tech_combat_computers_1_desc$" #NT!
+ nanotech_COMPUTER_CARRIER_BASIC_DESC: "$tech_combat_computers_1_desc$" #NT!
+ nanotech_COMPUTER_ARTILLERY_ADVANCED: "Advanced Combat Computer (Artillery)" #NT!
+ nanotech_COMPUTER_CARRIER_ADVANCED: "Advanced Combat Computer (Carrier)" #NT!
+ nanotech_COMPUTER_ARTILLERY_ADVANCED_DESC: "$tech_combat_computers_2_desc$" #NT!
+ nanotech_COMPUTER_CARRIER_ADVANCED_DESC: "$tech_combat_computers_2_desc$" #NT!
+ nanotech_COMPUTER_ARTILLERY_SAPIENT: "Sapient Combat Computer (Artillery)" #NT!
+ nanotech_COMPUTER_CARRIER_SAPIENT: "Sapient Combat Computer (Carrier)" #NT!
+ nanotech_COMPUTER_ARTILLERY_SAPIENT_DESC: "$tech_combat_computers_3_desc$" #NT!
+ nanotech_COMPUTER_CARRIER_SAPIENT_DESC: "$tech_combat_computers_3_desc$" #NT!
+ nanotech_COMPUTER_ARTILLERY_AUTONOMOUS: "Autonomous Ship Intellect (Artillery)" #NT!
+ nanotech_COMPUTER_CARRIER_AUTONOMOUS: "Autonomous Ship Intellect (Carrier)" #NT!
+ nanotech_COMPUTER_ARTILLERY_AUTONOMOUS_DESC: "$tech_combat_computers_autonomous_desc$" #NT!
+ nanotech_COMPUTER_CARRIER_AUTONOMOUS_DESC: "$tech_combat_computers_autonomous_desc$" #NT!
+ nanotech_mothership_SHIP_THRUSTER_1: "Chemical Thrusters" #NT!
+ nanotech_mothership_SHIP_THRUSTER_1_DESC: "Simple yet moderately effective chemical thrusters that rely on combustible propellant to generate thrust." #NT!
+ nanotech_mothership_SHIP_THRUSTER_2: "Ion Thrusters" #NT!
+ nanotech_mothership_SHIP_THRUSTER_2_DESC: "These electric thrusters use beams of ions to generate thrust without the need for propellant." #NT!
+ nanotech_mothership_SHIP_THRUSTER_3: "Plasma Thrusters" #NT!
+ nanotech_mothership_SHIP_THRUSTER_3_DESC: "An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability." #NT!
+ nanotech_mothership_SHIP_THRUSTER_4: "Impulse Thrusters" #NT!
+ nanotech_mothership_SHIP_THRUSTER_4_DESC: "These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions." #NT!
+ nanotech_mothership_SHIP_THRUSTER_5: "Dark Matter Thrusters" #NT!
+ nanotech_mothership_SHIP_THRUSTER_5_DESC: "These ship thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics." #NT!
+ nanotech_PERDITION_BEAM: "Perdition Beam" #NT!
+ nanotech_PERDITION_BEAM_TITAN: "Perdition Beam" #NT!
+ nanotech_PERDITION_BEAM_DESC: "A massive array of linked energy amplification conduits that fires a beam of unprecedented firepower." #NT!
+ nanotech_ARCHAEO_TITAN: "Ancient Ruination Glare" #NT!
+ nanotech_ARCHAEO_TITAN_DESC: "Tremendous medium range firepower will enable our titans to break through enemy lines. These ancient cannons were once the foundation upon which a galactic empire was built" #NT!
+  
+ ####Parciwal's Generator and Factory 
+ NFac_building_nanotech_factory: "Nanotech Factory" #NT!
+ NFac_building_nanotech_factory_desc: "With the help of nanites, we can create Consumer goods with outstanding Quality." #NT!
+ NFac_building_nanotech_factory_upgrade: "Nanotech Factory Complex" #NT!
+ NFac_building_nanotech_factory_upgrade_desc: "With the help of exotic gases, we can create an atmosphere that greatly improves the efficency of our Nanites." #NT!
+ NGen_building_nanotech_generator: "Nanotech Power-plant" #NT!
+ NGen_building_nanotech_generator_desc: "Thanks to the manipulative qualities of Nanites, we can extract Energy from Volatile Motes." #NT!
+ NGen_building_nanotech_generator_upgrade: "Nanotech Power-plant Complex" #NT!
+ NGen_building_nanotech_generator_upgrade_desc: "A large Complex of Nanotech Power-plants." #NT!
+  
+  
+  ####Parciwal's Subsumer (Planet killer weapon) 
+ PLANET_KILLER_NANITE_CONSUMPTION: "World Subsumer" #NT!
+ PLANET_KILLER_NANITE_CONSUMPTION_ACTION: "Subsume" #NT!
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANITE_CONSUMPTION: "Preparing to subsume $PLANET|Y$" #NT!
+ MESSAGE_DESC_FOR_PLANET_KILLER_NANITE_CONSUMPTION: "was subsumed by nanobots from" #NT!
+ PLANET_KILLER_NANITE_CONSUMPTION_DESC: "Swarms of nanobots are dispersed in the atmosphere. In just matter of days they consume the entire planet, including all residents and infrastructure, transforming it into a giant mass of nanites ." #NT!
+ planet_subsumed.101.name: "World subsumed" #NT!
+ planet_subsumed.101.desc: "After the swarm of specialised nanites from [From.From:Getname] touched the surface of [From.Getname] , they immeadiatly began spreading.\n\ After a few weeks, the Planet, including all residents and infrastructure, was transformed into a giant mass of nanites." #NT!
+ WaCol_will_destroy_colony: "With this Action, every Pop will be killed and every District and building will be destroyed." #NT!
+ WaCol_is_nanite_world: "This already is a Nanite World" #NT!
+  
+  
+ #####Techs 
+ tech_advanced_nanites: "Advanced Nanite Understanding" #NT!
+ tech_advanced_nanites_desc: "Since our transformation into a nano-machines,our understanding of nanites grows exponentianaly " #NT!
+ tech_nanotech_advanced_alloys_and_factory: "Advanced Nanotech Production" #NT!
+ tech_nanotech_advanced_alloys_and_factory_desc: "With the help of rare resources we can increase output of our Nanotech Production buildings" #NT!
+ tech_nanotech_specialised_transmuters: "Specialised Nanite Transmutation" #NT!
+ tech_nanotech_specialised_transmuters_desc: "Some rare resources are more valuable than other so we need to specialise our transmuters" #NT!
+ nanotech_category: "Nanotech" #NT!
+ nanotech_category_desc: "Nanites are the future" #NT!
+ mod_planet_structures_nanites_upkeep_mult: "Nanite upkeep" #NT!
+ building_nanotech_cauldron_upgrade: "Nanotech Forge" #NT!
+ building_nanotech_cauldron_upgrade_desc: "Exotic gases allow us to create an atmosphere that greatly improves the efficency of our Nanites and Volatile Motes allow us to partially substitute energy upkeep. " #NT!
+  
+  
+### Edicts:
+edict_nanotech_overdrive: "Nanite Overdrive"
+edict_nanotech_overdrive_desc: "By Overclocking our nanites we can double our output empire-wide, but nanites become power hungry and  fragile under these conditions "
+mod_planet_buildings_nanites_upkeep_mult: "Building £nanites£ Nanite upkeep"
+
+### Purge:
+nanotech_purge: "Nanite Assimilation"
+nanotech_purge_tooltip: "Affected Pops are consumed by the specialised swarms of nanites in order to create more nanites."
+nanotech_purge_tooltip_delayed: "§LAssimilate all that divides and distinguishes, All shall become nanites§"

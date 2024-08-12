@@ -1,0 +1,226 @@
+﻿### Fantasy inuit
+### Names all from random name generation at donjon
+
+cybrxkhan_fantasy_inuit = {	
+	category = "Lithoid"
+
+	ship_names = {
+		generic = {
+			Aciaq Agut Aisaiyok Akiyok Akong Aktok Alaqeeluq Amik Anek Angok Aniik Anik Aniq Anug Anuk Anuq Apaq Araq Arnik Artok Artuyok Asaak Asak Attaq Atuyok Aullik Aupik Auraq Auserk Biisi Buni Ciku Egak Igak Ikuaq Imuk Inak Inerk Injuq Iquak Irik Itok Kaana Kaka Kaki Kani Kaqiia Karne Kaskae Kassi Keitsi Kika Kila Kilu Kinaakok Kiput Kita Kokti Koku Konyu Korte Kubva Kulu Kuqiia Maku Mana Mika Miksi Muma Naiti Naria Narti Nartiya Natu Nerkii Niiti Nikaya Nikta Nikte Niku Nikuuga Niqpian Nosa Nune Nute Pala Palu Piana Pilu Pitiya Puka Puko Puku Purne Qati Qatqiia Qigi Qimaatoka Qimma Quana Saka Sartiya Sedna Sialu Silu Sinna Siva Sora Taka Takma Tala Talu Taqiia Taqqina Tatti Tika Tiqiia Tlika Toka Tokaaraq Tokanikpikt Tokesi Toqquu Torni Tugai Tukti Tupatt Turaagak Tusa Tuyoka Tuyokae Tuyoki Ubluk Ugak Ulvach Umiak Unit Uyaluk
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Otokayak Warband" "Iktokonaq Warband" "Ungik Warband" "Ulvaqikik Warband" "Ukakanik Warband" "Ikulemaaq Warband" "Ikulriaq Warband" "Unanukka Warband"
+		}
+		sequential_name = FANTASY_INUIT_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_INUIT_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_INUIT_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_INUIT_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_INUIT_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_INUIT_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_INUIT_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_INUIT_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_INUIT_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_INUIT_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_INUIT_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_INUIT_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_INUIT_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_INUIT_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_INUIT_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_INUIT_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_INUIT_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_INUIT_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_INUIT_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_INUIT_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_INUIT_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_INUIT_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+		
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Akkik Alaq Alik Aneqquka Apik Arnik Arniq Artok Asak Auttok Biitaako Chilu Chuga Ikak Ilaq Ilaut Ilik Innuak Ituyok Kaaniinga Kila Kivaalak Kiyoku Kona Kubva Kula Kuni Mugkii Narta Nartiya Nasi Nerna Ninna Nippiat Niqiia Niraaqiia Nuqiia Nuta Nuti Pilutaq Poki Puka Pukiimmuyaq Puku Puna Qima Qimaartok Sedna Tiga Tinga Toka Tokaya Tokii Tonria Tugi Tuulu Tuyoka
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Aikpok Akiyok Akpok Alut Amaq Amiiyok Anerk Anik Aniq Annoyak Annoyat Anut Artok Asaak Atkrerk Attik Azok Biisi Ciaria Cori Desna Ilak Ingiyok Inik Inuk Irut Iyartok Kakae Kakii Kana Kaqiia Kiaka Kiaqiia Kira Kite Kiti Koni Krisa Mana Mane Masi Miakti Miuti Nakaya Naku Nanna Nata Nerkii Niiti Nikpok Ninga Niria Nuna Oorar Orngak Pakii Piaktu Poka Puka Qiga Qilu Qima Quko Quva Sakii Saktiya Sarte Sedna Serki Sialu Sina Soria Taka Takaya Tarni Tika Tinga Tiyoka Toka Tokae Toki Toko Toku Tonra Tupuk Tuyokaya Tuyoko Uituuk Ukaq
+            }          
+            first_names_female = {
+				Adlak Agak Akok Akpoq Aktok Akut Alak Aluq Anait Anik Appiaq Aqiiaq Artok Atak Atqain Augut Chana Chuga Ciaria Cora Ilah Ilaq Iqpak Iriq Ittuq Kana Kappal Katti Kattiya Kikii Kila Kina Kite Kiti Mako Mana Massi Matu Miitu Miqiia Naaqiia Naarte Necki Nerka Nippian Nippik Niria Noahta Nura Pattu Piati Pika Pikaya Pikii Pikte Poka Pokaya Puka Pukaya Qaina Qana Qeorva Qima Qimma Saaria Saka Sako Sala Sedna Sialu Siku Sinna Sudlu Suinna Suko Taka Tarna Tatti Tega Tiki Tiqiia Toka Tokae Toki Tonra Tuaqiia Tuuqiia Tuyokii
+            }
+			second_names = {
+				Akpik Alerk Anik Aniq Annak Anuk Anuq Appiak Artok Aruk Assuk Ataik Atkaq Awik Cika Hane Ichiik Ichiin Ikaaq Ilak Ilaq Ingaq Ipok Irmik Issun Kakria Kani Kaqiia Karte Kattiya Kauyaria Kilu Kina Kinga Kitiya Kraqiia Kuqiia Maka Mangi Mikti Miqiia Nagi Naite Narte Nasi Nati Nerka Nerte Niite Nippiat Nunga Nuria Nutu Oviq Palu Piane Poallu Poka Pokaya Qati Qima Quana Qussi Saka Saki Sako Sedna Serti Siala Siarka Siava Sika Sissa Suka Tarra Tiqiia Toka Tokii Toko Toku Torni Tupam Tuyokaya Ukaq Yalluq
+			}
+            regnal_first_names_male = {
+				Aikpok Akiyok Amaq Anut Artok Attik Biisi Inuk Irut Iyartok Kana Kiaqiia Kira Krisa Mane Masi Miakti Naku Nuna Pakii Puka Sarte Sialu Sina Tarni Toka Tokae Toki Toko
+            }
+            regnal_first_names_female = {
+				Agak Akok Akut Appiaq Aqiiaq Artok Atqain Kana Kikii Kila Kite Mana Noahta Pokaya Qima Sako Sialu Suinna Taka Tatti Toka Toki Tuaqiia Tuyokii
+            }
+			regnal_second_names = {
+				Annak Anuq Ilaq Kilu Mikti Nutu Oviq Poka Siarka Toku Ukaq Yalluq
+			}
+		}
+	}
+}

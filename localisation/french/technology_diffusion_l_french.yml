@@ -1,0 +1,21 @@
+﻿l_french:
+  technology_diffusion_dmm_loc:0 "Diffusion Technologique - Customisation"
+
+  tdf_content_title:0 "Menu de Diffusion Technologique"
+  tdf_content_desc:0 "Bienvenue sur les paramètres de Tech Diffusion, vous pouvez changer ici la vitesse de diffusion pour tous les empires !"
+  tdf_content_current_fast:0 "Actuellement réglé sur vitesse rapide"
+  tdf_content_current_normal:0 "Actuellement réglé sur vitesse normale"
+  tdf_content_current_slow:0 "Actuellement réglé sur vitesse ralentie"
+  tdf_content_set_fast:0 "Régler sur vitese rapide (+50%)"
+  tdf_content_set_normal:0 "Régler sur vitesse normale (défaut)"
+  tdf_content_set_slow:0 "Régler sur vitesse ralentie (-50%)"
+  tdf_content_cancel:0 "Annuler"
+  tdf_content_start:0 "Démarrer la partie avec les valeurs par défaut"
+
+
+  tdf_technology_bonus_eng:0 "Bonus en ingénieurie"
+  tdf_technology_bonus_soc:0 "Bonus en société"
+  tdf_technology_bonus_phy:0 "Bonus en physiques"
+  mod_country_base_engineering_research_produces_add:0 "Points de recherche bonus en ingénierie de diffusion technologique"
+  mod_country_base_society_research_produces_add:0 "Points de recherche bonus en société de diffusion technologique"
+  mod_country_base_physics_research_produces_add:0 "Points de recherche bonus en physiques de diffusion technologique"

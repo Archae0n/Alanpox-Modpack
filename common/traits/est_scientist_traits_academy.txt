@@ -1,0 +1,267 @@
+#################
+# SHARED TRAITS #
+#################
+
+leader_trait_meticulous_3_est = {
+	replace_traits = { "leader_trait_meticulous_2" }
+	inline_script = {
+		script = trait/icon
+		CLASS = scientist
+		ICON = GFX_leader_trait_meticulous
+		RARITY = common
+		COUNCIL = no
+		TIER = 3
+	}
+	modifier = {
+		ship_anomaly_generation_chance_mult = 0.2
+	}
+	leader_potential_add = {
+		FROM = { 
+			has_active_tradition = tr_est_academy_finish
+		}
+	}
+	leader_class = { scientist }
+	opposites = {
+		leader_trait_carefree
+		leader_trait_carefree_2
+		leader_trait_carefree_3_est
+	}
+	ai_weight = 50
+}
+
+leader_trait_spark_of_genius_3_est = {
+	replace_traits = { "leader_trait_spark_of_genius_2" }
+	inline_script = {
+		script = trait/icon
+		CLASS = scientist
+		ICON = GFX_leader_trait_spark_of_genius
+		RARITY = common
+		COUNCIL = yes
+		TIER = 3
+	}
+	councilor_modifier = {
+		all_technology_research_speed = 0.09
+		# increased chance to discover rare techs (weighted in tech-script)
+	}
+	leader_potential_add = {
+		always = no
+		#FROM = { 
+		#	has_active_tradition = tr_est_academy_finish
+		#}
+	}
+	leader_class = { scientist }
+	opposites = {
+		leader_trait_paranoid
+		leader_trait_paranoid_2
+	}
+	ai_weight = 200
+}
+
+leader_trait_carefree_3_est = {
+	replace_traits = { "leader_trait_carefree_2" }
+	inline_script = {
+		script = trait/icon
+		CLASS = scientist
+		ICON = GFX_leader_trait_carefree
+		RARITY = common
+		COUNCIL = no
+		TIER = 3
+	}
+	modifier = {
+		ship_anomaly_research_speed_mult = 0.3
+	}
+	leader_potential_add = {
+		FROM = { 
+			has_active_tradition = tr_est_academy_finish
+		}
+	}
+	leader_class = { scientist }
+	opposites = {
+		leader_trait_meticulous
+		leader_trait_meticulous_2
+		leader_trait_meticulous_3_est
+		leader_trait_neurotic
+		leader_trait_neurotic_2
+	}
+	ai_weight = 50
+}
+
+leader_trait_roamer_3_est = {
+	replace_traits = { "leader_trait_roamer_2" }
+	inline_script = {
+		script = trait/icon
+		CLASS = scientist
+		ICON = GFX_leader_trait_roamer
+		RARITY = common
+		COUNCIL = no
+		TIER = 3
+	}
+	modifier = {
+		science_ship_survey_speed = 0.25
+	}
+	leader_potential_add = {
+		FROM = { 
+			has_active_tradition = tr_est_academy_finish
+		}
+	}
+	leader_class = { scientist }
+	opposites = {
+		leader_trait_neurotic
+		leader_trait_neurotic_2
+	}
+	ai_weight = 100
+}
+
+leader_trait_archaeologist_3_est = {
+	replace_traits = { "leader_trait_archaeologist_2" }
+	inline_script = {
+		script = trait/icon
+		CLASS = scientist
+		ICON = GFX_leader_trait_archaeologist
+		RARITY = common
+		COUNCIL = no
+		TIER = 3
+	}
+	custom_tooltip = leader_trait_archaeologist_tooltip_est_2
+	modifier = {
+		ship_archaeological_site_excavation_speed_mult = 0.25
+	}
+	self_modifier = {
+		
+		# Every Precursor anomaly category needs to be listed here
+		vultaum_1_cat_research_speed_mult = 1.0
+		vultaum_2_cat_research_speed_mult = 1.0
+		vultaum_3_cat_research_speed_mult = 1.0
+		vultaum_4_cat_research_speed_mult = 1.0
+		vultaum_5_cat_research_speed_mult = 1.0
+		vultaum_6_cat_research_speed_mult = 1.0
+		vultaum_7_cat_research_speed_mult = 1.0
+		vultaum_8_cat_research_speed_mult = 1.0
+		vultaum_9_cat_research_speed_mult = 1.0
+		vultaum_10_cat_research_speed_mult = 1.0
+		vultaum_11_cat_research_speed_mult = 1.0
+		
+		yuht_1_cat_research_speed_mult = 1.0
+		yuht_2_cat_research_speed_mult = 1.0
+		yuht_3_cat_research_speed_mult = 1.0
+		yuht_4_cat_research_speed_mult = 1.0
+		yuht_5_cat_research_speed_mult = 1.0
+		yuht_6_cat_research_speed_mult = 1.0
+		yuht_7_cat_research_speed_mult = 1.0
+		yuht_8_cat_research_speed_mult = 1.0
+		yuht_9_cat_research_speed_mult = 1.0
+		
+		league_1_cat_research_speed_mult = 1.0
+		league_2_cat_research_speed_mult = 1.0
+		league_3_cat_research_speed_mult = 1.0
+		league_4_cat_research_speed_mult = 1.0
+		league_5_cat_research_speed_mult = 1.0
+		league_6_cat_research_speed_mult = 1.0
+		league_7_cat_research_speed_mult = 1.0
+		league_8_cat_research_speed_mult = 1.0
+		league_9_cat_research_speed_mult = 1.0
+		league_10_cat_research_speed_mult = 1.0
+		league_11_cat_research_speed_mult = 1.0
+		league_12_cat_research_speed_mult = 1.0
+		league_13_cat_research_speed_mult = 1.0
+		league_14_cat_research_speed_mult = 1.0
+		
+		irassian_1_cat_research_speed_mult = 1.0
+		irassian_2_cat_research_speed_mult = 1.0
+		irassian_3_cat_research_speed_mult = 1.0
+		irassian_4_cat_research_speed_mult = 1.0
+		irassian_5_cat_research_speed_mult = 1.0
+		irassian_6_cat_research_speed_mult = 1.0
+		irassian_7_cat_research_speed_mult = 1.0
+		irassian_8_cat_research_speed_mult = 1.0
+		irassian_9_cat_research_speed_mult = 1.0
+		irassian_10_cat_research_speed_mult = 1.0
+		irassian_11_cat_research_speed_mult = 1.0
+		
+		cybrex_1_cat_research_speed_mult = 1.0
+		cybrex_2_cat_research_speed_mult = 1.0
+		cybrex_3_cat_research_speed_mult = 1.0
+		cybrex_4_cat_research_speed_mult = 1.0
+		cybrex_5_cat_research_speed_mult = 1.0
+		cybrex_6_cat_research_speed_mult = 1.0
+		cybrex_7_cat_research_speed_mult = 1.0
+		cybrex_8_cat_research_speed_mult = 1.0
+		cybrex_9_cat_research_speed_mult = 1.0
+		cybrex_10_cat_research_speed_mult = 1.0
+		cybrex_11_cat_research_speed_mult = 1.0
+		
+		VULTAUMAR_research_speed_mult = 1.0
+		YUHTAAN_research_speed_mult = 1.0
+		FEN_HABBANIS_research_speed_mult = 1.0
+		IRASSIA_research_speed_mult = 1.0
+	}
+	leader_potential_add = {
+		FROM = { 
+			has_active_tradition = tr_est_academy_finish
+		}
+	}
+	leader_class = { scientist }
+	ai_weight = 100
+}
+
+#leader_trait_maniacal now has tier 3 from Paradox
+
+leader_trait_custom_AI_assistant_2_est = {
+	replace_traits = { "leader_trait_custom_AI_assistant" }
+	inline_script = {
+		script = trait/icon
+		CLASS = scientist
+		ICON = GFX_leader_trait_custom_AI_assistant
+		RARITY = common
+		COUNCIL = no
+		TIER = 2
+	}
+	modifier = {
+		science_ship_survey_speed = 0.12
+		ship_anomaly_research_speed_mult = 0.12
+	}
+	leader_class = { scientist }
+	leader_potential_add = {
+		FROM = { 
+			has_active_tradition = tr_est_academy_finish
+		}
+	}
+	opposites = {
+		"leader_trait_sapient_AI_assistant"
+		"leader_trait_sapient_AI_assistant_2_est"
+	}
+	
+	ai_weight = 50
+}
+
+leader_trait_sapient_AI_assistant_2_est = {
+	replace_traits = { "leader_trait_sapient_AI_assistant" }
+	inline_script = {
+		script = trait/icon
+		CLASS = scientist
+		ICON = GFX_leader_trait_sapient_AI_assistant
+		RARITY = common
+		COUNCIL = no
+		TIER = 2
+	}
+	modifier = {
+		science_ship_survey_speed = 0.18
+		ship_anomaly_research_speed_mult = 0.18
+	}
+	leader_potential_add = {
+		NOT = { from = { has_policy_flag = ai_outlawed } }
+		FROM = { 
+			has_active_tradition = tr_est_academy_finish
+		}
+	}
+	leader_class = { scientist }
+	prerequisites = { tech_sapient_ai }
+	opposites = {
+		"leader_trait_custom_AI_assistant"
+		"leader_trait_custom_AI_assistant_2_est"
+	}
+	
+	ai_weight = 70
+}
+
+#(Ben_D): leader_trait_expertise_(insert here) now has 3 tiers from Paradox

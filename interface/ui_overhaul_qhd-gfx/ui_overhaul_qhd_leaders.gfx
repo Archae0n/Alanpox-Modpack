@@ -1,0 +1,258 @@
+spriteTypes = {
+	# rarity
+	spriteType = {
+		name = "GFX_ui_leader_rarity_hexagon"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_hexagon.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_ui_leader_rarity_hexagon_center"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_hexagon_center.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_ui_leader_rarity_hexagon_square"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_hexagon_square.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_leader_rarity_research"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_research.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_leader_rarity_sector"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_sector.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+	}
+	# rarity frames
+	spriteType = {
+		name = "GFX_leader_rarity_frame_expanded"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/rarity_frames/leader_rarity_frame_expanded.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/leaders/masks/leader_rarity_frame_expanded_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_frame_animated_texture_large.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 40
+			animationdelay = 0
+			animationblendmode = "overlay"
+			animationtype = "scrolling" #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 2 y = 0.5 }
+			animationtexturescale = { x = 1 y = 1 }
+			#animationframes = { 1 2 3 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_leader_rarity_anomaly"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/rarity_frames/leader_rarity_anomaly.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/leaders/masks/leader_rarity_anomaly_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_frame_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 30
+			animationdelay = 0
+			animationblendmode = "overlay"
+			animationtype = "scrolling" #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 2 y = 0.5 }
+			animationtexturescale = { x = 1 y = 1 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_leader_rarity_election"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/rarity_frames/leader_rarity_election.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/leaders/masks/leader_rarity_election_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_frame_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 30
+			animationdelay = 0
+			animationblendmode = "overlay"
+			animationtype = "scrolling" #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 2 y = 0.5 }
+			animationtexturescale = { x = 1 y = 1 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_leader_rarity_fleet_admiral"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/rarity_frames/leader_rarity_fleet_admiral.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/leaders/masks/leader_rarity_fleet_admiral_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_frame_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 28
+			animationdelay = 0
+			animationblendmode = "overlay"
+			animationtype = "scrolling" #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 2 y = 0.5 }
+			animationtexturescale = { x = 1 y = 1 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_leader_rarity_fleet_combat"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/rarity_frames/leader_rarity_fleet_combat.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/leaders/masks/leader_rarity_fleet_combat_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_frame_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 28
+			animationdelay = 0
+			animationblendmode = "overlay"
+			animationtype = "scrolling" #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 2 y = 0.5 }
+			animationtexturescale = { x = 1 y = 1 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_leader_rarity_fleet_manager"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/rarity_frames/leader_rarity_fleet_manager.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/leaders/masks/leader_rarity_fleet_manager_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_frame_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 26
+			animationdelay = 0
+			animationblendmode = "overlay"
+			animationtype = "scrolling" #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 2 y = 0.5 }
+			animationtexturescale = { x = 1 y = 1 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_leader_rarity_general"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/rarity_frames/leader_rarity_general.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/leaders/masks/leader_rarity_general_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_frame_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 30
+			animationdelay = 0
+			animationblendmode = "overlay"
+			animationtype = "scrolling" #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 2 y = 0.5 }
+			animationtexturescale = { x = 1 y = 1 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_leader_rarity_planet_governor"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/rarity_frames/leader_rarity_planet_governor.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/leaders/masks/leader_rarity_planet_governor_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/leaders/leader_rarity_frame_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 30
+			animationdelay = 0
+			animationblendmode = "overlay"
+			animationtype = "scrolling" #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 2 y = 0.5 }
+			animationtexturescale = { x = 1 y = 1 }
+		}
+		legacy_lazy_load = no
+	}
+	# backgrounds
+	spriteType = {
+		name = "GFX_ui_leader_class_bg"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/leader_class_bg.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_ui_leader_class_bg_sector"
+		textureFile = "gfx/ui_overhaul_qhd/leaders/leader_class_bg_sector.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_leader_dark_backdrop_expanded"
+		texturefile = "gfx/ui_overhaul_qhd/leaders/leader_dark_backdrop_expanded.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+	# no leader background
+	spriteType = {
+		name = "GFX_empty_leader_large"
+		texturefile = "gfx/ui_overhaul_qhd/leaders/leader_unknown_silhouette_large.dds"
+	}
+	# expand list button
+	spriteType = {
+		name = "GFX_ui_expand_row_button_848"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/expand/button_848_42_expand_row.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_ui_unexpand_row_button_848"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/expand/button_848_42_unexpand_row.dds"
+		noOfFrames = 4
+	}
+	# leader assign buttons
+	spriteType = {
+		name = "GFX_ui_leader_assign_entry_840"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/leader_assign/leader_button_840_88_animated.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 4
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/leader_assign/leader_button_840_88_animated_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/buttons/leader_assign/leader_button_88_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 100
+			animationdelay = 0
+			animationblendmode = "overlay"	#add, multiply, overlay
+			animationtype = "scrolling"		#scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_ui_leader_assign_entry_656"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/leader_assign/leader_button_656_88_animated.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 4
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/leader_assign/leader_button_656_88_animated_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/buttons/leader_assign/leader_button_88_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 100
+			animationdelay = 0
+			animationblendmode = "overlay"	#add, multiply, overlay
+			animationtype = "scrolling"		#scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+}

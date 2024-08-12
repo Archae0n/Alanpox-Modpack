@@ -1,0 +1,407 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	donggu = {
+		name = Dong
+		plural = Dong
+		home_planet = Donggu
+		home_system = Jugu
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	beokrya = {
+		name = Beokrian
+		plural = Beokrians
+		home_planet = Beokrya
+		home_system = Kal-won
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	hyebaegu = {
+		name = "Ki-ju Chaha"
+		plural = "Ki-ju Chaha"
+		home_planet = Hyebaegu
+		home_system = Guncheon
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	uiwon = {
+		name = Uiwonese
+		plural = Uiwonese
+		home_planet = Uiwon
+		home_system = Ga-eul-min
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	wolgok = {
+		name = Wolgokan
+		plural = Wolgokans
+		home_planet = Wolgok
+		home_system = Dongdeon
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	jinsung = {
+		name = Jinsungese
+		plural = Jinsungese
+		home_planet = Jinsung
+		home_system = Guryo 
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	jungcheon = {
+		name = Jungoid
+		plural = Jungoids
+		home_planet = Jungcheon
+		home_system = Bombangcha 
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	masterbelow = {
+		name = Okjin
+		plural = Okjin
+		home_planet = "Master Below"
+		home_system = "Master Above" 
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	uljeon = {
+		name = Ul
+		plural = Ul
+		home_planet = Uljeon
+		home_system = Myeosik 
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	yooyeongan = {
+		name = Pacheok
+		plural = Pacheok
+		home_planet = Yoo-yeongan
+		home_system = Oh-seong-ho
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	kyunnam = {
+		name = Kyunnamese
+		plural = Kyunnamese
+		home_planet = Kyunnam
+		home_system = Yo-gu
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	haeheon = {
+		name = Bye-su
+		plural = Bye-su
+		home_planet = Maeheon
+		home_system = Bujeolchoo
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	goryun = {
+		name = Goryunoid
+		plural = Goryunoids
+		home_planet = Goryun
+		home_system = Bongmyeok
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	hangmoong = {
+		name = Chee-yo-hon  
+		plural = Chee-yo-hon
+		home_planet = "Hang Moong"
+		home_system = "Hang Gwang"
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	seunmin = {
+		name = Seunese  
+		plural = Seunese
+		home_planet = Seunmin
+		home_system = Bae-gu
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	majesticsupporter = {
+		name = Ki-tae-woo  
+		plural = Ki-tae-woo
+		home_planet = "Majestic Supporter"
+		home_system = "Splendid Deliverer"
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	gocheok = {
+		name = Cheok  
+		plural = Cheoks
+		home_planet = Gocheok
+		home_system = Gwangchee
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	pilgok = {
+		name = Pilgokese 
+		plural = Pilgokese
+		home_planet = Pilgok
+		home_system = Isangseong
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	truerealm = {
+		name = Godo 
+		plural = Godo
+		home_planet = "True Realm"
+		home_system = "Arrow of Heaven"
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	youngnasang = {
+		name = Nasangese
+		plural = Nasangese
+		home_planet = "Young Nasang"
+		home_system = "Old Nasang"
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	geolseu = {
+		name = Yu-Ra 
+		plural = Yu-Ra
+		home_planet = Geolseu
+		home_system = Dei
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	mingchee = {
+		name = Mingchian
+		plural = Mingchians
+		home_planet = Ming-chee
+		home_system = Byun
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	jeongho = {
+		name = Heonite
+		plural = Heonites
+		home_planet = Jeong-ho
+		home_system = Byeong-hyeon
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	landofinfinity = {
+		name = Goryoun
+		plural = Goryoun
+		home_planet = "Land of Infinity"
+		home_system = "First Chaos"
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	cheounseon = {
+		name = Cheounoid
+		plural = Cheounoids
+		home_planet = Cheounseon
+		home_system = Mueobuk
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	seok = {
+		name = Giseol
+		plural = Giseol
+		home_planet = Seok
+		home_system = Seok-gun
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	seong = {
+		name = Seong-Ochee
+		plural = Seong-Ochee
+		home_planet = Seong
+		home_system = Seong-ah
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	hobuk = {
+		name = Hobukkese
+		plural = Hobukkese
+		home_planet = Hobuk
+		home_system = Garim
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	vinazco = {
+		name = Ryangian
+		plural = Ryangians
+		home_planet = Ryangsu
+		home_system = Narye
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	littlejieun = {
+		name = Jieunese
+		plural = Jieunese
+		home_planet = "Little Jieun"
+		home_system = "Big Jieun"
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	yongchanam = {
+		name = Yeol
+		plural = Yeol
+		home_planet = Yongchanam
+		home_system = Dohang
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	jookminkyun = {
+		name = Masangseon
+		plural = Masangseon
+		home_planet = "Jook Min-kyun"
+		home_system = "Jook Ji-yoo"
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	eosunong = {
+		name = Eosan
+		plural = Eosans
+		home_planet = "Eosu Nong"
+		home_system = Heun-hang
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	gangdangsu = {
+		name = Gangdangese
+		plural = Gangdangese
+		home_planet = Gangdang-su
+		home_system = Ji-tae-Young
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	geolseu = {
+		name = Yu-Ra 
+		plural = Yu-Ra
+		home_planet = Geolseu
+		home_system = Dei
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	jenikorean = {
+		name = Jang-Mi
+		plural = Jang-Mi
+		home_planet = Je-Ni
+		home_system = "Geomjeong Bunhong"
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	namjonprime = {
+		name = Namjonese
+		plural = Namjonese
+		home_planet = "Nam-jon Prime"
+		home_system = Nam-jon
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	haseon = {
+		name = Haseonish
+		plural = Haseonish
+		home_planet = Haseon
+		home_system = Jaegan
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	yeoseom = {
+		name = Pyongese
+		plural = Pyongese
+		home_planet = Yeoseom
+		home_system = Jong'a
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	mungu = {
+		name = Seungian
+		plural = Seungians
+		home_planet = Mungu
+		home_system = Hae-Sungnil
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	jeunwon = {
+		name = Myung
+		plural = Myung
+		home_planet = Jeun-Won
+		home_system = Seojeon
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	euncheong = {
+		name = Euncheongese
+		plural = Euncheongese
+		home_planet = Euncheong
+		home_system = Jeomsangan
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	cheongathebeautifulmaiden = {
+		name = Mirae
+		plural = Mirae
+		home_planet = "Cheonga the Beautiful Maiden"
+		home_system = "Jangwon the Handsome Youth"
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	soogu = {
+		name = Sooguan
+		plural = Sooguans
+		home_planet = Soo-gu
+		home_system = Ki-heong-joo
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	jeonsambition = {
+		name = Jeonese
+		plural = Jeonese
+		home_planet = "Jeon's Ambition"
+		home_system = "Hye the Little Wolf"
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	daebi = {
+		name = Daebian
+		plural = Daebians
+		home_planet = Dae-Bi
+		home_system = Kkon-Eun
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	dolgom = {
+		name = Dolgomese
+		plural = Dolgomese
+		home_planet = Dolgom
+		home_system = Kang
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	peumgi = {
+		name = Peumgian
+		plural = Peumgians
+		home_planet = Peumgi
+		home_system = Pakbak
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	gwangdongbaek = {
+		name = Gwangdongese
+		plural = Gwangdongese
+		home_planet = Gwangdongbaek
+		home_system = Pakbak
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+	yisunsin = {
+		name = Yisunsinian
+		plural = Yisunsinians
+		home_planet = Yisunsin
+		home_system = Chungmugong
+		name_list = "cybrxkhan_fantasy_korean_2"
+	}
+}

@@ -1,0 +1,544 @@
+﻿l_english:
+  # Decisions
+  decision_ef_expand_deep_levels: "Expand Deep Levels"
+  decision_ef_expand_deep_levels_effects_short: "Increases district slots and the size of the §BDeep Levels§! network."
+  decision_ef_expand_deep_levels_desc: "Through excavation and careful surveying, we can reinforce and expand the lowest levels of this world's urban sprawl."
+
+  decision_ef_block_off_deep_levels: "Block off Deep Levels"
+  decision_ef_block_off_deep_levels_effects_short: "Removes a §BDeep Level§! and the corresponding district slot."
+  decision_ef_block_off_deep_levels_desc: "The endless underground residential levels have become too unwieldy to administrate effectively. We must consolidate the population into a more manageable area."
+
+  decision_ef_construct_spaceport: "Construct Spaceport"
+  decision_ef_construct_spaceport_desc: "By expanding our cargo infrastructure with dedicated docking zones, we can accelerate the flow of goods and people to fuel our world."
+
+  decision_ef_construct_orbital_control_network: "Construct Orbital Control Network"
+  decision_ef_construct_orbital_control_network_desc: "The orbital space of our world is just as important as the surface. We must ensure that it is well managed."
+
+  decision_ef_establish_climate_regulation_systems: "Establish Climate Regulation Systems"
+  decision_ef_establish_climate_regulation_systems_desc: "A coordinated and well developed system of thermal and atmospheric management is critical to preserving the habitability of our world."
+
+  decision_ef_construct_seismic_stabilization_stations: "Construct Seismic Stabilization Stations"
+  decision_ef_construct_seismic_stabilization_stations_desc: "To enable layers upon layers of urban sprawl, careful load and structural management must be a priority."
+
+  decision_ef_terraform_urban_lakes: "Terraform Lake Districts"
+  decision_ef_terraform_urban_lakes_desc: "On a world as mighty as this, mere extravagance will not do. The wealthy and the powerful demand total opulence."
+
+  decision_ef_designate_parklands: "Designate Parklands"
+  decision_ef_designate_parklands_desc: "By setting aside some valuable land to preserve this world's biosphere, we can improve the quality of all surrounding cityscape."
+
+  decision_ef_establish_imperial_academies: "Establish Imperial Conservatories"
+  decision_ef_establish_imperial_academies_desc: "Great halls of culture shall make this world one the crown jewels of the cosmos and spread our empire's influence across the stars."
+
+  decision_ef_host_galactic_exhibitions: "Host Galactic Exhibitions"
+  decision_ef_host_galactic_exhibitions_desc: "The culture and accomplishments of our empire are noteworthy and deserving of praise. Let us show them off to all."
+
+  decision_ef_prepare_diplomatic_quarter: "Prepare a Diplomatic Quarter"
+  decision_ef_prepare_diplomatic_quarter_desc: "A large portion of our cityscape shall be dedicated to the embassies and ministries of intergalactic affairs."
+
+  decision_ef_choose_path: "Choose a Planetary Specialization"
+  decision_ef_choose_path_effects_short: "Enables us to pick a specialized path for this planet."
+  decision_ef_choose_path_desc: "Embark on a program of investment and construction to focus this world's output."
+
+  decision_ef_revise_industrial_policy: "Revise Industrial Environmental Policy"
+  decision_ef_revise_industrial_policy_desc: "Although we have benefited from the relaxed environmental regulations, the time has come to consider the impact on the habitability of our world."
+  ef_decision_revise_industrial_policy_tt: "§BThis will restart the Pollution on [This.GetName] situation.§!"
+
+  # Misc Loc
+  mod_planet_rangers_unity_produces_add: "£unity£$unity$ from £job_ranger£$job_ranger_plural$"
+
+  # Deposits
+  d_ef_ventilation_system: "Ventilation Systems"
+  d_ef_ventilation_system_desc: "A massive system of ducts and fans provide breathable atmosphere to the denizens of the under city."
+
+  d_ef_subterranean_habitation_zones: "Subterranean Habitation Zones"
+  d_ef_subterranean_habitation_zones_desc: "The scarcity of land on the surface drives many of the teeming masses underground, where they coexist cheek by mandible."
+
+  d_ef_underground_tramways: "Underground Tramways"
+  d_ef_underground_tramways_desc: "Automated deliveries run tirelessly day and night. These underground conduits are the lifeblood of the world-city."
+
+  d_ef_deep_level_districts: "Deep Level Districts"
+  d_ef_deep_level_districts_desc: "Far beneath the spires of the surface, a meager living is eked out by those who have never seen the sun."
+
+  d_ef_orbital_control_network: "Orbital Control Network"
+  d_ef_orbital_control_network_desc: "Enormous numbers of satellites, stations and shipping traffic forms a perpetual navigation hazard around this world."
+
+  d_ef_spaceport: "Planetary Spaceport"
+  d_ef_spaceport_desc: "Immense infrastructure and an army of personnel work nonstop to feed the voracious appetites of this world."
+
+  d_ef_climate_management_centre: "Climate Management Center"
+  d_ef_climate_management_centre_desc: "A complex array of machines and sensors carefully imitate the role of a natural biosphere, regulating the climate and atmosphere of this world."
+
+  d_ef_seismic_stabilization_stations: "Seismic Stabilization Stations"
+  d_ef_seismic_stabilization_stations_desc: "By securing the lower levels of the urban sprawl, we enable even grander and larger structures to be constructed on the levels above."
+
+  d_ef_ship_breaking_yards: "Ship Breaking Yards"
+  d_ef_ship_breaking_yards_desc: "Dedicated facilities and diligent workers strip old hulks of anything that could possibly be of value."
+
+  d_ef_urban_parklands: "Urban Parklands"
+  d_ef_urban_parklands_desc: "Swathes of land in the city centers, given over entirely to green spaces and amenities."
+
+  d_ef_lake_district: "Lake District"
+  d_ef_lake_district_desc: "A palatial retreat for the wealthy and the lucky. A huge chunk of scarce and valuable land has been flooded and carefully terraformed to form perfect ornamental lakes."
+
+  d_ef_imperial_conservatory: "Imperial Conservatory"
+  d_ef_imperial_conservatory_desc: "The cultural nexus of a hundred worlds. Here the talented and ambitious come to seek their fame and fortune from across the galaxy."
+
+  d_ef_galactic_expo_centre: "Galactic Expo Center"
+  d_ef_galactic_expo_centre_desc: "The treasures and amenities of the galaxy, all on display amidst the grandeur of this great city."
+
+  d_ef_grand_presidium: "Grand Presidium"
+  d_ef_grand_presidium_desc: "An enormous diplomatic quarter capable of accommodating masses of diplomats in tasteful splendor."
+
+  # Jobs
+  job_ef_satellite_operator: "Satellite Operator"
+  job_ef_satellite_operator_plural: "Satellite Operators"
+  mod_job_ef_satellite_operator_add: "$job_ef_satellite_operator$ Jobs"
+  job_ef_satellite_operator_desc: "Coordinating the swarming masses of orbital comm buoys, stations and satellites is a demanding task; Kessler syndrome has to be avoided."
+
+  job_ef_deep_level_engineer: "Deep Level Engineer"
+  job_ef_deep_level_engineer_plural: "Deep Level Engineers"
+  mod_job_ef_deep_level_engineer_add: "$job_ef_deep_level_engineer$ Jobs"
+  job_ef_deep_level_engineer_desc: "Preventing the immense structures of the urban sprawl collapsing in on themselves is as much an art as a science."
+
+  job_ef_habitation_technician: "Habitation Technician"
+  job_ef_habitation_technician_plural: "Habitation Technicians"
+  mod_job_ef_habitation_technician_add: "$job_ef_habitation_technician$ Jobs"
+  job_ef_habitation_technician_desc: "In the absence of a natural biosphere, vast vats of algae and xenoplanktons are cultivated to provide nutrients and a breathable atmosphere."
+
+  job_ef_freighter_pilot: "Freighter Pilot"
+  job_ef_freighter_pilot_plural: "Freighter Pilots"
+  mod_job_ef_freighter_pilot_add: "$job_ef_freighter_pilot$ Jobs"
+  job_ef_freighter_pilot_desc: "Specialist skills and local knowledge are needed to safely guide shuttles and freighters to their berths amid the spires and towers."
+
+  job_ef_gemcutter: "Gemcutter"
+  job_ef_gemcutter_plural: "Gemcutters"
+  mod_job_ef_gemcutter_add: "$job_ef_gemcutter$ Jobs"
+  job_ef_gemcutter_desc: "Skilled artisans cut and engrave rare crystals into galaxy-renowned works of art."
+  job_ef_gemcutter_effect_desc: "£job_ef_gemcutter£ $job_ef_gemcutter_plural$ turn £rare_crystals£ §Y$rare_crystals$§! into £trade_value£ §YTrade Value§!"
+
+  job_ef_recycler: "Recycler"
+  job_ef_recycler_plural: "Recyclers"
+  mod_job_ef_recycler_add: "$job_ef_recycler$ Jobs"
+  job_ef_recycler_desc: "Salvage and scrap can be just as lucrative as any fresh-forged factory goods."
+
+  job_ef_vent_tribal: "Vent Tribal"
+  job_ef_vent_tribal_plural: "Vent Tribals"
+  mod_job_ef_vent_tribal_add: "$job_ef_vent_tribal$ Jobs"
+  job_ef_vent_tribal_desc: "The vast underground network of vents hosts an ecosystem of its own; one capable of supporting entire communities and other, more dangerous things."
+
+  job_ef_surface_smuggler: "Surface Smuggler"
+  job_ef_surface_smuggler_plural: "Surface Smugglers"
+  mod_job_ef_surface_smuggler_add: "$job_ef_surface_smuggler$ Jobs"
+  job_ef_surface_smuggler_desc: "Those willing to make the perilous journey from the deepest levels to the surface can bring great riches back home."
+
+  job_ef_deep_dweller: "Deep Dweller"
+  job_ef_deep_dweller_plural: "Deep Dwellers"
+  mod_job_ef_deep_dweller_add: "$job_ef_deep_dweller$ Jobs"
+  mod_job_ef_deep_dweller_per_pop: "§G+1§! $job_ef_deep_dweller$ Job per §Y20§! Pops"
+  job_ef_deep_dweller_desc: "In the deepest and most isolated levels, entire cultures and societies can exist with almost no knowledge of the outside world."
+
+  job_ef_hive_ganger: "Hive Ganger"
+  job_ef_hive_ganger_plural: "Hive Gangers"
+  mod_job_ef_hive_ganger_add: "$job_ef_hive_ganger$ Jobs"
+  mod_job_ef_hive_ganger_per_pop: "§G+1§! $job_ef_hive_ganger$ Job per §Y20§! Pops"
+  job_ef_hive_ganger_desc: "Control over the trade routes and populations of the deepest levels requires constant violence."
+
+  # Pop Category Loc
+  pop_cat_ef_undercity: "Underworlder"
+  pop_cat_ef_undercity_plural: "Underworlders"
+  pop_cat_ef_undercity_desc: "Largely forgotten and ignored by mainstream society, the dregs of society make their living in the forgotten spaces of this great city."
+
+  # Building Loc
+  building_ef_hologem_bourse: "Hologem Bourse"
+  building_ef_hologem_bourse_desc: "These enormous halls are host to sophisticated network of acquisitions, artisans and traders. "
+
+  # Situation Loc
+  ef_situation_corpo_war: "Corporate War"
+  ef_situation_corpo_war_desc: "Rival corporate entities are battling for influence on [Target.GetName] in an undeclared shadow war. Without intervention, the situation has the potential to spiral out of control."
+  ef_situation_corpo_war_type: "Corporate War"
+  ef_situation_corpo_war_monthly_change_tooltip: "§LOur security forces are working to restore order on this world. The better funded their §Yapproach§!, the more effective they are likely to be.§!"
+  ef_situation_hands_off: "Hands Off"
+  ef_situation_hands_off_tt: "Minimal Intervention"
+  ef_situation_normal_operations: "Normal Operations"
+  ef_situation_normal_operations_tt: "Standard Response"
+  ef_situation_severe_response: "Severe Response"
+  ef_situation_severe_response_tt: "Crackdowns"
+  ef_stage_corpo_skirmishes: "Corporate Skirmishes"
+  ef_stage_shadow_war: "Shadow War"
+  ef_stage_open_anarchy: "Open Anarchy"
+  ef_stage_corpo_war_1: "§LA constant state of low-level conflict permeates everyday life.§!"
+  ef_stage_corpo_war_2: "§LAssassinations, sabotage and open conflict wrack this world.§!"
+  ef_stage_corpo_war_3: "§LThis world is rapidly destabilizing under the weight of private warfare.§!"
+
+  ef_situation_pollution: "Pollution on [Target.GetName]"
+  ef_situation_pollution_desc: "As [Target.GetName]'s population and industry has grown, it has overtaken practically all of the indigenous environment.\n\nAs the world's industry continues to grow we must be aware of its effects on the fragile ecosphere or it may collapse for good."
+  ef_situation_pollution_type: "Industrial Pollution"
+  ef_situation_pollution_monthly_change_tooltip: "§LThe never ending march of industry has wreaked a toll on this planet.§!"
+  ef_situation_cleanup_operations: "Cleanup Operations"
+  ef_situation_cleanup_operations_tt: "Restoration Efforts"
+  ef_situation_cleanup_operations_desc: "We must take steps to ensure that this world remains livable for future generations."
+  ef_situation_cleanup_operations_effects: "The levels of planetary pollution will §Ydecline§!."
+  ef_situation_normal_production: "Normal Production"
+  ef_situation_normal_production_tt: "Moderate Standards"
+  ef_situation_normal_production_desc: "Reasonable environmental standards protect this world from the worst excesses of pollution."
+  ef_situation_normal_production_effects: "The planetary environment will remain relatively §Ystable§!."
+  ef_situation_let_it_burn: "Let it Burn"
+  ef_situation_let_it_burn_tt: "No Regulations "
+  ef_situation_let_it_burn_desc: "To build a better future for our people, some sacrifices must be made along the way."
+  ef_situation_let_it_burn_effects: "The levels of planetary pollution will §Yincrease§!."
+  ef_stage_contamination_1: "Negligible Pollutants"
+  ef_stage_contamination_2: "Moderate Contamination"
+  ef_stage_contamination_3: "Severe Contamination"
+  ef_stage_contamination_4: "Extreme Contamination"
+  ef_stage_contamination_5: "Industrial Wastelands"
+  ef_stage_contamination_1_tt: "§LThis world is relatively pleasant and clean.§!"
+  ef_stage_contamination_2_tt: "§LContaminants and waste mar the otherwise hospitable environment of this world.§!"
+  ef_stage_contamination_3_tt: "§LThis world is indelibly touched by the presence of industry; pollutants are present everywhere.§!"
+  ef_stage_contamination_4_tt: "§LThe discarded remnants of progress have choked the life out of almost all of this world's surviving biosphere.§!"
+  ef_stage_contamination_5_tt: "§LRampant pollutants and toxic materials make this world completely hostile to life beyond the habitation units.§!"
+
+  # Planet Modifier Loc
+  ef_crowded_spacelanes: "Crowded Spacelanes"
+  ef_crowded_spacelanes_desc: "An enormous stream of traffic flows to and from this world in a chaotic and inefficient manner."
+
+  ef_vertical_sprawl: "Vertical Sprawl"
+  ef_vertical_sprawl_desc: "Layers upon layers of arcologies and habitation blocks make navigating the urban cityscape a challenging prospect."
+
+  ef_unstable_climate: "Unstable Climate"
+  ef_unstable_climate_desc: "The absence of a natural biosphere to regulate the planet's climate is keenly felt. Artificial intervention is nessecary to restore the environment's habitability."
+
+  ef_deep_levels_1: "Deep Levels: §BMinor§!"
+  ef_deep_levels_1_desc: "This world's urban sprawl descends several layers beneath the surface."
+
+  ef_deep_levels_2: "Deep Levels: §BModerate§!"
+  ef_deep_levels_2_desc: "A major portion of this world's population resides in the many residential levels below the surface."
+
+  ef_deep_levels_3: "Deep Levels: §BMajor§!"
+  ef_deep_levels_3_desc: "A parallel city exists beneath the glittering spires of this planet's surface, just as large and populous as the world above."
+
+  ef_deep_levels_4: "Deep Levels: §BEnormous§!"
+  ef_deep_levels_4_desc: "A vast network of tunnels and subterranean chambers extends the world-city far down into the planetary mantle."
+
+  ef_deep_levels_5: "Deep Levels: §BSprawling§!"
+  ef_deep_levels_5_desc: "It is impossible to know the true extent of this planet's sprawling underground cityscape. Staggering numbers of people live beneath the arcologies of the surface world."
+
+  ef_financial_hub: "Financial Hub"
+  ef_financial_hub_desc: "This world is a key player in the economic system of the wider galaxy. An enormous amount of revenue is generated here daily."
+
+  ef_marketplace: "Black Market"
+  ef_marketplace_desc: "This world is infamous for its illicit markets. Anything can be bought here by anyone, no questions asked, for the right price."
+
+  ef_glitchy_machines: "Glitchy Machines"
+  ef_glitchy_machines_desc: "Scrapcode and viruses appear to be causing constant low-level disruption on this world's networks."
+
+  ef_ai_insight: "AI Insights"
+  ef_ai_insight_desc: "Novel solutions derived from artificial thought patterns."
+
+  ef_stock_market_1: "Stock Market: Collapse"
+  ef_stock_market_1_desc: "The financial markets of this world are in free fall. Industries and businesses are facing severe challenges."
+
+  ef_stock_market_2: "Stock Market: Downturn"
+  ef_stock_market_2_desc: "This world's financial markets have contracted sharply. Trade and commerce has suffered accordingly."
+
+  ef_stock_market_3: "Stock Market: Stagnation"
+  ef_stock_market_3_desc: "The value of financial assets on this world is unattractive to would-be investors."
+
+  ef_stock_market_4: "Stock Market: Growth"
+  ef_stock_market_4_desc: "The businesses and industries of this world are enjoying steady growth and strong financial performances."
+
+  ef_stock_market_5: "Stock Market: Prosperity"
+  ef_stock_market_5_desc: "The economic performance of this world is spectacular. Its commerce and trade is bustling, vibrant and very lucrative."
+
+  ef_embedded_corruption: "Embedded Corruption"
+  ef_embedded_corruption_desc: "Corruption and bribery have become endemic to the business environment of this world."
+
+  ef_corrupt_collusion: "Corrupt Collusion"
+  ef_corrupt_collusion_desc: "The authorities of this world have turned a blind eye to profitable criminal enterprises."
+
+  ef_robust_law_enforcement: "Robust Law Enforcement"
+  ef_robust_law_enforcement_desc: "The legal authorities of this world are efficient and well run, bringing stability and security to its people."
+
+  ef_financial_chaos: "Financial Chaos"
+  ef_financial_chaos_desc: "A recent event has caused total disruption of this world's economy. Traders and businesses are scrambling to adapt."
+
+  ef_corporate_monopoly: "Corporate Monopoly"
+  ef_corporate_monopoly_desc: "A handful of powerful conglomerates and megacorporations wield almost all power on this world."
+
+  ef_rebuilding: "Reconstruction Efforts"
+  ef_rebuilding_desc: "Major restoration works on this world have prompted a construction boom, at the cost of some of its citizen's convenience."
+
+  ef_shattered_economy: "Shattered Economy"
+  ef_shattered_economy_desc: "This world's economy has been devastated by a recent event leaving its people destitute and hungry."
+
+  ef_economic_boom: "Economic Boom"
+  ef_economic_boom_desc: "This world's economy is seeing remarkable growth in all sectors. The party seems like it will never end!"
+
+  ef_polluted_forge_world: "Inhospitable Industry"
+  ef_polluted_forge_world_desc: "This world's enormous industrial forges have scarred and tainted its environment with the detritus of progress."
+
+  ef_orbital_waste_disposal: "Orbital Waste Disposal"
+  ef_orbital_waste_disposal_desc: "This planet is surrounded by slowly dissipating clouds of trash and waste, fired up into orbit by the inhabitants below."
+
+  ef_playground_of_the_elite: "Playground of the Elite"
+  ef_playground_of_the_elite_desc: "This planet's popularity amongst the galaxy's upper crust lends it an enormous cultural and economic weight."
+
+  ef_luxury_goods_exports: "Luxury Goods Exports"
+  ef_luxury_goods_exports_desc: "This planet is known across the galaxy for its exports of high-quality luxury goods."
+
+  ef_space_hollywood: "Entertainment Hub"
+  ef_space_hollywood_desc: "This world produces enormous quantities of galaxy-acclaimed media and diverse entertainment forms."
+
+  ef_labour_disputes: "Labor Disputes"
+  ef_labour_disputes_desc: "Large sections of this world's economy has ground to a halt amidst intense disagreements over working conditions."
+
+  ef_galactic_centre_of_diplomacy: "Galactic Center of Diplomacy"
+  ef_galactic_centre_of_diplomacy_desc: "§LOne of this empire's worlds has become renowned for its heritage as a center of galactic affairs and statecraft.§!"
+
+  # Trait Loc
+  trait_ef_mutant: "Mutant"
+  trait_ef_mutant_desc: "This species is afflicted with uncontrolled mutations. Their bodies are breaking down under the pressure."
+
+  # Event Loc
+  ef_flavour.10.name: "Into the Deep"
+  ef_flavour.10.desc: "Several prominent members of [This.GetName]'s planetary administration have expressed concern over the lack of information about the state of lowest arcology levels.\n\nThey have petitioned the planetary governor to allow an expedition to venture into the deep levels and conduct a survey of the population and the state of the habitation zones."
+  ef_flavour.10.a: "An excellent initiative."
+  ef_flavour.10.b: "It would be too dangerous."
+
+  ef_flavour.11.name: "Expedition: New Zones"
+  ef_flavour.11.desc: "Our expedition into the deep levels of [This.GetName] has returned with remarkable news; they have encountered entire habitation units unknown to the planetary authorities. What's more they are eager to work!\n\nIt appears that the denizens of the lower levels had been constructing far more than the local governor suspected. Between natural growth and a steady flow of migrants to these new zones, the population of [This.GetName] appears to be larger than the last census would suggest."
+  ef_flavour.11.a: "An unforeseen benefit."
+
+  ef_flavour.12.name: "Expedition: Party Wipe"
+  ef_flavour.12.desc: "After several months without contact we can only assume that something has gone wrong with our survey team. They have disappeared without a trace in the lower levels.\n\nWe have no way of knowing whether they got lost, ran into gangers or other more dangerous things that lurk in the deep recesses of [This.GetName].\n\nRegardless of their ultimate fate, our survey of the arcologies has been left incomplete and we continue to have major gaps in our knowledge of many of the lowest levels."
+  ef_flavour.12.a: "An unfortunate end."
+
+  ef_flavour.13.name: "Expedition: Collapse"
+  ef_flavour.13.desc: "The survivors of our expedition into the deep levels of [This.GetName]'s arcologies have returned. They report that the expedition was making good progress until a large section of underground tunnels and residential zones collapsed.\n\nThe cause is unknown, but it could be anything from a gang war gone overboard to a sudden quake caused by the pressure of the buildings above. Regardless, it appears that this small corner of the world city is no more."
+  ef_flavour.13.a: "Unfortunate."
+
+  ef_flavour.20.name: "Freighter Crash on [This.GetName]"
+  ef_flavour.20.desc: "Tragedy has struck [This.GetName] today as a large freighter broke up in the upper atmosphere, dropping debris and cargo throughout the Southern hemisphere of the planet.\n\nAlthough the falling wreckage has cause some damage, much of it was burned up during the descent. Casualties are relatively light, but it appears that freighter was carrying a large quantity of hazardous materials for a major research laboratory on [This.GetName]. We have no idea what the effect of these substances will be on the planet's enviroment."
+  ef_flavour.20.a: "A great tragedy."
+
+  ef_flavour.21.name: "Freighter: Public Health Crisis"
+  ef_flavour.21.desc: "The exposure of hazardous materials to the people of [This.GetName] appears to have had unfortunate results. The rates of disease, particularly among the poorer inhabitants, has increased.\n\nMany [Owner.GetSpeciesNamePlural] have been reported to be suffering greatly from their exposure to the toxic chemicals, the most unfortunate among them bearing harmful mutations and visible injuries as a result. Although the toxic contamination should naturally disappear over time, its harmful legacy is here to stay."
+  ef_flavour.21.a: "Unfortunate."
+
+  ef_flavour.22.name: "Freighter: Anomalous Individuals"
+  ef_flavour.22.desc: "In the years following the devastating freighter crash on [This.GetName] the local authorities have been receiving increasing reports of individuals possessing strange abilities that appear to defy our understanding of physics.\n\nIt appears that exposure to something in the freighter's cargo must have triggered these changes, unlocking some previously unknown aspect of the [Owner.GetSpeciesName] psyche."
+  ef_flavour.22.a: "A remarkable outcome."
+  ef_flavour.22.b: "Seize these anomalous individuals and study them."
+
+  ef_flavour.30.name: "Escaped Cargo"
+  ef_flavour.30.desc: "During a routine raid on a suspected smuggler's port on [This.GetName] our security forces intercepted a group of suspicious individuals of an unknown species. Interrogations have revealed that they are members of a pre FTL civilization. They claim to have been abducted as slaves by the smugglers and shipped offworld.\n\nWe believe that we can locate their homeworld by examining the smugglers navigation data, but some of the primitives have expressed a desire to remain in our more advanced society, citing poverty and oppression back home."
+  ef_flavour.30.a: "They will stay."
+  ef_flavour.30.b: "Have them returned to their homeworld."
+
+  ef_flavour.40.name: "Centre of Commerce"
+  ef_flavour.40.desc: "As [This.GetName] grows, so to does the [Owner.GetName]'s economy grow.\n\nThe financial elites of our empire have been increasingly drawn to the planet's attractive investment environment and the highly skilled services available. As this financial nexus consolidates, we expect to see [This.GetName] become an increasingly important player in the galactic economy."
+  ef_flavour.40.a: "Wonderful."
+
+  ef_flavour.50.name: "For the Right Price"
+  ef_flavour.50.desc: "[This.GetName] has always been a centre of trade and commerce, where all sorts of goods are available, but it is beginning to acquire a seedier reputation.\n\nCriminal elements have found that the planet's diverse array of traders and enormous financial resources provide the perfect cover for trading in illegal goods and services. If we do not take action against this growing sector soon, it may become entrenched."
+  ef_flavour.50.a: "We have more pressing issues."
+  ef_flavour.50.b: "Crack down on this behaviour."
+
+  ef_flavour.60.name: "Ghost in the System"
+  ef_flavour.60.desc: "Irregularities have begun to crop up on the computer systems of [This.GetName]. Machines shut down for nonexistent maintenance cycles and fraudulent database entries have been causing constant disruption across the planet.\n\nThere is little evidence of who the intruders are, but there is enough to form a trail. Somebody with significant capabilities is trying to get into our systems. They have caused serious disruptions in the process."
+  ef_flavour.60.a: "This requires a full investigation immediately."
+  ef_flavour.60.b: "Wait and see what happens."
+
+  ef_flavour.61.name: "Runaway Machines"
+  ef_flavour.61.desc: "Chaos erupted on [This.GetName] as computer systems across the planet went haywire, causing a great deal of damage. It seems that the initial cause of the intrusion originated from a disused warehouse in the lower levels of the city.\n\nThe authorities were unable to determine the culprits, but they did discover a crude AI core, bearing significant damage. The perpetrators may have escaped, but their weapon is no longer available."
+  ef_flavour.61.a: "Regrettable"
+
+  ef_flavour.62.name: "A Failed Invention"
+  ef_flavour.62.desc: "Our investigation on [This.GetName] has borne fruit. It appears that a minor criminal syndicate was attempting to develop a homegrown artificial intelligence.\n\nUnfortunately for the criminals, they were unable to achieve a fully functional intelligence. The program performed poorly and left telltale traces on public systems when used, allowing our investigators to follow the tracks.\n\nAlthough the criminal's work was shoddy, there are some novel solutions they developed that certain members of our scientific community are interested in."
+  ef_flavour.62.a: "Scrap it."
+  ef_flavour.62.b: "Allow our researchers to examine it."
+
+  ef_path.1.name: "[This.GetName] at the Crossroads"
+  ef_path.1.desc: "As [This.GetName] grows in size and influence, more and more talent is being attracted to the bustling world. We have a unique opportunity to reap the benefits of specialisation by encouraging a particular path of development.\n\nAs one of the galaxy's greatest population centres, [This.GetName] naturally has a great deal of cultural weight. With deliberate outreach programs and sponsorship, we can develop the planet's reputation as a centre of culture and politics in the galaxy.\n\nAs a major source of labour and already well integrated into our logistics networks, [This.GetName] has enormous potential as a manufacturing hub. All it requries is a relatively minor investment.\n\nThe tremendous consumer markets of [This.GetName] have also drawn the attention of numerous conglomerates, who are eager to get their [This.Owner.GetSpeciesHandName]s on the planet's lucrative trade routes."
+  ef_path.1.a: "[This.GetName] has the potential to become a centre of galactic affairs."
+  ef_path.1.a.tooltip: "Unlocks the §BPolitics§! special effects\n\n§RThis decision is permanent§!"
+  ef_path.1.b: "Industrial might will bring us prosperity."
+  ef_path.1.b.tooltip: "Unlocks the §BIndustry§! special effects\n\n§RThis decision is permanent§!"
+  ef_path.1.c: "Commerce and trade is the path forwards."
+  ef_path.1.c.tooltip: "Unlocks the §BCommerce§! special effects\n\n§RThis decision is permanent§!"
+  ef_path.1.d: "Not at this time."
+  ef_path.1.d.tooltip: "§HWe will have the ability to reconsider at a later date.§!"
+  ef_already_specialised_tt: "Only one specialization may be chosen"
+
+  ef_trade.10.name: "Lucrative Outcomes"
+  ef_trade.10.desc: "A recent uptick in economic activity has been reflected on the stock markets of [This.GetName]. Confidence has risen and many investors are enjoying a healthy return."
+  ef_trade.10.a: "Splendid"
+
+  ef_trade.15.name: "An Unfortunate Downswing"
+  ef_trade.15.desc: "Several recent trade reports from major conglomerates on [This.GetName] have painted a less impressive picture than expected. Worried shareholders have quickly divested their shares, prompting the whole market to move downwards. For now at least, the party has stopped."
+  ef_trade.15.a: "I'm sure this is temporary."
+
+  ef_trade.20.name: "Financial Anomalies"
+  ef_trade.20.desc: "Accounting regulators on [This.GetName] have been reporting irregularities in the planetary government's balance sheets. Multiple departments have reporting higher than expected expenses while tax revenue appears to have fallen.\n\nSeveral prominent megacorporations on [This.GetName] have contributed very little to the public coffers, yet they have been reporting record profits over the last financial cycle.\n\nSomething unusual is going on."
+  ef_trade.20.investigate: "We must investigate immediately."
+  ef_trade.20.ignore: "It's likely nothing."
+
+  ef_trade.21.name: "A Grand Conspiracy"
+  ef_trade.21.desc: "Our investigators on [This.GetName] have uncovered evidence of a sweeping conspiracy between major corporate entities and the local government.\n\nNumerous government officials appear to have accepted bribes in exchange for issuing tax reductions or ignoring them outright.\n\nThe most prominent conspirators have been arrested, but the rot appears to have spread deep. We still have several likely leads to pursue before we get to the bottom of this criminal conspiracy."
+  ef_trade.21.conclude: "A successful effort."
+  ef_trade.21.investigate_further: "Follow up and investigate the loose ends."
+
+  ef_trade.22.name: "Rotten to the Core"
+  ef_trade.22.desc: "Our investigation into corruption on [This.GetName] has led to a startling revelation. [ef_corrupt_governor.GetName], the planetary governor of [This.GetName] was in collusion with the conspirators!\n\nWe have been presented with undeniable evidence of [ef_corrupt_governor.GetName]'s knowledge of the conspiracy, but it appears that [ef_corrupt_governor.GetHerHis] direct involvement was limited to accepting payments to ignore the problem.\n\nIt may be politically inconvenient to directly charge the governor and perhaps we could arrange for the whole debacle to be swept under the rug."
+  ef_trade.22.imprison: "[ef_corrupt_governor.GetName] must go."
+  ef_trade.22.leave: "We cannot afford to fire [ef_corrupt_governor.GetHerHim]."
+
+  ef_trade.23.name: "A Matter of Clout"
+  ef_trade.23.desc: "Our ongoing anti-corruption investigation on [This.GetName] has borne fruit. We now possess a comprehensive list of the individuals and entities involved in a grand plan to defraud the planetary government.\n\nAlthough many of the conspirators have been arrested, there are several individuals involved who possess substantial political and financial connections.\n\nWe could proceed with prosecuting these conspirators, but their removal may cause a major disruption in the economy of [This.GetName]."
+  ef_trade.23.round_them_up: "We must round them up, whatever the potential consequences."
+  ef_trade.23.let_it_slide: "It suits our interests to allow this to slide."
+
+  ef_trade.30.name: "Corporate Consolidation"
+  ef_trade.30.desc: "A major corporation on [This.GetName] has fallen on hard times recently. One of their biggest competitors has made moves to acquire the failing megacorp, but the potential merger would result in an extremely dominant market share.\n\nSeveral of the competing megacorporations on [This.GetName] have petitioned the government to disallow the merger, claiming that it would result in a de-facto monopoly. They have quietly promised to contribute a sign of their appreciation, should we come around to their perspective."
+  ef_trade.30.allow_merger: "No, the deal goes ahead."
+  ef_trade.30.deny_merger: "These detractors make a very convincing "argument"."
+
+  ef_trade.40.name: "Caught in the Act"
+  ef_trade.40.desc: "A recent burglary at a major corporate research facility on [This.GetName] has led to outcry among the planet's commercial leadership.\n\nThe facility's owners have accused one of their main competitors of being behind the break in, in an attempt to steal sensitive trade secrets. The accused have fervently denied the allegations."
+  ef_trade.40.dispute_warning_tt: "§RThis may lead to further escalation.§!"
+  ef_trade.40.fine_the_offender: "Force the offender to pay a fine."
+  ef_trade.40.let_them_dispute_it: "Let them dispute it amongst themselves."
+
+  ef_trade.50.name: "Competition by Other Means"
+  ef_trade.50.desc: "Irreconcilable tensions between rival corporations on [This.GetName] have boiled over, resulting in low-level warfare against one another.\n\nA string of bombings and high profile assassinations have swept over the world as various competitors maneuver to take advantage of the sudden chaos. Without a swift resolution, this conflict seems set to escalate."
+  ef_trade.50.a: "We must take action!"
+
+  ef_trade.51.name: "Public Gunfights on [Target.GetName]"
+  ef_trade.51.desc: "As the intractable conflict between rival corporations grinds on across [Target.GetName], the engagements of this shadow war have become increasingly brazen.\n\nA major incident between mercenary groups affiliated with the rival sides has left hundreds dead and a large swathe of cityscape badly damaged. Local authorities are completely overwhelmed."
+  ef_trade.51.a: "This is escalating."
+
+  ef_trade.52.name: "Bombing Wave on [Target.GetName]"
+  ef_trade.52.desc: "The undeclared conflict between rival megacorporations on [Target.GetName] has escalated recently as a wave of bombings have swept over the world.\n\nWarehouses, factories and research facilities across the planet have been destroyed in the initial wave and the retaliation attacks that followed."
+  ef_trade.52.a: "This is absurd!"
+
+  ef_trade.53.name: "Rising Chaos on [Target.GetName]"
+  ef_trade.53.desc: "[Target.GetName] has seen a recent string of high profile break-ins and kidnappings. Although primarily concentrated between the rival parties of the planet's growing corporate war, third parties have been increasingly involved.\n\nInvestors and conglomerates have begun to re-evaluate their association with [Target.GetName] in response to the authorities' apparent inability to resolve the crisis."
+  ef_trade.53.a: "A worrying trend."
+
+  ef_trade.54.name: "Breakdown of Order"
+  ef_trade.54.desc: "The Shadow War on [Target.GetName] has grown completely out of hand. Large areas of the planet have descended into complete lawlessness as local authorities are forced out by heavily armed mercenary groups. A handful of orbital engagements and a constant terror bombing campaign perpetrated by both sides against one another have led to a collapse of the world's economy."
+  ef_trade.54.a: "An unmitigated disaster."
+
+  ef_trade.55.name: "To the Victors the Spoils"
+  ef_trade.55.desc: "The Shadow War on [This.GetName] has come to an end as one of the rival megacorporations has collapsed completely. Many of the surviving leadership have fled, while the corporation's assets and employed have been forcibly acquired by the victor.\n\nThe period of conflict and instability on [This.GetName] appears to have come to an end, but the damage has been done. It will take years to rebuild what was destroyed and the victorious conglomerates will be sure to seek their cut."
+  ef_trade.55.a: "Time to rebuild."
+
+  ef_trade.56.name: "Order Restored on [This.GetName]"
+  ef_trade.56.desc: "Local authorities have succeeded in bringing the Shadow War on [This.GetName] to an end. With most of the senior leadership of both parties either arrested or on the run, the feuding corporations have largely fallen apart and seen their assets seized or snapped up by competitors.\n\nWith the end of the Shadow War, peace and stability has largely returned to [This.GetName]. Although it will take time, rebuilding efforts have already begun across the planet and investors have found new confidence in the world's prospects."
+  ef_trade.56.a: "Peace at last."
+
+  ef_trade.60.name: "The Grand [This.GetName] Trade Convention"
+  ef_trade.60.desc: "Local authorities on [This.GetName] have, in conjunction with several of the major corporations, arranged a grand summit of local and galactic commercial partners.\n\nWith some of the biggest names in the galaxy sending at least a token representative, this conference represents an excellent opportunity to attract further investment and deals for [This.GetName]."
+  ef_trade.60.a: "A splendid idea."
+
+  ef_trade.61.name: "Prosperity Imminent"
+  ef_trade.61.desc: "The trade summit on [This.GetName] has finally come to a close and it has been an unmitigated success. The representatives were suitably impressed with the quality and affordability of [This.GetName]'s offerings and several have already expressed interest in closer business ties.\n\nThe local authorities have already reported an increase in tax revenues and investment this cycle, with further growth anticipated."
+  ef_trade.61.a: "Marvellous news."
+
+  ef_trade.62.name: "A Futile Effort"
+  ef_trade.62.desc: "Despite the best efforts of [This.GetName]'s leadership, the trade summit has descended into a disaster. Rival corporations have spent more time bickering with another than seriously engaging with the conference.\n\nWith the representatives either uninterested or unimpressed with [This.GetName]'s offerings, the eagerly anticipated investments do not appear to be forthcoming today."
+  ef_trade.62.a: "An unfortunate outcome."
+
+  ef_trade.70.name: "Hypercompetitive Business Practices"
+  ef_trade.70.desc: "[This.GetName] is famous for its intense corporate rivalries and cutthroat business practices. However in recent months, this competition has been threatening to grow into something more sinister.\n\nNumerous warehouses and factories in the lower levels have been reporting an uptick in sabotage and mysterious break ins. Suspiciously, these incidents are confined to facilities belonging to two rival corporations.\n\nNaturally, both have blamed the other and have sought the authorities to punish the other party."
+  ef_trade.70.a: "We could be 'persuaded' to a particular perspective."
+  ef_trade.70.b: "It is not our role to interfere."
+  ef_trade.70.c: "Crack down on this sort of behaviour."
+
+  ef_trade.71.name: "Corporate Reconciliation"
+  ef_trade.71.desc: "Our firm response on [This.GetName] appears to have been heeded. Incidents of sabotage and burglary have returned to normal levels.\n\nWhile the two rival corporations continue to compete, they appear to be content to keep their rivalry in the commercial sphere alone."
+  ef_trade.71.a: "The best possible outcome."
+
+  ef_industry.10.name: "Industrial Consequences"
+  ef_industry.10.desc: "[This.GetName] is a major hub of industry in its region of the galaxy, but the planet's immense manufacturing potential has severe implications for the planetary environment.\n\nWith most of the planet's surface paved over and developed, the remaining biosphere has been struggling to adapt to the new reality of massive industrial development. It remains to be seen whether this may lead to catastrophic consequences."
+  ef_industry.10.a: "Monitor the situation."
+
+  ef_industry.11.name: "On the Altar of Progress"
+  ef_industry.11.desc: "Our ruthless industrial development on [This.GetName] has brought us tremendous wealth. Unfortunately the planet has suffered for it. The atmosphere has been rendered unbreathable by toxic smog and pollutants contaminate every part of the planet's surface.\n\nIts population have increasingly turned to seeking shelter from the environment within climate-controlled habitation zones. Some have even embraced biological and cybernetic enhancements, legal or not, to better cope with the hostile nature of the planet.\n\nIf we ever want this world to return to its former habitability, we have a long cleanup process ahead of us."
+  ef_industry.11.a: "So be it."
+
+  ef_industry.12.name: "The Fires of Industry"
+  ef_industry.12.desc: "The continual industrial production on [Target.GetName] has not been a gentle process. Day by day, month by month, industrial toxins and pollutants seep into the atmosphere, the ground and the very soul of this world."
+  ef_industry.12.a: "Unfortunate"
+
+  ef_industry.13.name: "Chemical Contamination"
+  ef_industry.13.desc: "One of the largest industrial refineries on [Target.GetName] has recently suffered a catastrophic fire. Although quickly contained, the fire reached the storage areas where much of the refineries chemical ingredients were kept.\n\nThe contaminated smoke and chemical particles have already spread over a large area of the city world. The toxins and pollutants are likely to be extremely difficult to clear."
+  ef_industry.13.a: "Unfortunate"
+
+  ef_industry.14.name: "Stash it Away"
+  ef_industry.14.desc: "The local authorities on [Target.GetName] have come up with a inventive proposal to address the world's never ending hazardous waste issue.\n\nBy gathering large quantities of difficult-to-store waste materials and hauling them into orbit, we can neatly sidestep the question of where to store them. Any potential navigation hazards would be well outweighed by the benefits of this easy disposal method."
+  ef_industry.14.a: "Do it."
+  ef_industry.14.b: "Hold off."
+
+  ef_industry.15.name: "Overproduction Drive"
+  ef_industry.15.desc: "An unexpectedly poor twist of fortune for a local shipping conglomerate has turned into a boon for our local manufactories on [Target.GetName].\n\nA large freighter carrying exotic materials and valuable chemical ingredients has encountered a critical engine failure in orbit. Although the vessel is unable to carry its cargo on to its intended destination, many of the factories on [Target.GetName] have jumped at the chance to purchase such valuable materials at a bargain.\n\nThe resultant glut of goods has driven record production numbers this year and our industries are thriving from this windfall."
+  ef_industry.15.a: "Splendid"
+
+  ef_industry.16.name: "Natural Recycling"
+  ef_industry.16.desc: "A curious biological phenomenon has emerged on [Target.GetName].\n\nAs the planet's biosphere is increasingly saturated in toxic chemicals, some forms of microbial life appear to have adapted to feed upon the artificial elements present in the environment.\n\nThese adaptable microbes have had a noticeable effect on the local environment, helping purify many of the worst contaminants and breaking them down into simpler forms."
+  ef_industry.16.a: "We should fund an operation to spread them across the planet."
+  ef_industry.16.b: "A fortunate occurrence."
+
+  ef_industry.17.name: "Hungry Hungry Xenobacteria"
+  ef_industry.17.desc: "Our efforts to seed colonies of waste-eating microbes across [Target.GetName] has been a spectacular success! The colonies have take to their new homes with enthusiasm and we already have reports of improved environmental conditions."
+  ef_industry.17.a: "Just as planned."
+
+  ef_industry.18.name: "Overenthusiastic Microbes"
+  ef_industry.18.desc: "The waste-eating microbes that we recently spread across [Target.GetName] have been very successful at voraciously consuming the inorganic contaminants that cover the planet.\n\nUnfortunately they appear to have mutated further. The microscopic bacteria have developed a taste for the materials that make up our machinery and infrastructure too.\n\nAlthough the planetary authorities have successfully decontaminated most industrial areas of their presence, they managed to damage several important facilities across the planet."
+  ef_industry.18.a: "Unfortunate"
+
+  ef_industry.20.name: "Strike Action on [This.GetName]"
+  ef_industry.20.desc: "A seemingly minor dispute in one of the manufactories on [This.GetName] has escalated into a series of planet-wide protests. Several poorly worded comments by local administrators have inflamed the situation.\n\nWith the workers downing tools and taking the opportunity to air their grievances, the planet's industry has ground to a halt. Without action to break the deadlock, this situation may persist for months."
+  ef_industry.20.a: "Nobody wants to work anymore."
+  ef_industry.20.b: "See what we can do to make reasonable accommodations."
+  ef_industry.20.c: "Disperse the protesters by force."
+
+  ef_industry.30.name: "Lost and Found"
+  ef_industry.30.desc: "Managing interstellar supply chains is a challenging endeavor at the best of times. It appears that one of the myriad industries on [This.GetName] unintentionally over-ordered certain rare materials required as part of their production line.\n\nWith no ability to store any more resources and with the freighter unwilling to ship them back offworld, our local authorities have found themselves the unexpected owners of a large quantity of valuable materials."
+  ef_industry.30.a: "Excellent."
+
+  ef_industry.40.name: "Cradle to Grave"
+  ef_industry.40.desc: "[This.GetName] produces an enormous quantity of starship parts and replacements. Many ships regularly visit the planet throughout their lifetimes for maintenance and repair.\n\nNow certain enterprising individuals have begun to take advantage of this, stripping the old hulks of outdated vessels for parts and materials to supply the factories and shipyards of [This.GetName]."
+  ef_industry.40.a: "Interesting."
+
+  ef_diplo.20.name: "Planetary Playground"
+  ef_diplo.20.desc: "In recent years [This.GetName] has become increasingly popular among the galaxy's elite. Attracted by the planet's sophisticated culture, vast economic opportunities and endless activity, many of the galaxy's most prominent individuals have taken to spending their time and considerable wealth visiting [This.GetName]'s many attractions."
+  ef_diplo.20.a: "Enjoy the benefits."
+  ef_diplo.20.b: "We can embrace this reputation."
+
+  ef_diplo.30.name: "Holographic Gems"
+  ef_diplo.30.desc: "A group of talented researchers on [This.GetName] have made a remarkable discovery: certain §Y$rare_crystals$§! posses the unique property of refracting light into near perfect holographic shapes.\n\nAlthough too expensive for use in regular display matrices, these unique crystals have become highly sought after as expensive ornaments and fashion accessories. With [This.GetName]'s artisans being considered the highest quality, a burgeoning luxury industry has quickly sprung up to meet the growing demand."
+  ef_diplo.30.a: "Wonderful."
+
+  ef_diplo.40.name: "The Jewel of the Galaxy"
+  ef_diplo.40.desc: "Our persistent investments into [This.GetName] have paid off. The city world has become famous for its grand parks, luxurious accommodations and the extensive diplomatic infrastructure we have built.\n\nOur actions have primed [This.GetName] to be a nexus of diplomacy, business and galactic politics for years to come. Doubtlessly the §Y[This.Owner.GetName]§! will benefit greatly as a result."
+  ef_diplo.40.a: "Excellent news."
+
+  ef_diplo.50.name: "Rise of the [This.GetName] Entertainment Industry"
+  ef_diplo.50.desc: "As a massive hub of people and culture, [This.GetName]'s artists and entertainers have begun to attract a reputation across the galaxy for their works. With more talent and resources than ever, [This.GetName]'s pursuit of the arts has a bright future ahead."
+  ef_diplo.50.a: "Splendid."
+
+  ef_diplo.51.name: "A Dramatized History of [This.GetName]"
+  ef_diplo.51.desc: "A standout hit from [This.GetName] has been making waves in the galactic entertainment scene. A dramatized retelling of the city world's early years, set long before it became the immense urban planet that it is today.\n\nCritics and audiences alike have acclaimed it to be one of the best instances of storytelling to come out of the §Y[This.Owner.GetName]§! in quite some time."
+  ef_diplo.51.a: "This is a good look for us."
+
+  ef_diplo.52.name: "Killer Xenos from Extragalactic Space"
+  ef_diplo.52.desc: "The entertainment industry of [This.GetName] has had another roaring success. Their latest offering - a sensational story of aliens from beyond the galactic rim that invade and lay waste to much of the galaxy has been very well received across the galaxy, although some critics have called the plot 'contrived' and 'wholly unrealistic'.\n\nNonetheless this reflects well on the prospects of the §I[This.Owner.GetName]'s§! influence in greater galactic media."
+  ef_diplo.52.a: "The premise is a bit implausible."
+
+  ef_diplo.53.name: "Khan of the Void"
+  ef_diplo.53.desc: "One of [This.GetName]'s most recent media offerings has been gathering a cult following.\n\nSet in a fictionalized version of the §Y[event_target:ef_maruader_expy_country.GetName]§!, the story follows a §Y[event_target:ef_maruader_expy_country.species.GetName]§! youth as they unite their warring clans and establish themselves as a mighty Khan.\n\nThe producers assure viewers that any resemblance to real or historical characters is §Rstrictly§! coincidental. It's certainly garnered a great deal of attention and interest in [This.GetName]'s other entertainment media."
+  ef_diplo.53.a: "Purely coincidental..."
+
+  ef_diplo.54.name: "Life Among the Primitives"
+  ef_diplo.54.desc: "A recent holovid account from [This.GetName] of the pre-ftl §Y[event_target:ef_primitive_documentary_country.GetName]§! on §Y[event_target:ef_primitive_documentary_country.home_planet.GetName]§! has been developing a devoted following across the galaxy.\n\nAcclaimed as a 'breathtaking insight' into the lives of primitive races, this has helped develop [This.GetName]'s reputation as a solid and reputable source of information - excellent for the §Y[This.Owner.GetName]'s§! soft power across the galaxy."
+  ef_diplo.54.a: "Good."

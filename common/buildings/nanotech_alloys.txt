@@ -1,0 +1,79 @@
+building_nanotech_cauldron = {
+	base_buildtime = @b2_time
+
+	category = manufacturing
+
+	potential = {
+		exists = owner
+		owner = { has_tradition = tr_nanotech_2 }
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+	}
+
+	allow = {
+		always = yes
+	}
+
+	upgrades = {
+		building_nanotech_cauldron_upgrade
+	}
+
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			NOT = { owner = { has_tradition = tr_nanotech_2 } }
+			has_modifier = slave_colony
+			has_modifier = resort_colony
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			alloys = @b3_minerals
+		}
+		upkeep = {
+			nanites = 3
+			energy = 30
+		}
+		produces = {
+			alloys = 15
+		}
+	}
+}
+
+
+
+building_nanotech_cauldron_upgrade = {
+	base_buildtime = @b2_time
+
+	category = manufacturing
+
+	can_build = no
+    prerequisites = { "tech_nanotech_advanced_alloys_and_factory" }
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			NOT = { owner = { has_tradition = tr_nanotech_2 } }
+			has_modifier = slave_colony
+			has_modifier = resort_colony
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			alloys = @b3_minerals
+			nanites = 3000
+		}
+		upkeep = {
+			nanites = 15
+			energy = 70
+			exotic_gases = 2
+			volatile_motes = 3
+		}
+		produces = {
+			alloys = 30
+		}
+	}
+}

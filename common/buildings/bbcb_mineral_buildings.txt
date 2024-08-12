@@ -1,0 +1,356 @@
+#################
+# NORMAL EMPIRE #
+#################
+
+building_private_mining_consortium = {
+	base_buildtime = @b1_time
+
+	owner_type = corporate
+
+	category = resource
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+
+	planet_modifier = {
+		job_miner_add = 1
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 2
+		}
+		produces = {
+			minerals = 10
+		}
+		inline_script = {
+			script = "building_output/bbcb_mineral_building_output"
+			BBCB_OUTPUT = 0.5
+		}
+	}
+
+	prerequisites = {
+	}
+
+	upgrades = {
+		"building_bugged_mining_corp"
+	}
+
+	triggered_desc = {
+		text = bbcb_mineral_tier_1_output
+	}
+
+	ai_weight = {
+		factor = 1
+	}
+}
+
+
+building_bugged_mining_corp = {
+	base_buildtime = @b1_time
+	can_build = no
+
+	owner_type = corporate
+
+	category = resource
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+
+	planet_modifier = {
+		job_miner_add = 2
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 500
+			volatile_motes = 50
+		}
+		upkeep = {
+			energy = 4
+			volatile_motes = 1
+		}
+		produces = {
+			minerals = 10
+		}
+		inline_script = {
+			script = "building_output/bbcb_mineral_building_output"
+			BBCB_OUTPUT = 1
+		}
+	}
+
+	prerequisites = {
+		"tech_bugged_branch_tier_2"
+	}
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = no
+	}
+
+	upgrades = {
+		"building_bugged_mining_global"
+	}
+
+	triggered_desc = {
+		text = bbcb_mineral_tier_2_output
+	}
+
+	ai_weight = {
+		factor = 1
+	}
+}
+
+
+building_bugged_mining_global = {
+	base_buildtime = @b1_time
+	can_build = no
+
+	owner_type = corporate
+
+	category = resource
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+
+	planet_modifier = {
+		job_miner_add = 3
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 500
+			volatile_motes = 100
+		}
+		upkeep = {
+			energy = 6
+			volatile_motes = 2
+		}
+		produces = {
+			minerals = 10
+		}
+		inline_script = {
+			script = "building_output/bbcb_mineral_building_output"
+			BBCB_OUTPUT = 1.5
+		}
+	}
+
+	prerequisites = {
+		"tech_bugged_branch_tier_3"
+	}
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = no
+	}
+
+	triggered_desc = {
+		text = bbcb_mineral_tier_3_output
+	}
+
+	ai_weight = {
+		factor = 1
+	}
+}
+
+##################
+# CRIMINAL CORPS #
+##################
+
+building_wildcat_miners = {
+    base_buildtime = @b1_time
+
+    owner_type = corporate
+
+	category = resource
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+		planet_crime_add = 15
+		job_bugged_wildcat_miner_add = 1
+    }
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+        }
+        upkeep = {
+			energy = 2
+        }
+        produces = {
+			minerals = 10
+        }
+		inline_script = {
+			script = "building_output/bbcb_mineral_building_output"
+			BBCB_OUTPUT = 0.5
+		}
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 1
+	    planet_crime_add = 5
+    }
+
+    prerequisites = {
+    }
+
+    upgrades = {
+        "building_bugged_stripminers_guild"
+    }
+
+	triggered_desc = {
+		text = bbcb_mineral_tier_1_output
+	}
+
+	ai_weight = {
+		factor = 1
+	}
+}
+
+
+building_bugged_stripminers_guild = {
+    base_buildtime = @b1_time
+    can_build = no
+
+    owner_type = corporate
+
+	category = resource
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+		planet_crime_add = 30
+		job_bugged_wildcat_miner_add = 2
+    }
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+            volatile_motes = 50
+        }
+        upkeep = {
+			energy = 4
+			volatile_motes = 1
+        }
+        produces = {
+			minerals = 10
+        }
+		inline_script = {
+			script = "building_output/bbcb_mineral_building_output"
+			BBCB_OUTPUT = 1
+		}
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 2
+	    planet_crime_add = 10
+    }
+
+    prerequisites = {
+        "tech_bugged_branch_tier_2"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = yes
+	}
+
+    upgrades = {
+        "building_bugged_asteroid_haulers"
+    }
+
+	triggered_desc = {
+		text = bbcb_mineral_tier_2_output
+	}
+
+	ai_weight = {
+		factor = 1
+	}
+}
+
+
+building_bugged_asteroid_haulers = {
+    base_buildtime = @b1_time
+    can_build = no
+
+    owner_type = corporate
+
+	category = resource
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+		planet_crime_add = 45
+		job_bugged_wildcat_miner_add = 3
+    }
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+            volatile_motes = 100
+        }
+        upkeep = {
+			energy = 6
+			volatile_motes = 2
+        }
+        produces = {
+			minerals = 10
+        }
+		inline_script = {
+			script = "building_output/bbcb_mineral_building_output"
+			BBCB_OUTPUT = 1.5
+		}
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 3
+	    planet_crime_add = 15
+    }
+
+    prerequisites = {
+        "tech_bugged_branch_tier_3"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = yes
+	}
+	
+	triggered_desc = {
+		text = bbcb_mineral_tier_3_output
+	}
+
+	ai_weight = {
+		factor = 1
+	}
+}

@@ -1,0 +1,355 @@
+#Military - Metallurgists - Alloys
+
+building_private_shipyards = {
+	base_buildtime = @b1_time
+
+	owner_type = corporate
+
+	category = manufacturing
+
+	potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = no }
+    }
+
+    inline_script = {
+		script = jobs/foundry_add
+		AMOUNT = 1
+	}
+
+    resources = {
+       	category = planet_branch_office_buildings
+       	cost = {
+        	minerals = 500
+       	}
+       	upkeep = {
+			energy = 2
+       	}
+       	produces = {
+			alloys = 3
+       	}
+        inline_script = {
+			script = "building_output/bbcb_alloy_building_output"
+			BBCB_OUTPUT = 0.5
+		}
+    }
+
+    prerequisites = {
+    }
+
+    upgrades = {
+       	"building_bugged_military_consortium"
+    }
+
+	triggered_desc = {
+		text = bbcb_alloy_tier_1_output
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+
+building_bugged_military_consortium = {
+   	base_buildtime = @b1_time
+   	can_build = no
+
+   	owner_type = corporate
+
+	category = manufacturing
+
+   	potential = {
+   		has_branch_office = yes
+       	branch_office_owner = { is_criminal_syndicate = no }
+   	}
+
+	   inline_script = {
+		script = jobs/foundry_add
+		AMOUNT = 2
+	}
+
+    resources = {
+       	category = planet_branch_office_buildings
+       	cost = {
+           	minerals = 500
+           	volatile_motes = 50
+       	}
+       	upkeep = {
+			energy = 4
+			volatile_motes = 1
+       	}
+       	produces = {
+			alloys = 6
+       	}
+        inline_script = {
+			script = "building_output/bbcb_alloy_building_output"
+			BBCB_OUTPUT = 1
+		}
+    }
+
+    prerequisites = {
+       	"tech_bugged_branch_tier_2"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = no
+	}
+
+    upgrades = {
+       	"building_bugged_industrial_complex"
+    }
+
+	triggered_desc = {
+		text = bbcb_alloy_tier_2_output
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+
+building_bugged_industrial_complex = {
+   	base_buildtime = @b1_time
+   	can_build = no
+
+   	owner_type = corporate
+
+	category = manufacturing
+
+   	potential = {
+       	has_branch_office = yes
+       	branch_office_owner = { is_criminal_syndicate = no }
+   	}
+
+   	inline_script = {
+		script = jobs/foundry_add
+		AMOUNT = 3
+	}
+
+   	resources = {
+       	category = planet_branch_office_buildings
+       	cost = {
+           	minerals = 500
+           	volatile_motes = 100
+       	}
+       	upkeep = {
+			energy = 6
+			volatile_motes = 2
+       	}
+       	produces = {
+			alloys = 12
+       	}
+        inline_script = {
+			script = "building_output/bbcb_alloy_building_output"
+			BBCB_OUTPUT = 1.5
+		}
+   	}
+
+   	prerequisites = {
+       	"tech_bugged_branch_tier_3"
+   	}
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = no
+	}
+
+	triggered_desc = {
+		text = bbcb_alloy_tier_3_output
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+#Shipyard - Scavs - Alloys
+
+building_wrecking_yards = {
+    base_buildtime = @b1_time
+
+    owner_type = corporate
+
+	category = manufacturing
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+		planet_crime_add = 15
+		job_bugged_salvager_add = 1
+    }
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+        }
+        upkeep = {
+			energy = 2
+        }
+        produces = {
+			alloys = 3
+        }
+		inline_script = {
+			script = "building_output/bbcb_alloy_building_output"
+			BBCB_OUTPUT = 0.5
+		}
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 1
+	    planet_crime_add = 5
+    }
+
+    prerequisites = {
+    }
+
+    upgrades = {
+        "building_bugged_chopshop"
+    }
+
+	triggered_desc = {
+		text = bbcb_alloy_tier_1_output
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+
+building_bugged_chopshop = {
+    base_buildtime = @b1_time
+    can_build = no
+
+    owner_type = corporate
+
+	category = manufacturing
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+		planet_crime_add = 30
+		job_bugged_salvager_add = 2
+    }
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+            volatile_motes = 50
+        }
+        upkeep = {
+			energy = 4
+			volatile_motes = 1
+        }
+        produces = {
+			alloys = 6
+        }
+		inline_script = {
+			script = "building_output/bbcb_alloy_building_output"
+			BBCB_OUTPUT = 1
+		}
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 2
+	    planet_crime_add = 10
+    }
+
+    prerequisites = {
+        "tech_bugged_branch_tier_2"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = yes
+	}
+
+    upgrades = {
+        "building_bugged_chopshop_network"
+    }
+
+	triggered_desc = {
+		text = bbcb_alloy_tier_2_output
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+
+building_bugged_chopshop_network = {
+    base_buildtime = @b1_time
+    can_build = no
+
+    owner_type = corporate
+
+	category = manufacturing
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+		planet_crime_add = 45
+		job_bugged_salvager_add = 3
+    }
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+            volatile_motes = 100
+        }
+        upkeep = {
+			energy = 6
+			volatile_motes = 2
+        }
+        produces = {
+			alloys = 12
+        }
+		inline_script = {
+			script = "building_output/bbcb_alloy_building_output"
+			BBCB_OUTPUT = 1.5
+		}
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 3
+	    planet_crime_add = 15
+    }
+
+    prerequisites = {
+        "tech_bugged_branch_tier_3"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = yes
+	}
+	
+	triggered_desc = {
+		text = bbcb_alloy_tier_3_output
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}

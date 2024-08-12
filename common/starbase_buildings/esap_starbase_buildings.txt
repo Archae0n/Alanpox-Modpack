@@ -1,0 +1,71 @@
+esap_ct2_diplomacy_finance_trade_post = {
+	icon = "GFX_spaceport_module_esap_ct2_diplomacy_finance_trade_post"
+	construction_days = 360
+	
+	initial = yes
+
+	resources = {
+		category = starbase_buildings
+		cost = {
+			alloys = 150
+		}
+
+		upkeep = {
+			energy = 1
+			consumer_goods = 2
+		}
+	}
+
+	station_modifier = {
+		trade_value_add = 10
+		starbase_trade_collection_range_add = 1
+	}
+
+	triggered_station_modifier = {
+		potential = {
+			hidden_trigger = { exists = this }
+			owner = {
+				has_councilor = { COUNCILOR = "councilor_trading_posts" }
+			}
+		}
+		trade_value_add = 0.5
+		mult = value:councilor_level|TYPE|councilor_trading_posts|
+	}
+
+	triggered_station_modifier = {
+		potential = {
+			hidden_trigger = { exists = this }
+			has_starbase_module = trading_hub
+		}
+		trade_value_add = 2
+		mult = value:num_starbase_modules_of_type|TYPE|trading_hub|
+	}
+
+	custom_tooltip = sm_esap_ct2_diplomacy_finance_trade_post_desc_modifier
+
+	potential = {
+		exists = owner
+		owner = {
+			AND = {
+				is_gestalt = no
+				has_ascension_perk = ap_esap_ct2_diplomacy_finance 
+			}
+		}
+		is_orbital_ring = no
+	}
+
+	ai_build_at_chokepoint = no
+	ai_build_outside_chokepoint = yes
+	ai_weight = {
+		weight = 100 #use same weight here - ai weighting is done in starbase_types.txt
+		modifier = {
+			factor = 7
+			NOT = { has_starbase_building = esap_ct2_diplomacy_finance_trade_post }
+			solar_system = {
+				any_neighbor_system = {
+					has_system_trade_value > 50
+				}
+			}
+		}
+	}
+}

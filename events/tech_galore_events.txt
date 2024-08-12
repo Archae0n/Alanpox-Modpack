@@ -1,0 +1,229 @@
+namespace = tech_galore
+
+country_event = {
+	id = tech_galore.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		num_research_agreements > 0
+	}
+
+	immediate = {
+		every_playable_country = {
+			limit = {
+				has_research_agreement = root
+			}
+
+			# Physics
+			IF = {
+				limit = {
+					AND = {
+						NOT = { root = { has_technology = tech_physics_1 } }
+						NOT = { root = { has_technology = tech_physics_2 } }
+						NOT = { root = { has_technology = tech_physics_3 } }
+						root = { count_tech_options = { area = physics count <= 5 } }
+					}
+				}
+				root = {
+					copy_random_tech_from = {
+						who = prev
+						area = physics
+						progress = 0.05
+					}
+				}
+			}
+			IF = {
+				limit = {
+					AND = {
+						root = { has_technology = tech_physics_1 }
+						NOT = { root = { has_technology = tech_physics_2 } }
+						NOT = { root = { has_technology = tech_physics_3 } }
+						root = { count_tech_options = { area = physics count <= 7 } }
+					}
+				}
+				root = {
+					copy_random_tech_from = {
+						who = prev
+						area = physics
+						progress = 0.05
+					}
+				}
+			}
+			IF = {
+				limit = {
+					AND = {
+						root = { has_technology = tech_physics_1 }
+						root = { has_technology = tech_physics_2 }
+						NOT = { root = { has_technology = tech_physics_3 } }
+						root = { count_tech_options = { area = physics count <= 9 } }
+					}
+				}
+				root = {
+					copy_random_tech_from = {
+						who = prev
+						area = physics
+						progress = 0.05
+					}
+				}
+			}
+			IF = {
+				limit = {
+					AND = {
+						root = { has_technology = tech_physics_1 }
+						root = { has_technology = tech_physics_2 }
+						root = { has_technology = tech_physics_3 }
+						root = { count_tech_options = { area = physics count <= 15 } }
+					}
+				}
+				root = {
+					copy_random_tech_from = {
+						who = prev
+						area = physics
+						progress = 0.05
+					}
+				}
+			}
+
+			#Society
+			IF = {
+				limit = {
+					AND = {
+						NOT = { root = { has_technology = tech_society_1 } }
+						NOT = { root = { has_technology = tech_society_2 } }
+						NOT = { root = { has_technology = tech_society_3 } }
+						root = { count_tech_options = { area = society count <= 5 } }
+					}
+				}
+				root = {
+					copy_random_tech_from = {
+						who = prev
+						area = society
+						progress = 0.05
+					}
+				}
+			}
+			IF = {
+				limit = {
+					AND = {
+						root = { has_technology = tech_society_1 }
+						NOT = { root = { has_technology = tech_society_2 } }
+						NOT = { root = { has_technology = tech_society_3 } }
+						root = { count_tech_options = { area = society count <= 7 } }
+					}
+				}
+				root = {
+					copy_random_tech_from = {
+						who = prev
+						area = society
+						progress = 0.05
+					}
+				}
+			}
+			IF = {
+				limit = {
+					AND = {
+						root = { has_technology = tech_society_1 }
+						root = { has_technology = tech_society_2 }
+						NOT = { root = { has_technology = tech_society_3 } }
+						root = { count_tech_options = { area = society count <= 9 } }
+					}
+				}
+				root = {
+					copy_random_tech_from = {
+						who = prev
+						area = society
+						progress = 0.05
+					}
+				}
+			}
+			IF = {
+				limit = {
+					AND = {
+						root = { has_technology = tech_society_1 }
+						root = { has_technology = tech_society_2 }
+						root = { has_technology = tech_society_3 }
+						root = { count_tech_options = { area = society count <= 15 } }
+					}
+				}
+				root = {
+					copy_random_tech_from = {
+						who = prev
+						area = society
+						progress = 0.05
+					}
+				}
+			}
+
+			# Engineering
+			IF = {
+				limit = {
+					AND = {
+						NOT = { root = { has_technology = tech_engineering_1 } }
+						NOT = { root = { has_technology = tech_engineering_2 } }
+						NOT = { root = { has_technology = tech_engineering_3 } }
+						root = { count_tech_options = { area = engineering count <= 5 } }
+					}
+				}
+				root = {
+					copy_random_tech_from = {
+						who = prev
+						area = engineering
+						progress = 0.05
+					}
+				}
+			}
+			IF = {
+				limit = {
+					AND = {
+						root = { has_technology = tech_engineering_1 }
+						NOT = { root = { has_technology = tech_engineering_2 } }
+						NOT = { root = { has_technology = tech_engineering_3 } }
+						root = { count_tech_options = { area = engineering count <= 7 } }
+					}
+				}
+				root = {
+					copy_random_tech_from = {
+						who = prev
+						area = engineering
+						progress = 0.05
+					}
+				}
+			}
+			IF = {
+				limit = {
+					AND = {
+						root = { has_technology = tech_engineering_1 }
+						root = { has_technology = tech_engineering_2 }
+						NOT = { root = { has_technology = tech_engineering_3 } }
+						root = { count_tech_options = { area = engineering count <= 9 } }
+					}
+				}
+				root = {
+					copy_random_tech_from = {
+						who = prev
+						area = engineering
+						progress = 0.05
+					}
+				}
+			}
+			IF = {
+				limit = {
+					AND = {
+						root = { has_technology = tech_engineering_1 }
+						root = { has_technology = tech_engineering_2 }
+						root = { has_technology = tech_engineering_3 }
+						root = { count_tech_options = { area = engineering count <= 15 } }
+					}
+				}
+				root = {
+					copy_random_tech_from = {
+						who = prev
+						area = engineering
+						progress = 0.05
+					}
+				}
+			}
+		}
+	}
+}

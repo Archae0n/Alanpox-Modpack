@@ -1,0 +1,326 @@
+@cooldown = 60
+
+succession_power_economy_empire = {
+	potential = {
+		OR = {
+			has_federation_law = succession_type_strongest_empire
+		}
+	}
+	allow = { 
+		custom_tooltip = {
+			NOT = {
+				AND = {
+					NOT = { has_federation_law = succession_power_economy_empire }
+					has_modifier = federation_law_category_succession_power_cooldown
+					has_any_federation_law_in_category = law_category_succession_power_empire
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = EMPIRE_LAW_CHANGE
+			NAND = {
+				NOT = { has_federation_law = succession_power_economy_empire }
+				has_federation_flag = vf_law_changes_disabled
+			}
+		}
+	}
+	on_enact = {
+		set_federation_succession_type = strongest
+		if = {
+			limit = { has_federation_flag = enable_federation_cooldowns }
+			add_modifier = {
+				modifier = federation_law_category_succession_power_cooldown
+				days = @cooldown
+			}
+		}
+		add_cohesion = -5
+	}
+
+	ai_weight = {
+		base = 26
+		
+		#Behaviour-specific
+		modifier = {
+			desc = federation_acceptance_would_win
+			add = 25
+			federation = {
+				NOT = {
+					any_member = {
+						relative_power = {
+							who = from
+							category = economy
+							value > equivalent
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			desc = personality_ruthless_capitalists
+			add = 50
+			has_ai_personality = ruthless_capitalists
+		}
+		modifier = {
+			desc = federation_acceptance_capitalism
+			add = 50
+			has_ethic = ethic_capitalism
+		}
+		modifier = {
+			desc = federation_acceptance_capitalism
+			add = 100
+			has_ethic = ethic_fanatic_capitalism
+		}
+		modifier = {
+			desc = federation_acceptance_current_crown_under_this_law
+			add = 100
+			is_federation_leader = yes
+			federation = { has_federation_law = succession_power_economy_empire }
+		}
+		modifier = {
+			desc = federation_acceptance_leader_would_lose
+			add = -100
+			is_federation_leader = yes
+			federation = {
+				any_member = {
+					relative_power = {
+						who = from
+						category = economy
+						value > equivalent
+					}
+				}
+			}
+		}
+	}
+}
+
+succession_power_diplomatic_weight_empire = {
+	potential = {
+		OR = {
+			has_federation_law = succession_type_strongest_empire
+		}
+	}
+	allow = { 
+		custom_tooltip = {
+			NOT = {
+				AND = {
+					NOT = { has_federation_law = succession_power_diplomatic_weight_empire }
+					has_modifier = federation_law_category_succession_power_cooldown
+					has_any_federation_law_in_category = law_category_succession_power_empire
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = EMPIRE_LAW_CHANGE
+			NAND = {
+				NOT = { has_federation_law = succession_power_diplomatic_weight_empire }
+				has_federation_flag = vf_law_changes_disabled
+			}
+		}
+	}
+	on_enact = {
+		set_federation_succession_type = diplomatic_weight
+		if = {
+			limit = { has_federation_flag = enable_federation_cooldowns }
+			add_modifier = {
+				modifier = federation_law_category_succession_power_cooldown
+				days = @cooldown
+			}
+		}
+		add_cohesion = -5
+	}
+
+	ai_weight = {
+		base = 26
+
+		modifier = {
+			desc = federation_acceptance_would_win
+			add = 25
+			federation = {
+				NOT = {
+					any_member = {
+						relative_power = {
+							who = from
+							category = all
+							value > equivalent
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			desc = federation_acceptance_crown
+			add = 1000
+			is_federation_leader = yes
+			federation = { has_federation_type = empire_federation }
+		}
+		modifier = {
+			desc = federation_acceptance_current_crown_under_this_law
+			add = 100
+			is_federation_leader = yes
+			federation = { has_federation_law = succession_power_diplomatic_weight_empire }
+		}
+	}
+}
+
+succession_power_tech_empire = {
+	potential = {
+		OR = {
+			has_federation_law = succession_type_strongest_empire
+		}
+		host_has_dlc = Federations
+	}
+	allow = { 
+		custom_tooltip = {
+			NOT = {
+				AND = {
+					NOT = { has_federation_law = succession_power_tech_empire }
+					has_modifier = federation_law_category_succession_power_cooldown
+					has_any_federation_law_in_category = law_category_succession_power_empire
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = EMPIRE_LAW_CHANGE
+			NAND = {
+				NOT = { has_federation_law = succession_power_tech_empire }
+				has_federation_flag = vf_law_changes_disabled
+			}
+		}
+	}
+	on_enact = {
+		set_federation_succession_type = tech
+		if = {
+			limit = { has_federation_flag = enable_federation_cooldowns }
+			add_modifier = {
+				modifier = federation_law_category_succession_power_cooldown
+				days = @cooldown
+			}
+		}
+		add_cohesion = -5
+	}
+
+	ai_weight = {
+		base = 26
+		
+		#Behaviour-specific
+		modifier = {
+			desc = federation_acceptance_erudite_explorers
+			add = 25
+			has_ai_personality = erudite_explorers
+		}
+		modifier = {
+			desc = federation_acceptance_would_win
+			add = 25
+			federation = {
+				NOT = {
+					any_member = {
+						relative_power = {
+							who = from
+							category = technology
+							value > equivalent
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			desc = federation_acceptance_current_crown_under_this_law
+			add = 100
+			is_federation_leader = yes
+			federation = { has_federation_law = succession_power_tech_empire }
+		}
+		modifier = {
+			desc = federation_acceptance_leader_would_lose
+			add = -100
+			is_federation_leader = yes
+			federation = {
+				any_member = {
+					relative_power = {
+						who = from
+						category = technology
+						value > equivalent
+					}
+				}
+			}
+		}
+	}
+}
+
+succession_power_fleet_empire = {
+	potential = {
+		OR = {
+			has_federation_law = succession_type_strongest_empire
+		}
+		host_has_dlc = Federations
+	}
+	allow = { 
+		custom_tooltip = {
+			NOT = {
+				AND = {
+					NOT = { has_federation_law = succession_power_fleet_empire }
+					has_modifier = federation_law_category_succession_power_cooldown
+					has_any_federation_law_in_category = law_category_succession_power_empire
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = EMPIRE_LAW_CHANGE
+			NAND = {
+				NOT = { has_federation_law = succession_power_fleet_empire }
+				has_federation_flag = vf_law_changes_disabled
+			}
+		}
+	}
+	on_enact = {
+		set_federation_succession_type = fleet
+		if = {
+			limit = { has_federation_flag = enable_federation_cooldowns }
+			add_modifier = {
+				modifier = federation_law_category_succession_power_cooldown
+				days = @cooldown
+			}
+		}
+		add_cohesion = -5
+	}
+
+	ai_weight = {
+		base = 26
+		
+		#Behaviour-specific
+		modifier = {
+			desc = federation_acceptance_would_win
+			add = 25
+			federation = {
+				NOT = {
+					any_member = {
+						relative_power = {
+							who = from
+							category = fleet
+							value > equivalent
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			desc = federation_acceptance_current_crown_under_this_law
+			add = 100
+			is_federation_leader = yes
+			federation = { has_federation_law = succession_power_fleet_empire }
+		}
+		modifier = {
+			desc = federation_acceptance_leader_would_lose
+			add = -100
+			is_federation_leader = yes
+			federation = {
+				any_member = {
+					relative_power = {
+						who = from
+						category = fleet
+						value > equivalent
+					}
+				}
+			}
+		}
+	}
+}

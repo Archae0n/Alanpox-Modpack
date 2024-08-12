@@ -1,0 +1,672 @@
+resolution_2central_federal = {
+	planetary_ascension_effect_mult = 0.2
+	empire_size_mult = 0.15
+	starbases_upkeep_mult = 0.15
+	pop_amenities_usage_mult = 0.08
+	diplo_weight_economy_mult = 0.2
+	planet_jobs_upkeep_mult = 0.15
+}
+
+resolution_combine_citadel = {
+	planet_stability_add = 5
+	country_subject_technology_sharing_mult = 0.25
+	species_empire_size_mult = -0.15
+}
+
+resolution_combine_transarm = {
+	army_experience_gain_mult = 0.15
+	army_disengage_chance_mult = -1.0
+	army_damage_mult = 0.05
+	pop_cat_assimilation_happiness = -0.2
+}
+
+resolution_combine_tech = {
+	country_physics_tech_research_speed = 0.25
+	country_society_tech_research_speed = 0.25
+	country_engineering_tech_research_speed = 0.25
+	country_border_friction_mult = 0.25
+	country_war_exhaustion_mult = -0.1
+}
+
+resolution_combine_singularity = {
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	country_war_exhaustion_mult = 0.2
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_combine_existance = {
+	damage_vs_country_type_rebel_mult = 0.3
+	country_organic_trust_cap_add = -10
+	subject_integration_influence_cost_mult = -0.75
+	country_subject_integration_speed_add = 10
+	country_integration_cooldown_mult = 0.5
+}
+
+
+resolution_csoviets_domsovetov = {
+	pop_happiness = 0.05
+	pop_housing_usage_mult = -0.05
+}
+
+resolution_csoviets_redarmy = {
+	army_morale = 0.2
+	army_damage_mult = 0.15
+	planet_combat_width_add = 1
+}
+
+resolution_csoviets_internationale = {
+	starbase_defensive_war_ship_build_speed_mult = 0.5
+	defensive_war_influence_gain_add = 2
+}
+
+resolution_csoviets_socplan = {
+	planet_army_build_speed_mult = 0.5
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_csoviets_victory = {
+	all_technology_research_speed = 0.05
+	country_food_produces_mult = 0.1
+	country_minerals_produces_mult = 0.1
+	country_consumer_goods_produces_mult = 0.1
+	country_alloys_produces_mult = 0.1
+	country_unity_produces_mult = 0.2
+}
+
+
+resolution_crepublic_senate = {
+	envoys_add = 1.6
+	empire_size_mult = -0.2
+	country_leader_pool_size = 1
+}
+
+resolution_crepublic_grandarmee = {
+	army_experience_gain_mult = 0.15
+	army_attack_morale_mult = 0.15
+	army_attack_damage_mult = 0.15
+}
+
+resolution_crepublic_shield = {
+	army_morale = 5
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_crepublic_federals = {
+	federation_influence_produces_add = 4
+	federation_unity_produces_add = 300
+	federation_naval_cap_contribution_mult = 0.25
+}
+#Just get it done idc
+resolution_crepublic_ender = {
+	country_subject_integration_speed_add = 50
+	country_integration_cooldown_mult = 0.5
+	country_trust_growth = 0.5
+	country_trust_cap_add = 50
+}
+
+
+resolution_cpizdec_hq = {
+	country_trade_attractiveness = 0.15
+	trade_value_mult = 0.15
+	planet_crime_mult = 0.1
+}
+
+resolution_cpizdec_rostov = {
+	planet_combat_width_add = 4
+	army_starting_experience_add = 4
+	army_damage_mult = 0.2
+}
+
+resolution_cpizdec_brand = {
+	biological_pop_happiness = -0.1
+	country_consumer_goods_produces_mult = 0.1
+}
+
+resolution_cpizdec_crisis = {
+	country_energy_cost_mult = -0.3
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_cpizdec_taxes = {
+	local_trade_protection_add = 2
+	country_trade_attractiveness = 2
+	starbase_trade_collection_range_add = 4
+}
+
+
+resolution_chive_tree = {
+	terraform_speed_mult = 0.05
+	pop_citizen_happiness = 0.05
+	pop_growth_speed = 0.05
+}
+
+resolution_chive_drones = {
+	army_disengage_chance_mult = -0.5
+	army_morale_damage_mult = 0.25
+	army_experience_gain_mult = 0.15
+}
+
+resolution_chive_influence = {
+	country_starbase_influence_cost_mult = -0.2
+	country_resource_max_influence_add = 50
+}
+
+resolution_chive_stockpile = {
+	country_resource_max_add = 10000
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_chive_primacy = {
+	country_food_produces_mult = 1
+	country_minerals_produces_mult = 1
+	country_subject_integration_speed_add = -5
+}
+
+
+resolution_cmachine_nodes = {
+	espionage_operation_speed_mult = 0.15
+	ship_base_speed_mult = 0.15
+	planet_building_build_speed_mult = 0.15
+}
+
+resolution_cmachine_warforms = {
+	espionage_operation_difficulty_mult = 0.25
+	army_morale_damage_mult = 0.5
+	army_collateral_damage_mult = 0.25
+}
+
+resolution_cmachine_techprim = {
+	diplo_weight_technology_mult = 0.25
+	num_tech_alternatives_add = 2
+	all_technology_research_speed = 0.05
+}
+
+resolution_cmachine_protection = {
+	country_starbase_capacity_add = 4
+	starbase_defense_platform_capacity_add = 8
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_cmachine_efficient = {
+	all_technology_research_speed = 0.2
+	country_alloys_produces_mult = 0.35
+	empire_size_mult = -0.25
+}
+
+
+resolution_c1984_ministries = {
+	intel_encryption_mult = 0.1
+	intel_decryption_mult = 0.1
+	piracy_suppression_mult = 0.1
+	pop_cat_worker_happiness = -0.08
+}
+
+resolution_c1984_warispeace = {
+	planet_orbital_bombardment_damage = 0.25
+	ship_damage_against_starbases_mult = 0.15
+}
+
+resolution_c1984_thoughtcrime = {
+	spy_network_value_mult = 0.25
+	pop_purge_mult = 0.25
+}
+
+resolution_c1984_newspeak = {
+	empire_size_pops_mult = -0.5
+	pop_amenities_usage_mult = -0.5
+	country_unity_produces_mult = 0.1
+}
+
+resolution_c1984_nofreedom = {
+	country_pop_enslaved_mult = 0.15
+	slave_market_cost_mult = -0.15
+}
+
+
+resolution_cxenophob_spire = {
+	pop_ethic_fanatic_xenophobe_attraction_mult = 0.1
+	citizen_pop_political_power = 0.05
+	pop_purge_speed = 0.02
+	pop_growth_from_immigration = -0.25
+}
+
+resolution_cxenophob_reavers = {
+	army_morale_damage_mult = 0.5
+	army_damage_mult = -0.1
+}
+
+resolution_cxenophob_purge = {
+	planet_combat_width_add = 6
+	ship_orbit_upkeep_mult = -0.25
+	ship_interstellar_speed_mult = 0.1
+}
+
+resolution_cxenophob_crisis = {
+	ship_accuracy_mult = 0.04
+	ship_evasion_mult = 0.03
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_cxenophob_preservation = {
+	pop_decline_speed = 1.0
+	pop_citizen_happiness = 0.5
+}
+
+
+resolution_cstartrek_council = {
+	pop_political_power = 0.05
+	pop_growth_from_immigration = 0.1
+	pop_citizen_happiness = 0.06
+}
+
+resolution_cstartrek_tdd = {
+	army_morale = 0.25
+	army_collateral_damage_mult = -0.1
+	army_defense_morale_mult = 1.0
+	army_defense_damage_mult = 0.34
+}
+
+resolution_cstartrek_primedir = {
+	diplo_weight_pops_mult = 0.1
+	starbases_upkeep_mult = -0.15
+	ship_military_upkeep_mult = -0.15
+}
+
+resolution_cstartrek_crisis = {
+	planet_jobs_upkeep_mult = -0.15
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_cstartrek_exchange = {
+	country_resource_max_unity_add = 1000000
+	country_unity_produces_mult = 0.5
+}
+
+resolution_ccrimes_consortium = {
+	planet_crime_mult = 0.05
+	country_energy_produces_mult = 0.08
+}
+
+resolution_ccrimes_shadows = {
+	envoy_exp_gain = 5
+	delegate_cohesion_effect_mult = 0.1
+}
+
+resolution_ccrimes_smugglers = {
+	ship_cloaking_strength_add = 2
+	ship_cloaking_detection_add = 2
+	ship_emergency_ftl_mult = 0.2
+	ship_engagement_range_mult = 0.15
+}
+
+resolution_ccrimes_crisis = {
+	ship_weapon_damage = 0.1
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_ccrimes_bobafett = {
+	country_leader_pool_size = 4
+	country_leader_cap_add = 4
+}
+
+resolution_chre_cathedrals = {
+	monthly_loyalty_from_subjects = 1
+	empire_size_penalty_mult = -0.05
+	edict_length_mult = 0.02
+}
+
+resolution_chre_jojo = {
+	defense_armies_add = 6
+	country_claim_influence_cost_mult = -0.25
+	country_war_exhaustion_mult = -0.3
+}
+
+resolution_chre_reform = {
+	command_limit_mult = 0.15
+	ship_hull_mult = -0.1
+	ship_armor_mult = -0.1
+}
+
+resolution_chre_shield = {
+	planet_stability_add = 5
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_chre_ascend = {
+	country_resource_max_unity_add = 1000000
+	country_resource_max_influence_add = 500
+	country_unity_produces_mult = 0.5
+	country_unity_cost_mult = 0.4
+}
+
+resolution_pacifist_building = { #5
+	empire_size_mult = -0.05
+	envoy_improve_relations_mult = 0.15
+}
+
+resolution_pacifist_army = { #1
+	defense_armies_add = 2
+}
+
+resolution_pacifist_casusb = { #2
+	envoys_add = 1
+	fleet_mia_time_mult = -0.15
+}
+
+resolution_pacifist_crisis = { #2
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_pacifist_unique = { #1
+	starbase_defense_platform_capacity_mult = 0.5
+	army_defense_morale_mult = 0.5
+	starbase_defensive_war_ship_build_speed_mult = 0.5
+}
+
+resolution_militarist_building = { #5
+	country_border_friction_mult = 0.2
+	country_war_exhaustion_mult = -0.15
+}
+
+resolution_militarist_army = { #3
+	planet_army_build_speed_mult = 0.1
+	army_health = 2
+	army_disengage_chance_mult = -0.1
+}
+
+resolution_militarist_casusb = { #1
+	country_claim_influence_cost_mult = -0.75
+}
+
+resolution_militarist_crisis = { #1
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_militarist_unique = { #1
+	ship_military_speed_mult = 0.2
+}
+
+resolution_cmaterialist_building = { #5
+	all_technology_research_speed = 0.15
+}
+
+resolution_cmaterialist_army = { #1
+	category_military_theory_research_speed_mult = 0.2
+	category_military_theory_draw_chance_mult = 0.5
+}
+
+resolution_cmaterialist_casusb = { #1
+	country_scientist_cap_add = 6
+	ship_anomaly_research_speed_mult = 0.2
+	science_ship_survey_speed = 0.2
+}
+
+resolution_cmaterialist_crisis = { #1
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_cmaterialist_unique = { #1
+	all_technology_research_speed = 0.4
+	num_tech_alternatives_add = 3
+}
+
+resolution_cspiritualist_building = { #6
+	planet_stability_add = 2.5
+	pop_political_power = 0.06
+}
+
+resolution_cspiritualist_army = { #2
+	army_experience_gain_mult = 0.2
+	army_morale_damage_taken_mult = -0.2
+}
+
+resolution_cspiritualist_casusb = { #2
+	ship_jumpdrive_cooldown_mult = -0.15
+	ship_accuracy_mult = 0.1
+}
+
+resolution_cspiritualist_crisis = { #1
+	ship_hyperlane_range_add = 2
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_cspiritualist_unique = { #1
+	country_resource_max_unity_add = 5000000
+	country_unity_produces_mult = 0.25
+	country_unity_cost_mult = -0.25
+	country_consumer_goods_produces_mult = -0.25
+}
+
+resolution_cpirate_building = { #5
+	slave_market_cost_mult = -0.1
+	leader_cost_empire_size_mult = -0.08
+}
+
+resolution_cpirate_army = { #1
+	pop_government_ethic_attraction = 0.2
+	army_morale_damage_mult = 0.25
+}
+
+resolution_cpirate_casusb = { #1
+	create_debris_chance = 1.0
+	ship_hull_damage_mult = 0.25
+	ship_armor_damage_mult = 0.25
+}
+
+resolution_cpirate_crisis = { #1
+	damage_vs_country_type_swarm_mult = 0.25
+	damage_vs_country_type_extradimensional_mult = 0.25
+	damage_vs_country_type_extradimensional_2_mult = 0.25
+	damage_vs_country_type_extradimensional_3_mult = 0.25
+	damage_vs_country_type_ai_empire_mult = 0.25
+	damage_vs_country_type_gray_goo_mult = 0.25
+	damage_vs_player_crisis_mult = 0.25
+	damage_vs_country_type_synth_queen_mult = 0.25
+}
+
+resolution_cpirate_unique = { #1
+	piracy_suppression_mult = 2.0
+	piracy_protection_mult = 2.0
+	planet_crime_mult = 1.0
+}
+
+resolution_cservitor_building = { #5
+	pop_happiness = 0.2
+	pop_growth_speed = 0.1
+}
+
+resolution_cservitor_army = { #1
+	pop_environment_tolerance = 0.2
+	pop_government_ethic_attraction = 0.75
+}
+
+resolution_cservitor_casusb = { #1
+	army_defense_health_mult = 0.25
+	army_morale_damage_taken_mult = -0.75
+}
+
+resolution_cservitor_crisis = { #1
+	planet_combat_width_add = 6
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_cservitor_unique = { #1
+	envoys_add = 4
+	envoy_improve_relations_mult = 0.5
+	country_organic_trust_cap_add = 10
+	country_subject_trust_cap_add = 10
+	country_trust_growth = 0.25
+}
+
+resolution_cbananas_building = {
+	starbases_energy_upkeep_mult = -0.1
+	trade_value_mult = 0.1
+}
+
+resolution_cbananas_army = {
+	country_energy_produces_mult = 0.5
+	country_food_produces_mult = -0.5
+}
+
+resolution_cbananas_casusb = {
+	country_energy_produces_mult = -0.5
+	country_food_produces_mult = 0.5
+}
+
+resolution_cbananas_crisis = {
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_cbananas_unique = {
+	country_trade_attractiveness = 2
+	starbase_trade_collection_range_add = 2
+	starbase_trade_protection_range_add = 2
+	starbase_trade_protection_add = 2
+}
+
+resolution_cmartlet_building = {
+	starbase_defensive_war_ship_build_speed_mult = 0.25
+	starbase_building_capacity_add = 1
+	starbase_shipyard_build_speed_mult = 0.05
+}
+
+resolution_cmartlet_army = {
+	fleet_mia_time_mult = -0.1
+	defense_armies_add = 8
+}
+
+resolution_cmartlet_casusb = {
+	ship_cloaking_strength_add = 4
+	ship_cloaking_detection_add = 4
+	army_disengage_chance_mult = -0.1
+	army_starting_experience_add = 1
+}
+
+resolution_cmartlet_crisis = {
+	army_starting_experience_add = 1
+	damage_vs_country_type_swarm_mult = 0.3
+	damage_vs_country_type_extradimensional_mult = 0.3
+	damage_vs_country_type_extradimensional_2_mult = 0.3
+	damage_vs_country_type_extradimensional_3_mult = 0.3
+	damage_vs_country_type_ai_empire_mult = 0.3
+	damage_vs_country_type_gray_goo_mult = 0.3
+	damage_vs_player_crisis_mult = 0.3
+	damage_vs_country_type_synth_queen_mult = 0.3
+}
+
+resolution_cmartlet_unique = {
+	army_defense_morale_mult = 0.25
+	defense_armies_add = 8
+	empire_size_mult = 0.3
+}

@@ -1,0 +1,103 @@
+guiTypes = {
+	positionType = {
+		name = "alerticon_startposition"
+		position = { x = -30 y = 41 }
+		if_scaled_resolution = {
+			min_width = 2560
+			position = { x = -20 y = 41 }
+		}
+		if_scaled_resolution = {
+			min_width = 3840
+			position = { x = 1550 y = -5 }
+		}
+	}
+	positionType = {
+		name = "alerticon_offset"
+		position = { x = 55 y = 58 }
+	}
+	positionType = {
+		name = "alerticon_per_row"
+		position = { x = 5 y = 0 }
+		if_scaled_resolution = {
+			min_width = 1920
+			position = { x = 8 y = 0 }
+		}
+		if_scaled_resolution = {
+			min_width = 2560
+			position = { x = 12 y = 0 }
+		}
+	}
+	containerWindowType = {
+		name = "alerticon_window"
+		position = { x = 0 y = 0 }
+		size = { width = 45 height = 62 }
+		buttonType = {
+			name = "alerticon_banner"
+			spriteType = "GFX_alerticon_banner_med"
+			position = { x = 0 y = 1 }
+			orientation = upper_right
+			oversound = no_sound
+		}
+		iconType = {
+			name = "alerticon"
+			spriteType = "GFX_alerticons"
+			position = { x = 6 y = 23 }
+			orientation = upper_right
+		}
+	}
+	# See unchecked_defines/00_interface.txt and NOTIFICATION_MESSAGE_XPOS, ...
+	containerWindowType = {
+		name = "message_window"
+		position = { x = 0 y = 0 }
+		size = { width = 58 height = 58 }
+		buttonType = {
+			name = "message_icon_button"
+			quadTextureSprite = "GFX_test_message_icon"
+			position = { x = 8 y = 16 }
+			if_scaled_resolution = {
+				min_width = 3840
+				position = { x = 8 y = -31 }
+			}
+			clicksound = "confirmation"
+			oversound = no_sound
+		}
+		iconType = {
+			name = "message_frame"
+			spriteType = "GFX_ui_message_frame"
+			position = { x = 0 y = 4 }
+			if_scaled_resolution = {
+				min_width = 3840
+				position = { x = 0 y = -43 }
+			}
+			orientation = center
+			centerPosition = yes
+			alwaysTransparent = yes
+			frame = 1
+		}
+		iconType = {
+			name = "message_circle"
+			spriteType = "GFX_message_circle"
+			position = { x = 0 y = 8 }
+			if_scaled_resolution = {
+				min_width = 3840
+				position = { x = 0 y = -39 }
+			}
+			orientation = center
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "message_response"
+			spriteType = "GFX_alliance_vote_status"
+			position = { x = 0 y = 4 }
+			if_scaled_resolution = {
+				min_width = 3840
+				position = { x = 0 y = -43 }
+			}
+			orientation = center
+			centerPosition = yes
+			scale = 0.7
+			alwaysTransparent = yes
+		}
+	}
+}

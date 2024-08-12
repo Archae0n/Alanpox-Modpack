@@ -1,0 +1,107 @@
+namespace = ef_path
+
+# Specialisation gatekeeper
+planet_event = {
+	id = ef_path.0
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		NOR = {
+			has_planet_flag = ef_planet_specialisation_options_available
+			has_planet_flag = ef_diplomacy_specialisation
+			has_planet_flag = ef_industry_specialisation
+			has_planet_flag = ef_trade_specialisation
+		}
+	}
+
+	immediate = {
+		set_planet_flag = ef_planet_specialisation_options_available
+		planet_event = { id = ef_path.1 }
+	}
+}
+
+# Planet specialisation event
+# TODO: Needs ai weights
+planet_event = {
+	id = ef_path.1
+	title = ef_path.1.name
+	desc = "ef_path.1.desc"
+	picture  = GFX_evt_enclave_overlord
+	location = root
+	is_triggered_only = yes
+
+    trigger = {
+        has_planet_flag = ef_planet_specialisation_options_available
+    }
+
+	option = {
+		name = ef_path.1.a
+		allow = {
+			owner = { resource_stockpile_compare = { resource = influence value >= 500 } }
+			custom_tooltip_fail = {
+				text = ef_already_specialised_tt
+				NOR = {
+					has_planet_flag = ef_diplomacy_specialisation
+					has_planet_flag = ef_industry_specialisation
+					has_planet_flag = ef_trade_specialisation
+				}
+			}
+		}
+
+		owner = { add_resource = { influence = -500 } }
+		custom_tooltip = ef_path.1.a.tooltip
+		remove_planet_flag = ef_planet_specialisation_options_available
+		set_planet_flag = ef_diplomacy_specialisation
+	}
+    option = {
+		name = ef_path.1.b
+		allow = {
+			owner = { resource_stockpile_compare = { resource = influence value >= 500 } }
+			custom_tooltip_fail = {
+				text = ef_already_specialised_tt
+				NOR = {
+					has_planet_flag = ef_diplomacy_specialisation
+					has_planet_flag = ef_industry_specialisation
+					has_planet_flag = ef_trade_specialisation
+				}
+			}
+		}
+
+		owner = { add_resource = { influence = -500 } }
+		custom_tooltip = ef_path.1.b.tooltip
+		remove_planet_flag = ef_planet_specialisation_options_available
+		set_planet_flag = ef_industry_specialisation
+
+		# Init pollution
+		hidden_effect = {
+			planet_event = { id = ef_industry.10 days = 360 }
+		}
+	}
+    option = {
+		name = ef_path.1.c
+		allow = {
+			owner = { resource_stockpile_compare = { resource = influence value >= 500 } }
+			custom_tooltip_fail = {
+				text = ef_already_specialised_tt
+				NOR = {
+					has_planet_flag = ef_diplomacy_specialisation
+					has_planet_flag = ef_industry_specialisation
+					has_planet_flag = ef_trade_specialisation
+				}
+			}
+		}
+
+		owner = { add_resource = { influence = -500 } }
+		custom_tooltip = ef_path.1.c.tooltip
+		remove_planet_flag = ef_planet_specialisation_options_available
+		set_planet_flag = ef_trade_specialisation
+		# Init the stock market
+		hidden_effect = { add_modifier = { modifier = ef_stock_market_4 days = -1 } }
+
+	}
+    option = {
+		name = ef_path.1.d
+		custom_tooltip = ef_path.1.d.tooltip
+	}
+}

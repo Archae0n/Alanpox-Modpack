@@ -1,0 +1,33 @@
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			OR = {
+				has_authority = auth_imperial
+				has_authority = auth_bugged_corporate_imperial
+			}
+			capital_scope.solar_system = {
+				is_same_value = ROOT.solar_system
+			}
+		}
+	}
+	planet_jobs_produces_mult = 0.1
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = { is_gestalt = no }
+	}
+	job_soldier_add = 1
+	mult = modifier:job_soldier_or_warrior_add
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = { is_gestalt = yes }
+	}
+	job_warrior_drone_add = 1
+	mult = modifier:job_soldier_or_warrior_add
+}

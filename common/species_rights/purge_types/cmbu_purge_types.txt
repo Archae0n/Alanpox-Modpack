@@ -1,0 +1,54 @@
+# from = country
+# this = species
+
+
+xtra_purge_labor_camps = {
+	pop_escape_chance = 0.01
+	pop_decline_rate = 50 # 1 pop per 2 months, overrides BASE_POP_DECLINE, will only work on purge types
+
+	pop_modifier = {
+		pop_happiness = -10
+	}
+
+	potential = {
+		exists = from
+		from = { AND = {
+						NOT = { has_ethic = ethic_gestalt_consciousness }
+						is_galactic_custodian = yes
+					}
+				}
+		is_active_resolution = "resolution_c1984_nofreedom"
+	}
+
+	allow = {
+		from = {
+			is_galactic_custodian = yes
+		}
+		hidden_trigger = { exists = from }
+		custom_tooltip = {
+			fail_text = "lonely_hive_mind_pops_kill_themselves_purge_type"
+			is_lonely_hive_mind_pop = no
+		}
+		custom_tooltip = {
+			fail_text = "disconnected_machine_pops_kill_themselves_citizenship"
+			is_disconnected_machine_pop = no
+		}
+		is_active_resolution = "resolution_c1984_nofreedom"
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			from = { allows_slavery = no }
+		}
+		modifier = {
+			factor = 0
+			from = {
+				has_valid_ai_personality = yes
+				NOT = {
+					has_ai_personality_behaviour = purger
+				}
+			}
+		}
+	}
+}

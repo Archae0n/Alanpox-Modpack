@@ -1,0 +1,42 @@
+﻿l_english:
+
+ tradition_mt_benevolence: "Philanthropy"
+ tr_mt_benevolence_adopt: "Philanthropic Traditions"
+ tr_mt_benevolence_finish: "Philanthropic Traditions Finished"
+ 
+ tradition_mt_exchange: "Economy"
+ tr_mt_exchange_adopt: "Economic Traditions"
+ tr_mt_exchange_finish: "Economic Traditions Finished"
+
+ tradition_mt_justice: "Integrity"
+ tradition_mt_justice_desc: "Integrity of society is paramount."
+ tr_mt_justice_adopt: "Integral Traditions"
+ tr_mt_justice_finish: "Integral Traditions Finished"
+ 
+ tradition_mt_greed: "Averice"
+ tr_mt_greed_adopt: "Averice Traditions"
+ tr_mt_greed_finish: "Averice Traditions Finished"
+ 
+ tradition_mt_industry: "Fabrication"
+ tr_mt_industry_adopt: "Fabrication Traditions"
+ tr_mt_industry_finish: "Fabrication Traditions Finished"
+ 
+ tradition_mt_isolation: "Seclusion"
+ tr_mt_isolation_adopt: "Seclusion Traditions"
+ tr_mt_isolation_finish: "Seclusion Traditions Finished"
+ 
+ tradition_mt_liberation: "Freedom"
+ tr_mt_liberation_adopt: "Freedom Traditions"
+ tr_mt_liberation_finish: "Freedom Traditions Finished"
+ 
+ tradition_mt_nature: "Environment"
+ tr_mt_nature_adopt: "Environment Traditions"
+ tr_mt_nature_finish: "Environment Traditions Finished"
+ 
+ tradition_mt_piracy: "Thievery"
+ tr_mt_piracy_adopt: "Thievery Traditions"
+ tr_mt_piracy_finish: "Thievery Traditions Finished"
+ 
+ tradition_mt_swarm: "Legions"
+ tr_mt_swarm_adopt: "Legion Traditions"
+ tr_mt_swarn_finish: "Legion Traditions Finished"

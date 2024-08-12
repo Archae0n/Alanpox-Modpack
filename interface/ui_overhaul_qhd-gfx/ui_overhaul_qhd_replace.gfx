@@ -1,0 +1,27 @@
+spriteTypes = {
+	# graphic replacements from Stellaris Console
+	## planet_view.gui
+	spriteType = {
+		name = "GFX_ui_blocker_icon"
+		textureFile = "gfx/replace/blocker_icon.dds"
+		noOfFrames = 2
+	}
+	## diplomacy_view.gui
+	spriteType = {
+		name = "GFX_ui_spynetwork_no_envoy"
+		textureFile = "gfx/replace/spynetwork_no_envoy.dds"
+	}
+	## icons
+	spriteType = {
+		name = "GFX_ui_stability"
+		textureFile = "gfx/replace/icons/stability.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_pop"
+		textureFile = "gfx/replace/icons/pop.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_rare_features"
+		textureFile = "gfx/replace/icons/menu_icon_strategic_resource_38.dds"
+	}
+}

@@ -1,0 +1,410 @@
+# Nothing here cause I didn't finish before 3.12
+# paragon_origin_bad_trait_giver = {
+# 	optimize_memory
+# 	locked_random_list = {
+# 		1 = {
+# 			modifier = {
+# 				factor = 2
+# 				is_militarist = yes
+# 			}
+# 			modifier = {
+# 				factor = 0
+# 				OR = {
+# 					ruler = { has_trait = leader_trait_legendary_warmonger }
+# 					is_pacifist = yes
+# 				}
+# 			}
+# 			ruler = { add_trait = leader_trait_legendary_warmonger }
+# 		}
+# 		1 = {
+# 			modifier = {
+# 				factor = 2
+# 				is_spiritualist = yes
+# 			}
+# 			modifier = {
+# 				factor = 0
+# 				OR = {
+# 					ruler = { has_trait = leader_trait_legendary_dreamlike }
+# 					is_materialist = yes
+# 				}
+# 			}
+# 			ruler = { add_trait = leader_trait_legendary_dreamlike }
+# 		}
+# 		1 = {
+# 			modifier = {
+# 				factor = 2
+# 				is_authoritarian = yes
+# 			}
+# 			modifier = {
+# 				factor = 0
+# 				OR = {
+# 					ruler = { has_trait = leader_trait_legendary_harsh_ruler }
+# 					is_egalitarian = yes #Impossible to get, but to keep the structure
+# 				}
+# 			}
+# 			ruler = { add_trait = leader_trait_legendary_harsh_ruler }
+# 		}
+# 		1 = {
+# 			modifier = {
+# 				factor = 2
+# 				is_xenophile = yes
+# 			}
+# 			modifier = {
+# 				factor = 0
+# 				OR = {
+# 					is_xenophobe = yes
+# 					ruler = { has_trait = leader_trait_legendary_too_open }
+# 				}
+# 			}
+# 			ruler = { add_trait = leader_trait_legendary_too_open }
+# 		}
+# 		1 = {
+# 			modifier = {
+# 				factor = 2
+# 				is_pacifist = yes
+# 			}
+# 			modifier = {
+# 				factor = 0
+# 				OR = {
+# 					is_militarist = yes
+# 					ruler = { has_trait = leader_trait_legendary_hoplofobia }
+# 				}
+# 			}
+# 			ruler = { add_trait = leader_trait_legendary_hoplofobia }
+# 		}
+# 		1 = {
+# 			modifier = {
+# 				factor = 2
+# 				is_materialist = yes
+# 			}
+# 			modifier = {
+# 				factor = 0
+# 				OR = {
+# 					is_spiritualist = yes
+# 					ruler = { has_trait = leader_trait_bugged_legendary_new_materialist }
+# 				}
+# 			}
+# 			ruler = { add_trait = leader_trait_bugged_legendary_new_materialist }
+# 		}
+# 		1 = {
+# 			modifier = {
+# 				factor = 2
+# 				is_xenophobe = yes
+# 			}
+# 			modifier = {
+# 				factor = 0
+# 				OR = {
+# 					is_xenophile = yes
+# 					ruler = { has_trait = leader_trait_legendary_unfriendly }
+# 				}
+# 			}
+# 			ruler = { add_trait = leader_trait_legendary_unfriendly }
+# 		}
+# 		1 = {
+# 			modifier = {
+# 				factor = 2
+# 				is_anthropocentric = yes
+# 			}
+# 			modifier = {
+# 				factor = 0
+# 				OR = {
+# 					is_ecocentric = yes
+# 					ruler = { has_trait = leader_trait_bugged_legendary_polluter }
+# 				}
+# 			}
+# 			ruler = { add_trait = leader_trait_bugged_legendary_polluter }
+# 		}
+# 		1 = {
+# 			modifier = {
+# 				factor = 2
+# 				is_ecocentric = yes
+# 			}
+# 			modifier = {
+# 				factor = 0
+# 				OR = {
+# 					is_anthropocentric = yes
+# 					ruler = { has_trait = leader_trait_bugged_legendary_preservative }
+# 				}
+# 			}
+# 			ruler = { add_trait = leader_trait_bugged_legendary_preservative }
+# 		}
+# 		1 = {
+# 			modifier = {
+# 				factor = 2
+# 				is_elitist = yes
+# 			}
+# 			modifier = {
+# 				factor = 0
+# 				OR = {
+# 					is_pluralist = yes #Impossible to get, but to keep the structure
+# 					ruler = { has_trait = leader_trait_legendary_bad_meritocracy }
+# 				}
+# 			}
+# 			ruler = { add_trait = leader_trait_legendary_bad_meritocracy }
+# 		}
+# 		1 = {
+# 			modifier = {
+# 				factor = 2
+# 				is_competitive = yes
+# 			}
+# 			modifier = {
+# 				factor = 0
+# 				OR = {
+# 					is_cooperative = yes
+# 					ruler = { has_trait = leader_trait_bugged_legendary_stingy }
+# 				}
+# 			}
+# 			ruler = { add_trait = leader_trait_bugged_legendary_stingy }
+# 		}
+# 		1 = {
+# 			modifier = {
+# 				factor = 2
+# 				is_cooperative = yes
+# 			}
+# 			modifier = {
+# 				factor = 0
+# 				OR = {
+# 					is_competitive = yes
+# 					ruler = { has_trait = leader_trait_bugged_legendary_stingy }
+# 				}
+# 			}
+# 			ruler = { add_trait = leader_trait_bugged_legendary_stingy }
+# 		}
+# 	}
+# }
+
+# paragon_origin_legendary_leader_trait_giver = {
+# 	optimize_memory
+# 	locked_random_list = {
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_egalitarian = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_commanding_presence } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_commanding_presence
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_xenophile = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_genetic_purist } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_genetic_purist
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_xenophobe = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_scientific_diplomacy } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_scientific_diplomacy
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_militarist = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_natural_ruler } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_natural_ruler
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_pacifist = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_military_knowledge } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_military_knowledge
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_materialist = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_pious_ascet } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_pious_ascet
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_ecocentric = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_industry_titan } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_industry_titan
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_pluralist = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_high_king } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_high_king
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_xenophile = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_evervigilant } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_evervigilant
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_xenophobe = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_gunboat_diplomacy } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_gunboat_diplomacy
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_militarist = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_autarky } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_autarky
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_pacifist = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_foe_hammer } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_foe_hammer
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_materialist = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_great_teacher } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_great_teacher
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_spiritualist = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_great_inventor } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_legendary_great_inventor
+# 		}
+# 		# 0 = {
+# 		# 	modifier = {
+# 		# 		add = 1
+# 		# 		AND = {
+# 		# 			owner = { is_ecocentric = no }
+# 		# 			NOT = { has_trait_tier1or2or3 = { TRAIT = ANTHROPOCENTRIC_PLACEHOLDER } }
+# 		# 		}
+# 		# 	}
+# 		# 	add_trait = ANTHROPOCENTRIC_PLACEHOLDER
+# 		# }
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_anthropocentric = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_ranger } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_bugged_legendary_ranger
+# 		}
+# 		# 0 = {
+# 		# 	modifier = {
+# 		# 		add = 1
+# 		# 		AND = {
+# 		# 			owner = { is_anthropocentric = no }
+# 		# 			NOT = { has_trait_tier1or2or3 = { TRAIT = ECOCENTRIC_PLACEHOLDER } }
+# 		# 		}
+# 		# 	}
+# 		# 	add_trait = ECOCENTRIC_PLACEHOLDER
+# 		# }
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_spiritualist = no }
+# 					NOT = { has_trait_tier1or2or3 = leader_trait_bugged_legendary_dedicated_explorer }
+# 				}
+# 			}
+# 			add_trait = leader_trait_bugged_legendary_dedicated_explorer
+# 		}
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_competitive = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_cooperative } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_bugged_legendary_cooperative
+# 		}
+# 		# 0 = {
+# 		# 	modifier = {
+# 		# 		add = 1
+# 		# 		AND = {
+# 		# 			owner = { is_competitive = no }
+# 		# 			NOT = { has_trait_tier1or2or3 = { TRAIT = COOPERATIVE_PLACEHOLDER } }
+# 		# 		}
+# 		# 	}
+# 		# 	add_trait = COOPERATIVE_PLACEHOLDER
+# 		# }
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_cooperative = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_great_investor } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_bugged_legendary_great_investor
+# 		}
+# 		# 0 = {
+# 		# 	modifier = {
+# 		# 		add = 1
+# 		# 		AND = {
+# 		# 			owner = { is_cooperative = no }
+# 		# 			NOT = { has_trait_tier1or2or3 = { TRAIT = COMPETITIVE_PLACEHOLDER } }
+# 		# 		}
+# 		# 	}
+# 		# 	add_trait = COMPETITIVE_PLACEHOLDER
+# 		# }
+# 		0 = {
+# 			modifier = {
+# 				add = 1
+# 				AND = {
+# 					owner = { is_egalitarian = no }
+# 					NOT = { has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_hard_ruler } }
+# 				}
+# 			}
+# 			add_trait = leader_trait_bugged_legendary_hard_ruler
+# 		}
+# 	}
+# }

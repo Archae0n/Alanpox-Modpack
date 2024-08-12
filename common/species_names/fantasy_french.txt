@@ -1,0 +1,418 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	montellieu = {
+		name = Montellieu
+		plural = Montellieu
+		home_planet = Montellieu
+		home_system = Montellieu
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	casmonde = {
+		name = Casmonde
+		plural = Casmondennes
+		home_planet = "Casmonde se Fatoin"
+		home_system = "Casmonde se Plutoit"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	dubvoir = {
+		name = Dubvoirian
+		plural = Dubvoirians
+		home_planet = Dubvoir-Zecontat
+		home_system = Dubvoir-Chestrois
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	lescendarmes = {
+		name = Lescendarmes
+		plural = Lescendarmes
+		home_planet = "Gavrille Prime"
+		home_system = Gavrille
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	availlard = {
+		name = Availlard
+		plural = Availlards
+		home_planet = "Avail coi Xescants"
+		home_system = "Avail tas Monarte"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	fillon = {
+		name = Fillon
+		plural = Fillon
+		home_planet = "Fillon che Treyes"
+		home_system = Fillon 
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	oistois = {
+		name = Oistois
+		plural = Oistois
+		home_planet = "Savarix Prime"
+		home_system = Savarix 
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	realmofthefivesons = {
+		name = Justereaux
+		plural = Justereaux
+		home_planet = "Realm of the Five Sons"
+		home_system = "Night Father"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	pasain = {
+		name = Pasainese
+		plural = Pasainese
+		home_planet = Pasain
+		home_system = "Clau Sandeux"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	pettoin = {
+		name = Pettoin
+		plural = Pettoines
+		home_planet = Pettoin
+		home_system = Pettoin
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	nevoinar = {
+		name = Nevoinaran
+		plural = Nevoinarans
+		home_planet = Nevoinar
+		home_system = Clairebery
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	aubell = {
+		name = Aubellian
+		plural = Aubellians
+		home_planet = Aubell
+		home_system = Beacamme
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	elthisethehaughty = {
+		name = Moreciean
+		plural = Morecieans
+		home_planet = "Elthise the Haughty"
+		home_system = "Gantourtieux the Prideful"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	mondevicide = {
+		name = Vicidian
+		plural = Vicidians
+		home_planet = "Monde Vicide"
+		home_system = "Monde Amauvoie"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	chatoux = {
+		name = Chatousse
+		plural = Chatousse
+		home_planet = Chatoux
+		home_system = Trase
+		name_list = "cybrxkhan_fantasy_french"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	thimbeau = {
+		name = Thimbeau  
+		plural = Thimbeau
+		home_planet = Thimbeau
+		home_system = Thimbeau
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	surgarde = {
+		name = Surgarde  
+		plural = Surgarde
+		home_planet = "Pamplou Challeaux"
+		home_system = "Nescond Challeaux"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	satrons = {
+		name = Satrons  
+		plural = Satrons
+		home_planet = "Satrons toux Fourriere"
+		home_system = Pelle
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	matepenie = {
+		name = Mapennienne  
+		plural = Mapeniennes
+		home_planet = "Mate Penie"
+		home_system = Sadicienne
+		name_list = "cybrxkhan_fantasy_french"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	juvielle = {
+		name = Juvielle 
+		plural = Juviellennes
+		home_planet = Juvielle
+		home_system = Juvielle
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	nobelleu = {
+		name = Nobelleu 
+		plural = Nobelleu
+		home_planet = Quastroix
+		home_system = Thiceault
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	quevoille = {
+		name = Quevoille 
+		plural = Quevoille
+		home_planet = "Lalle Masbon"
+		home_system = "Rugierre Ferdois"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	albette = {
+		name = Albettian 
+		plural = Albettians
+		home_planet = Albette
+		home_system = "Crai Fore"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	chamain = {
+		name = Chamainian
+		plural = Chamainians
+		home_planet = Chamainne
+		home_system = Chamainne
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	prisseneau = {
+		name = Prisseneau
+		plural = Prisseneau
+		home_planet = Zavats
+		home_system = Ascordeon
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	napemonde = {
+		name = Napemondish
+		plural = Napemondish
+		home_planet = Napemonde
+		home_system = Elthiau
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	cavernoftwists = {
+		name = "Phin Aussar"
+		plural = "Phin Aussar"
+		home_planet = "Cavern of Twists"
+		home_system = "Luminescent Abyss"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	oceste = {
+		name = Ocestoid
+		plural = Ocestoids
+		home_planet = Oceste
+		home_system = Aubrasique
+		name_list = "cybrxkhan_fantasy_french"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	aveve = {
+		name = Avish
+		plural = Avish
+		home_planet = Aveve
+		home_system = "Franuette Cuneemy"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	rayaude = {
+		name = Rayaudian
+		plural = Rayaudians
+		home_planet = Rayaude
+		home_system = Alphsele
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	realmoftheliving = {
+		name = Essienne
+		plural = Essienne
+		home_planet = "Realm of the Living"
+		home_system = "Realm of the Ancestors"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	vaulthin = {
+		name = Vaulthinoid
+		plural = Vaulthinoids
+		home_planet = Vaulthin
+		home_system = Jasme
+		name_list = "cybrxkhan_fantasy_french"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	fabaelle = {
+		name = Fabaellean
+		plural = Fabaelleans
+		home_planet = "Fabaelle sont vu Gaeasien"
+		home_system = "Fabaelle sont vu Adeastien"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	nadard = {
+		name = Nadard
+		plural = Nadards
+		home_planet = "Nadard Sanelle"
+		home_system = Jasacre
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	rainald = {
+		name = Rainaldan
+		plural = Rainaldans
+		home_planet = Rainald
+		home_system = Loudine
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	adorin = {
+		name = Adorinan
+		plural = Adorinans
+		home_planet = Adorin
+		home_system = "Cez Anelys"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	jeroillenorelys = {
+		name = Norelese
+		plural = Norelese
+		home_planet = Jeroille-Norelys
+		home_system = Costiane
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	rosnise = {
+		name = Rosnisean
+		plural = Rosniseans
+		home_planet = Rosnise
+		home_system = Colimelle
+		name_list = "cybrxkhan_fantasy_french"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	noetois = {
+		name = Alor-Noetoix
+		plural = Alor-Noetoix
+		home_planet = Noetois
+		home_system = Savoiene
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	taregaide = {
+		name = Taregaidian
+		plural = Taregaidians
+		home_planet = Taregaide
+		home_system = Chrasiquerse
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	tragettethemistress = {
+		name = Eltean
+		plural = Elteans
+		home_planet = "Tragette the Mistress"
+		home_system = "Chambers of Vearperne"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	sadiauryprime = {
+		name = Sadieux
+		plural = Sadieux
+		home_planet = "Sadiaury Prime"
+		home_system = Sadiaury
+		name_list = "cybrxkhan_fantasy_french"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	aubere = {
+		name = Auberian
+		plural = Auberians
+		home_planet = Aubere
+		home_system = Franarbel
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	tarbeuxprime = {
+		name = Tarbeulle
+		plural = Tarbeulle
+		home_planet = "Tarbeux prime"
+		home_system = Tarbeux
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	aubeuxeth = {
+		name = Aubeuxian
+		plural = Aubeuxians
+		home_planet = Aubeuxeth
+		home_system = Syel
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	humstande = {
+		name = Regai
+		plural = Regai
+		home_planet = Humstande
+		home_system = Humstande
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	aubnais = {
+		name = Aubnaissian
+		plural = Aubnaissians
+		home_planet = Aubnais
+		home_system = "Maxre Orine"
+		name_list = "cybrxkhan_fantasy_french"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	gerre = {
+		name = Maldick
+		plural = Maldicks
+		home_planet = Gerre
+		home_system = Arasine
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	monnick = {
+		name = Monnickian
+		plural = Monnickians
+		home_planet = "Mon Nick"
+		home_system = Corene
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	etharia = {
+		name = Etharian
+		plural = Etharians
+		home_planet = Etharia
+		home_system = Penemie
+		name_list = "cybrxkhan_fantasy_french"
+	}
+	leane = {
+		name = Leanese
+		plural = Leanese
+		home_planet = Leane
+		home_system = Corene
+		name_list = "cybrxkhan_fantasy_french"
+	}
+}

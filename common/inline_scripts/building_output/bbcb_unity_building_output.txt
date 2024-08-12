@@ -1,0 +1,4 @@
+produces = {
+	unity = $BBCB_OUTPUT$
+	mult = value:bbcb_unity_building_output
+}

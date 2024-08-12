@@ -1,0 +1,112 @@
+
+#####################################
+### No More Exclaves by MrFunEGUY ###
+#####################################
+
+# Get Separatist Faction for Sectors
+get_access_checker_fleet = {
+		 if = { limit = { NOT = { exists = event_target:access_checker_fleet_1 } } save_event_target_as = access_checker_fleet_1 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_2 } } save_event_target_as = access_checker_fleet_2 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_3 } } save_event_target_as = access_checker_fleet_3 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_4 } } save_event_target_as = access_checker_fleet_4 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_5 } } save_event_target_as = access_checker_fleet_5 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_6 } } save_event_target_as = access_checker_fleet_6 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_7 } } save_event_target_as = access_checker_fleet_7 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_8 } } save_event_target_as = access_checker_fleet_8 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_9 } } save_event_target_as = access_checker_fleet_9 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_10 } } save_event_target_as = access_checker_fleet_10 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_11 } } save_event_target_as = access_checker_fleet_11 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_12 } } save_event_target_as = access_checker_fleet_12 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_13 } } save_event_target_as = access_checker_fleet_13 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_14 } } save_event_target_as = access_checker_fleet_14 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_15 } } save_event_target_as = access_checker_fleet_15 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_16 } } save_event_target_as = access_checker_fleet_16 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_17 } } save_event_target_as = access_checker_fleet_17 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_18 } } save_event_target_as = access_checker_fleet_18 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_19 } } save_event_target_as = access_checker_fleet_19 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_20 } } save_event_target_as = access_checker_fleet_20 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_21 } } save_event_target_as = access_checker_fleet_21 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_22 } } save_event_target_as = access_checker_fleet_22 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_23 } } save_event_target_as = access_checker_fleet_23 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_24 } } save_event_target_as = access_checker_fleet_24 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_25 } } save_event_target_as = access_checker_fleet_25 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_26 } } save_event_target_as = access_checker_fleet_26 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_27 } } save_event_target_as = access_checker_fleet_27 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_28 } } save_event_target_as = access_checker_fleet_28 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_29 } } save_event_target_as = access_checker_fleet_29 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_30 } } save_event_target_as = access_checker_fleet_30 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_31 } } save_event_target_as = access_checker_fleet_31 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_32 } } save_event_target_as = access_checker_fleet_32 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_33 } } save_event_target_as = access_checker_fleet_33 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_34 } } save_event_target_as = access_checker_fleet_34 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_35 } } save_event_target_as = access_checker_fleet_35 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_36 } } save_event_target_as = access_checker_fleet_36 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_37 } } save_event_target_as = access_checker_fleet_37 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_38 } } save_event_target_as = access_checker_fleet_38 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_39 } } save_event_target_as = access_checker_fleet_39 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_40 } } save_event_target_as = access_checker_fleet_40 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_41 } } save_event_target_as = access_checker_fleet_41 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_42 } } save_event_target_as = access_checker_fleet_42 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_43 } } save_event_target_as = access_checker_fleet_43 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_44 } } save_event_target_as = access_checker_fleet_44 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_45 } } save_event_target_as = access_checker_fleet_45 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_46 } } save_event_target_as = access_checker_fleet_46 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_47 } } save_event_target_as = access_checker_fleet_47 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_48 } } save_event_target_as = access_checker_fleet_48 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_49 } } save_event_target_as = access_checker_fleet_49 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_50 } } save_event_target_as = access_checker_fleet_50 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_51 } } save_event_target_as = access_checker_fleet_51 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_52 } } save_event_target_as = access_checker_fleet_52 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_53 } } save_event_target_as = access_checker_fleet_53 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_54 } } save_event_target_as = access_checker_fleet_54 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_55 } } save_event_target_as = access_checker_fleet_55 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_56 } } save_event_target_as = access_checker_fleet_56 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_57 } } save_event_target_as = access_checker_fleet_57 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_58 } } save_event_target_as = access_checker_fleet_58 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_59 } } save_event_target_as = access_checker_fleet_59 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_60 } } save_event_target_as = access_checker_fleet_60 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_61 } } save_event_target_as = access_checker_fleet_61 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_62 } } save_event_target_as = access_checker_fleet_62 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_63 } } save_event_target_as = access_checker_fleet_63 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_64 } } save_event_target_as = access_checker_fleet_64 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_65 } } save_event_target_as = access_checker_fleet_65 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_66 } } save_event_target_as = access_checker_fleet_66 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_67 } } save_event_target_as = access_checker_fleet_67 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_68 } } save_event_target_as = access_checker_fleet_68 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_69 } } save_event_target_as = access_checker_fleet_69 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_70 } } save_event_target_as = access_checker_fleet_70 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_71 } } save_event_target_as = access_checker_fleet_71 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_72 } } save_event_target_as = access_checker_fleet_72 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_73 } } save_event_target_as = access_checker_fleet_73 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_74 } } save_event_target_as = access_checker_fleet_74 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_75 } } save_event_target_as = access_checker_fleet_75 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_76 } } save_event_target_as = access_checker_fleet_76 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_77 } } save_event_target_as = access_checker_fleet_77 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_78 } } save_event_target_as = access_checker_fleet_78 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_79 } } save_event_target_as = access_checker_fleet_79 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_80 } } save_event_target_as = access_checker_fleet_80 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_81 } } save_event_target_as = access_checker_fleet_81 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_82 } } save_event_target_as = access_checker_fleet_82 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_83 } } save_event_target_as = access_checker_fleet_83 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_84 } } save_event_target_as = access_checker_fleet_84 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_85 } } save_event_target_as = access_checker_fleet_85 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_86 } } save_event_target_as = access_checker_fleet_86 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_87 } } save_event_target_as = access_checker_fleet_87 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_88 } } save_event_target_as = access_checker_fleet_88 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_89 } } save_event_target_as = access_checker_fleet_89 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_90 } } save_event_target_as = access_checker_fleet_90 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_91 } } save_event_target_as = access_checker_fleet_91 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_92 } } save_event_target_as = access_checker_fleet_92 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_93 } } save_event_target_as = access_checker_fleet_93 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_94 } } save_event_target_as = access_checker_fleet_94 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_95 } } save_event_target_as = access_checker_fleet_95 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_96 } } save_event_target_as = access_checker_fleet_96 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_97 } } save_event_target_as = access_checker_fleet_97 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_98 } } save_event_target_as = access_checker_fleet_98 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_99 } } save_event_target_as = access_checker_fleet_99 }
+	else_if = { limit = { NOT = { exists = event_target:access_checker_fleet_100 } } save_event_target_as = access_checker_fleet_100 }
+}
+
+get_destroy_checker_fleet = {
+	event_target:access_checker_fleet_$SECTOR_NUM$ = { destroy_fleet = this }
+}

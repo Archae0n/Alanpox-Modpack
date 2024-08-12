@@ -1,0 +1,414 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	yuttitaya = {
+		name = Yuttitayan
+		plural = Yuttitayans
+		home_planet = Yuttitaya
+		home_system = Shinai
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	tuminastapestry = {
+		name = Bagalan
+		plural = Bagalans
+		home_planet = "Tumina's Tapestry"
+		home_system = "Yopumna the Painter"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	shudhina = {
+		name = Shudhinese
+		plural = Shudhinese
+		home_planet = Shudhina
+		home_system = Yarmatsi
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	kunekula = {
+		name = Kunekulan
+		plural = Kunekulans
+		home_planet = Kunekula
+		home_system = Virtusamga
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	godaranacaprime = {
+		name = "Yuti Mani"
+		plural = "Yuti Mani"
+		home_planet = "Godaranaca Prime"
+		home_system = Godaranaca
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	nipashiti = {
+		name = Nipashitoid
+		plural = Nipashitoids
+		home_planet = Nipashiti
+		home_system = Saysanana 
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	yavalaka = {
+		name = Yavalakan
+		plural = Yavalakans
+		home_planet = Yavalaka
+		home_system = "Goda Raga" 
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	briyasahills = {
+		name = Briyasan
+		plural = Briyasans
+		home_planet = "Briyasa Hills"
+		home_system = "Aryonja Sky-River" 
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	keritana = {
+		name = Keritanan
+		plural = Keritanans
+		home_planet = Keritana
+		home_system = Nanashriya 
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	yopumadra = {
+		name = Yopumadran
+		plural = Yopumadrans
+		home_planet = Yopumadra
+		home_system = "Cegu Yarkana"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	muradra = {
+		name = Barse-Dai-Mura
+		plural = Barse-Dai-Mura
+		home_planet = Muradra
+		home_system = Murasthacu
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	vishudatca = {
+		name = Vishudatcoid
+		plural = Vishudatcoids
+		home_planet = Vishudatca
+		home_system = Sudevamnaya
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	gaustan = {
+		name = Gaustanite
+		plural = Gaustanites
+		home_planet = Gaustan
+		home_system = Viresa
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	hvasum = {
+		name = Hvasumling  
+		plural = Hvasumlings
+		home_planet = "Hva Sum"
+		home_system = Barna
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	vaskavaryathesage = {
+		name = Dhamgian  
+		plural = Dhamgians
+		home_planet = "Vaskavarya the Sage"
+		home_system = "Murabgula the Magician"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	sambastanaprime = {
+		name = Sambastanid  
+		plural = Sambastanids
+		home_planet = "Sambastana Prime"
+		home_system = Sambastana
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	hviresa = {
+		name = Hviresan  
+		plural = Hviresans
+		home_planet = Hviresa
+		home_system = Dhaga
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	vidanna = {
+		name = Vidannese  
+		plural = Vidannese
+		home_planet = Vidanna
+		home_system = Phikima
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	dumataya = {
+		name = Dumatayan 
+		plural = Dumatayans
+		home_planet = Dumataya
+		home_system = Kimaladhara
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	dhakhitakara = {
+		name = Kaysaluk 
+		plural = Kaysaluks
+		home_planet = "Dha Khitakara"
+		home_system = Yopurgakya
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	manasana = {
+		name = Manasanese 
+		plural = Manasanese
+		home_planet = Manasana
+		home_system = Sudanazati
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	yumnaiprime = {
+		name = Yumling 
+		plural = Yumlings
+		home_planet = "Yumnai Prime"
+		home_system = Yumnai
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	sudhavirtusa = {
+		name = Sudhavirtoid
+		plural = Sudhavirtoids
+		home_planet = Sudhavirtusa
+		home_system = Shriya-Yuti
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	cegula = {
+		name = Cegulan
+		plural = Cegulans
+		home_planet = Cegula
+		home_system = Presata
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	chirabhathefriend = {
+		name = Varda
+		plural = Vardas
+		home_planet = "Chirabha the Friend"
+		home_system = "Ragandarchu the Stranger"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	hvaphina = {
+		name = Hvaphinan
+		plural = Hvaphinans
+		home_planet = Hvaphina
+		home_system = Mambasha
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	krishga = {
+		name = Krishgan
+		plural = Krishgans
+		home_planet = Krishga
+		home_system = Kirgana
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	shiraka = {
+		name = Shirakan
+		plural = Shirakans
+		home_planet = Shiraka
+		home_system = Shaniya
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	poeticblessing = {
+		name = Hvarka
+		plural = Hvarkas
+		home_planet = "Poet's Blessing"
+		home_system = "Ceaseless Flame"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	gumthardaka = {
+		name = Gumthardakan
+		plural = Gumthardakans
+		home_planet = Gumthardaka
+		home_system = Hvamguttan
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	shutruka = {
+		name = Shutrukid
+		plural = Shutrukids
+		home_planet = Shutruka
+		home_system = "Kume Dumina"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	dhagoda = {
+		name = Dhagodan
+		plural = Dhagodans
+		home_planet = Dhagoda
+		home_system = Sthayutti
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	alabastertemple = {
+		name = Simduka
+		plural = Simdukas
+		home_planet = "Alabaster Temple"
+		home_system = "Vermilion Temple"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	tcuna = {
+		name = Tcunean
+		plural = Tcuneans
+		home_planet = Tcuna
+		home_system = Yumxukadan
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	vidatanca = {
+		name = Vidatancan
+		plural = Vidatancans
+		home_planet = Vidatanca
+		home_system = Hvala
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	nirgamprime = {
+		name = Nirgamite
+		plural = Nirgamites
+		home_planet = "Nirgam Prime"
+		home_system = Nirgam
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	yavarse = {
+		name = Yavarsid
+		plural = Yavarsids
+		home_planet = Yavarse
+		home_system = Kimdhanekula
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	bahuraka = {
+		name = Bahurakan
+		plural = Bahurakans
+		home_planet = Bahuraka
+		home_system = Ustana
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	sleepinghermit = {
+		name = Shaga
+		plural = Shagas
+		home_planet = "Sleeping Hermit"
+		home_system = "Fearless Light"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	gumxuka = {
+		name = Gumxuka
+		plural = Gumxukas
+		home_planet = Gumxuka
+		home_system = Vimhyi
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	vidatsi = {
+		name = Vidatsian
+		plural = Vidatsians
+		home_planet = Vidatsi
+		home_system = Hvala
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	divineleash = {
+		name = Punadha
+		plural = Punadhas
+		home_planet = "Divine Collar"
+		home_system = "Cosmic Chain"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	yumxukai = {
+		name = Yumxukean
+		plural = Yumxukeans
+		home_planet = Yumxukai
+		home_system = "Hoto Safala"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	khvaradrai = {
+		name = Khvar
+		plural = Khvar
+		home_planet = Khvaradrai
+		home_system = Jajam
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	khimdhar = {
+		name = Khimdharite
+		plural = Khimdharites
+		home_planet = Khimdhar
+		home_system = Nanasam
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	cloudfogaltar = {
+		name = Sanda
+		plural = Sandas
+		home_planet = "Cloud-Fog Altar"
+		home_system = "Sky-Glow Monastery"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	ysabirgaka = {
+		name = Hasamna
+		plural = Hasamnas
+		home_planet = "Ysa Birgaka"
+		home_system = "Ysa Bardaka"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	hasakhudam = {
+		name = Hvamna
+		plural = Hvamnas
+		home_planet = "Hasa Khudam"
+		home_system = Khudam
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	shavama = {
+		name = Shavamese
+		plural = Shavamese
+		home_planet = Shavama
+		home_system = "Khavam Virma"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	templeoftruth = {
+		name = Phamagatan
+		plural = Phamagatans
+		home_planet = "Temple of Truth"
+		home_system = "Noble Prayer"
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+	gumaya = {
+		name = Gumayan
+		plural = Gumayans
+		home_planet = Gumaya
+		home_system = Shurgand
+		name_list = "cybrxkhan_handmade_khotanese"
+	}
+}

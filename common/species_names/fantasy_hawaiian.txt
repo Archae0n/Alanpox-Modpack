@@ -1,0 +1,440 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	humoa = {
+		name = Humoan
+		plural = Humoans
+		home_planet = Humoa-Nuhu'ili
+		home_system = Humoa-Ie-Loei
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	luna'u = {
+		name = Luna'u
+		plural = Luna'u
+		home_planet = Heoa
+		home_system = Ohahu'a
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	uoioheano = {
+		name = Uo'i-Oheano
+		plural = Uo'i-Oheano
+		home_planet = Aehi
+		home_system = Eoa-Wi'i-Hiai
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	ae = {
+		name = Ae
+		plural = Ae
+		home_planet = Ae
+		home_system = "Ke'ahu Louhoi"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	luame = {
+		name = Luamean
+		plural = Luameans
+		home_planet = Luame
+		home_system = Uoaia
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	ekumaeeo = {
+		name = 'ekumaee'o
+		plural = 'ekumaee'o
+		home_planet = Hae'oa
+		home_system = Kilihoma 
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	pauo = {
+		name = Pa'u'o
+		plural = Pa'u'o
+		home_planet = Pa'u'o
+		home_system = Hikeo'o
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	oo = {
+		name = O'o
+		plural = O'o
+		home_planet = O'o
+		home_system = Eio 
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	aeo = {
+		name = Aeoan
+		plural = Aeoans
+		home_planet = "Hai Aeo"
+		home_system = "Hai Ole'u" 
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	olohomo = {
+		name = Olohomoid
+		plural = Olohomoids
+		home_planet = Olohomo
+		home_system = Olonani
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	aeeweu = {
+		name = Ae'ewe'u
+		plural = Ae'ewe'u
+		home_planet = Ae'ewe'u
+		home_system = Ae'ewe'u
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	nuiu = {
+		name = Nui'u
+		plural = Nui'u
+		home_planet = "Kei Nui'u"
+		home_system = "Ua Wamau"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	huaka = {
+		name = Huakan
+		plural = Huakans
+		home_planet = Huaka
+		home_system = Iokono
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	wai = {
+		name = Wa'i
+		plural = Wa'i
+		home_planet = Wa'i-Liki
+		home_system = Oeuna
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	kopioma = {
+		name = Kopi'oma  
+		plural = Kopi'oma
+		home_planet = Kopi'oma
+		home_system = Kopi'oma
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	nulikikou = {
+		name = Nulikikou  
+		plural = Nulikikou
+		home_planet = "Hakokuwa Prime"
+		home_system = Hakokuwa
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	manuouku = {
+		name = Manu'ouku  
+		plural = Manu'ouku
+		home_planet = Manu'ouku
+		home_system = Olula'ia
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	kauepa = {
+		name = Kauepan  
+		plural = Kauepans
+		home_planet = Kauepa
+		home_system = 'umoei
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	huoe = {
+		name = Huoean  
+		plural = Huoeans
+		home_planet = Huoe
+		home_system = A'awewinili
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	iewieoka = {
+		name = 'iewieoka 
+		plural = 'iewieoka
+		home_planet = "Oea Olaue"
+		home_system = "Oea A'upoloho"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	aioi = {
+		name = A'i'oi 
+		plural = A'i'oi
+		home_planet = Ouke
+		home_system = "Ou'u Ou'i"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	uewo = {
+		name = 'uewo
+		plural = 'uewo
+		home_planet = 'uewo
+		home_system = "Eno Ouma"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	ouahu = {
+		name = Ouahu
+		plural = Ouahu
+		home_planet = Ouahu
+		home_system = Ahaou
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	oehamae = {
+		name = Oehama'ean
+		plural = Oehama'eans
+		home_planet = Oehama'e
+		home_system = Henekoo
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	aewaha = {
+		name = Aewaha
+		plural = Aewaha
+		home_planet = "Aewaha Opamea"
+		home_system = "Hiho Eana"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	ouahu = {
+		name = Oka'onoid
+		plural = Oka'onoids
+		home_planet = Oka'ono
+		home_system = U'i
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	eeona = {
+		name = Eeonan
+		plural = Eeonans
+		home_planet = Eeona
+		home_system = Heineo
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	unoena = {
+		name = Unoenan
+		plural = Unoenans
+		home_planet = Unoena
+		home_system = U'ui
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	ewao = {
+		name = Ewaoan
+		plural = Ewaoans
+		home_planet = Ewa'o
+		home_system = U'o'ke
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	hakamea = {
+		name = Hakamean
+		plural = Hakameans
+		home_planet = Hakamea
+		home_system = Oewakana
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	nuoaki = {
+		name = Nuoakite
+		plural = Nuoakites
+		home_planet = Nuoaki
+		home_system = Moikiku
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	muaka = {
+		name = Muakoid
+		plural = Muakoids
+		home_planet = Muaka
+		home_system = Oika'e
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	haaopo = {
+		name = Ha'a'o'po
+		plural = Ha'a'o'po
+		home_planet = Ha'a'o'po
+		home_system = "Kele'u'a Ha'a'o'po"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	wameaan = {
+		name = Wamea'an
+		plural = Wamea'ans
+		home_planet = Wamea'a
+		home_system = Iwa'e
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	aeoana = {
+		name = Aeoanan
+		plural = Aeoanans
+		home_planet = Aeoana
+		home_system = "Aeoana Prime"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	kina = {
+		name = Kinese
+		plural = Kinese
+		home_planet = Kina
+		home_system = Oka'ono
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	nukau = {
+		name = Nukau
+		plural = Nukau
+		home_planet = Nukau
+		home_system = "Nukau Kula"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	koeaoeapi = {
+		name = 'upali'a'uko
+		plural = 'upali'a'uko
+		home_planet = "Koe Aoeapi"
+		home_system = "Koe Eoli'au"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	eiuthebeloved = {
+		name = Moluan
+		plural = Moluans
+		home_planet = "E'iu the Beloved"
+		home_system = "Oipukauo the Guide"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	omiawaprime = {
+		name = O'a'wa
+		plural = O'a'wa
+		home_planet = "Omia'wa Prime"
+		home_system = Omia'wa
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	uluhineha = {
+		name = Uluhinese
+		plural = Uluhinese
+		home_planet = Uluhineha
+		home_system = Kiwanukowe
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	muoluko = {
+		name = Lukite
+		plural = Lukites
+		home_planet = "Muo Luku"
+		home_system = Peneu'ulihe
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	IUbria = {
+		name = IUbria
+		plural = IUbria
+		home_planet = IUbria
+		home_system = Penukopo
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	wipoaue = {
+		name = Wipean
+		plural = Wipeans
+		home_planet = Wipoaue
+		home_system = 'a-Ewo
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	euepeka = {
+		name = Euepekian
+		plural = Euepekians
+		home_planet = Euepeka
+		home_system = Uimo
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+}
+
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	alunehe = {
+		name = Alunehean
+		plural = Aluneheans
+		home_planet = Alunehe
+		home_system = Euke'oo
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	eoipahia = {
+		name = Eahe
+		plural = Eahe
+		home_planet = Eo'ipahia
+		home_system = "E'u'uo Loa"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	puwini = {
+		name = Puwinese
+		plural = Puwinese
+		home_planet = Puwini
+		home_system = "Nei Aku"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	ooeka = {
+		name = O'o
+		plural = O'o
+		home_planet = Oo'eka
+		home_system = Oo'ipo
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	wuwenoae = {
+		name = Wuwenoese
+		plural = Wuwenoese
+		home_planet = Wuwenoae
+		home_system = Emuae'eha
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	kapikea = {
+		name = Kapikean
+		plural = Kapikeans
+		home_planet = Kapikea
+		home_system = Ao'aunue
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	heartoflava = {
+		name = 'aola'i
+		plural = 'aola'i
+		home_planet = "Heart of Lava"
+		home_system = "First Volcano"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	loamuthefirstnavigator = {
+		name = Loa
+		plural = Loa
+		home_planet = "Loamu the First Navigator"
+		home_system = "Mouhiua the Sky-Barge"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+	wueeau = {
+		name = Pikepi'ume
+		plural = Pikepi'ume
+		home_planet = "Wue Eau"
+		home_system = "Wue Aeko"
+		name_list = "cybrxkhan_fantasy_hawaiian"
+	}
+}

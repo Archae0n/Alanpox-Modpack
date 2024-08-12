@@ -1,0 +1,333 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	corrasoob = {
+		name = Corrasoob
+		plural = Corrasoob
+		home_planet = Corrasoob
+		home_system = Corrasoob
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	ebautho = {
+		name = Ebautho
+		plural = Ebautho
+		home_planet = Ebautho
+		home_system = Ebautho
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	weshomesh = {
+		name = Weshomesh
+		plural = Weshomesh
+		home_planet = Weshomesh
+		home_system = Weshomesh
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	assasutthefleshbringer = {
+		name = Moishue
+		plural = Moishue
+		home_planet = "A'ssa-sut the Flesh-Bringer"
+		home_system = "Wasee the Multitude"
+		name_list = "cybrxkhan_real_beothuk"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	adiab = {
+		name = Adiab
+		plural = Adiab
+		home_planet = Adiab
+		home_system = Adiab 
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	gabook = {
+		name = Gabookish
+		plural = Gabookish
+		home_planet = Gabook
+		home_system = Magareehow 
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	kiusweet = {
+		name = Kiusweetian
+		plural = Kiusweetians
+		home_planet = Kiusweet
+		home_system = Eesh 
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	gaduishaboho = {
+		name = A-eyn-yadth
+		plural = A-eyn-yadth
+		home_planet = Gaduishaboho
+		home_system = Ameshewseth 
+		name_list = "cybrxkhan_real_beothuk"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	eeshoo = {
+		name = Eeshoo
+		plural = Eeshoo
+		home_planet = Eeshoo
+		home_system = Eeshoo
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	woaja = {
+		name = Woajan
+		plural = Woajans
+		home_planet = Woaja
+		home_system = Gabonattomoet
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	odewsete = {
+		name = Shei-Non-Boob
+		plural = Shei-Non-Boob
+		home_planet = Odewsete
+		home_system = Eewit
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	ewith = {
+		name = Ewithoid
+		plural = Ewithoids
+		home_planet = Ewith
+		home_system = Mamisheboweet
+		name_list = "cybrxkhan_real_beothuk"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	dattomeish = {
+		name = Dattomeish  
+		plural = Dattomeish
+		home_planet = Dattomeish
+		home_system = Dattomeish
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	aensoosab = {
+		name = Buk'Sharet  
+		plural = Buk'Sharet
+		home_planet = A-ensoosab
+		home_system = Magoronash
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	edrathow = {
+		name = Edrathian  
+		plural = Edrathians
+		home_planet = Edrathow
+		home_system = Eewtch
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	ewine = {
+		name = Ewinite  
+		plural = Ewinites
+		home_planet = Ewine
+		home_system = Washewseet
+		name_list = "cybrxkhan_real_beothuk"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	theehone = {
+		name = Theehone 
+		plural = Theehone
+		home_planet = Theehone
+		home_system = Theehone
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	edree = {
+		name = Edree 
+		plural = Edree
+		home_planet = Edree
+		home_system = Edree
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	deetdathun = {
+		name = Deedath 
+		plural = Deedath
+		home_planet = "Deet Dathun"
+		home_system = Oodowius
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	mozadut = {
+		name = Was-suth 
+		plural = Was-suth
+		home_planet = Mozadut
+		home_system = Gabooth
+		name_list = "cybrxkhan_real_beothuk"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	osthuk = {
+		name = Osthuk
+		plural = Osthuk
+		home_planet = Osthuk
+		home_system = Osthuk
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	bogorun = {
+		name = Bogorunoid
+		plural = Bogorunoids
+		home_planet = Bogorun
+		home_system = Dogomei
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	ceasingofdoom = {
+		name = Budisut
+		plural = Budisuts
+		home_planet = "Ceasing of Doom"
+		home_system = "Growth of Reflection"
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	guasenosh = {
+		name = Haoosamanth
+		plural = Haoosamanth
+		home_planet = Guas-enosh
+		home_system = "Wesh Oodoth"
+		name_list = "cybrxkhan_real_beothuk"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	honemeish = {
+		name = Honemeish
+		plural = Honemeish
+		home_planet = Honemeish
+		home_system = Honemeish
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	aeebeothuk = {
+		name = Bukasheech
+		plural = Bukasheech
+		home_planet = A-ee
+		home_system = Bogajavick
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	shanabohoaja = {
+		name = Shanaboan
+		plural = Shanaboans
+		home_planet = Shanabohoaja
+		home_system = Emas-sut
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	boodret = {
+		name = Boodretoid
+		plural = Boodretoids
+		home_planet = Boodret
+		home_system = Bogomedobaun
+		name_list = "cybrxkhan_real_beothuk"
+	}
+}
+
+
+### HUMANOIDS
+
+HUM = {
+	gawmish = {
+		name = Gawmish
+		plural = Gawmish
+		home_planet = Eewa-Gawmish
+		home_system = Aebooshrat
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	magosoob = {
+		name = Magosoobian
+		plural = Magosoobians
+		home_planet = Magosoob
+		home_system = Washethun
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	koske = {
+		name = Koskean
+		plural = Koskeans
+		home_planet = Koske
+		home_system = Bukashei
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	nonisamookprime = {
+		name = Nonisama-aa
+		plural = Nonisama-aa
+		home_planet = "Nonisamook Prime"
+		home_system = Nonisamook
+		name_list = "cybrxkhan_real_beothuk"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	aeueyghthuc = {
+		name = Eyghthian
+		plural = Eyghthians
+		home_planet = Ae-u-eyghthuc
+		home_system = Ae-uthoosh
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	edrook = {
+		name = Edrookish
+		plural = Edrookish
+		home_planet = Edrook
+		home_system = Batt-Osut
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	aadyim = {
+		name = A-adyim
+		plural = A-adyim
+		home_planet = A-adyim
+		home_system = A-adyim
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	wasduthun = {
+		name = Wasduthunese
+		plural = Wasduthunese
+		home_planet = Wasduthun
+		home_system = Ebasoob
+		name_list = "cybrxkhan_real_beothuk"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	boraguis = {
+		name = Boragian
+		plural = Boragians
+		home_planet = Boraguis
+		home_system = Mannosabaun
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	izzob = {
+		name = Izzobite
+		plural = Izzobites
+		home_planet = Izzob
+		home_system = Mamamoth
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	odewit = {
+		name = Odewit
+		plural = Odewit
+		home_planet = Odewit
+		home_system = Odewit
+		name_list = "cybrxkhan_real_beothuk"
+	}
+	edrot = {
+		name = Edrotan
+		plural = Edrotans
+		home_planet = Edrot
+		home_system = Shannamooshet
+		name_list = "cybrxkhan_real_beothuk"
+	}
+}

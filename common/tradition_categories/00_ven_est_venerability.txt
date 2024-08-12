@@ -1,0 +1,28 @@
+tradition_est_venerability = {
+	tree_template = "tree_est_0_1_0_0_234"
+	adoption_bonus = "tr_est_venerability_adopt"
+	finish_bonus = "tr_est_venerability_finish"
+	traditions = {
+		"tr_est_venerability_1"
+		"tr_est_venerability_2"
+		"tr_est_venerability_3"
+		"tr_est_venerability_4"
+		"tr_est_venerability_5"
+	}
+
+	potential = {
+		est_venerability_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_civic = civic_machine_built_to_last
+		}	
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

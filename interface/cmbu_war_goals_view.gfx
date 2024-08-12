@@ -1,0 +1,87 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_wg_cmbannex"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_cmbunion.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_cmbvassal"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_cmbunion.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_freereign"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_sovunion.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_extendedwarranty"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_respublika.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_globalbranding"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_pizdec.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_hivconsume"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_hive.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_machinec"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_machine.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_1984"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_1984.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_xenophobc"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_xenophob.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_cstartrek"
+		texturefile = "gfx/interface/icons/diplomacy/diplo_startrek.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_cstartrek2"
+		texturefile = "gfx/interface/icons/diplomacy/diplo_startrek.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_ccrimes"
+		texturefile = "gfx/interface/icons/diplomacy/diplo_crimes.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_chre"
+		texturefile = "gfx/interface/icons/diplomacy/diplo_hre.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_cmaterialist"
+		texturefile = "gfx/interface/icons/diplomacy/diplo_cmaterial.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_militarist"
+		texturefile = "gfx/interface/icons/diplomacy/diplo_cmilitary.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_pacifist"
+		texturefile = "gfx/interface/icons/diplomacy/diplo_cpacifist.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_cpirate"
+		texturefile = "gfx/interface/icons/diplomacy/diplo_cpirates.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_cservitor"
+		texturefile = "gfx/interface/icons/diplomacy/diplo_servitor.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_cspiritualist"
+		texturefile = "gfx/interface/icons/diplomacy/diplo_spiritualist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_wg_cmartlet"
+		texturefile = "gfx/interface/icons/diplomacy/diplo_czenith.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_cbananas"
+		texturefile = "gfx/interface/icons/diplomacy/diplo_cbananas.dds"
+	}
+}

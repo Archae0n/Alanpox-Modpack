@@ -1,0 +1,44 @@
+﻿l_russian:
+
+NAME_shroud_cultist_country: "Силы культистов Покрова"
+NAME_shroud_cultists: "Культисты Покрова"
+
+NAME_shroud_horror_country: "Ужасы Покрова"
+NAME_greater_horror_fleet: "Сущность Покрова"
+
+NAME_vengeful_horror_army: "Мстительные ужасы"
+NAME_horror_army: "Бушующие ужасы"
+
+NAME_ancient_god_name: "Древний Небесный Бог"
+NAME_ancient_god_ship_name: "Древний Небесный Бог"
+NAME_ancient_god: "Покров ужасов"
+NAME_ancient_god_blank: " "
+NAME_shroud_horrors: "Покров ужасов"
+NAME_shroud_horrors_single: "Покров ужасов"
+NAME_shroud_horrors_blank: " "
+NAME_greater_horror: "Ужас Великого Покрова"
+NAME_shroud_entity: "Малый Ужас Покрова"
+NAME_shroud_entity_name: "Сущность Покрова"
+NAME_greater_horror_hunger: "Аватар Кхорна"
+NAME_greater_horror_whisper: "Аватара Тзинча"
+NAME_greater_horror_corruption: "Аватара Нургла"
+NAME_greater_horror_destruction: "Аватар Единства Хаоса"
+NAME_greater_horror_desire: "Аватар Слаанеша"
+NAME_cosmic_horror: "Космический ужас"
+NAME_cosmic_horror_name: "Космический ужас"
+
+
+cultist_nest: "Сектантская орбитальная станция"
+
+#ship design names
+NAME_horror_hunger: "Великий ужас Кхорна"
+NAME_horror_desire: "Великий ужас Слаанеша"
+NAME_horror_whisper: "Великий ужас Тзинча"
+NAME_horror_corruption: "Великий ужас Нургла"
+
+
+NAME_traitor_fleet: "Флот предателей"
+NAME_traitor_ship: "Корабль предателя"
+NAME_traitor_army: "Армия предателей"
+NAME_loyalist_army: "Лоялистская армия"
+NAME_cultist_army: "Армия культистов"

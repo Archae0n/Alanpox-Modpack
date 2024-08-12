@@ -1,0 +1,440 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	cagao = {
+		name = Cagaoan
+		plural = Cagaoans
+		home_planet = Cagao
+		home_system = Ragadaga
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	maguman = {
+		name = Magumanese
+		plural = Magumanese
+		home_planet = Maguman
+		home_system = Madulay-ay
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	timewornarchive = {
+		name = Cabaran
+		plural = Cabarans
+		home_planet = "Timeworn Archive"
+		home_system = "Humble Librarian"
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	bolol = {
+		name = Bololoid
+		plural = Bololoids
+		home_planet = Bolol
+		home_system = Canaman
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	junolan = {
+		name = Junolanese
+		plural = Junolanese
+		home_planet = Junolan
+		home_system = "Pag Cab" 
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	reflectionofexistence = {
+		name = Can-Mang
+		plural = Can-Mang
+		home_planet = "Reflection of Existence"
+		home_system = "Flourishing Sphere" 
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	malingay = {
+		name = Malingayan
+		plural = Malingayans
+		home_planet = Malingay
+		home_system = Danano 
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	agden = {
+		name = Agdenian
+		plural = Agdenians
+		home_planet = Agden
+		home_system = Sabaoa 
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	gacayan = {
+		name = Gacayanese
+		plural = Gacayanese
+		home_planet = Gacayan
+		home_system = Libanto
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	Ttibon = {
+		name = Tibonid
+		plural = Tibonids
+		home_planet = Tibon
+		home_system = Belanay
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	sabilog = {
+		name = Matto-Ging
+		plural = Matto-Ging
+		home_planet = Sabilog
+		home_system = Imbilacde
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	lacan = {
+		name = Lacanese
+		plural = Lacanese
+		home_planet = Lacan
+		home_system = Maigaya
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	saguinangay = {
+		name = Maba'Pan  
+		plural = Maba'Pan
+		home_planet = Saguinang-ay
+		home_system = Magtapatutagay
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	cagdol = {
+		name = Cagdolese  
+		plural = Cagdolese
+		home_planet = Cagdol
+		home_system = Tugad
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	mactalan = {
+		name = Mactalish  
+		plural = Mactalish
+		home_planet = Mactalan
+		home_system = Navalaylo
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	tugad = {
+		name = Tugadian  
+		plural = Tugadians
+		home_planet = Tugad
+		home_system = Caoacta
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	chambersoftheliving = {
+		name = Balao 
+		plural = Balao
+		home_planet = "Chambers of the Living"
+		home_system = "Parade of the Ancestors"
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	majano = {
+		name = Majanian 
+		plural = Majanians
+		home_planet = Majano
+		home_system = Patasacsilan
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	malpilog = {
+		name = Sucanese 
+		plural = Sucanese
+		home_planet = "Mal Pilog"
+		home_system = Pilog
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	magatubaseclan = {
+		name = Bohoy 
+		plural = Bohoy
+		home_planet = Magatubaseclan
+		home_system = Maraylao
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	quingcadionthesongweaver = {
+		name = Quingcadian
+		plural = Quingcadians
+		home_planet = "Quingcadion the Song-Weaver"
+		home_system = "Enduring Poem"
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	mangkabaya = {
+		name = "Mang Kabayan"
+		plural = "Mang Kabayans"
+		home_planet = "Mang Kabaya"
+		home_system = "Luc Calut"
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	balalaang = {
+		name = Balalaangese
+		plural = Balalaangese
+		home_planet = Balalaang
+		home_system = Ilakian
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	ribay = {
+		name = Ribayan
+		plural = Ribayans
+		home_planet = Ribay
+		home_system = Anuyog
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	mabinongsfinallove = {
+		name = Macelian
+		plural = Macelians
+		home_planet = "Mabinong's Final Love"
+		home_system = "Mabinong's Tears"
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	magtazo = {
+		name = Man-mang
+		plural = Man-mang
+		home_planet = Magtazo
+		home_system = Dimurong
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	tagbasan = {
+		name = Tagbasanese
+		plural = Tagbasanese
+		home_planet = Tagbasan
+		home_system = Macqui
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	rabilioprime = {
+		name = Rabilian
+		plural = Rabilians
+		home_planet = "Rabilio Prime"
+		home_system = Rabilio
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	pampayog = {
+		name = Pampayite
+		plural = Pampayites
+		home_planet = Pampayog
+		home_system = Luzobay
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	beautifulleash = {
+		name = Paya
+		plural = Paya
+		home_planet = "Beautiful Leash"
+		home_system = "Diamond Collar"
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	agcatang = {
+		name = Agcatangian
+		plural = Agcatangians
+		home_planet = Agcatang
+		home_system = Igcod
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	dimagao = {
+		name = Dimagaean
+		plural = Dimagaeans
+		home_planet = Dimagao
+		home_system = Omabali
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	dimis = {
+		name = Dimaran
+		plural = Dimarans
+		home_planet = Dimis
+		home_system = Calaysan
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	macawan = {
+		name = Macawanese
+		plural = Macawanese
+		home_planet = Macawan
+		home_system = Sumao
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	manol = {
+		name = Mak-Mak-Mak
+		plural = Mak-Mak-Mak
+		home_planet = Manol
+		home_system = Dumambuc
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	yabulserro = {
+		name = Yabulserran
+		plural = Yabulserrans
+		home_planet = Yabulserro
+		home_system = Malacub
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	mindsremedy = {
+		name = Malacubese
+		plural = Malacubese
+		home_planet = "Mind's Remedy"
+		home_system = "Pulpit of Fire"
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	okapunap = {
+		name = Okapunap
+		plural = Okapunap
+		home_planet = Okapunap
+		home_system = Okapunap
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	laktucay = {
+		name = Lak-Tucayan
+		plural = Lak-Tucayans
+		home_planet = Lak-Tucay
+		home_system = Lumag
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	bulay = {
+		name = Luz
+		plural = Luz
+		home_planet = Bulay
+		home_system = Bagmao
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	mouthofdelight = {
+		name = Pantanao
+		plural = Pantanao
+		home_planet = "Mouth of Delight"
+		home_system = "Hand of the Sky-Master"
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	belangay = {
+		name = Belangayan
+		plural = Belangayans
+		home_planet = Belangay
+		home_system = Gacay
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	dulang = {
+		name = Dulangese
+		plural = Dulangese
+		home_planet = Dulang
+		home_system = Miyicla
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	pamligungo = {
+		name = Pamligungian
+		plural = Pamligungians
+		home_planet = Pamligungo
+		home_system = Sundagtok
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	umputugmi = {
+		name = Umputugmian
+		plural = Umputugmians
+		home_planet = Umputugmi
+		home_system = Yeldeeldag
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	chugmuichum = {
+		name = Chumchum
+		plural = Chumchums
+		home_planet = "Chugmui Chum"
+		home_system = Pengampi
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	mampipprime = {
+		name = Mampippian
+		plural = Mampippians
+		home_planet = "Mampip Prime"
+		home_system = Mampip
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	danceoftheskyfires = {
+		name = Lurit
+		plural = Lurits
+		home_planet = "Dance of the Sky-Fires"
+		home_system = "Shattering Illumination"
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	yivia = {
+		name = Yivian
+		plural = Yivians
+		home_planet = Yivia
+		home_system = Vicog
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	huhuvu = {
+		name = Huhu
+		plural = Huhus
+		home_planet = Huhuvu
+		home_system = Igmiruy
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	kicsag = {
+		name = Kicsagoid
+		plural = Kicsagoids
+		home_planet = Kicsag
+		home_system = Vuwate
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	puclagia = {
+		name = Puclagian
+		plural = Puclagians
+		home_planet = Puclagia
+		home_system = "Kentia Mirnia"
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	valhulhuk = {
+		name = Valhullese
+		plural = Valhullese
+		home_planet = Valhulhuk
+		home_system = Chalhi
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+	tibasuimi = {
+		name = Tibasuimian
+		plural = Tibasuimians
+		home_planet = Tibasuimi
+		home_system = Yuclu
+		name_list = "cybrxkhan_handmade_tagalog"
+	}
+}

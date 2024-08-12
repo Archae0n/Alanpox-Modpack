@@ -1,0 +1,400 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	atron = {
+		name = Atronid
+		plural = Atronids
+		home_planet = Atron
+		home_system = Atros
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	daouma = {
+		name = Da'ou
+		plural = Da'ou
+		home_planet = Da'ouma
+		home_system = "Pishay pot Pijoub"
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	elmathos = {
+		name = Mathite
+		plural = Mathites
+		home_planet = El-Mathos
+		home_system = Zai-Pakhte
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	strongholdofdevastation = {
+		name = Oun
+		plural = Oun
+		home_planet = "Stronghold of Devastation"
+		home_system = "Rain of Terror"
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	divineessence = {
+		name = Jorgee
+		plural = Jorgees
+		home_planet = "Divine Essence"
+		home_system = "Immediate Restoration" 
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	pijout = {
+		name = Pijouti
+		plural = Pijoutis
+		home_planet = Pijout
+		home_system = Apamanniker 
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	pikosprime = {
+		name = Abithoutese
+		plural = Abithoutese
+		home_planet = "Pikos Prime"
+		home_system = Pikos
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	attarah = {
+		name = Attarian
+		plural = Attarians
+		home_planet = Attarah
+		home_system = Gharout 
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	arete = {
+		name = Aretoid
+		plural = Aretoids
+		home_planet = Arete
+		home_system = Nah'Androud
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	apasha = {
+		name = Apashite
+		plural = Apashites
+		home_planet = Apasha
+		home_system = Pijimenhom
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	milpounon = {
+		name = Noul'Pounonian
+		plural = Noul'Pounonians
+		home_planet = Mil'Pounon
+		home_system = Ghai
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	biktousthemummified = {
+		name = Pakanonid
+		plural = Pakanonids
+		home_planet = "Biktous the Mummified"
+		home_system = "Gharout the Elephantine"
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	apahdi = {
+		name = Apahdid  
+		plural = Apahdids
+		home_planet = Apahdi
+		home_system = Ahmanio
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	rasnasdan = {
+		name = Abrahite  
+		plural = Abrahites
+		home_planet = "Rasnas Dan"
+		home_system = "Maros Jer"
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	gizabitprime = {
+		name = Gizabitean  
+		plural = Gizabiteans
+		home_planet = "Gizabit Prime"
+		home_system = Gizabit
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	abanonan = {
+		name = Abanonan  
+		plural = Abanonans
+		home_planet = Abanon
+		home_system = Kashous
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	abde = {
+		name = Abdian  
+		plural = Abdians
+		home_planet = Abde
+		home_system = Tamin
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	abrisi = {
+		name = Abrisid 
+		plural = Abrisids
+		home_planet = Abrisi
+		home_system = Gabasrissef
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	shadowedpulse = {
+		name = Papite 
+		plural = Papites
+		home_planet = "Shadowed Pulse"
+		home_system = "Breathing Manacle"
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	cuilla = {
+		name = "Rouf Pishon" 
+		plural = "Rouf Pishon"
+		home_planet = Bish'Pikhom
+		home_system = Bish'Pishon
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	fandaroufai = {
+		name = Mikhoi 
+		plural = Mikhoi
+		home_planet = Fandaroufai
+		home_system = Wabashali
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	abitpiktori = {
+		name = "Abit Piktoran"
+		plural = "Abit Piktorans"
+		home_planet = "Abit Piktori"
+		home_system = Kast
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	marah = {
+		name = Marite
+		plural = Marites
+		home_planet = Marah
+		home_system = Pimeni
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	jorgios = {
+		name = Jorna
+		plural = Jorna
+		home_planet = Jorgios
+		home_system = Jor
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	elmakary = {
+		name = El-Makarid
+		plural = El-Makarids
+		home_planet = El-Makary
+		home_system = El-Tabrishali
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	han = {
+		name = Hanoid
+		plural = Hanoids
+		home_planet = Hanos
+		home_system = Piathos
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	zaipakhoub = {
+		name = Agathoi
+		plural = Agathoi
+		home_planet = "Zai Pakhoub"
+		home_system = Bikat
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	potbishoui = {
+		name = Potbishian
+		plural = Potbishians
+		home_planet = Pot-Bishoui
+		home_system = Rashraf
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	sworncaverns = {
+		name = Pti'ram
+		plural = Pti'ram
+		home_planet = "Sworn Caverns"
+		home_system = "Scarlet Crease"
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	papnouma = {
+		name = Papnoumid
+		plural = Papnoumids
+		home_planet = Papnouma
+		home_system = Papnouma
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	elmari = {
+		name = "Ili Rasite"
+		plural = "Ili Rasites"
+		home_planet = El-Mari
+		home_system = El-Wageetour
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	aara = {
+		name = Aaran
+		plural = Aarans
+		home_planet = Aara
+		home_system = Pimod
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	clawedcrypt = {
+		name = Ashrahite
+		plural = Ashrahites
+		home_planet = "Clawed Crypt"
+		home_system = "Eon-Ending Oath"
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	samanthoiprime = {
+		name = Bee'Anthian
+		plural = Bee'Anthians
+		home_planet = "Sam Anthoi Prime"
+		home_system = "Sam Anthoi"
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	geraamzy = {
+		name = Geraamid
+		plural = Geraamids
+		home_planet = Geraamzy
+		home_system = Tamzy
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	ghari = {
+		name = Gharid
+		plural = Gharids
+		home_planet = Ghari
+		home_system = Saishayed
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	sinadnakhkt = {
+		name = Pijounese
+		plural = Pijounese
+		home_planet = Sinad'Nakht
+		home_system = Gabandarah
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	elhawirina = {
+		name = Wirinian
+		plural = Wirinians
+		home_planet = El-Hawirina
+		home_system = El-Habrinai
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	iskaishini = {
+		name = Iskaishinian
+		plural = Iskaishinians
+		home_planet = Iskaishini
+		home_system = Saishayed
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	nourous = {
+		name = Nour
+		plural = Nour
+		home_planet = Nourous
+		home_system = Wabana
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	sowandar = {
+		name = Sowandarid
+		plural = Sowandarids
+		home_planet = Sowandar
+		home_system = Siosios
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	elwabrisoo = {
+		name = Wabrisite
+		plural = Wabrisites
+		home_planet = El-Wabrisoo
+		home_system = Wabbas
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	mastabaofelmakhini = {
+		name = Rashirid
+		plural = Rashirids
+		home_planet = "Mastaba of El-Makhini"
+		home_system = "Pyramid of El-Makattamzy"
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	aaros = {
+		name = Aarossoid
+		plural = Aarossoids
+		home_planet = Aaros
+		home_system = Nauina
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	apandro = {
+		name = Androut
+		plural = Androut
+		home_planet = Apandro
+		home_system = Marios
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	pikath = {
+		name = Pikathan
+		plural = Pikathans
+		home_planet = Pikath
+		home_system = Abdergio
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	makhomofthereeds = {
+		name = Makhomite
+		plural = Makhomites
+		home_planet = "Makhom of the Reeds"
+		home_system = "Nahon the Undying"
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	daaaaaout = {
+		name = Da'djamed
+		plural = Da'djamed
+		home_planet = Da'out
+		home_system = Hanouban
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+	nisseneh = {
+		name = Nissenian
+		plural = Nissenians
+		home_planet = Nisseneh
+		home_system = Kasnadi
+		name_list = "cybrxkhan_handmade_coptic"
+	}
+}

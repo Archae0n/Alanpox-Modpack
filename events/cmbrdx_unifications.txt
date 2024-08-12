@@ -1,0 +1,267 @@
+namespace = cmbrdx
+#Yes, I am retarded
+#Remove all modded civics
+
+country_event = {
+	id = cmbrdx.255
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		force_remove_civic = civic_rmartlet
+		force_remove_civic = civic_rbanana
+	}
+}
+
+
+#Shit's disbanded
+country_event = {
+	id = cmbrdx.777
+	title = "cmbrdx.777.name"
+	desc = "cmbrdx.777.desc"
+	picture = GFX_evt_one_sided_deal
+	show_sound = event_yellow_alert
+
+	is_triggered_only = yes
+	
+	immediate = { remove_global_flag = cmbu_allowintegro remove_country_flag = cmbu_adespot }
+	
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbrdx.777.a
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbrdx.777.b
+	}
+}
+#############################
+# Zenith Empire (CMB)
+country_event = {
+	id = cmbrdx.1
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbrdx.81 }
+	}
+}
+
+#
+country_event = {
+	id = cmbrdx.81
+	title = "cmbrdx.001.name"
+	desc = "cmbrdx.001.desc"
+	
+	picture = GFX_evt_rmartlet
+	show_sound = cmbrdx_remedy
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		
+		#shift_ethic = "ethic_fanatic_militarist"
+		change_government = {
+			authority = auth_imperial
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		force_add_civic = civic_rmartlet
+		
+		set_government_cooldown = no
+		set_name = c_zenithmartlet
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_zenithmartlet.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "double_triangles.dds"
+			}
+			colors={
+				"dark_blue"
+				"sky_blue"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbrdx.91 }
+		}
+	}
+
+	option = {
+		name = cmbrdx.001.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbrdx.001.a.tooltip
+	}
+}
+
+#Others
+country_event = {
+	id = cmbrdx.91
+	title = "cmbrdx.001.name"
+	desc = "cmbrdx.001.desc"
+	picture = GFX_evt_rmartlet
+	show_sound = cmbrdx_remedy
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbrdx.001.a
+		custom_tooltip = cmbrdx.001.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbrdx.001.b
+		custom_tooltip = cmbrdx.001.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbrdx.999.c
+		custom_tooltip = cmbrdx.001.a.tooltip
+	}
+}
+
+# Banana Republic (NagolRiverstar)
+country_event = {
+	id = cmbrdx.2
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbrdx.82 }
+	}
+}
+
+#
+country_event = {
+	id = cmbrdx.82
+	title = "cmbrdx.002.name"
+	desc = "cmbrdx.002.desc"
+	
+	picture = GFX_evt_rbanana
+	show_sound = cmbrdx_banana
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		country_event = {
+			id = galcom.68
+			days = 5
+		}
+		set_global_flag = cmbu_allowintegro
+		
+		#shift_ethic = "ethic_fanatic_militarist"
+		change_government = {
+			authority = auth_corporate
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		force_add_civic = civic_rbanana
+		
+		set_government_cooldown = no
+		set_name = c_rbanana
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_rbanana.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "circle.dds"
+			}
+			colors={
+				"ochre_brown"
+				"black"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbrdx.92 }
+		}
+	}
+
+	option = {
+		name = cmbrdx.002.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbrdx.002.a.tooltip
+	}
+}
+
+#Others
+country_event = {
+	id = cmbrdx.92
+	title = "cmbrdx.002.name"
+	desc = "cmbrdx.002.desc"
+	picture = GFX_evt_rbanana
+	show_sound = cmbrdx_banana
+
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:galactic_market_station = {
+			destroy_ambient_object = this
+		}
+		if = {
+			limit = { exists = event_target:market_founder }
+			event_target:market_founder = {
+				remove_modifier = galactic_market_founder
+			}
+		}
+		every_playable_country = {
+			limit = { has_event_chain = market_relocation_chain }
+			end_event_chain = market_relocation_chain
+		}
+	}
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbrdx.002.a
+		custom_tooltip = cmbrdx.002.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbrdx.002.b
+		custom_tooltip = cmbrdx.002.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbrdx.999.c
+		custom_tooltip = cmbrdx.002.a.tooltip
+	}
+}

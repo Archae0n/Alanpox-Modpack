@@ -1,0 +1,71 @@
+"Ilioni Confluence" = {	
+	name = "Ilioni Confluence"
+	adjective = "Ilionian"
+	spawn_as_fallen = no
+	ignore_portrait_duplication = no
+
+	species = {
+		class = "MACHINE"
+		portrait = "sd_pla_robot"
+		name = "Ilioni"
+		plural = "Ilioni"
+		adjective = "Ilioni"
+		name_list = "MACHINE2"
+		trait = "trait_machine_unit"
+		trait = "trait_robot_logic_engines"
+		trait = "trait_robot_emotion_emulators"
+		trait = "trait_robot_luxurious"
+	}
+
+	room = "personality_hegemonic_imperialists_room"
+
+	authority = "auth_machine_intelligence"
+	civics = { "civic_bugged_machine_researcher" "civic_machine_introspective" "civic_machine_factory_overclock" }
+	government = "gov_machine_research"
+
+	origin = "origin_galactic_doorstep"
+
+	ethic = "ethic_gestalt_consciousness"
+	ethic = "ethic_form_autonomous"
+	ethic = "ethic_form_affective"
+	ethic = "ethic_form_introspective"
+	ethic = "ethic_foci_progression"
+
+	planet_name = "Main Facility"
+	planet_class = "pc_ocean"
+	initializer = ""
+	system_name = "EN-14421"
+
+	graphical_culture = "avian_01"
+	city_graphical_culture = "avian_01"
+
+	empire_flag = {
+		icon = {
+			category = "pointy"
+			file = "flag_pointy_24.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "horizontal_stripe.dds"
+		}
+		colors = {
+			"purple"
+			"indigo"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		gender = female
+		name = "Alexi"
+		portrait = "sd_pla_robot"
+		texture = 1
+		hair = 0
+		clothes = 0
+		trait = "trait_ruler_charismatic"
+	   leader_class = scientist
+	}
+	ship_prefix = "ISV"
+	spawn_enabled = yes
+}

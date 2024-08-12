@@ -1,0 +1,8 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ui_war_button"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/shields/war_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+}

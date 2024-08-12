@@ -1,0 +1,234 @@
+# DEPRECATED (because single usage only)
+# remove_difficulty_settings = {
+# 	remove_global_flag = sr_difficulty_25
+# 	remove_global_flag = sr_difficulty_10
+# 	remove_global_flag = sr_difficulty_5
+# 	remove_global_flag = sr_difficulty_4
+# 	remove_global_flag = sr_difficulty_3
+# 	remove_global_flag = sr_difficulty_2
+# 	remove_global_flag = sr_difficulty_def
+# }
+# remove_difficulty_modifiers = {
+apply_shroud_rising_difficulty = {
+	set_update_modifiers_batch = begin
+	switch = { trigger = has_modifier
+		difficulty_grand_admiral	= { remove_modifier = difficulty_grand_admiral }
+		difficulty_admiral			= { remove_modifier = difficulty_admiral }
+		difficulty_commodore		= { remove_modifier = difficulty_commodore }
+		difficulty_captain			= { remove_modifier = difficulty_captain }
+		difficulty_ensign			= { remove_modifier = difficulty_ensign }
+		# difficulty_cadet_player		= { remove_modifier = difficulty_cadet_player }
+		# difficulty_civilian_player	= { remove_modifier = difficulty_civilian_player }
+	}
+	switch = { trigger = has_modifier
+		difficulty_grand_admiral_npc	= { remove_modifier = difficulty_grand_admiral_npc }
+		difficulty_admiral_npc			= { remove_modifier = difficulty_admiral_npc }
+		difficulty_commodore_npc		= { remove_modifier = difficulty_commodore_npc }
+		difficulty_captain_npc			= { remove_modifier = difficulty_captain_npc }
+		difficulty_ensign_npc			= { remove_modifier = difficulty_ensign_npc }
+	}
+	# APPLY_SHROUD_RISING_DIFFICULTY
+	switch = { trigger = has_global_flag
+		sr_difficulty_1 =	{ add_modifier = { modifier = sr_difficulty_1 }		add_modifier = { modifier = difficulty_ensign } }
+		sr_difficulty_2 =	{ add_modifier = { modifier = sr_difficulty_2 }		add_modifier = { modifier = difficulty_captain } add_modifier = { modifier = difficulty_ensign_npc } }
+		sr_difficulty_3 =	{ add_modifier = { modifier = sr_difficulty_3 }		add_modifier = { modifier = difficulty_captain } add_modifier = { modifier = difficulty_captain_npc } }
+		sr_difficulty_4 =	{ add_modifier = { modifier = sr_difficulty_4 }		add_modifier = { modifier = difficulty_commodore } add_modifier = { modifier = difficulty_commodore_npc } }
+		sr_difficulty_5 =	{ add_modifier = { modifier = sr_difficulty_5 }		add_modifier = { modifier = difficulty_admiral } add_modifier = { modifier = difficulty_commodore_npc } }
+		sr_difficulty_10 =	{ add_modifier = { modifier = sr_difficulty_10 }	add_modifier = { modifier = difficulty_grand_admiral } add_modifier = { modifier = difficulty_admiral_npc } }
+		sr_difficulty_25 =	{ add_modifier = { modifier = sr_difficulty_25 }	add_modifier = { modifier = difficulty_grand_admiral } add_modifier = { modifier = difficulty_grand_admiral_npc } }
+		sr_difficulty_def = {
+			# REMOVE_DIFFICULTY_MODIFIERS
+			switch = { trigger = has_modifier
+				sr_difficulty_25	= { remove_modifier = sr_difficulty_25 }
+				sr_difficulty_10	= { remove_modifier = sr_difficulty_10 }
+				sr_difficulty_5		= { remove_modifier = sr_difficulty_5 }
+				sr_difficulty_4		= { remove_modifier = sr_difficulty_4 }
+				sr_difficulty_3		= { remove_modifier = sr_difficulty_3 }
+				sr_difficulty_2		= { remove_modifier = sr_difficulty_2 }
+				sr_difficulty_1		= { remove_modifier = sr_difficulty_1 }
+			}
+		}
+	}
+	every_country = {
+		limit = {
+			is_default_or_fallen = yes
+			NOT = { has_communications = prev }
+		}
+		establish_communications_no_message = prev
+	}
+	if = {
+		limit = {
+			has_nemesis = yes
+			any_playable_country = { has_ascension_perk = ap_become_the_crisis }
+		}
+		random_playable_country = {
+			limit = { has_been_declared_crisis = yes }
+			root = {
+				set_faction_hostility = { set_hostile = yes target = prev }
+				add_opinion_modifier = { who = prev modifier = opinion_threat }
+				add_opinion_modifier = { who = prev modifier = opinion_doomed_us_all }
+				add_opinion_modifier = { who = prev modifier = opinion_destroying_galaxy }
+				add_trust = { amount = -100 who = prev }
+				if = {
+					limit = { NOT = { any_war = { using_war_goal = { type = wg_declared_crisis owner = root } } } }
+					declare_war = {
+						target = prev
+						name = { key = "NAME_Declared_Crisis_War" variable_string = "\\[This.MainDefender.GetAdj\\]" }
+						attacker_war_goal = "wg_declared_crisis"
+					}
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_global_flag = eot_spawn_not_fe
+			NOT = { is_country_type = shroud_cult }
+			is_at_war = no
+			OR = {
+				has_global_flag = eot_fe_spiritualist
+				has_global_flag = eot_fe_materialist
+				has_global_flag = eot_fe_xenophobe
+				has_global_flag = eot_fe_xenophile
+				has_global_flag = eot_ai_spiritualist
+			}
+		}
+		switch = { trigger = has_global_flag
+			eot_fe_spiritualist	= { random_country = { limit = { is_fallen_empire_spiritualist = yes } save_event_target_as = eot_target } } # remove_global_flag = eot_fe_spiritualist }
+			eot_fe_materialist	= { random_country = { limit = { is_fallen_empire_materialist = yes } save_event_target_as = eot_target } } # remove_global_flag = eot_fe_materialist }
+			eot_fe_xenophobe	= { random_country = { limit = { is_fallen_empire_xenophobe = yes } save_event_target_as = eot_target } } # remove_global_flag = eot_fe_xenophobe }
+			eot_fe_xenophile	= { random_country = { limit = { is_fallen_empire = yes is_gestalt = no } save_event_target_as = eot_target } } # remove_global_flag = eot_fe_xenophile }
+			eot_ai_spiritualist	= { random_playable_country = { limit = { is_ai = yes is_spiritualist = yes owner_species = { has_trait = trait_psionic } } save_event_target_as = eot_target } } # remove_global_flag = eot_ai_spiritualist }
+		}
+		if = {
+			limit = { NOT = { exists = event_target:eot_target } }
+			switch = { trigger = has_global_flag
+				eot_fe_spiritualist	= { remove_global_flag = eot_fe_spiritualist }
+				eot_fe_materialist	= { remove_global_flag = eot_fe_materialist }
+				eot_fe_xenophobe	= { remove_global_flag = eot_fe_xenophobe }
+				eot_fe_xenophile	= { remove_global_flag = eot_fe_xenophile }
+				eot_ai_spiritualist	= { remove_global_flag = eot_ai_spiritualist }
+			}
+			# Refresh Try
+			if = {
+				limit = { any_country = { is_fallen_empire_spiritualist = yes } }
+				set_global_flag = eot_fe_spiritualist
+				random_country = { limit = { is_fallen_empire_spiritualist = yes } save_event_target_as = eot_target }
+			}
+			else_if = {
+				limit = { any_country = { is_fallen_empire_materialist = yes } }
+				set_global_flag = eot_fe_materialist
+				random_country = { limit = { is_fallen_empire_materialist = yes } save_event_target_as = eot_target }
+			}
+			else_if = {
+				limit = { any_country = { is_fallen_empire_xenophobe = yes } }
+				set_global_flag = eot_fe_xenophobe
+				random_country = { limit = { is_fallen_empire_xenophobe = yes } save_event_target_as = eot_target }
+			}
+			else_if = {
+				limit = { any_country = { is_fallen_empire = yes is_gestalt = no } }
+				set_global_flag = eot_fe_xenophile
+				random_country = { limit = { is_fallen_empire = yes is_gestalt = no } save_event_target_as = eot_target }
+			}
+			else_if = {
+				limit = {
+					any_playable_country = {
+						is_ai = yes
+						is_spiritualist = yes
+						owner_species = { has_trait = trait_psionic }
+					}
+				}
+				set_global_flag = eot_ai_spiritualist
+				random_playable_country = { limit = { is_ai = yes is_spiritualist = yes owner_species = { has_trait = trait_psionic } } save_event_target_as = eot_target }
+			}
+		}
+		if = {
+			limit = { exists = event_target:eot_target }
+			event_target:eot_target = {
+				root = {
+					set_faction_hostility = { set_hostile = yes target = prev }
+					add_opinion_modifier = { who = prev modifier = opinion_threat }
+					add_opinion_modifier = { who = prev modifier = opinion_doomed_us_all }
+					add_opinion_modifier = { who = prev modifier = opinion_destroying_galaxy }
+					add_trust = { amount = -100 who = prev }
+				}
+				if = {
+					limit = { NOT = { any_war = { using_war_goal = { type = wg_declared_crisis owner = prev } } } }
+					declare_war = {
+						target = root
+						name = { key = "NAME_Declared_Crisis_War" variable_string = "\\[This.MainDefender.GetAdj\\]" }
+						attacker_war_goal = "wg_declared_crisis"
+					}
+				}
+			}
+		}
+		else = { log = "Shroud target does not exists anymore!" remove_global_flag = eot_spawn_not_fe }
+	}
+
+	if = {
+		limit = { is_country_type = shroud_cult }
+		every_country = {
+			limit = {
+				OR = {
+					is_country_type = shroud_entities
+					is_country_type = shroud_horrors
+					# is_non_hostile_to_wraith = yes # Transcluding copy but excluding Marauder
+					is_country_type = nomad
+					is_tiyanki_country_type = yes
+					is_amoeba_country_type = yes
+					is_crystal_country_type = yes
+					is_drone_country_type = yes
+					is_country_type = enclave
+					# is_country_type = enclave_mercenary
+					is_country_type = cloud
+					is_country_type = debt_collectors
+					is_country_type = enigmatic_cache
+					is_country_type = vluur
+					is_country_type = caravaneer_home
+					is_country_type = caravaneer_fleet
+					is_guardian_country = yes
+					is_country_type = ratlings
+					is_country_type = ldragon_country
+					is_primitive = yes # Needs to be removed later on conversion
+				}
+				NOR = { is_at_war_with = prev is_friendly_to = prev }
+			}
+			if = {
+				limit = {
+					NOR = {
+						is_same_value = prev
+						has_communications = prev
+						has_country_flag = suppress_first_contact_comms # i.e. The Shroud
+						is_primitive = yes
+					}
+				}
+				establish_communications_no_message = prev
+			}
+			set_faction_hostility = {
+				set_hostile = no
+				set_neutral = yes
+				# set_friendly = yes
+				target = prev
+			}
+		}
+	}
+	else = {
+		every_country = {
+			limit = {
+				OR = { is_country_type = shroud_entities is_country_type = shroud_horrors is_country_type = shroud_cult }
+				NOR = { is_same_empire = prev is_at_war_with = prev is_friendly_to = prev }
+			}
+			if = {
+				limit = { NOT = { has_communications = prev } }
+				establish_communications_no_message = prev
+			}
+			set_faction_hostility = {
+				set_hostile = no
+				# set_neutral = yes
+				set_friendly = yes
+				target = prev
+			}
+		}
+	}
+	set_update_modifiers_batch = end
+}

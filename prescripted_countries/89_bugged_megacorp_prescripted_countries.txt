@@ -1,0 +1,71 @@
+Syldeacorp = {
+	name = "Syldeacorp"
+	adjective = "Syldeacorp"
+	spawn_enabled = yes
+	ignore_portrait_duplication = no
+
+	species = {
+		class = "MOL"
+		portrait = "mol1"
+		name = "Syldaean"
+		plural = "Syldaeans"
+		adjective = "Syldaean"
+		name_list = "FUN1"
+		trait = "trait_natural_physicists"
+		trait = "trait_talented"
+		trait = "trait_quick_learners"
+		trait = "trait_traditional"
+		trait = "trait_slow_breeders"
+	}
+
+	room = "personality_migrating_flock_room"
+
+	authority = "auth_corporate"
+	civics = { "civic_bugged_megacorp_researcher" "civic_free_traders" "civic_bugged_innovative_economy_corpo" }
+	government = "gov_trade_league"
+
+	origin = "origin_default"
+
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_materialist"
+	ethic = "ethic_fanatic_competitive"
+
+	planet_name = "Syl"
+	planet_class = "pc_arctic"
+	initializer = ""
+	system_name = "Syasteri"
+
+	graphical_culture = "fungoid_01"
+	city_graphical_culture = "molluscoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "legion"
+			file = "flag_mp_beta_05.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "rounded_middle.dds"
+		}
+		colors = {
+			"turquoise"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		gender = female
+		name = "Kariggho"
+		portrait = "mol1"
+		texture = 1
+		hair = 0
+		clothes = 0
+		trait = "trait_ruler_charismatic"
+	   leader_class = scientist
+	}
+	ship_prefix = "SCSV"
+	spawn_as_fallen = no
+}

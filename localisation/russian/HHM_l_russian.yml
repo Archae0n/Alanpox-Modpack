@@ -1,0 +1,31 @@
+﻿l_russian:
+  ################################ 
+  # Steal Leader Message 
+  ################################ 
+ MESSAGE_HHM_STOLEN_LEADER: "Лидер захвачен"
+ MESSAGE_HHM_STOLEN_LEADER_TITLE: "Лидер захвачен"
+ MESSAGE_TYPE_HHM_STOLEN_LEADER_DESC: "Мы взяли лидера в заложники."
+ MESSAGE_HHM_STOLEN_LEADER_VICTIM: "Лидер похищен"
+ MESSAGE_HHM_STOLEN_LEADER_VICTIM_TITLE: "Лидер похищен"
+ MESSAGE_TYPE_HHM_STOLEN_LEADER_VICTIM_DESC: "Один из наших лидеров был захвачен в плен вражескими силами."
+  
+  ################# 
+  # Hostage Trait # 
+  ################# 
+  
+ HHM_hostage_trait: "Заложник"
+ HHM_hostage_trait_desc: "Этот лидер был захвачен иностранной империей и будет выполнять любую задачу с пониженной производительностью, если ему будет предоставлен правильный «стимул»."
+ HHM_hostage_trait_effect: "[GetHHMHostageTraitEffect]"
+ HHM_hostage_trait_not_idle: "$t$§EЭффекты применяются, пока НЕ ​​в Совете.§!"
+ #HHM_hostage_trait_idle_effect: "[GetHHMHostageTraitIdleEffect]"
+ HHM_hostage_trait_idle: "§RЭта черта не действует, пока Лидер бездействует.§!\nЭтот Лидер не учитывается в лимите лидеров, пока бездействует."
+ HHM_hostage_trait_will_be_removed: "Эта черта будет удалена при назначении на должность."
+  
+  # Events 
+  
+ HHM_events.4.name: "[event_target:HHM_released_leader.GetName] Выпущено"
+ HHM_events.4.desc: "Один из наших [event_target:HHM_released_leader.HHMGetLeaderClassPlural], [event_target:HHM_released_leader.GetName], был освобожден захватчиком [event_target:HHM_released_leader.GetHisHer] и теперь готов воссоединиться с нашей империей."
+ HHM_leader_class_scientists: "ученых"
+ HHM_leader_class_commanders: "командиров"
+ HHM_leader_class_officials: "чиновников"
+ HHM_leader_class_leaders: "Лидеры"

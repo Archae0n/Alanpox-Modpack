@@ -1,0 +1,433 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	karekare = {
+		name = Kai
+		plural = Kai
+		home_planet = Kar-e
+		home_system = Kab-e
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	kurgankai = {
+		name = Gankese
+		plural = Gankese
+		home_planet = "Kur Gankai"
+		home_system = Nurkal
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	yermengan = {
+		name = Yermenese
+		plural = Yermenese
+		home_planet = Yermen-Gan
+		home_system = Mashandangju
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	rowyakatepe = {
+		name = Yakatepian
+		plural = Yakatepians
+		home_planet = Row-Yakatepe
+		home_system = Yakatepe
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	shahakshekara = {
+		name = Shahakian
+		plural = Shahakians
+		home_planet = Shahakshekara
+		home_system = Panawakhinzoy
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	yandansam = {
+		name = Yandanese
+		plural = Yandanese
+		home_planet = "Yandan Sam"
+		home_system = "Anka Sam" 
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	termena = {
+		name = Termenan
+		plural = Termenans
+		home_planet = Termena
+		home_system = Kanodmon 
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	afnawagiesh = {
+		name = Nurkabai
+		plural = Nurkabai
+		home_planet = "Afnawag-i Esh"
+		home_system = "Nawag-i Dath" 
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	khodoktam = {
+		name = Khodokoid
+		plural = Khodokoids
+		home_planet = Khodoktam
+		home_system = Mayn 
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	zariamen = {
+		name = Ilat-Wor
+		plural = Ilat-Wor
+		home_planet = Zariamen
+		home_system = Fargarganzob
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	afnaorhowut = {
+		name = "Moo Kam"
+		plural = "Moo Kam"
+		home_planet = "Afna Orhowut"
+		home_system = "Faraf Kal-Kund"
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	kasimitip = {
+		name = Mitipoid
+		plural = Mitipoids
+		home_planet = Kasimitip
+		home_system = Kamjanchilai
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	rabazda = {
+		name = Rabazdian
+		plural = Rabazdians
+		home_planet = Rabazda
+		home_system = Dehqang
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	witarjinch = {
+		name = Chukhob  
+		plural = Chukhob
+		home_planet = Witarjinch-Farzob
+		home_system = Janiampirechu
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	dumapirazes = {
+		name = Pirazean  
+		plural = Pirazeans
+		home_planet = "Duma Pirazes"
+		home_system = "Kund Pirazes"
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	ketaniya = {
+		name = Ketanian  
+		plural = Ketanians
+		home_planet = Ketaniya
+		home_system = "Ardand Orshan"
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	sughtutsor = {
+		name = Sught  
+		plural = Sught
+		home_planet = Sughtut-Sor
+		home_system = Chanodoki-Sor
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	samjara = {
+		name = Samjaran  
+		plural = Samjarans
+		home_planet = Samjara
+		home_system = Anzoy
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	divarjam = {
+		name = Karmen 
+		plural = Karmen
+		home_planet = "Divar Jam"
+		home_system = Pireshag-i
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	kash = {
+		name = Kashite 
+		plural = Kashites
+		home_planet = "Kash Dumzob-Ayn"
+		home_system = Valyandanomir
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	kundjanavakshan = {
+		name = Janian 
+		plural = Janians
+		home_planet = Kund-Jana-Vakshan
+		home_system = Sent-Parkai
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	tisawthelingerer = {
+		name = Aykhu 
+		plural = Aykhu
+		home_planet = "Tisaw the Lingerer"
+		home_system = "Priamaz the Observer"
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	suyabe = {
+		name = Tanavalowut
+		plural = Tanavalowut
+		home_planet = Suyab-e
+		home_system = Kannavar-e
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	gavontaca = {
+		name = Tacian
+		plural = Tacians
+		home_planet = "Gavon Taca"
+		home_system = "Wor Cha-Dip"
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	khisfaraksh = {
+		name = Farakoid
+		plural = Farakoids
+		home_planet = Khisfaraksh
+		home_system = Siomarzoytamon
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	hidjamazdak = {
+		name = Chojamian
+		plural = Chojamians
+		home_planet = Hid-jamazdak
+		home_system = Irkats
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	kurpushana = {
+		name = Pushana
+		plural = Pushanas
+		home_planet = "Kur Pushana"
+		home_system = Ilkhodovalan
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	wagomvara = {
+		name = "Ash Yin"
+		plural = "Ash Yin"
+		home_planet = "Wagom Vara"
+		home_system = "Suya Kurkon"
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	kastanaut = {
+		name = Kastanoid
+		plural = Kastanoids
+		home_planet = Kastanaut
+		home_system = Sargob
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	asugdk = {
+		name = Irkats
+		plural = Irkats
+		home_planet = Asugdk
+		home_system = Gamazm
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	kurganikhu = {
+		name = Kurganid
+		plural = Kurganids
+		home_planet = Kurgani-khu
+		home_system = Koshojan-sar-e
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	chekargrazm = {
+		name = Darsokargan
+		plural = Darsokargan
+		home_planet = Chekarg-Razm
+		home_system = Chekarg-Mazm
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	kundarazes = {
+		name = Kundarazian
+		plural = Kundarazians
+		home_planet = Kundarazes
+		home_system = "Pul Mazes"
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	danna = {
+		name = Dannian
+		plural = Dannians
+		home_planet = Danna
+		home_system = Pita-Janam
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	kand = {
+		name = Kandite
+		plural = Kandites
+		home_planet = Kand
+		home_system = Chukhanibodmog
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	putandundprime = {
+		name = Putandian
+		plural = Putandians
+		home_planet = "Putandund Prime"
+		home_system = Putandund
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	padagystay = {
+		name = Padagysian
+		plural = Padagysians
+		home_planet = Padagystay
+		home_system = Gamazm
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	hakimy = {
+		name = Hakimid
+		plural = Hakimids
+		home_planet = Hakimy
+		home_system = Bikhujraki
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	yintukishtich = {
+		name = Yintukian
+		plural = Yintukians
+		home_planet = Yintukishtich
+		home_system = Mahma-Parte
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	tarthan = {
+		name = Tarthanese
+		plural = Tarthanese
+		home_planet = Tarthan
+		home_system = Ekshti
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	togshar = {
+		name = Togsharid
+		plural = Togsharids
+		home_planet = Togshar
+		home_system = Sentutayba
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	avdakshang = {
+		name = Sem-e
+		plural = Sem-e
+		home_planet = Avdakshang
+		home_system = Divand
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	ayvagangju = {
+		name = Ayvaganite
+		plural = Ayvaganites
+		home_planet = Ayvagangju
+		home_system = Gurgadin
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	sapidjamaz = {
+		name = Sapiddian
+		plural = Sapiddians
+		home_planet = Sapid-jamaz
+		home_system = Bonyavan
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	avdana = {
+		name = Avdanan
+		plural = Avdanans
+		home_planet = Avdana
+		home_system = Sariama
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	khadevan = {
+		name = Khadevanese
+		plural = Khadevanese
+		home_planet = Khadevan
+		home_system = Adhbadeva
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	drumsoffirstlife = {
+		name = Vatka
+		plural = Vatkas
+		home_planet = "Drums of First Life"
+		home_system = "Cerulean Dancer"
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	mahatga = {
+		name = "Shi Pura"
+		plural = "Shi Puras"
+		home_planet = Mahatga
+		home_system = Ayaman
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	katukan = {
+		name = Katukanese
+		plural = Katukanese
+		home_planet = Katukan
+		home_system = Sapatama
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	adhbakk = {
+		name = Indun-Tama
+		plural = Indun-Tama
+		home_planet = Adhbakk
+		home_system = Axurar
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	astan = {
+		name = Astanese
+		plural = Astanese
+		home_planet = Astan
+		home_system = Bokanch
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	taravan = {
+		name = Taravanese
+		plural = Taravanese
+		home_planet = Taravan
+		home_system = Bagpasaw
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+	tarkodkya = {
+		name = Tartydan
+		plural = Tartydans
+		home_planet = Tar-kodkya
+		home_system = Vagystanakk
+		name_list = "cybrxkhan_handmade_sogdian"
+	}
+}

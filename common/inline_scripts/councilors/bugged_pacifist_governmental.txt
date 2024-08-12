@@ -1,0 +1,14 @@
+councilor_$CIVIC_NAME$ = {
+	leader_class = { commander scientist official }
+	is_leader_possible = {
+		OR = {
+			leader_class = commander
+			leader_class = scientist
+			leader_class = official
+		}
+	}
+	civic = civic_$CIVIC_NAME$
+	modifier = {
+		councilor_exp_gain = 0.03
+	}
+}

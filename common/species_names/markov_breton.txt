@@ -1,0 +1,421 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	ioda = {
+		name = Iodan
+		plural = Iodans
+		home_planet = Ioda
+		home_system = Judez
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	bernploaz = {
+		name = Bernplo
+		plural = Bernplo
+		home_planet = "Bern Ploaz"
+		home_system = Kleiza
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	ahellervanswalls = {
+		name = Arzhutwala
+		plural = Arzhutwalas
+		home_planet = "Ahellervan's Walls"
+		home_system = "Mar-Aeli Fortress"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	jakel = {
+		name = Jakelite
+		plural = Jakelites
+		home_planet = Jakel
+		home_system = Enoulig
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	eudmon = {
+		name = Eudmonish
+		plural = Eudmonish
+		home_planet = Eudmon
+		home_system = "Mor Gwinerneal"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	eozaf = {
+		name = Naor'Teg
+		plural = Naor'Teg
+		home_planet = Eozaf
+		home_system = Arzhwan 
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	gwentina = {
+		name = Gwentinan
+		plural = Gwentinans
+		home_planet = Gwentina
+		home_system = Dentelan 
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	gourig = {
+		name = Gourese
+		plural = Gourese
+		home_planet = Gourig
+		home_system = Koligantrier 
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	masterofminds = {
+		name = "Cadea Herwentian"
+		plural = "Cadea Herwentians"
+		home_planet = "Master of Minds"
+		home_system = "Residence of the One" 
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	tuale = {
+		name = Tualeloid
+		plural = Tualeloids
+		home_planet = Tuale
+		home_system = Vianig 
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	jorad = {
+		name = Joradian
+		plural = Joradians
+		home_planet = Jorad
+		home_system = Karelec
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	avregen = {
+		name = Avregenese
+		plural = Avregenese
+		home_planet = Avregen
+		home_system = Benlen
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	aurio = {
+		name = Aurioid
+		plural = Aurioids
+		home_planet = Aurio
+		home_system = Tantoned
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	gwinnolenn = {
+		name = Pernessian
+		plural = Pernessians
+		home_planet = "Gwin Nolenn"
+		home_system = Arzhian
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	quaudig = {
+		name = Quaudite  
+		plural = Quaudites
+		home_planet = Quaudig
+		home_system = Iltan
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	marchamus = {
+		name = Marc'hammian  
+		plural = Marc'hammians
+		home_planet = Marc'hamus
+		home_system = Archen
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	kerigastsproposal = {
+		name = "Aig Ame"  
+		plural = "Aig Ame"
+		home_planet = "Kerigast's Proposal"
+		home_system = "Eloman's Celebration"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	mennian = {
+		name = Mennese  
+		plural = Mennese
+		home_planet = Mennian
+		home_system = "Trec Elo"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	rengatig = {
+		name = Renga 
+		plural = Rengas
+		home_planet = Rengatig
+		home_system = Ivinacut
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	markoudwilian = {
+		name = Soalener 
+		plural = Soaleners
+		home_planet = "Mar Koudwilian"
+		home_system = "Mar Arzhaelan"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	beuzen = {
+		name = Beuzenese 
+		plural = Beuzenese
+		home_planet = Beuzen
+		home_system = Finiena
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	jobriane = {
+		name = Jobrianote 
+		plural = Jobrianites
+		home_planet = Jobriane
+		home_system = Lez'Prig
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	bilisa = {
+		name = Bilisan
+		plural = Bilisans
+		home_planet = Bilisa
+		home_system = Ameu
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	gilarch = {
+		name = Solan
+		plural = Solan
+		home_planet = Gilarch
+		home_system = Joeir
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	wintelhou = {
+		name = Wintelian
+		plural = Wintelians
+		home_planet = "Wintel Hou"
+		home_system = Guinig
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	nightoffankemp = {
+		name = Fankemppian
+		plural = Fankemppians
+		home_planet = "Night of Fan Kemp"
+		home_system = "Aspect of Emed"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	turey = {
+		name = Turean
+		plural = Tureans
+		home_planet = Turey
+		home_system = Noe
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	fracdrennan = {
+		name = Fracdrennese
+		plural = Fracdrennese
+		home_planet = "Frac Drennan"
+		home_system = Charnin
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	lesseralbant = {
+		name = Albantian
+		plural = Albantians
+		home_planet = "Lesser Albant"
+		home_system = "Greater Albant"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	lifeinspirer = {
+		name = Arzh
+		plural = Arzh
+		home_planet = "Life Inspirer"
+		home_system = "Sky Comforter"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	gwendaou = {
+		name = Kon-Iza
+		plural = Kon-Iza
+		home_planet = Gwen-Daou
+		home_system = Segu-Berh
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	emern = {
+		name = Emernoid
+		plural = Emernoids
+		home_planet = Emern
+		home_system = Thelaiot
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	jacutineg = {
+		name = Jacutinese
+		plural = Jacutinese
+		home_planet = Jacutineg
+		home_system = "Saier Gou"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	jacutwal = {
+		name = Jacuttic
+		plural = Jacuttics
+		home_planet = Jacutwal
+		home_system = "Gwez Gob"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	yanesbel = {
+		name = Yanesbian
+		plural = Yanesbians
+		home_planet = Yanesbel
+		home_system = Mevaelarieg
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	maoliernedprime = {
+		name = Liern
+		plural = Liern
+		home_planet = "Maolierned Prime"
+		home_system = Maolierned
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	maulwen = {
+		name = Maulwenid
+		plural = Maulwenids
+		home_planet = Maulwen
+		home_system = "Kin Haub"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	glamora = {
+		name = Glamoran
+		plural = Glamorans
+		home_planet = Glamora
+		home_system = Ivoarelie
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	noyalez = {
+		name = Noyalezzoid
+		plural = Noyalezzoids
+		home_planet = Noyalez
+		home_system = Ivonoceuz
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	jossefor = {
+		name = Jossefite
+		plural = Jossefites
+		home_planet = Jossefor
+		home_system = Andanes
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	mildez = {
+		name = Mildezzian
+		plural = Mildezzians
+		home_planet = Mildez
+		home_system = "Ken Dekla"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	albiun = {
+		name = Albiun
+		plural = Albiun
+		home_planet = Albiun
+		home_system = Albiun
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	ladergann = {
+		name = Ladergannese
+		plural = Ladergannese
+		home_planet = Ladergann
+		home_system = Ladergann
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	delistefa = {
+		name = Delistefan
+		plural = Delistefans
+		home_planet = Delistefa
+		home_system = Kir'Arzig
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	colnevan = {
+		name = Col'Nevanian
+		plural = Col'Nevanians
+		home_planet = "Col Nevan"
+		home_system = "Col Nevan"
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	joheg = {
+		name = Johegite
+		plural = Johegites
+		home_planet = Joheg
+		home_system = Kourig
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	ezvargaprime = {
+		name = Ezvargan
+		plural = Ezvargans
+		home_planet = "Ezvarga Prime"
+		home_system = Ezvarga
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	goranz = {
+		name = Tan-Aod
+		plural = Tan-Aod
+		home_planet = Goranz
+		home_system = Mevaelaigan
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	garcheg = {
+		name = Garc'heggian
+		plural = Garc'heggians
+		home_planet = Garc'heg
+		home_system = Sanezniged
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	nazeg = {
+		name = Nazeggian
+		plural = Nazeggians
+		home_planet = Nazeg
+		home_system = Lantieg
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	maorena = {
+		name = Maorenan
+		plural = Maorenans
+		home_planet = Maorena
+		home_system = Mev
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+	jaovel = {
+		name = Jaovelish
+		plural = Jaovelish
+		home_planet = Jaovel
+		home_system = Kenwen
+		name_list = "cybrxkhan_fantasy_breton"
+	}
+}

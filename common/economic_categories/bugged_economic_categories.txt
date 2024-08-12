@@ -1,0 +1,58 @@
+
+planet_bugged_labour_hero = {
+	icon = "job_bugged_labour_hero"
+    parent = planet_jobs
+    generate_mult_modifiers = {
+        produces
+        upkeep
+    }
+    generate_add_modifiers = {
+        produces
+        upkeep
+    }
+
+	## workaround to accept add modifier
+	triggered_produces_modifier = {
+		key = planet_administrators
+		modifier_types = {
+			add
+			mult
+		}
+		trigger = {
+			always = yes
+		}
+	}
+	## workaround to accept add modifier
+	triggered_produces_modifier = {
+        key = planet_miners
+        modifier_types = {
+            add
+			mult
+        }
+        trigger = {
+            always = yes
+        }
+    }
+	## workaround to accept add modifier
+	triggered_produces_modifier = {
+		key = planet_farmers
+		modifier_types = {
+			add
+			mult
+		}
+		trigger = {
+			always = yes
+		}
+	}
+	## workaround to accept add modifier
+	triggered_produces_modifier = {
+		key = planet_technician
+		modifier_types = {
+			add
+			mult
+		}
+		trigger = {
+			always = yes
+		}
+	}
+}

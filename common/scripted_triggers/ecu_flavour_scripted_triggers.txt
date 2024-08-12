@@ -1,0 +1,4 @@
+# We use this as so we can overwrite it for the PD compatibility patch
+ef_is_ecu = {
+    is_planet_class = pc_city
+}

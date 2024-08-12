@@ -1,0 +1,67 @@
+###########
+# MACHINE #
+###########
+decision_lithoid_swarm_consume_world_machine = {
+	icon = decision_burning_settlement
+	sound = event_structural_collapse
+
+	#enactment_time = 360
+	resources = {
+		category = decisions
+	}
+	owned_planets_only = yes
+
+	potential = {
+		owner = {
+			has_valid_civic = civic_bugged_machine_stripmine
+		}
+		can_have_habitable_deposits = yes
+		is_capital = no
+		NOT = {
+			has_planet_flag = civic_bugged_machine_stripmine
+		}
+	}
+
+	allow = {
+		num_free_districts = { type = any value > 0 }
+	}
+
+	effect = {
+		custom_tooltip = decision_lithoid_swarm_consume_world_effect_desc_machine
+		set_timed_planet_flag = {
+			days = 360
+			flag = recently_mined_planet
+		}
+		hidden_effect = {
+			set_planet_flag = colony_event
+			set_planet_flag = civic_bugged_machine_stripmine
+			add_modifier = {
+				modifier = bugged_machine_being_mined_modifier
+				days = -1
+			}
+			export_trigger_value_to_variable = {
+				trigger = num_free_districts
+				parameters = {
+					type = any
+				}
+				variable = num_districts_terravore
+			}
+		}
+		owner = {
+			start_situation = {
+				type = situation_bugged_machine_terravore_consume_planet
+				target = root
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 5
+
+		# don't wreck worlds you want to keep
+		modifier = {
+			factor = 0
+			is_lithoid_devouring_swarm_consumption_world = no
+		}
+	}
+}

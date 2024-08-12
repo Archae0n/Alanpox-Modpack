@@ -1,0 +1,4 @@
+produces = {
+	consumer_goods = $BBCB_OUTPUT$
+	mult = value:bbcb_consumer_goods_building_output
+}

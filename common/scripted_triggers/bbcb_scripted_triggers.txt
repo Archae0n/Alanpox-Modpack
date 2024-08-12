@@ -1,0 +1,30 @@
+criminal_positives = {
+	planet = {
+		AND = {
+			has_branch_office = yes
+			OR = {
+				AND = {
+					has_bccr = no
+					has_modifier = crime_lord_deal
+				}
+				criminal_relations = yes
+			}
+		}
+	}
+}
+
+criminal_relations = {
+	has_bccr = yes
+	branch_office_owner = {
+		OR = {
+			has_commercial_pact = root
+			AND = {
+				has_federation = yes
+				is_in_federation_with = root
+				federation = {
+					has_federation_type = trade_federation 
+				}
+			}
+		}
+	}
+}

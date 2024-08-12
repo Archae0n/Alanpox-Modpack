@@ -1,0 +1,122 @@
+rwf_save_deposits = {
+    if = {
+        limit = {
+            has_deposit = rwf_first_league_great_senate
+        }
+        set_planet_flag = d_rwf_first_league_great_senate
+    }
+    if = {
+        limit = {
+            has_deposit = rwf_first_league_ruins
+        }
+        set_planet_flag = d_rwf_first_league_ruins
+    }
+    if = {
+        limit = {
+            has_deposit = rwf_kirth_temple_of_the_goddess
+        }
+        set_planet_flag = d_rwf_kirth_temple_of_the_goddess
+    }
+    if = {
+        limit = {
+            has_deposit = rwf_kirth_temple_of_the_goddess_blocker
+        }
+        set_planet_flag = d_rwf_kirth_temple_of_the_goddess_blocker
+    }
+    if = {
+        limit = {
+            has_deposit = rwf_carachel_arsenal
+        }
+        set_planet_flag = d_rwf_carachel_arsenal
+    }
+    if = {
+        limit = {
+            has_deposit = rwf_forgotten_hoards
+        }
+        set_planet_flag = d_rwf_forgotten_hoards
+    }
+    if = {
+        limit = {
+            has_deposit = rwf_shattered_campus
+        }
+        set_planet_flag = d_rwf_shattered_campus
+    }
+    if = {
+        limit = {
+            has_deposit = rwf_ancient_vaults
+        }
+        set_planet_flag = d_rwf_ancient_vaults
+    }
+    if = {
+        limit = {
+            has_deposit = rwf_larionessi_cloning_vats
+        }
+        set_planet_flag = d_rwf_larionessi_cloning_vats
+    }
+}
+
+rwf_load_deposits = {
+    if = {
+        limit = {
+            has_planet_flag = d_rwf_first_league_great_senate
+        }
+        add_deposit = rwf_first_league_great_senate
+        remove_planet_flag = d_rwf_first_league_great_senate
+    }
+    if = {
+        limit = {
+            has_planet_flag = d_rwf_first_league_ruins
+        }
+        add_deposit = rwf_first_league_ruins
+        remove_planet_flag = d_rwf_first_league_ruins
+    }
+    if = {
+        limit = {
+            has_planet_flag = d_rwf_kirth_temple_of_the_goddess
+        }
+        add_deposit = rwf_kirth_temple_of_the_goddess
+        remove_planet_flag = d_rwf_kirth_temple_of_the_goddess
+    }
+    if = {
+        limit = {
+            has_planet_flag = d_rwf_kirth_temple_of_the_goddess_blocker
+        }
+        add_deposit = rwf_kirth_temple_of_the_goddess_blocker
+        remove_planet_flag = d_rwf_kirth_temple_of_the_goddess_blocker
+    }
+    if = {
+        limit = {
+            has_planet_flag = d_rwf_carachel_arsenal
+        }
+        add_deposit = rwf_carachel_arsenal
+        remove_planet_flag = d_rwf_carachel_arsenalr
+    }
+    if = {
+        limit = {
+            has_planet_flag = d_rwf_forgotten_hoards
+        }
+        add_deposit = rwf_forgotten_hoards
+        remove_planet_flag = d_rwf_forgotten_hoards
+    }
+    if = {
+        limit = {
+            has_planet_flag = d_rwf_shattered_campus
+        }
+        add_deposit = rwf_shattered_campus
+        remove_planet_flag = d_rwf_shattered_campus
+    }
+    if = {
+        limit = {
+            has_planet_flag = d_rwf_ancient_vaults
+        }
+        add_deposit = rwf_ancient_vaults
+        remove_planet_flag = d_rwf_ancient_vaults
+    }
+    if = {
+        limit = {
+            has_planet_flag = d_rwf_larionessi_cloning_vats
+        }
+        add_deposit = rwf_larionessi_cloning_vats
+        remove_planet_flag = d_rwf_larionessi_cloning_vats
+    }
+}

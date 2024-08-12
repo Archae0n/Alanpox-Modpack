@@ -1,0 +1,254 @@
+guiTypes = {
+	positionType = {
+		name = "advisor_3d_view_size"
+		position = { x = 340 y = 110 }
+	}
+	positionType = {
+		name = "advisor_event_window_extra_size"
+		position = { x = 0 y = 70 }
+	}
+	positionType = {
+		name = "advisor_event_frame_extra_size"
+		position = { x = 40 y = 40 }
+	}
+	positionType = {
+		name = "advisor_tutorial_window_extra_size"
+		position = { x = 0 y = 60 }
+	}
+	positionType = {
+		name = "advisor_tutorial_frame_extra_size"
+		position = { x = 40 y = 40 }
+	}
+	containerWindowType = {
+		name = "advisor_window"
+		size = { width = 350 height = 120 }
+		show_position = { x = -315 y = 145 }
+		hide_position = { x = 350 y = 145 }
+		if_scaled_resolution = {
+			min_width = 3440
+			show_position = { x = -415 y = 145 }
+		}
+		orientation = upper_right
+		origo = upper_right
+		animation_time = 500
+		animation_type = smoothstep
+		background = {
+			name = "start_screen_background"
+			quadTextureSprite = "GFX_interface_list_dark"
+		}
+		buttonType = {
+			name = "3d_view"
+			quadTextureSprite = "GFX_dummy_3d_advisor_window"
+			position = { x = 5 y = 5 }
+			size = { x = 340 y = 110 }
+		}
+		buttonType = {
+			name = "advisor_button"
+			quadTextureSprite = "GFX_ui_button_cyan"
+			position = { x = 0 y = 0 }
+			size = { x = 350 y = 120 }
+			no_clicksound = yes
+		}
+	}
+	containerWindowType = {
+		name = "advisor_event_window"
+		size = { width = 360 height = 200 }
+		show_position = { x = -310 y = 270 }
+		hide_position = { x = 360 y = 270 }
+		if_scaled_resolution = {
+			min_width = 3440
+			show_position = { x = -410 y = 270 }
+		}
+		orientation = upper_right
+		origo = upper_right
+		animation_time = 200
+		animation_type = smoothstep
+		background = {
+			name = "advisor_message_background"
+			quadTextureSprite = "GFX_set_focus_bg"
+		}
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = 0 y = 25 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_ui_line_center_tiny"
+			position = { x = 0 y = 40 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		containerWindowType = {
+			name = "description_frame"
+			position = { x = 10 y = 49 }
+			size = { width = -10 height = 100 }
+			orientation = upper_left
+			background = {
+				name = "frame_background"
+				quadTextureSprite = "GFX_advisor_frame"
+			}
+		}
+		iconType = {
+			name = "arrowthingy"
+			spriteType = "GFX_advisor_arrow"
+			position = { x = 235 y = -8 }
+			rotation = -1.5
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "font_text_18"
+			text = "Long text here!"
+			position = { x = 10 y = 8 }
+			maxWidth = 340
+			maxHeight = 32
+			fixedSize = yes
+			format = center
+			vertical_alignment = center
+		}
+		instantTextBoxType = {
+			name = "description"
+			font = "font_text_16"
+			text = "Long text here!"
+			position = { x = 30 y = 64 }
+			maxWidth = 300
+			maxHeight = 150
+			format = left
+			text_color_code = "E"
+		}
+		buttonType = {
+			name = "tts_button"
+			position = { x = 254 y = -5 }
+			spriteType = "GFX_button_tts_start"
+			buttonFont = "font_text_14"
+			shortCut = "t"
+		}
+		## Attachments
+		containerWindowType = {
+			name = "options_window"
+			size = { width = 340 height = 34 }
+			position = { x = 10 y = -10 }
+			orientation = lower_left
+			origo = lower_left
+			clipping = no
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			gridBoxType = {
+				name = "options"
+				position = { x = 24 y = 0 }
+				size = { width = 292 height = 100%% }
+				slotSize = { width = 292 height = 34 }
+				max_slots_horizontal = 1
+				format = "LOWER_LEFT"
+				add_horizontal = no
+			}
+		}
+	}
+	containerWindowType = {
+		name = "advisor_option_window"
+		size = { width = 292 height = 30 }
+		background = {
+			name = "advisor_option_bg"
+			clicksound = click
+		}
+		instantTextBoxType = {
+			name = "text"
+			font = "font_text_14"
+			text = "Long text here!"
+			position = { x = 10 y = 0 }
+			maxWidth = 268
+			maxHeight = 34
+			fixedSize = yes
+			format = center
+			vertical_alignment = center
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "advisor_tutorial_window"
+		size = { width = 360 height = 200 }
+		show_position = { x = -310 y = 270 }
+		hide_position = { x = 360 y = 270 }
+		if_scaled_resolution = {
+			min_width = 3440
+			show_position = { x = -410 y = 270 }
+		}
+		orientation = upper_right
+		origo = upper_right
+		animation_time = 200
+		animation_type = smoothstep
+		background = {
+			name = "advisor_tutorial_background"
+			quadTextureSprite = "GFX_set_focus_bg"
+		}
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = 0 y = 25 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_ui_line_center_tiny"
+			position = { x = 0 y = 40 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		containerWindowType = {
+			name = "description_frame"
+			position = { x = 10 y = 49 }
+			size = { width = -10 height = 100 }
+			orientation = upper_left
+			background = {
+				name = "frame_background"
+				quadTextureSprite = "GFX_advisor_frame"
+			}
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "font_text_18"
+			text = "Long text here!"
+			position = { x = 10 y = 8 }
+			maxWidth = 340
+			maxHeight = 32
+			fixedSize = yes
+			format = center
+			vertical_alignment = center
+		}
+		instantTextBoxType = {
+			name = "description"
+			font = "font_text_16"
+			text = "Long text here!"
+			position = { x = 30 y = 64 }
+			maxWidth = 300
+			maxHeight = 150
+			format = left
+			text_color_code = "E"
+		}
+		buttonType = {
+			name = "tts_button"
+			position = { x = 254 y = -5 }
+			spriteType = "GFX_button_tts_start"
+			buttonFont = "font_text_14"
+			shortCut = "t"
+		}
+		buttonType = {
+			name = "close_button"
+			position = { x = -146 y = -63 }
+			orientation = center_down
+			quadTextureSprite = "GFX_button_header_268_34"
+			buttonText = "CLOSE_DONT_SHOW_AGAIN"
+			buttonFont = "font_text_16"
+			shortcut = "RETURN"
+		}
+	}
+}

@@ -1,0 +1,57 @@
+mem_necroids = {
+	species_class = NECROID
+	portraits = {
+		"mem_Chadorian"
+	}
+	conditional_portraits = {#add additional portraits when customizing species
+		randomizable = { always = no }
+		playable = { always = no }
+		portraits = {
+			"mem_chada"
+		}
+	}
+}
+
+mem_cybernetic_humanoids = {
+	species_class = HUM
+	portraits = {
+		"mem_Orila"
+	}
+}
+
+mem_synthetic_humanoids = {
+	species_class = HUM
+	portraits = {
+		"mem_Orila"
+	}	
+}
+
+mem_arthropoids = {
+	species_class = ART
+	portraits = {
+		"mem_Vazu"
+	}
+	conditional_portraits = {
+		randomizable = { always = no }
+		playable = { always = no }
+		portraits = {
+			"mem_Vazu_crisis"
+		}
+	}
+}
+
+mem_robots = {
+	species_class = ROBOT
+	portraits = {
+		"mem_Orila_holo_robot"
+		"mem_Orila_robot"
+	}
+}
+
+mem_machines = {
+	species_class = MACHINE
+	portraits = {
+		"mem_Orila_holo_robot"
+		"mem_Orila_robot"
+	}
+}

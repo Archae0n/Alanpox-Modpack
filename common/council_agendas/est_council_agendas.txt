@@ -1,0 +1,1044 @@
+@est_tradition_agenda_cost = 7000
+
+#Academy
+agenda_est_academy = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_academy_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_academy_possible = yes
+	}
+	modifier = {
+		leader_cost_empire_size_mult = -0.25
+		leaders_cost_mult = -0.1
+		leader_starting_age_add = 4
+	}
+	finish_modifier = agenda_est_academy_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_academy_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Administratum
+agenda_est_administratum = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_administratum_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_administratum_possible = yes
+	}
+	modifier = {
+		empire_size_mult = -0.05
+		planet_clerks_produces_mult = 0.1
+		planet_administrators_produces_mult = 0.1
+		official_exp_gain = 0.1
+	}
+	finish_modifier = agenda_est_administratum_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_administratum_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Aesthetics
+agenda_est_aesthetics = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_aesthetics_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_aesthetics_possible = yes
+	}
+	modifier = {
+		pop_job_amenities_mult = 0.2
+		country_unity_produces_mult = 0.1
+		planet_building_est_aesthetics_5_wonder_garden_build_speed_mult = 0.25
+		planet_building_est_aesthetics_5_wonder_monument_build_speed_mult = 0.25
+		planet_building_est_aesthetics_5_wonder_stage_build_speed_mult = 0.25
+		planet_building_est_aesthetics_5_wonder_halls_build_speed_mult = 0.25
+		planet_building_est_aesthetics_5_wonder_museum_build_speed_mult = 0.25
+	}
+	finish_modifier = agenda_est_aesthetics_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_aesthetics_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Archivist
+agenda_est_archivist = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_archivist_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_archivist_possible = yes
+	}
+	modifier = {
+		station_observers_produces_mult = 0.05
+	}
+	finish_modifier = agenda_est_archivist_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_archivist_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Benevolence
+agenda_est_benevolence = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_benevolence_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_benevolence_possible = yes
+	}
+	modifier = {
+		country_trust_cap_add = 25
+		country_trust_growth = 0.1
+		research_sharing_mult = 0.1
+	}
+	finish_modifier = agenda_est_benevolence_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_benevolence_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Biogenesis
+agenda_est_biogenesis = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_biogenesis_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_biogenesis_possible = yes
+	}
+	modifier = {
+		biological_pop_happiness = 0.2
+		planet_jobs_organic_produces_mult = 0.2
+	}
+	finish_modifier = agenda_est_biogenesis_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_biogenesis_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Chivalry
+agenda_est_chivalry = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_chivalry_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_chivalry_possible = yes
+	}
+	modifier = {
+		negative_traits_country = -1
+	}
+	finish_modifier = agenda_est_chivalry_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_chivalry_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Collectivism
+agenda_est_collectivism = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_collectivism_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_collectivism_possible = yes
+	}
+	modifier = {
+		empire_size_penalty_mult = -0.05
+		pop_demotion_time_mult = -0.05
+		pop_cat_worker_political_power = 0.1
+		pop_government_ethic_attraction = 0.1
+	}
+	finish_modifier = agenda_est_collectivism_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_collectivism_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Commerce
+agenda_est_commerce = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_commerce_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_commerce_possible = yes
+	}
+	modifier = {
+		country_trade_fee = -0.01
+		commercial_pact_mult = 0.05
+		planet_merchants_produces_mult = 0.1
+		country_trade_attractiveness = 0.15
+	}
+	finish_modifier = agenda_est_commerce_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_commerce_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Confederacy
+agenda_est_confederacy = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_confederacy_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_confederacy_possible = yes
+	}
+	modifier = {
+		faction_approval = 0.05
+		pop_political_power = 0.05
+		pop_factions_produces_mult = 0.05
+	}
+	finish_modifier = agenda_est_confederacy_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_confederacy_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Cooperativity
+agenda_est_cooperativity = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_cooperativity_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_cooperativity_possible = yes
+	}
+	modifier = {
+		diplomacy_upkeep_mult = -0.1
+		country_agendas_produces_mult = 0.1
+	}
+	finish_modifier = agenda_est_cooperativity_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_cooperativity_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Cybernetics
+agenda_est_cybernetics = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_cybernetics_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_cybernetics_possible = yes
+	}
+	modifier = {
+		planet_jobs_robotic_produces_mult = 0.1
+		planet_cyborg_jobs_produces_mult = 0.1
+	}
+	finish_modifier = agenda_est_cybernetics_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_cybernetics_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Desires
+agenda_est_desires = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_desires_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_desires_possible = yes
+	}
+	modifier = {
+		council_agenda_finishing_effect_duration_mult = 0.05
+	}
+	finish_modifier = agenda_est_desires_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_desires_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Destruction
+agenda_est_destruction = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_destruction_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_destruction_possible = yes
+	}
+	modifier = {
+		pop_purge_speed = 0.1
+		create_debris_chance = 0.05
+		ship_orbital_bombardment_mult = 0.1
+		army_collateral_damage_mult = 0.5
+	}
+	finish_modifier = agenda_est_destruction_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_destruction_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Faith
+agenda_est_faith = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_faith_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_faith_possible = yes
+	}
+	modifier = {
+		edicts_upkeep_mult = -0.1
+		edicts_cost_mult = -0.1
+		country_edict_fund_mult = 0.1
+		planet_priests_produces_mult = 0.1
+	}
+	finish_modifier = agenda_est_faith_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_faith_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Foundation
+agenda_est_foundation = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_foundation_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_foundation_possible = yes
+	}
+	modifier = {
+		tradition_cost_empire_size_mult = -0.1
+		tech_cost_empire_size_mult = -0.1
+	}
+	finish_modifier = agenda_est_foundation_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_foundation_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Friendship
+agenda_est_friendship = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_friendship_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_friendship_possible = yes
+	}
+	modifier = {
+		pop_ethic_xenophile_attraction_mult = 0.1
+		diplomacy_upkeep_mult = -0.1
+		diplomacy_produces_mult = 0.1
+	}
+	finish_modifier = agenda_est_friendship_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_friendship_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Fury
+agenda_est_fury = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_fury_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_fury_possible = yes
+	}
+	modifier = {
+		force_disparity_fire_rate_mult = 0.1
+		ship_weapon_damage = 0.1
+		ship_accuracy_mult = 0.1
+		ship_speed_mult = 0.1
+	}
+	finish_modifier = agenda_est_fury_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_fury_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Greed
+agenda_est_greed = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_greed_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_greed_possible = yes
+	}
+	modifier = {
+		country_starbase_influence_cost_distance_mult = -0.1
+		pop_cat_ruler_political_power = 0.05
+		planet_jobs_produces_mult = 0.05
+		pop_happiness = -0.1
+	}
+	finish_modifier = agenda_est_greed_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_greed_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Hacking
+agenda_est_hacking = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_hacking_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_hacking_possible = yes
+	}
+	modifier = {
+		intel_decryption_add = 2.5
+		intel_gain_speed = 0.125
+	}
+	finish_modifier = agenda_est_hacking_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_hacking_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Individualism
+agenda_est_individualism = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_individualism_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_individualism_possible = yes
+	}
+	modifier = {
+		pop_ethics_shift_speed_mult = 0.1
+		species_leader_exp_gain = 0.125
+	}
+	finish_modifier = agenda_est_individualism_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_individualism_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Industry
+agenda_est_industry = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_industry_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_industry_possible = yes
+	}
+	modifier = {
+		country_alloys_produces_mult = 0.1
+		country_consumer_goods_produces_mult = 0.1
+		planet_districts_industrial_time_cost_mult = -0.1
+	}
+	finish_modifier = agenda_est_industry_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_industry_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Isolation
+agenda_est_isolation = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_isolation_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_isolation_possible = yes
+	}
+	modifier = {
+		counter_intel_gain_speed = -0.125
+		country_border_friction_mult = 0.1
+		country_hostile_claim_influence_cost_mult = 0.1
+	}
+	finish_modifier = agenda_est_isolation_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_isolation_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Justice
+agenda_est_justice = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_justice_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_justice_possible = yes
+	}
+	modifier = {
+		starbase_defensive_war_ship_build_speed_mult = 0.1
+		ship_home_territory_fire_rate_mult = 0.1
+	}
+	finish_modifier = agenda_est_justice_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_justice_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Liberty
+agenda_est_liberty = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_liberty_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_liberty_possible = yes
+	}
+	modifier = {
+		pop_citizen_happiness = 0.1
+		pop_amenities_usage_mult = 0.05
+		pop_ethic_egalitarian_attraction_mult = 0.1
+	}
+	finish_modifier = agenda_est_liberty_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_liberty_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Malice
+agenda_est_malice = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_malice_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_malice_possible = yes
+	}
+	modifier = {
+		country_insult_efficiency = 0.25
+		country_pop_enslaved_mult = 0.05
+		ship_orbital_bombardment_pop_damage_mult = 0.15
+		monthly_loyalty_from_subjects = -1
+	}
+	finish_modifier = agenda_est_malice_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_malice_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Mechanicum
+agenda_est_mechanicum = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_mechanicum_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_mechanicum_possible = yes
+	}
+	modifier = {
+		country_ship_upgrade_cost_mult = -0.1
+		country_engineering_tech_research_speed = 0.05
+		engineering_tech_cost_mult = -0.1
+	}
+	finish_modifier = agenda_est_mechanicum_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_mechanicum_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Might
+agenda_est_might = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_might_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_might_possible = yes
+	}
+	modifier = {
+		country_war_exhaustion_mult = -0.1
+		country_power_projection_produces_mult = 0.1
+	}
+	finish_modifier = agenda_est_might_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_might_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Militarism
+agenda_est_militarism = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_militarism_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_militarism_possible = yes
+	}
+	modifier = {
+		country_war_exhaustion_mult = -0.1
+		pop_ethic_militarist_attraction_mult = 0.05
+		pop_ethic_fanatic_militarist_attraction_mult = 0.05
+	}
+	finish_modifier = agenda_est_militarism_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_militarism_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Mystery
+agenda_est_mystery = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_mystery_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_mystery_possible = yes
+	}
+	modifier = {
+		country_border_friction_mult = 0.025
+		intel_encryption_add = 2
+	}
+	finish_modifier = agenda_est_mystery_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_mystery_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Nature
+agenda_est_nature = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_nature_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_nature_possible = yes
+	}
+	modifier = {
+		non_artificial_planet_jobs_society_research_produces_mult = 0.1
+		deposit_blockers_natural_unity_produces_add = 5
+		deposit_blockers_natural_unity_produces_mult = 0.25
+		planet_building_est_nature_preservation_build_speed_mult = 0.125
+	}
+	finish_modifier = agenda_est_nature_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_nature_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Omnipresence
+agenda_est_omnipresence = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_omnipresence_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_omnipresence_possible = yes
+	}
+	modifier = {
+		planet_jobs_complex_and_simple_drone_produces_mult = 0.1
+	}
+	finish_modifier = agenda_est_omnipresence_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_omnipresence_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Order
+agenda_est_order = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_order_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_order_possible = yes
+	}
+	modifier = {
+		planet_jobs_worker_upkeep_mult = -0.1
+		planet_jobs_specialist_upkeep_mult = -0.1
+		planet_jobs_ruler_upkeep_mult = -0.1
+		planet_enforcers_produces_mult = 0.1
+	}
+	finish_modifier = agenda_est_order_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_order_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Perseverence
+agenda_est_perseverance = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_perseverance_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_perseverance_possible = yes
+	}
+	modifier = {
+		planet_jobs_produces_mult = 0.1
+		planet_jobs_upkeep_mult = -0.1
+	}
+	finish_modifier = agenda_est_perseverance_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_perseverance_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Philosophy
+agenda_est_philosophy = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_philosophy_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_philosophy_possible = yes
+	}
+	modifier = {
+		pop_ethics_shift_speed_mult = 0.1
+	}
+	finish_modifier = agenda_est_philosophy_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_philosophy_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Piracy
+agenda_est_piracy = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_piracy_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_piracy_possible = yes
+	}
+	modifier = {
+		slave_market_cost_mult = -0.125
+		ship_piracy_suppression_mult = 5
+	}
+	finish_modifier = agenda_est_piracy_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_piracy_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Proselytism
+agenda_est_proselytism = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_proselytism_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_proselytism_possible = yes
+	}
+	modifier = {
+		planet_priests_produces_mult = 0.1
+	}
+	finish_modifier = agenda_est_proselytism_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_proselytism_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Purposefulness
+agenda_est_purposefulness = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_purposefulness_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_purposefulness_possible = yes
+	}
+	modifier = {
+		planetary_ascension_effect_mult = 0.1
+		edicts_upkeep_mult = -0.1
+	}
+	finish_modifier = agenda_est_purposefulness_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_purposefulness_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Serverbound
+agenda_est_serverbound = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_serverbound_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_serverbound_possible = yes
+	}
+	modifier = {
+		country_resettlement_cost_mult = -0.15
+		planet_pop_assemblers_upkeep_mult = -0.125
+	}
+	finish_modifier = agenda_est_serverbound_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_serverbound_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Shroudborn
+agenda_est_shroudborn = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_shroudborn_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_shroudborn_possible = yes
+	}
+	modifier = {
+		shroud_delve_cooldown = -0.1
+		shroud_delve_cost = -0.1
+	}
+	finish_modifier = agenda_est_shroudborn_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_shroudborn_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Spaceborn
+agenda_est_spaceborn = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_spaceborn_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_spaceborn_possible = yes
+	}
+	modifier = {
+		habitat_jobs_produces_mult = 0.05
+		planet_districts_hab_upkeep_mult = -0.1
+	}
+	finish_modifier = agenda_est_spaceborn_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_spaceborn_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Subminds
+agenda_est_subminds = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_subminds_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_subminds_possible = yes
+	}
+	modifier = {
+		country_naval_capacity_contribution_from_subjects_mult = 0.05
+		specialist_subject_conversion_time_mult = -0.05
+		country_subject_technology_sharing_mult = 0.05
+		monthly_loyalty_from_subjects = 1
+	}
+	finish_modifier = agenda_est_subminds_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_subminds_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Swarm
+agenda_est_swarm = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_swarm_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_swarm_possible = yes
+	}
+	modifier = {
+		ship_corvette_cost_mult = -0.1
+		s_slot_weapon_damage_mult = 0.1
+	}
+	finish_modifier = agenda_est_swarm_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_swarm_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}
+
+#Venerability
+agenda_est_venerability = {
+	agenda_cost = @est_tradition_agenda_cost
+	allow = {
+		has_tradition = tr_est_venerability_adopt
+	}
+	potential = {
+		has_paragon_dlc = yes
+		est_venerability_possible = yes
+	}
+	modifier = {
+		pop_cat_ruler_political_power = 0.25
+		country_agendas_produces_mult = 0.1
+		country_ruler_produces_mult = 0.1
+	}
+	finish_modifier = agenda_est_venerability_finish
+#	effect = {
+#		custom_tooltip = council_agenda_est_venerability_effect
+#		hidden_effect = {
+#
+#		}
+#	}
+}

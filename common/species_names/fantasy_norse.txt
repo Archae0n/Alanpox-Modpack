@@ -1,0 +1,411 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	kallbogi = {
+		name = Kallbogian
+		plural = Kallbogians
+		home_planet = Kallbogi
+		home_system = Salmibyr
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	alfhart = {
+		name = Alfhartan
+		plural = Alfhartans
+		home_planet = Alfhart
+		home_system = Iogirdalr
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	hrolaug = {
+		name = Hrolaug
+		plural = Hrolaug
+		home_planet = Bakkiklif
+		home_system = Svaldivik
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	veulf = {
+		name = Veulfian
+		plural = Veulfians
+		home_planet = Veulf-Avanlundr
+		home_system = Veulf-Horisetr
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	ungormur = {
+		name = Ungormuran
+		plural = Ungormurans
+		home_planet = "Jonvi Hamar"
+		home_system = Ungormur
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	sumivik = {
+		name = Sumivik
+		plural = Sumivik
+		home_planet = Horgiholm
+		home_system = Orifholm
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	valleyofrest = {
+		name = Skunn
+		plural = Skunn
+		home_planet = "Valley of Rest"
+		home_system = "Festive Home" 
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	athalra = {
+		name = Athalran
+		plural = Athalrans
+		home_planet = Athalra
+		home_system = Orgingthorp 
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	maevar = {
+		name = Maevarian
+		plural = Maevarians
+		home_planet = Maevar
+		home_system = Maevar 
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	cloudsofochre = {
+		name = Kalf
+		plural = Kalf
+		home_planet = "Clouds of Ochre"
+		home_system = "Fjord of the Skies" 
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	finnaevik = {
+		name = Finnaevite
+		plural = Finnaevites
+		home_planet = Finnaevik
+		home_system = Urtborg 
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	orrrik = {
+		name = Orrrik
+		plural = Orrrikese
+		home_planet = "Lesser Mundivik"
+		home_system = "Greater Mundivik"
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	olvorg = {
+		name = Olvorgian
+		plural = Olvorgians
+		home_planet = Olvorg
+		home_system = Hoda 
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	chamberofsouls = {
+		name = Horlinnese
+		plural = Horlinnese
+		home_planet = "Chamber of Souls"
+		home_system = "Chamber of Knowledge" 
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	lagnell = {
+		name = Lagnellian
+		plural = Lagnellians
+		home_planet = Lagnell
+		home_system = Thurebeg 
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	thithra = {
+		name = Thithra  
+		plural = Thithra
+		home_planet = Kelliholm
+		home_system = Toreholm
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	brafinnur = {
+		name = Brafinnur  
+		plural = Brafinnur
+		home_planet = Asifrklif
+		home_system = Ferthiklif
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	everlastingbastion = {
+		name = Hendorese  
+		plural = Hendorese
+		home_planet = "Everlasting Bastion"
+		home_system = "Love of Hendor"
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	sveigranne = {
+		name = Rannite  
+		plural = Rannites
+		home_planet = "Sveig Ranne"
+		home_system = Geir
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	yrvor = {
+		name = Yrvoran 
+		plural = Yrvorans
+		home_planet = Yrvor-Geritoft
+		home_system = Yrvor-Horkitoft
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	hammerofcreation = {
+		name = Svatturan  
+		plural = Svatturans
+		home_planet = "Hammer of Creation"
+		home_system = "August Anvil"
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	brettdebertaengir = {
+		name = Brett  
+		plural = Bretts
+		home_planet = Brettdebert-Aengir
+		home_system = Asfolvan-Aengir
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	steirraprime = {
+		name = Steirrite  
+		plural = Steirrites
+		home_planet = "Steirra Prime"
+		home_system = Steirra
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	teitgeir = {
+		name = Teitgeirian
+		plural = Teitgeirans
+		home_planet = Teitgeir
+		home_system = Alarrthveit
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	grandgauntlet = {
+		name = Jollingur
+		plural = Jollingur
+		home_planet = "Grand Gauntlet"
+		home_system = "Fist of the Stars"
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	tholmisfoli = {
+		name = Sturling
+		plural = Sturlings
+		home_planet = "Tholm Isfoli"
+		home_system = Leithjorg
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	valeifur = {
+		name = Valeifuroid
+		plural = Valeifuroids
+		home_planet = Valeifur
+		home_system = Igundr
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	kraklaug = {
+		name = Kraklaugan
+		plural = Kraklaugans
+		home_planet = Kraklaug
+		home_system = Eythur
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	lightofmiddenseir = {
+		name = Middenoid
+		plural = Middenoids
+		home_planet = "Light of Middenseir"
+		home_system = "Mist of Affan"
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	kjarthorg = {
+		name = Kjarthorrian
+		plural = Kjarthorrians
+		home_planet = Kjar-Thorg
+		home_system = Kjar-Vithor
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	mundriprime = {
+		name = Mundric
+		plural = Mundrics
+		home_planet = "Mundri Prime"
+		home_system = Mundri
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	sigurnna = {
+		name = Sigurnnan
+		plural = Sigurnnans
+		home_planet = Sigurnna
+		home_system = Karfgret
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	urthdos = {
+		name = Urthdrian
+		plural = Urthdrians
+		home_planet = Urthdros
+		home_system = Jonlindur
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	guttkell = {
+		name = Guttese
+		plural = Guttese
+		home_planet = Guttkell
+		home_system = Horthur
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	svavborg = {
+		name = Svavborgese
+		plural = Svavborgese
+		home_planet = Svavborg
+		home_system = "Gylfr Sjafdal"
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	jonea = {
+		name = Jonean
+		plural = Joneans
+		home_planet = "Jonea Holvik"
+		home_system = "Olgleif Snjovald"
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	guthverleindr = {
+		name = Guth
+		plural = Guths
+		home_planet = Guthverleindr
+		home_system = Unnrithur
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	frirus = {
+		name = Johallseth
+		plural = Johallseth
+		home_planet = Frirus
+		home_system = Thoddurli
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	worldtreenorse = {
+		name = Vatur
+		plural = Vatur
+		home_planet = World-Tree
+		home_system = Skyfjord
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	yngea = {
+		name = Yngean
+		plural = Yngeans
+		home_planet = Yngea
+		home_system = Gleig'Eivik
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	hagli = {
+		name = Haglite
+		plural = Haglites
+		home_planet = Hagli
+		home_system = Audrilundr
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	brethur = {
+		name = Brethurid
+		plural = Brethurids
+		home_planet = Brethur
+		home_system = Thilmundr
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	thuldall = {
+		name = Thull
+		plural = Thulls
+		home_planet = Thuldall
+		home_system = Geif-Paldgur
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	skalrthebard = {
+		name = Vidisethur
+		plural = Vidisethur
+		home_planet = "Skalr the Bard"
+		home_system = "Imunde the Fruitful"
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	firodebekr = {
+		name = Firodian
+		plural = Firodians
+		home_planet = Firodebekr
+		home_system = Seifborus
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	flosotur = {
+		name = Flosoturid
+		plural = Flosoturids
+		home_planet = Flosotur
+		home_system = unn-Jorbrakli
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	trygg = {
+		name = Tryggite
+		plural = Tryggites
+		home_planet = Trygg
+		home_system = Stuldri
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	mundathaldr = {
+		name = Kjerthur
+		plural = Kjerthurs
+		home_planet = "Munda Thaldr"
+		home_system = Gergleus
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	guthur = {
+		name = Guthurean
+		plural = Guthureans
+		home_planet = Guthur
+		home_system = Olauthvega
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+	fingthi = {
+		name = Fingthoid
+		plural = Fingthoids
+		home_planet = Fingthi
+		home_system = Alfhi
+		name_list = "cybrxkhan_fantasy_norse"
+	}
+}

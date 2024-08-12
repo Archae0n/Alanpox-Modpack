@@ -1,0 +1,667 @@
+namespace = tdf_content
+
+country_event = {
+	id = tdf_content.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_country_type = default
+	}
+	
+	immediate = {
+		
+		export_resource_income_to_variable = { resource = engineering_research variable = current_techpoints_engineering }
+		export_resource_income_to_variable = { resource = society_research variable = current_techpoints_society }
+		export_resource_income_to_variable = { resource = physics_research variable = current_techpoints_physics }
+
+		set_variable = { which = target_techpoints_engineering value = 0 }
+		set_variable = { which = target_techpoints_society value = 0 }
+		set_variable = { which = target_techpoints_physics value = 0 }
+
+		if = {
+			limit = {										# If a modifier already exists from a previous run of this event, remove it from current techpoints produced
+				has_modifier = tdf_technology_bonus_eng
+			}
+			export_modifier_to_variable = { modifier = country_base_engineering_research_produces_add variable = previous_target_engineering }
+			subtract_variable = { which = current_techpoints_engineering value = previous_target_engineering }
+			if = {						# Security
+				limit = {
+					check_variable = {	
+						which = current_techpoints_engineering 
+						value < 0
+					}
+				}
+				multiply_variable = { which = current_techpoints_engineering value = 0 }
+			}
+		}
+		if = {
+			limit = {
+				has_modifier = tdf_technology_bonus_soc
+			}
+			export_modifier_to_variable = { modifier = country_base_society_research_produces_add variable = previous_target_society }
+			subtract_variable = { which = current_techpoints_society value = previous_target_society }
+			if = {
+				limit = {
+					check_variable = {	
+						which = current_techpoints_society 
+						value < 0
+					}
+				}
+				multiply_variable = { which = current_techpoints_society value = 0 }
+			}
+		}
+		if = {
+			limit = {
+				has_modifier = tdf_technology_bonus_phy
+			}
+			export_modifier_to_variable = { modifier = country_base_physics_research_produces_add variable = previous_target_physics }
+			subtract_variable = { which = current_techpoints_physics value = previous_target_physics }
+			if = {
+				limit = {
+					check_variable = {	
+						which = current_techpoints_physics 
+						value < 0
+					}
+				}
+				multiply_variable = { which = current_techpoints_physics value = 0 }
+			}
+		}
+
+		set_variable = {
+			which = max_techpoint_engineering_per_neighbor
+			value = current_techpoints_engineering
+		}
+		multiply_variable = {
+			which = max_techpoint_engineering_per_neighbor
+			value = 2
+		}
+		set_variable = {
+			which = max_techpoint_society_per_neighbor
+			value = current_techpoints_society
+		}
+		multiply_variable = {
+			which = max_techpoint_society_per_neighbor
+			value = 2
+		}
+		set_variable = {
+			which = max_techpoint_physics_per_neighbor
+			value = current_techpoints_physics
+		}
+		multiply_variable = {
+			which = max_techpoint_physics_per_neighbor
+			value = 2
+		}
+
+		if = {				## Main spread speed multiplier
+			limit = {
+				has_global_flag = technology_diffusion_fast_spread
+			}
+			set_variable = { which = spread_speed value = 1.5 }
+		} else_if = {
+			limit = {
+				has_global_flag = technology_diffusion_slow_spread
+			}
+			set_variable = { which = spread_speed value = 3 }
+		} else = {
+			set_variable = { which = spread_speed value = 2 }
+		}
+
+		# log = "Init [ROOT.GetName] with current research of: [THIS.current_techpoints_engineering] eng & [THIS.current_techpoints_society] soc & [THIS.current_techpoints_physics] phy, max per empire of: [THIS.max_techpoint_engineering_per_neighbor] eng & [THIS.max_techpoint_society_per_neighbor] soc & [THIS.max_techpoint_physics_per_neighbor] phy and current target of: [THIS.target_techpoints_engineering] eng & [THIS.target_techpoints_society] soc & [THIS.target_techpoints_physics] phy ---- test: [THIS.test_engineering_points] & [THIS.test_engineering_points2]"
+
+		country_event = { id = tdf_content.2 days = 1 random = 12 } # Main event
+		
+	}
+}
+
+country_event = { # The core event computing values - x Month 2nd+[0-15] Days
+	id = tdf_content.2
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		every_playable_country = {
+			limit = {
+				AND = { # Only normal countries in contact with ROOT & with 5% tech advance are taken into account
+					is_country_type = default
+					has_communications = ROOT
+					NOR = {
+						has_subject = ROOT
+						has_overlord = ROOT
+					}
+				} 
+			}
+
+			# log = "Pays racine [ROOT.GetName] est voisin avec [THIS.GetName]"
+			
+			export_trigger_value_to_variable = {
+				trigger = tech_unlocked_ratio
+				parameters = { who = ROOT }
+				variable = inverted_ratio
+			}
+			log = "Check [ROOT.GetName] against: [THIS.GetName], tech ratio is:  [THIS.inverted_ratio]"
+
+			if = {
+				limit = {
+					check_variable = {
+						which = inverted_ratio
+						value >= 1.05				# If there's a 5% difference between the techs of this Country and the ROOT one (ROOT being behind), activate the features of this mod
+					}
+				}
+
+				######## Check agreements/treaties and if neighbor, with ROOT country ########
+
+				set_variable = { which = treatiesWeight value = 1 }
+				if = {
+					limit = {
+						has_research_agreement = ROOT
+					}
+					change_variable = { which = treatiesWeight value = 0.33 }
+				}
+				else_if = {
+					limit = {
+						OR = {
+							has_diplo_migration_treaty = ROOT
+							has_defensive_pact = ROOT
+						}
+					}
+					change_variable = { which = treatiesWeight value = 0.22 }
+				}
+				else_if = {
+					limit = {
+						has_commercial_pact = ROOT
+					}
+					change_variable = { which = treatiesWeight value = 0.15 }
+				}
+				else_if = {
+					limit = {
+						has_non_aggression_pact = ROOT
+					}
+					change_variable = { which = treatiesWeight value = 0.075 }
+				}			
+
+				if = {
+					limit = {
+						AND = {
+							is_galactic_community_formed = yes
+							ROOT = { is_galactic_community_member = yes }
+							is_galactic_community_member = yes
+						}
+					}
+					if = {
+						limit = {
+							opinion_level = { who = ROOT level = excellent }
+						}
+						change_variable = { which = treatiesWeight value = 0.075 }
+					}
+					else_if = {
+						limit = {
+							opinion_level = { who = ROOT level > neutral }
+						}
+						change_variable = { which = treatiesWeight value = 0.05 }
+					}
+					else_if = {
+						limit = {
+							NOR = { 
+								opinion_level = { who = ROOT level = terrible }
+								has_rival = ROOT
+								is_hostile_to = ROOT
+							}
+						}
+						change_variable = { which = treatiesWeight value = 0.025 }
+					}
+				}
+
+				if = {
+					limit = {
+						AND = {
+							is_neighbor_of = ROOT
+							OR = {
+								NOT = { has_closed_borders = ROOT }
+								is_at_war_with = ROOT
+							}
+						}
+					}
+					multiply_variable = { which = treatiesWeight value = 2 }
+				}
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								check_variable = { which = treatiesWeight value > 1 }
+								has_ascension_perk = ap_enigmatic_engineering
+							}
+							AND = {
+								is_neighbor_of = ROOT
+								has_closed_borders = ROOT
+								NOR = {
+									# opinion_level = { who = ROOT level = terrible }
+									# is_hostile_to = ROOT
+									has_rival = ROOT
+									is_at_war_with = ROOT
+								}
+							}
+						}
+					}	
+					divide_variable = { which = treatiesWeight value = 4 }
+				}
+
+
+				######## Multiplier algorithm ########
+
+				if = {
+					limit = {
+						check_variable = {		# treatiesWeight was initialized at 1 so a neighbor with closed border gives a bit of tech. Otherwise we are above a value of 1 so let's subtract it. Note if no condition above was true (ie. hostile neighbor or not a neighbor without any treaties) the value will become 0!
+							which = treatiesWeight 
+							value >= 1
+						}
+					}
+					subtract_variable = { which = treatiesWeight value = 1 }
+				}
+				if = {
+					limit = {
+						check_variable = {			# treatiesWeight is added to the multiplier (just below), but if it's 0 then no tech points will be exchanged
+							which = treatiesWeight
+							value != 0
+						}
+					}
+					set_variable = { which = ratio value = 1 }
+					set_variable = { which = multiplier value = 1 }
+					divide_variable = {
+						which = ratio
+						value = inverted_ratio
+					}
+					subtract_variable  = { which = multiplier value = ratio }
+					change_variable = { which = multiplier value = treatiesWeight }
+
+
+					######## Computations ########
+
+					export_resource_income_to_variable = { resource = engineering_research variable = neighbor_techpoint_engineering }
+					export_resource_income_to_variable = { resource = society_research variable = neighbor_techpoint_society }
+					export_resource_income_to_variable = { resource = physics_research variable = neighbor_techpoint_physics }		
+
+					if = {
+						limit = {																									# If current Country has already the modifier, do not take it into account
+							has_modifier = tdf_technology_bonus_eng
+						}
+						export_modifier_to_variable = { modifier = country_base_engineering_research_produces_add variable = previous_target_engineering }
+						subtract_variable = { which = neighbor_techpoint_engineering value = previous_target_engineering }
+					}
+					subtract_variable = { which = neighbor_techpoint_engineering value = ROOT.current_techpoints_engineering }		# The tech points difference between the two Countries can be earned
+					divide_variable = { which = neighbor_techpoint_engineering value = ROOT.spread_speed }											# Divided by spread_speed though, which is by default 2 - unless "multiplier" is > 1, which may happen for real close allies or empires with double the tech of ROOT Country x)
+					multiply_variable = { which = neighbor_techpoint_engineering value = multiplier }
+
+					if = {
+						limit = {
+							has_modifier = tdf_technology_bonus_soc
+						}
+						export_modifier_to_variable = { modifier = country_base_society_research_produces_add variable = previous_target_society }
+						subtract_variable = { which = neighbor_techpoint_society value = previous_target_society }
+					}
+					subtract_variable = { which = neighbor_techpoint_society value = ROOT.current_techpoints_society }
+					divide_variable = { which = neighbor_techpoint_society value = ROOT.spread_speed }
+					multiply_variable = { which = neighbor_techpoint_society value = multiplier }
+
+					if = {
+						limit = {
+							has_modifier = tdf_technology_bonus_phy
+						}
+						export_modifier_to_variable = { modifier = country_base_physics_research_produces_add variable = previous_target_physics }
+						subtract_variable = { which = neighbor_techpoint_physics value = previous_target_physics }
+					}
+					subtract_variable = { which = neighbor_techpoint_physics value = ROOT.current_techpoints_physics }
+					divide_variable = { which = neighbor_techpoint_physics value = ROOT.spread_speed }
+					multiply_variable = { which = neighbor_techpoint_physics value = multiplier }
+
+					if = {
+						limit = {
+							check_variable = {											## In case ROOT Country has more tech production than "target" (can happen if the latter has many tech modifiers)
+								which = neighbor_techpoint_engineering 
+								value < 0
+							}
+						}
+						multiply_variable = { which = neighbor_techpoint_engineering value = 0 }
+						log = "Eng The [ROOT.GetName] is possibly neighboring: [THIS.GetName], with a tech ratio of:  [THIS.ratio] and with [THIS.treatiesWeight] treaties weight. But the latter have [THIS.neighbor_techpoint_engineering] more research points while the former have [ROOT.current_techpoints_engineering]. A factor of [THIS.multiplier] was applied. - However, since it's below 0 it won't be taken into account!"
+					} else_if = {
+						limit = {
+							AND = {
+								is_neighbor_of = ROOT
+								check_variable = {											## Check if the future bonus will be higher than the max possible achievable (neighbor)
+									which = neighbor_techpoint_engineering
+									value > ROOT.max_techpoint_engineering_per_neighbor
+								}
+							}
+						}
+						log = "Eng The [ROOT.GetName] is neighboring: [THIS.GetName], with a tech ratio of:  [THIS.ratio] and with [THIS.treatiesWeight] treaties weight. Indeed the neighbolatterr have [THIS.neighbor_techpoint_engineering] more research points while the former have [ROOT.current_techpoints_engineering]. A factor of [THIS.multiplier] was applied. - However, it's more than the maximum allowed of [ROOT.max_techpoint_engineering_per_neighbor] so it'll be capped to this value!"
+
+						clear_variable = neighbor_techpoint_engineering
+						set_variable = {
+							which = neighbor_techpoint_engineering
+							value = ROOT.max_techpoint_engineering_per_neighbor
+						}
+					} else_if = {
+						limit = {
+							AND = {
+								NOT = { is_neighbor_of = ROOT }
+								check_variable_arithmetic = {											## Check if the future bonus will be higher than the max possible achievable (not neighbor so half)
+									which = neighbor_techpoint_engineering
+									divide = 2
+									value > ROOT.max_techpoint_engineering_per_neighbor
+								}
+							}
+						}
+						log = "Eng The [ROOT.GetName] is not neighboring: [THIS.GetName], with a tech ratio of:  [THIS.ratio] and with [THIS.treatiesWeight] treaties weight. Indeed the latter have [THIS.neighbor_techpoint_engineering] more research points while the former have [ROOT.current_techpoints_engineering]. A factor of [THIS.multiplier] was applied. - However, it's more than the maximum allowed of [ROOT.max_techpoint_engineering_per_neighbor]/2 so it'll be capped to this value!"
+						clear_variable = neighbor_techpoint_engineering		
+						set_variable = {
+							which = neighbor_techpoint_engineering
+							value = ROOT.max_techpoint_engineering_per_neighbor
+						}						
+						divide_variable = {
+							which = neighbor_techpoint_engineering
+							value = 2
+						}
+					} 
+					else = {
+						log = "Eng The [ROOT.GetName] is maybe neighboring: [THIS.GetName], with a tech ratio of:  [THIS.ratio] and with [THIS.treatiesWeight] treaties weight. Indeed the latter have [THIS.neighbor_techpoint_engineering] more research points while the former have [ROOT.current_techpoints_engineering]. A factor of [THIS.multiplier] was applied. - It's not more than the maximum allowed of [ROOT.max_techpoint_engineering_per_neighbor]"
+					}
+
+					if = {
+						limit = {
+							check_variable = {
+								which = neighbor_techpoint_society 
+								value < 0
+							}
+						}
+						# log = "Soc The [ROOT.GetName] is possibly neighboring: [THIS.GetName], with a tech ratio of:  [THIS.ratio] and with [THIS.treatiesWeight] treaties weight. But the latter have [THIS.neighbor_techpoint_society] more research points while the former have [ROOT.current_techpoints_society]. A factor of [THIS.multiplier] was applied. - However, since it's below 0 it won't be taken into account!"
+						multiply_variable = { which = neighbor_techpoint_society value = 0 }
+					} else_if = {
+						limit = {
+							AND = {
+								is_neighbor_of = ROOT
+								check_variable = {
+									which = neighbor_techpoint_society
+									value > ROOT.max_techpoint_society_per_neighbor
+								}
+							}
+						}
+						# log = "Soc The [ROOT.GetName] is neighboring: [THIS.GetName], with a tech ratio of:  [THIS.ratio] and with [THIS.treatiesWeight] treaties weight. Indeed the latter have [THIS.neighbor_techpoint_society] more research points while the former have [ROOT.current_techpoints_society]. A factor of [THIS.multiplier] was applied. - However, it's more than the maximum allowed of [ROOT.max_techpoint_society_per_neighbor] so it'll be capped to this value!"
+						clear_variable = neighbor_techpoint_society
+						set_variable = {
+							which = neighbor_techpoint_society
+							value = ROOT.max_techpoint_society_per_neighbor
+						}
+					} else_if = {
+						limit = {
+							AND = {
+								NOT = { is_neighbor_of = ROOT }
+								check_variable_arithmetic = {
+									which = neighbor_techpoint_society
+									divide = 2
+									value > ROOT.max_techpoint_society_per_neighbor
+								}
+							}
+						}
+						# log = "Soc The [ROOT.GetName] is not neighboring: [THIS.GetName], with a tech ratio of:  [THIS.ratio] and with [THIS.treatiesWeight] treaties weight. Indeed the latter have [THIS.neighbor_techpoint_society] more research points while the former have [ROOT.current_techpoints_society]. A factor of [THIS.multiplier] was applied. - However, it's more than the maximum allowed of [ROOT.max_techpoint_society_per_neighbor]/2 so it'll be capped to this value!"
+						clear_variable = neighbor_techpoint_society			
+						set_variable = {
+							which = neighbor_techpoint_society
+							value = ROOT.max_techpoint_society_per_neighbor
+						}						
+						divide_variable = {
+							which = neighbor_techpoint_society
+							value = 2
+						}
+					} 
+					#else = {
+						# log = "Soc The [ROOT.GetName] is maybe neighboring: [THIS.GetName], with a tech ratio of:  [THIS.ratio] and with [THIS.treatiesWeight] treaties weight. Indeed the latter have [THIS.neighbor_techpoint_society] more research points while the former have [ROOT.current_techpoints_society]. A factor of [THIS.multiplier] was applied. - It's not more than the maximum allowed of [ROOT.max_techpoint_society_per_neighbor]"
+					#}
+
+					if = {
+						limit = {
+							check_variable = {
+								which = neighbor_techpoint_physics 
+								value < 0
+							}
+						}
+						multiply_variable = { which = neighbor_techpoint_physics value = 0 }
+						# log = "Phy The [ROOT.GetName] is possibly neighboring: [THIS.GetName], with a tech ratio of:  [THIS.ratio] and with [THIS.treatiesWeight] treaties weight. But the latter have [THIS.neighbor_techpoint_physics] more research points while the former have [ROOT.current_techpoints_physics]. A factor of [THIS.multiplier] was applied. - However, since it's below 0 it won't be taken into account!"
+					} else_if = {
+						limit = {
+							AND = {
+								is_neighbor_of = ROOT
+								check_variable = {
+									which = neighbor_techpoint_physics
+									value > ROOT.max_techpoint_physics_per_neighbor
+								}
+							}
+						}
+						# log = "Phy The [ROOT.GetName] is neighboring: [THIS.GetName], with a tech ratio of:  [THIS.ratio] and with [THIS.treatiesWeight] treaties weight. Indeed the latter have [THIS.neighbor_techpoint_physics] more research points while the former have [ROOT.current_techpoints_physics]. A factor of [THIS.multiplier] was applied. - However, it's more than the maximum allowed of [ROOT.max_techpoint_physics_per_neighbor] so it'll be capped to this value!"
+						clear_variable = neighbor_techpoint_physics
+						set_variable = {
+							which = neighbor_techpoint_physics
+							value = ROOT.max_techpoint_physics_per_neighbor
+						}
+					} else_if = {
+						limit = {
+							AND = {
+								NOT = { is_neighbor_of = ROOT }
+								check_variable_arithmetic = {
+									which = neighbor_techpoint_physics
+									divide = 2
+									value > ROOT.max_techpoint_physics_per_neighbor
+								}
+							}
+						}
+						# log = "Phy The [ROOT.GetName] is not neighboring: [THIS.GetName], with a tech ratio of:  [THIS.ratio] and with [THIS.treatiesWeight] treaties weight. Indeed the latter have [THIS.neighbor_techpoint_physics] more research points while the former have [ROOT.current_techpoints_physics]. A factor of [THIS.multiplier] was applied. - However, it's more than the maximum allowed of [ROOT.max_techpoint_physics_per_neighbor]/2 so it'll be capped to this value!"
+						clear_variable = neighbor_techpoint_physics				
+						set_variable = {
+							which = neighbor_techpoint_physics
+							value = ROOT.max_techpoint_physics_per_neighbor
+						}						
+						divide_variable = {
+							which = neighbor_techpoint_physics
+							value = 2
+						}
+					} 
+					#else = {
+						# log = "Phy The [ROOT.GetName] is maybe neighboring: [THIS.GetName], with a tech ratio of:  [THIS.ratio] and with [THIS.treatiesWeight] treaties weight. Indeed the latter have [THIS.neighbor_techpoint_physics] more research points while the former have [ROOT.current_techpoints_physics]. A factor of [THIS.multiplier] was applied. - It's not more than the maximum allowed of [ROOT.max_techpoint_physics_per_neighbor]"
+					#}
+
+					### Now we can add the computed value to the ROOT country variables!
+					ROOT = {
+						change_variable = { which = target_techpoints_engineering value = PREV.neighbor_techpoint_engineering }
+						change_variable = { which = target_techpoints_society value = PREV.neighbor_techpoint_society }
+						change_variable = { which = target_techpoints_physics value = PREV.neighbor_techpoint_physics }
+					}
+
+					clear_variable = inverted_ratio
+					clear_variable = ratio
+					clear_variable = treatiesWeight
+					clear_variable = multiplier
+					clear_variable = neighbor_techpoint_engineering
+					clear_variable = neighbor_techpoint_society
+					clear_variable = neighbor_techpoint_physics
+				}
+			} 
+			# else = {	### Technology ratio is in favor of ROOT empire
+			# }
+		}
+
+
+		######## Application of the modifier on the ROOT Country ########
+
+		if = {
+			limit = {
+				check_variable_arithmetic = {
+					which = target_techpoints_engineering								# At absolute maximum you can gain 6x your own production (so target divided by 3 cannot be > than max per neighbor, which is production x2)
+					divide = 3
+					value > ROOT.max_techpoint_engineering_per_neighbor
+				}
+			}
+			clear_variable = target_techpoints_engineering
+			set_variable = { which = target_techpoints_engineering value = ROOT.max_techpoint_engineering_per_neighbor }
+			multiply_variable = { which = target_techpoints_engineering value = 3 }
+		}
+		if = {
+			limit = {
+				check_variable_arithmetic = {
+					which = target_techpoints_society
+					divide = 3
+					value > ROOT.max_techpoint_society_per_neighbor
+				}
+			}
+			clear_variable = target_techpoints_society
+			set_variable = { which = target_techpoints_society value = ROOT.max_techpoint_society_per_neighbor }
+			multiply_variable = { which = target_techpoints_society value = 3 }
+		}
+		if = {
+			limit = {
+				check_variable_arithmetic = {
+					which = target_techpoints_physics
+					divide = 3
+					value > ROOT.max_techpoint_physics_per_neighbor
+				}
+			}
+			clear_variable = target_techpoints_physics
+			set_variable = { which = target_techpoints_physics value = ROOT.max_techpoint_physics_per_neighbor }
+			multiply_variable = { which = target_techpoints_physics value = 3 }
+		}
+
+		log = "[ROOT.GetName] will have [THIS.target_techpoints_engineering] eng & [THIS.target_techpoints_society] soc & [THIS.target_techpoints_physics] phy"
+	
+		add_modifier = {
+			modifier = tdf_technology_bonus_eng
+			days = 1800
+			multiplier = target_techpoints_engineering
+		}
+		add_modifier = {
+			modifier = tdf_technology_bonus_soc
+			days = 1800
+			multiplier = target_techpoints_society
+		}
+		add_modifier = {
+			modifier = tdf_technology_bonus_phy
+			days = 1800
+			multiplier = target_techpoints_physics
+		}
+	
+		clear_variable = target_techpoints_engineering
+		clear_variable = target_techpoints_society
+		clear_variable = target_techpoints_physics
+	}
+}
+
+# Background
+# On Game Start (Get Host)
+# Copied from Gigastructures: The first player to join is the host
+# So check to see if a host has been picked, and if not, that player is now the host 
+country_event = {
+	id = tdf_content.100000
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+		NOT = { has_global_flag = tdf_has_host }
+	}
+
+	immediate = {
+		set_global_flag = tdf_has_host
+		set_country_flag = tdf_host
+	}
+}
+
+	# Mod menu
+country_event = {
+	id = tdf_content.0
+	is_triggered_only = yes
+
+	title = "tdf_content_title"
+	desc = "tdf_content_desc"
+
+	trigger = {
+		is_ai = no
+		has_country_flag = tdf_host
+	}
+
+	# Keyboard escape fix
+	option = {
+		trigger = {
+			OR = {
+				has_global_flag = technology_diffusion_fast_spread 
+				has_global_flag = technology_diffusion_normal_spread 
+				has_global_flag = technology_diffusion_slow_spread 
+			}
+		}
+		name = {
+			trigger = { has_global_flag = technology_diffusion_fast_spread }
+			text = "tdf_content_current_fast"
+		}
+		name = {
+			trigger = { has_global_flag = technology_diffusion_normal_spread }
+			text = "tdf_content_current_normal"
+		}
+		name = {
+			trigger = { has_global_flag = technology_diffusion_slow_spread }
+			text = "tdf_content_current_slow"
+		}
+		allow = { 			
+			NOR = {
+				has_global_flag = technology_diffusion_fast_spread 
+				has_global_flag = technology_diffusion_normal_spread 
+				has_global_flag = technology_diffusion_slow_spread 
+			} 
+		}
+	}
+
+	option = {
+		trigger = { not = { has_global_flag = technology_diffusion_fast_spread } }
+		name = "tdf_content_set_fast"
+
+		remove_global_flag = technology_diffusion_slow_spread
+		remove_global_flag = technology_diffusion_normal_spread
+
+		set_global_flag = technology_diffusion_fast_spread
+	}
+	option = {
+		trigger = { not = { has_global_flag = technology_diffusion_normal_spread } }
+		name = "tdf_content_set_normal"
+
+		remove_global_flag = technology_diffusion_fast_spread
+		remove_global_flag = technology_diffusion_slow_spread
+
+		set_global_flag = technology_diffusion_normal_spread
+	}
+	option = {
+		trigger = { not = { has_global_flag = technology_diffusion_slow_spread } }
+		name = "tdf_content_set_slow"
+
+		remove_global_flag = technology_diffusion_fast_spread
+		remove_global_flag = technology_diffusion_normal_spread
+
+		set_global_flag = technology_diffusion_slow_spread
+	}	
+	option = {		
+		trigger = { 
+			OR = {
+				has_global_flag = technology_diffusion_fast_spread 
+				has_global_flag = technology_diffusion_normal_spread 
+				has_global_flag = technology_diffusion_slow_spread 
+			}
+		}
+		name = "tdf_content_cancel"
+	}
+	option = {		
+		trigger = { 
+			NOR = {
+				has_global_flag = technology_diffusion_fast_spread 
+				has_global_flag = technology_diffusion_normal_spread 
+				has_global_flag = technology_diffusion_slow_spread 
+			}
+		}
+		name = "tdf_content_start"
+		set_global_flag = technology_diffusion_normal_spread
+	}
+	
+}

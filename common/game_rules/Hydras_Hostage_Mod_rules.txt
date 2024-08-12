@@ -1,0 +1,130 @@
+#Tooltips will be generated from these rules when they fail. Use of custom_tooltip is recommended
+#There are still multiple hard-coded rules that apply in addition to these.
+#If rules here evaluate to true, there might still be other rules that make the action unavailable.
+#If a rule here evaluates to false the action will become unavailable
+
+# This = leader, leader we'd like to trade
+# Root = country, country that owns the leader currently
+# From = country, country that would receive the leader
+can_trade_leader = {
+	OR = {
+		AND = {
+			# The leader must have a trait from a specialist subject type.
+			this = {
+				has_specialist_subject_leader_trait = yes
+				is_councilor = no
+				is_heir = no
+			}
+			OR = {
+				AND = { # Either from subject to Overlord
+					ROOT = {
+						is_subject = yes
+					}
+					FROM = {
+						is_overlord_to = ROOT
+					}
+				}
+				AND = { # Or from a tactical cogitator empire to a NON tactical cogitator empire
+					ROOT = { has_valid_civic = civic_machine_tactical_algorithms }
+					FROM = {
+						NOT = { has_valid_civic = civic_machine_tactical_algorithms }
+						is_fallen_empire = no
+						NOT = {
+							any_owned_leader = {
+								has_trait = leader_trait_tactical_algorithms
+							}
+						}
+					}
+				}
+			}
+			# The subject and overlord must both be regular empires, machine intelligences or hive-minds.
+			OR = {
+				AND = {
+					ROOT = {
+						is_regular_empire = yes
+					}
+					FROM = {
+						is_regular_empire = yes
+					}
+				}
+				AND = {
+					ROOT = {
+						has_authority = auth_machine_intelligence
+					}
+					FROM = {
+						has_authority = auth_machine_intelligence
+					}
+				}
+				AND = {
+					ROOT = {
+						has_authority = auth_hive_mind
+					}
+					FROM = {
+						has_authority = auth_hive_mind
+					}
+				}
+				AND = { # Tactical Cogitator option
+					ROOT = {
+						has_valid_civic = civic_machine_tactical_algorithms
+					}
+					FROM = {
+						OR = {
+							is_regular_empire = yes
+							has_authority = auth_hive_mind
+							has_authority = auth_machine_intelligence
+						}
+						NOT = { has_country_flag = no_murdering_tactical_leaders }
+						NOT = {
+							any_owned_leader = {
+								has_trait = leader_trait_tactical_algorithms
+							}
+						}
+					}
+				}
+			}
+		}
+		has_leader_flag = HHM_hostage@from
+	}
+	# Can't trade gestalt nodes
+	is_gestalt_node = no
+	# The overlord can't be a fallen or awakened empire.
+	ROOT = {
+		NAND = {
+			is_overlord = yes
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}
+	NOR = {
+		has_trait = leader_trait_fotd_scientist
+		has_trait = leader_trait_fotd_commander
+	}
+}
+
+# this = leader
+should_count_towards_leader_cap = {
+	NOR = {
+		leader_class = envoy
+		is_hidden = yes
+		has_leader_flag = hired_admiral_merc_leader
+		has_leader_flag = legendary_leader
+		has_trait = leader_trait_rift_warped
+		AND = {
+			has_trait_tier1or2 = { TRAIT = leader_trait_eager }
+			has_skill < 4
+		}
+		AND = {
+			is_ruler = yes
+			OR = {
+				has_trait = leader_trait_ruler_machine_intelligence
+				has_trait = leader_trait_ruler_hive_mind
+			}
+		}
+		AND = {
+			has_leader_flag = HMO_hostage
+			is_idle = yes
+		}
+	}
+}

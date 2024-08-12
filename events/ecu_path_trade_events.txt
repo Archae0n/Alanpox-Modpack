@@ -1,0 +1,493 @@
+namespace = ef_trade
+
+# Stock market goes up. Repeatable
+planet_event = {
+	id = ef_trade.10
+	title = ef_trade.10.name
+	desc = "ef_trade.10.desc"
+	picture  = GFX_evt_financial_instruments
+	location = root
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_modifier = ef_stock_market_5}
+	}
+
+	option = {
+		name = ef_trade.10.a
+		ef_increase_stock_market = yes
+	}
+}
+
+# Stock market goes down. Repeatable
+planet_event = {
+	id = ef_trade.15
+	title = ef_trade.15.name
+	desc = "ef_trade.15.desc"
+	picture  = GFX_evt_financial_instruments
+	location = root
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_modifier = ef_stock_market_1}
+	}
+
+	option = {
+		name = ef_trade.15.a
+		ef_decrease_stock_market = yes
+	}
+}
+
+# Tax Irregularites
+planet_event = {
+	id = ef_trade.20
+	title = ef_trade.20.name
+	desc = "ef_trade.20.desc"
+	picture  = GFX_evt_financial_instruments
+	location = root
+	is_triggered_only = yes
+
+	trigger = {
+		owner = {
+			NOT = {
+				has_country_flag = ef_tax_irregularities_has_happened
+			}
+		}
+	}
+
+	immediate = {
+		owner = { set_country_flag = ef_tax_irregularities_has_happened }
+	}
+
+	option = {
+		name = ef_trade.20.investigate
+		allow = {
+			owner = {
+				resource_stockpile_compare = { resource = influence value >= 50 }
+			}
+		}
+		owner = {
+			add_resource = { influence = -50 }
+		}
+		hidden_effect = {
+			planet_event = {
+				id = ef_trade.21
+				days = 2#70 # Test
+			}
+		}
+	}
+
+	option = {
+		name = ef_trade.20.ignore
+		add_modifier = {
+			modifier = ef_embedded_corruption
+			years = 10
+		}
+	}
+}
+
+# Tax Irregularites: Conspiracy Uncovered
+planet_event = {
+	id = ef_trade.21
+	title = ef_trade.21.name
+	desc = "ef_trade.21.desc"
+	picture  = GFX_evt_gunrunning
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.21.conclude
+		# 50% chance your governor is associated with crime.
+		hidden_effect = {
+			if = {
+				limit = { exists = leader }
+				random_list = {
+					10 = {}
+					10 = {
+						planet_event = {
+							id = ef_trade.22
+							days = 2#70 # TEST
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = ef_trade.21.investigate_further
+		hidden_effect = {
+			planet_event = {
+				id = ef_trade.23
+				days = 2# 70 TEST
+			}
+		}
+	}
+}
+
+# Tax Irregularites: Governor implicated
+planet_event = {
+	id = ef_trade.22
+	title = ef_trade.22.name
+	desc = "ef_trade.22.desc"
+	picture  = GFX_evt_bribery
+	location = root
+	is_triggered_only = yes
+
+	immediate = {
+		leader = {
+			save_event_target_as = ef_corrupt_governor
+		}
+	}
+
+	option = {
+		name = ef_trade.22.imprison
+		leader = { kill_leader = { show_notification = yes fire = yes } }
+	}
+	option = {
+		name = ef_trade.22.leave
+		leader = {
+			add_trait = leader_trait_corrupt_2
+		}
+	}
+}
+
+# Tax Irregularites: Ringleaders caught
+# Mutually exclusive with governor outcome
+planet_event = {
+	id = ef_trade.23
+	title = ef_trade.23.name
+	desc = "ef_trade.23.desc"
+	picture  = GFX_evt_cover_blown
+	location = root
+	is_triggered_only = yes
+
+	immediate = {
+		remove_modifier = ef_embedded_corruption
+	}
+
+	# Round them up
+	option = {
+		name = ef_trade.23.round_them_up
+		add_modifier = {
+			modifier = ef_robust_law_enforcement
+			years = 10
+		}
+		add_modifier = {
+			modifier = ef_financial_chaos
+			months = 36
+		}
+	}
+	# Let it slide
+	option = {
+		name = ef_trade.23.let_it_slide
+		add_modifier = {
+			modifier = ef_corrupt_collusion
+			years = 20
+		}
+	}
+}
+
+# Megacorp Merger
+# Repeatable
+planet_event = {
+	id = ef_trade.30
+	title = ef_trade.30.name
+	desc = "ef_trade.30.desc"
+	picture = GFX_evt_financial_instruments
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.30.allow_merger
+		add_modifier = {
+			modifier = ef_corporate_monopoly
+			years = 10
+		}
+	}
+
+	option = {
+		name = ef_trade.30.deny_merger
+		owner = {
+			add_resource = { energy = 5000 }
+		}
+		add_modifier = {
+			modifier = ef_embedded_corruption
+			years = 10
+		}
+	}
+}
+
+# Corporate Espionage
+# Repeatable
+planet_event = {
+	id = ef_trade.40
+	title = ef_trade.40.name
+	desc = ef_trade.40.desc
+	picture  = GFX_evt_operative_chase
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.40.fine_the_offender
+		ef_decrease_stock_market = yes
+	}
+
+	option = {
+		name = ef_trade.40.let_them_dispute_it
+		custom_tooltip = ef_trade.40.dispute_warning_tt
+		random_list = {
+			50 = {}
+			25 = { planet_event = { id = ef_trade.50 days = 180 }}
+		}
+	}
+}
+
+# Corporate War
+planet_event = {
+	id = ef_trade.50
+	title = ef_trade.50.name
+	desc = ef_trade.50.desc
+	picture  = GFX_evt_interior_battle
+	show_sound = event_ground_battle
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.50.a
+		owner = { start_situation = { type = ef_situation_corpo_war target = root } }
+		ef_decrease_stock_market = yes
+	}
+}
+
+# Corporate War - Public Shootout
+situation_event = {
+	id = ef_trade.51
+	title = ef_trade.51.name
+	desc = ef_trade.51.desc
+	picture  = GFX_evt_emergency_workers
+	location = target
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.51.a
+		add_situation_progress = 10
+		target = {
+			add_planet_devastation = 10
+			ef_decrease_stock_market = yes
+		}
+	}
+}
+
+# Corporate War - Bombing
+situation_event = {
+	id = ef_trade.52
+	title = ef_trade.52.name
+	desc = ef_trade.52.desc
+	picture  = GFX_evt_night_raid
+	location = target
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.52.a
+		add_situation_progress = 10
+		target = {
+			add_planet_devastation = 10
+			random_owned_pop = { kill_pop = yes }
+			ef_decrease_stock_market = yes
+		}
+	}
+}
+
+# Corporate War - Break ins / Rising Chaos
+situation_event = {
+	id = ef_trade.53
+	title = ef_trade.53.name
+	desc = ef_trade.53.desc
+	picture  = GFX_evt_operative_chase
+	location = target
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.53.a
+		add_situation_progress = 10
+		target = {
+			add_modifier = { modifier = ef_financial_chaos years = 2 }
+			ef_decrease_stock_market = yes
+		}
+	}
+}
+
+# Corporate War - Breakdown of order
+situation_event = {
+	id = ef_trade.54
+	title = ef_trade.54.name
+	desc = ef_trade.54.desc
+	picture  = GFX_evt_burning_city
+	location = target
+	is_triggered_only = yes
+
+	trigger = { situation_progress >= 75 }
+
+	option = {
+		name = ef_trade.54.a
+		add_situation_progress = 10
+		target = {
+			add_planet_devastation = 25
+			random_owned_pop = { kill_pop = yes }
+			ef_decrease_stock_market = yes
+		}
+	}
+}
+
+# Corporate War - A Victor
+planet_event = {
+	id = ef_trade.55
+	title = ef_trade.55.name
+	desc = ef_trade.55.desc
+	picture  = GFX_evt_burning_city
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.55.a
+		add_modifier = { modifier = ef_corporate_monopoly years = 30 }
+		add_modifier = { modifier = ef_shattered_economy years = 10 }
+		ef_increase_stock_market = yes
+	}
+}
+
+# Corporate War - Order restored
+planet_event = {
+	id = ef_trade.56
+	title = ef_trade.56.name
+	desc = "ef_trade.56.desc"
+	picture  = GFX_evt_enclave_overlord
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.56.a
+		add_modifier = { modifier = ef_robust_law_enforcement years = 10 }
+		add_modifier = { modifier = ef_rebuilding years = 5 }
+		ef_increase_stock_market = yes
+		ef_increase_stock_market = yes
+	}
+}
+
+# Trade conference. Repeatable
+planet_event = {
+	id = ef_trade.60
+	title = ef_trade.60.name
+	desc = "ef_trade.60.desc"
+	picture  = GFX_evt_diplomatic_visit
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.60.a
+		hidden_effect = {
+			random_list = {
+				75 = { planet_event = { id = ef_trade.61 days = 90 } }
+				25 = { planet_event = { id = ef_trade.62 days = 90 } }
+			}
+		}
+	}
+}
+
+# Trade conference. Things went great!
+planet_event = {
+	id = ef_trade.61
+	title = ef_trade.61.name
+	desc = "ef_trade.61.desc"
+	picture  = GFX_evt_tradedeal
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.60.a
+		add_modifier = { modifier = ef_economic_boom years = 5 }
+	}
+}
+
+# Trade conference. Things went poorly
+planet_event = {
+	id = ef_trade.62
+	title = ef_trade.62.name
+	desc = "ef_trade.62.desc"
+	picture  = GFX_evt_alien_segregation
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.62.a
+	}
+}
+
+# Escalating corporate rivalry. Repeatable
+planet_event = {
+	id = ef_trade.70
+	title = ef_trade.70.name
+	desc = "ef_trade.70.desc"
+	picture  = GFX_evt_news_room
+	location = root
+	is_triggered_only = yes
+
+	# Take bribes
+	option = {
+		name = ef_trade.70.a
+		owner = {
+			add_resource = { energy = 5000 }
+		}
+		add_modifier = { modifier = ef_corrupt_collusion years = 15 }
+		hidden_effect = {
+			random_list = {
+				40 = { planet_event = { id = ef_trade.71 days = 90 } }
+				10 = { planet_event = { id = ef_trade.50 days = 90 } }
+			}
+		}
+	}
+
+	# Hands off
+	option = {
+		name = ef_trade.70.b
+		custom_tooltip = ef_trade.40.dispute_warning_tt
+		hidden_effect = {
+			random_list = {
+				25 = { planet_event = { id = ef_trade.71 days = 90 } }
+				50 = { planet_event = { id = ef_trade.50 days = 90 } }
+			}
+		}
+	}
+
+	# Harsh crackdown
+	option = {
+		name = ef_trade.70.c
+		allow = {
+			owner = {
+				resource_stockpile_compare = { resource = influence value >= 100 }
+			}
+		}
+		owner = {
+			add_resource = { influence = -100 }
+		}
+
+		hidden_effect = {
+			planet_event = { id = ef_trade.71 days = 90 }
+		}
+	}
+}
+
+# Corpo rivalry resolved
+planet_event = {
+	id = ef_trade.71
+	title = ef_trade.71.name
+	desc = "ef_trade.71.desc"
+	picture  = GFX_evt_news_room
+	location = root
+	is_triggered_only = yes
+
+	option = {
+		name = ef_trade.71.a
+		ef_increase_stock_market = yes
+	}
+}

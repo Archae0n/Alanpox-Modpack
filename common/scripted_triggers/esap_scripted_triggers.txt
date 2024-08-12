@@ -1,0 +1,5 @@
+#If this is yes the AI will switch to traditions that won't affect the player.
+esap_AI_no_passive_aggressive_perks = {	
+	always = yes
+	is_ai = yes
+}

@@ -1,0 +1,415 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	rekvas = {
+		name = Rek'vas
+		plural = Rek'vasi
+		home_planet = Rek'skik
+		home_system = Rek'tikkin
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	nagarrisk = {
+		name = Nagarrisk
+		plural = Nagarrisk
+		home_planet = Deassik'ki
+		home_system = Kaskee
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	tukiriskta = {
+		name = Tukirisktan
+		plural = Tukirisktans
+		home_planet = Tukiriskta
+		home_system = Kaskee-Viokcku
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	gloryofthannahanki = {
+		name = Deetchthakak
+		plural = Deetchthakaks
+		home_planet = "Glory of Thanna'hanki"
+		home_system = "Glory of Meistik'ki'sk"
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	dakintarki = {
+		name = Dakintarkan
+		plural = Dakintarkans
+		home_planet = Dakintarki
+		home_system = Ki'gaznurg 
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	nikretav = {
+		name = Nik'rektav
+		plural = Nik'retav
+		home_planet = "Kit Nik'ki"
+		home_system = Azhvossk 
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	vossikuvask = {
+		name = Vossikk
+		plural = Vossikk
+		home_planet = Vossikuvask
+		home_system = Ski-Tikk'chi 
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	kualviskdac = {
+		name = Viskkoid
+		plural = Viskkoids
+		home_planet = "Kual'visk Dac"
+		home_system = "Ranth'ki Dac" 
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	ckekin = {
+		name = Cke'kin
+		plural = Cke'kin
+		home_planet = Tcha'ri
+		home_system = Rek'ki
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	iki = {
+		name = Ikian
+		plural = Ikians
+		home_planet = Iki
+		home_system = Ikiner
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	souloftavitt = {
+		name = Isk
+		plural = Isk
+		home_planet = "Soul of Tavitt"
+		home_system = "Eyes of Tavitt"
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	mickutar = {
+		name = Micker
+		plural = Mickers
+		home_planet = Mickutar
+		home_system = Azarrd
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	retaskirs = {
+		name = Retaskiran  
+		plural = Retaskirans
+		home_planet = Retaskirs
+		home_system = Ki'pask
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	kratdek = {
+		name = Krat'dekan  
+		plural = Krat'dekans
+		home_planet = Krat'dek
+		home_system = Tu'azar
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	aazaran = {
+		name = A'azaran 
+		plural = A'azarans
+		home_planet = Hisktikne
+		home_system = Hisktikne
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	tualksklem = {
+		name = Kukish
+		plural = Kukish
+		home_planet = "Tualk Sklem"
+		home_system = Ka'tikkiki
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	paskrin = {
+		name = Pask'rian 
+		plural = Pask'rians
+		home_planet = Pask'rin
+		home_system = Aztav
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	khakth = {
+		name = Khakth 
+		plural = Khakth
+		home_planet = "Little Bazzarrk"
+		home_system = "Big Bazzarrk"
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	burrac = {
+		name = Burracian 
+		plural = Burracians
+		home_planet = Burrac
+		home_system = Kichi'ki
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	primordialhoard = {
+		name = Chebaki 
+		plural = Chebakis
+		home_planet = "Primordial Hoard"
+		home_system = "Den of Skiskrar Ska"
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	skirsvi = {
+		name = Skirs'vian
+		plural = Skirs'vians
+		home_planet = Skirs'vi
+		home_system = Ratt'kubar
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	velsarr = {
+		name = Velsarr
+		plural = Velsarrians
+		home_planet = "Kaflem Velsarr"
+		home_system = Thro'khakki
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	putavrac = {
+		name = Putavrac
+		plural = Putavrac
+		home_planet = Chideek
+		home_system = Chideek
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	rhivasschi = {
+		name = Rhivass
+		plural = Rhivass
+		home_planet = Rhivasschi
+		home_system = Stiskeedacdur
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	rassbar = {
+		name = Rassbarian
+		plural = Rassbarians
+		home_planet = Rassbar
+		home_system = Timass
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	gritu = {
+		name = Gritish
+		plural = Gritish
+		home_planet = Gritu
+		home_system = Ki-quol
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	azhmal = {
+		name = Mal
+		plural = Mal
+		home_planet = Azhmal
+		home_system = Bazmal
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	kukktukche = {
+		name = Gazchian
+		plural = Gazchians
+		home_planet = Kukk-Tukche
+		home_system = Is'schak
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	drakrusi = {
+		name = Drakrusian
+		plural = Drakrusians
+		home_planet = Drakrusi
+		home_system = Drakrusi
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	chikazel = {
+		name = Chika
+		plural = Chika
+		home_planet = Chikazel
+		home_system = Azar-arr
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	azhka = {
+		name = Azhkan
+		plural = Azhkans
+		home_planet = Azhka
+		home_system = Kipask
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	kitnethroprime = {
+		name = Thro-Kittese
+		plural = Thro-Kittese
+		home_planet = "Kitnethro Prime"
+		home_system = Kitnethro
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	naazmarzardche = {
+		name = Zard
+		plural = Zards
+		home_planet = "Naaz mar-Zardche"
+		home_system = "Naaz tar-Skeet"
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	tindekzells = {
+		name = Tindekzellian
+		plural = Tindekzellians
+		home_planet = Tind'ek'zells
+		home_system = Skek'cku
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	purkicheck = {
+		name = Pur'kk
+		plural = Pur'kk
+		home_planet = Pur'kichek
+		home_system = Kek'mal
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	chiskaviokck = {
+		name = Chiskavv
+		plural = Chiskavv
+		home_planet = Chiska'viokck
+		home_system = Tavrask'ti
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	lithki = {
+		name = Lithkish
+		plural = Lithkish
+		home_planet = Lithki
+		home_system = Tuvarki
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	tabaz = {
+		name = Tabazzid
+		plural = Tabazzid
+		home_planet = Tabaz
+		home_system = Is'kukta
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	starnightsepulchre = {
+		name = Chegritchean
+		plural = Chegritcheans
+		home_planet = "Star-Night Sepulchre"
+		home_system = "Tumulus of Flem Thak"
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	skikitdrac = {
+		name = Tiquolk
+		plural = Tiquolk
+		home_planet = Ski'kitdrac
+		home_system = Paskeek'ki
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	rirshaktisk = {
+		name = Rirshakk
+		plural = Rirshakk
+		home_planet = Rirshaktisk
+		home_system = Kuvitdur
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	mikur = {
+		name = Mikuroid
+		plural = Mikuroids
+		home_planet = Mikur
+		home_system = Rh'duka'i
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	kithrasca = {
+		name = Reeeikr
+		plural = Reeeikr
+		home_planet = Ki'thrasca
+		home_system = Kel'zalik
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	ikmethav = {
+		name = Reei
+		plural = Reei
+		home_planet = Ikmethav
+		home_system = Arith'garivi
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	kidekikprime = {
+		name = Kidekian
+		plural = Kidekians
+		home_planet = "Kidekik Prime"
+		home_system = Kidekik
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	zerelki = {
+		name = Zerelkish
+		plural = Zerelkish
+		home_planet = Zerelki
+		home_system = Litist'sa
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+}
+
+
+# Toxoids
+
+TOX = {
+	micka = {
+		name = Mickee
+		plural = Mickees
+		home_planet = Micka
+		home_system = Deassnik
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	cha_ku = {
+		name = Cka'kuan
+		plural = Cka'kuans
+		home_planet = Cka'ku
+		home_system = Rhikchek
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	hasnik = {
+		name = Hasnikite
+		plural = Hasnikites
+		home_planet = Hasnik
+		home_system = Azar'kmeisk
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+	lotazche = {
+		name = Lotazian
+		plural = Lotazians
+		home_planet = Lotazche
+		home_system = Ratsass
+		name_list = "cybrxkhan_fantasy_apostrophe_2"
+	}
+}

@@ -1,0 +1,34 @@
+# Planet has reached 0 health
+# This = Planet
+# From = Bombarder
+# on_planet_zero_health = {
+	# events = {
+		# mem_space_monster_attacks.2
+	# }
+# }
+
+# This = owner of fleet 1 (combatant)
+# From = owner of fleet 2 (destroyed)
+# FromFrom = fleet 1
+# FromFromFrom = fleet 2
+on_fleet_destroyed_perp = {
+	events = {
+		mem_space_monster_attacks.3
+		mem_space_monster_attacks.4
+		mem_space_monster_attacks.13
+	}
+}
+
+# A country has increased the level of a tech, use last_increased_tech trigger to check tech and level.
+# This = Country
+on_tech_increased = {
+	events = {
+		mem_space_monster_attacks.20
+	}
+}
+
+on_colony_4_years_old = {
+	events = {
+		mem_space_monster_attacks.1000
+	}
+}

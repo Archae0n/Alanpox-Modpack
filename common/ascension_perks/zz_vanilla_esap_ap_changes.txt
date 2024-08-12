@@ -1,0 +1,365 @@
+#################
+# GENERIC ASCENSION PERKS
+#################
+
+ap_one_vision = {
+	modifier = {
+		country_unity_produces_mult = 0.17
+		pop_amenities_usage_mult = -0.18
+		pop_government_ethic_attraction = 0.50
+	}
+
+	potential = {
+		NOT = {
+			has_ascension_perk = ap_one_vision
+			has_ethic = ethic_gestalt_consciousness
+		}
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_ethic = ethic_authoritarian
+		}
+		modifier = {
+			factor = 3
+			has_ethic = ethic_fanatic_authoritarian
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_spiritualist
+		}
+		modifier = {
+			factor = 3
+			has_ethic = ethic_fanatic_spiritualist
+		}
+	}
+}
+
+#################
+# GOVERNMENT ASCENSION PERKS
+#################
+
+# Modified in ESAP (More flavor).
+ap_imperial_prerogative = {
+	modifier = {
+		country_official_cap_add = 2
+		empire_size_colonies_mult = -0.50
+	}
+
+	potential = {
+		NOT = {
+			has_ethic = ethic_gestalt_consciousness
+			has_ascension_perk = ap_imperial_prerogative
+		}
+		NOT = { has_authority = auth_corporate }
+	}
+
+	ai_weight = {
+		factor = 15
+		modifier = {
+			factor = 0
+			num_owned_planets < 5
+		}
+		modifier = {
+			factor = 0.1
+			num_owned_planets < 7
+		}
+		modifier = {
+			factor = 2
+			num_owned_planets > 20
+		}
+		modifier = {
+			factor = 5
+			num_owned_planets > 40
+		}
+	}
+
+	on_enabled = {
+		run_ai_strategic_data = yes
+		# ESAP Merger Stack
+		if = {
+			limit = { has_global_flag = esap_mod_in_use }
+			custom_tooltip = "ap_esap_gov_3_tooltip"
+			hidden_effect = {
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 0 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_3_1" days = -1 }
+				}
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 1 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_3_1" days = -1 }
+				}
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 2 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_3_2" days = -1 }
+				}
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 3 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_3_3" days = -1 }
+				}
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 4 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_3_4" days = -1 }
+				}
+				country_event = {
+					id = esap_gov.1
+				}
+			}
+		}
+	}
+}
+
+# Modified in ESAP (More flavor).
+ap_executive_vigor = {
+	modifier = {
+		country_government_civic_points_add = 1
+		# Since V3.3 efect is now edict_fund_add
+		country_edict_fund_add = 100
+	}
+
+	potential = {
+		NOT = {
+			has_ethic = ethic_gestalt_consciousness
+			has_ascension_perk = ap_executive_vigor
+		}
+	}
+
+	on_enabled = {
+		# ESAP Merger Stack
+		if = {
+			limit = { has_global_flag = esap_mod_in_use }
+			custom_tooltip = "ap_esap_gov_1_tooltip"
+			hidden_effect = {
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 0 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_1_1" days = -1 }
+				}
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 1 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_1_1" days = -1 }
+				}
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 2 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_1_2" days = -1 }
+				}
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 3 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_1_3" days = -1 }
+				}
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 4 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_1_4" days = -1 }
+				}
+				country_event = {
+					id = esap_gov.1
+				}
+			}	
+		}
+		# Unique Ascension Perks
+		if = {
+			limit = { has_global_flag = has_uap_mod }
+			custom_tooltip = "ap_executive_vigor_tooltip"
+			hidden_effect = {
+				country_event = { id = UniqueAscensionPerksEvents.421 }
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 30 #it's better than average
+	}
+}
+
+# Modified in ESAP (More flavor).
+ap_transcendent_learning = {
+	modifier = {
+		country_scientist_cap_add = 2
+		# Added modifiers on_enabled instead
+		#species_leader_exp_gain = 0.50
+	}
+
+	potential = {
+		NOT = {
+			has_ethic = ethic_gestalt_consciousness
+			has_ascension_perk = ap_transcendent_learning
+		}
+	}
+
+	on_enabled = {
+		# Sartek Merger - Compatibility
+		if = {
+			limit = { NOT = { has_global_flag = esap_mod_in_use } }
+			custom_tooltip = "sartek_transcendent_learning_tooltip"
+			hidden_effect = {
+					add_modifier = { modifier = "mod_sartek_transcendent_learning" days = -1 }
+				}
+		}
+		# Worthy Ascension Perks
+		if = {
+			limit = { has_global_flag = has_mute_ap_mod }
+			custom_tooltip = "worthy_transcendent_learning_effect"
+			hidden_effect = {
+				country_event = { id = worthyperks.02 }
+			}
+		}
+		# Unique Ascension Perks
+		if = {
+			limit = { has_global_flag = has_uap_mod }
+			custom_tooltip = "ap_transcendent_learning_tooltip"
+			hidden_effect = {
+				country_event = { id = UniqueAscensionPerksEvents.31 }
+			}
+		}
+		# ESAP Merger Stack
+		if = {
+			limit = { has_global_flag = esap_mod_in_use }
+			custom_tooltip = "ap_esap_gov_2_tooltip"
+			hidden_effect = {
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 0 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_2_1" days = -1 }
+				}
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 1 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_2_1" days = -1 }
+				}
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 2 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_2_2" days = -1 }
+				}
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 3 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_2_3" days = -1 }
+				}
+				if = {
+					limit = {
+						check_variable = { which = var_esap_goverment_perk_count value = 4 }
+					}
+					add_modifier = { modifier = "mod_esap_gov_2_4" days = -1 }
+				}
+				country_event = {
+					id = esap_gov.1
+				}
+			}	
+		}
+	}
+
+	ai_weight = {
+		factor = 10
+	}
+}
+
+ap_cosmogenesis = {
+	potential = {
+		has_machine_age_dlc = yes
+		NOR = {
+			has_ascension_perk = ap_become_the_crisis
+			has_ascension_perk = ap_cosmogenesis
+			has_ascension_perk = ap_defender_of_the_galaxy
+			has_origin = origin_slavers # No crisis for MSI
+		}
+	}
+
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_3"
+			num_ascension_perks > 4
+		}
+		custom_tooltip = {
+			fail_text = "requires_independence"
+			is_subject = no
+		}
+		custom_tooltip = {
+			fail_text = "must_not_be_custodian"
+			is_galactic_custodian = no
+		}
+		custom_tooltip = {
+			fail_text = "must_not_be_emperor"
+			is_galactic_emperor = no
+		}
+	}
+
+	on_enabled = {
+		hidden_effect = {
+			set_variable = {
+				which = cosmogenesis_world_advanced_logic_produced
+				value = 0
+			}
+		}
+		activate_crisis_progression = cosmogenesis_path
+	}
+
+	ai_weight = {
+		factor = 7.5
+		modifier = {
+			factor = 0
+			OR = {
+				is_egalitarian = yes
+				is_xenophile = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			has_tradition = tr_discovery_finish
+		}
+		modifier = {
+			factor = 2
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = 2
+			has_ascension_perk = ap_enigmatic_engineering
+		}
+		modifier = {
+			factor = 2
+			vassals > 0
+			any_subject = {
+				any_agreement = {
+					has_active_specialization = specialist_scholarium
+				}
+			}
+		}
+		modifier = {
+			factor = 10
+			has_country_flag = whisperers_covenant_confirmed
+		}
+		modifier = {
+			factor = 0
+			galaxy_percentage < 0.1
+		}
+		modifier = {
+			factor = 2
+			galaxy_percentage > 0.2
+		}
+	}
+}

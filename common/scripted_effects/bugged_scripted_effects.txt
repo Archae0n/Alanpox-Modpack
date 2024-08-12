@@ -1,0 +1,582 @@
+bugged_recalculate_consecrated_stars_modifier = {
+	if = {
+     	limit = {
+			OR = {
+    	  	  check_variable = {
+          	    	which = bugged_consecrated_stars_variable
+    	  	    	value > 0
+      	    	}
+				check_variable = {
+       	     		which = bugged_consecrated_stars_variable
+        	   		value < 0
+       	  		}
+			}
+      	}
+		remove_modifier = bugged_consecrated_star_modifier
+      	add_modifier = {
+      	    modifier = bugged_consecrated_star_modifier
+      	    days = -1
+      	    multiplier = bugged_consecrated_stars_variable
+      	}
+ 	}
+	else = {
+		#Do Nothing
+	}
+}
+
+set_merchant_government_effect_lib = {
+	if = {
+		limit = { has_technology = tech_galactic_administration }
+		change_government = {
+			authority = auth_democratic
+			cooldown = no
+			remove_invalid_civics = yes
+			civics = { civic = civic_merchant_guilds civic = random civic = random civic = random}
+		}
+	}
+	else = {
+		change_government = {
+			authority = auth_democratic
+			cooldown = no
+			remove_invalid_civics = yes
+			civics = { civic = civic_merchant_guilds civic = random civic = random}
+		}
+	}
+}
+
+set_merchant_government_effect_auth = {
+	if = {
+		limit = { has_technology = tech_galactic_administration }
+		change_government = {
+			authority = auth_imperial
+			cooldown = no
+			remove_invalid_civics = yes
+			civics = { civic = civic_merchant_guilds civic = random civic = random civic = random}
+		}
+	}
+	else = {
+		change_government = {
+			authority = auth_imperial
+			cooldown = no
+			remove_invalid_civics = yes
+			civics = { civic = civic_merchant_guilds civic = random civic = random}
+		}
+	}
+}
+
+recalculate_terraforming_fervor_modifier = {
+	if = {
+		limit = {
+			check_variable = {
+				which = bugged_terraforming_fervor_variable
+				value > 0
+			}
+		}
+		remove_modifier = bugged_terraforming_fervor
+  		add_modifier = {
+  	  		modifier = bugged_terraforming_fervor
+			multiplier = bugged_terraforming_fervor_variable
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				which = bugged_terraforming_fervor_variable
+				value = 0
+			}
+		}
+		remove_modifier = bugged_terraforming_fervor	
+	}
+}
+
+bugged_set_merchant_government_effect_democratic = {
+	if = {
+		limit = { has_technology = tech_galactic_administration }
+		change_government = {
+			authority = auth_democratic
+			cooldown = no
+			remove_invalid_civics = yes
+			civics = { civic = random civic = random civic = random civic = random }
+		}
+	}
+	else = {
+		change_government = {
+			authority = auth_democratic
+			cooldown = no
+			remove_invalid_civics = yes
+			civics = { civic = random civic = random civic = random }
+		}
+	}
+}
+
+bugged_set_merchant_government_effect_imperial = {
+	if = {
+		limit = { has_technology = tech_galactic_administration }
+		change_government = {
+			authority = auth_dictatorial
+			cooldown = no
+			remove_invalid_civics = yes
+			civics = { civic = random civic = random civic = random civic = random }
+		}
+	}
+	else = {
+		change_government = {
+			authority = auth_dictatorial
+			cooldown = no
+			remove_invalid_civics = yes
+			civics = { civic = random civic = random civic = random }
+		}
+	}
+}
+
+recalculate_machine_spy_network_modifier = {
+	if = {
+		limit = {
+			check_variable = {
+				which = bugged_machine_spy_network_variable
+				value > 0
+			}
+		}
+		remove_modifier = bugged_spy_machine
+  		add_modifier = {
+  	  		modifier = bugged_spy_machine
+			multiplier = bugged_machine_spy_network_variable
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				which = bugged_machine_spy_network_variable
+				value = 0
+			}
+		}
+		remove_modifier = bugged_spy_machine	
+	}
+}
+
+recalculate_evangelism_modifier = {
+	if = {
+		limit = {
+			check_variable = {
+				which = bugged_evangelism_modifier_var
+				value > 0
+			}
+			is_bugged_advanced_cult = no
+		}
+		capital_scope = {
+			remove_modifier = bugged_evangelism_modifier_normal
+			add_modifier = {
+				modifier = bugged_evangelism_modifier_normal
+				multiplier = prev.bugged_evangelism_modifier_var
+			}
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				which = bugged_evangelism_modifier_var
+				value > 0
+			}
+			is_bugged_luminosity_cult = yes
+		}
+		capital_scope = {
+			remove_modifier = bugged_evangelism_modifier_luminosity
+			add_modifier = {
+				modifier = bugged_evangelism_modifier_luminosity
+				multiplier = prev.bugged_evangelism_modifier_var
+			}
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				which = bugged_evangelism_modifier_var
+				value > 0
+			}
+			is_death_cult_empire = yes
+		}
+		capital_scope = {
+			remove_modifier = bugged_evangelism_modifier_death
+			add_modifier = {
+				modifier = bugged_evangelism_modifier_death
+				multiplier = prev.bugged_evangelism_modifier_var
+			}
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				which = bugged_evangelism_modifier_var
+				value > 0
+			}
+			is_bugged_war_cult = yes
+		}
+		capital_scope = {
+			remove_modifier = bugged_evangelism_modifier_war
+			add_modifier = {
+				modifier = bugged_evangelism_modifier_war
+				multiplier = prev.bugged_evangelism_modifier_var
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				which = bugged_evangelism_modifier_var
+				value = 0
+			}
+		}
+		capital_scope = {
+			remove_modifier = bugged_evangelism_modifier_normal
+			remove_modifier = bugged_evangelism_modifier_luminosity
+			remove_modifier = bugged_evangelism_modifier_death
+			remove_modifier = bugged_evangelism_modifier_war
+		}
+	}
+}
+
+# GESTALT FOCI
+
+bugged_change_foci_progression_effect = {
+	if = {
+		limit = { has_ethic = ethic_foci_logistics }
+		country_remove_ethic = ethic_foci_logistics
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_encroachment }
+		country_remove_ethic = ethic_foci_encroachment
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_convalescence }
+		country_remove_ethic = ethic_foci_convalescence
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_analysis }
+		country_remove_ethic = ethic_foci_analysis
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_progression }
+		country_remove_ethic = ethic_foci_progression
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_connection }
+		country_remove_ethic = ethic_foci_connection
+	}
+	country_add_ethic = ethic_foci_progression
+}
+
+bugged_change_foci_connection_effect = {
+	if = {
+		limit = { has_ethic = ethic_foci_logistics }
+		country_remove_ethic = ethic_foci_logistics
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_encroachment }
+		country_remove_ethic = ethic_foci_encroachment
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_convalescence }
+		country_remove_ethic = ethic_foci_convalescence
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_analysis }
+		country_remove_ethic = ethic_foci_analysis
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_progression }
+		country_remove_ethic = ethic_foci_progression
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_connection }
+		country_remove_ethic = ethic_foci_connection
+	}
+	country_add_ethic = ethic_foci_connection
+}
+
+bugged_change_foci_encroachment_effect = {
+	if = {
+		limit = { has_ethic = ethic_foci_logistics }
+		country_remove_ethic = ethic_foci_logistics
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_encroachment }
+		country_remove_ethic = ethic_foci_encroachment
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_convalescence }
+		country_remove_ethic = ethic_foci_convalescence
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_analysis }
+		country_remove_ethic = ethic_foci_analysis
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_progression }
+		country_remove_ethic = ethic_foci_progression
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_connection }
+		country_remove_ethic = ethic_foci_connection
+	}
+	country_add_ethic = ethic_foci_encroachment
+}
+
+bugged_change_foci_convalescence_effect = {
+	if = {
+		limit = { has_ethic = ethic_foci_logistics }
+		country_remove_ethic = ethic_foci_logistics
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_encroachment }
+		country_remove_ethic = ethic_foci_encroachment
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_convalescence }
+		country_remove_ethic = ethic_foci_convalescence
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_analysis }
+		country_remove_ethic = ethic_foci_analysis
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_progression }
+		country_remove_ethic = ethic_foci_progression
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_connection }
+		country_remove_ethic = ethic_foci_connection
+	}
+	country_add_ethic = ethic_foci_convalescence
+}
+
+bugged_change_foci_analysis_effect = {
+	if = {
+		limit = { has_ethic = ethic_foci_logistics }
+		country_remove_ethic = ethic_foci_logistics
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_encroachment }
+		country_remove_ethic = ethic_foci_encroachment
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_convalescence }
+		country_remove_ethic = ethic_foci_convalescence
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_analysis }
+		country_remove_ethic = ethic_foci_analysis
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_progression }
+		country_remove_ethic = ethic_foci_progression
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_connection }
+		country_remove_ethic = ethic_foci_connection
+	}
+	country_add_ethic = ethic_foci_analysis
+}
+
+bugged_change_foci_logistics_effect = {
+	if = {
+		limit = { has_ethic = ethic_foci_logistics }
+		country_remove_ethic = ethic_foci_logistics
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_encroachment }
+		country_remove_ethic = ethic_foci_encroachment
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_convalescence }
+		country_remove_ethic = ethic_foci_convalescence
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_analysis }
+		country_remove_ethic = ethic_foci_analysis
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_progression }
+		country_remove_ethic = ethic_foci_progression
+	}
+	else_if = {
+		limit = { has_ethic = ethic_foci_connection }
+		country_remove_ethic = ethic_foci_connection
+	}
+	country_add_ethic = ethic_foci_logistics
+}
+
+bugged_generate_gestalt_ethics = {
+	random_list = { # Autonomous Vs Convergent
+		10 = {
+			country_add_ethic = ethic_form_autonomous
+		}
+		10 = {
+			country_add_ethic = ethic_form_convergent
+		}
+	}
+	random_list = { # Introspective VS Extrospective
+		10 = {
+			country_add_ethic = ethic_form_introspective
+		}
+		10 = {
+			country_add_ethic = ethic_form_extrospective
+		}
+	}
+	random_list = { # Impassive VS Affective
+		10 = {
+			country_add_ethic = ethic_form_impassive
+		}
+		10 = {
+			country_add_ethic = ethic_form_affective
+		}
+	}
+	random_list = {
+		10 = { country_add_ethic = ethic_foci_analysis }
+		10 = { country_add_ethic = ethic_foci_connection }
+		10 = { country_add_ethic = ethic_foci_convalescence }
+		10 = { country_add_ethic = ethic_foci_encroachment }
+		10 = { country_add_ethic = ethic_foci_logistics }
+		10 = { country_add_ethic = ethic_foci_progression }
+	}
+	if = {
+		limit = {
+			has_ethic = ethic_form_autonomous
+			has_ethic = ethic_form_affective
+		}
+		country_event = {
+			id = hive_happiness.1
+		}
+	}
+}
+
+bugged_stripmine_world = {
+	random_list = {
+		1 = {
+			modifier = {
+				factor = 0
+				num_districts = { type = district_nexus value = 0 }
+			}
+			remove_district = district_nexus
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				num_districts = { type = district_generator value = 0 }
+			}
+			remove_district = district_generator
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				num_districts = { type = district_mining value = 0 }
+			}
+			remove_district = district_mining
+		}
+		3 = {
+			modifier = {
+				factor = 0
+				num_districts = { type = district_farming value = 0 }
+			}
+			remove_district = district_farming
+		}
+	}
+	random_list = {
+		10 = {
+			modifier = {
+				factor = 0
+				num_free_districts = { type = any value < 2 }
+			}
+			add_deposit = d_bugged_stripmined_devastation
+			add_deposit = d_bugged_stripmined_devastation
+			owner = {
+				add_monthly_resource_mult = {
+					resource = minerals
+					value = 5
+					min = @tier1materialmin
+					max = @tier2materialmax
+				}
+				create_message = {
+					type = MESSAGE_TERRAVORE_CONSUME_WORLD
+					localization = MESSAGE_BUGGED_MACHINE_TERRAVORE_CONSUME_WORLD_MINERALS_TEXT
+					days = 30
+					target = prev
+
+					variable = {
+						type = name
+						localization = PLANET
+						scope = prev
+					}
+				}
+			}
+			add_planet_devastation = 20
+		}
+		10 = {
+			modifier = {
+				factor = 0
+				num_free_districts = { type = any value < 2 }
+			}
+			add_deposit = d_bugged_stripmined_devastation
+			add_deposit = d_bugged_stripmined_devastation
+			owner = {
+				add_monthly_resource_mult = {
+					resource = unity
+					value = 3
+					min = @tier1materialmin
+					max = @tier2materialmax
+				}
+				create_message = {
+					type = MESSAGE_TERRAVORE_CONSUME_WORLD
+					localization = MESSAGE_BUGGED_MACHINE_TERRAVORE_CONSUME_WORLD_UNITY_TEXT
+					days = 30
+					target = prev
+
+					variable = {
+						type = name
+						localization = PLANET
+						scope = prev
+					}
+				}
+			}
+			add_planet_devastation = 20
+		}
+		10 = {
+			# There's only one district slot left on the planet
+			modifier = {
+				factor = 0
+				num_free_districts = { type = any value >= 2 }
+			}
+			add_deposit = d_bugged_stripmined_devastation
+			owner = {
+				random_owned_leader = {
+					limit = {
+						is_councilor_type = councilor_gestalt_growth
+					}
+					add_experience = 300
+				}
+				random_owned_leader = {
+					limit = {
+						is_ruler = yes
+					}
+					add_experience = 1000
+				}
+				create_message = {
+					type = MESSAGE_TERRAVORE_CONSUME_WORLD
+					localization = MESSAGE_BUGGED_MACHINE_TERRAVORE_CONSUME_WORLD_XP_TEXT
+					days = 30
+					target = prev
+
+					variable = {
+						type = name
+						localization = PLANET
+						scope = prev
+					}
+				}
+			}
+			add_planet_devastation = 10
+		}
+	}
+	set_timed_planet_flag = {
+		days = 360
+		flag = recently_mined_planet
+	}
+}

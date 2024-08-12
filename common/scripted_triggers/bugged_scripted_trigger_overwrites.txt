@@ -1,0 +1,510 @@
+has_encountered_other_species = {
+	OR = {
+		has_origin = origin_syncretic_evolution
+		has_origin = origin_necrophage
+		has_civic = civic_machine_servitor
+		num_communications > 0
+		any_owned_species = {
+			NOT = { has_trait = "trait_mechanical" }
+			NOT = { is_same_species = prev }
+		}
+		#Bug Branch
+		is_bugged_evolutionary_architects = yes
+		is_bugged_slave_race = yes
+		#Bug Branch
+	}
+}
+
+prosperity_gospel_check_trigger = { #Original Put In An AND Block To Allow Imperial Enforcement To Work Correctly
+	AND = {
+		is_spiritualist = yes
+		planet = {
+			exists = owner
+			OR = {
+				owner = { has_valid_civic = civic_gospel_of_the_masses }
+				AND = {
+					has_branch_office = yes
+					branch_office_owner = { has_valid_civic = civic_gospel_of_the_masses }
+				}
+			}
+		}
+	}
+	#Bug Branch
+	AND = {
+		is_authoritarian = yes
+		planet = {
+			exists = owner
+			OR = {
+				owner = { has_valid_civic = civic_bugged_imperial_enforcement_services_corpo }
+				AND = {
+					has_branch_office = yes
+					branch_office_owner = { has_valid_civic = civic_bugged_imperial_enforcement_services_corpo }
+				}
+			}
+		}
+	}
+	#Bug Branch
+}
+
+
+is_democracy = {
+	OR = {
+		has_authority = auth_democratic
+		AND = {
+			has_authority = auth_corporate
+			is_egalitarian = yes
+		}
+		#Bug Branch
+		has_authority = auth_bugged_direct_democratic
+		has_authority = auth_bugged_corporate_democratic
+		#Bug Branch
+	}
+}
+
+can_assemble_hive_pop = {
+    planet = {
+        OR = {
+            NOT = { exists = assembling_species }
+            AND = {
+                exists = assembling_species
+                assembling_species = {
+                    OR = {
+                        has_trait = trait_hive_mind
+                        has_trait = trait_bugged_happy_hive
+                        is_robotic = yes
+                    }
+                }
+            }
+        }
+    }
+}
+
+is_scavenger = {
+	OR = {
+		has_valid_civic = civic_scavengers
+		has_valid_civic = civic_corporate_scavengers
+		has_valid_civic = civic_bugged_hive_scavengers
+	}
+}
+
+can_fill_specialist_job_trigger  = {
+	custom_tooltip = SPECIALIST_JOB_TRIGGER
+	hidden_trigger = {
+		NOT = { has_ethic = ethic_gestalt_consciousness }
+		exists = owner
+		OR = {
+			is_enslaved = no
+			has_slavery_type = { type = slavery_indentured }
+		}
+		is_being_purged = no
+		is_being_assimilated = no
+		NOT = { has_trait = trait_syncretic_proles }
+		NOT = { has_trait = trait_bugged_slave_gene } # Bug Branch
+		can_think = yes
+		OR = {
+			NOT = { has_trait = trait_mechanical }
+			owner = { has_technology = tech_droid_workers }
+		}
+		NOT = {
+			has_citizenship_type = {
+				type = citizenship_organic_trophy
+				country = owner
+			}
+		}
+		if = {
+			limit = {
+				divinity_right_to_work_job_check_trigger_exempt = no
+			}
+			divinity_right_to_work_job_check_trigger_specialist = yes
+		}
+	}
+}
+
+has_any_ethic = {
+	OR = {
+		has_ethic = ethic_authoritarian
+		has_ethic = ethic_egalitarian
+		has_ethic = ethic_xenophile
+		has_ethic = ethic_xenophobe
+		has_ethic = ethic_materialist
+		has_ethic = ethic_spiritualist
+		has_ethic = ethic_militarist
+		has_ethic = ethic_pacifist
+		#Bug Branch
+			has_ethic = ethic_ecocentric
+			has_ethic = ethic_anthropocentric
+			has_ethic = ethic_competitive
+			has_ethic = ethic_cooperative
+			has_ethic = ethic_pluralist
+			has_ethic = ethic_elitist
+		#Bug Branch
+	}
+}
+
+is_worker_coop_empire = {
+	OR = {
+		has_valid_civic = civic_worker_coop # Unused In Bug Branch
+		is_bugged_governmental_cooperative = yes
+	}
+}
+
+is_lonely_hive_mind_pop = {
+	OR = {
+		has_trait = trait_hive_mind
+		has_trait = trait_bugged_happy_hive
+	}
+	NOT = { from = { has_authority = auth_hive_mind } }
+	from = {
+		NOR = {
+			is_country_type = fallen_empire
+			is_country_type = awakened_fallen_empire
+		}
+	}
+}
+
+country_has_extra_council_position = {
+	has_technology = tech_galactic_administration
+	civics_count >= 3
+	is_gestalt = no
+}
+
+can_be_leader = {
+	has_citizenship_rights = yes
+	NOT = { has_trait = trait_syncretic_proles }
+	NOT = { is_bugged_slave_gene = yes } # Bug Branch
+	can_think = yes
+	OR = {
+		is_robot_pop = no
+		root = {
+			OR = {
+				has_technology = tech_synthetic_leaders
+				has_authority = auth_machine_intelligence
+				is_mechanical_empire = yes
+				is_individual_machine = yes
+			}
+		}
+	}
+	OR = {
+		is_same_species = root
+		root = {
+			NAND = {
+				has_origin = origin_necrophage
+				has_trait = trait_necrophage
+			}
+		}
+	}
+}
+
+leader_has_empire_ethic = {
+	OR = {
+		AND = {
+			has_ethic = ethic_pacifist
+			owner = { is_pacifist = yes }
+		}
+		AND = {
+			has_ethic = ethic_militarist
+			owner = { is_militarist = yes }
+		}
+		AND = {
+			has_ethic = ethic_xenophile
+			owner = { is_xenophile = yes }
+		}
+		AND = {
+			has_ethic = ethic_xenophobe
+			owner = { is_xenophobe = yes }
+		}
+		AND = {
+			has_ethic = ethic_egalitarian
+			owner = { is_egalitarian = yes }
+		}
+		AND = {
+			has_ethic = ethic_authoritarian
+			owner = { is_authoritarian = yes }
+		}
+		AND = {
+			has_ethic = ethic_spiritualist
+			owner = { is_spiritualist = yes }
+		}
+		AND = {
+			has_ethic = ethic_materialist
+			owner = { is_materialist = yes }
+		}
+		AND = {
+			has_ethic = ethic_anthropocentric
+			owner = { is_anthropocentric = yes }
+		}
+		AND = {
+			has_ethic = ethic_ecocentric
+			owner = { is_ecocentric = yes }
+		}
+		AND = {
+			has_ethic = ethic_competitive
+			owner = { is_competitive = yes }
+		}
+		AND = {
+			has_ethic = ethic_cooperative
+			owner = { is_cooperative = yes }
+		}
+		AND = {
+			has_ethic = ethic_elitist
+			owner = { is_elitist = yes }
+		}
+		AND = {
+			has_ethic = ethic_pluralist
+			owner = { is_pluralist = yes }
+		}
+	}
+}
+
+has_opposing_ethics = {
+	OR = {
+		AND = {
+			$COUNTRY1$ = { is_pacifist = yes }
+			$COUNTRY2$ = { is_militarist = yes }
+		}
+		AND = {
+			$COUNTRY1$ = { is_militarist = yes }
+			$COUNTRY2$ = { is_pacifist = yes }
+		}
+		AND = {
+			$COUNTRY1$ = { is_xenophobe = yes }
+			$COUNTRY2$ = { is_xenophile = yes }
+		}
+		AND = {
+			$COUNTRY1$ = { is_xenophile = yes }
+			$COUNTRY2$ = { is_xenophobe = yes }
+		}
+		AND = {
+			$COUNTRY1$ = { is_egalitarian = yes }
+			$COUNTRY2$ = { is_authoritarian = yes }
+		}
+		AND = {
+			$COUNTRY1$ = { is_authoritarian = yes }
+			$COUNTRY2$ = { is_egalitarian = yes }
+		}
+		AND = {
+			$COUNTRY1$ = { is_spiritualist = yes }
+			$COUNTRY2$ = { is_materialist = yes }
+		}
+		AND = {
+			$COUNTRY1$ = { is_materialist = yes }
+			$COUNTRY2$ = { is_spiritualist = yes }
+		}
+		AND = {
+			$COUNTRY1$ = { is_anthropocentric = yes }
+			$COUNTRY2$ = { is_ecocentric = yes }
+		}
+		AND = {
+			$COUNTRY1$ = { is_competitive = yes }
+			$COUNTRY2$ = { is_cooperative = yes }
+		}
+		AND = {
+			$COUNTRY1$ = { is_elitist = yes }
+			$COUNTRY2$ = { is_pluralist = yes }
+		}
+	}
+}
+
+has_alternative_ethics = { # Consider THIS_SCOPE as the entity you are checking (e.g. a Pop), and REF_SCOPE as the reference point (e.g. an empire) you're checking against for ethical drift. Note that this trigger ignores directly opposing ethics.
+	OR = {
+		AND = {
+			$THIS_SCOPE$ = {
+				is_pacifist = yes
+			}
+			$REF_SCOPE$ = {
+				is_pacifist = no
+				is_militarist = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_militarist = yes
+			}
+			$REF_SCOPE$ = {
+				is_militarist = no
+				is_pacifist = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_xenophobe = yes
+			}
+			$REF_SCOPE$ = {
+				is_xenophobe = no
+				is_xenophile = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_xenophile = yes
+			}
+			$REF_SCOPE$ = {
+				is_xenophile = no
+				is_xenophobe = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_egalitarian = yes
+			}
+			$REF_SCOPE$ = {
+				is_egalitarian = no
+				is_authoritarian = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_authoritarian = yes
+			}
+			$REF_SCOPE$ = {
+				is_authoritarian = no
+				is_egalitarian = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_spiritualist = yes
+			}
+			$REF_SCOPE$ = {
+				is_spiritualist = no
+				is_materialist = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_materialist = yes
+			}
+			$REF_SCOPE$ = {
+				is_materialist = no
+				is_spiritualist = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_anthropocentric = yes
+			}
+			$REF_SCOPE$ = {
+				is_anthropocentric = no
+				is_ecocentric = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_ecocentric = yes
+			}
+			$REF_SCOPE$ = {
+				is_ecocentric = no
+				is_anthropocentric = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_competitive = yes
+			}
+			$REF_SCOPE$ = {
+				is_competitive = no
+				is_cooperative = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_cooperative = yes
+			}
+			$REF_SCOPE$ = {
+				is_cooperative = no
+				is_competitive = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_elitist = yes
+			}
+			$REF_SCOPE$ = {
+				is_elitist = no
+				is_pluralist = no
+			}
+		}
+		AND = {
+			$THIS_SCOPE$ = {
+				is_pluralist = yes
+			}
+			$REF_SCOPE$ = {
+				is_pluralist = no
+				is_elitist = no
+			}
+		}
+	}
+}
+
+is_owner_ethic_pop_faction = {
+	switch = {
+		trigger = is_pop_faction_type
+		prosperity = {
+			owner = { is_pacifist = yes }
+		}
+		progressive = {
+			owner = { is_egalitarian = yes }
+		}
+		imperialist = {
+			owner = { is_militarist = yes }
+		}
+		isolationist = {
+			owner = { is_xenophobe = yes }
+		}
+		supremacist = {
+			owner = { is_xenophobe = yes }
+		}
+		technologist = {
+			owner = { is_materialist = yes }
+		}
+		totalitarian = {
+			owner = { is_authoritarian = yes }
+		}
+		traditionalist = {
+			owner = { is_spiritualist = yes }
+		}
+		xenoist = {
+			owner = { is_xenophile = yes }
+		}
+		industrialist = {
+			owner = { is_anthropocentric = yes }
+		}
+		environmentalist = {
+			owner = { is_ecocentric = yes }
+		}
+		capitalist = {
+			owner = { is_competitive = yes }
+		}
+		socialist = {
+			owner = { is_cooperative = yes }
+		}
+		conservative = {
+			owner = { is_elitist = yes }
+		}
+		populist = {
+			owner = { is_pluralist = yes }
+		}
+		default = {
+			always = yes
+		}
+	}
+}
+
+subject_overlord_opposing_ethics = {
+	OR = {
+		subject_pacifist_overlord_opposing = yes
+		subject_militarist_overlord_opposing = yes
+		subject_authoritarian_overlord_opposing = yes
+		subject_egalitarian_overlord_opposing = yes
+		subject_materialist_overlord_opposing = yes
+		subject_spiritualist_overlord_opposing = yes
+		subject_xenophile_overlord_opposing = yes
+		subject_xenophobe_overlord_opposing = yes
+		subject_anthropocentric_overlord_opposing = yes
+		subject_ecocentric_overlord_opposing = yes
+		subject_competitive_overlord_opposing = yes
+		subject_cooperative_overlord_opposing = yes
+		subject_elitist_overlord_opposing = yes
+		subject_pluralist_overlord_opposing = yes
+	}
+}

@@ -1,0 +1,43 @@
+defined_text = {
+	name = GetHHMHostageTraitEffect
+	random = no
+	text = {
+		localization_key = HHM_hostage_trait_idle
+		trigger = {
+			NOT = {
+				has_leader_flag = HHM_hostage@owner
+			}
+		}
+	}
+	text = {
+		localization_key = HHM_hostage_trait_will_be_removed
+		trigger = {
+			has_leader_flag = HHM_hostage@owner
+		}
+	}
+	default = HHM_hostage_trait_idle
+}
+
+defined_text = {
+	name = HHMGetLeaderClassPlural
+	random = no
+	text = {
+		localization_key = HHM_leader_class_scientists
+		trigger = {
+			leader_class = scientist
+		}
+	}
+	text = {
+		localization_key = HHM_leader_class_commanders
+		trigger = {
+			leader_class = commander
+		}
+	}
+	text = {
+		localization_key = HHM_leader_class_officials
+		trigger = {
+			leader_class = official
+		}
+	}
+	default = HHM_leader_class_leaders
+}

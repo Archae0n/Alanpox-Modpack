@@ -1,0 +1,475 @@
+#AMUSEMENT - Amenities - Energy
+
+building_amusement_megaplex = {
+	base_buildtime = @b1_time
+
+	owner_type = corporate
+
+	category = resource
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 10
+		job_clerk_add = 1
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+		}
+		produces = {
+			energy = 10
+		}
+		inline_script = {
+			script = "building_output/bbcb_energy_building_output"
+			BBCB_OUTPUT = 0.5
+		}
+	}
+
+	prerequisites = {
+	}
+
+	upgrades = {
+		"building_bugged_amusement_gigaplex"
+	}
+
+	triggered_desc = {
+		text = bbcb_energy_tier_1_output
+	}
+
+	ai_weight = {
+		weight = 2
+
+		modifier = {
+			weight = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = energy
+					value > 50
+				}
+			}
+		}
+	}
+}
+
+
+building_bugged_amusement_gigaplex = {
+	base_buildtime = @b1_time
+	can_build = no
+
+	owner_type = corporate
+
+	category = resource
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 10
+		job_clerk_add = 1
+		job_entertainer_add = 1
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 500
+			rare_crystals = 50
+		}
+		upkeep = {
+			rare_crystals = 1
+		}
+		produces = {
+			energy = 15
+		}
+		inline_script = {
+			script = "building_output/bbcb_energy_building_output"
+			BBCB_OUTPUT = 1
+		}
+	}
+
+	prerequisites = {
+		"tech_bugged_branch_tier_2"
+	}
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = no
+	}
+
+	upgrades = {
+		"building_bugged_amusement_teraplex"
+	}
+
+	triggered_desc = {
+		text = bbcb_energy_tier_2_output
+	}
+
+	ai_weight = {
+		weight = 2
+
+		modifier = {
+			weight = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = energy
+					value > 50
+				}
+			}
+		}
+	}
+}
+
+
+building_bugged_amusement_teraplex = {
+	base_buildtime = @b1_time
+	can_build = no
+
+	owner_type = corporate
+
+	category = resource
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 10
+		job_clerk_add = 1
+		job_entertainer_add = 2
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 500
+			rare_crystals = 100
+		}
+		upkeep = {
+			rare_crystals = 2
+		}
+		produces = {
+			energy = 20
+		}
+		inline_script = {
+			script = "building_output/bbcb_energy_building_output"
+			BBCB_OUTPUT = 1.5
+		}
+	}
+
+	prerequisites = {
+		"tech_bugged_branch_tier_3"
+	}
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = no
+	}
+
+	upgrades = {
+		"building_bugged_amusement_petaplex"
+	}
+
+	triggered_desc = {
+		text = bbcb_energy_tier_3_output
+	}
+
+	ai_weight = {
+		weight = 2
+
+		modifier = {
+			weight = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = energy
+					value > 50
+				}
+			}
+		}
+	}
+}
+
+building_bugged_amusement_petaplex = {
+	base_buildtime = @b1_time
+	can_build = no
+
+	owner_type = corporate
+
+	category = resource
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 30
+		job_clerk_add = 10
+		job_entertainer_add = 3
+	}
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			alloys = 5000
+		}
+		upkeep = {
+			alloys = 15
+		}
+		produces = {
+			energy = 100
+			physics_research = 50
+		}
+	}
+
+	prerequisites = {
+		"tech_mega_engineering"
+	}
+
+	show_tech_unlock_if = {
+		always = no
+	}
+
+	ai_weight = {
+		weight = 2
+
+		modifier = {
+			weight = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = energy
+					value > 50
+				}
+			}
+		}
+	}
+}
+
+####################
+# CRIMINAL EMPIRES #
+####################
+
+building_underground_clubs = {
+    base_buildtime = @b1_time
+
+    owner_type = corporate
+
+	category = resource
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+		planet_amenities_add = 10
+		planet_crime_add = 30
+    }
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+        }
+        upkeep = {
+        }
+        produces = {
+		energy = 10
+        }
+		inline_script = {
+			script = "building_output/bbcb_energy_building_output"
+			BBCB_OUTPUT = 0.5
+		}
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 1
+	    planet_crime_add = 5
+    }
+
+    prerequisites = {
+    }
+
+    upgrades = {
+        "building_bugged_club_network"
+    }
+
+	triggered_desc = {
+		text = bbcb_energy_tier_1_output
+	}
+
+	ai_weight = {
+		weight = 2
+
+		modifier = {
+			weight = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = energy
+					value > 50
+				}
+			}
+		}
+	}
+}
+
+
+building_bugged_club_network = {
+    base_buildtime = @b1_time
+    can_build = no
+
+    owner_type = corporate
+
+	category = resource
+
+    potential = {
+        has_branch_office = yes
+        branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+		planet_amenities_add = 10
+		planet_crime_add = 60
+		job_bugged_unfun_facilitator_add = 1
+    }
+
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+            rare_crystals = 50
+        }
+        upkeep = {
+			rare_crystals = 1
+        }
+        produces = {
+			energy = 10
+        }
+		inline_script = {
+			script = "building_output/bbcb_energy_building_output"
+			BBCB_OUTPUT = 1
+		}
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 2
+	    planet_crime_add = 10
+    }
+
+    prerequisites = {
+        "tech_bugged_branch_tier_2"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = yes
+	}
+
+    upgrades = {
+        "building_bugged_underground_paradise"
+    }
+
+	triggered_desc = {
+		text = bbcb_energy_tier_2_output
+	}
+
+	ai_weight = {
+		weight = 2
+
+		modifier = {
+			weight = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = energy
+					value > 50
+				}
+			}
+		}
+	}
+}
+
+
+building_bugged_underground_paradise = {
+    base_buildtime = @b1_time
+    can_build = no
+
+    owner_type = corporate
+
+	category = resource
+
+    potential = {
+       	has_branch_office = yes
+       	branch_office_owner = { is_criminal_syndicate = yes }
+    }
+
+    planet_modifier = {
+		planet_amenities_add = 20
+		planet_crime_add = 90
+		job_bugged_unfun_facilitator_add = 2
+    }
+		
+    resources = {
+        category = planet_branch_office_buildings
+        cost = {
+            minerals = 500
+            rare_crystals = 100
+        }
+        upkeep = {
+			rare_crystals = 2
+        }
+        produces = {
+			energy = 20
+        }
+		inline_script = {
+			script = "building_output/bbcb_energy_building_output"
+			BBCB_OUTPUT = 1.5
+		}
+    }
+
+    triggered_planet_modifier = {
+	    potential = {
+		    criminal_relations = yes
+	    }
+	    planet_stability_add = 3
+	    planet_crime_add = 15
+    }
+
+    prerequisites = {
+        "tech_bugged_branch_tier_3"
+    }
+
+	show_tech_unlock_if = {
+		is_criminal_syndicate = yes
+	}
+
+	triggered_desc = {
+		text = bbcb_energy_tier_5_output
+	}
+
+	ai_weight = {
+		weight = 2
+
+		modifier = {
+			weight = 0.5
+			branch_office_owner = {
+				has_monthly_income = {
+					resource = energy
+					value > 50
+				}
+			}
+		}
+	}
+}

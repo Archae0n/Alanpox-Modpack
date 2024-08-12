@@ -1,0 +1,623 @@
+# leader_trait_bugged_legendary_dedicated_explorer = { #Origin trait - Materialist, replaces Titan of Industry
+# 	starting_ruler_trait = yes
+# 	leader_trait_type = veteran
+# 	allowed_origins = { origin_legendary_leader }
+# 	allowed_ethics = { ethic_materialist ethic_fanatic_materialist }
+# 	cost = 1
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_materialist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 1
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		num_tech_alternatives_add = 0
+# 		country_scientist_cap_add = 1
+# 		station_researchers_produces_mult = 0.15
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# 	randomized = no
+# }
+
+# leader_trait_bugged_legendary_dedicated_explorer_2 = { #Origin trait - materialist
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_bugged_legendary_dedicated_explorer" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_materialist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 2
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		num_tech_alternatives_add = 1
+# 		country_scientist_cap_add = 2
+# 		station_researchers_produces_mult = 0.3
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_dedicated_explorer_3 = { #Origin trait - materialist
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_bugged_legendary_dedicated_explorer_2" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_materialist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 3
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		num_tech_alternatives_add = 1
+# 		country_scientist_cap_add = 3
+# 		station_researchers_produces_mult = 0.45
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_space_miner = { #Origin trait - anthropocentric
+# 	starting_ruler_trait = yes
+# 	leader_trait_type = veteran
+# 	allowed_origins = { origin_legendary_leader }
+# 	allowed_ethics = { ethic_anthropocentric ethic_fanatic_anthropocentric }
+# 	cost = 1
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_materialist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 1
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		stations_produces_mult = 0.15
+# 		starbase_modules_cost_mult = -0.1
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# 	randomized = no
+# }
+
+# leader_trait_bugged_legendary_space_miner_2 = { #Origin trait - anthropocentric
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_bugged_legendary_space_miner" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_materialist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 2
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		stations_produces_mult = 0.3
+# 		starbase_modules_cost_mult = -0.2
+# 		megastructure_build_speed_mult = 0.1
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_space_miner_3 = { #Origin trait - anthropocentric
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_bugged_legendary_space_miner_2" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_materialist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 3
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		stations_produces_mult = 0.45
+# 		starbase_modules_cost_mult = -0.3
+# 		megastructure_build_speed_mult = 0.2
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_cooperative = { #Origin trait - Cooperative
+# 	starting_ruler_trait = yes
+# 	leader_trait_type = veteran
+# 	allowed_origins = { origin_legendary_leader }
+# 	allowed_ethics = { ethic_spiritualist ethic_fanatic_spiritualist }
+# 	cost = 1
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_materialist_two"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 1
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		pop_cat_worker_happiness = 0.1
+# 		planet_jobs_worker_produces_mult = 0.05
+# 		planetary_ascension_effect_mult = 0.1
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# 	randomized = no
+# }
+
+# leader_trait_bugged_legendary_cooperative_2 = { #Origin trait - cooperative
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_bugged_legendary_cooperative" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_materialist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 2
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		pop_cat_worker_happiness = 0.15
+# 		planet_jobs_worker_produces_mult = 0.10
+# 		planetary_ascension_effect_mult = 0.15
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_cooperative_3 = { #Origin trait - cooperative
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_bugged_legendary_cooperative_2" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_materialist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 3
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		pop_cat_worker_happiness = 0.2
+# 		planet_jobs_worker_produces_mult = 0.15
+# 		planetary_ascension_effect_mult = 0.2
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_hard_ruler = { #Origin trait - Authoritarian, replaces High King
+# 	starting_ruler_trait = yes
+# 	leader_trait_type = veteran
+# 	allowed_origins = { origin_legendary_leader }
+# 	allowed_ethics = { ethic_authoritarian ethic_fanatic_authoritarian }
+# 	cost = 1
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_materialist_two"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 1
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_hard_ruler_tt"
+
+# 	councilor_modifier = {
+# 		country_influence_produces_add = 0.25
+# 		country_edict_fund_add = 25
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# 	randomized = no
+# }
+
+# leader_trait_bugged_legendary_hard_ruler_2 = { #Origin trait - Authoritarian
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_bugged_legendary_hard_ruler" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_materialist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 2
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_hard_ruler_tt_2"
+
+# 	councilor_modifier = {
+# 		country_influence_produces_add = 0.5
+# 		country_edict_fund_add = 50
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_hard_ruler_3 = { #Origin trait - Authoritarian
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_bugged_legendary_hard_ruler_2" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_materialist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 3
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_hard_ruler_tt_3"
+
+# 	councilor_modifier = {
+# 		country_influence_produces_add = 0.75
+# 		country_edict_fund_add = 75
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_recycler = { #Origin trait - Ecocentric
+# 	starting_ruler_trait = yes
+# 	leader_trait_type = veteran
+# 	allowed_origins = { origin_legendary_leader }
+# 	allowed_ethics = { ethic_ecocentric ethic_fanatic_ecocentric }
+# 	cost = 1
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_pacifist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 1
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		planet_jobs_food_upkeep_mult = -0.05
+# 		planet_jobs_minerals_upkeep_mult = -0.05
+# 		planet_jobs_consumer_goods_upkeep_mult = -0.05
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# 	randomized = no
+# }
+
+# leader_trait_bugged_legendary_recycler_2 = { #Origin trait - ecocentric
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_legendary_recycler" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_pacifist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 2
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		planet_jobs_food_upkeep_mult = -0.1
+# 		planet_jobs_minerals_upkeep_mult = -0.1
+# 		planet_jobs_consumer_goods_upkeep_mult = -0.1
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_recycler_3 = { #Origin trait - ecocentric
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_legendary_recycler_2" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_pacifist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 3
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		planet_jobs_food_upkeep_mult = -0.15
+# 		planet_jobs_minerals_upkeep_mult = -0.15
+# 		planet_jobs_consumer_goods_upkeep_mult = -0.15
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_ranger = { #Origin trait - Ecocentric
+# 	starting_ruler_trait = yes
+# 	leader_trait_type = veteran
+# 	allowed_origins = { origin_legendary_leader }
+# 	allowed_ethics = { ethic_ecocentric ethic_fanatic_ecocentric }
+# 	cost = 1
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_pacifist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 1
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_bugged_legendary_ranger_tt"
+
+# 	councilor_modifier = {
+# 		deposit_blockers_natural_physics_research_produces_add = 2
+# 		deposit_blockers_natural_society_research_produces_add = 2
+# 		deposit_blockers_natural_engineering_research_produces_add = 2
+# 		pop_environment_tolerance = 0.05
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# 	randomized = no
+# }
+
+# leader_trait_bugged_legendary_ranger_2 = { #Origin trait - ecocentric
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_legendary_ranger" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_pacifist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 2
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		deposit_blockers_natural_physics_research_produces_add = 4
+# 		deposit_blockers_natural_society_research_produces_add = 4
+# 		deposit_blockers_natural_engineering_research_produces_add = 4
+# 		pop_environment_tolerance = 0.1
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_ranger_3 = { #Origin trait - ecocentric
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_legendary_ranger_2" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_pacifist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 3
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_legendary_origin_desc"
+
+# 	councilor_modifier = {
+# 		deposit_blockers_natural_physics_research_produces_add = 6
+# 		deposit_blockers_natural_society_research_produces_add = 6
+# 		deposit_blockers_natural_engineering_research_produces_add = 6
+# 		pop_environment_tolerance = 0.2
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_great_investor = { #Origin trait - competitive
+# 	starting_ruler_trait = yes
+# 	leader_trait_type = veteran
+# 	allowed_origins = { origin_legendary_leader }
+# 	allowed_ethics = { ethic_competitive ethic_fanatic_competitive }
+# 	cost = 1
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_pacifist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 1
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_bugged_legendary_great_investor_tt"
+
+# 	councilor_modifier = {
+# 		trade_value_mult = 0.1
+# 		planet_pops_consumer_goods_upkeep_mult = -0.05
+# 		pop_factions_energy_produces_add = 0.5
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# 	randomized = no
+# }
+
+# leader_trait_bugged_legendary_great_investor_2 = { #Origin trait - competitive
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_bugged_legendary_great_investor" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_pacifist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 2
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_bugged_legendary_great_investor_tt_2"
+
+# 	councilor_modifier = {
+# 		country_resource_max_energy_add = 10000
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# leader_trait_bugged_legendary_great_investor_3 = { #Origin trait - competitive
+# 	leader_trait_type = veteran
+# 	replace_traits = { "leader_trait_bugged_legendary_great_investor_2" }
+# 	inline_script = {
+# 		script = trait/icon
+# 		ICON = "GFX_leader_trait_legendary_pacifist_one"
+# 		RARITY = veteran
+# 		COUNCIL = yes
+# 		TIER = 3
+# 	}
+# 	custom_tooltip_with_modifiers = "leader_trait_bugged_legendary_great_investor_tt_3"
+
+# 	councilor_modifier = {
+# 		country_resource_max_energy_add = 15000
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# }
+
+# # NEGATIVE TRAITS #
+
+# leader_trait_bugged_legendary_polluter = { #Origin trait - bad anthropocentric
+# 	starting_ruler_trait = yes
+# 	allowed_origins = { origin_legendary_leader }
+# 	opposites = { leader_trait_legendary_unfriendly leader_trait_legendary_warmonger leader_trait_legendary_dreamlike leader_trait_legendary_harsh_ruler leader_trait_legendary_too_open leader_trait_legendary_hoplofobia leader_trait_legendary_bad_meritocracy leader_trait_bugged_legendary_stingy leader_trait_bugged_legendary_preservative }
+# 	allowed_ethics = { ethic_anthropocentric ethic_fanatic_anthropocentric }
+# 	cost = -1
+# 	inline_script = {
+# 		script = trait/icon_negative_no_tiers
+# 		ICON = "GFX_leader_trait_legendary_xenophobe_bad"
+# 		COUNCIL = yes
+# 	}
+
+# 	councilor_modifier = {
+# 		pop_environment_tolerance = -0.2
+# 		pop_growth_speed_reduction = 0.15
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# 	randomized = no
+# }
+
+# leader_trait_bugged_legendary_stingy = { #Origin trait - bad competitive
+# 	starting_ruler_trait = yes
+# 	allowed_origins = { origin_legendary_leader }
+# 	opposites = { leader_trait_legendary_unfriendly leader_trait_legendary_warmonger leader_trait_legendary_dreamlike leader_trait_legendary_harsh_ruler leader_trait_legendary_too_open leader_trait_legendary_hoplofobia leader_trait_legendary_bad_meritocracy leader_trait_bugged_legendary_polluter leader_trait_bugged_legendary_preservative leader_trait_bugged_legendary_new_materialist leader_trait_bugged_legendary_cooperative }
+# 	allowed_ethics = { ethic_competitive ethic_fanatic_competitive }
+# 	cost = -1
+# 	inline_script = {
+# 		script = trait/icon_negative_no_tiers
+# 		ICON = "GFX_leader_trait_legendary_xenophobe_bad"
+# 		COUNCIL = yes
+# 	}
+
+# 	councilor_modifier = {
+# 		# pop_environment_tolerance = -0.2
+# 		# pop_growth_speed_reduction = 0.15
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# 	randomized = no
+# }
+
+# leader_trait_bugged_legendary_preservative = { #Origin trait - bad ecocentric
+# 	starting_ruler_trait = yes
+# 	allowed_origins = { origin_legendary_leader }
+# 	opposites = { leader_trait_legendary_unfriendly leader_trait_legendary_warmonger leader_trait_legendary_dreamlike leader_trait_legendary_harsh_ruler leader_trait_legendary_too_open leader_trait_legendary_hoplofobia leader_trait_legendary_bad_meritocracy leader_trait_bugged_legendary_polluter leader_trait_bugged_legendary_stingy leader_trait_bugged_legendary_new_materialist leader_trait_bugged_legendary_cooperative }
+# 	allowed_ethics = { ethic_ecocentric ethic_fanatic_ecocentric }
+# 	cost = -1
+# 	inline_script = {
+# 		script = trait/icon_negative_no_tiers
+# 		ICON = "GFX_leader_trait_legendary_xenophobe_bad"
+# 		COUNCIL = yes
+# 	}
+
+# 	councilor_modifier = {
+# 		planet_building_build_speed_mult = -0.2
+# 		planet_districts_cost_mult = 0.1
+
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# 	randomized = no
+# }
+
+# leader_trait_bugged_legendary_new_materialist = { #Origin trait - bad materialist
+# 	starting_ruler_trait = yes
+# 	allowed_origins = { origin_legendary_leader }
+# 	opposites = { leader_trait_legendary_unfriendly leader_trait_legendary_warmonger leader_trait_legendary_dreamlike leader_trait_legendary_harsh_ruler leader_trait_legendary_too_open leader_trait_legendary_hoplofobia leader_trait_legendary_bad_meritocracy leader_trait_bugged_legendary_polluter leader_trait_bugged_legendary_stingy leader_trait_bugged_legendary_preservative leader_trait_bugged_legendary_cooperative }
+# 	allowed_ethics = { ethic_materialist ethic_fanatic_materialist }
+# 	cost = -1
+# 	inline_script = {
+# 		script = trait/icon_negative_no_tiers
+# 		ICON = "GFX_leader_trait_legendary_materialist_bad"
+# 		COUNCIL = yes
+# 	}
+
+# 	councilor_modifier = {
+# 		pop_citizen_happiness = -0.1
+# 		planet_administrators_upkeep_mult = 0.2
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# 	randomized = no
+# }
+
+# leader_trait_bugged_legendary_cooperative = { #Origin trait - bad cooperative
+# 	starting_ruler_trait = yes
+# 	allowed_origins = { origin_legendary_leader }
+# 	opposites = { leader_trait_legendary_unfriendly leader_trait_legendary_warmonger leader_trait_legendary_dreamlike leader_trait_legendary_harsh_ruler leader_trait_legendary_too_open leader_trait_legendary_hoplofobia leader_trait_legendary_bad_meritocracy leader_trait_bugged_legendary_polluter leader_trait_bugged_legendary_stingy leader_trait_bugged_legendary_preservative leader_trait_bugged_legendary_new_materialist }
+# 	allowed_ethics = { ethic_cooperative ethic_fanatic_cooperative }
+# 	cost = -1
+# 	inline_script = {
+# 		script = trait/icon_negative_no_tiers
+# 		ICON = "GFX_leader_trait_legendary_materialist_bad"
+# 		COUNCIL = yes
+# 	}
+
+# 	councilor_modifier = {
+# 		trade_value_mult = -0.2
+# 		planet_pops_consumer_goods_upkeep_mult = 0.15
+# 	}
+
+# 	leader_class = { official commander scientist }
+
+# 	initial = no
+# 	randomized = no
+# }

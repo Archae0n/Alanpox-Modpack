@@ -1,0 +1,11 @@
+on_fleet_destroyed_perp = {
+	events = {
+		mem_colony_ship.3
+	}
+}
+
+on_yearly_pulse_country = {
+	events = {
+		mem_colony_ship.1
+	}
+}

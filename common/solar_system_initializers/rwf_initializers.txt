@@ -1,0 +1,341 @@
+# Carachel
+
+rwf_carachel_system_init = {
+	name = "NAME_rwf_carachel_system"
+	class = "sc_k"
+	max_instances = 1
+
+    usage = misc_system_init
+    flags = { rwf_carachel_system }
+
+    usage_odds = {
+		base = 1000
+
+        modifier = {
+			factor = 0
+			has_ancrel = no
+        }
+	}
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 95
+	}
+
+	planet = {
+		class = star
+		orbit_distance = 0
+	}
+
+	planet = {
+		class = "pc_molten"
+		orbit_distance = 45
+		orbit_angle = 40
+		size = 15
+		has_ring = no
+	}
+
+	planet = {
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = 275
+		size = 15
+		has_ring = no
+	}
+
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 30
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
+
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 5
+		has_ring = no
+	}
+
+	planet = {
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 45
+		size = 20
+		has_ring = no
+	}
+
+	planet = {
+		name = "NAME_rwf_carachel"
+		class = "pc_relic"
+		orbit_distance = 50
+		orbit_angle = 145
+		size = 30
+		has_ring = no
+		flags = { rwf_carachel }
+
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			relic_world_deposits = yes
+			add_deposit = rwf_carachel_ancient_battlefield_blocker
+			add_deposit = rwf_carachel_ancient_crater_blocker
+			add_deposit = rwf_carachel_orbital_debris_blocker
+			add_deposit = rwf_carachel_ancient_vault_blocker
+
+			while = {
+				count = 10
+				create_ambient_object = {
+					type = "small_debris_object"
+					entity_offset_height = { min = -0 max = -25 }
+					location = this
+				}
+				last_created_ambient_object = {
+					set_location = {
+						target = prev
+						distance = 15
+						angle = random
+					}
+				}
+			}
+			while = {
+				count = 5
+				create_ambient_object = {
+					type = "medium_debris_01_object"
+					entity_offset_height = { min = -0 max = -25 }
+					location = this
+				}
+				last_created_ambient_object = {
+					set_location = {
+						target = prev
+						distance = 15
+						angle = random
+					}
+				}
+			}
+		}
+	}
+
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 145
+		size = 20
+		has_ring = no
+
+		moon = {
+			class = "pc_frozen"
+			size = 8
+			orbit_distance = 12
+			orbit_angle = 320
+			has_ring = no
+		}
+
+		moon = {
+			class = "pc_frozen"
+			size = 8
+			orbit_distance = 4
+			orbit_angle = 150
+			has_ring = no
+		}
+	}
+
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 145
+		size = 25
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 45
+		size = 15
+		has_ring = no
+	}
+}
+
+# Kirth
+rwf_kirth_system_init = {
+	class = "sc_g"
+    max_instances = 1
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 140
+	}
+
+	usage = misc_system_init
+    name = rwf_planet_serda
+
+    init_effect = {
+        closest_system = {
+            limit = { has_star_flag = marauder_system }
+            owner = {
+                save_global_event_target_as = rwf_kirth_maruaders
+            }
+        }
+    }
+
+	usage_odds = {
+		base = 0
+        modifier = {
+            add = 1000
+            has_star_flag = marauder_cluster
+        }
+		modifier = {
+			factor = 0
+			has_star_flag = empire_cluster
+		}
+		modifier = {
+			factor = 0
+			is_bottleneck_system = yes
+		}
+
+        modifier = {
+			factor = 0
+			has_ancrel = no
+        }
+	}
+
+	flags = { rwf_kirth_system }
+
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 0
+		size = { min = 30 max = 35 }
+		has_ring = no
+	}
+
+	change_orbit = 45
+
+	planet = {
+		class = pc_molten
+		size = 13
+		orbit_angle = { min = 90 max = 270 }
+	}
+
+	planet = {
+		class = pc_molten
+		size = 9
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+	}
+
+	planet = {
+		class = pc_molten
+		size = 17
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+	}
+
+	change_orbit = 30
+
+	planet = {
+		count = { min = 2 max = 3 }
+		class = pc_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 90 max = 270 }
+	}
+
+	change_orbit = 35
+
+	planet = {
+		class = pc_toxic
+		size = 26
+		orbit_angle = { min = 90 max = 270 }
+	}
+
+	change_orbit = 30
+
+	planet = {
+		class = pc_relic
+		size = 22
+		has_ring = no
+		orbit_angle = { min = 90 max = 270 }
+		flags = { rwf_kirth }
+
+		init_effect = {
+            set_name = rwf_planet_kirth
+			prevent_anomaly = yes
+			clear_deposits = yes
+			relic_world_deposits = yes
+		}
+
+		moon = {
+			class = "pc_barren"
+			orbit_distance = 17
+			size = 10
+			has_ring = no
+			orbit_angle = { min = 90 max = 270 }
+            init_effect = {
+                set_name = rwf_planet_raless
+            }
+		}
+	}
+
+	planet = {
+		class = pc_gas_giant
+		size = 40
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+
+		moon = {
+			class = "pc_barren"
+			orbit_distance = 14
+			orbit_angle = { min = 90 max = 270 }
+		}
+
+		moon = {
+			class = "pc_barren_cold"
+			orbit_distance = 6
+			orbit_angle = { min = 90 max = 270 }
+		}
+
+		moon = {
+			class = "pc_barren_cold"
+			orbit_distance = 6
+			orbit_angle = { min = 90 max = 270 }
+		}
+
+		moon = {
+			class = "pc_barren_cold"
+			orbit_distance = 6
+			orbit_angle = { min = 90 max = 270 }
+		}
+
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 6
+			orbit_angle = { min = 90 max = 270 }
+		}
+	}
+
+	planet = {
+		class = pc_gas_giant
+		size = 25
+		orbit_distance = 40
+		orbit_angle = { min = 90 max = 270 }
+
+		moon = {
+			class = "pc_barren_cold"
+			orbit_distance = 14
+			orbit_angle = { min = 90 max = 270 }
+		}
+
+		moon = {
+			class = "pc_barren_cold"
+			orbit_distance = 6
+			orbit_angle = { min = 90 max = 270 }
+		}
+	}
+}

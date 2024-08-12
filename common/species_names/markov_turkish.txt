@@ -1,0 +1,433 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	seylaverik = {
+		name = Seylaveran
+		plural = Seylaverans
+		home_planet = Seylaverik
+		home_system = "Akis Seri"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	aetherfortress = {
+		name = Singat
+		plural = Singat
+		home_planet = "Aether Fortress"
+		home_system = "Hymn of the Sky"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	ziyeahmeris = {
+		name = Merisite
+		plural = Merisites
+		home_planet = "Ziye-ah Meris"
+		home_system = Batmahiye
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	abigdes = {
+		name = Abigdan
+		plural = Abigdans
+		home_planet = Abigdes
+		home_system = Edin
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	sublimefather = {
+		name = Karsehir
+		plural = Karsehir
+		home_planet = "Sublime Father"
+		home_system = "Sublime Mother"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	gurcikfaha = {
+		name = Gurcikish
+		plural = Gurcikish
+		home_planet = "Gurcik Faha"
+		home_system = "Sanye Faha" 
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	siskin = {
+		name = Siskinoid
+		plural = Siskinoids
+		home_planet = Siskin
+		home_system = Ohisman 
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	tevale = {
+		name = Tevalese
+		plural = Tevalese
+		home_planet = Tevale
+		home_system = Tevale 
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	ergule = {
+		name = Ergulean
+		plural = Erguleans
+		home_planet = Ergule
+		home_system = Kadinos 
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	ironpillar = {
+		name = Seregolu
+		plural = Seregolu
+		home_planet = "Iron Pillar"
+		home_system = "Bronze Pillar"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	bakli = {
+		name = Bakloid
+		plural = Bakloids
+		home_planet = Bakli
+		home_system = Siyeveli
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	aslasun = {
+		name = Aslian
+		plural = Aslians
+		home_planet = Aslasun
+		home_system = Aslasun
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	fedurfez = {
+		name = Fedurfian
+		plural = Fedurfians
+		home_planet = Fedurfez
+		home_system = Adahtafa
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	salat = {
+		name = Salatid  
+		plural = Salatids
+		home_planet = Salat
+		home_system = Soncuk
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	tokarturt = {
+		name = Tokarturish  
+		plural = Tokarturish
+		home_planet = Tokarturt
+		home_system = Sili-Tesvis
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	yaudiruzunmisa = {
+		name = Muhimli  
+		plural = Muhimli
+		home_planet = "Yaudir uzun Misa"
+		home_system = "Bikizad uzun Misa"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	kozcicheylazim = {
+		name = Heylaz  
+		plural = Heylaz
+		home_planet = "Kozcic Heylazim"
+		home_system = Heylazim
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	dimlimeru = {
+		name = Dimmerid 
+		plural = Dimmerids
+		home_planet = Dimli-Meru
+		home_system = Tertali
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	fatahamali = {
+		name = Fatahid 
+		plural = Fatahids
+		home_planet = Fatahamali
+		home_system = Bahaybukazzif
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	ridava = {
+		name = Ridavan 
+		plural = Ridavans
+		home_planet = Ridava
+		home_system = Kervirekel
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	kapasin = {
+		name = Kapasinese 
+		plural = Kapasinese
+		home_planet = Kapasin
+		home_system = "Yuk Tatva"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	tevfi = {
+		name = Eriye
+		plural = Eriye
+		home_planet = Tevfi
+		home_system = "Ay tokutlu Eddirey"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	aframaranena = {
+		name = Aframaran
+		plural = Aframarans
+		home_planet = "Aframara Nena"
+		home_system = Angurmiye
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	tekozdeddiye = {
+		name = Tekozdoid
+		plural = Tekozdoids
+		home_planet = Tekozdeddiye
+		home_system = Bilih
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	musakova = {
+		name = Musakovan
+		plural = Musakovans
+		home_planet = Musakova
+		home_system = Kir-Odema
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	pincuceyhamar = {
+		name = Tekiye
+		plural = Tekiye
+		home_planet = Pincuceyhamar
+		home_system = Avgazim
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	semistar = {
+		name = Gokardarunya
+		plural = Gokardarunya
+		home_planet = Semistar
+		home_system = Kiyezze
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	karos = {
+		name = Karoid
+		plural = Karoids
+		home_planet = Karos
+		home_system = "Izifon Bizre"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	sehim = {
+		name = Sehimid
+		plural = Sehimids
+		home_planet = Sehim
+		home_system = Tafyonye
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	wallofmusur = {
+		name = "Riye Orfa"
+		plural = "Riye Orfa"
+		home_planet = "Wall of Musur"
+		home_system = "Kalal Turiken"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	kuyusat = {
+		name = Kuyusian
+		plural = Kuyusians
+		home_planet = Kuyusat
+		home_system = Akkartafyon
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	melianize = {
+		name = Turiken
+		plural = Turikens
+		home_planet = "Meli Anize"
+		home_system = Kizadan
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	kazices = {
+		name = Kazish
+		plural = Kazish
+		home_planet = Kazices
+		home_system = Mugrihalreci
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	ispati = {
+		name = Ispatan
+		plural = Ispatans
+		home_planet = Ispati
+		home_system = Ispati
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	turum = {
+		name = Turumid
+		plural = Turumids
+		home_planet = Turum
+		home_system = Surfa
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	erelzonye = {
+		name = Bir
+		plural = Bir
+		home_planet = "Erel Zonye"
+		home_system = Korfez
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	aydirnak = {
+		name = Aydirnakian
+		plural = Aydirnakians
+		home_planet = Aydirnak
+		home_system = Geburtin
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	ergun = {
+		name = Ergunid
+		plural = Ergunids
+		home_planet = Ergun
+		home_system = Bigazi
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	tatmanlitherider = {
+		name = Antakyan
+		plural = Antakyans
+		home_planet = "Tatmanli the Rider"
+		home_system = "Erdurfez's Arrow"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	kocanli = {
+		name = Kocanlid
+		plural = Kocanlids
+		home_planet = Kocanli
+		home_system = "Mar Karsa"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	uzuyuksehis = {
+		name = Uzuyuk
+		plural = Uzuyuks
+		home_planet = Uzuyuksehis
+		home_system = Sirsehir
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	berum = {
+		name = Berumite
+		plural = Berumites
+		home_planet = Berum
+		home_system = Duzianderik
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	zonyathemundane = {
+		name = Zonyan
+		plural = Zonyans
+		home_planet = "Zonya the Mundane"
+		home_system = "Zonya the Holy"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	kadervas = {
+		name = Kadervassian
+		plural = Kadervassians
+		home_planet = Kadervas
+		home_system = Namisirmet
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	cebban = {
+		name = Cebbanish
+		plural = Cebbanish
+		home_planet = "Ceb Ban"
+		home_system = Gulcuk
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	zurkir = {
+		name = Zurkirite
+		plural = Zurkirites
+		home_planet = Zurkir
+		home_system = Cemiye
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	semdarli = {
+		name = Semdarlian
+		plural = Semdarlians
+		home_planet = Semdarli
+		home_system = Tirhaeli
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	igdir = {
+		name = Igdirian
+		plural = Igdirians
+		home_planet = Igdir
+		home_system = Inedara
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	sirmit = {
+		name = Sirmitoid
+		plural = Sirmitoids
+		home_planet = Sirmit
+		home_system = "Namas Par"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	geldiye = {
+		name = Geldiyan
+		plural = Geldiyans
+		home_planet = Geldiye
+		home_system = Nevzi
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	gazadari = {
+		name = Gazadarid
+		plural = Gazadarids
+		home_planet = Gazadari
+		home_system = Barevfiz
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	musbasirprime = {
+		name = Musbasiran
+		plural = Musbasirans
+		home_planet = "Musbasir Prime"
+		home_system = Musbasir
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+	drakalithesavior = {
+		name = Ercish
+		plural = Ercish
+		home_planet = "Drakali the Savior"
+		home_system = "Sirogul the Wicked"
+		name_list = "cybrxkhan_handmade_turkish"
+	}
+}

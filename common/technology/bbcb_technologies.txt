@@ -1,0 +1,25 @@
+tech_bugged_branch_tier_2 = {
+	cost = @tier3cost2
+	area = society
+	category = { biology }
+	tier = 3
+	is_rare = no
+	potential = {
+		is_megacorp = yes
+	}
+	prerequisites = { "tech_colonial_centralization" }
+	weight = @tier3weight2
+}
+
+tech_bugged_branch_tier_3 = {
+	cost = @tier4cost2
+	area = society
+	category = { biology }
+	tier = 4
+	is_rare = no
+	potential = {
+		is_megacorp = yes
+	}
+	prerequisites = { "tech_bugged_branch_tier_2" "tech_galactic_administration" }
+	weight = @tier4weight2
+}

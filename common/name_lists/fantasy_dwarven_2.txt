@@ -1,0 +1,266 @@
+﻿### Fantasy Dwarven
+### Names donated by Havond/Worin from various sources and cleaned up by myself
+
+cybrxkhan_fantasy_dwarven_2 = {
+	category = "Humanoid"
+
+	ship_names = {
+		generic = {
+			"Griffin's Glare" "Golem's Might" "Rhino's Charge" "Sword's Shine" "Axe's Bite" "Spear's Thrust" "Crossbow's Twang" "Ballistas Sting" "Hammer's Fall"  "Rune's Gleam" "Blacksmith's Strike" "Gold's Gleam" "Coin Flip" "Ale's Froth" "Mead's horn" "Barrel's Bounty" "The Motherlode" "Mithral's Splendor" "Mithril's Glory" "Dragon's Terror" "Drake's Bite" "Wyvern's Wingbeat" "Goat's Faint" "Oxen's Brawn" "Warthog's Tusk" "Pig's Squeal" "Cave's Promise" "Ironclad Impervious" "Runic Mystery" "Hearth's Comfort" "The Hold's Security" "Mountain's Embrace" "Lucky Brick" "Silver's Shine" Copper Iron Steel "Adamantine's Glory" Shale Granite "Anvil's Meet" Quench Stout Stern Stoic "Mountain Goat" "Tolkien's Dream" "Heitz's Dream" Aegis-Fang Icingdeath "Arkenstone Under Mountain" Cavern
+			#Agzarar Aharar Akzinbar Akziram Alin Amberhead Amin Anulbil Anvilriver Anzin Arbhulun Arbhush Arin Arkur Ashbrand Ashforged Ashmantle Badabuz Badumunz Badusharb Bali Banain Baragzar Barakib Barakzadd Baramunz Barazir Barbedrock Bari Barrelbrow Barukthol Battledelver Beastbraids Beastgranite Beastgrog Berylblade Berylhood Berylmaker Berylmaul Bifar Bifur Bilgunarg Bilnarak Bizaddush Bizahund Biziragz Blackstone Blazinghand Blessedbraid Blessedthane Bluntbane Bluntfoot Bluntshoulder Bonebelly Bonedigger Bonefeet Bonehood Bonemace Bori Bottlefoot Boulderbow Bouldermaster Bouldertoe Brewhelm Brightmail Brightmaul Broadforged Broadfury Bronzemail Brownbrewer Bundabar Bundinulb Bundumunz Bundushizd Buzinbund Chainbrew Chainmace Chainmane Chaosarmour Chaosbreaker Chaosfury Chaosmaker Coinmace Copperbelt Craghorn Cragmaul Cragtank Deepbraid Deepfinger Deepforge Dimguard Disanz Dragoncloak Dragonmaker Dragonmaul Dragonspine Drakebuster Drakedigger Duli Duri Duskarm Duskbraids Duskbuster Dwali Dwari Eartharm Earthbasher Earthhide Earthminer Embergranite Emberheart Emberthane Fari Flatbuckle Flattoe Flintfury Forgefeet Forgethane Frinarv Froststone Fundu Gabaragz Gabarakz Gamul Gatharbhath Gatharbiln Gathazinb Gathizdab Gathuraz Geda Gili Gilukkhaz Gimli Granitehead Gravelbraid Gravelbrand Gravelbringer Gravelfinger Gravelshield Graybrow Grayhelm Greatgrip Greyflayer Greygrog Greymaul Grimhand Grimmaster Grinan Grumbleriver Gundabar Gundushar Gundusharb Gundushizd Gunula Gwoinarv Hammerminer Hardbow Hardbrow Hardrock Heavyhorn Heavyrock Hillbreaker Hillsunder Honorfinger Igim Ilil Ingotstone Ironbringer Ironfall Ironguard Irongut Jadebrew Jadehead Kadu Kali Kari Kegbasher Kegbow Keggranite Keggrip Keghelm Khainan Khainarv Khali Kharbharukth Kharbhola Kharbhundush Khari Khatharbhar Khazinbar Khelukkharbh Khimul Khizdinulb Khizdumunz Khuramunz Kibaragz Kibaram Kibaraz Kibilnarg Kilmin Kinbadush Kinbaram Kinbarukth Koboldbrewer Koboldpike Kraggranite Kragshoulder Kragview Kurdu Lagam Largehelm Lavariver Leatherheart Leathersword Lightbrand Longfury Luri Magmabane Magmadelver Marbleback Marblemail Merrybuster Merryguard Metalblade Metalbrew Mili Minearm Minearmour Minebeard Mithrilarmour Mithrilbelly Mithrilcloak Mithrilhide Mountainbane Mudblade Mudminer Nainarv Nala Nalukkhar Nalukkhath Nalukkhaz Nalukkhel Nanain Nanarv Narazir Narazund Nargabar Nargathol Nargathur Nargundush Narvi Nightbraid Nula Nulbaraz Nulbarukth Nulbuzadd Nuledzar Oakborn Oakenhide Onyxbringer Onyxhead Onyxpike Opalpike Orechest Orehood Orin Pebblebreaker Pebblehorn Rubyforge Runeguard Sanzagh Sanzig Sanzir Sapphirefeet Shadowhorn Shadowpike Shakad Shali Shatterriver Shelukkhund Shizdabar Shurukthizd Shurukthund Silverhand Smeltmantle Steelbraid Stormhand Strongback Strongcoat Strongfeet Telchal Telchim Telchud Thainarv Thali Thatur Thrasanz Thrazur Thrinain Thrinarv Thunderback Thunderbraid Thundermail Thundu Treasuredelver Treasurefeet Treasuregrog Tumunzar Tumunzig Tumunzir Turi Twilightcoat Ugman Ugmas Ugmaz Ukhlal Ukrad Ulbilgam Ulundad Umrad Umulbin Umulun Umun Umur Underchest Undusham Urin Urulur Urunzar Ushar Uzunzad Warbelt Warmaul Warmborn Warmgranite Warshield Whitstone Windtank Woldcloak Woldsunder Wraithbasher Wraithbreaker Wraithfall Wraithmail Wyvernheart Wyvernhide Zaghal Zahatharbh Zahundush Zarakib Zarakzar Zarakzund Zinbunarg Zinbuzar Ziri
+
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+
+		titan = { 
+			
+		}
+
+		colossus = { 
+			
+		}
+
+		juggernaut = { 
+			"Durin's Bane"
+		}
+		
+		science = {
+			Prospector Prospect Farseer Oracle "Durin's Walk" "Boars Run" "Muradin's Watch" "Fairel's March" "Gimli's Trek" Tolkien Heitz Venturer "Durin's Vision" "Moradin's Eye" "Moradin's Reach"  
+		}
+		
+		colonizer = {
+			"Durin's Hope" "Moradin's flight" "Golem Drop" "Griffin's glide" "Moradin's Command" "Durkon's Exile" "Durin's Wake" "Mine's Bounty" "Senshi's Bread" 
+		}
+		
+		constructor = {
+			Hoist Oxen "Real Mule" Digger Miner Delver "Coin Seeker" "Coin Minter" Artisan Crafter Dredger Shovel Hammer Anvil "Tolkien's Dream" "Heitz's Dream" Chisel Pick Pickaxe Drill Betsy Drilldozer Architect Mason
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Thorin's Company" "Yarpen's caravan" "Tungdil's Quest" "Legion of the Dead" "Moradin's Command" "The King's Jewel" Oathband "Legion of Steel" Ironbreakers "Strike the Earth"
+		}
+		sequential_name = FANTASY_DWARVEN_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_DWARVEN_xxASSAULTARMY_ORD
+		}
+	
+		machine_defense = {
+			sequential_name = FANTASY_DWARVEN_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_DWARVEN_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_DWARVEN_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_DWARVEN_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_DWARVEN_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_DWARVEN_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_DWARVEN_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_DWARVEN_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_DWARVEN_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_DWARVEN_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_DWARVEN_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_DWARVEN_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_DWARVEN_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_DWARVEN_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_DWARVEN_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_DWARVEN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_DWARVEN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_DWARVEN_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_DWARVEN_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_DWARVEN_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Orzammar Kal-Sharok Gundaar Hormak Kal'Hirol Aeducan Amgarrak Darmallon "Kal Repartha" Ortan Khazad-dum Nogrod Belegost Erebor "Iron Hills" Mahakam Baradin Ironforge "Dun Modr" "Grim Batol" Kharanos Thelsamar "Thor Modan" Hoxxes Angor Moradin Blackreach Astyth Dailan Fairel Dain Durin Orseck Hirol Thrain Thror Endrin Garen Durin Dain Thorin Zoltan Yarpen Magni Muradin Brann Yorg Kurdran Harrowmont Modimus Aegrim Fafnir Tungdil Giselbart Gandogar Kagrenac Dumac Bruenor Gundabad Gabilagthol Tumunzahar "Karka Dorden" "Barak Varr" Ekrund Grimhold "Karaz-a-Karak" "Karaz Ankor" Ammarindar "Tyr Faerath" Delhalls "Aerie Peak" Frosthold Votaan Shadowforge Nangrim "Durgan's Battery" Arik Moria Nogrod "Glittering Caves" "Durin's Stone" "Durin's Tower" "Doors of Durin" "Misty Mountains" "Blue Mountains" Durkon Aule "Sunder Stair" Brokhfyre Karl Senshi
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Durin Dain Thorin Thrain Thror Dwalin Balin Kili Fili Bifur Bofur Bombur Ori Nori Dori Azaghâl Bodruith Borin Fangluin Farin Fili Floi Forn Frar Frerin Fror Fundin Gamil Gimli Gloin Groin Gror Ibun Khim Loni Mim Nain Nali Nar Narvi Oin Telchar Ademaro Bhelen Endrin Piotin Trian Ahren Alimar Naso Bandelor Beraht Everd Boermor Burkel Caridin Czibor Anwer Brogan Jerrick Mandar Ronus Dailan Dwyn Emrys Fairel Bodahn Sandal Figor Dulin Orseck Garin Dougal Vartag Gerav Gertek Glassric Dworkin Temmerin Voldrik Goilinar Gwiddon Thaulid Baizyl Pyral Renvil Havel Orson Hirol Hugin Frandlin Loilinar Wojech Iwan Janar Jukka Kardol Kasch Korbin Legnar Leske Fairel Dailan Kucjan Mainar Merin Minderel Hagen Nalthur Nevin Oghren Olaniv Ordel Oskias Renn Rhatigan Rogek Roshen Ruck Gorim Seweryn Endrin Gatsi Tegrin Bartrand Varric Tovez Tug Varick Velanz Bruntin Darvianak Widron Yevhen Zerlinda Addarion Barclay Berthold Brendan Brouver Caesar Caleb Carlo Casimir Cecil Cosma Dennis Eggar Fabian Felix Fergus Ferko Figgis Gabor Gabron Gaspard Giacomo Golan Gunn Gunter Gus Harald Hurgan Igor Isidor Justin Lucas Malcom Mantas Merton Molnar Munro Nino Ogden Paulie Raymond Regan Ren Rhundruin Rodolf Rostan Ruiz Sheldon Skalen Thorak Tunak Vimme Waldmer Wilfli Xavier Yaki Yannick Yaren Zoltan Yarpen Kurdran Dagran Thargas Baelgun Madoran Falstad Modimus Aegrim Vanndar Hemet Fafnir Kathrum Baenan Odan Bragund Tungdil Boïndil Boëndal Gandogar Baerick Stokely Bruenor Urist Thorgram Ungrim Josef Khal Odras Ovgi Borton Dihok Durgan Jarere Borthal Dwerve Esben Arik Serje Senshi Gillin Brigan Invar Totan Gontor Kudzu Tenrin Kandro Hoskin Kraagor Thirden Uthar Yoht Korv Karl 
+            }          
+            first_names_female = {
+				Dis Astyth Branka Rica Kalah Corra Dagna Bianca Farinden Felsi Filda Hanashan Lace Adal Denek Nerav Hespith Evka Dagna Jarvia Korpin Lenka Luka Mardy Mischa Myaja Nadezda Olinda Orinna Orta Pala Sigrun Teli Unna Utha Valta Eudora Moira Sara Yarlyn Aydis Celidh Rudra Yarlyn Neve Baerla Maeve Tiza Marga Setara Gunda Brula Laire Elise Matilda Daera Einris Ingrid Balinda Balyndis Kamdida Sagani Marunn Jenatonic Larise Namari Daya Hilgya Minrah Sigdi Shirra Volumm
+            }
+			second_names = {
+				Bach Els Candeleria Grant Fuchs Hoog Bilzen Stratton Varese Bassi Burdon Cianfanelli Cranmer Gausel Foster Breckenriggs Meyer Favela Graem Merluzzo Zigrin Zammorto Drozdeck Vivaldi Hargis Craggs Meyer Gord Cohenn Bolt Kay Ingvar Corto Stein Birut Bringgs Giancardi Munro Dahlberg Gessler Dahlberg Grouver Kazmer Muggs Dorrit Skaggs Burdon Bhangra Moran Rafiberg Brass Bolt Chivay Thunderforge Bronzebeard Hammergrim Stormheart Wildhammer Aeducan Brosca Dace Davri Feddic Gavorn Glavonak Hammerspur Harrowmont Haver Helmi Ivo Mortren Stonehammer Tehtras Tintop Thaurissan Anvilmar Flamebeard Dragonreaver Vollney Stormpike Doyle Dunwald Macduff Moore Mullan Thundermar Shadowforge Amberstill Axehand Bakkan Bannson Bolofar Eisenfinger Eisenauge Bagarn Mezalf Khalundurrin Stoneguard Firehelm Shaleshoe Hammerfell Copperbottom McUrist Grendok Grudgekeeper
+			}
+            regnal_first_names_male = {
+				Durin Dain Thorin Gimli Yarpen Zoltan Urist 
+            }
+            regnal_first_names_female = {
+				Dagna Jarvia Setara Balyndis Branka Dis Marunn Jenatonic
+            }
+			regnal_second_names = {
+				Bronzebeard Ironwrought Anvilmar Aeducan Zigrin
+			}
+		}
+		names2 = {
+			weight = 20
+            first_names_male = {
+				Durin Dain Thorin Thrain Thror Dwalin Balin Kili Fili Bifur Bofur Bombur Ori Nori Dori Azaghâl Bodruith Borin Fangluin Farin Fili Floi Forn Frar Frerin Fror Fundin Gamil Gimli Gloin Groin Gror Ibun Khim Loni Mim Nain Nali Nar Narvi Oin Telchar Ademaro Bhelen Endrin Piotin Trian Ahren Alimar Naso Bandelor Beraht Everd Boermor Baerick Stokely Bruenor Urist Ungrim Thorgrim Khal Dordwin Odras Ovgi Borton Dihok Durgan Jarere Borthal Arik Serj Senshi Gillin Brigan Invar Totan Durkan
+            }          
+            first_names_female = {
+				Dis Astyth Branka Rica Kalah Corra Dagna Bianca Farinden Felsi Filda Hanashan Lace Adal Denek Nerav Hespith Evka Dagna Jarvia Korpin Lenka Luka Mardy Mischa Myaja Nadezda Olinda Jenatonic Sagani Larise Namari Daya
+            }
+			second_names_male = {
+				Bach Els Candeleria Grant Fuchs Hoog Bilzen Stratton Varese Bassi Burdon Cianfanelli Cranmer Gausel Foster Breckenriggs Meyer Favela Graem Merluzzo Zigrin Zammorto Drozdeck Vivaldi Hargis Craggs Meyer Gord Cohenn Bolt Kay Ingvar Corto Stein Birut Bringgs Giancardi Munro Dahlberg Gessler Dahlberg Grouver Kazmer Muggs Dorrit Skaggs Burdon Bhangra Moran Rafiberg Brass Bolt Chivay Thunderforge Bronzebeard Hammergrim Stormheart Wildhammer Aeducan Brosca Dace Davri Feddic Gavorn Glavonak Hammerspur Harrowmont Haver Helmi Ivo Mortren Stonehammer Tehtras Tintop Thaurissan Anvilmar Flamebeard Dragonreaver Vollney Stormpike Doyle Dunwald Macduff Moore Mullan Thundermar Shadowforge Amberstill Axehand Bakkan Bannson Bolofar Eisenfinger Eisenauge Bagarn Mezalf Stoneguard
+			}
+			second_names_female = {
+				Bach Els Candeleria Grant Fuchs Hoog Bilzen Stratton Varese Bassi Burdon Cianfanelli Cranmer Gausel Foster Breckenriggs Meyer Favela Graem Merluzzo Zigrin Zammorto Drozdeck Vivaldi Hargis Craggs Meyer Gord Cohenn Bolt Kay Ingvar Corto Stein Birut Bringgs Giancardi Munro Dahlberg Gessler Dahlberg Grouver Kazmer Muggs Dorrit Skaggs Burdon Bhangra Moran Rafiberg Brass Bolt Chivay Thunderforge Bronzebeard Hammergrim Stormheart Wildhammer Aeducan Brosca Dace Davri Feddic Gavorn Glavonak Hammerspur Harrowmont Haver Helmi Ivo Mortren Stonehammer Tehtras Tintop Thaurissan Anvilmar Flamebeard Dragonreaver Vollney Stormpike Doyle Dunwald Macduff Moore Mullan Thundermar Shadowforge Amberstill Axehand Bakkan Bannson Bolofar Eisenfinger Eisenauge Bagarn Mezalf Khalundurrin Stoneguard
+			}
+            regnal_first_names_male = {
+				Durin Dain Thorin Thrain Thror Dwalin Balin Kili Fili Bifur Bofur Bombur Ori Nori Dori Azaghâl Bodruith Borin Fangluin Farin Fili Floi Forn Frar Frerin Fror Fundin Gamil Gimli Gloin Groin Gror Ibun Khim Loni Mim Nain Nali Nar Narvi Oin Telchar Ademaro Bhelen Endrin Piotin Trian Ahren Alimar Naso Bandelor Beraht Everd Boermor Baerick Stokely Bruenor Urist Ungrim Thorgrim Khal Dordwin Odras Ovgi Borton Dihok Durgan Jarere Borthal Serj Gillin Brigan Invar
+            }
+            regnal_first_names_female = {
+				Dis Astyth Branka Rica Kalah Corra Dagna Bianca Farinden Felsi Filda Hanashan Lace Adal Denek Nerav Hespith Evka Dagna Jarvia Korpin Lenka Luka Mardy Mischa Myaja Nadezda Olinda Jenatonic Sagani Marunn Larise Namari Daya 
+            }
+			regnal_second_names = {
+				Bach Els Candeleria Grant Fuchs Hoog Bilzen Stratton Varese Bassi Burdon Cianfanelli Cranmer Gausel Foster Breckenriggs Meyer Favela Graem Merluzzo Zigrin Zammorto Drozdeck Vivaldi Hargis Craggs Meyer Gord Cohenn Bolt Kay Ingvar Corto Stein Birut Bringgs Giancardi Munro Dahlberg Gessler Dahlberg Grouver Kazmer Muggs Dorrit Skaggs Burdon Bhangra Moran Rafiberg Brass Bolt Chivay Thunderforge Bronzebeard Hammergrim Stormheart Wildhammer Aeducan Brosca Dace Davri Feddic Gavorn Glavonak Hammerspur Harrowmont Haver Helmi Ivo Mortren Stonehammer Tehtras Tintop Thaurissan Anvilmar Flamebeard Dragonreaver Vollney Stormpike Doyle Dunwald Macduff Moore Mullan Thundermar Shadowforge Amberstill Axehand Bakkan Bannson Bolofar Eisenfinger Eisenauge Bagarn Mezalf Khalundurrin Stoneguard
+			}
+		}
+	}
+}

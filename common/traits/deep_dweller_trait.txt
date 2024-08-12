@@ -1,0 +1,49 @@
+trait_deep_dweller = {
+	cost = 0
+	potential_crossbreeding_chance = 0
+	opposites = { "trait_plantoid_phototrophic" "trait_aquatic" "trait_advanced_phototrophic" }
+	sorting_priority = 20
+
+	initial = no
+	randomized = no
+	immortal_leaders = no
+
+	species_potential_add = {
+		always = no
+	}
+	species_possible_remove = {
+		always = no
+	}
+	species_possible_merge_add = {
+		always = no
+	}
+
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	ai_weight = {
+		weight = 0
+	}
+
+	icon = "gfx/interface/icons/traits/trait_deep_dweller.dds"
+	modifier = {
+		planet_jobs_minerals_produces_mult = 0.15
+		pop_growth_from_immigration = -0.15
+		pop_resettlement_cost_mult = 0.25
+	}
+	triggered_planet_growth_habitability_modifier = {
+		pop_environment_tolerance = 1
+		mult = modifier:deep_dweller_environment_tolerance
+	}
+	slave_cost = {
+		energy = 500
+	}
+	assembly_score = {
+		modifier = {
+			add = 1.5
+			from = { has_mining_designation = yes }
+		}
+		modifier = {
+			add = 0.5
+			from = { has_rural_designation = yes }
+		}
+	}
+}

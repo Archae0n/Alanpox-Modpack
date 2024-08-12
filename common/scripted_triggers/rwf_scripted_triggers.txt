@@ -1,0 +1,28 @@
+# All are planet scope unless otherwise specified
+
+# aka has it turned into a relic over the course of the game (eg via ecu decay)
+rwf_is_recent_relic = {
+    has_planet_flag = rwf_recent_relic
+}
+
+# for compat with any other mods that add relic world analogues
+rwf_is_relic_planet_class = {
+    is_planet_class = pc_relic
+}
+
+# is it currently a relic world and is it one with history
+rwf_is_current_history_relic_world = {
+    and = {
+        rwf_is_recent_relic = no
+        rwf_is_relic_planet_class = yes
+    }
+}
+
+# Has it ever been a relic world with history. This counts any planet class
+rwf_was_ever_history_relic_world = {
+    or = {
+        rwf_is_current_history_relic_world = yes
+        has_deposit = d_former_relic_world
+        has_planet_flag = rwf_treat_as_relic_world # Legacy, but leave it in if anyone wants to do some compat
+    }
+}

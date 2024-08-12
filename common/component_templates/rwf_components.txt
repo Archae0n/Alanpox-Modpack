@@ -1,0 +1,41 @@
+@cost1 = 5
+@cost2 = 10
+@cost3 = 15
+@cost4 = 20
+
+@power0 = -5
+@power1 = -10
+@power2 = -15
+@power3 = -20
+@power4 = -30
+
+utility_component_template = {
+	key = "RWF_RELIC_DRIVE_CORE"
+	size = small
+	icon = "GFX_ship_part_subspace_drive"
+	icon_frame = 1
+	power = @power4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost4
+            minor_artifacts = @minor_artifacts_cost_s
+		}
+	}
+	ftl = yes
+	jumpdrive = yes
+	ship_modifier = {
+		ship_disengage_opportunities_add = 1
+		ship_windup_mult = -0.5
+		ship_ftl_jumpdrive_range_mult = -0.33
+	}
+
+	ai_weight = {
+		weight = 4
+	}
+
+	class_restriction = { shipclass_military shipclass_constructor shipclass_colonizer shipclass_science_ship shipclass_transport shipclass_military_special shipclass_starbase }
+	prerequisites = { "tech_rwf_relic_drive_core" }
+	component_set = "ftl_components"
+	upgrades_to = "JUMP_DRIVE_1"
+}

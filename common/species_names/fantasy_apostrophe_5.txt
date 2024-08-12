@@ -1,0 +1,402 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	araeste = {
+		name = Araestean
+		plural = Araesteans
+		home_planet = Araeste
+		home_system = "Naekir Kih"
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	camyed = {
+		name = Ca'myedish
+		plural = Ca'myedish
+		home_planet = Ca'myed
+		home_system = Arphlaeki
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	errit = {
+		name = Erritese
+		plural = Erritese
+		home_planet = Errit
+		home_system = Riisti
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	darkgroundskeeper = {
+		name = Daestetian
+		plural = Daestetians
+		home_planet = "Dark Groundskeeper"
+		home_system = "Hollowed Grounds"
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	pelrai = {
+		name = Pelra'i
+		plural = Pelra'i
+		home_planet = Pelra'i
+		home_system = "Ja'livy Pelra'i"
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	osemirre = {
+		name = Osemirrid
+		plural = Osemirrids
+		home_planet = Osemirre
+		home_system = Arphrine 
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	thsirr = {
+		name = Thsirr
+		plural = Thsirr
+		home_planet = Thsirr
+		home_system = Simiske 
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	nizphaetkat = {
+		name = Ga'a'vestoid
+		plural = Ga'a'vestoids
+		home_planet = Nizphaetka't
+		home_system = Daeksaeksaeri 
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	boinris = {
+		name = Boinrisoid
+		plural = Boinrisoids
+		home_planet = Boinris
+		home_system = Pinis
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	perrikast = {
+		name = Perrikk
+		plural = Perrikk
+		home_planet = Perrika'st
+		home_system = Mevriaena'i
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	evdoitprime = {
+		name = Evdoyan
+		plural = Evdoyans
+		home_planet = "Evdoit Prime"
+		home_system = Evdoit
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	silalnsoi = {
+		name = Sila'l
+		plural = Sila'l
+		home_planet = Sila'lnsoi
+		home_system = Ra'ledoitis
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	erhel = {
+		name = Erhelian  
+		plural = Erhelians
+		home_planet = Erhel
+		home_system = Deoitri
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	jeti = {
+		name = Jetid  
+		plural = Jetids
+		home_planet = Jeti
+		home_system = Siviyete
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	timelesswanderer = {
+		name = Uvvaennian  
+		plural = Uvvaennians
+		home_planet = "Timeless Wanderer"
+		home_system = "Celestial Tailor"
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	fridaet = {
+		name = Fridaean  
+		plural = Fridaeans
+		home_planet = Fridaet
+		home_system = Syaete
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	besnat = {
+		name = Besna't 
+		plural = Besna't
+		home_planet = Pa'snhtkna't
+		home_system = Deirhtksaevki
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	jahri = {
+		name = Ja'hrid 
+		plural = Ja'hrids
+		home_planet = Ja'hri
+		home_system = Heda'
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	roiny = {
+		name = Roinan 
+		plural = Roinans
+		home_planet = Roiny
+		home_system = Feshtva't
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	tsiver = {
+		name = Tsiverrid 
+		plural = Tsiverrids
+		home_planet = Tsiver
+		home_system = "Na'sd Ada't"
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	tyasae = {
+		name = Tya'saean
+		plural = Tya'saeans
+		home_planet = Tya'sae
+		home_system = Cresaelle
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	ivatie = {
+		name = Iva'tian
+		plural = Iva'tians
+		home_planet = Iva'tie
+		home_system = Disaetk
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	hazmisnsed = {
+		name = Ha'zmiss
+		plural = Ha'zmiss
+		home_planet = Ha'zmisnsed
+		home_system = Netgaetoiin
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	kaerril = {
+		name = Kaerriloid
+		plural = Kaerriloids
+		home_planet = Kaerril
+		home_system = Ovmisvi
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	lhat = {
+		name = Lha't
+		plural = Lha't
+		home_planet = Lha't
+		home_system = Airta'v
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	waerraeed = {
+		name = Waerraeed
+		plural = Waerraeed
+		home_planet = Waerraeed
+		home_system = Waerraeed
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	masteraoirna = {
+		name = Yesda'ttian
+		plural = Yesda'ttians
+		home_planet = "Master Aoirna'"
+		home_system = "Servant Hisnari"
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	evkin = {
+		name = Evkinoid
+		plural = Evkinoids
+		home_planet = Evkin
+		home_system = Biilne
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	tyadel = {
+		name = Tya'delian
+		plural = Tya'delians
+		home_planet = Tya'del
+		home_system = Tya'delaet
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	goittase = {
+		name = Goittan
+		plural = Goittans
+		home_planet = Goitta'se
+		home_system = "Feshtva't Sa'ra'da't"
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	saerstilnis = {
+		name = Stilnisian
+		plural = Stilnisians
+		home_planet = Saer-stilnis
+		home_system = Atlginir
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	maetlegi = {
+		name = Kitn
+		plural = Kitn
+		home_planet = "Maet Legi"
+		home_system = Nizpha'slidet
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	bevkiri = {
+		name = Bevkiran
+		plural = Bevkirans
+		home_planet = Bevkiri
+		home_system = Rennrih
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	teael = {
+		name = Gsaee
+		plural = Gsaee
+		home_planet = Teael
+		home_system = Vaenh
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	fireofthesoul = {
+		name = Britnean
+		plural = Britneans
+		home_planet = "Fire of the Soul"
+		home_system = "Ash of the Sky"
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	sieyed = {
+		name = Sza-Sie
+		plural = Sza-Sie
+		home_planet = Sieyed
+		home_system = Szaeri
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	coolio = {
+		name = Cennri
+		plural = Cennri
+		home_planet = "Iron Jailer"
+		home_system = "Pits of Tsaelmoish"
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	daavzhtprime = {
+		name = Da'aca't
+		plural = Da'aca't
+		home_planet = "Da'a'vzht Prime"
+		home_system = Da'a'vzht
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	waerryoil = {
+		name = Waerrian
+		plural = Waerrians
+		home_planet = Waerryoil
+		home_system = Misln
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	copperdawn = {
+		name = Pyaestit
+		plural = Pyaestit
+		home_planet = "Copper Dawn"
+		home_system = "Steel Dawn"
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+}
+
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	ceznyse = {
+		name = Amh
+		plural = Amh
+		home_planet = Ceznyse
+		home_system = Eesetnoitath
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	kaeritnae = {
+		name = Kaeritnian
+		plural = Kaeritnians
+		home_planet = Kaeritnae
+		home_system = Berrirha'lin
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	wegaetk = {
+		name = Weg-Naetian
+		plural = Weg-Naetians
+		home_planet = Wegaetk
+		home_system = Sna'tzirgaph
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	qoirae = {
+		name = Qoiroid
+		plural = Qoiroids
+		home_planet = Qoirae
+		home_system = Mererre
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+}
+
+
+# Toxoids
+
+TOX = {
+	wegisat = {
+		name = Wegissian
+		plural = Wegissians
+		home_planet = Wegisa't
+		home_system = Na'pha'tl
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	ilemisl = {
+		name = Sri-Na'pha
+		plural = Sri-Na'pha
+		home_planet = Ilemisl
+		home_system = Tyiv
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	gia_kir = {
+		name = Gia'kiroid
+		plural = Gia'kiroids
+		home_planet = Gia'kir
+		home_system = Evaekri
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+	cyessi = {
+		name = Cyessian
+		plural = Cyessians
+		home_planet = Cyessi
+		home_system = "Esdet Kaeli"
+		name_list = "cybrxkhan_fantasy_apostrophe_5"
+	}
+}

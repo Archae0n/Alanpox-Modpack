@@ -1,0 +1,464 @@
+﻿l_english:
+
+    # Acronym Meanings
+    # Crim = Criminal
+    # NCrim = Non-Criminal
+    # ES = Ethic Specific
+    # Spec = Special
+
+
+    # All localization keys are listed by category in alphabetical order
+    # Categories:
+    # Crim Buildings
+    # Crim Jobs
+    # ES Buildings
+    # ES Jobs
+    # NCrim Buildings
+    # NCrim Jobs
+    # Spec Buildings
+
+    #######################
+    ### Crim Buildings ####
+    #######################
+
+    ### Amenity Buildings
+    building_underground_clubs:0 "Underground Clubs"
+    building_underground_clubs_desc:0 "These illegal entertainment clubs will satisfy any vice. As night descends, they are open for business in the planet's seedier districts."
+
+    building_bugged_club_network:0 "Global Club Network"
+    building_bugged_club_network_desc:0 "An underground tunnel system now connects all of the clubs to each other, allowing for an unprecedented level of indulgence."
+
+    building_bugged_underground_paradise:0 "Underground Paradise"
+    building_bugged_underground_paradise_desc:0 "The logo depcits a well-endowed female with a bottle of Xoloth and a mischevious grin. Not quite sure if "Mammary Gland Twister" is the best name, but the clients seem to like it."
+
+    ### Food Buildings
+    building_bio_reprocessing_facilities:0 "Bio-Reprocessing Plants"
+    building_bio_reprocessing_facilities_desc:0 "Underground facilities where disloyal employees and other forms of unsavory bio-matter are reprocessed into ready-to-eat food products."
+
+    building_bugged_bio_reprocessing_complex:0 "Bio-Reprocessing Complex"
+    building_bugged_bio_reprocessing_complex_desc:0 "No, your burger is not made out of your neighbor, their disappearence is merely a coincidence."
+
+    building_bugged_bio_reprocessing_cartel:0 "Bio-Reprocessing Cartel"
+    building_bugged_bio_reprocessing_cartel_desc:0 "The perfect solution for both overpopulation and famine!"
+
+    ### Military Buildings
+    building_pirate_haven:0 "Pirate Haven"
+    building_pirate_haven_desc:0 "A secluded and hidden city on the planet's surface where pirates and other such lowlifes can congregate to repair their ships and trade stories."
+
+    building_bugged_assassins_guild:0 "Underworld Assassin's Guild"
+    building_bugged_assassins_guild_desc:0 "A collection of like-minded individuals all in the pursuit of the perfect kill."
+
+    building_bugged_hitman_agency:0 "Underground Hitman Agency"
+    building_bugged_hitman_agency_desc:0 "Now with more than 47 agents!"
+
+    ### Alloy Buildings
+    building_wrecking_yards:0 "Wrecking Yards"
+    building_wrecking_yards_desc:0 "Stolen vessels and prize ships are brought in by pirates and broken into scrap here. Any valuable components and alloys are carefully salvaged."
+
+    building_bugged_chopshop:0 "Spacecraft Chop-Shop"
+    building_bugged_chopshop_desc:0 "Sometimes spacecraft vanish, and those spacecraft's parts often happen to unexplainedly end up here."
+
+    building_bugged_chopshop_network:0 "Global Chop-Shop Network"
+    building_bugged_chopshop_network_desc:0 "When a fleet vanishes, this is where it might be able to be found, or at least what's left of it."
+
+    ### Mineral Buildings
+    building_wildcat_miners:0 "Wildcat Mining Operations"
+    building_wildcat_miners_desc:0 "Illegal, highly unsafe mining operations operated by the destitute and the desperate, who toil away in the vain hopes of striking it rich."
+
+    building_bugged_stripminers_guild:0 "Stripmining Guilds"
+    building_bugged_stripminers_guild_desc:0 "Destroying ecosystems in order to remove resources from a planets crust can be very difficult work, but debt is often a very strong motivator."
+
+    building_bugged_asteroid_haulers:0 "Illegal Asteroid Haulers"
+    building_bugged_asteroid_haulers_desc:0 "Asteroids from the surrounding system often appear to disappear just before the Empire was going to extract its minerals. Luckily, theres a new abundance of cheap gravel planetside."
+
+    ### Science Buildings
+    building_illicit_research_labs:0 "Illicit Research Labs"
+    building_illicit_research_labs_desc:0 "All manner of highly illegal research and development is carried out in these secret laboratories"
+
+    building_bugged_live_subjects:0 "Live-Subject Research Facilities"
+    building_bugged_live_subjects_desc:0 "What this facility lacks in morals, it makes up for in efficiency."
+
+    building_bugged_site_19:0 "Site-19"
+    building_bugged_site_19_desc:0 "[Data Expunged]"
+
+    ### Unity Buildings
+    building_syndicate_outreach_office:0 "Syndicate Front Corporations"
+    building_syndicate_outreach_office_desc:0 "These above-the-board businesses allow the local criminal syndicate to operate behind a veneer of upstanding legality."
+
+    building_bugged_marketing_HQ:0 "\"Legitimate\" Marketing HQ"
+    building_bugged_marketing_HQ_desc:0 "Many like to call this organization a scam, but they're obviously misinformed, simply listen to the plethora of local influencers to help you understand."
+
+    building_bugged_MLM_HQ:0 "Multi-Level Marketing HQ"
+    building_bugged_MLM_HQ_desc:0 "It's not a scam, in our way of speaking. Think of it more as a long-term investment into the future. Granted, it is the future of the company, not that of our workers, but it is still a future all the same, no?"
+
+    ### Consumer Goods Buildings
+    building_underground_chemists:0 "Concealed Drug Labs"
+    building_underground_chemists_desc:0 "Subterranean drug labs in remote regions that are virtually undetectable from the surface. CHemists work day and night here to produce various illegal, highly addictive, and quite lucrative narcotics."
+
+    building_bugged_secret_drug_factory:0 "Secret Drug Factory"
+    building_bugged_secret_drug_factory_desc:0 "The best chemists and top-tier equipment all hidden beneath an inconspicuous ion-cleaning facility."
+
+    building_bugged_deathstick_factory:0 "Deathstick Factory"
+    building_bugged_deathstick_factory_desc:0 "A new drug that allows for unprecedented highs and undocumented lows has made our profit fly sky-high! The name is a little unfortunate though."
+
+    ### Modifiers
+
+    building_bugged_fountain_of_lies:0 "Fountain of Lies"
+    building_bugged_fountain_of_lies_desc:0 "If you seek the whole unfiltered truth, this is where you can find it. Or at least our interpretation of it."
+
+    building_bugged_isar:0 "Illegal Shipping and Receiving"
+    building_bugged_isar_desc:0 "The profitable trade that flows in and out of this unofficial port is neither taxed nor regulated, making it the driving force behind all black markets on the planet."
+
+
+    #######################
+    ### Crim Jobs #########
+    #######################
+
+    # Assassin
+    job_bugged_assassin:0 "Assassin"
+    job_bugged_assassin_plural:0 "Assassins"
+    job_bugged_assassin_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nAccomplishing filthy acts at a reasonable price."
+    mod_job_bugged_assassin_add:0 "$job_bugged_assassin$ Jobs"
+
+    # Biomass Collector
+    job_bugged_biomass_collector:0 "Biomass Collector"
+    job_bugged_biomass_collector_plural:0 "Biomass Collectors"
+    job_bugged_biomass_collector_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nIt may not be the best job, but somebody needs to collect the \"Ingredients\"."
+    mod_job_bugged_biomass_collector_add:0 "$job_bugged_biomass_collector$ Jobs"
+
+    # Biomass Dealer
+    job_bugged_biomass_dealer:0 "Biomass Dealer"
+    job_bugged_biomass_dealer_plural:0 "Biomass Dealers"
+    job_bugged_biomass_dealer_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nJust like most rules, trade laws were made to be broken."
+    mod_job_bugged_biomass_dealer_add:0 "$job_bugged_biomass_dealer$ Jobs"
+
+    # BOB
+    job_bugged_bob:0 "B.O.B."
+    job_bugged_bob_plural:0 "B.O.B."
+    job_bugged_bob_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nThe Big ol' Boss is here to make sure that everything goes smoothly. Most importantly, they're going to make sure that all the money goes where it needs to go."
+    mod_job_bugged_bob_add:0 "$job_bugged_bob$ Jobs"
+
+    # Deathstick Dealer
+    job_bugged_deathstick_dealer:0 "Deathstick Dealer"
+    job_bugged_deathstick_dealer_plural:0 "Deathstick Dealers"
+    job_bugged_deathstick_dealer_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nYou wanna buy some deathsticks?"
+    mod_job_bugged_deathstick_dealer_add:0 "$job_bugged_deathstick_dealer$ Jobs"
+
+    # Deceiver
+    job_bugged_deceiver:0 "Deceiver"
+    job_bugged_deceiver_plural:0 "Deceivers"
+    job_bugged_deceiver_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nThese workers work hard to twist public opinion into something advantageous, after all, the truth is a very flexible thing."
+    mod_job_bugged_deceiver_add:0 "$job_bugged_deceiver$ Jobs"
+
+    # Front Company CEO
+    job_bugged_front_ceo:0 "Front Company CEO"
+    job_bugged_front_ceo_plural:0 "Front Company CEOs"
+    job_bugged_front_ceo_desc:0 "§YThis job will only produce half the amount of resources unless the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nKeeping profits up while keeping the front's head low. A difficult job, but one that these individuals are designed for."
+    mod_job_bugged_front_ceo_add:0 "$job_bugged_front_ceo$ Jobs"
+
+    # "Fun" Facilitator
+    job_bugged_unfun_facilitator:0 "\"Fun\" Facilitator"
+    job_bugged_unfun_facilitator_plural:0 "\"Fun\" Facilitators"
+    job_bugged_unfun_facilitator_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\n\"Fun\" can mean many different things to many different individuals, and these people make that fact very clear."
+    mod_job_bugged_unfun_facilitator_add:0 "$job_bugged_unfun_facilitator$ Jobs"
+
+    # Handler
+    job_bugged_handler:0 "Handler"
+    job_bugged_handler_plural:0 "Handlers"
+    job_bugged_handler_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nMaking sure said filthy acts are being acted out at reasonable prices."
+    mod_job_bugged_handler_add:0 "$job_bugged_handler$ Jobs"
+
+    # Mad Scientist
+    job_bugged_mad_scientist:0 "Mad Scientist"
+    job_bugged_mad_scientist_plural:0 "Mad Scientists"
+    job_bugged_mad_scientist_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nYou don't have to be mad to work here, but it sure helps!"
+    mod_job_bugged_mad_scientist_add:0 "$job_bugged_mad_scientist$ Jobs"
+
+    # Narco-Chemist
+    job_bugged_narco_chemist:0 "Narco-Chemist"
+    job_bugged_narco_chemist_plural:0 "Narco-Chemists"
+    job_bugged_narco_chemist_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nJoining the corporation has its perks. Mainly not needing to drive a camper to the desert every weekend to work."
+    mod_job_bugged_narco_chemist_add:0 "$job_bugged_narco_chemist$ Jobs"
+
+    # Overseer
+    job_bugged_overseer:0 "Overseer"
+    job_bugged_overseer_plural:0 "Overseers"
+    job_bugged_overseer_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\n[DATA EXPUNGED BY O5 ORDER]"
+    mod_job_bugged_overseer_add:0 "$job_bugged_overseer$ Jobs"
+
+    # Politician
+    job_bugged_corrupt_politician:0 "Corrupt Politician"
+    job_bugged_corrupt_politician_plural:0 "Corrupt Politicians"
+    job_bugged_corrupt_politician_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nOur poll ratings have increased by four whole points ever since the new pro-growth policy was introduced."
+    mod_job_bugged_corrupt_politician_add:0 "$job_bugged_corrupt_politician$ Jobs"
+
+    # Salvager
+    job_bugged_salvager:0 "Salvager"
+    job_bugged_salvager_plural:0 "Salvagers"
+    job_bugged_salvager_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nReformating your space yacht into its base components today!"
+    mod_job_bugged_salvager_add:0 "$job_bugged_salvager$ Jobs"
+
+    # Scav-Lord
+    job_bugged_scav_lord:0 "Scav-Lord"
+    job_bugged_scav_lord_plural:0 "Scav-Lords"
+    job_bugged_scav_lord_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nKing of bling, emperor of swag, the Scav-Lord can pimp your ride with all the newest toys at an outrageously low price."
+    mod_job_bugged_scav_lord_add:0 "$job_bugged_scav_lord$ Jobs"
+
+    # Smuggler
+    job_bugged_smuggler:0 "Smuggler"
+    job_bugged_smuggler_plural:0 "Smugglers"
+    job_bugged_smuggler_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nWhat happens to reputable merchants after taxes get too high."
+    mod_job_bugged_smuggler_add:0 "$job_bugged_smuggler$ Jobs"
+
+    # Wildcat Miner
+    job_bugged_wildcat_miner:0 "Wildcat Miner"
+    job_bugged_wildcat_miner_plural:0 "Wildcat Miners"
+    job_bugged_wildcat_miner_desc:0 "§YThis job will only produce any resources if the§! §ENegotiate with Crime Lords§! §YDecision is active§!\n\nLet's just not ask questions about where this ore was found, and instead decide on how you are going to pay for it, okay?"
+    mod_job_bugged_wildcat_miner_add:0 "$job_bugged_wildcat_miner$ Jobs"
+
+
+
+    #######################
+    ### ES Buildings ######
+    #######################
+
+    ### Spiritualist Buildings
+    building_temple_of_prosperity:0 "Temple of Prosperity"
+    building_temple_of_prosperity_desc:0 "A high-security temple that spreads the gospel of the Megachurch that built it."
+
+    building_bugged_citadel_of_prosperity:0 "Citadel of Prosperity"
+    building_bugged_citadel_of_prosperity_desc:0 "Praise be the profit, may the income bless us and allow us to bask in the interest of the Gods."
+
+
+
+    #######################
+    ### ES Jobs ###########
+    #######################
+
+    # Cultist
+    job_bugged_cultist:0 "Cultist"
+    job_bugged_cultist_plural:0 "Cultists"
+    job_bugged_cultist_desc:0 "A member of the Inner Circle of the Temple, spreading their beliefs, and subsisting off of naught but that which their leader allows."
+    mod_job_bugged_cultist_add:0 "$job_bugged_cultist$ Jobs"
+
+    # "Prophet"
+    job_bugged_non_prophet:0 "\"Prophet\"."
+    job_bugged_non_prophet_plural:0 "\"Prophets\""
+    job_bugged_non_prophet_desc:0 "This person will help anybody find their true meaning and purpose within this vast universe. All they have to do is reject all of their material possessions to the Church."
+    mod_job_bugged_non_prophet_add:0 "$job_bugged_non_prophet$ Jobs"
+
+
+
+    #######################
+    ### NCrim Buildings ###
+    #######################
+
+    ### Amenity Buildings
+    building_amusement_megaplex:0 "Amusement Megaplex"
+    building_amusement_megaplex_desc:0 "A magical place where dreams can become reality, this megaplex features wholesome, corporate-sanctioned fun for the entire family unit."
+
+    building_bugged_amusement_gigaplex:0 "Amusement Gigaplex"
+    building_bugged_amusement_gigaplex_desc:0 "A megaplex apparently was not enough, so the park was expanded to include even more unique and innovative forms of entertainment."
+
+    building_bugged_amusement_teraplex:0 "Amusement Teraplex"
+    building_bugged_amusement_teraplex_desc:0 "Space fun goes brr, now with an even higher acceleration and even more loops than ever before!"
+
+    building_bugged_amusement_petaplex:0 "Amusement Petaplex"
+    building_bugged_amusement_petaplex_desc:0 "Approach the speed of fun and have a truly smashing time at the fastest roller coaster in the galactic group."
+
+    ### Food Buildings
+    building_food_conglomerate:0 "Fast Food Chain"
+    building_food_conglomerate_desc:0 "Sustenance that is affordable, fast, and has perfectly acceptable nutritional value, with zero toxins* and zero hassle!\n\n* Food may contain traces of potassium benzoate, nitric acid, dark matter, soylent green, or liquid smoke."
+
+    building_bugged_food_enterprise:0 "Fast Food Enterprise"
+    building_bugged_food_enterprise_desc:0 "Feeding the masses has always been profitable; you can fill factories with robots to your hearts content and teach your citizens all that they need to know using psionics, but your people will always require food as one of their most basic needs."
+
+    building_bugged_burger_empire:0 "Blorger King"
+    building_bugged_burger_empire_desc:0 "It's Appendage Tasting Good!"
+
+    ### Mineral Buildings
+    building_private_mining_consortium:0 "Private Mining Consortium"
+    building_private_mining_consortium_desc:0 "A private mineral extraction company owned by a megacorporation. It employs local miners to access the planet's wealth."
+
+    building_bugged_mining_corp:0 "Private Mining Corporation"
+    building_bugged_mining_corp_desc:0 "A private network of highly developed mines that employs local miners, making the natural wealth of the planet available to all who are willing to invest."
+
+    building_bugged_mining_global:0 "Global Mining Consortium"
+    building_bugged_mining_global_desc:0 "This network of privately owned mining corporations has entirely overtaken the mining operations on this planet, allowing a near-complete stranglehold on raw material supply."
+
+    ### Military Buildings
+    building_military_contractors:0 "Mercenary Liaison Office"
+    building_military_contractors_desc:0 "This office allows locals to sign up for the exciting life of a corporate soldier of fortune. Generous compensation, limited health insurance, and stories of adventure ensure a steady stream of recruits."
+
+    building_bugged_military_company:0 "Private Military Company"
+    building_bugged_military_company_desc:0 "A headquarters worthy of our mercenary Forces, allowing our troops to undertake missions anywhere in the system swiftly and efficiently. This level of service merits the high price, of course."
+
+    building_bugged_outer_heaven:0 "Outer Heaven"
+    building_bugged_outer_heaven_desc:0 "The ideal has finally been achieved, a land where soldiers can fight and die for what they believe in to their heart's content."
+
+    ### Alloy Buildings
+    building_private_shipyards:0 "Private Military Industries"
+    building_private_shipyards_desc:0 "These planet-based corporate factories produce and assemble a variety of components that are vital in starship construction."
+
+    building_bugged_military_consortium:0 "Private Military Consortium"
+    building_bugged_military_consortium_desc:0 "This well equipped private factory is able to supply entire fleets with any parts and equipment that they may need, as long as they're used only for peacekeeping operations of course."
+
+    building_bugged_industrial_complex:0 "Military-Industrial Complex"
+    building_bugged_industrial_complex_desc:0 "This complex network of factories and firms have annexed the production of military goods and raw materials on this planet, allowing them to sell high-quality alloys straight out of the oven at never before seen levels of profit."
+
+    ### Science Buildings
+    building_private_research_initiative:0 "Private Research Enterprises"
+    building_private_research_initiative_desc:0 "In these state-of-the-art facilities, private tech-enterprises carry out important research and development on behalf of their parent company."
+
+    building_bugged_research_consortium:0 "Private Research Consortium"
+    building_bugged_research_consortium_desc:0 "This high-tech private company is driving many different fields of science through their discoveries and their research."
+
+    building_bugged_research_global:0 "Global Research Enterprise"
+    building_bugged_research_global_desc:0 "Where governments see safety concerns, corporations see opportunity. This complex allows the best and the brightest of the galaxy to attempt even the most daring experiments without fear."
+
+    ### Unity Buildings
+    building_public_relations_office:0 "Public Relations Firm"
+    building_public_relations_office_desc:0 "Misconceptions and suspicions are always floating around any large corporate entity. It is in the public's best interest to hear out all sides of any dispute, and this PR firm makes it their business to make certain that their employer's point comes across."
+
+    building_bugged_telecom_corporation:0 "Telecomm Corporation"
+    building_bugged_telecom_corporation_desc:0 "Information is power. If the flow of information is controlled, nothing is beyond reach. By joining forces with local media organizations, this company has begun to unify the information networks of multiple different empires."
+
+    building_bugged_global_communications:0 "Global Communications Enterprise"
+    building_bugged_global_communications_desc:0 "This once fledgeling public relations firm has annexed the entire communication sector of this planet, becoming its one true voice."
+
+    ### Consumer Goods Buildings
+    building_virtual_entertainment_studios:0 "Virtual Entertainment Studios"
+    building_virtual_entertainment_studios_desc:0 "Using nano-transaction systems and neuro-chemical retention algorithms, these development houses bring the latest in virtual entertainment software into the homes and lives of billions of sapient consumers."
+
+    building_bugged_virtual_entertainment_publisher:0 "Virtual Entertainment Publisher"
+    building_bugged_virtual_entertainment_publisher_desc:0 "The R.I.Ch.A.R.D interface was a massive success that allowed us to expand our offices and secure our burgeoning hold on the virtual entertainment market of this empire."
+
+    building_bugged_virtual_entertainment_franchise:0 "Virtual Entertainment Franchise"
+    building_bugged_virtual_entertainment_franchise_desc:0 "With the elimination of the final competitor, the virtual market is now entirely dominated, and free reign on all prices within the industry has been achieved."
+
+    ### Modifier Buildings
+
+    building_bugged_commercial_nexus:0 "Commercial Nexus"
+    building_bugged_commercial_nexus_desc:0 "Global markets are quite similar to the galactic one, both require a central location where the most important goods and information can be exchanged. With a cut off the top for the host of course."
+
+    building_bugged_corporate_parliament:0 "Corporate Parliament"
+    building_bugged_corporate_parliament_desc:0 "The jobs done by and the organization of politicians and managers have much in common, as proven by complexes such as these."
+
+    building_bugged_executive_resort:0 "Executive Resort"
+    building_bugged_executive_resort_desc:0 "The perfect place to flee if you have large amounts of responsibility, stress, and free liquid assets."
+
+    building_bugged_xeno_relocation_agency:0 "Xeno Relocation Agency"
+    building_bugged_xeno_relocation_agency_desc:0 "Better living off-world. Find out how easy it can be to relocate to one of our award-winning colonies, and start anew."
+
+
+    #######################
+    ### NCrim Jobs ########
+    #######################
+
+    # Fun Facilitator
+    job_bugged_fun_facilitator:0 "Fun Facilitator"
+    job_bugged_fun_facilitator_plural:0 "Fun Facilitators"
+    job_bugged_fun_facilitator_desc:0 "Fun facilitators help bring the fun of the megaplex to all of its visitors, regardless of species."
+    mod_job_bugged_fun_facilitator_add:0 "$job_bugged_fun_facilitator$ Jobs"
+
+    # H.A.M.
+    job_bugged_ham:0 "H.A.M."
+    job_bugged_ham_plural:0 "H.A.M."
+    job_bugged_ham_desc:0 "The Higher Agriculture Manager makes sure that all of the food served to their customers at any of their MegaDiners™ is as delicious as possible."
+    mod_job_bugged_ham_add:0 "$job_bugged_ham$ Jobs"
+
+    # M.I.S.R.A.T.
+    job_bugged_misrat:0 "M.I.S.R.A.T."
+    job_bugged_misrat_plural:0 "M.I.S.R.A.T."
+    job_bugged_misrat_desc:0 "The Marketing and Inter-Species Relations Administration Taskmaster is in charge of bending the truth to suit the corporate agenda, whatever that may be."
+    mod_job_bugged_misrat_add:0 "$job_bugged_misrat$ Jobs"
+
+    # M.O.S.O.R.M.
+    job_bugged_mosorm:0 "M.O.S.O.R.M."
+    job_bugged_mosorm_plural:0 "M.O.S.O.R.M."
+    job_bugged_mosorm_desc:0 "The M.O.S.O.R.M. manages all of the entertainment assets belonging to the corporation on this planet, an important enough job that the acronym must remain a trade secret."
+    mod_job_bugged_mosorm_add:0 "$job_bugged_mosorm$ Jobs"
+
+    # P.R.F.E.H.D.G.S.
+    job_bugged_prfehdgs:0 "P.R.F.E.H.D.G.S."
+    job_bugged_prfehdgs_plural:0 "P.R.F.E.H.D.G.S."
+    job_bugged_prfehdgs_desc:0 "The Professorial Research Fellow Extraordinaire with Honoray Degree in the General Sciences makes sure that all of the data that is sent back to HQ is correctly formatted and collated."
+    mod_job_bugged_prfehdgs_add:0 "$job_bugged_prfehdgs$ Jobs"
+
+    # P.S.R.E.O.
+    job_bugged_psreo:0 "P.S.R.E.O."
+    job_bugged_psreo_plural:0 "P.S.R.E.O."
+    job_bugged_psreo_desc:0 "The Planetary Silicoid Resource Extraction Overseer is a title given only to the most skillful administrators within the mining sector."
+    mod_job_bugged_psreo_add:0 "$job_bugged_psreo$ Jobs"
+
+    # S.R.T.I.W.M.M.O.
+    job_bugged_srtiwmmo:0 "S.R.T.I.W.M.M.O."
+    job_bugged_srtiwmmo_plural:0 "S.R.T.I.W.M.M.O."
+    job_bugged_srtiwmmo_desc:0 "The Silicoid Resource Transmutation into Workable Metallic Material Overseer ensures that all processes in the facility run in accordance with Corporate Directives."
+    mod_job_bugged_srtiwmmo_add:0 "$job_bugged_srtiwmmo$ Jobs"
+
+    # S.W.T.O.
+    job_bugged_swto:0 "S.W.T.O."
+    job_bugged_swto_desc:0 "S.W.T.O."
+    job_bugged_swto_desc:0 "The Special Weapons and Tactics Overseer is an expert in all matters relating to warfare, and can offer their services to anybody who is willing to pay."
+    mod_job_bugged_swto_add:0 "$job_bugged_swto$ Jobs"
+
+
+
+    #######################
+    ### Spec Buildings ####
+    #######################
+
+    ### Imperial Enforcement Buildings
+    building_bugged_imperial_enforcement_outpost:0 "Imperial Enforcement Outpost"
+    building_bugged_imperial_enforcement_outpost_desc:0 ""
+
+
+    #######################
+    ### Technologies ######
+    #######################
+
+    # Profit-Focused Construction
+    tech_bugged_branch_tier_2:0 "Profit-Focused Construction"
+    tech_bugged_branch_tier_2_desc:0 "Recent advancements in construction technologies have allowed for the building of new infrastructure that allows for ever-increasing streams of revenue in our offworld businesses."
+
+    # Architecture of Interest
+    tech_bugged_branch_tier_3:0 "Architecture of Interest"
+    tech_bugged_branch_tier_3_desc:0 "Breakthroughs in multi-species psychology have enabled our construction department to build structures in a way that subconsciously causes sapients to buy more, increasing earnings immensely in nearly every case."
+
+    
+    #######################
+    ##### Output Loc ######
+    #######################
+    
+    bbcb_mineral_tier_1_output:0 "Produces §G+0.5§! £minerals£ $minerals$ for every £job_miner£ $job_miner$ on the host planet."
+    bbcb_mineral_tier_2_output:0 "Produces §G+1§! £minerals£ $minerals$ for every £job_miner£ $job_miner$ on the host planet."
+    bbcb_mineral_tier_3_output:0 "Produces §G+1.5§! £minerals£ $minerals$ for every £job_miner£ $job_miner$ on the host planet."
+
+    bbcb_food_tier_1_output:0 "Produces §G+0.5§! £food£ $food$ for every £job_farmer£ $job_farmer$ on the host planet."
+    bbcb_food_tier_2_output:0 "Produces §G+1§! £food£ $food$ for every £job_farmer£ $job_farmer$ on the host planet."
+    bbcb_food_tier_3_output:0 "Produces §G+1.5§! £food£ $food$ for every £job_farmer£ $job_farmer$ on the host planet."
+
+    bbcb_energy_tier_1_output:0 "Produces §G+0.5§! £energy£ $energy$ for every £job_clerk£ $job_clerk$, £job_entertainer£ $job_entertainer$, or £job_technician£ $job_technician$ on the host planet."
+    bbcb_energy_tier_2_output:0 "Produces §G+1§! £energy£ $energy$ for every £job_clerk£ $job_clerk$ on the host planet."
+    bbcb_energy_tier_3_output:0 "Produces §G+1.5§! £energy£ $energy$ for every £job_clerk£ $job_clerk$ on the host planet."
+
+    bbcb_naval_cap_tier_1_output:0 "Produces §G+0.5§! £navy_size£ $NAVY_SIZE_TITLE$ for every £job_soldier£ $job_soldier$ on the host planet."
+    bbcb_naval_cap_tier_2_output:0 "Produces §G+1§! £navy_size£ $NAVY_SIZE_TITLE$ for every £job_soldier£ $job_soldier$ on the host planet."
+    bbcb_naval_cap_tier_3_output:0 "Produces §G+1.5§! £navy_size£ $NAVY_SIZE_TITLE$ for every £job_soldier£ $job_soldier$ on the host planet."
+
+    bbcb_alloy_tier_1_output:0 "Produces §G+0.5§! £alloys£ $alloys$ for every £job_foundry£ $job_foundry$ on the host planet."
+    bbcb_alloy_tier_2_output:0 "Produces §G+1§! £alloys£ $alloys$ for every £job_foundry£ $job_foundry$ on the host planet."
+    bbcb_alloy_tier_3_output:0 "Produces §G+1.5§! £alloys£ $alloys$ for every £job_foundry£ $job_foundry$ on the host planet."
+
+    bbcb_research_tier_1_output:0 "Produces §G+0.5§! £physics£ £society£ £engineering£ Research Points for every £job_researcher£ $job_researcher$ on the host planet."
+    bbcb_research_tier_2_output:0 "Produces §G+1§! £physics£ £society£ £engineering£ Research Points for every £job_researcher£ $job_researcher$ on the host planet."
+    bbcb_research_tier_3_output:0 "Produces §G+1.5§! £physics£ £society£ £engineering£ Research Points for every £job_researcher£ $job_researcher$ on the host planet."
+    
+    bbcb_unity_tier_1_output:0 "Produces §G+0.5§! £unity£ $unity$ for every £job_bureaucrat£ $job_bureaucrat$ on the host planet."
+    bbcb_unity_tier_2_output:0 "Produces §G+1§! £unity£ $unity$ for every £job_bureaucrat£ $job_bureaucrat$ on the host planet."
+    bbcb_unity_tier_3_output:0 "Produces §G+1.5§! £unity£ $unity$ for every £job_bureaucrat£ $job_bureaucrat$ on the host planet."
+
+    bbcb_consumer_goods_tier_1_output:0 "Produces §G+0.5§! £consumer_goods£ $consumer_goods$ for every £job_artisan£ $job_artisan$ on the host planet."
+    bbcb_consumer_goods_tier_2_output:0 "Produces §G+1§! £consumer_goods£ $consumer_goods$ for every £job_artisan£ $job_artisan$ on the host planet."
+    bbcb_consumer_goods_tier_3_output:0 "Produces §G+1.5§! £consumer_goods£ $consumer_goods$ for every £job_artisan£ $job_artisan$ on the host planet."

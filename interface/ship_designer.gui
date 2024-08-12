@@ -1,0 +1,2693 @@
+guiTypes = {
+	@content_width = 1540
+	@content_width_1680 = 1620
+	@content_width_1920 = 1860
+	@content_width_2560 = 2160
+	@content_height_1050 = 565
+	@content_height_1080 = 565
+	@content_height_1200 = 700
+	@content_height_1440 = 925
+	@section_height_1050 = 615
+	@section_height_1080 = 615
+	@section_height_1200 = 750
+	@section_height_1440 = 975
+	# this controls the size of the 3d viewport ui element
+	positionType = {
+		name = "ship_designer_3d_view_size"
+		position = { x = @content_width y = @content_height_1050 }
+		if_scaled_resolution = {
+			min_height = 1080
+			position = { x = @content_width y = @content_height_1080 }
+		}
+		if_scaled_resolution = {
+			min_height = 1200
+			position = { x = @content_width y = @content_height_1200 }
+		}
+		if_scaled_resolution = {
+			min_width = 1680
+			position = { x = @content_width_1680 y = @content_height_1050 }
+			if_scaled_resolution = {
+				min_height = 1080
+				position = { x = @content_width_1680 y = @content_height_1080 }
+			}
+			if_scaled_resolution = {
+				min_height = 1200
+				position = { x = @content_width_1680 y = @content_height_1200 }
+			}
+		}
+		if_scaled_resolution = {
+			min_width = 1920
+			position = { x = @content_width_1920 y = @content_height_1080 }
+			if_scaled_resolution = {
+				min_height = 1200
+				position = { x = @content_width_1920 y = @content_height_1200 }
+			}
+			if_scaled_resolution = {
+				min_height = 1440
+				position = { x = @content_width_1920 y = @content_height_1440 }
+			}
+		}
+		if_scaled_resolution = {
+			min_width = 2560
+			position = { x = @content_width_2560 y = @content_height_1080 }
+			if_scaled_resolution = {
+				min_height = 1200
+				position = { x = @content_width_2560 y = @content_height_1200 }
+			}
+			if_scaled_resolution = {
+				min_height = 1440
+				position = { x = @content_width_2560 y = @content_height_1440 }
+			}
+		}
+	}
+	# required slots are for instance FTL, combat computer, science lab
+	positionType = {
+		name = "required_slots_position"
+		position = { x = 1495 y = 330 }
+		if_scaled_resolution = {
+			min_height = 1080
+			position = { x = 1495 y = 335 }
+		}
+		if_scaled_resolution = {
+			min_height = 1200
+			position = { x = 1495 y = 404 }
+		}
+		if_scaled_resolution = {
+			min_width = 1680
+				position = { x = 1575 y = 330 }
+			if_scaled_resolution = {
+				min_height = 1080
+				position = { x = 1575 y = 335 }
+			}
+			if_scaled_resolution = {
+				min_height = 1200
+				position = { x = 1575 y = 404 }
+			}
+		}
+		if_scaled_resolution = {
+			min_width = 1920
+			position = { x = 1810 y = 335 }
+			if_scaled_resolution = {
+				min_height = 1200
+				position = { x = 1810 y = 404 }
+			}
+			if_scaled_resolution = {
+				min_height = 1440
+				position = { x = 1810 y = 535 }
+			}
+		}
+		if_scaled_resolution = {
+			min_width = 2560
+			position = { x = 2110 y = 335 }
+			if_scaled_resolution = {
+				min_height = 1200
+				position = { x = 2110 y = 404 }
+			}
+			if_scaled_resolution = {
+				min_height = 1440
+				position = { x = 2110 y = 520 }
+			}
+		}
+	}
+	positionType = {
+		name = "utilities_help_text_high_y"
+		position = { x = 10 y = -640 } # X decides how many utility components needed for text to move
+	}
+	positionType = {
+		name = "weapons_help_text_high_y"
+		position = { x = 10 y = 360 } # X decides how many weapon components needed for text to move. Will also move when "Select a Section" is visible
+	}
+	positionType = {
+		name = "min_component_slots" # min slots for utilities and weapons ???
+		position = { x = 5 y = 5 }
+	}
+	containerWindowType = {
+		name = "ship_designer"
+		show_position = { x = 35 y = 50 }
+		hide_position = { x = -100% y = 50 }
+		size = { width = 1560 height = 940 }
+		if_scaled_resolution = {
+			min_height = 1080
+			size = { width = 1560 height = 940 }
+		}
+		if_scaled_resolution = {
+			min_height = 1200
+			size = { width = 1560 height = 1075 }
+		}
+		if_scaled_resolution = {
+			min_width = 1680
+				size = { width = 1640 height = 940 }
+			if_scaled_resolution = {
+				min_height = 1080
+				size = { width = 1640 height = 940 }
+			}
+			if_scaled_resolution = {
+				min_height = 1200
+				size = { width = 1640 height = 1075 }
+			}
+		}
+		if_scaled_resolution = {
+			min_width = 1920
+			size = { width = 1880 height = 940 }
+			if_scaled_resolution = {
+				min_height = 1200
+				size = { width = 1880 height = 1075 }
+			}
+			if_scaled_resolution = {
+				min_height = 1440
+				size = { width = 1880 height = 1300 }
+			}
+		}
+		if_scaled_resolution = {
+			min_width = 2560
+			show_position = { x = 55 y = 50 }
+			size = { width = 2180 height = 940 }
+			if_scaled_resolution = {
+				min_height = 1200
+				size = { width = 2180 height = 1075 }
+			}
+			if_scaled_resolution = {
+				min_height = 1440
+				size = { width = 2180 height = 1300 }
+			}
+		}
+		animation_time = 200
+		animation_type = decelerated
+		clipping = no
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_tile_large_bg"
+		}
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_bg"
+			position = { x = 0 y = -12 }
+			if_scaled_resolution = {
+				min_width = 2560
+				position = { x = -10 y = -12 }
+			}
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "ship_designer_header_line"
+			quadTextureSprite = "GFX_line_short"
+			if_scaled_resolution = {
+				min_width = 1920
+				quadTextureSprite = "GFX_line"
+			}
+			position = { x = 6 y = 21 }
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "design_name"
+			font = "font_header_20"
+			text = "SHIPDESIGNER"
+			position = { x = 35 y = 2 }
+			if_scaled_resolution = {
+				min_width = 2560
+				position = { x = 25 y = 2 }
+			}
+			maxWidth = 300
+			maxHeight = 30
+			fixedSize = yes
+			format = left
+			vertical_alignment = center
+		}
+		buttonType = {
+			name = "fleet_manager_tab"
+			quadTextureSprite = "GFX_ui_tab_1_long_inactive"
+			position = { x = 0 y = 0 }
+			orientation = lower_left
+			buttonFont = "font_text_16"
+			buttonText = "FLEET_MANAGER_VIEW"
+			borderSize = { x = 20 y = 0 }
+			multiline = yes
+			shortcut = "z"
+			clicksound = "tab_click"
+		}
+		buttonType = {
+			name = "ship_designer_tab"
+			quadTextureSprite = "GFX_ui_tab_2_long_active"
+			position = { x = 155 y = 0 }
+			orientation = lower_left
+			buttonFont = "font_text_16"
+			buttonText = "SHIPDESIGNER"
+			borderSize = { x = 20 y = 0 }
+			multiline = yes
+			shortcut = "x"
+			clicksound = "tab_click"
+		}
+		containerWindowType = {
+			name = "3d_view_frame"
+			position = { x = 9 y = 54 }
+			size = { width = -9 height = -319 }
+			if_scaled_resolution = {
+				min_height = 1440
+				size = { width = -9 height = 927 }
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				size = { width = -9 height = -319 }
+				if_scaled_resolution = {
+					min_height = 1440
+					size = { width = 2162 height = 927 }
+				}
+			}
+			background = {
+				name = "3d_view_frame"
+				spriteType = "GFX_tiles_frame"
+			}
+		}
+		buttonType = {
+			name = "3d_view"
+			quadTextureSprite = "GFX_dummy_3d_ship_view"
+			position = { x = 10 y = 55 }
+			oversound = no_sound
+			clicksound = no_sound
+		}
+		overlappingElementsBoxType = {
+			name = "sections"
+			position = { x = 10 y = 5 }
+			size = { x = @content_width y = @content_height_1050 } # same position as 3d_view and same size as 3d_view_size
+			if_scaled_resolution = {
+				min_height = 1080
+				size = { x = @content_width y = @content_height_1080 }
+			}
+			if_scaled_resolution = {
+				min_height = 1200
+				size = { x = @content_width y = @content_height_1200 }
+			}
+			if_scaled_resolution = {
+				min_width = 1680
+				size = { x = @content_width_1680 y = @content_height_1050 }
+				if_scaled_resolution = {
+					min_height = 1080
+					size = { x = @content_width_1680 y = @content_height_1080 }
+				}
+				if_scaled_resolution = {
+					min_height = 1200
+					size = { x = @content_width_1680 y = @content_height_1200 }
+				}
+			}
+			if_scaled_resolution = {
+				min_width = 1920
+				size = { x = @content_width_1920 y = @content_height_1080 }
+				if_scaled_resolution = {
+					min_height = 1200
+					size = { x = @content_width_1920 y = @content_height_1200 }
+				}
+				if_scaled_resolution = {
+					min_height = 1440
+					size = { x = @content_width_1920 y = @content_height_1440 }
+				}
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				size = { x = @content_width_2560 y = @content_height_1080 }
+				if_scaled_resolution = {
+					min_height = 1200
+					size = { x = @content_width_2560 y = @content_height_1200 }
+				}
+				if_scaled_resolution = {
+					min_height = 1440
+					size = { x = @content_width_2560 y = @content_height_1440 }
+				}
+			}
+			spacing = 4
+			format = center
+		}
+		containerWindowType = {
+			name = "designs_list_background"
+			position = { x = 10 y = -10 }
+			size = { width = -10 height = 126 }
+			orientation = lower_left
+			origo = lower_left
+			background = {
+				name = "designs_list_background"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+			containerWindowType = {
+				name = "header_background"
+				position = { x = 8 y = 6 }
+				size = { width = -8 height = 20 }
+				background = {
+					name = "header_background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+			}
+		}
+		smoothListBoxType = {
+			name = "designs_list"
+			position = { x = 20 y = 810 }
+			size = { x = 1520 y = 112 }
+			if_scaled_resolution = {
+				min_height = 1080
+				position = { x = 20 y = 810 }
+			}
+			if_scaled_resolution = {
+				min_height = 1200
+				position = { x = 20 y = 945 }
+			}
+			if_scaled_resolution = {
+				min_width = 1680
+				size = { x = 1600 y = 112 }
+				if_scaled_resolution = {
+					min_height = 1080
+					position = { x = 20 y = 810 }
+				}
+				if_scaled_resolution = {
+					min_height = 1200
+					position = { x = 20 y = 945 }
+				}
+			}
+			if_scaled_resolution = {
+				min_width = 1920
+				position = { x = 20 y = 810 }
+				size = { x = 1840 y = 112 }
+				if_scaled_resolution = {
+					min_height = 1200
+					position = { x = 20 y = 945 }
+				}
+				if_scaled_resolution = {
+					min_height = 1440
+					position = { x = 20 y = 1170 }
+				}
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				position = { x = 20 y = 810 }
+				size = { x = 2140 y = 112 }
+				if_scaled_resolution = {
+					min_height = 1200
+					position = { x = 20 y = 945 }
+				}
+				if_scaled_resolution = {
+					min_height = 1440
+					position = { x = 20 y = 1170 }
+				}
+			}
+			horizontal = 1
+			scrollbarType = "standardlistbox_slider_horizontal_thick"
+			autohide_scrollbar = no
+			offset = { x = 0 y = -5 }
+		}
+		instantTextBoxType = {
+			name = "weapons_help_text"
+			font = "font_text_14"
+			text = "SHIP_DESIGN_WEAPONS_START_HELP"
+			position = { x = -340 y = 180 }
+			orientation = center_up
+			maxWidth = 680
+			maxHeight = 20
+			fixedSize = yes
+			format = center
+			vertical_alignment = center
+			text_color_code = "H"
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "utilities_help_text"
+			font = "font_text_14"
+			text = "SHIP_DESIGN_UTILITIES_START_HELP"
+			position = { x = -340 y = -460 }
+			orientation = center_down
+			maxWidth = 680
+			maxHeight = 20
+			fixedSize = yes
+			format = center
+			vertical_alignment = center
+			text_color_code = "H"
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "component_paint_help_text"
+			font = "font_text_14"
+			text = "SHIP_DESIGN_RIGHT_CLICK_TO_CANCEL_COMPONENT_PAINT"
+			position = { x = -340 y = -620 }
+			orientation = center_down
+			maxWidth = 680
+			maxHeight = 20
+			fixedSize = yes
+			format = center
+			vertical_alignment = center
+			alwaysTransparent = yes
+		}
+		containerWindowType = {
+			name = "info"
+			size = { width = 1214 height = 130 }
+			position = { x = 10 y = -146 }
+			orientation = lower_left
+			origo = lower_left
+			clipping = no
+			if_scaled_resolution = {
+				min_width = 1650
+				size = { width = 1264 height = 130 }
+			}
+			if_scaled_resolution = {
+				min_width = 1920
+				size = { width = 1534 height = 130 }
+				position = { x = -163 y = -146 }
+				orientation = center_down
+				origo = center_down
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				position = { x = -12 y = -146 }
+			}
+			background = {
+				name = "info_bg_box"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+			containerWindowType = {
+				name = "ship_label_hex_bg"
+				position = { x = 0 y = 0 }
+				size = { width = @content_width height = 38 }
+				if_scaled_resolution = {
+					min_width = 1920
+					size = { width = @content_width_1920 height = 38 }
+				}
+				if_scaled_resolution = {
+					min_width = 2560
+					size = { width = 100% height = 38 }
+					position = { x = 12 y = 0 }
+				}
+				iconType = {
+					name = "hex_bg_1"
+					spriteType = "GFX_hex_center_bg"
+					position = { x = -100 y = -20 }
+					orientation = center_up
+					centerPosition = yes
+					alwaysTransparent = yes
+				}
+				iconType = {
+					name = "hex_bg_2"
+					spriteType = "GFX_hex_center_bg"
+					position = { x = 0 y = -20 }
+					orientation = center_up
+					centerPosition = yes
+					alwaysTransparent = yes
+				}
+				iconType = {
+					name = "hex_bg_3"
+					spriteType = "GFX_hex_center_bg"
+					position = { x = 100 y = -20 }
+					orientation = center_up
+					centerPosition = yes
+					alwaysTransparent = yes
+				}
+			}
+			instantTextBoxType = {
+				name = "ship_label"
+				font = "large_title_font"
+				text = ""
+				position = { x = 0 y = -41 }
+				format = center
+				maxWidth = @content_width
+				if_scaled_resolution = {
+					min_width = 1920
+					maxWidth = @content_width_1920
+				}
+				if_scaled_resolution = {
+					min_width = 2560
+					maxWidth = 1534
+					position = { x = 12 y = -41 }
+				}
+				maxHeight = 38
+				fixedSize = yes
+				text_color_code = "H"
+				alwaysTransparent = yes
+			}
+			containerWindowType = {
+				name = "content"
+				size = { width = 100% height = 100% }
+				position = { x = 0 y = 0 }
+				@container_x = 15
+				@container_x2 = 584
+				@container_x3 = 899
+				@container_x4 = 1214
+				@value_x = 195
+				@value_x2 = 764
+				@value_x3 = 1079
+				@value_x4 = 1394
+				@container_x_1600 = 8
+				@container_x2_1600 = 397
+				@container_x3_1600 = 663
+				@container_x4_1600 = 928
+				@value_x_1600 = 138
+				@value_x2_1600 = 528
+				@value_x3_1600 = 793
+				@value_x4_1600 = 1081
+				@row_1 = 30
+				@row_2 = 61
+				@row_3 = 92
+				@row_4 = 123
+				instantTextBoxType = {
+					name = "production"
+					font = "font_header_20"
+					text = "PRODUCTION_COST"
+					appendText = ":"
+					position = { x = @container_x_1600 y = 0 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x y = 0 }
+					}
+					maxWidth = 250
+					maxHeight = 30
+					fixedSize = yes
+					format = left
+					vertical_alignment = center
+					text_color_code = "E"
+				}
+				containerWindowType = {
+					name = "build_time_value_background"
+					position = { x = @container_x_1600 y = @row_1 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x y = @row_1 }
+					}
+					size = { width = 250 height = 30 }
+					if_scaled_resolution = {
+						min_width = 1920
+						size = { width = 379 height = 30 }
+					}
+					clipping = no
+					background = {
+						name = "build_time_value_background"
+						spriteType = "GFX_planetview_topright_bg_small"
+						position = { x = 130 y = 0 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 180 y = 0 }
+						}
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "build_time_background"
+						spriteType = "GFX_info_background_125"
+						if_scaled_resolution = {
+							min_width = 1920
+							spriteType = "GFX_ui_info_background_175"
+						}
+						pdx_tooltip = "SHIP_STAT_DESC_build_time"
+					}
+					instantTextBoxType = {
+						name = "build_time"
+						font = "font_text_14"
+						text = "SHIP_STAT_BUILD_TIME_INLINE"
+						position = { x = 0 y = 0 }
+						maxWidth = 125
+						if_scaled_resolution = {
+							min_width = 1920
+							maxWidth = 175
+						}
+						maxHeight = 30
+						fixedSize = yes
+						format = left
+						vertical_alignment = center
+						borderSize = { x = 5 y = 0 }
+						alwaysTransparent = yes
+					}
+				}
+				instantTextBoxType = {
+					name = "build_time_value"
+					font = "font_text_14"
+					text = ""
+					position = { x = @value_x_1600 y = @row_1 }
+					maxWidth = 250
+					maxHeight = 30
+					fixedSize = yes
+					format = left
+					vertical_alignment = center
+					borderSize = { x = 5 y = 0 }
+					text_color_code = "Y"
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @value_x y = @row_1 }
+						maxWidth = 379
+					}
+				}
+				containerWindowType = {
+					name = "upkeep_value_background"
+					position = { x = @container_x_1600 y = @row_2 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x y = @row_2 }
+					}
+					size = { width = 250 height = 30 }
+					if_scaled_resolution = {
+						min_width = 1920
+						size = { width = 379 height = 30 }
+					}
+					clipping = no
+					background = {
+						name = "upkeep_value_background"
+						spriteType = "GFX_planetview_topright_bg_small"
+						position = { x = 130 y = 0 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 180 y = 0 }
+						}
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "upkeep_background"
+						spriteType = "GFX_info_background_125"
+						if_scaled_resolution = {
+							min_width = 1920
+							spriteType = "GFX_ui_info_background_175"
+						}
+						pdx_tooltip = "SHIP_STAT_DESC_energy_maintenance"
+					}
+					instantTextBoxType = {
+						name = "upkeep"
+						font = "font_text_14"
+						text = "SHIP_STAT_MINERAL_MAINTENENCE_INLINE"
+						position = { x = 0 y = 0 }
+						maxWidth = 125
+						if_scaled_resolution = {
+							min_width = 1920
+							maxWidth = 175
+						}
+						maxHeight = 30
+						fixedSize = yes
+						format = left
+						vertical_alignment = center
+						borderSize = { x = 5 y = 0 }
+						alwaysTransparent = yes
+					}
+				}
+				instantTextBoxType = {
+					name = "upkeep_value"
+					font = "font_text_14"
+					text = ""
+					position = { x = @value_x_1600 y = @row_2 }
+					maxWidth = 250
+					maxHeight = 30
+					fixedSize = yes
+					format = left
+					vertical_alignment = center
+					borderSize = { x = 5 y = 0 }
+					text_color_code = "Y"
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @value_x y = @row_2 }
+						maxWidth = 379
+					}
+				}
+				containerWindowType = {
+					name = "cost_value_background"
+					position = { x = @container_x_1600 y = @row_3 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x y = @row_3 }
+					}
+					size = { width = 250 height = 30 }
+					if_scaled_resolution = {
+						min_width = 1920
+						size = { width = 379 height = 30 }
+					}
+					clipping = no
+					background = {
+						name = "cost_value_background"
+						spriteType = "GFX_planetview_topright_bg_small"
+						position = { x = 130 y = 0 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 180 y = 0 }
+						}
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "cost_background"
+						spriteType = "GFX_info_background_125"
+						if_scaled_resolution = {
+							min_width = 1920
+							spriteType = "GFX_ui_info_background_175"
+						}
+						pdx_tooltip = "SHIP_STAT_DESC_cost"
+					}
+					instantTextBoxType = {
+						name = "cost"
+						font = "font_text_14"
+						text = "SHIP_STAT_COST_INLINE"
+						position = { x = 0 y = 0 }
+						maxWidth = 125
+						if_scaled_resolution = {
+							min_width = 1920
+							maxWidth = 175
+						}
+						maxHeight = 30
+						format = left
+						vertical_alignment = center
+						borderSize = { x = 5 y = 0 }
+						alwaysTransparent = yes
+					}
+				}
+				instantTextBoxType = {
+					name = "cost_value"
+					font = "font_text_14"
+					text = ""
+					position = { x = @value_x_1600 y = @row_3 }
+					maxWidth = 240
+					maxHeight = 30
+					format = left
+					vertical_alignment = center
+					borderSize = { x = 5 y = 1 }
+					scrollbarType = "standardlistbox_slider_thick_verysmall"
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @value_x y = @row_3 }
+						maxWidth = 369
+					}
+				}
+				instantTextBoxType = {
+					name = "ship_stats"
+					font = "font_text_20"
+					text = "SHIP_STATS"
+					appendText = ":"
+					position = { x = @container_x2_1600 y = 0 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x2 y = 0 }
+					}
+					maxWidth = 250
+					maxHeight = 30
+					fixedSize = yes
+					format = left
+					vertical_alignment = center
+					text_color_code = "E"
+				}
+				containerWindowType = {
+					name = "hitpoints_value_background"
+					position = { x = @container_x2_1600 y = @row_1 }
+					size = { width = 125 height = 30 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x2 y = @row_1 }
+					}
+					clipping = no
+					background = {
+						name = "hitpoints_value_background"
+						spriteType = "GFX_planetview_topright_bg_small"
+						position = { x = 130 y = 0 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 180 y = 0 }
+						}
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "hitpoints_background"
+						spriteType = "GFX_info_background_125"
+						if_scaled_resolution = {
+							min_width = 1920
+							spriteType = "GFX_ui_info_background_175"
+						}
+						pdx_tooltip = "SHIP_STAT_DESC_hitpoints"
+					}
+					instantTextBoxType = {
+						name = "hitpoints"
+						font = "font_text_14"
+						text = "SHIP_STAT_HITPOINTS_INLINE"
+						position = { x = 0 y = 0 }
+						maxWidth = 125
+						if_scaled_resolution = {
+							min_width = 1920
+							maxWidth = 175
+						}
+						maxHeight = 30
+						fixedSize = yes
+						format = left
+						vertical_alignment = center
+						borderSize = { x = 5 y = 0 }
+						alwaysTransparent = yes
+					}
+				}
+				instantTextBoxType = {
+					name = "hitpoints_value"
+					font = "font_text_14"
+					text = ""
+					position = { x = @value_x2_1600 y = @row_1 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @value_x2 y = @row_1 }
+					}
+					maxWidth = 125
+					maxHeight = 30
+					fixedSize = yes
+					format = left
+					vertical_alignment = center
+					borderSize = { x = 5 y = 0 }
+				}
+				containerWindowType = {
+					name = "armor_value_background"
+					position = { x = @container_x2_1600 y = @row_2 }
+					size = { width = 125 height = 30 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x2 y = @row_2 }
+					}
+					clipping = no
+					background = {
+						name = "armor_value_background"
+						spriteType = "GFX_planetview_topright_bg_small"
+						position = { x = 130 y = 0 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 180 y = 0 }
+						}
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "armor_background"
+						spriteType = "GFX_info_background_125"
+						if_scaled_resolution = {
+							min_width = 1920
+							spriteType = "GFX_ui_info_background_175"
+						}
+						pdx_tooltip = "SHIP_STAT_DESC_armor"
+					}
+					instantTextBoxType = {
+						name = "armor"
+						font = "font_text_14"
+						text = "SHIP_STAT_ARMOR_INLINE"
+						position = { x = 0 y = 0 }
+						maxWidth = 125
+						if_scaled_resolution = {
+							min_width = 1920
+							maxWidth = 175
+						}
+						maxHeight = 30
+						fixedSize = yes
+						format = left
+						vertical_alignment = center
+						borderSize = { x = 5 y = 0 }
+						alwaysTransparent = yes
+					}
+				}
+				instantTextBoxType = {
+					name = "armor_value"
+					font = "font_text_14"
+					text = ""
+					position = { x = @value_x2_1600 y = @row_2 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @value_x2 y = @row_2 }
+					}
+					maxWidth = 125
+					maxHeight = 30
+					fixedSize = yes
+					format = left
+					vertical_alignment = center
+					borderSize = { x = 5 y = 0 }
+				}
+				containerWindowType = {
+					name = "shields_value_background"
+					position = { x = @container_x2_1600 y = @row_3 }
+					size = { width = 125 height = 30 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x2 y = @row_3 }
+					}
+					clipping = no
+					background = {
+						name = "shields_value_background"
+						spriteType = "GFX_planetview_topright_bg_small"
+						position = { x = 130 y = 0 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 180 y = 0 }
+						}
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "shields_background"
+						spriteType = "GFX_info_background_125"
+						if_scaled_resolution = {
+							min_width = 1920
+							spriteType = "GFX_ui_info_background_175"
+						}
+						pdx_tooltip = "SHIP_STAT_DESC_shields"
+					}
+					instantTextBoxType = {
+						name = "shields"
+						font = "font_text_14"
+						text = "SHIP_STAT_SHIELDS_INLINE"
+						position = { x = 0 y = 0 }
+						maxWidth = 125
+						if_scaled_resolution = {
+							min_width = 1920
+							maxWidth = 175
+						}
+						maxHeight = 30
+						fixedSize = yes
+						format = left
+						vertical_alignment = center
+						borderSize = { x = 5 y = 0 }
+						alwaysTransparent = yes
+					}
+				}
+				instantTextBoxType = {
+					name = "shields_value"
+					font = "font_text_14"
+					text = ""
+					position = { x = @value_x2_1600 y = @row_3 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @value_x2 y = @row_3 }
+					}
+					maxWidth = 125
+					maxHeight = 30
+					fixedSize = yes
+					format = left
+					vertical_alignment = center
+					borderSize = { x = 5 y = 0 }
+				}
+				containerWindowType = {
+					name = "power_value_background"
+					position = { x = @container_x3_1600 y = @row_1 }
+					size = { width = 125 height = 30 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x3 y = @row_1 }
+					}
+					clipping = no
+					background = {
+						name = "power_value_background"
+						spriteType = "GFX_planetview_topright_bg_small"
+						position = { x = 130 y = 0 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 180 y = 0 }
+						}
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "power_background"
+						spriteType = "GFX_info_background_125"
+						if_scaled_resolution = {
+							min_width = 1920
+							spriteType = "GFX_ui_info_background_175"
+						}
+						pdx_tooltip = "SHIP_STAT_DESC_power"
+					}
+					instantTextBoxType = {
+						name = "power"
+						font = "font_text_14"
+						text = "SHIP_STAT_POWER_USAGE_INLINE"
+						position = { x = 0 y = 0 }
+						maxWidth = 125
+						if_scaled_resolution = {
+							min_width = 1920
+							maxWidth = 175
+						}
+						maxHeight = 30
+						fixedSize = yes
+						format = left
+						vertical_alignment = center
+						borderSize = { x = 5 y = 0 }
+						alwaysTransparent = yes
+					}
+				}
+				instantTextBoxType = {
+					name = "power_value"
+					font = "font_text_14"
+					text = ""
+					position = { x = @value_x3_1600 y = @row_1 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @value_x3 y = @row_1 }
+					}
+					maxWidth = 125
+					maxHeight = 30
+					fixedSize = yes
+					format = left
+					vertical_alignment = center
+					borderSize = { x = 5 y = 0 }
+				}
+				containerWindowType = {
+					name = "speed_value_background"
+					position = { x = @container_x3_1600 y = @row_2 }
+					size = { width = 125 height = 30 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x3 y = @row_2 }
+					}
+					clipping = no
+					background = {
+						name = "speed_value_background"
+						spriteType = "GFX_planetview_topright_bg_small"
+						position = { x = 130 y = 0 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 180 y = 0 }
+						}
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "speed_background"
+						spriteType = "GFX_info_background_125"
+						if_scaled_resolution = {
+							min_width = 1920
+							spriteType = "GFX_ui_info_background_175"
+						}
+						pdx_tooltip = "SHIP_STAT_DESC_combat_speed"
+					}
+					instantTextBoxType = {
+						name = "speed"
+						font = "font_text_14"
+						text = "SHIP_STAT_SPEED_INLINE"
+						position = { x = 0 y = 0 }
+						maxWidth = 125
+						if_scaled_resolution = {
+							min_width = 1920
+							maxWidth = 175
+						}
+						maxHeight = 30
+						fixedSize = yes
+						format = left
+						vertical_alignment = center
+						borderSize = { x = 5 y = 0 }
+						alwaysTransparent = yes
+					}
+				}
+				instantTextBoxType = {
+					name = "speed_value"
+					font = "font_text_14"
+					text = ""
+					position = { x = @value_x3_1600 y = @row_2 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @value_x3 y = @row_2 }
+					}
+					maxWidth = 125
+					maxHeight = 30
+					fixedSize = yes
+					format = left
+					vertical_alignment = center
+					borderSize = { x = 5 y = 0 }
+				}
+				containerWindowType = {
+					name = "evasion_value_background"
+					position = { x = @container_x3_1600 y = @row_3 }
+					size = { width = 125 height = 30 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x3 y = @row_3 }
+					}
+					size = { width = 125 height = 30 }
+					clipping = no
+					background = {
+						name = "evasion_value_background"
+						spriteType = "GFX_planetview_topright_bg_small"
+						position = { x = 130 y = 0 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 180 y = 0 }
+						}
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "evasion_background"
+						spriteType = "GFX_info_background_125"
+						if_scaled_resolution = {
+							min_width = 1920
+							spriteType = "GFX_ui_info_background_175"
+						}
+						pdx_tooltip = "SHIP_STAT_DESC_evasion"
+					}
+					instantTextBoxType = {
+						name = "evasion"
+						font = "font_text_14"
+						text = "SHIP_STAT_EVASION_INLINE"
+						position = { x = 0 y = 0 }
+						maxWidth = 125
+						if_scaled_resolution = {
+							min_width = 1920
+							maxWidth = 175
+						}
+						maxHeight = 30
+						fixedSize = yes
+						format = left
+						vertical_alignment = center
+						borderSize = { x = 5 y = 0 }
+						alwaysTransparent = yes
+					}
+				}
+				instantTextBoxType = {
+					name = "evasion_value"
+					font = "font_text_14"
+					text = ""
+					position = { x = @value_x3_1600 y = @row_3 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @value_x3 y = @row_3 }
+					}
+					maxWidth = 125
+					maxHeight = 30
+					fixedSize = yes
+					format = left
+					vertical_alignment = center
+					borderSize = { x = 5 y = 0 }
+				}
+				containerWindowType = {
+					name = "damage_value_background"
+					position = { x = @container_x4_1600 y = @row_1 }
+					size = { width = 125 height = 30 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x4 y = @row_1 }
+					}
+					size = { width = 125 height = 30 }
+					clipping = no
+					background = {
+						name = "damage_value_background"
+						spriteType = "GFX_planetview_topright_bg_small"
+						position = { x = 153 y = 0 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 180 y = 0 }
+						}
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "damage_background"
+						spriteType = "GFX_info_background_148"
+						if_scaled_resolution = {
+							min_width = 1920
+							spriteType = "GFX_ui_info_background_175"
+						}
+						pdx_tooltip = "SHIP_STAT_DESC_damage"
+					}
+					instantTextBoxType = {
+						name = "damage"
+						font = "font_text_14"
+						text = "SHIP_STAT_DAMAGE_INLINE"
+						position = { x = 0 y = 0 }
+						maxWidth = 148
+						if_scaled_resolution = {
+							min_width = 1920
+							maxWidth = 175
+						}
+						maxHeight = 30
+						fixedSize = yes
+						format = left
+						vertical_alignment = center
+						borderSize = { x = 5 y = 0 }
+						alwaysTransparent = yes
+					}
+				}
+				instantTextBoxType = {
+					name = "damage_value"
+					font = "font_text_14"
+					text = ""
+					position = { x = @value_x4_1600 y = @row_1 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @value_x4 y = @row_1 }
+					}
+					maxWidth = 125
+					maxHeight = 30
+					fixedSize = yes
+					format = left
+					vertical_alignment = center
+					borderSize = { x = 5 y = 0 }
+				}
+				containerWindowType = {
+					name = "special_values_background"
+					position = { x = @container_x4_1600 y = @row_2 }
+					size = { width = 125 height = 30 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x4 y = @row_2 }
+					}
+					clipping = no
+					background = {
+						name = "special_values_background"
+						spriteType = "GFX_planetview_topright_bg_small"
+						position = { x = 153 y = 0 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 180 y = 0 }
+						}
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "special_background"
+						spriteType = "GFX_info_background_148"
+						if_scaled_resolution = {
+							min_width = 1920
+							spriteType = "GFX_ui_info_background_175"
+						}
+					}
+					instantTextBoxType = {
+						name = "special"
+						font = "font_text_14"
+						text = "SHIP_STAT_SPECIAL_INLINE"
+						position = { x = 0 y = 0 }
+						maxWidth = 148
+						if_scaled_resolution = {
+							min_width = 1920
+							maxWidth = 175
+						}
+						maxHeight = 30
+						fixedSize = yes
+						format = left
+						vertical_alignment = center
+						borderSize = { x = 5 y = 0 }
+						alwaysTransparent = yes
+					}
+				}
+				instantTextBoxType = {
+					name = "special_values"
+					font = "font_text_14"
+					text = ""
+					position = { x = @value_x4_1600 y = @row_2 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @value_x4 y = @row_2 }
+					}
+					maxWidth = 125
+					maxHeight = 30
+					fixedSize = yes
+					format = left
+					vertical_alignment = center
+					borderSize = { x = 5 y = 0 }
+				}
+				containerWindowType = {
+					name = "cloaking_values"
+					position = { x = @container_x4_1600 y = @row_3 }
+					size = { width = 125 height = 30 }
+					if_scaled_resolution = {
+						min_width = 1920
+						position = { x = @container_x4 y = @row_3 }
+					}
+					clipping = no
+					background = {
+						name = "cloaking_values"
+						spriteType = "GFX_planetview_topright_bg_small"
+						position = { x = 153 y = 0 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 180 y = 0 }
+						}
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "cloaking_background"
+						spriteType = "GFX_info_background_148"
+						if_scaled_resolution = {
+							min_width = 1920
+							spriteType = "GFX_ui_info_background_175"
+						}
+					}
+					instantTextBoxType = {
+						name = "cloaking_label"
+						font = "font_text_14"
+						text = "SHIP_STAT_CLOAKING_STRENGTH_INLINE"
+						position = { x = 0 y = 0 }
+						maxWidth = 148
+						if_scaled_resolution = {
+							min_width = 1920
+							maxWidth = 175
+						}
+						maxHeight = 30
+						fixedSize = yes
+						format = left
+						vertical_alignment = center
+						borderSize = { x = 5 y = 0 }
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "cloaking_icon"
+						spriteType = "GFX_cloaking_strength_icon"
+						position = { x = 156 y = 4 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 183 y = 4 }
+						}
+					}
+					iconType = {
+						name = "cloaking_value"
+						spriteType = "GFX_cloaking_level_0"
+						position = { x = 178 y = 4 }
+						if_scaled_resolution = {
+							min_width = 1920
+							position = { x = 205 y = 4 }
+						}
+					}
+				}
+			}
+		}
+		containerWindowType = {
+			name = "controls"
+			position = { x = -10 y = -146 }
+			size = { width = 316 height = 160 }
+			orientation = lower_right
+			origo = lower_right
+			clipping = no
+			background = {
+				name = "controls_bg"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+			containerWindowType = {
+				name = "ship_designer_rename_background"
+				position = { x = 12 y = 8 }
+				size = { width = 250 height = 30 }
+				background = {
+					name = "ship_designer_rename_background"
+					spriteType = "GFX_tiles_frame"
+				}
+			}
+			buttonType = {
+				name = "randomize_name"
+				position = { x = 270 y = 4 }
+				spriteType = "GFX_button_randomize"
+				pdx_tooltip = "SHIP_DESIGN_NAME_RANDOMIZE_TOOLTIP"
+				clicksound = randomizer_click
+			}
+			editBoxType = {
+				name = "rename_box"
+				font = "font_text_14"
+				text = "select name"
+				size = { x = 250 y = 30 }
+				position = { x = 12 y = 8 }
+				borderSize = { x = 10 y = 6 }
+			}
+			buttonType = {
+				name = "clear_design"
+				quadTextureSprite = "GFX_standard_button_142_34_button"
+				position = { x = 0 y = 75 }
+				buttonFont = "font_text_14"
+				buttonText = "CLEAR_DESIGN"
+			}
+			buttonType = {
+				name = "choose_role"
+				quadTextureSprite = "GFX_standard_button_142_34_button"
+				position = { x = 150 y = 75 }
+				buttonFont = "font_text_14"
+				buttonText = "SELECT_ROLE"
+			}
+			buttonType = {
+				name = "finish"
+				quadTextureSprite = "GFX_standard_button_142_34_button"
+				position = { x = 150 y = 35 }
+				buttonFont = "font_text_14"
+				buttonText = "FINISH_DESIGN"
+			}
+			buttonType = {
+				name = "save"
+				quadTextureSprite = "GFX_standard_button_142_34_button"
+				position = { x = 0 y = 35 }				buttonFont = "font_text_14"
+				buttonText = "SAVE"
+				clicksound = confirm_click
+				oversound = no_sound
+			}
+			instantTextBoxType = {
+				name = "upgrade_ship_components_label"
+				font = "font_text_14"
+				text = "SHIP_COMPONENTS_AUTO_GENERATE"
+				position = { x = -157 y = -35 }
+				orientation = lower_right
+				maxWidth = 120
+				maxHeight = 32
+				fixedSize = yes
+				format = right
+				vertical_alignment = center
+			}
+			checkboxType = {
+				name = "upgrade_ship_components"
+				position = { x = -37 y = -34 }
+				quadTextureSprite = "GFX_checkbox_20_20_01"
+				orientation = lower_right
+			}
+			containerWindowType = {
+				name = "ship_role_container_window"
+				position = { x = 0 y = 0 }
+				size = { width = 225 height = 290 }
+				orientation = lower_right
+				origo = lower_right
+				background = {
+					name = "bg"
+					spriteType = "GFX_plain_bg_tile"
+				}
+				buttonType = {
+					name = "close_button"
+					quadTextureSprite = "GFX_close"
+					position = { x = -42 y = -42 }
+					orientation = lower_right
+					pdx_tooltip = "CLOSE_TITLE"
+				}
+				smoothListBoxType = {
+					name = "ship_roles"
+					position = { x = 0 y = 5 }
+					size = { x = 184 y = 280 }
+					scrollbartype = "standardlistbox_slider_thick"
+					offset = {  x = -5  y = 0 }
+					spacing = 0
+				}
+			}
+		}
+		checkboxType = {
+			name = "auto_design"
+			position = { x = -320 y = -180 }
+			quadTextureSprite = "GFX_checkbox_20_20_01"
+			orientation = lower_right
+		}
+		instantTextBoxType = {
+			name = "auto_design_label"
+			font = "font_text_14"
+			text = "SHIP_DESIGN_AUTO_GENERATE"
+			position = { x = -290 y = -181 }
+			orientation = lower_right
+			maxWidth = 120
+			maxHeight = 32
+			fixedSize = yes
+			format = left
+			vertical_alignment = center
+		}
+		iconType = {
+			name = "blocker"
+			spriteType = "GFX_ship_designer_blocker"
+			position = { x = 0 y = 0 }
+		}
+		buttonType = {
+			name = "close"
+			quadTextureSprite = "GFX_close"
+			position = { x = -45 y = 16 }
+			orientation = upper_right
+			shortcut = "ESCAPE"
+			clicksound = "back_click"
+		}
+	}
+	# Ship Role Selection Action
+	containerWindowType = {
+		name = "ship_role_selection_entry"
+		size = { width = 184 height = 30 }
+		buttonType = {
+			name = "select_role_button"
+			position = { x = 0 y = -5 }
+			quadTextureSprite = "GFX_button_164_24"
+			buttonFont = "font_text_14"
+		}
+	}
+	# Ship Design Size Action menu
+	containerWindowType = {
+		name = "ship_design_size_action_menu"
+		position = { x = 0 y = 0 }
+		size = { width = 320 height = 130 }
+		moveable = yes
+		orientation = center
+		origo = center
+	}
+	# Ship Design Action menu
+	containerWindowType = {
+		name = "ship_design_action_menu"
+		position = { x = 0 y = 0 }
+		size = { width = 320 height = 130 }
+		moveable = yes
+		orientation = center
+		origo = center
+	}
+	# Ship Design Save menu
+	containerWindowType = {
+		name = "ship_design_save_menu"
+		position = { x = 0 y = 0 }
+		size = { width = 320 height = 130 }
+		moveable = yes
+		orientation = center
+		origo = center
+	}
+	# Ship type chooser
+	containerWindowType = {
+		name = "selector"
+		position = { x = 70 y = -236 }
+		size = { width = 340 height = 470 }
+		orientation = lower_left
+		origo = lower_left
+		moveable = yes
+		background = {
+			name = "background"
+			spriteType = "gfx_message_bg"
+		}
+		buttonType = {
+			name = "close"
+			quadTextureSprite = "GFX_close"
+			position = { x = -42 y = 3 }
+			orientation = upper_right
+			shortcut = "ESCAPE"
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "font_text_14"
+			text = ""
+			position = { x = 10 y = 45 }
+			maxWidth = 320
+			maxHeight = 16
+			fixedSize = yes
+			format = center
+			vertical_alignment = bottom
+		}
+		listBoxType = {
+			name = "list"
+			position = { x = 33 y = 75 }			size = { x = 270 y = 380 }
+			borderSize = { x = 0 y = 0 }
+			scrollbarType = "standardlistbox_slider_thick"
+		}
+	}
+	containerWindowType = {
+		name = "selector_item"
+		position = { x = 0 y = 0 }
+		size = { width = 300 height = 30 }
+		# ship_type_window_background
+		buttonType = {
+			name = "choose_ship_type_button"
+			spriteType = "GFX_galactic_object_button"
+			position = { x = -12 y = -4 }
+			oversound = mouse_over
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "font_text_14"
+			text = ""
+			text_color_code = "H"
+			position = { x = 0 y = 5 }
+			maxWidth = 270
+			maxHeight = 20
+			fixedSize = yes
+			format = center
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "section_label_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 280 height = 52 }
+		buttonType = {
+			name = "background"
+			quadTextureSprite = "GFX_ship_designer_item_bg"
+		}
+		instantTextBoxType = {
+			name = "name"
+			font = "font_header_20"
+			text = ""
+			position = { x = 52 y = 1 }
+			maxWidth = 240
+			maxHeight = 30
+			fixedSize = yes
+			format = left
+		}
+	}
+	positionType = {
+		name = "section_entries_per_row"
+		position = { x = 3 y = 0 }
+		if_scaled_resolution = {
+			min_width = 1920
+			position = { x = 4 y = 0 }
+		}
+		if_scaled_resolution = {
+			min_width = 2560
+			position = { x = 5 y = 0 }
+		}
+	}
+	containerWindowType = {
+		name = "section_entry_row"
+		size = { width = 1080 height = 185 }
+		if_scaled_resolution = {
+			min_width = 1920
+			size = { width = 1450 height = 185 }
+		}
+		if_scaled_resolution = {
+			min_width = 2560
+			size = { width = 1805 height = 185 }
+		}
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_invisible"
+			alwaysTransparent = yes
+		}
+		overlappingElementsBoxType = {
+			name = "list"
+			position = { x = 6 y = 5 }
+			size = { x = 1080 y = 175 }
+			if_scaled_resolution = {
+				min_width = 1920
+				size = { x = 1450 y = 175 }
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				size = { x = 1805 y = 175 }
+			}
+			spacing = 10
+			format = center
+		}
+	}
+	containerWindowType = {
+		name = "section_component_slot_entry"
+		size = { width = 34 height = 30 }
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_component_slot_icons"
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "count"
+			font = "font_text_14"
+			position = { x = 20 y = 14 }
+			maxWidth = 18
+			maxHeight = 16
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "section_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 350 height = 175 }
+		background = {
+			name = "background"
+			spriteType = "GFX_tiles_frame_notrans"
+		}
+		containerWindowType = {
+			name = "section_entry_bg"
+			size = { width = 352 height = 179 }
+			position = { x = -1 y = -1 }
+			background = {
+				name = "background"
+				spriteType = "GFX_button_light"
+			}
+		}
+		containerWindowType = {
+			name = "name_background"
+			size = { width = 340 height = 30 }
+			position = { x = 5 y = 5 }
+			background = {
+				name = "name_background"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+				alwaysTransparent = yes
+			}
+		}
+		instantTextBoxType = {
+			name = "name"
+			font = "font_header_20"
+			text = ""
+			position = { x = 5 y = 5 }
+			maxWidth = 340
+			maxHeight = 30
+			fixedSize = yes
+			format = center
+			vertical_alignment = center
+			alwaysTransparent = yes
+		}
+		containerWindowType = {
+			name = "section_background"
+			size = { width = 172 height = 137 }
+			position = { x = 4 y = 34 }
+			background = {
+				name = "section_background"
+				spriteType = "GFX_set_focus_bg"
+				alwaysTransparent = yes
+			}
+		}
+		buttonType = {
+			name = "render_target"
+			quadTextureSprite = "GFX_dummy_3d_section_entry"
+			position = { x = 9 y = 39 }
+			size = { x = 162 y = 127 }
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "weapons_label"
+			font = "font_text_14"
+			text = "SECTION_ENTRY_WEAPON_SLOTS"
+			position = { x = 179 y = 53 }
+			maxWidth = 165
+			maxHeight = 16
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+		}
+		overlappingElementsBoxType = {
+			name = "weapon_slots"
+			position = { x = 179 y = 73 }
+			size = { x = 170 y = 30 }
+			spacing = 1
+			format = left
+		}
+		instantTextBoxType = {
+			name = "utility_label"
+			font = "font_text_14"
+			text = "SECTION_ENTRY_UTILITY_SLOTS"
+			position = { x = 179 y = 109 }
+			maxWidth = 165
+			maxHeight = 16
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+		}
+		overlappingElementsBoxType = {
+			name = "utility_slots"
+			position = { x = 179 y = 129 }
+			size = { x = 170 y = 30 }
+			spacing = 1
+			format = left
+		}
+	}
+	containerWindowType = {
+		name = "component_set_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 355 height = 42 }
+		clipping = yes
+		containerWindowType = {
+			name = "component_entry_bg"
+			position = { x = -5 y = -4 }
+			size = { width = 363 height = 48 }
+			background = {
+				name = "background"
+				spriteType = "GFX_tiles_frame_light"
+				clicksound = select_click
+			}
+		}
+		containerWindowType = {
+			name = "selected_overlay"
+			position = { x = -5 y = -4 }
+			size = { width = 363 height = 48 }
+			background = {
+				name = "selected_background"
+				quadTextureSprite = "GFX_glow_tile_orange"
+				alwaysTransparent = yes
+			}
+		}
+		iconType = {
+			name = "icon_bg"
+			spriteType = "GFX_ship_part_background"
+			position = { x = -3 y = -3 }
+			scale = 0.63
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_ship_part_background"
+			position = { x = -1 y = 0 }
+			scale = 0.70
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "name"
+			font = "font_text_14"
+			text = ""
+			position = { x = 45 y = 1 }
+			maxWidth = 220
+			maxHeight = 38
+			fixedSize = yes
+			format = left
+			vertical_alignment = center
+		}
+		@type_icon_y = 9
+		@type_icon_x_1 = -112
+		@type_icon_x_2 = -86
+		@type_icon_x_3 = -60
+		@type_icon_x_4 = -34
+		iconType = {
+			name = "pd_icon"
+			spriteType = "GFX_component_slot_icons"
+			frame = 1
+			position = { x = @type_icon_x_2 y = @type_icon_y }
+			orientation = upper_right
+		}
+		iconType = {
+			name = "small_icon"
+			spriteType = "GFX_component_slot_icons"
+			frame = 2
+			position = { x = @type_icon_x_2 y = @type_icon_y }
+			orientation = upper_right
+		}
+		iconType = {
+			name = "medium_icon"
+			spriteType = "GFX_component_slot_icons"
+			frame = 3
+			position = { x = @type_icon_x_3 y = @type_icon_y }
+			orientation = upper_right
+		}
+		iconType = {
+			name = "large_icon"
+			spriteType = "GFX_component_slot_icons"
+			frame = 4
+			position = { x = @type_icon_x_4 y = @type_icon_y }
+			orientation = upper_right
+		}
+		iconType = {
+			name = "torpedo_icon"
+			spriteType = "GFX_component_slot_icons"
+			frame = 5
+			position = { x = @type_icon_x_4 y = @type_icon_y }
+			orientation = upper_right
+		}
+		iconType = {
+			name = "extra_large_icon"
+			spriteType = "GFX_component_slot_icons"
+			frame = 6
+			position = { x = @type_icon_x_4 y = @type_icon_y }
+			orientation = upper_right
+		}
+		iconType = {
+			name = "titanic_icon"
+			spriteType = "GFX_component_slot_icons"
+			frame = 7
+			position = { x = @type_icon_x_4 y = @type_icon_y }
+			orientation = upper_right
+		}
+		iconType = {
+			name = "planet_killer_icon"
+			spriteType = "GFX_component_slot_icons"
+			frame = 8
+			position = { x = @type_icon_x_4 y = @type_icon_y }
+			orientation = upper_right
+		}
+		iconType = {
+			name = "aux_icon"
+			spriteType = "GFX_component_slot_icons"
+			frame = 9
+			position = { x = @type_icon_x_4 y = @type_icon_y }
+			orientation = upper_right
+		}
+		iconType = {
+			name = "strike_craft_icon"
+			spriteType = "GFX_component_slot_icons"
+			frame = 11
+			position = { x = @type_icon_x_4 y = @type_icon_y }
+			orientation = upper_right
+		}
+	}
+	containerWindowType = {
+		name = "component_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 280 height = 52 }
+		buttonType = {
+			name = "background"
+			quadTextureSprite = "GFX_ship_designer_item_bg"
+			position = { x = 0 y = 0 }		}
+		iconType = {
+			name = "icon_bg"
+			spriteType = "GFX_ship_part_background"
+			position = { x = 0 y = 0 }
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_ship_part_background"
+			position = { x = 0 y = 0 }
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "name"
+			font = "font_text_14"
+			text = ""
+			position = { x = 52 y = 1 }
+			maxWidth = 240
+			maxHeight = 30
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "stats"
+			font = "font_text_14"
+			text = ""
+			position = { x = 52 y = 27 }
+			maxWidth = 240
+			maxHeight = 30
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "grabbed_icon"
+		position = { x = 0 y = 0 }
+		size = { width = 48 height = 48 }
+		iconType = {
+			name = "icon_bg"
+			spriteType = "GFX_ship_part_background"
+			position = { x = 0 y = 0 }
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_ship_part_background"
+			position = { x = 0 y = 0 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "slot_indicator"
+		position = { x = 0 y = 0 }
+		size = { width = 48 height = 48 }
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_ship_designer_slot_indicator"
+			position = { x = -16 y = -16 }
+		}
+	}
+	containerWindowType = {
+		name = "component_slot"
+		position = { x = 0 y = 0 }
+		size = { width = 36 height = 36 }
+		if_scaled_resolution = {
+			min_width = 1920
+			size = { width = 45 height = 45 }
+		}
+		if_scaled_resolution = {
+			min_width = 2560
+			size = { width = 54 height = 54 }
+		}
+		iconType = {
+			name = "slot_bg"
+			spriteType = "GFX_slot_bg"
+			position = { x = 4 y = 4 }
+			scale = 0.8
+			if_scaled_resolution = {
+				min_width = 1920
+				scale = 0.9
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				min_height = 1440
+				scale = 1
+			}
+		}
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_ship_part_background"
+			position = { x = 0 y = 0 }
+			scale = 0.8
+			if_scaled_resolution = {
+				min_width = 1920
+				scale = 0.9
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				min_height = 1440
+				scale = 1
+			}
+		}
+		buttonType = {
+			name = "component_slot_button"
+			quadTextureSprite = "GFX_ship_designer_slot"
+			clicksound = tab_click
+			oversound = no_sound
+			scale = 0.8
+			if_scaled_resolution = {
+				min_width = 1920
+				scale = 0.9
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				min_height = 1440
+				scale = 1
+			}
+		}
+		iconType = {
+			name = "deselect"
+			spriteType = "GFX_select_icon"
+			position = { x = 3 y = 2 }
+			frame = 1
+			scale = 0.8
+			if_scaled_resolution = {
+				min_width = 1920
+				scale = 0.9
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				min_height = 1440
+				scale = 1
+			}
+		}
+		iconType = {
+			name = "allowed"
+			spriteType = "GFX_ship_designer_slot_allowed"
+			position = { x = 3 y = 2 }
+			scale = 0.8
+			if_scaled_resolution = {
+				min_width = 1920
+				scale = 0.9
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				min_height = 1440
+				scale = 1
+			}
+		}
+	}
+	containerWindowType = {
+		name = "ship_design_entry"
+		size = { width = 140 height = 111 }
+		if_scaled_resolution = {
+			min_width = 2560
+			size = { width = 150 height = 111 }
+		}
+		containerWindowType = {
+			name = "background"
+			size = { width = 100% height = 100%% }
+			position = { x = 0 y = 21 }
+			margin = { top = 1 right = 1 bottom = 1 left = 1 }
+			background = {
+				name = "background"
+				spriteType = "GFX_tiles_frame"
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "background_picture"
+				spriteType = "GFX_gamesetup_randomize_image"
+				position = { x = 0 y = 0 }
+				orientation = center
+				centerPosition = yes
+				scale = 0.5
+				alwaysTransparent = yes
+			}
+			containerWindowType = {
+				name = "background"
+				size = { width = 100% height = 100% }
+				position = { x = 0 y = 0 }
+				background = {
+					name = "background"
+					spriteType = "GFX_ui_dark"
+					alwaysTransparent = yes
+				}
+			}
+		}
+		buttonType = {
+			name = "render_target"
+			quadTextureSprite = "GFX_dummy_3d_design_entry"
+			position = { x = 1 y = 42 }
+			size = { x = 138 y = 48 }
+			if_scaled_resolution = {
+				min_width = 2560
+				position = { x = 1 y = 38 }
+				size = { x = 148 y = 56 }
+			}
+			alwaysTransparent = yes
+		}
+		buttonType = {
+			name = "button"
+			position = { x = -1 y = 20 }
+			quadTextureSprite = "GFX_button_light"
+			size = { x = 142 y = 92 }
+			if_scaled_resolution = {
+				min_width = 2560
+				size = { x = 152 y = 92 }
+			}
+			clicksound = outliner_click_tab
+		}
+		buttonType = {
+			name = "delete"
+			quadTextureSprite = "GFX_fleet_disband"
+			orientation = upper_right
+			position = { x = -20 y = 25 }
+		}
+		instantTextBoxType = {
+			name = "label"
+			font = "font_text_14"
+			text = ""
+			position = { x = 6 y = 24 }
+			maxWidth = 105
+			if_scaled_resolution = {
+				min_width = 2560
+				maxWidth = 115
+			}
+			maxHeight = 60
+			fixedSize = yes
+			format = left
+			vertical_alignment = top
+			text_color_code = "H"
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "auto_gen"
+			font = "font_text_14"
+			text = "AUTO_GENERATED_BEST"
+			position = { x = 6 y = -21 }
+			orientation = lower_left
+			maxWidth = 95
+			if_scaled_resolution = {
+				min_width = 2560
+				maxWidth = 105
+			}
+			maxHeight = 16
+			fixedSize = yes
+			format = left
+			vertical_alignment = bottom
+			text_color_code = "L"
+			alwaysTransparent = yes
+		}
+		overlappingElementsBoxType = {
+			name = "icons"
+			position = { x = -52 y = -27 }
+			orientation = lower_right
+			size = { x = 50 y = 27 }
+			spacing = 1
+			format = right
+		}
+	}
+	containerWindowType = {
+		name = "new_ship_design_entry"
+		size = { width = 110 height = 114 }
+		containerWindowType = {
+			name = "background_glow"
+			size = { width = 113 height = 100%% }
+			position = { x = 0 y = 18 }
+			background = {
+				name = "background_glow"
+				spriteType = "GFX_glow_tile_cyan"
+			}
+		}
+		buttonType = {
+			name = "button"
+			position = { x = 2 y = 20 }
+			quadTextureSprite = "GFX_button_light"
+			size = { x = 109 y = 92 }
+		}
+		instantTextBoxType = {
+			name = "label"
+			font = "font_text_16"
+			text = "NAME HERE"
+			position = { x = 5 y = 20 }
+			maxWidth = 103
+			maxHeight = 92
+			fixedSize = yes
+			format = center
+			vertical_alignment = center
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "ship_design_header_entry"
+		size = { width = 20 height = 114 }
+		clipping = no
+		instantTextBoxType = {
+			name = "label"
+			font = "font_text_14"
+			text = ""
+			position = { x = 20 y = 0 }
+			maxWidth = 160
+			maxHeight = 20
+			fixedSize = yes
+			format = left
+			vertical_alignment = center
+			if_scaled_resolution = {
+				min_width = 2560
+				font = "font_text_16"
+				maxWidth = 180
+			}
+		}
+		containerWindowType = {
+			name = "background_glow"
+			size = { width = 100% height = 100%% }
+			position = { x = 0 y = 18 }
+			background = {
+				name = "background_glow"
+				spriteType = "GFX_glow_tile_cyan"
+				alwaysTransparent = yes
+			}
+		}
+	}
+	windowType = {
+		name = "design_meta_icon"
+		size = { x = 24 y = 27 }
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_ship_class_small"
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "section_instance_entry"
+		size = { width = 225 height = @section_height_1050 }
+		if_scaled_resolution = {
+			min_height = 1080
+			size = { width = 225 height = @section_height_1080 }
+		}
+		if_scaled_resolution = {
+			min_height = 1200
+			size = { width = 225 height = @section_height_1200 }
+		}
+		if_scaled_resolution = {
+			min_width = 1920
+			size = { width = 251 height = @section_height_1080 }
+			if_scaled_resolution = {
+				min_height = 1200
+				size = { width = 251 height = @section_height_1200 }
+			}
+			if_scaled_resolution = {
+				min_height = 1440
+				size = { width = 251 height = @section_height_1440 }
+			}
+		}
+		if_scaled_resolution = {
+			min_width = 2560
+			size = { width = 286 height = @section_height_1080 }
+			if_scaled_resolution = {
+				min_height = 1200
+				size = { width = 286 height = @section_height_1200 }
+			}
+			if_scaled_resolution = {
+				min_height = 1440
+				size = { width = 286 height = @section_height_1440 }
+			}
+		}
+		containerWindowType = {
+			name = "is_empty"
+			position = { x = -140 y = 200 }
+			size = { width = 280 height = 16 }
+			orientation = center_up
+			instantTextBoxType = {
+				name = "label"
+				font = "font_text_14"
+				text = "SELECT_SECTION"
+				position = { x = 0 y = 0 }
+				maxWidth = 280
+				maxHeight = 16
+				fixedSize = yes
+				format = center
+				alwaysTransparent = yes
+				text_color_code = "H"
+			}
+		}
+		# This button should only be visible before picking
+		buttonType = {
+			name = "change_section"
+			quadTextureSprite = "GFX_interface_list_light"
+			buttonFont = "font_text_14"
+			position = { x = -102 y = 10 }
+			size = { x = 204 y = 34 }
+			if_scaled_resolution = {
+				min_width = 1920
+				position = { x = -112 y = 10 }
+				size = { x = 224 y = 34 }
+			}
+			orientation = center_up
+			multiline = yes
+			clicksound = confirm_click
+		}
+		iconType = {
+			name = "ship_designer_black_fade_upper"
+			spriteType = "GFX_ui_ship_designer_grid_5_2_upper"
+			position = { x = 0 y = 129 }
+			scale = 0.79
+			orientation = center_up
+			centerPosition = yes
+			if_scaled_resolution = {
+				min_width = 1920
+				position = { x = 0 y = 138 }
+				scale = 0.88
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				min_height = 1440
+				position = { x = 0 y = 148 }
+				scale = 1
+			}
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "ship_designer_black_fade_lower"
+			spriteType = "GFX_ui_ship_designer_grid_5_2_lower"
+			position = { x = 0 y = -78 }
+			scale = 0.79
+			orientation = center_down
+			centerPosition = yes
+			if_scaled_resolution = {
+				min_width = 1920
+				position = { x = 0 y = -86 }
+				scale = 0.88
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				min_height = 1440
+				position = { x = 0 y = -98 }
+				scale = 1
+			}
+			alwaysTransparent = yes
+		}
+		gridBoxType = {
+			name = "weapon_slots"
+			position = { x = 1 y = 55 }
+			size = { width = 100% height = 0 }
+			slotSize = { width = 44 height = 44 }
+			format = "UPPER_LEFT"
+			max_slots_horizontal = 5
+			if_scaled_resolution = {
+				min_width = 1920
+				slotSize = { width = 49 height = 49 }
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				position = { x = 18 y = 55 }
+				if_scaled_resolution = {
+					min_height = 1440
+					position = { x = 1 y = 55 }
+					slotSize = { width = 56 height = 56 }
+				}
+			}
+		}
+		gridBoxType = {
+			name = "utility_slots"
+			position = { x = 1 y = -7 }
+			size = { width = 100% height = 0 }
+			slotSize = { width = 44 height = 44 }
+			format = "LOWER_LEFT"
+			orientation = lower_left
+			max_slots_horizontal = 5
+			if_scaled_resolution = {
+				min_width = 1920
+				slotSize = { width = 49 height = 49 }
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				position = { x = 18 y = -7 }
+				if_scaled_resolution = {
+					min_height = 1440
+					position = { x = 1 y = -7 }
+					slotSize = { width = 56 height = 56 }
+				}
+			}
+		}
+	}
+	containerWindowType = {
+		name = "section_select_window"
+		position = { x = 0 y = 0 }
+		size = { width = 1080 height = 655 }
+		if_scaled_resolution = {
+			min_width = 1920
+			size = { width = 1450 height = 655 }
+		}
+		if_scaled_resolution = {
+			min_width = 2560
+			size = { width = 1805 height = 655 }
+		}
+		clipping = no
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_invisible"
+		}
+		buttonType = {
+			name = "close"
+			quadTextureSprite = "GFX_invisible"
+			size = { x = 4000 y = 2000 }
+			position = { x = -2000 y = -1000 }
+			orientation = center
+			shortcut = "ESCAPE"
+			clicksound = "back_click"
+		}
+		containerWindowType = {
+			name = "header"
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 50 }
+			orientation = center_up
+			origo = center_up
+			background = {
+				name = "background"
+				quadTextureSprite = "GFX_tiles_frame_notrans"
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "hex_bg"
+				spriteType = "GFX_hex_center_bg"
+				position = { x = 0 y = 20 }
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "section_header_line"
+				quadTextureSprite = "GFX_line_center"
+				position = { x = 0 y = 36 }
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+			instantTextBoxType = {
+				name = "choose_section_label"
+				font = "font_header_20"
+				text = "CHOOSE_SECTION"
+				position = { x = -200 y = 7 }
+				orientation = center_up
+				maxWidth = 400
+				maxHeight = 24
+				#text_color_code = "E"
+				format = center
+				alwaysTransparent = yes
+			}
+		}
+		smoothListBoxType = {
+			name = "list"
+			position = { x = 0 y = 55 }
+			size = { x = 1080 y = 600 }
+			if_scaled_resolution = {
+				min_width = 1920
+				size = { x = 1450 y = 600 }
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				size = { x = 1805 y = 600 }
+			}
+			spacing = 5
+			scrollbarType = "standardlistbox_slider_thick"
+		}
+		#buttonType = {
+		#	name = "close"
+		#	quadTextureSprite = "GFX_close"
+		#	position = { x = -48 y = 6 }
+		#	orientation = upper_right
+		#	shortcut = "ESCAPE"
+		#	clicksound = "back_click"
+		#}
+	}
+	containerWindowType = {
+		name = "component_select_window"
+		size = { width = 380 height = 710 }
+		if_scaled_resolution = {
+			min_height = 1080
+			size = { width = 380 height = 740 }
+		}
+		if_scaled_resolution = {
+			min_height = 1200
+			size = { width = 380 height = 860 }
+		}
+		if_scaled_resolution = {
+			min_height = 1440
+			size = { width = 380 height = 1000 }
+		}
+		moveable = yes
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_ui_tile_large_bg_plain"
+			pdx_tooltip = "UIO_MOVEABLE_WINDOW"
+		}
+		iconType = {
+			name = "title_hex"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = 0 y = 18 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "title_line"
+			spriteType = "GFX_line_center_short"
+			position = { x = 0 y = 36 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "select_component_lable"
+			font = "font_header_20"
+			text = "SELECT_COMPONENT"
+			position = { x = -150 y = 5 }
+			orientation = center_up
+			maxWidth = 300
+			maxHeight = 24
+			fixedSize = yes
+			format = center
+			alwaysTransparent = yes
+			text_color_code = "H"
+		}
+		instantTextBoxType = {
+			name = "select_component_desc"
+			font = "font_text_14"
+			text = "SELECT_COMPONENT_DESC"
+			position = { x = 10 y = 50 }
+			maxWidth = 290
+			maxHeight = 40
+			fixedSize = yes
+			format = left
+			vertical_alignment = center
+			text_color_code = "L"
+		}
+		iconType = {
+			name = "current_filter_slot_size"
+			spriteType = "GFX_component_slot_icons"
+			orientation = upper_right
+			position = { x = -49 y = 124 }
+		}
+		checkboxType = {
+			name = "filter_slot_size"
+			position = { x = 5 y = 120 }
+			quadTextureSprite = "GFX_checkbox_20_20_01"		}
+		instantTextBoxType = {
+			name = "filter_slot_size_label"
+			font = "font_text_14"
+			text = "SHIP_COMPONENTS_FILTER_SLOT_SIZE"
+			position = { x = 35 y = 120 }
+			maxWidth = 220
+			maxHeight = 30
+			fixedSize = yes			format = left
+			vertical_alignment = center
+		}
+		checkboxType = {
+			name = "filter_obsolete"
+			position = { x = 5 y = 90 }
+			quadTextureSprite = "GFX_checkbox_20_20_01"		}
+		instantTextBoxType = {
+			name = "filter_obsolete_label"
+			font = "font_text_14"
+			text = "SHIP_COMPONENTS_FILTER_OBSOLETE"
+			position = { x = 35 y = 90 }
+			maxWidth = 220
+			maxHeight = 30
+			fixedSize = yes			format = left
+			vertical_alignment = center
+		}
+		smoothListBoxType = {
+			name = "list"
+			position = { x = 10 y = 150 }
+			size = { x = 355 y = 545 }
+			if_scaled_resolution = {
+				min_height = 1080
+				size = { x = 355 y = 575 }
+			}
+			if_scaled_resolution = {
+				min_height = 1200
+				size = { x = 355 y = 695 }
+			}
+			if_scaled_resolution = {
+				min_height = 1440
+				size = { x = 355 y = 835 }
+			}
+			scrollbarType = "standardlistbox_slider_thick"
+			autohide_scrollbar = no
+		}
+		buttonType = {
+			name = "close"
+			quadTextureSprite = "GFX_close"
+			position = { x = -45 y = 7 }
+			orientation = upper_right
+			shortcut = "ESCAPE"
+			clicksound = "back_click"
+		}
+		buttonType = {
+			name = "apply_on_empty"
+			quadTextureSprite = "GFX_interface_list_light"
+			size = { x = 60 y = 48 }
+			position = { x = -70 y = 51 }
+			orientation = upper_right
+			buttonFont = "font_text_14"
+			buttonText = "APPLY_ON_EMPTY"
+			borderSize = { x = 2 y = 0 }
+			multiline = yes
+		}
+	}
+	containerWindowType = {
+		name = "required_component_select_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100 height = 100 }
+	}
+	containerWindowType = { # there will be one of these windows for each required component set ( one for FTL, one for Combat Computers etc )
+		name = "required_component_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 54 height = 50 }
+		if_scaled_resolution = {
+			min_width = 2560
+			min_height = 1440
+			size = { width = 68 height = 64 }
+		}
+		clipping = no
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_invisible"
+		}
+		buttonType = {
+			name = "show_templates_button"
+			quadTextureSprite = "GFX_button_ship_designer_slot_48_48"
+			scale = 0.8
+			if_scaled_resolution = {
+				min_width = 2560
+				min_height = 1440
+				scale = 1
+			}
+		}
+		iconType = {
+			name = "component_icon"
+			spriteType = "GFX_ship_part_background"
+			orientation = center
+			centerPosition = yes
+			scale = 0.8
+			if_scaled_resolution = {
+				min_width = 2560
+				min_height = 1440
+				scale = 1
+			}
+			alwaysTransparent = yes
+		}
+		overlappingElementsBoxType = {
+			name = "list"
+			position = { x = -1455 y = -29 }
+			size = { x = 1420 y = 58 }
+			orientation = center
+			if_scaled_resolution = {
+				min_width = 1920
+				position = { x = -1755 y = -29 }
+				size = { x = 1720 y = 58 }
+			}
+			if_scaled_resolution = {
+				min_width = 2560
+				position = { x = -1955 y = -29 }
+				size = { x = 1920 y = 58 }
+			}
+			spacing = 1
+			format = right
+		}
+	}
+	containerWindowType = { # This window is used in the overlapping elements box in "required_component_entry"
+		name = "required_component_template_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 58 height = 58 }
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_invisible"
+		}
+		buttonType = {
+			name = "select_this_button"
+			quadTextureSprite = "GFX_button_ship_designer_slot_48_48"
+			position = { x = -5 y = -5 }
+		}
+		iconType = {
+			name = "component_icon"
+			spriteType = "GFX_ship_part_background"
+			position = { x = 0 y = 0 }
+			orientation = center
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "allowed"
+			spriteType = "GFX_ship_designer_slot_allowed"
+			position = { x = 0 y = 0 }
+			orientation = center
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+	}
+}

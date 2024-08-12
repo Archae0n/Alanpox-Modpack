@@ -1,0 +1,1900 @@
+@attack_range = 10
+@attack_range_energy = 15
+@attack_range_kinetic = 20
+@attack_range_short = 10
+@engagement_range = 125
+@interceptor_engagement_range = 50
+@engagement_range_laser = 100
+@launch_time = 2
+@interceptor_launch_time = 0.5
+@speed1 = 550
+@speed2 = 600
+@speed3 = 650
+@speed4 = 700
+@count = 8
+@interceptor_count = 8
+@regen = 1
+
+@power0 = -20
+@power1 = -26
+@power2 = -34
+@power3 = -45
+@power4 = -59
+@power4 = -78
+@power5 = -100
+@power6 = -130
+
+###############
+# PD FIGHTERS #
+###############
+
+strike_craft_component_template = {
+	key = "PD_HANGAR_1"
+	size = LARGE
+	entity = "fighter_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "red_laser_pd"
+
+	power = @power1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t2_cost
+		}
+		upkeep = {
+			energy = @l_t2_upkeep_energy
+			alloys = @l_t2_upkeep_alloys
+		}
+	}
+
+	count = @interceptor_count
+	regeneration_per_day = @regen
+	launch_time = @interceptor_launch_time
+
+	damage = { min = 1 max = 3 }
+	cooldown = 0.5 # 1
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 0.75
+	tracking = 0.10
+
+	health = 15
+	armor = 0
+	shield = 0
+	evasion = 0.70
+
+	speed = @speed2
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 0.25
+	armor_penetration = 0.25
+	armor_damage = 2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_strike_craft_pd_1"
+	icon_frame = 1
+	component_set = "PD_HANGAR_1"
+	prerequisites = { "tech_strike_craft_1" "tech_pd_tracking_1" }
+	upgrades_to = "PD_HANGAR_2"
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_point_defense weapon_role_anti_armor }
+	point_defence_targets = { "missile" "strike_craft" }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.5 # AI should favor bombers over fighters - carrier sections already carry PD
+		}
+		modifier = {
+			factor = 3
+			d_pd_strikers_are_good = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "PD_HANGAR_2"
+	size = LARGE
+	entity = "fighter_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "blue_laser_pd"
+
+	power = @power2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+
+	count = @interceptor_count
+	regeneration_per_day = @regen
+	launch_time = @interceptor_launch_time
+
+	damage = { min = 2 max = 4 }
+	cooldown = 0.5 # 1
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 0.75
+	tracking = 0.25
+
+	health = 20
+	armor = 0
+	shield = 0
+	evasion = 0.80
+
+	speed = @speed3
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 0.25
+	armor_penetration = 0.25
+	armor_damage = 2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_strike_craft_pd_2"
+	icon_frame = 1
+	component_set = "PD_HANGAR_2"
+	prerequisites = { "tech_strike_craft_2" "tech_pd_tracking_2" }
+	upgrades_to = "PD_HANGAR_3"
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_point_defense weapon_role_anti_armor }
+	point_defence_targets = { "missile" "strike_craft" }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.5 # AI should favor bombers over fighters - carrier sections already carry PD
+		}
+		modifier = {
+			factor = 3
+			d_pd_strikers_are_good = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "PD_HANGAR_3"
+	size = LARGE
+	entity = "fighter_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "white_laser_pd"
+
+	power = @power3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+		}
+	}
+
+	count = @interceptor_count
+	regeneration_per_day = @regen
+	launch_time = @interceptor_launch_time
+
+	damage = { min = 3 max = 6 }
+	cooldown = 0.5 # 1
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 0.75
+	tracking = 0.40
+
+	health = 25
+	armor = 0
+	shield = 0
+	evasion = 0.90
+
+	speed = @speed4
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 0.25
+	armor_penetration = 0.25
+	armor_damage = 2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_strike_craft_pd_3"
+	icon_frame = 1
+	component_set = "PD_HANGAR_3"
+	prerequisites = { "tech_strike_craft_3" "tech_pd_tracking_3" }
+	upgrades_to = "PD_PSI_HANGAR"
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_point_defense weapon_role_anti_armor }
+	point_defence_targets = { "missile" "strike_craft" }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.5 # AI should favor bombers over fighters - carrier sections already carry PD
+		}
+		modifier = {
+			factor = 3
+			d_pd_strikers_are_good = yes
+		}
+	}
+}
+###################
+#  FLAK FIGHTERS  #
+###################
+
+strike_craft_component_template = {
+	key = "FLAK_HANGAR_1"
+	size = LARGE
+	entity = "fighter_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "flak_pd_1"
+
+	power = @power1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t2_cost
+		}
+		upkeep = {
+			energy = @l_t2_upkeep_energy
+			alloys = @l_t2_upkeep_alloys
+		}
+	}
+
+	count = @interceptor_count
+	regeneration_per_day = @regen
+	launch_time = @interceptor_launch_time
+
+	damage = { min = 1 max = 3 }
+	cooldown = 0.5 # 1
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 0.75
+	tracking = 0.50
+
+	health = 15
+	armor = 0
+	shield = 0
+	evasion = 0.70
+
+	speed = @speed2
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 2
+	shield_penetration = 0.25
+	armor_damage = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_strike_craft_flak_1"
+	icon_frame = 1
+	component_set = "FLAK_HANGAR_1"
+	prerequisites = { "tech_strike_craft_1" "tech_flak_batteries_1" }
+	upgrades_to = "FLAK_HANGAR_2"
+
+	tags = { weapon_type_strike_craft weapon_type_kinetic }
+	ai_tags = { carrier weapon_role_point_defense weapon_role_anti_shield }
+	point_defence_targets = { "strike_craft" }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.5 # AI should favor bombers over fighters - carrier sections already carry PD
+		}
+		modifier = {
+			factor = 3
+			d_pd_strikers_are_good = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "FLAK_HANGAR_2"
+	size = LARGE
+	entity = "fighter_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "flak_pd_2"
+
+	power = @power2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+
+	count = @interceptor_count
+	regeneration_per_day = @regen
+	launch_time = @interceptor_launch_time
+
+	damage = { min = 2 max = 4 }
+	cooldown = 0.5 # 1
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 0.75
+	tracking = 0.65
+
+	health = 20
+	armor = 0
+	shield = 0
+	evasion = 0.80
+
+	speed = @speed3
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 2
+	shield_penetration = 0.25
+	armor_damage = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_strike_craft_flak_2"
+	icon_frame = 1
+	component_set = "FLAK_HANGAR_2"
+	prerequisites = { "tech_strike_craft_2" "tech_flak_batteries_2" }
+	upgrades_to = "FLAK_HANGAR_3"
+
+	tags = { weapon_type_strike_craft weapon_type_kinetic }
+	ai_tags = { carrier weapon_role_point_defense weapon_role_anti_shield }
+	point_defence_targets = { "strike_craft" }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.5 # AI should favor bombers over fighters - carrier sections already carry PD
+		}
+		modifier = {
+			factor = 3
+			d_pd_strikers_are_good = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "FLAK_HANGAR_3"
+	size = LARGE
+	entity = "fighter_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "flak_pd_3"
+
+	power = @power3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+		}
+	}
+
+	count = @interceptor_count
+	regeneration_per_day = @regen
+	launch_time = @interceptor_launch_time
+
+	damage = { min = 3 max = 6 }
+	cooldown = 0.5 # 1
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 0.75
+	tracking = 0.80
+
+	health = 25
+	armor = 0
+	shield = 0
+	evasion = 0.90
+
+	speed = @speed4
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 2
+	shield_penetration = 0.25
+	armor_damage = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_strike_craft_flak_3"
+	icon_frame = 1
+	component_set = "FLAK_HANGAR_3"
+	prerequisites = { "tech_strike_craft_3" "tech_flak_batteries_3" }
+	#upgrades_to = "PD_PSI_HANGAR"
+
+	tags = { weapon_type_strike_craft weapon_type_kinetic }
+	ai_tags = { carrier weapon_role_point_defense weapon_role_anti_shield }
+	point_defence_targets = { "strike_craft" }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.5 # AI should favor bombers over fighters - carrier sections already carry PD
+		}
+		modifier = {
+			factor = 3
+			d_pd_strikers_are_good = yes
+		}
+	}
+}
+
+#########################
+#  AUTOCANNON STRIKERS  #
+#########################
+
+strike_craft_component_template = {
+	key = "AUTOCANNON_HANGAR_1"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "auto_cannons_s"
+
+	power = @power3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 7 max = 14 }
+	cooldown = 0.85
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 0.85
+	tracking = 0.75
+
+	health = 15
+	armor = 0
+	shield = 0
+	evasion = 0.70
+
+	speed = @speed2
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 1.5
+	armor_damage = 0.25
+	hull_damage = 1.25
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_fighter_1"
+	icon_frame = 1
+	component_set = "AUTOCANNON_HANGAR_1"
+	prerequisites = { "tech_strike_craft_1" "tech_autocannons_1" }
+	upgrades_to = "AUTOCANNON_HANGAR_2"
+
+	tags = { weapon_type_strike_craft weapon_type_kinetic }
+	ai_tags = { carrier weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.75 # AI should prefer hangars with longer engagement range
+		}
+		modifier = {
+			factor = 0
+			d_kinetic_strikers_are_bad = yes
+		}
+		modifier = {
+			factor = 1.2
+			d_energy_strikers_are_bad = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "AUTOCANNON_HANGAR_2"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "ripper_auto_cannons_s"
+
+	power = @power4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			volatile_motes = @l_t4_rare
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 9 max = 18 }
+	cooldown = 0.85
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 0.85
+	tracking = 0.80
+
+	health = 20
+	armor = 0
+	shield = 0
+	evasion = 0.80
+
+	speed = @speed3
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 1.5
+	armor_damage = 0.25
+	hull_damage = 1.25
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_fighter_2"
+	icon_frame = 1
+	component_set = "AUTOCANNON_HANGAR_2"
+	prerequisites = { "tech_strike_craft_2" "tech_autocannons_2" }
+	upgrades_to = "AUTOCANNON_HANGAR_3"
+
+	tags = { weapon_type_strike_craft weapon_type_kinetic }
+	ai_tags = { carrier weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.75 # AI should prefer hangars with longer engagement range
+		}
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = volatile_motes }
+		}
+		modifier = {
+			factor = 0
+			d_kinetic_strikers_are_bad = yes
+		}
+		modifier = {
+			factor = 1.2
+			d_energy_strikers_are_bad = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "AUTOCANNON_HANGAR_3"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "stormfire_auto_cannons_s"
+
+	power = @power5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t5_cost
+			volatile_motes = @l_t5_rare
+		}
+		upkeep = {
+			energy = @l_t5_upkeep_energy
+			alloys = @l_t5_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 11 max = 23 }
+	cooldown = 0.85
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 0.85
+	tracking = 0.85
+
+	health = 25
+	armor = 0
+	shield = 0
+	evasion = 0.90
+
+	speed = @speed4
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 1.5
+	armor_damage = 0.25
+	hull_damage = 1.25
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_fighter_3"
+	icon_frame = 1
+	component_set = "AUTOCANNON_HANGAR_3"
+	prerequisites = { "tech_strike_craft_3" "tech_autocannons_3" }
+	upgrades_to = "AUTOCANNON_HANGAR_4"
+
+	tags = { weapon_type_strike_craft weapon_type_kinetic }
+	ai_tags = { carrier weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.75 # AI should prefer hangars with longer engagement range
+		}
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = volatile_motes }
+		}
+		modifier = {
+			factor = 0
+			d_kinetic_strikers_are_bad = yes
+		}
+		modifier = {
+			factor = 1.2
+			d_energy_strikers_are_bad = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "AUTOCANNON_HANGAR_4"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "stormfire_auto_cannons_s"
+
+	power = @power6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t6_cost
+			nanites = @l_t6_rare
+		}
+		upkeep = {
+			energy = @l_t6_upkeep_energy
+			alloys = @l_t6_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 15 max = 30 }
+	cooldown = 0.85
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 0.85
+	tracking = 0.85
+
+	health = 25
+	armor = 0
+	shield = 0
+	evasion = 0.90
+
+	speed = @speed4
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 1.5
+	armor_damage = 0.25
+	hull_damage = 1.25
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_nanite"
+	icon_frame = 1
+	component_set = "AUTOCANNON_HANGAR_4"
+	prerequisites = { "tech_strike_craft_3" "tech_nanite_autocannon" }
+
+	tags = { weapon_type_strike_craft weapon_type_kinetic }
+	ai_tags = { carrier weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = nanites }
+		}
+		modifier = {
+			factor = 0
+			d_kinetic_strikers_are_bad = yes
+		}
+		modifier = {
+			factor = 1.2
+			d_energy_strikers_are_bad = yes
+		}
+	}
+}
+
+######################
+#  RAILGUN STRIKERS  #
+######################
+
+strike_craft_component_template = {
+	key = "RAILGUN_HANGAR_1"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "railgun_s"
+
+	power = @power2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 6 max = 20 }
+	cooldown = 2.9
+	range = @attack_range_kinetic
+	engagement_range = @engagement_range
+	accuracy = 1.0 # 0.75
+	tracking = 0.50
+
+	health = 15
+	armor = 0
+	shield = 0
+	evasion = 0.70
+
+	speed = @speed2
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 1.5
+	armor_damage = 0.5
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_bomber_1"
+	icon_frame = 1
+	component_set = "RAILGUN_HANGAR_1"
+	prerequisites = { "tech_strike_craft_1" "tech_mass_drivers_3" }
+	upgrades_to = "RAILGUN_HANGAR_2"
+
+	tags = { weapon_type_strike_craft weapon_type_kinetic }
+	ai_tags = { carrier weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			d_kinetic_strikers_are_bad = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "RAILGUN_HANGAR_2"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "advanced_railgun_s"
+
+	power = @power3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			volatile_motes = @l_t4_rare
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 8 max = 26 }
+	cooldown = 2.9
+	range = @attack_range_kinetic
+	engagement_range = @engagement_range
+	accuracy = 1.0 # 0.75
+	tracking = 0.55
+
+	health = 20
+	armor = 0
+	shield = 0
+	evasion = 0.80
+
+	speed = @speed3
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 1.5
+	armor_damage = 0.5
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_bomber_2"
+	icon_frame = 1
+	component_set = "RAILGUN_HANGAR_2"
+	prerequisites = { "tech_strike_craft_2" "tech_mass_drivers_4" }
+	upgrades_to = "RAILGUN_HANGAR_3"
+
+	tags = { weapon_type_strike_craft weapon_type_kinetic }
+	ai_tags = { carrier weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = volatile_motes }
+		}
+		modifier = {
+			factor = 0
+			d_kinetic_strikers_are_bad = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "RAILGUN_HANGAR_3"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "gauss_cannon_s"
+
+	power = @power4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t5_cost
+			volatile_motes = @l_t5_rare
+		}
+		upkeep = {
+			energy = @l_t5_upkeep_energy
+			alloys = @l_t5_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 10 max = 35 }
+	cooldown = 2.9
+	range = @attack_range_kinetic
+	engagement_range = @engagement_range
+	accuracy = 1.0 # 0.75
+	tracking = 0.60
+
+	health = 25
+	armor = 0
+	shield = 0
+	evasion = 0.90
+
+	speed = @speed4
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 1.5
+	armor_damage = 0.5
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_bomber_3"
+	icon_frame = 1
+	component_set = "RAILGUN_HANGAR_3"
+	prerequisites = { "tech_strike_craft_3" "tech_mass_drivers_5" }
+
+	tags = { weapon_type_strike_craft weapon_type_kinetic }
+	ai_tags = { carrier weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = volatile_motes }
+		}
+		modifier = {
+			factor = 0
+			d_kinetic_strikers_are_bad = yes
+		}
+	}
+}
+
+####################
+# DISRUPTOR BOMBER #
+####################
+
+strike_craft_component_template = {
+	key = "DISRUPTOR_HANGAR_1"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "disruptor_1_small"
+
+	power = @power2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 1 max = 11 }
+	cooldown = 2.3
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 1.00
+	tracking = 0.50
+
+	health = 15
+	armor = 0
+	shield = 0
+	evasion = 0.70
+
+	speed = @speed2
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_penetration = 1
+	armor_penetration = 1
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_disruptor_1"
+	icon_frame = 1
+	component_set = "DISRUPTOR_HANGAR_1"
+	prerequisites = { "tech_strike_craft_1" "tech_disruptors_1" }
+	upgrades_to = "DISRUPTOR_HANGAR_2"
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_anti_hull }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.75 # AI should prefer hangars with longer engagement range
+		}
+		modifier = {
+			factor = 1.2
+			d_disruptor_strikers_are_good = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "DISRUPTOR_HANGAR_2"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "disruptor_2_small"
+
+	power = @power3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			rare_crystals = @l_t4_rare
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 1 max = 14 }
+	cooldown = 2.3
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 1.00
+	tracking = 0.55
+
+	health = 20
+	armor = 0
+	shield = 0
+	evasion = 0.80
+
+	speed = @speed3
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_penetration = 1
+	armor_penetration = 1
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_disruptor_2"
+	icon_frame = 1
+	component_set = "DISRUPTOR_HANGAR_2"
+	prerequisites = { "tech_strike_craft_2" "tech_disruptors_2" }
+	upgrades_to = "DISRUPTOR_HANGAR_3"
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_anti_hull }
+
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
+		}
+		modifier = {
+			factor = 0.75 # AI should prefer hangars with longer engagement range
+		}
+		modifier = {
+			factor = 1.2
+			d_disruptor_strikers_are_good = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "DISRUPTOR_HANGAR_3"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "disruptor_3_small"
+
+	power = @power4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t5_cost
+			rare_crystals = @l_t5_rare
+		}
+		upkeep = {
+			energy = @l_t5_upkeep_energy
+			alloys = @l_t5_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 1 max = 19 }
+	cooldown = 2.3
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 1.00
+	tracking = 0.60
+
+	health = 25
+	armor = 0
+	shield = 0
+	evasion = 0.90
+
+	speed = @speed4
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_penetration = 1
+	armor_penetration = 1
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_disruptor_3"
+	icon_frame = 1
+	component_set = "DISRUPTOR_HANGAR_3"
+	prerequisites = { "tech_strike_craft_3" "tech_disruptors_3" }
+	upgrades_to = "PSI_HANGAR_DISRUPTOR"
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_anti_hull }
+
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
+		}
+		modifier = {
+			factor = 0.75 # AI should prefer hangars with longer engagement range
+		}
+		modifier = {
+			factor = 1.2
+			d_disruptor_strikers_are_good = yes
+		}
+	}
+}
+
+#################
+# PLASMA BOMBER #
+#################
+
+strike_craft_component_template = {
+	key = "PLASMA_HANGAR_1"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "plasma_thrower_s"
+
+	power = @power3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 10 max = 26 }
+	cooldown = 5.1
+	range = @attack_range_energy
+	engagement_range = @engagement_range_laser
+	accuracy = 1.0 # 0.80
+	tracking = 0.40
+
+	health = 15
+	armor = 0
+	shield = 0
+	evasion = 0.70
+
+	speed = @speed2
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 0.25
+	armor_damage = 2.0
+	hull_damage = 1.5
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_plasma_1"
+	icon_frame = 1
+	component_set = "PLASMA_HANGAR_1"
+	prerequisites = { "tech_strike_craft_1" "tech_plasma_1" }
+	upgrades_to = "PLASMA_HANGAR_2"
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_anti_armor }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.9 # disruptor & plasma have low raw damage
+		}
+		modifier = {
+			factor = 0
+			d_energy_strikers_are_bad = yes
+		}
+		modifier = {
+			factor = 1.2
+			d_kinetic_strikers_are_bad = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "PLASMA_HANGAR_2"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "plasma_accelerator_s"
+
+	power = @power4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+			exotic_gases = @l_t4_rare
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 13 max = 35 }
+	cooldown = 5.1
+	range = @attack_range_energy
+	engagement_range = @engagement_range_laser
+	accuracy = 1.0 # 0.80
+	tracking = 0.45
+
+	health = 20
+	armor = 0
+	shield = 0
+	evasion = 0.80
+
+	speed = @speed3
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 0.25
+	armor_damage = 2.0
+	hull_damage = 1.5
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_plasma_2"
+	icon_frame = 1
+	component_set = "PLASMA_HANGAR_2"
+	prerequisites = { "tech_strike_craft_2" "tech_plasma_2" }
+	upgrades_to = "PLASMA_HANGAR_3"
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_anti_armor }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.9 # disruptor & plasma have low raw damage
+		}
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = exotic_gases }
+		}
+		modifier = {
+			factor = 0
+			d_energy_strikers_are_bad = yes
+		}
+		modifier = {
+			factor = 1.2
+			d_kinetic_strikers_are_bad = yes
+		}
+	}
+}
+
+strike_craft_component_template = {
+	key = "PLASMA_HANGAR_3"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "plasma_cannon_s"
+
+	power = @power5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t5_cost
+			exotic_gases = @l_t5_rare
+		}
+		upkeep = {
+			energy = @l_t5_upkeep_energy
+			alloys = @l_t5_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 17 max = 45 }
+	cooldown = 5.1
+	range = @attack_range_energy
+	engagement_range = @engagement_range_laser
+	accuracy = 1.0 # 0.80
+	tracking = 0.50
+
+	health = 25
+	armor = 0
+	shield = 0
+	evasion = 0.90
+
+	speed = @speed4
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 0.25
+	armor_damage = 2.0
+	hull_damage = 1.5
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_plasma_3"
+	icon_frame = 1
+	component_set = "PLASMA_HANGAR_3"
+	prerequisites = { "tech_strike_craft_3" "tech_plasma_3" }
+	upgrades_to = "EXTREADIMENSIONAL_HANGAR"
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_anti_armor }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.9 # disruptor & plasma have low raw damage
+		}
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = exotic_gases }
+		}
+		modifier = {
+			factor = 0
+			d_energy_strikers_are_bad = yes
+		}
+		modifier = {
+			factor = 1.2
+			d_kinetic_strikers_are_bad = yes
+		}
+	}
+}
+
+##########################################
+#####   SPECIAL WEAPON STRIKE CRAFT   ####
+##########################################
+
+###########################
+#  MINING LASER STRIKERS  #
+###########################
+
+strike_craft_component_template = {
+	key = "MINING_LASER_HANGAR_1"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "gamma_laser_s"
+
+	power = @power1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 6 max = 15 }
+	cooldown = 2.3
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 0.90
+	tracking = 0.40
+
+	health = 15
+	armor = 0
+	shield = 0
+	evasion = 0.70
+
+	speed = @speed2
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 0.5
+	armor_damage = 1.5
+	hull_damage = 1.5
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_mining_laser_1"
+	icon_frame = 1
+	component_set = "MINING_LASER_HANGAR_1"
+	prerequisites = { "tech_strike_craft_1" "tech_mining_drone_weapon_1" }
+	upgrades_to = "STRIKE_CRAFT_HANGAR_3"
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_anti_armor }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			d_energy_strikers_are_bad = yes
+		}
+	}
+}
+
+############################
+#  ENERGY SIPHON STRIKERS  #
+############################
+
+strike_craft_component_template = {
+	key = "ENERGY_SIPHON_HANGAR_1"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "GFX_ship_part_space_whale_weapon_1"
+
+	power = @power1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 6 max = 15 }
+	cooldown = 4.25
+	range = @attack_range_kinetic
+	engagement_range = @engagement_range
+	accuracy = 1.0 # 0.90
+	tracking = 0.50
+
+	health = 15
+	armor = 0
+	shield = 0
+	evasion = 0.70
+
+	speed = @speed2
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 2.0
+	armor_damage = 0.25
+	hull_damage = 1.00
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_energy_siphon_1"
+	icon_frame = 1
+	component_set = "ENERGY_SIPHON_HANGAR_1"
+	prerequisites = { "tech_strike_craft_1" "tech_space_whale_weapon_1" }
+	upgrades_to = "AUTOCANNON_HANGAR_3"
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			d_kinetic_strikers_are_bad = yes
+		}
+	}
+}
+
+########################
+#  NULL VOID STRIKERS  #
+########################
+
+strike_craft_component_template = {
+	key = "NULL_VOID_HANGAR_1"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "GFX_ship_part_space_whale_weapon_1"
+
+	power = @power1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 5 max = 15 }
+	cooldown = 4.25
+	range = @attack_range_kinetic
+	engagement_range = @engagement_range
+	accuracy = 1.0 # 0.90
+	tracking = 0.60
+
+	health = 15
+	armor = 0
+	shield = 0
+	evasion = 0.70
+
+	speed = @speed2
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 5.0
+	armor_damage = 0.25
+	hull_damage = 0.25
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_null_void_1"
+	icon_frame = 1
+	component_set = "NULL_VOID_HANGAR_1"
+	prerequisites = { "tech_strike_craft_1" "null_void_beam" }
+	upgrades_to = "AUTOCANNON_HANGAR_3"
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_anti_shield }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			d_kinetic_strikers_are_bad = yes
+		}
+	}
+}
+
+
+######################
+#  PSIONIC FIGHTERS  #
+######################
+
+strike_craft_component_template = {
+	key = "PSI_HANGAR_PD"
+	size = LARGE
+	entity = "fighter_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "white_laser_pd"
+
+	power = @power4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t5_cost
+			sr_zro = @l_t5_rare
+		}
+		upkeep = {
+			energy = @l_t5_upkeep_energy
+			alloys = @l_t5_upkeep_alloys
+		}
+	}
+
+	count = @interceptor_count
+	regeneration_per_day = @regen
+	launch_time = @interceptor_launch_time
+
+	damage = { min = 3 max = 6 }
+	cooldown = 0.5
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0
+	tracking = 0.60
+
+	health = 25
+	armor = 0
+	shield = 20
+	evasion = 0.90
+
+	speed = @speed4
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 0.25
+	armor_penetration = 0.25
+	armor_damage = 2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_strike_craft_psi_fighter"
+	icon_frame = 1
+	component_set = "PSI_HANGAR_PD"
+	prerequisites = { "tech_strike_craft_3" "tech_pd_tracking_3" "tech_precognition_interface" "tech_psionic_shield" }
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_point_defense weapon_role_anti_armor }
+	point_defence_targets = { "missile" "strike_craft" }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.5 # AI should favor bombers over fighters - carrier sections already carry PD
+		}
+		modifier = {
+			factor = 3
+			d_pd_strikers_are_good = yes
+		}
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = sr_zro }
+		}
+	}
+}
+
+
+######################
+#  PSIONIC STRIKERS  #
+######################
+
+strike_craft_component_template = {
+	key = "PSI_HANGAR_DISRUPTOR"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "disruptor_3_small"
+
+	power = @power5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t6_cost
+			sr_zro = @l_t6_rare
+		}
+		upkeep = {
+			energy = @l_t6_upkeep_energy
+			alloys = @l_t6_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 1 max = 19 }
+	cooldown = 2.3
+	range = @attack_range_short
+	engagement_range = @interceptor_engagement_range
+	accuracy = 1.0 # 1.00
+	tracking = 0.80
+
+	health = 25
+	armor = 0
+	shield = 20
+	evasion = 0.90
+
+	speed = @speed4
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_penetration = 1
+	armor_penetration = 1
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_psi_striker"
+	icon_frame = 1
+	component_set = "PSI_HANGAR_DISRUPTOR"
+	prerequisites = { "tech_strike_craft_3" "tech_disruptors_3" "tech_precognition_interface" "tech_psionic_shield" }
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_anti_hull }
+
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = sr_zro }
+		}
+		modifier = {
+			factor = 1.5
+			d_disruptor_strikers_are_good = yes
+		}
+	}
+}
+
+
+#########################
+#  TELEPATHIC STRIKERS  #
+#########################
+
+strike_craft_component_template = {
+	key = "PSI_HANGAR_TELEPATHIC"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "arc_emitter"
+
+	power = @power5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t6_cost
+			sr_zro = @l_t6_rare
+		}
+		upkeep = {
+			energy = @l_t6_upkeep_energy
+			alloys = @l_t6_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	damage = { min = 20 max = 50 }
+	cooldown = 3.5
+	range = @attack_range_energy
+	engagement_range = @engagement_range_laser
+	accuracy = 1.0
+	tracking = 1.0
+
+	health = 25
+	armor = 0
+	shield = 20
+	evasion = 0.90
+
+	speed = @speed4
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 0.25
+	armor_penetration = 1
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_psi_bomber"
+	icon_frame = 1
+	component_set = "PSI_HANGAR_TELEPATHIC"
+	prerequisites = { "tech_strike_craft_3" "tech_telepathy" "tech_precognition_interface" "tech_psionic_shield" }
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_anti_hull }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = sr_zro }
+		}
+		modifier = {
+			factor = 2.0 # telepathic strikers are super good vs prethoryn
+			has_global_flag = ongoing_prethoryn_invasion 
+		}
+		modifier = {
+			factor = 0 # AI doesn't know how to use telepathic weapons properly, so it should use other psi fighters when available
+			NOT = { has_global_flag = ongoing_prethoryn_invasion }
+			OR = {
+				has_technology = tech_pd_tracking_3
+				has_technology = tech_disruptors_3
+			}
+		}
+	}
+}
+
+
+###############################
+#  EXTRADIMENSIONAL STRIKERS  #
+###############################
+
+strike_craft_component_template = {
+	key = "EXTREADIMENSIONAL_HANGAR"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = instant
+	projectile_gfx = "GFX_ship_part_extradimensional_weapon_1"
+
+	power = @power5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t6_cost
+			rare_crystals = @l_t6_rare
+		}
+		upkeep = {
+			energy = @l_t6_upkeep_energy
+			alloys = @l_t6_upkeep_alloys
+		}
+	}
+
+	count = @count
+	regeneration_per_day = @regen
+	launch_time = @launch_time
+
+	#damage = { min = 18 max = 45 }
+	damage = { min = 25 max = 63 }
+	cooldown = 4.25
+	range = @attack_range_short
+	engagement_range = @engagement_range_laser
+	accuracy = 1.0 # 0.80
+	tracking = 0.60
+
+	health = 25
+	armor = 0
+	shield = 0
+	evasion = 0.90
+
+	speed = @speed4
+	rotation_speed = 0.8
+	acceleration = 1
+
+	shield_damage = 0.5
+	armor_damage = 1.5
+	hull_damage = 1.5
+
+	#size_damage_factor = 0.1
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_strike_craft_extradimensional"
+	icon_frame = 1
+	component_set = "EXTREADIMENSIONAL_HANGAR"
+	prerequisites = { "tech_strike_craft_3" "tech_extradimensional_weapon_1" }
+
+	tags = { weapon_type_strike_craft weapon_type_energy }
+	ai_tags = { carrier weapon_role_anti_armor }
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = rare_crystals }
+		}
+		modifier = {
+			factor = 0.5
+			d_energy_strikers_are_bad = yes
+		}
+		modifier = {
+			factor = 1.2
+			d_kinetic_strikers_are_bad = yes
+		}
+	}
+}

@@ -1,0 +1,260 @@
+defined_text = {
+	name = BuggedFociEvaluatorOutput
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_ethic = ethic_foci_progression
+			}
+		}
+		localization_key = BUGGED_EVAL_OUTPUT_PROGRESSION
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_ethic = ethic_foci_connection
+			}
+		}
+		localization_key = BUGGED_EVAL_OUTPUT_CONNECTION
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_ethic = ethic_foci_encroachment
+			}
+		}
+		localization_key = BUGGED_EVAL_OUTPUT_ENCROACHMENT
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_ethic = ethic_foci_convalescence
+			}
+		}
+		localization_key = BUGGED_EVAL_OUTPUT_CONVALESCENCE
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_ethic = ethic_foci_analysis
+			}
+		}
+		localization_key = BUGGED_EVAL_OUTPUT_ANALYSIS
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_ethic =	ethic_foci_logistics
+			}
+		}
+		localization_key = BUGGED_EVAL_OUTPUT_LOGISTICS
+	}
+}
+
+defined_text = {
+	name = BuggedFociEvaluatorImage
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_ethic = ethic_foci_progression
+			}
+		}
+		localization_key = BUGGED_EVAL_PROGRESSION_IMAGE
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_ethic = ethic_foci_connection
+			}
+		}
+		localization_key = BUGGED_EVAL_CONNECTION_IMAGE
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_ethic = ethic_foci_encroachment
+			}
+		}
+		localization_key = BUGGED_EVAL_ENCROACHMENT_IMAGE
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_ethic = ethic_foci_convalescence
+			}
+		}
+		localization_key = BUGGED_EVAL_CONVALESCENCE_IMAGE
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_ethic = ethic_foci_analysis
+			}
+		}
+		localization_key = BUGGED_EVAL_ANALYSIS_IMAGE
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_ethic =	ethic_foci_logistics
+			}
+		}
+		localization_key = BUGGED_EVAL_LOGISTICS_IMAGE
+	}
+}
+
+defined_text = {
+	name = bugged_happy_gestalt_pop_count
+	value = owner.value:bugged_happy_gestalt_pop_count
+}
+
+defined_text = {
+	name = bugged_happy_gestalt_synapse_drone_count
+	value = owner.value:bugged_happy_gestalt_synapse_drone_count
+}
+
+defined_text = {
+	name = bugged_happy_gestalt_planet_count
+	value = owner.value:bugged_happy_gestalt_planet_count
+}
+
+defined_text = {
+	name = bugged_happy_gestalt_defensive_pact
+	value = owner.value:bugged_happy_gestalt_defensive_pact
+}
+
+
+defined_text = {
+	name = BuggedRangerLodgeSwap
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				has_valid_civic = civic_environmentalist
+				NOR = {
+					has_valid_civic = civic_bugged_keepers_of_harmony
+					has_valid_civic = civic_bugged_keepers_of_harmony_corpo
+					has_valid_civic = civic_bugged_environmental_engineers
+					has_valid_civic = civic_bugged_environmental_engineers_corpo
+				}
+			}
+		}
+		localization_key = BUGGEDRANGERLODGE
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				OR = {
+					has_valid_civic = civic_bugged_keepers_of_harmony
+					has_valid_civic = civic_bugged_keepers_of_harmony_corpo
+				}
+			}
+		}
+		localization_key = BUGGEDDRUIDGROVE
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			owner = {
+				OR = {
+					has_valid_civic = civic_bugged_environmental_engineers
+					has_valid_civic = civic_bugged_environmental_engineers_corpo
+					has_civic = civic_bugged_environmental_engineers
+					has_civic = civic_bugged_environmental_engineers_corpo
+				}
+			}
+		}
+		localization_key = BUGGEDRESEARCHSTATION
+	}
+}
+
+# Ranger / Druid / Scientist???
+defined_text = {
+	name = GetRanger
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			has_valid_civic = civic_environmentalist
+		}
+		localization_key = job_ranger
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_bugged_keepers_of_harmony = yes
+		}
+		localization_key = job_bugged_druid
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_bugged_environmental_engineers = yes
+		}
+		localization_key = job_bugged_environmental_engineer
+	}
+	default = job_ranger
+}
+
+defined_text = {
+	name = GetRangerIcon
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			has_valid_civic = civic_environmentalist
+		}
+		localization_key = job_ranger_icon
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_bugged_keepers_of_harmony = yes
+		}
+		localization_key = job_bugged_druid_icon
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_bugged_environmental_engineers = yes
+		}
+		localization_key = job_bugged_environmental_engineer_icon
+	}
+	default = job_ranger
+}
+
+defined_text = {
+	name = GetRangerPlural
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			has_valid_civic = civic_environmentalist
+		}
+		localization_key = job_ranger_plural
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_bugged_keepers_of_harmony = yes
+		}
+		localization_key = job_bugged_druid_plural
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_bugged_environmental_engineers = yes
+		}
+		localization_key = job_bugged_environmental_engineer
+	}
+	default = job_ranger_plural
+}

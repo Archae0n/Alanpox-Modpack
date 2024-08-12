@@ -1,0 +1,300 @@
+ef_situation_corpo_war = {
+	picture = GFX_evt_news_room
+	complete_icon_frame = GFX_situation_outcome_frame_blue
+	complete_icon = GFX_situation_outcome_unknown
+
+	# Progress has reached 0%. Order restored
+	on_fail = {
+		# Yay you fixed it
+		hidden_effect = { target = { planet_event = { id = ef_trade.56} } }
+		destroy_situation = this
+	}
+
+	# Progress has reached 100%. Anarchy reigns
+	on_progress_complete = {
+		# Oh no the burger king militia has taken over
+		hidden_effect = { target = { planet_event = { id = ef_trade.55} } }
+		destroy_situation = this
+	}
+	start_value = 50
+	#fail_category = positive
+	#complete_category = negative
+	stages = {
+		ef_stage_corpo_skirmishes = {
+			icon = GFX_situation_stage_1
+			icon_background = GFX_situation_stage_frame_blue
+			end = 25
+			target_modifier = {
+				planet_stability_add = -10
+				planet_crime_add = 25
+				trade_value_mult = -0.15
+			}
+			custom_tooltip = ef_stage_corpo_war_1
+		}
+		ef_stage_shadow_war = {
+			icon = GFX_situation_stage_2
+			icon_background = GFX_situation_stage_frame_blue
+			end = 75
+			target_modifier = {
+				planet_stability_add = -20
+				planet_crime_add = 50
+				trade_value_mult = -0.25
+			}
+			custom_tooltip = ef_stage_corpo_war_2
+		}
+		ef_stage_open_anarchy = {
+			icon = GFX_situation_stage_3
+			icon_background = GFX_situation_stage_frame_blue
+			end = 100
+			target_modifier = {
+				planet_stability_add = -50
+				planet_crime_add = 100
+				trade_value_mult = -0.5
+			}
+			custom_tooltip = ef_stage_corpo_war_3
+		}
+	}
+	approach = {
+		name = ef_situation_hands_off
+		icon = GFX_situation_approach_shrug
+		icon_background = GFX_situation_approach_bg_yellow
+		allow = {
+			always = yes
+		}
+		on_select = {
+			custom_tooltip = approach_outcome_tooltip
+		}
+		 # Accepting bribes - maybe make it a trade modifier?
+		resources = {
+			category = situations
+			produces = {
+				energy = 25
+			}
+		}
+	}
+	approach = {
+		name = ef_situation_normal_operations
+		icon = GFX_situation_approach_scales
+		icon_background = GFX_situation_approach_bg_yellow
+		default = yes
+		allow = {
+			always = yes
+		}
+		on_select = {
+			custom_tooltip = approach_outcome_tooltip
+		}
+		resources = {
+			category = situations
+			upkeep = {
+				energy = 50
+				alloys = 25
+			}
+		}
+	}
+	approach = {
+		name = ef_situation_severe_response
+		icon = GFX_situation_approach_fist
+		icon_background = GFX_situation_approach_bg_yellow
+		allow = {
+			always = yes
+		}
+		on_select = {
+			custom_tooltip = approach_outcome_tooltip
+		}
+		resources = {
+			category = situations
+			upkeep = {
+				energy = 100
+				alloys = 50
+			}
+		}
+	}
+
+	monthly_progress = {
+		base = 0
+		modifier = {
+			add = 2
+			desc = ef_situation_hands_off_tt
+			current_situation_approach = ef_situation_hands_off
+		}
+		modifier = {
+			add = -1
+			desc = ef_situation_normal_operations_tt
+			current_situation_approach = ef_situation_normal_operations
+		}
+		modifier = {
+			add = -2
+			desc = ef_situation_severe_response_tt
+			current_situation_approach = ef_situation_severe_response
+		}
+	}
+	on_monthly = { #Note: technically, this is an on_action called test_situation. So don't call your situation "on_monthly_pulse"!
+ 		random_events = {
+			400 = 0 # A 1 in 3 chance of an event every month
+			25 = ef_trade.51
+			25 = ef_trade.52
+			25 = ef_trade.53
+			25 = ef_trade.54
+ 		}
+ 	}
+	abort_trigger = {
+		OR = {
+			NOT = { exists = target.owner }
+			target.owner = { NOT = { is_same_value = root.owner } }
+		}
+	}
+}
+
+ef_situation_pollution = {
+	picture = GFX_evt_mining_operations
+	complete_icon_frame = GFX_situation_outcome_frame_blue
+	complete_icon = GFX_situation_outcome_unknown
+
+	# NOTE: It might be a good idea to make the description of this situation refer to a scripted loc.
+	# This way the situation can be reused for non ecu planets if there's ever a good reason to.
+
+	# Progress has reached 0%. No effect, pollution is minimised but not gone.
+	on_fail = {
+	}
+
+	# Progress has reached 100%. Pollution reigns
+	on_progress_complete = {
+		target = { planet_event = { id = ef_industry.11 } }
+		destroy_situation = this
+	}
+	start_value = 0
+	#fail_category = positive
+	#complete_category = negative
+	stages = {
+		ef_stage_contamination_1 = {
+			icon = GFX_situation_stage_1
+			icon_background = GFX_situation_stage_frame_blue
+			end = 20
+			target_modifier = {
+				pop_environment_tolerance = -0.1
+				pop_growth_speed = -0.05
+				pop_happiness = -0.05
+			}
+			custom_tooltip = ef_stage_contamination_1_tt
+		}
+		ef_stage_contamination_2 = {
+			icon = GFX_situation_stage_2
+			icon_background = GFX_situation_stage_frame_blue
+			end = 40
+			target_modifier = {
+				pop_environment_tolerance = -0.2
+				pop_growth_speed = -0.1
+				pop_happiness = -0.1
+			}
+			custom_tooltip = ef_stage_contamination_2_tt
+		}
+		ef_stage_contamination_3 = {
+			icon = GFX_situation_stage_3
+			icon_background = GFX_situation_stage_frame_blue
+			end = 60
+			target_modifier = {
+				pop_environment_tolerance = -0.3
+				pop_growth_speed = -0.15
+				pop_happiness = -0.15
+			}
+			custom_tooltip = ef_stage_contamination_3_tt
+		}
+		ef_stage_contamination_4 = {
+			icon = GFX_situation_stage_4
+			icon_background = GFX_situation_stage_frame_blue
+			end = 80
+			target_modifier = {
+				pop_environment_tolerance = -0.4
+				pop_growth_speed = -0.2
+				pop_happiness = -0.2
+			}
+			custom_tooltip = ef_stage_contamination_4_tt
+		}
+		ef_stage_contamination_5 = {
+			icon = GFX_situation_stage_5
+			icon_background = GFX_situation_stage_frame_blue
+			end = 100
+			target_modifier = {
+				pop_environment_tolerance = -0.5
+				pop_growth_speed = -0.25
+				pop_happiness = -0.25
+			}
+			custom_tooltip = ef_stage_contamination_5_tt
+		}
+	}
+
+	approach = {
+		name = ef_situation_cleanup_operations
+		icon = GFX_situation_approach_shrug
+		icon_background = GFX_situation_approach_bg_yellow
+		allow = {
+			always = yes
+		}
+		on_select = {
+			custom_tooltip = ef_situation_cleanup_operations_effects
+		}
+		target_modifier = {
+			planet_jobs_alloys_produces_mult = -0.2
+			planet_jobs_consumer_goods_produces_mult = -0.2
+		}
+	}
+	approach = {
+		name = ef_situation_normal_production
+		icon = GFX_situation_approach_shrug
+		icon_background = GFX_situation_approach_bg_yellow
+		default = yes
+		allow = {
+			always = yes
+		}
+		on_select = {
+			custom_tooltip = ef_situation_normal_production_effects
+		}
+		target_modifier = {
+			planet_jobs_alloys_produces_mult = 0.2
+			planet_jobs_consumer_goods_produces_mult = 0.2
+		}
+	}
+	approach = {
+		name = ef_situation_let_it_burn
+		icon = GFX_situation_approach_scales
+		icon_background = GFX_situation_approach_bg_yellow
+		allow = {
+			always = yes
+		}
+		on_select = {
+			custom_tooltip = ef_situation_let_it_burn_effects
+		}
+		target_modifier = {
+			planet_jobs_alloys_produces_mult = 0.4
+			planet_jobs_consumer_goods_produces_mult = 0.4
+		}
+	}
+	monthly_progress = {
+		base = 0
+		modifier = {
+			add = 2
+			desc = ef_situation_let_it_burn_tt
+			current_situation_approach = ef_situation_let_it_burn
+		}
+		modifier = {
+			add = -1
+			desc = ef_situation_cleanup_operations_tt
+			current_situation_approach = ef_situation_cleanup_operations
+			situation_progress > 1
+		}
+	}
+	on_monthly = { #Note: technically, this is an on_action called test_situation. So don't call your situation "on_monthly_pulse"!
+ 		random_events = {
+			# Try to ensure that probabilities balance to about 1 a year on average
+			11 = 0
+			1 = ef_industry.9
+
+ 		}
+ 	}
+	abort_trigger = {
+		OR = {
+			NOT = { exists = target.owner }
+			target.owner = { NOT = { is_same_value = root.owner } }
+		}
+	}
+}

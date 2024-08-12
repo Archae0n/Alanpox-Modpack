@@ -1,0 +1,58 @@
+# $BUGGED_CRAFTER_COUNT$ = Half of the districts job count, rounded down
+
+triggered_planet_modifier = { # Bug Branch
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_bugged_hive_crafters
+			is_catalytic_empire = no
+		}
+	}
+	modifier = {
+		job_alloy_drone_add = $BUGGED_CRAFTER_COUNT$
+	}
+}
+
+triggered_planet_modifier = { # Bug Branch
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_bugged_hive_crafters
+			is_catalytic_empire = yes
+		}
+	}
+	modifier = {
+		job_catalytic_drone_add = $BUGGED_CRAFTER_COUNT$
+	}
+}
+
+triggered_planet_modifier = { # Bug Branch
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_bugged_hive_crafters
+		}
+		uses_habitat_capitals = no
+	}
+	modifier = {
+		planet_max_buildings_add = 0.34
+	}
+}
+
+triggered_planet_modifier = { # Bug Branch
+	potential = {
+		exists = owner
+		owner = { is_bugged_happy_gestalt = yes }
+	}
+	modifier = {
+		job_artisan_drone_add = 0.34
+	}
+}
+
+triggered_desc = { # Bug Branch
+	trigger = {
+		exists = owner
+		owner = { is_bugged_happy_gestalt = yes }
+	}
+	text = job_artisan_drone_effect_desc
+}

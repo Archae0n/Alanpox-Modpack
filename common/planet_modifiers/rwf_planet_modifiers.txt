@@ -1,0 +1,105 @@
+pm_rwf_exotic_life = {
+	spawn_chance = {
+		modifier = {
+			add = 10
+			is_planet_class = "pc_relic"
+		}
+
+		modifier = {
+			factor = 0
+			has_planet_modifier = pm_rwf_exotic_life
+		}
+
+		modifier = {
+			factor = 0
+			num_modifiers > 1
+		}
+	}
+
+	modifier = "rwf_exotic_life"
+}
+
+pm_rwf_orbital_wreckage = {
+	spawn_chance = {
+		modifier = {
+			add = 10
+			is_planet_class = "pc_relic"
+		}
+
+		modifier = {
+			factor = 0
+			has_planet_modifier = pm_rwf_orbital_wreckage
+		}
+
+		modifier = {
+			factor = 0
+			num_modifiers > 1
+		}
+	}
+
+	modifier = "rwf_orbital_wreckage"
+}
+
+pm_rwf_debris_ecosystems = {
+	spawn_chance = {
+		modifier = {
+			add = 10
+			is_planet_class = "pc_relic"
+		}
+
+		modifier = {
+			factor = 0
+			has_planet_modifier = pm_rwf_debris_ecosystems
+		}
+
+		modifier = {
+			factor = 0
+			num_modifiers > 1
+		}
+	}
+
+	modifier = "rwf_debris_ecosystems"
+}
+
+pm_rwf_unstable_structures = {
+    spawn_chance = {
+		modifier = {
+			add = 10
+			is_planet_class = "pc_relic"
+		}
+
+		modifier = {
+			factor = 0
+			has_planet_modifier = pm_rwf_unstable_structures
+		}
+
+		modifier = {
+			factor = 0
+			num_modifiers > 1
+		}
+	}
+
+	modifier = "rwf_unstable_structures"
+}
+
+
+pm_rwf_recycle_cities = {
+    spawn_chance = {
+		modifier = {
+			add = 10
+			is_planet_class = "pc_relic"
+		}
+
+		modifier = {
+			factor = 0
+			has_planet_modifier = pm_rwf_recycle_cities
+		}
+
+		modifier = {
+			factor = 0
+			num_modifiers > 1
+		}
+	}
+
+	modifier = "rwf_recycle_cities"
+}

@@ -1,0 +1,409 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	kesutir = {
+		name = Kesutir
+		plural = Kesutiri
+		home_planet = Kesutir
+		home_system = Kesutir-Ihal
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	pehura = {
+		name = P'ehurans
+		plural = P'ehurans
+		home_planet = P'ehura
+		home_system = P'ehura-Ith
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	ecira = {
+		name = Eciran
+		plural = Ecirans
+		home_planet = "Ecira Jisar-Oth"
+		home_system = "Ecira Jisar-Nyn"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	mellifluousharmony = {
+		name = I'si
+		plural = I'si
+		home_planet = "Mellifluous Harmony"
+		home_system = "Melody of the Stars"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	caphyth = {
+		name = Caphythian
+		plural = Caphythians
+		home_planet = "Caphyth Ekhor"
+		home_system = Caphyth 
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	mokar = {
+		name = Mok'arian
+		plural = Mok'arians
+		home_planet = Mok'ar
+		home_system = Thekosh 
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	jewelofkesh = {
+		name = K'eshite
+		plural = K'eshites
+		home_planet = "Jewel of K'esh"
+		home_system = "Bounty of Nakosh" 
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	khokhi = {
+		name = Kho-a
+		plural = Kho-a
+		home_planet = Khokhi
+		home_system = Khacol
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	uthape = {
+		name = Uthape
+		plural = Uthape
+		home_planet = Kip'ar
+		home_system = Ip'atat
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	nakhysh = {
+		name = Nakhysh
+		plural = Nakhysh
+		home_planet = Nakhysh
+		home_system = Nakhysh
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	taphothegrasping = {
+		name = Shacurese
+		plural = Shacurese
+		home_planet = "Tapho the Grasping"
+		home_system = "Rekat the Quivering"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	ashokhusho = {
+		name = Ashokhian
+		plural = Ashokhians
+		home_planet = Ashokhusho
+		home_system = Rekat
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	janoha = {
+		name = Janohan 
+		plural = Janohans
+		home_planet = "Ykha Uthaci"
+		home_system = Shikha
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	aneke = {
+		name = Anek'e  
+		plural = Anek'e
+		home_planet = "Anek'e-Ho"
+		home_system = "Anek'e-Ho-To-Osh"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	cokhakho = {
+		name = Cokhakhan  
+		plural = Cokhakhans
+		home_planet = Cokhakho
+		home_system = Sahejo
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	tekheketi = {
+		name = T'ot-T'e  
+		plural = T'ot-T'e
+		home_planet = T'ekhek'eti
+		home_system = Sapethocishir
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	cosis = {
+		name = Cos'isian
+		plural = Cos'isians
+		home_planet = "Cos'is P'ith"
+		home_system = "Cos'is L'yr"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	pykyn = {
+		name = Pykynan
+		plural = Pykynans
+		home_planet = Pykyn
+		home_system = Sup'yly
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	sathon = {
+		name = Sathonian 
+		plural = Sathonians
+		home_planet = "Ek'it Sathon-L'ut"
+		home_system = Himicil
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	pikhuthebountiful = {
+		name = P'ikhuucuan 
+		plural = P'ikhucuans
+		home_planet = "P'ikhu the Bountiful"
+		home_system = "Council of Ahis"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	kikesh = {
+		name = Kik'esh
+		plural = Kik'esh
+		home_planet = Kik'esh
+		home_system = Ak'ys
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	esahar = {
+		name = Es'aharan
+		plural = Es'aharans
+		home_planet = Es'ahar-Ys
+		home_system = Es'ahar-Ryt
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	shatnathail = {
+		name = Ahisean
+		plural = Ahiseans
+		home_planet = "Shat Nathil"
+		home_system = "Cesh Nathil"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	phinot = {
+		name = Phinn
+		plural = Phinn
+		home_planet = Phinot
+		home_system = Thecisher
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	loka = {
+		name = Lok'a
+		plural = Lok'a
+		home_planet = "Lok'a Neshet"
+		home_system = Lok'a
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	komur = {
+		name = Komurian
+		plural = Komurians
+		home_planet = Komur
+		home_system = L'urat
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	inash = {
+		name = Inashite
+		plural = Inashites
+		home_planet = Inash
+		home_system = Inash
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	omaka = {
+		name = Omakkid
+		plural = Omakkids
+		home_planet = Omak'a
+		home_system = K'ish
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	ko = {
+		name = K'o
+		plural = K'o
+		home_planet = K'o
+		home_system = Jyhunos
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	nirut = {
+		name = Nirutan
+		plural = Nirutans
+		home_planet = Nirut
+		home_system = Omap'i
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	lushtalisman = {
+		name = Has'amur
+		plural = Has'amur
+		home_planet = "Lush Talisman"
+		home_system = "K'at and Sinash's Gift"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	tukatphesh = {
+		name = Hot'arian
+		plural = Hot'arians
+		home_planet = Tukatphesh
+		home_system = Tukaphosh
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	seroki = {
+		name = S'erru
+		plural = S'erru
+		home_planet = S'erok'i
+		home_system = Khaha
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	ehololalo = {
+		name = K'ishar
+		plural = K'ishar
+		home_planet = Ehololal'o
+		home_system = Thahel'it
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	shalathi = {
+		name = Shalathid
+		plural = Shalathids
+		home_planet = Shalathi
+		home_system = Paphapor
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	chainsofphake = {
+		name = Aphanish
+		plural = Aphanish
+		home_planet = "Chains of Phak'e"
+		home_system = "Dungeon of K'alat"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	ethekat = {
+		name = Ethekattese
+		plural = Ethekattese
+		home_planet = Ethekat
+		home_system = Camojash
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	daysoarer = {
+		name = Nyholoid
+		plural = Nyholoids
+		home_planet = Day-Soarer
+		home_system = Sky-Swimmer
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	hihojonushitos = {
+		name = Shokassid
+		plural = Shokassids
+		home_planet = "Hihojon Ushitos"
+		home_system = "Hicut Kohikhe"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	opharot = {
+		name = Opharrian
+		plural = Opharrians
+		home_planet = Opharot
+		home_system = "Khis Otal"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	pepalthefarseeing = {
+		name = Kohikhean
+		plural = Kohikheans
+		home_planet = "Pep'al the Far-Seeing"
+		home_system = "Tehamo the Well-Armed"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+}
+
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	kotirnoci = {
+		name = Tirnocian
+		plural = Tirnocians
+		home_planet = Kotir-Noci
+		home_system = Sopakit'o
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	nishushu = {
+		name = "Ral Akh-Shane"
+		plural = "Ral Akh-Shane"
+		home_planet = Nishushu
+		home_system = Ikis'ash
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	tothikel = {
+		name = Tothikelid
+		plural = Tothikelids
+		home_planet = Tothikel
+		home_system = Shetho
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	ononphatu = {
+		name = Ononphatuan
+		plural = Ononphatuans
+		home_planet = Ononphatu
+		home_system = Nathokhecer
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+}
+
+
+# Toxoids
+
+TOX = {
+	ikalemi = {
+		name = Ikalemite
+		plural = Ikalemites
+		home_planet = Ikalemi
+		home_system = Thocy
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	kipumus = {
+		name = K'ipumuan
+		plural = K'ipumuans
+		home_planet = K'ipumus
+		home_system = Kykit
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	ythulemi = {
+		name = Ythulemian
+		plural = Ythulemians
+		home_planet = Ythulemi
+		home_system = "T'yny P'a"
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+	shokiteje = {
+		name = Shokitean
+		plural = Shokiteans
+		home_planet = Shokiteje
+		home_system = Cishimus
+		name_list = "cybrxkhan_fantasy_apostrophe_3"
+	}
+}

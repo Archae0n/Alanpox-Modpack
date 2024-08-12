@@ -1,0 +1,178 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_academy"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_leadership_conditioning.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_administratum"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_departmental_efficiency.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_aesthetics"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_a_higher_purpose.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_archivist"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_infinite_opportunities.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_benevolence"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_build_relations.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_biogenesis"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_engineered_evolution.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_chivalry"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_give_and_take.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_collectivism"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_superior_colonies.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_commerce"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_open_markets.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_confederacy"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_favored_society.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_cooperativity"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_pioneer_politics.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_cybernetics"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_cybernetic_advantage.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_desires"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_open_markets.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_destruction"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_second_strike.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_faith"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_finding_the_voice.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_foundation"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_inner_stability.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_friendship"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_open_arms.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_fury"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_display_of_power.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_greed"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_open_markets.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_hacking"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_uncover_secrets.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_individualism"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_leadership_conditioning.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_industry"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_progressive_growth.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_isolation"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_strong_on_our_own.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_justice"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_preserve_the_order.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_liberty"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_evolving_society.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_malice"
+		texturefile = "gfx/interface/icons/agenda_icons/origin_delusional_tyrant.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_mechanicum"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_synthetic_yield.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_might"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_display_of_power.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_militarism"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_military_buildup.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_mystery"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_civil_exclusion.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_nature"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_conquer_nature.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_omnipresence"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_inner_stability.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_order"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_preserve_the_order.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_perseverance"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_progressive_growth.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_philosophy"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_a_higher_purpose.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_piracy"
+		texturefile = "gfx/interface/icons/agenda_icons/origin_delusional_tyrant.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_proselytism"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_rightful_claims.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_purposefulness"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_synthetic_evolution.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_serverbound"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_self_maintenance.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_shroudborn"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_psionic_supremacy.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_spaceborn"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_chart_the_unknown.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_subminds"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_synthetic_age.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_swarm"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_genetic_pursuit.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_est_venerability"
+		texturefile = "gfx/interface/icons/agenda_icons/origin_legendary_leader.dds"
+	}
+}

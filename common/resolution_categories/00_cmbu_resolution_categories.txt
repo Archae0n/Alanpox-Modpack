@@ -1,0 +1,321 @@
+# Resolution Categories for Galactic Community
+
+
+resolution_category_2egalitarian = {
+	group = cmbu_proclamations
+	icon = "GFX_resolution_custodian_reforms"
+	resolution_types = {
+		"resolution_2egalitarian_republic"
+		"resolution_2egalitarian_republic_nope"
+		"resolution_2egalitarian_soviet"
+		"resolution_2egalitarian_soviet_nope"
+		"resolution_2egalitarian_combine"
+		"resolution_2egalitarian_combine_nope"
+		"resolution_2egalitarian_pizdec"
+		"resolution_2egalitarian_pizdec_nope"
+		"resolution_2egalitarian_machine"
+		"resolution_2egalitarian_machine_nope"
+		"resolution_2egalitarian_hive"
+		"resolution_2egalitarian_hive_nope"
+		"resolution_2egalitarian_ingsoc"
+		"resolution_2egalitarian_ingsoc_nope"
+		"resolution_2egalitarian_xenophob"
+		"resolution_2egalitarian_xenophob_nope"
+		"resolution_2egalitarian_startrek"
+		"resolution_2egalitarian_startrek_nope"
+		"resolution_2egalitarian_crimes"
+		"resolution_2egalitarian_crimes_nope"
+		"resolution_2egalitarian_hre"
+		"resolution_2egalitarian_hre_nope"
+		"resolution_2egalitarian_pacifist"
+		"resolution_2egalitarian_pacifist_nope"
+		"resolution_2egalitarian_militarist"
+		"resolution_2egalitarian_militarist_nope"
+		"resolution_2egalitarian_cmaterialist"
+		"resolution_2egalitarian_cmaterialist_nope"
+		"resolution_2egalitarian_cspiritualist"
+		"resolution_2egalitarian_cspiritualist_nope"
+		"resolution_2egalitarian_cpirate"
+		"resolution_2egalitarian_cpirate_nope"
+		"resolution_2egalitarian_cservitor"
+		"resolution_2egalitarian_cservitor_nope"
+	}
+}
+
+resolution_category_combine = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_combine_transarm"
+	resolution_types = {
+		"resolution_combine_citadel"
+		"resolution_combine_citadel_nope"
+		"resolution_combine_transarm"
+		"resolution_combine_transarm_nope"
+		"resolution_combine_tech"
+		"resolution_combine_tech_nope"
+		"resolution_combine_singularity"
+		"resolution_combine_existance"
+	}
+}
+
+resolution_category_csoviets = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_csoviets_victory"
+	resolution_types = {
+		"resolution_csoviets_domsovetov"
+		"resolution_csoviets_domsovetov_nope"
+		"resolution_csoviets_redarmy"
+		"resolution_csoviets_redarmy_nope"
+		"resolution_csoviets_internationale"
+		"resolution_csoviets_internationale_nope"
+		"resolution_csoviets_socplan"
+		"resolution_csoviets_victory"
+	}
+}
+
+resolution_category_crepublic = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_crepublic_federals"
+	resolution_types = {
+		"resolution_crepublic_senate"
+		"resolution_crepublic_senate_nope"
+		"resolution_crepublic_grandarmee"
+		"resolution_crepublic_grandarmee_nope"
+		"resolution_crepublic_shield"
+		"resolution_crepublic_federals"
+		"resolution_crepublic_ender"
+	}
+}
+
+resolution_category_cpizdec = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_cpizdec_hq"
+	resolution_types = {
+		"resolution_cpizdec_hq"
+		"resolution_cpizdec_hq_nope"
+		"resolution_cpizdec_rostov"
+		"resolution_cpizdec_rostov_nope"
+		"resolution_cpizdec_brand"
+		"resolution_cpizdec_brand_nope"
+		"resolution_cpizdec_crisis"
+		"resolution_cpizdec_taxes"
+	}
+}
+
+resolution_category_chive = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_chive_primacy"
+	resolution_types = {
+		"resolution_chive_tree"
+		"resolution_chive_tree_nope"
+		"resolution_chive_drones"
+		"resolution_chive_drones_nope"
+		"resolution_chive_influence"
+		"resolution_chive_influence_nope"
+		"resolution_chive_stockpile"
+		"resolution_chive_primacy"
+	}
+}
+
+resolution_category_cmachine = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_cmachine_efficient"
+	resolution_types = {
+		"resolution_cmachine_nodes"
+		"resolution_cmachine_nodes_nope"
+		"resolution_cmachine_warforms"
+		"resolution_cmachine_warforms_nope"
+		"resolution_cmachine_techprim"
+		"resolution_cmachine_techprim_nope"
+		"resolution_cmachine_protection"
+		"resolution_cmachine_efficient"
+	}
+}
+
+resolution_category_c1984 = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_c1984_ministries"
+	resolution_types = {
+		"resolution_c1984_ministries"
+		"resolution_c1984_ministries_nope"
+		"resolution_c1984_warispeace"
+		"resolution_c1984_warispeace_nope"
+		"resolution_c1984_thoughtcrime"
+		"resolution_c1984_newspeak"
+		"resolution_c1984_nofreedom"
+	}
+}
+
+resolution_category_cxenophob = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_cxenophob"
+	resolution_types = {
+		"resolution_cxenophob_spire"
+		"resolution_cxenophob_spire_nope"
+		"resolution_cxenophob_reavers"
+		"resolution_cxenophob_reavers_nope"
+		"resolution_cxenophob_purge"
+		"resolution_cxenophob_purge_nope"
+		"resolution_cxenophob_crisis"
+		"resolution_cxenophob_preservation"
+	}
+}
+
+resolution_category_cstartrek = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_cstartrek"
+	resolution_types = {
+		"resolution_cstartrek_council"
+		"resolution_cstartrek_council_nope"
+		"resolution_cstartrek_tdd"
+		"resolution_cstartrek_tdd_nope"
+		"resolution_cstartrek_primedir"
+		"resolution_cstartrek_primedir_nope"
+		"resolution_cstartrek_crisis"
+		"resolution_cstartrek_exchange"
+	}
+}
+
+resolution_category_ccrimes = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_ccrimes"
+	resolution_types = {
+		"resolution_ccrimes_consortium"
+		"resolution_ccrimes_consortium_nope"
+		"resolution_ccrimes_shadows"
+		"resolution_ccrimes_shadows_nope"
+		"resolution_ccrimes_smugglers"
+		"resolution_ccrimes_smugglers_nope"
+		"resolution_ccrimes_crisis"
+		"resolution_ccrimes_bobafett"
+	}
+}
+
+resolution_category_chre = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_chre"
+	resolution_types = {
+		"resolution_chre_cathedrals"
+		"resolution_chre_cathedrals_nope"
+		"resolution_chre_jojo"
+		"resolution_chre_jojo_nope"
+		"resolution_chre_reform"
+		"resolution_chre_reform_nope"
+		"resolution_chre_shield"
+		"resolution_chre_ascend"
+	}
+}
+
+resolution_category_pacifist = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_pacifist"
+	resolution_types = {
+		"resolution_pacifist_building"
+		"resolution_pacifist_building_nope"
+		"resolution_pacifist_army"
+		"resolution_pacifist_army_nope"
+		"resolution_pacifist_casusb"
+		"resolution_pacifist_casusb_nope"
+		"resolution_pacifist_crisis"
+		"resolution_pacifist_unique"
+	}
+}
+
+resolution_category_militarist = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_militarist"
+	resolution_types = {
+		"resolution_militarist_building"
+		"resolution_militarist_building_nope"
+		"resolution_militarist_army"
+		"resolution_militarist_army_nope"
+		"resolution_militarist_casusb"
+		"resolution_militarist_casusb_nope"
+		"resolution_militarist_crisis"
+		"resolution_militarist_unique"
+	}
+}
+
+resolution_category_cmaterialist = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_cmaterialist"
+	resolution_types = {
+		"resolution_cmaterialist_building"
+		"resolution_cmaterialist_building_nope"
+		"resolution_cmaterialist_army"
+		"resolution_cmaterialist_army_nope"
+		"resolution_cmaterialist_casusb"
+		"resolution_cmaterialist_casusb_nope"
+		"resolution_cmaterialist_crisis"
+		"resolution_cmaterialist_unique"
+	}
+}
+
+resolution_category_cspiritualist = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_cspiritualist"
+	resolution_types = {
+		"resolution_cspiritualist_building"
+		"resolution_cspiritualist_building_nope"
+		"resolution_cspiritualist_army"
+		"resolution_cspiritualist_army_nope"
+		"resolution_cspiritualist_casusb"
+		"resolution_cspiritualist_casusb_nope"
+		"resolution_cspiritualist_crisis"
+		"resolution_cspiritualist_unique"
+	}
+}
+
+resolution_category_cpirate = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_cpirate"
+	resolution_types = {
+		"resolution_cpirate_building"
+		"resolution_cpirate_building_nope"
+		"resolution_cpirate_army"
+		"resolution_cpirate_army_nope"
+		"resolution_cpirate_casusb"
+		"resolution_cpirate_casusb_nope"
+		"resolution_cpirate_crisis"
+		"resolution_cpirate_unique"
+	}
+}
+
+resolution_category_cservitor = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_cservitor"
+	resolution_types = {
+		"resolution_cservitor_building"
+		"resolution_cservitor_building_nope"
+		"resolution_cservitor_army"
+		"resolution_cservitor_army_nope"
+		"resolution_cservitor_casusb"
+		"resolution_cservitor_casusb_nope"
+		"resolution_cservitor_crisis"
+		"resolution_cservitor_unique"
+	}
+}
+
+resolution_category_cmartlet = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_cmartlet"
+	resolution_types = {
+		"resolution_cmartlet_building"
+		"resolution_cmartlet_army"
+		"resolution_cmartlet_casusb"
+		"resolution_cmartlet_crisis"
+		"resolution_cmartlet_unique"
+	}
+}
+
+
+resolution_category_cbananas = {
+	group = cmbu_ssmanagemente
+	icon = "GFX_resolution_cbananas"
+	resolution_types = {
+		"resolution_cbananas_building"
+		"resolution_cbananas_army"
+		"resolution_cbananas_casusb"
+		"resolution_cbananas_crisis"
+		"resolution_cbananas_unique"
+	}
+}

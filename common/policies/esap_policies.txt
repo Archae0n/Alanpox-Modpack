@@ -1,0 +1,198 @@
+##########################################################################
+# Empire Policies
+#
+# #####
+#
+# AI:
+# Base AI-weight is 100, if unchanged
+# AI will grab whatever policy-option has the highest weight
+#
+# #####
+#
+##########################################################################
+
+esap_spiritualist_2_doctrine = {
+	potential = {
+		is_country_type = default
+		has_ascension_perk = ap_esap_spiritualist_2
+	}
+
+	option = {
+		name = "policy_option_esap_spiritualist_2_doctrine_engineering"
+
+		modifier = {
+			planet_priests_engineering_research_produces_add = 8
+		}
+
+		AI_weight = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "policy_option_esap_spiritualist_2_doctrine_physics"
+
+		modifier = {
+			planet_priests_physics_research_produces_add = 8
+		}
+
+		AI_weight = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = "policy_option_esap_spiritualist_2_doctrine_society"
+
+		modifier = {
+			planet_priests_society_research_produces_add = 8
+		}
+
+		AI_weight = {
+			factor = 1
+		}
+	}
+}
+
+esap_ct1_expansion_settlers = {
+	potential = {
+		has_ascension_perk = ap_esap_ct1_expansion
+	}
+
+	option = {
+		name = "policy_option_esap_ct1_expansion_settlers_A"
+
+		modifier = {
+			colony_start_num_pops_add = 1
+			shipclass_colonizer_build_speed_mult = 0.50
+			planet_colony_development_speed_mult = 0.25
+			ship_colonizer_cost_mult = -0.25
+			shipclass_colonizer_hull_mult = -0.44
+			category_new_worlds_research_speed_mult = 0.31
+		}
+
+		on_disabled = {
+			hidden_effect = {
+				every_owned_fleet = {
+					limit = { is_ship_class = shipclass_colonizer }
+					destroy_fleet = this
+				}
+			}
+		}
+
+		AI_weight = {
+			factor = 2
+			
+			modifier = {
+				factor = 10
+				AND = {
+					is_ai = yes
+					OR = {
+						ai_colonize_plans = 4
+						ai_colonize_plans > 4
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "policy_option_esap_ct1_expansion_settlers_B"
+
+		modifier = {
+			colony_start_num_pops_add = 3
+			shipclass_colonizer_build_speed_mult = 0.15
+			planet_colony_development_speed_mult = 0.08
+			ship_colonizer_cost_mult = 0.23
+			shipclass_colonizer_hull_mult = 0.09
+			category_new_worlds_research_speed_mult = 0.22
+		}
+
+		on_disabled = {
+			hidden_effect = {
+				every_owned_fleet = {
+					limit = { is_ship_class = shipclass_colonizer }
+					destroy_fleet = this
+				}
+			}
+		}
+
+		AI_weight = {
+			factor = 1
+
+			modifier = {
+				factor = 20
+				AND = {
+					is_ai = yes
+					ai_colonize_plans < 4
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "policy_option_esap_ct1_expansion_settlers_C"
+
+		modifier = {
+			colony_start_num_pops_add = 5
+			shipclass_colonizer_build_speed_mult = -0.05
+			planet_colony_development_speed_mult = -0.18
+			ship_colonizer_cost_mult = 0.72
+			shipclass_colonizer_hull_mult = 0.21
+			category_new_worlds_research_speed_mult = 0.13
+		}
+
+		on_disabled = {
+			hidden_effect = {
+				every_owned_fleet = {
+					limit = { is_ship_class = shipclass_colonizer }
+					destroy_fleet = this
+				}
+			}
+		}
+
+		AI_weight = {
+			factor = 1
+			modifier = {
+				factor = 40
+				AND = {
+					is_ai = yes
+					ai_colonize_plans < 3
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "policy_option_esap_ct1_expansion_settlers_D"
+
+		modifier = {
+			colony_start_num_pops_add = 8
+			shipclass_colonizer_build_speed_mult = -0.17
+			planet_colony_development_speed_mult = -0.40
+			ship_colonizer_cost_mult = 2.36
+			shipclass_colonizer_hull_mult = 0.72
+			category_new_worlds_research_speed_mult = 0.06
+		}
+
+		on_disabled = {
+			hidden_effect = {
+				every_owned_fleet = {
+					limit = { is_ship_class = shipclass_colonizer }
+					destroy_fleet = this
+				}
+			}
+		}
+
+		AI_weight = {
+			factor = 1
+			modifier = {
+				factor = 80
+				AND = {
+					is_ai = yes
+					ai_colonize_plans < 2
+				}
+			}
+		}
+	}
+}

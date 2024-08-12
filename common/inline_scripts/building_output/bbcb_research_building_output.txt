@@ -1,0 +1,6 @@
+produces = {
+	physics_research = $BBCB_OUTPUT$
+	society_research = $BBCB_OUTPUT$
+	engineering_research = $BBCB_OUTPUT$
+	mult = value:bbcb_research_building_output
+}

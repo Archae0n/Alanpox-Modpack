@@ -1,0 +1,17 @@
+on_destroy_planet_with_PLANET_KILLER_NANITE_CONSUMPTION = {
+	events = {
+		crisis.5015 # Menace Objective - Destroy World/Empire
+		planet_destruction.607 # frag holy world
+		planet_subsume.100 # goes last because it can kill a country, making some trigger checks impossible
+		awareness.150 # Planet cracker used OR planet terraformed, chance to gain 20 awareness.
+	}
+}
+
+on_destroy_planet_with_PLANET_KILLER_NANITE_CONSUMPTION_queued = {
+	events = {
+		fircon.5035 #Solarpunk Planet queued
+	}
+}
+
+on_destroy_planet_with_PLANET_KILLER_NANITE_CONSUMPTION_unqueued = {
+}

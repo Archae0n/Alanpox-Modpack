@@ -1,0 +1,419 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	tengu = {
+		name = Tengoid
+		plural = Tengoid
+		home_planet = Tengu
+		home_system = Gonganotidzo
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	muzivashe = {
+		name = Muzivian
+		plural = Muzivians
+		home_planet = Muzivashe
+		home_system = Ingaanyaisai
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	tinokogare = {
+		name = Tozo
+		plural = Tozos
+		home_planet = Tinokogare
+		home_system = Gonetarashe
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	nurturingfaraidzai = {
+		name = Tamban
+		plural = Tambans
+		home_planet = "Nurturing Faraidzai"
+		home_system = "Ever-Victorious Pepuwa"
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	zivorwa = {
+		name = Zivorvan
+		plural = Zivorvans
+		home_planet = Zivorwa
+		home_system = Gonzi
+		name_list = "cybrxkhan_handmade_shona"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	tesuishe = {
+		name = Tesu-Ishean
+		plural = Tesu-Isheans
+		home_planet = Tesu-Ishe
+		home_system = Badiwari
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	njiva = {
+		name = Njivean
+		plural = Njiveans
+		home_planet = Njiva
+		home_system = Kamindisi 
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	birthofdeeds = {
+		name = Haremuda
+		plural = Haremudas
+		home_planet = "Birth of Deeds"
+		home_system = "Primal Breach" 
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	huari = {
+		name = Chikudzanian
+		plural = Chikudzanians
+		home_planet = Chikudzani
+		home_system = Rudzo 
+		name_list = "cybrxkhan_handmade_shona"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	tanasiteri = {
+		name = Tanasian
+		plural = Tanasians
+		home_planet = Tanasi-Teri
+		home_system = Mukutuponei
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	tamukai = {
+		name = Tamukaian
+		plural = Tamukaians
+		home_planet = Tamukai
+		home_system = Tapafaro
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	munuru = {
+		name = Munuruan
+		plural = Munuruans
+		home_planet = Munuru
+		home_system = Takashe
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	mukupa = {
+		name = Mukupoid
+		plural = Mukupoids
+		home_planet = Mukupa
+		home_system = Nhii-Ibwerai
+		name_list = "cybrxkhan_handmade_shona"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	mwedzo = {
+		name = Mwe  
+		plural = Mwe
+		home_planet = Mwedzo
+		home_system = Zvineyi
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	atiro = {
+		name = Atirid  
+		plural = Atirids
+		home_planet = Atiro
+		home_system = Muchatsai
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	bronzeforge = {
+		name = Hazian  
+		plural = Hazians
+		home_planet = "Bronze Forge"
+		home_system = "Onyx Growth"
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	chidzomba = {
+		name = Chidzombish  
+		plural = Chidzombish
+		home_planet = Chidzomba
+		home_system = Komba
+		name_list = "cybrxkhan_handmade_shona"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	tanopa = {
+		name = Tanopan 
+		plural = Tanopans
+		home_planet = Tanopa
+		home_system = Hatenjeru
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	kusvikadiri = {
+		name = Kusvikadian 
+		plural = Kusvikadians
+		home_planet = Kusvikadiri
+		home_system = Manaishoni
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	secondgenerosity = {
+		name = Rupoman 
+		plural = Rupomans
+		home_planet = "Second Generosity"
+		home_system = "First Generosity"
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	watipo = {
+		name = Watipoan 
+		plural = Watipoans
+		home_planet = Watipo
+		home_system = Simbadzwe
+		name_list = "cybrxkhan_handmade_shona"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	tonganaya = {
+		name = Tonganayan
+		plural = Tonganayans
+		home_planet = Tonganaya
+		home_system = Kuchatondiwa
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	zimumba = {
+		name = Zimumbese
+		plural = Zimumbese
+		home_planet = Zimumba
+		home_system = Nyedza
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	kyaririba = {
+		name = Kya-Muche
+		plural = Kya-Muche
+		home_planet = Kyaririba
+		home_system = Nyendwe
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	hazviraiswa = {
+		name = "Noka Tawa"
+		plural = "Noka Tawa"
+		home_planet = Hazviraiswa
+		home_system = Anotidhiwa
+		name_list = "cybrxkhan_handmade_shona"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	mashena = {
+		name = Mashenan
+		plural = Mashenans
+		home_planet = Mashena
+		home_system = Tauyarai
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	tauyarai = {
+		name = "Muta Karo"
+		plural = "Muta Karo"
+		home_planet = Tauyarai
+		home_system = Basheana
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	zimudzuro = {
+		name = Zimudzuroid
+		plural = Zimudzuroids
+		home_planet = Zimudzuro
+		home_system = Vanai
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	mungarai = {
+		name = Mungarid
+		plural = Mungarids
+		home_planet = Mungarai
+		home_system = Nyenarashe
+		name_list = "cybrxkhan_handmade_shona"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	zvambamati = {
+		name = Zvamba
+		plural = Zvambas
+		home_planet = Zvambamati
+		home_system = Nyaguroyo
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	tapukara = {
+		name = Tapukaran
+		plural = Tapukarans
+		home_planet = Tapukara
+		home_system = Ruperadzai
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	ndiwanai = {
+		name = Ndiwanese
+		plural = Ndiwanese
+		home_planet = Ndiwanai
+		home_system = Rudzwa
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	mundakwa = {
+		name = Mundakwan
+		plural = Mundakwans
+		home_planet = Mundakwa
+		home_system = Itadzi
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	watidai = {
+		name = Watidite
+		plural = Watidites
+		home_planet = Watidai
+		home_system = Tazvinopa
+		name_list = "cybrxkhan_handmade_shona"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	kutunopa = {
+		name = Kutunopan
+		plural = Kutunopans
+		home_planet = Kutunopa
+		home_system = "Taka Ropai"
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	buvira = {
+		name = Buviran
+		plural = Buvirans
+		home_planet = Buvira
+		home_system = Vimbiradzai
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	jonitarika = {
+		name = Jon'Tarikite
+		plural = Jon'Tarikites
+		home_planet = "Joni Tarika"
+		home_system = Vudzaitashe
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	kutungai = {
+		name = Kutungite
+		plural = Kutungites
+		home_planet = Kutungai
+		home_system = Fadafadzoka
+		name_list = "cybrxkhan_handmade_shona"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	mauyarai = {
+		name = Nyari
+		plural = Nyari
+		home_planet = Mauyarai
+		home_system = Takashe
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	rupiwanga = {
+		name = Rupiwangan
+		plural = Rupiwangans
+		home_planet = Rupiwanga
+		home_system = Dakadzijero
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	zhoro = {
+		name = Zhoro
+		plural = Zhoro
+		home_planet = Zhoro
+		home_system = Mutsita
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	mbabweiprime = {
+		name = Mba'Tena
+		plural = Mba'Tena
+		home_planet = "Mbabwei Prime"
+		home_system = Mbabwei
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	vimba = {
+		name = Vimboid
+		plural = Vimboids
+		home_planet = Vimba
+		home_system = Kufarai
+		name_list = "cybrxkhan_handmade_shona"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	mhuruwa = {
+		name = Mhuruan
+		plural = Mhuruans
+		home_planet = Mhuruwa
+		home_system = Shuvinetsa
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	muchidai = {
+		name = Chiwa
+		plural = Chiwa
+		home_planet = Muchidai
+		home_system = Tsirai
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	birthodestiny = {
+		name = Nyane
+		plural = Nyane
+		home_planet = "Birth of Destiny"
+		home_system = "Limitless Slumber"
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	jekodiwa = {
+		name = Jekodian
+		plural = Jekodians
+		home_planet = Jekodiwa
+		home_system = Chiedu
+		name_list = "cybrxkhan_handmade_shona"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	chadzai = {
+		name = Chadzaian
+		plural = Chadzaians
+		home_planet = Chadzai
+		home_system = Damisimbo
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	birikai = {
+		name = Birikoid
+		plural = Birikoids
+		home_planet = Birikai
+		home_system = Nakudzo
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	orphanedresolve = {
+		name = Ndai
+		plural = Ndai
+		home_planet = "Orphaned Resolve"
+		home_system = "Unfinished Legacy"
+		name_list = "cybrxkhan_handmade_shona"
+	}
+	kusatimba = {
+		name = Kusatian
+		plural = Kusatians
+		home_planet = Kusatimba
+		home_system = Kusa
+		name_list = "cybrxkhan_handmade_shona"
+	}
+}

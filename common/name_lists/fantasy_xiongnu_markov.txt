@@ -1,0 +1,265 @@
+﻿### Xiongnu
+### Xiongnu names thrown into a markov generator
+
+cybrxkhan_handmade_xiongnu = {
+	category = "Necroid"
+    ### SHIPS
+
+    ship_names = {
+
+        generic = {
+            Ang Angdadi Anzhe Anzhelihou Anzhengshou Anzhi Anzhiba Anzhilidi Anzhiluzi Anzhiping Anzhixian Anzhiyide Anzhong Anzhoutuwu Aojiandi Aojiang Aojiangde Aojianggu Aojiangtao Aojiao Aoju Aojuchujian Baomogang Baomoju Baoshipin Baoshou Bin Bingde Bingxing Binxiao Bobin Bobing Bobinglai Bobingtao Bobingu Bobinxie Cang Cangpin Cangyunu Canqu Canquang Canqudi Canshong Caomogu Caotan Chanchan Chanrong Chao Chaomoju Chegao Cheliedi Chen Chengde Chengdu Chenggu Chengguo Chengpin Chengshou Chengtao Chengu Chengzhen Chengzhiba Chenie Cheniefulie Cheniefulo Che'er Chiba Chilian Chipin Chixianshou Chiyide Chiyun Chongshang Chou Chouchengde Choulou Choulu Choulüqudi Choumingdu Chousi Choute Chu Chuan Chuanrong Chubujian Chuigu Chulian Chulou Chuo Chuobo Conglai Congtang Congtao Congu Conguogao Dian Diandi Diang Diaotao Din Dingxian Dinxing Dong Dongyu Dongzhiba Douchenghou Douluo Douman Doushi Dulidadi Dulide Dulie Dulihou Dulihugu Dulimu Duling Dulo Dulong Dulou Dulu Duluzi Elo Elong Elongshi Elou Elouli Eloulo Fan Fangde Fangxunu Fen Feng Fenglai Fengping Fengpingtao Fengsheng Fengtanqu Fengxian Fengxianrong Fengxie Fengyuanquan Fengzhe Fengzhou Feniuli Feniulong Gan Gang Ganmixing Ganqu Ganquan Ganzhe Gaomoguang Gaomojiao Gaoshou Gaoshousi Gaotan Gaotao Gongdai Gonglai Gongxian Gou Goulu Goushiling Goutuhuqu Gua Guan Guang Guangxiao Guangxuanqu Guanqu Guigu Hanchanqu Hang Hanggu Hanlidi Hanshan Heli Heliao Helidi Helidihou Helie Heliedi Helihou Helimu Heling Helingdu Helinxian Heliu Heliuchan Hengxiao Hengxua Henie Hongdadi Hongguan Hongguobin Honglaiwu Hongxie Hongxuan Hongyu Huan Huangping Huchegan Hucheguo Hucheng Huchenggu Huchou Huchuan Huchujiao Huchuxinxing Huciyuan Huciyuang Huigu Huli Huliang Hulie Huliefuluge Hulin Huling Hulong Hulou Huloumixin Hulu Huluge Huluguan Huluo Hulüqua Hulüquan Hulüquang Hun Huniu Hunu Hute Huti Hutoutuhu Hutuhen Hutuheng Hutuhu Hutuhuan Hutuhubu Hutuwei Hutuwuqu Huyang Huyanmin Huyanqu Huyasi Huyu Huyua Huyuan Huyuang Huyunchu Huzhelian Huzhi Huzhiba Huzhiliulo Huzhixuanggu Huzhou Huzhoushang Huzi Jiandi Jianlimu Jiao Jiaotao Jihong Jihou Jihouchou Jihu Jihui Jihujuchan Jihuo Jingdaoshao Jingdaoshou Jingde Jingdu Jinggu Jingguang Jingguo Jinghou Jingshong Jingu Jingxian Jingxun Jingzhizi Jinxin Jiyangxun Jiyanqu Jiyasi Jiyidai Jiyidi Jiyuan Jiyuang Jiyuanrong Jiyunu Juchan Juchelimu Jucheng Juchou Juchu Juchuan Juchuang Juchui Juchuiguo Juchuquang Juchuxuanshi Juciyidadi Juciyide Juciyun Juciyunu Juman Jumang Jumangduogu Jumin Juming Jumixiedi Jumixing Jun Juncheng Junie Juniu Juntuwuqi Junu Juqi Juquan Juquanqu Juqudi Kan Kangtanming Kanqua Kanquan Kanrong Kong Kongde Konghou Kongshang Lan Lanchuqi Langde Langxingshe Lanqu Lanzhiyua Lihong Lihou Lihouchou Lihoulihou Lihoute Lihu Lihuan Lihubeiyan Lihugu Lihui Lihuxingtao Lihuxuan Liuchan Liucheli Liucheng Liuchenggu Liuchenglai Liuchu Liuchuan Liuchulong Liuli Liulou Liuluzhiluo Longduolu Longguobing Longlai Lua Luandi Luang Luangu Luangyu Luanrong Lunche Lunchen Luniulo Lunu Luo Luobin Luobo Luochuxing Luogandihuo Luogang Luolu Luoluge Luoluo Luoluzhousi Maiwu Maiwuqu Maiwushoulo Maiwusi Mang Manlimu Manrong Manshou Mengdadihu Mengdu Menggu Menggua Mengping Mengpinggu Mengshan Mengshou Menguang Mengxing Mengyu Meniedi Meniefu Midai Midan Midao Mide Midihou Moduo Moduogu Mujiang Mujiangu Mujiao Muju Nan Nanchui Nang Nangguoluzi Nangping Nanrong Podu Poduo Poduobo Puhe Puhen Puheng Puhengsheng Puhu Puhuan Puhuanzhen Puhubu Puhuliuchen Puhuoluoluo Puhuxing Pun Punchoulong Punchun Punie Puniemogu Puntuhu Pute Putuhe Putuheng Putuhengdan Putuhu Putuhuigu Putuhuoluzi Putuwei Putuweichu Qian Qianming Qiansheniu Qiao Qiaotan Qie Qiefu Qiefulidao Qiefulou Qiemogu Qiemoguan Qiemoguobo Qiemojiang Qin Qing Qinglaiwusi Qingzhi Qinxing Qiu Qiuche Qiucheng Qiuchenglai Qiuchua Qiuciyuang Qiuli Qiulidi Qiuling Quang Quanqu Quanquan Quanrong Qubeichua Qubeichuge Qubeichun Qubeiyasi Qubeiyidai Qubu Qubujian Qubujianchou Qubujiao Quzhi Quzhipinggu Quzhizi Quzhouliu Quzhoutuwei Quzi Ruigu Ruiguanqudao She Shegu Shelidadi Shen Sheng Sheniuchou She'er Shiba Shili Shilihou Shilimu Shilin Shilu Shiluge Shiluochuniu Shixiang Shixiao Shixu Shixuan Shiyu Shiyua Shiyuan Shiyun Siu Siuchen Siuli Siulidi Siulimu Siulong Siulou Siuluocheng Sute Suti Sutou Sutoushi Sutoute Sutuhubu Sutuhui Sutuwei Sutuwuquan Tai Taiwuqi Taiwushou Tanchuqi Tang Tangyuanshi Tanqu Tanshiyuanqu Tie Tiedi Tiefuluobo Tiemojian Tiemojiao Tiemoju Tiemojuchua Tou Touchu Toulian Toulimu Toulo Tuge Tugua Tuguan Tuguang Tuguo Tuguolu Tun Tunche'er Tuntuhe'er Tuntuwei Tuti Tutou Tutoulou Tutuhe Tutuhen Tutuheng Tutuhu Tutuhuang Tutuhujian Tutuhuxu Tutuwei Wei Weichao Weiche Weicheguan Weicheng Weichou Weichu Weichuguo Weichun Weichuxuan Weiyan Weiyanshou Weiyide Weiyidi Weiyuan Weiyuang Weiyun Woyan Woyanggu Woyanqu Woyasi Wudadi Wudai Wudaiwuqu Wudan Wudao Wudi Wuhe Wuhegao Wuheguangdao Wuhen Wuhengtan Wuhengu Wuhu Wuhuan Wuhubei Wuhuguan Wuhuigu Wuhulo Wuhuntuwei Wuhuo Wuhuquan Wuhuxin Wuhuxuang Wushan Wushanrong Wushao Wushaosheng Wusheng Wushe'er Wushi Wushixuan Wushixun Wushong Wushou Wushouchubei Wushoute Wuweichuang Wuweiyan Wuweiyidai Wuwu Wuwuquan Wuwushan Wuwushou Wuwusi Wuxian Wuxiang Wuxiangping Wuxin Wuxing Wuxingshe Wuxingu Wuxu Wuxuang Wuxun Wuxunchen Wuxunu Wuyan Wuyasi Wuyu Wuyua Xianchang Xianchouli Xianchujian Xianchuobo Xiang Xiangdu Xiangtanzhi Xianguo Xianlihua Xianqu Xianqudan Xianshao Xiao Xiaoshe'er Xing Xingdadi Xingde Xinglai Xingxuanliu Xingxun Xinxiang Xinxie Xinxiedi Xiu Xiuchegua Xiucheng Xiuchengu Xiuche'er Xiuciyu Xiuciyuan Xiulidadi Xiuliucheng Xiulou Xiulu Xiuluo Xiwu Xiwushiba Xiwusi Xua Xuandi Xuang Xuangdu Xuanggu Xuangguan Xuangyun Xuangzhiba Xuanmixu Xuanqu Xuanqua Xuanshe Xubei Xubeichang Xubeichegao Xubeicheng Xubeichua Xubeichui Xubeichuqu Xubeichuxin Xubeiyidi Xubeiyu Xubujian Xubujiang Xubuju Xubujuchao Xuli Xulidanqudi Xulide Xulie Xulihong Xulihubu Xulimu Xulingxu Xulo Xulong Xulongzhong Xulou Xuloushi Xulu Xuluge Xulugu Xuluogan Xuluoluo Xuluzhen Xulüquan Xulüquang Xulüqudan Yanchu Yandi Yang Yanqu Yanquandi Yanronggua Yanshou Yaomogu Yaomojiangu Yaomoju Yaosheng Yaoshi Yaoshouliu Yidadi Yidao Yidi Yidihou Yili Yiliang Yiliao Yilide Yilin Yilinxing Yiluguan Yiluo Yiluzi Yinggu Yingguan Yingping Yingshoulu Yingxun Yizhenglai Yizhi Yizhixun Yizhong Yizhouti Yizi Youchang Youlo Youlu Youluo Youman Youshenie Youti Yua Yuanchuiguo Yuanlihou Yuanqu Yuanqudai Yuanrong Yuchanmixian Yuchao Yuchen Yucheng Yuche'er Yuchu Yuchuan Yuchubu Yuchuli Yuchulouluo Yuciyan Yuciyide Yuciyuang Yudadi Yudai Yudi Yuegan Yuegangde Yueganqu Yuegao Yuegaomogao Yueguan Yuehu Yuehuan Yuehujiao Yuehun Yuehunie Yuehuqi Yuehuxiao Yufu Yufuli Yufulin Yufulong Yufulu Zhan Zhangdaiwusi Zhangping Zhanquan Zhaoshenggu Zhaotaotan Zhe Zheganrong Zheng Zhenggu Zhenie Zheniucheng Zhe'er Zhi Zhilimu Zhiluobin Zhipin Zhipingping Zhixian Zhizi Zhu Zhua Zhuan Zhuang Zhuanmixiao Zhuanshi Zhubei Zhubu Zhuge Zhugu Zhugua Zhui Zhujian Zhujianzhen Zhujiaotao Zhuju Zhuli Zhulo Zhulongguo Zhuo Zhuolu Zhuqu Zhuquan Zhuxie Zhuxiedi Zhuxin Zhuxu
+        }
+
+        corvette = {
+        }
+      
+        destroyer = {
+        }
+      
+        cruiser = {
+        }
+      
+        battleship = {
+        }
+      
+        science = {
+        }
+      
+        colonizer = {
+        }
+      
+        constructor = {
+        }
+
+        mining_station = { }
+        research_station = { }
+        #wormhole_station = { }
+        #terraform_station = { }
+        #observation_station = { }
+        #outpost_station = {
+#            random_names = { }
+#            sequential_name = "%O% Frontier Outpost"
+ #       }
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		} 
+    }
+
+    fleet_names = {
+        random_names = {
+            "Yizhiping Horde" "Manchuqu Horde" "Qubu Tai Horde" "Xuloulüqu Horde" "Tie Xulidai Horde" "Jihou Horde" "Sutuwushe'er Horde" "Wuhe'er Horde" "Puhui Horde" "Sheng Horde" 
+        } 
+        sequential_name = FANTASY_XIONGNU_MARKOV_xxFLEETNAMES_ORD
+    }
+  
+    army_names = {
+          
+        generic = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxASSAULTARMY_ORD
+        }
+      	
+        machine_defense = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxMACHINEDEFENSE_ORD
+        }
+          
+        machine_assault_1 = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxMACHINEASSAULT1_ORD
+        }
+          
+        machine_assault_2 = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxMACHINEASSAULT2_ORD
+        }
+          
+        machine_assault_3 = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxMACHINEASSAULT3_ORD
+        }
+	
+        defense_army = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxDEFENSEARMY_ORD
+        }
+          
+        assault_army = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxASSAULTARMY_ORD
+        }
+      
+        slave_army = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxSLAVEARMY_ORD
+        }
+      
+        clone_army = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxCLONEARMY_ORD
+        }
+      
+        undead_army = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxUNDEADARMY_ORD
+        }
+      
+        robotic_army = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxROBOTICARMY_ORD
+        }
+      
+        robotic_defense_army = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxROBOTICDEFENSEARMY_ORD
+        }
+      
+        psionic_army = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxPSIONICARMY_ORD
+        }
+      
+        xenomorph_army = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxXENOMORPHARMY_ORD
+        }
+      
+        gene_warrior_army = {
+            sequential_name = FANTASY_XIONGNU_MARKOV_xxGENEWARRIORARMY_ORD
+        }
+		
+		occupation_army = {
+			sequential_name = FANTASY_XIONGNU_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_XIONGNU_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_XIONGNU_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_XIONGNU_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_XIONGNU_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_XIONGNU_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+    }
+      
+
+    ### PLANETS
+
+    planet_names = {
+
+        generic = {
+            names = {
+                Ang Anzhi Aojuchou Baomoguo Baotaotao Bin Bobinxian Chanmixing Chanzheng Chanzhou Chao Chegao Cheguan Chen Che'er Chiluguan Chiyuan Chou Chouman Chuan Dian Dianli Diao Din Dou Doulihoulo Doulimu Dulian Dulo Dulongpin Duluo Dulüquang Elong Fan Fen Feng Gan Gou Goulian Gousi Guan Guang Guanmin Guanqu Guiguobinggu Hang Hanqudaotan Heli Hen Honggu Hongguo Hongyuan Huiguo Hulie Hulihou Huloulin Hun Hunu Hute Hutou Hutuheng Hutuhu Hutuhuo Hutuhuxie Huyanshenggu Huyun Huzhizhiyuan Huzhou Huzhoushoulu Jihu Jihuigu Jingpin Jingyu Jinxingde Juche Juciyide Jumingxing Jun Juntuheng Junu Juqi Juquanshi Kan Kong Kongxinggu Lihou Lihoulou Lihu Lihulou Liucheng Liulimu Lunu Luo Luocheng Menglai Midadihou Midan Muju Nan Podu Poduo Puheng Puhuxun Pun Putuhu Qian Qie Qiefu Qiemojuciyun Qin Qingdu Qingzhou Qiu Qiuchoushou Qiulugu Quang Quanliuchunu Qubujian Qubujiaotan Quzhiyide Quzi Shegu Shengyuang Shiba Shixuan Shiyu Siu Siuli Siulou Siulüqudan Tai Tanchu Tie Tiedi Tou Tuguobing Tuguobo Tun Tuti Tutuhu Tutuhuxing Tutuwusi Wei Weichelie Weichu Weiyan Woyanlide Woyasi Wudadi Wudi Wuhenguanzhi Wuhubeiyasi Wuhubujiang Wuhuniulüqua Wuhuxing Wushang Wusheng Wushou Wuwu Wuwuquan Wuwuquang Wuxian Wuxing Wuxingzhizhi Wuxu Xiang Xiangxian Xiao Xiaotan Xing Xiu Xiuchui Xiulihubu Xiulo Xiwu Xiwuqu Xuang Xubeichen Xubujian Xuli Xulou Yanmixian Yaoshilimu Yidihuang Yiling Yingxianrong Yizhi Yizhou Yizi Youlu Yuchuguan Yuciyu Yudaiwuqu Yuegu Yueguochunu Yufu Zhan Zhanqu Zheng Zhiyuanrong Zhu Zhuan Zhuanchu Zhuang Zhugu Zhulüqudan Zhuniu Zhuxian Zhuxuan
+            }
+        }
+      
+        pc_desert = {
+            names = {
+            }
+        }
+      
+        pc_tropical = {
+            names = {
+            }
+        }
+      
+        pc_arid = {
+            names = {
+            }
+        }
+      
+        pc_continental = {
+            names = {
+            }
+        }
+      
+        pc_ocean = {
+            names = {
+            }
+        }
+      
+        pc_tundra = {
+            names = {
+            }
+        }
+      
+        pc_arctic = {
+            names = {
+            }
+        }
+      
+    }
+
+    ### CHARACTERS
+
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Anggu Aoju Bingguo Bobin Canggu Canshou Caotao Chanqudihou Che Chegan Chen Chou Dian Dianchenggu Diang Dinghou Dinxinglai Dong Dongyuan Dou Duli Duluguobo Elou Feng Fengdu Fenie Gan Hangtangtan Hanqu Huan Hucheli Hun Huniedi Hunu Hute Huyan Huzhi Huzi Jihoulugu Jin Jinguo Jiyidai Jiyidi Juchanquang Jucheliu Juchen Juchou Jumang Junu Kong Kongtao Lan Lunchengzhi Lunu Luo Luocheng Men Meng Mengdu Mengyuang Nan Nang Puheng Pun Puntuwuquang Pute Qie Qin Qing Qinglai Quanglai Quangu Qubeiyidadi Quzhong Quzi Sheganshousi Shenguo Shixing Siucheng Siuli Siuloucheng Siuluzhe Sutuwuqu Toutou Tun Wei Weichuo Weiyan Weiyidi Woyan Woyasi Wudihuli Wuheniu Wuhuniu Wuhunu Wuhuxingzhe Wushou Wuweiche'er Wuweiyasi Xing Xingguobo Xinglai Xiwushiluo Xuandi Xuang Xuli Xulüqudan Yanquan Yidi Yilide Yiliuchou Yizhongu Youlou Youluguobo Youtuhu Yuchengu Yudadi Yudang Yufuli Yufulou Yufulu Yufuluo Zhen Zhiluzhou Zhu Zhujiang Zhujiansheng Zhuocheng Zhuxiedi
+            }
+           
+            first_names_female = {
+				Aiwu Aoshou Aoshua Baiwu Bingshou Can Cang Cangdao Canmingshu Canrong Canrongshu Canshuanlie Canzhi Chao Chaoshou Chaoshua Chaoshuan Fan Fangping Fangxiangshu Fangxiao Fanrong Fanzhi Fanzhiping Gua Guan Guang Guangdao Guanming Guanzhi Hong Hongdaoshou Hongpingping Hongshu Hongxianshu Huigua Huiguan Huiguanlie Huiguanming Huiguanzhi Jing Jingdao Jingping Jingshuan Jingxian Jingxiang Jingxiao Lihu Lihuan Lihuang Lihuanlie Lihuanrong Poduo Poduoluoluo Qian Qiangping Qiangshou Qiangxiang Qianlie Qiao Shi Shipingping Shipingshu Shipingxiao Tai Wuxian Wuxiang Wuxiangdao Wuxianlie Wuxianshou Wuxianshu Wuxianshuan Wuxianzhi Wuxua Wuxuang Wuxuangshou Wuxuanlie Wuxuanrong Wuxuanshou Wuxuanshu Wuxuanzhi Wuyua Wuyuang Wuyuanlie Wuyuanrong Wuyun Xian Xiang Xiangshou Xianming Xianshou Xianshu Xianshua Xiao Xiaoshu Xing Xingdao Xingshua Xingxian Xua Xuan Xuang Xuanrong Xubujuciyua Xubujuciyuan Yan Yang Yangdao Yangshu Yangxianming Yanlie Yanmingdao Yanrong Yanshu Yingdaoshua Yingping Yingshu Yingxianrong Yuegua Yueguan Yueguangdao Yueguanlie Yueguanming Yueguanshou Yueguanshu Yueguanzhi Yuehu Yuehuang Yuehuanzhi
+            }
+			
+			
+			second_names = {
+				Bu Che Chubei Da Fu Goulong Helian Hu Huyan Jin Juqu Liu Meng Qiulin Tiefu Xiuchuge Xubu Zhang Zhao Zhuanqu
+				
+				"of the Black Horde"
+				"of the Blue Horde"
+				"of the White Horde"
+				"of the Red Horde"
+				"of the Yellow Horde"
+				"of the Green Horde"
+				"of the Golden Horde"
+				"of the Silver Horde"
+				"of the Bronze Horde"
+				"of the Violet Horde"
+				"of the Iron Horde"
+				"of the Steel Horde"
+				"of the Gray Horde"
+				"of the Orange Horde"
+				"of the Purple Horde"
+				"of the Brown Horde"
+				"of the Rose Horde"
+			}
+            regnal_first_names_male = {
+				Canshou Caotao Dong Juchanquang Lunchengzhi Woyan Yufuli
+            }
+           
+            regnal_first_names_female = {
+				Aoshou Fanzhiping Jingshuan Wuyuang Xianming Xuanrong Yingxianrong
+            }
+			
+			
+			regnal_second_names = {
+				Bu Che Chubei Da Fu Goulong Helian Hu Huyan Jin Juqu Liu Meng Qiulin Tiefu Xiuchuge Xubu Zhang Zhao Zhuanqu
+				
+				"of the Black Horde"
+				"of the Blue Horde"
+				"of the White Horde"
+				"of the Red Horde"
+				"of the Yellow Horde"
+				"of the Green Horde"
+				"of the Golden Horde"
+				"of the Silver Horde"
+				"of the Bronze Horde"
+				"of the Violet Horde"
+				"of the Iron Horde"
+				"of the Steel Horde"
+				"of the Gray Horde"
+				"of the Orange Horde"
+				"of the Purple Horde"
+				"of the Brown Horde"
+				"of the Rose Horde"
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+namespace = esap_cornucopia_beacon
+
+# Cornucopia
+planet_event = {
+	id = esap_cornucopia_beacon.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		owner = {
+			has_ascension_perk = ap_esap_ct1_expansion
+		}	
+		NOT = {
+			has_planet_flag = flag_esap_cornucopia
+		}
+	}
+	
+	immediate = {
+		log = "esap_cornucopia_beacon.1"
+		set_planet_flag = flag_esap_cornucopia
+		planet_event = {
+			id = esap_cornucopia_beacon.2
+			days = -1
+		}
+	}
+}
+
+# Adding modifier
+planet_event = {
+	id = esap_cornucopia_beacon.2
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		owner = {
+			has_ascension_perk = ap_esap_ct1_expansion
+			has_edict = esap_cornucopia
+		}	
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				Not = { has_modifier = mod_esap_cornucopia_beacon }
+			}
+			add_modifier = {
+				modifier = "mod_esap_cornucopia_beacon"
+				days = 1800
+			}
+		}
+	}
+}
+	

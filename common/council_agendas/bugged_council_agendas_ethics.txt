@@ -1,0 +1,213 @@
+@base_ethic_agenda_cost = 7000
+agenda_bugged_anthropocentric = {
+	agenda_cost = @base_ethic_agenda_cost
+	potential = {
+		is_gestalt = no
+	}
+	allow = {
+		custom_tooltip = {
+			fail_text = "requires_anthropocentric"
+			is_anthropocentric = yes
+		}
+	}
+	modifier = {
+		country_alloys_produces_mult = 0.05
+		country_consumer_goods_produces_mult = 0.05
+		pop_ethic_anthropocentric_attraction_mult = 0.1
+	}
+	finish_modifier = agenda_bugged_anthropocentric_finish
+	effect = {
+		if = {
+			limit = {
+				any_situation = {
+					is_situation_type = paragon_origin_promise
+				}
+				has_country_flag = origin_upgrade_agendas_situation
+			}
+			country_event = {
+				id = bugged_uor_event.1
+			}
+			hidden_effect = {
+				country_event = {
+					id = paragon.5014
+					days = 180
+					random = 360
+				}
+			}
+		}
+	}
+}
+
+agenda_bugged_ecocentric = {
+	agenda_cost = @base_ethic_agenda_cost
+	potential = {
+		is_gestalt = no
+	}
+	allow = {
+		custom_tooltip = {
+			fail_text = "requires_ecocentric"
+			is_ecocentric = yes
+		}
+	}
+	modifier = {
+		planet_jobs_upkeep_mult = -0.05
+		pop_environment_tolerance = 0.10
+		pop_ethic_ecocentric_attraction_mult = 0.1
+	}
+	finish_modifier = agenda_bugged_ecocentric_finish
+	effect = {
+		if = {
+			limit = {
+				any_situation = {
+					is_situation_type = paragon_origin_promise
+				}
+				has_country_flag = origin_upgrade_agendas_situation
+			}
+			country_event = {
+				id = bugged_uor_event.2
+			}
+			hidden_effect = {
+				country_event = {
+					id = paragon.5014
+					days = 180
+					random = 360
+				}
+			}
+		}
+	}
+}
+
+agenda_bugged_pluralist = {
+	agenda_cost = @base_ethic_agenda_cost
+	potential = {
+		is_gestalt = no
+	}
+	allow = {
+		custom_tooltip = {
+			fail_text = "requires_pluralist"
+			is_pluralist = yes
+		}
+	}
+	modifier = {
+		species_leader_exp_gain = 0.1
+		planet_pops_consumer_goods_upkeep_mult = -0.05
+		pop_ethic_pluralist_attraction_mult = 0.1
+	}
+	finish_modifier = agenda_bugged_pluralist_finish
+}
+
+agenda_bugged_elitist = {
+	agenda_cost = @base_ethic_agenda_cost
+	potential = {
+		is_gestalt = no
+	}
+	allow = {
+		custom_tooltip = {
+			fail_text = "requires_elitist"
+			is_elitist = yes
+		}
+	}
+	modifier = {
+		planet_jobs_ruler_produces_mult = 0.1
+		pop_ethic_elitist_attraction_mult = 0.1
+	}
+	finish_modifier = agenda_bugged_elitist_finish
+	effect = {
+		if = {
+			limit = {
+				any_situation = {
+					is_situation_type = paragon_origin_promise
+				}
+				has_country_flag = origin_upgrade_agendas_situation
+			}
+			country_event = {
+				id = bugged_uor_event.4
+			}
+			hidden_effect = {
+				country_event = {
+					id = paragon.5014
+					days = 180
+					random = 360
+				}
+			}
+		}
+	}
+}
+
+agenda_bugged_competitive = {
+	agenda_cost = @base_ethic_agenda_cost
+	potential = {
+		is_gestalt = no
+	}
+	allow = {
+		custom_tooltip = {
+			fail_text = "requires_competitive"
+			is_competitive = yes
+		}
+	}
+	modifier = {
+		commercial_pact_mult = 0.05
+		trade_value_mult = 0.1
+		pop_ethic_competitive_attraction_mult = 0.1
+	}
+	finish_modifier = agenda_bugged_competitive_finish
+	effect = {
+		if = {
+			limit = {
+				any_situation = {
+					is_situation_type = paragon_origin_promise
+				}
+				has_country_flag = origin_upgrade_agendas_situation
+			}
+			country_event = {
+				id = bugged_uor_event.5
+			}
+			hidden_effect = {
+				country_event = {
+					id = paragon.5014
+					days = 180
+					random = 360
+				}
+			}
+		}
+	}
+}
+
+agenda_bugged_cooperative = {
+	agenda_cost = @base_ethic_agenda_cost
+	potential = {
+		is_gestalt = no
+	}
+	allow = {
+		custom_tooltip = {
+			fail_text = "requires_cooperative"
+			is_cooperative = yes
+		}
+	}
+	modifier = {
+		pop_happiness = 0.1
+		planet_crime_mult = -0.1
+		pop_ethic_cooperative_attraction_mult = 0.1
+	}
+	finish_modifier = agenda_bugged_cooperative_finish
+	effect = {
+		if = {
+			limit = {
+				any_situation = {
+					is_situation_type = paragon_origin_promise
+				}
+				has_country_flag = origin_upgrade_agendas_situation
+			}
+			country_event = {
+				id = bugged_uor_event.4
+			}
+			hidden_effect = {
+				country_event = {
+					id = paragon.5014
+					days = 180
+					random = 360
+				}
+			}
+		}
+	}
+}

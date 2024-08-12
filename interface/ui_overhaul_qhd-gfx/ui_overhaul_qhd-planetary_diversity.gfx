@@ -1,0 +1,79 @@
+spriteTypes = {
+	# customize_species_editors.gui
+	spriteType = {
+		name = "GFX_ui_planet_icon"
+		texturefile = "gfx/ui_overhaul_qhd/masks/planet_mask.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_planet_icon_rare"
+		texturefile = "gfx/ui_overhaul_qhd/masks/planet_mask_rare.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_planet_icon_wet"
+		texturefile = "gfx/ui_overhaul_qhd/masks/planet_mask_wet.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_planet_icon_dry"
+		texturefile = "gfx/ui_overhaul_qhd/masks/planet_mask_dry.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_planet_icon_frozen"
+		texturefile = "gfx/ui_overhaul_qhd/masks/planet_mask_frozen.dds"
+	}
+	# lines
+	spriteType = {
+		name = "GFX_ui_line_center_tiny"
+		textureFile = "gfx/ui_overhaul_qhd/lines/line_center_tiny.dds"
+	}
+	# species_mod_window.gui
+	corneredTileSpriteType = {
+		name = "GFX_ui_tile_large_bg_plain"
+		textureFile = "gfx/interface/tiles/tile_large_bg_plain.dds"
+		borderSize = { x = 1 y = 1 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+	spriteType = {
+		name = "GFX_ui_mod_frame_animated"
+		texturefile = "gfx/ui_overhaul_qhd/buttons/advisor_button.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		hitbox_margin = { x = 12 y = 12 }
+	}
+	# icons
+	spriteType = {
+		name = "GFX_ui_continental"
+		textureFile = "gfx/interface/icons/traits/trait_pc_continental_preference.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_ocean"
+		textureFile = "gfx/interface/icons/traits/trait_pc_ocean_preference.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_tropical"
+		textureFile = "gfx/interface/icons/traits/trait_pc_tropical_preference.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_desert"
+		textureFile = "gfx/interface/icons/traits/trait_pc_desert_preference.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_arid"
+		textureFile = "gfx/interface/icons/traits/trait_pc_arid_preference.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_savannah"
+		textureFile = "gfx/interface/icons/traits/trait_pc_savannah_preference.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_arctic"
+		textureFile = "gfx/interface/icons/traits/trait_pc_arctic_preference.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_alpine"
+		textureFile = "gfx/interface/icons/traits/trait_pc_alpine_preference.dds"
+	}
+	spriteType = {
+		name = "GFX_ui_tundra"
+		textureFile = "gfx/interface/icons/traits/trait_pc_tundra_preference.dds"
+	}
+}

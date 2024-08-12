@@ -1,0 +1,63 @@
+tech_rwf_relic_drive_core = {
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	icon = old_tech_icons/tech_wormhole_generation_1
+	category = { particles }
+	ai_update_type = all
+	is_reverse_engineerable = yes
+	is_rare = yes
+	weight = 0
+
+	feature_flags = {
+		jump_method
+	}
+
+	ai_weight = {
+	}
+
+	prereqfor_desc = {
+		component = {
+			title = "TECH_UNLOCK_RWF_RELIC_DRIVE_TITLE"
+			desc = "TECH_UNLOCK_RWF_RELIC_DRIVE_DESC"
+		}
+	}
+}
+
+tech_rwf_nanobot_treatments = {
+	cost = @tier4cost2
+	area = society
+	tier = 4
+	icon = old_tech_icons/tech_replicators
+	category = { biology }
+	ai_update_type = all
+	is_reverse_engineerable = yes
+	is_rare = yes
+	weight = 0
+
+	modifier = {
+		leader_lifespan_add = 20
+	}
+
+	ai_weight = {
+	}
+}
+
+tech_rwf_microgravity_alloy_blends = {
+	cost = @tier4cost2
+	area = engineering
+	tier = 4
+	icon = old_tech_icons/tech_wormhole_generation_2
+	category = { biology }
+	ai_update_type = all
+	is_reverse_engineerable = yes
+	is_rare = yes
+	weight = 0
+
+	modifier = {
+		planet_metallurgists_produces_mult = 0.15
+	}
+
+	ai_weight = {
+	}
+}

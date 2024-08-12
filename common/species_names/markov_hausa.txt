@@ -1,0 +1,379 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	turewa = {
+		name = Turewan
+		plural = Turewans
+		home_planet = Turewa
+		home_system = "Mar Laren"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	fatika = {
+		name = Fatikoid
+		plural = Fatikoids
+		home_planet = Fatika
+		home_system = Ruqahmu
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	hamletofkabazamil = {
+		name = Hamatu
+		plural = Hamatu
+		home_planet = "Hamlet of Kaba Zamil"
+		home_system = "Chapel of Abdu Darais"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	vilcancha = {
+		name = Vilcancha
+		plural = Vilcanchans
+		home_planet = Zambo
+		home_system = Curu
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	balimbeprime = {
+		name = Balimbean
+		plural = Balimbeans
+		home_planet = "Balimbe Prime"
+		home_system = Balimbe
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	talabdulka = {
+		name = tal'Abdulan
+		plural = tal'Abdulans
+		home_planet = "Tal Abdulka"
+		home_system = "Tal Dalilar" 
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	nohadi = {
+		name = Nohadite
+		plural = Nohadites
+		home_planet = Nohadi
+		home_system = Khadi-Ahmu 
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	jalla = {
+		name = Jalloid
+		plural = Jalloids
+		home_planet = Jalla
+		home_system = "Rah Hussamah" 
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	yushiddam = {
+		name = Yushid
+		plural = Yushids
+		home_planet = Yushiddam
+		home_system = Imatafah 
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	mindau = {
+		name = Mindauan
+		plural = Mindauans
+		home_planet = Mindau
+		home_system = "Nombo Rassau"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	aisinashumility = {
+		name = Faidamese
+		plural = Faidamese
+		home_planet = "Aisina's Humility"
+		home_system = "Audarah's Light"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	abbamin = {
+		name = Abbaminese
+		plural = Abbaminese
+		home_planet = Abbamin
+		home_system = Dadonoki
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	yanna = {
+		name = Yannaese
+		plural = Yannaese
+		home_planet = Yanna
+		home_system = Dauchidamida
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	malimana = {
+		name = Malimanid  
+		plural = Malimanids
+		home_planet = Malimana
+		home_system = Larigawa
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	jamulub = {
+		name = Jamu-Lubbite  
+		plural = Jamu-Lubbites
+		home_planet = "Jamu Lub"
+		home_system = Dossarabir
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	shakusmother = {
+		name = Adah-Shaku  
+		plural = Adah-Shaku
+		home_planet = "Shaku's Mother"
+		home_system = "Shaku's Father"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	alkare = {
+		name = Alkarean  
+		plural = Alkareans
+		home_planet = Alkare
+		home_system = Habenafa
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	turukko = {
+		name = Turukkid 
+		plural = Turukkids
+		home_planet = Turukko
+		home_system = "Dango Shuku"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	kumalzau = {
+		name = Kumalulu 
+		plural = Kumalulu
+		home_planet = Kumalzau
+		home_system = Minusailarah
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	mahfatawa = {
+		name = "Tah Fatawa" 
+		plural = "Tah Fatawa"
+		home_planet = "Mah Fatawa"
+		home_system = "Bau Fatawa"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	jaladada = {
+		name = Jaladadan 
+		plural = Jaladadans
+		home_planet = Jaladada
+		home_system = Maguzauchid
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	ashero = {
+		name = Asheroid
+		plural = Asheroids
+		home_planet = Ashero
+		home_system = Lubagajejid
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	yohatata = {
+		name = Yohatatan
+		plural = Yohatatans
+		home_planet = Yohatata
+		home_system = Haf'Husau
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	yunthebaroquepuzzle = {
+		name = Farkarah
+		plural = Farkarahs
+		home_planet = "Yun the Baroque Puzzle"
+		home_system = "Zam the Eternal Cold"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	kakihaf = {
+		name = Kakihafite
+		plural = Kakihafites
+		home_planet = Kakihaf
+		home_system = Bauruq
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	jumed = {
+		name = Jumeddite
+		plural = Jumeddites
+		home_planet = Jumed
+		home_system = Laylawasham
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	hasabesyouth = {
+		name = Hasabean
+		plural = Hasabeans
+		home_planet = "Hasabe's Youth"
+		home_system = "Nazawa's Demise"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	audbarima = {
+		name = Audbarian
+		plural = Audbarians
+		home_planet = "Aud Barima"
+		home_system = Bagaraguza
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	maishaba = {
+		name = Maishaban
+		plural = Maishabans
+		home_planet = Maishaba
+		home_system = Darbubrau
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	instrumentofcorrection = {
+		name = Ishi
+		plural = Ishi
+		home_planet = "Instrument of Correction"
+		home_system = "Fastidious Provider"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	saiqaya = {
+		name = Saiqayan
+		plural = Saiqayans
+		home_planet = Saiqaya
+		home_system = Kambyahimba
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	landana = {
+		name = Landanoid
+		plural = Landanoids
+		home_planet = Landana
+		home_system = Hallomana
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	gibanlamu = {
+		name = Gibanla
+		plural = Gibanlas
+		home_planet = Gibanlamu
+		home_system = "Fun Sid"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	gammaren = {
+		name = Gammarenese
+		plural = Gammarenese
+		home_planet = Gammaren
+		home_system = Rasu
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	zayyah = {
+		name = Zayyan
+		plural = Zayyans
+		home_planet = Zayyah
+		home_system = "Barka Khatu"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	irongallery = {
+		name = Fata-Alin
+		plural = Fata-Alin
+		home_planet = "Iron Gallery"
+		home_system = "Strong Company"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	husta = {
+		name = Hustic
+		plural = Hustics
+		home_planet = Husta
+		home_system = "Gin sa'Gin"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	bashadia = {
+		name = Bashadite
+		plural = Bashadites
+		home_planet = Bashadia
+		home_system = Minija
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	zumbramboprime = {
+		name = Zubram
+		plural = Zubrams
+		home_planet = "Zubrambo Prime"
+		home_system = Zubrambo
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	sulrau = {
+		name = Sul
+		plural = Suls
+		home_planet = Sulrau
+		home_system = Issarisou
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	karahprime = {
+		name = Kar
+		plural = Kar
+		home_planet = "Karah Prime"
+		home_system = Karah
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	yakasoya = {
+		name = Yakasoyan
+		plural = Yakasoyans
+		home_planet = Yakasoya
+		home_system = Zakarabilawa
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	asarakiprime = {
+		name = Asarakid
+		plural = Asarakids
+		home_planet = "Asaraki Prime"
+		home_system = Asaraki
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	mohatim = {
+		name = Motimu
+		plural = Motimu
+		home_planet = Mohatim
+		home_system = "Naba Habir"
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	katumo = {
+		name = Katumese
+		plural = Katumese
+		home_planet = Katumo
+		home_system = Katumo
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+	habir = {
+		name = Habirid
+		plural = Habirids
+		home_planet = Habir
+		home_system = Barikisa
+		name_list = "cybrxkhan_fantasy_hausa"
+	}
+}

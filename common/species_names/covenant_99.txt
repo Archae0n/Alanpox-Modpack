@@ -1,0 +1,50 @@
+# Generated species derive their names from here
+
+### MAMMALIANS
+
+COVE = {
+	sang = {
+		name = Sangheili
+		plural = Sangheili
+		home_planet = "Urs" 
+		home_system = "Sanghelios"
+		name_list = "HUM2"
+	}	
+	jiral = {
+		name = Jiralhanae
+		plural = Jiralhanae
+		home_planet = "Doisac"
+		home_system = "Oth Sonin"
+		name_list = "HUM2"
+	}
+	sans = {
+		name = "San`Shyuum"
+		plural = "San`Shyuum"
+		home_planet = "Janjur Qom"
+		home_system = "Janjur"
+		name_list = "HUM2"
+	}	
+	covn = {
+		name = "Covenant"
+		plural = "Covenant"
+		home_planet = "High Charity"
+		home_system = "High Charity"
+		name_list = "HUM2"
+	}	
+	ungg = {
+		name = "Unggoy"
+		plural = "Unggoy"
+		home_planet = "Balaho"
+		home_system = "Tala"
+		name_list = "HUM2"
+	}	
+	kig = {
+		name = "Kig-Yar"
+		plural = "Kig-Yar"
+		home_planet = "Eayn"
+		home_system = "Y'Deio"
+		name_list = "HUM2"
+	}	
+}
+
+

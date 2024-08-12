@@ -1,0 +1,230 @@
+﻿### handmade albanian
+### Albanian names tossed into a markov generator
+
+cybrxkhan_handmade_albanian = {
+	category = "Avian"
+
+	ship_names = {
+		generic = {
+			Adervina Adna Afri Afron Afër Afëri Aga Agala Agollik Agorcë Agoza Agra Ahmendeti Ahmer Ahmet Ahmetmiz Aje Ajete Ajetmir Albara Albarta Albohoi Albon Alboniku Albonot Albonstria Alezaferi Anxha Anxhajlim Arbisi Arbnesa Arbënza Arbënzaj Arbër Arbëre Arbëresllan Arbërimete Arbërrë Arda Ardhat Ardhyl Ari Arin Arja Arjakë Arjaxhepeli Armenta Armeta Arrekës Arreshkupi Arrë Arrës Asli Aslirabina Asliu Avnikaj Baj Bajevahija Bajliu Bajradit Bajë Bala Balahi Balanika Balik Balli Bar Bari Barik Barta Bastardhyl Bastërdhyl Beliaj Belik Belir Beliu Bell Belvis Belvishkim Beqi Beqiz Beqizë Ber Berana Berika Berina Besa Besar Besha Beshi Beshtri Besjanda Besll Bilajraku Bilindrim Bilon Biloresha Blea Blengjina Bogroga Bojakë Bojë Brami Brastë Buka Bukasa Bukth Bukësh Bulaj Bulanish Buleksar Bulenbanush Bulerta Bulqi Bulqin Bulëshniq Burastë Burovë Burra Burreshim Bytyqiramb Bytyqizë Cami Camiz Camurrim Clicajzulan Clican Clik Cliu Corcë Cori Coveci Covollka Covë Cura Curana Curbë Curra Currenber Currë Cëri Cërim Cërmeter Dafa Daferik Dafi Dal Dalbona Dalbonjë Dalin Daltramira Daltrionot Darata Dardi Dardinas Darina Darta Daulës Dauturbën Dejdanëz Dejdiona Dejzë Dela Deland Delaniq Delila Delumë Delza Demar Demiram Devahi Devajra Devand Devanvergim Dibohoi Dibreci Dibë Dibërdh Dielahir Dier Diervinorcë Dita Ditmi Ditërioti Divja Divjak Divjaxhi Don Donbeler Donberan Doni Donjosa Donjë Donjëll Dra Drabastani Dranaj Drashijeti Drastë Dri Drimaria Drishian Dura Durbërin Durrab Dushana Dushaqipëti Dushiu Dusufi Dëfri Dëfria Dëfriaj Dëfroara Dëfronstër Eardh Eardiu Edion Edita Edon Edonaj Edonberi Edoni Edoniqi Edonjos Edvishtri Egzon Egzoni Egzonje Egzonorcë Elballa Elbaltri Elbanda Elbar Elbona Eliaj Elik Eliu Elmaj Elmajetori Elme End Endin Endrierzë Eng Engj Erseka Ersen Ersena Fat Fata Fatbandeci Fati Fatim Fatjoka Fejzë Feti Fieraniku Fieri Fieriaj Fierim Fierimatorë Fierna Fierta Fina Fis Fish Fisha Fishepele Fishni Fishë Fisnikuqi Fispojani Fispon Fitarik Fitmir Fitë Flon Flona Flonashaci Flonjakë Floranëz Florcë Florenton Floronjon Flusufta Flute Fra Fradete Frahiu Frenta Fresa Fusha Fushkol Fusufi Fusufin Fusufti Gas Gash Gasni Gastë Gazhd Gazhi Gazmeta Gazmeti Gena Gend Gendani Geng Gentona Geza Gezhirdi Geziu Gja Gjaka Gjaku Gje Gjebran Gjerita Gjerta Gjet Gjete Gjeteferi Gjetifta Gjetije Gjetona Gjetonjë Gjevahi Gjevajli Gji Gjinashaj Gjiniton Gjinë Gjiradionaj Gjiri Gjoka Gjokorëz Gjol Gjolliliu Gjona Gjonash Gjonjë Gjonsta Gjos Gogalme Gogdaj Gra Gran Grodina Grodë Grogorë Groroka Grovodë Gurbër Gurosh Gurrenasa Gurrë Haj Haje Hajer Hajliu Hajra Hajradela Haxha Haxhab Haxhehhia Hida Hidaj Hidan Hidana Hime Himedita Himendë Hot Hoxhaci Hoxhafend Hoxhafina Hoxhiu Hykaj Hysekasta Hyseksa Hysengjë Ibaltradita Iban Ibaramiz Ibik Ibika Ibisi Ilia Ismat Isnik Isnikodë Isniq Ista Istrahiu Istreshkodë Istë Ivahirat Jaka Jaku Jakum Jakumë Jan Jana Janik Janushkim Janë Jastrenta Jehhi Jehhia Jehovodë Jete Jetef Jetefenti Jeteliu Jeti Jetijaka Jetim Jetmiz Jetorcë Jetorec Jon Jonjë Jushe Jushkol Jushnjës Jushte Kada Kader Kadh Kadit Kam Kamaj Kambel Kami Kamir Kamurrasta Kas Kasa Kashte Kastri Kim Kimarkajzë Kle Klen Klerzë Klonik Klorak Kol Kolla Kolli Kon Kona Koniq Konjak Konjat Konjë Konstrelvin Konstë Kopli Kora Korahijakum Korati Kore Korea Korefi Koriergj Korës Korëz Kra Krahi Krea Kren Kresanta Kresh Kreshnisht Kri Kria Krik Krim Krish Krrea Krrelen Krrë Krrës Krujti Krujtim Krujësi Krum Krumberis Krumëz Kryezhi Kryezimoza Kujës Kuka Kukash Kukopol Kukorekë Kurabadiu Kuram Kurbneshi Kurrës Kush Kusha Kusufi Kutan Kuth Kuti Këlcyrësi Këllaj Këlliq Lab Labikumëz Labindara Labër Labërent Lacipi Lalaj Lalishnjakë Lat Lata Latbar Lati Lavaj Lavaje Lavana Lavat Ledit Ledita Leditmi Lek Leon Leoni Leonik Leshana Leziu Libohoi Libona Liboni Liboniq Libra Librat Librea Libënza Lle Lleradinë Logorcë Logramada Lor Lorodër Lorëz Lucanikumë Lufi Lufta Luftana Lula Lulahi Lulaj Lulandara Lulea Luleka Lulekaj Luleksan Lull Lulqinor Lulën Lush Lushia Lushkim Lushnik Mada Madarës Madiona Majlirashën Mal Mala Malbohovë Mali Malirokastë Mall Mallëz Malmadinaj Malorastë Maltra Maltrin Mam Mamb Mami Man Mana Manajlina Mandre Manti Manushter Marana Maranushi Mata Megim Mehhiu Mehona Mehovola Memailot Memaj Memiri Memiz Meng Menjet Menk Merzë Meti Metim Metmir Miliq Milis Milon Milona Milore Mim Miria Miros Morabina Morakajramë More Moren Morenk Morë Morëz Mukaj Mukth Muzaferi Ndec Ndelia Nderas Nexhaj Nexhimailon Nexhira Nexhiu Neza Nezhi Nezimardana Nezimatos Nezimorani Neziu Nik Nikol Nikoplia Nuhi Nuhije Nuhiranda Nushafer Nushkovola Nushni Odeliu Oder Oderie Ori Orifta Pala Palaje Pallshëng Palmete Pata Patifta Peqi Peqipër Per Perani Pergjë Perna Perta Peshnita Peslla Pjerina Pjeta Pjeteli Pjetervina Pjevahija Pjevan Pjevatosa Pogalbohoi Pollka Poloni Polot Pramëz Pras Prat Pratjokë Pre Preshnik Prim Prrës Puka Pukovë Pëlcyrë Pëllandrec Pëllëz Përeshiu Përi Qen Qenbelza Qeng Qenjë Qergim Qergjin Qeriela Ram Ramajra Rami Ramir Ramsht Ramë Redina Redinda Redindi Repahundita Repela Repeliu Rexhab Rexhaqi Rexhat Rexhe Rexhir Reza Rezimadhyl Rezimernaj Rezimorovë Reziu Rilorokovë Rilot Ros Roshkupi Rozhirodë Rroar Rrodit Rrogalin Rroni Rropolikaj Rrorovë Rrovë Rrë Rrëz Rubina Rubindrenk Rubishi Rucovec Sadaj Sadeci Sadhyl Sana Sar Sardin Sardit Sarta Sarëz Sejzulea Sejë Sela Selajliri Seler Seli Selishkimaj Sell Sha Shabas Shac Shaka Shaqipërim Sharendit Shela Shelenberik Shemi Sheps Shevodë Shi Shiu Shkim Shkodë Shkollkajra Shku Shpre Shpresha Shpër Shpëriot Shpërme Shpëti Shqi Shqin Shqipi Shqipoja Shqipolik Shqipërie Shqipëriona Shqipëti Shqiradit Shqirana Shqiri Shqizë Shte Shu Shë-Krujë Sken Skenberim Skendana Skeniku Skenjete Skramat Smada Smaila Smailore Smaj Smarim Smatoshkodë Sokas Sokoliu Sokë Spaha Spahi Spahin Spahir Spahu Spardha Suel Sukolot Sukës Sule Sulliaj Tahinik Tahu Tan Tana Tantare Tara Tardhemi Tarta Tepa Teps Teute Teuth Teuti Teutim Teuturbër Tha Thabër Thafengjë Thafi Thajdaniqin Thajmir Thajë Thal Thandrim That Thë Tir Tiria Tocipi Tocipon Tomoza Troardhyl Trodina Trodër Tropi Uesh Ueshiu Uesllushin Ulënza Ulës Urabastë Urabërik Uragurrë Uramëz Urazmedi Vaj Vajliq Vala Valahiu Valak Vali Valla Vallshkuqir Vallës Valorana Vauta Vauthajrab Vauti Vauturrec Vela Velahi Veli Vetijevat Vish Vishnish Visi Vjol Vlonja Vlor Vlos Vora Vori Voror Vrikuqirapa Vrion Vriot Vritmir Vute Xaj Xha Xhab Xhabanan Xhafer Xhaj Xhajlilicë Xhajës Xhak Xhalon Xhaqi Xhaqizë Xharabër Xhe Xhehhia Xhehu Xhel Xhela Xhelanë Xheli Xhelia Xhelumber Xhen Xhenk Xhep Xhepeli Xheps Xhevahund Xhevata Xhevatbadi Xhon Xhonjë Xhoveri Xhovolakë Ylla Yllanush Ylliu Yllkupi Yllshni Ymediu Ymeta Zaha Zahafer Zahia Zahire Zahiu Zaj Zajlia Zajrak Zambergjësi Zamurrapahi Zeferiona Zefi
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Bojë Navy" "Celesani Navy" "Skendani Navy" "Lesh Smajë Navy" "Xhon Skrastra Navy" "Vishë-Krash Navy" "Uramshar Navy" "Baj Shqi Navy" "Bleshijeti Navy" 
+		}
+		sequential_name = FANTASY_ALBANIAN_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+	
+		generic = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxASSAULTARMY_ORD
+		}
+	
+		machine_defense = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_ALBANIAN_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Arbik Arbneshenë Arras Arri Arriajra Arrik Arrë Baj Bajgurbër Bajgurrësi Bajrastë Bajrazhd Balik Ball Balëz Ber Beras Berastë Berzë Bilicana Biliq Bilonicandë Bilonicë Biloniq Bulqinë Bulqipëria Bulqipërik Bulqipërmet Bulqipërrëz Burbik Burrana Burrikum Burrës Corcë Corë Corëz Covec Covikum Covikumëz Covodë Curbë Curbër Curbëria Curra Cër Cërenë Cërmet Cërre Dejë Delen Delenëz Devodë Devodërrës Devol Devoliq Devollak Devolonjë Devolos Dibohovin Dibrabër Dibrat Dibërmet Divjak Durre Durri Durria Elbas Elbasana Ersekës Fieras Fin Finë Fush Fushe Fushkopojë Fushkovë Fushnjë Fusht Fushë-Krum Gjin Gjiniq Gjirditër Gjirokas Grana Grasan Gratos Hastëri Himarëz Kam Kamsh Kamuropi Kamurovë Kavaj Kavajgurorë Klonicë Klot Kol Koliq Kolish Kollshnjë Konicandër Koniq Konish Konispolik Konjë Konjësi Kopi Kopliq Kororelvin Korë Korës Korëz Krabër Krana Krat Krra Krren Krrenjëshë Krri Krrës Krujësi Krum Krumëz Kucorcë Kukth Kukë Kurbik Kurbëri Kurramëz Kurri Kurrik Këlcyrëz Lesh Leshë-Krrik Leshë-Krumë Leskodë Leskopi Leskopolia Lezhd Lezhin Libohovec Libohovin Libran Librana Librastë Libratos Libë Libër Libërri Lush Lushë-Arrës Madec Malia Malik Mall Mallakë Mallshe Mallshenë Malëz Mamshnjakës Mamë Man Matos Memallak Memallakë Memalës Memalësi Memar Memarë Miliq Miloniq Milonjë Milorës Milos Miran Mirat Mirogozhë Mirograbër Ori Oria Orik Pat Patoskodë Peqiniq Peqipër Peqizë Pesh Pesheniq Peshenë Pogozhd Pogozhinë Pogras Pol Poll Pollak Pollakë Prra Prrat Prre Prreskodë Prri Prrë Prrësi Pukth Pukës Ros Roskoplik Roskovë Rrogozhd Rrokas Rrorcë Rrorenispol Rrorëz Rrovec Rrëz Rubikumëz Rubin Sarë Sarëz Seleniq Selenjakë Selenë Selenëz Selvik Shijakastër Shin Shinishe Shkopojë Shkovë Shqipër Shqipërmet Shqizë Shë Shë-Arbik Shë-Arrandë Shëngjinë Skra Skram Skrandë Skras Sukë Tepelen Teps Tirditër Tirokasana Tiroplish Trokastë Trorësi Ulës Uradec Uram Uramëz Uran Urapar Urazhd Vajgurbë Vajzë Vlonicë Vloniq Vloroplicë Vlot Vorokas Vorëshë
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Adnani Adnantoran Afriandrim Afriani Afrianit Afrisar Agroar Agronstand Albon Alek Aleka Aleksan Aleksar Ardhyl Arim Arionisni Arisnik Armenk Armer Armergim Armeri Armerim Avnik Avnisan Bajer Bajetmir Bajetonit Bajran Bajë Bajëllumb Bar Bardi Barditmir Bashnit Bastandin Brabin Bran Cli Clir Dalmail Dalon Dalor Dit Ditmiz Drim Dëfri Dëfril Dëfrion Editmiz Edon Edonisar Edvinot Eng Engj Fat Fatbar Fis Fisanti Fishkim Fishnik Fisi Flon Flonstris Flor Frahim Freka Frenderim Freshkim Fresli Gazmen Gazmengjë Gazmenk Gazmer Gender Gendrim Gjeter Gjeton Gjokol Groardh Groaren Groaresh Hidajer Hidajergjë Hidajeton Hidajë Ibin Ibis Ibisi Ibisnik Ili Isnik Isnish Jet Jetef Jetoran Kashkim Kashtri Kastani Kastar Kastrim Kon Koni Kor Koran Korim Krek Kreka Krender Krenditmir Kreng Krentorim Kreslir Kri Krim Kush Lab Lavdri Ledi Lediot Ledzep Lek Lor Loril Luftardh Luftardhyl Lulani Lulantim Mend Mender Menti Mer Merim Muzafenton Nder Nexhatban Nexhatbar Palbon Palonstrim Pjetef Prek Pëll Pëllir Qend Qeng Qenk Qent Qer Qergim Qeriot Ramir Ramiril Redinot Shpëti Shterian Shtri Shtrim Shtrion Shtriot Skenderim Skendrim Skeng Sokë Tardhyl Tarenk Tarenti Taulal Taulëzim Tomorahim Tomoramir Tomoranisi Tomorian Tomorim Uesh Ueshkim Ueshnik Urabisnit Urahim Urandiot Val Valmatban Valmatbant Valoni Vis Visan Vishkim Visi Visnik Xajer Xajetmir Xajeton Xajrab Xajran Xajranderi Xhelalmat Xhelalor Xhelan Xhemailon Xhemat Xhematon Yllumb Ymend Ymender Ymendergjë Yment Ymerim Zam Zefenk Zefenton Zefergim
+            }
+           
+            first_names_female = {
+				Adela Adeta Adete Afrodina Afrosa Afroshelza Afërda Afërdha Afëriela Albarta Albona Albonida Albonika Albonjola Albonjona Albonora Albulea Albulenta Albulerta Anxhe Anxhelina Anxhelza Arbërda Arbërdha Arbërielza Arbërita Arbëritora Arja Arjanda Arjanverta Besa Besara Besja Besjanika Besjanvera Blenta Bleza Brana Branika Bukora Bukoresa Dafinda Dafindresa Dara Darana Dardha Darta Diela Dielzarana Dona Donida Donja Donje Donjola Drie Drielzarda Dritoroshe Eara Earana Earda Eardha Edonida Edonjana Edonje Edonjeta Edonjonja Edonora Egzonika Elina Elinda Elindresa Eliresa Elme Elmedita Elmete Enda Endanda Endre Endresa Fatbadela Fatbadeta Fatbadete Fatbana Fatbandrie Fatbara Fatbarta Fatjola Fatjonika Feta Fete Fetimedina Fita Fitora Fitorosa Fluta Fluturana Gena Genda Gendajlire Gendanvera Gendre Gjete Gjetimete Gjetimoza Hida Hidajlire Ibadelinda Ibadeta Ibana Ibanidaje Ibarda Ibarta Jehonida Jehonijete Jona Jonijete Kalbona Kalbuleza Kaltrie Kime Kimeta Kimoza Klenta Klera Klerta Kleza Klezime Kujtije Kujtijeta Kujtimeta Leona Leonidana Leonijeta Leonja Leonjola Lulea Lulena Lulenda Lulendrie Lulendrita Lulenta Lulera Lulerta Luleza Lulezarda Lulezardha Lulezimoza Majeta Majete Majlina Majlira Mana Manidana Manjonika Manvera Manverta Mime Mimeta Mimetije Odelire Odelza Odete Odetijete Odetimete Prana Qena Qenda Qendajlina Qenta Reza Rezime Rezimeta Rezimete Rezimoza Rilina Rilira Rozara Sana Sardaje Sardana Sardha Sardita Sarta Shpre Shpresarta Shqipona Shqiponida Shqiponije Shqiponika Shqiponje Shqiponora Suelza Teutura Thëllka Valbara Valbulea Valtrie Valtrina Valtrita Vjola Vjonoranda Vjoshe Xhela Xhevahira Yllënza Yllënzara Zamire Zamiresa Zamiresara
+            }
+			
+			second_names = {
+				Agala Agoli Agolilaj Agori Arbërifi Arbërifti Asllajdari Bajdarati Bajmi Baradi Baramaj Bari Belanaj Beli Belilaj Beqi Beri Berna Bernaskaj Boga Bogo Boja Bojati Celaj Celi Celiu Celli Celusharka Currion Dala Dalaj Dallilaj Dauteli Derna Dragushni Drakupi Drashi Drata Drati Dusharifi Dushi Dushirifi Fejzulaj Gashija Gashkupi Gjati Gjaxha Gjaxheli Gjeri Gjernaj Gjeti Gjinasha Gjoka Gjokoli Gjokoliu Gjonasni Gjonbella Gjoni Gogollaj Gogollani Gogoresh Gurashi Hajmi Harami Harka Haxha Haxhala Hoxhajliu Hysenbeli Hysenbeliu Ismaj Jaku Jashku Jaska Jastrecipi Jusha Jushi Kadani Kadareci Kami Kashia Koreshiri Koreshni Kori Kragusha Krefi Kryeziri Kutha Kuthajliu Kuti Lalajrami Llesha Lleshiri Lleshkupi Loga Logdani Logorefi Malliu Maradani Mardhyl Mari Marka Meti Morea Morecipi Mukajrakaj Neziu Nuhi Nush Nushiri Ramaj Rexhaci Rexhafa Rexhaj Rexhari Sadani Sadarka Sejzulaj Shalaj Shanaj Shehmeta Shelahiu Shelaj Sheli Sheliu Shepahi Shepi Smaj Sokaj Spahi Spahundiku Tahacipi Tahari Tahi Thaj Thalla Vutha Xhaballku Xhaj Xhakupi Xhaqi Xhehu Xhelani Xhelimadi Xhepahi Xhepi Zahafa Zahi
+			}
+			
+            regnal_first_names_male = {
+				Aleksar Dëfrion Freka Jetef Qenk Skeng Xhemat Ymendergjë
+            }
+           
+            regnal_first_names_female = {
+				Albonika Bukora Earana Luleza Rezime Valtrina Vjoshe Yllënza
+            }
+				
+			regnal_second_names = {
+				Agori Arbërifi Belanaj Boga Gjoni Gogollani Kutha Nuhi Rexhaci Shanaj Shepahi Smaj Xhelani Zahafa
+			}
+		}
+	}
+}

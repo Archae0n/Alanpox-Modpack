@@ -1,0 +1,87 @@
+# Adventurer Archaeologists
+rwf_adventurer_archaeologists ={
+	trade_value_mult = 0.1
+    pop_growth_from_immigration = 0.1
+    job_rwf_archaeologist_add = 2
+	icon = "gfx/interface/icons/planet_modifiers/pm_archaeology.dds"
+	icon_frame = 1
+}
+
+rwf_mysterious_discrepancies = {
+	planet_jobs_minor_artifacts_produces_mult = -0.25
+	icon = "gfx/interface/icons/planet_modifiers/pm_minor_artifact_decision.dds"
+	icon_frame = 2
+}
+
+rwf_scientific_focus = {
+	job_researcher_per_pop = 0.05
+	icon = "gfx/interface/icons/planet_modifiers/pm_engineering_research.dds"
+	icon_frame = 1
+}
+
+rwf_archaeology_focus = {
+	job_rwf_archaeologist_per_pop = 0.05
+	icon = "gfx/interface/icons/planet_modifiers/pm_archaeological_dig.dds"
+	icon_frame = 1
+}
+
+rwf_archaeotech_weaponry = {
+	army_damage_mult = 0.25
+	army_morale_damage_mult = 0.25
+}
+
+rwf_damaged_systems = {
+	ship_shield_mult = -10.0
+	ship_hull_mult = -0.5
+}
+
+rwf_recent_relic_expedition = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_minor_artifact_decision.dds"
+	icon_frame = 2
+}
+
+rwf_abandoned_ecu_tracker = {
+	icon = "gfx/interface/icons/planet_modifiers/rwf_pm_ruins.dds"
+	icon_frame = 2
+}
+
+rwf_recently_was_ecu = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_arcology_project.dds"
+	icon_frame = 2
+}
+
+rwf_debris_ecosystems = {
+	planet_jobs_food_produces_mult = 0.15
+
+	icon = gfx/interface/icons/planet_modifiers/pm_overgrowth.dds
+	icon_frame = 1
+}
+
+rwf_exotic_life = {
+	planet_jobs_society_research_produces_mult = 0.15
+
+	icon = gfx/interface/icons/planet_modifiers/rwf_pm_lush_jungle.dds
+	icon_frame = 1
+}
+
+rwf_orbital_wreckage = {
+	planet_jobs_engineering_research_produces_mult = 0.1
+
+	icon = gfx/interface/icons/planet_modifiers/pm_ruined_system.dds
+	icon_frame = 1
+}
+
+rwf_unstable_structures = {
+	planet_building_build_speed_mult = 0.1
+
+	icon = gfx/interface/icons/planet_modifiers/pm_city_ruins.dds
+	icon_frame = 3
+}
+
+rwf_recycle_cities = {
+	planet_building_build_speed_mult = 0.1
+	job_scrap_miner_add = 2
+
+	icon = gfx/interface/icons/planet_modifiers/pm_city_ruins.dds
+	icon_frame = 1
+}

@@ -1,0 +1,14 @@
+﻿l_korean:
+
+ tech_repeatable_improved_information_exchange:0							"연구 정보망"
+ tech_repeatable_improved_information_exchange_desc:0						"강화된 연구 정보망을 통해 제국의 기술 연구 속도를 높입니다."
+ 
+ tech_repeatable_improved_information_exchange_corporate:0					"연구 정보 마켓"
+ tech_repeatable_improved_information_exchange_desc_corporate:0				"지식의 교환 속도를 높이는 시장 시스템입니다. 기업의 연구 속도를 높입니다."
+ 
+ tech_repeatable_improved_information_exchange_machine_intelligence:0		"연구 단말 네트워크"
+ tech_repeatable_improved_information_exchange_desc_machine_intelligence:0	"연구 네트워크의 단말간 연결을 최적화하여 연구 속도를 높입니다."
+ 
+ tech_repeatable_improved_information_exchange_hive_mind:0					"$job_brain_drone$ 신경망"
+ tech_repeatable_improved_information_exchange_desc_hive_mind:0				"$job_brain_drone$ 사이의 신경망을 강화해 군체의 지식 습득 속도를 높입니다."
+ 

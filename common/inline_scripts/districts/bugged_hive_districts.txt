@@ -1,0 +1,32 @@
+# $BUGGED_MINER_COUNT$ = A third of the districts job count, rounded down
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_bugged_hive_burrows
+		}
+	}
+	planet_housing_add = 1
+	job_mining_drone_add = $BUGGED_MINER_COUNT$
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_bugged_hive_burrows
+		}
+		is_planet_class = pc_hive
+	}
+	planet_housing_add = 1
+	job_mining_drone_add = $BUGGED_MINER_COUNT$
+}
+
+triggered_desc = {
+	trigger = {
+		exists = owner
+		owner = { has_valid_civic = civic_bugged_hive_burrows }
+	}
+	text = job_mining_drone_effect_desc
+}

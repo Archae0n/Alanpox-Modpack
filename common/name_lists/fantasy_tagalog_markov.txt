@@ -1,0 +1,228 @@
+﻿### Fantasy Tagalog 2
+### Filipino names thrown into a markov name generator
+
+cybrxkhan_handmade_tagalog = {	
+	category = "Aquatic"
+
+	ship_names = {
+		generic = {
+			Abacamen Abas Abay-lodlas Abigoro Ablos Abosok Abuca Abug Abugan Abuncan Abuquinot Abuyang Acalang Aclanang Acol Acolayan Aconacabua Acuyon Adanut Agan Agandiga Agandocas Agat Agatumos Agawanguias Agbalatunsang Agbusopsodog Agcangcato Agcatubahan Agcaya Agdao Agding Agng Agsan Agsao Agtakingca Ague Aguili Akutabal Albigongoyawa Alcagang Alcang Alcobus Aldep Alibo Alit Alos Amatiquilimao Amayanilog Ambay Ambon Amihing Ampayquio Amporoy Amuran Ancapat Anda Angan Angin Anibudiap Annagsagas Annalitan Antepo Anyingay Apak Apalanto Apata Apes Apip Apoc Apodo Apongo Aponoyaba Apor Apos Aposer Aragpi Arala Aronguen Atoc Ayuya Babandao Babatan Babungo Babuquia Bacada Bacalan Bacamba Bacan Bacanayan Bacapisang Badawas Badlatlig Bagan Bagayo Bagbo Bagbogde Bagdang Baghol Bagob Bagpan Bagsolil Baguilinan Baho Bajan Bakaya Bala Balabigodons Balangay Balanubactaon Balao Balasang Balaymonza Balbio Baldisagay Bale Balina Balingan Baliraya Ballaguit Balog Balon Baluat Baludil Baluyos Bana Banancaula Banapan Banay Bangayongoyen Bani Baquina Baram Baran Baray Bare Baring Barolicmo Basang Basasao Basay Bata Batacuyacanao Bataga Batan Batang Batayagao Batiguem Batocao Battumlalumao Bayanawit Bayang Baysaynoctan Bayugayquila Bayugno Biga Bigal Bigan Bigasipalis Biha Bihag Biharunao Binalan Binao Bincayaoang Bingan Binoa Bocta Bohoy Bolog Bong Bongkia Bongo Bonto Boon Boñag Buaneg Bucliagsinang Buco Bugalud Bugay Buhangcam Buharun Buhing Bukbasigac Bulablay Bulajan Bulalilicalot Bulao Bulas Bulda Buldulat Bulimabayoton Bulo Bulogan Bulot Bumanahino Bumanta Bumayog Bumiraday Bumo Bunagto Bungan Bungcan Buno Buta Butio Caan Caanut Cababe Cabalumpayog Caban Cabang Cabanigtot Cabas Cabasiman Cabataring Cabatunzo Cabay Cabec Cabed Caben Cabeyran Cabeyranga Cabil Cabiligbadia Cabindapaybao Cabiracuyong Cablao Cabog Cabong Cabua Cabulang Cabulongoy Cabunto Cabutanan Cabuyotan Cacan Cacao Cacaunsa Cacayang Caclahac Caco Cadamayanion Cadinapusig Caecolcasiban Caga Cagamboo Cagas Cagayo Cagto Cairigas Caitang Caja Caje Cajulang Cala Calagde Calagom Calagsoc Calamuaya Calat Calata Calawato Calay Caleppat Calgoye Calin Caling Calipola Calirasan Calon Calot Camapet Cambanan Campagaoan Campalan Camples Cana-talit Canappac Canicdao Canin Capaylobren Capong Cara Caracadlangal Caracan Carandoyo Carapag Cari Carit Carlay Caro Caroc Casa Casadaoho Casato Casayo Casingal Catalicao Catang Catarin Catigayato Catingumbagay Caya Cayaga Cayan Cayanaw Cayaoa Cayo Colon Cople Coro Coroc Cubasugan Cudia Cunawisad Cung-ada Cupan Curaay-aya Curing Cusalen Cuyayblanjan Daagpinglagui Daambaetulo Daambo Dacabule Dacatoc Dacolo Dacpiganit Dadong Dagabatubog Dagao Dagit Dagsomalupnot Dagta Dajaoan Dalabangan Dalal Dalikit Dallayo Dalli Dallu Damaguem Dambayug Dang Danlutam Dapasilan Daqui Daquina Dari Dasingibaclon Datac Datakinaoagda Datan Datmaba Datmapunongba Datonsoy Dawan Dawil Dayan Dayaoanja Daysahin Deendan Dicbatak Dimaala Dimainsahisa Dimala Diman Dimanal Dimano Dimansayas Dimao Dimapinghac Dimaraon Dimat Dimay Dimocsi Dimor Dimoran Ding Dingani Dinglaoil Diwan Diwana Dolon Domit Domos Dopo Dopso Doron Duanoljos Ducatasi Ducba Ducganaw Ducop Duhan Duhat Duldiuayan Duma Dumagacasan Dumagubayotoc Dumalbaynago Duman Dumanwaludaya Dumaritan Dumatot Dumban Duminao Dumog Estac Gaan Gabalag Gabucsi Gabugue Gabusay Gacusanghoy Gada Galan Galanalao Galapilan Galas Gamap Gamin Gamog Gampao Gandogamunan Gapalilayan Gapang Gata Gatasinsacata Gatazon Gatoc Gaun Ginjang Gonga Guddao Gudig Guilao Guinsi Gula Gulayagaatu Guma-ay Gumain Gumasung Gumbaque Gumonto Gutilumasa Halaga Halang Halay Halipas Handy Hapo Hapuz Hiclo Hinan Homadrantan Hubayong Icbagaytotac Icbagki Iguiano Ilaba Ilalauasay Ilangadulaqui Ilanunit Ilot Indias Inimaran Ipono Iyonda Jacabay Jacatanan Jacudiuan Jais Jalubira Jamar Juian Juman Junan Jung Junganin Junglit Junoyuyaggan Kabagan Kabagtazong Kabat Kabus Kaigta Kaile Kaitoc Kala Kalay Kalungdo Karao Kasig Kilipustan Labaileni Labanlari Lacan Lacayto Lacbao Lacuyagtaca Lagan Laganggayaoan Lagao Lagba Lagbay Lagbayo Laglapila Lairing Lalabil Lale Laligorio Lanagulapay Lang Langwa Lano Larin Lawaranan Lay-ay Layanuangang Libalao Libilin Libon Libundapit Liclandisi Licmate Liculaniua Lihayabayon Ling Lino Litan Litayo Liwa Liwan Lombo Luadol Lucen Luco Lumagaigoyag Lumalay Lumatumatinca Lumay Lumo Lumog Lumpolian Lumuya Lung Luyan Luyanapilay Luyay Maamot Maban Mabananopaoa Mabas Mabecbuang Mabilile Mabong Mabugaya Mabuyo Macabagsigo Macad Macagtingot Macalisoy Macalongcad Macam Macamo Macan Macanes Macao-ogotan Macasas Macat Macayo Machalisalup Macla Maclan Maclas Macque Mactan Maculao Macutan Madangtubalio Madenasanayan Mader Madile Madilurum Magadiaoilan Magalip Magalongden Magam Magan Magang Magano Magasig Magay Magayanloc Magbati Magil Maglandaparao Magman Mago Magoglon Magpa Magpong Magpuran Magsayano Magua Maguit Magumba Magyagsan Mahao Mahirawing Mahoy Mahug Mainla Maisalaya Makilinalalim Makit Makitao Malabanalagso Malagangol Malan Malansol Male Maliaganta Maligambas Maligtig Malindatanga Maling Maliwad Malo Mambo Mamuraspo Mana Manablacan Manac Managsaoas Manamplon Manan Mananglol Manasadaran Manban Mando Mang Manga Mangit Manioan Manoobas Manoples Mansongtoc Manyen Mapacunanagda Mapayao Mapile Mapitangas Mapol Mapong Mapunsayan Maquen Maquil Marahinapagan Marang Maren Marigbahatog Maring Marinsague Marobaygo-as Marucganipao Masay Masi Matabayanon Matafalis Matao Mataois Mati Mauba Mungoday Nabnaragkis Nacaal Nacangon Nacay Nakay Naktac Namalangid Namgunghango Nandan Nasadan Naungile Ngao Nicud Nipi-ut Nisani Nugho Nungan Obuguilayang Obut Okan Okang Okay Omaclan Omad Omadlalamulao Omagip Omil Ontan Opudi Orambig Oronglicay Ouay Paacdao Paaguda Paalon Paan Paapazong Paay Paca Pacat Pacatchainki Pacban Padlambas Padong Pael Paga Pagacarao Pagalan Pagalas Pagan Pagaya Pagban Pagderangayo Pagosjo Pagsalal Pagtongangos Pahalosao Pahanggao Pahidinsas Pahing Pakit Pal-la Pala Palacabuco Palacayot Palagor Palal Palalay Palan Palay Palbanoran Paleppang Palguenip Paliaparay Paligunsan Palod Palugay Pamanibonos Pamulon Pamutaruntip Pana Pani Paran Parawa Paronto Parucumat Parughaya Patan Patangit Patigang Patog Patucao Paundo Payan Payosop Peng Pengoliasbal Pidin Pilan Pilaw Pileromos Pililupil Ping Pitanaw Polagtanutan Poler Pukayangan Pula Punad Puraoas Quiagan Quiarigongan Quiasigauat Quibuchan Quid Quieb Quil Quilasumo Quimat Quinguman Quio Quitan Raalontoc Rabasakia Rabasulo Raboy Rabud Racala Racan Ragbayad Ralaoagbay Ramao Rapo Raquioan Ribaton Ringsade Rodoc Romolan Sabajosanas Saban Sabnapazong Sabtiu Sabugunyi Sabuya Sacalablapato Sacaoay Sacayansag Saco Sacoli Sacta Sadabun Sadarana Saga Sagabeco Sagan Sagao Sagat Sagdiga Sagnion Sagomulagcaya Saguing Saguyangro Sahilan Salakipan Salanghugauag Salasaya Salawaraino Saldapil Sale Salilic Salisambaton Salit Salo Salog Saltano Samamatuni Samis Saplon Saran Saratol Sarobuang Sarung Sauan Sawang Siac Siapiodol Sias Siat Sibananos Sibanga Sibol Sibutilagay Sictactanling Silan Silayog Silictin Silinaga Simaing Sombo Somindiuaya Sopos Subasaet Subay Subiagnot Subo Sucbug Sug-Sung Sugcat Suminlan Sumo Taan Taaton Taba Tabagay Tabahidem Tabaquibasad Tabasat Tabigan Tabilapis Tablap Tabo Tabog Taboon Tabuas Taburan Tabuyao Tabuycat Tacali Tacalin Tacalo Tacanglo Tacat Tacaybao Tacden Tacpay Tadpod Tag-quinag Taga Tagamanan Tagangadugoy Tagapasang Tagato Tagatuda Tagayana Tagayoc Tagdagayan Tagtan Tajan Taje Talag Talan Talangan Talaquen Talay Talayasani Tali Talikud Talin Talina Talinangadoc Talogos Tamaw Tanan Taneggol Tang Tanit Tapilin Tapiracadol Tapolamdion Tapuz Tarao Tarias Tarob Tarucahilapi Tatio Taua Tañalilig Teng Tias Tiguirandadum Timabay Tingos Tinoyao Tomandas Tomba Tudtubugtotoc Tugota Tukbo Tulante Tuma-asaya Tumabay Tumat Tumawas Tunanglim Tuntocasuni Tupala Tupit Tuñi Ugantayot Ulao Umagcasa Uman Umatubambu Umihan Umina Umitan Undong Usil Utamusanang Utanarayinlan Valimao Vira Yacud Yadog Yagsoc Yamaindo Yampas Yang Yanti Ybulakpil Yordacata Yusngangao
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Dimarigung Sky Navy" "Agto Sky Navy" "Lingmaiso Sky Navy" "Ragsas Sky Navy" "Sala Rabo Sky Navy" "Buhagayan Sky Navy" "Laguelila Sky Navy" "Cagabagon Sky Navy" "Quihacaya Sky Navy" "Banao Pal Sky Navy" 
+		}
+		sequential_name = FANTASY_TAGALOG_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+
+		psionic_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_TAGALOG_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Aban Abelite Able Agbulaan Agbusa Agda Agden Agpusop Agtanalal Aguhiulag-ay Akulan Alanto Alot Ando Angio Atoc Ayumipalan Babang Bagsang Balan Balila Baliman Bang Bascamapong Bihituyut Binayan Bongaliwag Buhiulon Bulapurano Cabadan Caban Cabog Cabong Cabus Cagasag Cagbacte Calin Calog Calungili Camaa Caran Caro Dahang Dakintik Dimat Dimawa Dimbaymong Dimbon Duman Dumano Dumato Dumbayoto Duyog Emuandononan Gagno Gamangot Gingo Guman Gumapin Gumor Ibac Into Kilo Lablan Lagalasuhat Lakapay Layagpuso Layang Licut Limilawandit Litan Lona Lumatoc Lumatud Maayang Macang Macelala Madem Magang Magpalitang Maidan Makip Mala Malgong Malit Mambitaya Manabu Manana Mandacasuga Mandog Mangalagpa Mangking Mansan Maraz Masamibori Musan Namis Napian Oraoan Orastang Paali Pabay Pacagdat Pagahatang Pagay Palalikino Paliscapag Pamoro Pangao Pani Pantot Paritang Pasa Pasan Patuyot Pinocsinsong Poblay Pole Quia Rabayac Ragujoon Rodan Sacban Sagam Sagayot Sagpas Salan Salog Saluspong Sapongaitog Seggan Silasig Subalay Sulanog Suma Sumlao Taangalan Tabayongan Tadao Taga Talayongal Talicay Timinal Untino Vagumaulapan Yaday Yambo Ybus Ysimno
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Abelan Ablansan Abogancap Abunil Abuyog Acdeng Aclawitunsinda Adlap Agasa Agatan Agbas Agboc Agbung Agdalacla Agdan Alayan Ali Alimaya Alusay Amara Amaypay Ampas Amuns Annoay Anutana Arambot Arongos Atambol Ba-ay Babsa Bag Bagadonog Bagsacala Bainkinsay Balatoc Balin Balon Baloo Ban Banalan Bananahanay Banas Bangtot Banutudiulao Baquil Batakalina Batangod Bating Batiugcol Batok Batulibas Baturan Bay Bengki Bihancot Bin Bing Bintumuggay Bocad Bohuyop Bongad Bonghalap Bugayo Bukbalao Bungao Bungba Bunian Buntig Butos Caapne Caasoy Caboro Cabucapneio Cabudo Cabunta Cad Cadiul Cagan Cailagubing Calao Calong Capay Capayacamawi Capilaray Capoc Carro Carunsa Casing Cay Cayan Cayang Cayaong Cod Colo Cosagmay Cubagpocali Cubayog Culang Cuya Cuyoat Dabucalay Dacaglo Dacte Dagano Daguia Dalbon Dalis Darumlit Datalon Day Dimalalon Dimalit Dimang Dimanon Dimay Dimbugno Dimen Dimilisoy Dop Ducelon Dumapitac Dumapiteg Dumbo Dumisacatan Dumtin Dupay Duyatan Emugay Estawiriran Fangao Gabay Gacad Gadamba Gamilapus Gamulandawig Gatapulam Gauimalil Gindigaboro Gudindasanga Guilas Guin Gumanan Gumis Gunubatalo Hapit Hicut Homungkilan Ilugan Itchoy Jac Jacagalon Karakawit Laban Labanilana Lacat Lacta Lagas Lagawi Lagno Lagontaluda Lagsi Laindadagaon Lakang Lamas Lamog Lapin Lapud Leyan Libongamante Licdolacuno Liclo Licmoc Licoba Ling Lipanoy Lipulatoy Lisin Lugoto Lum Lumagdiu Lumal Luman Lumat Lumayawan Lumoy Luno Maangay Maanis Mabadan Mabati Mabya Mac Macalangan Macde Macpal Macud Macup Macupal Macus Madalap Madoy Mag Magahapalao Magan Magandor Maganuno Magay Magayasi Magit Magmalapugon Magos Magsang Magsayna Mahiran Maiguito Maiuacpan Malan Malao Malbas Maligalalit Malio Malungkinda Mam Man Mandrot Mang Mangas Mangue Mani Manile Manin Manlao Maracat Maran Maraohug-ayo Masanit Matambatang Matub Mañaguian Mundabawarig Musacabolon Nacalingamo Nacatigad Nakalagayron Namalimas Namenan Nipan Oaserinopsod Okapitan Ola Omagalat Ominoy Ompay Oppurian Opuspuyang Pabani Paca Pacapisia Pacato Padao Paecbao Pag Pagalo Pagarana Pagsan Pagtongalup Pali Palimating Palisa Palon Paloya Paluran Pan Pandan Pangsa Pas Pat Pauralis Pengonto Pingan Pinhuli Polon Puktandoc Pung-quio Punyang Quiabas Quicsod Quingalit Raan Raban Racayan Rapanilit Recoron Rinawit Rinayug Rinong Sabas Sacangin Sacasa Sacumalueg Sadam Sadan Sadpolin Sadrawaray Saguelo Sahangallan Sakpay Salambo Salomicbunoyen Samen Saran Sarpaniad Sibabangbus Siganalao Sigualay Sil Silikay Subayog Sudday Sudongrocan Suycanaralan Taan Tabayanit Tablet Tablop Tabol Tabuya Tac Tacalimable Tacaliteg Tacat Tagalade Tagalapat Tagan Talayi Taliman Tanay Tancaser Tayot Tera Tibuot Timatang Tingamon Tubiggay Tubilong Tucapus Tudal Tumal Tumano Tumaro Tumulag Turauyon Tuyosoyaga Unalubo Untamolong Viran Yan Ygohug Yumpog
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Abalin Aboc Abuyan Adlagkat Agang Alicdapa Alongalu Alpatibala Amaga Ambungay Aminanabuga Apet Apot Ayumus Babalamogol Baban Bagabin Bagaliksay Bagda Bago-tibunan Balag Balagang Balanipan Bangas Baniog Bano Banosan Baran Bataong Belol Bingao Bingwa Bolo Bongcaren Boto Bugnopon Bularung Bulon Bung Bungati Bungay Bungubotos Caasagkulsen Caban Cabang Cabaoan Cabed Cabiran Cabirao Caca Cadan Calan Caligayon Calipit Calong Camoc Caray Catang Catinan Catub Condog Cong Coramaw Culig Cunas Curanaa Cuya Daamang Dacad Dagaraghacan Dahas Danubalag Dapilong Databayan Dayana Dayoy Dicodlo Diman Dimatin Dimon Dingcanon Dipang Dipolang Domo Duan Duanggalin Duczonlagpat Dumarao Dumungen Dupang Gabandagyag Galat Galigalongan Gapigo Garapite Gatanite Gauyagaliao Guilay Guingato Gumari Halan Ilan Itcan Jumit Kabuson Kalip Kalon Kilan Lacay Lacud Lag-adio Lagama Lagan Lagas Lalo Lameng Lang Layaycap Libanghong Licuyanglao Long Lonot Lugan Mabamo Mabayan Mabinghug Macabay Macasing Maclapuz Macut Madayayagan Madinon Magadag Magawat Magayanunao Magayo Magdangio Magdog Magpagla Magsa Mailipog Mala Malahugosins Malangan Malin Mamolos Mana Manao Mang Mangayosem Mangsandan Manio Mano Matao Matchonga Mayo Nacupingtan Nasayo Nilang Oasumansay Olaculaco Omilao Oppulo Oran Oron Oualigming Pabata Pacan Padog Paeggatonga Pagas Pagayo Paguliaoan Palap Palat Palayo Palinto Pamaro Pamos Pasinlaya Patacagon Penaapondaya Pilananon Pilua Pulawisao Pung Qued Quilapes Raan Ragao Raque Ribacaliaco Ribarinaoite Ribas Sabas Sabul Sagala Salan Salapayan Salas Salinsan Samducud Samo Sayog Sicpaza Silimaliaoa Somapit Suco Taandola Taba Taban Tabaragno Tabugango Tacad Tadeng Taed Taga Tagan Talaalan Taraw Tioan Tumalicalo Tumbo Ulaclao Ulao Worac Yaba Yabagueg		
+			}
+			
+			regnal_first_names = {
+				Amaypay Balon Baquil Gumanan Maganuno Mañaguian Pingan Raban Timatang
+			}
+			
+			regnal_second_names = {
+				Alongalu Balag Balanipan Dahas Gapigo Itcan Magayo Pacan Quilapes Ribacaliaco Tagan Yaba
+			}
+		}
+	}
+}

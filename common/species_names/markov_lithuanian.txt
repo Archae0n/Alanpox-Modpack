@@ -1,0 +1,382 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	jusbrole = {
+		name = Garruliai
+		plural = Garruliai
+		home_planet = "Jus Brole"
+		home_system = Mikasis
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	worlddrum = {
+		name = Iska
+		plural = Iskas
+		home_planet = "World Drum"
+		home_system = "Sky Dancer"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	mikasis = {
+		name = Mikasian
+		plural = Mikasians
+		home_planet = Mikasis
+		home_system = Burageliuskas
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	vlainaus = {
+		name = Vlainian
+		plural = Vlainians
+		home_planet = Vlainaus
+		home_system = Audrijus
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	petkubis = {
+		name = Petkubian
+		plural = Petkubians
+		home_planet = Petkubis
+		home_system = Maroviaitis 
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	mikevszkos = {
+		name = "Prai Kas"
+		plural = "Prai Kas"
+		home_planet = Mikevszkos
+		home_system = Mazdynasonas 
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	baltas = {
+		name = Baltassoid
+		plural = Baltassoids
+		home_planet = Baltas
+		home_system = Bulaimenys 
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	klanys = {
+		name = Klanid
+		plural = Klanids
+		home_planet = Klanys
+		home_system = Rokas 
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	iporys = {
+		name = Iporish
+		plural = Iporish
+		home_planet = Iporys
+		home_system = Morys
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	puonskisthegravymaker = {
+		name = Fablo
+		plural = Fablo
+		home_planet = "Puonskis the Gravy-Maker"
+		home_system = "Miksotas the Unimaginable"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	kriencintas = {
+		name = Kriencinian
+		plural = Kriencinians
+		home_planet = Kriencintas
+		home_system = Rimanuskis
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	zignas = {
+		name = Zignish
+		plural = Zignish
+		home_planet = Zignas
+		home_system = Buckalytë
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	pliskas = {
+		name = Pliskian  
+		plural = Pliskians
+		home_planet = Pliskas
+		home_system = Zvicincius
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	vicionis = {
+		name = Vicionid  
+		plural = Vicionids
+		home_planet = Vicionis
+		home_system = Anduskas
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	minasgarden = {
+		name = Min-Cepole  
+		plural = Min-Cepole
+		home_planet = "Minas' Garden"
+		home_system = "Yakas' Horn"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	charasprime = {
+		name = Charassic  
+		plural = Charassics
+		home_planet = "Charas Prime"
+		home_system = Charas
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	rasiazethemother = {
+		name = Abrassid 
+		plural = Abrassids
+		home_planet = "Rasiaze the Mother"
+		home_system = "Tragdaus the Father"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	martas = {
+		name = Martassian 
+		plural = Martassians
+		home_planet = Martas
+		home_system = Andriczas
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	kupkinai = {
+		name = Kupkinite 
+		plural = Kupkinites
+		home_planet = Kupkinai
+		home_system = Prigys
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	juodas = {
+		name = Juodean 
+		plural = Juodeans
+		home_planet = Juodas
+		home_system = Garakupiskas
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	domonis = {
+		name = Domonean 
+		plural = Domoneans
+		home_planet = Domonis
+		home_system = Vaitiskieys
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	zelepeta = {
+		name = Zelepite
+		plural = Zelepites
+		home_planet = Zele'Peta
+		home_system = Zele'Kata
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	matvas = {
+		name = Matvasian
+		plural = Matvasians
+		home_planet = Matvas
+		home_system = Mailanaus
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	kurkasgoldenwomb = {
+		name = Jaka
+		plural = Jakas
+		home_planet = "Kurkas Golden-Womb"
+		home_system = "Jukelsis the Rumbler"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	agnalde = {
+		name = Agnaldian
+		plural = Agnaldians
+		home_planet = Agnalde
+		home_system = Bopartaulytë
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	lowkryszijonskos = {
+		name = Elzbirvydai
+		plural = Elzbirvydai
+		home_planet = "Low Kryszijonskos"
+		home_system = "High Kryszijonskos"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	alekybas = {
+		name = Le'Kybbite
+		plural = Le'Kybbites
+		home_planet = "Ale Kybas"
+		home_system = "Ale Petas"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	heavenpiercinglight = {
+		name = Dirvilai
+		plural = Dirvilai
+		home_planet = "Heaven-Piercing Light"
+		home_system = "Fanfare of the Void"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	gudikis = {
+		name = Gudikoid
+		plural = Gudikoids
+		home_planet = Gudikis
+		home_system = Pijamuanys
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	janteliainis = {
+		name = Parijonkur
+		plural = Parijonkurs
+		home_planet = Janteliainis
+		home_system = "Kas Vila"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	gudarkungai = {
+		name = "Isai Ras"
+		plural = "Isai Ras"
+		home_planet = Gudarkungai
+		home_system = Sailis
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	alisciusprime = {
+		name = Arnalish
+		plural = Arnalish
+		home_planet = "Aliscius Prime"
+		home_system = Aliscius
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	returningmelody = {
+		name = Tomoniai
+		plural = Tomoniai
+		home_planet = "Returning Melody"
+		home_system = "Fading Symphony"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	baretadelos = {
+		name = Baretadean
+		plural = Baretadeans
+		home_planet = Baretadelos
+		home_system = Kybalvis
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	paaclathemagnificent = {
+		name = Beriski
+		plural = Beriskis
+		home_planet = "Paacla the Magnificent"
+		home_system = "Bilnis the Glorious"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	vilazlaovis = {
+		name = Vilazoid
+		plural = Vilazoids
+		home_planet = Vilazlaovis
+		home_system = Roniai
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	vacius = {
+		name = Vacian
+		plural = Vacians
+		home_planet = Vacius
+		home_system = "Vintis Kede"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	geramponis = {
+		name = Geramponite
+		plural = Geramponites
+		home_planet = Geramponis
+		home_system = Silkskis
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	riciona = {
+		name = Ricionan
+		plural = Ricionans
+		home_planet = Riciona
+		home_system = Wanas
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	tylekunas = {
+		name = Tylekunan
+		plural = Tylekunans
+		home_planet = Tylekunas
+		home_system = Silaus
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	abienciene = {
+		name = Szos
+		plural = Szos
+		home_planet = Abiencienë
+		home_system = Varadvis
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	valovis = {
+		name = Valovian
+		plural = Valovians
+		home_planet = Valovis
+		home_system = Birvydas
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+}
+
+
+### AQUATICS
+
+AQUATIC = {
+	karnavas = {
+		name = Karnavan
+		plural = Karnavans
+		home_planet = Karnavas
+		home_system = Skuodas
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	juozel = {
+		name = Juozelese
+		plural = Juozelese
+		home_planet = Juozel
+		home_system = Donata-Pava
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	krutkusthenoble = {
+		name = Barkalde
+		plural = Barkalde
+		home_planet = "Krutkus the Noble"
+		home_system = "Martasos the Brave"
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+	jerkevila = {
+		name = Jerkevilan
+		plural = Jerkevilans
+		home_planet = Jerkevila
+		home_system = Anzelius
+		name_list = "cybrxkhan_fantasy_lithuanian"
+	}
+}
+
+

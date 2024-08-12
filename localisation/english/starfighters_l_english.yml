@@ -1,0 +1,106 @@
+﻿l_english:
+
+ TECH_UNLOCK_STRIKE_CRAFT_1: "§HUnlocks Component:§! Interceptors & Strike Craft"
+ TECH_UNLOCK_STRIKE_CRAFT_2: "§HUnlocks Component:§! Interdictors & Strikers"
+ TECH_UNLOCK_STRIKE_CRAFT_3: "§HUnlocks Component:§! Starfighters"
+
+ PD_HANGAR_1: "Sentinel Interceptors"
+ PD_HANGAR_1_DESC: "These manned strike craft are launched from a mothership and equiped with a modified point-defense laser, which makes them effective at shooting down enemy missiles. In battle they behave like 'fighters' and will focus on destroying enemy missiles and strike craft."
+
+ PD_HANGAR_2: "Barrier Interdictors"
+ PD_HANGAR_2_DESC: "Interdictors are the next generation of defensive strike craft, featuring improved avionics, better handling characteristics and more powerful armaments. These carry a modified barrier point-defense system and excel at eliminating enemy missiles."
+
+ PD_HANGAR_3: "Guardian Starfighters"
+ PD_HANGAR_3_DESC: "A further refinement in strike craft design, starfighters are a pilot's dream. The guardian point-defense system these use will devastate any enemy missiles threatening their mothership."
+
+
+ FLAK_HANGAR_1: "Flak Interceptors"
+ FLAK_HANGAR_1_DESC: "These manned strike craft are launched from a mothership and equiped with a modified flak battery, which makes them effective at shooting down enemy strike craft. In battle they behave like 'fighters' and will focus on destroying enemy missiles and strike craft."
+
+ FLAK_HANGAR_2: "Flak Interdictors"
+ FLAK_HANGAR_2_DESC: "Interdictors are the next generation of defensive strike craft, featuring improved avionics, better handling characteristics and more powerful armaments. These carry a modified flak cannon and excel at eliminating enemy strike craft."
+
+ FLAK_HANGAR_3: "Flak Starfighters"
+ FLAK_HANGAR_3_DESC: "A further refinement in strike craft design, starfighters are a pilot's dream. The flak artillery these use will devastate any enemy strike craft threatening their mothership."
+
+
+ RAILGUN_HANGAR_1: "Railgun Strike Craft"
+ RAILGUN_HANGAR_1_DESC: "These manned strike craft are launched from a mothership and equiped with a modified small railgun, making them effective against shields. In battle they behave like 'bombers' and will focus on destroying enemy ships."
+
+ RAILGUN_HANGAR_2: "Advanced Railgun Strikers"
+ RAILGUN_HANGAR_2_DESC: "Strikers are the next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments. These carry a modified small advanced railgun and excel at punching through enemy shields."
+
+ RAILGUN_HANGAR_3: "Gauss Starfighters"
+ RAILGUN_HANGAR_3_DESC: "A further refinement in strike craft design, starfighters are a pilot's dream. The gauss cannons these use will devastate any enemy ship relying on shields for protection."
+
+
+ AUTOCANNON_HANGAR_1: "Autocannon Strike Craft"
+ AUTOCANNON_HANGAR_1_DESC: "These manned strike craft are launched from a mothership and equiped with a modified small autocannon, overcoming the short range that is normally the biggest drawback of those weapons. In battle they behave like 'bombers' and will focus on destroying enemy ships."
+
+ AUTOCANNON_HANGAR_2: "Ripper Autocannon Strikers"
+ AUTOCANNON_HANGAR_2_DESC: "Strikers are the next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments. These carry a modified improved autocannon and though heavy armor slows them down significantly they excel at shredding enemy ships."
+
+ AUTOCANNON_HANGAR_3: "Stormfire Starfighters"
+ AUTOCANNON_HANGAR_3_DESC: "A further refinement in strike craft design, starfighters are a pilot's dream. Though heavy armor slows them down significantly, the advanced autocannons these use will obliterate enemy ships."
+
+ AUTOCANNON_HANGAR_4: "Nanite Starfighters"
+ AUTOCANNON_HANGAR_4_DESC: "The apex in autocannon strike craft design. Few ships can survive the ceaseless barrage of their nanite autocannons for very long."
+
+
+ PLASMA_HANGAR_1: "Plasma Strike Craft"
+ PLASMA_HANGAR_1_DESC: "These manned strike craft are launched from a mothership and equiped with a modified small plasma thrower, making them ineffective against shield but very effective against armor. In battle they behave like 'bombers' and will focus on destroying enemy ships."
+
+ PLASMA_HANGAR_2: "Plasma Accelerator Strikers"
+ PLASMA_HANGAR_2_DESC: "Strikers are the next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments. These carry a modified small plasma accelerator and though shields slow them down considerably they excel at burning through enemy armor."
+
+ PLASMA_HANGAR_3: "Plasma Starfighters"
+ PLASMA_HANGAR_3_DESC: "A further refinement in strike craft design, starfighters are a pilot's dream. The plasma cannons these use aren't good against shields, but will quickly melt any enemy ship relying on armor for protection."
+
+
+ DISRUPTOR_HANGAR_1: "Disruptor Strike Craft"
+ DISRUPTOR_HANGAR_1_DESC: "These manned strike craft are launched from a mothership and equiped with a modified small disruptor, overcoming the short range that is normally the biggest drawback of those weapons. In battle they behave like 'bombers' and will focus on destroying enemy ships."
+
+ DISRUPTOR_HANGAR_2: "Ion Disruptor Strikers"
+ DISRUPTOR_HANGAR_2_DESC: "Strikers are the next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments. These carry a modified small ion disruptor and excel at penetrating all enemy defenses and striking deep into the vulerable hull of their targets."
+
+ DISRUPTOR_HANGAR_3: "Phased Starfighters"
+ DISRUPTOR_HANGAR_3_DESC: "A further refinement in strike craft design, starfighters are a pilot's dream. The phased disruptors these use will annihilate any enemy ship without hardened defenses."
+
+
+ MINING_LASER_HANGAR_1: "Cutting Laser Strike Craft"
+ MINING_LASER_HANGAR_1_DESC: "These manned strike craft are launched from a mothership and equiped with a modified small mining laser for 'drilling' through enemy armor and hull. In battle they behave like 'bombers' and will focus on destroying enemy ships."
+
+
+ ENERGY_SIPHON_HANGAR_1: "Energy Siphon Strike Craft"
+ ENERGY_SIPHON_HANGAR_1_DESC: "These manned strike craft are launched from a mothership and equiped with a modified small energy siphon, allowing them to drain enemy shields. In battle they behave like 'bombers' and will focus on destroying enemy ships."
+
+
+ NULL_VOID_HANGAR_1: "Null Void Strike Craft"
+ NULL_VOID_HANGAR_1_DESC: "These manned strike craft are launched from a mothership and equiped with a modified small null void beam, allowing them to quickly nullify enemy shields. In battle they behave like 'bombers' and will focus on destroying enemy ships."
+
+
+ PSI_HANGAR_PD: "Oracle Starfighters"
+ PSI_HANGAR_PD_DESC: "The psionic pilots that fly these starfighters project a powerful shield to protect their craft while being able to predict exactly where they need to point their point-defense lasers to unerringly annihilate enemy missiles."
+
+ PSI_HANGAR_DISRUPTOR: "Psionic Starfighters"
+ PSI_HANGAR_DISRUPTOR_DESC: "The psionic pilots that fly these starfighters project a powerful shield to protect their craft while being able to predict exactly where they need to point their phased disruptors to unerringly annihilate enemy ships."
+
+ PSI_HANGAR_TELEPATHIC: "Avatar Starfighters"
+ PSI_HANGAR_TELEPATHIC_DESC: "The psionic pilots that fly these starfighters project a powerful shield to protect their craft while being able to bombard enemy ships with telepathic blasts."
+
+
+ EXTREADIMENSIONAL_HANGAR: "Disintegrator Starfighters"
+ EXTREADIMENSIONAL_HANGAR_DESC: "These starfighters incorporate the advanced energy weapons of the extra-dimensional invaders to devastating effect. They will quickly disintegrate any enemy defenses composed of physical matter."
+
+
+ AMOEBA_STRIKE_CRAFT_2: "Gene-Seeded $AMOEBA_STRIKE_CRAFT$"
+ AMOEBA_STRIKE_CRAFT_2_DESC: "This is a new breed of battle-ready amoebas that have been created through advanced genetic sequencing an enhancement. They are more powerful than their natural cousins and a serious threat to enemy ships."
+
+ AMOEBA_STRIKE_CRAFT_3: "Leviathan $AMOEBA_STRIKE_CRAFT$"
+ AMOEBA_STRIKE_CRAFT_3_DESC: "Genetic mastery has produced the apex predator of the void. A large swarm of these supremely enhanced amoebas can take down anything from a citadel starbase to a juggernaut or even a space dragon."
+
+ GG_ENERGY_MISSILE_DESC: "Condensed, energized clusters of self-proliferating nanites, aggressively dismantling enemy hulls and replicating until their limited energy reserves deplete."
+ 
+ GG_STRIKE_CRAFT_DESC: "Aggregate Nanite Swarms congregated into strike-profile small craft, armed with charged photonic blasters powered by interconnected nanofabricated power cells. Harmoniously endless."
+
+ nanite_interdictor_hybrid_key: "Hybrid"

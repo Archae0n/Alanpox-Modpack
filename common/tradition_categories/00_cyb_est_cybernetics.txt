@@ -1,0 +1,36 @@
+tradition_est_cybernetics = {
+	tree_template = "tree_est_0_1_0_23_4"
+	adoption_bonus = "tr_est_cybernetics_adopt"
+	finish_bonus = "tr_est_cybernetics_finish"
+	traditions = {
+		"tr_est_cybernetics_1"
+		"tr_est_cybernetics_2"
+		"tr_est_cybernetics_3"
+		"tr_est_cybernetics_4"
+		"tr_est_cybernetics_5"
+	}
+
+	potential = {
+		est_cybernetics_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_ethic =	ethic_materialist
+		}	
+		modifier = {
+			factor = 3
+			has_ethic =	ethic_fanatic_materialist
+		}		
+		modifier = {
+			factor = 2
+			has_origin = origin_mechanists
+		}
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

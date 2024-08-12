@@ -1,0 +1,72 @@
+situation_nanotech_create_mothership = {
+	complete_icon_frame = GFX_situation_outcome_frame_green
+	complete_icon = GFX_situation_gray_goo_ships
+	picture = {
+				picture = GFX_evt_gray_goo_ships
+	}
+
+	stages = {
+		stage_1 = {
+			icon = GFX_situation_stage_1
+			icon_background = GFX_situation_stage_frame_green
+			end = 1000
+			custom_tooltip = nanotech_stage_summoning
+		}
+	}
+
+	category = positive
+	start_value = 0
+	on_progress_complete = {
+		custom_tooltip = nanotech_summon_finish_tooltip
+		hidden_effect = {
+			situation_event = { id = nanotech.1 }
+		}
+	}
+	on_abort = {
+		target = {
+			remove_planet_flag = summoning_mothership
+			remove_modifier = nanotech_summoning_mothership
+		}
+	}
+	approach = {#Devour
+		name = approach_devour
+		on_select = {
+			custom_tooltip = nanotech_summon_effect
+		}
+		default = yes
+		icon = GFX_situation_approach_amenities
+		icon_background = GFX_situation_approach_bg_green
+		ai_weight = {
+			base = 10
+		}
+	}
+	approach = {#Restraint
+		name = approach_restraint
+		on_select = {
+			custom_tooltip = nanotech_restraint_effect
+			owner = {
+				add_resource = { unity = -500 }
+			}
+			abort_situation = this
+		}
+		icon = GFX_situation_approach_influence
+		icon_background = GFX_situation_approach_bg_yellow
+		ai_weight = {
+			base = 10
+		}
+	}
+	monthly_progress = {
+		base = 0
+		modifier = {
+			add = value:summoning_progress
+			desc = string_summoning_progress
+		}
+	}
+
+	abort_trigger = {
+		OR = {
+			NOT = { exists = target.owner }
+			target.owner = { NOT = { is_same_value = root.owner } }
+		}
+	}
+}

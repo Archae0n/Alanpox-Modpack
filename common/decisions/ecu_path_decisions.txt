@@ -1,0 +1,49 @@
+decision_ef_choose_path = {
+	owned_planets_only = yes
+
+	potential = {
+		is_planet_class = pc_city
+		has_planet_flag = ef_planet_specialisation_options_available
+	}
+
+
+	effect = {
+		custom_tooltip = decision_ef_choose_path_effects_short
+		hidden_effect = {
+			planet_event= { id = ef_path.1 }
+		}
+	}
+}
+
+decision_ef_revise_industrial_policy = {
+	owned_planets_only = yes
+	icon = decision_resources
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+		}
+	}
+
+	potential = {
+		is_planet_class = pc_city
+		has_modifier = ef_polluted_forge_world
+	}
+
+	effect = {
+		custom_tooltip = ef_decision_revise_industrial_policy_tt
+		owner = { start_situation = { type = ef_situation_pollution target = root } }
+		remove_modifier = ef_polluted_forge_world
+		hidden_effect = {
+			random_targeting_situation = {
+				limit = { is_situation_type = ef_situation_pollution }
+				add_situation_progress =  90
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}

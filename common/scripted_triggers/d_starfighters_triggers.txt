@@ -1,0 +1,29 @@
+d_kinetic_strikers_are_bad = {
+	OR = {
+		has_global_flag = synth_queen_ongoing
+		has_global_flag = ongoing_prethoryn_invasion
+	}
+}
+
+d_energy_strikers_are_bad = {
+	has_global_flag = extradimensional_invasion_happened
+	NOT = { has_global_ flag = extradimensional_invasion_defeated }
+}
+
+d_disruptor_strikers_are_good = {
+	OR = {
+		any_neighbor_country = {
+			is_country_type = awakened_fallen_empire
+		}
+		has_global_flag = galactic_crisis_happened
+	}
+}
+
+d_pd_strikers_are_good = {
+	OR = {
+		any_neighbor_country = {
+			is_country_type = awakened_fallen_empire
+		}
+		has_global_flag = ongoing_prethoryn_invasion
+	}
+}

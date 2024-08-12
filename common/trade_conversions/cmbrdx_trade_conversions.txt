@@ -1,0 +1,22 @@
+#First is set to default
+#
+
+BANANAS_convertion =
+{
+	potential = {
+		has_policy_flag = trade_conversion_BANANAS
+	}
+
+	weight = {
+		weight = 1
+	}
+
+	conversion_rate = {
+		energy = 0.5
+		consumer_goods = 0.25
+		unity = 0.25
+		food = 0.25
+	}
+
+	economic_category = trade_routes
+}

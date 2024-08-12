@@ -1,0 +1,1915 @@
+namespace = cmbu
+
+#Shit's disbanded
+country_event = {
+	id = cmbu.777
+	title = "cmbu.777.name"
+	desc = "cmbu.777.desc"
+	picture = GFX_evt_one_sided_deal
+	show_sound = event_yellow_alert
+
+	is_triggered_only = yes
+	
+	immediate = { remove_global_flag = cmbu_allowintegro remove_country_flag = cmbu_adespot }
+	
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.777.a
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.777.b
+	}
+}
+#############################
+# Egalitarian - Republic
+country_event = {
+	id = cmbu.1
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Birth of an Republic
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.2 }
+	}
+}
+
+# Actual Republic Event
+country_event = {
+	id = cmbu.2
+	title = "cmbu.002.name"
+	desc = "cmbu.002.desc"
+	
+	picture = GFX_evt_crepublic
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		
+		shift_ethic = "ethic_fanatic_egalitarian"
+		change_government = {
+			authority = auth_democratic
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		force_add_civic = civic_palps
+		
+		set_government_cooldown = no
+		set_name = c_galacticrepublic
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_republic.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "circle.dds"
+			}
+			colors={
+				"blue"
+				"blue"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.92 }
+		}
+	}
+
+	option = {
+		name = cmbu.002.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.002.a.tooltip
+	}
+}
+
+#Republic (Others)
+country_event = {
+	id = cmbu.92
+	title = "cmbu.002.name"
+	desc = "cmbu.002.desc"
+	picture = GFX_evt_crepublic
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.002.a
+		custom_tooltip = cmbu.002.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.002.b
+		custom_tooltip = cmbu.002.a.tooltip
+	}
+}
+
+#############################
+# Communism - Supreme Soviet
+country_event = {
+	id = cmbu.33
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.3 }
+	}
+}
+
+# Actual Soviet Event
+country_event = {
+	id = cmbu.3
+	title = "cmbu.003.name"
+	desc = "cmbu.003.desc"
+	
+	picture = GFX_evt_csoviet
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		shift_ethic = "ethic_fanatic_egalitarian"
+		change_government = {
+			authority = auth_democratic
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		
+		force_add_civic = civic_marx
+		set_government_cooldown = no
+		set_name = c_commies
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_commi.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "00_solid.dds"
+			}
+			colors={
+				"red"
+				"red"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.93 }
+		}
+	}
+
+	option = {
+		name = cmbu.003.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.003.a.tooltip
+	}
+}
+
+#Soviet (Others)
+country_event = {
+	id = cmbu.93
+	title = "cmbu.003.name"
+	desc = "cmbu.003.desc"
+	picture = GFX_evt_csoviet
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.003.a
+		custom_tooltip = cmbu.003.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.003.b
+		custom_tooltip = cmbu.003.a.tooltip
+	}
+}
+
+#############################
+# F-d up - Universal Union
+country_event = {
+	id = cmbu.90
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.9 }
+	}
+}
+
+# Actual CMB Event
+country_event = {
+	id = cmbu.9
+	title = "cmbu.009.name"
+	desc = "cmbu.009.desc"
+	
+	picture = GFX_evt_ccombine
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_machine_intelligence
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		set_country_flag = cmbu_adespot
+		
+		force_add_civic = civic_cmbine
+		set_government_cooldown = no
+		set_name = c_universalu
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_selfinsert.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "flag_BG_13.dds"
+			}
+			colors={
+				"black"
+				"ochre_brown"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.99 }
+		}
+	}
+
+	option = {
+		name = cmbu.009.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.009.a.tooltip
+	}
+}
+
+#Gordon CMB (Others)
+country_event = {
+	id = cmbu.99
+	title = "cmbu.009.name"
+	desc = "cmbu.009.desc"
+	picture = GFX_evt_ccombine
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.009.a
+		custom_tooltip = cmbu.009.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.009.b
+		custom_tooltip = cmbu.009.a.tooltip
+	}
+}
+
+#############################
+# F-d up - GalactiCORP
+country_event = {
+	id = cmbu.97
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.7 }
+	}
+}
+
+# Actual CORP Event
+country_event = {
+	id = cmbu.7
+	title = "cmbu.007.name"
+	desc = "cmbu.007.desc"
+	
+	picture = GFX_evt_cpizdec
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_corporate
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		
+		force_add_civic = civic_pizdec
+		set_government_cooldown = no
+		set_name = c_corpors
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_gcorpo.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "00_solid.dds"
+			}
+			colors={
+				"moss_green"
+				"moss_green"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.79 }
+		}
+	}
+
+	option = {
+		name = cmbu.007.a
+		add_resource = {
+			influence = 250
+			energy = 1500
+		}
+		custom_tooltip = cmbu.007.a.tooltip
+	}
+}
+
+#GalactiCORP (Others)
+country_event = {
+	id = cmbu.79
+	title = "cmbu.007.name"
+	desc = "cmbu.007.desc"
+	picture = GFX_evt_cpizdec
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.007.a
+		custom_tooltip = cmbu.007.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.007.b
+		custom_tooltip = cmbu.007.a.tooltip
+	}
+}
+
+#############################
+# Relatively okay - Machines
+country_event = {
+	id = cmbu.94
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.4 }
+	}
+}
+
+# Actual Machine Event
+country_event = {
+	id = cmbu.4
+	title = "cmbu.004.name"
+	desc = "cmbu.004.desc"
+	
+	picture = GFX_evt_cmachine
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_machine_intelligence
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		
+		force_add_civic = civic_gcpu
+		set_government_cooldown = no
+		set_name = c_puc
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_robots.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "flag_BG_31.dds"
+			}
+			colors={
+				"faded_blue"
+				"dark_blue"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.74 }
+		}
+	}
+
+	option = {
+		name = cmbu.004.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.004.a.tooltip
+	}
+}
+
+#Machines (Others)
+country_event = {
+	id = cmbu.74
+	title = "cmbu.004.name"
+	desc = "cmbu.004.desc"
+	picture = GFX_evt_cmachine
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.004.a
+		custom_tooltip = cmbu.004.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.004.b
+		custom_tooltip = cmbu.004.a.tooltip
+	}
+}
+
+#############################
+# Relatively okay - Hives
+country_event = {
+	id = cmbu.95
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.5 }
+	}
+}
+
+# Actual Hive Event
+country_event = {
+	id = cmbu.5
+	title = "cmbu.005.name"
+	desc = "cmbu.005.desc"
+	
+	picture = GFX_evt_chives
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_hive_mind
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		
+		force_add_civic = civic_greathive
+		set_government_cooldown = no
+		set_name = c_ghives
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_hives.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "00_solid.dds"
+			}
+			colors={
+				"yellow"
+				"yellow"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.75 }
+		}
+	}
+
+	option = {
+		name = cmbu.005.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.005.a.tooltip
+	}
+}
+
+#Hives (Others)
+country_event = {
+	id = cmbu.75
+	title = "cmbu.005.name"
+	desc = "cmbu.005.desc"
+	picture = GFX_evt_chives
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.005.a
+		custom_tooltip = cmbu.005.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.005.b
+		custom_tooltip = cmbu.005.a.tooltip
+	}
+}
+
+
+# Victories (unnessecarily complicated)
+#gosh I hate the word unnese..unecces...fuck
+country_event = {
+	id = cmbu.1000
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+			country_event = { id = cmbu.1001 }
+		}
+}
+
+country_event = {
+	id = cmbu.1001
+	title = "cmbu.1001.name"
+	desc = "cmbu.1001.desc"
+	picture = GFX_evt_coronation
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.1001.a
+		win = yes
+	}
+}
+
+#Workarounds
+country_event = {
+	id = cmbu.2000
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+			set_name = {
+				key = SPECIALOVERWATCHC
+				variable_string = "[Root.GetSpeciesAdj]"
+			}
+		}
+}
+
+country_event = {
+	id = cmbu.2001
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		shift_ethic = "ethic_fanatic_egalitarian"
+		change_government = {
+			authority = auth_democratic
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		force_add_civic = civic_shared_burden
+		set_name = {
+			key = SPECSOCREPUBLIC
+			variable_string = "[Root.GetSpeciesAdj]"
+		}
+	}
+}
+
+#############################
+# Total nightmare - 1984
+country_event = {
+	id = cmbu.1983
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.1984 }
+	}
+}
+
+# Actual 1984 Event
+country_event = {
+	id = cmbu.1984
+	title = "cmbu.1984.name"
+	desc = "cmbu.1984.desc"
+	
+	picture = GFX_evt_1984
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_dictatorial
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		set_country_flag = cmbu_adespot
+		shift_ethic = "ethic_fanatic_authoritarian"
+		force_add_civic = civic_1984
+		set_government_cooldown = no
+		set_name = c_1984
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_ingsoc.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "circle.dds"
+			}
+			colors={
+				"black"
+				"red"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.1985 }
+		}
+	}
+
+	option = {
+		name = cmbu.1984.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.1984.a.tooltip
+	}
+}
+
+#1984 (Others)
+country_event = {
+	id = cmbu.1985
+	title = "cmbu.1984.name"
+	desc = "cmbu.1984.desc"
+	picture = GFX_evt_1984
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.1984.a
+		custom_tooltip = cmbu.1984.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.1984.b
+		custom_tooltip = cmbu.1984.a.tooltip
+	}
+}
+
+
+#Yes, I am retarded
+#Remove all modded civics
+
+country_event = {
+	id = cmbu.255
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		force_remove_civic = civic_palps
+		force_remove_civic = civic_marx
+		force_remove_civic = civic_cmbine
+		force_remove_civic = civic_pizdec
+		force_remove_civic = civic_gcpu
+		force_remove_civic = civic_greathive
+		force_remove_civic = civic_1984
+		force_remove_civic = civic_xenophob
+		force_remove_civic = civic_startrek
+		force_remove_civic = civic_crimes
+		force_remove_civic = civic_hre
+		force_remove_civic = civic_cpacifist
+		force_remove_civic = civic_cmilitary
+		force_remove_civic = civic_cmaterial
+		force_remove_civic = civic_cspiritual
+		force_remove_civic = civic_cpirate
+		force_remove_civic = civic_cservitor
+		force_remove_civic = civic_rmartlet
+		force_remove_civic = civic_rbanana
+	}
+}
+
+#############################
+# Xenophobes
+country_event = {
+	id = cmbu.910
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.010 }
+	}
+}
+
+# Actual Xenophobe Event
+country_event = {
+	id = cmbu.010
+	title = "cmbu.010.name"
+	desc = "cmbu.010.desc"
+	
+	picture = GFX_evt_cxenophobe
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			#authority = auth_dictatorial
+			#Xenophobia/Xenophillia is not based on the form of rule
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		#set_country_flag = cmbu_adespot
+		shift_ethic = "ethic_fanatic_xenophobe"
+		force_add_civic = civic_xenophob
+		set_government_cooldown = no
+		set_name = c_xenophob
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_xenophob.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "flag_BG_42.dds"
+			}
+			colors={
+				"black"
+				"dark_red"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.810 }
+		}
+	}
+
+	option = {
+		name = cmbu.010.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.010.a.tooltip
+	}
+}
+
+#Xenophob (Others)
+country_event = {
+	id = cmbu.810
+	title = "cmbu.010.name"
+	desc = "cmbu.010.desc"
+	picture = GFX_evt_cxenophobe
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.010.a
+		custom_tooltip = cmbu.010.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.010.b
+		custom_tooltip = cmbu.010.a.tooltip
+	}
+}
+
+#############################
+# Xenophiles
+country_event = {
+	id = cmbu.911
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.011 }
+	}
+}
+
+# Actual Xenophile Event
+country_event = {
+	id = cmbu.011
+	title = "cmbu.011.name"
+	desc = "cmbu.011.desc"
+	
+	picture = GFX_evt_cxenophile
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			#authority = auth_dictatorial
+			#Xenophobia/Xenophillia is not based on the form of rule
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		#set_country_flag = cmbu_adespot
+		shift_ethic = "ethic_fanatic_xenophile"
+		force_add_civic = civic_startrek
+		set_government_cooldown = no
+		set_name = c_startrek
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_startrek.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "00_solid.dds"
+			}
+			colors={
+				"blue"
+				"blue"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.811 }
+		}
+	}
+
+	option = {
+		name = cmbu.011.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.011.a.tooltip
+	}
+}
+
+#Xenophile (Others)
+country_event = {
+	id = cmbu.811
+	title = "cmbu.011.name"
+	desc = "cmbu.011.desc"
+	picture = GFX_evt_cxenophile
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.011.a
+		custom_tooltip = cmbu.011.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.011.b
+		custom_tooltip = cmbu.011.a.tooltip
+	}
+}
+
+#############################
+# Criminals
+country_event = {
+	id = cmbu.915
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.015 }
+	}
+}
+
+# Actual Criminal Event
+country_event = {
+	id = cmbu.015
+	title = "cmbu.015.name"
+	desc = "cmbu.015.desc"
+	
+	picture = GFX_evt_ccrimes
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_corporate
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		#set_country_flag = cmbu_adespot
+		#shift_ethic = "ethic_fanatic_xenophile"
+		force_add_civic = civic_crimes
+		set_government_cooldown = no
+		set_name = c_crimes
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_crimes.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "flag_BG_19.dds"
+			}
+			colors={
+				"shadow_green"
+				"shadow_green"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.815 }
+		}
+	}
+
+	option = {
+		name = cmbu.015.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.015.a.tooltip
+	}
+}
+
+#Criminals (Others)
+country_event = {
+	id = cmbu.815
+	title = "cmbu.015.name"
+	desc = "cmbu.015.desc"
+	picture = GFX_evt_ccrimes
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.015.a
+		custom_tooltip = cmbu.015.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.015.b
+		custom_tooltip = cmbu.015.a.tooltip
+	}
+}
+
+#############################
+# HRE
+country_event = {
+	id = cmbu.916
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.016 }
+	}
+}
+
+# Actual HRE Event
+country_event = {
+	id = cmbu.016
+	title = "cmbu.016.name"
+	desc = "cmbu.016.desc"
+	
+	picture = GFX_evt_chge
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_imperial
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		#set_country_flag = cmbu_adespot
+		shift_ethic = "ethic_fanatic_spiritualist"
+		force_add_civic = civic_hre
+		set_government_cooldown = no
+		set_name = c_hre
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_hre.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "flag_BG_12.dds"
+			}
+			colors={
+				"yellow"
+				"yellow"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.816 }
+		}
+	}
+
+	option = {
+		name = cmbu.016.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.016.a.tooltip
+	}
+}
+
+#HRE (Others)
+country_event = {
+	id = cmbu.816
+	title = "cmbu.016.name"
+	desc = "cmbu.016.desc"
+	picture = GFX_evt_chge
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.016.a
+		custom_tooltip = cmbu.016.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.016.b
+		custom_tooltip = cmbu.016.a.tooltip
+	}
+}
+
+#HRE Sits
+country_event = {
+	id = cmbu.5000
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		country_event = { id = cmbu.5500 }
+	}
+}
+
+country_event = {
+	id = cmbu.5001
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		kill_leader = {
+			ruler = yes
+			show_notification = no
+		}
+	}
+}
+
+country_event = {
+	id = cmbu.5500
+	title = "cmbu.5500.name"
+	desc = "cmbu.5500.desc"
+	picture = GFX_evt_legendary_leader
+	show_sound = event_administrative_work
+
+	is_triggered_only = yes
+
+	immediate = {
+		country_event = { id = cmbu.4999 days = 45625 } #125 years
+	}
+
+	option = {
+		name = cmbu.5500.a
+		ruler = { add_trait = leader_trait_cmbuimmortal }
+	}
+}
+
+country_event = {
+	id = cmbu.4999
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# kill_leader = {
+		# 	ruler = yes
+		# 	show_notification = no
+		# }
+		remove_country_flag = cmbu_ritual_commenced
+	}
+}
+
+#############################
+# Pacifist
+country_event = {
+	id = cmbu.917
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.017 }
+	}
+}
+
+# Actual Pacifist Event
+country_event = {
+	id = cmbu.017
+	title = "cmbu.017.name"
+	desc = "cmbu.017.desc"
+	
+	picture = GFX_evt_cpacifist
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_oligarchic
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		#set_country_flag = cmbu_adespot
+		shift_ethic = "ethic_fanatic_pacifist"
+		force_add_civic = civic_cpacifist
+		set_government_cooldown = no
+		set_name = c_cpacifist
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_cpacifist.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "circle.dds"
+			}
+			colors={
+				"faded_blue"
+				"white"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.817 }
+		}
+	}
+
+	option = {
+		name = cmbu.017.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.017.a.tooltip
+	}
+}
+
+#Pacifist (Others)
+country_event = {
+	id = cmbu.817
+	title = "cmbu.017.name"
+	desc = "cmbu.017.desc"
+	picture = GFX_evt_cpacifist
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.017.a
+		custom_tooltip = cmbu.017.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.017.b
+		custom_tooltip = cmbu.017.a.tooltip
+	}
+}
+
+#############################
+# Militarist
+country_event = {
+	id = cmbu.918
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.018 }
+	}
+}
+
+# Actual Militarist Event
+country_event = {
+	id = cmbu.018
+	title = "cmbu.018.name"
+	desc = "cmbu.018.desc"
+	
+	picture = GFX_evt_cmilitarist
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_oligarchic
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		#set_country_flag = cmbu_adespot
+		shift_ethic = "ethic_fanatic_militarist"
+		force_add_civic = civic_cmilitary
+		set_government_cooldown = no
+		set_name = c_cmilitary
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_cmilitary.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "flag_BG_51.dds"
+			}
+			colors={
+				"burgundy"
+				"shadow_purple"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.818 }
+		}
+	}
+
+	option = {
+		name = cmbu.018.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.018.a.tooltip
+	}
+}
+
+#Militarist (Others)
+country_event = {
+	id = cmbu.818
+	title = "cmbu.018.name"
+	desc = "cmbu.018.desc"
+	picture = GFX_evt_cmilitarist
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.018.a
+		custom_tooltip = cmbu.018.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.018.b
+		custom_tooltip = cmbu.018.a.tooltip
+	}
+}
+
+#############################
+# Materialist
+country_event = {
+	id = cmbu.919
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.019 }
+	}
+}
+
+# Actual Materialist Event
+country_event = {
+	id = cmbu.019
+	title = "cmbu.019.name"
+	desc = "cmbu.019.desc"
+	
+	picture = GFX_evt_cmaterialist
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_oligarchic
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		#set_country_flag = cmbu_adespot
+		shift_ethic = "ethic_fanatic_materialist"
+		force_add_civic = civic_cmaterial
+		set_government_cooldown = no
+		set_name = c_cmaterial
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_cmaterial.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "flag_BG_31.dds"
+			}
+			colors={
+				"mist_blue"
+				"indigo"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.819 }
+		}
+	}
+
+	option = {
+		name = cmbu.019.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.019.a.tooltip
+	}
+}
+
+#Materialist (Others)
+country_event = {
+	id = cmbu.819
+	title = "cmbu.019.name"
+	desc = "cmbu.019.desc"
+	picture = GFX_evt_cmaterialist
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.019.a
+		custom_tooltip = cmbu.019.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.019.b
+		custom_tooltip = cmbu.019.a.tooltip
+	}
+}
+
+#############################
+# Spiritualist
+country_event = {
+	id = cmbu.920
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.020 }
+	}
+}
+
+# Actual Spiritualist Event
+country_event = {
+	id = cmbu.020
+	title = "cmbu.020.name"
+	desc = "cmbu.020.desc"
+	
+	picture = GFX_evt_cspiritualist
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_oligarchic
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		#set_country_flag = cmbu_adespot
+		shift_ethic = "ethic_fanatic_spiritualist"
+		force_add_civic = civic_cspiritual
+		set_government_cooldown = no
+		set_name = c_cspiritual
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_spiritualist.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "flag_BG_2.dds"
+			}
+			colors={
+				"ice_turquoise"
+				"silver_steel"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.820 }
+		}
+	}
+
+	option = {
+		name = cmbu.020.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.020.a.tooltip
+	}
+}
+
+#Spiritualist (Others)
+country_event = {
+	id = cmbu.820
+	title = "cmbu.020.name"
+	desc = "cmbu.020.desc"
+	picture = GFX_evt_cspiritualist
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.020.a
+		custom_tooltip = cmbu.020.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.020.b
+		custom_tooltip = cmbu.020.a.tooltip
+	}
+}
+
+#############################
+# Yarr Matey
+country_event = {
+	id = cmbu.921
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.021 }
+	}
+}
+
+# Actual Booty Event
+country_event = {
+	id = cmbu.021
+	title = "cmbu.021.name"
+	desc = "cmbu.021.desc"
+	
+	picture = GFX_evt_cpirates
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_oligarchic
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		set_country_flag = cmbu_adespot
+		shift_ethic = "ethic_authoritarian"
+		force_add_civic = civic_cpirate
+		set_government_cooldown = no
+		set_name = c_cpirate
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_pirates.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "00_solid.dds"
+			}
+			colors={
+				"black"
+				"black"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.821 }
+		}
+	}
+
+	option = {
+		name = cmbu.021.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.021.a.tooltip
+	}
+}
+
+#Me treasure (Others)
+country_event = {
+	id = cmbu.821
+	title = "cmbu.021.name"
+	desc = "cmbu.021.desc"
+	picture = GFX_evt_cpirates
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.021.a
+		custom_tooltip = cmbu.021.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.021.b
+		custom_tooltip = cmbu.021.a.tooltip
+	}
+}
+
+#############################
+# Servitors
+country_event = {
+	id = cmbu.922
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Supreme Soviet
+		save_event_target_as = gal_emperor
+		country_event = { id = cmbu.022 }
+	}
+}
+
+# Actual Servitor Event
+country_event = {
+	id = cmbu.022
+	title = "cmbu.022.name"
+	desc = "cmbu.022.desc"
+	
+	picture = GFX_evt_cservitors
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	immediate = {
+		store_galactic_community_leader_backup_data = {
+			FLAG = yes
+			NAME = yes
+			ETHICS = yes
+			GOVERNMENT = yes
+		}
+		
+		change_government = {
+			authority = auth_machine_intelligence
+			cooldown = no
+			remove_invalid_civics = yes
+		}
+		
+		set_global_flag = cmbu_allowintegro
+		#set_country_flag = cmbu_adespot
+		
+		force_add_civic = civic_cservitor
+		set_government_cooldown = no
+		set_name = c_cservitor
+		room_name_override = ""
+		change_country_flag = {
+			icon = {
+				category = "special"
+				file = "c_servitor.dds"
+			}
+			background= {
+				category = "backgrounds"
+				file = "00_solid.dds"
+			}
+			colors={
+				"light_turquoise"
+				"light_turquoise"
+				"null"
+				"null"
+			}
+		}
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = cmbu.822 }
+		}
+	}
+
+	option = {
+		name = cmbu.022.a
+		add_resource = {
+			influence = 250
+		}
+		custom_tooltip = cmbu.022.a.tooltip
+	}
+}
+
+#Servitors (Others)
+country_event = {
+	id = cmbu.822
+	title = "cmbu.022.name"
+	desc = "cmbu.022.desc"
+	picture = GFX_evt_cservitors
+	show_sound = event_coronation
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { is_galactic_community_member = yes }
+		name = cmbu.022.a
+		custom_tooltip = cmbu.022.a.tooltip
+	}
+	option = {
+		trigger = { is_galactic_community_member = no }
+		name = cmbu.022.b
+		custom_tooltip = cmbu.022.a.tooltip
+	}
+}

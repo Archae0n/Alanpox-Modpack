@@ -1,0 +1,235 @@
+# Galactic Republic
+gov_galactic_rep = {
+	ruler_title = rt_palpatine
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_palps
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+# Galactic Soviet
+gov_galactic_sov = {
+	ruler_title = rt_lenin
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_marx
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+#Universal Union
+gov_galactic_cmbu = {
+	ruler_title = rt_advisor
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_cmbine
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+#Corporatocracy
+gov_galactic_corpor = {
+	ruler_title = rt_pizdec
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_pizdec
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+#Machines
+gov_galactic_intellekt = {
+	ruler_title = rt_gcpu
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_gcpu
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+#Hive
+gov_galactic_greathive = {
+	ruler_title = rt_greathive
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_greathive
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+#1984
+gov_galactic_1984 = {
+	ruler_title = rt_1984a
+	ruler_title_female = rt_1984b
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_1984
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+#Xenophobe
+gov_galactic_xenophob = {
+	ruler_title = rt_xenophob
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_xenophob
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+#Xenophile
+gov_galactic_startrek = {
+	ruler_title = rt_startrek
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_startrek
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+#Criminal
+gov_galactic_crimes = {
+	ruler_title = rt_crimes
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_crimes
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+#HRE
+gov_galactic_hre = {
+	ruler_title = rt_hrea
+	ruler_title_female = rt_hreb
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_hre
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+#Pacifist
+gov_galactic_cpacifist = {
+	ruler_title = rt_cpacifist
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_cpacifist
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+#Militarist
+gov_galactic_cmilitary = {
+	ruler_title = rt_cmilitary
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_cmilitary
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+gov_galactic_cmaterial = {
+	ruler_title = rt_cmaterial
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_cmaterial
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+gov_galactic_cspiritual = {
+	ruler_title = rt_cspiritual
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_cspiritual
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+gov_galactic_cpirate = {
+	ruler_title = rt_cpirate
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_cpirate
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+
+gov_galactic_cservitor = {
+	ruler_title = rt_cservitor
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_cservitor
+	}
+
+	weight = {
+		base = 5000
+	}
+}

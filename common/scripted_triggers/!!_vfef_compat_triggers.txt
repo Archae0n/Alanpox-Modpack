@@ -1,0 +1,4 @@
+
+has_civic_organic_zealots_active = {
+	always = no
+}

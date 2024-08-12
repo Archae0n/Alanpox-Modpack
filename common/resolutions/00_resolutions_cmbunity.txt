@@ -1,0 +1,2593 @@
+@resolution_weight_fuckingloathed = -5
+@resolution_weight_hated = 3
+@resolution_weight_disliked = 4
+@resolution_weight_unpopular = 5
+@resolution_weight_normal = 6
+@resolution_weight_popular = 6.5
+@resolution_weight_loved = 7
+
+@resolution_cost_t1 = 100
+@resolution_cost_t2 = 150
+@resolution_cost_t3 = 200
+@resolution_cost_t4 = 250
+@resolution_cost_t5 = 300
+@resolution_cost_denounce = 25
+
+@resolution_flag_timer = 360
+
+# Galactic Republic
+resolution_2egalitarian_republic = {
+	icon = "GFX_resolution_2egalitarian_republic"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_republic_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.1 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = no
+		OR = {
+			has_ethic = ethic_egalitarian
+			has_ethic = ethic_fanatic_egalitarian
+		}
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_republic" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+
+		modifier = {
+			factor = -5
+			is_authoritarian = yes
+			desc = ethic_authoritarian
+		}
+	}
+}
+
+# Undo Galactic Republic
+resolution_2egalitarian_republic_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_republic" }
+				cancel_resolution = "resolution_2egalitarian_republic"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_palps }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_republic
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+
+		modifier = {
+			factor = 5
+			is_authoritarian = yes
+			desc = ethic_authoritarian
+		}
+	}
+}
+
+# Galactic Soviet
+resolution_2egalitarian_soviet = {
+	icon = "GFX_resolution_2egalitarian_soviet"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_soviet_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.33 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = no
+		OR = {
+			has_ethic = ethic_egalitarian
+			has_ethic = ethic_fanatic_egalitarian
+		}
+		has_valid_civic = civic_shared_burden
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_soviet" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+
+		modifier = {
+			factor = -5
+			is_authoritarian = yes
+			desc = ethic_authoritarian
+		}
+		
+		modifier = {
+			factor = 10
+			OR = {
+				has_valid_civic = civic_shared_burden
+				has_valid_civic = civic_machine_servitor
+			}
+			desc = gal_com_supporting_civics
+		}
+	}
+}
+
+# Undo Galactic Soviet
+resolution_2egalitarian_soviet_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_soviet" }
+				cancel_resolution = "resolution_2egalitarian_soviet"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_marx }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_soviet
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+
+		modifier = {
+			factor = 5
+			is_authoritarian = yes
+			desc = ethic_authoritarian
+		}
+		
+		modifier = {
+			factor = -10
+			OR = {
+				has_valid_civic = civic_shared_burden
+				has_valid_civic = civic_machine_servitor
+			}
+			desc = gal_com_opposing_civics
+		}
+	}
+}
+
+# Universal Union
+resolution_2egalitarian_combine = {
+	icon = "GFX_resolution_2egalitarian_combine"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_combine_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.90 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_machine_empire = yes
+		is_megacorp = no
+		has_valid_civic = civic_machine_assimilator
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_combine" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_disliked
+		
+		modifier = {
+			factor = 15
+			has_valid_civic = civic_machine_assimilator
+			desc = gal_com_supporting_civics
+		}
+	}
+}
+
+# Undo Union
+resolution_2egalitarian_combine_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_combine" }
+				cancel_resolution = "resolution_2egalitarian_combine"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_cmbine }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_combine
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	ai_weight = {
+		base = @resolution_weight_normal
+		
+		modifier = {
+			factor = -10
+			has_valid_civic = civic_machine_assimilator
+			desc = gal_com_opposing_civics
+		}
+	}
+}
+
+# Corpogreed
+resolution_2egalitarian_pizdec = {
+	icon = "GFX_resolution_2egalitarian_pizdec"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_pizdec_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.97 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = yes
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_pizdec" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_disliked
+		
+		modifier = {
+			factor = 10
+			is_megacorp = yes
+			desc = gov_megacorporation
+		}
+	}
+}
+
+# Undo Corpogreed
+resolution_2egalitarian_pizdec_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_pizdec" }
+				cancel_resolution = "resolution_2egalitarian_pizdec"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_pizdec }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_pizdec
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -10
+			is_megacorp = yes
+			desc = gov_megacorporation
+		}
+	}
+}
+
+# Machines
+resolution_2egalitarian_machine = {
+	icon = "GFX_resolution_2egalitarian_machine"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_machine_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.94 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_machine_empire = yes
+		is_megacorp = no
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_machine" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+		
+		modifier = {
+			factor = 10
+			is_machine_empire = yes
+			desc = gov_supporting_civics
+		}
+	}
+}
+
+# Undo Machines
+resolution_2egalitarian_machine_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_machine" }
+				cancel_resolution = "resolution_2egalitarian_machine"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_gcpu }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_machine
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -10
+			is_machine_empire = yes
+			desc = gov_opposing_civics
+		}
+	}
+}
+
+# Hive Mind
+resolution_2egalitarian_hive = {
+	icon = "GFX_resolution_2egalitarian_hive"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_hive_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.95 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = yes
+		is_machine_empire = no
+		is_megacorp = no
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_hive" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+		
+		modifier = {
+			factor = 15
+			is_hive_empire = yes
+			desc = gal_com_supporting_civics
+		}
+	}
+}
+
+# Undo Hive Mind
+resolution_2egalitarian_hive_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_hive" }
+				cancel_resolution = "resolution_2egalitarian_hive"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_greathive }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_hive
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -15
+			is_hive_empire = yes
+			desc = gal_com_opposing_civics
+		}
+	}
+}
+
+#Ingsoc
+resolution_2egalitarian_ingsoc = {
+	icon = "GFX_resolution_2egalitarian_ingsoc"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_ingsoc_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.1983 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = no
+		has_valid_civic = civic_dystopian_society
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_ingsoc" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+		
+		modifier = {
+			#will be done later sry
+		}
+	}
+}
+
+# Undo Ingsoc
+resolution_2egalitarian_ingsoc_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_ingsoc" }
+				cancel_resolution = "resolution_2egalitarian_ingsoc"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_1984 }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_ingsoc
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			#will do later sry
+		}
+	}
+}
+
+# Galactic Reclaimers
+resolution_2egalitarian_xenophob = {
+	icon = "GFX_resolution_2egalitarian_xenophob"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_xenophob_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.910 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = no
+		OR = {
+			has_ethic = ethic_xenophobe
+			has_ethic = ethic_fanatic_xenophobe
+		}
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_xenophob" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_xenophile = yes
+			desc = ethic_xenophile
+		}
+
+		modifier = {
+			factor = 5
+			is_xenophobe = yes
+			desc = ethic_xenophobe
+		}
+	}
+}
+
+# Undo Galactic Reclaimers
+resolution_2egalitarian_xenophob_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_xenophob" }
+				cancel_resolution = "resolution_2egalitarian_xenophob"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_xenophob }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_xenophob
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_xenophile = yes
+			desc = ethic_xenophile
+		}
+
+		modifier = {
+			factor = -5
+			is_xenophobe = yes
+			desc = ethic_xenophobe
+		}
+	}
+}
+
+# UFS
+resolution_2egalitarian_startrek = {
+	icon = "GFX_resolution_2egalitarian_startrek"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_startrek_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.911 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = no
+		OR = {
+			has_ethic = ethic_xenophile
+			has_ethic = ethic_fanatic_xenophile
+		}
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_startrek" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_xenophile = yes
+			desc = ethic_xenophile
+		}
+
+		modifier = {
+			factor = -5
+			is_xenophobe = yes
+			desc = ethic_xenophobe
+		}
+	}
+}
+
+# Undo UFS
+resolution_2egalitarian_startrek_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_startrek" }
+				cancel_resolution = "resolution_2egalitarian_startrek"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_startrek }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_startrek
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_xenophile = yes
+			desc = ethic_xenophile
+		}
+
+		modifier = {
+			factor = 5
+			is_xenophobe = yes
+			desc = ethic_xenophobe
+		}
+	}
+}
+
+# Cartel
+resolution_2egalitarian_crimes = {
+	icon = "GFX_resolution_2egalitarian_crimes"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_crimes_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.915 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = yes
+		has_valid_civic = civic_criminal_heritage
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_crimes" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+
+		modifier = {
+			factor = 5
+			has_valid_civic = civic_criminal_heritage
+			desc = supporting_civics
+		}
+	}
+}
+
+# Undo Cartel
+resolution_2egalitarian_crimes_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_crimes" }
+				cancel_resolution = "resolution_2egalitarian_crimes"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_crimes }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_crimes
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+
+		modifier = {
+			factor = -5
+			has_valid_civic = civic_criminal_heritage
+			desc = opposing_civics
+		}
+	}
+}
+
+# HGE
+resolution_2egalitarian_hre = {
+	icon = "GFX_resolution_2egalitarian_hre"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_hre_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.916 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = no
+		OR = {
+			has_ethic = ethic_spiritualist
+			has_ethic = ethic_fanatic_spiritualist
+		}
+		has_valid_civic = civic_feudal_realm
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_hre" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_spiritualist = yes
+			desc = ethic_spiritualist
+		}
+
+		modifier = {
+			factor = 5
+			has_valid_civic = civic_feudal_realm
+			desc = supporting_civics
+		}
+
+		modifier = {
+			factor = -5
+			is_materialist = yes
+			desc = ethic_materialist
+		}
+	}
+}
+
+# Undo HGE
+resolution_2egalitarian_hre_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_hre" }
+				cancel_resolution = "resolution_2egalitarian_hre"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_hre }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_hre
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_spiritualist = yes
+			desc = ethic_spiritualist
+		}
+
+		modifier = {
+			factor = -5
+			has_valid_civic = civic_feudal_realm
+			desc = opposing_civics
+		}
+
+		modifier = {
+			factor = 5
+			is_materialist = yes
+			desc = ethic_materialist
+		}
+	}
+}
+
+# Pacifist
+resolution_2egalitarian_pacifist = {
+	icon = "GFX_resolution_2egalitarian_pacifist"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_pacifist_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.917 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = no
+		OR = {
+			has_ethic = ethic_pacifist
+			has_ethic = ethic_fanatic_pacifist
+		}
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_pacifist" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_pacifist = yes
+			desc = ethic_pacifist
+		}
+
+		modifier = {
+			factor = -5
+			is_militarist = yes
+			desc = ethic_militarist
+		}
+	}
+}
+
+# Undo Pacifist
+resolution_2egalitarian_pacifist_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_pacifist" }
+				cancel_resolution = "resolution_2egalitarian_pacifist"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_cpacifist }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_pacifist
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_pacifist = yes
+			desc = ethic_pacifist
+		}
+
+		modifier = {
+			factor = 5
+			is_militarist = yes
+			desc = ethic_militarist
+		}
+	}
+}
+
+# Militarist
+resolution_2egalitarian_militarist = {
+	icon = "GFX_resolution_2egalitarian_militarist"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_militarist_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.918 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = no
+		OR = {
+			has_ethic = ethic_militarist
+			has_ethic = ethic_fanatic_militarist
+		}
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_militarist" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_pacifist = yes
+			desc = ethic_pacifist
+		}
+
+		modifier = {
+			factor = 5
+			is_militarist = yes
+			desc = ethic_militarist
+		}
+	}
+}
+
+# Undo Militarist
+resolution_2egalitarian_militarist_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_militarist" }
+				cancel_resolution = "resolution_2egalitarian_militarist"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_cmilitary }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_militarist
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_pacifist = yes
+			desc = ethic_pacifist
+		}
+
+		modifier = {
+			factor = -5
+			is_militarist = yes
+			desc = ethic_militarist
+		}
+	}
+}
+
+# Materialist
+resolution_2egalitarian_cmaterialist = {
+	icon = "GFX_resolution_2egalitarian_cmaterialist"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_cmaterialist_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.919 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = no
+		OR = {
+			has_ethic = ethic_materialist
+			has_ethic = ethic_fanatic_materialist
+		}
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_cmaterialist" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_materialist = yes
+			desc = ethic_materialist
+		}
+
+		modifier = {
+			factor = -5
+			is_spiritualist = yes
+			desc = ethic_spiritualist
+		}
+	}
+}
+
+# Undo Materialist
+resolution_2egalitarian_cmaterialist_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_cmaterialist" }
+				cancel_resolution = "resolution_2egalitarian_cmaterialist"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_cmaterial }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_cmaterialist
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_materialist = yes
+			desc = ethic_materialist
+		}
+
+		modifier = {
+			factor = 5
+			is_spiritualist = yes
+			desc = ethic_spiritualist
+		}
+	}
+}
+
+# Spiritualist
+resolution_2egalitarian_cspiritualist = {
+	icon = "GFX_resolution_2egalitarian_cspiritualist"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_cspiritualist_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.920 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = no
+		OR = {
+			has_ethic = ethic_spiritualist
+			has_ethic = ethic_fanatic_spiritualist
+		}
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_cspiritualist" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_materialist = yes
+			desc = ethic_materialist
+		}
+
+		modifier = {
+			factor = 5
+			is_spiritualist = yes
+			desc = ethic_spiritualist
+		}
+	}
+}
+
+# Undo Spitirualist
+resolution_2egalitarian_cspiritualist_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_cspiritualist" }
+				cancel_resolution = "resolution_2egalitarian_cspiritualist"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_cspiritual }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_cspiritualist
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_materialist = yes
+			desc = ethic_materialist
+		}
+
+		modifier = {
+			factor = -5
+			is_spiritualist = yes
+			desc = ethic_spiritualist
+		}
+	}
+}
+
+# Despoilers
+resolution_2egalitarian_cpirate = {
+	icon = "GFX_resolution_2egalitarian_cpirate"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_cpirate_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.921 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = no
+		# OR = {
+		# 	has_ethic = ethic_authoritarian
+		# 	has_ethic = ethic_fanatic_authoritarian
+		# }
+		has_valid_civic = civic_barbaric_despoilers
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_cpirate" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_materialist = yes
+			desc = ethic_materialist
+		}
+
+		modifier = {
+			factor = -5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+	}
+}
+
+# Undo Despoilers
+resolution_2egalitarian_cpirate_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_cpirate" }
+				cancel_resolution = "resolution_2egalitarian_cpirate"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_cpirate }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_cpirate
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_materialist = yes
+			desc = ethic_materialist
+		}
+
+		modifier = {
+			factor = 5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+	}
+}
+
+# Servitors
+resolution_2egalitarian_cservitor = {
+	icon = "GFX_resolution_2egalitarian_cservitor"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_2egalitarian_cservitor_tooltip
+		hidden_effect = {
+			country_event = { id = cmbu.922 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_machine_empire = yes
+		is_megacorp = no
+		has_valid_civic = civic_machine_servitor
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_2egalitarian_cservitor" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_materialist = yes
+			desc = ethic_materialist
+		}
+
+		modifier = {
+			factor = 5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+	}
+}
+
+# Undo Servitors
+resolution_2egalitarian_cservitor_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_2egalitarian_cservitor" }
+				cancel_resolution = "resolution_2egalitarian_cservitor"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_cservitor }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_2egalitarian_cservitor
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_materialist = yes
+			desc = ethic_materialist
+		}
+
+		modifier = {
+			factor = -5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+	}
+}

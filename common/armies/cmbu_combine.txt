@@ -1,0 +1,1175 @@
+#Defensive armies can't transport of the planet
+#maintenance is directly scripted here. 0.25 translates to 0.25 monthly cost (excluding other upkeep modifiers)
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+#ai_weight: as standard, but note that it pre-filters by whether the country can recruit this army (measuring by whether it is an assault army, whether it has the tech prereqs, and whether it passes potential_country)
+
+# Assault Armies
+transhuman_armee = {
+	damage = 5.0
+	health = 2.0
+	morale = 8.0
+	morale_damage = 4.0
+	has_morale = no
+	collateral_damage = 2.0
+	war_exhaustion = 0.0
+	time = 200
+	icon = GFX_armee_cmb_ww
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 30
+			alloys = 100
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_combine_citadel"
+			is_active_resolution = "resolution_combine_transarm"
+			is_active_resolution = "resolution_combine_tech"
+			is_active_resolution = "resolution_combine_singularity"
+			is_active_resolution = "resolution_combine_existance"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_combine_transarm"
+			is_active_resolution = "resolution_combine_tech"
+			is_active_resolution = "resolution_combine_singularity"
+			is_active_resolution = "resolution_combine_existance"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_transhuman_armee"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_transhuman_armee"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_transhuman_armee"
+				value >= 100
+			}
+		}
+	}
+}
+
+red_armee = {
+	damage = 5.0
+	health = 3.5
+	morale = 9.0
+	morale_damage = 2.0
+	collateral_damage = 0.5
+	war_exhaustion = 0.1
+	time = 180
+	icon = GFX_red_armee_ww
+	has_species = yes
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 30
+			alloys = 100
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_csoviets_domsovetov"
+			is_active_resolution = "resolution_csoviets_redarmy"
+			is_active_resolution = "resolution_csoviets_internationale"
+			is_active_resolution = "resolution_csoviets_socplan"
+			is_active_resolution = "resolution_csoviets_victory"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_csoviets_redarmy"
+			is_active_resolution = "resolution_csoviets_internationale"
+			is_active_resolution = "resolution_csoviets_socplan"
+			is_active_resolution = "resolution_csoviets_victory"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_red_armee"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_red_armee"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_red_armee"
+				value >= 100
+			}
+		}
+	}
+}
+
+grand_armee = {
+	damage = 5.0
+	health = 4.0
+	morale = 5.0
+	morale_damage = 2.0
+	collateral_damage = 0.5
+	war_exhaustion = 0.1
+	time = 180
+	icon = GFX_grand_armee_ww
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+			alloys = 20
+		}
+
+		upkeep = {
+			energy = 4
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_crepublic_senate"
+			is_active_resolution = "resolution_crepublic_grandarmee"
+			is_active_resolution = "resolution_crepublic_shield"
+			is_active_resolution = "resolution_crepublic_federals"
+			is_active_resolution = "resolution_crepublic_ender"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_crepublic_grandarmee"
+			is_active_resolution = "resolution_crepublic_shield"
+			is_active_resolution = "resolution_crepublic_federals"
+			is_active_resolution = "resolution_crepublic_ender"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_grand_armee"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_grand_armee"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_grand_armee"
+				value >= 100
+			}
+		}
+	}
+}
+
+pmc_rostov = {
+	damage = 8.0
+	health = 4.5
+	morale = 3.5
+	morale_damage = 3.0
+	collateral_damage = 1.0
+	war_exhaustion = 0.2
+	time = 180
+	icon = GFX_pmc_rostov
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			energy = 50
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 12
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_cpizdec_hq"
+			is_active_resolution = "resolution_cpizdec_rostov"
+			is_active_resolution = "resolution_cpizdec_brand"
+			is_active_resolution = "resolution_cpizdec_crisis"
+			is_active_resolution = "resolution_cpizdec_taxes"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_cpizdec_rostov"
+			is_active_resolution = "resolution_cpizdec_brand"
+			is_active_resolution = "resolution_cpizdec_crisis"
+			is_active_resolution = "resolution_cpizdec_taxes"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_pmc_rostov"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_pmc_rostov"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_pmc_rostov"
+				value >= 100
+			}
+		}
+	}
+}
+
+armee_chive = {
+	damage = 5.0
+	health = 3.5
+	morale = 8.0
+	morale_damage = 15.0
+	collateral_damage = 1.5
+	war_exhaustion = 0.0
+	time = 180
+	icon = GFX_armee_chive
+	has_morale = no
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			food = 100
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_chive_tree"
+			is_active_resolution = "resolution_chive_drones"
+			is_active_resolution = "resolution_chive_influence"
+			is_active_resolution = "resolution_chive_stockpile"
+			is_active_resolution = "resolution_chive_primacy"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_chive_drones"
+			is_active_resolution = "resolution_chive_influence"
+			is_active_resolution = "resolution_chive_stockpile"
+			is_active_resolution = "resolution_chive_primacy"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_chive"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_chive"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_armee_chive"
+				value >= 100
+			}
+		}
+	}
+}
+
+armee_botsss = {
+	damage = 5.0
+	health = 1.5
+	morale = 8.0
+	morale_damage = 25.0
+	collateral_damage = 3.0
+	war_exhaustion = 0.0
+	time = 220
+	icon = GFX_armee_botsss
+	has_morale = no
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			alloys = 100
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 18
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_cmachine_nodes"
+			is_active_resolution = "resolution_cmachine_warforms"
+			is_active_resolution = "resolution_cmachine_techprim"
+			is_active_resolution = "resolution_cmachine_protection"
+			is_active_resolution = "resolution_cmachine_efficient"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_cmachine_warforms"
+			is_active_resolution = "resolution_cmachine_techprim"
+			is_active_resolution = "resolution_cmachine_protection"
+			is_active_resolution = "resolution_cmachine_efficient"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_botsss"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_botsss"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_armee_botsss"
+				value >= 12
+			}
+		}
+	}
+}
+
+armee_creaver = {
+	damage = 5.0
+	health = 4.5
+	morale = 2.5
+	morale_damage = 6.0
+	collateral_damage = 2.0
+	war_exhaustion = 0.4
+	time = 220
+	icon = GFX_armee_creaver
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			energy = 100
+			minerals = 200
+		}
+
+		upkeep = {
+			energy = 8
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_cxenophob_spire"
+			is_active_resolution = "resolution_cxenophob_reavers"
+			is_active_resolution = "resolution_cxenophob_purge"
+			is_active_resolution = "resolution_cxenophob_crisis"
+			is_active_resolution = "resolution_cxenophob_preservation"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_cxenophob_reavers"
+			is_active_resolution = "resolution_cxenophob_purge"
+			is_active_resolution = "resolution_cxenophob_crisis"
+			is_active_resolution = "resolution_cxenophob_preservation"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_creaver"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_creaver"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_armee_creaver"
+				value >= 100
+			}
+		}
+	}
+}
+
+armee_tdd = {
+	damage = 4.0
+	health = 4.0
+	morale = 4.5
+	morale_damage = 6.0
+	collateral_damage = 0.1
+	war_exhaustion = 0.2
+	time = 220
+	icon = GFX_armee_tdd
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			energy = 50
+			minerals = 400
+		}
+
+		upkeep = {
+			energy = 6
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_cstartrek_council"
+			is_active_resolution = "resolution_cstartrek_tdd"
+			is_active_resolution = "resolution_cstartrek_primedir"
+			is_active_resolution = "resolution_cstartrek_crisis"
+			is_active_resolution = "resolution_cstartrek_exchange"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_cstartrek_tdd"
+			is_active_resolution = "resolution_cstartrek_primedir"
+			is_active_resolution = "resolution_cstartrek_crisis"
+			is_active_resolution = "resolution_cstartrek_exchange"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_tdd"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_tdd"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_armee_tdd"
+				value >= 100
+			}
+		}
+	}
+}
+
+armee_jojo = {
+	damage = 4.5
+	health = 4.5
+	morale = 8.0
+	morale_damage = 5.0
+	collateral_damage = 0.2
+	war_exhaustion = 0.4
+	time = 250
+	icon = GFX_armee_jojo
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 400
+			unity = 500
+		}
+
+		upkeep = {
+			unity = 2
+			energy = 2
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_chre_cathedrals"
+			is_active_resolution = "resolution_chre_jojo"
+			is_active_resolution = "resolution_chre_reform"
+			is_active_resolution = "resolution_chre_shield"
+			is_active_resolution = "resolution_chre_ascend"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_chre_jojo"
+			is_active_resolution = "resolution_chre_reform"
+			is_active_resolution = "resolution_chre_shield"
+			is_active_resolution = "resolution_chre_ascend"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_jojo"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_jojo"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_armee_jojo"
+				value >= 100
+			}
+		}
+	}
+}
+
+armee_gdf = {
+	damage = 2.0
+	health = 6.0
+	morale = 6.0
+	morale_damage = 5.0
+	collateral_damage = 0.2
+	war_exhaustion = 0.6
+	time = 250
+	icon = GFX_armee_gdf
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 400
+			alloys = 10
+		}
+
+		upkeep = {
+			alloys = 1
+			energy = 1
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_pacifist_building"
+			is_active_resolution = "resolution_pacifist_army"
+			is_active_resolution = "resolution_pacifist_casusb"
+			is_active_resolution = "resolution_pacifist_crisis"
+			is_active_resolution = "resolution_pacifist_unique"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_pacifist_army"
+			is_active_resolution = "resolution_pacifist_casusb"
+			is_active_resolution = "resolution_pacifist_crisis"
+			is_active_resolution = "resolution_pacifist_unique"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_gdf"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_gdf"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_armee_gdf"
+				value >= 100
+			}
+		}
+	}
+}
+
+armee_stormtrops = {
+	damage = 2.0
+	health = 5.0
+	morale = 5.0
+	morale_damage = 8.0
+	collateral_damage = 0.6
+	war_exhaustion = 0.5
+	time = 250
+	icon = GFX_armee_stormtrops
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 400
+			alloys = 10
+		}
+
+		upkeep = {
+			alloys = 1
+			energy = 1
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_militarist_building"
+			is_active_resolution = "resolution_militarist_army"
+			is_active_resolution = "resolution_militarist_casusb"
+			is_active_resolution = "resolution_militarist_crisis"
+			is_active_resolution = "resolution_militarist_unique"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_militarist_army"
+			is_active_resolution = "resolution_militarist_casusb"
+			is_active_resolution = "resolution_militarist_crisis"
+			is_active_resolution = "resolution_militarist_unique"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_stormtrops"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_stormtrops"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_armee_stormtrops"
+				value >= 100
+			}
+		}
+	}
+}
+
+armee_wips = {
+	damage = 2.5
+	health = 4.0
+	morale = 3.0
+	morale_damage = 4.0
+	collateral_damage = 0.5
+	war_exhaustion = 0.2
+	time = 300
+	icon = GFX_armee_wips
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 400
+			energy = 250
+		}
+
+		upkeep = {
+			alloys = 1
+			energy = 1
+			minerals = 1
+			engineering_research = -2
+			physics_research = -2
+			society_research = -2
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_cmaterialist_building"
+			is_active_resolution = "resolution_cmaterialist_army"
+			is_active_resolution = "resolution_cmaterialist_casusb"
+			is_active_resolution = "resolution_cmaterialist_crisis"
+			is_active_resolution = "resolution_cmaterialist_unique"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_cmaterialist_army"
+			is_active_resolution = "resolution_cmaterialist_casusb"
+			is_active_resolution = "resolution_cmaterialist_crisis"
+			is_active_resolution = "resolution_cmaterialist_unique"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_wips"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_wips"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_armee_wips"
+				value >= 50
+			}
+		}
+	}
+}
+
+armee_ck3c = {
+	damage = 3.5
+	health = 4.5
+	morale = 8.0
+	morale_damage = 8.0
+	collateral_damage = 0.4
+	war_exhaustion = 0.2
+	time = 300
+	icon = GFX_armee_ck3c
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 400
+			energy = 250
+			unity = 50
+		}
+
+		upkeep = {
+			energy = 1
+			minerals = 1
+			unity = 1
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_cspiritualist_building"
+			is_active_resolution = "resolution_cspiritualist_army"
+			is_active_resolution = "resolution_cspiritualist_casusb"
+			is_active_resolution = "resolution_cspiritualist_crisis"
+			is_active_resolution = "resolution_cspiritualist_unique"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_cspiritualist_army"
+			is_active_resolution = "resolution_cspiritualist_casusb"
+			is_active_resolution = "resolution_cspiritualist_crisis"
+			is_active_resolution = "resolution_cspiritualist_unique"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_ck3c"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_ck3c"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_armee_ck3c"
+				value >= 25
+			}
+		}
+	}
+}
+
+armee_kenway = {
+	damage = 6.5
+	health = 3.5
+	morale = 6.0
+	morale_damage = 8.0
+	collateral_damage = 0.9
+	war_exhaustion = 0.6
+	time = 300
+	icon = GFX_armee_kenway
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 300
+			energy = 300
+		}
+
+		upkeep = {
+			energy = 2
+			minerals = 2
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_cpirate_building"
+			is_active_resolution = "resolution_cpirate_army"
+			is_active_resolution = "resolution_cpirate_casusb"
+			is_active_resolution = "resolution_cpirate_crisis"
+			is_active_resolution = "resolution_cpirate_unique"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_cpirate_army"
+			is_active_resolution = "resolution_cpirate_casusb"
+			is_active_resolution = "resolution_cpirate_crisis"
+			is_active_resolution = "resolution_cpirate_unique"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_kenway"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_kenway"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_armee_kenway"
+				value >= 10
+			}
+		}
+	}
+}
+
+armee_remedy2 = {
+	damage = 6.0
+	health = 6.0
+	morale = 8.0
+	morale_damage = 8.0
+	collateral_damage = 0.05
+	war_exhaustion = 0.0
+	time = 300
+	icon = GFX_armee_remedy2
+	has_species = no
+	has_morale = no
+
+	resources = {
+		category = armies
+		cost = {
+			alloys = 50
+			energy = 300
+		}
+
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_cservitor_building"
+			is_active_resolution = "resolution_cservitor_army"
+			is_active_resolution = "resolution_cservitor_casusb"
+			is_active_resolution = "resolution_cservitor_crisis"
+			is_active_resolution = "resolution_cservitor_unique"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_cservitor_army"
+			is_active_resolution = "resolution_cservitor_casusb"
+			is_active_resolution = "resolution_cservitor_crisis"
+			is_active_resolution = "resolution_cservitor_unique"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_remedy2"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "cmb_armee_remedy2"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "cmb_armee_remedy2"
+				value >= 50
+			}
+		}
+	}
+}
+
+armee_czenith = {
+	damage = 5.0
+	health = 6.0
+	morale = 10.0
+	morale_damage = 8.0
+	collateral_damage = 0.05
+	war_exhaustion = 0.05
+	time = 300
+	icon = GFX_armee_czenith
+	has_species = no
+	has_morale = yes
+
+	resources = {
+		category = armies
+		cost = {
+			alloys = 50
+			energy = 300
+		}
+
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	potential_country = {
+		OR = {
+			is_active_resolution = "resolution_cmartlet_building"
+			is_active_resolution = "resolution_cmartlet_army"
+			is_active_resolution = "resolution_cmartlet_casusb"
+			is_active_resolution = "resolution_cmartlet_crisis"
+			is_active_resolution = "resolution_cmartlet_unique"
+		}
+	}
+
+	allow = {
+		OR = {
+			is_active_resolution = "resolution_cmartlet_army"
+			is_active_resolution = "resolution_cmartlet_casusb"
+			is_active_resolution = "resolution_cmartlet_crisis"
+			is_active_resolution = "resolution_cmartlet_unique"
+		}
+	}
+
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "armee_czenith"
+				value = 1
+			}
+		}
+	}
+
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "armee_czenith"
+				value = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 500
+		modifier = {
+			set = 0
+			check_variable = {
+				which = "armee_czenith"
+				value >= 50
+			}
+		}
+	}
+}

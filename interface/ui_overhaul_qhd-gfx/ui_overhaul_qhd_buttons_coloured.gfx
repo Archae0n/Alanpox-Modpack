@@ -1,0 +1,79 @@
+spriteTypes = {
+	# tileable buttons
+	corneredTileSpriteType = {
+		name = "GFX_ui_button_cyan"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/coloured/button_cyan.dds"
+		borderSize = { x = 12 y = 12 }
+		effectFile = "gfx/FX/buttonstate.shader"
+		noOfFrames = 3
+	}
+	corneredTileSpriteType = {
+		name = "GFX_ui_button_orange"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/coloured/button_orange.dds"
+		borderSize = { x = 12 y = 12 }
+		effectFile = "gfx/FX/buttonstate.shader"
+		noOfFrames = 3
+	}
+	corneredTileSpriteType = {
+		name = "GFX_ui_button_green"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/coloured/button_green.dds"
+		borderSize = { x = 12 y = 12 }
+		effectFile = "gfx/FX/buttonstate.shader"
+		noOfFrames = 3
+	}
+	corneredTileSpriteType = {
+		name = "GFX_ui_button_red"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/coloured/button_red.dds"
+		borderSize = { x = 12 y = 12 }
+		effectFile = "gfx/FX/buttonstate.shader"
+		noOfFrames = 3
+	}
+	corneredTileSpriteType = {
+		name = "GFX_ui_button_red_opaque"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/coloured/button_red_opaque.dds"
+		borderSize = { x = 12 y = 12 }
+		effectFile = "gfx/FX/buttonstate.shader"
+		noOfFrames = 3
+	}
+	# static buttons
+	spriteType = {
+		name = "GFX_button_cyan_194_34"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/coloured/cyan/button_cyan_194_34.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/coloured/cyan/button_cyan_194_34_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/buttons/headers/button_header_X_24_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 190
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+		hitbox_margin = { x = 11 y = 4 }
+	}
+	spriteType = {
+		name = "GFX_button_cyan_194_54"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/coloured/cyan/button_cyan_194_54.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/coloured/cyan/button_cyan_194_54_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/buttons/coloured/cyan/button_cyan_X_54_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 130
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+		hitbox_margin = { x = 11 y = 4 }
+	}
+}

@@ -1,0 +1,345 @@
+@resolution_weight_fuckingloathed = -5
+@resolution_weight_hated = 3
+@resolution_weight_disliked = 4
+@resolution_weight_unpopular = 5
+@resolution_weight_normal = 6
+@resolution_weight_popular = 6.5
+@resolution_weight_loved = 7
+
+@resolution_cost_t1 = 100
+@resolution_cost_t2 = 150
+@resolution_cost_t3 = 200
+@resolution_cost_t4 = 250
+@resolution_cost_t5 = 300
+@resolution_cost_denounce = 25
+
+@resolution_flag_timer = 360
+
+# Zenith Martlet
+resolution_rdxproclaim_zenith = {
+	icon = "GFX_resolution_rdxproclaim_zenith"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_rdxproclaim_zenith_tooltip
+		hidden_effect = {
+			country_event = { id = cmbrdx.1 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = no
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_rdxproclaim_zenith" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+		is_species_class = AVI
+		OR = {
+			has_valid_civic = civic_sovereign_guardianship
+			has_valid_civic = civic_heroic_tales
+		}
+		OR = {
+			has_ascension_perk = ap_defender_of_the_galaxy
+			has_ascension_perk = ap_eternal_vigilance
+		}
+		#has_tradition = tr_unyielding_finish
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+
+		modifier = {
+			factor = 5
+			is_authoritarian = yes
+			desc = ethic_authoritarian
+		}
+	}
+}
+
+# Undo Martlet :(
+resolution_rdxproclaim_zenith_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_rdxproclaim_zenith" }
+				cancel_resolution = "resolution_rdxproclaim_zenith"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_rmartlet }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_rdxproclaim_zenith
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+
+		modifier = {
+			factor = -5
+			is_authoritarian = yes
+			desc = ethic_authoritarian
+		}
+	}
+}
+
+# Banana Republic
+resolution_rdxproclaim_banana = {
+	icon = "GFX_resolution_rdxproclaim_banana"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+
+	effect = {
+		custom_tooltip = resolution_rdxproclaim_banana_tooltip
+		hidden_effect = {
+			country_event = { id = cmbrdx.2 }
+		}
+	}
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_galactic_custodian = yes
+		is_gestalt = no
+		is_machine_empire = no
+		is_megacorp = yes
+		is_at_war = no
+		is_active_resolution = resolution_custodian_perpetual_custodianship
+		is_active_resolution = resolution_sanctions_economic_3
+		is_active_resolution = resolution_commerce_profit_maximization_engines
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_already_active"
+			NOT = { is_active_resolution = "resolution_rdxproclaim_banana" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_incompatibilityc"
+			NOT = { has_global_flag = "cmbu_allowintegro" }
+		}
+		custom_tooltip = {
+			fail_text = "resolution_empireisherec"
+			NOT = { has_country_flag = "cmbu_preventsupers" }
+		}
+		custom_tooltip = {
+			fail_text = "requires_no_war_in_heaven"
+			NOT = { has_global_flag = war_in_heaven_ongoing } # Can't become Emperor during WiH
+		}
+		has_valid_civic = civic_brand_loyalty
+		AND = {
+			is_active_resolution = resolution_sanctions_economic_3
+			is_active_resolution = resolution_commerce_profit_maximization_engines
+			is_active_resolution = resolution_industry_project_cornucopia
+			is_active_resolution = resolution_galacticreforms_enable_council_veto
+			is_active_resolution = resolution_custodian_anti_piracy
+			is_active_resolution = resolution_custodian_galactic_standard
+			is_active_resolution = resolution_custodian_gto
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = -5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+
+		modifier = {
+			factor = 5
+			is_authoritarian = yes
+			desc = ethic_authoritarian
+		}
+	}
+}
+
+# Undo Banana
+resolution_rdxproclaim_banana_nope = {
+	icon = "GFX_resolution_end_custodianship"
+
+	resources = {
+		category = resolutions
+		cost = {
+			influence = @resolution_cost_t5
+		}
+	}
+	target = no
+
+	modifier = {
+	}
+	
+
+	effect = {
+		custom_tooltip = resolution_unseat_tooltip_extracmb
+		hidden_effect = {
+			if = {
+				limit = { is_active_resolution = "resolution_custodian_perpetual_custodianship" }
+				cancel_resolution = "resolution_custodian_perpetual_custodianship"
+			}
+			if = {
+				limit = { is_active_resolution = "resolution_rdxproclaim_banana" }
+				cancel_resolution = "resolution_rdxproclaim_banana"
+			}
+			random_playable_country = {
+					limit = { has_valid_civic = civic_rbanana }
+					save_event_target_as = former_custodians
+					restore_galactic_community_leader_backup_data = yes
+					set_galactic_custodian = no
+					remove_country_flag = extended_custodianship
+					cancel_resolution = "resolution_galacticreforms_nominate_custodian"
+					remove_modifier = gal_custodian
+					country_event = { id = cmbu.255 }
+				}
+			every_playable_country = {
+				country_event = { id = cmbu.777 }
+			}
+		}
+	}
+
+		
+
+	fail_effects = {
+	}
+
+	potential = {
+		has_nemesis = yes
+		is_active_resolution = resolution_rdxproclaim_banana
+	}
+
+	active = {
+		is_galactic_custodian = yes
+	}
+
+	allow = {
+		custom_tooltip = {
+			fail_text = "resolution_cmbupointofnoreturn"
+			NOT = { has_global_flag = "cmbu_noreturn" }
+		}
+	}
+
+	ai_weight = {
+		base = @resolution_weight_unpopular
+
+		modifier = {
+			factor = 5
+			is_egalitarian = yes
+			desc = ethic_egalitarian
+		}
+
+		modifier = {
+			factor = -5
+			is_authoritarian = yes
+			desc = ethic_authoritarian
+		}
+	}
+}

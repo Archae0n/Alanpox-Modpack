@@ -1,0 +1,330 @@
+namespace = ef_industry
+
+# TODO: Need to test these events work properly
+
+# Hidden event to trigger situational events. Makes probability easier to manage
+situation_event = {
+	id = ef_industry.9
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		random_list = {
+			30 = { situation_event = { id = ef_industry.12 } }
+			10 = { situation_event = { id = ef_industry.13 } }
+			10 = { situation_event = { id = ef_industry.14 } }
+			10 = { situation_event = { id = ef_industry.15 } }
+			10 = { situation_event = { id = ef_industry.16 } }
+		}
+	}
+}
+
+# Introduce pollution situation
+planet_event = {
+	id = ef_industry.10
+	title = ef_industry.10.name
+	desc = ef_industry.10.desc
+	picture  = GFX_evt_mining_operations
+	location = root
+	is_triggered_only = yes
+
+	# OK
+	option = {
+		name = ef_industry.10.a
+		owner = { start_situation = { type = ef_situation_pollution target = root } }
+	}
+}
+# Situation conclusion: Max pollution
+planet_event = {
+	id = ef_industry.11
+	title = ef_industry.11.name
+	desc = ef_industry.11.desc
+	picture  = GFX_evt_mining_operations
+	location = root
+	is_triggered_only = yes
+
+	# OK
+	option = {
+		name = ef_industry.11.a
+		add_modifier = { modifier = ef_polluted_forge_world days = -1}
+	}
+}
+
+# Generic pollution increase event.
+situation_event = {
+	id = ef_industry.12
+	title = ef_industry.12.name
+	desc = ef_industry.12.desc
+	picture  = GFX_evt_generator_powerup
+	location = target
+	is_triggered_only = yes
+
+	trigger = { target = { NOT = { has_planet_flag = ef_recent_generic_pollution_event } } }
+
+	immediate = {
+		target = {
+			set_timed_planet_flag =  {
+				flag = ef_recent_generic_pollution_event
+				days = 720
+			}
+		}
+	}
+	# OK
+	option = {
+		name = ef_industry.12.a
+		add_situation_progress = 5
+	}
+}
+
+# Chemical spills event
+situation_event = {
+	id = ef_industry.13
+	title = ef_industry.13.name
+	desc = ef_industry.13.desc
+	picture  = GFX_evt_busy_spaceport
+	location = target
+	is_triggered_only = yes
+
+	trigger = {
+		situation_monthly_progress >= 60
+	}
+
+	# OK
+	option = {
+		name = ef_industry.13.a
+		add_situation_progress = 5
+		target = { add_planet_devastation = 10 }
+	}
+}
+
+# Fire waste into orbit.
+situation_event = {
+	id = ef_industry.14
+	title = ef_industry.14.name
+	desc = ef_industry.14.desc
+	picture  = GFX_evt_ship_in_orbit
+	location = target
+	is_triggered_only = yes
+
+	trigger = { target = { NOT = { has_modifier =  ef_orbital_waste_disposal} } }
+
+	# Do it
+	option = {
+		name = ef_industry.14.a
+		allow = {
+			owner = {
+				resource_stockpile_compare = { resource = energy value >= 500 }
+			}
+		}
+		owner = {
+			add_resource = { energy = -500 }
+		}
+		ef_decrease_pollution_massive = yes
+		target = {
+			add_modifier = { modifier = ef_orbital_waste_disposal years = 5}
+		}
+	}
+	# Hold off
+	option = {
+		name = ef_industry.14.b
+	}
+}
+
+# Overproduction drive.
+situation_event = {
+	id = ef_industry.15
+	title = ef_industry.15.name
+	desc = ef_industry.15.desc
+	picture  = GFX_evt_ship_offloading_cargo
+	location = target
+	is_triggered_only = yes
+
+	trigger = { target = { NOT = { has_planet_flag = ef_recent_overproduction_event } } }
+
+	immediate = {
+		target = {
+			set_timed_planet_flag =  {
+				flag = ef_recent_overproduction_event
+				days = 720
+			}
+		}
+	}
+
+	# OK
+	option = {
+		name = ef_industry.15.a
+		add_situation_progress = 5
+		owner = {
+			add_resource = { alloys = 1500 }
+			add_resource = { consumer_goods = 1500 }
+		}
+	}
+}
+
+# Waste eating xenobacteria.
+situation_event = {
+	id = ef_industry.16
+	title = ef_industry.16.name
+	desc = ef_industry.16.desc
+	picture  = GFX_evt_microscopic_life
+	location = target
+	is_triggered_only = yes
+
+	trigger = {
+		target = {
+			NOT = {
+				has_planet_flag = ef_waste_eating_microbes_has_happened
+			}
+		}
+	}
+	immediate = {
+		target = { set_planet_flag = ef_waste_eating_microbes_has_happened  }
+	}
+
+	# Spread the xenobacteria
+	option = {
+		name = ef_industry.16.a
+		allow = {
+			owner = {
+				resource_stockpile_compare = { resource = energy value >= 2000 }
+			}
+		}
+		owner = {
+			add_resource = { energy = -2000 }
+		}
+		hidden_effect = {
+			random_list = {
+				1 = { situation_event = { id = ef_industry.18 days = 180} } # Bad outcome
+				1 = { situation_event = { id = ef_industry.17 days = 180} } # Good outcome
+			}
+		}
+		ef_decrease_pollution_major = yes
+	}
+
+	# Leave it as is
+	option = {
+		name = ef_industry.16.b
+		ef_decrease_pollution_major = yes
+	}
+}
+
+# Very successful xenobacteria .
+situation_event = {
+	id = ef_industry.17
+	title = ef_industry.17.name
+	desc = ef_industry.17.desc
+	picture  = GFX_evt_microscopic_life
+	location = target
+	is_triggered_only = yes
+
+	# OK
+	option = {
+		name = ef_industry.17.a
+		ef_decrease_pollution_massive = yes
+	}
+}
+
+# Xenobacteria mutated.
+situation_event = {
+	id = ef_industry.18
+	title = ef_industry.18.name
+	desc = ef_industry.18.desc
+	picture  = GFX_evt_microscopic_life
+	location = target
+	is_triggered_only = yes
+
+	# OK
+	option = {
+		name = ef_industry.18.a
+		target = { add_planet_devastation = 10 }
+	}
+}
+
+# TODO: Maybe
+# Generic (and repeatable) event about quarterly reports being good or something
+# Nice to have: An event about a kidnapping ring to get labour for sweatshops
+
+# Strikes, repeatable
+planet_event = {
+	id = ef_industry.20
+	title = ef_industry.20.name
+	desc = ef_industry.20.desc
+	picture  = GFX_evt_ef_protests
+	location = target
+	is_triggered_only = yes
+
+	# Leave it be
+	option = {
+		name = ef_industry.20.a
+		add_modifier = {
+			modifier = ef_labour_disputes
+			years = 5
+		}
+	}
+	# Come to an agreement
+	option = {
+		name = ef_industry.20.b
+		allow = {
+			owner = { resource_stockpile_compare = { resource = influence value >= 100 } }
+		}
+		owner = {
+			add_resource = { influence = -100 }
+		}
+	}
+	# Initiate a crackdown
+	option = {
+		name = ef_industry.20.c
+		random_list = {
+			50 = {}
+			50 = {
+				random_owned_pop = {
+					kill_pop = yes
+				}
+			}
+		}
+	}
+}
+
+# Accidental overproduction
+planet_event = {
+	id = ef_industry.30
+	title = ef_industry.30.name
+	desc = ef_industry.30.desc
+	picture  = GFX_evt_ship_offloading_cargo
+	location = target
+	is_triggered_only = yes
+
+	# Leave it be
+	option = {
+		name = ef_industry.20.a
+		owner = {
+			add_resource = {
+				exotic_gases = 500
+				rare_crystals = 500
+				volatile_motes = 500
+			}
+		}
+	}
+}
+
+# Ship breaking yards
+planet_event = {
+	id = ef_industry.40
+	title = ef_industry.40.name
+	desc = ef_industry.40.desc
+	picture  = GFX_evt_cargoship_caravan
+	location = target
+	is_triggered_only = yes
+
+	trigger = {
+		not = {
+			has_deposit = d_ef_ship_breaking_yards
+		}
+	}
+
+	# Leave it be
+	option = {
+		name = ef_industry.40.a
+		add_deposit = d_ef_ship_breaking_yards
+	}
+}

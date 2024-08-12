@@ -1,0 +1,231 @@
+﻿### Fantasy Tagalog
+### Names from the Manananggal name generator at fantasynamegenerators.com
+
+cybrxkhan_fantasy_tagalog = {	
+	category = "Molluscoid"
+
+	ship_names = {
+		generic = {
+			Acia Aciatandac Acil Acimlanchot Acimlangester Agtang Agted Agtee Agtod Agtok Agwat Agwe Agwo Alhemuk Alhinimamo Alhiyicsi Alhula Alhulhus Amenim Amero Ameroyicup Amla Amlandil Amledlubi Amli Amlindia Amlindindag Amlo Ancharnas Anche Anchiminsal Anchiyucee Anchuldee Ane Aneemlinta Aneer Aneg Anesteng Anta Anteg Anten Antik Arui Atchalhumer Atched Atchi Atchidceng Atchidcobel Atchil Atcho Atchot Atda Atdac Atdag Avangirna Avenacseelduka Avenia Avingo Avinsong Avu Awlan Awlitdat Awlunsa Bag Bagtee Balay Bam Bamlan Bampawi Banchee Banded Bane Banesabun Bang Bangena Bat Batak Bateg Bejenasa Bejentia Bem Bembu Bemon Bemongasa Bemuk Ben Beng Benimis Bente Bentui Ber Bid Bidcia Bidcial Bidlad Bidlayiay Bidlet Bin Binang Binda Bingee Bingianset Binuyuk Birimamlun Biring Birnanee Birnasa Birniahagbat Birnuyud Birui Biruit Bug Bugi Bugmi Bugmisuhumpi Bugtol Bulhulo Buva Buvat Buvatdong Buvi Buvia Buvu Buvul Cagee Cajak Cajakia Cajakit Ceba Cebag Cel Celdu Ceya Ceyer Ceyerim Chag Chagia Chalhingi Chalu Chap Charnegtagi Chat Chatuyundonta Chiatdac Chid Chidciahatagia Chidco Chig Chigmu Chim Chingeeniat Chingi Chirinan Chirnes Chirnia Chirui Chucled Chuclunchot Chuk Chuka Chul Chula Chulas Chulheebim Chulhid Chulhun Chulog Chulogampip Chulubo Chumidli Chumisok Chumpia Chus Chusag Chuving Chuvut Cikitemo Cikituntig Cikongurnui Cim Cimiruindor Cimpialhat Cin Cinchee Cingamling Cingi Cingol Cinguit Cinsi Cintui Cirnantak Cirnia Cujatdag Cujated Cujater Cujo Dam Damli Damo Dampiap Dampip Dampu Darna Darne Darui Datui Dawia Dawlin Dawu Dawud Dawuyung Debag Debas Debini Dejenesabud Dejeng Dejensi Dejentuis Dejik Dejikee Dicay Dicimligur Dicla Diclaled Diclan Diclasuputiam Diclui Diclunchee Dico Dicog Dicseya Dicsi Dig Digma Dilan Dildui Dilee Dileembu Dileeya Dilende Dilhi Dilia Dilig Dim Dimikee Dimlitol Dimlo Dimlun Divan Divat Divetee Diviyicu Dizventer Dizvi Dizvor Duba Dubat Dubomim Dubuito Dugba Dugubi Duguihi Dujat Dujatdat Dujumensal Dula Dulhap Dulhulong Dulon Duluisui Dumbung Dumer Dumi Dumid Dumliak Dun Duncheental Dundig Dung Dungera Dungiak Duntalangee Edlagtang Edlal Edlala Edlasabu Edlee Edleewalhat Edli Edlit Edlun Edluntee Egta Egtok Egtud Eldagam Eldi Eldilor Etu Etungia Gagmim Gagwapia Gamlit Gampeeway Gander Gang Ganges Gantagiyeewa Gaza Gazvay Gen Gena Genchagtud Genchat Geng Gengi Genia Gented Getok Gevec Gever Geverit Gevet Gevetee Gevia Giming Gugbimli Gugmi Gugur Guzui Guzuihid Guzvet Hagtegtee Haldac Halde Halee Halheengo Halhug Hicee Hiclo Hicsui Hin Hindee Hinsi Hir Hirim Hirimlaguit Hirna Hirne Hiruimlabuim Hiruy Hugma Hugmas Hugmir Hugmu Hugmuka Hugu Huguroyiri Huhugung Huhui Hul Huldu Hulhed Hulhi Hulhim Hurne Ibecildi Iboc Ibot Icli Iclunchi Icup Idlag Igma Igmam Igmuinda Igwayiwlia Igwem Igwemo Igwo Impia Impu Impuimlan Imputui Inchangur Inchatan Incheeng Incheeya Inchi Inchir Intalo Inted Irnas Irniru Isi Isisuis Itche Itchee Itchi Iwled Iwleeldugtol Iwlendoro Iwlet Iwlu Iyunter Iyunubag Jaba Jabas Jabu Jagbar Jagbingiala Jagted Jenacsisuhus Jenchee Jencho Jeng Jenia Jenseya Jidcenduka Jidlinderigtod Jidlor Jig Jigi Jigo Jigteeng Jigu Jil Jilingo Jiyer Jiyir Jiyuka Juriam Jurit Jurniamlee Jurniamlu Jurongeem Juviap Juvindi Juvuin Juvut Kac Kacsiba Kay Kayiatuim Kayicsagu Ked Kedcee Kedlu Kegwatal Kegwatia Kegwe Kena Kengee Kenges Kengi Kenia Ker Kerigmis Keroyiriakia Kiclui Kicsi Kicsibu Kig Kigmud Kigtee Kigui Kiguyuip Kim Kima Kimigui Kimisup Kimluwu Kinac King Kingi Kinimlintak Kinsala Kintiata Kiyicu Kuceeya Kuciat Kucla Kuclet Kuco Kundarnui Kung Kunutchangi Kut Kutchatee Kuwia Kuwlenche Kuyuclala Kuyui Kuyungacsig Kuzvengiyong Kuzvotok Lanchidcee Landong Lang Lanseemong Lansetchi Lansi Lanter Lantud Laza Lazvecla Lazvo Lel Leldang Leldia Leldu Leldugmim Lelduk Len Lenchot Leng Lengampigmi Lengune Licayir Licee Licen Licla Liclas Licled Licleng Liclutui Licsi Licsuhuva Licsuihi Licsup Licu Licupui Lig Ligi Ligia Ligiat Ligmatud Ligo Ligtangampigta Ligtok Liguboc Lila Lildat Lilhil Lina Ling Lingamlag Linia Liva Liviyer Lucee Luclogur Lugboc Lugmikeenee Lugmui Lugteebas Lugwata Lunched Luneengi Lung Lunut Luria Lurnutui Mam Mamlaled Mamlalor Mamlar Mamled Mamli Mamluimlig Man Mandantia Manding Mandon Mango Mansa Mantangu Manu Maria Marnia Mecia Mecla Meclagtok Meg Megtal Megtengi Megtentansi Miclasuhusan Micogac Micsa Micsig Milacsang Mildansag Milhatuntantui Milogurim Min Minas Mingo Mirniahagboc Mivan Mivay Mivayia Mivi Miwateng Miwi Miwlu Miyicsup Miyiwata Miyon Miyong Miyuclagtok Miyun Mujak Mujakiayunuyun Mujat Mujateritda Mumbot Mumi Muwi Muwla Muwlui Pac Pacsuihigia Pacsuis Pal Pam Pamlasupu Pampeel Pampui Pan Pandacsa Paneenchagtung Pangir Pantaligui Panui Parit Parna Parnan Parnang Parni Parniruip Parnuyuka Paru Paruisong Pazviyon Pazvon Penanchee Peng Pengenia Pensi Pental Pentug Peveclansa Peveclaruy Pevet Pevia Pevibud Peviyuka Pid Pigmas Pim Pima Pimikon Pimingi Pimlanseeya Pimpawia Pimpu Pucla Pucleemu Pucleewa Pum Pumas Pumbud Pumerimla Pumli Pumlu Pumlung Pumpu Pungi Puntia Puvat Puvut Puvutiasa Puwa Puwala Puwat Puwatugmu Puwi Sam Samlang Samput Sendeentandi Senee Senes Sengam Sicsi Sicsuitdas Sidcimlubui Sidli Sidlinsi Sing Singer Sintande Sintia Sit Sitee Sitol Suc Sucil Sucluputia Sunchuva Sundig Sundil Sundildag Sundontu Sungubu Sunsigo Suntud Tag Tagial Tagmui Tater Tavia Tavibintagter Tavinando Tavinsi Taviyigubag Tawi Tawia Tawiampig Tawlansol Tawleeyer Tawlingirui Tec Tiba Tibas Tibimlas Tibimlog Tibui Tibun Ticlane Ticlo Ticlu Ticog Ticsi Ticu Tidceemong Tidcildi Tidcog Tidli Tidlingam Tidloro Tig Tigmui Tigte Tigtok Tigunta Tiledlang Tilhig Tili Tinandon Tinas Tindeem Ting Tingester Tingiatuite Tingo Tingui Tinia Tinsee Tivandu Tivat Tivatda Tivayera Tiviampi Tucee Tucogung Tugmisol Tung Ucla Uclagted Ucled Uclubag Uclundo Uclupu Udled Udlited Udlogun Ugwalhanegtol Ugwapiam Ugwat Ugwu Uhapia Uharnuila Uhat Uhem Uhemliguntes Uhi Uhiampi Uhidcilee Uhidla Uhil Uhindia Uhinia Uhirnia Uhiyongen Umlad Umlal Umlubimpi Umpawia Umpi Umpildatdongi Umpip Umpu Umpuit Umput Umputu Umu Umuimluihi Una Unas Unasup Unda Undac Undagmud Undar Unde Undin Unding Undo Undor Undoro Undum Undumis Ung Ungeewa Ungentuntan Ungestera Ungi Ungo Uren Urenestema Urenta Uvor Uvotiasup Uvuim Uvulayuka Uvut Vacsabud Vacsi Vacsibui Vagtung Vagwe Vagwu Vagwud Val Valan Valedla Valeteemui Valo Vanchiam Vansa Ves Vicay Vicene Vicla Vicobot Vicsag Vildeenchot Vildu Vin Vina Vindacsi Ving Vinger Vingo Vinsibi Vintee Vugba Vugmampui Vugmui Vugmuilde Vugteenia Vugtung Vuguilded Vun Vunchi Vundu Vuneed Vungas Vunsi Vunubi Vus Vusa Vusabungi Vut Vutugui Vuwayud Vuwayuk Vuwlang Vuwlee Vuwud Yag Yagi Yagu Yancho Yang Yantuil Yanuyuka Yaza Yazvon Yazvor Yel Yelda Yeldagma Yeldas Yeldu Yeldui Yelu Yeluwling Yicee Yiclangu Yiclogas Yicsalhatud Yicsisup Yicu Yilagamligubi Yildagi Yildu Yilduguyung Yilhui Yilindu Yinalung Yindarit Ying Yinirnui Yinubung Yivayui Yivec Yivi Yiwiap Yiwleewal Yucleed Yuclo Yuclui Yucluwat Yucseya Yulo Yulu Yum Yumbui Yumputchatdac Yun Yunchi Yunchia Yunchoto Yundan Yunde Yundi Yundongacsi Yung Yunges Yungi Yungol Yuntalup Yuntia Yuntiguingubot Yuntuip Yunu Yunui Yunutia Yuvia Yuvontan Yuvutunchil
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Uvuldugmu Sky Navy" "Paldi Sky Navy" "Jaba Tin Sky Navy" "Yundia Sky Navy" "Umpip Sky Navy" "Eldingung Sky Navy" "Chir Jag Sky Navy" "Bidcog Sky Navy" "Cimpui Sky Navy" "Pacseya Sky Navy" "Pumpuing Sky Navy" "Vicogampu Sky Navy" "Yiwi Sky Navy" 
+		}
+		sequential_name = FANTASY_TAGALOG_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_TAGALOG_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_TAGALOG_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_TAGALOG_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_TAGALOG_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_TAGALOG_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_TAGALOG_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_TAGALOG_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_TAGALOG_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_TAGALOG_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_TAGALOG_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_TAGALOG_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_TAGALOG_xxROBOTICDEFENSEARMY_ORD
+		}
+
+		psionic_army = {
+			sequential_name = FANTASY_TAGALOG_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_TAGALOG_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_TAGALOG_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_TAGALOG_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_TAGALOG_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_TAGALOG_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_TAGALOG_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_TAGALOG_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_TAGALOG_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Agterig Alon Amer Antia Batiam Bedceng Beritok Bindan Ceyigtun Diva Dungesag Duntuim Egted Etud Ganseyer Genestes Gental Gimisong Guzvatung Hingi Hiri Hirnee Hugmud Intialui Irnim Iwli Jaboto Kacsi Kayiruy Kuyuk Lanche Lazvi Leldugted Licsui Ligui Lildumbui Linir Luci Mantuyung Mecilig Pampip Peldac Pimig Puclaba Pumin Sitdas Sunchemboc Suviyun Tawlang Ticsabud Tinteengi Tunsal Umpawi Uvutuip Vacsuhum Vugmat Yicup Yilenac Yindinsi Yuvo
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Agwalac Anched Atchag Aver Avul Balo Bamla Banche Bangas Bejik Bemlogur Benter Bidlubing Binsetong Cajat Cebas Cikit Cinangi Cirin Cujak Debar Dejendo Digte Dikon Dizvet Dubageng Dugwem Dujumeng Dune Edling Gamo Gazvor Getchid Geteni Geven Gugbater Ibec Ibomir Idli Igo Inchil Itchot Iyud Jendag Jensol Jidlitung Jiguyuc Juring Juvu Kedled Kegtugung Kero Kicled Kigo Kinchun Kinubot Kuclad Kutchat Luclas Luroyir Manes Megwayer Milder Minger Miyicu Mujo Pengo Pentan Peviba Pidci Pimlig Pumlan Satdaring Sena Sentegtol Suceneg Sunchus Tatdal Teclog Tibimid Tindi Tucog Udlalet Ugwo Undi Undon Urenda Uvon Uzvotik Vagten Vugtol Vunchinded Vundor Vusang Yandin Yazvec Yilinde Yulogac Yungur Yunsibung
+            }
+           
+            first_names_female = {
+				Aciay Amleema Aruila Avandil Avingee Awlee Bagmimas Birim Buldiakia Buvayia Chalayun Charnangee Chigminsi Chimpu Chirnangi Chiru Chucsee Chulhiyeen Chulhui Chuma Damla Darnut Dawuyui Dicluit Dicsisuim Dilhee Dilhug Dimliahat Dimluwu Dulhi Dumikee Duntia Hagia Halhee Hiceera Huhuka Hularui Icu Igmu Impui Kigi Kimlit Kungu Kuwap Kuzui Lantia Licay Liceewat Lildu Lingi Livia Lugiy Lunduka Mamlasa Mandi Marnianu Micil Mirna Miwiata Muwli Pacsi Pampi Pangia Parnia Parnuing Pigiria Pumpeebin Pundig Puvuitee Sagui Saza Siclaleed Tagia Tavi Tigmaruing Tildi Uclig Uhansa Uheeya Uhiapig Umla Umlui Umpia Umpil Umuit Unal Undee Ungu Valdatan Valhulun Vantuis Viclu Vilduitee Vutig Vuwi Yinasup Yiva Yiwlupu Yuceenias Yunuihi
+            }
+			
+			
+			second_names = {
+				Alhap Amlag Anee Atdontan Bagwud Bene Bidcim Bugubu Cagtalag Celut Chatu Chulhi Chuviam Cimlorong Cingun Damput Datemong Edlo Eldat Gagtod Hali Hurnui Icla Igwe Isig Jagbo Jilobot Jiyongam Kengol Kiyiwat Kuclu Lenchim Lico Ligmi Mampui Micsi Miviat Mumpi Palheewa Pantak Paza Pevec Puwlee Samlunuy Sidcobel Singeel Tidlag Tindu Tintagam Tivemuk Tugmam Vesok Vincho Vingeenia Vinta Yagbi Yelde Yumlandan Yunga Yuntandeem
+			}
+			
+            regnal_first_names_male = {
+				Balo Bangas Dikon Dubageng Juvu Kegtugung Pentan Tatdal
+            }
+           
+            regnal_first_names_female = {
+				Aruila Birim Dumikee Mamlasa Mandi Pampi Tildi Ungu
+            }
+			
+			regnal_second_names = {
+				Atdontan Cagtalag Gagtod Hali Kiyiwat Mampui Mumpi Pantak Tugmam Vesok Yumlandan Yunga
+			}
+		}
+	}
+}

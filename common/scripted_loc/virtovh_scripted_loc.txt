@@ -1,0 +1,9 @@
+define_text = {
+	name = VirtualityResourceOutputMult
+	value = value:virtuality_concentrated_production_mult
+}
+
+define_text = {
+	name = VirtualityPopUpkeep
+	value = value:virtuality_num_colonies
+}

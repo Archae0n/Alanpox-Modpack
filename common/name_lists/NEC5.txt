@@ -1,0 +1,330 @@
+﻿### Necroid 5
+# Armies and such based on Necroid 1 Namelist
+# Markov generated from English/American and French names
+
+NECROID5 = {
+	category = "Necroid"
+	ship_names = {
+		generic = {
+			"Anton" "Bassetter" "Beacon" "Boldre" "Brooker" "Broxhead" "Butser" "Coppice" "Elvett" "Farleigh" "Farley" "Goleigh" "Hackett" "Henrood" "Hocombe" "Hoybourne" "Nately" "Netley" "Noar" "Oaker" "Pidham" "Pilot" "Portsdown" "Selborne" "Sidown" "Tadburn" "Waltham" "Wardown" "Wealder" "Wether" "Wheater" "Yoell"
+		}
+
+		corvette = {
+            "Aglance" "Bell-ringer" "Brazen" "Carom" "Chopper" "Coaster" "Crest" "Culler" "Deathly Seed" "Derivator" "Discriminator" "Elicitor" "Extortionist" "Extricator" "Gleaner" "Grand Tor" "Leeward" "Minikin" "Optate" "Pryer" "Ricochet" "Rising Swell" "Runner" "Sifter" "Siphoner" "Skater" "Skimmer" "Skirrer" "Skitterer" "Soaring Mote" "Torrentine" "Toxic Seed" "Uprooter" "Vorpal" "Windward" "Winnower"
+		}
+		
+		destroyer = {
+            "Acquirer" "Amasser" "Bootlegger" "Corraler" "Dreaded Cur" "Dregling" "Gangster" "Garnerer" "Gatherer" "Harrower" "Harvester" "Hoarder" "Mobster" "Outcast" "Plough" "Possessor" "Profligator" "Rabble-rouser" "Raker" "Re-distributor" "Reaper" "Retriever" "Riff-raff" "Scatterer" "Smuggler" "Squanderer" "Stowaway" "Tabernacle" "Undesirable" "Unwashable" "Vagrant" "Wanderer" "Wangler" "Warrener" "Wastrel"
+		}
+		
+		cruiser = {
+            "Arroyo" "Buzzing Void" "Cavernous Deep" "Dark Gathering" "Elementalist" "Empty Fathoms" "Excelsia" "Glorious Endeavour" "Glowering Mote" "Grand Historia" "Impure Ravine" "Lit Furnace" "Parliamentarian" "Slicked Lightning" "Sooted Carbine" "Stark Edifice" "Swift Enterprise" "Thunder Resounding" "Vanishing Cleft" "Voluminous Rift" "Majestic Fissure" "Great Clough" "Cracked Moon" "Gentle Beast" "Riven Plough" "Ruinous Wedge"
+		}
+		
+		battleship = {
+            "Ample Ardence" "Articulate Destiny" "Articulated Worth" "Bloodied Reputation" "Bright Impaler" "Conspicuous Glare" "Defalted Values" "Defined Gaze" "Ethereal Warrior" "Explicit Longing" "Exuberant Aim" "Genial Purpose" "Grave Philosophy" "Great Ebullience" "Grim Cultivator" "Hallowed Bulwark" "Haven's Wrath" "Illuminated Purpose" "Impaler of the Heavens" "Incomprehensible" "Lanced Destiny" "Limpid Wreck" "Manifest Urge" "Perforated Being" "Perpetual Sting" "Piercing Vision" "Precise Doom" "Prophetic Exactitude" "Purity of Purpose" "Ready Unfeigned" "Robust Position" "Salient Promise" "Secret Yearning" "Starboard Protector" "Stark Realisation" "Stellar Gleanings" "Stoic Breakwater" "Storm-lashed Naze" "Stunned Clarity" "Titanic Ambition" "Transfixed Might" "Unnatural Order" "Vigorous Might"
+		}
+
+		titan = {
+			"Bukovia" "Carpenthia" "Sirentia" "Morenia" "Assertia" "Girhennia" "Tulopia" "Dessernia"
+		}
+
+		colossus = {
+			"Grim Wreaker" "Ethereal Judgement" "Dark Treasure" "Terminal Flash" "Ashen Void" "Harbinger's Loom" "Phenomenal Might"
+		}
+		
+		science = {
+            "Hearkener" "Illuminator" "Observer" "Auditor" "Auscultator" "Tuning Fork" "Perlustrator" "Lens-bringer" "Firm Likeness" "Photostat" "Chroma" "Mimeographer" "Transcriber" "Miniaturist" "Modeller" "Garnerer" "Accumulator"
+		}
+		
+		colonizer = {
+            "Accented Purpose" "Caronis" "Exentris" "Grand Ambition" "High Enterprise" "Horizon" "Novel Purpose" "Propagator" "Novoreplica" "Proliferator" "Facsimile" "Mimeos"
+		}
+		
+		constructor = {
+            "Varna" "Stevedore" "Linkern" "Malissay" "Demeter" "Berberus" "Jerebow" "Nevant" "Peckard" "Trondike" "Puxin" "Parvo" "Tellomere" "Kristham"
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+    ship_class_names = {
+        generic = {
+            "Ambassador" "Arcola" "Broxy" "Craftsbury" "Dominion" "Donmar" "Garrick" "Gelgud" "Haggler" "Laudeville" "Loxton" "Lury" "Nivella" "Pentameter" "Quarterhouse" "Quester" "Sartican" "Shore" "Sotoy" "Strandheim" "Termyn" "Wyndham"
+        }
+    }
+
+	fleet_names = {
+		random_names = {
+			"Amontillo Fleet" 
+		}
+		sequential_name = NEC5_xxFLEETNAMES_ORD
+	}
+		
+	army_names = {
+			
+		generic = {
+			sequential_name = NEC5_xxASSAULTARMY_ORD
+		}
+		
+		machine_defense = {
+			sequential_name = NEC5_xxMACHINEDEFENSE_ORD
+		}
+		
+		machine_assault_1 = {
+			sequential_name = NEC5_xxMACHINEASSAULT1_ORD
+		}
+		
+		machine_assault_2 = {
+			sequential_name = NEC5_xxMACHINEASSAULT2_ORD
+		}
+		
+		machine_assault_3 = {
+			sequential_name = NEC5_xxMACHINEASSAULT3_ORD
+		}
+
+		defense_army = {
+			sequential_name = NEC5_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = NEC5_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = NEC5_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = { 
+			sequential_name = NEC5_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = NEC5_xxUNDEADARMY_ORD
+		}
+
+		robotic_army = {
+			sequential_name = NEC5_xxROBOTICARMY_ORD
+		}
+
+		robotic_defense_army = {
+			sequential_name = NEC5_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = { 
+			sequential_name = NEC5_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = NEC5_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = NEC5_xxGENEWARRIORARMY_ORD
+		}
+
+		occupation_army = {
+			sequential_name = NEC5_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = NEC5_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = NEC5_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = NEC5_xxPRIMITIVEARMY_ORD
+		}
+		industrial_army = {
+			sequential_name = NEC5_xxINDUSTRIALARMY_ORD
+		}
+		postatomic_army = {
+			sequential_name = NEC5_xxPOSTATOMICARMY_ORD
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				
+				# Fantasy Towns
+				Amberhall Basinmond Bearrock Blindcliff Castleguard Cavemere Crowwood Crystalbourne Dirtrock Dogstar Duskgrove Earthkeep Edgeport Farwick Faybarrow Frostmore Glimmerminster Grasscall Graymount Greenfair Honeybarrow Lastville Lightbrook Midmeadow Mosshill Nightmount Northshell Oakenmoor Purefalls Rageguard Redhorn Rockfair Roguewatch Rosewall Scorchband Silentborn Snowstall Steepvale Stillbarrow Stonegate Summerdrift Swiftspire Thornshore Timberfair Timberstorm Westcross Wilddenn Windcross Windvault Windwallow				
+
+				# Towns
+				Aethelney Ardglass Banrockburn Bellenau Berxley Boatwright Braedon Brickelwhyte Butterpond Caister Calchester Chaepstow Coombe Crullfeld Culcheth Duncaster Dungannon Eastborne Elinmylly Fallholt Fallkirk Favorsham Ffestiniog Grimsby Hewe Hillfar Hirane Hogsfeet Hornsey Hullbeck Islesbury Jedborourgh Kingcardine Landow Larkinge Llaneybyder Millstone Monmouth Murlayfield Myrefall Nantwich Northon Norwich Penketh Portsmouth Ritherhithe Romsey Runswick Rutherglen Sanlow Satbury Silverkeep Skystead Stamford Stanlow Tamworth Tardidely Todmorden Tow Ula'ree Wakefield Wombourne
+				
+				# Markov of Anglo-American-French names
+				Adrouth Altam Amillexandon Andenris Astafow Astri Aughand Bacquerson Baindox Baintie Baldelince Barie Barleson Bartherook Beasey Beccroake Becton Beladie Bendy Berik Berochuns Bevanneigh Bild Blance Boolby Bordowelo Borth Bory Bridensown Briderthod Briston Brosa Campton Can Carriner Caster Catepada Chatfort Chdaldarth Cher Chmorombord Chold Chreentrown Clan Cley Cockehash Connoz Crastram Danie Darie Des Desbord Dodmin Dongarr Dudson Dukesanie Duna Eackley Eadderthean Eatkint Elagglaye Ermar Eulkelcott Fared Farne Ferick File Floyath For Foren Forriguez Forrill Fracon Freashan Gatleigh Gatley Gettisham Ginerron Ginerwichamp Goste Greck Gricklan Gridne Gwemabride Gworeens Haleom Hamson Hamswoodley Hanes Harlerne Haroven Havio Haxton Heigh Helles Heseff Holingtows Homarrers Hordon Horenatt Howel Howen Hunslerson Hurstin Hury Idgefrermik Irks Jangtong Jarry Javins Jealton Jeannier Jercher Jilfelley Joray Judia Kerne Keticheac Kidgel Kinningens Kinth Kliste Knicton Kranny Lans Layne Leemyrtonson Letfie Lewooder Lez Loisal Mabby Madickley Mane Maningertne Mardy Marlbealfry Mathlings Mcclertham Mccluckby Mcley Mcmate Merstephenn Ming Minge Minson Mirwillia Mon Monny Mooellon Morie Murndradel Neiddlesham Neywolpshard Nistopson Norpe Olmelster Olnwinge Ottliviagnea Outhwitam Pacher Padlemidge Parlort Pauger Perid Phiney Pon Port Prio Pucinald Racton Rater Reent Rict Romarree Rookelandy Rossingto Rough Rouglour Rowns Royddouston Sadle Salder Salett Samilant Samsgatking Scombladley Serforow Shalharlay Sham Shamon Sherey Shottsoughbon Sie Silleen Singtony Siray Ske Slann Sonsterson Speana Stairievey Stboury Stery Stian Sting Stothfie Sudia Suster Swicher Swington Sword Syken Taley Tam Tinca Traton Trigh Turkbuthal Twiste Twoodlarke Vadectongs Vasey Velbethfill Wadalvion Walandonice Walfort Walfox Walteis Walyde Wan Wanse Watert Wayn Wee Wemalley Whie Wick Wicton Wirfie Wirki Witcheelby Word Yarkswill Zimmyankley
+
+				# Misc place name generated
+				"Black Hallows"
+				"Garen's Well"
+				"Knife's Edge"
+				"Black Crystal"
+				"Murky Aqueduct"
+				"Mithril Bridge"
+				"Burly Bridge"
+				"Double Bridge"
+				"Diamond Bridge"
+				"Dearest Overpass"
+				"Giant Bridge"
+				"Silent Aqueduct"
+				"Autumn Gorge"
+				"Lumport Bridge"
+				"Spring River"
+				"Golden Road"
+				"Goode's Heart"
+				"Skeleton Hill"
+				"Burning Ruin"
+				"Doome's Vale"
+				"Lost Soul"
+				"Burning River"
+				"Summer Grove"
+				"Fairview Burial"
+				"Holly Grove"
+				"Hill's Crest"
+				"Soulburn Tombs"
+				"Forgotten Necropolis"
+				"Malevolent Garden"
+				"Sombre Oak"
+				"Black Ruins"
+				"Little River"
+				"Angel's Wing"
+				"Mountain Ridge"
+				"Silent Gardens"
+				"Dark's View"
+				"Wicked Eye"
+				"Fireview's Fountain"
+				"Darkwood's Spring"
+				"Lands of the Forsaken"
+				"Cove of Silence"
+				"Outpost of Myths"
+				"Vault of the Broken"
+				"Forest of Fragments"
+				"Broken Temple"
+				"Extinct Fields"
+				"Isolated Cove"
+				"Obliterated Shore"
+				"Borough of Ruins"
+				"Outpost of Obsidian"
+				"Temple of Ghosts"
+				"Island of Doom"
+				"Harbor of Graves"
+				"Cursed Fields"
+				"Forsaken Forest"
+				"Isolated Harbor"
+				"Residue Temple"
+				"Endurance Tower"
+				"Afterlife Pillar"
+				"Hope Tower"
+				"Central Tower"
+				"Orbit Mast"
+				"Behemoth Lookout"
+				"Grove's Tower"
+				"Lilyridge's Pillar"
+				"Rose Slope Pillar"
+				"Domfrey's River"
+				"Triumph Tower"
+				"Tribulation Tower"
+				"Desire Lookout"
+				"Paradise Tower"
+				"Victory Lookout"
+				"Dreamcreek's Tower"
+				"Dune Pillar"
+				"Primal Tower"
+				"Gorund's Sanctuary"
+				"Heirloom's Field"
+
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Adamell Adrade Adred Albet Albethillila Aldreboby Aleandred Alellie Alessabie Alie Alise Alline Amattylaude Amil Amilly Analphil Andougelly Androlian Anis Aniserc Annicey Annony Anthuregie Apris Ardourtase Artlexanci Assel Audia Aularry Aurey Barge Belie Benathert Bencey Bereddi Beren Berie Beris Bernola Bernolle Berry Berryandy Bert Besusie Bethellyd Bethendrene Bieneverethy Billeo Bonie Brack Brafannie Bralvicas Brandri Braymonie Brubendsey Bruth Camuelor Cancel Caris Cark Caroldris Caron Casemy Cashe Catte Ceslinnalanca Chadoronna Charana Checectonicha Chellie Cheon Cher Cheriste Cherlouis Cherne Cherris Cholotte Cholyn Chondorya Chria Chrichel Ciandance Clack Claro Colly Conierne Conya Coracel Corene Coriney Couis Couisteph Crambennick Criol Crisamick Crithlen Dancey Dandrolaul Dankliney Darce Dargaroger Darid Davidie Debobeul Delliannifert Deloyd Delsie Delsophe Dendy Dert Dette Diam Doram Dorell Dorgue Dorrank Duana Eannevice Edelindy Edie Edrane Elandsa Elia Elinette Elleil Ellindo Elyn Emabren Emar Erictoranny Erier Erretta Erry Ertam Erton Evelin Fandredie Fanistimberna Ferysta Flolichris Franarocher Fredne Frend Frenne Fressirie Gailla Ganne Garbargin Gelinaomi Gelizan Genny Genricto Geody Geran Gernes Getheonan Gilvia Glaulieverie Gless Gloldi Grenda Guelly Gwenjanny Gwesa Haniftonyan Harredaren Heill Herie Herria Hessie Hiranie Huanne Iantorenather Ince Irettie Irgin Jachandal Jackyl Jairlee Jaithuanda Jaitneva Jance Javelia Javia Jeannisyl Jeanue Jearshady Jeath Jeathelia Jefforge Jefine Jenri Jertan Jesalle Jestie Jimelsony Johnna Johnne Johnni Joran Joren Josarylla Josepheance Josettene Josey Juandsa Jude Judie Jula Julaurtonie Julavired Jusiettel Kariamirie Kath Katha Katharisty Katta Katte Kelie Kelorgia Kentonya Kimmild Kria Kriancia Kricath Kryllyntonne Krystinie Kurthel Kurtord Lasha Laulinetty Laurila Lawrey Leana Lenna Lennie Leodysta Leondorek Leonjaith Leriste Lestim Letsy Letteris Lexanitne Lexis Linah Listonnoroyd Lodory Lorey Lorgievin Loricia Lorma Lorobila Luceste Lucindy Lulian Madeber Mancia Manie Maracoravio Marda Mardory Maricha Marionisant Marogell Marrell Marriele Marrya Marrys Marsheo Mathana Mathel Maxin Melly Melsila Meris Mernatrie Mery Messie Micton Mietin Minan Mirgie Mison Mondron Monn Murick Myronstiana Nory Olilbelanna Osanna Palulie Paternon Pathael Pathera Pathew Paton Patte Pedeantois Pernoralphy Petharce Pettam Phillyne Printony Radarleania Radon Ranaomice Randa Rande Ranee Ranna Raque Resse Riseann Rolashan Roleanda Rolillia Rollyntonne Roly Rolydia Ronie Rookel Rubyn Rudix Saarveritne Samell Sana Sarcisefine Shaeli Shathrid Sheigue Shel Shendredie Shilia Sielin Stana Standon Steramuelice Sternes Sterraim Sussie Suzan Talynna Tannithel Telia Tellex Teris Terna Ternor Terridne Tery Tindal Tindaleene Tridgancistie Trisade Vance Velmamaran Vericia Vetsyl Viandsey Vick Vidney Viney Viren Wadia Wadley Wald Waymon Wigh Willa Willine Yolicarrey Yoly
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Abran Adinar Adlemitch Alley Allowdlez Arle Atton Bacla Bairtips Baliengeon Bamingdon Barele Barks Barkson Barlocherces Barlton Bartox Bash Becarts Bermorby Berreytcham Bersker Bexand Biscood Biscorles Blaigh Blanch Bornestonn Braington Bridge Briell Bucam Burnemsk Burnstado Caby Caidsone Calharza Card Casley Caster Chand Chensford Chent Chepton Cheybricks Chmidd Chorwolisham Chury Cingarkinsey Clandlis Coffman Colstraver Combeck Comford Corrio Cosetes Croake Croge Cummins Curyatler Darreers Davan Daverwidger Davidhursle Dencesay Dench Denors Denry Dery Dingh Ditby Doves Dundruth Dunlee Earton Eatrownind Edlee Elandson Eldhuner Elliane Enharrimpton Enstby Evantson Evesgatford Eworte Fakenton Farne Feaspett Fielaiston Fiell Flen Flope Floventon Flyne Fownsenter Frack Framidge Franburn Fraver Fray Gard Gington Gleevis Gortiss Gosson Guez Guirfier Gush Guss Haham Haittseve Hallenshen Halnwigh Halton Hampon Hampsworston Hard Havermacohns Headill Helme Heppleone Hipton Hope Hudburr Hulton Hury Infitt Inseve Jaston Jastoxeth Joylefield Jusey Kegra Keilferreade Keltoth Kess Ketham Keton Kinge Kirea Kirken Kning Laketcher Larks Larratenhat Lart Laston Laziele Leton Leyward Lingdove Lins Loff Lornston Losby Lowlexby Ludshambleby Ludswatt Lunlada Lunst Lyntgrentyne Lytchmoury Lyton Lytong Mahn Maingley Mallanscall Malvangby Mand Mane Maneek Marel Mccle Mccley Mcdon Mcdonsolmer Mcger Mcgerley Mcgoss Melesteaft Meston Millessova Mince Mirkiren Moodottis Mookinsford Mord Morg Morpe Mouth Narton Nesmedge Newaton Newsburter Newste Nover Noxet Otton Pard Parring Parune Persters Phinfley Piever Ping Pington Plyton Poodgen Porkson Prins Prown Raviz Reashampton Rinaidge Rins Rossey Routtlitt Rovarle Ruiley Ruincham Ryporton Salforrino Sanhow Sell Sennydensey Shammort Shestonnez Shighaven Siddle Silananielton South Spaton Spend Stalings Stborrand Steviney Stianno Stle Ston Stoney Stuarby Tamedy Tande Teemst Tield Tillan Ting Tingseng Tokson Tontrey Trambeley Troop Trosbury Trosey Uckby Uthers Uxbrandone Vagenholopen Valnetton Vankleord Vannehambersh Vaziotts Wadhowmande Waline Walivez Walmouth Warleastoth Warnewilton Watfornest Watking Wedes Weedcay Welgadlo Wenslouthgan Whaming Wharr Wheadoves Whilmatley Wichellisk Wighea Wilsauez Wingh Wishenton Wookerd Wooll Worle Wormacoth Worood Wortowelt		
+			}
+			
+			regnal_first_names = {
+				Androlian Crambennick Erton Herria Jachandal Murick Teris Vick
+			}
+			
+			regnal_second_names = {
+				Becarts Bermorby Chepton Cheybricks Helme Laziele Piever Stalings Tamedy Whaming Wooll
+			}
+		}
+	}
+}

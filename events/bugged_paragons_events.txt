@@ -1,0 +1,92 @@
+namespace = bugged_paragon_events
+
+leader_event = {
+	id = bugged_paragon_events.1
+	title = bugged_paragon_events.1.name
+	desc = bugged_paragon_events.1.desc
+	picture = GFX_evt_city_planet
+	show_sound = event_default
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	event_window_type = leader_story
+	event_picture_background = "GFX_leader_recruitment_bg_renowned"
+
+	picture_event_data = {
+		portrait = root
+	}
+
+	option = {
+		name = bugged_paragon_events.1.a
+		owner = {
+			locked_random_list = {
+				0 = {
+					add_monthly_resource_mult = {
+						resource = engineering_research
+						value = @tier2researchreward
+						min = @tier2researchmin
+						max = @tier2researchmax
+					}
+				}
+				0 = {
+					add_monthly_resource_mult = {
+						resource = engineering_research
+						value = @tier3researchreward
+						min = @tier3researchmin
+						max = @tier3researchmax
+					}
+				}
+				0 = {
+					add_monthly_resource_mult = {
+						resource = engineering_research
+						value = @tier4researchreward
+						min = @tier4researchmin
+						max = @tier4researchmax
+					}
+				}
+				40 = {
+					if = {
+						limit = {
+							has_megacorp = yes
+						}
+						hidden_effect = {
+							set_country_flag = bugged_paragon_ecu_flag
+						}
+						custom_tooltip = bugged_paragon_ecu_allow
+					}
+					else = {
+						add_monthly_resource_mult = {
+							resource = engineering_research
+							value = @tier5researchreward
+							min = @tier5researchmin
+							max = @tier5researchmax
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+leader_event = {
+	id = bugged_paragon_events.2
+	title = bugged_paragon_events.2.name
+	desc = bugged_paragon_events.2.desc
+	picture = GFX_evt_civil_action
+	show_sound = event_default
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	event_window_type = leader_story
+	event_picture_background = "GFX_leader_recruitment_bg_renowned"
+
+	picture_event_data = {
+		portrait = root
+	}
+
+	option = {
+		name = bugged_paragon_events.2.a
+		remove_all_negative_traits = yes
+		add_experience = 5000
+	}
+}

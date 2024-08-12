@@ -1,0 +1,379 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	aserve = {
+		name = Aservoid
+		plural = Aservoids
+		home_planet = Aserve
+		home_system = Tagueró
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	amaniche = {
+		name = Amanichean
+		plural = Amanicheans
+		home_planet = Amaniche
+		home_system = "Faymo Maji"
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	gomentheforgiver = {
+		name = Gomen-pelico
+		plural = Gomen-pelico
+		home_planet = "Gomen the Forgiver"
+		home_system = "Tibicheya the Singer"
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	atguarda = {
+		name = Atguardan
+		plural = Atguardans
+		home_planet = Atguarda
+		home_system = Tibica
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	maideca = {
+		name = Maidecan
+		plural = Maidecans
+		home_planet = Maideca
+		home_system = Metareseno 
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	cenzometa = {
+		name = Cenzometoid
+		plural = Cenzometoids
+		home_planet = Cenzometa
+		home_system = "Cheta Chicana" 
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	abyma = {
+		name = Abyman
+		plural = Abymans
+		home_planet = Abyma
+		home_system = Goraterada 
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	xerane = {
+		name = Xeranish
+		plural = Xeranish
+		home_planet = Xerane
+		home_system = Chatochuresa 
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	tionan = {
+		name = Tionish
+		plural = Tionish
+		home_planet = Tionan
+		home_system = Abachan
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	sahani = {
+		name = Sahanid
+		plural = Sahanids
+		home_planet = Sahani
+		home_system = Tabicáni
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	chimosdiligence = {
+		name = Menusaimác
+		plural = Menusaimác
+		home_planet = "Chimo's Diligence"
+		home_system = "Madjo's Wrath"
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	duama = {
+		name = Duamoid
+		plural = Duamoids
+		home_planet = Duama
+		home_system = Duama
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	tenenserboi = {
+		name = Teñenserbian  
+		plural = Teñenserbians
+		home_planet = Teñenserboi
+		home_system = Cajamarca
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	illustriousmotion = {
+		name = Sararan  
+		plural = Sararan
+		home_planet = "Illustrious Motion"
+		home_system = "Curious Parallel"
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	confenga = {
+		name = Cofengan  
+		plural = Cofengans
+		home_planet = Cofenga
+		home_system = Abel-Bilva
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	atene = {
+		name = Maxor  
+		plural = Maxors
+		home_planet = Atene
+		home_system = Cahes
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	sachoraxozen = {
+		name = Sahen 
+		plural = Sahen
+		home_planet = Sachoraxozen
+		home_system = Tacechona
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	guicazethetearful = {
+		name = Guranjian 
+		plural = Guranjians
+		home_planet = "Guicaze the Tearful"
+		home_system = "Magaimana the Pious"
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	tagueprime = {
+		name = Taguelese 
+		plural = Taguelese
+		home_planet = "Tague Prime"
+		home_system = Tague
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	afetagua = {
+		name = Afetaguan 
+		plural = Afetaguans
+		home_planet = Afetagua
+		home_system = Roninax
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	bichec = {
+		name = Chin-Achu
+		plural = Chin-Achu
+		home_planet = Bichec
+		home_system = Avenyana
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	guadan = {
+		name = Guadanese
+		plural = Guadanese
+		home_planet = Guadan
+		home_system = Taniguet
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	surquerolen = {
+		name = Surquerolian
+		plural = Surquerolians
+		home_planet = Surquerolen
+		home_system = Maméneranajo
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	acacamena = {
+		name = Acacamenid
+		plural = Acacamenids
+		home_planet = Acacamena
+		home_system = Guet-Guet
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	delicateblessing = {
+		name = Guco
+		plural = Guco
+		home_planet = "Delicate Blessing"
+		home_system = "Flower of Regret"
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	guche = {
+		name = Guhoran
+		plural = Guhorans
+		home_planet = Guche
+		home_system = Kasto
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	achuafa = {
+		name = Achuafian
+		plural = Achuafians
+		home_planet = Achuafa
+		home_system = Tagumecaména
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	abayage = {
+		name = Abayagoid
+		plural = Abayagoids
+		home_planet = Abayage
+		home_system = Dahaduana
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	makuca = {
+		name = Makucian
+		plural = Makucians
+		home_planet = Makuca
+		home_system = Taradahacel
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	suchuhene = {
+		name = Suchuhite
+		plural = Suchuhites
+		home_planet = Suchuheñe
+		home_system = Adanicime
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	efaroscanvas = {
+		name = Tinsú
+		plural = Tinsú
+		home_planet = "Efaro's Canvas"
+		home_system = "Afifero's Magnificence"
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	zahichumensprime = {
+		name = Zahichumian
+		plural = Zahichumians
+		home_planet = "Zahichuméns Prime"
+		home_system = Zahichuméns
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	efaro = {
+		name = Efaróan
+		plural = Efaróans
+		home_planet = Efaró
+		home_system = Gunastuahe
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	iserinax = {
+		name = Iseriñoid
+		plural = Iseriñoids
+		home_planet = Iseriñax
+		home_system = Duanance
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	chonaiaroprime = {
+		name = Chonaian
+		plural = Chonaians
+		home_planet = "Chonaiaró Prime"
+		home_system = Chonaiaró
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	taranaun = {
+		name = Taranauite
+		plural = Taranauites
+		home_planet = Taranaun
+		home_system = Tirarca
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	tamoadarina = {
+		name = Adarinite
+		plural = Adarinites
+		home_planet = "Tamo Adarina"
+		home_system = "Ma Adarina"
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	teyesejo = {
+		name = Teyesean
+		plural = Teyeseans
+		home_planet = Teyesejo
+		home_system = Jahenan
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	zanararoro = {
+		name = Zanaroid
+		plural = Zanaroids
+		home_planet = Zanararoró
+		home_system = Güíayes
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	pemeate = {
+		name = Pemeatean
+		plural = Pemeateans
+		home_planet = Pemeate
+		home_system = Tenana
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	guiaahana = {
+		name = Alasean
+		plural = Alaseans
+		home_planet = "Güía Ahaña"
+		home_system = Taeyahen
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	cumegaca = {
+		name = Cumegacan
+		plural = Cumegacans
+		home_planet = Cumegaca
+		home_system = Achi
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	vafimeprime = {
+		name = Vafimean
+		plural = Vafimeans
+		home_planet = "Vafime Prime"
+		home_system = Vafime
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	tidarine = {
+		name = Tidarinoid
+		plural = Tidarinoids
+		home_planet = Tidarine
+		home_system = Adasuchatze
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	rockofharmony = {
+		name = Coagusteran
+		plural = Coagusterans
+		home_planet = "Rock of Harmony"
+		home_system = "Marble Waves"
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+	saschaxofa = {
+		name = Sasofan
+		plural = Sasofans
+		home_planet = Saschaxofa
+		home_system = Chax
+		name_list = "cybrxkhan_handmade_guanche"
+	}
+}

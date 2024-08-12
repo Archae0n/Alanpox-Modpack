@@ -1,0 +1,117 @@
+if = {
+	limit = { has_owner = no }
+	every_playable_country = {
+		limit = { prev = { is_surveyed = { who = prev status = yes } } }
+		prev = { set_surveyed = { surveyed = no surveyor = prev } }
+	}
+}
+else_if = {
+	limit = { exists = space_owner }
+	space_owner = {
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_empire = prev }
+				prevprev = { is_surveyed = { who = prev status = yes } }
+			}
+			prevprev = { set_surveyed = { surveyed = no surveyor = prev } }
+		}
+	}
+}
+
+random_list = {
+	10 = { set_star_class = sc_a }
+	10 = { set_star_class = sc_b }
+	10 = { set_star_class = sc_f }
+	10 = { set_star_class = sc_g }
+	10 = { set_star_class = sc_k }
+	10 = { set_star_class = sc_m }
+	10 = { set_star_class = sc_m_giant }
+	5 = { set_star_class = sc_neutron_star }
+	5 = { set_star_class = sc_pulsar }
+}
+if = {
+	limit = { has_any_megastructure = yes }
+	random_system_planet = {
+		limit = { is_star = yes has_any_megastructure = yes }
+		prev = {
+			random_system_megastructure = {
+				limit = {
+					exists = planet
+					planet = { is_planet = prevprevprev }
+					OR = {
+						is_megastructure_type = matter_decompressor_0
+						is_megastructure_type = matter_decompressor_1
+						is_megastructure_type = matter_decompressor_2
+						is_megastructure_type = matter_decompressor_3
+						is_megastructure_type = matter_decompressor_4
+						is_megastructure_type = matter_decompressor_ruined
+						is_megastructure_type = matter_decompressor_restored
+					}
+				}
+				prev = {
+					spawn_megastructure = { type = "matter_decompressor_permanently_ruined" coords_from = prev }
+				}
+				remove_megastructure = this
+			}
+		}
+	}
+}
+random_system_ambient_object = {
+	limit = { has_ambient_object_flag = $AMBIENT$ }
+	destroy_ambient_object = this
+}
+random_system_planet = {
+	limit = { has_planet_flag = shroud_rift_planet }
+	change_pc = pc_shattered
+	remove_planet_flag = shroud_rift_planet
+	switch = { trigger = has_planet_flag
+		shroud_rift_1_planet		= { remove_planet_flag = shroud_rift_1_planet }
+		shroud_rift_2_planet		= { remove_planet_flag = shroud_rift_2_planet }
+		shroud_rift_3_planet		= { remove_planet_flag = shroud_rift_3_planet }
+		shroud_rift_4_planet		= { remove_planet_flag = shroud_rift_4_planet }
+		shroud_rift_unstable_planet = { remove_planet_flag = shroud_rift_unstable_planet }
+	}
+}
+every_system_planet = { # Remove flag for army spawns
+	limit = { has_planet_flag = shroud_rift_influence }
+	remove_planet_flag = shroud_rift_influence
+	switch = { trigger = has_modifier
+		shroud_rift_influence		= { remove_modifier = shroud_rift_influence } # REMOVEME 3.13
+		eye_of_terror_influence_1	= { remove_modifier = eye_of_terror_influence_1 }
+		eye_of_terror_influence_2	= { remove_modifier = eye_of_terror_influence_2 }
+	}
+}
+if = {
+	limit = { has_star_flag = shroud_invasion_system_basic }
+	remove_star_flag = shroud_invasion_system_basic
+}
+else = { remove_star_flag = shroud_invasion_system_greater }
+if = {
+	limit = { has_owner = yes }
+	space_owner = { save_event_target_as = shroud_rift_sealed_country }
+}
+remove_star_flag = corrupt_system
+if = { # Only on collapse
+	limit = { NAND = { exists = from from = { is_scope_type = megastructure } } }
+	random_system_megastructure = {
+		limit = {
+			OR = { is_megastructure_type = rift_inhibitor_0 is_megastructure_type = rift_inhibitor_1 is_megastructure_type = rift_inhibitor_2 }
+			OR = {
+				# AND = { NOR = { has_global_flag = rift_1_active has_global_flag = rift_1_sealed }		prev = { has_star_flag = shroud_rift_system_1 } }
+				AND = { NOR = { has_global_flag = rift_2_active has_global_flag = rift_2_sealed }		prev = { has_star_flag = shroud_rift_system_2A } }
+				AND = { NOR = { has_global_flag = rift_3_active has_global_flag = rift_3_sealed }		prev = { has_star_flag = shroud_rift_system_3 } }
+				AND = { NOR = { has_global_flag = rift_4_active has_global_flag = rift_4_sealed }		prev = { has_star_flag = shroud_rift_system_4 } }
+				prev = { has_star_flag = shroud_rift_system_unstable }
+			}
+		}
+		prev = {
+			spawn_megastructure = { type = rift_inhibitor_permanently_ruined coords_from = prev }
+		}
+		create_ambient_object = { type = "large_debris_object" location = prev }
+		last_created_ambient_object = {
+			set_ambient_object_flag = debris_object
+			set_location = { target = prev distance = 15 angle = random }
+		}
+		remove_megastructure = this
+	}
+}

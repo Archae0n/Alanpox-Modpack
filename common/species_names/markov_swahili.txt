@@ -1,0 +1,461 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	hamalani = {
+		name = Abamalanian
+		plural = Abamalanians
+		home_planet = "Ha Malani"
+		home_system = "Ha Chika"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	panabaka = {
+		name = Panabakan
+		plural = Panabakans
+		home_planet = Panabaka
+		home_system = Mtwana
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	dancingsavior = {
+		name = Churu
+		plural = Churu
+		home_planet = "Dancing Savior"
+		home_system = "Pale Vision"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	shukiyanzi = {
+		name = Shukiyoid
+		plural = Shukiyoids
+		home_planet = Shukiyanzi
+		home_system = Omaoyo
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	chilinde = {
+		name = Chilindean
+		plural = Chilindeans
+		home_planet = Chilinde
+		home_system = "Amida Ina"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	pilwane = {
+		name = Pilwanean
+		plural = Pilwaneans
+		home_planet = Pilwane
+		home_system = Mzibaka 
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	mafalkiprime = {
+		name = Mafalkite
+		plural = Mafalkites
+		home_planet = "Mafalki Prime"
+		home_system = Mafalki 
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	soulremnant = {
+		name = Ranangoman
+		plural = Ranangomans
+		home_planet = Soul-Remnant
+		home_system = "Emerald Shard" 
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	eshi = {
+		name = Eshi-Azi
+		plural = Eshi-Azi
+		home_planet = Eshi
+		home_system = Mogoshonda 
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	kamamoza = {
+		name = Omaran
+		plural = Omarans
+		home_planet = "Kama Moza"
+		home_system = "Uhu Matume"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	salida = {
+		name = Salidian
+		plural = Salidians
+		home_planet = Salida
+		home_system = Sonda
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	jahanu = {
+		name = Jahanese
+		plural = Jahanese
+		home_planet = Jahanu
+		home_system = Hanga-Husa
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	mwini = {
+		name = Mwinoid
+		plural = Mwinoids
+		home_planet = Mwini
+		home_system = Alika
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	cloakofthedefender = {
+		name = Mpa-Jah  
+		plural = Mpa-Jah
+		home_planet = "Cloak of the Defender"
+		home_system = "Ayubibi's Fangs"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	mpena = {
+		name = Mpenese  
+		plural = Mpenese
+		home_planet = Mpena
+		home_system = Njo
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	bahasubere = {
+		name = Afian  
+		plural = Afians
+		home_planet = Baha-Subere
+		home_system = Baha-Jimorogomaru
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	zahilla = {
+		name = Zahillan  
+		plural = Zahillans
+		home_planet = Zahilla
+		home_system = Changida
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	zanijabata = {
+		name = Antsinan 
+		plural = Antsinans
+		home_planet = "Zani Jabata"
+		home_system = "Shini Jabata"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	groundsabduma = {
+		name = Abduman 
+		plural = Abdumans
+		home_planet = "Ground's Abduma"
+		home_system = "Sky's Abduma"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	kisimalidi = {
+		name = Malidid 
+		plural = Malidids
+		home_planet = "Kisi Malidi"
+		home_system = Yusufauma
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	shomba = {
+		name = Shomba 
+		plural = Shombans
+		home_planet = Shomba
+		home_system = Tundi
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	nurahafia = {
+		name = "Moma Abda"
+		plural = "Moma Abda"
+		home_planet = Nurahafia
+		home_system = Mtwa-Dausi
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	khawana = {
+		name = Kwanese
+		plural = Kwanese
+		home_planet = Kha'Wana
+		home_system = Kha'Rafa
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	mwinyaniprime = {
+		name = Mwinyanoid
+		plural = Mwinyanoids
+		home_planet = "Mwinyani Prime"
+		home_system = Mwinyani
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	kifia = {
+		name = Kifian
+		plural = Kifians
+		home_planet = Kifia
+		home_system = Omatabi
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	leilanisiku = {
+		name = Jif
+		plural = Jifs
+		home_planet = Leilanisiku
+		home_system = Bahausi
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	irimbo = {
+		name = Irimbid
+		plural = Irimbids
+		home_planet = Irimbo
+		home_system = Enza-Chi
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	shipofkabitati = {
+		name = Amisian
+		plural = Amisians
+		home_planet = "Ship of Kabitati"
+		home_system = "Oars of the Cosmos"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	kambique = {
+		name = Kamboid
+		plural = Kamboids
+		home_planet = Kambique
+		home_system = Kambique
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	chiyarasa = {
+		name = Mna
+		plural = Mna
+		home_planet = Chiyarasa
+		home_system = Chidarasa
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	panifimbo = {
+		name = Fimbonese
+		plural = Fimbonese
+		home_planet = Panifimbo
+		home_system = Soyahavu
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	bahani = {
+		name = Bahanian
+		plural = Bahanians
+		home_planet = Bahani
+		home_system = "Oma-Habu Bahani"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	mwani = {
+		name = Mwanese
+		plural = Mwanese
+		home_planet = Mwani
+		home_system = "Kaba Amili"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	ramishia = {
+		name = Ramishid
+		plural = Ramishids
+		home_planet = Ramishia
+		home_system = Yusika
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	tabibia = {
+		name = Tabibian
+		plural = Tabibians
+		home_planet = Tabibia
+		home_system = "Su'udi Hija"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	jafarini = {
+		name = Jafarid
+		plural = Jafarids
+		home_planet = Jafarini
+		home_system = Keshamini
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	jabatisadi = {
+		name = Jabatisoid
+		plural = Jabatisoids
+		home_planet = Jabati-Sadi
+		home_system = Mzuziyah
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	mbawan = {
+		name = Mbawanese
+		plural = Mbawanese
+		home_planet = Mbawan
+		home_system = Ashurusi
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	kharajafia = {
+		name = Kharajaffite
+		plural = Kharajaffites
+		home_planet = "Khara Jafia"
+		home_system = Azibahupa
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	kilama = {
+		name = Kilamese
+		plural = Kilamese
+		home_planet = Kilama
+		home_system = Yetumadija
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	mwadru = {
+		name = "Zah Fatu"
+		plural = "Zah Fatu"
+		home_planet = Mwadru
+		home_system = Pemarani
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	khashara = {
+		name = Khasharan
+		plural = Khasharans
+		home_planet = Khashara
+		home_system = Panasada
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	hashadiya = {
+		name = Hashadian
+		plural = Hashadians
+		home_planet = Hashadiya
+		home_system = Kiswajuma
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	pakanimbu = {
+		name = ka'Nimbu
+		plural = ka'Nimbu
+		home_planet = "Paka Nimbu"
+		home_system = "Paka Sofalika"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	mwangidi = {
+		name = Mwangidian
+		plural = Mwangidians
+		home_planet = Mwangidi
+		home_system = Sonifiya
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	farakiyah = {
+		name = Farak
+		plural = Faraks
+		home_planet = Farakiyah
+		home_system = Safiya
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	shipofhope = {
+		name = Saida
+		plural = Saidas
+		home_planet = "Ship of Hope"
+		home_system = "Indigo Wind"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	juma = {
+		name = Jumasi
+		plural = Jumasis
+		home_planet = Juma
+		home_system = Bahilika
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	jafimba = {
+		name = Jafimboid
+		plural = Jafimboids
+		home_planet = Jafimba
+		home_system = Jafimarria
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	koraji = {
+		name = Korajite
+		plural = Korajites
+		home_planet = Koraji
+		home_system = Hawara
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	mosika = {
+		name = Mosikan
+		plural = Mosikans
+		home_planet = Mosika
+		home_system = Mwanyi
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	kaminathebeloved = {
+		name = Mbi-Shalid
+		plural = Mbi-Shalid
+		home_planet = "Kamina the Beloved"
+		home_system = "Tabibi the Friendly"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	divinecargo = {
+		name = Habarijid
+		plural = Habarijids
+		home_planet = "Divine Cargo"
+		home_system = "Heavenly Barge"
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	raana = {
+		name = Raananoid
+		plural = Raananoids
+		home_planet = Raana
+		home_system = Inhambarwe
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	mashoma = {
+		name = Mashomese
+		plural = Mashomese
+		home_planet = Mashoma
+		home_system = Mhina
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	chinarria = {
+		name = Chinarrian
+		plural = Chinarrians
+		home_planet = Chinarria
+		home_system = Chari
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+	chamala = {
+		name = Chamalite
+		plural = Chamalites
+		home_planet = Chamala
+		home_system = Chamala
+		name_list = "cybrxkhan_handmade_swahili"
+	}
+}

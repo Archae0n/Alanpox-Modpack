@@ -1,0 +1,16 @@
+
+dmm_mod_selected = {
+	events = {
+		tdf_dmm.2
+	}
+}
+on_game_start = {
+	events = {
+		tdf_dmm.1
+	}
+}
+on_single_player_save_game_load = { 
+	events = { 
+		tdf_dmm.1
+	} 
+}

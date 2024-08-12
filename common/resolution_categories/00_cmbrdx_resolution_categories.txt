@@ -1,0 +1,13 @@
+# Resolution Categories for Galactic Community
+
+
+resolution_category_rdxproclaim = {
+	group = cmbu_proclamations
+	icon = "GFX_resolution_custodian_reforms"
+	resolution_types = {
+		"resolution_rdxproclaim_zenith"
+		"resolution_rdxproclaim_zenith_nope"
+		"resolution_rdxproclaim_banana"
+		"resolution_rdxproclaim_banana_nope"
+	}
+}

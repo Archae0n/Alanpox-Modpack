@@ -1,0 +1,248 @@
+pse_leader_trait_shroud_age = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_resilient"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_age = 80
+		species_leader_exp_gain = 0.25
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}
+
+pse_leader_trait_shroud_age_food = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_resilient"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_age = 80
+		species_leader_exp_gain = 0.25
+		leader_commanders_psionic_food_produces_add = 30
+		leader_officials_psionic_food_produces_add = 30
+		leader_scientists_psionic_food_produces_add = 30
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}
+
+pse_leader_trait_shroud_age_minerals = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_resilient"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_age = 80
+		species_leader_exp_gain = 0.25
+		leader_commanders_psionic_minerals_produces_add = 30
+		leader_officials_psionic_minerals_produces_add = 30
+		leader_scientists_psionic_minerals_produces_add = 30
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}
+
+pse_leader_trait_shroud_age_energy = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_resilient"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_age = 80
+		species_leader_exp_gain = 0.25
+		leader_commanders_psionic_energy_produces_add = 30
+		leader_officials_psionic_energy_produces_add = 30
+		leader_scientists_psionic_energy_produces_add = 30
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}
+
+pse_leader_trait_shroud_age_consumer_goods = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_resilient"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_age = 80
+		species_leader_exp_gain = 0.25
+		leader_commanders_psionic_consumer_goods_produces_add = 15
+		leader_officials_psionic_consumer_goods_produces_add = 15
+		leader_scientists_psionic_consumer_goods_produces_add = 15
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}
+
+pse_leader_trait_shroud_age_alloys = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_resilient"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_age = 80
+		species_leader_exp_gain = 0.25
+		leader_commanders_psionic_alloys_produces_add = 15
+		leader_officials_psionic_alloys_produces_add = 15
+		leader_scientists_psionic_alloys_produces_add = 15
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}
+
+pse_leader_trait_shroud_age_exotic_gases = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_resilient"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_age = 80
+		species_leader_exp_gain = 0.25
+		leader_commanders_psionic_exotic_gases_produces_add = 3
+		leader_officials_psionic_exotic_gases_produces_add = 3
+		leader_scientists_psionic_exotic_gases_produces_add = 3
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}
+
+pse_leader_trait_shroud_age_rare_crystals = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_resilient"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_age = 80
+		species_leader_exp_gain = 0.25
+		leader_commanders_psionic_rare_crystals_produces_add = 3
+		leader_officials_psionic_rare_crystals_produces_add = 3
+		leader_scientists_psionic_rare_crystals_produces_add = 3
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}
+
+pse_leader_trait_shroud_age_volatile_motes = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_resilient"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_age = 80
+		species_leader_exp_gain = 0.25
+		leader_commanders_psionic_volatile_motes_produces_add = 3
+		leader_officials_psionic_volatile_motes_produces_add = 3
+		leader_scientists_psionic_volatile_motes_produces_add = 3
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}
+
+pse_leader_trait_shroud_age_sr_living_metal = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_resilient"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_age = 80
+		species_leader_exp_gain = 0.25
+		leader_commanders_psionic_sr_living_metal_produces_add = 2
+		leader_officials_psionic_sr_living_metal_produces_add = 2
+		leader_scientists_psionic_sr_living_metal_produces_add = 2
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}
+
+pse_leader_trait_shroud_age_sr_zro = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_resilient"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_age = 80
+		species_leader_exp_gain = 0.25
+		leader_commanders_psionic_sr_zro_produces_add = 2
+		leader_officials_psionic_sr_zro_produces_add = 2
+		leader_scientists_psionic_sr_zro_produces_add = 2
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}
+
+pse_leader_trait_shroud_age_sr_dark_matter = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = "GFX_leader_trait_resilient"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	self_modifier = {
+		leader_age = 80
+		species_leader_exp_gain = 0.25
+		leader_commanders_psionic_sr_dark_matter_produces_add = 2
+		leader_officials_psionic_sr_dark_matter_produces_add = 2
+		leader_scientists_psionic_sr_dark_matter_produces_add = 2
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}

@@ -1,0 +1,29 @@
+inline_script = {
+	script = "agendas/bugged_gestalt_agendas"
+	FOCUS = progression
+}
+
+inline_script = {
+	script = "agendas/bugged_gestalt_agendas"
+	FOCUS = connection
+}
+
+inline_script = {
+	script = "agendas/bugged_gestalt_agendas"
+	FOCUS = encroachment
+}
+
+inline_script = {
+	script = "agendas/bugged_gestalt_agendas"
+	FOCUS = convalescence
+}
+
+inline_script = {
+	script = "agendas/bugged_gestalt_agendas"
+	FOCUS = analysis
+}
+
+inline_script = {
+	script = "agendas/bugged_gestalt_agendas"
+	FOCUS = logistics
+}

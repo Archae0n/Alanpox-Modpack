@@ -1,0 +1,233 @@
+﻿### Fantasy Guanche
+### Names thrown into a markov generator
+
+cybrxkhan_handmade_guanche = {	
+	category = "Mammalian"
+
+	ship_names = {
+		generic = {
+			Abon Abonarimos Abonausu Abonausú Aboneró Abonfaymos Abonta Abonto Abonza Acahor Acaicana Acan Acanaco Acarchinec Acaremen Acari Acarife Acasa Acasteró Acaya Achaco Achana Achanausu Achar Achec Achei Acheme Achemiramel Achemiran Acherar Acherquizo Achet Achey Acheya Achi Achia Achice Achicenseri Achichei Achiciquizo Achicán Achijona Achijonagi Achijoro Achimach Achimarco Achimas Achimaste Achimaterve Achime Achina Achinehia Achinesmen Achini Achinora Achoardasasa Achoro Achuada Achuguaya Achuhuafaymo Achur Adafía Adas Adjonarco Adjoneri Adjonerve Adjor Adjora Adjore Adxora Adxoratoraxi Adxoñamanse Adxoñate Afana Afaykaetut Afaymo Agonto Agorar Aguac Aguadafan Aguadariga Aguadas Aguana Aguaro Aguaxi Aguaxire Aguaxoña Ahia Ahijor Ahijora Ahijoramo Ahimageche Ahimaybayo Ahinec Ahoar Ahoara Ahoari Ahofiaini Ahofios Ahoman Ahomén Ahora Ahoraguiza Ahoro Ahuca Ahucariya Ahuguana Ahuhuañame Ahuhurimen Alta Altamaymo Altamen Altava Alza Alzamacheyde Alzani Amagor Amaniaiche Amarai Amarche Amas Amasasa Amec Amenyto Anagaimaya Anagomo Anamenyto Anaroigua Anas Anaus Ania Anice Anidraja Aranaga Araninausu Arath Arax Araxios Arco Arife Ariguar Arira Arire Ariya Aschamanxi Aschen Ascheyde Aschi Aschia Aschinagec Aschofia Asen Aser Atahac Atahe Atama Atamani Atamanife Atamato Atamán Atan Atanapa Atanceya Atanse Atava Atavagina Atch Atcha Atchafrana Atchei Atcheme Atchenapa Atchenyto Atchia Atchiman Atchimaro Atchimo Atchinquenec Atchiña Atchuaña Atgua Atguan Atguare Atguaro Atguaya Atguaykana Atgue Atguerfe Avagasalva Ayotamet Ayotana Añaman Añamenche Añamet Añate Banague Banarco Banausu Bena Benapa Benca Bencara Bencey Benchaco Benche Benchimos Benchinerot Benco Benec Benero Benesmenec Beneste Beninife Bensen Bentan Bente Bento Bentora Benur Benuri Benuriga Benuriguan Benurimacil Benurimen Benuriya Beta Betute Betze Betzen Betzenaus Betzenur Betzet Beñe Beñesmerfe Beñesmeró Beñeste Beñesterque Bica Bicanaus Bice Bichan Biche Bichia Bichijora Bichimagate Bico Bicán Binagas Binapa Binaro Bineha Binesmetzen Bingata Bininia Binque Cana Canfa Cangua Canxire Celichima Celinini Chac Chacaichinec Chache Chachenur Chaco Chacode Chafarigas Chafaya Chafra Chafrahomo Chafraxi Chamachi Chamanaco Chamar Chamas Chamero Chametut Chamo Chan Chanaguare Chanapa Chanarco Chanas Chanche Chancode Chaniana Chankusú Chanse Chanxio Char Chara Charche Charcode Charcomac Chardafa Chaxi Chei Cheta Chetaha Chia Chian Chicanchia Chice Chicey Chicil Chijona Chijonfara Chijonzamo Chijor Chijora Chijoraxios Chijoro Chijoroiga Chiman Chimas Chimen Chimenche China Chindiai Chinec Chini Chiniac Chinque Chiña Chiñath Chiñatomo Chuan Chucanahe Chucanasa Chur Churi Ciceya Cichoarco Ciciquero Ciciquizo Cico Cicán Cocan Cocaramet Cora Coramanausu Coramelache Coraraxi Coriguaña Coriya Coro Cucahuaya Cucahucariya Cucai Cucaira Cucaire Cucana Cucanare Cucare Cucargona Cucari Cucas Cucayban Cucaykaetava Dafa Dafan Dafanar Dafara Dafaya Dafayo Daus Dausu Dausú Daut Dora Dorainec Doraji Dorar Dore Doro Doron Duri Durife Durimaste Durimense Durimerfe Duriragaste Dáciche Dácichoargo Dácicán Dácique Dáciquebehi Dáciquian Efia Efio Efios Erba Erbagato Erbagatra Erbagecha Erbagi Erban Erbana Erbanamahe Erbanfani Erbayatomo Erbaymo Esen Esenagomen Eser Esera Eserque Faichindia Faimasalva Faimer Faira Fairanchen Fairax Faire Faiza Faize Faizo Faya Fayato Fayba Fayec Faymo Fayotan Fayozen Fayozentora Gofia Gofiana Gofianar Gomahaxio Goman Gomanausú Gomasa Gomath Gomeneronza Gomet Gomo Gomén Guac Guache Guachimara Guaciquizo Guada Guadafaya Guadafaymo Guadafía Guadamanausu Guadamas Guadas Guadaste Guadaza Guadazen Guafra Guafía Guaginesme Guagomo Guaguayba Guana Guanago Guanama Guanaman Guanapa Guanar Guanaraha Guanaya Guancheyde Guaniac Guaningath Guanse Guar Guaraini Guaran Guarana Guarco Guarcomena Guarda Guare Guariman Guate Guatimanaus Guato Guatratomo Guax Guaxi Guaxiraji Guaxire Guaxora Guaxoñamacha Guayato Guaybanasas Guayec Guayna Guayo Guaña Guañaman Guañate Guañateró Guañatoro Guia Guiaco Guianas Guianaus Guijona Guijonero Guijora Guiraramarco Guiraxoña Guise Guisencas Guiza Guizama Guizamet Guizetute Guizo Güíma Güímacil Güímana Güímanja Güímaro Güímas Güímaymo Haca Hachuri Haco Hada Hadamana Hadaro Hadas Hadaste Hadazameró Hadaze Hancar Hanchi Hanja Hara Haramaro Haranasteró Harchiniana Hare Hargo Harigate Hariguayec Hariragata Hariya Haroigua Haroiguizan Harontava Haybaymo Haykaetava Hayna Haynausu Hera Herfe Heriya Hero Herve Hira Hiraimos Hiraro Hire Hiremen Hirrerira Icodeje Icomet Icorimana Icoroiga Isor Isoragath Isoraima Isorana Isoranaute Isorax Isoraxi Isoro Isoroga Isorogato Jaransen Jaro Jarquire Kana Kanac Kanaute Kanca Kanchiña Kanfanamán Machicaro Macicen Macicey Macil Macilac Maco Maga Magakaet Magana Maganfaro Magatimen Magatomaster Magomarire Magon Magonehamana Magonza Magoramo Maguac Maguafanapa Maguafía Maguaga Maguagi Maguan Maguar Maguarco Maguari Maguaxi Maguaya Maguaykaet Maguaymo Mague Maguen Maguizana Maha Mahac Mahachet Mahachuana Mahafa Mahamanidra Mahari Mahaxiquen Mahaxoñate Mahei Mahimo Mahinec Mahof Mahofiaga Mahoro Mahorona Maji Manapa Manari Manas Manasas Manchijon Manfa Manguayoze Manina Manora Maxi Maxio Maxiquerve Maxiranausu Maxiranausú Maxora Maxoroiga Maxoñama Maxoñata Maxoñate Maya Mayba Maybago Maykaetut Mayoze Mayozen Mena Menech Meneche Meneha Menesmen Mentana Moca Mocaiciqueri Mocar Mocarco Mocari Mocaste Mocayoze Mora Morardama More Morigas Morigatime Namagomo Namana Namar Namara Namargomec Namer Nameñesme Namo Namosastero Naza Naze Nazen Nuntanausu Nunte Nunto Nuntomara Ochemense Ochetut Ochima Ochimos Ofia Ofio Oroganagi Orona Orontava Orontoman Pela Pelac Pelaco Pelica Pelice Pelichafaya Pelicán Pelinehinife Pelinico Pelinidraro Pelininerve Petzen Petzensenche Querotana Quiaginicen Quiairre Quira Quize Relacomo Relicanidra Relinica Relinquerimo Resme Resmen Resmenaute Resmencey Resmencheya Resmenuri Resmerfe Resmeñesmel Rester Rimagato Rimaranahe Rimaranja Rimato Rimaya Romahuana Romana Romanarigato Romasaster Romelico Romeñe Romeñesme Romo Romos Rosa Saba Saban Sabaniaicán Sabaymo Sabontava Sacil Sahaco Sahafayec Sahafía Sahamer Sahani Sahar Saharquira Sahaxiosasas Sahe Sahei Sahenahe Sahenec Saherar Sahetut Saheya Sahi Sahinec Sahof Sahorerife Sahuaykaetze Sahucan Samacico Samaga Saman Samani Samania Samaroigueró Samas Same Samen Sameneró Samo Samán Sana Sanamacanja Sanaman Sania Sanot Sanse Sunter Sunto Suntoraja Taba Tabaga Tabagi Taban Tabanja Tabaya Tabayechac Tabaymo Tabayna Tabonaya Tabonzama Tacichey Taco Tacode Tacorerve Taga Tagan Tagate Tagaterve Tagatimari Tagec Tagi Taginota Tago Tagomén Tagontava Tagoramer Tagua Taguacor Taguadafra Taguan Taguansenco Taguarco Taguariraja Tague Tamac Tamahe Tamahey Tamahiña Taman Tamana Tamarche Tamarcomo Tamaste Tame Tamelinester Tamen Tamet Tamo Tamán Tana Tanagan Tanamagate Tanarco Tancairre Tanchachi Tanchec Tanco Tangasa Tangue Tania Tanicey Tanichucai Tanja Tanori Tanse Tanxi Taor Taoraguare Taoraja Taore Taorona Taramar Tarco Targona Tariga Tarimana Tarimen Tariya Tarogaste Taroiguafa Tarque Teguacice Teguada Teguadamec Teguana Teguanamere Teguarahoare Teguath Teguayec Teguaykaet Teguaña Tegue Teguebehani Teguenurife Teguenyto Teguesmer Teguesmet Tenche Tenchiñamas Tenec Tenur Teya Tibice Tibich Tibichi Tibichimanco Tibichiner Tibico Tibicán Tiga Tigakanja Tigate Tigatero Tigato Tiguanxi Timan Timetan Timetut Timo Tinari Tinaus Tinayba Tindiangue Tinec Tiner Tineró Tinga Tingaterfe Tinia Tinotanco Tinqueró Tinqueste Tite Titer Titere Titerve Titeró Tiña Tiñamana Tiñata Tiñath Tiñatomate Tiñatora Tiñatoratra Tiñatra Vana Vanaste Vanauterfe Vina Vinaga Vinec Vinoro Vinqueste Vinquizo Xardas Xaremen Xargoro Xaro Xarot Xeraji Xeran Xeri Xerife Xeró Yaiceya Yaicomo Yaimate Yainec Yairremelico Yaizan Yaizet Yaizo Zaha Zahama Zahamanotava Zahan Zahara Zahari Zahaxio Zahe Zahei Zahoaro Zahuguadas Zaxira Zaxire Zaxoñato Zona Zonamaguaro Zonaste Zonehamanas Zoner Zonfanotava Zonfaya Zonfaybaymo Zontahen Zonte Zonza Zucahanaco Zucana Zucanasa Zucaymo
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	Fleet_names = {
+		random_names = {
+			"Magomo Skyriders" "Zahafía Skyriders" "Atguadaza Skyriders" "Chafayec Skyriders" "Jarquia Skyriders" "Tiña Icomo Skyriders" "Guañatimaga Skyriders" "Magomeñe Skyriders" "Beñeste Skyriders" "Hadazet Skyriders" "Güíman Skyriders" "Queró Skyriders" "Mahaxi Skyriders" 
+		}
+		sequential_name = FANTASY_GUANCHE_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = { #some from Medieval 2 Total War Ireland faction stuff
+			
+		generic = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+				
+		psionic_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_GUANCHE_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Abonacode Abonacodeje Abonagec Abonahoare Abonte Abonteroga Abonteró Achamac Achamen Achameñester Achare Achaxi Achaxios Ache Achijora Achijoraji Achijorania Achinec Achinechinec Achineronte Achineró Achucan Achucani Achucania Achucankus Achuguadamán Achuguadas Achuguatragi Achuguayota Achuhucan Achuhuguadas Achuhuhucan Anacode Anagi Anaguato Anaguester Anahamahoar Anas Arife Arimac Arimacora Arimagakaet Arimagi Arimaguato Arimahoaraji Arimara Arimaraji Arimaran Arimarata Asen Asenas Aseroga Aseronac Bena Benas Bencen Bensen Beñe Beñesmena Beñesmenas Beñesmeroga Beñesmeró Beñeste Beñesteronas Beñesteró Chamara Chamenahoare Chamer Chamán Char Chara Chare Chaxi Chaxios Chaxoraji Chijora Chijoro Chijoroiga Chinec Chinech Chinechaxi Chinechinec Chinechucan Chineroigato Chineronte Erban Erbana Erbanacodeje Erbanacora Erbankus Esen Esena Esenahaxira Esenceyato Esenechar Esensenac Eser Esera Esero Eserogakaet Eserogata Eserogato Eseroigakaet Eseronte Faicen Faicencen Faiceyata Faiceyatimar Faiceyato Faykankus Fayo Fayota Gomaga Gomagakana Gomagech Gomagi Gomahameñe Gomahamán Gomara Gomaraji Gomare Gomen Gomena Gomenec Gomensena Gomero Gomeró Gomeñe Gomeñesmen Gomeñesmer Gomeñesmeró Gomeñeste Guadamac Guadamán Guadas Guata Guatimahoar Guatimar Guato Guatrata Guaykaet Guaykan Guaykani Guaykankus Guayo Guañamán Güímac Güímagi Güímahoara Güímara Güímare Hera Herife Herimahaxios Heronteronac Icodeje Icoragueste Icoran Icorato Icoro Icoroga Icoroigakaet Icoroigata Kanac Kanaguayo Kanas Kani Kania Magato Magatra Magech Magechijoro Magi Maguadamar Maguadameñe Maguaykani Maguayo Maguesmenac Maguesmenas Maxi Maxira Maxiraji Maxora Maxoraji Maxoratimare Maxoratrania Maxoroga Menagi Menaguayo Menas Mencenas Menechinec Meneroiga Tacode Tacodeje Tacorani Tacorato Tacoratran Tamagi Tamahoaratra Tameronte Tameró Tameñe Tamán Taora Taoraji Taoroga Taorogata Taoronteró Teguadamaga Teguadamar Teguadas Teguato Teguaykaet Teguayota Teguañamán Teguesteraji Tena Tenceneche Tenceyato Tenec Tenera Tibicen Tibicenec Tibiceyata Tibicán Tite Titer Titera Titerimagech Titeroga Titeró
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		#Paleoiberian
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Acana Acanife Acareme Acari Acha Achenerfe Acherfe Acheyde Achiñatorana Adafaya Adafaymo Adarco Adjon Adjonar Adjonaymo Adjonzamen Adxoñaterve Afaymo Agomo Agomén Ahur Altan Altanor Alzaman Alzanarco Aman Amanar Amanarco Amanausu Amar Amas Amenca Amet Anagato Anaymo Arche Arcomo Aschanco Aschiñate Aschorar Atahan Ataharo Atahucan Atamana Atanausú Atchey Atchingue Atchinicaimo Atchininot Atguagate Atguanidraja Atguar Atguari Ayozen Ayozenchimo Ayozenurire Añama Añate Añatora Banaya Banidra Benca Bencare Benchetut Benchimas Benco Benec Beneste Beniciqueste Bentomo Benur Benurirariga Betan Betut Betze Betzenerve Bichaco Biche Bicique Bindia Binecha Binqueste Canchian Canichaco Celice Chac Chan Chanapa Chani Chey Chia Chian Chimen Chinguago Chinquijona Chuanausu Chucaro Cichey Cichia Cichomén Coca Cora Cucan Cucar Cucari Cucaro Dafaranausu Doramet Dorararar Dorariya Dorax Doraxoña Duriguari Guachenco Guafía Guagate Guago Guana Guanausú Guanxi Guar Guaran Guaraxoña Guarco Guare Guaro Guia Guianame Guiramarco Guizo Hare Hari Jariga Jaro Machen Maco Maha Mahaco Mahana Mahanardaro Maharche Mahe Mahemec Mahen Mahenco Mahomén Mahuaro Mana Mocana Mocaymo Namana Namanca Namechime Pelaco Petaninora Quia Quira Relachor Relice Resme Rimas Rimenytomen Romel Romo Sacherfe Sacheyde Sahomel Sama Samenytomo Suntahuaco Suntor Suntora Taga Tagaice Tagate Tago Tagomanxi Tagomén Tagona Tagonzan Tagor Tama Taman Tamarchen Tame Tamen Tanago Tanamancan Tancarimo Tanot Teguafra Teguaxoñama Tiga Tigate Tiguaranaymo Tiguesmec Tini Tinicardaro Tininicaya Tinque Tinquia Tiña Tiñamanchomo Tiñatomanaya Vanausu Vini Vinife Xerfe Xerve Zaha Zahac Zahanxique Zaharco Zahe Zahetze Zahomo Zahora Zahurire Zaxiquia Zaxoñatomén Zona Zoneha
+            }
+           
+            first_names_female = {
+				Ache Achei Achi Achico Agua Aguada Aguadaza Aguadazet Aguaya Aguebehichei Ahiche Ahimagua Ahimaguayec Ahimanse Ahimato Ahimaybayec Ahora Ahorahafana Ahore Ahoro Ahorotava Aniac Aniagath Aniagina Aniaguadaza Aniaguaya Aniaina Aniairaina Aniaire Aniaiza Araha Arahi Arahico Araina Arax Chac Chacaha Chacico Chacil Chacila Chafanse Chafaya Chafra Chafraiza Chafrana Chafrax Chamagath Chamagina Chamagua Chana Chanja Cucahimana Cucari Cucasasa Dafa Dafana Dafanaste Dafanfanfa Dafaya Dafayec Dafrahanse Dáciche Dácichiche Dácico Efiacil Efiagana Efiagina Efiaguada Fairaha Faire Faiza Faya Faybaguada Faybayna Fayec Faynasa Guadaza Guadazet Hacaro Hacico Hada Hanasaste Hanfa Hangasaste Hanja Hanse Hara Harahacil Harahafra Harana Harax Harimaguise Harimanja Harimato Harimaya Harimaybayna Harimayec Hayec Hira Hire Hirere Isorai Isore Isorer Isoro Isorotava Magina Magua Maguadaza Maguadazet Maguaybayec Maguayec Maguise Mana Manasaste Manaste Manfa Manfangasa Manfaya Mangana Maya Mayba Maybagina Maybayba Mayna Mora Moraina Morangasa Morax More Morera Morerana Moro Morotava Naza Ochei Ochi Ochiche Ochico Ochimaya Ofiacil Ofiacila Ofiagato Ofiaguise Ofiai Quebehimanfa Quen Quer Quera Quere Saba Sabagato Sabaguada Sabaguadazet Sabaguera Sabaya Sabaybayna Sabayec Saha Sahac Sahafayec Sahamato Sahamaya Sahanse Sahi Sahimath Taba Tabaganse Tabagua Tabaguaya Tabaguerax Tabaya Tabayec Tagath Tagina Tagua Taguada Taguadazet Taguebehi Taguise Taora Taorahafa Taorax Taore Taraha Tarahac Tarahacila Tari Tarimath Tarimaya Taro Tarotava Tarquerahi Tarquere Tegua Teguada Teguen Timagasasa Timaginaste Timaguadaza Timana Timato Xerai Xerer Yaina Yainaste Yaira Yairanfa Yaire Yairera Zonfana Zonfanfa Zonfanja Zonfaya Zonfayna Zucahafayna Zucahafra Zucahana Zucara Zucarana Zucasaste Zucaste
+            }
+			
+			
+			second_names = {
+				Acarco Acha Achaco Achafía Achianja Achur Adarona Adjoreró Afaymos Agua Aguaga Ahian Ahofiacomo Ahomense Ahorana Ahorar Alzankus Amaga Amagas Amahamen Anagana Anaro Anichijora Aninidraro Aranasas Arcode Arime Aseró Atamenuri Atchinia Atguafanora Ayota Banaut Bencan Benechinarot Bener Beni Benuriya Betameñe Betzenco Betzet Beñe Beñesmeñe Bicila Binaguaymo Cana Celicán Chafraxiraro Chamar Chamath Chan Char Charimanife Cheya Chia Chianas Chimo Chinausú Chiña Chuhuri Coraxirre Coroganaymo Daus Dausu Dausú Dora Durimo Durira Efiaimagec Efio Erbanidrar Fayo Goman Gomeró Gomo Gomén Guada Guadarira Guadaste Guar Guarcora Guayate Guayec Guayozen Guia Guiza Güímato Hada Hadas Hadazanxique Hanotamago Haraja Harche Hayec Hayoze Here Hirar Kana Machia Maganiac Maguayo Magueste Maharco Mahice Mana Manapa Manarigateró Maxi Maya Mayechei Mocaira Mocanaha Namaste Namo Naze Ochen Ofia Orogato Peliche Quiaga Quizo Resmec Romas Sahafaya Sahanagana Sanchinerona Sanja Tabonfarar Tagi Taginec Tagininec Tamahechucan Taman Tamas Tametze Tana Tanaguato Tanaymo Tarchimeñe Teguafan Teguanja Teguijora Tiguada Timanasalva Timo Tingasa Tingato Tite Titeró Xaro Xeri Xero Zahafaya Zahafía Zahi Zahuri Zonagatra Zonza
+			}
+			
+            regnal_first_names_male = {
+				Ayozen Bentomo Mahomén Pelaco Vinife
+            }
+           
+            regnal_first_names_female = {
+				Chacil Dáciche Maguadazet Taora Yairera
+            }
+			
+			
+			regnal_second_names = {
+				Adjoreró Agua Amaga Banaut Binaguaymo Chafraxiraro Dausú Dora Gomeró Guarcora Guiza Hadazanxique Hirar Maharco Mahice Manarigateró Naze Ochen Resmec Sahanagana Tagininec Tamas Teguafan Tingasa Titeró Xeri Zahafía
+			}
+		}
+	}
+}

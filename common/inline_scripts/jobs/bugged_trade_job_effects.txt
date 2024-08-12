@@ -1,0 +1,7 @@
+triggered_planet_modifier = {
+	potential = {
+		$REQ$
+	}
+	trade_value_add = 1
+	mult = value:bugged_stock_exchange_tv
+}

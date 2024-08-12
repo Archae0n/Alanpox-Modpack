@@ -1,0 +1,61 @@
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_bugged_research_consultants
+		}
+	}
+	trade_value_add = 2
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_trade_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			exists = branch_office_owner
+			branch_office_owner = {
+				is_criminal_syndicate = no
+			}
+			has_holding = {
+				holding = building_bugged_consultants_office
+				owner = branch_office_owner
+			}
+		}
+	}
+	trade_value_add = 1
+	mult = value:scripted_modifier_mult|MODIFIER|pop_job_trade_mult|
+}
+
+triggered_planet_modifier = {
+	potential = {
+		planet = {
+			exists = branch_office_owner
+			branch_office_owner = {
+				is_criminal_syndicate = yes
+			}
+			has_holding = {
+				holding = building_bugged_consultants_office
+				owner = branch_office_owner
+			}
+		}
+	}
+	branch_office_criminal_syndicate_value_add = 1
+}
+
+inline_script = {
+	script = "jobs/bugged_trade_job_effects"
+	REQ = "
+		exists = owner
+		OR = {
+			owner = {
+				has_valid_civic = civic_bugged_research_consultants
+			}
+			planet = {
+				has_holding = {
+					holding = building_bugged_consultants_office
+					owner = branch_office_owner
+				}
+			}
+		}
+	"
+}

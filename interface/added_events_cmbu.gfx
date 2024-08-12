@@ -1,0 +1,108 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_evt_crepublic"
+		texturefile = "gfx/event_pictures/event_cmbu_republic.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_csoviet"
+		texturefile = "gfx/event_pictures/event_cmbu_soviets.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ccombine"
+		texturefile = "gfx/event_pictures/event_cmbu_combine.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cpizdec"
+		texturefile = "gfx/event_pictures/event_cmbu_gcorp.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_chives"
+		texturefile = "gfx/event_pictures/event_cmbu_hives.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cmachine"
+		texturefile = "gfx/event_pictures/event_cmbu_machine.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_1984"
+		texturefile = "gfx/event_pictures/event_cmbu_1984.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cxenophobe"
+		texturefile = "gfx/event_pictures/event_cmbu_xenophobe.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cxenophile"
+		texturefile = "gfx/event_pictures/event_cmbu_xenophile.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ccrimes"
+		texturefile = "gfx/event_pictures/event_cmbu_crimes.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_chge"
+		texturefile = "gfx/event_pictures/event_cmbu_hre.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cservitors"
+		texturefile = "gfx/event_pictures/event_cmbu_servitors.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cpirates"
+		texturefile = "gfx/event_pictures/event_cmbu_pirates.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cmaterialist"
+		texturefile = "gfx/event_pictures/event_cmbu_materialist.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cspiritualist"
+		texturefile = "gfx/event_pictures/event_cmbu_spiritualist.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cmilitarist"
+		texturefile = "gfx/event_pictures/event_cmbu_militarist.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cpacifist"
+		texturefile = "gfx/event_pictures/event_cmbu_pacifist.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+
+
+}

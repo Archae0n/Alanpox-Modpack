@@ -1,0 +1,591 @@
+guiTypes = {
+	containerWindowType = {
+		name = "ok_popup_window"
+		size = { width = 512 height = 200 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_tile_center_bg"
+		}
+		iconType = {
+			name = "hex_bg_left"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "hex_bg_right"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line_center"
+			position = { x = 0 y = 42 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "font_header_20"
+			text = "CONFIRMATION_TITLE"
+			position = { x = -256 y = 9 }
+			orientation = center_up
+			maxWidth = 512
+			maxHeight = 24
+			format = center
+		}
+		containerWindowType = {
+			name = "description_background"
+			position = { x = 30 y = 56 }
+			size = { width = -30 height = -56 }
+			background = {
+				name = "description_background"
+				quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+		instantTextBoxType = {
+			name = "description"
+			font = "font_text_14"
+			text = ""
+			position = { x = -216 y = 63 }
+			orientation = center_up
+			maxWidth = 432
+			format = center
+		}
+		# This invisible button added to allow closing a popup by the ESCAPE shortcut.
+		buttonType = {
+			name = "DeclineButton"
+			spriteType = "GFX_invisible"
+			shortcut = "ESCAPE"
+			# The button is placed underneath the main AgreeButton.
+			size = { x = 1 y = 1 }
+		}
+		buttonType = {
+			name = "AgreeButton"
+			quadTextureSprite = "GFX_standard_button_240_34_button"
+			position = { x = -132 y = -58 }
+			orientation = center_down
+			buttonFont = "font_text_18"
+			buttonText = "OK"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+			actionShortcut = "accept"
+			shortcut = "RETURN"
+			clicksound = "confirm_click"
+		}
+	}
+	containerWindowType = {
+		name = "yes_no_popup_window"
+		size = { width = 512 height = 200 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_tile_center_bg"
+		}
+		iconType = {
+			name = "hex_bg_left"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "hex_bg_right"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line_center"
+			position = { x = 0 y = 42 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "font_header_20"
+			text = "CONFIRMATION_TITLE"
+			position = { x = -256 y = 9 }
+			orientation = center_up
+			maxWidth = 512
+			maxHeight = 24
+			format = center
+		}
+		containerWindowType = {
+			name = "description_background"
+			position = { x = 30 y = 56 }
+			size = { width = -30 height = -56 }
+			background = {
+				name = "description_background"
+				quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+		instantTextBoxType = {
+			name = "description"
+			font = "font_text_14"
+			text = ""
+			position = { x = -216 y = 63 }
+			orientation = center_up
+			maxWidth = 432
+			format = center
+		}
+		buttonType = {
+			name = "AgreeButton"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = -246 y = -56 }
+			orientation = lower_right
+			buttonFont = "font_text_18"
+			buttonText = "YES"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+			shortcut = "RETURN"
+			actionShortcut = "accept"
+			clicksound = "confirm_click"
+		}
+		buttonType = {
+			name = "DeclineButton"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = 42 y = -56 }
+			orientation = lower_left
+			buttonFont = "font_text_18"
+			buttonText = "NO"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+			shortcut = "ESCAPE"
+			actionShortcut = "cancel"
+			clicksound = "back_click"
+		}
+	}
+	containerWindowType = {
+		name = "three_options_popup_window"
+		size = { width = 600 height = 200 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_tile_center_bg"
+		}
+		iconType = {
+			name = "hex_bg_left"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "hex_bg_right"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line_center"
+			position = { x = 0 y = 42 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "font_header_20"
+			text = "CONFIRMATION_TITLE"
+			position = { x = -256 y = 9 }
+			orientation = center_up
+			maxWidth = 512
+			maxHeight = 24
+			format = center
+		}
+		containerWindowType = {
+			name = "description_background"
+			position = { x = 30 y = 56 }
+			size = { width = -30 height = -56 }
+			background = {
+				name = "description_background"
+				quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+		instantTextBoxType = {
+			name = "description"
+			font = "font_text_14"
+			text = ""
+			position = { x = -260 y = 64 }
+			orientation = center_up
+			maxWidth = 520
+			format = center
+		}
+		buttonType = {
+			name = "OptionA"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = 0 y = -56 }
+			orientation = lower_left
+			buttonFont = "font_text_18"
+			buttonText = "CANCEL"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+			actionShortcut = "cancel"
+		}
+		buttonType = {
+			name = "OptionB"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = -102 y = -56 }
+			orientation = center_down
+			buttonFont = "font_text_18"
+			buttonText = "ACCEPT"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+			actionShortcut = "accept"
+		}
+		buttonType = {
+			name = "OptionC"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = -204 y = -56 }
+			orientation = lower_right
+			buttonFont = "font_text_18"
+			buttonText = "UNDECIDED"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+			actionShortcut = "cancel"
+		}
+	}
+	containerWindowType = {
+		name = "delete_cancel_popup_window"
+		size = { width = 512 height = 212 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_tile_center_bg"
+		}
+		iconType = {
+			name = "hex_bg_left"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "hex_bg_right"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line_center"
+			position = { x = 0 y = 42 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "font_header_20"
+			text = "CONFIRMATION_TITLE"
+			position = { x = -256 y = 9 }
+			orientation = center_up
+			maxWidth = 512
+			maxHeight = 24
+			format = center
+		}
+		containerWindowType = {
+			name = "description_background"
+			position = { x = 30 y = 56 }
+			size = { width = -30 height = -56 }
+			background = {
+				name = "description_background"
+				quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+		instantTextBoxType = {
+			name = "description"
+			font = "font_text_14"
+			text = ""
+			position = { x = -216 y = 63 }
+			orientation = center_up
+			maxWidth = 432
+			format = center
+		}
+		buttonType = {
+			name = "AgreeButton"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = -246 y = -56 }
+			orientation = lower_right
+			buttonFont = "font_text_18"
+			buttonText = "DELETE"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+			shortcut = "RETURN"
+			actionShortcut = "accept"
+			clicksound = confirm_click
+		}
+		buttonType = {
+			name = "DeclineButton"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = 42 y = -56 }
+			orientation = lower_left
+			buttonFont = "font_text_18"
+			buttonText = "CANCEL"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+			shortcut = "ESCAPE"
+			actionShortcut = "cancel"
+			clicksound = back_click
+		}
+	}
+	containerWindowType = {
+		name = "text_input_popup_window"
+		size = { width = 512 height = 212 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_tile_center_bg"
+		}
+		iconType = {
+			name = "hex_bg_left"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "hex_bg_right"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line_center"
+			position = { x = 0 y = 42 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "large_title_font"
+			text = "CONFIRMATION_TITLE"
+			position = { x = -256 y = 2 }
+			orientation = center_up
+			maxWidth = 512
+			maxHeight = 35
+			fixedSize =  yes
+			format = center
+			vertical_alignment = center
+		}
+		instantTextBoxType = {
+			name = "description"
+			font = "font_text_14"
+			text = ""
+			position = { x = -206 y = 60 }
+			orientation = center_up
+			maxWidth = 412
+			format = center
+		}
+		containerWindowType = {
+			name = "edit_background"
+			size = { width = 370 height = 40 }
+			position = { x = 17 y = 65 }
+			background = {
+				name = "edit_background"
+				quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+		editBoxType = {
+			name = "edit"
+			font = "font_text_18"
+			text = " "
+			position = { x = 17 y = 65 }
+			size = { x = 370 y = 40 }
+			borderSize = { x = 10 y = 9 }
+		}
+		buttonType = {
+			name = "AgreeButton"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = -246 y = -56 }
+			orientation = lower_right
+			buttonFont = "font_text_18"
+			buttonText = "OK"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+			shortcut = "RETURN"
+			actionShortcut = "accept"
+			clicksound = "confirm_click"
+		}
+		buttonType = {
+			name = "DeclineButton"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = 42 y = -56 }
+			orientation = lower_left
+			buttonFont = "font_text_18"
+			buttonText = "CANCEL"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+			shortcut = "ESCAPE"
+			actionShortcut = "cancel"
+			clicksound = "back_click"
+		}
+	}
+	containerWindowType = {
+		name = "resolution_confirmation_popup_window"
+		size = { width = 512 height = 260 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_tile_center_bg"
+		}
+		iconType = {
+			name = "hex_bg_left"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "hex_bg_right"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line_center"
+			position = { x = 0 y = 42 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "font_header_20"
+			text = "CONFIRMATION_TITLE"
+			position = { x = -256 y = 9 }
+			orientation = center_up
+			maxWidth = 512
+			maxHeight = 24
+			format = center
+		}
+		containerWindowType = {
+			name = "description_container"
+			position = { x = -210 y = 130 }
+			size = { width = 420 height = 65 }
+			orientation = center_up
+			background = {
+				name = "description_frame"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+			instantTextBoxType = {
+				name = "description"
+				font = "font_text_14"
+				position = { x = -193 y = 15 }
+				orientation = center_up
+				maxWidth = 400
+				maxHeight = 0
+				format = left
+				alwaysTransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "resolution_info_container"
+			position = { x = -210 y = 60 }
+			size = { width = 420 height = 63 }
+			orientation = center_up
+			background = {
+				name = "info_frame"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+			iconType = {
+				position = { x = 8 y = 1 }
+				name = "resolution_icon"
+				quadTextureSprite = "GFX_repeal_red"
+				alwaysTransparent = yes
+			}
+			instantTextBoxType = {
+				name = "resolution_name"
+				font = "font_text_14"
+				position = { x = 70 y = 12 }
+				maxWidth = 330
+				maxHeight = 20
+				fixedSize = yes
+				format = left
+				alwaysTransparent = yes
+			}
+			instantTextBoxType = {
+				name = "support"
+				font = "font_text_14"
+				position = { x = 70 y = 30 }
+				maxWidth = 330
+				maxHeight = 20
+				fixedSize = yes
+				format = left
+				alwaysTransparent = yes
+			}
+		}
+		buttonType = {
+			name = "AgreeButton"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = -246 y = -56 }
+			orientation = lower_right
+			buttonFont = "font_text_18"
+			buttonText = "YES"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+			actionShortcut = "accept"
+			shortcut = "RETURN"
+			clicksound = "confirm_click"
+		}
+		buttonType = {
+			name = "DeclineButton"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = 42 y = -56 }
+			orientation = lower_left
+			buttonFont = "font_text_18"
+			buttonText = "NO"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
+			actionShortcut = "cancel"
+			clicksound = "back_click"
+		}
+	}
+}

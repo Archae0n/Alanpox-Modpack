@@ -1,0 +1,17 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_evt_rmartlet"
+		texturefile = "gfx/event_pictures/event_cmbrdx_rmartlet.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_rbanana"
+		texturefile = "gfx/event_pictures/event_cmbrdx_rbanana.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+}

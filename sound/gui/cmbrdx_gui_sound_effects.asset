@@ -1,0 +1,18 @@
+soundeffect = {
+	name = cmbrdx_remedy
+	sounds = {
+		sound = cmbrdx_remedy
+	}
+	volume = 0.5
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = cmbrdx_banana
+	sounds = {
+		sound = cmbrdx_banana
+	}
+	volume = 0.4
+	max_audible = 1
+	max_audible_behaviour = fail
+}

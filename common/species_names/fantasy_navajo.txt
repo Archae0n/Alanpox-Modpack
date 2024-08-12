@@ -1,0 +1,388 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	oolinaaba = {
+		name = Oolinaaba
+		plural = Oolinaaba
+		home_planet = Naalsahkee
+		home_system = Naalsahkee
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	tahastoh = {
+		name = Tahastoan
+		plural = Tahastoan
+		home_planet = Tahastoh
+		home_system = "Tahastoh Tsiishche"
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	niyola = {
+		name = Niyolish
+		plural = Niyolish
+		home_planet = "Niyola Sani"
+		home_system = "Niyoli Diba"
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	kilchiye = {
+		name = Kilchiyese
+		plural = Kilchiyese
+		home_planet = Kilchiye
+		home_system = Honahad
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	naalnatsah = {
+		name = Naalnatsan
+		plural = Naalnatsans
+		home_planet = Naalnatsah
+		home_system = Naalnatsah 
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	abastoh = {
+		name = Abastoan
+		plural = Abastoans
+		home_planet = Abastoh
+		home_system = Anasheii 
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	nishchiyehtheguardian = {
+		name = Naalnabean
+		plural = Naalnabeans
+		home_planet = "Nishchiyeh the Guardian"
+		home_system = "Tomb of Halye Yasche" 
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	dighii = {
+		name = Mosah
+		plural = Mosah
+		home_planet = Dighii
+		home_system = Aleahalana 
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	ahashini = {
+		name = Ahashinid
+		plural = Ahashinids
+		home_planet = Sike-Ahashini
+		home_system = Sidi-Sana-Ahashini
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	shomai = {
+		name = Shomite
+		plural = Shomites
+		home_planet = Shomai
+		home_system = Taschahkyosini
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	halikaithetaciturn = {
+		name = Yalnian
+		plural = Yalnians
+		home_planet = "Halikai the Taciturn"
+		home_system = "Naschili the Baleful"
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	aleahiyeprime = {
+		name = Hiyean
+		plural = Hiyeans
+		home_planet = "Aleahiye Prime"
+		home_system = Aleahiye
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	anili = {
+		name = Anilese
+		plural = Anilese
+		home_planet = Anili
+		home_system = Yashighili
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	anashashkee = {
+		name = Anashashkean  
+		plural = Anashashkeans
+		home_planet = Anashashkee
+		home_system = Anashashkee
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	tsaniishchin = {
+		name = Tsaniishchin  
+		plural = Tsaniishchin
+		home_planet = Tsanedahi
+		home_system = Tsanesiali
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	dahabah = {
+		name = Dahabish  
+		plural = Dahabish
+		home_planet = Dahabah
+		home_system = "Sihashke Nastah"
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	siishcha = {
+		name = Siishchan  
+		plural = Siishchans
+		home_planet = Siishcha
+		home_system = Siishcha
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	roofofthedarkness = {
+		name = Daga-Ahah  
+		plural = Daga-Ahah
+		home_planet = "Roof of the Darkness"
+		home_system = "Asaneyastii's Hut"
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	dezbashkeh = {
+		name = Dezbashkeh 
+		plural = Dezbashkeh
+		home_planet = Dezbajein
+		home_system = Dezbajeish
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	tsidola = {
+		name = Tsidolan 
+		plural = Tsidolans
+		home_planet = Tsidola
+		home_system = Hidola
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	manaschi = {
+		name = Manaschoid 
+		plural = Manaschoid
+		home_planet = Manaschi
+		home_system = Manaschi
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	abahoobaditheverdant = {
+		name = Naalonan 
+		plural = Naalonans
+		home_planet = "Abahoobadi the Verdant"
+		home_system = "Motsii the Voracious"
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	tsahka = {
+		name = Tshakish
+		plural = Tshakish
+		home_planet = "Tsahka Bisanah"
+		home_system = Tohaleasdzas
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	hihalea = {
+		name = Hihalean
+		plural = Hihaleans
+		home_planet = Hihalea
+		home_system = Niyokilcheii
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	nashnaali = {
+		name = Nash-Ya-Naalid
+		plural = Nash-Ya-Naalids
+		home_planet = Nash-Naali
+		home_system = Ahaatsanina
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	ahaheii = {
+		name = Ahnii
+		plural = Ahnii
+		home_planet = Ahaheii
+		home_system = Klaniyoli
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	sihili = {
+		name = Sihilian
+		plural = Sihilians
+		home_planet = Sihili
+		home_system = Sahahas
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	niitsinoid = {
+		name = Niitsinoid
+		plural = Niitsinoids
+		home_planet = Niitsintiin
+		home_system = Tiin
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	aschad = {
+		name = Aschadite
+		plural = Aschadites
+		home_planet = Moseyaschad
+		home_system = Moseya
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	nishnasi = {
+		name = Nishnasian
+		plural = Nishnasians
+		home_planet = Nishnasi
+		home_system = Yabashah
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	siniicha = {
+		name = Siniichan
+		plural = Siniichans
+		home_planet = Siniicha
+		home_system = Tsah-Siniicha
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	tahaye = {
+		name = Tahayese
+		plural = Tahayese
+		home_planet = Tahaye
+		home_system = Tahila
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	mosahii = {
+		name = Mosahii
+		plural = Mosahii
+		home_planet = Mosahii
+		home_system = Yanasikii
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	sasikii = {
+		name = Sasikii
+		plural = Sasikii
+		home_planet = Sasikii
+		home_system = "Tsikyokee Alneh"
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	ascheiitheguile = {
+		name = Hinalyehcha
+		plural = Hinalyehcha
+		home_planet = "Ascheii the Guile"
+		home_system = "Dobah Abase the Jocular"
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	haliish = {
+		name = Klaniyean
+		plural = Klaniyeans
+		home_planet = Haliish
+		home_system = Sanaba
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	alokehniye = {
+		name = Johitsian
+		plural = Johitsians
+		home_planet = Alokeh-Niye
+		home_system = Diga-Yini
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	natsikai = {
+		name = Sanaba
+		plural = Sanaba
+		home_planet = Natsikai
+		home_system = Sikyolasheiin
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	dahkai = {
+		name = Dahkai
+		plural = Dahkai
+		home_planet = Dahkai
+		home_system = Dahkai
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	nashniprime = {
+		name = Nashnid
+		plural = Nashnids
+		home_planet = "Nashni Prime"
+		home_system = Nashni
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	tiichash = {
+		name = Tiichashoid
+		plural = Tiichashoids
+		home_planet = Tiichash
+		home_system = Ahinalniiseyah
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	spiritawoken = {
+		name = Alyean
+		plural = Alyeans
+		home_planet = "Spirit Awoken"
+		home_system = "Soul Ablaze"
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	yalinintah = {
+		name = Yalinite
+		plural = Yalinites
+		home_planet = Yalinintah
+		home_system = Naatsanintadin
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	dahahiini = {
+		name = Dahahiinian
+		plural = Dahahiinians
+		home_planet = Dahahiini
+		home_system = Sininni
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	sidoli = {
+		name = Sidolite
+		plural = Sidolites
+		home_planet = Sidoli
+		home_system = "Yah yas-Shoba"
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	sahkesina = {
+		name = Sahkesinese
+		plural = Sahkesinese
+		home_planet = Sahkesina
+		home_system = Natahiye
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+	tohnashila = {
+		name = Toh-Nashiloid
+		plural = Toh-Nashiloids
+		home_planet = "Toh Nashila"
+		home_system = Ahasane
+		name_list = "cybrxkhan_fantasy_navajo"
+	}
+}

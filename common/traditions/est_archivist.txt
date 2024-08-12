@@ -1,0 +1,736 @@
+tr_est_archivist_adopt = {
+	unlocks_agenda = agenda_est_archivist
+	modifier = {
+		ship_anomaly_generation_chance_mult = 0.20
+	}
+}
+
+tr_est_archivist_finish = {
+	custom_tooltip = tr_est_archivist_finish_desc
+
+	modifier = {
+		ascension_perks_add = 1
+	}
+}
+
+
+tr_est_archivist_1 = {
+	custom_tooltip = tr_est_archivist_1_desc
+	
+	on_enabled = {
+		every_owned_planet = {
+			planet_event = {
+				id = est_archivist.1
+			}
+		}
+	}
+
+	modifier = {
+		station_observers_unity_produces_add = 5
+#		station_observer_missions_society_research_produces_mult = 0.50 #(Ben_D): Depricated by Paradox
+		station_observers_society_research_produces_mult = 0.25 #(Ben_D): Added
+	}
+	
+	tradition_swap = {
+		name = tr_est_archivist_1_purifier
+		inherit_effects = no
+		inherit_icon = no
+		inherit_name = no
+		trigger = {
+			OR = {
+				has_civic = civic_fanatic_purifiers
+				has_civic = civic_machine_terminator
+				has_civic = civic_hive_devouring_swarm
+			}
+		}	
+		modifier = {		
+			army_damage_mult = 0.15
+			ship_weapon_damage = 0.05
+		}
+		weight = { factor = 1 }
+	}
+
+	ai_weight = { factor = 5000 }
+}
+
+tr_est_archivist_2 = {
+	custom_tooltip = tr_est_archivist_2_desc
+	
+	on_enabled = {
+		every_owned_leader = {
+			limit = {
+				leader_class = scientist
+			}
+			random_list = {
+				3 = {}
+				1 = {
+					random_list = {
+						1 = { 
+							add_trait = leader_trait_scientist_est_librarian_astronomy 
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_astronomy
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_astronomy
+										days = -1
+									}
+								}
+							}
+						}
+						1 = { 
+							add_trait = leader_trait_scientist_est_librarian_mathematics 
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_mathematics
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_mathematics
+										days = -1
+									}
+								}
+							}
+						}
+						1 = { 
+							add_trait = leader_trait_scientist_est_librarian_electronics
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_electronics
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_electronics
+										days = -1
+									}
+								}
+							} 
+						}
+						1 = { 
+							add_trait = leader_trait_scientist_est_librarian_software 
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_software 
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_software 
+										days = -1
+									}
+								}
+							}
+						}
+						1 = { 
+							add_trait = leader_trait_scientist_est_librarian_history 
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_history 
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_history 
+										days = -1
+									}
+								}
+							}
+						}
+						1 = { 
+							add_trait = leader_trait_scientist_est_librarian_taxonomy 
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_taxonomy
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_taxonomy
+										days = -1
+									}
+								}
+							}
+						}
+						1 = { 
+							modifier = {
+								factor = 0
+								root = {
+									has_civic = civic_fanatic_purifiers
+								}
+							}
+							add_trait = leader_trait_scientist_est_librarian_culture 
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_culture 
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_culture 
+										days = -1
+									}
+								}
+							}
+						}
+						1 = { 
+							modifier = {
+								factor = 0
+								root = {
+									OR = {
+										has_civic = civic_fanatic_purifiers
+										has_civic = civic_inwards_perfection
+									}
+								}
+							}
+							add_trait = leader_trait_scientist_est_librarian_communication
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_communication
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_communication
+										days = -1
+									}
+								}
+							}
+						}
+						1 = { 
+							modifier = {
+								factor = 0
+								root = {
+									Not = {
+										has_civic = civic_fanatic_purifiers
+									}
+								}
+							}
+							add_trait = leader_trait_scientist_est_librarian_war
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_war
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_war
+										days = -1
+									}
+								}
+							}
+						}
+						1 = { 
+							add_trait = leader_trait_scientist_est_librarian_chemistry 
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_chemistry 
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_chemistry 
+										days = -1
+									}
+								}
+							}
+						}
+						1 = { 
+							add_trait = leader_trait_scientist_est_librarian_geology 
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_geology 
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_geology 
+										days = -1
+									}
+								}
+							}
+						}
+						1 = { 
+							add_trait = leader_trait_scientist_est_librarian_architecture
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_architecture
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_architecture
+										days = -1
+									}
+								}
+							} 
+						}
+						1 = { 
+							add_trait = leader_trait_scientist_est_librarian_mechanics 
+							root = {
+								if = {
+									limit = {
+										Not = {
+											has_modifier = mod_est_archivist_2_mechanics 
+										}
+									}
+									add_modifier = {
+										modifier = mod_est_archivist_2_mechanics 
+										days = -1
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		every_pool_leader = {
+			limit = {
+				leader_class = scientist
+			}
+			random_list = {
+				3 = {}
+				1 = {
+					random_list = {
+						1 = { add_trait = leader_trait_scientist_est_librarian_astronomy }
+						1 = { add_trait = leader_trait_scientist_est_librarian_mathematics }
+						1 = { add_trait = leader_trait_scientist_est_librarian_electronics }
+						1 = { add_trait = leader_trait_scientist_est_librarian_software }
+						1 = { add_trait = leader_trait_scientist_est_librarian_history }
+						1 = { add_trait = leader_trait_scientist_est_librarian_taxonomy }
+						1 = { 
+							modifier = {
+								factor = 0
+								root = {
+									has_civic = civic_fanatic_purifiers
+								}
+							}
+							add_trait = leader_trait_scientist_est_librarian_culture 
+						}
+						1 = { 
+							modifier = {
+								factor = 0
+								root = {
+									OR = {
+										has_civic = civic_fanatic_purifiers
+										has_civic = civic_inwards_perfection
+									}
+								}
+							}
+							add_trait = leader_trait_scientist_est_librarian_communication
+						}
+						1 = { 
+							modifier = {
+								factor = 0
+								Not = {									
+									root = {
+										has_civic = civic_fanatic_purifiers
+									}
+								}
+							}
+							add_trait = leader_trait_scientist_est_librarian_war
+						}
+						1 = { add_trait = leader_trait_scientist_est_librarian_chemistry }
+						1 = { add_trait = leader_trait_scientist_est_librarian_geology }
+						1 = { add_trait = leader_trait_scientist_est_librarian_architecture }
+						1 = { add_trait = leader_trait_scientist_est_librarian_mechanics }
+					}
+				}
+			}
+		}
+	}
+	
+	tradition_swap = {
+		custom_tooltip = tr_est_archivist_2_GC_desc
+		
+		name = tr_est_archivist_2_GC
+		inherit_effects = no
+		inherit_icon = yes
+		inherit_name = no
+		trigger = {
+			has_ethic =	ethic_gestalt_consciousness
+			is_ai = no
+		}	
+		on_enabled = {
+			every_owned_leader = {
+				limit = {
+					leader_class = scientist
+				}
+				random_list = {
+					3 = {}
+					1 = {
+						random_list = {
+							1 = { 
+								add_trait = leader_trait_scientist_est_keeper_astronomy 
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_astronomy
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_astronomy
+											days = -1
+										}
+									}
+								}
+							}
+							1 = { 
+								add_trait = leader_trait_scientist_est_keeper_mathematics 
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_mathematics
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_mathematics
+											days = -1
+										}
+									}
+								}
+							}
+							1 = { 
+								add_trait = leader_trait_scientist_est_keeper_electronics
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_electronics
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_electronics
+											days = -1
+										}
+									}
+								} 
+							}
+							1 = { 
+								add_trait = leader_trait_scientist_est_keeper_software 
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_software 
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_software 
+											days = -1
+										}
+									}
+								}
+							}
+							1 = { 
+								add_trait = leader_trait_scientist_est_keeper_history 
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_history 
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_history 
+											days = -1
+										}
+									}
+								}
+							}
+							1 = { 
+								add_trait = leader_trait_scientist_est_keeper_taxonomy 
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_taxonomy
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_taxonomy
+											days = -1
+										}
+									}
+								}
+							}
+							1 = { 
+								modifier = {
+									factor = 0
+									root = {
+										Or = {
+											has_civic = civic_hive_devouring_swarm
+											has_civic = civic_machine_terminator
+										}
+									}
+								}
+								add_trait = leader_trait_scientist_est_keeper_culture 
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_culture 
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_culture 
+											days = -1
+										}
+									}
+								}
+							}
+							1 = { 
+								modifier = {
+									factor = 0
+									root = {
+										OR = {
+											has_civic = civic_hive_devouring_swarm
+											has_civic = civic_machine_terminator
+										}
+									}
+								}
+								add_trait = leader_trait_scientist_est_keeper_communication
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_communication
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_communication
+											days = -1
+										}
+									}
+								}
+							}
+							1 = { 
+								modifier = {
+									factor = 0
+									root = {
+										Not = {
+											has_civic = civic_hive_devouring_swarm
+											has_civic = civic_machine_terminator
+										}
+									}
+								}
+								add_trait = leader_trait_scientist_est_keeper_war
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_war
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_war
+											days = -1
+										}
+									}
+								}
+							}
+							1 = { 
+								add_trait = leader_trait_scientist_est_keeper_chemistry 
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_chemistry 
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_chemistry 
+											days = -1
+										}
+									}
+								}
+							}
+							1 = { 
+								add_trait = leader_trait_scientist_est_keeper_geology 
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_geology 
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_geology 
+											days = -1
+										}
+									}
+								}
+							}
+							1 = { 
+								add_trait = leader_trait_scientist_est_keeper_architecture
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_architecture
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_architecture
+											days = -1
+										}
+									}
+								} 
+							}
+							1 = { 
+								add_trait = leader_trait_scientist_est_keeper_mechanics 
+								root = {
+									if = {
+										limit = {
+											Not = {
+												has_modifier = mod_est_archivist_2_GC_mechanics 
+											}
+										}
+										add_modifier = {
+											modifier = mod_est_archivist_2_GC_mechanics 
+											days = -1
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			every_pool_leader = {
+				limit = {
+					leader_class = scientist
+				}
+				random_list = {
+					3 = {}
+					1 = {
+						random_list = {
+							1 = { add_trait = leader_trait_scientist_est_keeper_astronomy }
+							1 = { add_trait = leader_trait_scientist_est_keeper_mathematics }
+							1 = { add_trait = leader_trait_scientist_est_keeper_electronics }
+							1 = { add_trait = leader_trait_scientist_est_keeper_software }
+							1 = { add_trait = leader_trait_scientist_est_keeper_history }
+							1 = { add_trait = leader_trait_scientist_est_keeper_taxonomy }
+							1 = { 
+								modifier = {
+									factor = 0
+									root = {
+										has_civic = civic_fanatic_purifiers
+									}
+								}
+								add_trait = leader_trait_scientist_est_keeper_culture 
+							}
+							1 = { 
+								modifier = {
+									factor = 0
+									root = {
+										OR = {
+											has_civic = civic_fanatic_purifiers
+											has_civic = civic_inwards_perfection
+										}
+									}
+								}
+								add_trait = leader_trait_scientist_est_keeper_communication
+							}
+							1 = { 
+								modifier = {
+									factor = 0
+									Not = {									
+										root = {
+											has_civic = civic_fanatic_purifiers
+										}
+									}
+								}
+								add_trait = leader_trait_scientist_est_keeper_war
+							}
+							1 = { add_trait = leader_trait_scientist_est_keeper_chemistry }
+							1 = { add_trait = leader_trait_scientist_est_keeper_geology }
+							1 = { add_trait = leader_trait_scientist_est_keeper_architecture }
+							1 = { add_trait = leader_trait_scientist_est_keeper_mechanics }
+						}
+					}
+				}
+			}
+		}
+		weight = { factor = 1 }
+	}
+
+	tradition_swap = {
+		name = tr_est_archivist_2_AI
+		inherit_icon = yes
+		inherit_name = yes
+		trigger = { is_ai = yes }	
+		modifier = {		
+			all_technology_research_speed = 0.10
+		}
+		weight = { factor = 1 }
+	}
+
+	ai_weight = { factor = 5000 }
+}
+
+tr_est_archivist_3 = {
+	possible = { has_tradition = tr_est_archivist_2 }
+	
+	modifier = {
+		country_unity_produces_mult = 0.05
+		pop_government_ethic_attraction = 0.10
+	}
+	
+	tradition_swap = {
+		name = tr_est_archivist_3_GC
+		trigger = { is_gestalt = yes }	
+		modifier = {		
+			country_unity_produces_mult = 0.10
+		}
+		weight = { factor = 1 }
+	}
+
+	ai_weight = { factor = 5000 }
+}
+
+tr_est_archivist_4 = {
+	custom_tooltip = tr_est_archivist_4_desc
+	
+	possible = {
+		has_tradition = tr_est_archivist_1
+		has_tradition = tr_est_archivist_2
+	}
+
+	ai_weight = { factor = 5000 }
+}
+
+tr_est_archivist_5 = {
+	custom_tooltip = tr_est_archivist_5_desc
+	
+	possible = {
+		has_tradition = tr_est_archivist_3
+		has_tradition = tr_est_archivist_4
+	}
+	
+	triggered_modifier = {
+		potential = { always = yes }
+		country_base_unity_produces_add = 1
+		mult = value:EST_num_researched_technologies
+	}
+
+	ai_weight = { factor = 5000 }
+}

@@ -1,0 +1,35 @@
+# $BUGGED_HOUSING_COUNT$ = Half of base housing on the district
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_bugged_government_intervention = yes
+		} 
+	}
+	modifier = {
+		job_bugged_labour_hero_add = 0.34
+	}
+}
+
+triggered_desc = {
+	trigger = {
+		exists = owner
+		owner = {
+			is_bugged_government_intervention = yes
+		}
+	}
+	text = job_bugged_labour_hero_effect_desc
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_bugged_agrarian_idyll_corpo
+		}
+	}
+	modifier = {
+		planet_housing_add = $BUGGED_HOUSING_COUNT$
+	}
+}

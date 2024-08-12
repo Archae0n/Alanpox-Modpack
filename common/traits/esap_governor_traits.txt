@@ -1,0 +1,206 @@
+###################ss_trait_weight
+# Governor Traits #
+###################
+
+leader_trait_governor_esap_egalitarian_2_entrepreneur = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_entrepreneur.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_entrepreneur.dds"
+	system_modifier = { 
+		trade_value_mult = 0.22
+	}
+	sector_modifier = {
+		trade_value_mult = 0.22
+	}
+	councilor_modifier = {
+		trade_value_mult = 0.44
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { official }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @subclass_trait_weight
+		inline_script = paragon/governor_weight_mult
+	}
+}
+
+leader_trait_governor_esap_egalitarian_2_strict = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_strict.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_strict.dds"
+	planet_modifier = { 
+		planet_jobs_minerals_produces_mult = 0.11
+		planet_crime_mult = -0.05
+	}
+	sector_modifier = { 
+		planet_jobs_minerals_produces_mult = 0.09
+		planet_crime_mult = -0.04
+	}
+	councilor_modifier = {
+		country_base_minerals_produces_mult = 0.07
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander official scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @subclass_trait_weight
+		inline_script = paragon/governor_weight_mult
+	}
+}
+
+leader_trait_governor_esap_egalitarian_2_ascetic = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_ascetic.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_ascetic.dds"
+	planet_modifier = {
+		planet_pops_consumer_goods_upkeep_mult = -0.11
+		planet_pops_food_upkeep_mult = -0.11
+	}
+	sector_modifier = { 
+		planet_pops_consumer_goods_upkeep_mult = -0.07
+		planet_pops_food_upkeep_mult = -0.07
+	}
+	councilor_modifier = {
+		country_base_consumer_goods_upkeep_mult = -0.06
+		country_base_food_upkeep_mult = -0.06
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { official scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @subclass_trait_weight
+		inline_script = paragon/governor_weight_mult
+	}
+}
+
+leader_trait_governor_esap_egalitarian_2_ecologist = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_ecologist.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_ecologist.dds"
+	planet_modifier = {
+		planet_jobs_food_produces_mult = 0.13
+		pop_environment_tolerance = 0.04
+	}
+	sector_modifier = { 
+		planet_jobs_food_produces_mult = 0.10
+		pop_environment_tolerance = 0.04
+	}
+	councilor_modifier = {
+		country_base_food_produces_mult = 0.09
+		pop_environment_tolerance = 0.06
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { official scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @subclass_trait_weight
+		inline_script = paragon/governor_weight_mult
+	}
+}
+
+leader_trait_governor_esap_egalitarian_2_ambitious = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_ambitious.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_ambitious.dds"
+	planet_modifier = {
+		planet_districts_cost_mult = -0.17
+	}
+	sector_modifier = {
+		planet_districts_cost_mult = -0.17
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander official scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @subclass_trait_weight
+		inline_script = paragon/governor_weight_mult
+	}
+}
+
+leader_trait_governor_esap_egalitarian_2_orator = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = governor
+	# #	ICON = "GFX_leader_trait_frontier_spirit"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_orator.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_orator.dds"
+	planet_modifier = {
+		planet_jobs_unity_produces_mult = 0.16
+	}
+	system_modifier = {
+		planet_jobs_unity_produces_mult = 0.08
+	}
+	councilor_modifier = {
+		country_unity_produces_mult = 0.06
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander official scientist }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @subclass_trait_weight
+		inline_script = paragon/governor_weight_mult
+	}
+}

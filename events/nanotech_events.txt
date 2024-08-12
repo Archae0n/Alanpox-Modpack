@@ -1,0 +1,345 @@
+ #################################
+ #Nanotech overhaul
+ #  By TheGreatZmyh and Parciwal
+ ################################# 
+
+
+ namespace = nanotech
+
+situation_event = { 
+	id = nanotech.1
+	title = "nanotech.2.name"
+	desc = "nanotech.2.desc"
+	picture = GFX_evt_gray_goo_ships
+	show_sound = event_mystic_reveal
+	is_triggered_only = yes
+
+	immediate = {
+		owner = {
+			random_owned_design = {
+			limit = { is_ship_size = nanotech_mothership }
+			save_event_target_as = nanotech_mothership_design
+			}
+			create_message = {
+				type = MESSAGE_MOTHERSHIP_BOON
+				localization = MESSAGE_MOTHERSHIP_BOON_DESC
+				days = 30
+				target = prev
+			}
+		}
+		target = {
+			create_fleet = {
+				effect = {
+					set_owner = Prev.owner
+					create_ship = {
+						name = "Nanite Mothership"
+						design = event_target:nanotech_mothership_design
+					}
+					set_location = {
+						Target = Prev
+						distance = 20
+						angle = 20
+					}
+				}
+			}
+			remove_planet_flag = summoning_mothership
+		remove_modifier = nanotech_summoning_mothership
+		add_modifier = {
+			modifier = nanotech_nanites_devastated
+			days = 1800
+		}
+		add_planet_devastation = 50
+		}
+		destroy_situation = this
+	}
+
+
+	
+}
+system_event = {
+  id = nanotech.2
+  hide_window = yes 
+
+  is_triggered_only = yes
+
+  trigger = {
+	  owner = { NOT = {
+		has_deficit = nanites
+	}}
+	  NOT = { has_modifier = nanotech_storm }
+	  starbase = {
+		  count_starbase_buildings = { 
+			  type = nanotech_storm_caster 
+			  include_being_constructed = no 
+			  count = 1 
+		  }
+	  }
+  }
+
+  immediate = {
+	  add_modifier = {
+		  modifier = nanotech_storm
+		  days = -1
+	  }
+	  star = {
+		  create_ambient_object = {
+			  type = "synth_queen_tempest"
+			  location = this
+		  }
+	  }
+	  last_created_ambient_object = {	
+		  set_ambient_object_flag = nanotech_storm
+		  set_location = {
+			  target = prev
+			  distance = 0
+			  angle = random
+		  }
+	  }
+	  if = {
+		
+		  starbase = {
+			  add_starbase_component = {
+				  component = "STARBASE_AURA_NANOTECH_STORM"
+			  }
+		  }
+	  }
+  }
+}
+system_event = {
+	id = nanotech.3
+	hide_window = yes 
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_modifier = nanotech_storm 
+	}
+
+	immediate = {
+		remove_modifier = nanotech_storm
+		every_ambient_object = {
+			limit = { has_ambient_object_flag = nanotech_storm }
+			destroy_ambient_object = this
+		}
+		if = {
+			limit = {
+				any_ship_in_system = {
+					is_ship_class = shipclass_starbase
+					has_component = "STARBASE_AURA_NANOTECH_STORM"
+				}
+			}
+			starbase = {
+				remove_starbase_component = {
+					component = "STARBASE_AURA_NANOTECH_STORM"
+				}
+			}
+		}
+	}
+}
+
+  # Remove nanotech Storm in case of zro deficit
+country_event = {
+	id = nanotech.4
+	hide_window = yes 
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_monthly_income = {
+			resource = nanites
+			value < 0
+		}
+		resource_stockpile_compare = {
+			resource = nanites
+			value = 0
+		}
+		
+		any_system_within_border = {
+			has_modifier = nanotech_storm 
+		}
+	}
+
+	immediate = {
+		every_system_within_border = {
+			limit = { has_modifier = nanotech_storm }
+			remove_modifier = nanotech_storm
+			every_ambient_object = {
+				limit = { has_ambient_object_flag = nanotech_storm }
+				destroy_ambient_object = this
+			}
+			if = {
+				limit = {
+					any_ship_in_system = {
+						is_ship_class = shipclass_starbase
+						has_component = "STARBASE_AURA_NANOTECH_STORM"
+					}
+				}
+				starbase = {
+					remove_starbase_component = {
+						component = "STARBASE_AURA_NANOTECH_STORM"
+					}
+				}
+			}
+		}
+	}
+}
+
+
+# Enable nanotech Storm after a zro deficit ends
+country_event = {
+	id = nanotech.5
+	hide_window = yes 
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_monthly_income = {
+				resource = nanites
+				value > 0
+			}
+			resource_stockpile_compare = {
+				resource = nanites
+				value > 0
+			}
+		}
+		any_system_within_border = {
+			NOT = { has_modifier = nanotech_storm }
+			starbase = {
+				count_starbase_buildings = { 
+					type = nanotech_storm_caster 
+					include_being_constructed = no 
+					count = 1 
+				}
+			}
+		}
+	}
+
+	immediate = {
+		every_system_within_border = {
+			limit = {
+				NOT = { has_modifier = nanotech_storm }
+				starbase = {
+					count_starbase_buildings = { 
+						type = nanotech_storm_caster 
+						include_being_constructed = no 
+						count = 1 
+					}
+				}
+			}
+			add_modifier = {
+				modifier = nanotech_storm
+				days = -1
+			}
+			star = {
+				create_ambient_object = {
+					type = "synth_queen_tempest"
+					location = this
+				}
+			}
+			last_created_ambient_object = {	
+				set_ambient_object_flag = nanotech_storm
+				set_location = {
+					target = prev
+					distance = 0
+					angle = random
+				}
+			}
+			if = {
+		
+				starbase = {
+					add_starbase_component = {
+						component = "STARBASE_AURA_nanotech_STORM"
+					}
+				}
+			}
+		}
+	}
+}
+ #planet_event = {
+#	id = nanotech.6
+#	is_triggered_only = yes
+#	hide_window = yes
+#
+#	trigger = {
+#		from = {
+#			has_tradition =  tr_nanotech_adopt
+#		}
+#		exists = fromfrom #crisis.202 can remove the last pop
+#		fromfrom = {
+#			NOR = {
+#				has_purge_type = {
+#					type = purge_displacement
+#				}
+#				has_purge_type = {
+#					type = purge_cosmogenesis
+#				}
+#				has_purge_type = {
+#					type = purge_cosmogenesis_lathe_resettle
+#				}
+#			}
+#			is_robotic_species = no
+#			species = {
+#				NOT = { is_archetype = PRESAPIENT }
+##			}
+#			NOR = {
+#				has_trait = trait_cybernetic
+#				has_trait = trait_zombie
+#			}
+#		}
+#	}
+#
+#	immediate = {
+#		random_list = {
+#			66 = { }
+#			# 33% Chance to create a cyber-zombie per pop.
+#			33 = {
+#				create_pop = {
+#					species = root.owner.species
+	#			}
+#			}
+#		}
+#	}
+#}
+planet_event = {
+	id = nanotech.6
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		root.owner = {
+			has_tradition = tr_nanotech_adopt
+		}
+		exists = fromfrom #crisis.202 can remove the last pop
+		fromfrom = {
+			has_purge_type = {
+				type = nanotech_purge
+			}
+			
+		}
+	}
+
+	immediate = {
+		random_list = {
+			
+			66 = {
+				root.owner = {
+					add_resource = {
+					nanites = 1000
+				}
+			}
+		}
+			33 = {
+				create_pop = {
+					species = root.owner.species
+				}
+				last_created_pop = {
+					set_citizenship_type = {
+					country = root.owner
+					type = citizenship_full_machine
+				}
+			}
+			}
+		}
+	}
+}

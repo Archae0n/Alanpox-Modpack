@@ -1,0 +1,426 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	yarthunda = {
+		name = Thundaian
+		plural = Thundarians
+		home_planet = "Yar Thunda"
+		home_system = "Fral Thunda"
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	bomambur = {
+		name = Ambur
+		plural = Amburs
+		home_planet = Bom-Ambur
+		home_system = Tottokelin
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	figarocudgel = {
+		name = Figaran
+		plural = Figarans
+		home_planet = "Figaro's Cudgel"
+		home_system = "Gatsim's Axe"
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	zolta = {
+		name = Zoltoid
+		plural = Zoltoids
+		home_planet = Zolta
+		home_system = Naras
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	flofanprime = {
+		name = Flofanese
+		plural = Flofanese
+		home_planet = "Flofan Prime"
+		home_system = Flofan 
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	dwortas = {
+		name = Dwortassian
+		plural = Dwortassians
+		home_planet = Dwortas
+		home_system = Moltant 
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	crusadersblade = {
+		name = Frech
+		plural = Frech
+		home_planet = "Crusader's Blade"
+		home_system = "Anvil of Destiny" 
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	jarder = {
+		name = Jarderid
+		plural = Jarderids
+		home_planet = Jarder
+		home_system = Kashorke 
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	figassrindan = {
+		name = Figassian
+		plural = Figassians
+		home_planet = Figassrindan
+		home_system = Aydi
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	glandor = {
+		name = Glandorese
+		plural = Glandorese
+		home_planet = Glandor
+		home_system = Doyler
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	hiralf = {
+		name = Hiralfese
+		plural = Hiralfese
+		home_planet = Hiralf
+		home_system = Stekeeper
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	dorick = {
+		name = Dorickoid
+		plural = Dorickoids
+		home_planet = Dorick
+		home_system = Justadorro
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	glorioussaintaris = {
+		name = Arissian  
+		plural = Arissians
+		home_planet = "Glorious Saint Aris"
+		home_system = Nadowforin
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	ziggs = {
+		name = Khami  
+		plural = Khamis
+		home_planet = Ziggs
+		home_system = Dund
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	jenkagori = {
+		name = Jenkagorian  
+		plural = Jenkagorians
+		home_planet = Jenkagori
+		home_system = Maca'uri
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	narvin = {
+		name = Narvinid  
+		plural = Narvinids
+		home_planet = Narvin
+		home_system = Rosebra
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	baelis = {
+		name = Bae'Jard 
+		plural = Bae'Jard
+		home_planet = Baelis
+		home_system = Baeverick
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	littlemadonic = {
+		name = Madonick 
+		plural = Madonicks
+		home_planet = "Little Madonic"
+		home_system = "Grand Madonic"
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	giankant = {
+		name = Giankantese 
+		plural = Giankantese
+		home_planet = Giankant
+		home_system = Maltgun
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	Bagorgen = {
+		name = Bagor'fara 
+		plural = Bagor'fara
+		home_planet = Bagorgen
+		home_system = Paldmerlum
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	molnak = {
+		name = Molnakite
+		plural = Molnakites
+		home_planet = Molnak
+		home_system = Dulindeld
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	telstom = {
+		name = Telstomian
+		plural = Telstomians
+		home_planet = Telstom
+		home_system = "Man Hurd"
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	baillneyer = {
+		name = Durd
+		plural = Durds
+		home_planet = Baillneyer
+		home_system = Rennardidh
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	katildarthelifemaker = {
+		name = "Dra Endelch"
+		plural = "Dra Endelch"
+		home_planet = "Katildar the Life-Maker"
+		home_system = "Gorthor the Conqueror"
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	karcla = {
+		name = Karcan
+		plural = Karcans
+		home_planet = Karcla
+		home_system = Kaldonz
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	gabianis = {
+		name = Gabinoid
+		plural = Gabinoids
+		home_planet = Gabianis
+		home_system = Oghâl
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	faverlum = {
+		name = Faverlese
+		plural = Faverlese
+		home_planet = Faverlum
+		home_system = Faverlum
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	garbomoli = {
+		name = Garbomoloid
+		plural = Garbomoloids
+		home_planet = Garbomoli
+		home_system = Marbrel
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	palstekstom = {
+		name = Palian
+		plural = Palians
+		home_planet = Pal-Stek-Stom
+		home_system = Pal-Sto-Viv
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	diamondbulwark = {
+		name = Threl
+		plural = Threls
+		home_planet = "Diamond Bulwark"
+		home_system = "Bane of Flesh"
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	palvivar = {
+		name = Palvivian
+		plural = Palvivians
+		home_planet = "Pal Vivar"
+		home_system = Bhelli
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	vargek = {
+		name = Vargekkid
+		plural = Vargekkids
+		home_planet = Vargek
+		home_system = Breneken
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	skandel = {
+		name = Skandelese
+		plural = Skandelese
+		home_planet = Skandel
+		home_system = Baggs
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	favelday = {
+		name = Faveldian
+		plural = Faveldians
+		home_planet = Favelday
+		home_system = Bairenhar
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	aeddolfli = {
+		name = Aeddolfite
+		plural = Aeddolfites
+		home_planet = Aeddolfli
+		home_system = Vesryon
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	figder = {
+		name = Figderan
+		plural = Figderans
+		home_planet = Figder
+		home_system = Carraya
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	malin = {
+		name = Malinoid
+		plural = Malinoids
+		home_planet = Malin
+		home_system = Dihollid
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	rhanal = {
+		name = Rhanalite
+		plural = Rhanalites
+		home_planet = Rhanal
+		home_system = Ortraghrerko
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	khirani = {
+		name = Khirnite
+		plural = Khirnites
+		home_planet = Khirani
+		home_system = Mugise
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	vanbrinn = {
+		name = Vanbrinnese
+		plural = Vanbrinnese
+		home_planet = Vanbrinn
+		home_system = Morbom
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	greatdoomslayer = {
+		name = Breave
+		plural = Breaves
+		home_planet = "Great Doom-Slayer"
+		home_system = "Bright Omens"
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	naspik = {
+		name = Naspikian
+		plural = Naspikians
+		home_planet = Naspik
+		home_system = Diholl
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	ivonar = {
+		name = Ivonarese
+		plural = Ivonarese
+		home_planet = Ivonar
+		home_system = Dahlberkin
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	codrapper = {
+		name = Codrap
+		plural = Codraps
+		home_planet = Codrapper
+		home_system = Brozdez
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	denkancan = {
+		name = Den'en'er
+		plural = Den'en'er
+		home_planet = Denkancan
+		home_system = Ciandra
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	brunda = {
+		name = Brundese
+		plural = Brundese
+		home_planet = Brunda
+		home_system = Ciancort
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	stablecelestial = {
+		name = Brinn
+		plural = Brinns
+		home_planet = "Stable Celestial"
+		home_system = "Shifting Celestial"
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	ortragha = {
+		name = Ortraghian
+		plural = Ortraghians
+		home_planet = Ortragha
+		home_system = Madoldahtrel
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	addaleryn = {
+		name = Addalerese
+		plural = Addalerese
+		home_planet = Addaleryn
+		home_system = Saggs
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	acclaimedjudgment = {
+		name = Addaber
+		plural = Addaber
+		home_planet = "Acclaimed Judgment"
+		home_system = "Muted Glory"
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	corisef = {
+		name = Corissian
+		plural = Corissians
+		home_planet = Corisef
+		home_system = Ganarerko
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+	dorpeorri = {
+		name = Dorpeoran
+		plural = Dorpeorans
+		home_planet = "Dorpeorri Prime"
+		home_system = Dorpeorri
+		name_list = "cybrxkhan_fantasy_dwarven_2"
+	}
+}

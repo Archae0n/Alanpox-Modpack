@@ -1,0 +1,275 @@
+﻿### Handmade hephthalite
+### Names from my Hephthalite culture in my RICE mod tossed into a Markov generator
+cybrxkhan_handmade_hephthalite = {
+	category = "Toxoid" # Because it's funny
+    ### SHIPS
+
+    ship_names = {
+
+        generic = {
+            Abadeo Abah Abai Abaiskur Abali Abayabha Abazuk Abru'unj Abruk Adabi Adva Advabalipt Advan Advathuny Afarshlowmaz Afri Afrin Afriyanaujrar Afrohobaz Afrowut Afsh Afshan Afsharaseytsa Afshatashpat Afshela Agad Agadmavara Agan Agmak Agtkastaya Ahikasharka Ahikhoniduk Ahisamagi Ahufra Ahufri Ahuk Ahun Ahunja Ahunla Ahusika Ahut Ainavatich Ainshara Airavadhaf Airgey Ajai Ajan-sapati Ajannan Ajanosavala Akhanatiya Akhara Akhartala Akhcy Akhsiomana Akshari Akun Akurjirumb Alaharobi Alaq Alch Alchalan Alchemino Alchipanaka Alchy Algan Alusiddh Aman Amarak Amay Amen Amihapusha Amihr Amitan Amog Amon Anan Anasraz Anda Apar Apdab Apdaghan Apdahagunyand Apdarg Arbilcha Ardat Ardhavka Areisha Arihruma Arikodmara Arimy Arina Ariya Ariyami Arshkamjamand Arsokhayan Arta Artakam Artala Artalat Artan Artandava Arte Arteper Artesti Arthan Arthaq Artoser Aruga Arxanjananama Arzik Arzoma Ashag Ashah Ashardata Ashuy-e Aspar Aspara Aspurda Asta Astalg Astan Astardhi Astra Asugadarat Asugdar Asugupt Asuranna Asurgaragmay Asuy Asuyan Atbaiyyan Atbazm Atbazu Atbeka Athamen Atra Atukshal Avda Avdania Avdatha Avdavara Avdavatar Avga Avgala Avgandan Avik Aviz Avya Avyan Awirka Awirukhishun Awitandarahan Axsh Axshachizokon Axsher Axur Axurdokon Axurpala Axurukalizh Ayabahliticha Ayabushach Ayaka Ayakarbil Ayanda Ayarghishoad Aykali Ayketas Aykhan Aykhodmoy Ayodk Ayodomogshcy Ayot Ayoth Ayva Ayvahan Azukana Babahadez Babardoman Babat Babhishara Baca Bach Bachak Bachirahak Badevath Badhaki Badizm Bagadip Bagadra Baganav Bagarat Bagashoba Baghthamb Bagma Bagsht Bagti Bagtichuptand Baha Bahadanchin Bahansim Bahitip Bahliz Bahut Baivarg Bakr Bakshom Bakshonzu Bala Bama Bamankalanaha Bamezdan Bamiurabai-ka Bamoo Bampa Barkun Barsykharshan Basa Basamar Basarna Basarv Bashcy Bashindishna Bashkana Bashki Bashnana Bashnu Bashpala Basimitanzo'i Bazdgisha Bazeshand Bazm Behala Behanaka Behar Bekar Belanka Berjinakat Berkanthra Bermara Berozd Bhahli Bhak Bhali Bhan Bhana Bhar Bhas Bhasavar Bhatutra Bhikalareg Bhimy Bhinoshodhr Bhirangi Bhisa Bhishufri Bhivan Bhukharabardh Bhutan Bhutraman Bidana Bidungh Bilberka Bilg Binawshi Bindari Binj Bint Bodar-e Bodhishka Bodhrath Bodma Bokan Bokatumarghi Bokhkhtulf Bokondasim Bokowushalya Bono Boranka Bori Boshak Bosharg Boshol Bozda Bozi Bravakshaya Briguptams Brih Brihiz Brina Brinakenak Brita Britadhi Briya Briyagar Briyarakhsh Budangi Budhana Bukhonz Bukhoy Bukyankala Bundina Bunyanghuk Burc Buryigo Busug Byrmapura Byrthania Caka Cakhandal Cakimitu Camar-e Camayniand Camez Campidoka Catchaq Catchermakal Catkodmoo Chad Chadhaksey Chadyotandra Chakk Chamarani Chan Chani Chaon Chara Chardhyin Chardono Charkonzu Charra Charta Charzomi Chashti Chathi Chavab Chavavta Cheha Chehab Chehatta Chel Chellnaman Chem-e Chema Chemiy Cher Chergarat Cherowes Chesenodev Chicchora Chichadeog Chiga Chika Chikaman Chishperg Chishtumanai Chisim-e Chituma Chiz Choadevra Chob Chojan Chojanchorsor Chollowuskon Chomig Chon Chonya Chonzomina Chorlananadra Chot Choweshki Choy Chuan Chuananchaya Chukyangir Chun Chushon Chutra Chutta Chyan Chyigandrat Dab-e Dabahakhtul Dabhala Dabhankanga Dagandi Dagarasimichy Dakath Damiga Dana Danna Danvavar-e Daraha Daraz Darenan Darsothari Dartan Dartosh Darvandarohan Dasa Dasandrapurya Dasharamavala Dasimnu Dasiy Dasiya Datganasey Dats Dava Davadhashun Davak Dehan Dehanaura Dehar Deharavelanna Dehaykhishita Dehbahura Dehbarad Dehbavtanka Dehqanam Deoga Deva Devakshan Devanandares Dewalaigarik Dewba Dewbagun Dewbahata Dewbarahli Dhadevavavya Dhafir Dhag Dhagrasenakal Dhaha Dhak Dhaka Dhalananz Dhama Dhapidand Dhartan Dhat Dhukavaniga Dhunahrag Dhunbayk Dhushuk Dika Dikhaynch Dilandishan Dilbarab Dilbayakhath Dina Dinarwazm Dinda Dint Dithrend Divartamitaw Dizh Dizm Dizoka Dizoy Dobaha Dobiliskunan Doka Dokamiyan Donzob Dovadivathra Dukan Dukuh-e Dumar Dumarty Duna Dunakuh-e Dung Dunjana Dunwalog Dura Durat Durg Durgaonid Durgarahar Durlan Durya Duzd Duzga Dynch Dynig Ekseng Eksharienora Ekshkamag Ekshkimiur Erana Esharapali Eshartano Eshi Eshkal Eshkathujama Eshnu Eshta Espa Etamusa Eyodhareg Eyodo Eyomozikab Fani Fankan Faramurghut Farast Fardokhasak Farkamareng Farna Farthand Farvizhado Ferghun Ferman Fir-e Firajampad Firanauta Firi Firika Firya Fora Forarakhshi Foravak Forh Forzi Frech Fredyoma Freisfara Frikama Froko Gadewba Gama Gami Gamoo Gana Gang-i Gara Garieneshaka Garna Gataga Gathi Gatka Ghaka Ghalaq Ghan Ghana Gobartan Gobervan Gopa Goparikha Gopitab Gopithin Govari Govishkhsima Goyab Goyana Goygadisavon Goygand Goyta Goytaya Grak Graka Gran Gras Gratch Gru'ung Gru'unt Grudanshka Guangari Guanna Guano Guda Gudhunavan Gugdaniskuvak Gugdksh Gundayyam GunKhemin Guny Guragan Guraja Gurdakhana Gurdom Gurgas Guridukhukar Guroz Gurpasavan Guzdgi Guzgala Guzganatumbil Guzganchimy Guzgar Guzgarapar Hafshichan Haih Haiva Haiyya Haka Hakan Hakara Hakatrusti Hakin Hakr Hakuvalardoma Haliz Hara Haran Harat Hares Hargan Hariki Harogshtaki Harv Haryan Hasa Hasalaq Hasbakk Hash Hashaf Hashaybatesh Hashperjini Hashuishan Hasindana Hasra Hiddhilch Hido Hidovanen Hidukala Hidusavagtka Himishana Himiyakina Hushan Huvan Huvishui Ilahuhz Ilana Ilgasramariha Indez Indhayan Indita Indiz Indukyan Irkan Irki Irkonisorzika Irkun Isha Ishak Ishakullaksh Ishapul Ishemay Isht Ishta Ishtiya Jagadewbai Jagana Jality Jamitikhon Jardob Jatga Jinaga Jinavangupa Jindila Jinjanch Jinti Joui Jouisal Jouishnurdhut Jouishtakati Jura Juragur Jurasa Juyanj Kabudha Kach Kafara Kafareisthra Kafarkan Kafir Kafirasa Kafirik Kafirowuty Kafra Kafrihivan Kafsh Kaigurgao Kakaini-Kama Kakanc Kakhi Kakhravab Kakhsha Kakr Kala Kalak Kali Kalika Kalip Kaliti Kaloges Kamegeytshun Kamikhtip Kamozhan Kampra Kan-saurd Kanak Kanamak Kanana Kanash Kanatut Kanay Kand Kandaraw Kanduka Kanganvadeo Kangi Kani Kanjareshkan Kankan Kanobi Kanvandana Kapadha Kapali Kapar Kapul Kapura Kapurapirna Kapurya Kar-e Kar-i Kara Karan Karapishaya Karatrya Karazu Karbid Kard Kardiki Kardkharvava Kari Karin Karinti Karka Karna Karsykhan Kasaraya Kashang-i Kata Katang Katangankan Katarana Katcharasha Kathaka Kathara Kathisha Kathrazes Kati Katik Katkariterjin Katra Katsaf Katsavan Kattab Kauksha Kaushuntanka Kavagan Kavakra Kavandamanna Kavaraw Kavel Kawadravath Kawsherdabhi Kawshka Kaya Kayanakshach Kayanangapa Kayang Kayavak Kayiguda Kayka Kaymuulipta Kaymuun Kayya Kenana Kenananda Kendratbazes Kentam Keta Ketaf Ketanava Ketasagart Ketfara Khab Khadez Khaf Khagart Khak Khaka Khakraz Khakshlizoyab Khamihr Khampita Khan Khar Kharzan Khatipulla Khavabarra Khebost Khemaya Khest Khilabila Khin Khip Khira Khirganghtut Khirkhor Khisfarvis Khishung-i Khoada Khob Khode Khol Khomitan Khonya Khor Khra Khshan Khshishki Khshka Khshticchim Khu-y'n Khui Khuishka Khujrathandun Khukaca Khukha Khun Khunda Khunja Khurak Khurdunhuka Khuvizoboz Khwada Khwadra Khwago Khwakamano Khwara Khwasag Khwasharapar Khwashuj Khwasiyatha Khwaymu Kidatsangar Kidi Kidkya Kira Kiravalowut Kirdhava Kirganda Kirihav Kirkangi Kirusiyya Kisahlogara Kishadathun Kishara Kisharadon Kishardk Kishervak Kishtryamb Kiskuh-e Kissagupa Kisva Kodewadeo Koha Kohani Kohaonda Koho Kohuskodhad Kolla Kollnan Koni Konorshoni Korhoko Korlaq Korsha Kosagra Kosermeg Kosh Koshonzu Koshra Kosht Kozarg Kozd Kozgadhag Kozi Kozin Krdakung Krdh Krdkyab-e Krdukhsi Kshakhan Kunam Kunbi Kundanch Kundarathan Kundia Kungan KunKhankan Kunzoyaganch Kuraburafar-e Kuradhanguda Kuram Kurapayamarez Kurasti Kuratshapara Kurazu Kurg Kurgananaray Kurghaniandar Kuriharbi Kurka Kurlashut Kurpay Kurugdkhtrak Kusagtk Kush Kushara Kushcy Kushtulmatal Kushuti Kusi Kusiyats Kustarn Kuvisha Ladrana Lala Lalaq Lalgana Lalikanam Lanadewbar-e Larkharg Latfarenes Loik Loikalan Loikhlo Loikhshil Lowushala Lrog Lrohungana Lrow Lusard Luspayidkya Magte Maha Mahab-e Mahaki Mahan Mahana Mahanghareg Maharannasena Maharen Mahares Maharna Maharuma Maharwashran Mahatamranom Mahlang Mahlishaya Mahra Mahraka Mahrata Mahya Mahyid Makhatvuz Makhlo Makju Maksem-e Makshodabhag Mana Manchin Mand Manghasikin Manka Manna Mar-e Marama Mardarawar Marejaya Mares Marg Marga Margan Margargasbay Mari Marn Marshavtaya Marvisha Maryari Maryin Mata Matk Matra Mauka Mauksetam Maurg Maushashan Maushusk Mawadh Mawaka Mawalikim Mawaz Mawsh Mawshmi Mayarvishadra Mayid Mayidatiyan Mayn Maynch Mazm Meka Mekh Mekhafara Mihagi Mihaharka Mihand Mihapurdat Miharati Mihisfar Mihra Mitabid Mitachel Mitananak Mithi Mitip Mobai Mobid Mogartana Monorhon Mopali Mopat Mopitachin Moqan Moqana Moqanibovada Moyga Mozanauk Mozd Mrga Mrgeytapur Muda Mudanchutra Mudhid Mullnamaresh Mullok Murali Murapushaym Muryaksem-e Muulf Muun Nafaraymt Nafarvakhshan Nafiri Nafra Nafshik Naghand Nagmar Nagupal Nahar-i Nakservar Nakshurapa Nalipura Nama Namar Namaykarka Nament Namprednya Nanamindarka Nanan Nanch Nand Nandabudhani Nandala Nandargasi Nandharayab Nandi Nandumbalanj Nang Naniyag Nanj Nanka Nankakraja Nanna Nanzoy Nara Narada Naradhrayz Nargo Nargoshapad Naroma Naubagan Naubhankana Naukath Nausha Nauta Navik Nelan Nenta Neshadra Nestaf Nevagasagarta Nevar Nevarvishan Nevra Nevran Nevrat Niga Nigano Nigosth Nika Nikhcha Nikhchar-kony Nikhsikindati Nini Ninzomasbai Nobid-ja Nobodhav Nodagasardo Noka Nokarkar Nokhad Nokhobiduzd Noki Nokodob Noma Nomitapath Nomitargash Nosapurdat Nowetar Nowetfari Nukhaki Nukk Nura Nurya Oaka Oeshak Oeshasht Oeshui Orman Ormara Ormavanan Ormen Orogdam Orow Orowuta Orsha Orsorlasiom Orzanzu Orzik Osagupal Oshicch Oshlad Oshon Oxya Oxyan Oxyangi Padabi Padatu Padeo Padeoganaka Padhavatka Padhuh-e Padi Padivar Padrak Pala Palanaw Paloweshmara Pamoz Pana Panakha Panani Panchatayan Pand Panid-jan Panna Para Paradash Parandan Paraw Paregeyta Pareishaq Pareja Parg Parkala Parmu Parta Paryak Pasakragtk Pasarmana Pasbad Paser Paserm Pashpam Pashush Pashushtiki Pasi Past Pastayid Pata Patan Patar Patbeka Pate Path Patha Pathad Pati Patk Patruda Patu Paty Paya Pednya Pednyan Pedyodi Perdoberdhra Perjind Perkowetfarta Perm Permazes Pidamenth Pidinaisa Pidoka Pirapurdharya Pirdukan Pirni Pisampiskunla Pisarjika Pish Pishka Pishkamak Prab Pradevan Pragaras Prahushaka Prak Prakalaq Pran Prana Prasha Prashina Prata Prati Prawsht Prayn Praz Predyot Preg Priamik Priand Priena Priha Prihra Prikhlan Prim-e Prin Prindamogang Prindan Prinido Pritangi Pulf Pura Purak Puraka Purali Puramogar Puran Purana Puratasharezd Purg Purga Purgaonzodeo Purkat Purkunta Purlanna Purushan Purya Puryagmayan Puryana Pusaw Pushat Pusht Pushtiy Pushtrak Pusi Pusiyabura Pusuy Putan Putru Putta Qard Qarna Qaryan Qiamez Qiampitipura Qian Qiavka Qotharik Qothavisvag Qothurkurkony Qulf Qyrmushmaz Rabahab Rabajannaskun Rabar Rabarakshaliz Rabura Radaishati Radaryab Radevavagupta Radin Radom Radra Radran Radyot Raigatar Rain Rais Raisa Raivathan Raiy Raiya Raiyanavalai Raja Rakhadma Rakhin Rakk Rasakhsh Rasar-e Rasarhob Rasemaz Raser Rash Rashareg Rasharv Rashes Rashin Rashujraj Rasika Rasim Rasra Rasta Rastannaut Rathara Ravareshuh-e Razu Robahab Robazes Robilaiyab Rogadhujan Rogd Rogeytak Rohanakenobi Rohoktal Rosta Rostani Rowetan Rowetaya Rowutaniya Rowuti Rozd Rozh Rupar Rupayn Rupt Rupta Sadhadik Sadhaka Sadhana Sadhar Sadokha Saka Sakana Sakara Saket Sakhrakshtif Saki Sakin Sakk Sakra Saksh Sama Samagob Saman Samanana Samanna Samavakambil Samb San-santhr Sana Sanasahliz Sanasrathan Sanauravaka Sand Sanda Sangan Sankardivat Sanna Sano Sanoshisaketh Santun Sanzobid Sapa Sapatuo Sapura Sapurat Sapurya Sara Saran Sarazom Sardarwal Sareituka Sareja Sargan Sargaono Sarh Sarka Sarkhshavana Sarna Sarthi Sem-e Semarajarbidi Semarat Sengi Seno Serv Shach Shachema Shadh Shadik Shadyid Shafarka Shafirkatgan Shafirog Shagapur Shakani Shali Shalikhshti Shalisiy Shan Shana Shanamur Shandatanjan Shanjan Shapurak Shaq Shar Shara Sharam Sharama Sharashikana Shardani Sharkan Sharsokasara Shashodo Shata Shatta Shavellowutan Shaya Shayn Shebodma Sheka Shemannak Shemaryan Shik Shil Shilaq Shilg Shin Shina Ship Shirohowut Shisan Shish Shisha Shisharjinj Shishpat Shishpe Shisi Shissag Shista Shityr Shkala Shkan Shki Shma Shna Shob Shobilch Shodmogdkya Shom Shon Shonzobah Shoytan Shra Shtagshkinc Shti Shtif Shtisht Shtut Shu-y'n Shuf Shufrina Shuja Shukinzobil Shukuna Shungi Shura Shuratut Shurgana Shurgar Shusa Shusapur Shushukulf Shutadrak Shuyang Siama Sijinsin Sijiri Sika Sikana Siki Sikinanen Sim-e Siminthran Simitar Sisausaregh Sisiomogadez Siva Sivan Sivana Sivat Sivatsa Siyan Siyana Siyari Siyya Skakshcy Skatulmay Soka Sokat Sokhra Sokhshon Soki Sorama Sorlaisorla Sorzob Spid-janjana Spirarika Spishmazest Spith Srienes Srikhalikhsh Sritar-kosh Stya Styrmez Subadrayn Subaiya Subakinata Subaryigara Subhan Subhanaha Subhatrya Subhayab Subhi Sugd Sukhil Suksendaresh Sukyan-sangi Sundastoshka Sunj Sunla Suntag-zinti Surkari Surozin Suy-e Suya Suyanawagadeo Syka Syrmenodkya Syrtes Syrtesey Tala Talg Talikhakjuma Tama Tamadezdgi Taman Tamarxan Tamazd Tamih Tamitarg Tamoyan Tang Tar-e Tar-kosagys Tara Taraj Taraksimy Taranja Tarasikindah Tarednyala Targ Targhapisva Tarka Tarkinda Tarn Tarnam Tarraba Tarrashk Tarv Tasika Taxil Tayn Tepe Tephtra Terdarthuna Terkishch Terman Termaranida Terobarvar Tira Tirakr Tirgh Tirn Tirud Tisam Tishisha Tishtra Tishuvin Toganj Togashanc Togatanduz Togavarka Togda Togshanna Tokama Tokamin Tokaraya Tokasansimiya Tokharva Tokhres Tokonya Topida Topitkamra Tragalipuran Trakestan Tramuul Trav Tu'i Tu'una Tuka Tukan Tukhowmar Tukhsharvika Turahar Turavan Turaz Turg Turu'i Turuma Tymt Tymurpayz Ubhana Ubhaput Ubhi Ubhishan Udagi Udatukut Ugla Ujja Ujjahab Ujjai Ujjaivali Ujjan Ujjancharegha Ukha Ukhsh Ukhshakra Ukhshkarna Umzo'i Umzoy Urajanahla Uran Usal Vadarogdab Vadhapashra Vadhar Vadi Vagan Vagarakhuti Vagari Vaghuf Vagirka Vagra Vagshka Vagti Vagyst Vaha Vai-Kaprez Vaishan Vaiy Vaiyan Vaja Vajahana Vajayigul Vajinsimy Vajirgob Vakak Vakar Vaken Vakha Vakjuman Vakr Vakshvaketan Valani Vali Vamayin Vamaz Vamichareg Vamoo Vampren Vandaruka Vara Varahao Varak Varamoy Varan Varashishuy-e Varaz Varduka Varespurana Varidi Variya Vartaw Varvak Varvish Varzin Varzoyta Vatal Vate Vath Vathad Vathak Vatharg Vathra Vathshnur Vatikatagshu Vatikhshan Vatisauraz Vatrak Vatran Vatsahakuh-e Vatsam Vatshtung Vatumzoy Vaty Vatyrma Vavar Vena Venak Venayk Vend Veneno Venesendivan Veno Veshatephtika Vhag Vhaketh Vhalikina Vhan Vid-jan Vidaratshan Vidina Vina Vind Vini Virazeshushag Virdh Vishak Vita Vitapra Vitara Vizoga Vohodez Vohuvana Vrahalyan Vrakan Vran Vrana Vrashi Vratta Vrazesp Vriavakhik Vrig Vrihrag Vrikhigh Vriy Vriya Wadili Wag-zin Waga Wagad Waganga Wagashti Wagathati Wagi Wagudhashan Waguli Wakhota War-e Wara Waraga Warawshti Wardono Wardukachi Wareg Warez Warhrez Wari Warya Warzikam Wasarashavaga Wash Wasimishon Wasratsarna Wastha Wina Windukhshala Winodi Wiri Wirin Wishan Worazm Worh Worhra Worhraz Worihaprakk Worsyr Wusara Wushalikhsha Wushashtuma Wutis Xanan Xandra Xanjai Xoadeogan Xoadeoganda Xoadhi Xoadhip Xoadhra Xoadila Xoadmara Xoado Xoadrakshti Xunbag-zin Xuta Xutikaca Yakan Yakharmeg Yanakju Yananiyardhar Yand Yanda Yang Yanka Yarafrokon Yargan Yarte Yaru'i Yathra Yava Yavaka Yavan Yavanasiya Yavarma Yavarsokhshye Yavath Yavtara Yerjikak Yermentuka Yesh Yeshk Yidoboziki Yila Yilkhlowmarna Yilkhoy Yinaketa Yodasapatta Yodiz Yodo Yozd Yozhayn Yozhitak Yudana Yudat Yudath Yudh Yuh-e Zana Zangi Zanka Zaryigasava Zbartoshti Zbazu Zeng Zengil Zhanch Zhishardom Zhiti Zhivak Zhunya Zhutalana Zmitar Zmiuru'i Zran Zunat Zymusama
+        }
+
+        corvette = {
+        }
+      
+        destroyer = {
+        }
+      
+        cruiser = {
+        }
+      
+        battleship = {
+        }
+      
+        science = {
+        }
+      
+        colonizer = {
+        }
+      
+        constructor = {
+        }
+
+        mining_station = { }
+        research_station = { }
+        #wormhole_station = { }
+        #terraform_station = { }
+        #observation_station = { }
+        #outpost_station = {
+            #random_names = { }
+            #sequential_name = "%O% Frontier Outpost"
+        #}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		} 
+    }
+
+    fleet_names = {
+        random_names = {
+            "Axshun Khilga Horde" "Oxyabus Horde" "Kawayab Horde" "Advani Horde" "Kushta Horde" "Harazes Purghan Horde" "Asha Budhan Horde" "Marathira Horde" "Kampitha Horde" "Juratta Horde" "Bhapuraz Horde" "Alchan Horde" "Chak-Khujan Horde" "Sakhana Horde" "Khadew Horde" 
+        } 
+        sequential_name = FANTASY_HUNNIC_HANDMADE_xxFLEETNAMES_ORD
+    }
+  
+    army_names = {
+          
+        generic = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxASSAULTARMY_ORD
+        }
+      	
+        machine_defense = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxMACHINEDEFENSE_ORD
+        }
+          
+        machine_assault_1 = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxMACHINEASSAULT1_ORD
+        }
+          
+        machine_assault_2 = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxMACHINEASSAULT2_ORD
+        }
+          
+        machine_assault_3 = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxMACHINEASSAULT3_ORD
+        }
+	
+        defense_army = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxDEFENSEARMY_ORD
+        }
+          
+        assault_army = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxASSAULTARMY_ORD
+        }
+      
+        slave_army = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxSLAVEARMY_ORD
+        }
+      
+        clone_army = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxCLONEARMY_ORD
+        }
+      
+        undead_army = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxUNDEADARMY_ORD
+        }
+      
+        robotic_army = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxROBOTICARMY_ORD
+        }
+      
+        robotic_defense_army = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxROBOTICDEFENSEARMY_ORD
+        }
+      
+        psionic_army = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxPSIONICARMY_ORD
+        }
+      
+        xenomorph_army = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxXENOMORPHARMY_ORD
+        }
+      
+        gene_warrior_army = {
+            sequential_name = FANTASY_HUNNIC_HANDMADE_xxGENEWARRIORARMY_ORD
+        }
+				
+		occupation_army = {
+			sequential_name = FANTASY_HUNNIC_HANDMADE_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_HUNNIC_HANDMADE_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_HUNNIC_HANDMADE_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_HUNNIC_HANDMADE_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_HUNNIC_HANDMADE_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_HUNNIC_HANDMADE_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+    }
+      
+
+    ### PLANETS
+
+    planet_names = {
+
+        generic = {
+            names = {
+                Afra Ahitand Air-kan Airniga Akhapurapa Akhlo Ayodh Ayodhyab Ayodhyaguda Ayodhyamishti Badharkand Badianain Badisha Badrapa Bai-Kal Bain Bainjan Bainjikangh Bakalan Bakat Bakatra Baketarala Bakha Bakhan Bakhara Bakhsikan Bala Baland Bali Bhanna Bhara Bhasant Bhavabhana Bhipura Bhira Bhirkalab Bhitand Bodha Bodhabusaniya Bukali Bukan Bukatrangh Bukhabha Buna Bunai Bunhuan Bunhusht Cambi Cambin Camin Camishasikat Camra Camura Chabarasth Chagara Chagulmarkana Chan Chanch Chapuralab Char Charahasth Charkali Charkan Dabhicchasi Dabhitapura Dabinjin Dabusha Deoga Deoganch Deogapish Dilbermez Dunhuj Dunhuttapuras Erampa Erasi Gayagaon Gaykath Guga Gugadrapala Gunhura Gunhusika Gunhutra Guzgandanda Guzganjin Guzgapura Inda Indabusiyyaga Indra Indraha Ishabahand Ishaganna Isharaha Ishkaland Ishkatari Ishtan Ishtanda Jaga Jagara Jagunjikanna Kafir-kan Kafira Kafiri Kafirikach Kafirikhsh Kafirkali Kafirkanan Kafirkandan Kafirnigan Kafirnighol Kafirniya Kafirniyab Kafirniyagara Kafirniyya Kala Kali Kana Kanant Kanda Kangi Kanigh Kant Kapa Kapisvarwala Kapuran Kapurasiyab Kapurazm Kapurusikha Kaujai-Kan Kaujanjand Kaush Kaushkala Kaushtanna Khitarala Khuan Khuand Khuj Khujan Khura Khuram Khurusa Khusaguda Khusharh Khutrant Khutrayikata Khuttarapisht Kisagulma Kisangi Kishari Kishtapra Kishti Kisvabhita Kisvaramura Kisvarasi Kurali Kurapura Kurayan Kurusala Kushtika Kusikanchisa Magan Magara Magarkan Magudan Magudara Mara Marganjanai Mari Markana Marusiyyam Mataliz Mathurazm Maya Maykala Maykalasth Mekancharal Mekannaubaha Mekant Mekatram Mekha Mekhaputra Mekharra Mekhatsa Mekhlo Mekhsikinjika Merjin Mermez Mihicch Mihisagun Mihisht Mihishtand Mihitala Mihitalancha Mihitanna Mihitaraha Mrga Mrganvishti Mrgapurahat Mrgara Mrgh Mulma Mulmara Multala Multarkan Nagadian Nagarda Naka Nakan Nakhan Nakharaha Nakhari Nakhlo Nakhshasi Nakhsikatrazm Nalab Nali Naubarh Nausha Nausi Navarkat Navekhacharra Navekhlo Panda Pang Pant Patala Patranghol Patsaga Paya Payab Payambi Payikaliz Paykat Pisa Pisha Pishkan Pisht Pisvan Praniyaga Prapurasapa Prazm Pura Purasi Purasiya Purasiyyam Purgadran Purgh Purgha Purush Rabhacchapura Rabi Rabusand Rabushtala Sakalaina Saketan Sakha Sakhlo Sakhsh Sakhshara Sakhshta Sakhsi Samish Sampa Samurgarkan Sanasanch Sanda Sanighol Saniyyan Sant Sara Sarh Sarra Sarukhang Shtan Shtari Shti Simin Simish Simisha Sivabarikath Sivabhas Sivarkatram Suyabusha Suyambina Suyan Tala Talan Tali Tama Tampalas Taxilai-Kan Taxilberv Taya Tayikhsht Tayikinain Taykaniya Terjikhangi Terjikhari Terv Topda Topdant Topdara Ujjai-Kan Ujjaisha Vadian Vai-Kal Vai-Kanda Vain Vala Valabarikala Valasampa Vali Valipurgadh Valiputtala Vara Varazm Varghol Varh Vari Varrakhlo Vath Vathab Vathuj Vathuttar Vatraha Venghara Venghol Vidian Vidisvarastha Vidisvarh Wara Waran Waraniya Warapraha Warh Yara Yarazm Yarda Yarganda Yarh Yari Yarran		
+				
+            }
+        }
+      
+        pc_desert = {
+            names = {
+            }
+        }
+      
+        pc_tropical = {
+            names = {
+            }
+        }
+      
+        pc_arid = {
+            names = {
+            }
+        }
+      
+        pc_continental = {
+            names = {
+            }
+        }
+      
+        pc_ocean = {
+            names = {
+            }
+        }
+      
+        pc_tundra = {
+            names = {
+            }
+        }
+      
+        pc_arctic = {
+            names = {
+            }
+        }
+      
+    }
+
+	### CHARACTERS
+	
+	character_names = {
+
+        # Hephthalite based fictional names
+		names1 = {
+			weight = 100
+            first_names_male = {
+                Akhrazogasa Amiur Amiuradas Apaman Apartoshka Arta Artar Artatbekht Asparah Aspash Aspur Bagrangasura Bagwiro Bakho Bar Barendithi Baz Bazomad Bha Borzokhshka Bozgasina Bozindikhono Daraz Darg Dathirabat Eyomiuraz Fanzok Freg Frende Gathishka Ghanahagrabur Gruma Grumanak Gunzuk Has Huspamara Huspara Huvarka Jinawasra Kamanama Kan Kanishki Katbel Kavakhsh Kavishya Khalarma Khi Khirg Khwadatatan Khwaz Kido Kidoko Kidukulf Kosauka Kunlar Kunwadar Kunzoko Marend Marozgashki Nobel Nok Nokondithshki Nukhshk Oak Oeshala Oeshuti Oeshva Orma Oromiur Orsharg Pidang Pidatfar Pir Puskul Ratfarah Sade Sanak Saromana Sha Shang Sharg Sharnavaka Shirgomiur Sho Spithi Spitulf Sudhinawarg Sudhizoman Suka Ugladasa Uglan Ukhsh Vakhshya Varka Vohuti Vohuva Wag Wagun Wagwira Wareg Warg Warta Wartama Windi Yez Yezd Yilchi Yilchirozd Yozgashka Yozikha Yudhi Zhufritulf Zhumbahav Zhuti Zmiur
+            }          
+            first_names_female = {
+				Agal Agan Aganan Agat Aloweseys Alowesp Alushalik Alusugd Alusugdag Ardukhot Ardukshan Begerd Begerda Begerdukhtana Begey Dukhot Dukhshal Duksh Dukshal Dukshalik Dukshana Farg Fargal Fargat Faroganoshal Farogeys Farohot Farugda Firgal Firgat Firyig Ford Forda Fordag Fordukhtan Forduksh Frogalg Frogd Frogdag Frogdams Frogeys Frohomind Frohot Froweseys Harg Hargal Hargalik Hargana Harow Harowesp Khun Lahuhz Lahyig Logalg Logalik Logana Logdams Logeys Lrogan Lrogerd Lrogeys Lrow Mana Manan Manoshalg Mapredyid Mapredyig Mapresp Maprestokhot Muun Nan Nanoshalik Nawsh Nawshalg Nawshalik Nesey Neseys Nestokhsh Nestokhtana Predyid Preseys Presp Prestokhtan Purogd Purogda Purogdag Purogeys Purohominda Purohot Purowesp Puul Ral Ralg Rokhomina Rokhominda Rokhot Rokhsh Rokhshal Rokhtan Wadobarowesp Wadobarugd Wadobayan Wadobayana Wush Wushal Wushalg Wushalik Wusug Wusugda Zbarowesp Zbayan Zhina Zhind Zhindams
+            }
+			second_names = {
+				Afrikal Airahasan Airapurapalai Airigarapura Airniyan Alchol Alchonido Alchonigan Badeo Badin Badra Badrapura Bai-Kafira Bakala Bakhapisan Bamin Bamingila Chali Chara Chasan Chehapura Dilbermez Esharra Eshasa Eshkalite Eshkhirkamin Guganjan Gugapurush Gugara Gugarapura Guzgan Guzgara Hephthara Hephtharwalai Ishara Jagan Jagapala Jagapish Jagaranna Jagarapala Jagarwalite Jagudara Jindar Kafirigan Kapala Khinjan Khirnid Khishkala Khishkaminjan Khushkamina Khusht Khuttali Khuttanobil Kunbido Kunbil Kurahara Kurapalai Kurapura Kurushkala Marangil Marra Marwal Marwaliz Mekhalite Mekhapal Mekhirigapura Mekhish Mekhlo Mihinda Mihirnigan Multala Multano Nagan Nagandian Nagarxan Nauba Naubahagan Purushthaguda Robahapura Robahar Robar Robid Robil Sakamiyan Simish Sivabhara Tarego Tarra Tarwala Taxil Tayikali Tayikaliz Tephthara Tokhan Tokhlo Topdabhagan Tukhagapisht Tukhagarxan Tukhin Warwalite Xoadra Yuhush Yuhusharego Yuhuttala Yuhuttali Zaraniyana Zariganna Zarra Zarwalai Zenob Zunbido Zunbilai-Kala Zunda Zunduz
+			}
+            regnal_first_names_male = {
+				Apaman Huvarka Kunzoko Spitulf Wareg
+            }
+            regnal_first_names_female = {
+				Ardukhot Forduksh Logdams Purogda Wushal
+            }
+			regnal_second_names = {
+				Afrikal Alchol Bakhapisan Ishara Jagarapala Kunbil Nagarxan Sakamiyan Tarra Warwalite Yuhush Zarra Zunbilai-Kala Zunduz
+			}
+		}
+
+        # Sogdian based fictional names
+		names2 = {
+			weight = 25
+            first_names_male = {
+                Akhundak Akhwatnaikh Arde Arshannak Astrawaymt Astryang Avyan Avyandakhzans Babakk Barn Chakk Chen Cherdow Ches Chesay Churghakk Chus Chush Darshawch Devan Devanai-te Devanak Dhapur Diva Farhak Farnkhsetvand Farrus Frius Ghawch Ghos Ghoshifarxus Ghotashan Goshtaw Gurghak Horman Hormanakhi Indar Jimanak Khabada Khuddhebo Khuvvan Khwakk Khwan Khwanak Khwasa Khwasb Khwayanch Kunagha Kurzubannaik Kushtich Mech Muqan Nanak Nanamsawch Nandarsand Nang Nans Narroukhun Nawaspvan Nawtushfarz Nijatryam Nipad Papurzakh Patayidha Patnagh Pekan Pekandhkhshch Perdeshebo Perows Pesarrodarz Pujmanagh Ramshtich Rasach Rewak Rokhsich Sasb Satasan Shadasak Shahbanch Shapuraw Shesaf Shifan Spad Spadhkhidhak Srak Stak Surak Turghak Vanay Varakh Varkhus Varxun Vishak Viyushfarz Vuvarana Vuvir Wak Wana Wanai Wans Wishfarn Xeykhushart Zanaikhren Zymande
+            }          
+            first_names_female = {
+				Aghah Aghahramze Aghamze Aghat Anafshatis Anafsheh Ananch Anay Arghana Arghaneh Arghar Argharvang Arghay Banafshana Banaidhat Banayn Chan Chana Chatisamze Chay Cheh China Chinana Chirin Chirina Chirinafshet Chit Darvab Darvanak Darvanakh Funakhirin Furuzadeh Furuzansch Ghahrzadeh Ghaneh Ghatis Ghatisamanis Ghayn Ghonch Ghonchet Gol Golba Golbah Golshatisam Golsheh Kana Kanayn Kancheh Khanayn Khat Khayn Mahram Mahzadeh Makhin Makhirin Makhrzaneh Miwna Miwnanan Miwnang Nan Nanay Nancheh Nansch Navabah Navanscheh Navvabah Navvanai Navvanayn Nazgolba Nazgolshatis Nazgolsheh Nazilla Parvab Parvana Parvanis Parvina Parya Rananeh Roxan Roxanai Roxanakhit Sana Sanafshanis Sanak Saneh Sham Shamze Shan Shat Shatzakhram Shavvansch Shin Shirinafsheh Shit Touram Touranis Touruzadeh Touruzak Touruzakh Upachet Yasa Yenaidhaman Yenak
+            }
+			second_names = {
+				Afrak Afraz Afrazm Aketa Akhan Akhang Akhanj Akhojandarg Akhsara Akhshkashara Amartava Amiganaut Ampir An-safir Areitagh Ashan Ashang Ayketh Binzob Bundalan Bundargh Chaca Changju Chaniya Chyergh Chyerv Dabukhob Dabukka Dalan Darkuh-e Datepas Dehbalowut Diparaz Divalai Divalow Dokashrechan Dunhukhapayn Eshara Eshtut Far-e Farasara Fartagob Fermez Gabalai Gan-saramayn Gandath Garjikab Gisor Ilbar-e Ilkhant Ishkartepang Iskow Isorhob Janzoy Kabara Kabidehbai Kafraket Kalath Kampireitip Kanaveka Kanavkat Kandanj Kani-kang Kaniyya Karafna Kareshishan Kasafra Kasampir-e Keshagob Khshadilbai Khuan Kisfaraz Kisha Koniam Koniyakhsara Kshanna Kshapust Kurghd Kurghisowut Mardanaval Markon Masbai Masbard Maykani-khon Maymur Mermez Musharya Nakhsh Nasan Navon Navonj Nawaganth Nodmarg Nomichermen Nurghd Oshangand Oshon Oshtikab Pardarazest Pardoki Pir-e Pireshekak Pitikandalai Purkampira Qianjinzoyta Rakhujand Safir Safsh Safshishad Samigang Samir Samjan Samurkat Sardonjinj Sarkan Sartermez Semitikamaya Servardang Shachag-i Shanjinjang Shekakeshtut Shtikat Sikaketagun Sikand Simichana Siyakhodmoo Siyamar Soktanna Suyamargob Talyab Tarzoy Vakhkat Vakshan Vangaryab Var-e Varafir Varasha Varkala Varkana Varmez Warvangab Witikab Witikashach Worlai Yandara Yar-e Yargomaymu Yariam Yinchach Yinjikanth Yinzob Zarasarya Zardon
+			}
+            regnal_first_names_male = {
+				Babakk Farrus Ramshtich Shesaf Zymande
+            }
+            regnal_first_names_female = {
+				Aghah Chit Mahzadeh Navabah Touranis
+            }
+			regnal_second_names = {
+				Akhan Akhanj An-safir Ayketh Changju Dabukka Darkuh-e Datepas Fartagob Ilkhant Karafna Kasampir-e Maymur Oshon Servardang Tarzoy Vakshan Witikashach Yar-e
+			}
+		}
+
+        # Indian based fictional names
+		names3 = {
+			weight = 25
+            first_names_male = {
+                Ajatharvara Ajayin Amanda Anadravelaka Anaka Anandrathakya Ashakavarta Ashapadana Ashasha Ashuka Ashuta Bhanghunga Bharapalaka Bhasha Bhunga Bhutadha Bindaya Bindi Briddha Brihandayin Chaka Chakavaratka Champrasha Champratha Charapatishin Chathanda Chati Dasarvar Dasenanduka Dasha Dasharati Dasharavya Dashuka Dashukha Dasti Dastishaka Devanaka Dhanananancha Gopin Gopinaka Gopinan Gopinduka Govina Hashtrasha Hashtru Kaiva Kaivanduka Kaivarapalika Kaivathapata Kardhukha Karna Karta Kharda Khati Khema Khemara Khemarnanatru Koragupt Koranda Korandanaka Korata Koratasakya Koratrudhupt Koravarna Koravarvana Lalika Lalikavya Mahaka Mahandi Mahanjayin Mahardaya Mahasiddha Mahinaka Mahisaha Mananda Manandavavela Manchanaka Manchasti Manjaya Nagadravarda Nagupta Nanchampra Nandaya Nandi Pana Panaka Panana Pandhartasena Paraja Parapadhaka Parmaka Parvindanvana Pasaka Pasardhana Pashindayin Rashaka Rashoka Samaratka Sampradma Sanancha Sanjahan Saraja Sarmara Sarnananada Sarta Shadharnaduka Shaka Shalisahin Shana Shananga Shanata Shardhapala Sharvana Shigupalika Ubha Ubharatka Udasena Vadhanaka Vhadra Vhapati Virudha Virudhanduka Virudhata Visarda Vishaka Vishishandiva Vriddhashuka Vriha
+            }          
+            first_names_female = {
+				Basavadati Basavadhika Basavatta Bashmi Bashmitta Bashmittala Chela Dhadati Dhadhakunta Dhadhari Dhadmara Dhakjumara Dhakjumari Dhakjumarini Dhakuntala Dhami Dhamitta Dhamittala Dharangi Dhari Dhariyangi Dhariyanka Durdhadhara Durdhadhika Durdhadhra Durdhadmara Durdhakjumara Durdhakunta Durdhami Durdhamitta Durdharini Durdhariyanka Durdhika Durdhra Durdhrangi Nellna Padati Padatta Padattala Padhami Padhari Padhariyangi Padhra Padmaranka Padmarini Padmariyangi Padmavatta Padra Priyanghami Priyangharini Priyangi Radati Radatta Radattala Radhadati Radhakunta Radhami Radhara Radharini Radhra Radmara Radmarangi Radmarini Radmavatta Radra Radrangi Radranka Rakjumara Rakjumari Rakjumarini Rakjumavati Rakjumavatta Rakunta Rakuntala Rasavadatta Rasavadmarini Rasavadra Rasavati Rasavatta Rasavattala Rashmitta Rashmittala Sanghadhadra Sanghadhra Sanghakunta Sanghara Sanghari Sangharini Sanka Shadati Shadra Shakjumara Shakjumarangi Shakjumarini Shakunta Shami Shamitta Shara Shari Sharini Shariyangi Shariyanka Subadatta Subadhakunta Subadhari Subadhika Subadhranka Subadmara Subadmarangi Subadra Subadrangi Subhadhika Subhakjumara Subhakjumari Subhami Subhamittala Subhara Subharangi Subhari Subharini Subhariyanka Vajirangi Vajiranka
+            }
+			second_names = {
+				Ahaiyaga Aharihain Ayana Baha Bahan Bahanid Bahli Bahlipurya Bhaya Bhipti Bhipuru Bhishunasi Bodhaya Bodhya Brihanid Briharya Brihavatsa Brihayanid Brihayavatham Cameghaihan Deoga Erali Eram Gadradha Gaon Garaha Gasi Gulmatham Hadyotan Haiyan Haiyanchaiya Hameghaigha Hargadh Hayagayana Indraharyagan Kalikalana Kanda Kanvishta Kira Kiraharyan Kiranasika Kirannan Kirapra Kurahlipti Kurathuna Kurusagaon Kurya Maha Mahaiya Mahayan Mahitarain Mahli Mathan Mathavatarh Mauj Maurasthuka Mauru Maurukauranda Mausam Nala Nauraputra Naurukan Patrahitarh Pisaketaxila Pisapuraha Pishunasi Pradradrasi Praha Praihadh Prain Praiyan Pran Pranka Praprapurasi Prataryanchi Pura Puru Puryan Puryanka Putra Rala Randa Rapuraihar Sagadhyan Salabhipti Salikankan Samradyota Shampatana Shicchavala Shishipuru Shitan Shitankan Shitapurya Shitaxila Shta Shtar Shunaga Shunagan Shungadrali Shungarga Shungayan Shurya Tankausagarh Ujjaihaya Ujjaisakanaga Vaha Vahan Vaharatra Vahatsakanid Vahishunagan Vain Vaiyan Vaiyavatharh Valan Vana Vanaiya Varana Varasikala Vargadrasi Vargastha Varh Vari Varu Varusaketan Varya Vatanauraiya Vatanid Vatha Vathuna Vatrata Vatratana Vatsankauj Vatsapura Venga Vidishuka Visaga Visvarya Yanda
+			}
+            regnal_first_names_male = {
+				Bindaya Kardhukha Rashaka Shardhapala Udasena
+            }
+            regnal_first_names_female = {
+				Bashmitta Dhamittala Rasavati Shadati Vajiranka
+            }
+			regnal_second_names = {
+				Ayana Bhipuru Hargadh Kanvishta Mausam Puryan Shitaxila Visvarya
+			}
+		}
+
+
+	}
+
+
+}

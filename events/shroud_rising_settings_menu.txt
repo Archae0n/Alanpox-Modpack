@@ -1,0 +1,726 @@
+#################################################
+#### SHROUD RISING Horror Invasion SETTINGS #####
+#################################################
+# Written by LastLeviathan (for Shroud Rising Horror Invasion id=2809452753)
+# Refactored by FirePrince (for Daemonic Incursion id=2990642451)
+#################################################
+namespace = shroud_rising_trigger
+#################################################
+# shroud_rising_trigger.1 | MAIN MENU
+# 	shroud_rising_trigger.2 | DIFFICULTY MENU
+# 	shroud_rising_trigger.3 | (HIDDEN) Applies difficulty on menu close
+###################################################
+# shroud_rising_trigger.10 | (Hidden) Special Popup if added to a saved game *makes sure it only activates for 1 human player (in case of MP)
+# shroud_rising_trigger.11 | (Hidden) Game Start Popup *makes sure it only activates for 1 human player (in case of MP)
+# shroud_rising_trigger.12 | Popup Selection *choose what percentage chance for crisis
+# shroud_rising_trigger.13 | (REMOVED Hidden) Midgame trigger connected to on_action * (If disabled, will do nothing)
+# shroud_rising_trigger.4 | (Hidden) on_action on_bi_yearly_pulse or as console command
+# shroud_rising_trigger.5 | (Hidden) 100% trigger chance
+# Delay
+country_event = {
+	id = shroud_rising_trigger.0
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = { is_ai = no }
+	fire_only_once = yes
+	immediate = {
+		country_event = { id = shroud_rising_trigger.10 days = 9 } # Error target event is not of the correct type is fine!
+	}
+}
+
+# MAIN MENU
+country_event = {
+	id = shroud_rising_trigger.1
+	title = "shroud_rising_settings.1.name"
+	desc = "shroud_rising_settings.1.desc"
+	picture = GFX_evt_shrouded_planet
+	show_sound = event_psionic
+	is_triggered_only = yes
+	trigger = {
+		NOR = {
+			is_ai = yes
+			mid_game_years_passed > 40
+			has_global_flag = eye_of_terror_open # has_global_flag = eot_active
+			has_country_flag = sr_settings_active # has_active_event = { shroud_rising_trigger.1 }
+		}
+	}
+	immediate = {
+		set_global_flag = sr_settings_active
+		set_country_flag = sr_settings_active
+		if = {
+			limit = { is_variable_set = sr_difficulty }
+			clear_variable = sr_difficulty
+		}
+	}
+	after = {
+		hidden_effect = {
+			remove_country_flag = sr_settings_active # Only one
+		}
+	}
+	# Difficulty
+	option = {
+		name = shroud_rising_settings.1.a
+		custom_tooltip = shroud_rising_settings.1.a.tooltip
+		allow = {
+			NOT = { has_active_event = { shroud_rising_trigger.2 } }
+		}
+		hidden_effect = {
+			set_variable = { which = sr_difficulty value = 0 }
+			country_event = { id = shroud_rising_trigger.2 }
+		}
+	}
+	# FE spawn OFF
+	option = {
+		name = shroud_rising_settings.1.c
+		custom_tooltip = shroud_rising_settings.1.c.tooltip
+		trigger = {
+			NOR = { has_global_flag = eot_active has_global_flag = eot_spawn_not_fe }
+		}
+		allow = {
+			any_country = { is_fallen_empire = yes is_gestalt = no }
+			hidden_trigger = { NOT = { has_global_flag = eye_of_terror_possible } }
+		}
+		hidden_effect = {
+			set_global_flag = eot_spawn_not_fe
+			event_target:global_event_country = {
+				multiply_variable = { which = start_year_var value = 2 }
+			}
+			remove_country_flag = sr_settings_active
+			country_event = { id = shroud_rising_trigger.1 }
+		}
+	}
+	# FE spawn ON
+	option = {
+		name = shroud_rising_settings.1.d
+		custom_tooltip = shroud_rising_settings.1.d.tooltip
+		trigger = {
+			NOT = { has_global_flag = eot_active }
+			has_global_flag = eot_spawn_not_fe
+		}
+		allow = {
+			any_country = { is_fallen_empire = yes is_gestalt = no }
+		}
+		hidden_effect = {
+			remove_global_flag = eot_spawn_not_fe
+			event_target:global_event_country = {
+				multiply_variable = { which = start_year_var value = 0.5 }
+			}
+			remove_country_flag = sr_settings_active
+			country_event = { id = shroud_rising_trigger.1 }
+		}
+	}
+	# Exit
+	option = {
+		name = "FRONT_QUIT"
+		custom_tooltip = shroud_rising_settings.1.b.tooltip
+		hidden_effect = {
+			remove_global_flag = sr_settings_active
+			remove_country_flag = sr_settings_active
+			country_event = { id = shroud_rising_trigger.3 }			# Resets modifiers as needed
+		}
+	}
+}
+
+# DIFFICULTY MENU
+country_event = {
+	id = shroud_rising_trigger.2
+	title = "shroud_rising_settings.1.name"
+	# desc = "shroud_rising_settings.2.desc"
+	picture = GFX_evt_shrouded_planet
+	show_sound = event_space_cloud
+	is_triggered_only = yes
+	# trigger = { is_variable_set = sr_difficulty has_global_flag = sr_settings_active }
+	desc = {
+		trigger = {
+			text = shroud_rising_settings.2.desc
+			success_text = { text = shroud_rising_settings.2.0.desc
+				OR = {
+					has_global_flag = sr_difficulty_def
+					NOR = {
+						has_global_flag = sr_difficulty_1
+						has_global_flag = sr_difficulty_2
+						has_global_flag = sr_difficulty_3
+						has_global_flag = sr_difficulty_4
+						has_global_flag = sr_difficulty_5
+						has_global_flag = sr_difficulty_10
+						has_global_flag = sr_difficulty_25
+					}
+				}
+			}
+			success_text = { text = shroud_rising_settings.2.1.desc		has_global_flag = sr_difficulty_1 }
+			success_text = { text = shroud_rising_settings.2.2.desc		has_global_flag = sr_difficulty_2 }
+			success_text = { text = shroud_rising_settings.2.3.desc		has_global_flag = sr_difficulty_3 }
+			success_text = { text = shroud_rising_settings.2.4.desc		has_global_flag = sr_difficulty_4 }
+			success_text = { text = shroud_rising_settings.2.5.desc		has_global_flag = sr_difficulty_5 }
+			success_text = { text = shroud_rising_settings.2.10.desc	has_global_flag = sr_difficulty_10 }
+			success_text = { text = shroud_rising_settings.2.25.desc	has_global_flag = sr_difficulty_25 }
+		}
+	}
+	immediate = {
+		# Using this to omit extra scripted effect (for a single purpose)
+		switch = { trigger = has_global_flag
+			sr_difficulty_1 =	{ set_variable = { which = sr_difficulty value = 1 } }
+			sr_difficulty_2 =	{ set_variable = { which = sr_difficulty value = 2 } }
+			sr_difficulty_3 =	{ set_variable = { which = sr_difficulty value = 3 } }
+			sr_difficulty_4 =	{ set_variable = { which = sr_difficulty value = 4 } }
+			sr_difficulty_5 =	{ set_variable = { which = sr_difficulty value = 5 } }
+			sr_difficulty_10 =	{ set_variable = { which = sr_difficulty value = 10 } }
+			sr_difficulty_25 =	{ set_variable = { which = sr_difficulty value = 25 } }
+			sr_difficulty_def =	{ set_variable = { which = sr_difficulty value = 0 } }
+			default =			{ set_variable = { which = sr_difficulty value = 0 } }
+		}
+	}
+	after = {
+		hidden_effect = {
+			if = {
+				limit = { is_variable_set = sr_difficulty }
+				if = {
+					limit = { has_country_flag = sr_settings_active }
+					set_global_flag = sr_settings_active
+					# REMOVE_DIFFICULTY_SETTINGS
+					switch = { trigger = has_global_flag
+						sr_difficulty_1 =	{ remove_global_flag = sr_difficulty_1 }
+						sr_difficulty_2 =	{ remove_global_flag = sr_difficulty_2 }
+						sr_difficulty_3 =	{ remove_global_flag = sr_difficulty_3 }
+						sr_difficulty_4 =	{ remove_global_flag = sr_difficulty_4 }
+						sr_difficulty_5 =	{ remove_global_flag = sr_difficulty_5 }
+						sr_difficulty_10 =	{ remove_global_flag = sr_difficulty_10 }
+						sr_difficulty_25 =	{ remove_global_flag = sr_difficulty_25 }
+						sr_difficulty_def =	{ remove_global_flag = sr_difficulty_def }
+					}
+					if = {
+						limit = { check_variable = { which = sr_difficulty value > 10 } }
+						set_global_flag = sr_difficulty_25
+					}
+					else_if = {
+						limit = { check_variable = { which = sr_difficulty value > 5 } }
+						set_global_flag = sr_difficulty_10
+					}
+					else_if = {
+						limit = { check_variable = { which = sr_difficulty value > 4 } }
+						set_global_flag = sr_difficulty_5
+					}
+					else_if = {
+						limit = { check_variable = { which = sr_difficulty value > 3 } }
+						set_global_flag = sr_difficulty_4
+					}
+					else_if = {
+						limit = { check_variable = { which = sr_difficulty value > 2 } }
+						set_global_flag = sr_difficulty_3
+					}
+					else_if = {
+						limit = { check_variable = { which = sr_difficulty value > 1 } }
+						set_global_flag = sr_difficulty_2
+					}
+					else_if = {
+						limit = { check_variable = { which = sr_difficulty value > 0 } }
+						set_global_flag = sr_difficulty_1
+					}
+					else = { set_global_flag = sr_difficulty_def }
+					country_event = { id = shroud_rising_trigger.2 }
+				}
+				else = { clear_variable = sr_difficulty }
+			}
+		}
+	}
+	# 25x
+	option = {
+		name = shroud_rising_settings.2.a
+		allow = { check_variable = { which = sr_difficulty value != 25 } }
+		set_variable = { which = sr_difficulty value = 25 }
+		set_country_flag = sr_settings_active
+	}
+	# 10x
+	option = {
+		name = shroud_rising_settings.2.b
+		allow = { check_variable = { which = sr_difficulty value != 10 } }
+		set_variable = { which = sr_difficulty value = 10 }
+		set_country_flag = sr_settings_active
+	}
+	# 5x
+	option = {
+		name = shroud_rising_settings.2.c
+		allow = { check_variable = { which = sr_difficulty value != 5 } }
+		set_variable = { which = sr_difficulty value = 5 }
+		set_country_flag = sr_settings_active
+	}
+	# 4x
+	option = {
+		name = shroud_rising_settings.2.d
+		allow = { check_variable = { which = sr_difficulty value != 4 } }
+		set_variable = { which = sr_difficulty value = 4 }
+		set_country_flag = sr_settings_active
+	}
+	# 3x
+	option = {
+		name = shroud_rising_settings.2.e
+		allow = { check_variable = { which = sr_difficulty value != 3 } }
+		set_variable = { which = sr_difficulty value = 3 }
+		set_country_flag = sr_settings_active
+	}
+	# 2x
+	option = {
+		name = shroud_rising_settings.2.f
+		allow = { check_variable = { which = sr_difficulty value != 2 } }
+		set_variable = { which = sr_difficulty value = 2 }
+		set_country_flag = sr_settings_active
+	}
+	# 1.5x
+	option = {
+		name = shroud_rising_settings.2.g
+		allow = { check_variable = { which = sr_difficulty value != 1 } }
+		set_variable = { which = sr_difficulty value = 1 }
+		set_country_flag = sr_settings_active
+	}
+	# Default
+	option = {
+		name = shroud_rising_settings.default
+		allow = { check_variable = { which = sr_difficulty value != 0 } }
+		set_variable = { which = sr_difficulty value = 0 }
+		set_country_flag = sr_settings_active
+	}
+	# Main Menu
+	option = {
+		name = "BACK"
+		custom_tooltip = "RESIGN_TITLE"
+		hidden_effect = {
+			clear_variable = sr_difficulty
+			remove_country_flag = sr_settings_active
+			remove_global_flag = sr_settings_active
+			country_event = { id = shroud_rising_trigger.1 }
+		}
+	}
+	# Exit
+	option = {
+		name = "EXIT"
+		# Resets modifiers as needed
+		hidden_effect = {
+			clear_variable = sr_difficulty
+			remove_country_flag = sr_settings_active
+			remove_global_flag = sr_settings_active
+			country_event = { id = shroud_rising_trigger.3 }			# Sets difficult modifiers as needed
+		}
+	}
+}
+
+# Update modifiers
+country_event = {
+	id = shroud_rising_trigger.3
+	hide_window = yes
+	is_triggered_only = yes
+	# trigger = { exists = event_target:shroud_horror_country }
+	immediate = {
+		remove_country_flag = sr_settings_active
+		remove_global_flag = sr_settings_active
+		if = {
+			limit = { is_variable_set = sr_difficulty }
+			clear_variable = sr_difficulty
+		}
+		if = {
+			limit = { NOT = { exists =  event_target:shroud_horror_country } }
+			random_country = {
+				limit = { is_ai = yes is_country_type = shroud_horrors }
+				save_event_target_as = shroud_horror_country
+			}
+		}
+		if = {
+			limit = {
+				exists =  event_target:shroud_horror_country
+				event_target:shroud_horror_country = { is_ai = yes }
+			}
+			event_target:shroud_horror_country = { apply_shroud_rising_difficulty = yes }
+		}
+	}
+}
+
+#################################################################
+################ TRIGGERING THE CRISIS ##########################
+#################################################################
+# Special Popup if added to a save game to determine spawn chance
+# (on_game_start & on_single_player_save_game_load)
+event = {
+	id = shroud_rising_trigger.10
+	hide_window = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		NOR = {
+			mid_game_years_passed > 0 # Crisis set possible
+			has_global_flag = eye_of_terror_possible	# FOR TESTING ONLY
+		}
+	}
+	immediate = {
+		set_global_flag = shroud_rising_active # DEPRECATED replaced by trigger v.3.12
+		set_global_flag = sr_difficulty_def
+		every_playable_country = {
+			limit = { is_ai = no }
+			country_event = { id = shroud_rising_trigger.11 }
+		}
+		# Compat with WH40K (All that is Grimdark)
+		every_playable_country = {
+			limit = { is_ai = yes has_country_flag = chaos_empire NOT = { has_civic = civic_shroud_worship } }
+			force_add_civic = civic_shroud_worship
+		}
+
+		event_target:global_event_country = {
+			get_galaxy_setup_value = { which = start_year_var setting = end_game_year }
+			multiply_variable = { which = start_year_var value = -0.084 }
+			round_variable = start_year_var # Default -20
+			if = {
+				limit = { check_variable = { which = start_year_var value > -2 } }
+				set_global_flag = eye_of_terror_possible
+			}
+			log = "Init Shroud Rising; start_year_var = \\[This.start_year_var]"
+		}
+	}
+}
+
+# Popup at start to determine spawn chance (on_game_start_country)
+country_event = {
+	id = shroud_rising_trigger.11
+	hide_window = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		NOR = { is_ai = yes has_global_flag = eot_active has_country_flag = eot_host }
+	}
+	immediate = {
+		set_country_flag = eot_host
+		country_event = { id = shroud_rising_trigger.12 }
+		# country_event = { id = toxoids_decision.100 days = 3 }
+	}
+}
+
+# How likely would player like chances to spawn yearly once midgame hits
+country_event = {
+	id = shroud_rising_trigger.12
+	title = "shroud_rising_settings.1.name"
+	desc = "shroud_rising_settings.12.desc"
+	picture = GFX_evt_wormhole
+	show_sound = event_sensor_ping
+	# fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = { has_active_event = { shroud_rising_trigger.12 } }
+	}
+	immediate = {
+		set_country_flag = sr_settings_active
+		# Using this to omit extra scripted effect (for a single purpose)
+		event_target:global_event_country = {
+			switch = { trigger = has_country_flag
+				eot_100	=		{ prev = { set_variable = { which = sr_chance value = 100 } } }
+				eot_75	=		{ prev = { set_variable = { which = sr_chance value = 75 } } }
+				eot_50	=		{ prev = { set_variable = { which = sr_chance value = 50 } } }
+				eot_25	=		{ prev = { set_variable = { which = sr_chance value = 25 } } }
+				eot_5	=		{ prev = { set_variable = { which = sr_chance value = 5 } } }
+				eot_disabled =	{ prev = { set_variable = { which = sr_chance value = 0 } } }
+				default	=		{
+					if = {
+						limit = { has_global_flag = allthatisgrimdark_mod }
+						prev = { set_variable = { which = sr_chance value = 100 } }
+					}
+					else = {
+						prev = { set_variable = { which = sr_chance value = 25 } }
+					}
+				}
+			}
+		}
+	}
+	after = {
+		hidden_effect = {
+			if = {
+				limit = { has_country_flag = sr_settings_active }
+				# REMOVE_CHANCE_SETTINGS
+				event_target:global_event_country = {
+					remove_country_flag = eot_100
+					remove_country_flag = eot_75
+					remove_country_flag = eot_50
+					remove_country_flag = eot_25
+					remove_country_flag = eot_5
+					remove_country_flag = eot_disabled
+				}
+				# Resets modifiers as needed
+				remove_country_flag = sr_settings_active
+				remove_global_flag = sr_settings_active
+			}
+			if = {
+				limit = { check_variable = { which = sr_chance value = 0 } }
+				event_target:global_event_country = { set_country_flag = eot_disabled }
+			}
+			else_if = {
+				limit = { check_variable = { which = sr_chance value > 75 } }
+				event_target:global_event_country = { set_country_flag = eot_100 }
+			}
+			else_if = {
+				limit = { check_variable = { which = sr_chance value > 50 } }
+				event_target:global_event_country = { set_country_flag = eot_75 }
+			}
+			else_if = {
+				limit = { check_variable = { which = sr_chance value > 25 } }
+				event_target:global_event_country = { set_country_flag = eot_50 }
+			}
+			else_if = {
+				limit = { check_variable = { which = sr_chance value > 5 } }
+				event_target:global_event_country = { set_country_flag = eot_25 }
+			}
+			else = { event_target:global_event_country = { set_country_flag = eot_5 } }
+			if = {
+				limit = { check_variable = { which = sr_chance value != 0 } }
+				country_event = { id = shroud_rising_trigger.1 }
+			}
+			clear_variable = sr_chance
+		}
+	}
+	# 100%
+	option = {
+		name = "SECTOR_SHARE_FULL"
+		custom_tooltip = shroud_rising_settings.12.a.tooltip
+		allow = { check_variable = { which = sr_chance value != 100 } }
+		hidden_effect = {
+			set_variable = { which = sr_chance value = 100 }
+			set_country_flag = sr_settings_active
+		}
+	}
+	# 75%
+	option = {
+		name = "SECTOR_SHARE_THREE_QUARTERS"
+		custom_tooltip = shroud_rising_settings.12.b.tooltip
+		allow = { check_variable = { which = sr_chance value != 75 } }
+		hidden_effect = {
+			set_variable = { which = sr_chance value = 75 }
+			set_country_flag = sr_settings_active
+		}
+	}
+	# 50%
+	option = {
+		name = "SECTOR_SHARE_HALF"
+		custom_tooltip = shroud_rising_settings.12.c.tooltip
+		allow = { check_variable = { which = sr_chance value != 50 } }
+		hidden_effect = {
+			set_variable = { which = sr_chance value = 50 }
+			set_country_flag = sr_settings_active
+		}
+	}
+	# 25%
+	option = {
+		name = "SECTOR_SHARE_QUARTER"
+		custom_tooltip = shroud_rising_settings.12.d.tooltip
+		allow = { check_variable = { which = sr_chance value != 25 } }
+		hidden_effect = {
+			set_variable = { which = sr_chance value = 25 }
+			set_country_flag = sr_settings_active
+		}
+	}
+	# 5%
+	option = {
+		name = shroud_rising_settings.12.e
+		custom_tooltip = shroud_rising_settings.12.e.tooltip
+		allow = { check_variable = { which = sr_chance value != 5 } }
+		hidden_effect = {
+			set_variable = { which = sr_chance value = 5 }
+			set_country_flag = sr_settings_active
+		}
+	}
+	# Disabled
+	option = {
+		name = shroud_rising_settings.12.f
+		custom_tooltip = shroud_rising_settings.12.f.tooltip
+		hidden_effect = {
+			set_variable = { which = sr_chance value = 0 }
+			set_country_flag = sr_settings_active
+		}
+	}
+	option = { name = "OK" default_hide_option = yes }
+}
+
+# Deprecated
+# Once midgame hits, triggers the potential for Eye of Terror
+event = {
+	id = shroud_rising_trigger.13
+	hide_window = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	is_test_event = yes
+	trigger = { }
+	immediate = {
+		set_global_flag = eye_of_terror_possible	# FOR TESTING ONLY
+	}
+}
+
+# EoT Spawn chain trigger start (on_bi_yearly_pulse)
+event = {
+	id = shroud_rising_trigger.4
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = { has_global_flag = eot_active }
+		OR = {
+			mid_game_years_passed >= -20 # Crisis possible
+			# FIXEM mid_game_years_passed > event_target:global_event_country.start_year_var # Crisis possible
+			has_global_flag = eye_of_terror_possible	# FOR TESTING ONLY
+		}
+	}
+	immediate = {
+		# TODO maybe a single doorway_chance_var is sufficient - TEST
+		event_target:global_event_country = {
+			switch = { trigger = has_country_flag
+				eot_100 = {}
+				eot_75	= { random = { chance = 25	break = yes } }
+				eot_50	= { random = { chance = 50	break = yes } }
+				eot_25	= { random = { chance = 75	break = yes } }
+				eot_5	= { random = { chance = 95	break = yes } }
+				default	= { break = yes } # disabled
+			}
+			country_event = { id = shroud_rising_trigger.5 days = 36 random = 45 }
+		}
+	}
+}
+
+# Trigger Crisis - spawns EoT (Root = global)
+country_event = {
+	id = shroud_rising_trigger.5
+	hide_window = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		any_country = {
+			is_default_or_fallen = yes
+			OR = {
+				AND = { is_fallen_empire = yes is_gestalt = no }
+				AND = {
+					# merg_is_default_empire = yes
+					is_ai = yes
+					is_spiritualist = yes
+					owner_species = { has_trait = trait_psionic }
+				}
+			}
+		}
+	}
+	immediate = {
+		set_global_flag = eot_active
+		if = {
+			limit = { any_country = { is_fallen_empire_spiritualist = yes } }
+			set_global_flag = eot_fe_spiritualist
+		}
+		else_if = {
+			limit = { any_country = { is_fallen_empire_materialist = yes } }
+			set_global_flag = eot_fe_materialist
+		}
+		else_if = {
+			limit = { any_country = { is_fallen_empire_xenophobe = yes } }
+			set_global_flag = eot_fe_xenophobe
+		}
+		else_if = {
+			limit = { any_country = { is_fallen_empire = yes is_gestalt = no } }
+			set_global_flag = eot_fe_xenophile
+		}
+		else_if = {
+			limit = {
+				any_playable_country = {
+					is_ai = yes
+					is_spiritualist = yes
+					owner_species = { has_trait = trait_psionic }
+				}
+			}
+			set_global_flag = eot_ai_spiritualist
+		}
+		# event_target:global_event_country = { # Does not matter
+		country_event = { id = shroud_rising_shroud_rift.99 days = 36 random = 45 }
+	}
+}
+
+# TEMP FIX (on_single_player_save_game_load)
+event = {
+	id = shroud_rising_trigger.99
+	hide_window = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = { }
+	immediate = {
+		# every_country = {
+		# 	limit = { is_country_type = shroud_cult_uprising } # REMOVED IN 3.12
+		# 	set_country_type = shroud_cult
+		# }
+		if = {
+			limit = { NOT = { has_globaL_flag = shroud_rising_star_class_removed } }
+			set_global_flag = shroud_rising_star_class_removed
+			every_system = {
+				limit = {
+					OR = {
+						is_star_class = sc_eye_of_terror
+						is_star_class = sc_great_rift
+						is_star_class = sc_great_rift_2
+						is_star_class = sc_great_rift_3
+					}
+				}
+				if = {
+					limit = {
+						is_star_class = sc_eye_of_terror
+					}
+					add_modifier = { modifier = sc_eye_of_terror }
+				}
+				else = {
+					add_modifier = { modifier = sc_great_rift }
+				}
+				set_star_class = sc_black_hole
+			}
+		}
+
+		if = {
+			limit = { event_target:global_event_country = { NOT = { is_variable_set = start_year_var } } }
+
+			event_target:global_event_country = {
+				get_galaxy_setup_value = { which = start_year_var setting = end_game_year }
+				multiply_variable = { which = start_year_var value = -0.084 }
+				round_variable = start_year_var # Default -20
+				if = {
+					limit = { has_global_flag = eot_spawn_not_fe }
+					change_variable = { which = start_year_var value = 1 }
+					multiply_variable = { which = start_year_var value = 2 }
+				}
+				if = {
+					limit = { check_variable = { which = start_year_var value > -2 } }
+					set_global_flag = eye_of_terror_possible
+				}
+				log = "Init Shroud Rising; start_year_var = \\[This.start_year_var]"
+			}
+
+			every_country = {
+				limit = {
+					is_primitive = yes
+					any_owned_planet = {
+						exists = controller
+						controller = { NOT = { is_same_empire = prev } }
+					}
+				}
+				every_owned_planet = {
+					limit = {
+						exists = controller
+						controller = {
+							NOT = { is_same_empire = prev }
+							is_country_type_with_subjects = no
+						}
+					}
+					log="Fix Pre-FTL Empire \\[This.GetOwnerName] are controlled by \\[This.GetControllerName] on \\[This.GetName]"
+					set_controller = prev
+					controller = {
+						if = {
+							limit = {
+								is_hostile = prevprev
+								NOT = { is_at_war_with = prevprev }
+								OR = {
+									is_country_type = shroud
+									is_country_type = shroud_spirits
+									is_country_type = shroud_cult
+									is_country_type = shroud_entities
+									is_country_type = shroud_horrors
+								}
+							}
+							set_faction_hostility = { set_hostile = no set_neutral = yes target = prevprev }
+						}
+					}
+				}
+			}
+		}
+	}
+}

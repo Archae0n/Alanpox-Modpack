@@ -1,0 +1,182 @@
+namespace = leader
+
+# I really dont want to full overwrite these events but aristocratic elite has an undesirable effect :(
+
+country_event = {
+	id = leader.100
+	hide_window = yes
+
+	is_triggered_only = yes
+
+
+	trigger = {
+		NOT = { has_country_flag = spawning_renowned_leader }
+	}
+
+	immediate = {
+		# Aristocratic Elite
+		# 20% Chance for a random positive trait and a random negative trait
+		if = {
+			limit = {
+				is_bugged_governmental_elitist = yes
+			}
+			from = {
+				random_list = {
+					65 = {  }
+					35 = {
+						add_trait_no_notify = leader_trait_bugged_highborn
+						change_background_job = noble
+					}
+				}
+			}
+		}
+
+		# Technocracy
+		# Adds a random expertise trait
+		if = {
+			limit = {
+				is_bugged_governmental_materialist = yes
+				from = { leader_class = scientist }
+			}
+			from = {
+				add_random_expertise_trait_effect = yes
+			}
+		}
+
+		# Crusader Spirit
+		# Adds the Crusader trait
+		if = {
+			limit = {
+				has_valid_civic = civic_crusader_spirit
+				from = { leader_class = commander }
+			}
+			from = {
+				add_trait_no_notify = leader_trait_crusader
+			}
+		}
+
+		# Letters of Marque
+		# Adds the Corsair trait
+		if = {
+			limit = {
+				has_civic = civic_crusader_spirit_corporate
+				from = { leader_class = commander }
+			}
+			from = {
+				add_trait_no_notify = leader_trait_corsair
+			}
+		}
+
+		# Tactical Algorithms
+		# Adds the Tactical Algorithms trait
+		if = {
+			limit = {
+				has_civic = civic_machine_tactical_algorithms
+				from = { leader_class = commander }
+			}
+			from = {
+				add_trait_no_notify = leader_trait_tactical_algorithms
+			}
+		}
+	}
+}
+
+country_event = {
+	id = leader.110
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Aristocratic Elite
+		# 20% Chance for a random positive trait and a random negative trait
+		if = {
+			limit = {
+				is_bugged_governmental_elitsit = yes
+			}
+			every_owned_leader = {
+				random_list = {
+					65 = {  }
+					35 = {
+						add_trait_no_notify = leader_trait_bugged_highborn
+						change_background_job = noble
+					}
+				}
+			}
+		}
+
+		# Remnants
+		# Adds a Archaeostudies Expertise trait
+		if = {
+			limit = {
+				has_ancrel = yes
+				has_origin = origin_remnants
+			}
+			every_owned_leader = {
+				limit = {
+					leader_class = scientist
+					OR = {
+						is_councilor_type = councilor_research
+						is_councilor_type = councilor_gestalt_cognitive
+					}
+				}
+				add_trait_no_notify = leader_trait_expertise_archaeostudies
+			}
+		}
+
+
+		# Technocracy
+		# Adds a random Expertise trait
+		if = {
+			limit = {
+				is_bugged_governmental_materialist = yes
+			}
+			every_owned_leader = {
+				limit = {
+					leader_class = scientist
+				}
+				add_random_expertise_trait_effect = yes
+			}
+		}
+
+		# Crusader Spirit
+		# Adds the Crusader trait
+		if = {
+			limit = {
+				has_valid_civic = civic_crusader_spirit
+			}
+			every_owned_leader = {
+				limit = {
+					leader_class = commander
+				}
+				add_trait_no_notify = leader_trait_crusader
+			}
+		}
+
+		# Letters of Marque
+		# Adds the Corsair trait
+		if = {
+			limit = { has_civic = civic_crusader_spirit_corporate }
+			every_owned_leader = {
+				limit = {
+					leader_class = commander
+				}
+				add_trait_no_notify = leader_trait_corsair
+			}
+		}
+
+		# Tactical Algorithms
+		# Adds the Tactical Algorithms trait
+		if = {
+			limit = {
+				has_civic = civic_machine_tactical_algorithms
+			}
+			every_owned_leader = {
+				limit = {
+					leader_class = commander
+				}
+				add_trait_no_notify = leader_trait_tactical_algorithms
+			}
+		}
+	}
+}

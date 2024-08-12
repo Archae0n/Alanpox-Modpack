@@ -1,0 +1,927 @@
+﻿### Fantasy Wild West
+### Mixture of markov generator (mostly for names) and various generators from fantasynamegenerators.com
+
+cybrxkhan_handmade_wild_west = {	
+	category = "Necroid"
+
+	ship_names = {
+		generic = {
+			Aarkmance Aartemil Abnery Abnett Abreder Abria Abristrez Adena Adenethael Adolive Adoria Adrana Adrey Adrigo Adroqueras Agarsendox Agnusa Aidah Alber Albuquíz Aleja Alejana Alenie Alenjandria Alergento Alerna Alerrama Alestus Alfey Alfredeed Alfrenchon Aliamund Alinda Aliold Alise Alivela Allarpez Almanda Almandriel Almanorinna Almbialo Alstan Alter Amankie Amanza Amble Ambremas Ambrician Amfolk Ampale Anahle Anasen Anciteo Angerievon Anguez Annes Anstpa Antas Antgo Anthaelle Antham Antichan Antiérro Apola Apoleyatria Apolleyal Artias Artín Asabed Ashles Ashuacoura Atlah Attsbaleval Auben Aubritt Audeo Aughle Augo Auguel Auguer Augus Aurna Auston Baden Baithrisey Balia Banto Barie Barry Bathbelahas Bathchills Beart Bena Bentina Beredias Berriel Berthricusan Besmonah Bester Bestisabe Betale Beustan Bilmon Birin Blacks Blaha Blaida Blalle Blannox Boacher Boistongs Boodox Boodwinse Booner Boony Bownse Brice Bris Brisonon Bristiana Broitfaing Broweliasta Bucance Buque Busaachela Bushurena Byran Byrel Caddorew Cairch Caiteph Caithandas Calas Calen Caley Calis Callent Cambers Camingen Camon Campber Canquez Caramiand Carency Cargergott Caruman Caseman Cashillywor Cass Cassia Castonima Casver Catelia Catis Cecca Celas Celian Celoman Chamforo Chamunt Chaters Chersh Chesteheass Chieta Chiles Chock Chrid Chrio Chrion Chrisa Chrith Chrityra Chua Chulumon Churce Churry Ciegotá Ciergelfia Cirgan Clack Clange Cleman Clemieter Clerse Clexan Clostpanas Colda Colence Coley Colle Collistone Colmand Conie Conn Conta Contez Coodge Coolois Corel Cortwaton Cottach Cruzmán Cubigosé Curey Curk Cyrora Daimes Daldwins Daley Danacundora Danarvinda Dandrad Dannie Dannoximer Daphinahars Daphns Davel Delis Dell Dellan Dellande Dorry Downs Doyleye Draius Dred Duffinera Dufus Edie Edmulia Eduado Edwinetter Edwinstie Elginsidge Elick Elietchea Elil Eliott Ellemane Elleodora Ellet Elley Elliarliaha Ellinde Ellman Eloison Emeron Emiane Emianer Emilliano Emine Eminel Emiscoa Emmana Emmane Emmas Emmel Emmely Emmen Emmer Emmeria Emogan Ephampian Ephity Esment Esmersey Esmogan Esmon Estan Estehenered Estiz Ettonox Eulina Evagar Evaloverson Evand Everbuffale Ezrah Fabela Faitt Falbury Falbuse Fargand Farlo Faude Faughlin Felliena Fincy Flegra Flery Flohns Floison Floman Florise Folfren Forago Forairivad Formand Fortlatery Fortwood Forwaleve Fowley France Frangel Frial Fullen Fátina Gabian Galdwinge Gamilius Gamus Garan Gargott Garinelian Garlo Garper Gartigo Gibbienn Gilachero Glemonga Glempal Goffy Goller Gookson Gooksonie Gords Grabencobs Gragestioul Gredisey Greenion Grison Grock Grotterrie Groving Guada Guado Guala Gualalena Gualento Guandiadna Guandiagda Guarlorica Gueza Guinez Gustaviah Haleonner Halvin Hanas Hardeo Harder Hards Hargillice Harme Harris Harth Harus Harush Havardoza Hawkinary Hawye Hazekie Hazeksonie Helian Hellip Hernán Hestonk Holdallip Holdrey Homon Hopez Hught Hugus Huncela Hunnews Hunney Huntert Huntonta Ignaman Imogardona Incapordale Indis Indow Irvalmbro Irvia Irvida Irvile Irvilleary Irvine Irvingell Irvinusa Irwoot Isaachady Isam Isank Isankie Isaro Isaría Isidorez Ivaelguer Ivana Jacha Jachamia Jacharlia Jachena Jacher Jacobe Jacunjana Jamson Jason Javitara Jaydithrina Jayessiamin Jeffy Jena Jessabrett Jester Jethan Jettie Joredia Jorranco Josaba Josess Josey Josse Jossieth Judenaspez Judley Julark Juliahas Julin Julinle Julio Julisa Julisantla Jushur Kansancorow Katrot Keillal Keilonaspen Kella Kellaugus Kenargil Kence Kenessa Kenthen Kevarantián Kington Lanahaton Lance Larle Laudalliver Laudley Lauscinna Lautina Lawkie Lawrenne Lellman Lench Leodory Leods Leodson Leony Leora Lesmon Levellan Lever Levian Leviner Lila Lilburry Lilla Lilley Lilliver Lincobbs Lingerson Linsey Liza Logance Logands Lolle Lopearn Lophia Lophith Louinel Louiston Luarcía Lucan Lucili Lucitus Luciuste Lueley Luillanio Luitesia Lukera Lukerne Lyderiggie Maberah Mabler Mablexte Mabre Machille Maellia Magaibo Magan Magheod Maista Maius Malnes Maltephiet Mamet Manan Maniagelipe Manmanta Mantan Marack Mardo Marena Marez Margo Marielara Marisco Marke Marlope Marmora Maroleja Marrea Marry Marth Marthen Martíz Marumarann Marus Marvara Marzarta Marón Matanzanana Math Mathriever Mathristh Matictana Mayán Mcary McCasones McCaspez McDalexter McDan McIniena McIntisonda McKeliank McKnixona McKnora McKnoxie Mcksona Mckton McLaudran McLaugh McLenah McLes McMas McMaympiah McNea McNealley McNed McNel Mecus Mellailda Mensio Merey Merque Merro Mesand Michi Michin Mickson Migaite Migosa Milannery Milaulius Millah Milline Milornoxie Miniamia Mirise Molia Molory Molsird Moniel Monix Monso Monvego Monza Morez Morgo Murosa Myrus Máximana Máximez Máximilian Nandrah Nannorgo Naporfrett Naríaz Nath Nathance Nathesmon Natisy Natrona Natter Neaggs Neithleya Nelia Nestam Nicarrer Nictoke Nixonterry Noack Noebed Noebs Noreta Norsh Nuelarcia O'Neavian O'Neiterity O'Neliza O'Net Oakro Oaximón Okens Okerkson Okland Oline Olinna Oliottica Olivelling Olulasche Onbaytork Ophonn Oreenaporon Ortana Ortas Ortin Ortne Orvide Oscary Osia Otince Ovencon Owenst Ozian Pabrina Palleaul Panne Pannigo Pantiana Patha Pathurk Paukenstio Paumobeary Pautiano Pearner Pecolin Pecolumbus Pediantima Pedrello Pettes Phicholle Phiellaur Philde Phin Phise Phomenden Pidson Pinepaya Placa Polinnia Pomemon Pomemphort Pomen Poramiallem Porfrider Porksvege Porlaumon Potha Pownielias Premes Prinne Prion Prison Puebas Puevid Puevida Rachilf Rairfietami Rames Ramián Raphe Raphen Rapher Raphillins Rayna Realexter Reats Rebalones Rebelphie Rebloro Rebsto Reeks Remer Remia Richaddoler Richie Ricill Ridenbenta Rilline Riolipe Risti Roacock Rodge Rodgell Rodro Rojan Rojandena Rolens Rollage Rolman Romanelene Romas Romuer Rossiellius Rostonges Rowenry Rowlegra Roximer Royatrion Roylesmon Rubas Rufusabran Rufustars Ruizaro Sabria Sacity Sadalovis Sadersidge Sagotlaquez Sairia Salcóyotla Salle Samer Samus Sanana Sance Sancobo Sancolena Santina Sanuez Sava Savie Savinson Scort Seachit Seley Selia Sella Seriot Sernama Sernoris Serwin Sethy Settist Shine Sillas Sily Simon Sinet Singe Skylvis Sofías Soleverose Solot Sontami Sopherwin Sophiner Southch Speran Spery Spiriano Spridenia Sprivert Steheo Steher Sterson Steston Stron Stronah Sunna Sutt Suttona Suáreón Sylemetchie Syletehe Syloylerwood Tabrot Tayde Taympiass Tendria Teorda Tersfiele Ther Therson Thoeliam Titt Tockson Tomastradna Toménde Torrente Toweliah Trisy Trus Trustist Tundel Valco Vales Valey Valuciana Vankie Vanna Varro Verenera Verid Vicham Vichin Victo Viotter Virce Vithoenjam Viveler Vivera Vivert Walley Waridson Wathrias Weallis Weathar Webelix Weeley Weslen Whilbed Wiliontin Willilielin Willius Wilorse Wilympiarry Winedie Wista Woolopeance Wordson Worense Writt Xaver Xavie Zachanie Zacksoness Zebaspeaden Zebaspia Zebuloh Álvana
+
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Wesmer Navy" "Albaddora Navy" "Forethrise Navy" "Browelly Navy" "Teston Navy" "Perman Navy" "Dexan Navy" "Lucannigo Navy" "Alfey Navy" "Jarmatti Navy" "Gile Navy" "Grelen Navy" "Maxwel Navy" "Golly Navy" "Billinsach Navy" 
+		}
+		sequential_name = FANTASY_WILD_WEST_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+
+		generic = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+
+		machine_assault_1 = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+
+		machine_assault_2 = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+
+		machine_assault_3 = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxDEFENSEARMY_ORD
+		}
+
+		assault_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = { 
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = { 
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = { 
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_WILD_WEST_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Albuque Alem Aley Alle Anate Ance Ande Andpria Antaria Arler Arrock Atlakeley Auker Aurhamia Aury Auscolise Bakeld Baledo Beld Bell Boulders Brokepine Buffalley Burha Burounnape Cago Capeacrand Capert Ceanterlerk Charlant Charles Charrand Chesno Cheston Chorthe Chrion City Cleve Clevue Closacolk Colield Colk Collywood Corland Cosandis Dale Davegaresa Davillesang Deta Durra Edisonville Euge Euguse Eval Evancaster Evansascity Eveland Falesnood Folle Fordan Foria Fort Forth Forthlas Free Gardence Grageld Grancora Grand Green Greesbor Greesboron Grockton Hiladence Holena Houstock Hunt Huntin Indiana Indiego Irvilley Irvills Jachesta Jack Jers Kena Kille Lafayett Lakeno Lans Lanstvad Lantamigh Lascity Lashvis Lasvison Lington Linia Linster Little Lott Lotte Lottsville Lovis Maconcouver Mandelphia Mantames Mcary Mennate Mersfieland Mesand Mesandelee Mesto Mestonsiney Minsiouve Mivanobia Mobilen Murfresno Murrie Nascollton Newood News Nort Nortlade Oaklaha Ontgomery Over Pale Palle Palmbendis Paltlarlon Panton Parksonia Pasadens Pater Pearwater Pembrow Phis Poln Pompa Pord Princalk Prine Rando Ranfringto Rans Rantgo Rial Richmona Richmont Ridge Rock Rortney Rovich Rown Sacrament Sainsbater Sand Sandaville Sando Sandrockton Sandrort Sanmater Santaclark Santarita Santarosand Santowney Scrago Seack Sinix Sprio Surgh Syrainston Terd Tuce Vale Valle Valling Victorrand Villando Vinna Warleim Warrown Waugus Welk Westa Westacle Westjord Westpaul Wicam Wicha Wood
+				
+				Bacotford Batchurn Batidge Batton Bawkenton Beate Beattle Bedord Bedwortonio Bialne Bill Blan Blest Bley Bough Brapet Bria Brigathigh Brookingdon Brosade Burnbuquays Burth Calmlista Cayleigham Champtow Chle Clebdeafall Clet Cley Cold Colnwigham Corlse Cray Dalejo Dalken Darwingh Dull Dungathiton Eapingster Ednewath Epswoross Fais Ferlakenton Forough Gatte Glee Gleover Grawten Guison Hiam Hield Hing Horowces Horthins Hotfortor Howest Hudle Hury Illevess Immings Jach Ketteaford Kirth Knortow Lanton Lasham Litham Littempton Loswoltham Lowdenstonk Lull Lydow Mareigaring Mcampston Midge Mingh Monford Mord Narn Neepsterley Neld Newley Nodmalt Nord Northyther Oaken Oakhay Olesbudge Osandenbury Pilarton Poll Poludenvill Portley Predge Priddlaccle Proyderbod Raton Rebrough Rehouth Richam Ridley Rourch Routh Rugh Scolung Shalby Shbridsta Snood Soutton Spastone Stad Stetford Stord Stort Syransal Talde Tersdowdle Thalless Trourston Uthsey Vidwok Waltown Ward Wathiston Waton Wesomster Wildendon Witwichith Wivedrixhit
+				
+				Acas Albuquila Albuquisa Angano Angenamá Angenas Anguade Anguego Anguinaba Arta Artaranto Artas Avil Avillia Avillorreza Avituracán Banavacas Bara Baracruz Baradeles Bayaquerto Bayaquila Bayán Bogo Buca Bucaibo Bucaranes Caba Cabacetas Cabeles Calalin Calcoa Calhua Calhuca Camagotá Camo Cana Canaba Canctias Caranestus Caranza Cardena Carto Chima Chimaestus Chimagotá Chimali Chimangena Ciegos Claca Clarramaes Colo Conta Cubacoa Cubacruz Cuego Cuero Cueréta Cuerétas Cuma Cumaes Cumaestus Cumanarde Cumanti Dellacas Dellias Derachuanas Diegosa Diegotá Diena Flon Flontiancún Floreón Floritana Geracán Gerontla Gerque Gerracruz Graca Gramo Guad Guada Guadalhua Guade Gualhuca Guana Guanamana Guanamo Guande Guanestro Guanta Guaya Guayán Guinestura Hava Havacaibo Holorias Holucara Inde Indenfuebla India Indin Josa Juárey Juáreza Laja Lajartas Limana Losa Luila Luin Maga Manamo Manes Mano Marachua Maramo Maro Marrana Marteracas Matas Mede Medel Medeli Medenas Mederona Mero Merreón Monas Montlartas Morel Moreyno Morida Morrella Morreyno Neza Nezana Nuebla Nueblacruz Nuego Nueraceta Nuero Nuerquevaca Nuevitano Nuevitura Oaxaco Oaxacán Paca Pacas Pachuacruz Paco Pacoa Pacruz Palaja Palcoa Palcóyotla Palcóyotá Palhuande Panida Panilacoa Pantlalnes Pines Pinose Placa Plalcoa Plaquego Popantigos Popanza Popaquilla Puego Puegos Puerontia Puertago Puevacán Queblaja Queblajar Quevaca Quevito Quillalcoa Reynose Sago Saguines Sagüey Sana Sandinamá Sandinila Sangotá Sanida Sanidadel Sanilas Sanilla Sano Santanquil Santantiaga Santera Santl Santla Soro Sorrama Sorrelli Spirias Spirines Tijuaco Tlacán Tlajaro Tlaquerreón Tlas Tolo Tolon Tolorias Tolorida Tomá Torey Torez Toro Trias Tuna Tunara Tunjarama Varacetana Varde Vardeles Verito Vernama Veron Verrachuad Verrellon Veréta
+
+				"Framille's Saloon"
+				"Micolgilie's Saloon"
+				"Etticott's Saloon"
+				"Thiliver's Saloon"
+				"Robeavanne's Saloon"
+				"Regotan's Saloon"
+				"Marans' Saloon"
+				"Ethlio's Saloon"
+				"Ignue's Saloon"
+				"Ruffy's Saloon"
+				"Riennox's Saloon"
+				"Priah's Saloon"
+				"Cainixontin's Saloon"
+				"Haroist's Saloon"
+				"Lyncha's Saloon"
+				"Powel's Saloon"
+				"Felio's Saloon"
+				"Mardez's Saloon"
+				"Marsfie's Saloon"
+				"Nerno's Saloon"
+				"Gilanti's Canyon"
+				"Jefielley's Canyon"
+				"Bassidaynch's Canyon"
+				"Newora's Canyon"
+				"Delana's Canyon"
+				"Payán's Canyon"
+				"Morena's Canyon"
+				"Estork's Canyon"
+				"Aurisonta's Junction"
+				"Daitancity's Junction"
+				"McCardo's Junction"
+				"Ineauda's Junction"
+				"Lucksouver's Junction"
+				"Royath's Junction"
+				"Golem's Junction"
+				"Golis' Junction"
+				"Waterez's Junction"
+				"Liontonge's Junction"
+				"Rexance's Junction"
+				"Christez's Junction"
+				"Luisonsia's Luck"
+				"Sertinida's Luck"
+				"Emmaryle's Luck"
+				"Davale's Luck"
+				"Jesephel's Luck"
+				"Everse's Luck"
+				"Watín's Lair"
+				"Valle's Lair"
+				"Lukelá's Lair"
+				"Mosantice's Lair"
+				"Valiasvia's Hideout"
+				"Marongto's Hideout"
+				"Amicucio's Hideout"
+				"Lenton's Hideout"
+				"McCarlsidox's Hideout"
+				"Leora's Hideout"
+				"Couillon's Ranch"
+				"Norry's Ranch"
+				"Clasta's Ranch"
+				"Leoricard's Ranch"
+				"Isach's Ranch"
+				"Harairant's Ranch"
+				"Daude's Ranch"
+				"Sanersenas' Ranch"
+				"Birvillons' Ranch"
+				"Guaralubia's Ranch"
+				"Juáred's Ranch"
+				"Sperrot's Ranch"
+				"Colon's Den"
+				"Mablouis' Den"
+				"Carifredie's Den"
+				"Chrio's Den"
+				"Irwooken's Den"
+				"Angfin's Trail"
+				"Maruzmá's Trail"
+				"Desnoro's Trail"
+				"Eliana's Trail"
+				"Hugena's Trail"
+				"Foradeugus' Trail"
+				"Saneritulia's Trail"
+				"Olien's Trail"
+				"Hanter's Trail"
+				"Mighlendee's Trail"
+				"Isaddez's Farm"
+				"Lauth's Farm"
+				"Danty's Farm"
+				"Glentucas' Farm"
+				"Veria's Farm"
+				"Eminas' Farm"
+				"Lucison's Farm"
+				"Danor's Farm"
+				"Bartlanes' Farm"
+				"Morson's Farm"
+				"Nahamson's Route"
+				"Duffe's Route"
+				"Lippay's Route"
+				"Golordox's Route"
+				"Mivel's Route"
+
+
+
+				
+				"Angry Frontier"
+				"Barren Expanse"
+				"Big Oak Farms"
+				"Bitterroot Estate"
+				"Boiling Wasteland"
+				"Burned Emptiness"
+				"Burned Frontier"
+				"Charmed Savanna"
+				"Charmed Tundra"
+				"Cranberry Meadow"
+				"Dark Wastes"
+				"Dead Desert"
+				"Desolate Grasslands"
+				"Dreamworks Range"
+				"Enchanted Tundra"
+				"End of the World Meadow"
+				"End of the World Vineyard"
+				"Feared Savanna"
+				"Fiery Desert"
+				"Frozen Grasslands"
+				"Frozen Prairie"
+				"Gold Creek Farm"
+				"Good Day Fields"
+				"Green Haven Farms"
+				"Hellish Wilds"
+				"Hot Barrens"
+				"Hungry Emptiness"
+				"Infinite Frontier"
+				"Killing Fields"
+				"Light Wilds"
+				"Little Acorn Vineyard"
+				"Mirrored Wasteland"
+				"Misty Fields"
+				"Misty River Farmstead"
+				"Misty Tundra"
+				"Mountain View Range"
+				"Mysterious Grasslands"
+				"Neverending Badlands"
+				"Neverending Borderlands"
+				"Open Borderlands"
+				"Open Frontier"
+				"Pegasus Farms"
+				"Riverrock Farmstead"
+				"Sandy Wilderness"
+				"Shady Oaks Meadow"
+				"Shady Oaks Pastures"
+				"Talking Trees Pastures"
+				"Thundering Borderlands"
+				"Twisting Wilderness"
+				"Uncanny Hinterland"
+				"Vast Frontier"
+				"Voiceless Badlands"
+				"Waterless Savanna"
+				"Withered Prairie"
+				"Yelling Barrens"
+				"Yelling Borderlands"
+				"Yelling Wasteland"
+
+				
+				"Angel Gulch"
+				"Angel River"
+				"Angelbranch"
+				"Angelreach"
+				"Angeltown"
+				"Badpass"
+				"Bliss Chapel"
+				"Boldbanks"
+				"Bronzealley"
+				"Bronzescar"
+				"Coppersprings"
+				"Coyote's Tooth"
+				"Cripple Burg"
+				"Demon's Bank"
+				"Desolation Spring"
+				"Devil's Tusk"
+				"Dodgeedge"
+				"Dreadbellow"
+				"Forsaken Springs"
+				"Freetrails"
+				"Grandvale"
+				"Grave Downs"
+				"Greedtrails"
+				"Grimbanks"
+				"Grime Ridge"
+				"Grubtrails"
+				"Idlewood"
+				"Jaggedpost"
+				"Jaggedtrail"
+				"Last Range"
+				"Last Trails"
+				"Lightwater"
+				"Little Hollow"
+				"Lost Reach"
+				"Lostville"
+				"Lowstone"
+				"New Cliff"
+				"Pride Hallow"
+				"Pride Peaks"
+				"Prospector Hill"
+				"Proudpeaks"
+				"Rich Mesa"
+				"Ruby Alley"
+				"Rustbank"
+				"Sandreach"
+				"Shade Range"
+				"Slowgulch"
+				"Softcliff"
+				"Sorespring"
+				"Stiffchapel"
+				"Swift Flats"
+				"Thunderpass"
+				"Tuckerbranch"
+				"Tuckersummit"
+				"Vicious Edge"
+				"Vicious Ridge"
+				"Warpgorge"
+				"Wildmountain"
+				"Wryford"
+
+
+
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+	
+		# Anglo type names
+		names1 = {
+			weight = 55
+            first_names_male = {
+				Aarper Aarus Abnel Abnerthon Abnetchan Abnethur Abrah Abrahael Abristian Abrooksone Adolo Adrice Albel Alber Alfremy Alfres Ambron Amonabriah Ansey Anstis Antgo Anthuremin Apolas Articasper Atlac Atlaudeo Augus Bence Bencernah Benedeubel Benigomen Benrah Benran Brian Brookson Caimer Calas Calcolphro Caley Caspent Casse Chamson Chery Chesli Chrah Clackson Clake Cley Clydenix Clydeubel Cordory Cordox Corestick Corris Corry Danethael Desley Deston Dexan Dexanetton Edenix Edmulian Edmulus Edwing Eliel Elieli Elington Elinsel Eliot Elis Elliah Ellie Elliel Ellion Ellius Emency Emermane Emmessie Ethamson Ethar Ethrooks Ezrah Ezran Finetham Finge Finsey Frand Frankliond Fredichan Freme Gabran Gabricah Gaby Gidee Gorry Grister Gustephert Harnah Henjah Henne Henran Hugoman Hugus Iniderman Inigomus Irviel Isaachie Isaimuelix Jachaelan Jacher Jachierson Jachinease Jaius Jaiusteph Jamsonahan Jaymond Jaymossiah Jereston Jerson Jertered Jesmon Jeston Jestustory Jett Jontgo Joshenjah Josian Josius Judee Juder Judert Judeuben Julin Julis Juliverter Julus Juster Karley Karlius Kency Lawresse Leonas Leopolpher Lesles Lesmon Lineas Loganel Logankie Lucah Lucianel Luciustin Madde Maddon Magan Magand Malachenner Malake Malas Malter Malvin Marper Maxwenth Micher Mick Micks Mictonah Micus Moren Morgel Mosius Nathomuel Nathua Natton Noelix Oricus Oriffinge Orsonton Oscah Oscaspian Osiel Osius Otiand Oticah Ottis Owel Owency Oziah Ozian Oziarter Phielving Phier Philey Phoence Preder Prelvie Prent Raphaddon Raphence Raphraian Raylone Raymon Raymoshur Reasey Reuber Reubery Rolpher Romand Romenrah Romulinge Romund Royalcob Rupenneast Ruper Ruperman Samin Samulo Samundee Sawrede Sebuliot Sebulis Sebulus Sheorry Simer Simonraner Skyer Skyless Skyley Skylond Skylonrah Sollius Solph Solpher Spen Spency Sperry Suttiand Suttond Taylo Than Thark Theont Therian Thoen Thoman Thomus Tobiane Trias Triffinleb Trumand Urbas Verian Victony Virgel Virgilo Viriand Walan Weslett Wesse Wyattiand Xavin Zeban Zebenjamus Zeburtiner
+				
+				
+            }
+           
+            first_names_female = {
+				Abbitha Adela Adellalise Adellasia Adely Adenas Adentila Agana Aidela Aidena Aidenah Aidentie Alean Alia Alian Alivia Amara Amela Anabelleon Angella Angelympiah Anniever Annoxie Antona Arane Arannah Atherse Aubrine Audelente Auden Audra Auren Bearcy Beatha Beline Bella Beula Birce Blandrena Cadena Camilyn Camonora Casie Cathle Cathry Catria Catrie Cecca Cecily Celiahlena Cellia Chartha Chria Clexan Coron Daide Daise Dalia Dalla Dannie Daphine Delegra Delille Diand Dinna Dinnorena Dorannie Dorie Dorona Drennie Dreya Editavie Eleona Ellia Ellie Eloisy Emilie Emilly Emina Emmandrey Emmanory Emmeli Esmele Esmellena Este Ettia Ettile Eulah Eulu Evandorne Evane Faidell Faydity Fellaide Floh Flope Florgothe Floryn Fret Georey Hargia Harloh Harorden Hary Haryn Hazelie Hazella Hazeloh Hazelphia Hellenton Hesta Hestered Hophine Hunda Imonevie Irisia Isablegra Isame Isance Isancess Jula Julicelly Julive Jundorana Junterena Katha Kathea Katia Katina Laurena Leilda Leillara Leily Lelia Leliet Lellale Lencesema Leodory Leone Leora Lila Lilda Lildra Lileath Lilen Lilla Lillegra Logella Loise Loldie Lolie Lolline Louis Louisey Louisy Lucile Lucita Luela Lueria Luery Lulia Lulinelice Mabelena Mabeliver Mabie Magel Magelena Mailairce Marce Mared Marew Marganelia Margathel Margie Marguel Marguerces Marise Maritelle Marith Marloisiet Marlope Marlorine Marrie Marrina Marrine Marthera Matha Maura Maurey Milda Milyn Mircy Molie Mollippa Nandrel Norgan Norne Oaklees Oaklet Octaviane Octona Olian Oline Oliverse Ophia Ophie Ophne Orandrey Panasta Pandale Patildia Peathie Pency Pennory Phone Phonie Phonorina Polanda Poldally Posephine Ramune Rebellah Rebelyn Reenabret Reene Rilene Roseya Rubrine Sabie Sable Sadity Sagda Shildie Sophilda Sophne Steli Susa Susabe Susanda Susta Tabe Tabley Tankie Theonahli Therie Tildita Tilla Tiloh Unah Vance Veran Veret Vide Viola Viole Vionora Vithinnia Vivia Willia Wine Winifrey Zarictavia Zarpera Zarrinas Zarrise
+            }
+			
+			
+			second_names = {
+			
+				Adking Adkinley Allin Ally Alson Antoss Antyre Arne Arnolon Arnox Baig Bairake Bake Bakess Benners Beron Berson Blackson Bland Boodge Boods Boodwingler Boolleter Boolman Boon Bowler Bownson Braig Bran Brison Brith Bron Buckners Burn Burnark Cambleman Camer Campbel Card Carlstian Chaelly Chamerosey Chard Cher Churnarsh Cland Clarse Clen Cleteeks Coberson Cobs Coffe Coffy Coldwins Colliottson Colman Cony Coodwins Coon Craham Craynce Curkmandera Danlensey Daughearmon Daulkne Davisonner Dich Dicham Doyde Drahas Duds Duff Duncanley Dunce Ell Ellinglersh Farse Faugheross Faughliston Faught Fing Flon Flony Floyder Fold Foldwins Folfey Follian Fowen Fower Fowns Fownsey Gald Galer Gall Gallin Gamerthy Gard Gillaghen Gille Gillierahon Gillis Glemason Glerwood Goffey Goffy Golers Goodgerson Graight Graker Gron Gronnerry Grosh Haletoke Hall Hark Harsh Hawkind Holeman Holenthy Holmasend Holston Hudley Hudleyess Jard Jards Johnse Kee Keellier Keil Kenson Knin Knoloylense Leaver Lever Levid Lynard Mahamer Mahon Mard Marmon Mase Maynch Maynchon Mayncoberty McCam McCambley McInth McInthoman McInton McIntoss McKnox McLaught McLaulkne McLaulkner McLeal McLeandsey McLeandson McMira McNeillin Michason Millard Mirad Mirady Miranig Mird Mormon Mors Morsh O'Nealeton O'Neith Poth Potholey Powerrison Prig Pris Prison Priterwood Reeks Reekson Reil Reill Reillinse Rice Rich Richason Rick Rivel Rivellman River Robs Rodge Rosh Ross Savis Savison Singley Speale Spearry Spez Stan Stand Stard Stars Starsend Steekson Steheady Stehentosh Steher Stepher Stephersey Stephersh Ster Sters Stes Stoner Stron Stronard Sutt Sutts Thon Til Till Towellindle Towen Towns Unda Unde Unds Undson Wealey Webs Weed Whites Wols Wooker Woon Worsey Yatess Yats Yatson
+				
+				"the Ace High"
+				"the Arizona"
+				"the Auger"
+				"the Backfire"
+				"the Bad Egg"
+				"the Bad Mouth"
+				"the Bane"
+				"the Bender"
+				"the Big Gun"
+				"the Blood"
+				"the Bloodlust"
+				"the Blowhard"
+				"the Bog-Trotter"
+				"the Boot-Licker"
+				"the Brains"
+				"the Bull"
+				"the Bulldozer"
+				"the Bullet"
+				"the Bullettooth"
+				"the Bullseye"
+				"the Bully"
+				"the Chiseler"
+				"the Cobra"
+				"the Con Artist"
+				"the Con"
+				"the Courage"
+				"the Creed"
+				"the Crimson"
+				"the Croaker"
+				"the Damned"
+				"the Darkness"
+				"the Dawn Rider"
+				"the Dawn"
+				"the Deadbeat"
+				"the Demon Eyes"
+				"the Devil"
+				"the Diabolic"
+				"the Doc"
+				"the Dusk Rider"
+				"the Dusk"
+				"the Dust Devil"
+				"the Dynamite"
+				"the Eagle"
+				"the Evil"
+				"the Faith"
+				"the Fiend"
+				"the Flannel Mouth"
+				"the Fool"
+				"the Friendly Face"
+				"the Gentle"
+				"the Glory"
+				"the Gold Tooth"
+				"the Golden Teeth"
+				"the Gravedigger"
+				"the Gun Slinger"
+				"the Hallow"
+				"the Happy"
+				"the Hazard"
+				"the Hollow"
+				"the Honor"
+				"the Hopalong"
+				"the Hustler"
+				"the Immortal"
+				"the Infamous"
+				"the Jeopardy"
+				"the Justice"
+				"the Kid"
+				"the Killer"
+				"the Lasso"
+				"the Leather"
+				"the Lonesome"
+				"the Luck"
+				"the Lucky"
+				"the Merciful"
+				"the Merciless"
+				"the Midnight"
+				"the Miracle"
+				"the Money"
+				"the Mortal"
+				"the Mudsill"
+				"the Mystery"
+				"the No Horse"
+				"the No Name"
+				"the No Teeth"
+				"the Noose"
+				"the Oaf"
+				"the Odd Stick"
+				"the Outlaw"
+				"the Painkiller"
+				"the Phantom"
+				"the Pistol"
+				"the Poker Face"
+				"the Prancer"
+				"the Predator"
+				"the Quick Finger"
+				"the Railroad"
+				"the Ranger"
+				"the Raven"
+				"the Rider"
+				"the Rustler"
+				"the Ryder"
+				"the Savage"
+				"the Second Life"
+				"the Shootout"
+				"the Shotgun"
+				"the Smiley"
+				"the Smokes"
+				"the Snake"
+				"the Songbird"
+				"the Stalker"
+				"the Steel"
+				"the Stormrider"
+				"the Sundown"
+				"the Sunrise"
+				"the Sureshot"
+				"the Tracker"
+				"the Trigger Finger"
+				"the Twin"
+				"the Two Lives"
+				"the Vicious"
+				"the Viper"
+				"the Whip"
+				"the Whiplash"
+				"the Wicked"
+				"the Wild"
+				"the Wolf"
+				
+			}
+			
+            regnal_first_names_male = {
+				Ambron Cordox Elington Inigomus Jett Natton Skyless Virgilo
+            }
+           
+            regnal_first_names_female = {
+				Audra Daphine Hazella Leliet Margathel Poldally Tankie Viole
+            }			
+			
+			regnal_second_names = {
+				Adkinley Blackson O'Nealeton Starsend
+			}
+		}
+		
+		# Latino type names
+		names2 = {
+			weight = 30
+            first_names_male = {
+			
+				Aarper Aarus Abnel Abnerthon Abnetchan Abnethur Abrah Abrahael Abristian Abrooksone Adolo Adrice Albel Alber Alfremy Alfres Ambron Amonabriah Ansey Anstis Antgo Anthuremin Apolas Articasper Atlac Atlaudeo Augus Bence Bencernah Benedeubel Benigomen Benrah Benran Brian Brookson Caimer Calas Calcolphro Caley Caspent Casse Chamson Chery Chesli Chrah Clackson Clake Cley Clydenix Clydeubel Cordory Cordox Corestick Corris Corry Danethael Desley Deston Dexan Dexanetton Edenix Edmulian Edmulus Edwing Eliel Elieli Elington Elinsel Eliot Elis Elliah Ellie Elliel Ellion Ellius Emency Emermane Emmessie Ethamson Ethar Ethrooks Ezrah Ezran Finetham Finge Finsey Frand Frankliond Fredichan Freme Gabran Gabricah Gaby Gidee Gorry Grister Gustephert Harnah Henjah Henne Henran Hugoman Hugus Iniderman Inigomus Irviel Isaachie Isaimuelix Jachaelan Jacher Jachierson Jachinease Jaius Jaiusteph Jamsonahan Jaymond Jaymossiah Jereston Jerson Jertered Jesmon Jeston Jestustory Jett Jontgo Joshenjah Josian Josius Judee Juder Judert Judeuben Julin Julis Juliverter Julus Juster Karley Karlius Kency Lawresse Leonas Leopolpher Lesles Lesmon Lineas Loganel Logankie Lucah Lucianel Luciustin Madde Maddon Magan Magand Malachenner Malake Malas Malter Malvin Marper Maxwenth Micher Mick Micks Mictonah Micus Moren Morgel Mosius Nathomuel Nathua Natton Noelix Oricus Oriffinge Orsonton Oscah Oscaspian Osiel Osius Otiand Oticah Ottis Owel Owency Oziah Ozian Oziarter Phielving Phier Philey Phoence Preder Prelvie Prent Raphaddon Raphence Raphraian Raylone Raymon Raymoshur Reasey Reuber Reubery Rolpher Romand Romenrah Romulinge Romund Royalcob Rupenneast Ruper Ruperman Samin Samulo Samundee Sawrede Sebuliot Sebulis Sebulus Sheorry Simer Simonraner Skyer Skyless Skyley Skylond Skylonrah Sollius Solph Solpher Spen Spency Sperry Suttiand Suttond Taylo Than Thark Theont Therian Thoen Thoman Thomus Tobiane Trias Triffinleb Trumand Urbas Verian Victony Virgel Virgilo Viriand Walan Weslett Wesse Wyattiand Xavin Zeban Zebenjamus Zeburtiner
+			
+				Aaro Aartías Aartín Adrier Adro Aguel Agustony Alanco Alando Alanimilian Alano Alantiago Alantián Alanuel Alejamilipe Alejamián Alejan Alejanimo Alenjamuel Alenjan Alenjanderge Alenjano Alente Alentiago Alentonantin Alexan Alexanderón Alexando Alexanio Alexano Alexanuel Alonaróniel Aloniernac Alonio Alos Andergio Ando Andrigo Andriguel Andrio Andro Ante Antebal Anteo Antiago Antian Antianteo Antiantiago Antino Antisteo Antonso Antophew Antín Bauta Bautardo Bautiago Bautino Bautiscolás Benthew Bentin Bentonan Bentín Benzo Brundo Brundrés Camilio Camilipe Camián Camuel Camín Cardo Caro Cartín Carón Chriego Chrigo Chrio Chris Chrisco Christebas Christián Christóbanco Chrián Crigo Criguelián Criguste Crio Criscolás Cristartías Criste Cristianuel Cristin Crián Damilian Damiliantino Damilio Damilipe Damilián Damilo Damuelipe Damín Dancio Danciscobo Danco Dander Dando Dandro Dantiantian Dantis Dantiscolás Dantián Danuel Daviego Daviel Davier Daviergio Davino Diel Dier Diernanio Dylancobo Dylancolás Dylandro Dylandrés Dylano Dylantebal Dylanteo Eduan Eduancistián Eduandrián Eduante Eduaristóban Elíastian Emiliancobo Emilipe Emilián Emilonano Emián Emman Emmas Emmasta Emmastiano Estardo Este Estino Estophew Estías Estíastony Estóbas Faciano Facistino Facolás Facundro Facuno Fergio Ferón Fran Francolás Franderge Franderónimo Frando Frandristino Franier Franio Frano Franther Frantian Frantín Franuel Franuelián Gabloshuardo Gablosé Gabrier Gabrisco Gabristis Gaeliago Gaelipe Iando Iano Ianther Ianuel Ignac Ignacuno Ignan Ignano Ignardo Ignarlo Ignarlony Ignaro Ignarón Ikergio Ikernardo Ikerón Isaacistóbal Isaaco Isaacundrigo Ivando Ivandro Ivano Ivantebano Ivardo Ivarlonso Ivaro Jaciandrián Jacio Jacundo Jacuno Javid Javiel Javino Jorenjano Jorenthonaco Jorentiano Jorgio Joshuanciste Joshuando Joshuanimilo Joshuanuel Joshuardo Joshuaro Joshuartías Juantophew Juanuel Juardo Juarlony Juarón Juliago Julian Julianuel Julipe Kevid Keviego Kevier Lauta Lautiago Lautin Lautino Lautiscolás Lautisteo Leonarón Leonso Leony Lorentiago Lorge Lorgel Lorgio Lucardo Lucaro Lucartías Luciago Lucio Lucis Luisco Luista Luistopherón Luistín Luistóbano Manco Mandristián Maniel Mano Mardo Maristonso Marlo Marlos Maro Marón Mate Mateonaro Mateonso Matther Matthergio Mattherón Matthonando Matthoniel Matthonio Matthonso Matín Maximiliago Maximilo Maximo Maximón Migo Migustino Máximiliago Máximilio Máximilián Máximón Máximónio Nicardo Nicas Nicenthony Nicentophew Nicentín Nicenzo Nicobo Pablonartín Pabloshua Pablosé Pabriel Pabrigo Pabrio Pabris Pabristartín Pabrián Pedriguel Pedris Pedrés Ricas Ricenjano Ricenther Ricentis Rico Ricobo Ricolás Rodris Rodrián Rodro Rodrés Samiliago Samilian Samilipe Samilián Samilo Samilonso Samián Samín Sancian Sander Sando Sandrigo Sandro Saniel Sanio Sano Sante Santebastino Santeo Sebalejamuel Sebalex Sebando Sebantín Sebas Sebasta Similio Simo Thian Thianco Thiancobo Thiandro Thiano Thiantony Toman Tomancian Tomancobo Tomanio Tomanuel Valejamián Valejamuel Valejan Valejanimo Valenjamín Valenjano Valenthonimo Valenzo Valex Valexante Vicarón Vicas Vicentian Vico Vicolás Álvanuel Álvardo Álvartín Álvaróniego Ánge Ángeliante		
+            }
+           
+            first_names_female = {
+			
+				Abbitha Adela Adellalise Adellasia Adely Adenas Adentila Agana Aidela Aidena Aidenah Aidentie Alean Alia Alian Alivia Amara Amela Anabelleon Angella Angelympiah Anniever Annoxie Antona Arane Arannah Atherse Aubrine Audelente Auden Audra Auren Bearcy Beatha Beline Bella Beula Birce Blandrena Cadena Camilyn Camonora Casie Cathle Cathry Catria Catrie Cecca Cecily Celiahlena Cellia Chartha Chria Clexan Coron Daide Daise Dalia Dalla Dannie Daphine Delegra Delille Diand Dinna Dinnorena Dorannie Dorie Dorona Drennie Dreya Editavie Eleona Ellia Ellie Eloisy Emilie Emilly Emina Emmandrey Emmanory Emmeli Esmele Esmellena Este Ettia Ettile Eulah Eulu Evandorne Evane Faidell Faydity Fellaide Floh Flope Florgothe Floryn Fret Georey Hargia Harloh Harorden Hary Haryn Hazelie Hazella Hazeloh Hazelphia Hellenton Hesta Hestered Hophine Hunda Imonevie Irisia Isablegra Isame Isance Isancess Jula Julicelly Julive Jundorana Junterena Katha Kathea Katia Katina Laurena Leilda Leillara Leily Lelia Leliet Lellale Lencesema Leodory Leone Leora Lila Lilda Lildra Lileath Lilen Lilla Lillegra Logella Loise Loldie Lolie Lolline Louis Louisey Louisy Lucile Lucita Luela Lueria Luery Lulia Lulinelice Mabelena Mabeliver Mabie Magel Magelena Mailairce Marce Mared Marew Marganelia Margathel Margie Marguel Marguerces Marise Maritelle Marith Marloisiet Marlope Marlorine Marrie Marrina Marrine Marthera Matha Maura Maurey Milda Milyn Mircy Molie Mollippa Nandrel Norgan Norne Oaklees Oaklet Octaviane Octona Olian Oline Oliverse Ophia Ophie Ophne Orandrey Panasta Pandale Patildia Peathie Pency Pennory Phone Phonie Phonorina Polanda Poldally Posephine Ramune Rebellah Rebelyn Reenabret Reene Rilene Roseya Rubrine Sabie Sable Sadity Sagda Shildie Sophilda Sophne Steli Susa Susabe Susanda Susta Tabe Tabley Tankie Theonahli Therie Tildita Tilla Tiloh Unah Vance Veran Veret Vide Viola Viole Vionora Vithinnia Vivia Willia Wine Winifrey Zarictavia Zarpera Zarrinas Zarrise
+			
+				Abia Abigaila Abigaite Abria Abriadna Abrie Abriela Abrila Adra Adranda Adrea Adria Agustalivia Agustana Agustandra Agustima Agustinata Aita Aite Alejanda Alejanna Alena Alene Alenela Alerna Alerra Alery Alessabela Alessana Alessanda Aley Alla Alle Allianandra Almana Almangela Amanata Amandrene Amanuelina Amella Amena Anda Antha Antina Antorena Antsefaela Antsefiana Antseriana Antserra Aria Arianieta Arianna Arie Arielivia Ariellery Aril Ashle Ashlejana Ashlena Ashlenca Ashleria Ashlerna Ashlerra Ashlessanca Ashlexa Biana Biandra Cama Camil Camily Camina Cara Carata Caria Cariana Carlara Carolarana Caría Cata Catalena Catalia Claria Claría Cone Conielfina Constima Dana Danda Dandra Danie Dantima Dela Delara Delfiana Della Delle Elencia Elentontina Eleria Elessabril Elexa Eley Elia Eliada Eliana Elianzabeca Eliela Elina Emil Emila Emilartima Emilina Emina Eminandra Emmana Emmanza Fabeca Fabecaella Fabellarola Fabeta Fabetanuela Fabigailarie Fabria Fabrianza Feria Ferna Ferra Fery Flomily Flomina Flomé Flora Floranuella Florataloria Florea Floriana Fátimena Fátina Gabeca Gabelfiana Gabeta Gabetalejana Gabetalia Gabria Gabrianda Guada Guadna Guana Guancia Guandria Guania Guanuella Irea Irena Irenanna Irencia Isabeca Isabela Isabetana Isabetha Isabia Isabiana Isabria Isabriadna Isana Isandrene Isanzabecael Isidoranna Isidorea Isidorena Isidorenat Isidorenella Isidoria Isidorily Ivana Ivancael Ivanciania Ivanda Ivanuela Ivanuella Jima Jimana Jimela Jimelaria Jimelfia Jimenca Jimencia Jimentorea Josefaellia Josefia Josefiana Joserna Josery Juadalupe Juanca Juania Juanuela Juanza Jula Juliadna Julina Julinana Julison Julisonie Julivia Juliviadna Julizabria Laula Laulia Lauliana Laulina Laulivia Lauliza Lole Lolenca Lolexa Lolia Lolison Luada Luangellexa Luanna Luantimella Luanueliana Luciangel Magda Magdale Magdalejana Magdalene Magdalina Magdalomé Mail Maila Maily Maita Maitana Maletanuela Malia Maliana Malorea Mana Mancia Manda Mandalena Mandalupe Mandrenana Mangela Mangelia Mara Maranda Maranzabel Marata Marianca Marianda Mariandalena Mariandrea Mariangela Mariela Marietha Maril Marla Marolenana Maroley Marolia Mica Michela Michella Micola Micolena Micolene Micolianna Micoliellie Micolina Micton Mictone Mictonie Mictontimela Mictontone Mira Miratana Mone Monela Moniellara Monstimena Nata Natalena Nicaela Nichel Nichela Nichelara Nicolejana Nicolia Nictonia Nictontsefa Olia Oliana Olie Olina Olivianuel Paulia Paulianciana Pauliandra Pauliannana Paulisonie Pauliza Paura Rafa Rafaelina Rafaella Rebecaelarla Rebela Rebellara Rena Renancia Rene Renellivia Rentora Romé Salena Saley Saliana Salorena Salupe Sama Samil Samila Samily Saria Sariananna Sarla Sartina Sila Silieta Silvantina Sofina Sofinanna Sophiela Sophielara Sophiella Sophieta Sophietha Vale Valejanza Valena Valenat Valenel Valenton Valessana Valexa Valey Valia Valiantina Valiantora Valina Valisonia Valiviana Valomilivia Valomé Valorea Valupe Vica Vicaela Vichel Vicola Vicolena Victon Viola Viole Violessabia Violia Violina Violisonsta Violivia Violizabella Xima Ximana Ximella
+            }
+			
+			
+			second_names = {
+			
+				Aguez Aguilarez Aguilaza Aguillontez Alonzáles Betana Betanchez Betantina Betantinez Blarciago Blaredrio Blaz Burga Burgo Casquez Castias Castiérrez Castrantes Chávera Cháverrero Cháverro Colina Colinez Conso Contrez Conz Conzáles Coralano Corendez Cores Corredríguez Cruzmán Cruzmández Cruzmándo Delgadoz Delgas Delásquez Delásquín Diaza Domez Domín Domínez Domínguendez Domínguiz Díaza Estiz Estrez Estro Fernáncourgo Fero Ferra Ferralaz Ferrero Flonz Flonzáles Flora Florez Flortes Flortiago Flortíz Fres Frez Fuez Gargos Gariguiz Garra Garres Garro Gart Gartes Gilaz Gillonso Gonso Gontes Gontez Gonzáles Guez Gutia Gutilargas Gutillo Gutina Gómerez Gómernández Gómero Gómerrez Gómerro Herada Herez Hero Heroquín Herrero Herro Igles Iglesiastra Iglez Jiméndez Juárentes Marcia Marciagos Marciasquera Marcía Marcíaz Marez Margo Marick Mariguez Marrera Marrez Mart Martil Martíz Marvaez Marvar Marvarez Marza Maríguez Medinez Medriguez Medrio Mendo Mendoz Meno Mento Mora Morantano Morero Mores Morralana Morrez Morro Mort Mortíz Muñoza Muñozarick Méndo Ménez Narez Narick Nariguez Nariguil Narza Naríguez Navaez Navar Navarga Navarrez Navaríguiz Ortegada Ortes Ortez Ortilanzáles Ortiéres Ortín Pera Pernán Pero Pérrerez Pérrez Pérro Ramosarcíaz Ramín Ramínez Ramínguendez Ramínguez Ramíredina Reyesiaz Rivernánchez Rivero Rivez Rodriguil Rodrio Rodrín Rojasquez Rojastina Romera Romernández Romín Romírerentiz Romírez Ruilarez Ruilaza Ruínez Ruínguez Salana Salantega Salarvaez Salaz Sales Salesiaz Sana Sanco Sancourgo Sancourtez Sano Santantega Santez Santinez Santo Santro Sanzáles Sanzálesia Sanzález Sera Sero Serrez Sotosarez Suáredina Suáres Sánco Sández Tora Toredrick Torento Torernández Vareralano Varero Varez Varick Varrez Varvartín Vasqueno Vastiz Vastra Vastro Velásqueno Velásquíz Vásquínguez Vázquínguil Álvaez Álvarrez Álvartiérrez Álvartín Álvarín
+				
+				"the Ace High"
+				"the Arizona"
+				"the Auger"
+				"the Backfire"
+				"the Bad Egg"
+				"the Bad Mouth"
+				"the Bane"
+				"the Bender"
+				"the Big Gun"
+				"the Blood"
+				"the Bloodlust"
+				"the Blowhard"
+				"the Bog-Trotter"
+				"the Boot-Licker"
+				"the Brains"
+				"the Bull"
+				"the Bulldozer"
+				"the Bullet"
+				"the Bullettooth"
+				"the Bullseye"
+				"the Bully"
+				"the Chiseler"
+				"the Cobra"
+				"the Con Artist"
+				"the Con"
+				"the Courage"
+				"the Creed"
+				"the Crimson"
+				"the Croaker"
+				"the Damned"
+				"the Darkness"
+				"the Dawn Rider"
+				"the Dawn"
+				"the Deadbeat"
+				"the Demon Eyes"
+				"the Devil"
+				"the Diabolic"
+				"the Doc"
+				"the Dusk Rider"
+				"the Dusk"
+				"the Dust Devil"
+				"the Dynamite"
+				"the Eagle"
+				"the Evil"
+				"the Faith"
+				"the Fiend"
+				"the Flannel Mouth"
+				"the Fool"
+				"the Friendly Face"
+				"the Gentle"
+				"the Glory"
+				"the Gold Tooth"
+				"the Golden Teeth"
+				"the Gravedigger"
+				"the Gun Slinger"
+				"the Hallow"
+				"the Happy"
+				"the Hazard"
+				"the Hollow"
+				"the Honor"
+				"the Hopalong"
+				"the Hustler"
+				"the Immortal"
+				"the Infamous"
+				"the Jeopardy"
+				"the Justice"
+				"the Kid"
+				"the Killer"
+				"the Lasso"
+				"the Leather"
+				"the Lonesome"
+				"the Luck"
+				"the Lucky"
+				"the Merciful"
+				"the Merciless"
+				"the Midnight"
+				"the Miracle"
+				"the Money"
+				"the Mortal"
+				"the Mudsill"
+				"the Mystery"
+				"the No Horse"
+				"the No Name"
+				"the No Teeth"
+				"the Noose"
+				"the Oaf"
+				"the Odd Stick"
+				"the Outlaw"
+				"the Painkiller"
+				"the Phantom"
+				"the Pistol"
+				"the Poker Face"
+				"the Prancer"
+				"the Predator"
+				"the Quick Finger"
+				"the Railroad"
+				"the Ranger"
+				"the Raven"
+				"the Rider"
+				"the Rustler"
+				"the Ryder"
+				"the Savage"
+				"the Second Life"
+				"the Shootout"
+				"the Shotgun"
+				"the Smiley"
+				"the Smokes"
+				"the Snake"
+				"the Songbird"
+				"the Stalker"
+				"the Steel"
+				"the Stormrider"
+				"the Sundown"
+				"the Sunrise"
+				"the Sureshot"
+				"the Tracker"
+				"the Trigger Finger"
+				"the Twin"
+				"the Two Lives"
+				"the Vicious"
+				"the Viper"
+				"the Whip"
+				"the Whiplash"
+				"the Wicked"
+				"the Wild"
+				"the Wolf"
+				
+			}
+			
+            regnal_first_names_male = {
+				Alejamián Christóbanco Dylandrés Javid Juardo Máximilio Sandrigo Valenzo
+            }
+           
+            regnal_first_names_female = {
+				Alejanda Claría Flomé Irena Oliana Romé Sophiela Violina
+            }			
+			
+			regnal_second_names = {
+				Cruzmán Flortes Muñoza Rojastina Sancourtez Torento Velásqueno Álvartín
+			}
+		}
+		
+		# Chinese type names
+		names3 = {
+			weight = 15
+            first_names_male = {
+			
+				Aarper Aarus Abnel Abnerthon Abnetchan Abnethur Abrah Abrahael Abristian Abrooksone Adolo Adrice Albel Alber Alfremy Alfres Ambron Amonabriah Ansey Anstis Antgo Anthuremin Apolas Articasper Atlac Atlaudeo Augus Bence Bencernah Benedeubel Benigomen Benrah Benran Brian Brookson Caimer Calas Calcolphro Caley Caspent Casse Chamson Chery Chesli Chrah Clackson Clake Cley Clydenix Clydeubel Cordory Cordox Corestick Corris Corry Danethael Desley Deston Dexan Dexanetton Edenix Edmulian Edmulus Edwing Eliel Elieli Elington Elinsel Eliot Elis Elliah Ellie Elliel Ellion Ellius Emency Emermane Emmessie Ethamson Ethar Ethrooks Ezrah Ezran Finetham Finge Finsey Frand Frankliond Fredichan Freme Gabran Gabricah Gaby Gidee Gorry Grister Gustephert Harnah Henjah Henne Henran Hugoman Hugus Iniderman Inigomus Irviel Isaachie Isaimuelix Jachaelan Jacher Jachierson Jachinease Jaius Jaiusteph Jamsonahan Jaymond Jaymossiah Jereston Jerson Jertered Jesmon Jeston Jestustory Jett Jontgo Joshenjah Josian Josius Judee Juder Judert Judeuben Julin Julis Juliverter Julus Juster Karley Karlius Kency Lawresse Leonas Leopolpher Lesles Lesmon Lineas Loganel Logankie Lucah Lucianel Luciustin Madde Maddon Magan Magand Malachenner Malake Malas Malter Malvin Marper Maxwenth Micher Mick Micks Mictonah Micus Moren Morgel Mosius Nathomuel Nathua Natton Noelix Oricus Oriffinge Orsonton Oscah Oscaspian Osiel Osius Otiand Oticah Ottis Owel Owency Oziah Ozian Oziarter Phielving Phier Philey Phoence Preder Prelvie Prent Raphaddon Raphence Raphraian Raylone Raymon Raymoshur Reasey Reuber Reubery Rolpher Romand Romenrah Romulinge Romund Royalcob Rupenneast Ruper Ruperman Samin Samulo Samundee Sawrede Sebuliot Sebulis Sebulus Sheorry Simer Simonraner Skyer Skyless Skyley Skylond Skylonrah Sollius Solph Solpher Spen Spency Sperry Suttiand Suttond Taylo Than Thark Theont Therian Thoen Thoman Thomus Tobiane Trias Triffinleb Trumand Urbas Verian Victony Virgel Virgilo Viriand Walan Weslett Wesse Wyattiand Xavin Zeban Zebenjamus Zeburtiner
+			
+				Anshen Baiqin Baiyan Baiyong Beizhen Biangan Biangmin Biangyanze Bide Boqi Boqingjie Canshin Cao Cha Chan Changda Chengji Chongbi Chongde Chongxu Chongzhan Chou Chuan Chunran Ciwei Congchuan Congde Congliang Congmin Congqi Congrui Congzahn Dezheng Fan Feng Gaowei Gaoyong Gongrui Gongyan Goushun Guanfeng Guangao Guangzuo Hong Hongde Honggui Honghuyong Hongliao Hongrui Hongshanbi Hongtong Hongwan Hongxu Hongzhan Hou Houji Houlun Houyu Huanji Huanzhang Huanzhi Ji'e Jiang Jiangxi Jiangyin Jiangyinan Jianhui Jiao Jichende Jicheng Jichenli Jige Jijie Jiju Jimiaorong Jingmeixu Jingyu Jiongzhi Jipei Jishijing Jishongbin Jitan Jitanbi Jitu Jiu Jixu Jiyi Jiyong Jizhao Jizhi Junsu Juzhan Kangke Kanjie Kanjun Kanshen Kedu Keduan Keran Kua Kuanfeng Kuanfenze Kuangqi Kuanji Kuanzu Lia Lianyin Lianzheng Lianzongxu Lingliang Longfan Luanzuo Luzhang Luzhen Mao Ming Nanying Qin Qiyi Qiyong Quanda Quang Quanxi Ran Ren Reng Rengxi Rengyong Rengzang Rongzhai Ruo Shan Shanpei Shen Shengui Shenkun Shin Shixing Shiyang Shong Shoureng Shouzhu Shuanyu Shuanzhi Siqin Sixiu Songhong Sunchongwu Sunwo Tai Taiying Tancheng Tanwei Tiang Tianyong Tin Ting Tonghu Tongyin Tonzhen Tuo Wei Weiyingji Weizuo Weng Wengxuan Wenyi Wuyuan Xianchao Xiangrui Xichao Xichi Xifang Xige Xigongde Xigui Xilao Xing Xingjian Xingyi Xiong Xishangmei Xisong Xizhong Xizhongyi Yanbaoxiu Yanchan Yang Yangao Yangdang Yangji Yangqing Yanhao Yanlianwu Yanshen Yanshuanxi Yanxian Yanzuo Yao Yifangying Yifanshuan Yigao Yigui Yiji Yingxi Yiqi Yiyun Yizhen Yizhewen Yongqian Youcongzuo Youhuan Youwei Youyi Youzhifan Yua Yuaiyong Yuangben Yuangji Yuangshen Yuangying Yuanjundao Yuanwu Yuanxun Yunshiying Yuran Yureng Zai Zedu Zeng Zengyi Zengyu Zenliaodu Zenzuo Zha Zhangxunwu Zhao Zhaoshun Zhaowengxi Zheng Zhengnen Zhengying Zhiji Zhongmei Zhongnian Zhouhun Zhouweixun Zhui Zishong Zishun Zong Zongyin Zun Zuqi
+				Da Huiyuan Gong Shi Weilian
+            }
+           
+            first_names_female = {
+			
+				Abbitha Adela Adellalise Adellasia Adely Adenas Adentila Agana Aidela Aidena Aidenah Aidentie Alean Alia Alian Alivia Amara Amela Anabelleon Angella Angelympiah Anniever Annoxie Antona Arane Arannah Atherse Aubrine Audelente Auden Audra Auren Bearcy Beatha Beline Bella Beula Birce Blandrena Cadena Camilyn Camonora Casie Cathle Cathry Catria Catrie Cecca Cecily Celiahlena Cellia Chartha Chria Clexan Coron Daide Daise Dalia Dalla Dannie Daphine Delegra Delille Diand Dinna Dinnorena Dorannie Dorie Dorona Drennie Dreya Editavie Eleona Ellia Ellie Eloisy Emilie Emilly Emina Emmandrey Emmanory Emmeli Esmele Esmellena Este Ettia Ettile Eulah Eulu Evandorne Evane Faidell Faydity Fellaide Floh Flope Florgothe Floryn Fret Georey Hargia Harloh Harorden Hary Haryn Hazelie Hazella Hazeloh Hazelphia Hellenton Hesta Hestered Hophine Hunda Imonevie Irisia Isablegra Isame Isance Isancess Jula Julicelly Julive Jundorana Junterena Katha Kathea Katia Katina Laurena Leilda Leillara Leily Lelia Leliet Lellale Lencesema Leodory Leone Leora Lila Lilda Lildra Lileath Lilen Lilla Lillegra Logella Loise Loldie Lolie Lolline Louis Louisey Louisy Lucile Lucita Luela Lueria Luery Lulia Lulinelice Mabelena Mabeliver Mabie Magel Magelena Mailairce Marce Mared Marew Marganelia Margathel Margie Marguel Marguerces Marise Maritelle Marith Marloisiet Marlope Marlorine Marrie Marrina Marrine Marthera Matha Maura Maurey Milda Milyn Mircy Molie Mollippa Nandrel Norgan Norne Oaklees Oaklet Octaviane Octona Olian Oline Oliverse Ophia Ophie Ophne Orandrey Panasta Pandale Patildia Peathie Pency Pennory Phone Phonie Phonorina Polanda Poldally Posephine Ramune Rebellah Rebelyn Reenabret Reene Rilene Roseya Rubrine Sabie Sable Sadity Sagda Shildie Sophilda Sophne Steli Susa Susabe Susanda Susta Tabe Tabley Tankie Theonahli Therie Tildita Tilla Tiloh Unah Vance Veran Veret Vide Viola Viole Vionora Vithinnia Vivia Willia Wine Winifrey Zarictavia Zarpera Zarrinas Zarrise
+			
+				Anheng Anhun Anqi Anyingniao Anyinheng Anyou Anyuan Anyun Bao Baose Cai Cai'ang Cai'er Caihen Chadang Chan Changhonu Changshang Chanpan Chanzheng Chao Chaong Chaoxi Che Cheng Chonu Chou Chuan Chuang Chui Chun Chuzhe Cui Cuibi Cuiming Cuipin'ang Da'erong Dao Daobing Dehan Den Denning Deqinshe Dezhan Dezheng Dia Diang Dua Fang Fang'an Fange Fanglan Fen Feng Fomang Fongnu Fonianshu Gua Guan Guanglin Guanzhe Guiye Han Han'an Hang Hong Huailuo Huan Huang Huiyande Huiying Jian Jianchong Jiang Jiaoshu Jie Jieng Jieyua Jinchen Jingfu Jingzheng Jinhuan Jiongchu Jiongqian Kuiyanxing Kuizi Lanxiang Lianpang Longduan Longtao Loningyu Luanshong Meiye Mian Miang Miaxian Muliaowan Mulua Mushan Mushuzhun Nang Nanxing Nei Neiye Neiyuan Pan Pang Panlian Panxian Ping Pingde Pinxi Pu'ang Pu'angning Pu'anxiu Pun Qialiang Qiangming Qiaose Ran Ranghun Ren Reng Rongji Rou Roucheng Run Run'an Runjing Ruo Ruodiu Ruyanzhen Ruying Sai'an Saihen Saijing Saijinhu Shan Shaoyu Shengfu Shiguangde Shongji Shouche Shouji Shu Shua Shuan Shuang Shui Shunian Shunin'er Sui Taijinxing Tangde Tantongjun Taoying Tong Tonglan Toning Wan Wang Wen Weng Wengyue Wun Xi'an Xi'ang Xi'eroning Xia Xialiang Xiang Xianpang Xiao Xiaobi Xiaong Xiaoying Xiaoyu Xiaoyue Xiashun Xiaxi Xiaxing Xin Xing Xingrao Xingyuan Xinshun Xiu Xiumeifan Xua Xue Xun Yan Yanluan Yanxiaogei Yaoqing Yaoshu Yaotaiqing Yaowan Yaoyu Yaoyua Yi'er Yiche Yihu Yihun Yihuzen Yiluan Yiluo Ying Yingle Yingming Yingyang Yingyuan Yinyuan Yishe Yishonu Yong Yong'er Yongchu Yongle Yongnian Yongniaxiu Yongzhe Yongzheng Youpo Yua Yuan Yuang Yuhu Yulan Yuliang Yulin Yuling Yulua Yusheng Yushiguo Yushong Zhan Zhangxiao Zhanping Zhaocheng Zhaose Zhaoying Zhe Zhen'an Zheng Zhong Zhou Zhuandu Zhuang Zhuizi Zhun Zhuozhadan Zhuzen
+				Chenyu Fangcao Geyao Mei Meifang
+            }
+			
+			
+			second_names = {
+			
+				Bai Cai Cao Chang Chen Cheng Cui Dai Deng Ding Dong Du Duan Fan Fang Feng Fu Gao Gong Gu Guo Han Hao He Hou Hu Huang Jia Jiang Jin Kang Kong Lai Li Liang Lin Liu Long Lu Luo Ma Mao Meng Pan Peng Qian Qiao Qin Qiu Ren Shao Shen Sheng Shi Song Su Sun Tan Tang Tian Wan Wang Wei Wen Wu Xia Xiao Xie Xiong Xu Xue Yan Yang Yao Ye Yi Yin Yu Yuan Zeng Zhang Zhao Zheng Zhong Zhou Zhu Zou
+				Bai Cai Cao Chang Chen Cheng Cui Dai Deng Ding Dong Du Duan Fan Fang Feng Fu Gao Gong Gu Guo Han Hao He Hou Hu Huang Jia Jiang Jin Kang Kong Lai Li Liang Lin Liu Long Lu Luo Ma Mao Meng Pan Peng Qian Qiao Qin Qiu Ren Shao Shen Sheng Shi Song Su Sun Tan Tang Tian Wan Wang Wei Wen Wu Xia Xiao Xie Xiong Xu Xue Yan Yang Yao Ye Yi Yin Yu Yuan Zeng Zhang Zhao Zheng Zhong Zhou Zhu Zou
+				Bai Cai Cao Chang Chen Cheng Cui Dai Deng Ding Dong Du Duan Fan Fang Feng Fu Gao Gong Gu Guo Han Hao He Hou Hu Huang Jia Jiang Jin Kang Kong Lai Li Liang Lin Liu Long Lu Luo Ma Mao Meng Pan Peng Qian Qiao Qin Qiu Ren Shao Shen Sheng Shi Song Su Sun Tan Tang Tian Wan Wang Wei Wen Wu Xia Xiao Xie Xiong Xu Xue Yan Yang Yao Ye Yi Yin Yu Yuan Zeng Zhang Zhao Zheng Zhong Zhou Zhu Zou
+				Bai Cai Cao Chang Chen Cheng Cui Dai Deng Ding Dong Du Duan Fan Fang Feng Fu Gao Gong Gu Guo Han Hao He Hou Hu Huang Jia Jiang Jin Kang Kong Lai Li Liang Lin Liu Long Lu Luo Ma Mao Meng Pan Peng Qian Qiao Qin Qiu Ren Shao Shen Sheng Shi Song Su Sun Tan Tang Tian Wan Wang Wei Wen Wu Xia Xiao Xie Xiong Xu Xue Yan Yang Yao Ye Yi Yin Yu Yuan Zeng Zhang Zhao Zheng Zhong Zhou Zhu Zou
+				Pei Pei Pei Pei
+				
+				"the Ace High"
+				"the Arizona"
+				"the Auger"
+				"the Backfire"
+				"the Bad Egg"
+				"the Bad Mouth"
+				"the Bane"
+				"the Bender"
+				"the Big Gun"
+				"the Blood"
+				"the Bloodlust"
+				"the Blowhard"
+				"the Bog-Trotter"
+				"the Boot-Licker"
+				"the Brains"
+				"the Bull"
+				"the Bulldozer"
+				"the Bullet"
+				"the Bullettooth"
+				"the Bullseye"
+				"the Bully"
+				"the Chiseler"
+				"the Cobra"
+				"the Con Artist"
+				"the Con"
+				"the Courage"
+				"the Creed"
+				"the Crimson"
+				"the Croaker"
+				"the Damned"
+				"the Darkness"
+				"the Dawn Rider"
+				"the Dawn"
+				"the Deadbeat"
+				"the Demon Eyes"
+				"the Devil"
+				"the Diabolic"
+				"the Doc"
+				"the Dusk Rider"
+				"the Dusk"
+				"the Dust Devil"
+				"the Dynamite"
+				"the Eagle"
+				"the Evil"
+				"the Faith"
+				"the Fiend"
+				"the Flannel Mouth"
+				"the Fool"
+				"the Friendly Face"
+				"the Gentle"
+				"the Glory"
+				"the Gold Tooth"
+				"the Golden Teeth"
+				"the Gravedigger"
+				"the Gun Slinger"
+				"the Hallow"
+				"the Happy"
+				"the Hazard"
+				"the Hollow"
+				"the Honor"
+				"the Hopalong"
+				"the Hustler"
+				"the Immortal"
+				"the Infamous"
+				"the Jeopardy"
+				"the Justice"
+				"the Kid"
+				"the Killer"
+				"the Lasso"
+				"the Leather"
+				"the Lonesome"
+				"the Luck"
+				"the Lucky"
+				"the Merciful"
+				"the Merciless"
+				"the Midnight"
+				"the Miracle"
+				"the Money"
+				"the Mortal"
+				"the Mudsill"
+				"the Mystery"
+				"the No Horse"
+				"the No Name"
+				"the No Teeth"
+				"the Noose"
+				"the Oaf"
+				"the Odd Stick"
+				"the Outlaw"
+				"the Painkiller"
+				"the Phantom"
+				"the Pistol"
+				"the Poker Face"
+				"the Prancer"
+				"the Predator"
+				"the Quick Finger"
+				"the Railroad"
+				"the Ranger"
+				"the Raven"
+				"the Rider"
+				"the Rustler"
+				"the Ryder"
+				"the Savage"
+				"the Second Life"
+				"the Shootout"
+				"the Shotgun"
+				"the Smiley"
+				"the Smokes"
+				"the Snake"
+				"the Songbird"
+				"the Stalker"
+				"the Steel"
+				"the Stormrider"
+				"the Sundown"
+				"the Sunrise"
+				"the Sureshot"
+				"the Tracker"
+				"the Trigger Finger"
+				"the Twin"
+				"the Two Lives"
+				"the Vicious"
+				"the Viper"
+				"the Whip"
+				"the Whiplash"
+				"the Wicked"
+				"the Wild"
+				"the Wolf"
+				
+			}
+			
+            regnal_first_names_male = {
+				Da Huiyuan Gong Shi Weilian
+            }
+           
+            regnal_first_names_female = {
+				Chenyu Fangcao Geyao Mei Meifang
+            }			
+			
+			regnal_second_names = {
+				Huang Jiang Liu Pei
+			}
+		}
+	}
+}

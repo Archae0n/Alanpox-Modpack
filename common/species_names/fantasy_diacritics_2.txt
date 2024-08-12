@@ -1,0 +1,410 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	saicen = {
+		name = Saichenese
+		plural = Saichenese
+		home_planet = Saichen
+		home_system = Sopesh
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	micin = {
+		name = Micinid
+		plural = Micinids
+		home_planet = Micin
+		home_system = "Samâ Nososh"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	litisapa = {
+		name = Litisapan
+		plural = Litisapans
+		home_planet = Litisapa
+		home_system = Pesa-Šoshêpit
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	pecaso = {
+		name = Pecasan
+		plural = Pecasans
+		home_planet = Pecaso
+		home_system = Saomalaos
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	sicana = {
+		name = Shichanan
+		plural = Shichanans
+		home_planet = "Shichana T'echilê"
+		home_system = "Matamâ T'echilê" 
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	notoso = {
+		name = Ñôtôsoan
+		plural = Ñôtôsoans
+		home_planet = Ñôtôso
+		home_system = Teisha-Talo 
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	fountainofeternity = {
+		name = Tetipêshite
+		plural = Tetipêshites
+		home_planet = "Fountain of Eternity"
+		home_system = "House of Healing" 
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	laoshata = {
+		name = Laoshâ
+		plural = Laoshâ
+		home_planet = Laoshât'a
+		home_system = Saisha 
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	seseit = {
+		name = Seseitoid
+		plural = Seseitoids
+		home_planet = Seseit
+		home_system = Mic'alo
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	naotsetot = {
+		name = Shai
+		plural = Shai
+		home_planet = "Naot Set'ot"
+		home_system = "Naot Polosh"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	saosmosa = {
+		name = Saomosa
+		plural = Saomosas
+		home_planet = "Saos Mosa"
+		home_system = Chota-Nâ
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	matari = {
+		name = Totatian
+		plural = Totatians
+		home_planet = Matati
+		home_system = Mâtetepe
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	cailamai = {
+		name = Cailamese  
+		plural = Cailamese
+		home_planet = Cailamai
+		home_system = Tecelash
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	patama = {
+		name = Pâtaman  
+		plural = Pâtamans
+		home_planet = "Pâtama Nonâ"
+		home_system = "Pâtama Teha"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	naiti = {
+		name = Naiti  
+		plural = Naiti
+		home_planet = Nisos-Saipe
+		home_system = Hasen-Pat'as
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	chonetaci = {
+		name = Choñoid 
+		plural = Choñoids
+		home_planet = Choñet'ac'i
+		home_system = Ñeshesenite
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	ceis = {
+		name = C'eis 
+		plural = C'eis
+		home_planet = "Lêchash Noho Saot'oc'eis"
+		home_system = Shâmonas
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	sosila = {
+		name = Sosilan 
+		plural = Sosilans
+		home_planet = Sosila
+		home_system = Sosila-Hâseti
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	pane = {
+		name = Paneans
+		plural = Panean
+		home_planet = Pane
+		home_system = Pane
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	saotise = {
+		name = Saotisean
+		plural = Saotiseans
+		home_planet = Saotise
+		home_system = Hîpoitoilata
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	picame = {
+		name = Pichamean
+		plural = Pichameans
+		home_planet = Pichame
+		home_system = Michetit
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	sita = {
+		name = Sîtian
+		plural = Sîtians
+		home_planet = Sîtâ
+		home_system = Sîshe
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	soichailiprime = {
+		name = Soi-Chalite
+		plural = Soi-Chalites
+		home_planet = "Soi Chaili Prime"
+		home_system = "Soi Chaili"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	houseofpemiposh = {
+		name = Shañocâshono
+		plural = Shañocâshono
+		home_planet = "House of Pemî Posh"
+		home_system = "House of Ñon Posh"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	memas = {
+		name = Memasid
+		plural = Memasids
+		home_planet = Memas
+		home_system = "Ñonasa Chatash"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	seinen = {
+		name = Seinênoid
+		plural = Seinênoids
+		home_planet = Seinên
+		home_system = Seici
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	colanchin = {
+		name = Colânese
+		plural = Colânese
+		home_planet = "Colân Chin"
+		home_system = "T'et'omei Tei"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	chashelislove = {
+		name = Chashelid
+		plural = Chashelids
+		home_planet = "Chashelî's Love"
+		home_system = "Câsamese's Love"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	laho = {
+		name = Lâhoan
+		plural = Lâhoans
+		home_planet = Lâho
+		home_system = "Lâho T'ailê"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	cipacat = {
+		name = Cipac'at
+		plural = Cipac'at
+		home_planet = Cipac'at
+		home_system = Saotac'o
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	cheimat = {
+		name = Cheimat
+		plural = Cheimat
+		home_planet = "Nai Cheimat"
+		home_system = "Nai Shinoi"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	mitoco = {
+		name = Mitoco
+		plural = Mitoco
+		home_planet = Mitoco
+		home_system = T'êchemî
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	sopiten = {
+		name = Sopitian
+		plural = Sopitians
+		home_planet = Sopiten
+		home_system = Shipimo
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	notche = {
+		name = Naposhian
+		plural = Naposhians
+		home_planet = Not-Chê
+		home_system = Cash-T'ama
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	tepepoti = {
+		name = Pipânese
+		plural = Pipânese
+		home_planet = Tepêpoti
+		home_system = Pinanotecî
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	mitahe = {
+		name = Mitalese
+		plural = Mitalese
+		home_planet = Mitahe
+		home_system = "Pamai Papi"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	primordialmystery = {
+		name = "Soce Lishash"
+		plural = "Soce Lishash"
+		home_planet = "Primordial Mystery"
+		home_system = "Night Devourer"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	netatini = {
+		name = T'i
+		plural = T'i
+		home_planet = Neta-T'ini
+		home_system = Lali-Lotesh
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	casnat = {
+		name = Napi-Nâletan
+		plural = Napi-Nâletans
+		home_planet = "Cas Nât"
+		home_system = "Cat Nât"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	limena = {
+		name = Limm
+		plural = Limm
+		home_planet = Limeña
+		home_system = Nêtei
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	tacaisama = {
+		name = Tacaisamese
+		plural = Tacaisamese
+		home_planet = Tacaisama
+		home_system = Mapesho
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+}
+
+
+### AQUATICS
+
+AQUATIC = {
+	moiti = {
+		name = Moitian
+		plural = Moitians
+		home_planet = Moiti
+		home_system = "Sho Nahêca"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	techanipat = {
+		name = Têchanîpattid
+		plural = Têchanîpattids
+		home_planet = Têchanîpat
+		home_system = T'ichâsâsh
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	papetemao = {
+		name = Temaoan
+		plural = Temaoans
+		home_planet = Papetemao
+		home_system = Papaomi
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	shapachat = {
+		name = Shapachâtese
+		plural = Shapachâtese
+		home_planet = Shapachât
+		home_system = "C'ê Naiha"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+}
+
+
+
+# Toxoids
+
+TOX = {
+	lachanon = {
+		name = Lachañese
+		plural = Lachañese
+		home_planet = Lachañon
+		home_system = Shat'oso
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	naletce = {
+		name = Têmâpean
+		plural = Têmâpeans
+		home_planet = "Nâlet C'ê"
+		home_system = "Michit C'ê"
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	shipot = {
+		name = Shipotese
+		plural = Shipotese
+		home_planet = Shipot
+		home_system = Toinashê
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+	macilema = {
+		name = Macilêman
+		plural = Macilêmans
+		home_planet = Macilêma
+		home_system = Tei-Saosoni
+		name_list = "cybrxkhan_fantasy_diacritics_2"
+	}
+}

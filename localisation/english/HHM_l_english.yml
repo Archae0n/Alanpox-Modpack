@@ -1,0 +1,32 @@
+﻿l_english:
+ ################################
+ # Steal Leader Message
+ ################################
+ MESSAGE_HHM_STOLEN_LEADER: "Leader Captured"
+ MESSAGE_HHM_STOLEN_LEADER_TITLE: "Leader Captured"
+ MESSAGE_TYPE_HHM_STOLEN_LEADER_DESC: "We have captured a leader as a hostage."
+ MESSAGE_HHM_STOLEN_LEADER_VICTIM: "Leader Kidnapped"
+ MESSAGE_HHM_STOLEN_LEADER_VICTIM_TITLE: "Leader Kidnapped"
+ MESSAGE_TYPE_HHM_STOLEN_LEADER_VICTIM_DESC: "One of our leaders has been captured by hostile forces."
+ 
+ #################
+ # Hostage Trait #
+ #################
+ 
+ HHM_hostage_trait: "Hostage"
+ HHM_hostage_trait_desc: "This leader has been captured by a foreign empire, and will carry out any task at reduced performance when the right 'Incentive' is provided."
+ HHM_hostage_trait_effect: "[GetHHMHostageTraitEffect]"
+ HHM_hostage_trait_not_idle: "$t$§EEffects apply while NOT on the Council.§!"
+ #HHM_hostage_trait_idle_effect: "[GetHHMHostageTraitIdleEffect]"
+ HHM_hostage_trait_idle: "§RThis trait has no effect while Leader is idle.§!\nThis Leader does not count towards the leader cap while idle."
+ HHM_hostage_trait_will_be_removed: "This trait will be removed when assigned to a position."
+ 
+ # Events
+ 
+ HHM_events.4.name: "[event_target:HHM_released_leader.GetName] Released"
+ HHM_events.4.desc: "One of our [event_target:HHM_released_leader.HHMGetLeaderClassPlural], [event_target:HHM_released_leader.GetName], has been released by [event_target:HHM_released_leader.GetHisHer] captor, and is now ready to rejoin our empire."
+ 
+ HHM_leader_class_scientists: "scientists"
+ HHM_leader_class_commanders: "commanders"
+ HHM_leader_class_officials: "officials"
+ HHM_leader_class_leaders: "Leaders"

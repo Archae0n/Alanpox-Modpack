@@ -1,0 +1,206 @@
+#######################################################
+#GALACTIC REPUBLIC
+
+empire_name_parts_list = {
+	key = "c_galacticrepublic2"
+	parts = {
+		c_galacticrepublic = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_galactic_rep"
+		}
+	}
+	lookups = "<c_galacticrepublic2>"
+	format = format.gr.1 # <imperial_domain_names>
+	noun = format.species # [This.GetSpeciesName]
+	prefix_format = format_prefix.gr.1 # [This.GetSpeciesName] <imperial_domain_names>
+}
+
+#######################################################
+#GALACTIC SOVIET
+
+empire_name_parts_list = {
+	key = "c_commies2"
+	parts = {
+		c_commies = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_galactic_sov"
+		}
+	}
+	lookups = "<c_commies2>"
+	format = format.gs.1 # <imperial_domain_names>
+	noun = format.species # [This.GetSpeciesName]
+	prefix_format = format_prefix.gs.1 # [This.GetSpeciesName] <imperial_domain_names>
+}
+
+#######################################################
+#THE COMBINE
+
+empire_name_parts_list = {
+	key = "c_universalu2"
+	parts = {
+		c_universalu = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_galactic_cmbu"
+		}
+	}
+	lookups = "<c_universalu2>"
+	format = format.cmbu.1 # <imperial_domain_names>
+	noun = format.species # [This.GetSpeciesName]
+	prefix_format = format_prefix.cmbu.1 # [This.GetSpeciesName] <imperial_domain_names>
+}
+#######################################################
+#CORPORATION
+
+empire_name_parts_list = {
+	key = "c_corpors2"
+	parts = {
+		c_corpors = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_galactic_corpor"
+		}
+	}
+	lookups = "<c_corpors2>"
+	format = format.corpor.1 # <imperial_domain_names>
+	noun = format.species # [This.GetSpeciesName]
+	prefix_format = format_prefix.corpor.1 # [This.GetSpeciesName] <imperial_domain_names>
+}
+#######################################################
+#MACHINES
+
+empire_name_parts_list = {
+	key = "c_puc2"
+	parts = {
+		c_puc = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_galactic_intellekt"
+		}
+	}
+	lookups = "<c_puc2>"
+	format = format.intellekt.1 # <imperial_domain_names>
+	noun = format.species # [This.GetSpeciesName]
+	prefix_format = format_prefix.intellekt.1 # [This.GetSpeciesName] <imperial_domain_names>
+}
+#######################################################
+#HIVE MINDS
+
+empire_name_parts_list = {
+	key = "c_ghives2"
+	parts = {
+		c_ghives = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_galactic_greathive"
+		}
+	}
+	lookups = "<c_ghives2>"
+	format = format.greathive.1 # <imperial_domain_names>
+	noun = format.species # [This.GetSpeciesName]
+	prefix_format = format_prefix.greathive.1 # [This.GetSpeciesName] <imperial_domain_names>
+}
+#######################################################
+#OPPRESSIVE AUTOCRACY
+
+empire_name_parts_list = {
+	key = "c_19842"
+	parts = {
+		c_1984 = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_galactic_1984"
+		}
+	}
+	lookups = "<c_19842>"
+	format = format.1984.1 # <imperial_domain_names>
+	noun = format.species # [This.GetSpeciesName]
+	prefix_format = format_prefix.1984.1 # [This.GetSpeciesName] <imperial_domain_names>
+}
+
+#######################################################
+#XENOPHOBS
+
+##Too late to notice but all this crap is actually not needed...????
+##I'll leave the code intact in case it breaks something, but won't add more of the same shit unless absolutely required
+
+# empire_name_parts_list = {
+# 	key = "c_xenophobssss"
+# 	parts = {
+# 		c_cxenophob = 10
+# 	}
+# }
+
+# empire_name_format = {
+# 	random_weight = {
+# 		factor = 0
+# 		modifier = {
+# 			add = 100000
+# 			has_government = "gov_galactic_xenophob"
+# 		}
+# 	}
+# 	lookups = "<c_xenophobssss>"
+# 	format = format.cxenophob.1 # <imperial_domain_names>
+# 	noun = format.species # [This.GetSpeciesName]
+# 	prefix_format = format_prefix.cxenophob.1 # [This.GetSpeciesName] <imperial_domain_names>
+# }
+
+#######################################################
+#workarounds
+empire_name_parts_list = {
+	key = "cmbu_overwatch22222"
+	parts = {
+		Overwatch = 30
+	}
+}
+
+empire_name_parts_list = {
+	key = "cmbu_ssr22222"
+	parts = {
+		SSR = 30
+	}
+}

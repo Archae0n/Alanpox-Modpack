@@ -1,0 +1,21 @@
+﻿l_spanish:
+  technology_diffusion_dmm_loc:0 "Difusión de Tecnología - Personalización"
+
+  tdf_content_title:0 "Menú de Difusión de Tecnología"
+  tdf_content_desc:0 "Bienvenido a Tech Diffusion, ¡aquí puedes cambiar la tasa de difusión de tecnología para todos los imperios!"
+  tdf_content_current_fast:0 "Actualmente configurado a velocidad rápida"
+  tdf_content_current_normal:0 "Actualmente configurado a velocidad normal"
+  tdf_content_current_slow:0 "Actualmente configurado para velocidad lenta"
+  tdf_content_set_fast:0 "Establecer una velocidad de propagación rápida (+50%)"
+  tdf_content_set_normal:0 "Establecer en velocidad de propagación normal (predeterminado)"
+  tdf_content_set_slow:0 "Establecer una velocidad de propagación lenta (-50%)"
+  tdf_content_cancel:0 "Cancelar"
+  tdf_content_start:0 "Iniciar juego con valores predeterminados"
+
+
+  tdf_technology_bonus_eng:0 "Bono de ingeniería"
+  tdf_technology_bonus_soc:0 "Bono de sociedad"
+  tdf_technology_bonus_phy:0 "Bono de física"
+  mod_country_base_engineering_research_produces_add:0 "Bonificación de puntos de investigación en Ingeniería por difusión tecnológica"
+  mod_country_base_society_research_produces_add:0 "Bonificación de puntos de investigación en Sociedad procedente de la difusión tecnológica"
+  mod_country_base_physics_research_produces_add:0 "Puntos extra de investigación en Física por difusión tecnológica"

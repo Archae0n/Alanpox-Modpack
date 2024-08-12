@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_resource_crisis_group"
+		textureFile = "gfx/ui_overhaul_qhd/icons/crisis_group.dds"
+	}
+	# missing resource icons
+	spriteType = {
+		name = "GFX_resource_nanites_large"
+		textureFile = "gfx/interface/icons/resources/nanites_large.dds"
+	}
+}

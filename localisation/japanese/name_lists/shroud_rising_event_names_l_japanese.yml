@@ -1,0 +1,44 @@
+﻿l_japanese:
+
+NAME_shroud_cultist_country: "$jp_sr_shroud_cultist$艦隊$jp_shroud_rising_suffix$"
+NAME_shroud_cultists: "$jp_sr_shroud_cultist$$jp_shroud_rising_suffix$"
+
+NAME_shroud_horror_country: "$jp_sr_shroud_horror$$jp_shroud_rising_suffix$"
+NAME_greater_horror_fleet: "$jp_sr_shroud_entity$$jp_shroud_rising_suffix$"
+
+NAME_vengeful_horror_army: "復讐に満ちた恐怖$jp_shroud_rising_suffix$"
+NAME_horror_army: "暴れ回る恐怖$jp_shroud_rising_suffix$"
+
+NAME_ancient_god_name: "古代の天神$jp_shroud_rising_suffix$"
+NAME_ancient_god_ship_name: "古代の天神$jp_shroud_rising_suffix$"
+NAME_ancient_god: "$jp_sr_shroud_horror$$jp_shroud_rising_suffix$"
+NAME_ancient_god_blank: " "
+NAME_shroud_horrors: "$jp_sr_shroud_horror$$jp_shroud_rising_suffix$"
+NAME_shroud_horrors_single: "$jp_sr_shroud_horror$$jp_shroud_rising_suffix$"
+NAME_shroud_horrors_blank: " "
+NAME_greater_horror: "大いなる$jp_sr_shroud_horror$$jp_shroud_rising_suffix$"
+NAME_shroud_entity: "小さな$jp_sr_shroud_horror$$jp_shroud_rising_suffix$"
+NAME_shroud_entity_name: "$jp_sr_shroud_entity$$jp_shroud_rising_suffix$"
+NAME_greater_horror_hunger: "飢餓のアバター$jp_shroud_rising_suffix$"
+NAME_greater_horror_whisper: "風説のアバター$jp_shroud_rising_suffix$"
+NAME_greater_horror_corruption: "腐敗のアバター$jp_shroud_rising_suffix$"
+NAME_greater_horror_destruction: "破壊のアバター$jp_shroud_rising_suffix$"
+NAME_greater_horror_desire: "強欲のアバター$jp_shroud_rising_suffix$"
+NAME_cosmic_horror: "$jp_sr_cosmic_horror$$jp_shroud_rising_suffix$"
+NAME_cosmic_horror_name: "$jp_sr_cosmic_horror$$jp_shroud_rising_suffix$"
+
+
+cultist_nest: "カルト軌道ステーション$jp_shroud_rising_suffix$"
+
+#ship design names
+NAME_horror_hunger: "飢餓の大恐"
+NAME_horror_desire: "強欲の大恐"
+NAME_horror_whisper: "風説の大恐"
+NAME_horror_corruption: "腐敗の大恐"
+
+
+NAME_traitor_fleet: "反逆艦隊"
+NAME_traitor_ship: "反逆艦"
+NAME_traitor_army: "反逆$ARMIE$"
+NAME_loyalist_army: "忠臣$ARMIE$"
+NAME_cultist_army: "カルト$ARMIE$"

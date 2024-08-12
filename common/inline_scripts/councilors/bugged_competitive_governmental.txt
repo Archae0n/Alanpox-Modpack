@@ -1,0 +1,10 @@
+councilor_$CIVIC_NAME$ = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+	civic = civic_$CIVIC_NAME$
+	modifier = {
+		commercial_pact_mult = 0.02
+	}
+}

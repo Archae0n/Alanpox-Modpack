@@ -1,0 +1,13 @@
+councilor_$CIVIC_NAME$ = {
+	leader_class = { scientist official }
+	is_leader_possible = {
+		OR = {
+			leader_class = scientist
+			leader_class = official
+		}
+	}
+	civic = civic_$CIVIC_NAME$
+	modifier = {
+		ship_speed_mult = 0.02
+	}
+}

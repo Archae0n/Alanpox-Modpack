@@ -1,0 +1,40 @@
+tradition_est_archivist = {
+	desc = {
+		trigger = { is_gestalt = yes }
+		text = tradition_est_archivist_GC_desc
+	}
+	tree_template = "tree_est_0_0_2_12_34"
+	adoption_bonus = "tr_est_archivist_adopt"
+	finish_bonus = "tr_est_archivist_finish"
+	traditions = {
+		"tr_est_archivist_1"
+		"tr_est_archivist_2"
+		"tr_est_archivist_3"
+		"tr_est_archivist_4"
+		"tr_est_archivist_5"
+	}
+
+	potential = {
+		est_archivist_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 3
+			has_ethic = ethic_fanatic_materialist
+		}	
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_machine_servitor
+		}	
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

@@ -1,0 +1,440 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	cherbal = {
+		name = Cherbalese
+		plural = Cherbalese
+		home_planet = Cherbal
+		home_system = Astann
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	kanelqar = {
+		name = Kanellite
+		plural = Kanellites
+		home_planet = Kanelqar
+		home_system = Astann
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	hashmon = {
+		name = Hashmonite
+		plural = Hashmonites
+		home_planet = Hashmon
+		home_system = Ytabua
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	ahill = {
+		name = Ahillian
+		plural = Ahillians
+		home_planet = Ahill
+		home_system = Jubaliaton
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	gissiram = {
+		name = Gissiramid
+		plural = Gissiramids
+		home_planet = Gissiram
+		home_system = "Eugo Elik" 
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	dannit = {
+		name = Dannittian
+		plural = Dannittians
+		home_planet = Dannit
+		home_system = Barcalles 
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	chantofeternity = {
+		name = Mutpa
+		plural = Mutpas
+		home_planet = "Chant of Eternity"
+		home_system = "Cry of Glory" 
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	sophomiprime = {
+		name = Soph
+		plural = Sophs
+		home_planet = "Sophomi Prime"
+		home_system = Sophomi 
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	gammarem = {
+		name = Yadash
+		plural = Yadash
+		home_planet = Gammarem
+		home_system = Hanelbes
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	sophobal = {
+		name = Sophobaloid
+		plural = Sophobaloids
+		home_planet = Sophobal
+		home_system = Gissa
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	qarba = {
+		name = Qarbid
+		plural = Qarbids
+		home_planet = Qarba
+		home_system = Bodmel
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	yadaphila = {
+		name = Yadaphilite
+		plural = Yadaphilites
+		home_planet = Yadaphila
+		home_system = Jubaal
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	maharempsa = {
+		name = Maharemese  
+		plural = Maharemese
+		home_planet = Maharempsa
+		home_system = Milkpilik
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	gamon = {
+		name = Gamonese  
+		plural = Gamonese
+		home_planet = Gamon
+		home_system = Hamastart
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	hampal = {
+		name = Hampalite  
+		plural = Hampalites
+		home_planet = Hampal
+		home_system = Agbalhal
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	azimi = {
+		name = Azimid  
+		plural = Azimids
+		home_planet = Azimi
+		home_system = Baalhanelqar
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	jubal = {
+		name = Jubalic 
+		plural = Jubalics
+		home_planet = Jubal
+		home_system = Jubal
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	metar = {
+		name = Metaran 
+		plural = Metarans
+		home_planet = Metar
+		home_system = Hantab
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	barcar = {
+		name = Barcarese 
+		plural = Barcarese
+		home_planet = Barcar
+		home_system = Baltiba
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	mahah = {
+		name = Melqar 
+		plural = Melqars
+		home_planet = Mahah
+		home_system = Tamilkirah
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	abdham = {
+		name = Abdhamese
+		plural = Abdhamese
+		home_planet = Abdham
+		home_system = Masdrubaal
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	yutthanel = {
+		name = Yutthanese
+		plural = Yutthanese
+		home_planet = Yutthanel
+		home_system = "Adon Bart"
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	carekbalprime = {
+		name = Carekoid
+		plural = Carekoids
+		home_planet = "Carekbal Prime"
+		home_system = Carekbal
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	ittaram = {
+		name = Ittarian
+		plural = Ittarians
+		home_planet = Ittaram
+		home_system = Adodann
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	rainbowblossom = {
+		name = Dann'Ado
+		plural = Dann'Ado
+		home_planet = "Rainbow Blossom"
+		home_system = "Everlasting Waterer"
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	tamash = {
+		name = Tamashite
+		plural = Tamashites
+		home_planet = Tamash
+		home_system = Bamel'rem
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	hashmul = {
+		name = Hashmulite
+		plural = Hashmulites
+		home_planet = Hashmul
+		home_system = Mumilo
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	menus = {
+		name = Menoid
+		plural = Menoids
+		home_planet = Menus
+		home_system = Sopho
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	greatumma = {
+		name = "Shann Umma"
+		plural = "Shann Umma"
+		home_planet = "Great Umma"
+		home_system = Bodmenus
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	melqarba = {
+		name = Melqarrian
+		plural = Melqarrians
+		home_planet = Melqarba
+		home_system = Danelqart
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	yadabaalhan = {
+		name = Yadash
+		plural = Yadash
+		home_planet = "Ya'da Baalhan"
+		home_system = "Ya'da Ahiram"
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	gamgarissa = {
+		name = Gamgarissan
+		plural = Gamgarissans
+		home_planet = Gamgarissa
+		home_system = Bodamon
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	azimart = {
+		name = Azimartese
+		plural = Azimartese
+		home_planet = Azimart
+		home_system = Hamouldu
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	isbaal = {
+		name = Isbaalite
+		plural = Isbaalites
+		home_planet = Isbaal
+		home_system = Suhann
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	mutthom = {
+		name = Mutthomid
+		plural = Mutthomids
+		home_planet = Mutthom
+		home_system = Barenus
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	gammahan = {
+		name = Gam'Mahanite
+		plural = Gam'Mahanites
+		home_planet = Gam'Mahan
+		home_system = Sophonit
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	eshtal = {
+		name = Eshtalite
+		plural = Eshtalites
+		home_planet = Eshtal
+		home_system = Iezavel
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	houseofthelawgiver = {
+		name = Sophoban
+		plural = Sophobans
+		home_planet = "House of the Law-Giver"
+		home_system = "Mountain of the Convenant"
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	himassa = {
+		name = Himassan
+		plural = Himassans
+		home_planet = Himassa
+		home_system = Hanmilkyaton
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	bomdidon = {
+		name = Bombomer
+		plural = Bombomers
+		home_planet = "Bom Didon"
+		home_system = Abiromilki
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	khilcar = {
+		name = Khilcarite
+		plural = Khilcarites
+		home_planet = Khilcar
+		home_system = Adozima
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	rimila = {
+		name = Rimilese
+		plural = Rimilese
+		home_planet = Rimila
+		home_system = Suhaim
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	gerbart = {
+		name = Gerbartese
+		plural = Gerbartese
+		home_planet = Gerbart
+		home_system = Bar-Hiempsa
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	tabnissir = {
+		name = Tabnissiran
+		plural = Tabnissirans
+		home_planet = Tabnissir
+		home_system = Mutpa-La
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	abdon = {
+		name = Abdonese
+		plural = Abdonese
+		home_planet = Abdon
+		home_system = Bounisbal
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	hamounbaal = {
+		name = Hamounese
+		plural = Hamounese
+		home_planet = Hamounbaal
+		home_system = Iezavel
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	abirabir = {
+		name = Milcoid
+		plural = Milcoids
+		home_planet = Abir
+		home_system = Iezab
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	muttart = {
+		name = Ha'Ytar
+		plural = Ha'Ytar
+		home_planet = Muttart
+		home_system = Ittunhiromi
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	magor = {
+		name = Magorid
+		plural = Magorids
+		home_planet = Magor
+		home_system = Bostal
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	eshmounit = {
+		name = Eshmounese
+		plural = Eshmounese
+		home_planet = Eshmounit
+		home_system = Boulostar
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	zimilki = {
+		name = Zimilki
+		plural = Zimilki
+		home_planet = Zimilki
+		home_system = Zimilki
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	batoniba = {
+		name = Batoniban
+		plural = Batonibans
+		home_planet = Batoniba
+		home_system = Philki
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	izabua = {
+		name = Izaboid
+		plural = Izaboids
+		home_planet = Izabua
+		home_system = Urubaal
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+	joywidespread = {
+		name = Hiem
+		plural = Hiem
+		home_planet = "Joy Widespread"
+		home_system = "Glory Hereafter"
+		name_list = "cybrxkhan_handmade_punic_2"
+	}
+}

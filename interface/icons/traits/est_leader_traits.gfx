@@ -1,0 +1,319 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_leader_trait_est_mystic"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_mystic.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_est_cognition_central"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_cognition_central.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_est_chivalry"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_chivalry.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_est_chivalry_hero"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_chivalry_hero.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_est_individualism_inspiration"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_individualism_inspiration.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_recruiter_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_recruiter_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_from_the_ranks_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_from_the_ranks_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_fortifier_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_fortifier_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_logistic_understanding_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_logistic_understanding_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_military_pioneer_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_military_pioneer_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_fist_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_fist_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_architectural_sense_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_architectural_sense_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_frontier_spirit_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_frontier_spirit_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_world_shaper_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_world_shaper_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_home_in_the_sky_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_home_in_the_sky_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_industrialist_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_industrialist_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_eye_for_talent_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_eye_for_talent_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_deep_connections_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_deep_connections_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_charismatic_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_charismatic_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_champion_of_the_people_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_champion_of_the_people_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_expansionist_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_expansionist_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_fertility_preacher_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_fertility_preacher_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_investor_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_investor_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_space_miner_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_space_miner_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_explorer_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_explorer_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_fleet_organizer_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_fleet_organizer_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_ruler_reformer_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_ruler_reformer_est_2.dds"
+	}
+
+	### Added by Ben_D
+	############
+
+	spriteType = {
+		name = "GFX_leader_trait_meticulous_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_meticulous_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_spark_of_genius_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_spark_of_genius_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_roamer_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_roamer_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_archaeologist_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_archaeologist_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_custom_AI_assistant_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_custom_AI_assistant_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_sentient_AI_assistant_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_sentient_AI_assistant_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_trickster_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_trickster_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_fleet_logistician_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_fleet_logistician_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_engineer_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_engineer_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_aggressive_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_aggressive_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_cautious_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_cautious_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_unyielding_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_unyielding_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_militarism_5"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_militarism_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_might_5"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_might_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_confederacy_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_confederacy_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_carefree_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_carefree_est_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_astronomy"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_astronomy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_architecture"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_architecture.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_chemistry"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_chemistry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_communication"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_communication.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_culture"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_culture.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_electronics"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_electronics.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_geology"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_geology.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_history"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_history.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_mathematics"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_mathematics.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_mechanics"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_mechanics.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_software"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_software.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_taxonomy"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_taxonomy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leader_trait_est_librarian_war"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_est_librarian_war.dds"
+	}
+
+	### Generals
+	############
+
+	spriteType = {
+		name = "GFX_leader_trait_restrained_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_restrained_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_charismatic_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_butcher_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_butcher_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_glory_seeker_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_army_logistician_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_army_logistician_est_2.dds"
+	}
+
+	### Governors
+	#############
+
+	spriteType = {
+		name = "GFX_leader_trait_iron_fist_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_iron_fist_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_army_veteran_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_army_veteran_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_retired_fleet_officer_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_retired_fleet_officer_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_architectural_interest_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_architectural_interest_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_agrarian_upbringing_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_agrarian_upbringing_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_intellectual_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_intellectual_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_environmental_engineer_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_environmental_engineer_est_2.dds"
+	}
+	spriteType = {
+		name = "GFX_leader_trait_righteous_est_2"
+		texturefile = "gfx/interface/icons/traits/leader_traits/leader_trait_righteous_est_2.dds"
+	}
+}
+

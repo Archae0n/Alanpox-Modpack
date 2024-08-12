@@ -1,0 +1,49 @@
+﻿l_simp_chinese:
+ FLAG_CATEGORY_zz_enclaves:0 "飞地"
+ FLAG_CATEGORY_zz_special:0 "特别的"
+ 
+ FLAG_CATEGORY_battlestar-6364:0 "太空堡垒卡拉狄加"
+ FLAG_CATEGORY_dune-6364:0 "沙丘"
+ FLAG_CATEGORY_elitedangerous-6364:0 "精英 危機四伏"
+ FLAG_CATEGORY_eve-6364:0 "星战前夜"
+ FLAG_CATEGORY_geopolitical-6364:0 "地缘政治"
+ FLAG_CATEGORY_halflife-6364:0 "半条命"
+ FLAG_CATEGORY_historythemed-6364:0 "历史性"
+ FLAG_CATEGORY_homeworld-6364:0 "家园"
+ FLAG_CATEGORY_masseffect-6364:0 "质量效应"
+ FLAG_CATEGORY_misc-6364:0 "天文杂"
+ FLAG_CATEGORY_miscgame-6364:0 "游戏"
+ FLAG_CATEGORY_redrising-6364:0 "紅色覺醒"
+ FLAG_CATEGORY_stargate-6364:0 "星际之门"
+ FLAG_CATEGORY_startrek-6364:0 "星际迷航"
+ FLAG_CATEGORY_starwars-6364:0 "星球大战"
+  
+ FLAG_CATEGORY_divers:0 "瑞士金"
+ FLAG_CATEGORY_divers2:0 "瑞士银"
+ FLAG_CATEGORY_divers3:0 "瑞典缟玛瑙"
+ 
+ FLAG_CATEGORY_mtg_main_1:0 "万智牌（主）"
+ FLAG_CATEGORY_mtg_main_2:0 "万智牌（中学）"
+ FLAG_CATEGORY_mtg_other:0 "万智牌（其他）"
+ 
+ FLAG_CATEGORY_starclans_color_1:0 "星族颜色"
+ FLAG_CATEGORY_starclans_gold_1:0 "星族黄金"
+ FLAG_CATEGORY_starclans_onyx_1:0 "星族缟玛瑙"
+ FLAG_CATEGORY_starclans_silver_1:0 "星族银牌"
+ 
+ FLAG_CATEGORY_teesemblems1:0 "三通 1"
+ FLAG_CATEGORY_teesemblems2:0 "三通 2"
+ FLAG_CATEGORY_teesemblems3:0 "三通 3"
+ FLAG_CATEGORY_teesemblems4:0 "三通 4"
+ FLAG_CATEGORY_teesemblems5:0 "三通 5"
+ FLAG_CATEGORY_teesemblems6:0 "三通 6"
+  
+ FLAG_CATEGORY_scificorpemblems1:0 "科幻企业"
+ 
+ FLAG_CATEGORY_just-more-flags:0 "只是更多的标志"
+
+ FLAG_CATEGORY_xtraemblems:0 "Xtra 标志"
+ 
+ FLAG_CATEGORY_humanity:0 "人性"
+ 
+ FLAG_CATEGORY_more_flags:0 "更多旗帜"

@@ -1,0 +1,428 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	ayanobuonsin = {
+		name = Ayanobian
+		plural = Ayanobians
+		home_planet = "Ayan Obuonsín"
+		home_system = "Quah Adjoong"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	ampaaprime = {
+		name = Dúkúa
+		plural = Dúkúa
+		home_planet = "Ampaa Prime"
+		home_system = Ampaa
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	opamanscunning = {
+		name = Opa
+		plural = Opas
+		home_planet = "Opaman's Love"
+		home_system = "Kanúakú's Fury"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	agyekarpewah = {
+		name = Agye-Wah
+		plural = Agye-Wah
+		home_planet = Agyekarpéwah
+		home_system = Appiiakwá
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	adjaul = {
+		name = Adjáulese
+		plural = Adjáulese
+		home_planet = Adjául
+		home_system = Kyememeabiai 
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	omengthesecond = {
+		name = Yaw'kuwa
+		plural = Yaw'kuwa
+		home_planet = "Omeng the Second"
+		home_system = "Omeng the First" 
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	chestofdreams = {
+		name = Cofaful
+		plural = Cofaful
+		home_planet = "Chest of Dreams"
+		home_system = "Radiant Chamber" 
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	tankor = {
+		name = Tankorese
+		plural = Tankorese
+		home_planet = Tankor
+		home_system = Acham 
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	akorosa = {
+		name = Akorosan
+		plural = Akorosans
+		home_planet = Akorosa
+		home_system = Foffáuah
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	gadwoasaa = {
+		name = Anni
+		plural = Anni
+		home_planet = "Gadwó Asaa"
+		home_system = "Kankon Asaa"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	oyiesikor = {
+		name = Oyie-Táwii-Sikorid
+		plural = Oyie-Táwii-Sikorids
+		home_planet = Oyie-Sikor
+		home_system = Opaako
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	staffoffrempig = {
+		name = Nsokodai
+		plural = Nsokodai
+		home_planet = "Staff of Frempíg"
+		home_system = "Blade of Donko"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	feastofsorrows = {
+		name = Opamílantei
+		plural = Opamílantei
+		home_planet = "Feast of Sorrows"
+		home_system = "Sound of Silence"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	breyimpadusi = {
+		name = Padusian
+		plural = Padusians
+		home_planet = Breyimpadusi
+		home_system = Siikyiawandei
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	forkari = {
+		name = Forkarian
+		plural = Forkarians
+		home_planet = Forkari
+		home_system = Gadusi
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	abrotene = {
+		name = Abrótenean  
+		plural = Abróteneans
+		home_planet = Abrótene
+		home_system = Twerekéam
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	kyeebeboagãyeko = {
+		name = Nkaoe  
+		plural = Nkaoe
+		home_planet = Kyeebeboagãyeko
+		home_system = Sikrúh
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	fatheraben = {
+		name = Kwaa  
+		plural = Kwaa
+		home_planet = "Father Aben"
+		home_system = "Mother Akomómi"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	afiraka = {
+		name = Afirakan  
+		plural = Afirakans
+		home_planet = Afiraká
+		home_system = Abeboa
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	ansaan = {
+		name = Ansaani 
+		plural = Ansaani
+		home_planet = Ansaan
+		home_system = Ansaan
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	adjujuah = {
+		name = Adjí-Fre 
+		plural = Adjí-Fre
+		home_planet = Adjíjuah
+		home_system = Niiabiua
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	answersofopadu = {
+		name = Soa 
+		plural = Soa
+		home_planet = "Answers of Opadu"
+		home_system = "Mysteries of Akoba"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	djasiwaa = {
+		name = Djasid 
+		plural = Djasids
+		home_planet = Djasiwaa
+		home_system = Abróamfee
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	aberamenaaa = {
+		name = Aberameian
+		plural = Aberamenians
+		home_planet = Aberamenaaa
+		home_system = "Adjoo Oyi"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	nyawaa = {
+		name = Ampah
+		plural = Ampah
+		home_planet = Nyawaa
+		home_system = "Kwah Ajwe"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	komdjankwa = {
+		name = Djankwo
+		plural = Djankwo
+		home_planet = "Kom Djankwá"
+		home_system = "Kom Gyia"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	ampareku = {
+		name = Amparean
+		plural = Ampareans
+		home_planet = Ampareku
+		home_system = Ayaare
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	opadwarosu = {
+		name = Opadwa
+		plural = Opadwa
+		home_planet = Opadwarosu
+		home_system = Nkrimóema
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	dapadwaah = {
+		name = Dapa
+		plural = Dapas
+		home_planet = Dapadwaah
+		home_system = Yantuong
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	sacrificeremembered = {
+		name = Ankoong
+		plural = Ankoong
+		home_planet = "Sacrifice Remembered"
+		home_system = "Justice Delivered"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	koduah = {
+		name = Kodusoid
+		plural = Kodusoids
+		home_planet = Koduah
+		home_system = Kodu
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	dedaprime = {
+		name = "Assín Eful"
+		plural = "Assín Eful"
+		home_planet = "Deda Prime"
+		home_system = Deda
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	baisasi = {
+		name = Baisasid
+		plural = Baisasids
+		home_planet = Baisasi
+		home_system = Daróemeah
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	sasiesrubythrone = {
+		name = Badwó
+		plural = Badwó
+		home_planet = "Sasie's Ruby Throne"
+		home_system = "Opadádoful's Hallowed Hall"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	ennaaaduahsmind = {
+		name = Ennaaa-Búduse
+		plural = Ennaaa-Búduse
+		home_planet = "Ennaaaduah's Mind"
+		home_system = "Ennaaaduah's Heart"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	bonkoba = {
+		name = Bonkobid
+		plural = Bonkobids
+		home_planet = Bonkoba
+		home_system = Búduse
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	aamiaakan = {
+		name = Kúwámian
+		plural = Kúwámians
+		home_planet = Ámiá
+		home_system = Kosei
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	aampong = {
+		name = A'Aso
+		plural = A'Aso
+		home_planet = Aa'Mpong
+		home_system = Aa'Asaebea
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	towerofsolitude = {
+		name = Nyamekye
+		plural = Nyamekye
+		home_planet = "Tower of Solitude"
+		home_system = "Immortal Deliverer"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	boasisiako = {
+		name = Boassian
+		plural = Boassians
+		home_planet = "Boasisiako"
+		home_system = Boasisiako
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	IUbria = {
+		name = IUbria
+		plural = IUbria
+		home_planet = Amponuonsah
+		home_system = Okoomansah
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	motherfrempompong = {
+		name = Frempóngese
+		plural = Frempóngese
+		home_planet = "Mother Frempómpong"
+		home_system = "Father Frempómpong"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	kwaasenso = {
+		name = Kwasensid
+		plural = Kwasensids
+		home_planet = Kwa'Asenso
+		home_system = Kwa'Fremah
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	nimooh = {
+		name = Nimolese
+		plural = Nimolese
+		home_planet = Nimooh
+		home_system = Nsonúnwaa
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	asran = {
+		name = Asranese
+		plural = Asranese
+		home_planet = Asran
+		home_system = Sokoh
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	pewagatasil = {
+		name = Bremanese
+		plural = Bremanese
+		home_planet = "Pewag ata'Sil"
+		home_system = "Sil Ata"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	akadwa = {
+		name = Kah
+		plural = Kah
+		home_planet = Akadwa
+		home_system = Akréyaw
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	otopome = {
+		name = Otopomean
+		plural = Otopomeans
+		home_planet = Otopome
+		home_system = Sawankwaría
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+}
+
+
+# Toxoids
+
+TOX = {
+	arkonim = {
+		name = Arkomites
+		plural = Arkomites
+		home_planet = Arkomím
+		home_system = Ayáyienah
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	fofigyia = {
+		name = Akom
+		plural = Akom
+		home_planet = "Fofí Gyia"
+		home_system = "Fofí Gyawe"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	Asiiwah = {
+		name = Pinoo
+		plural = Pinoo
+		home_planet = Asiiwah
+		home_system = Ebebeyi
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+	dankathecourageous = {
+		name = Manúanúsa
+		plural = Manúanúsa
+		home_planet = "Danká the Courageous"
+		home_system = "Ayamfo the Diligent"
+		name_list = "cybrxkhan_fantasy_akan"
+	}
+}
+

@@ -1,0 +1,38 @@
+# $BUGGED_TRADER_COUNT$ = Half of the districts job count, rounded down
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_bugged_governmental_competitive = yes
+		}
+	}
+	modifier = {
+		job_technician_add = -$BUGGED_TRADER_COUNT$
+		job_trader_add = $BUGGED_TRADER_COUNT$
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_bugged_governmental_competitive = yes
+		}
+		is_bugged_trade_designation = yes
+	}
+	modifier = {
+		job_technician_add = -$BUGGED_TRADER_COUNT$
+		job_trader_add = $BUGGED_TRADER_COUNT$
+	}
+}
+
+triggered_desc = {
+	trigger = {
+		exists = owner
+		owner = {
+			is_bugged_governmental_competitive = yes
+		}
+	}
+	text = job_trader_effect_desc
+}

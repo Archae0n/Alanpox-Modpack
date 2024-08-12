@@ -1,0 +1,110 @@
+# $BUGGED_FARMER_COUNT$ = All Clerks on the district
+# $BUGGED_HOUSING_COUNT$ = One Fifth of base housing on the district
+
+#Anthropocentric Governmental
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = { is_bugged_governmental_anthropocentric = yes }
+	}
+	modifier = {
+		planet_max_buildings_add = 0.50
+	}
+}
+#Welfare State
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_bugged_government_intervention = yes
+		}
+	}
+	modifier = {
+		planet_housing_add = 2
+	}
+}
+#Rooftop Farmers
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_bugged_rooftop_farmers
+			NAND = {
+				is_anglers_empire = yes
+				PREV = { planet = { is_wet = yes } }
+			}
+		}
+	}
+	modifier = {
+		job_clerk_add = -$BUGGED_FARMER_COUNT$
+		job_farmer_add = $BUGGED_FARMER_COUNT$
+	}
+}
+
+triggered_desc = {
+	trigger = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_bugged_rooftop_farmers
+			NAND = {
+				is_anglers_empire = yes
+				PREV = { planet = { is_wet = yes } }
+			}
+		}
+	}
+	text = job_farmer_effect_desc
+}
+#Rooftop Fishers
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_anglers_empire = yes
+			has_valid_civic = civic_bugged_rooftop_farmers
+		}
+		planet = { is_wet = yes }
+	}
+	modifier = {
+		job_clerk_add = -$BUGGED_FARMER_COUNT$
+		job_angler_add = $BUGGED_FARMER_COUNT$
+	}
+}
+
+triggered_desc = {
+	trigger = {
+		exists = owner
+		owner = {
+			is_anglers_empire = yes
+			has_valid_civic = civic_bugged_rooftop_farmers
+		}
+		planet = { is_wet = yes }
+	}
+	text = job_aqu_angler_effect_desc
+}
+
+#CORP AGRARIAN
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_bugged_agrarian_idyll_corpo
+		}
+	}
+	modifier = {
+		planet_housing_add = -$BUGGED_HOUSING_COUNT$
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_housing_2
+			has_valid_civic = civic_bugged_agrarian_idyll_corpo
+		}
+	}
+	modifier = {
+		planet_housing_add = -$BUGGED_HOUSING_COUNT$
+	}
+}

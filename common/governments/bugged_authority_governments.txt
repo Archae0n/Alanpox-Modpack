@@ -1,0 +1,54 @@
+##########################
+#  AUTHORITY GOVERNMENTS
+##########################
+# Documentation: common\governments\99_README_GOVERNMENT.txt
+#
+# All governments in this file have base weight: @gov_authority_weight
+# Except the Fallback government which has: @gov_fallback_weight
+#
+# They all require only an authority in the possible block.
+#
+# If the empire fulfills the requirements for multiple governments, it will
+# select the first one listed in this file.
+#
+# The weight categories to select a government are (highest selected first):
+# 1. AI governments
+# 2. Authority swap governments
+# 3. Civic governments
+# 4. Ethic governments
+# 5. Authority governments
+# 6. Fallback government
+
+# Democratic Megacorporation
+gov_democratic_megacorporation = {
+	ruler_title = RT_CEO
+	ruler_title_female = RT_CEO_FEMALE
+
+	should_force_rename = yes
+
+	possible = {
+		has_authority = auth_bugged_corporate_democratic
+	}
+
+	weight = {
+		base = @gov_authority_weight
+	}
+}
+	
+# Imperial Megacorporation
+gov_imperial_megacorporation = {
+	ruler_title = RT_CEO
+	ruler_title_female = RT_CEO_FEMALE
+	heir_title = RT_CHAIRMAN
+	heir_title_female = RT_CHAIRWOMAN
+
+	should_force_rename = yes
+
+	possible = {
+		has_authority = auth_bugged_corporate_imperial
+	}
+
+	weight = {
+		base = @gov_authority_weight
+	}
+}

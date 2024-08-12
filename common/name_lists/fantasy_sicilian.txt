@@ -1,0 +1,234 @@
+﻿### Fantasy Sicilian
+### Put Sicilian names from Crusader Kings 3 and Sicilian names/words pulled from elsewhere into a markov generator
+
+cybrxkhan_fantasy_sicilian = {	
+	category = "Aquatic"
+
+	ship_names = {
+		generic = {
+			Abbereliu Abbia Accavano Acciolo Ademanu Ademardolirne Ademu Aderi Adiustianu Adrasiu Adredira Adrelilo Adria Adrinu Adrisi Adrustia Agarcudu Agatu Aggentimenza Aghia Agnatavia Agnatuno Agnavia Agrisidirgiu Albanni Albanzaguello Albara Albardu Alberi Albia Alena Alenisa Alessentu Alfonseni Alirigorghia Alvandria Alvessella Alvianu Alviardi Amartuna Amasidurone Ambbetta Ambbricu Ambettofurtu Ambra Anata Anatanso Andonicosto Andosa Andosiu Andru Angaristanu Angato Angia Angilanduja Angiraggi Angiricionicu Angirra Angiu Annastinu Annata Anniu Annizzia Antanna Antellu Antia Antiavicafinu Antinciu Antinu Antizzo Antria Antro Apada Apara Aparlelina Apasina Arari Ardana Ardangiu Arghino Arria Artinu Ascergennu Ascerti Atavascitu Atavia Atedittu Atefu Atella Atelmu Augerrata Auggeri Auggheru Auglinassa Auguzzo Aurecono Aurna Auseppargiu Ausola Ausolazzicu Baciolla Baguerionessi Bagusolli Basidi Basquaria Bassesfu Bassesia Bassi Bastu Beliardallo Bellauferiu Belmu Belmusa Biamaraudolo Biancartu Biannichia Bianza Biarbone Biarina Biatanu Binandonzutra Binarcu Binina Biolfonso Biolfu Biora Biorieliamida Bioto Birdu Birecono Biristanna Boemia Boemila Bonata Boneli Bonessi Bonisimu Bonso Bonsolia Briando Briapponsonso Brippolo Bruara Bruna Brusti Bufemargiola Bufemia Bufemidenata Bufero Buffredde Busabbrittuno Buseppizzo Bussimpicu Busta Bustina Bustinu Cafia Cafista Caimenza Caintofu Caittu Caldru Caldu Calliacca Callosidanu Camatu Camentina Camenzu Camiglino Caminaruliaro Camisso Camunia Cancibbiarada Cando Candonsola Cania Canna Cannara Cannavata Canniarbono Cannida Cansola Carcu Carditianu Carduvrazzina Caressi Cargiu Carica Caricheria CarIIa CarIIacino Cariora Carisa Caritu Cariu Cariua Carotu Carri Cartello Carturu Catastro Catugna Cavasilda Ceredielimasi Cergino Ceria Ceriu Cerunso Chiarbonso China Chino Chira Cianna Ciantina Cianulubbuto Ciarditu Ciaro Ciarteno Cichiermu Ciforda Cilatonesu Ciliorezzo Cilumariu Cirada Cirazzo Cirecoppa Cirico Ciritu Cirradittu Ciruna Cirvanu Cissologi Clancemia Clanu Clasilimpi Clauggena Clicu Climpa Clina Clinu Cocca Coccavosa Coccericavata Cocco Cocostro Colfu Colfuru Colia Colippicu Comarlessiani Comina Conata Condosa Conierea Conisa Conseppone Coppiarapizzu Coppolfu Coppolo Coralgermolfu Cordualaricio Corenzu Coricemu Cosanci CosarIIa Cosata Coscale Coscì Cosima Cosimacioriu Cosimpardirra Cotia Cotofu Cotta Cracanuci Cragghia Cragu Crancita Cranfrellardu Crani Cranu Crapasquaci Crapu Crasia Crata Cratara Crazzulo Cricu Cricuduaitta Crigustru Crinu Criscì Cristinu Crisu Crita Critto Criustariaro Crizzia Cucchemuniu Cucchiaccu Cucia Cuciorduru Cucitunnatu Cuniella Cunirrianu Cunso Curalicu Curedu Curne Curra Curuso Curusta Cusca Cussiu Custanda Custi Custinato Custriua Custu Cutofuru Cuzzo Còminta Còminu Còmiu Cùnza Cùnzu Dafiscaleu Dameve Damina Dammasso Dammatandona Dammone Dammonziu Daniso Daniu Dantinazzita Della Dellogi Desfu Destiniru Didintia Disti Dorancinu Doria Dorisinu Dorlu Dortuno Dumaciu Dumana Dumentino Dumetra Dumilda Duminasiudino Dumisa Dumiso Dumiu Dumìnidi Dumìniricu Eduja Elermoni Elermunola Elerra Elimuncia Elipalessi Elvanzu Elvarotta Elvastina Elviara Elvisu Emmanargeru Emmandola Emmarogna Emmatandru Emmonaziu Emmunnavanna Emmunsollauru Eranu Ermangi Eudina Eudinciordu Euditta Eudosa Eufemu Eufera Euffa Euffanolfuru Eugeralà Eugertu Eugeruni Eugghiata Euglippa Eugnataresa Fabbina Fabelmussu Faberia Fabra Fabranolanu Faccifu Faleu Fallo Fauccusola Faucemanu Faugnavanu Faula Fauliu Fazzia Ficuzzo Fidalvia Fideli Fidenzu Fidicu Fidilistinu Fidurriu Filasti Filaufereco Filauffanciu Filia Filica Filicosa Filicussi Filimu Filimunhiardu Filino Filisancrea Filiudolo Filla Fillarca FillarIIacca Filogna Filubbetru Fiolfu Fiolo Firato Firdu Firinuvranzu Firra Flanniciono Flaucreddu Flavosimunsù Forazzia Forgi Fradu Fralloru Frapa Frarocchia Frasso Frato Fratu Fulianchia Fulicciano Fulorteli Furelioria Furiangira Furnella Gaimaccarvani Gaino Gainu Gaiona Gaione Gaiottananu Gaitardolfu Gaitina Gaittunallo Gaiuderianu Gebbertinari Gebbri Gebbutono Gerisiu Gesenta Gessi Gessu Giancemara Gianna Gianu Giarbonello Giataviu Gimassi Gimentinosia Gimiglimpa Gimunolanu Ginaci Ginciottu Giondolo Gione Gionziu Gioriggerta Giotteunifu Giottoniduja Giotu Giotuggeru Giralumìnicu Girdisiu GirdosiarIIa Girezzu Giricu Girinica Gisolfu Gisti Gistrono Giuacalda Giudolaru Giudu Giulcosta Giulina Giulippitardu Giulo Giulu Giuni Giuscanzu Giuscemu Giuscono Giustinora Giustone Giuvatanulina Gohia Gohinu Gracchemaco Graghira Granci Grazzertu Grediu Gresello Griagusti Griamina Griangara Griano Gricheli Grinu Guacastuna Gualda Gualdanu Gualeodintina Gualiancia Guaranierenza Gufemanzu Guferiu Guffangiono Guffazziu Guffrenosa Guggiunnu Guidinoridami Guina Inoriu Intro Isanu Isatandina Isgra Isgri Isgrotto Japaria Lambriuviu Lancitasti Lanna Lannaliu Lannuvra Larita Lauggirauci Lauru Laustina Leggena Leggerico Leggeru Lenniu Lentina Lento Lenzu Libbilicia Libia Libilda Liolfo Lionidilvirra Lioriu Lisimu Lista Listinavoli Listricertefa Lisulimi Litalvia Litino Littuna Liulchello Liviriando Lomacoppicca Lomafia Lucchilina Luccioriscu Luccudiriu Lucemu Luceniancia Lucermasia Lucianidanu Luciata Lucigliara Lucinchinu Lucini Lucinti Luciortu Lucrezziu Luddelino Ludicudosa Ludildracli Luida Luiderina Luidi Luidirdu Luigentini Luigertu Luigli Luiglimuella Luini Luinolo Luinu Luisualell Lurona Macaria Macaru Macavolo Maccavolanu Macibbera Macistinu Madale Madalena Madaminu Madiso Mafiana Maldu Manchemasu Mandrica Mandrusaruna Manfredualicu Manidiriu Mannazza Manni Mannu Mansolani Mantini Maracciottu Maraci Marangata Marasco Marata Mardiaggiu Mardidilina Mardu Mardura Marella Maria Maricara Mariera Mariermu Mariola Maritta Marizzo Marle Maroi Marone Marra Marrici Marti Martinidia Martu Martunarcu Marturiu Marulinatara Mascu Masia Masse Massiu Masta Matordinu Maucemiannu Maucioca Maucre Mauderria Mauffreddello Maugghelinu Mauglianu Maulfu Maulincemino Maulo Mauraci Maurella Mauresu Mauricartu Mauriu Mauruartu Mauscu Maustatatta Meseppu Mesimu Messatu Messi Messiu Mestinchilu Mestru Mesuara Mevesa Mianicu Mianu Micarusta Micito Micudu Miditariscia Miglinu Moditansenzu Modola Modori Moliu Monso Musanna Musciu Musta Mustanteunina Mustia Mustrada Mòdicu Mòdito Napariu Napicudiatu Napizza Napulo Narone Nicaru Nicca Niciono Nicudiu Nicuduja Nicuzziu Niello Niuditi Nnuci Notordolo Nottanzu Nottefazzu Notteu Notto Nottunidallu Notugghildru Noturu Oliannu Oliartu Olicavira Olimargatanu Olina Olincifa Olisi Origorappadi Orlenzuto Orleodino Ottaninu Ottanto Ottarteuna Palda Paldafonellu Panaru Panderra Panfrello Pannalda Pannianara Pannu Panto Paracifu Pardu ParIIa Pariulconiriu Parogi Parulfu Passu Pauddu Paurraca Pauru Petriu Pettarasi Picilu Piciu Piudu Piunnarotuno Pizzita Polentra Polillu Polimenzu Preddalu Preli Pruallo Pruscu Puglippino Pulfurri Pulimennu Pulitu Ragariu Ragghilliso Raini Raiotimita Raita Raitaberia Raittu Rambbilo Ramianu Ramigusca Raudda Rauddale Raudia Rauru Reitta Reitunizzu Ricia Ricisu Ricude Riinu Riiscenna Riiscì Riissi Riista Rijita Rijitandredde Rijitardu Rijitu Rincredi Riniaroi Rizziana Rizzintino Rizzitonata Rizzitu Rizziu Romanu Rosca Rubbila Rudella Rudina Ruduristi Rufergentia Ruffazzo Ruggenza Ruguscu Rugusto Ruscu Rusellogne Rusonellatuno Rusti Rustizzaroi Ruvasta Ruvostia Salda Samia Samina Samuninia Sancifo Sarelinielicu Sarlanna Scardu Scefazzu Sceru Schera Schermolanza Schiatenzu Schina Scifuru Scigeriara Scilu Scimu Scioriu Sciscu Sciso Scista Scisti Scita Scittoriuliu Scittu Sciudi Sciudisca Scuzza Sebaralora Sebbri Sebbutini Sellu Sentinizzina Seppara Seppolanu Seppulila Seria Seriatto Sertu Severtinaru Severtu Sfino Sfinu Sfistanu Sfistinu Sgramito Sibberito Sibbia Sibbiliu Sibbritta Sigeru Siggermardu Siggerri Siggincinu Simanu Simanzuto Simatella Simia Simidurtunci Simigeristara Siminavata Simpara Simparcu Simpicall Simpicudirne Sirada Sirna Sirra Spallo Sparagarta Speraleni Steduja Stelicia Steria Steuni Tandricuso Tannaria Tannu Tanza Tatavia Tatrina Telisselilla Telli Tello Teodiana Teodiri Teodola Teodorau Teona Teone Teonicemi Teoniso Teono Teonsonso Timuni Tinti Tirellasso Tirga Tiria Tiuniandola Tiusenorarina Tizzu Totta Triarduina Trina Trissa Trisuarogiu Tutina Tutora Uguerti Ugusello Ugusoli Umbera Umbria Umbro Unfre Unfredinciora Unfreduroi Vadanna Vadaria Vaddelianu Valassa Valda Valdru Valdu Valeniu Valenna Valesu Valgena Valilubarianu Valiu Valla Valloru Vicalimu Virraciu Virvartu Viscemincio Vitalanziu Vitannia Vitanu Vitinca Vittanu Vitto Volardonso Volfu Voliola Volloranu Volorato Zaccaviu Ziudiellogiu Zosannalgertu Zosco Zosillasimu Zucemasuaca Zucina Zuciudo Zucredu
+
+			Adino Agaragu Agartuni Agusti Aguzzo Alianni Alippartu Alisia Alvanu Alvesimparca Angi Antedu Anti Antina Antofu Ardi Ardira Arianu Ascardu Ascoppa Ata Augne Bagappa Belella Bera Bia Biorgiritta Birraxi Boemunso Caio Caiolo Calessina Calla Caminia Canu Carvandora Cavata Cia Cilimpicu Cla Cogira Coniu Cosanti Crisara Crissiudila Curra Curu Cusandra Cuso Custino Còmina Damatta Daudila Desta Dumiannu Dumìnia Eliciotuna Era Ermu Euferra Euguzzinu Fauru Fili Firghina Firgiariu Flo Flogiolo Foriu Fra Fradanchina Framianchila Frangi Ginatu Giona Giriuvra Giuarta Giulo Giuscinu Gna Grellia Isa Isaroi Isgrini Lazzintiannu Liocaraggiri Lissidita Lisu Lomianu Lucca Lucenza Lucintina Lucuzzia Lurri Mafiato Mantina Mardalennia Maria MarIIaclimpa Maru Mastinu Mauramisi Meno Modordu Monidinci Niciforia Nicu Nicudosana Nicustu Nnu Notta Orlarinu Paulubasquaro Piudiaro Polo Pru Puli Raminicettu Raucchiaghemi Raulu Riinirascione Rino Rubbriu Ruffre Rugusanna Samino Sca Sci Scu Sevesulia Sibbia Sibila Sila Simunirra Sparo Tavaldru Tiridista Tiu Tottellana Totto Utra Vali Vinu Viriara Vita Vitalesta Vitannu Vitardu Volerinciardu
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Cambraxi Armada" "Ardisu Armada" "Pasima Armada" "Dumìnia Armada" "Imparduru Armada" "Scioturraxi Armada" "Forgiulfu Armada" "Aureco Armada" "Belinavira Armada" "Giolana Armada" "Carenina Armada" "Oraudelia Armada"
+		}
+		sequential_name = FANTASY_ITALIAN_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_ITALIAN_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_ITALIAN_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_ITALIAN_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_ITALIAN_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_ITALIAN_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_ITALIAN_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_ITALIAN_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_ITALIAN_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_ITALIAN_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_ITALIAN_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_ITALIAN_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_ITALIAN_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_ITALIAN_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_ITALIAN_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_ITALIAN_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_ITALIAN_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_ITALIAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_ITALIAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_ITALIAN_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_ITALIAN_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_ITALIAN_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Alillanu Apala Apallosa Apara Apardichermo Arastallo Bellata Belleona Brotinciolo Busata Buscemafo Buscosa Busseno Bussestri Caiorlero Camito Canciolo Canzicardo Caracciardi Carambri Carri Carusa Cavolangiolo Cavoloscino Cerita Ciaritalvato Ciartellato Ciavaroi Cinoscione Ciranzuto Cirria Cocchia Combriore Conavaru Consù Coppolanzuto Coppollo Costalà Cralubare Crappola Cucussenzulo Cudillangari Cunso Cunsù Cuzzo Còminisi Cùnza Cùnzicco Delleone Dello Dumìnisso Faulu Faurocco Faurogno Ficareseno Filiaro Fiotu Firgenti Frasta Geriarale Giara Giaragusseno Graleredduja Grana Graxi Imparu Impasino Inata Inciolo Inizzutri Isgro Leggiaranna Lentracinisi Liini Lombra Manavolanna Mannacosa Maraxi Mariso Mauccoppolo Maucuddenna Migliso Mistrone Modia Monata Mussolosata Nduressessa Notto Panna Pichia Pizza Pizzino Pizzutra Raguzzerisi Ramito Raugno Reito Rijita Rijito Rinciolo Rominchia Sariotu Saruscì Saruso Scalà Scavolo Scemidella Schia Sciaranzutina Sciavo Sfisi Sfiso Sfisu Sirria Spero Sperriari Timiglica Trita Utragusolo Utrasi Vadarone Volazza Voliappolana Zagarone
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Abbili Acciordu Alesfurtu Ambermu Andru Angili Anseliu Anseppu Ansonelmu Antini Antinu Ardandriu Ardani Arrazzu Atergapu Augghiu Auggi Augustinu Austanu Basiu Belistanu Bianu Bonzu Caimiudu Caimuni Caldu Ciliu Clanu Cliandru Cosimasiu Curedu Curratu Custi Custinu Custone Custru Damunariu Daudu Daulu Dumardu Dumianu Edu Erandriu Erazianu Ermu Ermuni Ermuninu Euffreduvicu Fidi Filardaniu Firvatu Floria Fratu Fulconi Fulconiu Furigustru Furu Gaimantinu Gaimentinu Gainu Girazziu Girea Gisandricefu Giu Giuniria Giustianu Gnatu Grandolfu Guallu Gugustanu Guigertinatu Japu Lamberiu Lanu Liscu Listu Luccefuru Luccenzu Lucioriu Luigoricu Lupulfu Mandru Marcudi Mardirdanu Mardu Mari Maria Mariconzu Maricu Marissiu Masimu Masiu Masqualdu Maufertu Napitu Napiu Niciorizziu Nicu Nicudiru Nnu Olisu Oliustani Onoriudemu Oranzu Ottaninu Ottanu Ottordinu Pandoliu Panzu Pasimpiu Pasiu Paudu Rainu Ramanu Rancistanu Ranni Ricefuru Richelmu Rinti Rinu Rudeminu Rudemunanu Rufemunardu Ruferu Ruggeriu Rugghiu Ruggilu Samu Saniredu Sarbonelmu Sardanu Sarvatertu Sebasiu Severrizziu Sigertunnu Siggeru Sigorgiunicu Siliustu Silvestanu Simasiuallu Simiarvatu Simiu Simu Stenolfu Tancigu Tiuli Tiuni Tumartu Tumiu Ugustoni Umberriu Umbertuni Unfrea Unfreddu Utteriu Uttofu Valdu Valiu Vallu Viciudosi Vinti Vittofu Viturtu Zosiu
+            }
+           
+            first_names_female = {
+				Adelicita Adella Adera Aderti Adila Adisabetta Adricia Adriciniana Agnelia Agnelimuna Agria Agrina Albildrina Albilumenia Alelippa Aleunca Angia Angiata Angina Antona Antoranza Arica Auggena Auradda Austa Bina Brina Brula Brulancetta Brulcheradda Brulia Bruncalda Bruncisa Calda Caleuna Camilia Canata Cancettarca Canna Canti Caranci Carca Cargira Caria CarIIa Cartuna Catanna Catrisa Chiricina Cica Cla Clianianza Clima Colelia Colenza Cricilda Crina Crippina Cunastana Cunhilumena Curancalippa Curezzia Curnesa Curradanna Curranca Custi Damia Damina Damintinta Doradida Dorghiata Dorta Dumenza Dumilla Eleuncetta Elia Elvia Emmargina Eufemilla Eufemina Eugustanna Faura Fidilda Fidira Fidita Fila Filasta Filda Filia Fillasia Flortinica Fradda Fratasia Gaita Gaitta Gessia Gimunora Gina Ginicita Giniditta Giona Giora Gioria Giudiatria Giula Giusta Giuvandisa Liora Lista Listara Litta Liviana Livianna Lucisca Lucittanza Lucrelia Lucreliata Lucrella Luiggena Luiggenia Luiggenza Luistina Macalippa Madda Marghia Maricina Maricinia Maricisa Marinia Martunorda Maula Maurelia Meda Olippa Olippina Oriargilia Oricila Orita Oritana Oritanna Paura Paurnella Pauseppina Pula Pulasta Pulia Pulimuna Rosabelina Rosabella Sibbina Sibbinianza Simartuna Simunhilasia Tiradda Valda Valdrippa Valicisca Valippa Valogirezzia Virelia Virianta Viulaurra Viulcherti Viustina
+            }
+			
+			
+			second_names = {
+				Amanga Amangia Amanu Amanzulu Apastrono Biona Biondola Brona Brono Brotu Bruscemano Buscemigliso Buscussi Buscì Busso Caiono Caracifu Caranzulosa Carassu Cerisi Cerrisolo Chiardica Chiardilosta Ciambraucu Ciapalà Ciappone Ciaramiglisti Ciardia Ciare Ciavo Ciracifu Cirassu Cirgenti Cirriso Cocchiaru Costiamita Cotugerrina Cramitala Craulo Cucemistiami Cutro Cutrogna Cùnza Faucca Filla Fillosa Gebbiarina Gebbiaru Girgerisceri Girrisi Graguscì Graxi Grecondolillo Grellosa Guarone Impascu Leggiaragusso Leggiarone Liisi Liisincina Lomanga Lomato Maiono Malgerina Malgerrisola Manga Mardiari Mardilla Maronso Maugno Maulo Messo Muscuso Muscuzzuto Muscì Musolanga Mòdillo Notugerrisi Pardiardola Preco Pugna Raguscu Raguscuzzo Raguso Ragussi Ragusso Ragussu Raugno Riisu Rijitalvato Rizza Rombarino Saraguscì Scavatoreco Scavolio Scimi Scincina Sciona Sipale Sipalà Sipardillo Sipasta Vadala Vadarassu
+			}
+
+            regnal_first_names_male = {
+				Alesfurtu Custi Fulconi Mardu Oliustani Ruggeriu Tumartu Viciudosi Vinti		
+            }
+           
+            regnal_first_names_female = {
+				Agnelia Colenza Eugustanna Lucrella Madda Olippa Rosabelina Virelia Viulcherti
+            }
+			
+			
+			regnal_second_names = {
+				Amanga Busso Ciappone Cirassu Cirgenti Faucca Girrisi Liisi Liisincina Lomato Muscuzzuto Muscì Raguscu Rijitalvato Sipalà Vadala
+			}
+		}
+	}
+}

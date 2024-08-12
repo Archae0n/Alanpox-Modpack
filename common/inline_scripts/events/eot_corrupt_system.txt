@@ -1,0 +1,63 @@
+# limit = { NOT = { has_star_flag = corrupt_system } }
+if = {
+	limit = { has_owner = no }
+	every_playable_country = {
+		limit = { prev = { is_surveyed = { who = prev status = yes } } }
+		prev = { set_surveyed = { surveyed = no surveyor = prev } }
+	}
+}
+else_if = {
+	limit = { exists = space_owner }
+	space_owner = {
+		every_playable_country = {
+			limit = {
+				NOT = { is_same_empire = prev }
+				prevprev = { is_surveyed = { who = prev status = yes } }
+			}
+			prevprev = { set_surveyed = { surveyed = no surveyor = prev } }
+		}
+	}
+}
+create_ambient_object = { type = "eye_of_terror_3" location = this }
+last_created_ambient_object = {
+	set_ambient_object_flag = eye_of_terror_system_effect_3
+	set_location = { target = prev distance = 0 angle = random }
+}
+set_star_flag = corrupt_system
+set_star_flag = eye_of_terror_rift_system
+set_star_flag = shroud_invasion_system_$TYPE$					# For spawning
+set_star_class = sc_black_hole # sc_great_$STAR$
+add_modifier = { modifier = sc_great_rift }
+every_system_planet = {
+	limit = { is_star = yes }
+	random_list = {
+		10 = { change_pc = pc_a_star }
+		10 = { change_pc = pc_b_star }
+		10 = { change_pc = pc_f_star }
+		10 = { change_pc = pc_g_star }
+		10 = { change_pc = pc_k_star }
+		10 = { change_pc = pc_m_star }
+		10 = { change_pc = pc_m_giant_star }
+		1 = { change_pc = pc_black_hole }
+		1 = { change_pc = pc_neutron_star }
+		1 = { change_pc = pc_pulsar }
+	}
+	if = {
+		limit = { has_any_megastructure = yes }
+		prev = {
+			random_system_megastructure = {
+				limit = {
+					exists = planet
+					planet = { is_planet = prevprevprev }
+					NOR = { is_megastructure_type = rift_inhibitor_0 is_megastructure_type = rift_inhibitor_1 is_megastructure_type = rift_inhibitor_2 }
+				}
+				set_ruined_megastructure = yes # remove_megastructure = this
+			}
+		}
+	}
+}
+every_system_planet = { # Set flag for army spawns
+	limit = { is_star = no habitable_planet = yes }
+	set_planet_flag = shroud_rift_influence
+	add_modifier = { modifier = eye_of_terror_influence_$MOD$ }
+}

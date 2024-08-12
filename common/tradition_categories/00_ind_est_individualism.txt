@@ -1,0 +1,44 @@
+tradition_est_individualism = {
+	tree_template = "tree_est_0_0_12_12_4"
+	adoption_bonus = "tr_est_individualism_adopt"
+	finish_bonus = "tr_est_individualism_finish"
+	traditions = {
+		"tr_est_individualism_1"
+		"tr_est_individualism_2"
+		"tr_est_individualism_3"
+		"tr_est_individualism_4"
+		"tr_est_individualism_5"
+	}
+
+	potential = {
+		est_individualism_possible = yes
+	}
+
+	ai_weight = {
+		factor = 10	
+		modifier = {
+			factor = 0.5
+			has_authority = auth_oligarchic
+		}	
+		modifier = {
+			factor = 2
+			has_ethic = ethic_egalitarian
+		}
+		modifier = {
+			factor = 3
+			has_ethic = ethic_fanatic_egalitarian
+		}
+		modifier = {
+			factor = 2
+			has_ai_personality = ruthless_capitalists
+		}	
+		modifier = {
+			factor = 2
+			has_civic = civic_idealistic_foundation
+		}	
+		modifier = {
+			factor = 0
+			est_no_fed_federation_builders = yes			
+		}
+	}
+}

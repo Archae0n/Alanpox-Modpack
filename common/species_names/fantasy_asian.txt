@@ -1,0 +1,457 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	kenyama = {
+		name = Kenyamese
+		plural = Kenyamese
+		home_planet = Kenyama
+		home_system = Takonai
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	shijiang = {
+		name = Huya
+		plural = Huya
+		home_planet = Shijiang
+		home_system = Haeyeong
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	sokgye = {
+		name = Sok-Man
+		plural = Sok-Man
+		home_planet = Sokgye
+		home_system = Baatgai
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	yuegong = {
+		name = "Yue Nan Mei"
+		plural = "Yue Nan Mei"
+		home_planet = Yuegong
+		home_system = Kuzusaki
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	tokneung = {
+		name = Toknean
+		plural = Tokneans
+		home_planet = Tokneung
+		home_system = Ennokawa 
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	quyangprime = {
+		name = Quyangese
+		plural = Quyangese
+		home_planet = "Quyang Prime"
+		home_system = Quyang 
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	horonai = {
+		name = Horonaean
+		plural = Horonaeans
+		home_planet = Horonai
+		home_system = Shangxing 
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	kyoming = {
+		name = Kyomingian
+		plural = Kyomingians
+		home_planet = Kyoming
+		home_system = Fubishima 
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	asazawa = {
+		name = Asazawan
+		plural = Asazawans
+		home_planet = Asazawa
+		home_system = Jiaorao
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	dargalanthegiver = {
+		name = Powonese
+		plural = Powonese
+		home_planet = "Dargalan the Giver"
+		home_system = "Tariagor the First Fire"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	wengchu = {
+		name = Weng
+		plural = Weng
+		home_planet = Wengchu
+		home_system = Shanxiang
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	tousunai = {
+		name = Tousunian
+		plural = Tousunians
+		home_planet = Tousunai
+		home_system = Luc-Lat
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	tanwang = {
+		name = Tanwangese  
+		plural = Tanwangese
+		home_planet = Tanwang
+		home_system = Yatamaka
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	firstresolution = {
+		name = Hyecheok  
+		plural = Hyecheok
+		home_planet = "First Resolution"
+		home_system = "Grand Treasury"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	dulaangai = {
+		name = Dulaangish  
+		plural = Dulaangish
+		home_planet = Dulaangai
+		home_system = "Muong Xu Be"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	quanqiu = {
+		name = Bingyi  
+		plural = Bingyi
+		home_planet = Quanqiu
+		home_system = Hayashihoro
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	tateshibetsu = {
+		name = "Kong Shibetsu" 
+		plural = "Kong Shibetsu"
+		home_planet = Tateshibetsu
+		home_system = Sarisan
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	gwangseong = {
+		name = Bagashir 
+		plural = Bagashirs
+		home_planet = Gwangseong
+		home_system = Fengzuishan
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	fluteofthesoil = {
+		name = Bulankhaan 
+		plural = Bulankhaan
+		home_planet = "Flute of the Soil"
+		home_system = "Drum of the North"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	nhunghua = {
+		name = "Nhung Xuan" 
+		plural = "Nhung Xuan"
+		home_planet = Nhunghua
+		home_system = Panliang
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	shimahoro = {
+		name = Horoid
+		plural = Horoids
+		home_planet = Shimahoro
+		home_system = Shimakotan
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	honzawa = {
+		name = Honzawan
+		plural = Honzawans
+		home_planet = Honzawa
+		home_system = Yuehou
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	jeonyeong = {
+		name = Jeonyeongese
+		plural = Jeonyeongese
+		home_planet = Jeonyeong
+		home_system = Bigaljuut
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	iwamaki = {
+		name = Iwamakian 
+		plural = Iwamakians
+		home_planet = Iwamaki
+		home_system = Panying
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	jejunguyen = {
+		name = Lu
+		plural = Lu
+		home_planet = "Jeju Nguyen"
+		home_system = "Jeju Quanhai"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	pocheon = {
+		name = Pocheonese
+		plural = Pocheonese
+		home_planet = Pocheon
+		home_system = Narandene
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	kenagawathedelighted = {
+		name = Vua-Vuong
+		plural = Vua-Vuong
+		home_planet = "Kenagawa the Delighted"
+		home_system = "Yeohung the Graceful"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	hidaka = {
+		name = Hidakoid
+		plural = Hidakoids
+		home_planet = Hidaka
+		home_system = Mudanqihar
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	qidong = {
+		name = "Zhe Giap"
+		plural = "Zhe Giap"
+		home_planet = Qidong
+		home_system = Yagukami
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	urawara = {
+		name = Urawaran
+		plural = Urawarans
+		home_planet = Urawara
+		home_system = Galuut
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	kiyodakaprime = {
+		name = Kiyodakan
+		plural = Kiyodakans
+		home_planet = "Kiyodaka Prime"
+		home_system = Kiyodaka
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	zhenliang = {
+		name = Zhenliangese
+		plural = Zhenliangese
+		home_planet = Zhenliang
+		home_system = Hae
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	xiongminhsinh = {
+		name = Yanai
+		plural = Yanai
+		home_planet = "Xuong Minh Sinh"
+		home_system = "Har Bakhaan"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	dongcheok = {
+		name = Mailun
+		plural = Mailun
+		home_planet = Dongcheok
+		home_system = Xiangjiang
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	noblebirthstone = {
+		name = Hamchonese
+		plural = Hamchonese
+		home_planet = "Noble Birthstone"
+		home_system = "Vault of Mysteries"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	xuandong = {
+		name = Xuandongese
+		plural = Xuandongese
+		home_planet = Xuandong
+		home_system = Singye
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	jiangly = {
+		name = Jiang
+		plural = Jiang
+		home_planet = "Jiang Ly"
+		home_system = Lijieun
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	pantong = {
+		name = Pantongese
+		plural = Pantongese
+		home_planet = Pantong
+		home_system = Aridaka
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	woncheokvu = {
+		name = Shangchang
+		plural = Shangchang
+		home_planet = "Woncheok Vu"
+		home_system = "Bulangon Vu"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	ermandal = {
+		name = Ermandalite
+		plural = Ermandalites
+		home_planet = Ermandal
+		home_system = Kuzukanai
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	jinyong = {
+		name = Jinyongite
+		plural = Jinyongites
+		home_planet = Jinyong
+		home_system = Hondaka
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	laiyen = {
+		name = U-hae
+		plural = U-hae
+		home_planet = "Lai Yen"
+		home_system = Okukoshi
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	mudanchun = {
+		name = Mudanese
+		plural = Mudanese
+		home_planet = Mudanchun
+		home_system = Huiyeong
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	jubilantthrone = {
+		name = "Ah Nguyen"
+		plural = "Ah Nguyen"
+		home_planet = "Jubilant Throne"
+		home_system = "Harmonious Palace"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	rankawa = {
+		name = Rankawan
+		plural = Rankawans
+		home_planet = Rankawa
+		home_system = Hangxing
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	taken = {
+		name = Takenese
+		plural = Takenese
+		home_planet = Taken
+		home_system = Zhouma
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	queyangthegoldenflute = {
+		name = Cheun
+		plural = Cheun
+		home_planet = "Queyang the Golden Flute"
+		home_system = "Hingdo the Diamond Fool"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	achiro = {
+		name = Achiroid
+		plural = Achiroids
+		home_planet = Achiro
+		home_system = Gigeok
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	siwol = {
+		name = Yu-you
+		plural = Yu-you
+		home_planet = Si-wol
+		home_system = "Hwa Undong"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	gengpurae = {
+		name = "Geng Ashui"
+		plural = "Geng Ashui"
+		home_planet = "Geng Purae"
+		home_system = Oltai
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	jadaka = {
+		name = Jadakan
+		plural = Jadakans
+		home_planet = Jadaka
+		home_system = Mongtsao
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	haohaiprime = {
+		name = Haoye
+		plural = Haoye
+		home_planet = "Haohai Prime"
+		home_system = Haohai
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	niulangthecowherd = {
+		name = Tianhe
+		plural = Tianhe
+		home_planet = "Niulang the Cowherd"
+		home_system = "Zhinu the Weaver"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	yutian = {
+		name = Yutianese
+		plural = Yutianese
+		home_planet = Yutian
+		home_system = Hotan
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	qiuci = {
+		name = Guzanese
+		plural = Guzanese
+		home_planet = Qiuci
+		home_system = Kucha
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+	secondstarfarer = {
+		name = Sutahata
+		plural = Sutahata
+		home_planet = "Second Starfarer"
+		home_system = "First Starfarer"
+		name_list = "cybrxkhan_fantasy_asian"
+	}
+}
+

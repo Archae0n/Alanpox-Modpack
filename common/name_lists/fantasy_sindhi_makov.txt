@@ -1,0 +1,231 @@
+﻿### Fantasy Sindhi
+### Sindhi names thrown into a markov generator
+
+cybrxkhan_fantasy_sindhi = {
+	category = "Avian"
+
+	ship_names = {
+		generic = {
+			Aachag Aachhudhi Aachi Aachiplahara Aaja Aajar Aajja Aajjagi Aajjani Aamar Aamtaso Aashmorani Aasini Aasral Aasri Aass Aaswar Abrooro Achaman Achhu Achhulani Ada Adad Adadani Adan Adana Adani Adanv Advan Advanan Advangar Aikandhu Aikaneswan Aikaray Aikkurba Aikkuri Ailahasar Ailairpurki Ailana Akagi Akani Akar Akistanjhar Alini Alla Allach Allacobhan Allahan Allahdan Allahi Allaisrah Allakhani Allani Allanjhan Allavi Alwal Alwanan Alwandad Alwang Alwangarkot Alyananjhari Alyar Alyaswal Alyattaley Ambadammar Ambai Ambatto Ambattopro Amber Amberka Ambero Ameen Ameenjhi Ameero Ameraswan Ameri Amero Apadado Apahanghar Aqqandherani Aqqani Asoolachani Asooresar Asrabab Asrachal Asrachan Asranani Asrappy Baajhago Baakot Baakshi Baan Baani Baanjando Bach Bachahi Bachaisinsay Bachan Bachanjhar Bachar Bacharvir Bacharya Bachat Bachhurgas Bachi Bachijal Bachippani Bachiya Bachu Bachula Bacobadlani Bacobhagi Badan Badarandhwa Baddi Badhibadani Badhyari Badiqui Badlavir Badloorass Bado Badpur Bahani Baher Bahi Bak Bakh Bakhai Bakhambabhan Bakhano Bakhar Bakhi Bakhikkur Bakhro Baksharpurba Bal Balaniehmali Ballai Ballan Ban Bani Bena Benangas Bengh Benghal Benh Benjwani Bhaajjar Bhagh Bhaghani Bhah Bhahyayo Bhal Bhalo Bham Bhan Bhang Bhani Bhanjo-Dah Bhar Bharahi Bharpuri Bheer Bher Bhero Bheth Bhibaajani Bhigarok Bhija Bho Bhogi Bhogia Bhol Bhola Bholan Bhookani Bhoratani Bhoro Bhot Bhudado Bhuddi Bhul Bhulani Bhullani Bhutki Bhutre Bukhan Bukk Bukra Bukrah Bukrattash Bukshar Bukshi Bukshma Buxanawani Buxani Buxanjhi Chaan Chaani Chag Chagh Chahdaro Chahi Chal Chalaiz Chalhani Challani Cham Chamalhal Chammar Chamtan Chan Chana Chanari Chandhi Chang Chanhal Chani Char Charan Charani Charappahdar Chari Charo Charok Charwani Chatan Chatha Chattopadang Chhan Chhat Chhu Chhu-Dar Chhul Chhulha Chhutopro Chhutrejan Chhutri Dad Dadani Dadhogi Dadkot Dadkotriwan Dadloodh Dadlook Dado Dahani Dar Darahio Dari Dark Daro Dhan Dhari Dheer Dheeran Dhel Dherahanj Dheth Dhethel Dhol Dholahiya Dholani Dhook Dhoolan Dhoor Dhorani Dhori Dijiyandhi Dijiyari Dilazalaran Dilazi Din Dinan Dinangani Dinani Dind Dindado Dindan Dindh Dindheengh Dindhur Ding Dinghani Dodad Dodani Dodero Dodhar Dodhwani Dodhya Dodi Dodorejal Dodoro Dorabat Dorali Dorawarayo Doreja Dori Dorippad Dulan Eiddi Eiddir Eidhu Fairbadpur Faithu Fazalla Fazi Fazir Fazirpur Gamal Gamisi Gani Ganth Ghol Ghoo Ghookisinda Ghoonammad Ghoorani Ghooro Ghulhol Ghutre Ghutrejan Guda Gudani Gudar Gula Gulani Gularhagbh Gulazal Gulhal Gulhoonh Guljhrgan Gullanaro Gullano Guran Gurh Guria Gurja Gurnayarwan Haaeth Haagarh Haakh Haakhag Haakhi Haaro Haja Hajagar Hajiyattali Hal Halani Halazalahi Haloonamban Halre Halwaral Ham Hamarani Harabad Hari Haryaswar Haur Hausharandhi Haushi Hawal Hawallan Hawan Hawani Hawanwandan Hawarani Heedi Heeri Heeripro Heerki Hirb Hoodharay Hook Hooka Hoolakhiyan Hoorabat Hubda Hubdad Hubdadlan Hubdado Hubdan Hubdanamalla Hyderahri Hyderan Hyderif Imach Iman Imandore Imar Isran Isranda Israswan Isria Jachan Jachar Jachi Jachu Jainazal Jaisrabpur Jaisran Jaisri Jaiz Jama Jamb Jamir Jamirmad Jammalwal Jamtadkot Jani Jar Jaran Jari Jasaisrayo Jassui Jind Jing Jini Jumad Jumal Jumambaar Jumani Junh Junhairab Junharvi Junhni Juntandhi Juran Jurkan Kad Kadiquahdani Kadoro Kah Kahanwan Kaharkot Kaheloong Kahi Kahkan Kahkot Kahkotwal Kahtandho Kala Kallandhi Kam Kamangar Kamarpur Kamb Kamirpurb Kammador Kan Kani Kaniehri Kanwaloodh Karvechhani Kasi Keeri Keero Kesainaziro Kesarif Kesay Keswal Keswanwan Kha Khaghar Khal Khalaro Khamtarani Khani Khanjani Khanth Khar Khari Khark Khassui Khayo Khihar Khiho Khija Khu-Dada Khutkani Khutrejani Kindango Kindh Kingh Kingharwal Kini Kino Kiya Kiyani Kiyaro Kiyarvi Kohasay Kohelo Kohenhaago Kohethu Koo Kookagi Kooki Kool Koolair Koonani Koonhu Koonja Koor Kooraha Koorana Koori Kooriwani Koorjang Kooro Kora Korah Koray Kore Kori Koro Koth Kotkagenjh Kotkari Kotki Kotre Kotwal Kukk Kukrejagh Kuksh Kunham Kunhari Kunhu Kunhuttanan Kunthammam Lahda Lahdani Lahrawal Lahrgar Lala Lalan Lalhani Lalla Lan Lanarvirani Lari Laro Legh Leghal Legharal Leghooro Leghor Lila Lilachhu Lilakhi Lilandhi Lohani Lohar Lohro Lonharwan Lonjan Lonjh Lonjwal Loth Lulaiz Lulani Lulhogi Lulhot Luljhar Maag Maagasooran Maakhippy Maaki Maam Maanesh Maani Maar Maarabar Mahal Mahdam Mahkanjhar Mahyashan Mai Mairanieh Mairwan Maisi Maisinani Maithu Maiz Makh Makhalwan Makhana Makhani Makhi Maki Mal Mala Malan Malandheero Malpurejagh Malwani Manamaro Manazirpurk Mandan Mani Manv Marpurkot Matan Matani Math Mattar Matto Mattodhi Meh Mehani Mehari Mehatli Mehatopro Mehmaani Mehmal Mehman Mehmori Mehmoro Meholan Mehookani Mehoonghar Mehrahathu Mehraley Mehrani Mehri Mehro Mehroora Mehwalrejagi Mehwarani Mihal Mihar Mihoonhu Mirabi Miral Miray Mirb Mirbhaivo Mirmaari Misi Misin Misinda Misral Mitani Mitassui Mitaswari Mith Mithar Mithat Mithelo Mithurif Miti Moch Mochago Mochaivo Mochaiz Mochalo Mochan Mochar Mochasaro Mochat Mochhur Mochhutreshi Mochibar Mohan Moharkot Mohel Mohero Mohro Molandado Molanj Momalla Momani Momara Momro Mookil Moomro Moonhara Moonhni Moonhudh Moor Mora Moral Morayo Mori Moria Motkani Motki Motrejani Muhan Muharahan Muharif Murb Mureja Murkotkag Mutkan Mutkanv Mutto Nabanakh Nabh Nabpurb Nalholani Nallan Naur Naurahyar Neemachani Neemal Neeman Neenja Neer Neero Nibaakhiya Nibat Nihai Nihanv Nihar Niholan Nihoonan Nihorach Nir Nirachi Nirala Nirali Niran Nirbhag Niro Nirpur Nirwanj Nookanamberi Nookistar Pakh Pakhijiyat Pangani Pani Panj Para Paray Parayo Pari Peema Peemal Peemalan Peeran Peerka Peero Piramb Piran Pirani Piranwani Pirappy Piras Pirbh Pirpurahen Pirwar Pook Pooka Pookasooro Pooki Poonh Poora Pooral Poori Popadu Popro Punh Punha Punharo Punharvirb Punhni Punhutki Puno Puntadorani Puntani Pyar Pyari Qur Qural Qurban Qurbhari Qure Qureja Qurh Quri Qurj Qurnaz Rabadlaisri Rabadpur Rabaiz Rabi Rabpurb Rabpuri Rakha Rakhag Rakhri Raki Rakotabi Rakrabaiz Rakshi Rambado Ramy Rasarachag Rashi Rashikk Rashiplan Rat Ratani Ratli Rawan Rawanani Rehaloonan Rehothan Rehrahkot Rehral Rehramalai Rehri Rehrialey Rehro Rehwanwanj Roh Rohalresh Rohrgah Rupa Rupad Rupahan Rupahiplani Saaethat Saagan Saaggi Saago Saajhro Saakhagi Saakhil Saakot Saakshal Saan Saani Saanwero Saara Saaro Sab Sabaaeth Sabaaji Sabaaksh Sabad Sabadanakhar Sabai Sabh Sabhagholan Sabhasar Sabpur Sabpurasoora Sach Sachagan Sachago Sachali Sacham Sachan Sachari Sachhu Sachi Sachil Sachu Sacobhal Sad Sada Sadan Sadandhipri Sadani Sadanjh Saddi Sadhola Sadhya Sadla Sadlahangh Sadlo Sadorejanani Sadpurkotri Saggi Sagi Sago Sahaloona Saham Sahanjhi Saharvech Saheer Sahka Sahkot Sahra Sahro Sahtado Sahtaro Sahyayo Sain Sair Sairo Saith Saivo Saja Sajar Sajiyayo Sakhar Sakhiganjwan Sakhio Sakhippy Saki Sakrad Sakreja Sakshagar Sakshagi Sama Samaaethuda Samachayat Saman Samani Samba Sambani Sambar Samchahigaro Samir Samirwar Samma Sammaan Samman Samtar Samy San Sanan Sangaroki Sani Saniehwan Sanjani Sanv Sanwalka Sara Sarabpurja Saralwan Sarh Sari Sark Sarkhani Sarki Sarkot Saro Saso Saswalkar Satli Sato Sawa Sawana Seedi Seemal Seemar Seer Sehmal Sehmoro Shag Shai Shal Shamy Shan Shani Shar Sharki Sharvira Shassui Sheenjhigar Sheera Sheero Shel Shelo Shelooro Shena Sheth Shi Shibabi Shigarif Shihoth Shijh Shijiyarkot Shipro Shiya Sida Sidad Sidadori Sidanamy Sidanda Sidar Siddi Siddindhipri Siddino Siddiran Sidh Sidhel Sijan Sijani Sijar Siji Sika Sikan Sikani Sikkur Sikkurejan Sinani Sinawani Sind Sinda Sindam Sindamy Sindanani Sindaripro Sindhat Sindhyarpur Sindi Sindiqui Sindro Sing Singar Sini Sino Sinsairay Sinsay Siplan Siplar Sippaniehmad Sitabi Sithari Siti Sobaan Sobadiqui Sobadkotwani Sobar Sobha Sobhanaz Sobhar Sobhattopadi Soda Sodan Sodani Sodar Soder Soderan Sodh Sodheth Sodhogi Sodhu-Dado Sodhwalka Sodhwar Sodi Sodini Sodiqui Sodorayo Sodori Sojh Sojhrgaro Sojhri Soodhooral Sook Sooki Soolazi Soomad Soomalhar Soonayo Soong Soonganan Soonghoorj Soonhani Soonjhi Soorangari Soorappy Soori Sori Soria Sorjarwani Sotwalho Sudangaran Sudhutrejan Suhamira Suhar Sujagi Sujan Sujanar Sujanwa Sukhi Sukhila Sukhiya Sukhra Sukk Sukkurk Sukshani Sukshanv Sula Sulavi Sulhairani Sulharpur Sulhoonjha Suljhal Suljhanjwani Sullah Sumad Sumamch Suman Sumani Sumarabad Sumarif Sunh Sunhali Sunhani Sunhar Sunhu Sunhutal Suno Suntan Suntani Sunth Sunthan Suntharyan Surejan Surgas Surh Surjal Surnay Sutkilani Sutrejani Suttaddiqui Taley Tali Tamber Tamchaher Tamir Tamtad Tandhwal Tani Tanthul Thain Than Thanan Thani Thar Tharawan Tharo Thas Ujaghar Ujan Ujar Ukeerad Ukeeri Ukeerkotwani Ukeero Umeedi Umeemaneshai Umer Umeran Vakhani Vakot Vakshadu Vakshi Var Varwani Vasay Vashmalhangh Waddir Wadlan Wadlo Waki Wakranjan Waksh Warani Wari Waro Was Wasaistaranh Washagi Washain Washmaro Wenhni Wenjh Zoran Zorayo Zori Zoro
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Ukeerabani Task Force" "Kiyaya Task Force" "Gulhal Task Force" "Kal Bhal Task Force" "Rehmar Task Force" "Bachat Task Force" "Ramb Alyar Task Force" "Dhogi Task Force" "Kahkotri Task Force" "Shat Soona Task Force" "Suttana Task Force" "Sindro Task Force" "Khudan-Mani Task Force" "Miran-Garani Task Force" 
+		}
+		sequential_name = FANTASY_INDIAN_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_INDIAN_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_INDIAN_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_INDIAN_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_INDIAN_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_INDIAN_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_INDIAN_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_INDIAN_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_INDIAN_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_INDIAN_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_INDIAN_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_INDIAN_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_INDIAN_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_INDIAN_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_INDIAN_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_INDIAN_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_INDIAN_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_INDIAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_INDIAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_INDIAN_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_INDIAN_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_INDIAN_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Adad Adadkotri Alingharappa Alla Allah-Dadkot Allavirpur Badu Bala Ba-Lahyar Bali Dahatoder Dahdadin Dahyarh Darkot Daro Dhelo Dhenano Dherkota Dholahdadu Dholavirpur Dhotadu Dore Doro Gambadu Gamberki Gammad Gand Gandhkotkar Gando Gholahdadkot Ghot Halah-Yarpur Hali Harabpur Hari Haro Hyder Hyderi Hyder-Kothera Jacobabat Jacobad Jacobadkot Jambadkota Jamberabad Jamman-Khanhul Kala Kalahrabad Kali Kamberappa Kandadpur Kara Karappa Kari Kashari Kashashman Kashmor Khaharo Khahri Khairabpur Khandad Khar Kharki Kharkot Kharpur Khathelo Kohelo Kohen Koheri Kota Kotasi Kothat-Kodero Kothelo Kotkar Kotki Kotkil Kunta Kuntad Larpur Lotki Lotri Manawala Mand Mando Mather Matheri Matlin Matodero Mattas Mattashmana Mehman Mehmore Mehrabadin Mehrgahri Mehri Mehrif Mehwal Mehwali Mehwan-Wali Mehwando Mirabadpur Muhahyar Muharkot Muharo Nausharkil Naushmad Naushmadu Pana Panhu-Dahdad Rakhikaro Rakhikarpur Rakhipro Ratoderabpur Rehmor Rehmoro Rehrif Sakhigand Sakhipro Sakranda Sanang-Hali Sand Sangahda Sano Sehmor Shamman Shan Shano Shar Sharabat Shariwalin Sharkagen Sharo Shasi Shatoderkot Shikano Sothatodero Sotri Tanan Thahdad Thairpur Than Thanawal Thano Umeri Umerkotkaro
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Aachan Ach Ailan Ailanayar Ailanesar Akas Akasaro Akaso Ali Allanwallar Allaz Allazalla Baan Baarawal Bach Bachaley Bachan Bachio Bakhal Bakhio Bho Bholaindan Bholan Bholani Bhook Bhoolan Bhooranv Bukshar Chaan Chal Chanesayo Char Chhu Dad Dila Dilaino Dilandhal Dilazal Dodan Dodheer Dodheeral Dodhihar Fainayo Fair Fairo Faivo Faz Haan Hajar Hajhro Hajjan Hal Ham Hamar Hammachihal Heeral Hir Hubdadlook Imar Jan Jasayo Jindhio Jindho Jino Jumad Junhuto Jural Jurb Kadaran Khaamir Khal Khudhi Khuto Kinayo Kinsar Kiyar Koran Korayaradan Koro Longo Maajan Maiz Mal Manayo Mang Mango Mani Mehral Moch Mochan Mochanwar Mochihan Moro Muhag Muhar Nab Nal Nalhago Nalo Neer Nihamisri Nihayo Niro Pan Panth Peenh Peenhanar Peer Peerad Peero Piro Pirwalo Punh Puno Pyaro Pyarvech Pyas Pyat Quradlo Qurayo Rabharalook Rak Ras Rasaral Rasook Saag Saakhi Saar Sab Sabi Sacham Sachanayo Sachhudho Sad Sadan Sado Sag Sago Sah Sahethal Sajh Sajjanesar Samar Samman San Sanayo Sanwallazal Sanwan Sar Sarad Saro Sawal Shaammar Shan Shanesar Shang Sinayat Sindhooman Sobhaakshan Sobhal Sodad Sodhethu Sodo Sojh Sojhi Sooral Suda Sudan Sudhyar Suhal Suhar Sujan Sujar Sujarvechan Sujarwan Sumad Sumam Tam Tamaajanayo Tamisri Tammam Ukeeral Wak Wakhanar Wal War Waso
+            }
+           
+            first_names_female = {
+				Aajh Aam Aamba Aambar Aamma Aasai Aasairma Aasratabh Aikk Alya Ameer Ameera Apah Apahan Apahi Apahiya Asoonjal Asoonjan Baag Baana Baarath Baarkhath Bachhaggi Bachura Bha Bhairmal Bhani Bhanjal Bharvi Bhath Bhogi Chaakhiba Charas Dindhi Dindroki Dul Dulahath Dulanwal Dulha Ghu Ghurath Hauran Haurhai Haurj Heengas Heenj Hoona Kah Kana Keema Keemarvi Keengasai Keer Khan Khar Koodhi Koona Koonammar Koorat Koori Lalan Laloori Lilahi Lilanam Maag Maagi Maajiya Maajiyani Maakhat Maan Maandhuri Maani Maar Mal Malandroki Mar Mari Mehoona Mihookan Mochar Mochu Moma Morassui Mura Murana Murba Nibai Nirahali Nirma Noodhi Noona Noonjhara Par Para Paranjh Pirahi Piran Pirasra Pirasrani Poodhi Quras Qurj Rak Rakhibai Ran Randhi Randroka Saagbhai Saaggi Saajhar Saak Saakha Saakhi Saana Sabhali Sabhan Sabhanwa Sabi Saddi Saddiquahan Saddiquahi Sadora Sadoran Sadorath Sahari Sahark Sam Samba Samy San Sandhurk Sani Sanjh Sanjhar Sasray Sat Satari Satark Sath Seengas Seer Sika Sikani Sindhi Sindroka Sindroki Sini Sitabi Sitar Sitari Siti Sobha Sobhari Soorah Soori Sora Soranam Sorasra Sori Sul Sulahibai Sulaiti Sulan Suljha Suljhani Suma Sumarvi Sunh Sunhan Sunharaha Surasray Suratabhani Surbhar Surhaakh Surj Surk Ujani Ukeemal Ukeengas Ukeengasra Var Vark Varkh Varvi Was Wasranieh Wengasai Wenjhar
+            }
+			
+			
+			second_names = {
+				Abroo Abrooro Asrana Asranani Bachagia Badh Badhwani Badla Bahkana Bahkani Bahro Bahtani Balochanani Bhadlan Bhadlani Bhani Bhariplani Bheedi Bheediqui Bheediranani Bhijani Bhureshijani Bhurna Bhurnani Bhutreja Bukreja Bukrejani Chagia Chanani Chani Dadh Dadhi Dadhwani Dadla Dari Daryay Gurejani Gurgar Isramani Isran Isranani Israndanani Jaisindani Jaisinghadhu Jaistani Jaistanjwani Kaloch Kalpurgar Kalreja Kalwani Keshil Keswan Khagia Khandirani Khani Kukhagia Kukhil Lahro Lahtani Lalkani Lalochadla Lalpureswani Lalpurna Lalwandani Lani Legh Leghadhyay Lohagia Lohani Lohari Lullan Lullani Mahkani Mahramtan Mahtan Makhija Makistani Malhoroo Malkana Malreja Malrejani Miramanani Moomro Mooro Mooroo Motwanani Motwandiqui Mutrejan Mutto Muttopani Pakhadhu Pakhi Pakhil Pakisinghani Qureja Qurejani Qurnani Ramandani Ramani Ramtani Rupana Sakhro Sakistan Samani Samtan Sani Sheediranani Siddi Sidhurnani Sidhwanghari Sindandani Sindani Sindhu Sindiqui Sindirani Singariplani Singaryay Singhadlani Singhani Sooro Soorooro Suja Sujandiqui Talhoro Talochani Talrejan Talwani Thangaryay Thangh Thani Thar Wadani Wadhu Wadhwandandh
+			}
+            regnal_first_names_male = {
+				Baarawal Hir Rasook Saakhi Wakhanar
+            }
+           
+            regnal_first_names_female = {
+				Apah Keemarvi Maakhat Sabhan Ujani
+            }
+			
+			
+			regnal_second_names = {
+				AsranaDadhwani Jaistanjwani Kalwani Khagia Lohagia Mahkani Mahtan Mooro Qureja Rupana Siddi Sindhu Thar Wadani
+			}
+		}
+	}
+}

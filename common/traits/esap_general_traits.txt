@@ -1,0 +1,416 @@
+##################
+# General Traits #
+##################
+
+# Combination Perk War, The Art of War.
+leader_trait_general_esap_ct1_war_ambusher = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = general
+	# #	ICON = "GFX_leader_trait_army_logistician"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_ct1_war_ambusher.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_ct1_war_ambusher.dds"
+	army_modifier = {
+		army_morale_damage_mult = 0.15
+		army_defense_damage_mult = 0.22
+	}
+	councilor_modifier = {
+		army_morale_damage_mult = 0.10
+		army_defense_damage_mult = 0.33
+	}
+	leader_potential_add = {
+		from = { has_ascension_perk = ap_esap_ct1_war }
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @class_trait_weight
+		inline_script = paragon/army_weight_mult
+		inline_script = {
+			script = paragon/subclass_weight_mult
+			SUBCLASS = commander_general
+		}
+	}
+}
+leader_trait_general_esap_ct1_war_demoralizer = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = general
+	# #	ICON = "GFX_leader_trait_army_logistician"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_ct1_war_demoralizer.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_ct1_war_demoralizer.dds"
+	army_modifier = {
+		army_morale_damage_mult = 0.30
+	}
+	councilor_modifier = {
+		army_morale_damage_mult = 0.15
+	}
+	leader_potential_add = {
+		from = { has_ascension_perk = ap_esap_ct1_war }
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @class_trait_weight
+		inline_script = paragon/army_weight_mult
+		inline_script = {
+			script = paragon/subclass_weight_mult
+			SUBCLASS = commander_general
+		}
+	}
+}
+
+leader_trait_general_esap_ct1_war_enigma = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = general
+	# #	ICON = "GFX_leader_trait_army_logistician"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_ct1_war_enigma.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_ct1_war_enigma.dds"
+	army_modifier = {
+		army_damage_mult = 0.05
+		army_disengage_chance_mult = 0.20
+	}
+	councilor_modifier = {
+		army_damage_mult = 0.05
+		army_disengage_chance_mult = 0.20
+	}
+	leader_potential_add = {
+		from = { has_ascension_perk = ap_esap_ct1_war }
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @class_trait_weight
+		inline_script = paragon/army_weight_mult
+		inline_script = {
+			script = paragon/subclass_weight_mult
+			SUBCLASS = commander_general
+		}
+	}
+}
+leader_trait_general_esap_ct1_war_inspirational = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = general
+	# #	ICON = "GFX_leader_trait_army_logistician"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_ct1_war_inspirational.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_ct1_war_inspirational.dds"
+	triggered_councilor_modifier = {
+		potential = {
+			trait_is_gestalt_check = no
+		}
+		army_morale = 0.11
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			trait_is_gestalt_check = yes
+		}
+		army_damage_mult = 0.11
+	}
+	triggered_army_modifier = {
+		potential = {
+			trait_is_gestalt_check = no
+		}
+		army_morale = 0.11
+	}
+	triggered_army_modifier = {
+		potential = {
+			trait_is_gestalt_check = yes
+		}
+		army_damage_mult = 0.11
+	}
+	leader_potential_add = {
+		from = { has_ascension_perk = ap_esap_ct1_war }
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @class_trait_weight
+		inline_script = paragon/army_weight_mult
+		inline_script = {
+			script = paragon/subclass_weight_mult
+			SUBCLASS = commander_general
+		}
+	}
+}
+leader_trait_general_esap_ct1_war_preservative = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = general
+	# #	ICON = "GFX_leader_trait_army_logistician"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_ct1_war_preservative.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_ct1_war_preservative.dds"
+	sector_modifier = {
+		army_defense_health_mult = 0.15
+	}
+	army_modifier = {
+		army_defense_health_mult = 0.25
+	}
+	councilor_modifier = {
+		army_defense_health_mult = 0.35
+	}
+	leader_potential_add = {
+		from = { has_ascension_perk = ap_esap_ct1_war }
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @class_trait_weight
+		inline_script = paragon/army_weight_mult
+		inline_script = {
+			script = paragon/subclass_weight_mult
+			SUBCLASS = commander_general
+		}
+	}
+}
+
+# Egalitarian 2, Self Realisation.
+leader_trait_general_esap_egalitarian_2_impetuous = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = general
+	# #	ICON = "GFX_leader_trait_army_logistician"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_impetuous.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_impetuous.dds"
+	army_modifier = {
+		army_attack_damage_mult = 0.07
+	}
+	councilor_modifier = {
+		army_attack_damage_mult = 0.13
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @class_trait_weight
+		inline_script = paragon/army_weight_mult
+		inline_script = {
+			script = paragon/subclass_weight_mult
+			SUBCLASS = commander_general
+		}
+	}
+}
+leader_trait_general_esap_egalitarian_2_careful = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = general
+	# #	ICON = "GFX_leader_trait_army_logistician"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_careful.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_careful.dds"
+	triggered_army_modifier = {
+		potential = {
+			trait_is_gestalt_check = no
+		}
+		army_morale = 0.05
+	}
+	triggered_army_modifier = {
+		potential = {
+			trait_is_gestalt_check = yes
+		}
+		army_damage_mult = 0.05
+	}
+	army_modifier = {
+		army_defense_damage_mult = 0.30
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			trait_is_gestalt_check = no
+		}
+		army_morale = 0.1
+	}
+	triggered_councilor_modifier = {
+		potential = {
+			trait_is_gestalt_check = yes
+		}
+		army_damage_mult = 0.1
+	}
+	councilor_modifier = {
+		army_defense_damage_mult = 0.15
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @class_trait_weight
+		inline_script = paragon/army_weight_mult
+		inline_script = {
+			script = paragon/subclass_weight_mult
+			SUBCLASS = commander_general
+		}
+	}
+}
+leader_trait_general_esap_egalitarian_2_courageous = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = general
+	# #	ICON = "GFX_leader_trait_army_logistician"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_courageous.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_courageous.dds"
+		triggered_councilor_modifier = {
+			potential = {
+				trait_is_gestalt_check = no
+			}
+			army_morale = 0.16
+		}
+		triggered_councilor_modifier = {
+			potential = {
+				trait_is_gestalt_check = yes
+			}
+			army_damage_mult = 0.11
+		}
+		triggered_army_modifier = {
+			potential = {
+				trait_is_gestalt_check = no
+			}
+			army_morale = 0.16
+		}
+		triggered_army_modifier = {
+			potential = {
+				trait_is_gestalt_check = yes
+			}
+			army_damage_mult = 0.11
+		}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @class_trait_weight
+		inline_script = paragon/army_weight_mult
+		inline_script = {
+			script = paragon/subclass_weight_mult
+			SUBCLASS = commander_general
+		}
+	}
+}
+leader_trait_general_esap_egalitarian_2_planer = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = general
+	# #	ICON = "GFX_leader_trait_army_logistician"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_planer.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_planer.dds"
+	army_modifier = {
+		armies_upkeep_mult = -0.05
+		army_damage_mult = 0.05
+	}
+	councilor_modifier = {
+		armies_upkeep_mult = -0.18
+		army_damage_mult = 0.07
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @class_trait_weight
+		inline_script = paragon/army_weight_mult
+		inline_script = {
+			script = paragon/subclass_weight_mult
+			SUBCLASS = commander_general
+		}
+	}
+}
+leader_trait_general_esap_egalitarian_2_unpredictable = {
+	cost = 0
+	# inline_script = {
+	# 	script = trait/icon
+	# 	CLASS = general
+	# #	ICON = "GFX_leader_trait_army_logistician"
+	# 	ICON = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_unpredictable.dds"
+	# 	RARITY = common
+	# 	COUNCIL = no
+	# 	TIER = none
+	# }
+		icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_unpredictable.dds"
+	sector_modifier = {
+		army_attack_morale_mult = 0.05
+		army_attack_damage_mult = 0.05
+		army_collateral_damage_mult = 0.20
+	}
+	army_modifier = {
+		army_attack_morale_mult = 0.05
+		army_attack_damage_mult = 0.05
+		army_collateral_damage_mult = 0.20
+	}
+	councilor_modifier = {
+		army_attack_morale_mult = 0.15
+		army_attack_damage_mult = 0.15
+		army_collateral_damage_mult = 0.40
+	}
+	leader_potential_add = { 
+		from = { has_ascension_perk = ap_esap_egalitarian_2 }
+	}
+	leader_class = { commander }
+	initial = no
+	randomized = yes
+	selectable_weight = {
+		weight = @class_trait_weight
+		inline_script = paragon/army_weight_mult
+		inline_script = {
+			script = paragon/subclass_weight_mult
+			SUBCLASS = commander_general
+		}
+	}
+}

@@ -1,0 +1,402 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	birnandi = {
+		name = Birnandian
+		plural = Birnandians
+		home_planet = Birnandi
+		home_system = "Bal Ling"
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	caveoftheancients = {
+		name = Vesolese
+		plural = Vesolese
+		home_planet = "Cave of the Ancients"
+		home_system = "Chiahansa's Wings"
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	valagteraprime = {
+		name = Valagteran
+		plural = Valagterans
+		home_planet = "Valagtera Prime"
+		home_system = Valagtera
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	jabotagalog = {
+		name = Sagjabolan
+		plural = Sagjabolans
+		home_planet = Jabo
+		home_system = Lurcik
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	baltindeprime = {
+		name = Baltindese
+		plural = Baltindese
+		home_planet = "Bal'Tinde Prime"
+		home_system = Bal'Tinde 
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	luclee = {
+		name = Luclite
+		plural = Luclites
+		home_planet = Luclee
+		home_system = Miwlut 
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	sungilinal = {
+		name = Sungilinalese
+		plural = Sungilinalese
+		home_planet = Sungilinal
+		home_system = Sungi 
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	yucee = {
+		name = Yuceoid
+		plural = Yuceoids
+		home_planet = Yucee
+		home_system = Deba 
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	urendinchum = {
+		name = Vacsian
+		plural = Vacsians
+		home_planet = Urendinchum
+		home_system = Inchuluboc
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	jabunde = {
+		name = Jabundoid
+		plural = Jabundoids
+		home_planet = Jabunde
+		home_system = "Jabunde Vag'Ucla"
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	vunchugurthegoldenhand = {
+		name = Leng
+		plural = Leng
+		home_planet = "Vunchugur the Golden Hand"
+		home_system = "Undigma the Iron Monument"
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	dungawem = {
+		name = Dungawemid
+		plural = Dungawemids
+		home_planet = Dungawem
+		home_system = Livayung
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	kiclang = {
+		name = Tunglangese  
+		plural = Tunglangese
+		home_planet = Kiclang
+		home_system = Kicsi
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	cikong = {
+		name = Cikongese  
+		plural = Cikongese
+		home_planet = Cikong
+		home_system = Kucenteroyiali
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	itchenestenee = {
+		name = Muwap  
+		plural = Muwaps
+		home_planet = Luguitegter
+		home_system = Itchenestenee
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	mantuntung = {
+		name = Mantutungiese  
+		plural = Mantutungiese
+		home_planet = "Mantun Tung"
+		home_system = "Ugwud Tung"
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	suvotia = {
+		name = Suvotian 
+		plural = Suvotians
+		home_planet = Suvotia
+		home_system = "Tendrils of Pac Tibun"
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	umlorosmother = {
+		name = Bidliangu 
+		plural = Bidliangu
+		home_planet = "Umloro's Mother"
+		home_system = "Umloro's Father"
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	digiyilda = {
+		name = Digiyildan 
+		plural = Digiyildans
+		home_planet = Digiyilda
+		home_system = Kimingacsui
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	sungjengchat = {
+		name = Sungjeng 
+		plural = Sungjeng
+		home_planet = "Sung jeng Chat"
+		home_system = "Sung Tivem"
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	miwatdat = {
+		name = Migango
+		plural = Migango
+		home_planet = Miwatdat
+		home_system = Uhatdat
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	chagui = {
+		name = Chaguinese
+		plural = Chaguinese
+		home_planet = Chagui
+		home_system = Edlalig
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	hirnui = {
+		name = Hirnuese
+		plural = Hirnuese
+		home_planet = Hirnui
+		home_system = Satgen
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	pumpig = {
+		name = Pumpigoid
+		plural = Pumpigoids
+		home_planet = Pumpig
+		home_system = Tuclui
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	kucilas = {
+		name = Kucilassite
+		plural = Kucilassites
+		home_planet = Kucilas
+		home_system = Kucilas
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	dugted = {
+		name = Dugtedian
+		plural = Dugtedians
+		home_planet = Dugted
+		home_system = Avincho
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	lindi = {
+		name = Lindian
+		plural = Lindians
+		home_planet = Lindi
+		home_system = Yilet
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	streamofmiracles = {
+		name = Bangol
+		plural = Bangols
+		home_planet = "Stream of Miracles"
+		home_system = "River of Twilight"
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	sidcia = {
+		name = Sidcian
+		plural = Sidcians
+		home_planet = Sidcia
+		home_system = Minsunas
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	suviyongprime = {
+		name = Suviyongese
+		plural = Suviyongese
+		home_planet = "Suviyong Prime"
+		home_system = Suviyong
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	datpumidla = {
+		name = "Dat Pimu"
+		plural = "Dat Pimu"
+		home_planet = "Dat Pumidla"
+		home_system = "Dat Intemo"
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	balagtag = {
+		name = Balagtagid
+		plural = Balagtagids
+		home_planet = Balagtag
+		home_system = Antansee
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	mangvutthevictorious = {
+		name = Kiy
+		plural = Kiy
+		home_planet = "Mangvut the Victorious"
+		home_system = "Kimlig the Curious"
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	satdag = {
+		name = Pung
+		plural = Pung
+		home_planet = Satdag
+		home_system = Mandil
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	getol = {
+		name = Getolese
+		plural = Getolese
+		home_planet = Getol
+		home_system = Igmat
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	tidcencho = {
+		name = Iyuk
+		plural = Iyuks
+		home_planet = Tidcencho
+		home_system = Puvotod
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	hagamlagi = {
+		name = Hagamlagian
+		plural = Hagamlagians
+		home_planet = Hagamlagi
+		home_system = Vugi
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	licup = {
+		name = Licupite
+		plural = Licupites
+		home_planet = Licup
+		home_system = Yazabin
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	dejik = {
+		name = Dejikite
+		plural = Dejikites
+		home_planet = Dejik
+		home_system = Chagtol
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	kicoboc = {
+		name = Kicobanese
+		plural = Kicobanese
+		home_planet = Kicoboc
+		home_system = Ungiayer
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	pamlaba = {
+		name = Pamlaban
+		plural = Pamlabans
+		home_planet = Pamlaba
+		home_system = Tigmu
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	pengungiri = {
+		name = Pengungese
+		plural = Pengungese
+		home_planet = "Pengungiri Prime"
+		home_system = Pengungiri
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	panubomi = {
+		name = Panubomian
+		plural = Panubomians
+		home_planet = Panubomi
+		home_system = Siteem
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	rainbowisle = {
+		name = Punchotol
+		plural = Punchotols
+		home_planet = "Rainbow Isle"
+		home_system = "Onyx Isle"
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	dawiat = {
+		name = Dawiatan
+		plural = Dawiatans
+		home_planet = Dawiat
+		home_system = Igwateni
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	tinibatia = {
+		name = Tinibatian
+		plural = Tinibatians
+		home_planet = Tinibatia
+		home_system = Uvutiak
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	agtalog = {
+		name = Agtalogese
+		plural = Agtalogese
+		home_planet = Agtalog
+		home_system = Tavibagi
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	dundon = {
+		name = Dundonese
+		plural = Dundonese
+		home_planet = Dundon
+		home_system = Kimluildi
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+	puvia = {
+		name = Puvian
+		plural = Puvians
+		home_planet = Puvia
+		home_system = Tavinsaldang
+		name_list = "cybrxkhan_fantasy_tagalog"
+	}
+}

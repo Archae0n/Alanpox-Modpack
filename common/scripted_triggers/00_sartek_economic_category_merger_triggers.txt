@@ -1,0 +1,7 @@
+sartek_planet_jobs_merg_habitats = {
+	OR = {
+		is_planet_class = pc_habitat
+		is_giga_habitat = yes
+		is_non_giga_habitat = yes
+	}
+}

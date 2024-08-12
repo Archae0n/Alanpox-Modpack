@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_bugged_foci_progression_change"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_bugged_cheap_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_bugged_foci_connection_change"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_bugged_cheap_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_bugged_foci_encroachment_change"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_bugged_cheap_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_bugged_foci_convalescence_change"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_bugged_cheap_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_bugged_foci_analysis_change"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_bugged_cheap_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_bugged_foci_logistics_change"
+		texturefile = "gfx/interface/icons/agenda_icons/agenda_bugged_cheap_fix.dds"
+	}
+}

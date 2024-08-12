@@ -1,0 +1,119 @@
+# This rule is a condition for bombarding planets
+# Root = fleet, potential attacker
+# From = planet, potential target
+
+# This rule is a condition for bombarding planets
+# Root = fleet, potential attacker
+# From = planet, potential target
+can_orbital_bombard = {
+	exists = from.OWNER
+	count_controlled_ship = {
+		limit = {
+			is_ship_size = colossus
+		}
+		count = 0
+	}
+	OR = {
+		AND = {
+			root.controller = {
+				NOT = { has_communications = from.OWNER }
+			}
+			from.owner = {
+				is_primitive = no
+			}
+		}
+		AND = {
+			root.controller = {
+				NOR = {
+					has_policy_flag = interference_not_allowed
+					has_policy_flag = interference_subtle
+				}
+			}
+			from.owner = { is_primitive = yes }
+		}
+		root.controller = { is_at_war_with = from.CONTROLLER }
+		from = { is_planet_class = pc_infested }
+		from.controller = {
+			OR = {
+				is_country_type = swarm
+				is_country_type = ai_empire
+				is_country_type = cybrex_empire
+				is_country_type = shroud_horrors
+				is_country_type = shroud_cult
+				AND = {
+					is_country_type = awakened_marauders
+					root.controller = { is_hostile = prev }
+				}
+			}
+		}
+		root.controller = {
+			OR = {
+				is_endgame_crisis = yes
+				is_country_type = cybrex_empire
+				is_country_type = dormant_marauders
+				is_country_type = marauder_raiders
+				is_country_type = ruined_marauders
+				is_country_type = debt_collectors
+				is_country_type = gray_goo
+				is_country_type = vol
+				is_country_type = shroud_horrors
+				is_country_type = shroud_cult
+				AND = {
+					OR = {
+						is_country_type = awakened_marauders
+						is_country_type = formless # v.3.10
+					}
+					from.controller = { is_hostile = prev }
+				}
+			}
+		}
+		AND = {
+			from.controller = {
+				is_country_type = faction
+				NOT = { is_same_empire = root.controller }
+			}
+			from.owner = {
+				is_same_empire = root.controller
+			}
+		}
+	}
+}
+
+# This = planet
+can_pops_grow_on_planet = {
+	NOR = {
+		has_modifier = planet_population_control
+		has_modifier = planet_population_control_gestalt
+		is_planet_class = pc_cosmogenesis_world
+		is_planet_class = pc_nanotech
+		AND = { # Conquered by crisis
+			exists = controller
+			controller = {
+				OR = {
+					is_country_type = ai_empire
+					is_country_type = swarm
+					is_country_type = shroud_cult
+				}
+			}
+		}
+	}
+}
+
+# This = planet
+can_pops_assemble_on_planet = {
+	NOR = {
+		has_modifier = planet_robot_assembly_control
+		has_modifier = planet_population_control_gestalt
+		is_planet_class = pc_cosmogenesis_world
+		AND = { # Conquered by crisis
+			exists = controller
+			controller = {
+				OR = {
+					is_country_type = ai_empire
+					is_country_type = swarm
+					is_country_type = shroud_cult
+				}
+			}
+		}
+	}
+}

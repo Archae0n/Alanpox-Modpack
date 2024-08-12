@@ -1,0 +1,428 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	treukesprime = {
+		name = Belbu
+		plural = Belbu
+		home_planet = "Treukes Prime"
+		home_system = Treukes
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	lucalfia = {
+		name = Lucalfian
+		plural = Lucalfians
+		home_planet = Lucalfia
+		home_system = "Kavina Arra"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	willofthegoldenborough = {
+		name = Surean
+		plural = Sureans
+		home_planet = "Will of the Golden Borough"
+		home_system = "Merciful Devastation"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	viesarthia = {
+		name = Viesarthic
+		plural = Viesarthics
+		home_planet = "Vies Arthia"
+		home_system = Parches
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	huari = {
+		name = Huari
+		plural = Huari
+		home_planet = Huari
+		home_system = Aria-Feries 
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	pumpina = {
+		name = Pumpinan
+		plural = Pumpinans
+		home_planet = Pumpina
+		home_system = Aties 
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	perusi = {
+		name = Perusid
+		plural = Perusids
+		home_planet = Perusi
+		home_system = Sethulp 
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	seinathedetermined = {
+		name = Papevan
+		plural = Papevans
+		home_planet = "Seina the Determined"
+		home_system = "Capulia the Maestro" 
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	vilainas = {
+		name = Vilainoid
+		plural = Vilainoids
+		home_planet = Vilainas
+		home_system = Laria 
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	jollymatriarch = {
+		name = Tilessian
+		plural = Tilessians
+		home_planet = "Jolly Matriarch"
+		home_system = "Jolly Patriarch" 
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	manthiliana = {
+		name = Manthilese
+		plural = Manthilese
+		home_planet = Manthiliana
+		home_system = Tarthrazia
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	kavarastine = {
+		name = Rastinite
+		plural = Rastinites
+		home_planet = "Kava Rastine"
+		home_system = Clesularre
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	fellona = {
+		name = Fellonid
+		plural = Fellonids
+		home_planet = Fellona
+		home_system = Fireplia
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	numnazia = {
+		name = Numnazoid
+		plural = Numnazoids
+		home_planet = Numnazia
+		home_system = Caviesies
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	pullonia = {
+		name = Pullonian  
+		plural = Pullonians
+		home_planet = Pullonia
+		home_system = Kaes-Lucana
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	aratusias = {
+		name = Aratussian  
+		plural = Aratussians
+		home_planet = Aratusias
+		home_system = Fania
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	tarthurin = {
+		name = Tarthurish  
+		plural = Tarthurish
+		home_planet = Tarthurin
+		home_system = Kainathusa
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	teukespina = {
+		name = Thurrei 
+		plural = Thurrei
+		home_planet = "Teukes Pina"
+		home_system = "Teukes Vetia"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	plerime = {
+		name = Plerimian 
+		plural = Plerimians
+		home_planet = Plerime
+		home_system = Belesusna
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	carthine = {
+		name = Carthinish 
+		plural = Carthinish
+		home_planet = Carthine
+		home_system = "Marma Markna"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	awakeningcourage = {
+		name = Velsulnian 
+		plural = Velsulnians
+		home_planet = "Awakening Courage"
+		home_system = "Obliterating Doubt"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	vellonia = {
+		name = Vellonian 
+		plural = Vellonians
+		home_planet = Vellonia
+		home_system = Halerthiles
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	arkhva = {
+		name = Arkhvoid
+		plural = Arkhvoids
+		home_planet = Arkhva
+		home_system = Ramnia
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	nuriperkia = {
+		name = Thenevan
+		plural = Thenevans
+		home_planet = "Nuri Perkia"
+		home_system = "Nuri Mamuna"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	nucren = {
+		name = Nucrenese
+		plural = Nucrenese
+		home_planet = Nucren
+		home_system = Paraychu
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	scantia = {
+		name = Scantling
+		plural = Scantlings
+		home_planet = Scantia
+		home_system = Capetlun
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	vesintes = {
+		name = Vesintean
+		plural = Vesinteans
+		home_planet = Vesintes
+		home_system = Larinia
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	tarmu = {
+		name = Tarmuid
+		plural = Tarmuids
+		home_planet = Tarmu
+		home_system = Tethukes
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	hillsofglass = {
+		name = Numperian
+		plural = Numperians
+		home_planet = "Hills of Glass"
+		home_system = "Flowing Strength"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	pelphia = {
+		name = Pelphian
+		plural = Pelphians
+		home_planet = Pelphia
+		home_system = "Suri Mutha"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	arrinna = {
+		name = Arrinnese
+		plural = Arrinnese
+		home_planet = Arrinna
+		home_system = Phleva
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	huvetia = {
+		name = Huvettish
+		plural = Huvettish
+		home_planet = "Hu Vetia"
+		home_system = Raisalia
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	scalenia = {
+		name = Scalenian
+		plural = Scalenians
+		home_planet = Scalenia
+		home_system = Patri
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	patrirauna = {
+		name = Patri'Rau
+		plural = Patri'Rau
+		home_planet = Patri-Rauna
+		home_system = Kuina
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	thuniatheelder = {
+		name = Thunid
+		plural = Thunids
+		home_planet = "Thunia the Elder"
+		home_system = "Thunia the Younger"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	larhathemajestic = {
+		name = Suriesu
+		plural = Suriesu
+		home_planet = "Larha the Majestic"
+		home_system = Auresianua
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	anthunia = {
+		name = Anthunian
+		plural = Anthunians
+		home_planet = Anthunia
+		home_system = Auresianua
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	surixia = {
+		name = Surixian
+		plural = Surixians
+		home_planet = Surixia
+		home_system = "Cahia Vipha"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	alamuthra = {
+		name = Alamuthrid
+		plural = Alamuthrids
+		home_planet = Alamuthra
+		home_system = Marknes
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	senthur = {
+		name = Senthurese
+		plural = Senthurese
+		home_planet = Senthur
+		home_system = Stalaisana
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	mutuma = {
+		name = Mutumite
+		plural = Mutumites
+		home_planet = Mutuma
+		home_system = Puritus
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	ravrenatheviper = {
+		name = "Thia Auri"
+		plural = "Thia Auri"
+		home_planet = "Ravrena the Viper"
+		home_system = "Arumna the Worm"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	vipeluntia = {
+		name = Vipelunt
+		plural = Vipelunts
+		home_planet = Vipeluntia
+		home_system = Hefartesina
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	spuria = {
+		name = Spurian
+		plural = Spurians
+		home_planet = Spuria
+		home_system = Narkhva
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	manthimarmneia = {
+		name = Manthoid
+		plural = Manthoids
+		home_planet = "Manthi Marmneia"
+		home_system = "Manthi Felkarcla"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	thesaluna = {
+		name = Thesalunan
+		plural = Thesalunans
+		home_planet = Thesaluna
+		home_system = Ikuinessia
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	vulagala = {
+		name = Vulgaldian
+		plural = Vulgaldians
+		home_planet = Vula-Gala
+		home_system = Vula-Gela
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	laruskessi = {
+		name = Laruskessian
+		plural = Laruskessians
+		home_planet = Laruskessi
+		home_system = Velthva
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	uvilia = {
+		name = Uvilian
+		plural = Uvilians
+		home_planet = Uvilia
+		home_system = Manarsna
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	sabatia = {
+		name = Sabatic
+		plural = Sabatics
+		home_planet = Sabatia
+		home_system = Velsitusna
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	cavrepua = {
+		name = Cavre
+		plural = Cavre
+		home_planet = Cavrepua
+		home_system = "Amres Fira"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	pathacama = {
+		name = Pathacaman
+		plural = Pathacamans
+		home_planet = "Patha Cama"
+		home_system = Velthilias
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+	arrathathebeauty = {
+		name = Arrathan
+		plural = Arrathans
+		home_planet = "Arratha the Beauty"
+		home_system = "Ampia the Wall"
+		name_list = "cybrxkhan_handmade_etruscan"
+	}
+}

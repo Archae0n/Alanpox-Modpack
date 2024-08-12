@@ -1,0 +1,302 @@
+﻿### Fantasy Himyarite
+### Names from Himyarites and other south Arabian peoples like Sabaeans, put into a markov blender
+
+cybrxkhan_fantasy_himyarite = {
+	category = "Aquatic"
+
+	ship_names = {
+		generic = {
+			'Aman 'Amar 'Amarikula 'Amm 'Azlay Aba Abahmar Abamu Aban Abanhum Abatuf Abawbamrala Abkar Abkarabeel Abkarlum Abkhawwam Abkhu Abkhuf Abkhum Abra Abran Abshalakis Abshan Adhah Adhhin Ahmar Ahmardabum Ahmat Ahmathawn Ahmid Ahmir Akhadhhin Akhafshawum Akhalhat Akhari Akhtuf Alamar Alan Alatamarib Alaywsayum Alfa'ad Alfa'ru Alfan Alfaranta Alfat Alfatan'em Alfatgawn Alhadmat Alhadshum'a Alhamm Alhaqa Alhaqrabil Alhar Alharta'ay Amal Aman Amanuf Amanufirr Amaqr Amaran Amartan Amarzad Amathib Amm Amman Ammatufargeb Ammyatgawan Ammyatt Amr Amrabbkar Amrah Amral Amribatuf Amrikum Amrum Anmadaqasha Anman Anman'em Anmaqr Anmaraban Anmarhawan Anmarib Anmaribams Anmarkaran Anmarkarib Anmarneh Anmat Anmata'im Anmatar Arbakamarib Arbamda Arban Arbathari Asalakir Asalan Asarim Asarimukhar Asarum Asaydabum Asayrhi Asdumhum Asi'um Asirr Asirumhuz Ath Athahamirr Athal Athan Athib Athr Awfa'rum Awfan Awfat Awsalatt Awsalawn Awsham Awshatum Ayfan Ayfar Ayfir Aym Aymada'rum Aymalannat Aymarim Aymat Aymidwab Aynat Aynata'am Azad Azah Azahz Azlakhtad Azlamar Azlan Azlayyati'um Bad Badan Baddabum Badshan Bak Bakarih Baki Bakis Bakri Bal Balawashahar Balawdan Bali Bam Bamaamda'um Bamarum Bamhu Bammarib Bamsum Baq Baqa Baqil Baqr Bar Barah Barahdir Baran Bari Barib Barih Bartanim Barum Bathamrah Bay Baysha Bayum'adan Baywsal Bil Bilum Bshabamarzad Bshadan Bshah Bsharibat Bshid Dam Damad Daman Damaraha Damari Damarih Damasbam Damasid Damat Damdahz Damdan Damin Damm Dammarin Dammath Damsum Damsum'a Damukhtadan Dar Dargilum Darib Darneh Dawahrannatt Dawlak Dawn Dha'ra Dhadd Dhadman Dhadshal Dhafir Dhahadda'um Dhahanuf Dhal Dhalak Dham Dhaman Dhamarum Dhamat Dhamir Dhamsum Dhan Dhanuf Dhaqr Dhar Dharan Dharib Dharig Dharqasum Dhashiba Dhasi'um Dhat Dhawfan Dhawn Dhualikum Dhum Dhur Dhuz Far Farahada Faralat Faran Farhuz Farib Fariba'addan Farih Farim Farishada'r Fay Faydan Faydawfan Faywshib Gadtharig Gan Ghalaqil Ghalih Ghamalakhat Ghar Hab'im Haba'ay Habalay Habbanufir Habbkarum Habum Hadan Hadaqah Hadmanufirum Hadmashanhum Hadshid Hadthin Hah Hahan Hahr Hahu Hahualkil Halakar Halantat Hali Halmali Ham Hamaa Hamaam Hamad Haman Hamanuf Hamaral'amm Hamarib Hamaribathr Hamat Hamid Hamir Hamirwan Hammyad Hamran Hams Hamsum Hamumhadiq Har Harah Haran Hardan Hargil Hari Hari'um Haribali Harid Harig Harihamind Harithad Harta Haru Has Hasba Hasbib Hasbir-Khan Hasharim Hashib Hashu Hasid Hasir Hasum Hawam Hawamin Hawasbamm Hawbammyatum Hawdail Hawdan Hawdanid Hawfan Hawfat Hawfum'ahdir Hawn Hawwam Hawwanuf Hay Hayathr Hayda'il Haydan Haydatan Hayhaban Haym Haymat Hayn Hayrham Hayrhawban Hayrhiq Haytan Haytat Hayumhu Haywsarib Haz'addan Haz'admat Haz'afa'abih Haz'alaytamm Hazfan Hazil Hazill Hin Hindan Hir Hir-Aqyan Hir-Khak Hirid Hiriyy Hirwah Hum Hum'adid Il'Sa'rum Il'Samran Ilsh Ilsham Ilshan Ilshanhuz Ilshibamar Ilshid Kab Kab'il Kab'ill Kabah Kabat Kabib Kabiban Kabih Kabir Kabirib Kabum Kah Kahabeel Kahara'il Kahin Kahlayat Kam Kamaralan Kamarhur Kamarib Kamarum Kamasid Kamdanid Kamhatuf Kamir Kamm Kamsum Kar Karah Karan Karatat Kargeb Kari'um Kari'umum Karib Karig Karindata Kariyy Karum Khab Khadmaribat Khah Khaharal Khahr Kham Khamin Khams Khara'amri Khardaba Kharhib Khay Khaynat Khaywsarih Khayyadaqil Kin Lahadda Lahamatufir Lahmind Lahribirum Lahubbshuz Lahz Lam Lamsum Ma'a Ma'ad Ma'adth Ma'alhahz Ma'amrum Ma'il Ma'nim Ma'nimral Ma'r Ma'rum Ma'um Ma'um'adhadd Mad Mada Mada'nat Madan Madsham Madshathi Madshid Madum Magdhan Magil Magilid Magrab Magrat Mah Mahabilamm Mahasbakil Mahdidumu Mahib Mahlamatan Mahmaribak Mahmid Mahr Mahrib Mahrithalan Mahur Mahylawan Mahz Mal'adadshid Malak Malaki Malamirwamm Malatawn Malayrhahdir Malha Malhasi'um Mali Malihalay Malikams Malman Mar Mara'amat Maran Maranifum Maratufir Margeb Marhidwamr Mari Marib Maribam Maribat Marim Marind Maris Marqah Martah Martathan Marum Marumhar May Maymartata Mayum Maywsaymaqah Mayyinah Mid Muhad Muhadan Muhaman Muhamatar Muhamdan Muhamhalikum Muhan Muhar Muharalaqa Muharin Muhatad Muhawas Muhawasirr Muhay Muhi Muhib Muhid Muhin Muhind Muyad Muyan Muyanidum Muyat Naa Naamar Naamm Nabum Nagdhar Nagil Nagilaywshiq Nagilkishin Nas Nasbalan Nasbamsum Nash Nashibathrib Nashwasi'um Nim Nimra'ah Nimra'rum Nimrabium Nimum Nimumhan Nuwabamsum Nuwahan Nuwahasum Nuwam Nuwamarikum Nuwams Nuwamsum Nuwan Qah Qahayyat Qahratt Qarib Qarihawfan Qudadi Qudan Qudatum Rab Rabban Rabih Rabihat Rabil Rabir Rabumlay Rad Rada Radir Radmaddabeel Raf Rafir Rafirr Rafshamalkir Rafshayum Rakari'um Rakarin Rakbathar Rakhmirid Ras Rasi'um Rasid Rasum Rat Rata Ratakhadan Ratari Ratataris Ratawabir Rathaban Rathayum Rati'um Rati'umu Ratum Rav'em Rayam Rayat Rayatan Raydailayn Raydaqa Rayfi Rayfir Raymir Rayrhu Rayum Rayyin Rid Ridhayshar Ru'adi Ru'adum Ru'amar Ru'amri Ru'fir Ru'fir-Khad Ru'firum Sa'a Sa'ab Sa'ad Sa'adabawan Sa'adail Sa'adawumum Sa'adshu Sa'alawan Sa'alkil Sa'anahawdat Sa'ay Sa'ayfi Sa'aym Sa'im Sa'nah Sa'r Sa'ralil Sa'ru Sa'rum Sa'um Sah Sahah Sahatatar Sahtalayat Salaym Salayy Sali Salmar Sam Saman Samarib Samaribalat Samid Samm Sammkarid Samr San Sanhum Sawan Sawasid Sawba Sawum Sha Shabam Shaban Shabeel Shadab Shaddan Shadhhidum Shadi Shadum Shahabum Shahawan Shakhamr Shalakarhuf Shalakbat Shalay Shalikarib Shamar Shamarah Shamm Shammatt Shammyat Shamrum Shan Shan'il Shanim Shannawas Shaqahz Shar Sharalharib Sharibatt Sharikum Sharum Shat Shata Shatgawan Shathin Shawam Shawan Shawfa'af Shawfar Shawlan Shawn Shaym Shib Shibalat Shibanuf Shid Shin Shind Shualtan Shubhabib Shubhalan Shufir-Khay Shum Shuz Sir Siri Suha Suhamrig Suhaqa Suharih Suharyatt Suhat Sukhab Sukhadmarkar Sukhalanhuz Sukhamhuamar Sukhan Sukhari Sukhat Sukhmar Sukhmaris Sukhmid Sukhtahz Sukhtuf Sukhuf Sukhuz Sum Sum'aydail Sumhams Sumum Taba'amarum Tabalikulak Taban Tabawwahawah Tabum Tah Tahran Tahriyy Tahylat Tal Talan Talatahdi Tan Tan'em Tawlan Tawum Tawwasbirum Tay Tayad Taym Tayyad Thadsha Thalikarim Than That Thayshubbsh Tub Tubban Tubbawn Tubbkhab Tubbkhuali Tubbshathat Tubbshayy Tubhay Ummalikar Ummat Ummkar Ummkaran Usal Usalat Usalayumumum Usalih Usaryat Usayat Usaytahan Utkar Utkarqa Utkum Wa'ad Wa'adir Wa'amatarib Wa'amu Wa'natum Wah Wahab'imrum Wahabib Wahadatum Waham Wahar Wahas Wahawlak Wahawlathamr Wahdiq Wahr Wahtadaqa Wahtahdir Wahuz Wahylakarum Wahylakrim Wal Walakrithan Walan Walan'em Walaqasbium Walatuf Walhamatt Wali Walikumhan Walikumhur Walmaa Wat Wat'Bamsum Wathakhargil Wathayhay Yad Yadab Yadalan Yadan Yadir Yadmaa Yadman Yadshaqasum Yagdham Yagdhan Yagdhathab Yagdhhi Yagil Yagran Yagran'em Yah Yahab Yahah Yahalanim Yahamm Yahamsumu Yahan Yahdid Yahdir Yahid Yahrihaym Yahrikum Yahrimrum Yahta Yahtum Yahuali Yahubbathid Yahuf Yahylan Yak Yakamhan Yakamsum Yakar Yakaran Yakarim Yakartan Yakbalid Yakhan Yakhar Yaki Yan Yan'il Yanim Yanimrithawn Yar Yari Yarib Yarih Yarkarib Yas Yasba'il Yasbalatgawn Yasbam Yasbium Yashalakis Yashan Yashashan Yashay Yashiq Yashuz Yasidum Yasirid Yasirwan Yat Yatamirum Yatamm Yatatalil Yatatatalan Yatgawamman Yathah Yathamara Yathan'el Yathkartan Yatufa'ah Yatum Yaz'a Yaz'adi Yaz'ahamdaqr Yaz'ayum Yazfa'rumhuz Yazfaran Yazfari Yazilkil Yu'ababa'um Yu'fi Yu'firwahur Yuf Yufir Yuhab Yuhadah Yuhafir Yuhalakhum Yuham Yuhamalkil Yuhamaq Yuhamar Yuhamargeb Yuhamarib Yuhamda'nid Yuhamir Yuhamm Yuhamrib Yuhamsum Yuhan Yuhan'ilan Yuhanuf Yuhar Yuharal Yuharan Yuharib Yuhashamaa Yuhasi'um Yuhat Yuhata Yuhath Yuhathanat Yuhatkumhab Yuhatum Yuhawan'il Yuhawanim Yuhawbal Yuhawwamsum Yuhawwan Yuhay Yuhayhamar Yuhib Yuhibamm Yuhibil Yuhid Yuhiq Zab Zabah Zabih Zabum Zalatad Zalay Zali Zalkir Zalmarzahran Zam Zamaam Zamat Zamdail Zamhabib Zamhu Zamid Zamm Zams Zar Zari'um Zarib Zariba'um Zarimrib Zarum Zarzadan Zora'an Zorab Zorabbat Zoralill Zoran Zoratthan
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Sa'ad Starfarers" "Abshidhar Starfarers" "Thayyind Starfarers" "Yuhada'il Starfarers" "Hashan Starfarers" "Zams Starfarers" "Mayyat Starfarers" "Ham Radmat Starfarers" "Naamsum Starfarers" "Tal Takil Starfarers" "Anmar Umhub Starfarers" "Nay Kabak Starfarers" "Batalanuf Starfarers" 
+		}
+		sequential_name = FANTASY_ARABIC_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_ARABIC_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_ARABIC_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_ARABIC_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_ARABIC_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_ARABIC_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_ARABIC_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_ARABIC_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_ARABIC_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_ARABIC_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_ARABIC_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_ARABIC_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_ARABIC_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_ARABIC_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_ARABIC_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_ARABIC_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_ARABIC_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_ARABIC_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_ARABIC_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_ARABIC_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_ARABIC_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_ARABIC_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				'Azahad Abkarqash Abkarum Abshat Adhantan Ahmarib Ahmir Alathalki Alfa'adanuf Alfa'amat Alharig Amarikum Amasi'um Amm Ammathahaki Amr Anman Anmari Arbah Arbalih Arban Arbawn Athar Awsargil Awsaym Awshwamar Aymaamin Aynat Azah Badman Bamindailum Bshan Dam Damar Dammar Darib Dha Dhakargeb Dhakbatan Dhakil Dhan Dhanid Dharkarkarib Dhasum Dhathawabum Dhatumhuz Dhawlan Farahufi Fari Farib Ganimral Habamat Had Hamarib Hawbahylam Hay Hin Hinawamat Hir Ilshib Kaban Kabat Kar Karahan Kargili Kari'umum Karkamir Karta'af Kartar Karu Karzadum Khah Khalaymar Khasba'ran Ma'um Madthadum Malathan Marathi Mari Mayfathkar Maymid Mayn Mid Muyan Naa Nab Nagil Nas Nim Qarum'adan Quda Qudadi Qudan Raf Rafar Rafaran Rafat Rakar Rat Ratan Rayrhub Rayshashams Rid Ru'firr Sa'rum Sah Salakis Samir Sha'r Shahrib Shamhur Shamm Shanim Sharan Sharibanhuz Shawum Shi Shid Shuamara Shufir Sir Sirr Sukhafshwan Sukhawbat Sukhtaki Sukhuam Sum Sumhakar Taba'adan Tan Tawda Taymarib Tayshaqr Thamanhuz Tubbkarhuz Usar Usarib Usartadan Usayath Wa'ad Wa'adan Wa'nati'um Wahabum Waharum Wahib Walanat Walawbahdid Walikarid Walman Wat Yadaban Yagdhawdaq Yagran Yaham Yak Yan Yantadat Yargeb Yarib Yarithkarneh Yasi'umhur Yasid Yat Yath Yati'um Yu'abium Yuhafarlum Yuhafshib Yuhalil Yuhalkil Yuhamhabeel Yuhan Yuhasid Yuhat Yuhata Yuhiban'ilid Yuhibat Zab Zabilum Zamar Zaranimu Zarikaran Zoramariban
+
+
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				'Ammargeb Abakhmarih Abamanim Abamir Abkar Abkarahan Abkari Abkarig Abshab Abshamsum Abshib Adhamu Adharum Adhasbatad Ahmarib Ahmin Ahmir Akhmarib Akhmin Akhuz Alat Alayn Aman Amarum Amm Ammarib Ammkar Ammkarah Ammyat Amr Amralki Amrumhum Amrumhuz Anmar Anmaralay Asalakarib Asarda Asari'um Asarithar Asdi Asdir Asdumhuf Asidwanhuz Asir Athabium Athamir Athas Awsalathah Awsalayyin Ayfir Aymarin Aymidwan Aymirum Azad Azada Azadail Azlay Azlayhan Baqill Bar Bari'um Barin Barta Bay Bayn Bayyath Damid Damsum Dawab Dhab Dhabium Dhad Dhahat Dham Dhamar Dharib Dharzada'r Far Farib Farzahri Hadshat Hadth Hadthkaru Hadum Hahdiq Halan Hali Ham Haman Hamarah Hamaru Hamir Hamm Hamsum Harhuamir Hawfa'ams Hawfat Hawwan Hay Hayada Hayat Il'a Il'adir Ilshadir Karali Karhi Karhibamar Karib Karim Karkarum Karum Lah Lahdiq Ma'ab Ma'ad Mah Maharishan Mal Mali Mar Marahamsum Maralki Marda'adum Marib Maribahr Marlum Maru Nab Nabeel Nas Nasbil Nashatan Nim Nimrum Nuwab Nuwan Qahar Qahrig Qahtar Qarahamid Qarib Qarith Qudail Qudawam Rab Rab'il Rabakhtat Rabeel Rabiumum Rakar Rakari Rat Rata'abam Rathatadi Ratkarig Rav'em Rid Sa'a Sa'ab Sa'ada'ayn Sa'am Sa'amanhuf Sa'amarkal Sa'ammarig Sa'amum Sa'il Sa'im Sa'r Sah Sahdiq Sahmar Sham Shams Shanhuz Shanim Sharib Shat Shayyin Shib Shibat Shualaqash Sukhtat Sum Tab Tabam Talan Talaqashab Talayumumu Tan Tawan'el Thash Tub Usalay Wa'amanhuz Wah Wahamathad Wahdiq Wahmarih Wahtuf Wat Wata Watharib Yad Yada'am Yadan Yadd Yagil Yahan'il Yahdiq Yahr Yahum Yakar Yan Yar Yarab Yari Yarib Yaribil Yasbamar Yasbamu Yash Yashib Yat Yathabil Yathan Yatharib Yathay Yatkar Yu'a Yu'ad Yu'firum Yuhab Yuhabamsum Yuham Yuhaman Yuhamari Yuhamarib Yuhamarzad Yuhan Yuhanuf Yuhar Yuharahmid Yuharu Yuhas Yuhayath Yuhi Yuhib Zab Zaban Zabiumhub Zamarib Zoralaqas
+				
+				"Shah Azlayat"
+				"Sum Alhata"
+				"Yan Qahakarum"
+				"Mah Fargeb"
+				"Dhan Yah"
+				"Qar Yazill"
+				"Yashat Hay"
+				"Yadd Hamir"
+				"Mar Nuwabil"
+				"Az Mahum"
+				"Ah Yarkargeb"
+				"Kah Yatakhman"
+				"Zuk Ma'ay"
+				"Nuwan Ilshib"
+				"Gah Faru"
+				"Dag Amrahrin"
+				"Fay Hayyin"
+				"Mar Yakri'um"
+				"Mar Sukhuamsum"
+				"Raf Muhamir"
+				"Nudham 'Azlayum"
+				"Tabbshi Yakarab"
+				"Dham Wakarum"
+				"Bay Absh"
+				"Marahr Kari"
+				"Rid Rafshi"
+				"Nuwasir Rakarum"
+				"Barum Athat"
+				"Hay Hamarig"
+				"Zar Yarib"
+				"Lat Hahdir"
+				"Wah Aman"
+				"Yib Yaribahdir"
+				"Hayat Zamar"
+				"Sumu Yas"
+				"Rakrib Sum"
+				"Yan'imr Halayat"
+				"Ath Yatadailum"
+				"Yat Habar"
+							
+            }          
+            first_names_female = {
+				Abkhaf Abkhak Abkhakis Abkhatah Abkhatahu Abkhatthat Abkhawn Alfan Alfanat Alfanimum Alfantah Alfara'rum Alfargilak Alfarqah Amaa Amala Amalak Amalakis Amalat Amalay Amaq Amaqa Amat Amat'Balat Amatah Amatgawn Amatt Athal'Sam Athalatahu Athalawam Athamaa Athatawn Athawn Athra'alat Athra'rum Athratt Badan Badaqa Baddalmat Baddaq Bal'Sam Bal'Samsum Bala Balak Balakis Balatt Balattham Balihalak Balmalatt Balmaq Bilak Bilat Bilkir Bshaf Bshalak Bshalat Bshalatahu Bshalmatt Bshamaa Bshat Bshawamsum Dhadan Dhadaq Dhafan Dhak Dhala Dhalak Dhalat Dhalatgawn Dhalmaa Dham Dhamaa Dhamalakis Dhamaq Dhamat Dhat Dhatahylak Dhatt Dhawn Gadalak Gadalawn Gadan Gadantawn Gadaqa Gadaqah Gaddalak Gaddan Gan Ganat Gantahu Gantawban Hay Haywsham Haywshatt Hinat Hinatt Hir Kam Kamaa Kamalak Kamaq Kamatgawn Kamsum Ma'ah Ma'alak Ma'alatah Ma'alay Ma'rum Magdhadaq Magdhakir Magdhamaa Magdhamsum Mara'rum Maratgawn Margilakis Margilkir Margilkirr Margilkis Marqa Marqahu Marqahylak Rabiban Rabibantah Rabibat Rabibatt Raf Rafan Rafantala Rafara'ah Rafargila Rafarqa Rafarqah Rafarqahu Shaf Shafanat Shak Shalak Sham Shat Shawamaa Shawn Sum Tah Tahu Tahyla Tahylak Wa'ah Wa'ahylat Wa'ala Wa'alak Wa'alakirr Wal'Samaq Wal'Samsum Wala Walak Walat Walmaa Zara'rum Zaratthrat Zargilak Zargilkirr Zarqah Zarqahu
+
+				"Kir Rabibanatt"
+				"Rafan Ma'rum"
+				"Balak Gantah"
+				"Amalak Rabibat"
+				"Gadan Athra'rum"
+				"Sadan Kamaq"
+				"Ath Badan"
+				"Dhal Amalihawn"
+				"Ras Magdhaddaq"
+				"Shala Mum"
+				"Tak Rafarqa"
+				"Rafantah Dhakis"
+				"Hir Zara'alak"
+				"Kuf Walay"
+				"Gadaq Tahu"
+				"Ras Gaddaqah"
+				"Hay Ma'rum"
+				"Jak Abkhalihak"
+				"Ath Margilkirr"
+				"Shat Wa'alak"
+				"Ka'amal Bshalay"
+				"Raf Alfan"
+				"Walmat Largilan"
+				"Sum Bshalak"
+				"Amala Hinatt"
+				"Amat Dhabkirr"
+				"Shak Hir"
+            }
+			second_names = {
+				Abra Abrah Amrahid Amrati'um Amri Anman Anmathid Arba Aynawfa'an Aynawlan Bakil Bakir Bam Bathiq Batum Dam Damathid Damatum Dhadhan Dhadmasum Dhaqr Dhayfarahid Dhaym Dhubba Dhubhawfa'um Dhur Fayfarneh Faym Faytan Ghaba'afiri Ghadhhid Ghaqr Ghaymar Hab Haba Habum Haddababum Hadman Hadmashwahri Hamir-Khaqra Har Hari Hashubbam Hasum Hawdadmariyy Hazfa'ran Hazfaran Hum Kab Kababa Kabum Kaman Kamran Khamar Khan Khaymat Kindabum Kindadir Kindan Kindatan Laman Ma'natum'an Ma'um Madman Mah Mahadmar Maham Mahaym Mahdir-Khaqr Marneh Maydathid Maym Maymat Maysham Mayshwan Mid Muhamhaqr Muhaqrah Muhaym Muyannat Muyata Muyatan Naamhawdan Naamir Nagra Nagrah Nuwah Nuwan Nuwasum Qudabam Qudabum Qudabumlan Qudadman Qudahz Radir-Aqyan Ray Rayfa'um Raym Rayman Raymarneh Sa'ilil Sa'um Sam Samdadhhid Samid San Sha Shabirum Shabirwan Shad Shahib Shakirwahan Sham Shan Shaqramhaym Shaqran Sharan Shawdabirum Shay Shaytan Shayy Shid Siriyyan Suhamdabum Suhamri Suhan Sukhaltan Sukhawum Sukhayy Sum Sumlanid Taym Taymaratum Tubbab Tubbahid Tubbamri Utkum Wa'a Walhan Walhaqrah Walid Yashay Yashid Yasi'um Yasum Yasumharam Yaz'afiri Yazfa'um Yufir Yufiri Yufirwashar Zalhan Zalta
+
+				al-Anmasid al-Arbahlan al-Aynahlan al-Bakilikum al-Bamir al-Bathiba'an al-Dam al-Daman al-Damdahlan al-Dhaqr al-Dhubhadman al-Gha al-Ghabamha al-Ghakil al-Hab al-Ham al-Hashubba al-Hashur al-Haz'an al-Hum al-Kab al-Kaba al-Kabahz al-Kabir al-Kham al-Khan al-Khaqr al-Lamrati'um al-Ma'afirum al-Ma'ran al-Madhamari al-Madid al-Madmar al-Madmat al-Marneh al-Marum al-Maydan al-Maym al-Mid al-Muhamir al-Muyat al-Nuwan al-Rashid al-Rashur al-Rasi'um al-Rasum al-Raym al-Rayshawlan al-Sa'um al-Samran al-Samrid al-San al-Shaddan al-Shakirwan al-Shamarumlan al-Shamdaba'ay al-Shan al-Sharid al-Sharum al-Sir al-Sirum al-Suhahdir al-Sukhaytam al-Sum al-Tayfa'rum al-Utkulanid al-Wa'afir al-Wa'rumlan al-Walikulan al-Yashwah al-Yaz'afiri al-Yazfarumlan al-Yufir al-Zalhan
+
+				el-Abran el-Baman el-Bamaran el-Dhawdabir el-Dhur el-Hawdababab el-Hawum el-Kabum'an el-Kahz el-Khah el-Midhhid el-Muhakil el-Samid el-Sawlan el-Shabum el-Shadhhid el-Sharneh el-Shaym el-Sukhadhhiq el-Sum el-Utkum el-Wa'il el-Yufiri el-Yufirum
+			}
+            regnal_first_names_male = {
+				Abkarahan Dharzada'r Hawwan Marib Rabeel Sa'ab Yathan Zaban
+            }
+            regnal_first_names_female = {
+				Amaqa Dhadaq Hinatt Kamalak Margilakis Wa'ah Wa'ahylat Zarqah
+            }
+			regnal_second_names = {
+				Amrahid Aynawfa'an Bathiq Dhadmasum Faym Habum Hamir-Khaqra Khamar Madman Mah Nuwan Qudadman Radir-Aqyan Sa'ilil Sa'um Shawdabirum Shaytan Suhamri Taym Walid Yaz'afiri Yufiri
+				al-Arbahlan al-Ghabamha al-Hum al-Kab al-Ma'afirum al-Madmar al-Nuwan al-Rashid al-Rashur al-Suhahdir al-Sukhaytam al-Wa'afir al-Yaz'afiri
+				el-Baman el-Kabum'an el-Muhakil el-Sawlan el-Shabum el-Wa'il
+			}
+		}
+	}
+}

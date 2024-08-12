@@ -1,0 +1,199 @@
+###########
+# Balance #
+###########
+#effects on research traits
+
+# leader_trait_bugged_highborn = {
+#     is_councilor_trait_for_ruler = yes
+#     inline_script = {
+#         script = trait/icon
+#         CLASS = leader
+#         ICON = GFX_leader_trait_bugged_highborn
+#         RARITY = common
+#         COUNCIL = triggered
+#         TIER = none
+#     }
+#     sorting_priority = 280
+# 	self_modifier = {
+# 		species_leader_exp_gain = 0.25
+# 	}
+#     custom_tooltip_with_modifiers = "leader_trait_bugged_highborn_custom_effect"
+#     triggered_modifier = {
+#         potential = {
+#             is_ruler = no
+#             leader_class = commander
+#         }
+#         ship_disengage_chance_mult = 0.15
+#         ships_upkeep_mult = -0.05
+#     }
+#     triggered_modifier = {
+#         potential = {
+#             is_ruler = no
+#             leader_class = scientist
+#         }
+#         science_ship_survey_speed = 0.15
+#     }
+# 	triggered_self_modifier = {
+# 		potential = {
+# 			is_ruler = no
+# 			leader_class = scientist
+# 		}
+# 		leader_scientists_physics_research_produces_add = 2
+# 		leader_scientists_society_research_produces_add = 2
+# 		leader_scientists_engineering_research_produces_add = 2
+# 		mult = trigger:has_skill
+# 	}
+#     triggered_modifier = {
+#         potential = {
+#             is_ruler = no
+#             leader_class = official
+#         }
+#         planet_jobs_slave_produces_mult = 0.10
+#         planet_jobs_unity_produces_mult = 0.05
+#     }
+#     triggered_modifier = {
+#         potential = {
+#             is_ruler = yes
+#         }
+#         country_ruler_influence_produces_add = 0.1
+#         country_edict_fund_add = 10
+# 		mult = trigger:has_skill
+#     }
+#     leader_class = { commander scientist official }
+#     initial = no
+#     randomized = no
+# }
+
+leader_trait_bugged_happy_hive = {
+    is_councilor_trait_for_ruler = yes
+    inline_script = {
+        script = trait/icon
+        CLASS = leader
+        ICON = GFX_leader_trait_ruler_hive_mind
+        RARITY = common
+        COUNCIL = triggered
+        TIER = none
+    }
+    sorting_priority = 280
+    triggered_modifier = {
+        potential = {
+            is_ruler = yes
+        }
+        planet_stability_add = 1
+		mult = owner.value:bugged_happy_gestalts
+    }
+    leader_class = { commander scientist official }
+    initial = no
+    randomized = no
+    custom_tooltip_with_modifiers = "leader_trait_bugged_happy_hive_custom_effect"
+}
+
+# leader_trait_bugged_megastructure = {
+# 	destiny_trait = yes
+#     ethic_destiny_trait = yes
+# 	councilor_trait = yes
+# 	inline_script = {
+# 		script = trait/icon
+# 		CLASS = scientist
+# 		ICON = GFX_leader_trait_surgical_bombardment
+# 		RARITY = paragon
+# 		COUNCIL = yes
+# 		TIER = none
+# 	}
+# 	modifier = {
+#         station_gatherers_produces_mult = 0.3
+# 		megastructure_build_speed_mult = 0.1
+# 	}
+# 	leader_potential_add = {
+# 		has_paragon_dlc = yes
+# 		has_trait = subclass_scientist_researcher
+# 	}
+# 	leader_class = { scientist }
+# 	selectable_weight = @subclass_trait_weight
+# 	destiny_background_icon = "GFX_leader_background_destiny_1"
+# }
+
+# leader_trait_bugged_elitist_ideals = {
+# 	destiny_trait = yes
+#     ethic_destiny_trait = yes
+# 	councilor_trait = yes
+# 	inline_script = {
+# 		script = trait/icon
+# 		CLASS = official
+# 		ICON = GFX_leader_trait_bugged_highborn
+# 		RARITY = paragon
+# 		COUNCIL = yes
+# 		TIER = none
+# 	}
+# 	modifier = {
+#         planet_jobs_ruler_produces_mult = -0.2
+#         country_ruler_influence_produces_add = 1
+# 	}
+#     triggered_self_modifier = {
+#         species_leader_exp_gain = 0.25
+#         councilor_skill_add = 2
+#     }
+# 	leader_potential_add = {
+# 		has_paragon_dlc = yes
+# 		has_trait = subclass_governor_visionary
+# 	}
+# 	leader_class = { official }
+# 	selectable_weight = @subclass_trait_weight
+# 	destiny_background_icon = "GFX_leader_background_destiny_1"
+#     custom_tooltip_with_modifiers = "leader_trait_bugged_elitist_ideals_custom_effect"
+# }
+
+leader_trait_bugged_highborn = {
+    force_councilor_trait = yes
+    inline_script = {
+        script = trait/icon
+        CLASS = leader
+        ICON = GFX_leader_trait_bugged_highborn
+        RARITY = common
+        COUNCIL = triggered
+        TIER = none
+    }
+    sorting_priority = 280
+	self_modifier = {
+        leaders_upkeep_mult = 0.25
+		species_leader_exp_gain = 0.25
+        leader_trait_selection_options_add = 1
+	}
+    custom_tooltip_with_modifiers = "leader_trait_bugged_highborn_custom_effect"
+	triggered_background_planet_modifier = {
+		potential = {
+			exists = FROM
+			FROM = {
+				exists = owner
+				owner = {
+					is_same_value = root.owner
+                    is_bugged_governmental_elitist = yes
+				}
+			}
+		}
+		job_noble_add = 1
+	}
+    leader_class = { commander scientist official }
+    initial = no
+    randomized = no
+}
+
+# leader_trait_bugged_trader = {
+#     force_councilor_trait = yes
+#     inline_script = {
+# 		script = trait/icon
+# 		CLASS = official
+# 		ICON = GFX_leader_trait_bugged_trader
+# 		RARITY = paragon
+# 		COUNCIL = yes
+# 		TIER = none
+# 	}
+#     sorting_priority = 280
+#     councilor_modifier = {
+#         pop_lifestyle_trade_mult = 0.5
+#     }
+
+#     leader_class = { official }
+#     initial = no
+#     randomized = no
+# }

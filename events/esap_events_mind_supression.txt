@@ -1,0 +1,53 @@
+namespace = esap_ascension_paths
+
+#Mind Supression, adds modifier on war declared. 
+country_event = {
+	id = esap_ascension_paths.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {	
+		has_global_flag = esap_psi_1_picked_flag
+		from = {
+			any_war_participant = { 
+				is_at_war_with = root
+				has_ascension_perk = ap_esap_psi_bonus
+			}
+		}
+		Not = {
+			has_ascension_perk = ap_esap_psi_bonus
+			has_ethic = ethic_gestalt_consciousness
+		}
+	}
+	
+	immediate = {
+		add_modifier = {
+			modifier = "mod_esap_psi_1"
+			days = -1
+		}
+	}
+}
+
+#Mind Supression, removes modifier when war ends.
+country_event = {
+	id = esap_ascension_paths.2
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {	
+		has_modifier = mod_esap_psi_1
+		Or = {
+			is_at_war = no
+			Not = {
+				any_country = {
+					is_at_war_with = root
+					has_ascension_perk = ap_esap_psi_bonus
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		remove_modifier = "mod_esap_psi_1"
+	}
+}

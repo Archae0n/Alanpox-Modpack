@@ -1,0 +1,49 @@
+﻿l_korean:
+ FLAG_CATEGORY_zz_enclaves:0 "엔클레이브"
+ FLAG_CATEGORY_zz_special:0 "특별한"
+ 
+ FLAG_CATEGORY_battlestar-6364:0 "배틀스타 갤럭티카"
+ FLAG_CATEGORY_dune-6364:0 "모래 언덕"
+ FLAG_CATEGORY_elitedangerous-6364:0 "엘리트 데인저러스"
+ FLAG_CATEGORY_eve-6364:0 "이브 온라인"
+ FLAG_CATEGORY_geopolitical-6364:0 "지정학적"
+ FLAG_CATEGORY_halflife-6364:0 "반감기"
+ FLAG_CATEGORY_historythemed-6364:0 "역사적인"
+ FLAG_CATEGORY_homeworld-6364:0 "홈월드"
+ FLAG_CATEGORY_masseffect-6364:0 "매스 이펙트"
+ FLAG_CATEGORY_misc-6364:0 "천문학"
+ FLAG_CATEGORY_miscgame-6364:0 "계략"
+ FLAG_CATEGORY_redrising-6364:0 "레드 라이징"
+ FLAG_CATEGORY_stargate-6364:0 "스타게이트"
+ FLAG_CATEGORY_startrek-6364:0 "스타트렉"
+ FLAG_CATEGORY_starwars-6364:0 "스타 워즈"
+  
+ FLAG_CATEGORY_divers:0 "스위피프 금"
+ FLAG_CATEGORY_divers2:0 "스위피프 은"
+ FLAG_CATEGORY_divers3:0 "스위피프 오닉스"
+ 
+ FLAG_CATEGORY_mtg_main_1:0 "MTG(메인)"
+ FLAG_CATEGORY_mtg_main_2:0 "MTG(보조)"
+ FLAG_CATEGORY_mtg_other:0 "MTG(기타)"
+ 
+ FLAG_CATEGORY_starclans_color_1:0 "스타클랜 색깔"
+ FLAG_CATEGORY_starclans_gold_1:0 "스타클랜 금"
+ FLAG_CATEGORY_starclans_onyx_1:0 "스타클랜 오닉스"
+ FLAG_CATEGORY_starclans_silver_1:0 "스타클랜 은"
+ 
+ FLAG_CATEGORY_teesemblems1:0 "티 1"
+ FLAG_CATEGORY_teesemblems2:0 "티 2"
+ FLAG_CATEGORY_teesemblems3:0 "티 3"
+ FLAG_CATEGORY_teesemblems4:0 "티 4"
+ FLAG_CATEGORY_teesemblems5:0 "티 5"
+ FLAG_CATEGORY_teesemblems6:0 "티 6"
+  
+ FLAG_CATEGORY_scificorpemblems1:0 "공상 과학 기업"
+ 
+ FLAG_CATEGORY_just-more-flags:0 "더 많은 플래그"
+
+ FLAG_CATEGORY_xtraemblems:0 "엑스트라 엠블럼"
+ 
+ FLAG_CATEGORY_humanity:0 "인류"
+ 
+ FLAG_CATEGORY_more_flags:0 "플래그 더보기"

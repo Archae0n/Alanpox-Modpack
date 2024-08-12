@@ -1,0 +1,301 @@
+namespace = cybernetics
+
+### Remove modifiers
+### on_colony_destroyed
+planet_event = {
+	id = cybernetics.2099
+	hide_window = yes
+
+	is_triggered_only = yes
+	trigger = {		
+		OR = {
+			has_modifier = virtuality_server_shutdown
+			has_modifier = virtuality_server_dismantled
+		}
+	}
+
+	immediate = {		
+		remove_modifier = virtuality_server_shutdown
+		remove_modifier = virtuality_server_dismantled
+	}
+}
+
+### Create the employed
+### Fired by cybernetics.2025 and cybernetics.2026
+planet_event = {
+	id = cybernetics.2027
+	hide_window = yes
+
+	is_triggered_only = yes
+	trigger = {
+		exists = owner
+		owner = {
+			is_fallen_empire = no
+			has_tradition = tr_virtuality_finish
+		}
+		is_colony = yes #don't fill planets that are in progress of colonizing
+		NOR = {
+			has_modifier = virtuality_server_shutdown
+			has_modifier = virtuality_server_dismantled
+		}
+		free_jobs > 0
+	}
+
+	immediate = {
+		set_variable = {
+			which = num_pops
+			value = value:num_free_virtual_jobs
+		}
+		# Create pops for every free job
+		while = {
+			count = num_pops
+			create_pop = {
+				species = owner_main_species
+			}
+		}
+		planet_event = { id = cybernetics.2032 }
+	}
+}
+
+### Kill the unemployed - safe
+### Planet scope
+### on_building_complete, on_building_upgraded, on_building_demolished,
+### on_building_downgraded, on_building_replaced
+### on_district_complete, on_district_demolished
+planet_event = {
+	id = cybernetics.2032
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		exists = owner
+		owner = {
+			is_fallen_empire = no
+			has_active_tradition = tr_virtuality_finish
+		}
+		any_owned_pop = {
+			is_unemployed = yes
+			is_robotic_species = yes
+			has_virtual_species_trait = yes
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			which = num_pops
+			value = value:num_pops
+		}
+		if = {
+			limit = {
+				num_pops > value:num_virtual_unemployed_pops
+			}
+			every_owned_pop = {
+				limit = {
+					is_unemployed = yes
+					is_robotic_species = yes
+					has_virtual_species_trait = yes
+				}
+				kill_pop = yes
+			}
+		} else_if = {
+			limit = { #remove all but the last one, so we don't destroy the colony duh
+				num_pops = value:num_virtual_unemployed_pops
+			}
+			while = {
+				count = value:num_virtual_unemployed_pops|MINUS|1|
+				random_owned_pop = {
+					limit = {
+						is_unemployed = yes
+						is_robotic_species = yes
+						has_virtual_species_trait = yes
+					}
+					kill_pop = yes
+				}
+			}
+		}
+	}
+}
+
+### Kill the unemployed  --- VANILLA deregister
+### Country scope
+### on_monthly_pulse_country
+country_event = {
+	id = cybernetics.5030
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		
+	}
+}
+
+### Kill the unemployed
+### Planet scope
+### on_building_complete, on_building_upgraded, on_building_demolished,
+### on_building_downgraded, on_building_replaced
+### on_district_complete, on_district_demolished
+planet_event = {
+	id = cybernetics.2031
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		exists = owner
+		owner = {
+			is_fallen_empire = no
+			has_active_tradition = tr_virtuality_finish
+		}
+		any_owned_pop = {
+			is_unemployed = yes
+			is_robotic_species = yes
+			has_virtual_species_trait = yes
+		}
+	}
+
+	immediate = {
+		planet_event = { id = cybernetics.2032 }
+	}
+}
+
+### Shutdown virtual servers
+### Country scope
+### on_monthly_pulse_country
+country_event = {
+	id = cybernetics.5066
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_fallen_empire = no
+		has_active_tradition = tr_virtuality_finish
+		any_owned_planet = {
+			has_modifier = virtuality_server_shutdown
+		}
+	}
+
+	immediate = {
+		every_owned_planet = {
+			set_variable {
+				which = num_pops
+				value = value:num_virtual_pops
+			}
+			limit = {
+				has_modifier = virtuality_server_shutdown
+				num_pops > 1
+			}
+			planet_event = { id = cybernetics.2067 }
+		}
+	}
+}
+
+### Shutdown virtual server - safe
+### Planet scope
+### on_building_complete, on_building_upgraded, on_building_demolished,
+### on_building_downgraded, on_building_replaced
+### on_district_complete, on_district_demolished
+planet_event = {
+	id = cybernetics.2067
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		exists = owner
+		owner = {
+			is_fallen_empire = no
+			has_active_tradition = tr_virtuality_finish
+		}
+		any_owned_pop = {
+			is_robotic_species = yes
+			has_virtual_species_trait = yes
+		}
+	}
+
+	immediate = {		
+		while = {
+			count = value:num_virtual_pops|MINUS|1|
+			random_owned_pop = {
+				limit = {
+					is_robotic_species = yes
+					has_virtual_species_trait = yes
+				}
+				kill_pop = yes
+			}
+		}
+	}
+}
+
+### Kill virtual servers
+### Country scope
+### on_monthly_pulse_country
+country_event = {
+	id = cybernetics.5076
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_fallen_empire = no
+		has_active_tradition = tr_virtuality_finish
+		any_owned_planet = {
+			has_modifier = virtuality_server_dismantled
+		}
+	}
+
+	immediate = {
+		every_owned_planet = {
+			set_variable = {
+				which = num_pops
+				value = num_virtual_pops
+			}
+			limit = {
+				has_modifier = virtuality_server_dismantled			
+				num_pops > 0
+			}
+			planet_event = { id = cybernetics.2077 }
+		}
+	}
+}
+
+### Kill virtual server - unsafe
+### Planet scope
+### on_building_complete, on_building_upgraded, on_building_demolished,
+### on_building_downgraded, on_building_replaced
+### on_district_complete, on_district_demolished
+planet_event = {
+	id = cybernetics.2077
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		exists = owner
+		owner = {
+			is_fallen_empire = no
+			has_active_tradition = tr_virtuality_finish
+		}
+		any_owned_pop = {
+			is_robotic_species = yes
+			has_virtual_species_trait = yes
+		}
+	}
+
+	immediate = {
+		every_owned_pop = {
+			limit = {
+				is_robotic_species = yes
+				has_virtual_species_trait = yes
+			}
+			kill_pop = yes
+		}
+		#destroy_colony = yes
+	}
+}

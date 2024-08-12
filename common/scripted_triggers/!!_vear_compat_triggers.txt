@@ -1,0 +1,19 @@
+is_socialism = {
+	always = no
+}
+
+is_capitalism = {
+	always = no
+}
+
+get_ethics_check_soc_cap = {
+	always = no
+}
+
+has_civic_organic_zealots_active = {
+	always = no
+}
+
+is_organic_zealots = {
+	always = no
+}

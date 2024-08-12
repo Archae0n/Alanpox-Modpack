@@ -1,0 +1,107 @@
+@cooldown = 60
+
+kick_members_majority_vote_empire = {
+	potential = { has_federation_type = empire_federation }
+	allow = {
+		custom_tooltip = {
+			NOT = {
+				AND = {
+					NOT = { has_federation_law = kick_members_majority_vote_empire }
+					has_modifier = federation_law_category_kick_members_vote_cooldown
+					has_any_federation_law_in_category = law_category_kick_members_vote_empire
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = EMPIRE_LAW_CHANGE
+			NAND = {
+				NOT = { has_federation_law = kick_members_majority_vote_empire }
+				has_federation_flag = vf_law_changes_disabled
+			}
+		}
+	}
+	on_enact = {
+		set_diplomacy_action_setting = {
+			action = action_kick_from_federation
+			settings = {
+				vote_type = majority_vote
+			}
+		}
+		if = {
+			limit = { has_federation_flag = enable_federation_cooldowns }
+			add_modifier = {
+				modifier = federation_law_category_kick_members_vote_cooldown
+				days = @cooldown
+			}
+		}
+		add_cohesion = -5
+	}
+
+	ai_weight = {
+		base = 200
+		
+		#Default support
+		modifier = {
+			desc = federation_acceptance_generally_positive
+			add = 51
+		}
+	}
+}
+
+kick_members_president_vote_empire = {
+	potential = {
+		host_has_dlc = Federations
+		has_federation_type = empire_federation
+	}
+	allow = {
+		custom_tooltip = {
+			NOT = {
+				AND = {
+					NOT = { has_federation_law = kick_members_president_vote_empire }
+					has_modifier = federation_law_category_kick_members_vote_cooldown
+					has_any_federation_law_in_category = law_category_kick_members_vote_empire
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = EMPIRE_LAW_CHANGE
+			NAND = {
+				NOT = { has_federation_law = kick_members_president_vote_empire }
+				has_federation_flag = vf_law_changes_disabled
+			}
+		}
+	}
+	on_enact = {
+		set_diplomacy_action_setting = {
+			action = action_kick_from_federation
+			settings = {
+				vote_type = leader
+			}
+		}
+		if = {
+			limit = { has_federation_flag = enable_federation_cooldowns }
+			add_modifier = {
+				modifier = federation_law_category_kick_members_vote_cooldown
+				days = @cooldown
+			}
+		}
+		add_cohesion = -5
+	}
+
+	ai_weight = {
+		base = 200
+
+		modifier = {
+			desc = federation_acceptance_weaker
+			add = 25
+			relative_power = { who = from value >= superior }
+		}
+
+		modifier = {
+			desc = federation_acceptance_crown
+			add = 50
+			is_federation_leader = yes
+		}
+	}
+}
+

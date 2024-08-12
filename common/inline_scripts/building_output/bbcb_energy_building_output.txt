@@ -1,0 +1,4 @@
+produces = {
+	energy = $BBCB_OUTPUT$
+	mult = value:bbcb_energy_building_output
+}

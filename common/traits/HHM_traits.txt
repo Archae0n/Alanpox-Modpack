@@ -1,0 +1,77 @@
+HHM_hostage_trait = {
+	inline_script = {
+		script = trait/icon_negative
+		CLASS = commander
+		ICON = "GFX_leader_trait_melancholic"
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
+	triggered_self_modifier = {
+		potential = {
+			is_idle = no
+		}
+		show_if_not_potential = yes
+		leaders_upkeep_mult = 4
+	}
+	# Any Class - Ruler
+	triggered_councilor_modifier = {
+		potential = {
+			is_ruler = yes
+		}
+		num_tech_alternatives_add = -2
+	}
+	# Commander - Fleet Modifier
+	triggered_fleet_modifier = {
+		potential = {
+			is_ruler = no
+			leader_class = commander
+		}
+		ship_fire_rate_mult = -0.5
+		ship_disengage_chance_mult = -0.5
+	}
+	# Commander - Army Modifier
+	triggered_army_modifier = {
+		potential = {
+			is_ruler = no
+			leader_class = commander
+		}
+		army_damage_taken_mult = 0.5
+		army_disengage_chance_mult = -0.5
+	}
+	# Official - GalCom Modifier
+	triggered_galcom_modifier = {
+		potential = {
+			is_ruler = no
+			leader_class = official
+		}
+		diplo_weight_pops_mult = -0.25
+	}
+	# Official - Federation Modifier
+	triggered_federation_modifier = {
+		potential = {
+			is_ruler = no
+			leader_class = official
+		}
+		federation_experience_add = -1
+	}
+	# Any Class - Planet Modifier
+	triggered_planet_modifier = {
+		potential = {
+			is_ruler = no
+		}
+		planet_amenities_mult = -0.25
+	}
+	# Any Class - Sector Modifier
+	triggered_sector_modifier = {
+		potential = {
+			is_ruler = no
+		}
+		planet_amenities_mult = -0.12
+	}
+	custom_tooltip_with_modifiers = HHM_hostage_trait_effect
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+	trade_acceptance_weight = 40
+}

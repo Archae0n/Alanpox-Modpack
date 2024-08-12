@@ -1,0 +1,5 @@
+# Global variable so other mods can check for the amount of tradition categories
+
+@max_tradition_trees = 16 # introduced in 3.12
+@TRADITION_CATEGORIES_MAX = 16
+@UIOD_TRADITION_CATEGORIES_MAX = 16

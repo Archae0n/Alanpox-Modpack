@@ -1,0 +1,466 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	madatra = {
+		name = Madatrian
+		plural = Madatrians
+		home_planet = Madatra
+		home_system = Al-Afasul
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	balajah = {
+		name = Balajid
+		plural = Balajids
+		home_planet = Balajah
+		home_system = Balajah
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	qaimiyya = {
+		name = Qaimiyyid
+		plural = Qaimiyyids
+		home_planet = Qaimi-Abatkalbu
+		home_system = Qaimi-Muzatif
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	erbina = {
+		name = Erbinan
+		plural = Erbinans
+		home_planet = Erbina
+		home_system = "As Sawdar"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	damatan = {
+		name = Damatani
+		plural = Damatanis
+		home_planet = "Damatan Ar-Sabimatan"
+		home_system = "Damatan Ar-Qa'illah"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	abudan = {
+		name = Abudanid
+		plural = Abudanids
+		home_planet = Abudah
+		home_system = Makasir
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	fashtul = {
+		name = Fashtulid
+		plural = Fashtulids
+		home_planet = Fashtul
+		home_system = Khuter 
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	hajjaran = {
+		name = Hajjarani
+		plural = Hajjaranis
+		home_planet = Hajjaran
+		home_system = Al-Fasuf 
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	yamak = {
+		name = Yamakian
+		plural = Yamakians
+		home_planet = Yamak
+		home_system = Ar-Hindiyah 
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	athamizza = {
+		name = Athamizzian
+		plural = Athamizzians
+		home_planet = Athamizza
+		home_system = Dashab 
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	blessedlands = {
+		name = Hajjal
+		plural = Hajjal
+		home_planet = "Blessed Lands"
+		home_system = Jabba-Latud
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	qasali = {
+		name = Qasalian
+		plural = Qasalians
+		home_planet = Qasali
+		home_system = Usadah
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	bushira = {
+		name = Bushiran
+		plural = Bushirans
+		home_planet = Bushira
+		home_system = Kadidah
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	wadilas = {
+		name = Wadilian
+		plural = Wadilians
+		home_planet = Wad-Il'as
+		home_system = Ar-Kamud
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	kehuk = {
+		name = Kehuk  
+		plural = Kehuk
+		home_planet = Awlasus
+		home_system = Muzayyil
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	sasamayn = {
+		name = Sasamayni  
+		plural = Sasamayni
+		home_planet = Sasamayn
+		home_system = Al-Bahluraj
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	yabnud = {
+		name = Yabnudian  
+		plural = Yabnudians
+		home_planet = Yabnud
+		home_system = Sayyislan
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	sarahi = {
+		name = Saharid  
+		plural = Saharids
+		home_planet = "New Sahari"
+		home_system = "Old Sahari"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	marazilstreasure = {
+		name = Murazili  
+		plural = Murazilis
+		home_planet = "Murazil's Treasure"
+		home_system = "Murazil's Caravan"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	surdullah = {
+		name = Surdullan  
+		plural = Surdullans
+		home_planet = Surdullah
+		home_system = Kuzzaq
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	khabayyan = {
+		name = Khabayyanid 
+		plural = Khabayyanids
+		home_planet = Khabayyan
+		home_system = "Ghasul Mataizz"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	marnis = {
+		name = Marnisid 
+		plural = Marnisids
+		home_planet = Marnis
+		home_system = "Ar Raydah"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	ta = {
+		name = Ta 
+		plural = Ta
+		home_planet = Ta'iden
+		home_system = Ta'irim
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	karbawah = {
+		name = Karbawi 
+		plural = Karbawis
+		home_planet = Karbawah
+		home_system = Karbawah
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	silvernest = {
+		name = Ash'Atim  
+		plural = Ash'Atim
+		home_planet = "Silver Nest"
+		home_system = "Branch of the Sky"
+		name_list = "cybrxkhan_fantasy_vietnamese"
+	}
+	zibal = {
+		name = Zibalese 
+		plural = Zibalese
+		home_planet = Zibal
+		home_system = Mukkatar
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	zahdad = {
+		name = Zahdadi
+		plural = Zahdadis
+		home_planet = Zahdad
+		home_system = Muqdafar
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	sarut = {
+		name = Sarutian
+		plural = Sarutians
+		home_planet = "As Sarut"
+		home_system = "As Shawayda"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	qamus = {
+		name = Qamussid
+		plural = Qamussids
+		home_planet = Qamus
+		home_system = Lashir
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	hasanib = {
+		name = Hasanid
+		plural = Hasanids
+		home_planet = Hasanib
+		home_system = Yu'amek
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	zahr = {
+		name = Zahrid
+		plural = Zahrids
+		home_planet = Zahr
+		home_system = "Zahr Al-Marataq"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	elsumud = {
+		name = Sumuddi
+		plural = Sumuddis
+		home_planet = El-Sumud
+		home_system = El-Farafiya
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	jamurrutheallbringer = {
+		name = Razafikkian
+		plural = Razafikkians
+		home_planet = "Jamirru the All-Bringer"
+		home_system = "Khuwakk the All-Seeing"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	elmarresh = {
+		name = Marranian
+		plural = Marranians
+		home_planet = El-Marresh
+		home_system = "Faruq Sharbit"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	rumabar = {
+		name = Rumabaran
+		plural = Rumabarans
+		home_planet = Rumabar
+		home_system = Misrahan
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	dahutra = {
+		name = Dahutran
+		plural = Dahutrans
+		home_planet = Dahutra
+		home_system = Sadannadi
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	mubid = {
+		name = Mubidian
+		plural = Mubidians
+		home_planet = Al-Mubid
+		home_system = Al-Faqidah
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	khada = {
+		name = Khadid
+		plural = Khadids
+		home_planet = Khada
+		home_system = Mukaydah
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	khafji = {
+		name = Khafjid
+		plural = Khafjids
+		home_planet = Khafji
+		home_system = Yataq
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	hamirdah = {
+		name = Hamirdan
+		plural = Hamirdans
+		home_planet = Hamirdah
+		home_system = Hudasab
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	saruktammar = {
+		name = Tammarian
+		plural = Tammarians
+		home_planet = Saruktammar
+		home_system = Hamajid
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	yahuddin = {
+		name = Huddinite
+		plural = Huddinites
+		home_planet = Yahuddin
+		home_system = "Umed Sadim"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	alkubitar = {
+		name = Feraddish
+		plural = Feraddish
+		home_planet = Al-Kubitar
+		home_system = Al-Zarin
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	mukrit = {
+		name = Mukritian
+		plural = Mukritians
+		home_planet = Mukrit
+		home_system = "Adan Yusef"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	erquways = {
+		name = Ghorabbi
+		plural = Ghorabbis
+		home_planet = Er-Quways
+		home_system = Er-Shamar
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	wallat = {
+		name = Wallatian
+		plural = Wallatians
+		home_planet = Wallat
+		home_system = Haj-marush
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	ashumal = {
+		name = Tamaq
+		plural = Tamaq
+		home_planet = Ashumal
+		home_system = Nekariyah
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	afarsin = {
+		name = Farsinite
+		plural = Farsinites
+		home_planet = Afarsin
+		home_system = Tasaliyya
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+}
+
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	kuluqada = {
+		name = Uqadan
+		plural = Uqadans
+		home_planet = Kul-Uqada
+		home_system = El-Fun
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	rabajjah = {
+		name = Rabajjid
+		plural = Rabajjids
+		home_planet = Rabajjah
+		home_system = Al-Ta
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	arayab = {
+		name = Arayabian
+		plural = Arayabians
+		home_planet = Arayab
+		home_system = Kaqurah
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	hayahayahaya = {
+		name = Uqite
+		plural = Uqites
+		home_planet = Haya
+		home_system = Tamal-Dans
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	alufadi = {
+		name = Thah
+		plural = Thah
+		home_planet = Al-Ufadi
+		home_system = Shayanahat
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	alatra = {
+		name = Altroid
+		plural = Altroids
+		home_planet = Al-Atra
+		home_system = Er-Khabi
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	kiyahaqtheglorious = {
+		name = Er-Maghayn
+		plural = Er-Maghayn
+		home_planet = "Kiya Haq the Glorious"
+		home_system = "Bay Zugu the Reaver"
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	alqunoma = {
+		name = Quonomid
+		plural = Qunomids
+		home_planet = Al-Qunoma
+		home_system = Raiqaluja
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+	ahkhah = {
+		name = Khanetian
+		plural = Khanetians
+		home_planet = Ah-Khah
+		home_system = Khah
+		name_list = "cybrxkhan_fantasy_arabic"
+	}
+}
+
+

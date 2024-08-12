@@ -1,0 +1,31 @@
+# Triggers country_event for the attacker upon victory
+# (Before controller is switched)
+# This = country, leader attacker
+# From = country, planet owner
+# FromFrom = planet
+# IDENTITIES: attacker is the side that "IsHostile" to
+# the planet controller; e.g. spawned monster armies
+# are attackers, but if they win and the player attempts
+# to retake the planet, the player is the attacker
+on_planet_attackers_win = {
+	events = {
+		HHM_events.1 # Capturing Leader
+		#HHM_events.2 # Killing Captured Leader
+	}
+}
+
+# Executed as a leader has been fired
+# This = Country
+# From = Leader
+on_leader_fired = {
+	events = {
+		HHM_events.3 # Set the leader free
+	}
+}
+
+# Scope: Leader (after assignment)
+on_leader_assigned = {
+	events = {
+		HHM_events.5 # Remove leader trait
+	}
+}

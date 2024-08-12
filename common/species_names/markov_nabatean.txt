@@ -1,0 +1,400 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	avel = {
+		name = Av'elian
+		plural = Av'elians
+		home_planet = Av'el
+		home_system = "Youlampsi Wah"
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	fatheraumrahana = {
+		name = Aumra
+		plural = Aumras
+		home_planet = "Father Aumrahana"
+		home_system = "Mother Aumrahana"
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	randallat = {
+		name = Randallan
+		plural = Randallans
+		home_planet = "Ran Dallat"
+		home_system = Malichemanun
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	albat = {
+		name = Albattese
+		plural = Albattese
+		home_planet = Albat
+		home_system = Arahi-Nis
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	fortressofsolitude = {
+		name = Hatarshu
+		plural = Hatarshu
+		home_planet = "Fortress of Solitude"
+		home_system = "Silver-Gold Tower"
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	nesaurasel = {
+		name = Nesell
+		plural = Nesells
+		home_planet = "Nesaura Sel"
+		home_system = "Sel Nesaura" 
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	shaushallas = {
+		name = Shaushallid
+		plural = Shaushallids
+		home_planet = Shaushallas
+		home_system = Shaushallas 
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	peakofmarvels = {
+		name = Amallassian
+		plural = Amallassians
+		home_planet = "Peak of Marvels"
+		home_system = "Wondrous Opening" 
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	hemos = {
+		name = Hemosoid
+		plural = Hemosoids
+		home_planet = Hemos
+		home_system = Sarisisilas 
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	tyumanos = {
+		name = Tyumanid
+		plural = Tyumanids
+		home_planet = "Tyu Manos"
+		home_system = Is'maretasaumas
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	uzzan = {
+		name = Uzzanite
+		plural = Uzzanites
+		home_planet = Uzzan
+		home_system = Shu-haqilah
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	classofthegreatest = {
+		name = Rah'Aphagran
+		plural = Rah'Aphagrans
+		home_planet = "Class of the Greatest"
+		home_system = "Dominion of the Mighty"
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	tyushabbel = {
+		name = Tyushab
+		plural = Tyushab
+		home_planet = Tyushabbel
+		home_system = Garahi
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	mana = {
+		name = Smen  
+		plural = Smen
+		home_planet = Mana
+		home_system = Seman
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	jibrios = {
+		name = Jibrid  
+		plural = Jibrids
+		home_planet = Jibrios
+		home_system = Jibrilthityu
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	adalganat = {
+		name = "Adal Ganatian"  
+		plural = "Adal Ganatians"
+		home_planet = "Adal Ganat"
+		home_system = Shbalmla
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	planeofhallat = {
+		name = Avivlos  
+		plural = Avivlos
+		home_planet = "Plane of Hallat"
+		home_system = "Plane of Wahis"
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	hargamarahi = {
+		name = Hargamar  
+		plural = Hargamars
+		home_planet = Hargamarahi
+		home_system = Ara
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	wadallahi = {
+		name = Wadallan 
+		plural = Wadallans
+		home_planet = Wadallahi
+		home_system = Themamerostran
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	ushballatis = {
+		name = Ushballic 
+		plural = Ushballics
+		home_planet = Ushballatis
+		home_system = "Dus Hanat"
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	ushugat = {
+		name = Ushgean 
+		plural = Ushgeans
+		home_planet = "Ushu Gat"
+		home_system = Dushallas
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	shanatiros = {
+		name = Shanatese 
+		plural = Shanatese
+		home_planet = Shanatiros
+		home_system = Avivas
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	mamat = {
+		name = Mamatan
+		plural = Mamatans
+		home_planet = Mamat
+		home_system = Asaumra
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	isiadana = {
+		name = Abatoid
+		plural = Abatoids
+		home_planet = "Isi Adana"
+		home_system = Abdalis
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	aboveflowering = {
+		name = Alla'Thi
+		plural = Alla'Thi
+		home_planet = "Above Flowering"
+		home_system = "Under Rumble"
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	bodalcail = {
+		name = Bodalcish
+		plural = Bodalcish
+		home_planet = Bodalcail
+		home_system = Nashataravivas
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	netas = {
+		name = Netasoid
+		plural = Netasoids
+		home_planet = Netas
+		home_system = Avavivas
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	vinazco = {
+		name = Halichemanu
+		plural = Halichemanu
+		home_planet = "Oscillating Humility"
+		home_system = "Penetrating Strength"
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	hanharma = {
+		name = Hanharmian
+		plural = Hanharmians
+		home_planet = "Han Harma"
+		home_system = "Han Sausuf"
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	pavda = {
+		name = Pavdan
+		plural = Pavdans
+		home_planet = Pavda
+		home_system = Adalfalesos
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	bosmanyouara = {
+		name = Thagru
+		plural = Thagru
+		home_planet = "Bos man Youara"
+		home_system = Al-lehagara
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	amam = {
+		name = Amamese
+		plural = Amamese
+		home_planet = Amam
+		home_system = Haretiros
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	amlahmosparah = {
+		name = Parian
+		plural = Parians
+		home_planet = "Amlah mos Parah"
+		home_system = Oukhaumra
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	enduranceofthecursed = {
+		name = Shaba-Halballa
+		plural = Shaba-Halballa
+		home_planet = "Endurance of the Cursed"
+		home_system = "March of the Blessed"
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	tymdu = {
+		name = Tymduan
+		plural = Tymduans
+		home_planet = Tymdu
+		home_system = Garios
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	gamilahi = {
+		name = Ashgu
+		plural = Ashgu
+		home_planet = Gamilahi
+		home_system = Bodahi
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	tyusharetis = {
+		name = Tiharetian
+		plural = Tiharetians
+		home_planet = "Tyus Haretis"
+		home_system = Kutba
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	khaumamos = {
+		name = Khaumamian
+		plural = Khaumamians
+		home_planet = Khaumamos
+		home_system = Ushas'manat
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	amizannas = {
+		name = Amizannoid
+		plural = Amizannoids
+		home_planet = Amizannas
+		home_system = Hathemal
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	adbdushba = {
+		name = Mam
+		plural = Mam
+		home_planet = Adbdushba
+		home_system = Ashasemamanos
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	uzzabin = {
+		name = Uzzabinese
+		plural = Uzzabinese
+		home_planet = Uzzabin
+		home_system = Hagat
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	allahat = {
+		name = Allahatian
+		plural = Allahatians
+		home_planet = Allahat
+		home_system = Azizabdal
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	qaynatarahu = {
+		name = Qaynatid
+		plural = Qaynatids
+		home_planet = "Qaynat Arahu"
+		home_system = Obodana
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	hanizanna = {
+		name = Hanizannan
+		plural = Hanizannans
+		home_planet = Hanizanna
+		home_system = Amailu
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	qaymat = {
+		name = Qaymataean
+		plural = Qaymataeans
+		home_planet = Qaymat
+		home_system = Hasali
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	zaniza = {
+		name = Zanizian
+		plural = Zanizians
+		home_planet = Zaniza
+		home_system = Uzzabelat
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	arilatas = {
+		name = Arilatean
+		plural = Arilateans
+		home_planet = Arilatas
+		home_system = "Ha'el Aril"
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	parmara = {
+		name = Parmarish
+		plural = Parmarish
+		home_planet = Parmara
+		home_system = Is'maryampsi
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+	kallahis = {
+		name = Kallahoid
+		plural = Kallahoids
+		home_planet = Kallahis
+		home_system = Nielah
+		name_list = "cybrxkhan_handmade_nabatean"
+	}
+}

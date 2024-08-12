@@ -1,0 +1,11 @@
+councilor_$CIVIC_NAME$ = {
+	leader_class = { commander official }
+	is_leader_possible = {
+		OR = {
+			leader_class = commander
+			leader_class = official
+		}
+	}
+	civic = civic_$CIVIC_NAME$
+	custom_tooltip = "councilor_bugged_private_militaries_custom_modifier_desc"
+}

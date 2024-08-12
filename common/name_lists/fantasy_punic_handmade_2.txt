@@ -1,0 +1,259 @@
+﻿### Handmade punic
+### Names from throwing Punic names into a markov generator
+
+cybrxkhan_handmade_punic_2 = {
+	category = "Aquatic"
+
+	ship_names = {
+		generic = {
+			Abba Abbaal Abbaalchumm Abbaalhah Abbaalhar Abbaalhayna Abbaalletal Abbal Abbalhal Abbalo Abbaltibaal Abdhah Abdhahaton Abdhaima Abdhaimilk Abdhaimilles Abdhaimridon Abdhaimrimarc Abdhal Abdham Abdhamilles Abdhamm Abdhamonit Abdhan Abdhanno Abdhar Abdharamilco Abdharc Abdharte Abdhartpilki Abdhartshel Abdhat Abdhatona Abdhatonit Abdhayna Abdmel Abdmelqar Abdmelqarbaal Abdmelqarem Abdmelqarte Abdmenus Abdo Abdon Abdonibalo Abdonissal Abdonit Abdostal Abdostar Abiba Abibaalcal Abibaaliat Abibaalles Abibaalo Abibaalostal Abibaaltibal Abibal Abibalhal Abibalik Abibalosir Abir Abira Abiram Abiramouldu Abiramounhir Abirash Abirom Abiromila Abiromilchus Abiromilco Abiromilki Adiyat Adiyaton Adiyatona Adiyatoniat Adon Adona Adonissa Adonit Adosiromilles Adostanno Agba Agbaal Agbaalik Agbaalles Agbar Agbart Agbarthan Ahila Ahilcal Ahilcart Ahilisbaal Ahilk Ahilki Ahilkir Ahilles Ahilom Ahilosiram Ahir Ahira Ahirahal Ahiram Ahiromelqart Ahumi Ahumical Ahumicarcar Ahumilkirom Ahumilkpill Ahumilles Ahumma Ahus Aridamon Arido Aridosir Arimas Arimi Arimilcal Arimiliaton Arimilk Arimilki Arimilkiramm Arimilomel Arimrida Arimridon Arimrimar Arisbaal Arisbal Arisgo Arisgoram Arish Arissa Arissir Arissirahar Ashaimrisgo Ashami Ashan Ashann Ashar Ashaton Ashayna Ashbaalhaton Ashbal Ashermel Ashmonisbaal Ashmounba Ashmounhilki Ashtabua Ashtal Ashtar Ashtarbaal Ashtarbal Ashtart Astab Astal Astanel Astann Astanno Astar Astaram Astarc Astart Astartsh Astartshmon Azima Azimart Azimas Azimashmon Azimi Azimila Azimilcar Azimilco Azimiles Azimilk Azimilkhera Azimilki Azimill Azimridon Azimrimilkya Azimrimilles Azimrimrimilk Azimrishelbes Baalcart Baalchumilles Baalhah Baalham Baalhama Baalhaton Baalhatonissa Baalhayna Baalik Baall Baalles Baalletal Baalletzbal Baalo Baaltiba Baaltibaal Baaltibal Barahah Baram Baramas Barba Barbaal Barbaalham Barbal Barcar Barcarbaalo Barcart Barekballes Barekbalo Bart Barte Barthahal Barthomelqar Barthon Bartpa Bartpanelqar Bartpilk Bartpilki Bartsh Bartshann Bartshat Batno Baton Batona Batonibaal Batonissa Batonissinish Batonissinit Battar Batthat Batthomel Battunissa Boda Bodam Bodama Bodamilca Bodamilkpilk Bodasdrubal Bodashal Bodashan Bodashayna Bodashba Bodashmouldu Bodassa Bodassiramilk Bodes Bodmel Bodmelbel Bodmelbes Bodmelqar Bodmelqarbaal Bodmelqartpa Bodmenus Bodoniat Bodoniatthart Bodonibal Bodonishh Bodosiniaton Bodosir Bodosira Bodostal Bodostanmila Bodostar Bodostarcar Bodostart Bomel Bomelbel Bomelbes Bomelqar Bomelqarc Bomelqart Bomenus Bomi Bomicalles Bomila Bomilca Bomilco Bomiles Bomilik Bomilk Bomilki Bomilkpilk Bomilkpilles Bomilles Bomillo Bomilo Bomilosiram Boodashahann Boodmel Boodmenus Boodo Boodon Boodona Boodonit Boodosir Bosiniattunba Bosinibaal Bosinisgo Bosinissal Bosinit Bosir Bosirah Bosiramashmon Bosirashel Bosirom Bosiromel Bosiromelqar Bosiromilik Bostab Bostabes Bostabua Bostal Bostarbaalham Bostart Bostarte Bostartpanno Bouldu Boulo Boulomelqar Boulostal Bounba Bounbaal Bounbal Bounhilkir Bounibaal Bounibal Bounissiromi Bounit Carba Carcaramilles Cart Carte Carthami Carthan Carthom Cartpilik Chel Chelqarc Chelqart Cherahah Cherama Cheramila Cherbaal Cherekbaal Cherekbal Cherem Cherima Cherimilchus Danelqar Danelqarc Danelqart Danmi Danmiles Dann Dannibaal Dannibal Dannishtabua Dannissalles Dannit Danno Dida Didam Didami Didamoulo Didas Didashmona Didassa Didon Didona Didosinibaal Didostal Didostalco Didostart Didostartpa Eliat Eliaton Eliattunibal Elik Elisham Elissinibaal Elissinisbal Eshah Eshahayna Eshaimilles Eshal Eshalhamilik Esham Eshan Eshann Eshanniatona Esharbaalo Esharballes Esharca Eshart Eshat Eshaton Eshatona Eshayna Eshbal Eshbart Eshelqar Esherash Esherekbaall Esherempsa Eshermel Eshh Eshmon Eshmoniattall Eshmonissa Eshmouldu Eshmoulo Eshmoulom Eshmounbal Eshmounhilk Eshmounhir Eshmouniatno Eshtabniat Eshtalham Eshtalosir Eshtanniaton Eshtar Eshtarbaal Eshtarbal Eshtart Eshtartpa Eshtartshh Eugarahamilk Eugarbaal Eugarbal Eugarempsa Eugart Eugarthomi Eugartpan Eugo Eugora Eugorah Eugoram Eugorami Eugoramma Eugoramon Eugorasdruba Eugorassiniat Gama Gamashba Gamashtabes Gamassa Gami Gamica Gamilk Gamilkir Gamill Gamillosir Gamm Gammashh Gamouldu Gamounbaalhal Gera Geram Gerama Geramiliaton Geramilkir Geramm Geras Gerashh Gerassa Gerba Gerbaalcart Gerbaalhan Gerbaalo Gerekbaalik Gerekbaall Gerekbal Gerekbalik Gerem Gerempsa Gerempsal Gerida Geridostar Gerimiles Gerimilk Gerisbaalo Gerisgo Gerishtab Gerissa Gerissiromilk Germel Germelbelqart Germelqar Germenus Gisbaal Gisbal Gisgor Gisgoramiles Gish Gishan Gishh Gishmounhill Gissa Gissal Gissir Hama Hamar Hamara Hamas Hamasdruba Hamashbal Hami Hamicart Hamila Hamilcal Hamilchumm Hamiles Hamilk Hamilki Hamilkya Hamilkyatonit Hamma Hammart Hammasharc Hamon Hamounhir Hamouniat Hamounissa Hanel Hanelbes Hanelqar Hanelqart Hanelqartham Hanmi Hanmical Hanmilik Hanmilkpilk Hanmilkya Hanmilkyaton Hanmilles Hanmilo Hanmilostart Hannibaal Hannit Hannoam Hannoamounhir Hannoamouniba Hasdrubaal Hashahal Hashal Hashanno Hashar Hasharc Hashart Hashbalca Hashbart Hashelqart Hasherbaal Hashh Hashmouldu Hashtanno Hassa Hassinishann Hiem Hiempsa Hima Himart Himash Himashh Himassa Himassira Himi Himicarc Himilik Himilk Himilkherba Himilki Himilkirahal Himilkyaton Himill Himilles Himilomi Himrimica Himrisbal Himrishtab Himrissa Hira Hirahannibaal Hirami Hiramilkira Hiramilkpilk Hiramm Hirasharca Hirashh Hirashmouldu Hiromi Hiromilk Hiromilkhel Hiromilki Hiromilles Hulo Hulom Iezab Iezabelqara Iezabnibaal Iezabnissir Iezabua Iezavel Iezavelbes Iezavelqar Iezavelqarbal Iezavelqart Iezavelqartsh Ittabua Ittal Ittann Ittanniat Ittarbaalik Ittart Itthahamill Itthamm Itthart Itthayna Ittunbaal Ittunbaalles Ittunhilkya Ittuniaton Ittunibal Izabelbel Izabes Izabua Izavelbes Izavelqar Izavelqarcal Izavelqart Jubaal Jubaalco Jubaall Jubaalosinit Jubal Jubalco Jubalik Juballetanmi Jubart Kanelqart Kanmila Kanmilk Kann Kanniaton Kannibaal Kannissa Kanno Kannoama Kannoami Khilcar Khilchumilki Khiles Khiliat Khilk Khilkhermel Khilki Khilkiram Khilkpilk Khill Khilo Khilomilki Khir Khira Khirama Khiramarte Khiramm Khirassir Magor Magorah Magoram Magoramashh Magoramicar Magoramiletal Mahah Mahaima Mahaimi Mahaimila Mahaimrisbaal Mahalhart Maham Mahamilki Mahamilkiram Mahamilomenus Mahan Mahanelqarcal Mahanmicarca Mahanno Mahannoamas Maharcal Mahart Mahatona Mahayna Malosir Masdrubaal Masdrubal Masdrumicart Masdrumilcar Masdrumm Masdrumma Mash Mashaimillo Mashaltibaal Mashama Mashamar Mashann Mashannit Mashar Masharempsa Mashayna Mashbaal Mashbaalhar Mashbal Mashbart Mashel Masherbaalik Masherbal Mashmon Mashmona Mashmounba Mashmounibaal Mashtab Mashtar Mashtarbal Mashtart Massa Massal Massiramounba Matno Maton Matona Matonibaal Matonibarem Matonisgo Matonissir Mattal Mattart Matthoba Matthon Mattunbaal Melbelqar Melbelqarcal Melbes Melqar Melqaramouldu Melqarbaal Melqarca Melqarempsa Melqart Melqarte Melqarthan Melqartshh Melqartshmon Metab Metabelqart Metabua Metal Metalik Metann Metar Metaras Metarbaal Metarc Metart Metartpilca Metzba Metzbaal Metzbaalo Metzbal Metzbaltibaal Metzbart Mila Milca Milcal Milcarballo Milcarc Milcart Milchumilki Milchumilkira Milchus Milco Miles Milik Milishanno Milissa Milk Milki Milkira Milkiramica Milkpilk Milkya Milkyatno Mill Milles Milletzbal Millo Milomilca Milomilissa Mutpa Mutpan Mutpann Mutpiletarem Mutpilki Mutpilosira Muttalco Muttalhal Muttanno Muttarc Muttarekbaal Mutthar Mutthomel Mutthomila Mutthomillo Mutthon Muttunhilo Muttunhira Palhart Palik Palom Palosirah Phila Philcaltibaal Philcart Philchus Philetzba Philetzbart Philiatona Philik Philkherbaal Philki Philkir Phillo Philo Phir Phiramounba Phirashanno Shaima Shaimilki Shaimilkir Shal Sham Shamasdrubaal Shamicart Shan Shannibal Shanno Shar Sharbaalles Sharbal Shart Shat Shatona Sophoba Sophobaalik Sophobaall Sophobal Sophom Sophomelqar Sophomila Sophomilkhel Sophomilki Suhah Suhahann Suhaimilkir Suhal Suhamill Suhamm Suhanno Suhart Suharte Suhat Suhatonit Suhattar Suhattunibaal Suhayna Tabel Tabelbes Tabelqarcart Tabelqart Tabelqarte Tabes Tabniat Tabniatno Tabniaton Tabniba Tabnibaalchus Tabnisbaal Tabnissir Tama Tamica Tamicart Tamilk Tamilles Tamillo Tammarcart Tammasdrumm Tammashaton Tamon Umma Ummar Ummas Ummasdrubaal Ummasdrubal Ummasharbaal Ummashat Ummasherem Ummashh Ummashtar Ummashtartpan Ummassa Ummassal Ummassir Urubaal Urubal Urubalhama Urumi Urumica Urumilkherbal Urumilkpill Urumillo Urumm Urumma Urummart Urummash Yada Yadam Yadamasdrumm Yadamilles Yadamm Yadas Yadasdrumm Yadash Yadashan Yadasheram Yadashtal Yadashtar Yadashtarba Yadashtart Yadassa Yapanmi Yapann Yapanniballes Yapannit Yapanno Yehoba Yehobaal Yehobaalo Yehobal Yehom Yehomelbes Yehomi Yehomiles Yehomilki Yehomill Yehon Yehoniatoniba Ytabelqart Ytabes Ytal Ytaliaton Ytallo Ytan Ytann Ytannoam Ytar Ytaras Ytarbaal Ytarc Ytarekba Ytart Ytartshbaal Yutpa Yutpanno Yutpila Yutpill Yuttab Yuttal Yuttannibal Yuttar Yutthal Yutthoba Yutthomiles Yutthon Yuttunbaalles Yuttunbal Yuttunhir Zima Zimar Zimas Zimashar Zimashtart Zimi Zimical Zimilk Zimilki Zimilom Zimridashera Zimridon Zimrimical Zimrimrissal Zimrisgor
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Carca Navy" "Masherbal Navy" "Baalom Navy" "Eshayna Navy" "Agbaal Navy" "Abirash Navy" "Urubalco Navy" "Gerba Abir Navy" "Abdmenus Navy" "Palletal Navy" "Abdha Elik Navy" "Hamasdrum Navy" "Milkyat Navy" 
+		}
+		sequential_name = FANTASY_PUNIC_HANDMADE_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_PUNIC_HANDMADE_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Abdhatno Abdmelqarbal Adonisbaalles Adosiniat Agba Agbaal Ahilca Ahiram Arimi Asharc Ashtar Astar Azimila Azimilk Azimilkir Azimilkpilcar Baalhamashh Barem Bart Bodam Bodas Bodashbaal Bodes Bodmenus Bodostar Bomilca Bomilkherba Bomilles Booda Boodon Bostartpilles Chel Chelqarbal Danno Dida Didashelqart Eshalletal Eshelqarempsa Esherama Eshh Eshmounba Eugo Eugoram Eugoramm Gamilkir Gerah Geras Gerba Gerekbaalharc Gerem Geridashahal Gisbaltibaal Hamillo Hannoami Hashh Hassa Hiem Himar Izavelqart Kanelqar Kannibaal Khilletal Magorah Magoras Masdrubaallo Maton Metal Metar Metzbal Mila Milcalissa Milcarc Miles Milik Milk Milkirom Mill Milomilki Mutpan Mutpilco Mutpilkhermel Mutpilki Philca Philk Phiram Sophobaal Sophobal Sophon Suhamounibar Suhart Tabes Tamilki Urubaal Urumma Yadamilchus Yapanel Yehon Ytal Yutpa
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Abbaal Abbal Abbart Abdhalcart Abdhamilki Abdhan Abdhar Abdhart Abdmelbes Abdmelqar Abdmenus Abibaalco Abibaalles Abir Abiram Abirashbal
+				Abiromelqart Adon Adonisgo Adonit Agbaal Agbaliatnoam Agbarbaal Ahilki Ahilkiras Ahilkpiletar Ahir Ahiram Ahirashmounit Ahumi Ahumilles
+				Ahummashart Ahus Azimi Azimilles Baalcalhar Baalchus Baalhar Baalik Baalles Baalo Barba Bart Barthomenus Baton Batoniba Battarempsa
+				Batthobaal Boda Bodam Bodamicarbaal Bodashmon Bodes Bodmelqar Bodmelqarbaal Bodmenus Bodon Bodonit Bomelbes Bomelqar Bomelqarbalo Bomelqart
+				Bomi Bomicar Bomicart Bomilk Boodam Boodmelqar Boodo Boodon Bosinissa Bosir Bosiram Bostarbal Bostarekba Boulo Bounhilcalo Bounhiletal
+				Bounhir Bouniaton Bounibaal Bounit Carbaal Carbaalchus Carbaalham Cart Carthomilk Chel Chelqar Chelqart Cherempsa Cherimrida Dan Danelqar
+				Danelqarbal Dannisgo Danno Eshbaal Eshbaalcart Eshmon Eshmoulo Eshmounhilk Eshtarbal Eugo Eugoram Eugorami Eugorasdrumma Gerba Gerem
+				Geridami Geridamilki Germelqarem Germenus Gisgoramilco Gissa Gissal Hamicarbaal Hanelqarthal Hanmi Hanmilki Hannissinibal Hasdruba
+				Hasdrumilki Hasdrumma Hashbaal Hashmon Hassal Hiem Himi Himilki Himilo Himilomi Himrimi Hirami Hiramouniaton Hirashmoulo Hirashtanno
+				Ittarba Ittart Itthaltibaal Itthart Itthobaalo Jubaal Jubaalcart Jubaalomilo Jubal Jubalharem Jubarbaal Jubart Kanelqart Khiles Khilk
+				Khilles Khirami Mahal Maham Mahamilcal Mahamilchus Mahamilles Mahamounit Mahar Mahart Malhama Maltiba Maltibaal Mashmon Mashtart Massa
+				Matno Maton Mattarekbaal Matthobaal Melbes Melqar Melqarbaal Melqarempsal Melqart Melqarthal Melqartshar Metart Metzbaal Metzbaalo
+				Metzbart Milcart Milchus Milco Miles Miletzbaalik Miletzbal Miliatthobaal Milik Milk Milki Milkirashba Milkiromilles Milkpilik Milles
+				Milletalik Milletzbaal Milletzbal Millomilki Pal Philes Philk Philkir Philletzbaal Tabniatno Tabnibar Tabnisgo Umm Umma Ummassa Urubaal
+				Urumilo Urumm Urumma Yada Yadam Yadami Yadamilkyaton Yadas Yadasharbaal Yehom Yehomelqart Yehomi Yutpanelqar Yutpilk Yutpilkhel Yutpilki
+				Yutpilles Yutpilomilles Zimi Zimiliaton Zimilk Zimilkiram Zimilles
+			}
+           
+            first_names_female = {
+				Abdo Arisba Arisbaal Arishah Arishaima Arishaimar Arishaimarte Arishatnoam Arishatnoama Arishatnoamar Arishayna Arisherah Arissa
+				Ashah Ashaima Ashaimar Ashaimarte Ashat Ashatnoam Ashatnoama Ashatnoamar Ashatnoamarte Ashatnoamila Ashayna Astab Astabel Astabua
+				Astar Batnoama Batnoamar Batnoamarte Batnoamila Didosir Elisba Elisbaal Elishah Elishaima Elishaimar Elishaimarte Elishat
+				Elishatnoam Elishatnoama Elishatnoamar Elishayna Elisherah Gama Gamar Gamarte Iezab Iezabua Iezavel Izab Izabel Izabua Mashaima
+				Mashaimar Mashaimarte Mashat Mashatnoam Mashatnoama Mashatnoamar Mashatnoamila Mashayna Masherah Muttunba Shah Shaima Shaimar
+				Shaimarte Shat Shatnoam Shatnoama Shatnoamar Shatnoamarte Shatnoamila Sophonisbaal Sophonishah Sophonishaima Sophonishat
+				Sophonishayna Sophonisherah Sophonissa Suhah Suhaimar Suhaimarte Suhat Suhatnoam Suhatnoama Suhatnoamar Suhatnoamarte Suhatnoamila
+				Suhayna Tabel Tama Tamarte Tamila Ytabel Ytabua Ytar Ytarte	
+			}
+			
+			second_names = {
+				Abbaal Abbaalhann Abbaall Abbal Abbarca Adon Adona Adonibalhann Ahilkir Ahilkira Ahilkiram Ahilosir Ahilostal Ahilostar Ahilostaram
+				Ahir Ahira Ahiram Baalhan Baall Bara Baram Barammashh Bodonibaal Bodonibaall Bodonibal Bodonibalhan Bodonibar Bodonibara Bodonibarc
+				Bosir Bosirom Bostal Bostalhan Bostall Bostan Bostann Bostaram Bostarc Bostarca Eshbaalhann Eshbal Eshh Eugara Eugaram Eugarammash
+				Eugarc Eugarca Eugo Gerbaal Gerbaalhann Gerbaall Gerbalhan Gerbalhann Gerbar Gerbaram Gerbarc Gerbarca Gisgor Hammash Hammashbaal
+				Hammashbar Hammashh Hira Hirom Magor Mash Mashbaall Mashbalhan Mashbar Mattal Mattann Mattar Mattarca Metal Metan Metann Metar
+				Metara Metaram Metarammash Metarc Milkir Milkira Milkirom Milosira Milosirom Milostal Milostann Milostar Philkir Philkira Philkiramm
+				Philkirom Philosira Philosiram Philosirom Philostal Philostan Philostar Philostarca Phir Phira Phiram Phiramm Phirom Ummashbaal
+				Ummashbar Ummashh	
+			}
+			
+            regnal_first_names_male = {
+				Abiram Boulo Danelqar Eshmon Massa Milik Philkir Yehomi
+            }
+           
+            regnal_first_names_female = {
+				Arissa Astar Elishat Izab Mashayna Shaima Suhatnoam Tamila Tamarte Ytabel
+			}
+				
+			regnal_second_names = {
+				Adon  Ahira Baall Eugarca Eugo Gerbaram Mattar Philostar Ummashh
+			}
+		}
+	}
+}

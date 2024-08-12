@@ -1,0 +1,407 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	nyshalin = {
+		name = Nyshalinese
+		plural = Nyshalinese
+		home_planet = Nyshalin
+		home_system = Anavtsadik
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	zuizmunk = {
+		name = Zuizumian
+		plural = Zuizumians
+		home_planet = Zuizmunk
+		home_system = "Chek Anon"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	ontogloryforever = {
+		name = Kelylin
+		plural = Kelylins
+		home_planet = "Onto Glory Forever"
+		home_system = "In Tandem with Joy"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	tykkerymk = {
+		name = Tyk'Kerian
+		plural = Tyk'Kerians
+		home_planet = Tyk'Kerymk
+		home_system = Kerymk
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	sinyuk = {
+		name = Sinyukid
+		plural = Sinyukids
+		home_planet = Sinyuk
+		home_system = Kekefk
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	zurunprime = {
+		name = Zurunese
+		plural = Zurunese
+		home_planet = "Zurun Prime"
+		home_system = Zurun 
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	chaveyk = {
+		name = "Cha Veykian"
+		plural = "Cha Veykians"
+		home_planet = "Cha Veyk"
+		home_system = "Veyk Nik" 
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	palkapok = {
+		name = Pal'Pokite
+		plural = Pal'Pokites
+		home_planet = "Palka Pok"
+		home_system = Pok-Pok 
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	bladeintheground = {
+		name = Nik
+		plural = Niks
+		home_planet = "Blade in the Ground"
+		home_system = "Entourage of the Sky" 
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	chalgunimk = {
+		name = Chalgunoid
+		plural = Chalgunoids
+		home_planet = Chalgunimk
+		home_system = Azraidayguk 
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	kolvuk = {
+		name = Kolvukid
+		plural = Kolvukids
+		home_planet = Kolvuk
+		home_system = Umen
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	igunglo = {
+		name = Igunggoloid
+		plural = Igunggoloids
+		home_planet = Igunglo
+		home_system = Chanesks
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	pukpun = {
+		name = "Puk Pun"
+		plural = "Puk Puns"
+		home_planet = "Puk Pun"
+		home_system = "Anvun Pun"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	umen = {
+		name = Umenese
+		plural = Umenese
+		home_planet = Umen
+		home_system = Aymun
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	grainsofkerin = {
+		name = Kerin'Linn  
+		plural = Kerin'Linn
+		home_planet = "Grains of Kerin"
+		home_system = "Wood of Memun"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	otik = {
+		name = Otikkese  
+		plural = Otikkese
+		home_planet = Otik
+		home_system = Liner
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	gukchusan = {
+		name = Gukchusaner  
+		plural = Gukchusaners
+		home_planet = Gukchusan
+		home_system = Ezralgik
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	ezdin = {
+		name = Ezdinite  
+		plural = Ezdinites
+		home_planet = Ezdin
+		home_system = Pygusaneran
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	taralgik = {
+		name = Taralic 
+		plural = Taralics
+		home_planet = Taralgik
+		home_system = Chukhazguk
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	pikkek = {
+		name = Kakekid 
+		plural = Kakekids
+		home_planet = Pik-Kek
+		home_system = Yun-Kek
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	azulglylun = {
+		name = Azulglian 
+		plural = Azulglians
+		home_planet = Azulglylun
+		home_system = "Urin Ukinyulik"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	lerukh = {
+		name = Lerukhid 
+		plural = Lerukhids
+		home_planet = Lerukh
+		home_system = Ukinyulik
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	lukhuin = {
+		name = Lukhuinite
+		plural = Lukhuinites
+		home_planet = Lukhuin
+		home_system = Ezglagikik
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	yukkeda = {
+		name = "So Yuk"
+		plural = "So Yuk"
+		home_planet = "Yuk Keda"
+		home_system = "Yuk Ninguk"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	lymaitunon = {
+		name = Lymatunoid
+		plural = Lymatunoids
+		home_planet = "Lyma Itunon"
+		home_system = Rasakik
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	pukhasmercy = {
+		name = Pungun
+		plural = Punguns
+		home_planet = "Pukha's Mercy"
+		home_system = "Polyun's Grace"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	vekazusalik = {
+		name = Vekazu
+		plural = Vekazu
+		home_planet = Vekazusalik
+		home_system = Sikanik
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	charugik = {
+		name = Charugikan
+		plural = Charugikans
+		home_planet = Charugik
+		home_system = Kolivchayin
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	tonzaskun = {
+		name = Sidavit
+		plural = Sidavits
+		home_planet = "Ton Zaskun"
+		home_system = "Ton Pitun"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	muklonkonsmirth = {
+		name = Azingisan
+		plural = Azingisans
+		home_planet = "Muk-Lonkon's Mirth"
+		home_system = "Itavchek's Mirth"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	keravukh = {
+		name = Keravan
+		plural = Keravans
+		home_planet = Keravukh
+		home_system = Nikhavtyk
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	lyzikrin = {
+		name = Lyzikrian
+		plural = Lyzikrians
+		home_planet = Lyzikrin
+		home_system = Pimzaguk
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	esalochan = {
+		name = Esalese
+		plural = Esalese
+		home_planet = "Esalo Chan"
+		home_system = "Vyen Esalo"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	pitvim = {
+		name = Pitvimese
+		plural = Pitvimese
+		home_planet = Pitvim
+		home_system = Zatlgavuda
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	standingstonetower = {
+		name = Tyuk
+		plural = Tyuks
+		home_planet = "Standing Stonetower"
+		home_system = "Pride of Ulgun Ukhk"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	ochon = {
+		name = Ochonid
+		plural = Ochonids
+		home_planet = Ochon
+		home_system = Pinpinin
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	nyusakprime = {
+		name = Nyusa
+		plural = Nyusas
+		home_planet = "Nyusak Prime"
+		home_system = Nyusak
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	chavlinvykigura = {
+		name = Smuramk
+		plural = Smuramk
+		home_planet = "Chavlin vyk'Igura"
+		home_system = Chavlin
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	ukran = {
+		name = Ukranese
+		plural = Ukranese
+		home_planet = Ukran
+		home_system = Lizadrik
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	okhan = {
+		name = Okhanese
+		plural = Okhanese
+		home_planet = Okhan
+		home_system = Lilin'Tok
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	puskitik = {
+		name = Puskitikian
+		plural = Puskitikians
+		home_planet = Puskitik
+		home_system = Khuk
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	tykun = {
+		name = Tykunese
+		plural = Tykunese
+		home_planet = Tykun
+		home_system = "Ayush Pygun"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	navumkonnayman = {
+		name = Vykoid
+		plural = Vykoids
+		home_planet = "Navun kon Nayman"
+		home_system = "Chikasan kon Atuin"
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	otunvinprime = {
+		name = Otunvean
+		plural = Otunveans
+		home_planet = "Otunvin Prime"
+		home_system = Otunvin
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	chikasan = {
+		name = Chikasanian
+		plural = Chikasanians
+		home_planet = Chikasan
+		home_system = Limen
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	umkhamun = {
+		name = Umkha
+		plural = Umkhas
+		home_planet = Umkhamun
+		home_system = Lonaskanokit
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	atvuk = {
+		name = Atvukkid
+		plural = Atvukkids
+		home_planet = Atvuk
+		home_system = Pankit
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	luzgin = {
+		name = Luzginite
+		plural = Luzginites
+		home_planet = Luzgin
+		home_system = Kaskazik
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	khivchuk = {
+		name = Ezguner
+		plural = Ezguners
+		home_planet = Khivchuk
+		home_system = Vaduneykh
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+	esavura = {
+		name = Esavuran
+		plural = Esavurans
+		home_planet = Esavura
+		home_system = Kengatuk
+		name_list = "cybrxkhan_handmade_nivkh"
+	}
+}

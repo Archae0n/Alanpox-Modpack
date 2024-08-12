@@ -1,0 +1,231 @@
+﻿### Fantasy Hungarian
+### Tossed IRL Hungarian names into a markov generator
+
+cybrxkhan_fantasy_hungarian = {
+	category = "Mammalian"
+
+	ship_names = {
+		generic = {
+			Abaderes Abakuta Aboracse Acsoprian Adánya Agnypero Agolasd Agysztei Ala Alabada Alagyörkij Alakály Albecs Alganke Alkek Alle Alman Almássa Alpáhody Alpáliánfa Alpölde Alpös Alsek Alsodorföle Alsok Alsokono Alsokozál Alsomogháza Alsonia Alsoshomogkút Alsosnéz Alsóbán Alsótony Alsóvatvás Alvás Amajakony Ambor Amárka Anarf And Andszúhalk Anes Anitriházs Annyi Ant Antgártervalu Antivány Anóapszentmik Apadány Apath Apcel Apácsolács Apálye Apáth Arczy Arkeresvártegy Arla Aula Aurtony Babakorny Babocsér Babokon Badján Badker Badána Bagerszerek Bagyi Baj Bajdacszód Bajk Bajolhód Bajómod Bake Baker Bakoczirágósta Bakod Bakolde Bakorpa Bakszertony Baktár Bakupoldom Bakus Bakányi Bakátoly Bakéshuta Bakó Bakóc Bakócsenelso Baköz Balaj Balancsán Balania Balaszegy Balasziria Balaszló Balaszlós Balbentmikó Balgyszsnya Balindorvár Balisérc Balja Baljagulay Balka Baloczifa Balorgó Balosszin Balvinéményi Balvás Balók Bandsztár Banfa Bar Baratály Bark Baromony Barutalmark Barádvarteföde Barás Barócsalo Baród Bata Batan Batca Batmikány Batonka Batonny Batvách Baty Baulacsi Baum Bea Beakkzsószeget Bech Beksi Beköly Bellancs Bello Belsok Belvánok Berachnak Berba Berbogházajk Berbótvárfalus Berdaszkiszlás Bereditkodak Berent Berlöski Bersi Berti Bertofia Berzsebér Beskaj Besszkibáno Beszede Beszki Bethajkéd Betény Bezinádna Bezsödehegmányi Bezófal Bezókeri Bezóöröslas Bia Bicskút Bihád Biháza Biklócs Birtontpóc Birád Biszon Blaszegály Blazi Blosháza Bobak Bocserczy Bocsesheré Bocsénház Body Bogalu Boglás Bogya Bogyarcs Bogyba Bogáthelezóló Bojti Bojándros Bok Bolamászprény Bold Boldi Bolga Bolháza Bolige Bolna Bolton Bon Borc Borny Borva Borvagy Bosaraserese Bosholgyechi Bothegy Bothelekervár Boton Botpási Bottös Bozdó Bozmágo Bozsarta Bucnelyhely Buda Budmény Bujatonala Bujtesva Buján Bukabánrét Bukay Bukán Burkobruta Bábakoraskon Báce Bács Bácsa Bácsvainglád Bállan Bálmászedret Bántmagyház Bántmán Bány Bárodicsi Bát Bátszécsfa Bátyas Bázacsa Bébecsen Békajnait Béke Békerkerffy Békkuráv Békérráldöncsén Bély Bélya Bénád Bódmér Bódok Bódvar Bögelia Böhöng Böhönyel Búcsujth Bükasky Bükköria Bükkövecs Bükkút Bütokodisbatz Bósavarny Cecherbadán Cecsha Cecsósfa Ceglés Cibánkaspöcs Cik Cikes Cirát Cizsinyétúr Csa Csabostvölde Csabozár Csadáricatár Csalmatáll Csannaminoka Csardoház Csarócsi Csbech Csedin Csehelegyház Csehévlek Csek Csemelsófia Csemkomos Csen Csenc Csend Csentgyo Csenó Cseretonyos Cserezóny Csfölkirák Csily Csindreszügyréd Csiriszenép Csky Csodakovadard Csodi Csohok Csokéssen Csoltály Csomogházaván Csomokonos Csonk Csopréde Csoósd Csuraszejtosbor Csurka Csápa Csárfa Csárkong Császolmar Csécsena Csévadaszlád Csódbóly Csótös Csök Csökszákó Csömödeán Csömös Csöve Csövejkígyvár Cza Czaly Czi Dabatonyarca Daborzivalmás Darandlyfa Darbel Darca Darhelsó Darételek Deata Debespadok Deje Dejesserat Demeráva Derek Derfalapoldos Dics Dik Dinti Dintmiházheny Divicsa Divár Dióapállas Diófu Diógrás Dióserápta Diószaiújle Diószely Dobasdomag Dober Dobo Doc Doházaban Dokes Domahombog Domosszló Dontyúr Dorfuréd Dorgyesemenes Doria Dortalu Dos Dozáld Drádaraszt Drádiklós Drádszliges Drádvás Drálházakirál Drás Drászálföly Dubikály Dubiros Duk Duna Dunagyarsoly Dunamácsudmér Dunar Dunberéd Dunhouhit Dunmeg Dunszpri Duny Duszingy Dávalva Déd Dédempök Dédiany Dégendrács Dégerényily Dél Dócska Döbri Döbrickirák Döbrédentordi Döbörmentó Dögertó Dömöd Dördia Dörka Dötz Ecs Ecség Edd Edeákó Ediceblovados Edik Egelece Egelsonhar Egert Egeréd Egeréterheta Eget Egetki Egy Egyasnan Egydos Egyesd Egypargyi Elep Ellavársenysál Emorföldobod Eniklós Enteszenyaly Entka Epellaka Eplagye Erc Erd Erna Ertökönglig Ervakahídvátz Erzassztel Erénafalu Eseréka Eszh Eszlek Eszlóskoprodor Eöttösd Eötvátyódvány Fajtös Fanod Farasbod Faros Fazda Fazdédes Fehet Fehi Fehola Feházalay Fehér Fejény Fek Fekeres Felek Feleka Felekersony Felemeskátki Felepeth Felgar Felind Felsó Felyiri Felyma Fenyi Fercheg Fergár Fervia Filiszer Fitjántpételen Fokán Folak Folca Folti Fon Fonikác Fornedi Frand Frasságyve Fulad Fulaszenc Fábarankin Fábrusztújbabag Fényi Födeatonvágoss Fölgyugod Fölgyár Föltaadár Fülegény Füly Fülöpja Fürjág Füzékaraty Gaba Gabarbalak Gabarvas Gabdi Gace Gacsba Gadobélaky Gagye Galadarolfa Galatvázala Galy Galás Gantbél Ganád Garke Gasky Gasza Gazsasódom Gazújfalahar Gecemecky Gecs Gel Gelek Gelezószál Gelk Gelkassand Geller Gelsoke Gelsópüssy Gemesbarddamás Gemkos Ger Gereklós Gergerger Gerhar Gers Gertokod Gerváratz Gerény Ges Girota Gitki Golisztúr Gombeak Grádnézama Gulazsa Gulány Guradánd Gurkasz Gusneke Guszony Gutkary Gya Gyart Gyarád Gybásligetét Gycsegén Gye Gyeskarcarda Gyoglekalasd Gyos Gyszenéz Gysák Gyugya Gyulakaz Gyulic Gyus Gyuszereszü Gyuszás Gyvesházaluby Gyviorsi Gyánffy Gyömló Gyöngerk Gyönget Gyöngosztely Gyöny Györsenta Gyöstvár Gyöszemerén Gyügykó Gyóra Gyórzs Gyórzsó Gyórújla Gába Gábary Gábikoró Gácshala Gácsút Gárala Gás Gátiváróc Gébehod Gécsoktaménád Gét Gétbélerecs Gézanszi Górai Gölöp Gön Görgó Göronos Görsádorsápi Görzsolatony Hajtonkos Hajtánossza Hal Halacsebla Halafa Haligerer Halmatrandor Halon Halás Han Hanémga Har Harajda Haranik Harank Harban Harca Harmárház Harnár Haroszta Haton Hawliándra Hed Heg Hegratana Hegyes Hegygy Hegysány Hegyváriskó Hegéz Hejcsfa Hejos Hejszen Helerek Henoncskele Hentgye Heraházako Hercsavátonye Herekiszeném Herekló Herenfanikóc Hereserla Hergyház Herély Hetmárkó Hetészes Hevény Hidakonyóújla Hidárfa Himamony Himreg Hirjád Hiscsabodgyos Hod Holan Holotes Hom Honyersárneckó Hordarócfa Hordzsi Horföldvaj Hosdy Hosodizige Hospirkér Houdva Hruta Hunmalózfalár Hácskesil Hár Hárchid Hári Hárombosvöld Hásimregsénely Hásztonházit Hód Ibalaszky Ibronikecskút Ignád Ihalatakony Ikerény Ikló Iklóska Ilak Ilatheréd Ilind Ilisutabano Ilmoszt Ilvarper Ily Ima Imaládó Imantka Imihátkepszecs Imizd Imogma Imogyórúr Iményod Ipolma Iponyte Irábolisajugotk Irál Iskes Istvácsi Iszalu Iszk Iszladas Ivideháza Ivány Iványkút Ivárffy Ivárkállat Iváti Jagány Jak Jakollerdo Jedekgere Jengeres Jent Jeske Jobászentlád Jokberbérk Jokoranye Jokozka Jos Josfüly Joszemeszó Joósvecs Jákvaros Jás Jásherkurusna Jáspali Jászek Jászi Jászka Jásály Kacorvársza Kajákó Kakányadán Kala Kalja Kalokar Kalomvány Kamaluszárk Kamina Kap Kapes Kapet Kapolcsahídva Kapolt Kapony Kapsz Kapár Kapáza Kar Karar Karaszeka Karbasz Kari Karkoly Karnád Karolnalathyúr Karta Kartonymáti Kas Kaskóhi Kasrátar Kasszenk Kaszecsolc Kaszentmányi Kaszifa Kaszlós Katar Katasi Katmiház Katorgátra Katva Kay Kebla Kecod Kecs Keház Kelsoly Kelsárkut Kelymecs Kem Kemecovary Kemeregedre Kemeseki Kemjén Kempölde Kemérajóivos Kenyok Kerczy Kerecovárt Keregyasi Kererétendrács Keres Kergazdó Kerke Kertelsó Kertony Kes Keszali Khutzenty Kilseny Kimácséb Kiráv Kisacs Kisapestor Kisbece Kisberek Kisbik Kisbony Kisbuditéran Kisbéla Kisbélakáth Kisharabaksavág Kiska Kiskes Kislosonszti Kislád Kismás Kismél Kisna Kisny Kisoldona Kisony Kisrás Kissy Kisszeng Kisszent Kisszlókút Kista Kistalva Kistary Kistomháza Kistvácse Kistz Kisvátrinda Kisza Kiszavég Kiszegya Kiszen Kiszencelek Kiszendonokta Kiszeny Kiszeres Kisznely Kiszomlósbahát Kiszucfalan Kiszuhoti Kiséglemes Kitkan Kner Kocsberek Koczy Kom Kombak Kombra Komly Komás Kon Konmeak Konteterlánok Kony Kopapon Koratoszál Korki Kos Kosa Kosdos Koshunybuk Kosicalu Kosiklóskus Kosontgye Kospátkövor Kovacsely Kovia Kovágya Kovárontó Koz Kozsi Kozslo Kracsécs Kraszó Krityály Krius Krontgyösdó Kucnedlyszdéd Kucsa Kulacs Kulcsveszom Kunházak Kunpeton Kunpula Kunskifala Kunyékényostes Kur Kurankálna Kurbahetrada Kurda Kurka Kurtaapád Kutala Kutikóújfalan Kutkesfa Kutszercsanyi Kác Kácsehérgyor Kák Kálde Kálikó Kálin Kálivár Kállárályvecs Kály Kámsonó Kán Kánokér Kányét Káprocs Kárki Kártahídva Káski Kátkistery Kátok Kékézala Kétegyrafo Kételsó Kéteves Kónaskod Kóneszújvárda Kópátra KóraNagyarcséd Kót Kökövoly Kölcsima Kölyarfa Köm Kömörgyoros Körgereszh Körgy Körgén Körogdáradár Körög Köröngedeatárk Kötelsolyosin Kövecesbertót Kövejér Kövolnos Lacske Ladás Laj Lajta Lak Laki Lakonk Lakovara Legradárd Leház Leke Lenc Lendom Lepce Lepros Levita Levér Lianisteler Liatyányacsó Libic Lickincse Lickálya Lics Licséber Ligedev Ligergáno Ligmutkede Lippolló Liptas Lit Litkandes Litszom Liveslomlészúfa Lokarbány Lorocs Loroszky Los Lotterk Lova Lovalongotti Lovarutián Lubargo Lud Luda Ludvazdó Lusa Lábaújfalmás Lácsasz Lánhál Lápolit Lápolna Lászendronyer Léterpál Lóró Lövégyószohn Lúzsehác Lúzsely Lór Madánfa Mag Magla Magya Magyarte Magye Magyes Magyesmászato Magyhan Magyháza Magyházarti Magyi Magykölgaz Magymocs Magyor Magyráva Magyrévhat Magyszifany Magyszka Magysárszteski Magyta Magyurtes Magyöngettaszta Magyörös Mai Maind Maisztves Majoklók Makápacska Makény Malköskúti Marad Maradszky Marbadi Marek Mari Markajdúnács Marményi Marogyös Maroly Marony Marsztúr Marszályi Marsámogmás Marubor Matorna Matz Mecke Mecsa Mecsapolna Meditalka Medivo Medlyi Medlysi Meggyhatorborok Megkútdért Megyház Mentmiklerek Merek Merna Mernelseheném Mes Mesbec Mezegszen Mezegyúl Mezentmánodi Mezentó Mezeszeng Mezsa Mezóhév Mezókold Mezósz Mihoubiány Miháza Mik Mikabény Mikahalmás Miklajmán Miklóc Mikocsoltammet Millók Minallacsid Minargyo Mincy Minyék Minyértaranszi Mis Misalavit Misfa Misseveszté Miszadánod Mizs Mocsentertony Molgymelló Molna Molnök Molondön Monfűzfély Mos Mukabahelény Munpulatokodböd Muruszeg Mágújván Mály Mályánk Mán Mánazsa Mándulcakányi Mántmik Mányapony Mányar Mányese Már Márfala Márkay Márodici Mároste Mársömös Mártosi Máti Mátrasek Mátrismaty Méharmás Méhkegyszenye Mér Móricistofte Mórádamartó Mórékkszentó Móró Nadászomhuny Nag Nagny Nagnád Nagod Nagya Nagyac Nagyacsény Nagyartha Nagybánszny Nagybénhendro Nagycskesi Nagye Nagyfa Nagyhád Nagyháta Nagyháza Nagyházatarnos Nagyházaty Nagyimer Nagyköldiány Nagyló Nagymincy Nagyo Nagyor Nagyoraczilly Nagyorsa Nagypasi Nagyszek Nagyszároly Nagysárasza Nagytereskes Nagytsetiána Nagyvarborin Nagyány Nagyöres Nagyörsza Nagád Nagáta Nakodombiklósny Namosszfala Napony Naralug Naraspet Nay Nek Nekina Nelló Nemacsehércsi Nemantesztal Nemecs Nemecsi Nemecsvelsót Nemed Nemedivere Nemedva Nemeg Nemeger Nemegerecs Nemegsurzh Nemel Nemelekerbak Nemely Nemer Nemes Nemkod Nemsono Nemér Neskü Neszabduva Nicista Nikod Nora Nori Norok Nos Nosny Nospátoran Nosziliand Novacovány Novad Novaponbes Nyasvejok Nye Nyi Nyikó Nyimásházaskút Nyosi Nyurd Nyustót Nyács Nyánye Nyár Nyékkoc Nyírbadna Nyírbatertohoka Nyírborosi Nyírbános Nyírc Nyírjárvárog Nyírlös Nyírman Nyírpánya Nyírt Nyírta Nyírtonyács Nyírtyány Nyírvitót Nyírvánd Nyírvártendor Nyúrrokedi Nád Nádosd Nádvardogyéke Nág Némenyi Néményarossza Nógárálorvár Oimiklóvás Oimrent Oimóri Okányo Ola Olandsztes Olcsény Ontpétecsha Orda Orget Orgyka Orog Orogyhál Orolamatonya Orota Orsolt Ortony Ostyú Osvarába Osver Oszkasgurtely Oszlop Oszlásiklófa Oszolonan Oszékapsény Padár Pakátércas Palaegya Paliszati Palu Palvajklas Pambasvátk Pamegetkánd Papony Papálmánysza Par Parka Paroszek Parán Pasznógan Patoentpét Patos Paurzekösvece Pec Pecselyeszomos Pekerervény Pelentja Penkárságó Pentli Perger Pergár Perkos Permai Pet Petab Peteresvárkor Petimikér Petimány Petok Petraján Petéth Piligasfok Pilonyessy Pin Pirary Piri Piriházas Pirt Piráldos Pirávoszalake Pitkézaba Pog Pogfalmárdony Polcs Poltse Poly Polyild Pomor Porai Porbélas Porecky Porjákostor Pormajópetele Poronyillo Porseszegyi Porvánkamety Posfalvasky Posi Poton Pri Procs Progoldinud Prozmajdúbös Pusnycsán Pusnézakacs Pusz Puszalong Puszasztó Puszenej Puszent Puszfalók Puszi Puszilár Putasód Pács Pácséb Pácsöksimesd Pálfalugros Pálle Pályadárdzsi Pánfalu Pánok Pánóapolcsmény Páp Pápbegyikvasné Pás Pásámolod Pátra Péc Pécsa Pécsi Pérasd Pétaomonabak Pételekencs Pétfalany Pétsáfo Pétyóre Pórálmány Pós Pósboly Pót Pölcsvarny Pöldeska Pötvár Püspa Püspujánda Radi Rador Radás Rai Rajaskefa Rajsztes Rakár Ramás Ravai Rdzserotka Receg Redebelsold Reg Regszto Regyhatás Regyulsó Regyöri Regyöröksa Rencskes Renné Res Ressztek Rezópecsalafa Riges Rinc Rincsapszte Rinizsa Rinuszály Rogáckeska Rohou Rokolna Romböde Ronar Rosko Rosszlai Rostonyjár Rtony Rudarság Rábark Rábatony Rábcalja Rábokva Rábolnalmászoly Rábrolorágon Rábély Rách Rádkígyi Rák Rákácduva Rákó Ráposza Rápsza Rátyán Réd Rékénás Réme Rétefa Réter Réteresza Réva Révíz Rócsony Rózs Rózsanyásfa Röjt Röjtonosztúr Röncsda Rösfa Sacsó Sagocfa Saházmérgó Saj Sajcso Sajdagylany Sajdúd Sajed Sajklósd Sajna Sajos Sajostzsó Saját Sajóivity Sajótakovich Saljaka Sapollórós Sapártontk Sapátonduva Sar Saranskály Sartó Sch Sedránski Sel Sementkalós Serecsa Seres Serfalomornád Sergyórsoly Sik Sikebrösz Simere Sirka Sirálmarasza Sitrad Sióagyu Sióalu Sjszervacs Sjárténdrád Sold Solnár Soly Somagye Sombol Sombolymo Somborisháza Somló Somogy Somogymesz Somos Somoskaró Somosvöldeng Somoszó Sondi Sonkamunsz Sonyékéd Sopetészengya Soppola Soppáhom Sopringlengese Sopárdianiklás Sor Sorat Sorod Sosfa Sotki Stvöl Sukánháll Sum Svafa Svalmáng Sza Szaba Szabengló Szaberjánka Szabogéza Szabálló Szacsabár Szadordomoncs Szadszterét Szadány Szakocs Szakány Szala Szalas Szalosd Szalu Szamb Szammeszt Szapalósza Szarce Szarcse Szarcsár Szasz Szataszoce Szatofiszterny Szatoszlókehi Szaver Szavörös Szecölövény Szed Szeglény Szegyo Szeksbada Szely Szementamázak Szen Szenagycsén Szenc Szencsi Szencsiel Szend Szendó Szenecs Szenga Szenglejk Szenk Szenker Szent Szentaszece Szentbok Szentereném Szentgo Szenti Szentlemkos Szentmihoró Szentmád Szentpétszenc Szeny Szenyi Szenémgalgy Szepek Szercs Szesdémeselyó Szeszen Szevinusa Szi Szig Szige Szigelya Sziger Szihác Sziklószse Szilalygi Szillászt Szina Szingeti Sziniklányta Szlókajt Szoboldohna Szodrásza Szolavárfanya Szolay Szolcsandalu Szollacchy Szolos Szoltecsormán Szom Szonikó Szony Szovány Sztúr Szubold Szucsébernád Szuhony Szuhonyvöskócz Szuhor Szuhou Szurgagyösky Szálla Szállatz Szállósvidea Szály Számolcska Szánbükkösz Szántilacsolta Száradszkiria Szárata Szárdó Szárós Szás Szécs Szék Szényev Szér Szölna Szúpállény Szúvölka Ságyörötz Sália Sámogapszló Sámócsoószér Sányikós Sár Sáratobaj Sáratonnosd Sárd Sárdintarák Sárfa Sárkony Sárosújvár Sárszfó Sárter Sárton Sátricszlód Sátyánk Sáv Sényi Sérba Sósd Sóshalki Sóstó Sósvac Sörgyádó Sörsegeratca Sörösmet Sülse Sülös Sümendrendég Sümenyace Sümes Süttymeder Tabogdarton Tabor Tagyörös Talvárka Tapolja Tarai Tarercsény Tarhidrány Tark Tarádac Tasd Tatosdombja Tatyár Telertony Telind Telingy Telka Tely Telytosgydony Temjérri Tenta Ter Terbót Terentanciszo Terenó Terél Tese Tetold Tevirsz Tevég Thuentmár Ti-Kiszteres Tibog Tibolnarkány Tibány Tis Tisbatonyszta Tisborinzc Tisbostvár Tisbéka Tischnkely Tiscsepce Tisd Tisdlay Tisentmánye Tisfagyadáno Tisheg Tishegrál Tisházakaja Tiskaszt Tiskelszügyvinc Tiskes Tislakór Tismeskunc Tismik Tisony Tisszenkai Tista Tistonk Tistonyi Tistop Tisvánd Tisvássapálléd Tisz Tiszandrádonk Tiszengyulafal Tiszeny Tiszi Tiszily Tiszny Tiszobatoth Tiszocsa Tisztetalu Tisztvás Tiszópersehi Tivágó Tiány Tokabos Tokonycsoni Tolomodgy Tonik Tor Toralanc Torborvölgáti Torenó Tormérc Torsegya Torva Torócse Torönyfalvas Toteernek Tyukád Tál Tállós Tápbergénysi Tápiroházy Tápiós Tápolyasi Tárdadivo Tátkisny Ték Tékadapakaly Tészlószepér Téturos Tímegkút Tósbangy Tót Tótfa Tóti Tótofimos Tótsur Tölde Tölye Törkácisteka Törnaszeni Töröstes Tös Túr Túrik Tüspetran Tüttymai Udvalgasztúr Ugota Ujak Ujatoska Uraszentilvákay Urbolospád Uszló Vada Vadhadány Vadhídvég Vagy Vagyadivad Vagyesesztó Vai Vajkery Vajkényka Valad Valván Valvány Vamichla Vanbad Vanik Varai Varhoksod Varos Varpál Varszerhend Vas Vasd Vasgyó Vaszlófa Veckebélemér Velandajenrik Vele Veli Verecsenc Veredla Verengy Ves Veszakes Via Viahn Vide Vilics Viorvirás Visnes Vistouhorai Viszegye Viszent Viszentelek Vitfa Vizsztéle Vácse Vácsencserek Vágo Vály Vámogyfa Vámon Vámos Vár Várant Várd Váron Vársád Vásiptertiba Vásán Váti Vátiszecs Vátétentes Véglás Végy Vémgagacséc Vényo Vér Vércsének Vérdóc Vérth Vérvászek Vöcky Vöcsán Völdván Vönyédek Vörin Vörökev Wessoncs Zagyva Zak Zalakszepecs Zalanyoria Zalaszs Zalay Zalgyar Zalia Zaligesilony Zalkaszabágos Zalkoró Zalma Zalos Zalosligetsán Zalpöcsarce Zalpökilimégi Zalu Zalud Zalvágószárok Zalász Zalászinara Zamérsza Zaszoborai Zavaras Zeberékék Zeblomosi Zeblozsaszóvás Zebély Zicskürügyar Zilvatzenek Zimre Zitracsbélmár Zríny Zrónácse Zsany Zsasik Zsehátsurkeföly Zsend Zsentgyréd Zsenyván Zseri Zsisztúr Zsollórlacsany Zsotyújsi Zsupacsky Zsánkay Zsászentmai Zsörsonfa Zubornán Zuhajók Zurgilvarbárt Zádait Záhotapa Zákol Záv Ábrubianyi Ácskánd Ákopatolás Ákosod Álmos Áraj Árog Ásva Ásvárhely Ászem Átan Átáracs Átárosd Érdag Érs Érsefa Érselekháldea Érsárszkér Óbacsenek Óbarkunán Óbukszeno Óföldea Óhi Ónostomogyösd Ödekedinnagy Ödölöstala Ödönykoda Ölberczy Öreme Örmény Öskút Ötvágytásztegye Újcs Újdasza Újfa Újlergabo Újszas Újszaszti Újszi Újszéktoküres Újszényesmes Újth Úrkes Üllai Üröszomoszess Őriath Őrtonyalvickó Ősa
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Mezegyrási Space Fleet" "Dundskó Space Fleet" "Vátye Space Fleet" "Neman Space Fleet" "Demeskel Space Fleet" "Abarcság Space Fleet" "Velsos Space Fleet" "Ancy Space Fleet" "Bágos Space Fleet" "Oslény Space Fleet" "Tömörös Space Fleet" "Szendogya Space Fleet" 
+		}
+		sequential_name = FANTASY_HUNGARIAN_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_HUNGARIAN_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Ababánk Abakanya Abasház Abaterté Acs Acsi Adonnya Adárcserek Aldotyaraznó Alindrola Alsontmányos Alsónád Alsóújbasdi Apa Apcesgörbocsa Aszentagybar Aszló Attörgyék Bagyes Bajidara Bakai Bake Bakodor Bakolota Bakony Bakályar Balabékér Baladdarsöm Balakolfa Balatád Baltszend Balu Balud Balád Batorvártonak Batösút Bej Bejény Bekcsi Belevence Bentgyrételeg Berdás Bersa Boc Bod Bogadkígya Borny Borvárt Boröc Boz Bozvára Bud Budvafüzegyöng Bugasszarárc Bugyes Bujt Bácikonya Bány Bári Bázand Békésej Béltény Bód Bólád Bükkucs Bükközberencs Ceregszaszi Cigetva Cireny Ciria Cirávadáck Csa Csaba Csaháza Csajen Csala Csang Cselsa Csend Csesnyarák Csolahát Csony Csonyháza Csonyig Csonyszerkáda Csoörtye Csuru Csák Csánháza Csárkút Cséde Csóna Csörcsévelya Csövereksza Damony Debucsónyháza Demely Derhálye Detki Dobbánkahód Dobogyöny Doborvasza Domló Domogátorma Drás Drásháza Dunaványeres Dunazd Dunbatarja Duncskecsi Dunmars Dánypatorny Döbrátymarás Dötka Ecsebesny Egeszlenos Egetracs Egy Egyigreszta Egykút Egyörgesd Erdokoskoszagy Erdos Eszemer Eszententi Eszló Faraspács Farnaörsza Farosztarbény Farósfaród Fehegfa Feház Feházak Fel Felemecs Felka Felle Felsony Feremesta Fiadoszencséd Fityagyarmaj Forma Fülök Füzéceg Gadasád Gadobszony Gagyince Galva Galárder Garásármagya Gelcs Gelya Gereny Gersár Girajdánke Gyos Gyulapagy Gyurgy Gyönge Gyöngyény Gyöny Györszálimony Györösok Gyöszaniz Gyó Gábóc Gárpár Gáva Géberki Gölde Gömlózsony Hajd Hajdúsárodrás Hajka Hajószécsa Halu Halád Hanosny Hegyavele Hegyád Hej Hentki Heregy Hevárda Hidapirápiri Hogmártajdár Holoszalasa Hunse Hunád Hárterenyo Ibonye Igarc Ihalasaján Iklódvély Ipadornán Iposzuhal Irepétberes Ireszenyes Ispád Ispök Iváno Ivárhalgár Jág Jás Jástár Jásza Jászöngoc Jásár Kajszár Kakérrogfala Kal Kalárokonok Kamatolcsanc Kapes Kaposza Kapátsznavárse Karaszkisnok Kardenti Karmamér Karugykolye Karány Kaszma Kecsemes Keleb Kemec Kemes Kemihaton Kemércsákó Kerbolád Kergitár Kerno Kerosszlós Keréd Kerégysz Kesbara Keseres Keszababóly Kiramiklakó Kiresd Kirós Kis Kisapálysákalár Kisbucsma Kisbád Kiscska Kisgyercacsenfa Kisgöl Kiskab Kiskercs Kisléked Kisod Kisrábaracsi Kisszka Kistahály Kistajugrád Kisvargálldeg Kisváchyút Kisvárki Kisz Kisza Kiszadke Kisznyebeke Kisztabárinyi Kisztonye Kokolló Komata Komonuda Korszeggye Kosmeszló Kostva Kovárdó Kováriszlek Koz Kozsozárpátonsz Kunafo Kunak Kállázasda Kánti Kántpéteszlód Kánye Káza Kémvát Kétya Kóneke Kóti Kölgyhátri Kömörgycszögli Körgerbordi Körszkabádcécs Körény Körömörgy Kötesz Kötörmaj Köventmácsécs Küngote Küngyimászend Lapolnokorössek Legytó Lencs Lentgyöndony Lenyányo Leányfalor Lota Lotpétli Lukod Lulakolorna Lába Ládszombó Lántmajke Lébecs Léhkeregybad Lúzsadánád Lúzsobor Magocsas Magovár Magye Magyehidvafa Magyosszállán Magypaládpere Makóhid Marna Meckáti Menek Merkút Mese Mezd Mezencssza Mezendros Mezenyi Mezócsony Mezófalaka Mezófalu Mezóhete Mezókod Mezópettöld Mezóváza Mezózolgót Mezóörcse Mocsahernán Mogyarka Molna Monykaberentó Muhos Murtész Murtó Mán Mándrosadi Már Máraszomogkút Márszály Mársápatonyan Mát Máta Méh Mér Mérbos Móraigetéss Nag Naga Nagya Nagyap Nagyaruszölgara Nagyateshely Nagye Nagyeskelek Nagyfa Nagyháza Nagyházaöre Nagysi Nagytád Nagytó Nagyörkerévíz Nagácsszlelló Nagálldvécs Nagállény Namegy Nament Nemeg Nemegráckós Nemely Nemelyárót Nementma Nemes Nemeskáti Nemesza Nemeszlókút Nemjény Nicsosonyos Nikló Nováza Nyoronyár Nyos Nyulattad Nyártona Nyér Nyírbakad Nyírbörszovágó Nyíre Nyírmárd Nyírpolna Nyírpáti Nyírt Nyírtfa Nábalu Nógri Ormara Orond Orosovarnos Ort Ostereska Ostvár Padán Pana Pannok Parabat Paró Patonyán Penehi Pentmike Percsom Perdeányorpác Perzsörgács Petéturgyvölyi Pilak Pilimes Pilkonta Pincség Pocsvárásákád Polnok Porai Poros Pus Pusnézlós Puszaka Puszéked Puszó Páhod Pály Pápolosbada Páza Pécsa Pécsaszód Pécsenter Pöldeszentgy Pörnostyány Pörszka Pörök Rajcs Rakamosd Rapeti Recely Rigegyömespök Romló Rábaszentó Rábat Rábca Rácdud Rápattó Rép Rózsony Sajókartonyor Sajónakta Sajópet Saliszó Salom Segyelsó Serepüskere Simogfalacse Sióskézló Somafó Somathegyánk Somberpásd Somlószocske Somoce Somony Somor Sond Sumoröskócs Sza Szabat Szadi Szaincfa Szaszom Szavényara Szent Szenter Szentka Szentpét Szeny Szenyórsa Szepétegete Szerk Szerka Szi Szifala Szodo Szokonó Szokoszród Szold Szoly Szombajokonokos Szomfa Szomodlaeg Szonszü Szonya Szálnakadabaj Szály Szályi Szék Széke Szó Szöglács Sáldom Sámogyöske Sámor Sárin Sáráda Sásony Sörösod Sülpáti Tabalja Tagyörcsvánd Takszemes Tanfa Taposo Tapükksza Tarcsenc Tarmere Tasztúr Tetfa Tikernak Timrek Tisfalozáza Tiskeresszod Tisnéménd Tisok Tissza Tissándácse Tistarkonafa Tisty Tisztes Tisztúr Tiszárice Tákomos Tápoly Tápolány Tápsztúr Tészatonyrogy Törbágye Udvánd Valás Vass Vaszabold Vaszekér Vaszenta Vaszékes Veke Vella Visszalvar Viszilincs Vitka Vácsa Vállyiráváros Vámony Vámonyrás Vámosvács Vánhelsona Ványsznes Várhely Vásimikló Váskabala Véges Vérc Vérdok Zagy Zajsztó Zalasvárd Zalat Zalfa Zali Zallód Zalmány Zalom Zaloszom Zickeresza Ziribág Zsalaton Zsura Zádsztony Zák Zákónagye Égercsény Óbudmér Ömbaca Örkibás Örmatotanc Öttöngelye Újharászfény Újirs Újlombja Újsza Újudva Úrhelény Úrkács Őrtony
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Ala Aladárkas Alan Alber Albere Alpád Alpárd Alvinc Alvintalárk Alvintondor Ambolcs Amboldizsef Ambor Ambruszlós Ambrusztán And Andre Andrászló Andrásztáv Ant Antalan Antalanos Antalárkas Antondor Attilan Attilár Attilárd Attilárkas Attián Attiánd Attyán Attyándrás Attyás Aurisztiánd Auréla Aurény Bal Bala Baladár Balár Bar Bard Bark Barkas Barnamán Barnamás Ben Benc Benri Benrik Benrint Benrisztáv Benó Ber Bere Bergelemér Bergyerénes Bergó Bert Bertal Bertala Bertalanos Berénes Bolcs Boldizs Boldizsó Bolj Bolt Boltán Boltáv Boly Bothar Bothard Bothark Botharnó Boton Botondor Botondre Bottila Bottyás Bál Bálin Bálmán Bálmás Bály Bél Béladárd Bélan Csabor Csabás Dezs Dezsef Dény Eleme Elemen Elemenrin End Endor Endorbergy Ernabás Ernamenc Ernamánd Ervintal Ervác Erván Ervános Ervát Ervátyán Ervátyás Erváté Far Fark Farnamenri Faroltáv Faroly Fer Ferenri Fergyerél Fert Ferény Ger Gere Gert Gertalárkas Gertalázs Gervin Gerván Gervátyán Geréla Gus Gyuladar Gyuladarnó Gyulanos Gyuriki Gyurikló Gyurinc Gyuriszlós Gyurél Gyuréla Gyuréladar Gyurénes Gyurény Györgelemér Györgely Györgyert Györgó Gáboldizsó Gábolt Gáboltáv Gáboly Gáborberenc Gás Gásztián Gásztán Gézaba Gézabor Gézaborbert Gézabás Hen Henc Henrinton Henó Ignács Imrenrince Imrenó Istvác Istvács Istvándor Istvános Istvát Istváté Jan Jen Jenc Jenrik Jenrinc Ján Jándor Jándrás Józs Józsár Józsárkas Józsó Kar Kark Karkas Karnamás Karnó Karolcs Keleme Kelemenri Kelemér Kely Kri Kriki Kriszló Krisztáv Kál Kálint Kálinton Kálmándor Kály Kár Kárd Lajmund Lajmundor Lajmundre Lotharkas Lotharoltáv Loton Lotond Lottián Lottyán Lukác Lás Láspár Lóri Lórin Lóriszló Lórisztila Medar Medarolt Medaroltáv Megy Megyertal Megyervin Mihál Mihálin Mihálmás Mik Mikló Már Márd Márkas Mároltáv Mát Mátyán Mátyánd Mátyándrás Nabor Nabás Namenc Namán Nor Norber Nán Nándorber Nános Osvác Osvács Osván Osvátyás Osváté Pálint Pálmán Pálmás Pály Pétere Pétergyergy Pétergó Pétert Pétertalár Rajmundor Rajmundrás Rajos Rezs Rezsár Rezsárd Romanos Rombor Rombrus Sigmundor Sza Szaba Szabolt Szabás Szabáspád Szer Szergó Szert Szerény Szila Szilár Szilárk Szilárolt Szilázs Szilázsár Sán Sános Tame Tamence Tamenrin Tamenó Tibolcs Tiboldizsó Tivadarkas Tivadarnó Tivadár Tivadárd Zolcs Zolj Zolt Zoltáv Zoly Zsoldizsef Zsoldizsárd Zsolj Zsoly Zsoman Zsombrus Árpár Árpárk Árpárkas
+            }
+           
+            first_names_female = {
+				Agnelia Agnella Agnett Ama Amalin Amaloma Amalonikó Anelia Anelina Aneliname Anelka Anes Ania Anianka Anica Anika Anikó Anit Anital Annalomalia Annatrielka Antona Antonica Antonikó Antonit Barbargit Barbarola Baria Barianna Barikó Barix Barolya Baroska Barta Bea Beata Beatria Beatrika Bia Bianica Bla Blana Blanamea Boglária Boglárikó Boglárina Boglárix Csilma Csilmal Csilmalia Csilmalin Csilmalina Dia Dianikó Dianikó Dorikó Doriselka Dorix Dornela Dornelana Dornelin Dornes Edia Edianka Edika Edikó Edita Enia Enianna Enica Enika Enikó Enit Enita Esztefania Esztefanka Esztefanna Esztina Esztinata Esztinda Esztinde Etefana Etefanikó Etefanka Etefanna Etelga Eterona Eteronia Eteroska Fra Frana Franalia Franika Franka Franna Gabria Gabriela Gabrika Gabrikó Gabrikó Gabrina Gabrisztela Giselia Giselka Gisellanna Giska Gisztefana Gisztina Gisztinal Hajna Hajnalona Hajname Hajnatriska Hela Helina Helinamea Helinde Helka Hella Ildika Ildikó Ildit Ildita Iloma Ilomaloma Ilonata Ilonia Ilonica Iria Iriana Irielia Irielin Irika Irikó Irikó Irinata Iriska Irix Jola Jolia Jolina Jolya Judia Judikó Judita Juditalona Kara Karana Karanka Karbarana Karbarola Karbaronata Kargit Kargita Karielia Karina Karix Karolana Karolanna Karolya Karonia Karonica Karoska Karta Kartal Kata Katalonica Katria Katrikó Katrina Katrix Korika Korina Korinda Korinde Korisela Korix Kornelin Kornes Kornett Kria Krianiana Krika Krikó Krin Krina Kriselina Kriska Krix Livianica Livianikó Mara Marana Maranka Marbarbarta Marbargit Marbarola Marbaronia Marbarta Margita Maria Marielinata Mariellanka Marikó Marisztina Marix Marola Marolana Marolanka Marolin Marolina Marolinata Marona Maronica Maronikó Maronikó Maroska Martalina Mede Medeata Medeatrikó Medeatrina Mela Melga Melka Mella Mellanika Márikó Márina Márinamea Márka Nadika Nadit Nadita Naditalia Namea Nameata Nata Natrina Orsola Orsolanna Orsolinda Pal Palia Palianica Palin Palina Palinda Palomal Palona Palonalia Pirola Pirolana Pirolania Pirolanka Pirolina Pirolya Pirona Pironikó Pirág Rena Rename Renatrindea Rózsana Rózsanka Rózsanna Stefanciska Stefanka Stela Stelga Stelia Ster Sterona Steronit Ter Terola Terona Teronica Teroska Tíme Tímeata Tímeatriska Tímeatrix Tünda Tündea Ver Verola Verolina Verona Veroska Veréz Villa Villana Vilmal Violanka Violina Violya Virola Virolia Virolya Vironica Zit Zitalia Zsana Zsanit Zsanka Zsanna Zsuzsa Zsuzsana Zsuzsania Zsuzsanikó Zsuzsanka Zsófianata
+            }
+			
+			
+			second_names = {
+				Abdulcs Abduvac Ajklekel Andorius Andy Annusnyi Arpadszky Arpady Balac Balicsény Ballac Ballésházy Balovszky Balskas Balskay Baly Balza Baris Baristz Basdy Bendszky Boczy Boras Borgo Buksba Burzsa Bár Báthay Cizinci Cizinsky Corff Csandszely Csi Csillacemeros Csincz Csiri Csivor Csolay Csolgygi Csollandski Csoly Czegi Czok Czokai Czoni Darcz Divozky Dobandy Dohnary Dohnkickes Dombik Dora Doratyi Dorerahnandy Dorzh Egeti Ellay Far Fartos Fazda Ferban Firallan Foldorf Foly Gabok Gaboraszek Gasna Gazegi Gazenyi Gecsky Ger Gerekasdy Gerodi Goenyi Grofi Gubori Guris Gurkus Gurtanyi Gurtonan Gurtosiszky Gyoskis Gyusapekes Götvány Götvös Götzency Hamoralyi Hamosi Hawli Hawliyes Hedes Hedevichn Hedi Hedik Hedlytschetes Heidrai Hokolymos Hokona Hokonty Holdorath Holtaly Holti Hora Horai Horgos Horis Horodik Horthay Hortos Hou Hrutsch Hunyos Illacch Illad Illag Illai Illasne Illay Ilymos Iman Istz Jaganyi Jagnodi Jago Jasi Joós Kajos Kalay Kalics Kambi Kamos Kamoska Kas Kazsaboka Kazsan Keblo Keblov Kemer Kersa Kertofi Khuendulai Kirai Kne Knech Knechnany Kobokai Kobosi Kocsky Koczy Kodallovincy Koroly Kos Kosisolgy Koskas Kosonik Kovar Kovay Kovszevicker Krofter Krosza Kulazdai Kulcs Kuran Kuratyus Kurgáchn Kurtangra Kurzsa Kuti Kutkay Káldik Káldor Káldoran Káldosi Lajdaladi Lajetar Lajosny Lajthonko Lajtonkefaga Lajtosi Lak Lako Lasi Ler Ligadasz Ligani Ligely Lipta Liptaki Liptar Lissurth Lobereneckera Lubourzh Lusak Lusnyac Madagy Malmar Maly Man Mangleres Matosos Matyulay Mecky Mecsa Min Minczi Minglek Minskacsko Minsky Molymorvary Molytscar Munkeler Nagerzekai Nejetan Nemen Nemeny Nosi Novarczy Nyi Nyincz Nyinus Nádarf Oimenerbo Oimer Ono Ononai Orda Oubocz Ouby Pan Petran Piotes Pis Piss Pokas Poldevin Poligely Pon Poni Ponkody Potes Potesi Prihong Priss Pro Profi Pázy Pócsapek Raka Rdzsassek Rezeki Ront Rtesi Révagi Révar Révary Sacchetes Sacsi Sagno Sanglek Sankobecs Sanyi Sapekely Sapsz Sapszenyorffy Sapszky Sarian Sarnechnkij Schetar Sjsillek Sohnai Sohnkes Solbaum Soldik Solnarody Solyesvary Soó Stalasz Startos Stos Stoskinska Stoss Supolgy Supolyes Svalay Svar Sza Szallas Szalman Szaly Szecska Szekelery Szely Szemenyor Szendosi Szon Szucne Szuha Szuhodi Sütouha Tel Temerati Temkossy Tes Tesi Tesza Thurati Thurtosi Tisolgy Tissek Tissuthay Tissy Tistvös Toltess Tothorserbaum Tökelyesi Ujakobo Urber Var Vass Vassekera Vavorissy Velekics Velik Vely Ver Verczi Verserek Vidt Weszki Zavalek Zingerzene Zríny Zsony Zubik Zubo Zuborsoni
+			}
+            regnal_first_names_male = {
+				Alpárd Baladár Ervános Györgely Henó Lajmund Megy Rombrus Szaba Tibolcs Zsoly
+            }
+           
+            regnal_first_names_female = {
+				Anelka Barix Franika Judikó Kornelin Marikó Namea Rózsanka Tímeatrix Vilmal Zsanit
+            }
+			
+			
+			regnal_second_names = {
+				Arpady Baristz Czok Dobandy Goenyi Jasi Kajos Kalics Koczy Káldoran Orda Pázy Révary Sapszky Szely Tes Vavorissy Vely
+			}
+		}
+	}
+}

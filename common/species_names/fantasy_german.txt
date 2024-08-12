@@ -1,0 +1,425 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	streissach = {
+		name = Streissachan
+		plural = Streissachans
+		home_planet = Streissach
+		home_system = Streissach
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	gotspeifer = {
+		name = Gotspeiferian
+		plural = Gotspeiferians
+		home_planet = Gotspeifer
+		home_system = Dunkerpoff
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	mackenlurg = {
+		name = Mackenlurgian
+		plural = Mackenlurgians
+		home_planet = "Hunzenpafer Mackenlurg"
+		home_system = "Hunzenpafer Kreis-Lalt"
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	krimald = {
+		name = Krimald
+		plural = Krimald
+		home_planet = "Krimaldesch Walger"
+		home_system = "Krimaldesch Mundschart"
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	swabelein = {
+		name = Swabelein
+		plural = Swabelein
+		home_planet = Pratzenkrugedt
+		home_system = Olbeschard
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	zweitz = {
+		name = Zweitzian
+		plural = Zweitzians
+		home_planet = Zweitz
+		home_system = Zweitz
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	anshert = {
+		name = Anshertian
+		plural = Anshertians
+		home_planet = Anshert
+		home_system = Anshert 
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	endanard = {
+		name = Endanardan
+		plural = Endanardans
+		home_planet = Endanard
+		home_system = Endanard
+		name_list = "cybrxkhan_fantasy_german"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	berghaus = {
+		name = Berghausian
+		plural = Berghausians
+		home_planet = Berghaus
+		home_system = Berghaus 
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	morningswatch = {
+		name = Fadorf
+		plural = Fadorf
+		home_planet = "Morning's Watch"
+		home_system = "Pale Peace" 
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	jameinlich = {
+		name = Jameinlian
+		plural = Jameinlians
+		home_planet = Jameinlich
+		home_system = Strauskreimer 
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	saturisch = {
+		name = Saturoid
+		plural = Saturoids
+		home_planet = Saturisch
+		home_system = Fesseldorf 
+		name_list = "cybrxkhan_fantasy_german"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	scarfenbart = {
+		name = Scarfenbart
+		plural = Scarfenbart
+		home_planet = Scarfenbart
+		home_system = Wilsach
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	zuweller = {
+		name = Zuwellian
+		plural = Zuwellians
+		home_planet = Zuweller
+		home_system = Fenderbach
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	gringoten = {
+		name = Gringian
+		plural = Gringians
+		home_planet = Gringoten
+		home_system = Bruttisbach
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	melkenwald = {
+		name = Meklenese
+		plural = Meklenese
+		home_planet = Meklenwald
+		home_system = Aufsmachen
+		name_list = "cybrxkhan_fantasy_german"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	relkswald = {
+		name = Relkswaldan  
+		plural = Relkswaldans
+		home_planet = "Relkswald Filda"
+		home_system = "Solbreim Frida"
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	tidesoffate = {
+		name = Bimmese
+		plural = Bimmese
+		home_planet = "Tides of Fate"
+		home_system = Bimmenkausen
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	thurdenpowzer = {
+		name = Thurdenian
+		plural = Thurdenians
+		home_planet = Thurdenpowzer
+		home_system = Hauzenmotten
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	somerkraft = {
+		name = Somerkarian
+		plural = Somerkarians
+		home_planet = Somerkraft
+		home_system = Welks
+		name_list = "cybrxkhan_fantasy_german"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	breichser = {
+		name = Breichser 
+		plural = Breichser
+		home_planet = "Plut Grummeingrach"
+		home_system = "Creiz Grimmeingrach"
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	Kadarsch = {
+		name = Kadarsch 
+		plural = Kadarsch
+		home_planet = "Kadarsch Tule Nuneinkraf"
+		home_system = "Kadarsch Tulich Achgreist"
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	birthedoverchaos = {
+		name = Mittelian
+		plural = Mittelians
+		home_planet = "Birthed over Chaos"
+		home_system = "Thrown to Sky"
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	hermekel = {
+		name = Hermelite
+		plural = Harmelites
+		home_planet = Harmekel
+		home_system = Ichenlich
+		name_list = "cybrxkhan_fantasy_german"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	bollenkauz = {
+		name = Bollenkauz
+		plural = Bollenkauz
+		home_planet = Bollenkauz
+		home_system = Bollenkauz
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	masteroflife = {
+		name = Osselian
+		plural = Osselians
+		home_planet = "Master of Life"
+		home_system = "Master of Heaven"
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	weltzkrama = {
+		name = Kramoid
+		plural = Kramoids
+		home_planet = Weltzkramer
+		home_system = "Aus Majellmich"
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	hanoder = {
+		name = Hanoderian
+		plural = Hanoderians
+		home_planet = Hanoder
+		home_system = Dusselfurt
+		name_list = "cybrxkhan_fantasy_german"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	bachtau = {
+		name = Bachtau
+		plural = Bachtau
+		home_planet = Bachtaufrautanz
+		home_system = Tierdankorf
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	dorfbreuser = {
+		name = Dorfbrian
+		plural = Dorfbrians
+		home_planet = Dorfbreuser
+		home_system = Kertin
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	kargistfuller = {
+		name = Kargistoid
+		plural = Kargistoids
+		home_planet = Kargistfuller
+		home_system = Statenweller
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	dunter = {
+		name = Dunterese
+		plural = Dunterese
+		home_planet = Dunter
+		home_system = Tagersagen
+		name_list = "cybrxkhan_fantasy_german"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	kraudisch = {
+		name = Kraudisch
+		plural = Kraudisch
+		home_planet = Kraudisch
+		home_system = "Kraudisch neim Heuller"
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	charlogeim = {
+		name = Charlogeim
+		plural = Charlogeim
+		home_planet = Charlogeim
+		home_system = Lochmitt
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	schart = {
+		name = Schartan
+		plural = Schartans
+		home_planet = Schart
+		home_system = Schart-Dauer
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	meinzer = {
+		name = Meinzeran
+		plural = Meinzerans
+		home_planet = Meinzer
+		home_system = Thorolf
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	einstat = {
+		name = Einstatan
+		plural = Einstatans
+		home_planet = Einstat
+		home_system = Welksagen
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	holvans = {
+		name = Holvansian
+		plural = Holvansians
+		home_planet = Holvans
+		home_system = Trellest
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	gurst = {
+		name = Gurstian
+		plural = Gurstians
+		home_planet = "Sien Gurst"
+		home_system = "Sien Bavarst"
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	trobelt = {
+		name = Trobeltian
+		plural = Trobeltians
+		home_planet = Trobelt
+		home_system = Trobelt
+		name_list = "cybrxkhan_fantasy_german"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	swelt = {
+		name = Swelter
+		plural = Swelters
+		home_planet = Swelt
+		home_system = Schueller
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	pfelerodsen = {
+		name = Pfelerian
+		plural = Pfelerians
+		home_planet = Pfelerodsen
+		home_system = Schrammerback
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	heinnersgarden = {
+		name = Subbenfein
+		plural = Subbenfein
+		home_planet = "Heinner's Garden"
+		home_system = "Ulthild's Castle"
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	schommel = {
+		name = Schommelian
+		plural = Schommelians
+		home_planet = Schommel
+		home_system = Vannebruck
+		name_list = "cybrxkhan_fantasy_german"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	ardschadish = {
+		name = Schadian
+		plural = Schadians
+		home_planet = Ardschadish
+		home_system = Mogdien
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	dappelbreud = {
+		name = Dappelian
+		plural = Dappelians
+		home_planet = Dappelbreud
+		home_system = Scuellhond
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	gobluck = {
+		name = Gobluckean
+		plural = Gobluckeans
+		home_planet = Gobluck
+		home_system = Wartamel
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	meisselzart = {
+		name = Meiselloid
+		plural = Meiselloids
+		home_planet = Meisselzart
+		home_system = Frudwischer
+		name_list = "cybrxkhan_fantasy_german"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	garich = {
+		name = Weim
+		plural = Weims
+		home_planet = Garich
+		home_system = Raundisbruck
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	steinda = {
+		name = Steindish
+		plural = Steindish
+		home_planet = Steinda
+		home_system = Weneufeld
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	lenefeld = {
+		name = Lenefeldian
+		plural = Lenefeldians
+		home_planet = Lenefeld
+		home_system = Gerruck
+		name_list = "cybrxkhan_fantasy_german"
+	}
+	meindorf = {
+		name = Meindorfish
+		plural = Meindorfish
+		home_planet = Meindorf
+		home_system = Munefels
+		name_list = "cybrxkhan_fantasy_german"
+	}
+}

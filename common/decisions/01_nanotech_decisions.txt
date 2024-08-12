@@ -1,0 +1,62 @@
+decision_nanotech_swarm_create_mothership = {
+	icon = decision_planet_beam
+	sound = event_structural_collapse
+
+	#enactment_time = 360
+	resources = {
+		category = decisions
+	}
+	owned_planets_only = yes
+
+	potential = {
+		is_planet_class = pc_nanotech
+		exists = owner
+		owner = {
+			has_tradition = tr_nanotech_finish 
+		}
+		NOT = {
+			has_modifier = nanotech_nanites_devastated
+			has_planet_flag = summoning_mothership
+		}
+	}
+
+	effect = {
+		custom_tooltip = decision_nanotech_swarm_create_mothership_desc
+	
+		hidden_effect = {
+			set_planet_flag = colony_event
+	        set_planet_flag = summoning_mothership
+			add_modifier = {
+				modifier = nanotech_summoning_mothership
+				days = -1
+			}
+			export_trigger_value_to_variable = {
+				trigger = planet_size
+				variable = num_districts_terravore
+			}
+			export_trigger_value_to_variable = {
+				trigger = count_deposits
+				parameters = {
+					type = d_nanotech_devastation
+				}
+				variable = num_lithoid_blockers
+			}
+			if = {
+				limit = {
+					is_variable_set = num_lithoid_blockers
+				}
+			
+			}
+		}
+		owner = {
+			start_situation = {
+				type = situation_nanotech_create_mothership
+				target = root
+			}
+		}
+	}
+
+ai_weight = {
+	modifier = 10
+}
+}

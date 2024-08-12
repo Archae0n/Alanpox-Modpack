@@ -1,0 +1,228 @@
+﻿### Real Burushaski
+
+cybrxkhan_real_burushaski = {
+	category = "Humanoid"
+
+	#randomized = no
+
+	ship_names = {
+		generic = {
+			Asomoon Axo Ayash Batbat Bayu Bepat Beyenom Bras Burum Buseiko Bush Cel Chaghúrum Chindar Chumo Czapayom Daltás Dohom Donesh Fooh Gachir Gashoskin Gert Ghaan Ghamo Ghosanom Ghughundil Girkis Giye Gonoolanas Haghur Halanz Halden Heyom Jee Katar Matum Moltan Niyo Odel Parish Partaawuus Qhulpi Sa Samandar Sar Shadi Shapik Showa Sorqon Tambalichom Tik Tish Tsil Yatal
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Malthash Star Force" "Heyom Star Force" "Bilas Star Force" "Uyúm Star Force" "Gaganom Star Force" 
+		}
+		sequential_name = HUMAN99_REAL_BURUSHASKI_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = HUMAN99_REAL_BURUSHASKI_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Baardum Bulbul Buwa Czan Dan Dast Diyaarchom Garmun Gochachom Gusparish Guuro Hirqarqaamuc Huk Khorong Larokores Meenis Os Sawo Sheghesom Sher Shoqom Ta Thakthak Thas
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Baaz Bayoo Belis Bilchon Bula Chin Du Echoghon Gaganom Galgi Ghasichom Glinom Hal Hasto Jee Oulus Oveljiyeshom Shekark Shoqom Tal Toll Tootaan Ut
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				Bayoo Belis Du Galgi Oulus Toll
+			}
+			
+			regnal_second_names = {
+				Czolom Garom Ghashep Haralt Oveljiyeshom
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+spriteTypes = {
+	### Edicts ###
+	spriteType = {
+		name = "GFX_edict_realspace_menu_icon"
+		textureFile = "gfx/interface/icons/edicts/realspace_menu_icon.dds"
+	}
+}

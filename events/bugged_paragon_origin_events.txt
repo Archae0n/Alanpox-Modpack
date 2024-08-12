@@ -1,0 +1,200 @@
+namespace = bugged_uor_event
+
+country_event = { #Ruler Insight - Thermal Borehole tech option
+	id = bugged_uor_event.1
+	title = "bugged_uor_event.1.name"
+	desc = "bugged_uor_event.1.desc"
+	picture = GFX_evt_legendary_leader
+	show_sound = event_celebration
+	event_window_type = leader_story
+
+	picture_event_data = {
+		portrait = root.owner.ruler
+		room = root.owner
+	}
+
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = paragon.origin.insight
+	}
+	after = {
+		if = {
+			limit = {
+				NOT = { has_technology = tech_bugged_thermal_borehole }
+			}
+			add_research_option = tech_bugged_thermal_borehole
+			add_tech_progress = {
+				tech = tech_bugged_thermal_borehole
+				progress = 0.05
+			}
+		}
+		if = {
+			limit = {
+				has_technology = tech_bugged_thermal_borehole
+			}
+			add_monthly_resource_mult = {
+				resource = alloys
+				value = 4
+			}
+		}
+	}
+}
+
+country_event = { #Ruler Insight - Undecided
+	id = bugged_uor_event.2
+	title = "bugged_uor_event.2.name"
+	desc = "bugged_uor_event.2.desc"
+	picture = GFX_evt_legendary_leader
+	show_sound = event_celebration
+	event_window_type = leader_story
+
+	picture_event_data = {
+		portrait = root.owner.ruler
+		room = root.owner
+	}
+
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = paragon.origin.insight
+	}
+	after = {
+		owner = {
+			# ?
+		}
+	}
+}
+
+country_event = { #Ruler Insight - Ruler gains XP
+	id = bugged_uor_event.4
+	title = "bugged_uor_event.4.name"
+	desc = "bugged_uor_event.4.desc"
+	picture = GFX_evt_legendary_leader
+	show_sound = event_celebration
+	event_window_type = leader_story
+
+	picture_event_data = {
+		portrait = root.owner.ruler
+		room = root.owner
+	}
+
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = paragon.origin.insight
+	}
+	after = {
+		owner = {
+			every_owned_leader = {
+				limit = {
+					is_ruler = yes
+				}
+				add_experience = 3000
+			}
+		}
+	}
+}
+
+country_event = { #Ruler Insight - Galactic Markets tech option
+	id = bugged_uor_event.5
+	title = "bugged_uor_event.5.name"
+	desc = "bugged_uor_event.5.desc"
+	picture = GFX_evt_legendary_leader
+	show_sound = event_celebration
+	event_window_type = leader_story
+
+	picture_event_data = {
+		portrait = root.owner.ruler
+		room = root.owner
+	}
+
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = paragon.origin.insight
+	}
+	after = {
+		if = {
+			limit = {
+				NOT = { has_technology = tech_galactic_markets }
+			}
+			add_research_option = tech_galactic_markets
+			add_tech_progress = {
+				tech = tech_galactic_markets
+				progress = 0.05
+			}
+		}
+		if = {
+			limit = {
+				has_technology = tech_galactic_markets
+			}
+			add_monthly_resource_mult = {
+				resource = energy
+				value = 6
+			}
+		}
+	}
+}
+
+country_event = { #Ruler Insight - Unity change me prob
+	id = bugged_uor_event.6
+	title = "bugged_uor_event.6.name"
+	desc = "bugged_uor_event.6.desc"
+	picture = GFX_evt_legendary_leader
+	show_sound = event_celebration
+	event_window_type = leader_story
+
+	picture_event_data = {
+		portrait = root.owner.ruler
+		room = root.owner
+	}
+
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = paragon.origin.insight
+	}
+	after = {
+		owner = {
+			add_monthly_resource_mult = {
+				resource = food
+				value = 6
+			}
+			add_monthly_resource_mult = {
+				resource = unity
+				value = 9
+			}
+		}
+	}
+}

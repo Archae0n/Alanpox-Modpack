@@ -1,0 +1,65 @@
+﻿l_polish:
+
+ cmbrdx.777.name:0 "Failed Nation"
+ cmbrdx.777.desc:0 "Today by majority vote the Galactic Senate has concluded that the services of the Superstate are no longer required, and it should be disbanded. Whether or not this news can be considered great, it is undeniable that the Galaxy does not want to lose it's sovereignity and any attempts by future Superstate contenders will probably fail in a similar manner. Some consider this to be the greatest geopolitical disaster, but some argue it's a 'one step back two step forwards' situation, igniting hope and guaranteeing independence for the foreseeable future. Only time will tell if the failed Superstate will regain it's posture on the Galactic playground and become relevant again, or if a different empire will emerge as the Galaxy's sole hegemon."
+ cmbrdx.777.a:0 "The tragedy..."
+ cmbrdx.777.b:0 "Serves them right!"
+
+
+ ##########Zenith Martlet
+ c_zenithmartlet:0 "Zenith Empire"
+ cmbrdx.001.name:0 "The Zenith of Sentientkind"
+ cmbrdx.001.desc:0 "The Galaxy long yearned for a protector that would defend it with extreme vigilance and dedication. The recently proclaimed Zenith Empire considers itself to be a worthy unyielding protector of all sentient beings, both organic and synthetic.\n\nSome species rejoice in these news, the others heavily oppose the idea, preferring to maintain their own sovereignity over dedicated protectors. The Zenith Emperor Protector has promised that each enemy will face retribution but only time will tell if these promises of freedom and justice are the actual intentions of the Empire, or they merely desire for greater control.\n\nBut one fact is certain, even though the combined strength of the entire galaxy is stunning, the Zenith Empire is impeding."
+
+ cmbrdx.001.a:0 "We will prevail!"
+ cmbrdx.001.b:0 "Again"
+ cmbrdx.001.a.tooltip:0 "The §YGalactic Community§! is now known as the §YZenith Empire§!."
+ cmbrdx.999.c:0 "Blah-blah-blah! Not interested"
+ 
+ rt_rmartlet:0 "Zenith Guardian"
+ civic_rmartlet:0 "Justice"
+ civic_rmartlet_desc:0 "This Empire heavily values justice and defence. It is surprisingly well organized, especially within its judiciary branch of the government, as cases of wrong punishment are extremely rare."
+ gov_zenithmartlet:0 "Overprotective Guardian"
+ gov_zenithmartlet_desc:0 "The intentions of this Empire are to protect each and every sentient being from corruption, violence and greed. It follows a specific protocol to apprehend and intervene in situations of persecution and injustice."
+
+ ##########Banana Republic
+ c_rbanana:0 "Banana Republic"
+ cmbrdx.002.name:0 "The Rise of the Banana Republic"
+ cmbrdx.002.desc:0 "It is the dawn of a new age. The Galactic Community has been reorganised, and now in it's place, stands the almighty Banana Republic. Through many trials and tribulations, the Custodian has become the new ruler of the galaxy.\n\nThe reformed community will be lead through the turbulent future by the new Banana Chancellor, and soon, all will be prosperous.\n\nBut seriously, was it really worth it? Because let's be honest, we all know that you're the only person to do something this dumb. I hope you're proud."
+
+ cmbrdx.002.a:0 "I am. Long live the Banana Republic!"
+ cmbrdx.002.b:0 "Why is the game talking directly to me?"
+ cmbrdx.002.a.tooltip:0 "The §YGalactic Community§! is now known as the §YBanana Republic§!."
+ 
+ rt_rbanana:0 "Banana Chancellor"
+ civic_rbanana:0 "Banana Republic"
+ civic_rbanana_desc:0 "This society has done what many others have thought impossible. Lead the Galaxy into a new era through sheer stupidity. The Banana Republic serves as the epitome of a galaxy's ineptitude, but if it works, I guess it works."
+ gov_rbanana:0 "Republican Core"
+ gov_rbanana_desc:0 "This government has been organised as a grand commercial enterprise that rules the Banana Republic, and is overseen by a board of directors."
+
+ trade_rbanana:0 "Banana Republic"
+ trade_conversion_BANANAS_name:0 "$trade_rbanana$"
+ trade_rbanana_desc:0 "After all why not? Why shouldn't we bathe in bananas, erhm, credits I mean. Energycredits\n\n§EEach collected £trade_value£ §YTrade Value§! earns us £energy£ §Y0.5§!, £consumer_goods£ §Y0.25§!, £food£ §Y0.25§! and £unity£ §Y0.25§!§!"
+
+ mod_envoy_skill_levels:0 "Envoy Skill"
+
+############################################################
+####                  RESOLUTIONS                       ####
+############################################################
+
+
+ cmbrdx_proclamations:0 "Formable Nations"
+ 
+ resolution_category_rdxproclaim:0 "Secret Superstates"
+ 
+ resolution_rdxproclaim_zenith:0 "Zenith of Cosmos"
+ resolution_rdxproclaim_zenith_desc:0 "We shall uphold justice and protect our citizens across the Galaxy. So much pain and suffering has been seen but our will is resolute. We kindly took the role of a guardian, so we will extend our priviliges and defend each and every being of the galaxy from threats both internal and external. We shall eclipse all other empires as we are the true Zenith of Cosmos"
+ resolution_rdxproclaim_zenith_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YZenith Empire§!, adopting an §YImperial§! government. All incompatible §YCivics§! are removed.§!"
+ resolution_rdxproclaim_zenith_nope:0 "Disband the Zenith Empire"
+ resolution_rdxproclaim_zenith_nope_desc:0 "This joke of an Empire only threatens us with justice and retribution, but so far they have only inflicted misery. If this keeps on going, the Superstate will disintegrate and throw the galaxy into chaos, we must be prepared for that and disband the Superstate while we still can!"
+
+ resolution_rdxproclaim_banana:0 "Form the Banana Republic?"
+ resolution_rdxproclaim_banana_desc:0 "With a new Corporate outlook on the Galactic Community, it is the Custardia... Custodian's duty to lead the Galaxy to a brighter future. Henceforth, the Galactic Community shall now be reorganised into the New Banana Republic!\n\"I love Banananas\" - Chancellor Pulpatine"
+ resolution_rdxproclaim_banana_tooltip:0 "§RThe §YGalactic Custodian§! becomes the §YBanana Republic§!. All incompatible §YCivics§! are removed.§!"
+ resolution_rdxproclaim_banana_nope:0 "Disband the Banana Republic"
+ resolution_rdxproclaim_banana_nope_desc:0 "Alright the joke's been running for far more than it should've been. Time to end this idiotic sharade!"

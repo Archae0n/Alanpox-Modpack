@@ -1,0 +1,11 @@
+virtuality_server_shutdown = {
+	icon = "gfx/interface/icons/planet_modifiers/virtuality_1.dds"
+	custom_tooltip = virtuality_server_shutdown_tooltip
+	icon_frame = 3
+}
+
+virtuality_server_dismantled = {
+	icon = "gfx/interface/icons/planet_modifiers/virtuality_1.dds"
+	custom_tooltip = virtuality_server_dismantled_tooltip
+	icon_frame = 3
+}

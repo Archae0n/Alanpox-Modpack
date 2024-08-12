@@ -1,0 +1,107 @@
+special_project = {
+    key = rwf_past_visitors_relic
+	#cost = 0
+	days_to_research = 360
+	tech_department = society_technology
+	picture = GFX_evt_ancient_records
+	icon = "gfx/interface/icons/situation_log/situation_log_quest.dds"
+
+	event_scope = planet_event
+
+	location = yes
+
+	on_success = {
+		planet_event = { id = rwf_flavour.61 }
+	}
+}
+
+special_project = {
+    key = rwf_past_visitors_hideout
+	#cost = 0
+	days_to_research = 360
+	tech_department = engineering_technology
+	picture = GFX_evt_mining_station
+	icon = "gfx/interface/icons/situation_log/situation_log_quest.dds"
+
+	event_scope = ship_event
+
+	location = yes
+
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+	}
+
+	on_success = {
+		ship_event = { id = rwf_flavour.62 }
+	}
+}
+
+special_project = {
+    key = rwf_lost_dreadnought
+	days_to_research = 360
+	tech_department = engineering_technology
+	picture = GFX_evt_engineering_cache
+	icon = "gfx/interface/icons/situation_log/situation_log_quest.dds"
+
+	event_scope = ship_event
+
+	location = yes
+
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+	}
+
+	on_success = {
+		ship_event = { id = rwf_flavour.82 }
+	}
+}
+
+special_project = {
+    key = rwf_lost_dreadnought_repair
+	days_to_research = 1080
+	tech_department = engineering_technology
+	picture = GFX_evt_megastructure_construction
+	icon = "gfx/interface/icons/situation_log/situation_log_quest.dds"
+
+	event_scope = ship_event
+
+	location = yes
+
+	requirements = {
+		shipclass_constructor = 1
+	}
+
+	on_success = {
+		# Quick and dirty way to unlock it without fucking around with events to scope right
+		solar_system = {
+			every_fleet_in_system = {
+				limit = { has_modifier = rwf_damaged_systems}
+				set_event_locked = no
+				remove_modifier = rwf_damaged_systems
+			}
+		}
+	}
+}
+
+special_project = {
+    key = rwf_mysterious_relic_beacon
+	days_to_research = 360
+	tech_department = engineering_technology
+	picture = GFX_evt_obelisk_tourists
+	icon = "gfx/interface/icons/situation_log/situation_log_quest.dds"
+
+	event_scope = ship_event
+
+	location = yes
+
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+	}
+
+	on_success = {
+		ship_event = { id = rwf_flavour.111 }
+	}
+}

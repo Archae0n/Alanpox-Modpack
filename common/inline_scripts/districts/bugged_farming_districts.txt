@@ -1,0 +1,55 @@
+# $BUGGED_FARMER_COUNT$ = Half of the districts job count
+# $BUGGED_HOUSING_COUNT$ = Half of base housing on the district
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_bugged_hive_livestock_farmers
+		}
+	}
+	modifier = {
+		planet_livestock_produces_mult = 0.$BUGGED_FARMER_COUNT$
+		job_agri_drone_add = -$BUGGED_FARMER_COUNT$
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_valid_civic = civic_bugged_agrarian_idyll_corpo
+		}
+	}
+	modifier = {
+		planet_max_buildings_add = 0.25
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_housing_agrarian_idyll
+			has_valid_civic = civic_bugged_agrarian_idyll_corpo
+		}
+	}
+	modifier = {
+		planet_housing_add = 1
+	}
+}
+
+#CORP AGRARIAN
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = tech_housing_2
+			has_valid_civic = civic_bugged_agrarian_idyll_corpo
+		}
+	}
+	modifier = {
+		planet_housing_add = -$BUGGED_HOUSING_COUNT$
+	}
+}

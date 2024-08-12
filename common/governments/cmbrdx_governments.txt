@@ -1,0 +1,26 @@
+#
+gov_zenithmartlet = {
+	ruler_title = rt_rmartlet
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_rmartlet
+	}
+
+	weight = {
+		base = 5000
+	}
+}
+#
+gov_rbanana = {
+	ruler_title = rt_rbanana
+	should_force_rename = yes
+
+	possible = {
+		has_valid_civic = civic_rbanana
+	}
+
+	weight = {
+		base = 5000
+	}
+}

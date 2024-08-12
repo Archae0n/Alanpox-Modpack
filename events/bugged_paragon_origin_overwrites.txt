@@ -1,0 +1,568 @@
+namespace = paragon
+
+country_event = { #Little conclusion of first situation
+	id = paragon.5020
+	title = "paragon.5020.name"
+	desc = "paragon.5020.desc"
+	picture = GFX_evt_enclave_overlord
+	show_sound = event_factions
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	immediate = {
+	}
+	
+	option = { #Change to Imperial
+		name = paragon.5020.a
+		custom_tooltip = paragon.5020.a.tt
+		hidden_effect = {
+			set_origin = origin_legendary_leader_imperial
+			ruler = {
+				change_variable = {
+					which = paragon_origin_story_ruling
+					value = 1
+				}
+			}
+			country_event = {
+				id = paragon.5021 days = 90
+			}
+		}
+		change_government = {
+			authority = auth_imperial
+			remove_invalid_civics = yes
+		}
+		if = {
+			limit = { is_authoritarian = no}
+			shift_ethic = ethic_authoritarian
+		}
+	}
+	option = { #Stay Dictatorship
+		name = paragon.5020.b
+		custom_tooltip = paragon.5020.b.tt
+		hidden_effect = {
+			country_event = {
+				id = paragon.5059 days = 3600 random = 3600
+			}
+			country_event = {
+				id = paragon.5058 days = 7200 random = 3600
+			}
+		}
+	}
+}
+
+# country_event = { #Coronation
+# 	id = paragon.5021
+# 	title = "paragon.5021.name"
+# 	desc = "paragon.5021.desc"
+# 	picture = GFX_evt_coronation
+# 	show_sound = event_coronation
+
+# 	is_triggered_only = yes
+
+# 	trigger = {
+# 		exists = ruler
+# 		ruler = { has_leader_flag = paragon_origin_legendary_leader }
+# 	}
+
+# 	immediate = {
+# 		country_event = {
+# 			id = paragon.5050 days = 1800 random = 3600
+# 		}
+# 		while = {
+# 			count = value:paragon_take_10pr_pops
+# 			random_owned_pop = {
+# 				limit = {
+# 					NOT = { pop_has_ethic = ethic_egalitarian }
+# 				}
+# 				pop_change_ethic = ethic_egalitarian
+# 			}
+# 		}
+# 	}
+
+# 	option = {
+# 		name = paragon.5021.a
+# 		trigger = {
+# 			is_militarist = yes
+# 			NOT = {
+# 				ruler = {
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_military_knowledge }
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_foe_hammer }
+# 				}
+# 			}
+# 		}
+# 		locked_random_list = {
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_military_knowledge }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_military_knowledge }
+# 			}
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_foe_hammer }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_foe_hammer }
+# 			}
+# 		}
+# 	}
+# 	option = {
+# 		name = paragon.5021.b
+# 		trigger = {
+# 			is_spiritualist = yes
+# 			NOT = {
+# 				ruler = {
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_great_teacher }
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_pious_ascet }
+# 				}
+# 			}
+# 		}
+# 		locked_random_list = {
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_great_teacher }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_great_teacher }
+# 			}
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_pious_ascet }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_pious_ascet }
+# 			}
+# 		}
+# 	}
+# 	option = {
+# 		name = paragon.5021.c
+# 		trigger = {
+# 			is_authoritarian = yes
+# 			NOT = {
+# 				ruler = {
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_commanding_presence }
+# 					# has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_high_king }
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_hard_ruler }
+# 				}
+# 			}
+# 		}
+# 		locked_random_list = {
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_commanding_presence }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_commanding_presence }
+# 			}
+# 			# 1 = {
+# 			# 	modifier = {
+# 			# 		factor = 0
+# 			# 		ruler = {
+# 			# 			has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_high_king }
+# 			# 		}
+# 			# 	}
+# 			# 	ruler = { add_trait = leader_trait_legendary_high_king }
+# 			# }
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_hard_ruler }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_bugged_legendary_hard_ruler }
+# 			}
+# 		}
+# 	}
+# 	option = {
+# 		name = paragon.5021.d
+# 		trigger = {
+# 			is_xenophile = yes
+# 			NOT = {
+# 				ruler = {
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_gunboat_diplomacy }
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_scientific_diplomacy }
+# 				}
+# 			}
+# 		}
+# 		locked_random_list = {
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_gunboat_diplomacy }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_gunboat_diplomacy }
+# 			}
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_scientific_diplomacy }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_scientific_diplomacy }
+# 			}
+# 		}
+# 	}
+# 	option = {
+# 		name = paragon.5021.e
+# 		trigger = {
+# 			is_pacifist = yes
+# 			NOT = {
+# 				ruler = {
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_autarky }
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_natural_ruler }
+# 				}
+# 			}
+# 		}
+# 		locked_random_list = {
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_autarky }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_autarky }
+# 			}
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_natural_ruler }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_natural_ruler }
+# 			}
+# 		}
+# 	}
+# 	option = {
+# 		name = paragon.5021.f
+# 		trigger = {
+# 			is_materialist = yes
+# 			NOT = {
+# 				ruler = {
+# 					# has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_industry_titan }
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_great_inventor }
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_dedicated_explorer }
+# 				}
+# 			}
+# 		}
+# 		locked_random_list = {
+# 			# 1 = {
+# 			# 	modifier = {
+# 			# 		factor = 0
+# 			# 		ruler = {
+# 			# 			has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_industry_titan }
+# 			# 		}
+# 			# 	}
+# 			# 	ruler = { add_trait = leader_trait_legendary_industry_titan }
+# 			# }
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_dedicated_explorer }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_bugged_legendary_dedicated_explorer }
+# 			}
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_great_inventor }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_great_inventor }
+# 			}
+# 		}
+# 	}
+# 	option = {
+# 		name = paragon.5021.g
+# 		trigger = {
+# 			is_xenophobe = yes
+# 			NOT = {
+# 				ruler = {
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_genetic_purist }
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_evervigilant }
+# 				}
+# 			}
+# 		}
+# 		locked_random_list = {
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_genetic_purist }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_genetic_purist }
+# 			}
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_evervigilant }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_evervigilant }
+# 			}
+# 		}
+# 	}
+# 	option = {
+# 		name = bugged_uor.1.a
+# 		trigger = {
+# 			is_elitist = yes
+# 			NOT = {
+# 				ruler = {
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_high_king }
+# 					# has_trait_tier1or2or3 = { TRAIT = ELITIST_PLACEHOLDER }
+# 				}
+# 			}
+# 		}
+# 		locked_random_list = {
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_high_king }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_high_king }
+# 			}
+# 			# 1 = {
+# 			# 	modifier = {
+# 			# 		factor = 0
+# 			# 		ruler = {
+# 			# 			has_trait_tier1or2or3 = { TRAIT = ELITIST_PLACEHOLDER }
+# 			# 		}
+# 			# 	}
+# 			# 	ruler = { add_trait = ELITIST_PLACEHOLDER }
+# 			# }
+# 		}
+# 	}
+# 	option = {
+# 		name = bugged_uor.2.b
+# 		trigger = {
+# 			is_anthropocentric = yes
+# 			NOT = {
+# 				ruler = {
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_industry_titan }
+# 					# has_trait_tier1or2or3 = { TRAIT = ANTHROPOCENTRIC_PLACEHOLDER }
+# 				}
+# 			}
+# 		}
+# 		locked_random_list = {
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_legendary_industry_titan }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_legendary_high_king }
+# 			}
+# 			# 1 = {
+# 			# 	modifier = {
+# 			# 		factor = 0
+# 			# 		ruler = {
+# 			# 			has_trait_tier1or2or3 = { TRAIT = ANTHROPOCENTRIC_PLACEHOLDER }
+# 			# 		}
+# 			# 	}
+# 			# 	ruler = { add_trait = ANTHROPOCENTRIC_PLACEHOLDER }
+# 			# }
+# 		}
+# 	}
+# 	option = {
+# 		name = bugged_uor.2.c
+# 		trigger = {
+# 			is_ecocentric = yes
+# 			NOT = {
+# 				ruler = {
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_ranger }
+# 					# has_trait_tier1or2or3 = { TRAIT = ECOCENTRIC_PLACEHOLDER }
+# 				}
+# 			}
+# 		}
+# 		locked_random_list = {
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_ranger }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_bugged_legendary_ranger }
+# 			}
+# 			# 1 = {
+# 			# 	modifier = {
+# 			# 		factor = 0
+# 			# 		ruler = {
+# 			# 			has_trait_tier1or2or3 = { TRAIT = ECOCENTRIC_PLACEHOLDER }
+# 			# 		}
+# 			# 	}
+# 			# 	ruler = { add_trait = ECOCENTRIC_PLACEHOLDER }
+# 			# }
+# 		}
+# 	}
+# 	option = {
+# 		name = bugged_uor.2.d
+# 		trigger = {
+# 			is_cooperative = yes
+# 			NOT = {
+# 				ruler = {
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_cooperative }
+# 					# has_trait_tier1or2or3 = { TRAIT = COOPERATIVE_PLACEHOLDER }
+# 				}
+# 			}
+# 		}
+# 		locked_random_list = {
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_cooperative }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_bugged_legendary_cooperative }
+# 			}
+# 			# 1 = {
+# 			# 	modifier = {
+# 			# 		factor = 0
+# 			# 		ruler = {
+# 			# 			has_trait_tier1or2or3 = { TRAIT = COOPERATIVE_PLACEHOLDER }
+# 			# 		}
+# 			# 	}
+# 			# 	ruler = { add_trait = COOPERATIVE_PLACEHOLDER }
+# 			# }
+# 		}
+# 	}
+# 	option = {
+# 		name = bugged_uor.2.e
+# 		trigger = {
+# 			is_competitive = yes
+# 			NOT = {
+# 				ruler = {
+# 					has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_great_investor }
+# 					# has_trait_tier1or2or3 = { TRAIT = COMPETITIVE_PLACEHOLDER }
+# 				}
+# 			}
+# 		}
+# 		locked_random_list = {
+# 			1 = {
+# 				modifier = {
+# 					factor = 0
+# 					ruler = {
+# 						has_trait_tier1or2or3 = { TRAIT = leader_trait_bugged_legendary_great_investor }
+# 					}
+# 				}
+# 				ruler = { add_trait = leader_trait_bugged_legendary_great_investor }
+# 			}
+# 			# 1 = {
+# 			# 	modifier = {
+# 			# 		factor = 0
+# 			# 		ruler = {
+# 			# 			has_trait_tier1or2or3 = { TRAIT = COMPETITIVE_PLACEHOLDER }
+# 			# 		}
+# 			# 	}
+# 			# 	ruler = { add_trait = COMPETITIVE_PLACEHOLDER }
+# 			# }
+# 		}
+# 	}
+# 	option = {
+# 		name = paragon.5021.h
+# 		paragon_origin_gain_modifier = yes
+# 	}
+
+# 	after = {
+# 		add_modifier = {
+# 			modifier = media_coverage_positive_low
+# 			days = 360
+# 		}
+# 	}
+# }
+
+# country_event = { #Started the war
+# 	id = paragon.5211
+# 	title = "paragon.5211.name"
+# 	desc = "paragon.5211.desc"
+# 	picture = GFX_evt_open_revolt
+# 	show_sound = event_radio_chatter
+
+# 	is_triggered_only = yes
+
+# 	trigger = {
+# 		exists = this
+# 		has_modifier = paragon_origin_rebel_player
+# 	}
+
+# 	immediate = {
+# 		set_country_flag = won_with_1
+# 	}
+
+# 	option = {
+# 		name = paragon.5211.a
+# 	}
+# 	option = {
+# 		name = paragon.5211.b
+# 		trigger = {
+# 			NOT = { is_xenophobe = yes }
+# 		}
+# 		switch = {
+# 			trigger = has_ethic
+# 			ethic_xenophile = {
+# 				shift_ethic = ethic_xenophobe
+# 			}
+# 			ethic_xenophobe = {
+# 				shift_ethic = ethic_xenophile
+# 			}
+# 			ethic_militarist = {
+# 				shift_ethic = ethic_pacifist
+# 			}
+# 			ethic_pacifist = {
+# 				shift_ethic = ethic_militarist
+# 			}
+# 			ethic_spiritualist = {
+# 				shift_ethic = ethic_materialist
+# 			}
+# 			ethic_materialist = {
+# 				shift_ethic = ethic_spiritualist
+# 			}
+# 			ethic_anthropocentric = {
+# 				shift_ethic = ethic_ecocentric
+# 			}
+# 			ethic_ecocentric = {
+# 				shift_ethic = ethic_anthropocentric
+# 			}
+# 			ethic_pluralist = {
+# 				shift_ethic = ethic_elitist
+# 			}
+# 			ethic_elitist = {
+# 				shift_ethic = ethic_pluralist
+# 			}
+# 			ethic_competitive = {
+# 				shift_ethic = ethic_cooperative
+# 			}
+# 			ethic_cooperative = {
+# 				shift_ethic = ethic_competitive
+# 			}
+# 		}
+# 	}
+# }

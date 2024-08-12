@@ -1,0 +1,409 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	baginov = {
+		name = Baginovian
+		plural = Baginovians
+		home_planet = Baginov
+		home_system = Maghdadze
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	fallencinders = {
+		name = Gugartki
+		plural = Gugartkis
+		home_planet = "Fallen Cinders"
+		home_system = "Scorched Wellspring"
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	ameteltkibili = {
+		name = Khonni
+		plural = Khonni
+		home_planet = Ameteltkibili
+		home_system = Tkidze
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	sherkeliprime = {
+		name = Sherkelese
+		plural = Sherkelese
+		home_planet = "Sherkeli Prime"
+		home_system = Sherkeli
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	saghdandiani = {
+		name = Saghdanoid
+		plural = Saghdanoids
+		home_planet = Saghdandiani
+		home_system = Maghdadze
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	tusudabatov = {
+		name = Tusudabite
+		plural = Tusudabites
+		home_planet = Tusudabatov
+		home_system = "Nani Rati" 
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	everlastinggoldenfields = {
+		name = Ra'Dadze
+		plural = Ra'Dadze
+		home_planet = "Everlasting Golden-Fields"
+		home_system = "Root of Life" 
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	taradili = {
+		name = Taradilite
+		plural = Taradilites
+		home_planet = Taradili
+		home_system = Potafonov 
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	babtbia = {
+		name = Babatboid
+		plural = Babatboids
+		home_planet = Bab'Tbia
+		home_system = Rustavakht 
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	nanveli = {
+		name = Nanvelian
+		plural = Nanvelians
+		home_planet = Nanveli
+		home_system = Zourasov 
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	sheidze = {
+		name = Sheidzean
+		plural = Sheidzeans
+		home_planet = Sheidze
+		home_system = Abuli
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	kobulakhmeidze = {
+		name = Kobulakhite
+		plural = Kobulakhites
+		home_planet = Kobulakhmeidze
+		home_system = Venerkuraz
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	vezov = {
+		name = Vezovid
+		plural = Vezovids
+		home_planet = Vezov
+		home_system = Gartsmi
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	ratovvakhi = {
+		name = Ratovakhoid
+		plural = Ratovakhoids
+		home_planet = "Ratov Vakhi"
+		home_system = Criiskhri
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	sherov = {
+		name = Sherovian
+		plural = Sherovians
+		home_planet = Sherov
+		home_system = Sholadzev
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	melisagradia = {
+		name = Sagradian  
+		plural = Sagradians
+		home_planet = "Meli Sagradia"
+		home_system = Pavilidze
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	amiabatavan = {
+		name = Abatavanite  
+		plural = Abatavanites
+		home_planet = Ami-Abatavan
+		home_system = Ami-Abatavan
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	bagvilian = {
+		name = Bagvilian  
+		plural = Bagvilians
+		home_planet = Bagvili
+		home_system = Tsarabelikheiri
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	bloodoftheangels = {
+		name = Babegishvi  
+		plural = Babegishvi
+		home_planet = "Blood of the Angels"
+		home_system = "Jaundice of the Demons"
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	begirit = {
+		name = Begiritoid  
+		plural = Begiritoids
+		home_planet = Begirit
+		home_system = Nemenov
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	tsqashvili = {
+		name = Tsqash 
+		plural = Tsqash
+		home_planet = Tsqashvili
+		home_system = Guraulauli
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	gedestov = {
+		name = Khi-Geli 
+		plural = Khi-Geli
+		home_planet = Gedestov
+		home_system = Potanstov
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	amatoni = {
+		name = Amatonid 
+		plural = Amatonids
+		home_planet = Amatoni
+		home_system = Taridze
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	telishalavil = {
+		name = Jamanid 
+		plural = Jamanids
+		home_planet = "Teli Shalavil"
+		home_system = "Knsi Shalavil"
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	gedopli = {
+		name = Gedopsian 
+		plural = Gedopsians
+		home_planet = Gedopli
+		home_system = Vakuramazov
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	bronzetsereli = {
+		name = Tserelite
+		plural = Tserelites
+		home_planet = "Bronze Tsereli"
+		home_system = "Golden Tsereli"
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	turashvili = {
+		name = Turashvian
+		plural = Turashvians
+		home_planet = Turashvili
+		home_system = Khergirbeladze
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	khikragovtheunassailable = {
+		name = Aratinskian
+		plural = Aratinskians
+		home_planet = "Khikragov the Unassailable"
+		home_system = "Azarishvil the Unerring"
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	bornika = {
+		name = Bornikan
+		plural = Bornikans
+		home_planet = Bornika
+		home_system = Taramelekhvi
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	botuni = {
+		name = Botunese
+		plural = Botunese
+		home_planet = Botuni
+		home_system = Siugalenkli
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	maramandia = {
+		name = Maramandian
+		plural = Maramandians
+		home_planet = Maramandia
+		home_system = "Kobia Senov"
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	granddesignofthelight = {
+		name = Maradzean
+		plural = Maradzeans
+		home_planet = "Grand Design of the Light"
+		home_system = "Righteous Pride"
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	insala = {
+		name = Inasalan
+		plural = Inasalans
+		home_planet = Inasala
+		home_system = Khilidze
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	guliketi = {
+		name = Tsik
+		plural = Tsiks
+		home_planet = "Guli Keti"
+		home_system = "Guli Manveli"
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	kobibeshvili = {
+		name = Kobeshian
+		plural = Kobeshians
+		home_planet = "Kobi Beshvili"
+		home_system = Mukhvilianov
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	ketrov = {
+		name = Ketrovite
+		plural = Ketrovites
+		home_planet = Ketrov
+		home_system = Taranov
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	firsttbiashvili = {
+		name = Tbi-Ash
+		plural = Tbi-Ash
+		home_planet = "First Tbiashvili"
+		home_system = "Second Tbiashvili"
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	turgutadiani = {
+		name = Turgutadian
+		plural = Turgutadians
+		home_planet = Turgutadiani
+		home_system = Makheirbeli
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	davlekiliprime = {
+		name = Davlekilian
+		plural = Davlekilians
+		home_planet = "Davlekili Prime"
+		home_system = Davlekili
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	zugay = {
+		name = Zug
+		plural = Zugs
+		home_planet = Zugay
+		home_system = Senikov
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	kerad = {
+		name = Keradite
+		plural = Keradites
+		home_planet = Kerad
+		home_system = "Ara Abkhvili"
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	kurkidzholov = {
+		name = Khieli
+		plural = Khieli
+		home_planet = Kurkidzholov
+		home_system = Sumbasov
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	khovkavan = {
+		name = "Khov Kavanite"
+		plural = "Khov Kavanites"
+		home_planet = "Khov Kavan"
+		home_system = IUbria
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	orustani = {
+		name = Orustanite
+		plural = Orustanites
+		home_planet = Orustani
+		home_system = Emuridze
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	abkha = {
+		name = Abkhoid
+		plural = Abkhoids
+		home_planet = Abkha
+		home_system = Orbelsky
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	khidze = {
+		name = Khidzean
+		plural = Khidzeans
+		home_planet = Khidze
+		home_system = Sikaev
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+}
+
+
+### AQUATICS
+
+AQUATIC = {
+	kakimelov = {
+		name = Kakimel
+		plural = Kakimels
+		home_planet = Kakimelov
+		home_system = Endrov
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	arghdani = {
+		name = Arghdanid
+		plural = Arghdanids
+		home_planet = Arghdani
+		home_system = Inato
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	andron = {
+		name = Andronese
+		plural = Andronese
+		home_planet = Andron
+		home_system = Makhet
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+	pavdgia = {
+		name = Pavdgian
+		plural = Pavdgians
+		home_planet = Pavdgia
+		home_system = Zourdze
+		name_list = "cybrxkhan_handmade_georgian"
+	}
+}
+

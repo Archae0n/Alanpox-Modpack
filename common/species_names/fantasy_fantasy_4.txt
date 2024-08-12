@@ -1,0 +1,455 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	angina = {
+		name = Anginan
+		plural = Anginans
+		home_planet = Angina
+		home_system = Tasrid
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	veresi = {
+		name = Veresi
+		plural = Veresi
+		home_planet = Baveasar
+		home_system = Chidesar
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	nerichi = {
+		name = Nerichi
+		plural = Nerichi
+		home_planet = "Tiades ce Hefed"
+		home_system = "Tiades ce Ratian"
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	bachial = {
+		name = Bachialan
+		plural = Bachialans
+		home_planet = Vechra-Bachial
+		home_system = Vechra-Fachazlas
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	zabania = {
+		name = Zabanian
+		plural = Zabanians
+		home_planet = Za-bania
+		home_system = "Nha Sara-bania"
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	heval = {
+		name = Hevalan
+		plural = Hevalans
+		home_planet = Heval
+		home_system = Heval
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	beatriche = {
+		name = Beatrichean
+		plural = Beatricheans
+		home_planet = Beatriche
+		home_system = Bice
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	emata = {
+		name = Ematan
+		plural = Ematans
+		home_planet = Emata
+		home_system = Ifesemata 
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	cabamea = {
+		name = Cabamean
+		plural = Cabameans
+		home_planet = Cabamea
+		home_system = Drebedi 
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	feaved = {
+		name = Feavedi
+		plural = Feavedi
+		home_planet = Feaved
+		home_system = Fea-firazal-ved 
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	vatadesa = {
+		name = Vatadesan
+		plural = Vatadesans
+		home_planet = Vatadesa
+		home_system = Nerid
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	zechiatial = {
+		name = Zechiatial
+		plural = Zechiatial
+		home_planet = Miafel
+		home_system = Daveates
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	negacefefrivi = {
+		name = Dededian
+		plural = Dededians
+		home_planet = Nega'Cefefrivi
+		home_system = Nega'Mifecad
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	neabarslegacy = {
+		name = Sares
+		plural = Sares
+		home_planet = "Neabar's Legacy"
+		home_system = "Echren's Hope"
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	mecanga = {
+		name = Mecangoid
+		plural = Mecangoids
+		home_planet = Mecanga
+		home_system = Edinibra
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	arehrel = {
+		name = Arehrelian  
+		plural = Arehrelian
+		home_planet = Are-hrel
+		home_system = Are-Femachi-hrel
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	midaran = {
+		name = Midaran  
+		plural = Midarans
+		home_planet = Nhiamidar
+		home_system = Biamidar
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	idinfasar = {
+		name = Idinaff  
+		plural = Idinaff
+		home_planet = "Idin Fasar"
+		home_system = Biamidar
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	fitiasad = {
+		name = Fitiasaddian  
+		plural = Fitiasaddians
+		home_planet = Fitiasad
+		home_system = Fitiasad
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	beaca = {
+		name = Beacian 
+		plural = Beacians
+		home_planet = "Beaca das Niri"
+		home_system = "Beaca das Riti"
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	hadadima = {
+		name = Hadadiman 
+		plural = Hadadimans
+		home_planet = Hada-Dima
+		home_system = Hada-Tiame-Dima
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	atingesia = {
+		name = Atingesian 
+		plural = Atingesians
+		home_planet = Atingesia
+		home_system = Ezi-Heas
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	dechias = {
+		name = Dechian 
+		plural = Dechians
+		home_planet = Dechias
+		home_system = Cheadesar
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	iavechi = {
+		name = Iavechian
+		plural = Iavechians
+		home_planet = "Iavechi Cadas"
+		home_system = "Neche Cadas"
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	abeata = {
+		name = Abeatan
+		plural = Abeatans
+		home_planet = Abeata
+		home_system = Vlenhen
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	mernhedenia = {
+		name = Nhedenian
+		plural = Nhedenians
+		home_planet = Mer-Nhedenia
+		home_system = Fer-Siameachla
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	divifantasy = {
+		name = Divimoid
+		plural = Divimoids
+		home_planet = Divi
+		home_system = Racean
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	ziare = {
+		name = Ziarese
+		plural = Ziarese
+		home_planet = Ziare
+		home_system = "Ngemil e ca Banial"
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	feavla = {
+		name = Feavlian
+		plural = Feavlians
+		home_planet = Feavla
+		home_system = Nhicase
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	raceanprime = {
+		name = Hean
+		plural = Hean
+		home_planet = "Racean Prime"
+		home_system = Racean
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	ritefen = {
+		name = Ritefenese
+		plural = Ritefenese
+		home_planet = Ritefen
+		home_system = Iataseal
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	trachis = {
+		name = Trachian
+		plural = Trachians
+		home_planet = Trachis
+		home_system = Atichar
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	bleveas = {
+		name = Blevean
+		plural = Bleveans
+		home_planet = Bleveas
+		home_system = "Great Ngacead"
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	enia = {
+		name = Enian
+		plural = Enians
+		home_planet = Enia
+		home_system = Fenhear
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	nhetal = {
+		name = Nhetalan
+		plural = Nhetalans
+		home_planet = "Nhetal ba Hegici"
+		home_system = Nhetal
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	hradlere = {
+		name = Hradlerese
+		plural = Hradlerese
+		home_planet = Hradlere
+		home_system = Riamer
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	sivichi = {
+		name = Sivichese
+		plural = Sivichese
+		home_planet = Sivichi
+		home_system = Imechi
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	itricen = {
+		name = Itricen
+		plural = Itricen
+		home_planet = Itricen
+		home_system = Itricen
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	sadin = {
+		name = Sadinese
+		plural = Sadinese
+		home_planet = Sadin
+		home_system = Netediate
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	catefil = {
+		name = Catefillan
+		plural = Catefillan
+		home_planet = Catefil
+		home_system = "Fiti Anea"
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	raneaflere = {
+		name = Eo
+		plural = Eo
+		home_planet = Ran-Eaflere
+		home_system = Chivian
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	nabasea = {
+		name = Nabass
+		plural = Nabass
+		home_planet = Nabasea
+		home_system = Emiad
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	dfasis = {
+		name = Bacan
+		plural = Bacan
+		home_planet = Dafasis
+		home_system = Viteche
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	chanhal = {
+		name = Chanhalese
+		plural = Chanhalese
+		home_planet = Chanhal
+		home_system = Techanil
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	ngece = {
+		name = Ngecenese
+		plural = Ngecenese
+		home_planet = Ngecen
+		home_system = "Chias'Dad Dan"
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	bacher = {
+		name = Bacherrian
+		plural = Bacherrians
+		home_planet = Bacher
+		home_system = Biachecacen
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	manhebea = {
+		name = Manhebean
+		plural = Manhebeans
+		home_planet = Manhebea
+		home_system = Riamea
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	tatimal = {
+		name = Tatimalese
+		plural = Tatimalese
+		home_planet = Tatimal
+		home_system = Baminha
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	vameblize = {
+		name = Seaziar
+		plural = Seaziar
+		home_planet = Vameblize
+		home_system = Etifal
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	detidase = {
+		name = Detidasan
+		plural = Detidasans
+		home_planet = Detidase
+		home_system = Ciazle
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	zavea = {
+		name = Zavean
+		plural = Zaveans
+		home_planet = Zavea
+		home_system = Madisari
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+}
+
+
+
+# Toxoids
+
+TOX = {
+	fraseati = {
+		name = Ifliara
+		plural = Ifliaras
+		home_planet = "Fras Eati"
+		home_system = "Fras Ciadrir"
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	evlen = {
+		name = Evlenian
+		plural = Evlenians
+		home_planet = Evlen
+		home_system = Zicheacer
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	iflademecen = {
+		name = Ziatian
+		plural = Ziatians
+		home_planet = "Iflad Emecen"
+		home_system = Haniabe
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+	enarfefen = {
+		name = Enarfenian
+		plural = Enarfenians
+		home_planet = "Enar Fefen"
+		home_system = Dichacias
+		name_list = "cybrxkhan_fantasy_fantasy_4"
+	}
+}
+
+

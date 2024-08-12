@@ -1,0 +1,32 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_evt_ef_advanced_institute
+		texturefile = gfx/event_pictures/ef_advanced_institute.dds
+		masking_texture = gfx/interface/situation_log/event_mask.dds
+	}
+	spriteType = {
+		name = GFX_evt_ef_gleaming_towers
+		texturefile = gfx/event_pictures/ef_gleaming_towers.dds
+		masking_texture = gfx/interface/situation_log/event_mask.dds
+	}
+	spriteType = {
+		name = GFX_evt_ef_skyline
+		texturefile = gfx/event_pictures/ef_skyline.dds
+		masking_texture = gfx/interface/situation_log/event_mask.dds
+	}
+	spriteType = {
+		name = GFX_evt_ef_city_world
+		texturefile = gfx/event_pictures/ef_city_world.dds
+		masking_texture = gfx/interface/situation_log/event_mask.dds
+	}
+	spriteType = {
+		name = GFX_evt_ef_colony
+		texturefile = gfx/event_pictures/ef_colony.dds
+		masking_texture = gfx/interface/situation_log/event_mask.dds
+	}
+	spriteType = {
+		name = GFX_evt_ef_protests
+		texturefile = gfx/event_pictures/ef_protest.dds
+		masking_texture = gfx/interface/situation_log/event_mask.dds
+	}
+}

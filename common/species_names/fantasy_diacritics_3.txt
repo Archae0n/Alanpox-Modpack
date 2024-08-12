@@ -1,0 +1,439 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	aloi = {
+		name = Alóian
+		plural = Alóians
+		home_planet = Alói
+		home_system = Natháxli
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	daila = {
+		name = Dailan
+		plural = Dailans
+		home_planet = Daila
+		home_system = "Vaité Acrotho"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	xicoun = {
+		name = Xicóunid
+		plural = Xicóunids
+		home_planet = Xicóun
+		home_system = Dulóut-otó-Vasa
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	luelera = {
+		name = Luéléran
+		plural = Luélérans
+		home_planet = Luéléra
+		home_system = Abia
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	vidi = {
+		name = Vidian
+		plural = Vidians
+		home_planet = Vidiphuu
+		home_system = Phuuti
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	iteclia = {
+		name = Iteclian
+		plural = Iteclians
+		home_planet = Iteclia
+		home_system = Huexla
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	etriebra = {
+		name = Étriebrian
+		plural = Étriebrians
+		home_planet = Étriebrá
+		home_system = Agéphro 
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	oglais = {
+		name = Oglish
+		plural = Oglish
+		home_planet = Oglais
+		home_system = Soxru-Taxo 
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	phreglua = {
+		name = Phregluan
+		plural = Phregluans
+		home_planet = Phregluá
+		home_system = Phruótrul 
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	romielthelovefinder = {
+		name = Vexuttian
+		plural = Vexuttians
+		home_planet = "Romiel the Love-Finder"
+		home_system = "Elianát the Mercy-Giver" 
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	plipra = {
+		name = Pliprian
+		plural = Pliprians
+		home_planet = Plipra
+		home_system = Éseci
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	ochadiacritics = {
+		name = "Lale Gosian"
+		plural = "Lale Gosians"
+		home_planet = Ocha
+		home_system = Hachó
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	digama = {
+		name = Digámese
+		plural = Digámese
+		home_planet = Digáma
+		home_system = Iuno-Éuthe
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	ucomebausdiscovery = {
+		name = Echloid
+		plural = Echloids
+		home_planet = "Ucomebau's Discovery"
+		home_system = "Wondrous Joy"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	erou = {
+		name = Erouese  
+		plural = Erouese
+		home_planet = Erou-Eucliu
+		home_system = Aupló
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	vadutri = {
+		name = Vadutrian  
+		plural = Vadutrians
+		home_planet = "Uxa Vadutri"
+		home_system = "Usé Vadutri"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	glenon = {
+		name = Glénonid  
+		plural = Glénonids
+		home_planet = Glénon
+		home_system = Ephróir
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	brathexluarorprime = {
+		name = Bráthéxlian  
+		plural = Bráthéxlians
+		home_planet = "Bráthéxluaror Prime"
+		home_system = Bráthéxluaror
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	othil = {
+		name = Othilan 
+		plural = Othilans
+		home_planet = "Othil Ene"
+		home_system = Exlésir
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	iaplia = {
+		name = Iaplian 
+		plural = Iaplians
+		home_planet = Iaplia
+		home_system = Dieliga
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	celebrationoflife = {
+		name = Luglai 
+		plural = Luglai
+		home_planet = "Celebration of Life"
+		home_system = "Endless Euphoria"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	itausia = {
+		name = Itáusian 
+		plural = Itáusians
+		home_planet = Itáusia
+		home_system = Graluácos
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	vatio = {
+		name = Vatian
+		plural = Vatians
+		home_planet = Vatió
+		home_system = Cóxler
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	xluse = {
+		name = Xlusese
+		plural = Xlusese
+		home_planet = "Ipró Xluse"
+		home_system = "Ipró Thiacá"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	aglua = {
+		name = Agloid
+		plural = Agloids
+		home_planet = Ágluá
+		home_system = "Hisus Thenar"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	baxlausiu = {
+		name = Báxlauan
+		plural = Báxlauans
+		home_planet = Báxlausiu
+		home_system = Apráglibóu
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	phaclo = {
+		name = Phacloid
+		plural = Phacloids
+		home_planet = Phaclo
+		home_system = Sube-Oso
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	cruce = {
+		name = Crucite
+		plural = Crucites
+		home_planet = "Dradél Crucé"
+		home_system = "Patré Crucé"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	nodepi = {
+		name = Nodép
+		plural = Nodéps
+		home_planet = Nodépi
+		home_system = Séudrias
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	gopuaiseur = {
+		name = Ephánese
+		plural = Ephánese
+		home_planet = "Gopu Aiseur"
+		home_system = Aiseur
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+}
+
+
+
+### HUMANOIDS
+
+HUM = {
+	xugoveu = {
+		name = Xugovese
+		plural = Xugovese
+		home_planet = Xugovéu
+		home_system = Bléul
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	ienia = {
+		name = Iénian
+		plural = Iénians
+		home_planet = "Óse me Iénia"
+		home_system = "Óse me Caló"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	phrocler = {
+		name = Phrocleran
+		plural = Phroclerans
+		home_planet = Phrocler
+		home_system = Batuedrod
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	eglia = {
+		name = Églian
+		plural = Églians
+		home_planet = Églia
+		home_system = "Églia Ieró"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	ticro = {
+		name = Ticrite
+		plural = Ticrites
+		home_planet = Ticro
+		home_system = "Ticro siél-Motér"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	tathai = {
+		name = Tathai
+		plural = Tathai
+		home_planet = Tathai
+		home_system = Néivói
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	tovie = {
+		name = Tóvian
+		plural = Tóvians
+		home_planet = Tóvié
+		home_system = Biatravá
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	atithophoteplero = {
+		name = Óthuaxid
+		plural = Óthuaxids
+		home_planet = "Atithóphó Teplero"
+		home_system = "Othá Ódrána"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	sogres = {
+		name = Sógressian
+		plural = Sógressians
+		home_planet = Sógres
+		home_system = Chos-Sóblá
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	othuaxrensslumber = {
+		name = Grethian
+		plural = Grethians
+		home_planet = "Óthuaxrén's Slumber"
+		home_system = "Óthuaxrén's Chambers"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	adesutheenforcer = {
+		name = Omuódoid
+		plural = Omuódoids
+		home_planet = "Adésu the Enforcer"
+		home_system = "Bracu the Forgiver"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	motherthiphuagrer = {
+		name = Thiphuan
+		plural = Thiphuans
+		home_planet = "Mother Thiphuagrér"
+		home_system = "Grandmother Cátrixiló"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	thasrema = {
+		name = "Thas Remian"
+		plural = "Thas Remians"
+		home_planet = "Thas Rema"
+		home_system = "Thas Róti"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	ivipra = {
+		name = Iviprid
+		plural = Iviprids
+		home_planet = Ivipra
+		home_system = Cátrixiló
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	planun = {
+		name = Plánun
+		plural = Plánun
+		home_planet = Plánun
+		home_system = Plánun
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+}
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	xedobu = {
+		name = Xedóbuan
+		plural = Xedóbuans
+		home_planet = Xedóbu
+		home_system = Táviaro
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	posigoda = {
+		name = Dépriátiar
+		plural = Dépriátiar
+		home_planet = "Pósi Góda"
+		home_system = "Thre Tesógri"
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	aphalese = {
+		name = Aphálese
+		plural = Aphálese
+		home_planet = Aphál
+		home_system = Itiphróbi
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	otraxages = {
+		name = Otraxagean
+		plural = Otraxageans
+		home_planet = Otraxages
+		home_system = Lómuóbá
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+}
+
+
+# Toxoids
+
+TOX = {
+	ratxalo = {
+		name = "Thé Néd"
+		plural = "Thé Néd"
+		home_planet = "Rát Xaló"
+		home_system = Machlui
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	otodiel = {
+		name = Ótodielan
+		plural = Ótodielans
+		home_planet = Ótodiel
+		home_system = Vupóphur
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	oregad = {
+		name = Orégádite
+		plural = Orégádites
+		home_planet = Orégád
+		home_system = Doluáve
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+	athos = {
+		name = Thégá
+		plural = Thégá
+		home_planet = Athos
+		home_system = Niáchodu
+		name_list = "cybrxkhan_fantasy_diacritics_3"
+	}
+}
+

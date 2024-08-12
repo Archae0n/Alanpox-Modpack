@@ -1,0 +1,230 @@
+﻿### Fantasy Elamite
+### Markov generated based off Elamite word list found here: https://en.wiktionary.org/wiki/Appendix:Elamite_word_list
+
+cybrxkhan_handmade_elamite = {
+	category = "Avian"
+
+	ship_names = {
+		generic = {
+			A-a-qa A-a-um A-ak-kur-rih A-akki-in A-alki-ip-shim A-anqari A-anu A-ap-h A-ap-puh A-ap-shiip A-aphu A-appam A-at A-ba-ri A-bela A-h A-h-na A-hi-it A-huíp A-ir A-ki-ki A-ki-ni A-li-in A-na A-pila A-qa A-rásh-shut-rah A-ti-ir A-tiikkappa A-tur Aalki-ipshu-mi-h Aamme Aan-ki-ima Aani-li-ni Ab-ba-ak Ab-baulla-at Ab-be Ab-berik-qa-pi Ab-bun Abakri Aban-zíya-ni Abba-ir Abbat Ad-du-iri Ag-gi-ri-el Ag-gu Ag-gìr Aha-tu Ahalla-la Ahda-h Ahip-puunku-kum Ahsheberi Ahshá-ta Ahuma-li Ak-gi-elpati Ak-ki-ur Ak-kiin Ak-ti-ip Ak-tú Akkap Am-ya-sirti Amashlip-pieni Ami-nu Ammarmi-ri Ammiik-kim An-dúr-na An-giri An-ki An-kip-ti An-nab-bunku An-si-ishiit Ani Anihhallibari Antir Anuush Ap-da Ap-h Ap-mi Ap-pir Ap-piti-zí Ap-puha-da Ap-sa-qa Ap-sh Ap-shpi Ap-shu-ni Ap-teum-ma Ap-tú Apnah Appa-tur Appahal-h-la Appanti Appat Appate Appatti Aptin Ar-shum-mi At-ri-in Ate Ate-ik Atti-h Az-zan Azzibe Azzuum Ba-ani Ba-ashà-ra Ba-atte-ri-in Ba-atti Ba-h-sa-ab Ba-hu-utu Ba-huti Ba-inna Ba-ip-h-shá-a-pi Ba-kar-ra Ba-la-ansi-ir-ri Baaina Bak Ballu-laa Ban Barru Baru Barushutme-itri Baumme Be-bí-tir Be-el Be-i-ishtur-ra Be-iktiutti Be-il-pi Be-ir-pi Be-irpi Be-ishi Be-la-ti Be-lu-hi-qa-an Be-rih Be-riipruhu-ra Be-te-ti-it-ki Be-teman Be-ub-ba-am Be-um Bel-teip Belte Beti-mashtel Betie Betiri Beul-h-ba Beullah Beummi Bi-in Bi-ti-ilhal-li Bun-zuuri Bunaanni Bunpuuk-tu Da-ab-ba Da-ak-ki Da-ak-raamme-ip Da-akqar Da-ha Da-ir-puutu Da-lan-pi Da-li Da-na Da-qaddu Da-ti-ip Daankut Dabbeit Dah-ti-ika Dahi-ip Dal-li Dal-tú Dalkidu Dalla-ma-lu-te Dallummi-la Danzik Du-bi Du-el Du-gìr Du-h-teutu-un Du-ha Du-hi-pir Du-ishuni-tin Du-ni Du-ra Du-ri Du-riut-ti Du-shi-im-ma Du-su-shuutme Du-su-un Du-ti Du-ti-ip-ri Du-ti-qa Du-ti-ul-la-nu Du-táh Du-ullu-ki Du-um Du-un Du-uti Du-utti Du-utur-ra Du-úri Dud-da-ru Dud-daak Dududda Duduuma Duip-pi-in Duk-ki Duku-tur-ra-h Dukur Dul-me-esh-te Dum Dum-mi-isháh Dum-miumya Dum-na Duma-h Dumiri-in Dumma Dumyaáshu Dun Dun-na Dun-ni-ip-pi Duntu-lu-ru Duruk Duunra-teme Duupshàtir Duusa E-elma E-ibari E-ima E-inra E-ip E-ip-h E-nu-bat E-tip E-ushera El-memashiipshi El-pit El-teip Ela Ela-ripma Elakkim Elani Elme-na Elpuummashe-li Era-tú Eraan Erah Eri-ma Eul-ki-el-pi Eul-ti Eulu-suunti-e Eumaás-sa Eutu-na-pa Gi-h-nan-na Gi-ik-ki Gi-in Gi-ina Gi-inna Gi-inpi Gi-int Gi-ip-huungìr Gi-ip-pishun Gi-la-um Gi-mi-beish-qaat Gi-mi-tuunta-hu Gi-qad-da-h Gi-sari-ishá-hat Gi-ukur Gi-ya Gin Gin-ku Ginu-utu Girpi Gu-hi-un Gugu-hu-man-ma Guúr-ru-ri Guúya Ha-a-h-h Ha-ak Ha-akkim-ba Ha-alpuura Ha-altuma Ha-ani Ha-ap Ha-appa Ha-appi Ha-ar Ha-ar-niish Ha-ari Ha-at Ha-azzuutma-h Ha-h Ha-h-ti Ha-h-ásh-nu-un Ha-ikki Ha-ir Ha-ishà-ma-li Ha-lari Ha-ma Ha-ma-na Ha-main Ha-masha-ala Ha-máshu Ha-ni Ha-nih Ha-ri Ha-rákqa-a-ru Ha-teul Ha-uk-tu-na Ha-um Ha-ásha-h Ha-áshi-li-ipi Haad-daattu Haan Haarra Haattibbala Haaz-zi Hadu-iri Hak-ki-pi Hakka-at-ti Hal-laak Hal-lakpi Hal-larmasu-um Hala-lahu Hali-ela Hali-itiri Halimeme Halini Halkidu Hallu Hallu-h-h-ik Halluh Halpi-rukki Halput-máshá-ri Haltuunkusi-sh Hamari-inni Hammani-te Han-ra Handah Hani-ishi Hannu Hanzi Happa Happappanku-ku Har-rih Hardu Harmu-uni-e Hashu Hashur Hassit Hate Haz-zaala Hazik Hazzibbe Hazzika Hazzun Hi-ik Hi-in Hi-ir-du-h Hi-itinna-aki Hi-ni-um Hi-un-me Hi-ya-ammeishá-h Hiik-piti Hiikakpi Hiinu Hiip Hiip-sa-ri Hiishiel-ime Hiitur Hiki-ip-h Hil-pi Hin-ki Hiuma Hu-gi-ra Hu-h-shá Hu-kik Hu-lu Hu-lukurpi Hu-me Hu-na Hu-ni Hu-pi Hu-ra Hu-ri Hu-rápti Hu-sh Hu-shut-mash Hu-tar Hu-ti Hu-ti-inu Hu-ukti Hu-ul Hu-ul-li Hu-um Hu-um-ma Hu-um-meeni Hu-unilah Hu-unna Hu-ushshi-ik-kip Hu-utma Hu-úripshaap-ri Hudda-qa Huhal-huel Huip Huki-hi-ela Huki-inrahargin Hukki-ma Hukkime Hul Hul-luk Hul-me Hulhalin-tu-ti Hum-bera-hu-um Hunkidu Hunu-riipshu-un Hurza-akkari Hush-sh Hushera-qaan Hut Hut-tinni Hute-me Hutu-h Huulla Huun-ri Huuna I-ishi-na-at I-ishti I-urru-la-ri Ibaumar-mín Ibba Iikiip Iip Iktini Im-shu-ulhala In-kurpi In-ti Inaate-im Iniik Inna-an Innaul Ip-huta Ip-nari Ip-pi-innu-tu Ipishaan Ipit-ta Ipiya Ipshá-ip Ipti Ir-da Ir-me Ir-na-at-mir Ir-nana Ir-pu-ikra Ir-sh Iri-e Iri-ip Iri-ishu-la-h Iri-tu Iriharmi-itra-ha Iriin Ish-shan-na Isha Isha-a-akku-uli Isha-an Isheri-ri Ishi-um Ishil-ti-ma Ishtuutu Ishu Ishu-gin Ishu-li Itu Iz-zaaizza-ma Iz-zikti Iz-zíirti Iz-zíti Iza-ak Iza-akkasheri-ip Izaakkiip Iziya Izza-at Izzu Ka-tir-ri Kaduh Kak Kak-rip Kakku-uri Kam-me Kap Kapiya Kappani-el Kappu-ur Kar Kar-par-ra Kar-pu Kar-ra Kari-in-ki Karmutum-bel-mi Karru Karutu Kasha-ak Kassu-tar Kat Kattam Kaz-zi Kazza-akkiikti Kazzal-h Kazzami Kazzi-e Ki-be-mee Ki-dun Ki-eshu Ki-iktiuti-ila Ki-in Ki-in-na-ba Ki-ip Ki-ip-sah Ki-ipi Ki-ipra Ki-ish Ki-ishi-en-nih Ki-ishi-mi-ul Ki-it Ki-kap-pa Ki-mín Ki-pari-ti Ki-pi-qa Ki-pis Ki-ra Ki-riinu Ki-te-ra Ki-tur Ki-ukkar-za-am Kidushá-ime-ra Kii Kiipi Kiipshuti Kiki-ik Kim Kiman Kimi-ip Kip Kip-pi Kium-me Kiut-me Ku-ban-nu-ul Ku-da-ba Ku-du-u-ti Ku-en-kiibba Ku-gina Ku-h Ku-h-da Ku-h-til Ku-ha-h Ku-hiilarri-en Ku-hu-me Ku-hu-umyan Ku-kiin Ku-la Ku-mi Ku-na-lati Ku-ni Ku-qa Ku-saat Ku-sh Ku-ti Ku-ti-ip-pi Ku-uda Ku-ukra-ku Ku-ulumuha-li Ku-um Ku-um-yaaiziya Ku-umar Ku-un-pi Ku-unkumi Ku-ur Ku-urzaana Ku-ushni Ku-ussaan-ki Ku-ut-mín Ku-uti-ráshi Ku-íp Ku-úhu-hani Kud-du-um Kudu-ummash Kudush Kul-li-nah Kulki-ati Kulla-an Kum Kuman-kium Kun-ti Kun-ti-udúri-me Kunsahi Kuphu-hu-uru-um Kupshiip Kur-in Kur-manzí-ta Kur-mi Kur-pi-ha Kurpuumi-baakkur Kurri Kuru-udda Kuru-um Kuru-ummari Kuruk Kuruti Kus-sh Kusaat Kusha Kusha-me Kushi-ul Kusi-li-ri Kut Kut-ki-ul Kut-ma-qa Kut-mar-pih Kut-mi Kut-ran Kut-táhsh Kutaal Kutardu-na Kute-usa-lib-be Kutma Kutmásháam Kutu-en Kutur Kuumya Kuun-ruh Kuura Kuuru-me-ri Kuushar-puuni Kuutu Kás-shá-la Káshil-ka Káshin Káshu-um Káshá Káshá-annu Káshá-ir-pi Kásháhha La-a-ba La-al-tu-ip La-aza-ma-ásh-ti La-bat La-ish La-na-a-ni La-ri Laak-tir Lahari Lahha-nir Lahshuum Lahur Lak-kianku Lala-nu Lani-h Li-e Li-ha-a-ip Li-ilhallari Li-im-me Li-ip-li Li-ishu Li-it-tuk-ki-ip Li-lu-mal-piik Li-mannuim-sh Li-na-niin Lib-bali-ishu Libba Liiri Liit-tiip-pi Liit-tilak Limi-ru-ukra-na Lmariri Lu-ba-men-ti Lu-it Lu-ra Lu-ri Lu-teip Lu-ti-suulu-um Lu-unapi Luba-al Lubela Luhtu-ush Luk-ma-ukti Luukki Ma-akkul-la-kik Ma-ishi-itu-riik Ma-kud-dúri Ma-qa Ma-ri Ma-uki-tip Ma-za-kup Ma-ásh-h Mam-mi-ik Man Man-daba-na Man-te-tari-h Mar-su-gimi Mari-ta-a-a-h Marmi Marsu Marusha-la-ni Mas-sima Mashti Mashá-ap-sa Massi-na Massir-ra Massir-tur Maáshá-h Me-be-ipur Me-ir Me-ran-nip Me-ru-ul-h Me-ur-pir Meishi Mena-hakpi-h Mi-i Mi-ik-qa Mi-ip-pi Mi-ipi Mi-tu Mi-un Mie Mir-ni Mit Miut-ra-akki Miut-ti-isha Mu-du Mu-hur Mu-ishtiel-ta Mu-na Mu-qa-h Mu-ra Mu-ra-ra-te Mu-rih Mu-ru-tassih Mu-sh-sh-da-h Mu-shiishak Mu-tirsha Mu-tu-su-un Mu-tumma Mu-ube Mu-umen-sh-h-tú Mu-un Mu-un-nam-bau Mu-ut-maullu Mu-utmáshu-unki mur Mur-dalpi Mur-ni Mura-ab-ba Muru-la-attir Murum Mut-ki-iz-za-ri Mut-teen Mutma Mutme Mutu-halankiikme Muum-iza-qa Muuni Muupshiip Másha Máshá-lum Na-ak Na-akme Na-ama Na-anir Na-ate Na-bain-titri Na-ti Na-ut Na-ásh Na-ásherit Naalluk-nuik Nab-ba-tú Nab-bi Nap-halla Naqaani-un-da Naáshishi-in Ni-tur Nih Niik-ki-ilha-h Nu-enu Nu-ish Nu-ishiha Nu-miel Nu-un Nu-uni Nu-unku Nu-íp Nu-úh Nuishi Numarsh Pa-ak-kip Pa-ak-pi-rih Pa-hara Pa-hi-gin-tur Pa-mashi-par Pa-ra Pa-shi-elim Pa-zí-it Paap Paarmi Pahal-lak-ra Paish Pakna Pan-kushi Pan-ni Pan-tu Pankiqa Panme Pappu Par-ru-ut Para-la-ni Pari-ishá Pel-turi-ibbe Pelmasu Peraap-me Pi-h Pi-hu Pi-ik Pi-im Pi-ish Pi-ukkishá-h Pi-um-bera Pil-lu Pil-pittiir Pir Piri Pit-ti Pu-berir Pu-du Pu-hal-li Pu-ik Pu-iz-zun Pu-ki-másheri Pu-mashera Pu-me Pu-na Pu-nu Pu-sh Pu-tar-ri Pu-u-ri Pu-udu Pu-ul Pu-ul-me Pu-ulhishe-izzam Pu-ulki Pu-ulma Pu-um Pu-un Pu-us-sa Puha Puhin Puhshutti Puhte Puhurza-an Puqa Puqalpi-zaqa Pur-dum Purihak Put-ti Puta-qa-a-ruk Putaraharí-ip Putta Puukqa Puumme Puun-tu Puuri Pír-me-ila-a Pír-pu-hu-uttima Pír-ra Pír-ra-sh-nirna Pír-shishi-tu Pír-za-ishá-ak Pírna Pírna-ar Pírni-unki Qa-ak-kassimma Qa-al Qa-ani Qa-ap-pu-sh Qa-ati Qa-ha-kik Qa-ip Qa-ir Qa-kutuuk Qa-me Qa-uk Qaali Qaan Qahshda Qaiin Qaiktit Qair-sh Qaiz-zíti Qalpi-ak Qan-sh Qarru Ra-ikku Ra-me Ra-ti Ri-ri Riin Ritti Rsh-ni Rshaat Rshi-ra Rshik Ru-ba-ari Ru-dúr Ru-huti-gi Ru-ir-ip Ru-ki-me Ru-kiip Ru-la-ak Ru-lu-urza-una Ru-mauma Ru-na Ru-ra-akqaak-ki Ru-sh Ru-te-mu-kipma Ru-u-ul Ru-ul Ru-um-mi-im Ru-un Ru-unkiir Ru-ut-ti-ik Ruhti Ruhu-te Rum-is Runu Ruul Ruulu Rábbakkut Rák Ráp-shsh Rápta Rás-sháam-me Sa-a-an-tashi-ik Sa-al Sa-anza-me Sa-at Sa-ba Sa-h-pi Sa-h-shu-lah Sa-haiziturpi Sa-han Sa-hi-in-za-h Sa-la Sa-la-pi Sa-li-ya Sa-qa Sa-ramma Sa-su Saak-kur Saarmi Sael-h Sael-li Sahaan-gi Sahali-ish Sahi-ut-ri Sanaappi-ik-ka Sar Sarik-ta Sh-ba-naum-bari Sh-da Sh-duip Sh-haiish-karsh Sh-ka-akri Sh-ki Sh-ki-ilhi-ni Sh-kutari Sh-sahshi-ya-ra Sh-sh Sh-she-raan Sh-shi-ma-na Sh-su-na Sh-te Sh-tin Sh-tiul-ti-ut Sh-tu Sha-amainni Sha-ar-pi Sha-at Sha-aten-na Sha-ki Shaak-ni Shad-dan Shal-li Shal-liiktir Shalahum Shalak Shamma Shani-irpi Shappar-ra Shat-ki-ti Shbal-pit Shda-ti Shdah She-bain-ki-ish She-in She-ir Sheri Shi Shi-hu Shi-iktiinpu-ni Shi-in Shi-ip Shi-ir Shi-itaate-irti Shi-kiilakni Shi-ma Shi-maru-tinnu Shi-me Shi-na Shi-ni-iri Shi-pa Shi-pi Shi-ra-ri Shi-tirri Shidunra Shie Shielteti Shieshátar-ri-ul Shiik Shiin Shiini Shiip Shiipir Shiishi-ri Shiishu-ti Shila Shim-ni Shima Shimmar Shini Shish Shiti Shiul-la Shshá-da Shtel Shti-iniri Shtir-na Shtu-uti Shturit-marma Shu Shu-h Shu-hu-me Shu-mal-h Shu-ni Shu-nu Shu-qa Shu-raanqa-adda Shu-ri Shu-ri-hi Shu-ri-ra Shu-rieshu Shu-shu Shu-siyak Shu-suul Shu-udaana Shu-uk Shu-uri-at-ri Shu-ut-ma Shu-ú Shuel Shuhu-ti Shuk-ti Shullu-uma Shusa Shut Shut-memi-ik Shutmasháak-ma Shutme-iriut-ra Shuulla Shuun Shuut-mi Shà-na-ak Shà-ru Shàmi-in Shànab-ba-ammi Shàrik Shá-a-atti Shá-adda Shá-apnaad-du Shá-atin Shá-du-shá-h-te Shá-dun Shá-gi-ti-irpi Shá-h-shnu-utú Shá-ha-áshuíp Shá-irsu-ri-da Shá-li Shá-lu Shá-luh Shá-ubahiish Shá-ul Sháak-ni Sháakki-hu Sháakpi Sháappa Sháatti Sháhshi-hu-h Sháhshá-ri Sháir Sháli Sháluki-in Shára-a-hu-na Shásh Shátan-ti Shátishe-e Sháudu Si-h-sh Si-ik-ti-ir Si-ikar Si-im-na Si-in-ki-h Si-ir Si-ir-dukkik-ki Si-iri Si-ish Si-ish-hak Si-it Si-it-ma-ak Si-kip Si-meshá Si-mi Si-naish-tur-gi Si-ni Si-ri-iri-uti Si-ri-utu-táhsh Si-ti Si-ti-ik Si-ti-ya Si-tiut-me-ni Si-um Si-uma Si-utki Si-ya Sihhaatti-ik Sihhu-h-pi Siila Siim Siim-mashera Siinri Siip-pit Siish-ti Siishishap-pi-ni Siit-ti Sik-riummen Sir-ra Sirip Sirpi Sirpu-gu Siya-ip Siya-namnani Siya-tara Siyaáshu-ra Su-inni Su-kim-ma Su-kima Su-riut Su-sima Su-ti Su-un Su-un-tur-ti Su-úr Suim-ya-lu Sukki-dunki Sukma-li Sunip Sunki-in Sunnap Suqa-h Suushun-shila Suuturru Ta-am Ta-an-ni Ta-ap-pi Ta-ap-ruudum-ma Ta-be-ti Ta-ipsheeni Ta-ir Ta-itu-ni-um Ta-mani Ta-pi Ta-ra Ta-ru Ta-za Taakna Taan-na Taash-ul Tallu-nuup Tam-bete-ib-ba Tamaula-a-ak Tan-ku-na Tan-ti Tankiit Tanzi-in Tar Tar-da-nu Tar-ri Tar-ruk Tar-shera-ra-ani Tar-shi-ititila Tar-shàri Tardu-te-um Tarra Tarshik Tarsu-shi-du Taru-un-ti Tas-su Tas-zu-te-la Tashtuk Tasháir Tassa-ati-ir Tassir-ma Tassu Tasuip-tum Te-el Te-en Te-ila-in Te-la Te-la-ak Te-lu-ha-an Te-mari Te-me Te-ri Te-ri-ishàriut Te-rit-ti-raak Te-ul-lu Te-um Teitri Tel Temeul Tentib-bun Teti-ip Teul-ki Teullu-qa Thi-iri-ki-qa Thi-it Thi-me-innu Thi-ra Ti-el Ti-huuru Ti-ik Ti-in Ti-inni Ti-ma Ti-meel-put-me Ti-niha-iri Ti-ru-uda Ti-ul-tar-ni Ti-un Ti-uni Ti-uturaap Ti-yakqa Ti-zí Tiikri Tiip-pi Tiish Til-tium Tilhala Tilhi Tin-ti Tir-pir Tiul-mar-ra Tra-qa-an Traak Traappam Tranah-ti Tu-h-pi-ti Tu-ri Tu-umi-pari Tu-ur Tuk-ki Tukki-da Tukku-rishu-usa Tukkur Tukra Tukri Tumaum Tumbeit Tume Tur Tur-giri Tur-nappitú Turan Turinni-ri Turpi Turpiuten-ikku Turpuhu-lu-li Turu-h Tuubau Tuum-me Tuun-shi-ip Tuur-gi-ru-ra Táh-ha Táh-shish Táhshil U-shshi U-unni Uk-ki Uk-kiik Uk-ti Uki Ukip-shidu-ul Ukkazzi Ukkazzuuna Ukki-en Ukki-ip-puqa-a Ukki-ri Ukkush-sime Ukra-akkuur Uku-na-h-ti Uku-uti Ul-li Ul-tu-me Ul-tur-ni Ulkiqa Ulla Ulu Un-ri Un-tu Una-hime-ir Unab Uni-qa Ur-itu-duur-za Urza-am-me-ri Urák-ki Uz-zaakni Uz-zal-lan-nab Uz-zí-in Uzza-ri Uzza-riip Uzzi Uzzin Uzziyaa Za-at Za-be-na Za-ma Za-na Za-ni Za-qateip Za-ti Zaakki Zaal-pu Zaap-ríishátamme Zallak Zalpu Zamasuk-ki Zaqa Zaqaa Zaqaapnap-pi Zib-ba-ak Zibbe Zibe-el Zik Zik-kir Zikki-it Zikqa Zikqat Ziktin Ziya-shiikam Ziyaak-ki-utar Ziz-za Zu-tukra Zun-ki Zunti Zuukqa-ar Zí-ime-rin Zí-ip Zí-ir-raan-ni Zí-izan-na Zí-tú Zí-ya-appa-h-na Zí-zu Ás-shi Ásha-alpu Áshi-ik-kuip-ra Áshshu-gir Áshu Áshá-ushiumi Ú-pi Ú-pu Ú-puhun-kituru Ú-yaáshuupshi-bi Úrdum Āpiti
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Ipti-máshila Navy" "Giutmassu Navy" "Mu-da Antu Navy" "Rákqa Navy" "Shapishtu-el Navy" "Shut Kidunki-e Navy" "Ulla-za-appaan Navy" "Abama Navy" "Be-una Navy" "Ti-ki-ip-me Navy" "Qaat Haza Navy" "Ki-ima-ba-ak Navy" "Shda-an Navy" 
+		}
+		sequential_name = FANTASY_ELAMITE_MARKOV_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+			
+		generic = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxASSAULTARMY_ORD
+		}
+			
+		machine_defense = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_ELAMITE_MARKOV_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				A-a-aggi A-ba-ma A-du Aam-main Addal Aha Ahan Ahhar Ahi-ip Amín Ani-ik-te Ant Ante Ap-rí-ra Appanqa Appatti-uma Attarri Azzunki-el Ba-pi Ba-te Baqa Bar-ri Be-izzu-ti Be-lu Bunki-in Da-ma Du-dahah Du-pi Du-qa Du-shi-pa Dudda Dukku Dun Dunna Dunra Ela Era Ha-a Ha-abba Haa Hak Hal-hu-ut Hal-huun Hal-li Halpi-huúhut Hari-uma Has-sha-hi Hu-ba-ni-ip Hu-uti Huhu Huntan Huush I-maum-ma Ikri-innuun Ip-taak Ishi-ik Izza-mi-in Kar-pa Kat Ki-ip Kiip-puh Kik-kashera Kim Ku-ip Ku-qa Ku-ti Kul Kupsh Kusah-ip Lak Li-ma Luhqa Luku-ikki Ma-al Mash Massi-ma Mi-ri mu-hi-h Mu-ku-uma Mu-ú Mur-ra-a-akki Másheesha Nu-qa Nuun-tu-ulu Pi-halkik Pu-ri Puhu-du Puuk-qa Qaainna Qaammi-me Qap-sa Qat Run Saha-ap-pi Sahi San-kip Shal-hiikti She-ipma-ha Shi Shi-iti Shiitu-ni Shu Shulla Shá Sháh-bal Si-him-baami Sih Siiptassu Su-ishá-du Suuniri Tari-ba-an Teik Thiil Ti-it Tu-tiuma-h Tu-ullu-um Tur Tura Táhhappa U-man Ya-ikashu Za-a Za-ishu-um Zik Ziyak Zuullu Zí-ip Ásha
+				
+				Abba-na Ahi-ya An-ki-enti-me Anni-in Appari Ateutti-ip Ba-ap-pi Bakkap-rushu Bansit Barsugu Be-ukkash-h Belma Beti-ma Bun-pu Da-hamma Du-suip-ti Du-un E-iz-zu-ukka El-lahi-temiti Gin-nah Ginri-hum-mie Ha-al-li-um Ha-ma-an-tur Ha-ri-maraappa Ha-un Haap-ra Haaran-mi Hakkappakki-ipit Hali-ishut Hallu-pi Haltur Han-kim-in Hariishera Hi-qa Hila-ti Hilhalten-na Hu-shullaha-lu Hu-uk-miti-ya Hullu-um-sh Husháir-raamma Huum-ba Ib-baab-be Iime-la-qa In-giikappap-li Ir-num-niini Iza-ap Izaarmu-sh Izza-amma Izziya Kassi-in Kazzí Ki-ilhi-ik Ki-kur-riin Ku-lim-ba Ku-nienu Ku-ri-ipshu-um Ku-tir Kungìr Kusa-ak Kut-tur Kutma Kutme-ukra Li-ir-na Lu-ra-tú Lu-shkip Maiinuip Me-umya Mur-ra Máshu Na-li Nahal Pa-ankambi-hi Pak-pi Peri-nu Pu-ri Pu-sunna Put-me Puuttal Pír-du-úr-da Ru-dakkadu Ru-umi-ti Ruunu-lu-mien-na Rák-qa-apuun Rákqa Ráp-su-ulli-ip Rápdud-du-una Sa-ap Sa-ma Sa-ra Sani-qa-ku-utma Sh-la-an Sh-lani-ira Sh-sah-qa-ra Sh-shá-da-ashu Shaalpiishu Shi-ip Shi-me Shieshádabbari Shiip Shkish Shu-na Shu-uta Shuluutmáshá-na Shà-ti-ungin Shá-h Si-ramme Si-ud-du Sirtiqa Siya-h Siyaag-gin Su-ri-qa Tam-ma Tar-ri Te-ráp-h-sh Temashu Ten-na Tiutimma Turpi Turraari Turri Tuudur Táh-ilak Ur-ri-na Uzzikri-ukkashti Uzzí-raakqa Zikkammi Zitit-mi-ba Zí-ra
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				A-abba-ish A-ak-tu A-alibba A-amshá-da A-an-pi A-aniip A-anme-ini A-at A-baul A-ib-ba A-ki-ikki A-ki-it A-lu A-ni A-pilham A-tila-hu A-udu Aad-du Aakka Aap-huun-na Aappa-akkut Ab-ba-azza Ab-bal-hi Ab-ban-na Ab-bel Abbah Abbaqa Ad-dun Adda-h Ag-gi Ag-gi-ir Aggi Ahda-h-na Ahi Ahuummi Ak-gime Ak-ki Akkap Aku-la Am-be Ammali An-ki An-naap-ni An-tar Ana-ha-ha-ra Ani-ri Ankur Annabba Ap-ip Ap-pir-pi Ap-ri Apiri-inu-ma Apnab-be Appanah Ati Atteen-kime Az-zí Azza-la Azzibbali Azzu Azzí-inpu Ba-ap Ba-aphu-ki Ba-ate Ba-ateesháh Ba-hu Ba-ish Ba-na-ak Ba-ni Ba-nu-urnu Ba-umu-la Baasha Baha-ta-tu Bahi-i Bak-qa Ban-na Batin Be-me Be-na Be-um-man Be-umma Be-unku Bebera-hat Belii Belma Berah Betel Bi-ir Bu-h-ti-pi Bu-ukgi Bungi-ip-ri Da-akpi Da-ama Da-han Da-ip Daaba Daalkim Daani Daarsu Dabbaul Dahsh Dakna-utú Dalpi Dan Du-h-pi Du-hi-ma-na Du-ik Du-in Du-inni Du-itú Du-kiilhi Du-kuluqa Du-la-ap-pi Du-lu-uk-ti Du-ri-da Du-shiut Du-ti Du-tiba-el Du-ul Du-uni Du-ur-na Du-uram Du-íp Dud-da-zíip Duda Duddan Duip-piutme Duk-ku Duk-qa Dukgi Dum Dum-it-ma Dumme Dusa-aggi Duukkuru Duutú Duúya-ag-gi E-lu E-tin El-la El-libbauupsh El-mi El-pura El-te-ríipsh Ela-il-li Elah Era Eriik Eulhi-nau Eum Gi-dabba Gi-ik Gi-ish Giikma Gim-me Ginpi Ha-a Ha-akkutú Ha-alta Ha-ani Ha-ap Ha-h Ha-h-h Ha-h-ásh Ha-huuni Ha-ibba-na Ha-li Ha-li-in Ha-libba Ha-na Ha-ni Ha-nir Ha-qa-am Ha-ra Ha-ri Ha-shi-esh Ha-simi Ha-ásh Haam-mi Haammame Haanki-mium Haap Haaphiip Hahiish Haini-ri Hal-lan Hal-luk Hali Halih Halki-ip Halkidun-ra Halli-pi Halu-ra-h Ham Han Han-ti Hap-ti Happa Har-shá Hari Hate-i-ipma Haz-za Hazzainniini Hazzibba-na Hi-ik-ku-ut Hi-ima Hi-in Hi-ir Hi-me-inu Hi-na-másh Hi-ni Hi-ruun Hi-ti Hi-tin Hi-ur Hi-yan-zi Hi-zi Hidum Hiibaqa Hiikul-pili Hiinna Hiinu Hiiptiri-mi Hil-li Hime Hin Hinna-ab-ba Hu-be Hu-du Hu-h-lu Hu-h-shera-ni Hu-h-shu Hu-hi-qa Hu-hu-gu Hu-ik Hu-it Hu-ki-ri Hu-la Hu-lub-bela Hu-luqa Hu-ma Hu-maáshime Hu-me Hu-ni Hu-nu Hu-qa Hu-tarma Hu-ti-taap Hu-tur Hu-turra-alki Hu-ud-dur Hu-ukkar Hu-ukna Hu-ulhal Hu-um Hu-um-mam Hu-urpi-ip Hudu-shiir Huhu Huk-ti Hul-li-ti Hulukti Hun-tin Huru-mash Hutur Huum-beri Huú I-h I-ip I-qa I-unri-ishera Ib-bar-me Im-ban Imi-in Imiut-ma Inu-du Ip-hi-ul-luqa Ip-is Ip-tit Iprák Ipsha-ani Ipshim Ipti Ir-mam Ir-ni Ir-pi-ma Ira Iri-en Irit-mi Ish Isha-h-tú Isha-qa Ishi-ti Ishish Ishu-shtum-ma Ishu-ula Ishá-an Itiummam Iz-zí Iz-zíti Izi Izza-at Izzu-ta Izzízí Ka-al Ka-in-ti Kaduip-tuk Kak-ti Kam-me Kamín Kap-in-na Kar Kar-pir-na-an Kar-ri Kardu-ma Kashiqa Kashti Kat Kazzalahi Kazzunkuri Ki-ha-ut Ki-hu Ki-ibe Ki-imi-ri Ki-ip Ki-ish-ip Ki-ishaish Ki-ishi-ipi Ki-kip Ki-li Ki-lu-ut Ki-na-h Ki-na-ri-ma Ki-ri Kidum Kiime Kiin-ip Kiini Kim-máshuuni Kip-sh Kiqa-ishu-uk Kirpi Kish Ku-hi Ku-in-ni Ku-ish Ku-ki Ku-ku-úh Ku-pa Ku-qa Ku-ra Ku-rie Ku-ti Ku-ti-un Ku-ubbalpu Ku-usa Ku-uti-baak Ku-utú Ku-úr Kuishá-a-ruh Kul Kullaha-a Kulu-ti Kum Kuna-hilhan Kunki-yah Kunsah Kupshára Kur-pa Kur-zi Kura-ásha Kurpilibah Kurpish Kurpu-ir Kuru-h Kuru-hu Kuru-li Kuru-lu-mir Kuruk-ki Kushiil Kushium Kut Kut-tu Kuti-me Kutmásh-da Kutur Kutuum Kuullu Kuuna Kuunkini Kuuri-ip Kán-pi Káni-rí-ip Kásh-ta Káshá-ish La-addu-rik La-ar-pi La-atel La-ki-ri La-lu-ut-me La-ma La-ra La-taak-me Laak Laarmu Lah Lak-ti Lal-him-man Lan-ta Lanku Lanti-ri Lar-sh Lat Late Li-ba-eshu-ti Li-is Li-lak Li-ma Li-ni Li-uluh Li-un Li-utarra Lib-ba-za Liiri-da Limeme Lma-a Lme Lu-da-antu Lugìr Luh Luuru Ma-ana Ma-anki Ma-ma-hu-ulu Ma-ásh Manzi Marishsháak Mas-sah Massaan-ka Me-ishun Me-ma Me-mi-it Me-ru Me-ul Men Mi-ha Mi-in Mi-ishá Mi-na-irpi Miina Mu-gir Mu-himni Mu-ir Mu-pi Mu-sah Mu-shá-ti-lu Mu-tini Mu-tir Mu-ulli Mu-us-shu-ni Mu-uti Mur-zi-ip Muri-ip Murpuul Muru-gi Mushu-ru-ra Musháakki Musi-bebe Mut Muunkiishki Máshal Na-al Na-al-pan Na-ariummi Na-da Na-h-ni Na-ra Na-siya Nabbak Nah Nahshshi-ibba Nappaisha-ak Naum Naáshi-me Ni-in Ni-me Ni-ume Ni-un Nu-udu-ik Nu-un Nu-unpuum Nuip Nuish Num Pa-h-sh Pa-tu-ush Paan-ru Paashul Pah Pahi Paish Pani-el Panki-ik Par-ri Pattiri Pel-h Pi-ip-ni Pit-me Pu-in Pu-lu Pu-ra Pu-ranzaqappa Pu-ri Pu-uma-al Pu-una Pu-úr Puhalpi Puhqaan-na Puhur Pur-gin Puri-ikara Puukuru-úr Puun-na Puun-ti Puut-me Pír-pi Pír-pi-qa Pír-rahi-ra Pír-sh Pír-za-na-a Pírnu-te Qa-ali Qa-ba Qa-naiz-za Qaansa Ri-el-pi Ri-huum Ri-kiip-pi Riip-ra-appa Ru-su-ki Ru-u Ruhishalti Ruhu-ta Rumash Ruun-ki Ráb-ba Ráb-bar Rák Rápta Rásh Sa-appa Sa-imi-ish Sa-it Sa-put-mir Sa-qa Sa-shih Sa-su Sahi-h-du Sahila Sahpi Sahsh-tur Sar-riip Sh-hu Sh-hu-ullu-ta Sh-ip Sh-irpi Sh-pilha Sh-puha-in Sh-sa Sh-sahali Sh-shá-h Sh-si Sh-suni Sh-ti-im Sh-tur-ipitú Sh-um Sha Sha-at Sha-it Sha-ma Sha-ni Sha-pi Sha-tú Shaap Shaashsh Shal-mi Shal-pu-ukuri Shaliirsu Shallu-h Shan-ti-ri Shassi-in Shassu Shba She-ipi She-ma She-um Sheip Sheit Sheitú Shi Shi-bun-ki Shi-i Shi-ime Shi-in Shi-ip Shi-ishiime Shi-kinra Shi-manda Shi-me Shi-piti Shi-qa Shi-tuk Shi-un-da Shiin-tur Shiiri Shil-ti Shil-tishi Shim-ishu Shimma Shimme Shimmi Shimna Shina Shirrák Shishu-h Shium Shki-harmi Shnu-shi Shshah Shtam Shtel Shti Shturi Shu Shu-h-pir Shu-ik-kazza Shu-ir Shu-ra-at Shu-ti Shu-uk Shu-um Shu-ushi Shuda Shuhu-ur Shuip Shul-lu Shulan Shun Shun-ti Shut Shuungiri Shuur Shà-me-ir Shà-tu Shá Shá-an Shá-at Shá-du-tú Shá-gin Shá-hu-h Shá-nu Shá-te-na Shá-ur Sháagga Sháaggiik Sháakkumaul Sháap-puul Sháli Sháta Si-el-me Si-ipsh Si-kun-na Si-la-ri Si-mardu Si-me Si-na Si-qa-a-ul-li Si-ráshi-it Si-sik-ki Si-ti Si-uri Siim-ti Siini Siipshti-in Siir-pa Sik-qa Sik-tu Sikra Siktin Sir-ki-ku Sirpurna-ap Sirtiishuú Sitium Siya-hu-uri Siya-áshalih Siyaáshá-dúri Su-kar-sh Su-kur Su-man Su-shi Su-u-ulu Su-ul-me Su-usa-h Sunkiiptin Sunra Suula Suun-shal Ta-am Ta-la Ta-qate-irii Ta-ra Ta-um Ta-zani Ta-ásh Taag-gìr Taak Taan Tala-akqa Tam-maish Tam-mín Tam-na Tamenuip Tan Tanub-ba-am Tar-ki-ip Tarit-mi Tarmir Tarsha-ak Taru Tassi-ik Te-eliish Te-ishi-ma Te-li Te-ulkidu Tel-me Telate Ten Ten-da Tenukti Tete-um-ma Thi-haap-pi Ti-h-na Ti-in Ti-ku Ti-qa Ti-ur Tiiba Tiibe Tiime-un Tiip Tilak Tilar Tin Tiqaan-it Tiqat Tisháda Tiutin Tiutur Tu-ishi-in Tu-ku-it Tu-qa Tu-ra Tu-un Tu-un-me Tukkushu Tuku-ulat Tum-ma Tur-du Tur-na Tur-nanzami Tur-ra Tur-shi Tura-nu Turpi Turu-h Turu-un Turza Tuunte Tuupshiin Tuusirpi Táh Táhha U-su U-ummaulli Uk-kikka Uk-ti Ukuunki Ukuutum Ullu-ip-taak Um-miishá Un-ma Un-shi Una-hu-tu Urpilhi-te-ir Urpu-sha-ir Uz-za-ak Uz-zaqa Uz-zí-ime Uz-zízí Uzziba Uzzibba Uzzik-ki-h Uzzizzaar Za-ak Za-isha-h Za-me Za-paari Za-ri-da Zam-me Zame Zaqa Zi-il Zi-ru-na Zib-balti Zibbaiip Zibbe Zik Zik-ku Ziki Zilak Ziyaat Ziyak Ziyak-ki Ziyakme Zu-ha-la-h Zu-un Zuun-ra Zí-ilti Zí-tasháak Ú-en-niri Ú-hin Ú-riti Ú-ya-ikti Āpi-eshi Āpilat Āpilaáshu
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				
+			}
+			
+			# Always combined with a first name
+			second_names = {
+					
+			}
+			
+			regnal_first_names = {
+				Atteen-kime Berah Du-uram Isha-h-tú Iz-zíti Kul Na-al Sunra Turza Táh Ziyak
+			}
+			
+			regnal_second_names = {
+				Azzaam Ba-at-ti Ba-ásháh Bi-nu-ura Da-te-tu-up Dalpi-pi Han-t Harriiri Hazzi Hi-ishá Hu-huuntar Hu-lanturna Hutmanu I-iri Ip-pi Ishi-ri Kara-ti Ki-hu-tema Ki-ti-um Kunki Libba Mu-na Máshi-uni Pu-ma Pu-ra Pír-táhshu-un Pírnahut-t Rshiin Ru-qa Sh-ha-ru Sh-ta Shi-pi Shiin-qa Shila Shu-daani Shu-na Sháda-ip Sháud-dal Tam-shu-ra Tashu Táhshà-mit Uru-h Za-hi-mi Za-pa Zunsari
+			}
+		}
+	}
+}

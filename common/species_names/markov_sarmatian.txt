@@ -1,0 +1,393 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	apsanos = {
+		name = Apsanii
+		plural = Apsanii
+		home_planet = Apsanos
+		home_system = "Qae Chousta"
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	zorevae = {
+		name = Zorevian
+		plural = Zorevians
+		home_planet = Zorevae
+		home_system = Kargtakês
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	balgandames = {
+		name = Balgander
+		plural = Balganders
+		home_planet = Balgandamês
+		home_system = "Mandz Sar"
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	ouzis = {
+		name = Qaer
+		plural = Qaer
+		home_planet = Ouzis
+		home_system = Eunandiagas
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	zelexagos = {
+		name = Zelexian
+		plural = Zelexians
+		home_planet = Zelexagos
+		home_system = Pêras
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	tirin = {
+		name = Tirinese
+		plural = Tirinese
+		home_planet = Tirin
+		home_system = Aldios 
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	aspusgrove = {
+		name = "Zhos Pataes"
+		plural = "Zhos Pataes"
+		home_planet = "Aspus' Grove"
+		home_system = "Wounds of Seiraxar" 
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	cippal = {
+		name = Cippalese
+		plural = Cippalese
+		home_planet = Cippal
+		home_system = Marzbazos 
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	massakos = {
+		name = Massakoid
+		plural = Massakoids
+		home_planet = Massakos
+		home_system = Akasazês 
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	xuaraf = {
+		name = Xuarafite
+		plural = Xuarafites
+		home_planet = Xuaraf
+		home_system = Barnôn 
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	spalavgas = {
+		name = "Kart Thes"
+		plural = "Kart Thes"
+		home_planet = "Spal Avgas"
+		home_system = "Spal Chôkan"
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	firthinos = {
+		name = Firthin
+		plural = Firthins
+		home_planet = Firthinos
+		home_system = Namouardes
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	phidagios = {
+		name = Phidagoid
+		plural = Phidagoids
+		home_planet = Phidagios
+		home_system = Fonesmas
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	pharsanon = {
+		name = Pharsanian
+		plural = Pharsanians
+		home_planet = Pharsanon
+		home_system = Iaphades
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	nabaces = {
+		name = Nabacean  
+		plural = Nabaceans
+		home_planet = Nabaces
+		home_system = "Stos lae Ragos"
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	zancart = {
+		name = Zancartian  
+		plural = Zancartians
+		home_planet = Zancart
+		home_system = Ashticus
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	tersis = {
+		name = Tersoid  
+		plural = Tersoids
+		home_planet = Tersis
+		home_system = Asakos
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	crownofschemes = {
+		name = Til  
+		plural = Til
+		home_planet = "Crown of Schemes"
+		home_system = "Lost Innocence"
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	irinprime = {
+		name = Irinid 
+		plural = Irinids
+		home_planet = "Irin Prime"
+		home_system = Irin
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	saun = {
+		name = Saunish 
+		plural = Saunish
+		home_planet = Saun
+		home_system = Banos
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	krenquer = {
+		name = Krenqueroid 
+		plural = Krenqueroids
+		home_planet = Krenquer
+		home_system = Phansar
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	xarnos = {
+		name = Xarnite 
+		plural = Xarnites
+		home_planet = Xarnos
+		home_system = Xorevzia
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	ardos = {
+		name = Ardossoid
+		plural = Ardossoids
+		home_planet = Ardos
+		home_system = Rhagados
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	dzainspitae = {
+		name = Spitoid
+		plural = Spitoids
+		home_planet = "Dzain Spitae"
+		home_system = "Dzain Xucaun"
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	xobadaris = {
+		name = Xobadarid
+		plural = Xobadarids
+		home_planet = Xobadaris
+		home_system = Kaenanêkas
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	aunsandos = {
+		name = Aunsanderan
+		plural = Aunsanderans
+		home_planet = "Aun Sandos"
+		home_system = Arin
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	bellsofthenorth = {
+		name = Iaxazos
+		plural = Iaxazos
+		home_planet = "Bells of the North"
+		home_system = "Meditations of Phadi Sat"
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	borchoubag = {
+		name = Borchoan
+		plural = Borchoans
+		home_planet = Borchoubag
+		home_system = Amakos
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	rapal = {
+		name = Rapalese
+		plural = Rapalese
+		home_planet = Rapal
+		home_system = Xargas
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	radaegae = {
+		name = Rad
+		plural = Rads
+		home_planet = Radaegae
+		home_system = Ouagdo
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	tolanosprime = {
+		name = Kasoi
+		plural = Kasoi
+		home_planet = "Tolanos Prime"
+		home_system = Tolanos
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	madasin = {
+		name = Madasinese
+		plural = Madasinese
+		home_planet = Madasin
+		home_system = Abrouardza
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	blessedremedy = {
+		name = Chodasian
+		plural = Chodasians
+		home_planet = "Blessed Remedy"
+		home_system = "Valiant Pledge"
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	gospal = {
+		name = Gôspali
+		plural = Gôspalis
+		home_planet = Gôspal
+		home_system = Tirimange
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	sardagos = {
+		name = Sardag
+		plural = Sardags
+		home_planet = Sardagos
+		home_system = Hetakos
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	iaxamag = {
+		name = Iaxamagite
+		plural = Iaxamagites
+		home_planet = Iaxamag
+		home_system = Chôn
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	constanttreasure = {
+		name = Archor
+		plural = Archor
+		home_planet = "Constant Treasure"
+		home_system = "Infinite Virtue"
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	aeganos = {
+		name = Aeganoid
+		plural = Aeganoids
+		home_planet = Aeganos
+		home_system = Oxarakios
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	akkastos = {
+		name = Akkastian
+		plural = Akkastians
+		home_planet = Akkastos
+		home_system = Radikos
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	kudagosla = {
+		name = Kudagoslan
+		plural = Kudagoslans
+		home_planet = Kudagosla
+		home_system = Dondzhikios
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	aspenakos = {
+		name = Aspenakid
+		plural = Aspenakids
+		home_planet = Aspenakos
+		home_system = Hamicupparac
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	ciras = {
+		name = Cirassid
+		plural = Cirassids
+		home_planet = Ciras
+		home_system = "Kos Maios"
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	anticugos = {
+		name = Anticusk
+		plural = Anticusks
+		home_planet = Anticugos
+		home_system = Aldizhos
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	radamtheredeemer = {
+		name = Radamite
+		plural = Radamites
+		home_planet = "Radam the Redeemer"
+		home_system = "Xiakos the All-Above"
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	nykhoreval = {
+		name = Nykh
+		plural = Nykh
+		home_planet = Nykhoreval
+		home_system = Tutyris
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	gadagoson = {
+		name = Gadagite
+		plural = Gadagites
+		home_planet = Gadagosôn
+		home_system = Arsos
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	pitos = {
+		name = Pitoid
+		plural = Pitoids
+		home_planet = Pitos
+		home_system = Bassat
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+	phalirguin = {
+		name = Phalirian
+		plural = Phalirians
+		home_planet = Phalirguin
+		home_system = Naios
+		name_list = "cybrxkhan_fantasy_sarmatian"
+	}
+}

@@ -1,0 +1,437 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	dithal = {
+		name = Dithálian
+		plural = Dithálians
+		home_planet = "Cull Dithál"
+		home_system = "Cull Éteám"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	rath = {
+		name = Rath
+		plural = Rath
+		home_planet = Rath-Sónnlan
+		home_system = Mognol
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	albhil = {
+		name = Álbhilese
+		plural = Álbhilese
+		home_planet = Álbhil
+		home_system = Érdorreth
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	ardri = {
+		name = Ardrish
+		plural = Ardrish
+		home_planet = Ardri
+		home_system = Íordu
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	leth = {
+		name = Leth
+		plural = Leth
+		home_planet = Leth
+		home_system = Funtethál
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	bemu = {
+		name = Bemoid
+		plural = Bemoids
+		home_planet = Bemu
+		home_system = Áimhe 
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	rum = {
+		name = Rumish
+		plural = Rumish
+		home_planet = "Dánn Rum"
+		home_system = "Dánn Dairíosdi" 
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	feallol = {
+		name = Fealloid
+		plural = Fealloids
+		home_planet = Feallol
+		home_system = Firnomheth
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	agnort = {
+		name = Agnortian
+		plural = Agnortians
+		home_planet = Agnort
+		home_system = Rírbo
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	lem = {
+		name = Lem
+		plural = Lem
+		home_planet = Lem
+		home_system = Mudhnimen
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	brenna = {
+		name = Brennish
+		plural = Brennish
+		home_planet = Brenna
+		home_system = Naitìorhí
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	tirdfin = {
+		name = Tirdfinite
+		plural = Tirdfinites
+		home_planet = "Tird Fin"
+		home_system = "Tird Curamhna"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	abbechell = {
+		name = Abbechian
+		plural = Abbechians
+		home_planet = Abbechell
+		home_system = Fómhím
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	ogno = {
+		name = Ógnid  
+		plural = Ógnids
+		home_planet = Ógno
+		home_system = "Fel Sómhnard"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	bronbhobha = {
+		name = Bronbhoian  
+		plural = Bronbhoians
+		home_planet = Bronbhobha
+		home_system = "Tunnel to the Stars"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	tunnubhi = {
+		name = Tunnubhian  
+		plural = Tunnubhians
+		home_planet = Tunnubhi
+		home_system = Dadhnerd
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	vachaga = {
+		name = Vachagoid  
+		plural = Vachagoids
+		home_planet = Vachaga
+		home_system = Cimhlubél
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	nimh = {
+		name = Nimhese 
+		plural = Nimhese
+		home_planet = "Nimh Máll"
+		home_system = "Annleal Máll"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	malird = {
+		name = Malírdian 
+		plural = Malírdians
+		home_planet = Malírd
+		home_system = Ebhasumh
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	underceruleangaze = {
+		name = "Cort Cádhe" 
+		plural = "Cort Cádhe"
+		home_planet = "Under Cerulean Gaze"
+		home_system = "Soaring through Clouds"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	neadhadhemh = {
+		name = Bathcaelite 
+		plural = Bathcaelites
+		home_planet = Neádhádhemh
+		home_system = Esdisacht
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	indoghu = {
+		name = Indoghan
+		plural = Indoghans
+		home_planet = Indoghu
+		home_system = Landónn
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	indoghu = {
+		name = "Sáil Fann"
+		plural = "Sáil Fann"
+		home_planet = "Obsidian Heart"
+		home_system = Flamestone
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	elar = {
+		name = Elarite
+		plural = Elarites
+		home_planet = "Elar adh Brónaillom"
+		home_system = Rirdrá
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	patientlover = {
+		name = Enghomhì
+		plural = Enghomhì
+		home_planet = "Patient Lover"
+		home_system = "Dancing Wanderer"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	teas = {
+		name = Teás
+		plural = Teás
+		home_planet = Teás
+		home_system = Brimhlí
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	dulea = {
+		name = Dulean
+		plural = Duleans
+		home_planet = Dulea
+		home_system = Méantil
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	bantilloimh = {
+		name = Bantilloid
+		plural = Bantilloids
+		home_planet = Bantillóimh
+		home_system = Magnunéamh
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	brunnis = {
+		name = Brunnish
+		plural = Brunnish
+		home_planet = Brunnis
+		home_system = Óthugimh
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	minainnprime = {
+		name = Minish
+		plural = Minish
+		home_planet = "Minainn Prime"
+		home_system = Minainn
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	cuchor = {
+		name = Cuchorish
+		plural = Cuchorish
+		home_planet = "Ínro Cuchor"
+		home_system = "Brim Bralbhísdá"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	lesdaoimna = {
+		name = Lésdaoimnan
+		plural = Lésdaoimnans
+		home_planet = Lésdaoimna
+		home_system = Máilbubhlert
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	dorbes = {
+		name = Dorbian
+		plural = Dorbians
+		home_planet = Dorbes
+		home_system = "Lognoth Fántírd"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	millama = {
+		name = Millamian
+		plural = Millamians
+		home_planet = Millama
+		home_system = Ternéall
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	broisemssilver = {
+		name = Munmo
+		plural = Munmo
+		home_planet = "Bróisem's Silver"
+		home_system = "Ogathón's Gold"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	riobheall = {
+		name = Ríobhian
+		plural = Ríobhians
+		home_planet = Ríobheáll
+		home_system = Ínnlur
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	villith = {
+		name = Villíthian
+		plural = Villíthians
+		home_planet = "Vil Líth"
+		home_system = Estáirt
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	wisemastershovel = {
+		name = Onduanese
+		plural = Onduanese
+		home_planet = "Wise-master's Hovel"
+		home_system = "Village of Heaven"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	intechompostith = {
+		name = Tithian
+		plural = Tithians
+		home_planet = "Intechom pos-Tith"
+		home_system = Gellíth
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	deramhny = {
+		name = Bríndish
+		plural = Bríndish
+		home_planet = Deramhny
+		home_system = Lenghel
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	turtaos = {
+		name = Turtish
+		plural = Turtish
+		home_planet = Turtaos
+		home_system = "Éash Salbh"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	grimendurance = {
+		name = Síllian
+		plural = Síllians
+		home_planet = "Grim Endurance"
+		home_system = "Solemn Hymn"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	IUbria = {
+		name = Sílubéllese
+		plural = Sílubéllese
+		home_planet = Sílubéll
+		home_system = Nudhníth
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	udhnessa = {
+		name = Udhnessan
+		plural = Udhnessans
+		home_planet = Udhnessa
+		home_system = Ódólbhna
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+}
+
+
+
+
+### AQUATICS
+
+AQUATIC = {
+	brannogaith = {
+		name = "Bri Din"
+		plural = "Bri Din"
+		home_planet = Bránnógaith
+		home_system = Ennlobhámh
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	nastri = {
+		name = Nastrian
+		plural = Nastrians
+		home_planet = Nastri
+		home_system = Íslímhnísh
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	dicagir = {
+		name = Dicagirite
+		plural = Dicagirites
+		home_planet = Dicagir
+		home_system = Óibbul
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	rirdorda = {
+		name = Rírdordan
+		plural = Rírdordans
+		home_planet = "Rír Dorda"
+		home_system = Bámnun
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	obhniolganga = {
+		name = Lóisdóloid
+		plural = Lóisdóloids
+		home_planet = Obhnìolganga
+		home_system = Rinógírbul
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	obhnergo = {
+		name = Obhnérgian
+		plural = Obhnérgians
+		home_planet = Obhnérgó
+		home_system = Ágnóth
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	fainnothal = {
+		name = Fainnóthalese
+		plural = Fainnóthalese
+		home_planet = Fainnóthal
+		home_system = Ondégéamh
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	iphnusprime = {
+		name = Ìphnuan
+		plural = Ìphnuans
+		home_planet = "Ìphnus Prime"
+		home_system = Ìphnus
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+	tedhmea = {
+		name = Tithian
+		plural = Tithians
+		home_planet = "Tedh Meá"
+		home_system = "Tedh Bran"
+		name_list = "cybrxkhan_fantasy_celtic"
+	}
+}
+

@@ -1,0 +1,70 @@
+d_bugged_exploited_wasteland = {
+	icon = d_gaseous_eruption
+	is_for_colonizable = yes
+	category = deposit_cat_rare_resource
+	
+	use_weights_for_terraforming_swap_types = no
+	
+	planet_modifier = {
+		district_mining_max = 1
+		habitability_ceil_add = -0.05
+	}
+
+	potential = {
+		always = yes
+	}
+	
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_bugged_symbiotic_relations = {
+	icon = d_gaseous_eruption
+
+	time = 360
+
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+	potential = { always = no }
+
+	planet_modifier = {
+		planet_jobs_simple_drone_produces_mult = 0.2
+		planet_jobs_complex_drone_produces_mult = 0.1
+		pop_growth_speed = 0.1
+		planet_pop_assembly_organic_mult = 0.1
+		planet_max_districts_add = -2
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+	resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 1000
+		}
+	}
+}
+
+d_bugged_criminal_underworld = {
+	icon = d_slums
+	is_for_colonizable = yes
+	category = deposit_cat_rare_resource
+	
+	use_weights_for_terraforming_swap_types = no
+	
+	planet_modifier = {
+		planet_max_branch_office_buildings_add = 2
+	}
+
+	potential = {
+		always = no
+	}
+	
+	drop_weight = {
+		weight = 0
+	}
+}

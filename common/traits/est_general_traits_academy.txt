@@ -1,0 +1,95 @@
+
+# All leaders will have a common trait-point value set in defines, which they use to grab traits
+
+# leader_trait = { commander } - this tags the trait as a leader-trait and not a species-trait
+# initial = no - if set to no, this trait can not be granted to leaders when they are generated
+# leader_class = { admiral scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
+# requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
+# requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
+# prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
+
+##################
+# General Traits #
+##################
+
+leader_trait_iron_fist_3_est = {
+	replace_traits = { "leader_trait_iron_fist_2" }
+	inline_script = {
+		script = trait/icon
+		CLASS = commander
+		ICON = GFX_leader_trait_iron_fist
+		RARITY = common
+		COUNCIL = no
+		TIER = 3
+	}
+	planet_modifier = {
+		planet_jobs_slave_produces_mult = 0.25
+	}
+	sector_modifier = {
+		planet_jobs_slave_produces_mult = 0.15
+	}
+	leader_potential_add = {
+		FROM = {
+			allows_slavery = yes
+			has_active_tradition = tr_est_academy_5
+		}
+	}
+	leader_class = { commander }
+}
+
+leader_trait_restrained_3_est = {
+	replace_traits = { "leader_trait_restrained" }
+	inline_script = {
+		script = trait/icon
+		CLASS = commander
+		ICON = GFX_leader_trait_restrained
+		RARITY = common
+		COUNCIL = no
+		TIER = 3
+	}
+	army_modifier = {
+		army_disengage_chance_mult = 0.18
+		army_collateral_damage_mult = -0.4
+	}
+	fleet_modifier = {
+		ship_orbital_bombardment_pop_damage_mult = -0.18
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_academy_5
+		}
+	}
+	leader_class = { commander }
+	opposites = {
+		leader_trait_victory_or_death
+		leader_trait_victory_or_death_2
+		leader_trait_butcher
+	}
+}
+
+leader_trait_butcher_3_est = {
+	replace_traits = { "leader_trait_butcher_2" }
+	inline_script = {
+		script = trait/icon
+		CLASS = commander
+		ICON = GFX_leader_trait_butcher
+		RARITY = common
+		COUNCIL = no
+		TIER = 3
+	}
+	army_modifier = {
+		army_damage_mult = 0.18
+		army_collateral_damage_mult = 0.8
+	}
+	leader_potential_add = {
+		FROM = {
+			has_active_tradition = tr_est_academy_5
+		}
+	}
+	leader_class = { commander }
+	opposites = {
+		leader_trait_armchair_commander
+		leader_trait_armchair_commander_2
+		leader_trait_restrained
+	}
+}

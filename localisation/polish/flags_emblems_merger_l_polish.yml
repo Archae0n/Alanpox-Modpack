@@ -1,0 +1,49 @@
+﻿l_polish:
+ FLAG_CATEGORY_zz_enclaves:0 "Enklawy"
+ FLAG_CATEGORY_zz_special:0 "Specjalny"
+ 
+ FLAG_CATEGORY_battlestar-6364:0 "Battlestar Galactica"
+ FLAG_CATEGORY_dune-6364:0 "Wydma"
+ FLAG_CATEGORY_elitedangerous-6364:0 "Elitarne Niebezpieczne"
+ FLAG_CATEGORY_eve-6364:0 "EWA Online"
+ FLAG_CATEGORY_geopolitical-6364:0 "Geopolityczny"
+ FLAG_CATEGORY_halflife-6364:0 "Pół życia"
+ FLAG_CATEGORY_historythemed-6364:0 "Historyczny"
+ FLAG_CATEGORY_homeworld-6364:0 "Homeworld"
+ FLAG_CATEGORY_masseffect-6364:0 "Efekt masowy"
+ FLAG_CATEGORY_misc-6364:0 "Astronomiczny"
+ FLAG_CATEGORY_miscgame-6364:0 "Gry"
+ FLAG_CATEGORY_redrising-6364:0 "Czerwone powstanie"
+ FLAG_CATEGORY_stargate-6364:0 "Gwiezdne Wrota"
+ FLAG_CATEGORY_startrek-6364:0 "Star Trek"
+ FLAG_CATEGORY_starwars-6364:0 "Gwiezdne Wojny"
+  
+ FLAG_CATEGORY_divers:0 "Złoto Swefpif"
+ FLAG_CATEGORY_divers2:0 "Srebrny Swefpif"
+ FLAG_CATEGORY_divers3:0 "Swefpifh Onyks"
+ 
+ FLAG_CATEGORY_mtg_main_1:0 "MTG (główne)"
+ FLAG_CATEGORY_mtg_main_2:0 "MTG (wtórny)"
+ FLAG_CATEGORY_mtg_other:0 "MTG (inne)"
+ 
+ FLAG_CATEGORY_starclans_color_1:0 "StarClans Kolor"
+ FLAG_CATEGORY_starclans_gold_1:0 "StarClans Złoto"
+ FLAG_CATEGORY_starclans_onyx_1:0 "StarClans Onyks"
+ FLAG_CATEGORY_starclans_silver_1:0 "StarClans Srebro"
+ 
+ FLAG_CATEGORY_teesemblems1:0 "Tee 1"
+ FLAG_CATEGORY_teesemblems2:0 "Tee 2"
+ FLAG_CATEGORY_teesemblems3:0 "Tee 3"
+ FLAG_CATEGORY_teesemblems4:0 "Tee 4"
+ FLAG_CATEGORY_teesemblems5:0 "Tee 5"
+ FLAG_CATEGORY_teesemblems6:0 "Tee 6"
+  
+ FLAG_CATEGORY_scificorpemblems1:0 "Sci-Fi Corporate"
+ 
+ FLAG_CATEGORY_just-more-flags:0 "Tylko więcej flag"
+
+ FLAG_CATEGORY_xtraemblems:0 "Xtra emblematy"
+ 
+ FLAG_CATEGORY_humanity:0 "Ludzkość"
+ 
+ FLAG_CATEGORY_more_flags:0 "Więcej flag"

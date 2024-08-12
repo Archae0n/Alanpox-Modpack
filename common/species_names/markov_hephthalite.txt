@@ -1,0 +1,447 @@
+# Generated species derive their names from here
+# Rule of thumb: at least one of each culture for each species, except mammalian and humanoid which gets at least ~4 per each
+
+### MAMMALIANS
+
+MAM = {
+	vamayan = {
+		name = Vamayanese
+		plural = Vamayanese
+		home_planet = Vamayan
+		home_system = Ayanzo'i
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	eystaxsha = {
+		name = Eystaxian
+		plural = Eystaxians
+		home_planet = Eystaxsha
+		home_system = Vradra
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	kaniyansmirth = {
+		name = "Varga Siya"
+		plural = "Varga Siya"
+		home_planet = "Kaniyan's Mirth"
+		home_system = "Yandatan's Glee"
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	aivarta = {
+		name = Aivartan
+		plural = Aivartans
+		home_planet = Aivarta
+		home_system = Bagun-Dukat
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	akamat = {
+		name = Akamatic
+		plural = Akamatics
+		home_planet = Akamat
+		home_system = Adhirohakhoy 
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	neskaya = {
+		name = Neskayan
+		plural = Neskayans
+		home_planet = Neskaya
+		home_system = Kansand 
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	jalimaha = {
+		name = Jalimish
+		plural = Jalimish
+		home_planet = Jalimaha
+		home_system = Shanaves 
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	rokhshar = {
+		name = Ai-Rokh
+		plural = Ai-Rokh
+		home_planet = Rokhshar
+		home_system = Devareshan 
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	sukamuun = {
+		name = Danjay
+		plural = Danjay
+		home_planet = Sukamuun
+		home_system = Farsotasagti
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	jtali = {
+		name = Jatalid
+		plural = Jatalids
+		home_planet = Jatali
+		home_system = Grathitihra
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	rapuryaprime = {
+		name = Rapurian
+		plural = Rapurians
+		home_planet = "Rapurya Prime"
+		home_system = Rapurya
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	shantira = {
+		name = Shantiran
+		plural = Shantirans
+		home_planet = Shantira
+		home_system = Meg-Kuhz
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	nevrana = {
+		name = Nevranoid  
+		plural = Nevranoids
+		home_planet = Nevrana
+		home_system = Mekshaq
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	wagzizizi = {
+		name = Zizzuan  
+		plural = Zizzuans
+		home_planet = Wag-ziz
+		home_system = Abudhid
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	aynukam = {
+		name = Gurathid  
+		plural = Gurathids
+		home_planet = "Ayn Ukam"
+		home_system = "Ayn Bhaga"
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	bloodoftheground = {
+		name = Prabinese  
+		plural = Prabinese
+		home_planet = "Blood of the Ground"
+		home_system = "Breath of the Sky"
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	virgantuti = {
+		name = Virgantoid  
+		plural = Virgantoids
+		home_planet = Virgantuti
+		home_system = Abudantacch
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+}
+
+### AVIAN 
+
+AVI = {
+	mekhobozdani = {
+		name = Payn 
+		plural = Payn
+		home_planet = Mekhobozdani
+		home_system = Mekhobozdani
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	nodhiri = {
+		name = Nodhirian 
+		plural = Nodhirians
+		home_planet = Nodhiri
+		home_system = Purupt
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	kunargaya = {
+		name = Kunargayan 
+		plural = Kunargayans
+		home_planet = Kunargaya
+		home_system = Afarihangh
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	saputana = {
+		name = Saputanean 
+		plural = Saputaneans
+		home_planet = Saputana
+		home_system = Kongun
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+}
+
+### MOLLUSCOID
+
+MOL = {
+	alikanna = {
+		name = Alikannoid
+		plural = Alikannoids
+		home_planet = Alikanna
+		home_system = Pankak
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	argmar = {
+		name = Shrak
+		plural = Shrak
+		home_planet = Argmar
+		home_system = Argmar
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	dhavgadrangan = {
+		name = Dhavgadrangan
+		plural = Dhavgadrangan
+		home_planet = "Cove of Rest"
+		home_system = "Tunnel to Heaven"
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	prinidan = {
+		name = Prinidanese
+		plural = Prinidanese
+		home_planet = Prinidan
+		home_system = Nokoll-naharya
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+}
+
+### PLANTOID
+
+PLANT = {
+	simihar = {
+		name = Simiharese
+		plural = Simiharese
+		home_planet = Simihar
+		home_system = Kandanaradab
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	yabuka = {
+		name = Yabukan
+		plural = Yabukans
+		home_planet = Yabuka
+		home_system = Zeshilchalah
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	venessse = {
+		name = Pushid
+		plural = Pushids
+		home_planet = Venes
+		home_system = Aivaregerogda
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	yandez = {
+		name = Yandezzian
+		plural = Yandezzians
+		home_planet = Yandez
+		home_system = Chya
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+}
+
+### HUMANOIDS
+
+HUM = {
+	dangira = {
+		name = Dangiran
+		plural = Dangirans
+		home_planet = Dangira
+		home_system = Azukunbid
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	saneva = {
+		name = Sanevan
+		plural = Sanevans
+		home_planet = Saneva
+		home_system = Shtikavaka
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	nakarka = {
+		name = Vra
+		plural = Vra
+		home_planet = "Nak Arka"
+		home_system = "Nak Oes"
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	warkurpad = {
+		name = Warkurpaddi
+		plural = Warkurpaddis
+		home_planet = Warkurpad
+		home_system = Ukhsag
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	bushukakan = {
+		name = Bushukoid
+		plural = Bushukoids
+		home_planet = Bushukakan
+		home_system = Robekhra
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	pampurg = {
+		name = Chy
+		plural = Chy
+		home_planet = Pampurg
+		home_system = Kisar-khina
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	burambilga = {
+		name = Burambilgan
+		plural = Burambilgans
+		home_planet = Burambilga
+		home_system = Robekhra
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+}
+
+### LITHOIDS
+
+LITHOID = {
+	subasisubasi = {
+		name = Subasian
+		plural = Subasians
+		home_planet = Subasi
+		home_system = Rahatif
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	savarni = {
+		name = Savarnid
+		plural = Savarnids
+		home_planet = Savarni
+		home_system = Teperm
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	dathashanshammer = {
+		name = Kharespoid
+		plural = Kharespoids
+		home_planet = "Dathashan's Hammer"
+		home_system = "Dathashan's Anvil"
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	kalabkhuma = {
+		name = Kalabite
+		plural = Kalabites
+		home_planet = Kalabkhuma
+		home_system = Ujran
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+}
+
+### NECROIDS
+
+NECROID = {
+	parmuzda = {
+		name = Parmuzdan
+		plural = Parmuzdans
+		home_planet = Parmuzda
+		home_system = Parmuzda
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	patymt = {
+		name = Xoadi
+		plural = Xoadi
+		home_planet = Patymt
+		home_system = "Mudhra Pitana"
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	fargayentheprotector = {
+		name = Nellnatam
+		plural = Nellnatam
+		home_planet = "Fargayan the Protector"
+		home_system = "Khareg the Warmonger"
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	bostopirudan = {
+		name = Bostoppian
+		plural = Bostoppians
+		home_planet = Bostopirudan
+		home_system = Bhush-Ade
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+}
+
+### AQUATICS
+
+AQUATIC = {
+	littleoxyvada = {
+		name = Oxyavdan
+		plural = Oxyavdans
+		home_planet = "Little Oxyavda"
+		home_system = "Grand Oxyvada"
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	kolkart = {
+		name = Kolkartid
+		plural = Kolkartids
+		home_planet = "Kol Kart"
+		home_system = "Kol Yot-wag"
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	razomog = {
+		name = Razomite
+		plural = Razomites
+		home_planet = Razomog
+		home_system = Kindun
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	ujjalujjal = {
+		name = Ujjalese
+		plural = Ujjalese
+		home_planet = Ujjal
+		home_system = Saukaty
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+}
+
+# Toxoids
+
+TOX = {
+	IU = {
+		name = Kushinite
+		plural = Kushinites
+		home_planet = Kushina
+		home_system = "Shan Baivarh"
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	chuptan = {
+		name = Chuptanese
+		plural = Chuptanese
+		home_planet = Chuptan
+		home_system = Nagarwarna
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	nafnak = {
+		name = Nafnakoid
+		plural = Nafnakoids
+		home_planet = Nafnak
+		home_system = Aserkuryanan
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	orsyrtan = {
+		name = Bhuhz
+		plural = Bhuhz
+		home_planet = Orsyrtan
+		home_system = Puraman
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	firstskywatcher = {
+		name = Dukk-Sak-Zha
+		plural = Dukk-Sak-Zha
+		home_planet = "First Sky-Watcher"
+		home_system = "First Sky-Sailor"
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	natakhakh = {
+		name = Natakhian
+		plural = Natakhians
+		home_planet = Natakhakh
+		home_system = Walaq
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+	chanakabah = {
+		name = Chanakian
+		plural = Chanakians
+		home_planet = Chanakabah
+		home_system = Mul'Frozh
+		name_list = "cybrxkhan_handmade_hephthalite"
+	}
+}

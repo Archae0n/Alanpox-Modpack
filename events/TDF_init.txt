@@ -1,0 +1,11 @@
+namespace = tdf_initialization
+
+event = {
+	id = tdf_initialization.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = technology_diffusion
+	}
+}

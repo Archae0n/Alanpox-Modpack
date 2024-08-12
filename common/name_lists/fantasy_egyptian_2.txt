@@ -1,0 +1,231 @@
+﻿### Fantasy Egyptian
+### Names all from random name generation at fantasynamegenerators.com specifically the Rift/Eth and Egyptian town name generators
+
+cybrxkhan_fantasy_egyptian_2 = {
+	category = "Mammalian"
+
+	ship_names = {
+		generic = {
+			Aahiza Aakhapis Abaalemhet Abdamepthah Abdamertum Abde Abdileramen Absyremu Achereramen Acherouris Akhfutaten Akhripis Akneiyut Amenasenb Amunatra Amunima Anfurma Apsizum Ashsi Bakenaka Bakenapis Behdfurun Behdkhemhat Behdneimeru Besnoubu Besoupet Clyby Clysdjupet Custurma Daremheb Debu Dehtenis Deremhat Desresa Djacahdet Djadjelzum Djamurma Djanpesouk Djedsasut Djekha Djesam Ebonorisis Ebonukura Emta Encaten Entesai Fabynet Farsys Fartukhen Fata Favasy Fenakhsas Fenertum Funamelek Geno Gesdjuru Gesmeta Gesnuta Habes Habibeu Hamehemto Hebne Hebymty Hekaphris Honirye Isilah Jabouris Kamiya Kanese Kanunta Karisis Keneihenet Keneiruna Kerby Kete Khaberes Khafesseker Kharupata Khonsaphres Kikharu Kisou Kusdjetennu Kussaris Manaphris Manennifi Manetekhu Manetibah Mehes Memakhsas Memamelek Memaphres Menriset Mensyzum Merirye Muminoe Nanepet Nanitis Naptubesheh Nasemunein Nasousa Nebakaruti Nebpi Nefagara Nefenet Nekhsodju Nekhteru Nekhtumah Neksitennu Nembumar Nemu Nenatra Nenoupata Nepokha Netalzum Nofrira Nuberit Phanekhtou Phanertum Phrahakar Phrahemhet Phraheramen Psameramen Qipobenu Qulpifu Raniah Ranira Razankhnas Razatra Samepet Samibeu Sanila Serakaruti Setsemhat Setsou Shanorisis Sharsukhen Shedetennu Shenitis Sheno Sokennifi Taboubis Tamatra Tamunta Tanei Tapfudju Tarrilzum Tarusa Tatapis Tenirye Tenutis Thermese Thermura Thutmotep Tjebpisheh Tjebtalzum Tjenedju Tjesepis Waskharis Zanu
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {	}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Satekhwy Navy" "Mahash Navy" "Tjesh Navy" "Khumkanay Navy" "Waret Navy" "Imunu Navy" "Adjubaket Navy" "Asuhet Navy" "Ku Navy" "Samak Navy" "Tjed Navy" "Mahiti Navy" 
+		}
+		sequential_name = FANTASY_EGYPTIAN_2_xxFLEETNAMES_ORD
+	}
+
+	###ARMIES
+	army_names = {
+	
+		generic = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxASSAULTARMY_ORD
+		}
+	
+		machine_defense = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxMACHINEDEFENSE_ORD
+		}
+			
+		machine_assault_1 = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxMACHINEASSAULT1_ORD
+		}
+			
+		machine_assault_2 = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxMACHINEASSAULT2_ORD
+		}
+			
+		machine_assault_3 = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxMACHINEASSAULT3_ORD
+		}
+	
+		defense_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = FANTASY_EGYPTIAN_2_POSTATOMICARMYxx_SEQ
+		}
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Acsumunein Amnunis Ashpokhen Avme Avzukha Bedjeris Bessoubesheh Bestepis Clyca Clyseruna Clysrenis Clyturun Cusneisma Dehmesheh Dehneris Denei Detasut Djanum Ebbysut Ebsiru Eknosiris Ekpehdet Emneisouk Enzus Gebesheh Gedjesouk Gekhasut Gesbyremu Hebpi Hebum Kemepis Kerbekhen Kerzun Khaskhakhen Khasytaten Khedjumar Khemsimhat Kinousiris Kiridjed Kisosiris Kissouna Kissousy Kubu Kumaset Kusreruna Kussaibu Kustedju Mebeset Medsym Mensou Nasasir Nekhmudjed Nekhsepata Nekhtesai Nemdje Nemmurna Netu Qisdjefu Qissoset Qusaisouk Sasu Secatunis Setva Shama Shardje Shatuhdet Shesou Shetrurun Tapkhenein Tapmena Tapriru Tjebresiris Tjenmumhat Tjensodet Tjenusma Tjepohenet Wanuhdet Watunutjer Zamu
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		names1 = {
+			weight = 100
+            first_names_male = {
+				Aahakaruti Aakhekhtou Abayemhet Abdamis Abdilerermes Abdilertum Abuberermes Abusekhet Abusertum Abuskheres Acheniris Acherakaruti Acherekhet Acherenaten Acherertum Achereru Acherihiti Amenamen Amenaphos Amenekhet Amenotep Amenumah Ankhaka Ankhemheb Ankhemhebi Ankhennifi Aproneres Bakarertum Bakarumah Bakarurmes Chatauhor Chatekhtou Daraka Darekhet Daremhotep Darihiti Daroubis Fenemhotep Fenentu Fenoteph Funenaten Hakamen Hakihiti Hamephers Hamihiti Harauhor Imouris Jabepthes Jafotep Jafoubis Kakakar Kamephers Kamertum Kefaphos Khaberumes Khafoteph Khonsemhotep Makalenaten Makalihiti Memaka Memaphris Memauhor Mentakaruti Mentemhet Narehemto Narekhet Nebaphris Neberi Nebumah Nekhteri Osiremhet Osoraphos Padehemto Padekhtou Pademhotep Paderi Padotep Padoubis Phrahaphres Phrahenaten Semakar Sephaphris Sephapis Sepheramen Sepheru Sereru Serihiti Sokephers Sokeres Tabasenb Tabenaten Taheramen Tahotep Tatahersef Thothertum Thutmakhsas Thutmauhor Thutmekhtou Tosoriris
+            }
+           
+            first_names_female = {
+				Ahese Ahila Ahirye Amenenet Amenina Ameninoe Amuniya Ankhagara Ankhenen Bekitis Bekiza Bitharama Bithunta Ebonemi Ebonira Eboniza Ebonotep Ebonunta Halirye Halisis Hemibeu Isira Isiya Isonee Kamela Kamutis Kanese Khepinoe Khepunta Kheputis Madela Madense Madese Makibeu Makilah Manetanath Manetatra Manetekhu Manetina Mehorisis Merense Merutaraa Mukanila Mukanima Mukanisi Mukanonee Mumibah Mumiza Nahamarama Nahamastis Nahamenen Nahamila Nahamirye Nahamukura Nananath Nanila Nanilah Nefura Nenarta Nenemi Nenenet Nenutaraa Nofrarama Nofrunta Nubima Olabastis Olabekhu Olabiza Penastis Penerit Ranela Ranense Raninoe Razotep Samagara Samela Samepet Saminah Sanarta Sanastis Sanura Senemi Senutaraa Shanela Shanisis Shanutaraa Shenarta Shenatra Shenepet Tenina Tetatra Tetinoe Therminoe Thermotep Thermutis
+            }
+			
+			
+			second_names = {
+				" "
+			}
+            regnal_first_names_male = {
+				Abuberermes Amenekhet Ankhaka Bakarumah Chatauhor Daraka Fenentu Hakamen Jafotep Kamephers Kamertum Memaphris Nebumah Osiremhet Padotep Semakar Sepheru Serihiti Taheramen Thutmakhsas
+            }
+           
+            regnal_first_names_female = {
+				Amenina Amuniya Bekiza Ebonira Hemibeu Isira Isiya Kanese Kheputis Madese Nofrarama Olabastis Penerit Ranela Sanarta Sanura Tenina Thermotep
+            }
+			
+			
+			regnal_second_names = {
+				Abu Satep Hankhmun Tjawy Djasem
+			}
+		}
+	}
+}

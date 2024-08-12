@@ -1,0 +1,98 @@
+﻿l_english:
+ # Misc
+ rwf_revitalized_army_name: "Ancient Gene Warriors"
+ rwf_revitalized_warform_name: "Ancient War Engine"
+ rwf_ancient_weapons_cache_open_effects: "§YCreates several armies with advanced Archaeotech equipment§!"
+
+ # Jobs
+ job_rwf_archaeologist: "Archaeologist"
+ job_rwf_archaeologist_plural: "Archaeologists"
+ job_rwf_archaeologist_desc: "Careful sifting through the sands of time to uncover the past."
+ mod_job_rwf_archaeologist_add: "$job_rwf_archaeologist$ Jobs"
+ mod_job_rwf_archaeologist_per_pop: "§G+1§! $job_rwf_archaeologist$ Job per §Y20§! Pops"
+
+ # Deposits
+ rwf_related_ruins_large: "Large Ancient Ruins"
+ rwf_related_ruins_large_desc: "The decayed husks of major cities, infrastructure and various settlements dot this planet."
+ rwf_related_ruins_medium: "Ancient Ruins"
+ rwf_related_ruins_medium_desc: "The ruined legacy of this world's prior civilization peeks through here and there in half-buried detritus and forgotten structures."
+ rwf_related_ruins_minor: "Minor Ancient Ruins"
+ rwf_related_ruins_minor_desc: "Crumbled remains of homesteads and minor outposts are all that remains of the previous inhabitants of this world."
+ rwf_first_league_great_senate: "Senate of the First League"
+ rwf_first_league_great_senate_desc: "The ancient seat of power of a long lost interstellar empire."
+ rwf_first_league_ruins: "First League Ruins"
+ rwf_first_league_ruins_desc: "Crumbled stone and twisted metals is all that remains of galaxy-spanning empire."
+ rwf_forgotten_hoards: "Forgotten Hoards"
+ rwf_forgotten_hoards_desc: "The vast accumulated debris of countless eons, haphazardly preserved in enormous mounds. Various valuable components and schematics are intermixed with ancient trash."
+ rwf_ancient_vaults: "Ancient Vaults"
+ rwf_ancient_vaults_desc: "Colossal underground storages filled to the brim with treasures and rare resources. The wealth of eons is ours for the taking."
+ rwf_shattered_campus: "Shattered Archives"
+ rwf_shattered_campus_desc: "The ruins of an enormous research complex. Although the researchers are long gone, their equipment and notes are of immense scientific value."
+ rwf_larionessi_cloning_vats: "Larionessi Cloning Vats"
+ rwf_larionessi_cloning_vats_desc: "An ancient Larionessi facility intended to facilitate the survival of their species. Time has decayed this location's equipment beyond repair, but there is valuable insight into the ancient Larionessi gene-technology."
+ rwf_kirth_temple_of_the_goddess: "Temple of the Goddess"
+ rwf_kirth_temple_of_the_goddess_desc: "An ancient temple to a forgotten goddess, restored to its former glory. Its enormous structure stretches across the horizon."
+ rwf_kirth_temple_of_the_goddess_blocker: "Temple Ruins"
+ rwf_kirth_temple_of_the_goddess_blocker_desc: "The broken remains of a ruined structure. Massive bombardment craters have obliterated large chunks of the surrounding area."
+ rwf_carachel_ancient_battlefield_blocker: "Rusting Battlefields"
+ rwf_carachel_ancient_battlefield_blocker_desc: "Substantial swathes of the planetary surface are covered in the wreckage of ancient warships. Most bear horrific battle damage."
+ rwf_carachel_ancient_crater_blocker: "Ancient Craters"
+ rwf_carachel_ancient_crater_blocker_desc: "Enormous stretches of glassy wasteland speak of the potency of the ancient munitions that were fired here."
+ rwf_carachel_orbital_debris_blocker: "Orbital Debris Fields"
+ rwf_carachel_orbital_debris_blocker_desc: "The wreckage of thousands of starships has resulted in rampant Kessler syndrome over the planet. Approach is perilous."
+ rwf_carachel_ancient_vault_blocker: "Decaying Bomb Shelters"
+ rwf_carachel_ancient_vault_blocker_desc: "Armored vaults to protect a world's population. Some bear significant damage from bombardment. Others appear to have been largely unscathed. None were unused."
+ rwf_carachel_arsenal: "Carachel Arsenal"
+ rwf_carachel_arsenal_desc: "The massive archaeotech forges that once fuelled an empire's conquest of the stars."
+
+ # Decisions
+ rwf_decision_relic_expedition: "Survey Planetary Ruins"
+ rwf_decision_relic_expedition_effects: "Explore unmapped regions of the planetary ruins to recover valuable §Ytechnologies§! and §Yresources.§!\n\n§Y[rwf_expedition_counter_loc]/5 regions have been explored.§! "
+ rwf_decision_relic_expedition_desc: "This world is ancient and we have only scratched the surface of what it contains. If we explore deeper into the poorly mapped regions of the urban ruins, we may discover greater treasures."
+ rwf_expedition_count_variable: "[This.rwf_expedition_counter]"
+ rwf_expedition_count_0: "0"
+
+ # Techs
+ TECH_UNLOCK_RWF_RELIC_DRIVE_TITLE:1 "§HUnlocks Component:§! Relic Jump Drive"
+ TECH_UNLOCK_RWF_RELIC_DRIVE_DESC:2 "§HRelic Jump Drive§!\n$tech_rwf_relic_drive_core_desc$"
+ tech_rwf_relic_drive_core: "Relic Jump Drive"
+ tech_rwf_relic_drive_core_desc: "Although poorly understood and dependent on irreplaceable archaeotech components, this drive core outperforms any known hyperdrive design. Using esoteric physical principles it is capable of twisting space around a vessel, enabling near instantaneous transit."
+
+ tech_rwf_nanobot_treatments: "Nanobot Treatments"
+ tech_rwf_nanobot_treatments_desc: "Sophisticated medical nanobots, derived from precursor technologies, help preserve and maintain the body's function."
+
+ tech_rwf_microgravity_alloy_blends: "Microgravity Alloy Blending"
+ tech_rwf_microgravity_alloy_blends_desc: "By using highly advanced microgravity fields, we can finely manipulate component substances throughout the alloying process, resulting in the creation of superior and more advanced materials."
+
+ # Components
+ RWF_RELIC_DRIVE_CORE: "Relic Jump Drive"
+ RWF_RELIC_DRIVE_CORE_DESC: "$tech_rwf_relic_drive_core_desc$"
+
+ # Special Projects
+ rwf_past_visitors_relic: "Past Visitors: Traces"
+ rwf_past_visitors_relic_DESC: "We have found evidence of more recent habitation on [This.GetName]. Although it is now abandoned, we can still learn something about whoever it was that created it."
+ rwf_past_visitors_hideout: "Past Visitors: Hideout"
+ rwf_past_visitors_hideout_DESC: "We have uncovered the concealed asteroid base of a band of illegal relic collectors. Although they are likely long gone, there may be valuable goods left behind."
+ rwf_lost_dreadnought: "Lost Dreadnought"
+ rwf_lost_dreadnought_DESC: "We have good reason to believe that an experimental dreadnought crash-landed on [This.GetName] in eons past. There is a chance that enough remains of the hulk to salvage or recover the vessel."
+ rwf_lost_dreadnought_repair: "Lost Dreadnought Repair"
+ rwf_lost_dreadnought_repair_DESC: "The ancient warship we have recovered is severely degraded by the passage of time. We will be unable to make proper use of it until the vessel has been properly repaired."
+ rwf_mysterious_relic_beacon: "Mysterious Beacon"
+ rwf_mysterious_relic_beacon_DESC: "Our colonists on [This.GetName] have discovered a strange beacon made of an unknown material. It has survived the passage of time unnaturally well. The monolith appears active and responds to our presence."
+
+ # Ship Names
+ NAME_rwf_lost_dreadnought: "$rwf_lost_dreadnought$"
+
+ # Planet names
+ rwf_planet_kirth: "Kirth"
+ rwf_planet_raless: "Raless"
+ rwf_planet_serda: "Serda"
+
+ NAME_rwf_carachel_system: "Varmec"
+ NAME_rwf_carachel: "Carachel"
+
+ # Trait Names
+ rwf_rejuvenated_vitality: "Rejuvenated Vitality"
+ rwf_rejuvenated_vitality_desc: "Every cell of this leader's body has been renewed and is free from any signs of aging."
+ rwf_alien_memories: "Alien Memories"
+ rwf_alien_memories_desc: "This leader possess knowledge and experience from an otherworldly origin."

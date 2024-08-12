@@ -1,0 +1,4 @@
+
+get_access_checked = {
+	event_target:access_checker_fleet_$SECTOR_NUM$ = { NOT = { can_access_system = prev } }
+}

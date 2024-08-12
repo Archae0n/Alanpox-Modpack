@@ -1,0 +1,51 @@
+﻿# Credits: SSSSou
+l_japanese:
+ UI_OVERHAUL_TITLE: "UIオーバーホールダイナミック"
+ UI_OVERHAUL_VERSION: "3.12"
+ UI_OVERHAUL_TEXT: "$UI_OVERHAUL_TITLE$ v$UI_OVERHAUL_VERSION$用！"
+ UI_OVERHAUL_BUTTON: "UI"
+ UI_OVERHAUL_SUPPORT: "UI Modサポート"
+ UI_OVERHAUL_STEAM: "このMODのSteamワークショップページを開く"
+ UI_OVERHAUL_DONATE: "私のMODを楽しんでいただけたら、寄付をご検討ください！ £energy£"
+ UI_OVERHAUL_TOOLTIP: "§H$UI_OVERHAUL_TITLE$§！\n§G$UI_OVERHAUL_STEAM$§！\n\n$UI_OVERHAUL_DONATE$"
+ ###################################
+ STELLARIS_VERSION: "Stellaris 3.12 'Andromeda'"
+ ###################################
+ UI_OVERHAUL_INFO: "$UI_OVERHAUL_TITLE$に関する情報ウィンドウを開く"
+ UI_OVERHAUL_CREDITS: "クレジット"
+ ###################################
+ ### 技術ツリー
+ UI_OVERHAUL_TECHTREE: "技術ツリー"
+ UI_OVERHAUL_TECHTREE_TOOLTIP: "§H$UI_OVERHAUL_TECHTREE$§！\n§G外部技術ツリーを開くためにクリックしてください。§！"
+ UI_OVERHAUL_TECHTREE_TOOLTIP_DELAYED: "この技術ツリーは§HParadox Interactive§とは公式に関連付けられておらず、§Hturanar§によってGitHubでファンがメンテナンスしているプロジェクトです。"
+ ####################################
+ UIO_ETHICS_ATTRACTION: "倫理的魅力"
+ UIO_MOVE_TO_TOP: "§Hトップ§！\nリストの一番上に移動"
+ UIO_MOVE_TO_BOTTOM: "§Hボトム§！\nリストの一番下に移動"
+ UIO_MOVEABLE_WINDOW: "§Hこのウィンドウは移動可能です§！\n左クリックを押し続けて移動します。£mouse1£"
+ ####################################
+ ### ツールチップの修正
+ RENAME_STARBASE_TOOLTIP: "§H$RENAME$ $station_generic_01$§！\n§G$RENAME_OBJECT_DESC$§！"
+ RENAME_SECTOR_TOOLTIP: "§H$SECTOR_RENAME$§！\n§G$RENAME_OBJECT_DESC$§！"
+ RENAME_FLEET_TOOLTIP: "§H$RENAME_FLEET_TITLE$§！\n§G$RENAME_OBJECT_DESC$§！"
+ RENAME_EMPIRE_TOOLTIP: "§H$RENAME_EMPIRE_TITLE$§！\n§G$RENAME_OBJECT_DESC$§！"
+ UIO_CARAVANEERS_LABEL_TOOLTIP: "§H$CARAVANEERS_LABEL$§！\n$CARAVANEERS_LABEL_TOOLTIP$"
+ UIO_LGATE_LABEL_TOOLTIP: "§H$LGATE_LABEL$§！\n$LGATE_LABEL_TOOLTIP$"
+ UIO_XENO_COMPATIBILITY_LABEL_TOOLTIP: "§H$XENO_COMPATIBILITY_LABEL$§！\n$XENO_COMPATIBILITY_LABEL_TOOLTIP$"
+ ###################################
+ ### ヘッダー
+ UIO_DISTRICT_GENERATOR_TITLE: "£energy£ $DISTRICTS$"
+ UIO_DISTRICT_MINING_TITLE: "£minerals£ $DISTRICTS$"
+ UIO_DISTRICT_FARMING_TITLE: "£food£ $DISTRICTS$"
+ UIO_OUTPUT_TITLE: "£economy£ $OUTPUT$"
+ UIO_POPS_TITLE: "£pops£ $POPS$"
+ UIO_DISTRICTS_TITLE: "£district£ $DISTRICTS$"
+ UIO_APPROVAL_TITLE: "£approval£ $APPROVAL$"
+ UIO_SIZE_TITLE: "£size£ $SIZE$"
+ UIO_SUPPORT_TITLE: "£support£ $FACTION_SUPPORT$"
+ UIO_ISSUES_TITLE: "£issues£ $POP_FACTIONS_COLUMN_DEMANDS$"
+ UIO_EFFECTS_TITLE: "£effects£ $POP_FACTIONS_COLUMN_SUPPORT_EFFECTS$"
+ UIO_TRAITS_TITLE: "£traits£ $SPECIES_VIEW_TRAITS$"
+ UIO_RIGHTS_TITLE: "£rights£ $SPECIES_VIEW_RIGHTS$"
+ UIO_FAVORS_TITLE: "£favor£ $TRADE_CATEGORY_FAVORS$"
+ UIO_DIPLO_WEIGHT_TITLE: "£diplo_weight£ $diplomatic_weight$"

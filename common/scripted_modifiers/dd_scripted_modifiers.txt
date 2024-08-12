@@ -1,0 +1,6 @@
+deep_dweller_environment_tolerance = {
+	icon = mod_habitability
+	percentage = yes
+	good = yes
+	category = pop
+}

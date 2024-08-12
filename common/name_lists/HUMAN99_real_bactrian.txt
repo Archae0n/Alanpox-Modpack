@@ -1,0 +1,242 @@
+﻿### Real bactrian
+### Names courtesy of Teutonic_Thrash, who took them from Nicholas Sims-Williams' books.
+
+cybrxkhan_real_bactrian = {	
+	category = "Humanoid"
+
+	#randomized = no
+
+	#selectable = yes
+    ### SHIPS
+
+    ship_names = {
+
+        generic = {
+            Kulagan Yastunikan Khwasrawgan Pabugan Yolikan Okhshbadugan Kharagan Burzaduran Mashukan Burkan Wibriyan Nunukan Burnikan Pandukan Yamshan Garbidan
+			Sibukan Yolaban Mashan Shaburan Pazburan Aspandagan Abkharagan Zinadasagan Hun-Sekhan Burzmiran Biyanbidan Wyeshwarazan
+			Rob Steb Regan Kusirdakhm Malrug Wadod Larkad Istakhirs Kandban Lan Burzawid Pidud Yamarg Malr Sangin Sursah Warnu
+			Wakhsh-Yamsh Samingan Sandaran Parpaz Mahon Lizg Larg Kalf Kinsarg Gozgan
+				
+        }
+
+        corvette = {
+        }
+      
+        destroyer = {
+        }
+      
+        cruiser = {
+        }
+      
+        battleship = {
+        }
+      
+        science = {
+        }
+      
+        colonizer = {
+        }
+      
+        constructor = {
+        }
+
+        mining_station = { }
+        research_station = { }
+        #wormhole_station = { }
+        #terraform_station = { }
+        #observation_station = { }
+        #outpost_station = {
+        #}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		} 
+    }
+
+    fleet_names = {
+        random_names = {
+            "Ormuzd Battle Group" "Istakhirs Battle Group" "Parpaz Battle Group" "Wakhsh-Yamsh Battle Group" "Yamarg Battle Group" 
+        }
+        sequential_name = HUMAN99_REAL_BACTRIAN_xxFLEETNAMES_ORD
+    }
+  
+    army_names = {  
+
+        generic = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxASSAULTARMY_ORD
+        }
+	
+        machine_defense = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxMACHINEDEFENSE_ORD
+        }
+          
+        machine_assault_1 = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxMACHINEASSAULT1_ORD
+        }
+          
+        machine_assault_2 = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxMACHINEASSAULT2_ORD
+        }
+          
+        machine_assault_3 = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxMACHINEASSAULT3_ORD
+        }
+	
+        defense_army = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxDEFENSEARMY_ORD
+        }
+          
+        assault_army = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxASSAULTARMY_ORD
+        }
+      
+        slave_army = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxSLAVEARMY_ORD
+        }
+      
+        clone_army = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxCLONEARMY_ORD
+        }
+      
+        undead_army = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxUNDEADARMY_ORD
+        }
+      
+        robotic_army = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxROBOTICARMY_ORD
+        }
+      
+        robotic_defense_army = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxROBOTICDEFENSEARMY_ORD
+        }
+
+        psionic_army = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxPSIONICARMY_ORD
+        }
+      
+        xenomorph_army = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxXENOMORPHARMY_ORD
+        }
+      
+        gene_warrior_army = {
+            sequential_name = HUMAN99_REAL_BACTRIAN_xxGENEWARRIORARMY_ORD
+        }
+		
+		occupation_army = {
+			sequential_name = HUMAN99_REAL_BACTRIAN_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = HUMAN99_REAL_BACTRIAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = HUMAN99_REAL_BACTRIAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = HUMAN99_REAL_BACTRIAN_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = HUMAN99_REAL_BACTRIAN_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = HUMAN99_REAL_BACTRIAN_POSTATOMICARMYxx_SEQ
+		}
+
+        warpling_army = {
+            sequential_name = seq_warpling_army
+        }
+    }
+      
+
+    ### PLANETS
+
+    planet_names = {
+
+        generic = {
+            names = {
+                Rob Steb Regan Kusirdakhm Malrug Wadod Larkad Istakhirs Kandban Lan Burzawid Pidud Yamarg Malr Sangin Sursah Warnu
+                Wakhsh-Yamsh Samingan Sandaran Parpaz Mahon Lizg Larg Kalf Kinsarg Gozgan
+            }
+        }
+      
+        pc_desert = {
+            names = {
+            }
+        }
+      
+        pc_tropical = {
+            names = {
+            }
+        }
+      
+        pc_arid = {
+            names = {
+            }
+        }
+      
+        pc_continental = {
+            names = {
+            }
+        }
+      
+        pc_ocean = {
+            names = {
+            }
+        }
+      
+        pc_tundra = {
+            names = {
+            }
+        }
+      
+        pc_arctic = {
+            names = {
+            }
+        }
+      
+    }
+
+    ### CHARACTERS
+
+    character_names = {
+        default = {
+            # A complete name
+            full_names = {
+              
+            }
+          
+            # Always combined with a second name
+            first_names = {
+                Wind-Ormuzd Khwadew-Lad Waraz-Ormuzd Abdabuk Aspal-Mir Bag-Bandag Bag-Farn Zamod Bab Piduk Ninduk Far-Wesh Nog-Sanind Ralik Muzda-Wanind Yamsh-Bandag
+                Pap Yat Basuk Zuwanind Aspal-Bid Ormuzd Bag-Lad Far-Waraz Shar-Wanind Skakh Yamsh-Spal Keraw Aspiy Muzd Zar-Wer Talm-Zen Asbid Zer Yamsh-Lad Sadayol
+                Tayag Zanduk Ram-Gul Sasan Yamsh Waraz-Khag Zinduk Yatak Mir-Shabur Bag-Wanind Wyem Burz-Mihr Bag-Re-Mareg Bur Rishtak Waraz-Shabur Tet Piy Torman
+                Sisan Samb Waraz-Wyesh Bazanuk Peshtams Zhun-Lad Sag Tut Fruma-Rizm Nane-Band Mus Moyan Gob Frama-Rizm Khulkhan Suren Samsit Biyan-Bid Tak Bet
+            }
+          
+            # Always combined with a first name
+            second_names = {
+                Kulagan Yastunikan Khwasrawgan Pabugan Yolikan Okhshbadugan Kharagan Burzaduran Mashukan Burkan Wibriyan Nunukan Burnikan Pandukan Yamshan Garbidan
+                Sibukan Yolaban Mashan Shaburan Pazburan Aspandagan Abkharagan Zinadasagan Hun-Sekhan Burzmiran Biyanbidan Wyeshwarazan
+            }
+          
+            regnal_first_names = {
+                Wind-Ormuzd Khwadew-Lad Waraz-Ormuzd Abdabuk Aspal-Mir Bag-Bandag Bag-Farn Zamod Bab Piduk Ninduk Far-Wesh Nog-Sanind Ralik Muzda-Wanind Yamsh-Bandag
+                Pap Yat Basuk Zuwanind Aspal-Bid Ormuzd Bag-Lad Far-Waraz Shar-Wanind Skakh Yamsh-Spal Keraw Aspiy Muzd Zar-Wer Talm-Zen Asbid Zer Yamsh-Lad Sadayol
+                Tayag Zanduk Ram-Gul Sasan Yamsh Waraz-Khag Zinduk Yatak Mir-Shabur Bag-Wanind Wyem Burz-Mihr Bag-Re-Mareg Bur Rishtak Waraz-Shabur Tet Piy Torman
+                Sisan Samb Waraz-Wyesh Bazanuk Peshtams Zhun-Lad Sag Tut Fruma-Rizm Nane-Band Mus Moyan Gob Frama-Rizm Khulkhan Suren Samsit Biyan-Bid Tak Bet
+            }
+          
+            regnal_second_names = {
+                Kulagan Yastunikan Khwasrawgan Pabugan Yolikan Okhshbadugan Kharagan Burzaduran Mashukan Burkan Wibriyan Nunukan Burnikan Pandukan Yamshan Garbidan
+                Sibukan Yolaban Mashan Shaburan Pazburan Aspandagan Abkharagan Zinadasagan Hun-Sekhan Burzmiran Biyanbidan Wyeshwarazan
+            }
+        }
+    }
+}

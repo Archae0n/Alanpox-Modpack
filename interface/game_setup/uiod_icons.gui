@@ -1,0 +1,30 @@
+guiTypes = {
+	containerWindowType = {
+		name = "object_icon"
+		size = { width = 30 height = 30 }
+		iconType = {
+			name = "icon"
+			quadTextureSprite = "GFX_ethics"
+			position = { x = 0 y = 0 }
+			orientation = center
+			centerPosition = yes
+			tooltip_mode_enabled = yes
+		}
+		iconType = {
+			name = "automod_icon"
+			quadTextureSprite = "GFX_ethics"
+			position = { x = 0 y = 0 }
+			orientation = center
+			centerPosition = yes
+			scale = 0.7
+			tooltip_mode_enabled = yes
+		}
+		iconType = {
+			name = "timed_overlay"
+			quadTextureSprite = "GFX_timed_overlay"
+			position = { x = 0 y = 0 }
+			orientation = center
+			centerPosition = yes
+		}
+	}
+}

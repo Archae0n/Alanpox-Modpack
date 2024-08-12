@@ -1,0 +1,130 @@
+namespace = leader
+
+# New Admiral
+country_event = {
+	id = leader.1
+	title = "leader.1.name"
+	desc = {
+		trigger = { has_authority = auth_hive_mind }
+		text = "leader.1.desc.hive"
+	}
+	desc = {
+		trigger = { has_authority = auth_machine_intelligence }
+		text = "leader.1.desc.machine"
+	}
+	desc = {
+		trigger = {
+			NOR = {
+				has_authority = auth_hive_mind
+				has_authority = auth_machine_intelligence
+			}
+		}
+		text = "leader.1.desc"
+	}
+	picture = GFX_evt_federation_fleet
+	location = ROOT
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_country_type = default
+		any_owned_leader = {
+			leader_class = commander
+		}
+		NOT = {
+			has_country_flag = recent_promising_officer
+		}
+	}
+
+	immediate = {
+		set_timed_country_flag = {
+			flag = recent_promising_officer
+			days = 720
+		}
+		FROMFROM = {
+			solar_system = { save_event_target_as = system }
+			random_controlled_ship = {
+				save_event_target_as = ship
+			}
+		}
+		random_list = {
+			25 = {
+				create_leader = {
+					class = commander
+					species = owner_main_species
+					name = random
+					skill = 2
+					traits = {
+						trait = leader_trait_gale_speed
+						trait = leader_trait_aggressive
+						trait = leader_trait_eager_2
+					}
+				}
+				last_created_leader = { save_event_target_as = officer }
+			}
+			25 = {
+				create_leader = {
+					class = commander
+					species = owner_main_species
+					name = random
+					skill = 2
+					traits = {
+						trait = leader_trait_aggressive
+						trait = leader_trait_engineer
+						trait = leader_trait_eager_2
+					}
+				}
+				last_created_leader = { save_event_target_as = officer }
+			}
+			25 = {
+				create_leader = {
+					class = commander
+					species = owner_main_species
+					name = random
+					skill = 2
+					traits = {
+						trait = leader_trait_fleet_logistician
+						trait = leader_trait_cautious
+						trait = leader_trait_eager_2
+					}
+				}
+				last_created_leader = { save_event_target_as = officer }
+			}
+			25 = {
+				create_leader = {
+					class = commander
+					species = owner_main_species
+					name = random
+					skill = 2
+					traits = {
+						trait = leader_trait_scout
+						trait = leader_trait_trickster
+						trait = leader_trait_eager_2
+					}
+				}
+				last_created_leader = { save_event_target_as = officer }
+			}
+		}
+		if = {
+			limit = {
+				has_valid_civic = civic_crusader_spirit
+			}
+			last_created_leader = {
+				add_trait_no_notify = leader_trait_crusader
+			}
+		}
+		if = {
+			limit = {
+				has_valid_civic = civic_crusader_spirit_corporate
+			}
+			last_created_leader = {
+				add_trait_no_notify = leader_trait_corsair
+			}
+		}
+	}
+
+	option = {
+		name = GOOD
+		custom_tooltip = new_admiral
+	}
+}
