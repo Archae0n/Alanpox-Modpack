@@ -1,0 +1,33 @@
+﻿l_english:
+
+ clustered_starting_init_01_NAME: "Clustered $custom_starting_init_01_NAME$"
+ clustered_starting_init_02_NAME: "Clustered $custom_starting_init_02_NAME$"
+ clustered_starting_init_03_NAME: "Clustered $custom_starting_init_03_NAME$"
+ clustered_starting_init_04_NAME: "Clustered $custom_starting_init_04_NAME$"
+ clustered_starting_init_05_NAME: "Clustered $custom_starting_init_05_NAME$"
+ clustered_starting_init_06_NAME: "Clustered $custom_starting_init_06_NAME$"
+
+ clustered_starting_init_01_DESC: "$clustered_starting_init_desc$"
+ clustered_starting_init_02_DESC: "$clustered_starting_init_desc$"
+ clustered_starting_init_03_DESC: "$clustered_starting_init_desc$"
+ clustered_starting_init_04_DESC: "$clustered_starting_init_desc$"
+ clustered_starting_init_05_DESC: "$clustered_starting_init_desc$"
+ clustered_starting_init_06_DESC: "$clustered_starting_init_desc$"
+
+ clustered_starting_init_desc: "- You will spawn near and have already met other clustered empires\n- Your capital has §R-2§! £pop£ Pops \n- One Guaranteed Planet spawns in your homesystem \n -§YTip: This start system works be creating a new system and relocating your empire to it, give your start system a random name in empire creation and assign its name in game§!"
+
+ rkss_crowded_unary_init_NAME: "Crowded Unary System"
+ rkss_crowded_unary_init_DESC: "$crowded_text$"
+ rkss_crowded_unary_init_II_NAME: "Crowded Unary System II"
+ rkss_crowded_unary_init_II_DESC: "$crowded_text$"
+ rkss_titanic_unary_init_NAME: "Titanic Unary System"
+ rkss_titanic_unary_init_DESC: "$titanic_text$"
+ rkss_black_hole_initializer_NAME: "Unary Black Hole System"
+ rkss_black_hole_initializer_DESC: "Unary Black Hole System"
+ rkss_pulsar_initializer_NAME: "Unary Pulsar System"
+ rkss_pulsar_initializer_DESC: "Unary Pulsar System"
+ rkss_neutron_star_initializer_NAME: "Unary Neutron Star System"
+ rkss_neutron_star_initializer_DESC: "Unary Neutron Star System"
+
+ crowded_text: "This is a Crowded System.\n-Your 2 §HGuaranteed Planets§! start in your §HHome System§!.\n-You start with §R-3§! §HPops§! £pop£"
+ titanic_text: "This is a Titanic System, your §HHome World§! is HUGE.\n-$NO_GUARANTEED_WORLDS$\n-Gain §G+5§! planet size and §G+1§! pop on your §Hcapital planet§! for each guaranteed planet you lost."

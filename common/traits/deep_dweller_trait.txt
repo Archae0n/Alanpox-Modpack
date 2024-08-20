@@ -24,15 +24,37 @@ trait_deep_dweller = {
 	}
 
 	icon = "gfx/interface/icons/traits/trait_deep_dweller.dds"
+	custom_tooltip_with_modifiers = trait_cave_dweller_tooltip
 	modifier = {
+		habitability_floor_add = 0.2
 		planet_jobs_minerals_produces_mult = 0.15
-		pop_growth_from_immigration = -0.15
-		pop_resettlement_cost_mult = 0.25
+		species_empire_size_mult = 0.10
 	}
 	triggered_planet_growth_habitability_modifier = {
-		pop_environment_tolerance = 1
-		mult = modifier:deep_dweller_environment_tolerance
+		potential = {
+			exists = planet
+			planet = {
+				exists = growing_species
+				growing_species = {
+					is_archetype = BIOLOGICAL
+				}
+			}
+		}
+		pop_growth_speed = -0.20
 	}
+	triggered_planet_growth_habitability_modifier = {
+		habitability_floor_add = 1
+		mult = modifier:deep_dweller_habitability_floor
+	}
+	triggered_planet_growth_habitability_modifier = {
+		pop_growth_speed = 1
+		mult = modifier:deep_dweller_growth_speed
+	}
+	triggered_pop_modifier = {
+		species_empire_size_mult = 1
+		mult = modifier:deep_dweller_empire_size
+	}
+
 	slave_cost = {
 		energy = 500
 	}

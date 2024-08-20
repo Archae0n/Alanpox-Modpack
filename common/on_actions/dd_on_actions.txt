@@ -3,3 +3,9 @@ on_game_start_country = {
 		deep_dwellers.1
 	}
 }
+
+on_monthly_pulse_country = {
+	events = {
+		deep_dwellers.10
+	}
+}

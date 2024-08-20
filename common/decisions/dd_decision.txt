@@ -8,23 +8,55 @@ decision_deep_dweller_expansion = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 100
-			energy = 1000
+			energy = 500
+		}
+		cost = {
+			unity = 500
+			mult = owner.subterranean_expansion_cost_mult
 		}
 	}
 	
 	potential = {
+		is_artificial = no
+		exists = owner
 		owner = { 
 			has_country_flag = deep_dweller_empire
 		}
 		check_variable = {
 			which = deep_dweller_expansion
-			value < 5
+			value < 4
+		}
+	}
+
+	on_queued = {
+		hidden_effect = {
+			owner = {
+				multiply_variable = {
+					which = subterranean_expansion_cost_mult
+					value = 1.25
+				}
+			}
+		}
+	}
+
+	on_unqueued = {
+		hidden_effect = {
+			owner = {
+				divide_variable = {
+					which = subterranean_expansion_cost_mult
+					value = 1.25
+				}
+			}
 		}
 	}
 	
 	effect = {
 		custom_tooltip = decision_deep_dweller_expansion_tooltip
+		owner = {
+			add_resource = {
+				minerals = 500
+			}
+		}
 		hidden_effect = {
 			if = {
 				limit = {
