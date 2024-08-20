@@ -1,0 +1,11 @@
+on_game_start = {
+	events = {
+		rkss.1 #Clustered start
+	}
+}
+
+on_press_begin = {
+	events = {
+		rkss.10 #Clustered origin
+	}
+}

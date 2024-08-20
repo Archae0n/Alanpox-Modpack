@@ -2,6 +2,8 @@
 l_english:
 trait_deep_dweller: "Deep Dwellers"
 trait_deep_dweller_desc: "§LThis species thrives deep under the surface, tunnelling out vast homes in any planet they can inhabit."
+trait_robot_cave_dweller: "Tunnelbots"
+trait_robot_cave_dweller_desc: "§LThese machines excel at deep-earth excavation, carving out vast subterranean homes with ease and precision, enabling the creation of thriving underground civilizations.§!"
 
 deep_dwellers.1.title: "Subterranean Expansion"
 deep_dwellers.1.desc: "Our species has always been at home beneath the surface, and we should expand our subterranean empire, the main question is how."
@@ -11,19 +13,21 @@ deep_dwellers.1.a.desc: "We'll find many large surface caves and caverns, and ex
 deep_dwellers.1.a.tooltip: "§YDefault Subterranean§!"
 deep_dwellers.1.b: "Deep Dwellers"
 deep_dwellers.1.b.desc: "We'll tunnel out vast homes deep, deep underground."
-deep_dwellers.1.b.tooltip: "Replace the §Y$trait_cave_dweller$§! trait with the §Y$trait_deep_dweller$§! trait, providing:\n $mod_planet_jobs_minerals_produces_mult$ §G+15%§!\n $MOD_POP_GROWTH_FROM_IMMIGRATION$ §R-15%§!\n $MOD_POP_RESETTLEMENT_COST_MULT$ §R+25%§!\n\nAdditionally, we'll gain the following effects:\n $MOD_EMPIRE_SIZE_COLONIES_MULT$ §R+100%§!\n $MOD_EMPIRE_SIZE_BRANCH_OFFICE_MULT$ §R+100%§!\n Can use the §YSubterranean Expansion Decision§! up to 5 times per planet, providing: §Y$MOD_PLANET_MAX_DISTRICTS_MULT$§! §G+1§! and §YDeep Dweller Habitability§! §G+10%§!."
+deep_dwellers.1.b.tooltip: "Replace the §Y$trait_cave_dweller$§! trait with the §Y$trait_deep_dweller$§! trait which has §R30§! less $MOD_HABITABILITY_FLOOR$\n\nWe can provide bonuses to our §Y$trait_deep_dweller$§! by using the the §Y$decision_deep_dweller_expansion$ Decision§!:\n$decision_deep_dweller_expansion_tooltip$\n\n§Y[Root.GetHomeWorldName]§! starts with 2 uses of the §Y$decision_deep_dweller_expansion$ Decision§! already completed."
 
 deep_dweller_modifier: "Deep Dwellers"
 deep_dweller_modifier_desc: "This society tunnels out vast homes deep underground."
-deep_dweller_modifier_tt: "Can use the Subterranean Expansion Decision up to 5 times per planet, providing: §Y$MOD_PLANET_MAX_DISTRICTS_MULT$§! §G+1§! and §Y$mod_deep_dweller_environment_tolerance$§! §G+10%§!."
+deep_dweller_modifier_tt: "Can use the§Y$decision_deep_dweller_expansion$ Decision§!:\n$decision_deep_dweller_expansion_tooltip$"
 
 deep_dweller_planet_modifier: "Deep Expansion"
 deep_dweller_planet_modifier_desc: "This planet has been expanded by Deep Dwellers."
 decision_deep_dweller_expansion: "Subterranean Expansion"
 decision_deep_dweller_expansion_desc: "There is vast opportunity for expansion beneath the surface of this planet, we should take advantage of it."
-decision_deep_dweller_expansion_tooltip: "$MOD_PLANET_MAX_DISTRICTS_MULT$: §G+1§!\n$mod_deep_dweller_environment_tolerance$: §G+10%§!.\n\nCan be used up to §Y5§! times per planet."
+decision_deep_dweller_expansion_tooltip: "Can be used up to §Y4§! times per planet.\n$MOD_PLANET_MAX_DISTRICTS_MULT$: §G+10%§!\n$mod_deep_dweller_habitability_floor$: §G+15%§!\n$mod_deep_dweller_growth_speed$: §G+7.5%§!\n$mod_deep_dweller_empire_size$: §G-5%§!\nEmpire $decision_deep_dweller_expansion$ Cost: §R×1.25§!"
 
-mod_deep_dweller_environment_tolerance: "Deep Dweller Habitability"
+mod_deep_dweller_habitability_floor: "Deep Dweller Habitability Floor"
+mod_deep_dweller_growth_speed: "Deep Dweller Growth Speed"
+mod_deep_dweller_empire_size: "Deep Dweller Species Empire Size"
 
 
 ## deep dweller trait modifiers:

@@ -1,0 +1,556 @@
+namespace = rkss
+
+#Initialize the clustered spawning proceedure
+event = {
+	id = rkss.1
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system = {
+			limit = {
+				count_neighbor_system = {
+					count > 0
+				}
+				NOT = { exists = owner }
+				NOT = {
+					closest_system = {
+						use_bypasses = no
+						limit = {
+							exists = owner
+							owner = { is_clustered_country = no }
+						}
+						min_steps = 0
+						max_steps = 6
+					}
+				}
+			}
+			weights = {
+				base = 10
+				modifier = {
+					factor = 2
+					closest_system = {
+						use_bypasses = no
+						limit = {
+							exists = owner
+							owner = { is_clustered_country = no }
+						}
+						min_steps = 0
+						max_steps = 9
+					}
+				}
+			}
+			save_global_event_target_as = origin_clustered_core
+			set_star_flag = clustered_core
+		}
+
+		#loops through every clustered country and moves them to the furthest system
+		every_playable_country = {
+			limit = { is_clustered_country = yes }
+
+			capital_scope = {
+				save_event_target_as = old_capital
+				set_planet_flag = clustered_cleanup_planet
+				solar_system = {
+					save_event_target_as = old_system
+					set_star_flag = clustered_cleanup
+				}
+			}
+
+			#create a new system somewhat close to the core
+			event_target:origin_clustered_core = {
+				closest_system = {
+					use_bypasses = no
+					limit = {
+						NOT = { has_star_flag = hostile_system }
+						NOT = { is_star_class = sc_black_hole }
+						NOT = { closest_system = { 
+							limit = { OR = { has_star_flag = clustered_system  has_star_flag = clusted_connection_flag}}
+							max_steps = 1
+							use_bypasses = no
+						}}
+						
+						any_system_planet = {
+							is_capital = no
+							is_star = no
+							is_asteroid = no
+							is_moon = no
+							NOT = { is_planet_class = pc_gas_giant}
+						}
+					}
+		
+					save_event_target_as = clustered_connection
+					set_star_flag = clusted_connection_flag
+					
+					event_target:old_system = {
+						switch = {
+							trigger = has_star_flag
+							clustered_starting_init_01 = {
+								PREV = { spawn_system = {
+									min_distance >= 10
+									max_distance <= 15
+									max_jumps = 0
+									hyperlane = yes
+									initializer = "clustered_starting_init_01"
+								}}
+							}
+							clustered_starting_init_02 = {
+								PREV = { spawn_system = {
+									min_distance >= 10
+									max_distance <= 15
+									max_jumps = 0
+									hyperlane = yes
+									initializer = "clustered_starting_init_02"
+								}}
+							}
+							clustered_starting_init_03 = {
+								PREV = { spawn_system = {
+									min_distance >= 10
+									max_distance <= 15
+									max_jumps = 0
+									hyperlane = yes
+									initializer = "clustered_starting_init_03"
+								}}
+							}
+							clustered_starting_init_04 = {
+								PREV = { spawn_system = {
+									min_distance >= 10
+									max_distance <= 15
+									max_jumps = 0
+									hyperlane = yes
+									initializer = "clustered_starting_init_04"
+								}}
+							}
+							clustered_starting_init_05 = {
+								PREV = { spawn_system = {
+									min_distance >= 10
+									max_distance <= 15
+									max_jumps = 0
+									hyperlane = yes
+									initializer = "clustered_starting_init_05"
+								}}
+							}
+							clustered_starting_init_06 = {
+								PREV = { spawn_system = {
+									min_distance >= 10
+									max_distance <= 15
+									max_jumps = 0
+									hyperlane = yes
+									initializer = "clustered_starting_init_06"
+								}}
+							}
+							default = {}
+						}
+					}
+		
+					add_extra_hyperlane_to_spawned_system_effect = yes
+				}
+				
+				last_created_system = {
+					save_event_target_as = new_system
+					random_system_planet = {
+						limit = { has_planet_flag = clustered_primary }
+						save_event_target_as = new_capital
+					}
+				}
+			}
+			#setup new planet
+			country_event = { id = rkss.2 }
+		}
+		clear_global_event_target = origin_clustered_core
+
+		every_playable_country = {
+			limit = { is_clustered_country = yes } 
+			every_playable_country = {
+				limit = { is_clustered_country = yes } 
+				establish_communications_no_message = PREV
+			}
+		}
+	}
+}
+
+#Event for setting up the new capital system
+country_event = {
+	id = rkss.2
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		species = {
+			set_species_homeworld = event_target:new_capital
+		}
+
+		event_target:new_system = {
+			set_name = event_target:old_system
+
+			set_star_flag = clustered_system
+	
+			#Setup spaceport
+			if = {
+				limit = { PREVPREV = { is_gestalt = yes } }
+				create_starbase = {
+					size = "starbase_starport"	
+					module = "shipyard"
+					module = "solar_panel_network"
+					building = "crew_quarters"
+					owner = PREVPREV
+				}
+			}
+			else = {
+				create_starbase = {
+					size = "starbase_starport"
+					module = "shipyard"
+					module = "trading_hub"
+					building = "crew_quarters"
+					owner = PREVPREV
+				}	
+			}
+		}
+
+		# event_target:old_capital.sector = {
+		# 	leader = {
+		# 		unassign_leader = this
+		# 		save_event_target_as = clustered_gov
+		# 	}
+		# }
+	
+		#Colonize new planet and add features to it as if it was a starting planet
+		event_target:new_capital = {
+
+
+			set_name = event_target:old_capital
+			change_pc = event_target:old_capital
+
+			set_owner = root
+			set_controller = root
+
+			set_capital = yes
+			# set_sector_capital = yes
+
+			clear_planet_modifiers = yes
+			clear_blockers = yes
+
+			# if = {
+			# 	limit = { is_pd_planet_class_all = yes}
+			# 	generate_pd_start_deposits_and_blockers = yes
+			# }
+			# else = {
+			# 	generate_start_deposits_and_blockers = yes
+			# }
+			generate_start_deposits_and_blockers = yes
+			generate_start_buildings_and_districts = yes
+			owner = { country_event = { id = rkss.1000 } }
+
+			#move pops to this planet and unemploy all of them 
+			event_target:old_capital = {
+				random_owned_pop = { kill_pop = yes }
+				random_owned_pop = { kill_pop = yes }
+
+				every_owned_pop = {
+					resettle_pop = {
+						pop = this
+						planet = event_target:new_capital
+					}
+					unemploy_pop = yes
+				}
+			}
+			every_owned_pop = {
+				unemploy_pop = yes
+				clear_pop_category = yes
+			}
+			every_owned_pop = {
+				PREV = {
+					check_planet_employment = yes
+				}				
+			}
+
+			# sector = {
+			# 	assign_leader = event_target:clustered_gov
+			# }
+		}
+
+		#moves 
+		every_owned_fleet = {
+			limit = {
+				NOR = {
+                    is_ship_size = starbase_outpost
+                    is_ship_size = starbase_starport
+                    is_ship_size = starbase_starhold
+                    is_ship_size = starbase_starfortress
+                    is_ship_size = starbase_citadel
+					is_ship_size = orbital_ring_tier_1
+					is_ship_size = orbital_ring_tier_2
+					is_ship_size = orbital_ring_tier_3
+				}
+			}
+			set_location = event_target:new_system
+		}
+		
+		event_target:old_capital = { change_pc = "pc_barren" }
+		event_target:old_system = {
+			set_name = random
+			remove_star_flag = empire_home_system
+			remove_star_flag = empire_cluster
+			every_neighbor_system = {
+				remove_star_flag = empire_cluster
+				every_neighbor_system = {
+					remove_star_flag = empire_cluster
+				}
+			}
+
+			every_system_planet = {
+				limit = { is_star = yes }
+				set_name = solar_system
+				every_ambient_object = {
+					destroy_ambient_object = this
+				}
+			}
+			every_fleet_in_system = {
+				destroy_fleet = this
+			}
+		}
+
+		# makes a new guarantee in your home system and removes the old guarantee from your old spawn location
+		event_target:new_system = {
+			random_system_planet = {
+				limit = {
+					is_capital = no
+					is_star = no
+					is_asteroid = no
+					is_moon = no
+					NOT = { is_planet_class = pc_gas_giant}
+					NOT = { has_planet_flag = prescripted_ideal }
+				}
+				
+  				change_pc = root
+				set_planet_flag = prescripted_ideal
+			
+				random_list = {
+					1 = { set_planet_size = 12 }
+					1 = { set_planet_size = 13 }
+					1 = { set_planet_size = 14 }
+					1 = { set_planet_size = 15 }
+					1 = { set_planet_size = 16 }
+					1 = { set_planet_size = 17 }
+					1 = { set_planet_size = 18 }
+				}
+			  	set_planet_flag = colony_event
+				prevent_anomaly = yes
+			
+				clear_deposits = yes
+
+			  	reroll_deposits = yes
+			}
+			generate_home_system_resources = yes
+		}
+
+		event_target:clustered_connection = {
+			random_system_planet = {
+				limit = {
+					is_capital = no
+					is_star = no
+					is_asteroid = no
+					is_moon = no
+					NOT = { is_planet_class = pc_gas_giant}
+					NOT = { has_planet_flag = prescripted_ideal }
+				}
+				
+  				change_pc = root
+				set_planet_flag = prescripted_ideal
+				set_planet_flag = guarantee_of_@ROOT
+			
+				random_list = {
+					1 = { set_planet_size = 14 }
+					1 = { set_planet_size = 15 }
+					1 = { set_planet_size = 16 }
+					1 = { set_planet_size = 17 }
+					1 = { set_planet_size = 18 }
+					1 = { set_planet_size = 19 }
+					1 = { set_planet_size = 20 }
+					1 = { set_planet_size = 21 }
+					1 = { set_planet_size = 22 }
+					1 = { set_planet_size = 23 }
+					1 = { set_planet_size = 24 }
+				}
+			  	set_planet_flag = colony_event
+				prevent_anomaly = yes
+			
+				clear_deposits = yes
+
+			  	reroll_deposits = yes
+			}
+		}
+	}
+}
+
+
+#unsurveying old system	
+event = {
+	id = rkss.10
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_system = {
+			limit = { has_star_flag = clustered_cleanup}
+			every_fleet_in_system = {
+				destroy_fleet = this
+			}
+			every_system_planet = {
+				change_pc = pc_black_hole
+				limit = { has_orbital_station = yes }
+				orbital_station = {
+					dismantle = yes
+				}
+			}
+			random_system_planet = {
+				limit = { has_planet_flag = clustered_cleanup_planet }
+				every_moon = {
+					remove_planet = yes 
+				}
+				remove_planet = yes 
+			}
+		}
+
+		every_playable_country = {
+			limit = { is_clustered_country = yes } 
+			save_event_target_as = cleanup_country
+
+			#move old governor to new planet
+			# random_owned_leader = {
+			# 	limit = { leader_class = governor }
+			# 	save_event_target_as = clustered_governor
+			# 	owner.capital_scope.sector = {
+			# 		set_leader = event_target:clustered_governor
+			# 	}
+			# }
+
+			#unsurvey old system
+			every_system = {
+				every_system_planet = {
+					set_surveyed = { 
+						surveyed = no 
+						surveyor = prevprev 
+					} 
+				}
+				set_surveyed = { 
+					surveyed = no 
+					surveyor = prev 
+				} 
+			}
+
+			
+			#"visit" the systems of the other clustered empires
+			every_playable_country = {
+				limit = { is_clustered_country = yes } 
+				capital_scope = {
+					set_surveyed = { 
+						surveyed = yes 
+						surveyor = prevprev 
+					}
+				}
+			}
+		}
+	}
+}
+
+#remove duplicate food/pop upkeep resource from regenerating buildings
+country_event = {
+	id = rkss.20
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				is_catalytic_empire = yes
+			}
+			add_resource = { food = -100 }
+		}
+		if = {
+			limit = {
+				has_authority = auth_machine_intelligence
+			}
+			if = {
+				limit = {
+					OR = {
+						has_valid_civic = civic_machine_servitor
+						has_valid_civic = civic_machine_assimilator
+					}
+				}
+				if = {
+					limit = { has_country_flag = lithoid_subspecies }
+					add_resource = { minerals = -100 }
+					add_resource = { energy = -100 }
+				}
+				else = {
+					add_resource = { food = -100 }
+					add_resource = { energy = -100 }
+				}
+			}
+			else = {
+				add_resource = { energy = -200 }
+			}
+		}
+		else = {
+			if = {
+				limit = { is_lithoid_empire = no }
+				if = {
+					limit = { has_country_flag = lithoid_subspecies }
+					add_resource = { food = -100 }
+					add_resource = { minerals = -100 }
+				}
+				else = {
+					add_resource = { food = -200 }
+				}
+			}
+			else = {
+				if = {
+					limit = { has_country_flag = non_lithoid_subspecies }
+					add_resource = { food = -100 }
+					add_resource = { minerals = -100 }
+				}
+				else = {
+					add_resource = { minerals = -200 }
+				}
+			}
+		}
+	}
+}
+
+
+
+
+## TITANIC SYSTEM
+
+#increase planet size - Titanic
+planet_event = {
+	id = rkss.100
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {}
+
+	immediate = {
+		while = {
+			count = trigger:num_guaranteed_colonies
+
+			# increase planet size
+			change_planet_size = 5
+			
+			# add bonus resource deposits
+			add_deposit = d_fungal_caves
+			add_deposit = d_rushing_waterfalls
+			add_deposit = d_ore_rich_caverns
+
+			
+			create_pop = {
+				species = owner_main_species
+			}
+		}
+	}
+}

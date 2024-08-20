@@ -1,14 +1,16 @@
 deep_dweller_modifier = {
+	icon = "gfx/interface/icons/modifiers/mod_job_subterranean_liaison.dds"
 	custom_tooltip = deep_dweller_modifier_tt
 	show_only_custom_tooltip = no
 
-	empire_size_colonies_mult = 1
-	empire_size_branch_office_mult = 1
+	# empire_size_colonies_mult = 0.5
 }
 
 deep_dweller_planet_modifier = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_hollow_planet.dds"
 	
-	planet_max_districts_add = 1
-	deep_dweller_environment_tolerance = 0.1
+	planet_max_districts_mult = 0.10
+	deep_dweller_habitability_floor = 0.15
+	deep_dweller_growth_speed = 0.075
+	deep_dweller_empire_size = -0.05
 }

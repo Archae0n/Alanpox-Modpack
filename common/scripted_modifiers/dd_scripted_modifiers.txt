@@ -1,6 +1,18 @@
-deep_dweller_environment_tolerance = {
-	icon = mod_habitability
+deep_dweller_habitability_floor = {
+	icon = mod_habitability_floor_add
 	percentage = yes
 	good = yes
+	category = pop
+}
+deep_dweller_growth_speed = {
+	icon = mod_pop_growth_speed
+	percentage = yes
+	good = yes
+	category = pop
+}
+deep_dweller_empire_size = {
+	icon = mod_species_empire_size_mult
+	percentage = yes
+	good = no
 	category = pop
 }

@@ -16,6 +16,9 @@ country_event = {
 
 	trigger = {
 		has_origin = origin_subterranean
+		owner_main_species = {
+			has_trait = trait_cave_dweller #robots excluded for now
+		}
 	}
 	option = {
 		name = "deep_dwellers.1.a" 
@@ -36,6 +39,39 @@ country_event = {
 					add_traits_at_start_of_list = yes
 				}
 			}
+			set_variable = {
+				which = subterranean_expansion_cost_mult
+				value = 1
+			}
+			capital_scope = {
+				add_modifier = {
+					modifier = deep_dweller_planet_modifier
+					mult = 2
+				}
+				set_variable = {
+					which = deep_dweller_expansion
+					value = 2
+				}
+			}
 		}
+	}
+}
+
+
+
+
+# I encountered a bug where my empire lost the subterranean origin as they didnt have the original subterranean trait
+# this hopefully be a patch fix for that
+country_event = {
+	id = deep_dwellers.10
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_country_flag = deep_dweller_empire
+		NOT = { has_origin = origin_subterranean }
+	}
+	immediate = {
+		set_origin = origin_subterranean
 	}
 }

@@ -1,0 +1,6 @@
+is_clustered_country = {
+	exists = capital_scope
+	capital_scope.solar_system = {
+		has_star_flag = clustered_system
+	}
+}
