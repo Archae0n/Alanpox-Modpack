@@ -1,7 +1,7 @@
 # this = country
 on_five_year_pulse_country = {
 	events = {
-		nme.1000 			# Remove Exclaves
+		#nme.1000 			# Remove Exclaves
 	}
 }
 
@@ -9,6 +9,6 @@ on_five_year_pulse_country = {
 #From = owner country
 on_building_starbase_outpost = {
 	events = {
-		nme.3000 			# Set initial timer so you have time to build a sector up before stuff starts disappearing
+		#nme.3000 			# Set initial timer so you have time to build a sector up before stuff starts disappearing
 	}
 }
