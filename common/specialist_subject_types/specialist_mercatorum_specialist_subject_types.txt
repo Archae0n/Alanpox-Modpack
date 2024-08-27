@@ -1,0 +1,69 @@
+# these variables match values from common/specialist_subject_types/00_specialist_subject_types.txt
+@level_2_xp_cost = 1200 # 10 years at 100 Loyalty.
+@level_3_xp_cost = 3600 # 30 years at 100 Loyalty.
+@specialist_base_conversion_time = 30
+
+specialist_mercatorum = {
+	icon = "GFX_diplomacy_specialist_subject_mercatorum"
+	icon_large = "GFX_diplomacy_specialist_subject_mercatorum_large"
+	preferred_ethic = ethic_xenophile
+	base_conversion_time = @specialist_base_conversion_time
+	on_progress_complete = {
+		target = {
+			try_convert_to_mercatorum_megacorp = yes
+			if = {
+				limit = {
+					can_set_policy = {
+						policy = diplomatic_stance
+						option = diplo_stance_mercantile
+					}
+				}
+				set_policy = {
+					policy = diplomatic_stance
+					option = diplo_stance_mercantile
+					cooldown = yes
+				}
+			}
+			start_situation = {
+				type = specialist_mercatorum_dividends
+				target = this
+			}
+		}
+		owner = { refresh_subject_count_loyalty_penalty = yes }
+	}
+	levels = {
+		# Level 1
+		{
+			experience_needed_for_next_level = @level_2_xp_cost
+			perks = {
+				mercatorum_1_modifier
+				mercatorum_1_penalties
+				mercatorum_1_econ_tech
+				mercatorum_1_overlord_modifier
+				mercatorum_1_neighbor_bonuses
+				mercatorum_1_overlord_dividends
+				# mercatorum_1_branch_office_bonuses
+			}
+		}
+		# Level 2
+		{
+			experience_needed_for_next_level = @level_3_xp_cost
+			perks = {
+				mercatorum_2_modifier
+				mercatorum_2_penalties
+				mercatorum_2_econ_tech
+				mercatorum_2_traits
+				mercatorum_2_leaders
+			}
+		}
+		# Level 3
+		{
+			perks = {
+				mercatorum_3_modifier
+				mercatorum_3_penalties
+				mercatorum_3_econ_tech
+				mercatorum_3_market_fees
+			}
+		}
+	}
+}

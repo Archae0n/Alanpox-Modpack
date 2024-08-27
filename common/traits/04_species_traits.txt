@@ -138,7 +138,7 @@ trait_intelligent = {
 		always = yes
 	}
 	potential_crossbreeding_chance = 1.0
-	opposites = { "trait_nerve_stapled" "trait_erudite" "trait_enigmatic_intelligence_poor" }
+	opposites = { "trait_nerve_stapled" "trait_enigmatic_intelligence_poor" }
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	modifier = {
 		planet_jobs_physics_research_produces_mult = 0.10
@@ -303,7 +303,7 @@ trait_extremely_adaptive = {
 		always = yes
 	}
 	potential_crossbreeding_chance = 1.0
-	opposites = { "trait_nonadaptive" "trait_adaptive" "trait_robust" "trait_adaptive_lithoid" }
+	opposites = { "trait_nonadaptive" "trait_adaptive" "trait_adaptive_lithoid" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 		pop_environment_tolerance = 0.20
@@ -326,7 +326,7 @@ trait_adaptive = {
 		always = yes
 	}
 	potential_crossbreeding_chance = 1.0
-	opposites = { "trait_nonadaptive" "trait_extremely_adaptive" "trait_robust" "trait_adaptive_lithoid" }
+	opposites = { "trait_nonadaptive" "trait_extremely_adaptive" "trait_adaptive_lithoid" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 		pop_environment_tolerance = 0.10
@@ -343,7 +343,7 @@ trait_nonadaptive = {
 		can_do_advanced_gene_modding = yes
 	}
 	potential_crossbreeding_chance = 1.0
-	opposites = { "trait_adaptive" "trait_extremely_adaptive" "trait_robust" "trait_adaptive_lithoid" }
+	opposites = { "trait_adaptive" "trait_extremely_adaptive" "trait_adaptive_lithoid" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 		pop_environment_tolerance = -0.10
@@ -369,7 +369,7 @@ trait_rapid_breeders = {
 		always = yes
 	}
 	potential_crossbreeding_chance = 1.0
-	opposites = { "trait_slow_breeders" "trait_fertile" "trait_rapid_breeders_lithoid" "trait_plantoid_budding" "trait_lithoid_budding" "trait_vat_grown" "trait_tiyanki" "trait_humanoid_existential_iteroparity" }
+	opposites = { "trait_slow_breeders" "trait_rapid_breeders_lithoid" "trait_plantoid_budding" "trait_lithoid_budding" "trait_vat_grown" "trait_tiyanki" "trait_humanoid_existential_iteroparity" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 		pop_growth_speed = 0.10
@@ -386,7 +386,7 @@ trait_slow_breeders = {
 		can_do_advanced_gene_modding = yes
 	}
 	potential_crossbreeding_chance = 1.0
-	opposites = { "trait_rapid_breeders" "trait_fertile" "trait_rapid_breeders_lithoid" "trait_plantoid_budding" "trait_lithoid_budding" "trait_vat_grown" "trait_tiyanki" "trait_humanoid_psychological_infertility" "trait_humanoid_existential_iteroparity" }
+	opposites = { "trait_rapid_breeders" "trait_rapid_breeders_lithoid" "trait_plantoid_budding" "trait_lithoid_budding" "trait_vat_grown" "trait_tiyanki" "trait_humanoid_psychological_infertility" "trait_humanoid_existential_iteroparity" }
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 		pop_growth_speed = -0.10
@@ -1964,7 +1964,7 @@ trait_humanoid_existential_iteroparity = {
 		can_remove_beneficial_genetic_traits = yes
 	}
 	potential_crossbreeding_chance = 0.5
-	opposites = { "trait_humanoid_psychological_infertility" "trait_rapid_breeders" "trait_fertile" "trait_rapid_breeders_lithoid" "trait_plantoid_budding" "trait_lithoid_budding" "trait_vat_grown" "trait_tiyanki" }
+	opposites = { "trait_humanoid_psychological_infertility" "trait_rapid_breeders" "trait_rapid_breeders_lithoid" "trait_plantoid_budding" "trait_lithoid_budding" "trait_vat_grown" "trait_tiyanki" }
 	allowed_archetypes = { BIOLOGICAL LITHOID  }
 	icon = "gfx/interface/icons/traits/trait_existential_iteroparity.dds"
 	custom_tooltip = TRAIT_HUMANOID_EXISTENTIAL_ITEROPARITY_EFFECT

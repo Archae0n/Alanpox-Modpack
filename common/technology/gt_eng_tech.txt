@@ -411,7 +411,7 @@ GT_planet_researchers_engineering_research_produces_mult = {
 	tier = 2
 	category = { industry }	
 	prerequisites = { "tech_engineering_1" }
-	weight = @tier2weight2
+	weight = 0
 	
 	modifier = {
 		planet_researchers_engineering_research_produces_add = 0.5
@@ -583,7 +583,7 @@ GT_planet_researchers_engineering_research_produces_mult2 = {
 	tier = 3
 	category = { industry }	
 	prerequisites =3 { "tech_engineering_2" "GT_planet_researchers_engineering_research_produces_mult" }
-	weight = @tier4weight3
+	weight = 0
 	
 	modifier = {
 		planet_researchers_engineering_research_produces_add = 0.5
@@ -847,7 +847,7 @@ GT_planet_researchers_engineering_research_produces_mult3 = {
 	is_rare = yes
 	category = { industry }	
 	prerequisites = { "tech_engineering_3" "GT_planet_researchers_engineering_research_produces_mult2" }
-	weight = @tier4weight1
+	weight = 0
 	
 	modifier = {
 		planet_researchers_engineering_research_produces_add = 0.5

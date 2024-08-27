@@ -1,0 +1,23 @@
+# fallback star classes if Real Space 3 mod isnt used
+# they will never used
+
+# Collapsars
+sc_collapsar = {
+	class 			= collapsar
+	planet			= { key = pc_collapsar }
+	spawn_odds 		= 0.9
+	num_planets 	= { min = 1 max = 4 }
+
+	icon_scale		= 1.5
+}
+
+
+# Protostars
+sc_protostar = {
+	class 			= protostar
+	planet			= { key = pc_protostar }
+	spawn_odds 		= 0.9
+	num_planets 	= { min = 1 max = 4 }
+
+	icon_scale		= 2.5
+}

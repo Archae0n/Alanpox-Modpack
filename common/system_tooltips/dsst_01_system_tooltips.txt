@@ -1,0 +1,97 @@
+#root = system
+#from = player
+
+dyson_swarm_no_tech_system_tooltip = {
+	custom_tooltip = {
+		success_text = dsst_dyson_swarm_no_tech_system_tooltip
+
+		exists = from
+		from = {
+			NOT = { has_technology = tech_dyson_swarm }
+		}
+	}
+}
+
+dyson_swarm_limit_reached_system_tooltip = {
+	custom_tooltip = {
+		success_text = dsst_dyson_swarm_limit_reached_system_tooltip
+
+		exists = from
+		from = {
+			check_variable = {
+				has_technology = tech_dyson_swarm
+				which = dyson_swarm_counter
+				value >= value:dyson_swarm_limit
+			}
+		}
+	}
+}
+
+
+dyson_swarm_system_tooltip = {
+	custom_tooltip = {
+		success_text = dsst_dyson_swarm_system_tooltip
+
+		exists = from
+		from = {
+			has_technology = tech_dyson_swarm
+			check_variable = {
+				which = dyson_swarm_counter
+				value < value:dyson_swarm_limit
+			}
+		}
+		
+		NOR = {
+			has_star_flag = dyson_sphere_construction
+			any_system_megastructure = {
+				OR = {
+					is_megastructure_type = dyson_sphere_0
+					is_megastructure_type = dyson_sphere_1
+					is_megastructure_type = dyson_sphere_2
+					is_megastructure_type = dyson_sphere_3
+					is_megastructure_type = dyson_sphere_4
+					is_megastructure_type = dyson_sphere_5
+					is_megastructure_type = dyson_sphere_ruined
+					is_megastructure_type = dyson_sphere_restored
+					is_megastructure_type = dyson_swarm_1
+					is_megastructure_type = dyson_swarm_2
+					is_megastructure_type = dyson_swarm_3
+				}
+			}
+		}
+
+		NOR = {
+			is_binary = yes
+			is_trinary = yes
+			is_star_class = sc_black_hole
+			is_star_class = sc_neutron_star
+			is_star_class = sc_pulsar
+
+			NOT = { exists = solar_system.star }
+			solar_system.star = {
+				OR = {
+					has_deposit = no
+					is_surveyed = {
+						who = from
+						status = no
+					}
+					has_anomaly = yes
+					has_planet_flag = has_megastructure
+				}
+			}
+
+			# RealSpace Support
+			is_paired = yes
+			is_red_giant = yes
+			is_red_supergiant = yes
+			is_yellow_giant = yes
+			is_yellow_supergiant = yes
+			is_blue_supergiant = yes
+			is_b_system = yes
+			is_a_system = yes
+			is_f_system = yes
+			is_star_class = sc_collapsar
+			is_star_class = sc_protostar
+		}
+	}
+}

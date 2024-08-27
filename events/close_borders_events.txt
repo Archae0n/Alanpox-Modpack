@@ -1,0 +1,549 @@
+####################################
+# Close Borders After Truce Events #
+####################################
+
+namespace = closeborders
+
+# Find Truce Countries
+country_event = {
+	id = closeborders.1000
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_variable = { which = total_truce_countries value = 0 }
+
+		every_country = {
+			limit = {
+				has_truce = root
+			}
+			set_country_flag = truce_country
+			root = { change_variable = { which = total_truce_countries value = 1 } }
+		}
+
+		if = {
+			limit = { check_variable = { which = total_truce_countries value >= 1 } }
+			random_country = {
+				limit = { has_country_flag = truce_country }
+				remove_country_flag = truce_country
+				save_event_target_as = truce_country_1
+			}
+		}
+		if = {
+			limit = { check_variable = { which = total_truce_countries value >= 2 } }
+			random_country = {
+				limit = { has_country_flag = truce_country }
+				remove_country_flag = truce_country
+				save_event_target_as = truce_country_2
+			}
+		}
+		if = {
+			limit = { check_variable = { which = total_truce_countries value >= 3 } }
+			random_country = {
+				limit = { has_country_flag = truce_country }
+				remove_country_flag = truce_country
+				save_event_target_as = truce_country_3
+			}
+		}
+		if = {
+			limit = { check_variable = { which = total_truce_countries value >= 4 } }
+			random_country = {
+				limit = { has_country_flag = truce_country }
+				remove_country_flag = truce_country
+				save_event_target_as = truce_country_4
+			}
+		}
+		if = {
+			limit = { check_variable = { which = total_truce_countries value >= 5 } }
+			random_country = {
+				limit = { has_country_flag = truce_country }
+				remove_country_flag = truce_country
+				save_event_target_as = truce_country_5
+			}
+		}
+		if = {
+			limit = { check_variable = { which = total_truce_countries value >= 6 } }
+			random_country = {
+				limit = { has_country_flag = truce_country }
+				remove_country_flag = truce_country
+				save_event_target_as = truce_country_6
+			}
+		}
+		if = {
+			limit = { check_variable = { which = total_truce_countries value >= 7 } }
+			random_country = {
+				limit = { has_country_flag = truce_country }
+				remove_country_flag = truce_country
+				save_event_target_as = truce_country_7
+			}
+		}
+		if = {
+			limit = { check_variable = { which = total_truce_countries value >= 8 } }
+			random_country = {
+				limit = { has_country_flag = truce_country }
+				remove_country_flag = truce_country
+				save_event_target_as = truce_country_8
+			}
+		}
+		if = {
+			limit = { check_variable = { which = total_truce_countries value >= 9 } }
+			random_country = {
+				limit = { has_country_flag = truce_country }
+				remove_country_flag = truce_country
+				save_event_target_as = truce_country_9
+			}
+		}
+		if = {
+			limit = { check_variable = { which = total_truce_countries value >= 10 } }
+			random_country = {
+				limit = { has_country_flag = truce_country }
+				remove_country_flag = truce_country
+				save_event_target_as = truce_country_10
+			}
+		}
+	}
+
+	after = {
+		country_event = { id = closeborders.2000 }
+	}
+}
+
+# List Truce Countries
+country_event = {
+	id = closeborders.2000
+	title = closeborders.2000.name
+	desc = closeborders.2000.desc
+	picture = GFX_evt_voting
+	location = ROOT
+
+	is_triggered_only = yes
+
+	# No valid target
+	option = {
+		name = closeborders.2000.fail
+		trigger = { check_variable = { which = total_truce_countries value = 0 } }
+	}
+
+	# Nevermind
+	option = {
+		name = closeborders.2000.back
+		trigger = { check_variable = { which = total_truce_countries value > 0 } }
+	}
+
+	# Now we show a list of the subject states to the player
+	option = {
+		allow = {
+		custom_tooltip = {
+				fail_text = influencefail_text_close_borders
+				has_resource = { type = influence amount >= 150 }
+			}
+		}
+		add_resource = { influence = -150 }
+		name = closeborders.2000.truce_country_1
+		trigger = { check_variable = { which = total_truce_countries value >= 1 } }
+		hidden_effect = {
+			event_target:truce_country_1 = {
+				add_opinion_modifier = {
+					who = root
+					modifier = opinion_closed_borders_broke_truce
+				}
+				save_event_target_as = chosen_truce_country
+			}
+			country_event = { id = closeborders.3001 }
+			add_modifier = {
+				modifier = close_borders_broke_truce
+				years = 15
+			}
+			every_country = {
+				limit = {
+					NOR = {
+						is_same_value = event_target:chosen_truce_country
+						is_same_value = root
+					}
+					has_communications = root
+					has_communications = event_target:chosen_truce_country
+				}
+				add_opinion_modifier = {
+					modifier = opinion_closed_borders_broke_truce_foreign
+					who = root
+				}
+			}
+		}
+	}
+	option = {
+		allow = {
+		custom_tooltip = {
+				fail_text = influencefail_text_close_borders
+				has_resource = { type = influence amount >= 150 }
+			}
+		}
+		add_resource = { influence = -150 }
+		name = closeborders.2000.truce_country_2
+		trigger = { check_variable = { which = total_truce_countries value >= 2 } }
+		hidden_effect = {
+			event_target:truce_country_2 = {
+				add_opinion_modifier = {
+					who = root
+					modifier = opinion_closed_borders_broke_truce
+				}
+				save_event_target_as = chosen_truce_country
+			}
+			country_event = { id = closeborders.3001 }
+			add_modifier = {
+				modifier = close_borders_broke_truce
+				years = 15
+			}
+			every_country = {
+				limit = {
+					NOR = {
+						is_same_value = event_target:chosen_truce_country
+						is_same_value = root
+					}
+					has_communications = root
+					has_communications = event_target:chosen_truce_country
+				}
+				add_opinion_modifier = {
+					modifier = opinion_closed_borders_broke_truce_foreign
+					who = root
+				}
+			}
+		}
+	}
+	option = {
+		allow = {
+		custom_tooltip = {
+				fail_text = influencefail_text_close_borders
+				has_resource = { type = influence amount >= 150 }
+			}
+		}
+		add_resource = { influence = -150 }
+		name = closeborders.2000.truce_country_3
+		trigger = { check_variable = { which = total_truce_countries value >= 3 } }
+		hidden_effect = {
+			event_target:truce_country_3 = {
+				add_opinion_modifier = {
+					who = root
+					modifier = opinion_closed_borders_broke_truce
+				}
+				save_event_target_as = chosen_truce_country
+			}
+			country_event = { id = closeborders.3001 }
+			add_modifier = {
+				modifier = close_borders_broke_truce
+				years = 15
+			}
+			every_country = {
+				limit = {
+					NOR = {
+						is_same_value = event_target:chosen_truce_country
+						is_same_value = root
+					}
+					has_communications = root
+					has_communications = event_target:chosen_truce_country
+				}
+				add_opinion_modifier = {
+					modifier = opinion_closed_borders_broke_truce_foreign
+					who = root
+				}
+			}
+		}
+	}
+	option = {
+		allow = {
+		custom_tooltip = {
+				fail_text = influencefail_text_close_borders
+				has_resource = { type = influence amount >= 150 }
+			}
+		}
+		add_resource = { influence = -150 }
+		name = closeborders.2000.truce_country_4
+		trigger = { check_variable = { which = total_truce_countries value >= 4 } }
+		hidden_effect = {
+			event_target:truce_country_4 = {
+				add_opinion_modifier = {
+					who = root
+					modifier = opinion_closed_borders_broke_truce
+				}
+				save_event_target_as = chosen_truce_country
+			}
+			country_event = { id = closeborders.3001 }
+			add_modifier = {
+				modifier = close_borders_broke_truce
+				years = 15
+			}
+			every_country = {
+				limit = {
+					NOR = {
+						is_same_value = event_target:chosen_truce_country
+						is_same_value = root
+					}
+					has_communications = root
+					has_communications = event_target:chosen_truce_country
+				}
+				add_opinion_modifier = {
+					modifier = opinion_closed_borders_broke_truce_foreign
+					who = root
+				}
+			}
+		}
+	}
+	option = {
+		allow = {
+		custom_tooltip = {
+				fail_text = influencefail_text_close_borders
+				has_resource = { type = influence amount >= 150 }
+			}
+		}
+		add_resource = { influence = -150 }
+		name = closeborders.2000.truce_country_5
+		trigger = { check_variable = { which = total_truce_countries value >= 5 } }
+		hidden_effect = {
+			event_target:truce_country_5 = {
+				add_opinion_modifier = {
+					who = root
+					modifier = opinion_closed_borders_broke_truce
+				}
+				save_event_target_as = chosen_truce_country
+			}
+			country_event = { id = closeborders.3001 }
+			add_modifier = {
+				modifier = close_borders_broke_truce
+				years = 15
+			}
+			every_country = {
+				limit = {
+					NOR = {
+						is_same_value = event_target:chosen_truce_country
+						is_same_value = root
+					}
+					has_communications = root
+					has_communications = event_target:chosen_truce_country
+				}
+				add_opinion_modifier = {
+					modifier = opinion_closed_borders_broke_truce_foreign
+					who = root
+				}
+			}
+		}
+	}
+	option = {
+		allow = {
+		custom_tooltip = {
+				fail_text = influencefail_text_close_borders
+				has_resource = { type = influence amount >= 150 }
+			}
+		}
+		add_resource = { influence = -150 }
+		name = closeborders.2000.truce_country_6
+		trigger = { check_variable = { which = total_truce_countries value >= 6 } }
+		hidden_effect = {
+			event_target:truce_country_6 = {
+				add_opinion_modifier = {
+					who = root
+					modifier = opinion_closed_borders_broke_truce
+				}
+				save_event_target_as = chosen_truce_country
+			}
+			country_event = { id = closeborders.3001 }
+			add_modifier = {
+				modifier = close_borders_broke_truce
+				years = 15
+			}
+			every_country = {
+				limit = {
+					NOR = {
+						is_same_value = event_target:chosen_truce_country
+						is_same_value = root
+					}
+					has_communications = root
+					has_communications = event_target:chosen_truce_country
+				}
+				add_opinion_modifier = {
+					modifier = opinion_closed_borders_broke_truce_foreign
+					who = root
+				}
+			}
+		}
+	}
+	option = {
+		allow = {
+		custom_tooltip = {
+				fail_text = influencefail_text_close_borders
+				has_resource = { type = influence amount >= 150 }
+			}
+		}
+		add_resource = { influence = -150 }
+		name = closeborders.2000.truce_country_7
+		trigger = { check_variable = { which = total_truce_countries value >= 7 } }
+		hidden_effect = {
+			event_target:truce_country_7 = {
+				add_opinion_modifier = {
+					who = root
+					modifier = opinion_closed_borders_broke_truce
+				}
+				save_event_target_as = chosen_truce_country
+			}
+			country_event = { id = closeborders.3001 }
+			add_modifier = {
+				modifier = close_borders_broke_truce
+				years = 15
+			}
+			every_country = {
+				limit = {
+					NOR = {
+						is_same_value = event_target:chosen_truce_country
+						is_same_value = root
+					}
+					has_communications = root
+					has_communications = event_target:chosen_truce_country
+				}
+				add_opinion_modifier = {
+					modifier = opinion_closed_borders_broke_truce_foreign
+					who = root
+				}
+			}
+		}
+	}
+	option = {
+		allow = {
+		custom_tooltip = {
+				fail_text = influencefail_text_close_borders
+				has_resource = { type = influence amount >= 150 }
+			}
+		}
+		add_resource = { influence = -150 }
+		name = closeborders.2000.truce_country_8
+		trigger = { check_variable = { which = total_truce_countries value >= 8 } }
+		hidden_effect = {
+			event_target:truce_country_8 = {
+				add_opinion_modifier = {
+					who = root
+					modifier = opinion_closed_borders_broke_truce
+				}
+				save_event_target_as = chosen_truce_country
+			}
+			country_event = { id = closeborders.3001 }
+			add_modifier = {
+				modifier = close_borders_broke_truce
+				years = 15
+			}
+			every_country = {
+				limit = {
+					NOR = {
+						is_same_value = event_target:chosen_truce_country
+						is_same_value = root
+					}
+					has_communications = root
+					has_communications = event_target:chosen_truce_country
+				}
+				add_opinion_modifier = {
+					modifier = opinion_closed_borders_broke_truce_foreign
+					who = root
+				}
+			}
+		}
+	}
+	option = {
+		allow = {
+		custom_tooltip = {
+				fail_text = influencefail_text_close_borders
+				has_resource = { type = influence amount >= 150 }
+			}
+		}
+		add_resource = { influence = -150 }
+		name = closeborders.2000.truce_country_9
+		trigger = { check_variable = { which = total_truce_countries value >= 9 } }
+		hidden_effect = {
+			event_target:truce_country_9 = {
+				add_opinion_modifier = {
+					who = root
+					modifier = opinion_closed_borders_broke_truce
+				}
+				save_event_target_as = chosen_truce_country
+			}
+			country_event = { id = closeborders.3001 }
+			add_modifier = {
+				modifier = close_borders_broke_truce
+				years = 15
+			}
+			every_country = {
+				limit = {
+					NOR = {
+						is_same_value = event_target:chosen_truce_country
+						is_same_value = root
+					}
+					has_communications = root
+					has_communications = event_target:chosen_truce_country
+				}
+				add_opinion_modifier = {
+					modifier = opinion_closed_borders_broke_truce_foreign
+					who = root
+				}
+			}
+		}
+	}
+	option = {
+		allow = {
+		custom_tooltip = {
+				fail_text = influencefail_text_close_borders
+				has_resource = { type = influence amount >= 150 }
+			}
+		}
+		add_resource = { influence = -150 }
+		name = closeborders.2000.truce_country_10
+		trigger = { check_variable = { which = total_truce_countries value >= 10 } }
+
+		hidden_effect = {
+			event_target:truce_country_10 = {
+				add_opinion_modifier = {
+					who = root
+					modifier = opinion_closed_borders_broke_truce
+				}
+				save_event_target_as = chosen_truce_country
+			}
+			country_event = { id = closeborders.3001 }
+			add_modifier = {
+				modifier = close_borders_broke_truce
+				years = 15
+			}
+			every_country = {
+				limit = {
+					NOR = {
+						is_same_value = event_target:chosen_truce_country
+						is_same_value = root
+					}
+					has_communications = root
+					has_communications = event_target:chosen_truce_country
+				}
+				add_opinion_modifier = {
+					modifier = opinion_closed_borders_broke_truce_foreign
+					who = root
+				}
+			}
+		}
+	}
+}
+
+
+# CB 3001
+country_event = { 
+	id = closeborders.3001
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = { 
+		end_truce = event_target:chosen_truce_country
+		set_closed_borders = {
+			who = event_target:chosen_truce_country
+			status = yes
+			forced = 0
+		}
+		event_target:chosen_truce_country = {
+			set_closed_borders = {
+				who = root
+				status = yes
+				forced = 0
+			}
+		}
+	}
+}

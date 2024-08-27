@@ -1,0 +1,68 @@
+spriteTypes = {
+
+	#Nanites
+
+	spriteType = {
+		name = "GFX_ship_part_nanitetw_strike_craft_fighter"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_bomber_nanite.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_nanite_ball"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nanite_ball.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_nanite_perdition_beam"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nanite_perdition_beam.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_ship_part_nanite_perdition_beam"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nanite_perdition_beam.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_nanite_shield"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nanite_shield.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_nanite_armor"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nanite_armor.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_ship_part_nanite_jump_drive"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nanite_jump_drive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_nanite_jump_thruster"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nanite_jump_thruster.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_nanite_shield_recharger"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nanite_shield_recharger.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_nanite_armor_recharger"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nanite_armor_recharger.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_nanite_reactor"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_nanite_reactor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_nanite_sensor"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_sensor_nanite.dds"
+	}
+
+
+
+}

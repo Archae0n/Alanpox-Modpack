@@ -66,7 +66,7 @@ cosmo_crisis_destroyer = {
 	resources = {
 		category = ships
 		cost = {
-			alloys = 750
+			alloys = 1000
 			sr_dark_matter = 2
 		}
 		upkeep = {

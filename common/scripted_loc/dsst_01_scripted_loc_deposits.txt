@@ -1,0 +1,271 @@
+# root = planet
+defined_text = {
+	name = DSST_DysonSwarmDepositsBaseProduction
+	random = no
+
+	text = {
+		localization_key = dsst_single_deposit_production
+		Trigger = {
+			count_deposit = { count = 1 }
+		}
+	}
+
+	text = {
+		localization_key = dsst_multi_deposits_production
+		trigger = {
+			any_deposit = {
+				has_resource = yes
+			}
+		}
+	}
+
+	default = BLANK_STRING
+}
+
+
+#####################################
+### Resource Deposit localisation ###
+#####################################
+# adds scripted localisation for resource type and the sum value of that type
+# root = planet  -  always
+
+## Energy
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = energy
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_energy
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|energy|
+}
+
+
+## Minerals
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = minerals
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_minerals
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|minerals|
+}
+
+
+## Food
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = food
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_food
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|food|
+}
+
+
+## Physics Research
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = physics_research
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_physics_research
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|physics_research|
+}
+
+
+## Society Research
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = society_research
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_society_research
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|society_research|
+}
+
+
+## Engineering Research
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = engineering_research
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_engineering_research
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|engineering_research|
+}
+
+
+## Unity
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = unity
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_unity
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|unity|
+}
+
+
+## Influence
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = influence
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_influence
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|influence|
+}
+
+
+## Consumer goods
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = consumer_goods
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_consumer_goods
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|consumer_goods|
+}
+
+
+## Alloys
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = alloys
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_alloys
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|alloys|
+}
+
+
+## Volatile Motes
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = volatile_motes
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_volatile_motes
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|volatile_motes|
+}
+
+
+## Exotic Gases
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = exotic_gases
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_exotic_gases
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|exotic_gases|
+}
+
+
+## Rare Crystals
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = rare_crystals
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_rare_crystals
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|rare_crystals|
+}
+
+
+## Living Metal
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = sr_living_metal
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_sr_living_metal
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|sr_living_metal|
+}
+
+
+
+## Zro
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = sr_zro
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_sr_zro
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|sr_zro|
+}
+
+
+
+## Dark Matter
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = sr_dark_matter
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_sr_dark_matter
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|sr_dark_matter|
+}
+
+
+
+## Nanites
+defined_text = {
+	inline_script = {
+		script = dsst_resource_type__defined_texts
+		RESOURCE_TYPE = nanites
+	}
+}
+
+defined_text = {
+	name = DSST_GetDepositsSum_nanites
+	value = value:dsst_deposits_sum_type_base_amount|RESOURCE_TYPE|nanites|
+}
+

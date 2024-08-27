@@ -1,0 +1,867 @@
+###############################################
+###############################################
+#####									#####
+#####	 Nanites Goo Special Effects	 #####
+#####		For A Deadly Tempest		 #####
+#####	   Written by FirePrince		 #####
+#####									 #####
+###############################################
+###############################################
+
+# This = Country
+shoal_guard_reinforce = {
+	# log = "set fleet size +$AMOUNT$ +$SHIPS$"
+	# every_owned_fleet = {
+	random_owned_fleet = {
+		limit = {
+			has_auto_move_target = no
+			is_in_combat = no
+			OR = {
+				has_fleet_flag = nanite_mother_ship
+				AND = {
+					exists = solar_system
+					solar_system = {
+						has_star_flag = lcluster
+						any_system_planet = {
+							any_fleet_in_orbit = { exists = owner is_same_value = prevprevprev }
+						}
+					}
+				}
+			}
+			is_ship_size = graygoo_mothership			# Implicit any_owned_ship
+			num_ships < $AMOUNT|11$
+		}
+		prev = {
+			CmtEffectResetLoop = yes
+			while = { count = $SHIPS|1$
+				CmtEffectProgressLoop4 = yes
+				switch = { trigger = has_country_flag
+					CmtFlagLoopA = { prev = { CmtEffectCreateShip_GraygooInterdictor = yes } }
+					CmtFlagLoopB = { prev = { CmtEffectCreateShip_GraygooInterdictor = yes } }
+					CmtFlagLoopC = {
+						random_list = {
+							1 = { prev = { CmtEffectCreateShip_GraygooMother = yes } }
+							9 = { prev = { CmtEffectCreateShip_GraygooInterdictor = yes } }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+shoal_global_reinforce = {
+	# log = "shoal_global_reinforce [AMOUNT] - [SHIPS]"
+	every_owned_fleet = {
+		limit = {
+			is_in_combat = no
+			is_ship_size = graygoo_mothership			# Implicit any_owned_ship
+			# OR = {
+			# 	has_fleet_flag = nanite_mother_ship
+			# 	has_fleet_flag = trait_biothrall_tolerance
+			# }
+			num_ships < $AMOUNT|11$
+		}
+		prev = {
+			CmtEffectResetLoop = yes
+			while = { count = $SHIPS|1$
+				CmtEffectProgressLoop4 = yes
+				switch = { trigger = has_country_flag
+					CmtFlagLoopA = { prev = { CmtEffectCreateShip_GraygooInterdictor = yes } }
+					CmtFlagLoopB = { prev = { CmtEffectCreateShip_GraygooInterdictor = yes } }
+					CmtFlagLoopC = {
+						random_list = {
+							1 = { prev = { CmtEffectCreateShip_GraygooMother = yes } }
+							9 = { prev = { CmtEffectCreateShip_GraygooInterdictor = yes } }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+## Make dynamic with Crisis Manager.
+# Root = this = event_target:graygoo_country
+shoal_guard_dynamic_reinforce = {
+	# Make dynamic with Crisis Manager.
+	# event_target:CmtGlobalVar = { set_variable = { which = CmtVarWhileControlShip value = CmtVarFleetPower_Graygoo } }
+	# CmtVarCapitalDefenceNumber 1-8 vanilla = 4
+	set_variable = { which = CapitalDefence_tmp value = CmtVarCapitalDefenceNumber }
+	# log = "guard_dynamic [$STRENGTH$] - [CmtVarCapitalDefenceNumber]"
+	if = {
+		limit = { end_game_years_passed > 35 }
+		multiply_variable = { which = CapitalDefence_tmp value = 10 }
+		change_variable = { which = CapitalDefence_tmp value = 1 }
+		$KIND$ = {
+			# "AMOUNT" = @\[ $STRENGTH|4$ * 10 + 1 ] # 41
+			"AMOUNT" = prev.CapitalDefence_tmp
+			"SHIPS" = 3
+		}
+	}
+	else_if = {
+		limit = { mid_game_years_passed > 50 }		# Todo $MidYear|
+		multiply_variable = { which = CapitalDefence_tmp value = 5 }
+		change_variable = { which = CapitalDefence_tmp value = 1 }
+		$KIND$ = {
+			# "AMOUNT" = @\[ $STRENGTH|4$ * 5 + 1 ] # 21
+			"AMOUNT" = prev.CapitalDefence_tmp
+			"SHIPS" = 2
+		}
+	}
+	else_if = {
+		limit = { mid_game_years_passed > 5 }
+		multiply_variable = { which = CapitalDefence_tmp value = 2.5 }
+		change_variable = { which = CapitalDefence_tmp value = 1 }
+		$KIND$ = {
+			# "AMOUNT" = @\[ $STRENGTH|4$ * 2.5 + 1 ] # 11
+			"AMOUNT" = prev.CapitalDefence_tmp
+			"SHIPS" = 1
+		}
+	}
+	else = {
+		multiply_variable = { which = CapitalDefence_tmp value = 1.5 }
+		$KIND$ = {
+			# "AMOUNT" = @\[ $STRENGTH|4$ * 1.5 ] # 6
+			"AMOUNT" = prev.CapitalDefence_tmp
+			"SHIPS" = 1
+		}
+	}
+}
+
+# fleet
+shoal_factory_guard_move = {
+	event_target:lcluster_factory_system = {
+		random_system_planet = {
+			limit = {
+				OR = { is_planet_class = pc_gray_goo is_planet_class = pc_gaia }
+				NAND = {
+					from = { exists = orbit }
+					any_fleet_in_orbit = { is_same_value = from }
+				}
+				count_fleet_in_orbit = { limit = { exists = owner has_fleet_flag = nanite_mother_ship } count = 0 }
+			}
+			from = {
+				auto_move_to_planet = {
+					target = prev
+					clear_auto_move_on_arrival = no
+					# arrival_effect = shoal_factory_guard_move ?
+				}
+			}
+		}
+	}
+}
+
+shoal_factory_guard_queue = {
+	queue_actions = {
+		wait = { duration = 60 random = 60 }
+		find_closest_planet = {
+			trigger = {
+				id = graygoo_guard$NUM$.trigger.1
+				OR = { is_planet_class = pc_gray_goo is_planet_class = pc_gaia }
+				NAND = {
+					prev = { exists = orbit }
+					any_fleet_in_orbit = { is_same_value = prevprev }
+				}
+				count_fleet_in_orbit = { limit = { exists = owner has_fleet_flag = nanite_mother_ship } count = 0 }
+			}
+			found_planet = {
+				# orbit_planet = this
+				effect = {
+					id = graygoo_guard$NUM$.effect.2
+					if = {
+						limit = {
+							count_fleet_in_orbit = { limit = { exists = owner has_fleet_flag = nanite_mother_ship } count = 0 }
+						}
+						from = {
+							queue_actions = { orbit_planet = prev }
+						}
+					}
+					else = {
+						random_list = {
+							1 = { from = { queue_actions = { orbit_planet = prev } } }
+							1 = { from = { queue_actions = { move_to = event_target:nanite_factory } } }
+							6 = {
+								solar_system = {
+									random_system_planet = {
+										limit = {
+											OR = { is_planet_class = pc_gray_goo is_planet_class = pc_gaia }
+											NOT = {
+												# is_same_value = prevprevprev
+												any_fleet_in_orbit = { exists = owner has_fleet_flag = nanite_mother_ship }
+											}
+										}
+										from = {
+											queue_actions = { orbit_planet = prev }
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			failed = {
+				effect = {
+					id = graygoo_guard$NUM$.failed
+					random_list = {
+						1 = {
+							modifier = { factor = 0 NOT = { exists = event_target:main_star } }
+							from = { queue_actions = { move_to = event_target:main_star } }
+						}
+						2 = {
+							modifier = { factor = 0 NOT = { exists = event_target:nanite_factory } }
+							from = { queue_actions = { move_to = event_target:nanite_factory } }
+						}
+						3 = {
+							solar_system = {
+								random_system_planet = {
+									limit = {
+										OR = { is_planet_class = pc_gray_goo is_planet_class = pc_gaia }
+										count_fleet_in_orbit = { limit = { exists = owner has_fleet_flag = nanite_mother_ship } count = 0 }
+									}
+									from = {
+										queue_actions = { orbit_planet = prev }
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# Scope fleet now at a_deadly_tempest.99
+# shoal_cluster_defense = {
+# 	closest_system = {
+# 		min_steps = 1
+# 		max_steps = 4
+# 		use_bypasses = no
+# 		# Error Current Scope: fleet???
+# 		limit = {
+# 			has_star_flag = lcluster
+# 			NOT = { has_star_flag = graygoo_factory_system }
+# 			any_system_planet = {
+# 				OR = {
+# 					is_planet_class = pc_gray_goo
+# 					is_planet_class = pc_gaia
+# 				}
+# 				NOT = {
+# 					any_fleet_in_orbit = {
+# 						exists = owner
+# 						has_fleet_flag = nanite_mother_ship
+# 					}
+# 				}
+# 			}
+# 		}
+# 		random_system_planet = {
+# 			limit = {
+# 				OR = {
+# 					is_planet_class = pc_gray_goo
+# 					is_planet_class = pc_gaia
+# 				}
+# 				NOT = {
+# 					any_fleet_in_orbit = {
+# 						exists = owner
+# 						has_fleet_flag = nanite_mother_ship
+# 					}
+# 				}
+# 			}
+# 			from = {
+# 				auto_move_to_planet = {
+# 					target = prev
+# 					clear_auto_move_on_arrival = yes
+# 				}
+# 			}
+# 			# break = yes
+# 		}
+# 	}
+# 	# TODO Unknown error!?
+# 	# event_target:graygoo_country = { change_variable = { which = fleetCounter value = 1 } }
+# 	# shoal_continue_cluster_defense = { NUM = "graygoo_country.fleetCounter" }
+# }
+
+# Scope fleet
+# TODO Unknown error!?
+shoal_continue_cluster_defense = {
+	queue_actions = {
+		# wait = {
+		# 	duration = 60
+		# 	random = 60
+		# }
+		# find_random_system = {
+		find_closest_system = {
+			trigger = {
+				id = "graygoo_def_$NUM|11$.trigger.1"
+				has_star_flag = lcluster
+				NOT = { has_star_flag = graygoo_factory_system }
+				any_system_planet = {
+					OR = { is_planet_class = pc_gray_goo is_planet_class = pc_gaia }
+					count_fleet_in_orbit = { limit = { exists = owner has_fleet_flag = nanite_mother_ship } count = 0 }
+				}
+			}
+			found_system = {
+				move_to = this
+				find_random_planet = {
+					trigger = {
+						id = "graygoo_def_$NUM|11$.trigger.3"
+						# is_star = yes
+						# exists = starbase
+						OR = { is_planet_class = pc_gray_goo is_planet_class = pc_gaia }
+						count_fleet_in_orbit = { limit = { exists = owner has_fleet_flag = nanite_mother_ship } count = 0 }
+					}
+					found_planet = {
+						move_to = this
+						orbit_planet = this
+						# move_to = this.starbase
+						# wait = {
+						# 	duration = 60
+						# 	random = 30
+						# }
+					}
+					failed = {
+						effect = {
+							id = "graygoo_def_$NUM|11$.failed"
+							# log = "Fail graygoo_def [This.GetFleetName] returning from [Prev.GetName] - [From.GetFleetName]"
+							# shoal_continue_cluster_defense = { NUM = @\[$NUM|11$ + 1] }
+							event_target:graygoo_country = {
+								change_variable = { which = "fleetCounter" value = 1 }
+							}
+							from = {
+								shoal_continue_cluster_defense = { NUM = "graygoo_country.fleetCounter" }
+							}
+						}
+					}
+				}
+			}
+		}
+		# wait = {
+		# 	duration = 60
+		# 	random = 30
+		# }
+		# find_closest_planet = {
+		# 	trigger = {
+		# 		id = "graygoo_guard$NUM|11$.trigger.2"
+		# 		OR = {
+		# 			is_planet_class = pc_gray_goo
+		# 			is_planet_class = pc_gaia
+		# 		}
+		# 		count_fleet_in_orbit = { limit = { exists = owner has_fleet_flag = nanite_mother_ship } count = 0 }
+		# 	}
+		# 	found_planet = {
+		# 		orbit_planet = this
+		# 		wait = {
+		# 			duration = 60
+		# 			random = 30
+		# 		}
+		# 	}
+		# 	failed = {
+		# 		effect = {
+		# 			id = "graygoo_guard$NUM|11$.failed"
+		# 			# log = "Fail Guard$NUM$ [This.GetFleetName] returning from: [Prev.GetName]"
+		# 			# shoal_continue_cluster_defense = { NUM = @\[$NUM|11$ + 1] }
+		# 			event_target:graygoo_country = { change_variable = { which = fleetCounter value = 1 } }
+		# 			shoal_continue_cluster_defense = { NUM = "graygoo_country.fleetCounter" }
+		# 		}
+		# 	}
+		# }
+	}
+}
+
+# effect = { remove_auto_move_target = yes	clear_fleet_actions = this }
+# Called after planet reset (Scope planet, root country)
+# pc = pc_gray_goo / pc_gaia
+generate_new_deposits_and_blockers = {
+	clear_deposits = yes
+	if = {
+		limit = { exists = owner }
+		# blockers
+		if = {
+			limit = { owner = { is_apocalyptic_empire = yes } }
+			# blockers
+			add_deposit = d_tomb_world_ruins
+			add_deposit = d_tomb_world_wasteland
+		}
+		else_if = {
+			limit = {
+				owner = {
+					has_civic = civic_machine_terminator
+					NOT = { has_origin = origin_machine }
+				}
+			}
+			add_deposit = d_exterminators_ruins
+			add_deposit = d_former_battlefield
+		}
+		else_if = {
+			limit = { owner = { has_civic = civic_machine_servitor } }
+			add_deposit = d_strip_mine
+			add_deposit = d_unsupervised_settlement
+		}
+		else_if = {
+			limit = {
+				owner = {
+					has_civic = civic_machine_assimilator
+					NOT = { has_origin = origin_machine }
+				}
+			}
+			add_deposit = d_strip_mine
+			add_deposit = d_assimilators_ruins
+		}
+		else_if = {
+			limit = {
+				owner = {
+					is_machine_empire = yes
+					NOT = { has_origin = origin_machine }
+				}
+			}
+			add_deposit = d_strip_mine
+			add_deposit = d_machine_empire_ruins
+		}
+		else_if = {
+			limit = { owner = { is_hive_empire = yes } }
+			add_deposit = d_collapsed_burrows
+			add_deposit = d_failing_infrastructure
+			add_deposit = d_failing_infrastructure
+		}
+		else_if = { # is_machine_empire = no
+			limit = { owner = { is_lithoid_empire = yes } }
+			if = {
+				limit = {
+					owner = {
+						NOR = { has_valid_civic = civic_hive_devouring_swarm has_origin = origin_lithoid }
+					}
+				}
+				while = { count = 4 add_deposit = d_hibernating_lithoids }
+			}
+			else_if = {
+				limit = { owner = { has_valid_civic = civic_hive_devouring_swarm } }
+				while = { count = 2 add_deposit = d_hibernating_lithoids }
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					NOT = { has_origin = origin_machine }
+				}
+			}
+			add_deposit = d_decrepit_dwellings
+			add_deposit = d_failing_infrastructure
+			add_deposit = d_failing_infrastructure
+		}
+	}
+}
+
+# Scope country
+give_tech_option = {
+	if = {
+		limit = {
+			NOR = {
+				has_technology = $TECH$
+				has_tech_option = $TECH$
+				is_researching_technology = $TECH$
+			}
+		}
+		# hidden_trigger = {
+		# 	always = $INFO|yes$
+		# 	tooltip = { add_research_option = $TECH$ }
+		# }
+		# add_tech_progress = {
+		# 	tech = $TECH$
+		# 	progress = 0.25
+		# }
+		if = {
+			limit = { always = $INFO|yes$ }
+			tooltip = { add_research_option = $TECH$ }
+			add_tech_progress = { tech = $TECH$ progress = 0.25 }
+		}
+		else = {
+			add_tech_progress = { tech = $TECH$ progress = 0.1 }
+		}
+		# give_technology = { tech = $TECH$ message = no }
+	}
+}
+
+# From = root country (combatant)
+# ship_event = { id = a_deadly_tempest.37
+# This = ship 1 (combatant) = root.fromfrom
+nanite_assimilating_effect = {
+	# log = "nanite_assimilating_effect root.from [ROOT.from.GetName]" # Victim country
+	# log = "nanite_assimilating_effect From [From.GetName]" # Victim ship
+	if = {
+		limit = {
+			NOR = {
+				exists = root.fromfromfrom
+				root.fromfromfrom = { is_scope_type = ship }
+			}
+		}
+		# log = "WARNING root.fromfromfrom NOT exists " # [ROOT.fromfromfrom.GetName]
+		break=yes
+	}
+	# else_if = {
+	# 	limit = { NOT = { exists = event_target:assimilate_that_ship } }
+	# 	root.fromfromfrom = { save_event_target_as = assimilate_that_ship }
+	# 	log = "create assimilate_that_ship event_target " # [assimilate_that_ship.GetName]
+	# }
+	else = {
+		root.fromfromfrom = { save_event_target_as = assimilate_that_ship }
+	}
+
+	fleet = {
+		save_event_target_as = assimilating_fleet
+		set_timed_fleet_flag = { flag = commands_merge_fleet_flag_temp days = 64 }
+		remove_fleet_flag = assimilate_that_ship_flag_temp
+	}
+
+	event_target:assimilate_that_ship = {
+		# set_disable_at_health = 0.01
+		# set_disabled = yes
+		# repair_percentage = 0.01
+		# if = {
+		# 	limit = {
+		# 		has_hp_percentage > 0.001
+		# 		is_disabled = yes
+		# 	}
+		# 	if = {
+		# 		limit = { prev.fleet = { is_in_combat = no } }
+		# 		fleet = { set_owner = root }
+		# 	}
+		# 	fleet = { set_timed_fleet_flag = { flag = assimilate_that_ship_flag_temp days = 42 } }
+		# 	ship_event = { id = a_deadly_tempest.38 days = 8 }
+		# 	log = "assimilate_that_ship already disabled"
+		# }
+		# else = {
+			# log = "nanite_assimilating_effect [Root.GetName]"
+		switch = { trigger = is_ship_size
+			galleon = { root.from = { nanite_ship_assimilating_effect = { "DESIGN" = galleon "DENAME" = "NAME_Pirate_Galleon" } } }
+			colossus = { root.from = { set_assimilating_fleet_scope = { "DESIGN" = colossus } } }
+			titan = { root.from = { set_assimilating_fleet_scope = { "DESIGN" = titan } } }
+			juggernaut = { root.from = { set_assimilating_fleet_scope = { "DESIGN" = juggernaut } } }
+			nanite_dragon = { root = { nanite_switch_country_scope = { "DESIGN" = nanite_dragon "DENAME" = "NAME_Nanite_Dragon_Young" } } }
+			nanite_space_dragon_baby = { root = { nanite_switch_country_scope = { "DESIGN" = nanite_dragon "DENAME" = "NAME_Nanite_Dragon_Young" } } }
+			# nanite_space_dragon_baby = { from = { giveShipDesign = { "DESIGN" = "nanite_space_dragon_baby" "DENAME" = "NAME_Nanite_Dragon" } } }
+			graygoo_mothership = { root.from = { nanite_switch_country_scope = { "DESIGN" = graygoo_mothership "DENAME" = "NAME_Nanite_Mothership" } } }
+			graygoo_interdictor = { root.from = { nanite_switch_country_scope = { "DESIGN" = graygoo_interdictor "DENAME" = "NAME_Nanite_Interdictor" } } }
+			# marauder_galleon = { "NAME_Ancestral_Glory" }
+			# massive_ship_fallen_empire
+			# large_ship_fallen_empire
+			# small_ship_fallen_empire
+			# voidspawn
+			# leviathan_01_scavenger_bot = { from = { giveShipDesign = { "DESIGN" = scavenger_bot "DENAME" = "NAME_Scavenger_Bot" } } }
+			# scavenger_bot = { from = { giveShipDesign = { "DESIGN" = scavenger_bot "DENAME" = "NAME_Scavenger_Bot" } } }
+			# npc_warship_01 = { from = { giveShipDesign = { "DESIGN" = dreadnought "DENAME" = "NAME_Type_69" } } }
+			# dreadnought = { from = { giveShipDesign = { "DESIGN" = dreadnought "DENAME" = "NAME_Type_69" } } }
+			ancient_destroyer = { root.from = { nanite_ship_assimilating_effect = { "DESIGN" = ancient_destroyer "DENAME" = "NAME_Guardian" } } }
+			ancient_mining_expansion_drone = { root.from = { nanite_ship_assimilating_effect = { "DESIGN" = ancient_mining_expansion_drone "DENAME" = "NAME_Ancient_Mining_Expansion_Drone" } } }
+			large_ship_ai = { root.from = { nanite_ship_assimilating_effect = { "DESIGN" = large_ship_ai "DENAME" = "NAME_Taciturn" } } }
+			small_ship_ai = { root.from = { nanite_ship_assimilating_effect = { "DESIGN" = small_ship_ai "DENAME" = "NAME_Reticent" } } }
+		}
+		# }
+	}
+}
+
+# This = country
+nanite_switch_country_scope = {
+	# switch = { trigger = exists not works
+	# switch = { trigger = is_country_type
+	# event_target:graygoo_country = { event_target:graygoo_country = { giveShipDesign = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME$ } } }
+	# event_target:gate_builders = { event_target:gate_builders = { giveShipDesign = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME$ } } }
+	# this = { this = { giveShipDesign = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME$ } } }
+	if = {
+		limit = { exists = event_target:graygoo_country }
+		event_target:graygoo_country = { nanite_ship_assimilating_effect = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME$ } }
+	}
+	else_if = {
+		limit = { exists = event_target:gate_builders }
+		event_target:gate_builders = { nanite_ship_assimilating_effect = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME$ } }
+	}
+	else = {
+		nanite_ship_assimilating_effect = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME$ }
+	}
+}
+
+# # This = country
+# ai_switch_country_scope = {
+# 	if = { limit = { exists = event_target:cybrex }
+# 		event_target:cybrex = { nanite_ship_assimilating_effect = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME$ } }
+# 	} else_if = { limit = { exists = event_target:AI_crisis }
+# 		event_target:AI_crisis = { nanite_ship_assimilating_effect = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME$ } }
+# 	} else = {
+# 		nanite_ship_assimilating_effect = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME$ }
+# 	}
+# }
+
+# TODO is_designable = yes
+giveShipDesign = {
+	if = {
+		limit = { exists = this is_scope_type = country }
+		if = {
+			limit = { NOT = { has_existing_ship_design = $DESIGN$ } }
+			# design_name
+			# ship_design
+			# name = "NAME_Reclaimer"
+			# ship_size = leviathan_01_scavenger_bot
+			# name = "NAME_S8751"
+			# ship_size = eventship_02
+			# name = "NAME_Ancient_Mining_Expansion_Drone"
+			# ship_size = ancient_mining_expansion_drone
+			# name = "NAME_AH4B"
+			# ship_size = eventship_04
+			# name = "NAME_Nanite_Dragon"
+			# ship_size = nanite_space_dragon_baby
+			# name = "NAME_Herald"
+			# ship_size = titan
+			# name = "NAME_Ancient_Destroyer"
+			# ship_size = ancient_destroyer
+			# name = "NAME_Euthanizer" name = "NAME_Taciturn"
+			# ship_size = large_ship_ai
+			# name = "NAME_Sterilizer" name = "NAME_Reticent"
+			# ship_size = small_ship_ai
+			# name = "NAME_AI_Core" name = "NAME_Cybrex_Core"
+			# ship_size = core_ai ship_size = blue_core_ai
+			# add_global_ship_design = $DENAME$
+			create_ship_design = { design = $DENAME$ }
+			add_ship_design = last_created_design
+			# log = "Create NEW DESIGN - DENAME for [This.GetName]"
+
+			# set_timed_country_flag = { flag = nanite_design_temp days = 20 }
+		}
+		set_assimilating_fleet_scope = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME|0$ }
+	}
+	else_if = {
+		limit = { is_scope_type = ship exists = owner }
+		# log = "Create NOT new DESIGN - DENAME "			# [This.GetName] - [fromfromfrom.GetName]
+		owner = {
+			set_assimilating_fleet_scope = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME|0$ }
+			# [[DENAME] giveShipDesign = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME|0$ }]
+		}
+	}
+	else = {
+		# log = "WARNING giveShipDesign NOT valid scope" # [This.GetName]
+		event_target:global_event_country = {
+			if = {
+				limit = {
+					# exists = from
+					NOT = { has_existing_ship_design = $DESIGN$ }
+				}
+				add_global_ship_design = $DENAME$
+				create_ship_design = { design = $DENAME$ }
+				add_ship_design = last_created_design
+				# set_timed_country_flag = { flag = nanite_design_temp days = 20 }
+			}
+			set_assimilating_fleet_scope = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME|0$ }
+		}
+	}
+}
+
+# This = country
+set_assimilating_fleet_scope = {
+	# Only 1 works without special chars?
+	# log = "design r [Root.GetName]" country
+	# log = "design rff [Root.fromfrom.GetName]" ship combatant
+	# log = "design rf [Root.from.GetName]" # Country destroyed Freed Dragons
+	# log = "design rp [Root.prev.Owner.GetName] " failed country
+	# log = "design f [From.GetName]"
+	# log = "design ff [from.from.GetName]"
+	# log = "design pp [prev.prev.GetName]"
+
+	if = {
+		limit = { is_scope_type = country has_existing_ship_design = $DESIGN$ }
+		nanite_ship_assimilating_effect = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME|0$ }
+		# log = "This has design"
+	}
+	# TODO corr SCOPE select
+	else_if = {
+		limit = { Root.from = { is_scope_type = country has_existing_ship_design = $DESIGN$ } }
+		root.from = {
+			nanite_ship_assimilating_effect = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME|0$ }
+			# log = "Root.from has design"
+		}
+	}
+	else = {
+		# TODO # limit = { event_target:global_event_country = { has_existing_ship_design = $DESIGN$ } } log = "global_event_country has design"
+		# log = "design NOT exists"		# [This.GetName]
+		event_target:global_event_country = {
+			nanite_ship_assimilating_effect = { "DESIGN" = $DESIGN$ "DENAME" = $DENAME|0$ }
+		}
+	}
+}
+
+# Final assimilating_effect
+# This = from = victim/dummy country
+# Root =  Combatant country
+# Root.from = from = victim country
+# fromfrom = ship 1 (combatant)
+# fromfromfrom = ship 2 (destroyed)
+nanite_ship_assimilating_effect = {
+
+	if = {
+		limit = { NOT = { exists = event_target:assimilating_fleet } }
+		root.fromfrom.fleet = {
+			save_event_target_as = assimilating_fleet
+			set_timed_fleet_flag = { flag = commands_merge_fleet_flag_temp days = 64 }
+		}
+	}
+
+	## Search already existing victim fleet.
+	if = {
+		limit = { exists = event_target:assimilating_fleet exists = event_target:assimilating_fleet.solar_system }
+		event_target:assimilating_fleet.solar_system = {
+			random_fleet_in_system = {
+				limit = {
+					any_owned_ship = { is_ship_class = shipclass_military is_disabled = yes }
+					fleet_power < 1
+					has_fleet_flag = assimilate_that_ship_flag_temp
+					NOT = { is_same_value = event_target:assimilating_fleet }
+					is_owned_by = root.from # Each faction one fleet
+					# owner = {
+					# 	OR = {
+					# 		is_same_empire = from
+					# 		is_same_empire = root
+					# 		is_same_empire = event_target:global_event_country
+					# 	}
+					# }
+					# event_target:assimilate_that_fleet = {
+					# 	distance = {
+					# 		source = event_target:assimilate_that_ship
+					# 		max_distance < 6
+					# 		type = euclidean
+					# 		same_solar_system = yes
+					# 	}
+					# }
+				}
+				save_event_target_as = assimilate_that_fleet
+			}
+		}
+	} # else = { log = "WARNING root.fromfrom.fleet NOT exists [ROOT.fromfrom.fleet.GetFleetName]" }
+
+	if = {
+		limit = {
+			NOT = { exists = event_target:assimilate_that_fleet } # Use only one fleet per faction.
+		}
+		create_fleet = {
+			settings = {
+				spawn_debris = no
+				can_upgrade = no
+				can_change_leader = no
+				uses_naval_capacity = no
+			}
+			effect = {
+				set_fleet_stance = passive
+				set_aggro_range_measure_from = self
+				set_aggro_range = 0
+				set_location = event_target:assimilate_that_ship # root.fromfrom
+				save_event_target_as = assimilate_that_fleet
+				set_owner = prev # root.from
+				set_event_locked = yes
+			}
+		}
+	}
+
+	event_target:assimilate_that_fleet = {
+		set_timed_fleet_flag = { flag = assimilate_that_ship_flag_temp days = 72 }
+		remove_fleet_flag = commands_merge_fleet_flag_temp
+		set_owner = prev # Needed for design
+		# log = "assimilate_that_fleet Prev country [Prev.GetName]"
+		# set_location = event_target:assimilate_that_ship # This moves the whole fleet, set_location is not working for single ships.
+		# remove_auto_move_target = yes
+		# clear_orders = yes
+		# clear_fleet_actions = this
+		queue_actions = {
+			wait = 1
+			move_to = event_target:assimilate_that_ship
+			wait = 1
+			move_to = event_target:assimilate_that_fleet
+		}
+
+		if = {
+			limit = { event_target:assimilate_that_ship = { is_designable = yes } }
+			create_ship = {
+				name = event_target:assimilate_that_ship # random # $DENAME$
+				random_existing_design = $DESIGN$
+				graphical_culture = event_target:assimilate_that_ship				# root.owner
+				upgradable = yes
+				effect = {
+					# [prev] would be invalid context switch.
+					event_target:assimilate_that_ship = { delete_ship = this }
+					save_event_target_as = assimilate_that_ship
+				}
+			}
+
+		}
+
+		else = {
+			# The same but with design option.
+			# log = "WARNING assimilated ship is not designable"
+			create_ship = {
+				name = event_target:assimilate_that_ship # random # $DENAME$
+				design = $DENAME|0$
+				graphical_culture = event_target:assimilate_that_ship
+				upgradable = yes
+				effect = {
+					event_target:assimilate_that_ship = { delete_ship = this }
+					save_event_target_as = assimilate_that_ship
+				}
+			}
+		}
+	}
+	event_target:assimilate_that_ship = {
+		set_disabled = yes
+		# set_disable_at_health = 0.01
+		reduce_hp_percent = 99
+		set_ship_flag = assimilate_that_robot_ship
+		ship_event = { id = a_deadly_tempest.38 days = 3 }
+
+		# Try fallback if multiple temp fleets.
+		if = {
+			limit = {
+				exists = event_target:assimilating_fleet
+				exists = event_target:assimilate_that_fleet
+				event_target:assimilating_fleet.solar_system = {
+					any_fleet_in_system = {
+						any_owned_ship = { is_ship_class = shipclass_military is_disabled = yes }
+						fleet_power < 1
+						has_fleet_flag = assimilate_that_ship_flag_temp
+						NOR = { is_same_value = event_target:assimilating_fleet is_same_value = event_target:assimilate_that_fleet }
+						is_owned_by = root.from
+					}
+				}
+			}
+			event_target:assimilating_fleet.solar_system = {
+				random_fleet_in_system = {
+					limit = {
+						any_owned_ship = { is_ship_class = shipclass_military is_disabled = yes }
+						fleet_power < 1
+						has_fleet_flag = assimilate_that_ship_flag_temp
+						NOR = { is_same_value = event_target:assimilating_fleet is_same_value = event_target:assimilate_that_fleet }
+						is_owned_by = root.from
+						# owner = {
+						# 	OR = {
+						# 		is_same_empire = from
+						# 		is_same_empire = root
+						# 		is_same_empire = event_target:global_event_country
+						# 	} # prevprevprev
+						# }
+					}
+					# set_location = { target = event_target:assimilate_that_fleet }
+					remove_auto_move_target = yes
+					# clear_orders = yes
+					# clear_fleet_actions = this
+					queue_actions = {
+						wait = { duration = 1 }
+						move_to = event_target:assimilate_that_fleet
+						wait = { duration = 1 }
+						merge_fleet = { target = event_target:assimilate_that_fleet allow_ftl = no }
+					}
+				}
+			}
+		}
+		# else = { fleet = { fleet_event = { id = a_deadly_tempest.39 days = 16 random = 8 } } }
+ }
+
+	# log = "assimilate_that_fleet root country [ROOT.GetName]"
+	# Because design and auto-merge?
+	# event_target:assimilate_that_fleet = { set_owner = event_target:global_event_country }
+	event_target:assimilate_that_fleet = { set_owner = root.from }
+}

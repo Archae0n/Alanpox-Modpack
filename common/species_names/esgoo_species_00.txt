@@ -1,0 +1,26 @@
+MACHINE = { # ESGO
+	esgoo = {
+		name = "Gray Goo"
+		plural = "Gray Goo"
+		home_planet = Dessanu
+		home_system = Dessanu
+		name_list = "LITHOID3"
+	}
+	graygoo_1 = {
+		name = "Nanite"
+		plural = "Nanites"
+		name_list = "graygoo"
+	}
+	graygoo_2 = {
+		name = "Gray Goo"
+		plural = "Gray Goos"
+		name_list = "graygoo"
+	}
+	dessanu = {
+		name = "NAME_Dessanu"
+		plural = "NAME_Dessanu"
+		home_planet = "NAME_Dessanu"
+		home_system = "NAME_Dessanu"
+		name_list = "graygoo"
+	}
+}

@@ -1,0 +1,259 @@
+namespace = a_deadly_tempest
+
+### On Colony Bombarded (on_planet_zero_pops): Planet is turned into nanite world by special bombing stance
+# From = Bombarder
+planet_event = {
+	id = a_deadly_tempest.81
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		# planet_devastation > 99
+		OR = {
+			has_orbital_bombardment_stance = nanitebombard
+			has_planet_flag = flag_nanite_bombardment
+			# any_fleet_in_orbit = {
+			# 	owner = {
+			# 		has_policy_flag = orbital_bombardment_armageddon
+			# 		has_policy_flag = orbital_bombardment_indiscriminate
+			# 		has_technology = tech_nanite_bombardment
+			# 	}
+			# }
+		}
+		from = {
+			OR = {
+				is_country_type_with_subjects = yes
+				is_nanite_country = yes
+				is_country_type = cybrex_empire
+				merg_is_fallen_empire = yes
+				# is_country_type = swarm
+				is_country_type = vol
+			}
+		}
+		is_a_habitable_planet_megastructure = yes
+		# OR = {
+		# 	habitable_planet = yes
+		# 	has_ringworld_output_boost = yes
+		# 	merg_is_habitat = yes
+		# }
+	}
+
+	immediate = {
+		change_variable = { which = nanite_bomb_counter value = 1 }
+		# Only if certain amount of days
+		if = { limit = { check_variable = { which = nanite_bomb_counter value > 15 } }
+			planet_event = { id = a_deadly_tempest.84 }
+		}
+	}
+}
+
+# Planet is turned into Nanite World by Nanite Bombing stance (former owner)
+# This = Victim
+# From = Planet
+# fromfromfrom = Bombarder
+country_event = {
+	id = a_deadly_tempest.82
+	title = "a_deadly_tempest.82.name"
+	picture = GFX_evt_gray_gooed_planet
+	desc = a_deadly_tempest.82.desc
+	show_sound = event_ghost_town
+	location = from
+	is_triggered_only = yes
+	immediate = {
+		# log="[from.from.GetName] 82ff" # Victim
+		add_opinion_modifier = { modifier = opinion_converted_my_world who = fromfromfrom }
+	}
+
+	option = {
+		name = action.82.a
+		custom_tooltip = bombed_to_nanite_world
+	}
+}
+
+# Planet is turned into Nanite World by Nanite Bombing stance (bombarder)
+# This = Bombarder
+# From = Planet
+country_event = {
+	id = a_deadly_tempest.83
+	title = "a_deadly_tempest.82.name"
+	picture = GFX_evt_gray_gooed_planet
+	desc = a_deadly_tempest.83.desc
+	show_sound = event_super_explosion
+	location = from
+	is_triggered_only = yes
+	immediate = {
+		every_country = {
+			limit = {
+				is_country_type_with_subjects = yes
+				has_communications = fromfrom
+				NOR = {
+					is_same_empire = root
+					has_policy_flag = orbital_bombardment_armageddon
+					has_civic = civic_fanatic_purifiers
+					has_civic = civic_hive_devouring_swarm
+					has_civic = civic_machine_assimilator
+					is_same_empire = from.owner
+				}
+				# OR = {
+				# 	has_ethic = ethic_fanatic_xenophile
+				# 	has_ethic = ethic_xenophile
+				# 	has_civic = civic_machine_servitor
+				# }
+			}
+			add_opinion_modifier = { modifier = opinion_converted_a_world who = root }
+			if = { limit = { is_ai = no }
+				from = { planet_event = { id = a_deadly_tempest.85 } }
+			}
+		}
+	}
+
+	option = {
+		name = EXCELLENT
+		custom_tooltip = bombed_to_nanite_world
+	}
+}
+
+# Colony Bombarded
+# From = this
+# fromfrom = Bombarder
+# fromfromfrom = Ship
+planet_event = {
+	id = a_deadly_tempest.84
+	hide_window = yes
+	# title = "graygoo.2.name"
+	# desc = "graygoo.2.desc"
+	# picture = GFX_evt_gray_gooed_planet
+	# show_sound = event_ghost_town
+	location = this
+	is_triggered_only = yes
+	immediate = {
+		log="Nanite bombardment finished"
+		if = {
+			limit = {
+				check_variable = { which = nanite_bomb_counter value > 120 }
+				fromfrom = { is_same_empire = event_target:graygoo_country }
+			}
+			random_fleet_in_orbit = {
+				limit = {
+					exists = owner
+					is_owned_by = fromfrom
+					is_ship_size = graygoo_mothership
+				}
+				CmtEffectCreateShip_GraygooMother = yes
+			}
+		} else_if = {
+			limit = {
+				OR = {
+					merg_is_habitat = yes
+					check_variable = { which = nanite_bomb_counter value > 30 }
+				}
+				fromfrom = { is_same_empire = event_target:graygoo_country }
+			}
+			# Small reinforce nanite bombarder
+			random_fleet_in_orbit = {
+				limit = {
+					exists = owner
+					is_owned_by = fromfrom
+					is_ship_size = graygoo_mothership
+				}
+				CmtEffectCreateShip_GraygooInterdictor = yes
+			}
+		}
+
+		if = {
+			limit = {
+				exists = owner
+				owner = { is_country_type_with_subjects = yes }
+			}
+			owner = {
+				set_country_flag = nanite_bomb_affected # Workaround for Galactic Resolution (ADT 3.0.3)
+				country_event = { id = a_deadly_tempest.82 } # Turn into nanite world
+				if = {
+					limit = { is_at_war_with = fromfrom }
+					# isn't the case when the crisis bombards planets, for instance
+					add_static_war_exhaustion = {
+						attacker = fromfrom
+						location = root
+						value_for_planet_destruction = 0.7
+					}
+				}
+			}
+		}
+		fromfrom = {
+			country_event = { id = a_deadly_tempest.83 }
+		}
+		every_owned_pop = { kill_pop = yes }
+		set_planet_flag = nuked_planet_anomalies_disabled
+		destroy_colony = yes
+		remove_all_buildings = yes
+		reset_planet = yes
+		reroll_deposits = yes
+		clear_blockers = yes
+		set_planet_flag = armageddon_nuked
+		if = {
+			limit = { has_ringworld_output_boost = yes }
+			change_pc = pc_ringworld_habitable_damaged
+			spawn_ringworld_nanobot_effect = yes
+		} else_if = {
+			limit = { merg_is_habitat = yes }
+			if = { limit = { exists = planet planet = { has_planet_flag = has_megastructure } }
+				planet = { remove_planet_flag = has_megastructure }
+			} else_if = { limit = { exists = orbit orbit = { has_planet_flag = has_megastructure } }
+				orbit = { remove_planet_flag = has_megastructure }
+			}
+			spawn_habitat_nanobot_effect = yes
+			remove_planet = yes # ariphaos_patch_remove_habitat = yes
+			break = yes
+		} else_if = {
+			limit = {
+				is_artificial = no
+				habitable_planet = yes
+			}
+			change_pc = pc_gray_goo
+			# Reset only removes real static modifiers? (2.7.2)
+			# TODO which from 08_static_modifiers_megacorp.txt
+			remove_modifier = planet_food_boost
+			remove_modifier = planet_luxuries_boost
+			remove_modifier = penal_colony
+			remove_modifier = slave_colony
+			remove_modifier = resort_colony
+			remove_modifier = mastery_of_nature
+			remove_modifier = artist_monument_erected
+			remove_modifier = martial_law
+			remove_modifier = hunter_killer_drones
+			remove_modifier = compliance_protocols
+			remove_modifier = "natural_beauty"
+			remove_modifier = "atmospheric_aphrodisiac"
+			remove_modifier = "atmospheric_hallucinogen"
+			remove_modifier = "lush_planet"
+			remove_modifier = "dangerous_wildlife"
+			if = { limit = { event_target:CmtGlobalVar = { check_variable = { which = CmtVarLgateTerraformNanite value = 4 } } }
+				add_modifier = { modifier = terraforming_candidate months = 1 }
+			}
+			random_list = {
+				4 = {}
+				4 = { add_deposit = d_nanites_deposit }
+				1 = { add_deposit = d_tomb_world_ruins }
+				1 = { add_deposit = d_strip_mine }
+				1 = { add_deposit = d_former_battlefield }
+				1 = { add_deposit = d_failing_infrastructure }
+				16 = { modifier = { NOT = { exists = owner } factor = 0 } generate_new_deposits_and_blockers = yes }
+			}
+		}
+		# Sets a short timed flag if bombardment is going on, so the planet can be appropriately nuked.
+		set_timed_planet_flag = { flag = flag_nanite_bombardment days = 7 }
+		clear_variable = nanite_bomb_counter
+	}
+}
+
+planet_event = {
+	id = a_deadly_tempest.85
+	# hide_window = yes
+	title = "graygoo.2.name"
+	desc = "graygoo.2.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_ghost_town
+	location = this
+	is_triggered_only = yes
+	immediate = {}
+	option = { name = graygoo.2.a }
+}

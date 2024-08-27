@@ -1,0 +1,10 @@
+	NEconomy = {
+		MILITARY_STATION_MAINTENANCE_MUL		= -0.60		 # Monthly military station maintenance reduction.
+		EXPANSION_COST_BASE					= 150.0		# The influence base cost of outpost
+		EXPANSION_COST_DISTANCE				= 50.0		# Added per hyperlane jump away				
+	}
+	
+	NAI = {
+		MILITARY_STATION_BUDGET_FRACTION = 0.12
+		MINERAL_MILITARY_STATION_BUDGET_FRACTION = 0.08
+	}

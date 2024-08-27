@@ -1,0 +1,8 @@
+Tempest = {
+	randomized = no
+	portraits = {
+	}
+
+	graphical_culture = grey_tempesttw
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

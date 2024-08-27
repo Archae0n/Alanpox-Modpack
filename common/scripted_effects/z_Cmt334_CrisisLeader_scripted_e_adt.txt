@@ -1,0 +1,18 @@
+#
+# Information
+#	All scripts to creating leader in this file is scope free
+#
+#################
+###- Dessanu -###
+#################
+
+CmtEffectCreateAdmiral_OwnerStandard = {
+	create_leader = {
+		class = commander
+		species = owner_species
+		name = random
+		skill = 3
+		leader_age_min = 25
+		leader_age_max = 45
+	}
+}

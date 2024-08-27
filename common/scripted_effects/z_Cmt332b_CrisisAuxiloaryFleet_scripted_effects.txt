@@ -1,0 +1,159 @@
+###################################################################
+###################################################################
+#####															#####
+#####	Crisis Manager										#####
+#####															#####
+#####	Scripted Effects for Creating Auxiliary Fleets		#####
+#####	Of Mid-Game Crises (Army, Constructor, Colonizer)	#####
+#####															#####
+###################################################################
+###################################################################
+#
+# Information
+#	All script in this file require following scopes
+#	this: Owner country
+#	prev: Location for creating fleets (e.g. planet)
+#
+
+###################
+###- Constants -###
+###################
+
+##############
+###- Khan -###
+##############
+
+CmtEffectCreateFleet_KhanArmy = {
+	create_fleet = {
+		effect = {
+			set_owner = prev
+			event_target:CmtGlobalVar = { set_variable = { which = CmtVarWhileControlShip value = CmtVarArmyPower_Khan } }
+			while = {
+				limit = { event_target:CmtGlobalVar = { check_variable = { which = CmtVarWhileControlShip value > 0.125 } } }
+				event_target:CmtGlobalVar = { change_variable = { which = CmtVarWhileControlShip value = -0.25 } }
+				reroll_random = yes
+				random_list = {
+					4 = { while = { count = 4 CmtEffectCreateShip_KhanArmy = { TYPE = "gene_warrior_army" } } modifier = { factor = 0 prev = { NOT = { has_technology = tech_gene_seed_purification } } } }
+					3 = { while = { count = 4 CmtEffectCreateShip_KhanArmy = { TYPE = "psionic_army" } } modifier = { factor = 0 prev = { NOT = { has_technology = tech_telepathy } } } }
+					2 = {
+						while = { count = 6 CmtEffectCreateShip_KhanArmy = { TYPE = "clone_army" } }
+						modifier = {
+							factor = 0
+							prev = {
+								OR = {
+									NOT = { has_technology = tech_gene_banks }
+									has_technology = tech_telepathy
+									has_technology = tech_gene_seed_purification
+									has_technology = tech_neural_implants
+									has_technology = tech_droid_workers
+								}
+							}
+						}
+					}
+					2 = {
+						while = { count = 6 CmtEffectCreateShip_KhanArmy = { TYPE = "slave_army" } }
+						modifier = {
+							factor = 0
+							prev = {
+								OR = {
+									NOT = { has_technology = tech_neural_implants }
+									has_technology = tech_telepathy
+									has_technology = tech_gene_seed_purification
+									has_technology = tech_gene_banks
+									has_technology = tech_droid_workers
+								}
+							}
+						}
+					}
+					1 = { while = { count = 5 CmtEffectCreateShip_KhanArmy = yes } }
+				}
+			}
+			CmtFleetSetAuxParam_KhanAuxiliary = yes
+			random_list = {
+				2 = {}
+				3 = { set_fleet_stance = evasive } # AI does not handle this well too.
+				5 = { set_fleet_stance = aggressive }
+			}
+		}
+	}
+
+	# CmtEffectCreateGeneral_Marauder
+	# Fix unlimited leader creation (they get anyway spamt by create_marauder_armies)
+	if = {
+		limit = {
+			NOR = {
+				count_owned_leader = {
+					count > 9
+					limit = { leader_class = commander }
+				}
+				any_owned_leader = {
+					leader_class = commander
+					is_idle = yes
+					# is_event_leader = no
+					is_councilor = no
+					is_ruler = no
+				}
+			}
+		}
+		# CREATE_MARAUDER_GENERAL
+		create_leader = {
+			class = commander
+			species = event_target:marauder_species
+			name = random
+			skill = 3
+			leader_age_min = 25
+			leader_age_max = 45
+			traits = { trait = leader_trait_mercenary_warrior }
+			background_ethic = "ethic_fanatic_militarist"
+			skip_background_generation = yes
+			custom_description = "custom_mercenary_admiral_desc"
+		}
+		last_created_army = { assign_leader = last_created_leader }
+	}
+	else = {
+		random_owned_leader = {
+			limit = {
+				leader_class = commander
+				is_idle = yes
+				# is_event_leader = no
+				is_councilor = no
+				is_ruler = no
+			}
+			weights = { base = 1 modifier = { add = 4 NOR = { exists = fleet exists = planet } } }
+			last_created_army = { assign_leader = prev }
+		}
+	}
+}
+
+CmtEffectCreateFleet_KhanConstructor = {
+	event_target:CmtGlobalVar = { set_variable = { which = CmtVarWhileControlFleet value = CmtVarConstructorNumber_Khan } }
+	while = {
+		limit = { event_target:CmtGlobalVar = { check_variable = { which = CmtVarWhileControlFleet value > 0.875 } } }
+		event_target:CmtGlobalVar = { change_variable = { which = CmtVarWhileControlFleet value = -1 } }
+		CmtEffectCreateShip_KhanConstructor = yes
+	}
+	while = {
+		limit = { event_target:CmtGlobalVar = { check_variable = { which = CmtVarWhileControlFleet value > 0.125 } } }
+		event_target:CmtGlobalVar = { change_variable = { which = CmtVarWhileControlFleet value = -0.25 } }
+		random = { chance = 25 CmtEffectCreateShip_KhanConstructor = yes }
+	}
+}
+
+CmtEffectCreateShip_KhanConstructor = {
+	create_fleet = {
+		# name = "NAME_Constructor"
+		effect = {
+			set_owner = prev
+			create_ship = {
+				name = random
+				design = "NAME_Clan_Builder"
+				graphical_culture = "pirate_01"
+				# effect = { CmtEffectFasterKhanConstructor = yes }
+			}
+			CmtFleetSetAuxParam_KhanAuxiliary = yes
+			random = { chance = 50
+				set_fleet_stance = evasive # AI does not handle this well too.
+			}
+		}
+	}
+}

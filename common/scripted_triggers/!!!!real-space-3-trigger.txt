@@ -1,0 +1,26 @@
+# fallback triggers if Real Space 3 mod isnt used
+is_binary = {
+	is_binary_star = yes
+}
+
+is_trinary = {
+	is_trinary_star = yes
+}
+
+is_paired = { always = no }
+
+is_red_giant = { always = no }
+
+is_red_supergiant = { always = no }
+
+is_yellow_giant = { always = no }
+
+is_yellow_supergiant = { always = no }
+
+is_blue_supergiant = { always = no }
+
+is_b_system = { always = no }
+
+is_a_system = { always = no }
+
+is_f_system = { always = no }

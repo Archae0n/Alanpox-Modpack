@@ -1,0 +1,42 @@
+civic_machine_nanites_culture = {
+	icon = "gfx/interface/icons/governments/civics/civic_machine_nanites.dds"
+	potential = {
+		authority = { value = auth_machine_intelligence }
+	}
+	modification = no
+	blocks_random_machine_empire_generation	= yes
+	random_weight = {
+		base = 0
+	}
+	modifier = {
+		diplo_weight_mult = 0.2
+		envoys_add = 2
+		envoy_improve_relations_mult = 0.2
+	}
+}
+
+origin_machine_nanites = {
+	possible = {
+		authority = { value = auth_machine_intelligence }
+	}
+	icon = "gfx/interface/icons/origins/unused/origins_third_time_charm.dds"
+	is_origin = yes
+	max_once_global = yes
+	description = nanite_origin
+	playable = {
+		always = no # Non-player origin
+		# has_distar = yes
+	}
+	# potential = {
+	# 	species_archetype = { NOT = { value = MACHINE } }
+	# }
+	advanced_start = yes
+	blocks_random_machine_empire_generation	= yes
+	random_weight = {
+		base = 0
+	}
+	modifier = {
+		# planet_pops_nanites_upkeep_add = 1 # TODO
+		# planet_pops_nanites_upkeep_mult =
+	}
+}

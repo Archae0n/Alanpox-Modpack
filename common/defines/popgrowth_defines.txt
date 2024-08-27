@@ -1,0 +1,27 @@
+	NGameplay = {
+		LOGISTIC_CEILING_DEFAULT = 10000.0
+		LOGISTIC_CEILING_MIN = 10000.0
+		LOGISTIC_CEILING_MAX = 10000.0
+		LOGISTIC_CEILING_SLIDER_INTERVAL = 1
+		
+		GROWTH_SCALE_DEFAULT = 0.125
+		}
+
+	NPop = {
+		BASE_POP_GROWTH						= 0.1		# Base growth rate of pops
+		LOGISTIC_POP_GROWTH_R				= 1.1	# Logistic Pop Growth Constant r
+		LOGISTIC_POP_GROWTH_FLOOR			= -1	# Logistic Pop Growth won't lower growth to less than this percent.
+		LOGISTIC_POP_GROWTH_MIN_POPS		= 1		# Treat small colonies as having this many pops to avoid the very bottom of the curve
+		LOGISTIC_POP_GROWTH_LOWER_THRESHOLD	= 0.95	# Ignore penalties to Pop Growth if the current number of pops are below this percent of the carrying capacity
+		MAX_CARRYING_CAPACITY				= 10000000
+		MAX_NEW_COLONIES_SCALE				= 5	# At this ratio of new to old colonies, no further scaling of migration
+
+		OVERCROWDING_NO_GROWTH_THRESHOLD	= 1.15	# At this amount of overcrowding (required housing / actual housing), growth stops entirely
+		OVERCROWDING_DECLINE_THRESHOLD		= 1.15	# At this amount of overcrowding (required housing / actual housing), pops start declining
+		OVERCROWDING_ABSOLUTE_THRESHOLD_FOR_NO_GROWTH		= 5	# Planet needs this amount of overcrowding (required housing - actual housing) for OVERCROWDING_NO_GROWTH_THRESHOLD to kick in
+
+		RESETTLE_UNEMPLOYED_BASE_RATE		= 0.3	# Chance an unemployed pop will automatically migrate if an acceptable location is found (Range is 0 to 1)
+		MAX_EMIGRATION_PUSH 					= 1000 
+		MAX_GROWTH_FROM_IMMIGRATION				= 100
+		MAX_GROWTH_PENALTY_FROM_EMIGRATION		= 0.999999
+		}

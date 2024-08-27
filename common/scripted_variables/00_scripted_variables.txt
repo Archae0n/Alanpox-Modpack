@@ -354,7 +354,7 @@
 
 
 # Toxoids
-@exotic_metabolism = 0.125
+@exotic_metabolism = 0.05
 @inorganic_breath = 0.02
 @overtuned_consequences = 0.2
 @overtuned_consequences_hive = 0.5

@@ -1,0 +1,1449 @@
+########## DRACULA
+sound = 
+{
+	name = "advisor_sample_vo_02"
+	file = "vo/dracula-advisor/advisor_sample_vo_02.wav"
+}
+sound = 
+{
+	name = "advisor_sample_vo_03"
+	file = "vo/dracula-advisor/advisor_sample_vo_03.wav"
+}
+sound = 
+{
+	name = "advisor_generic_phrase_02"
+	file = "vo/dracula-advisor/advisor_generic_phrase_02.wav"
+}
+sound = 
+{
+	name = "advisor_generic_phrase_03"
+	file = "vo/dracula-advisor/advisor_generic_phrase_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_alien_empire_communication_02"
+	file = "vo/dracula-advisor/advisor_notification_alien_empire_communication_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_alien_empire_communication_03"
+	file = "vo/dracula-advisor/advisor_notification_alien_empire_communication_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_station_under_attack_02"
+	file = "vo/dracula-advisor/advisor_notification_station_under_attack_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_station_under_attack_03"
+	file = "vo/dracula-advisor/advisor_notification_station_under_attack_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_species_modified_02"
+	file = "vo/dracula-advisor/advisor_notification_species_modified_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_species_modified_03"
+	file = "vo/dracula-advisor/advisor_notification_species_modified_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_species_modified_04"
+	file = "vo/dracula-advisor/advisor_notification_species_modified_04.wav"
+}
+sound = 
+{
+	name = "advisor_notification_special_project_complete_02"
+	file = "vo/dracula-advisor/advisor_notification_special_project_complete_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_special_project_complete_03"
+	file = "vo/dracula-advisor/advisor_notification_special_project_complete_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_special_project_complete_04"
+	file = "vo/dracula-advisor/advisor_notification_special_project_complete_04.wav"
+}
+sound = 
+{
+	name = "advisor_notification_special_project_complete_05"
+	file = "vo/dracula-advisor/advisor_notification_special_project_complete_05.wav"
+}
+sound = 
+{
+	name = "advisor_notification_special_project_complete_06"
+	file = "vo/dracula-advisor/advisor_notification_special_project_complete_06.wav"
+}
+sound = 
+{
+	name = "advisor_notification_special_project_complete_07"
+	file = "vo/dracula-advisor/advisor_notification_special_project_complete_07.wav"
+}
+sound = 
+{
+	name = "advisor_notification_player_declare_war_02"
+	file = "vo/dracula-advisor/advisor_notification_player_declare_war_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_player_declare_war_03"
+	file = "vo/dracula-advisor/advisor_notification_player_declare_war_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_player_declare_war_04"
+	file = "vo/dracula-advisor/advisor_notification_player_declare_war_04.wav"
+}
+sound = 
+{
+	name = "advisor_notification_player_declare_war_05"
+	file = "vo/dracula-advisor/advisor_notification_player_declare_war_05.wav"
+}
+sound = 
+{
+	name = "advisor_notification_player_declare_war_06"
+	file = "vo/dracula-advisor/advisor_notification_player_declare_war_06.wav"
+}
+sound = 
+{
+	name = "advisor_notification_player_declare_war_07"
+	file = "vo/dracula-advisor/advisor_notification_player_declare_war_07.wav"
+}
+sound = 
+{
+	name = "advisor_notification_player_declare_war_08"
+	file = "vo/dracula-advisor/advisor_notification_player_declare_war_08.wav"
+}
+sound = 
+{
+	name = "advisor_notification_invasion_failed_02"
+	file = "vo/dracula-advisor/advisor_notification_invasion_failed_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_invasion_failed_03"
+	file = "vo/dracula-advisor/advisor_notification_invasion_failed_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_invasion_progress_02"
+	file = "vo/dracula-advisor/advisor_notification_invasion_progress_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_fleet_engaged_02"
+	file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_fleet_engaged_03"
+	file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_fleet_engaged_04"
+	file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_04.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_fleet_engaged_05"
+	file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_05.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_fleet_engaged_06"
+	file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_06.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_fleet_engaged_07"
+	file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_07.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_fleet_engaged_08"
+	file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_08.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_fleet_engaged_09"
+	file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_09.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_fleet_engaged_10"
+	file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_10.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_fleet_engaged_11"
+	file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_11.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_fleet_engaged_12"
+	file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_12.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_fleet_engaged_13"
+	file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_13.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_02"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_03"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_04"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_04.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_05"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_05.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_06"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_06.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_07"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_07.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_08"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_08.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_09"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_09.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_10"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_10.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_11"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_11.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_12"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_12.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_13"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_13.wav"
+}
+sound = 
+{
+	name = "advisor_notification_hostile_station_engaged_14"
+	file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_14.wav"
+}
+sound = 
+{
+	name = "advisor_notification_evade_hostile_fleet_02"
+	file = "vo/dracula-advisor/advisor_notification_evade_hostile_fleet_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_evade_hostile_fleet_03"
+	file = "vo/dracula-advisor/advisor_notification_evade_hostile_fleet_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_evade_hostile_fleet_04"
+	file = "vo/dracula-advisor/advisor_notification_evade_hostile_fleet_04.wav"
+}
+sound = 
+{
+	name = "advisor_notification_evade_hostile_fleet_05"
+	file = "vo/dracula-advisor/advisor_notification_evade_hostile_fleet_05.wav"
+}
+sound = 
+{
+	name = "advisor_notification_enemy_declared_war_02"
+	file = "vo/dracula-advisor/advisor_notification_enemy_declared_war_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_enemy_declared_war_03"
+	file = "vo/dracula-advisor/advisor_notification_enemy_declared_war_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_enemy_declared_war_04"
+	file = "vo/dracula-advisor/advisor_notification_enemy_declared_war_04.wav"
+}
+sound = 
+{
+	name = "advisor_notification_enemy_declared_war_05"
+	file = "vo/dracula-advisor/advisor_notification_enemy_declared_war_05.wav"
+}
+sound = 
+{
+	name = "advisor_notification_enemy_declared_war_06"
+	file = "vo/dracula-advisor/advisor_notification_enemy_declared_war_06.wav"
+}
+sound = 
+{
+	name = "advisor_notification_enemy_declared_war_07"
+	file = "vo/dracula-advisor/advisor_notification_enemy_declared_war_07.wav"
+}	
+sound = 
+{
+	name = "advisor_notification_construction_complete_03"
+	file = "vo/dracula-advisor/advisor_notification_construction_complete_03.wav"
+}
+
+sound = 
+{
+	name = "advisor_notification_construction_complete_04"
+	file = "vo/dracula-advisor/advisor_notification_construction_complete_04.wav"
+}
+
+sound = 
+{
+	name = "advisor_notification_construction_complete_05"
+	file = "vo/dracula-advisor/advisor_notification_construction_complete_05.wav"
+}
+sound = 
+{
+	name = "advisor_notification_enemy_invasion_defeated_03"
+	file = "vo/dracula-advisor/advisor_notification_enemy_invasion_defeated_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_enemy_invasion_defeated_04"
+	file = "vo/dracula-advisor/advisor_notification_enemy_invasion_defeated_04.wav"
+}
+sound = 
+{
+	name = "advisor_notification_enemy_invasion_defeated_05"
+	file = "vo/dracula-advisor/advisor_notification_enemy_invasion_defeated_05.wav"
+}
+sound = 
+{
+	name = "advisor_notification_federation_formed_02"
+	file = "vo/dracula-advisor/advisor_notification_federation_formed_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_federation_formed_03"
+	file = "vo/dracula-advisor/advisor_notification_federation_formed_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_federation_formed_04"
+	file = "vo/dracula-advisor/advisor_notification_federation_formed_04.wav"
+}
+sound = 
+{
+	name = "advisor_notification_federation_formed_05"
+	file = "vo/dracula-advisor/advisor_notification_federation_formed_05.wav"
+}
+sound = 
+{
+	name = "advisor_notification_invasion_enemy_won_02"
+	file = "vo/dracula-advisor/advisor_notification_invasion_enemy_won_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_invasion_enemy_won_03"
+	file = "vo/dracula-advisor/advisor_notification_invasion_enemy_won_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_invasion_success_03"
+	file = "vo/dracula-advisor/advisor_notification_invasion_success_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_invasion_success_04"
+	file = "vo/dracula-advisor/advisor_notification_invasion_success_04.wav"
+}
+sound = 
+{
+	name = "advisor_notification_invasion_success_05"
+	file = "vo/dracula-advisor/advisor_notification_invasion_success_05.wav"
+}
+sound = 
+{
+	name = "advisor_notification_planet_in_revolt_02"
+	file = "vo/dracula-advisor/advisor_notification_planet_in_revolt_02.wav"
+}
+sound = 
+{
+	name = "advisor_notification_planet_in_revolt_03"
+	file = "vo/dracula-advisor/advisor_notification_planet_in_revolt_03.wav"
+}
+sound = 
+{
+	name = "advisor_notification_planet_in_revolt_04"
+	file = "vo/dracula-advisor/advisor_notification_planet_in_revolt_04.wav"
+}
+sound = 
+{
+	name = "advisor_notification_primitive_enlighted_02"
+	file = "vo/dracula-advisor/advisor_notification_primitive_enlighted_02.wav"
+}
+sound =
+{
+	name = "advisor_notification_research_complete_02"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_02.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_03"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_03.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_04"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_04.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_05"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_05.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_06"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_06.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_07"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_07.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_08"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_08.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_09"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_09.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_10"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_10.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_11"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_11.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_12"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_12.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_13"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_13.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_14"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_14.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_15"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_15.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_16"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_16.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_17"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_17.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_18"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_18.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_19"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_19.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_20"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_20.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_21"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_21.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_22"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_22.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_23"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_23.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_24"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_24.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_25"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_25.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_26"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_26.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_27"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_27.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_28"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_28.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_29"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_29.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_30"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_30.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_31"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_31.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_32"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_32.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_33"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_33.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_34"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_34.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_35"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_35.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_36"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_36.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_37"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_37.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_38"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_38.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_39"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_39.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_40"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_40.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_41"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_41.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_42"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_42.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_43"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_43.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_44"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_44.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_45"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_45.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_46"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_46.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_47"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_47.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_48"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_48.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_49"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_49.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_50"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_50.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_51"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_51.wav"
+}
+sound =
+{
+    name = "advisor_notification_research_complete_52"
+    file = "vo/dracula-advisor/advisor_notification_research_complete_52.wav"
+}
+
+soundgroup = 
+{
+	name = dracula_advisor
+	sort_order = 100
+
+	soundoverride =
+	{
+		name = "advisor_generic_phrase_01"
+		file = "vo/dracula-advisor/advisor_generic_phrase_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_sample_vo_01"
+		file = "vo/dracula-advisor/advisor_sample_vo_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_construction_complete_01"
+		file = "vo/dracula-advisor/advisor_notification_construction_complete_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_enemy_invasion_defeated_01"
+		file = "vo/dracula-advisor/advisor_notification_enemy_invasion_defeated_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_invasion_enemy_won_01"
+		file = "vo/dracula-advisor/advisor_notification_invasion_enemy_won_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_invasion_failed_01"
+		file = "vo/dracula-advisor/advisor_notification_invasion_failed_01.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_invasion_success_01"
+		file = "vo/dracula-advisor/advisor_notification_invasion_success_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_hostile_fleet_detected_01"
+		file = "vo/dracula-advisor/advisor_notification_hostile_fleet_detected_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_hostile_fleet_engaged_01"
+		file = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_station_under_attack_01"
+		file = "vo/dracula-advisor/advisor_notification_station_under_attack_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_special_project_complete_01"
+		file = "vo/dracula-advisor/advisor_notification_special_project_complete_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_research_complete_01"
+		file = "vo/dracula-advisor/advisor_notification_research_complete_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_evade_hostile_fleet_01"
+		file = "vo/dracula-advisor/advisor_notification_evade_hostile_fleet_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_enemy_declared_war_01"
+		file = "vo/dracula-advisor/advisor_notification_enemy_declared_war_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_federation_formed_01"
+		file = "vo/dracula-advisor/advisor_notification_federation_formed_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_hostile_station_engaged_01"
+		file = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_player_declare_war_01"
+		file = "vo/dracula-advisor/advisor_notification_player_declare_war_01.wav"
+	}
+	
+	soundoverride =
+	{
+		name = "advisor_notification_primitive_enlighted_01"
+		file = "vo/dracula-advisor/advisor_notification_primitive_enlighted_01.wav"
+	}
+	
+	
+	soundoverride =
+	{
+		name = "advisor_notification_species_modified_01"
+		file = "vo/dracula-advisor/advisor_notification_species_modified_01.wav"
+	}
+	
+	########## BLANKS
+	
+	soundoverride =
+	{
+		name = "advisor_notification_system_survey_complete_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_science_ship_destroyed_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_science_ship_under_attack_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_construction_ship_destroyed_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_construction_ship_under_attack_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_colony_established_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_colony_ship_under_attack_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_colony_ship_destroyed_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_spaceport_lost_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_military_station_lost_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_mining_station_lost_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_research_station_lost_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_observation_post_lost_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_outpost_station_lost_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_wormhole_station_lost_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_fleet_destroyed_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_situation_log_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}soundoverride =
+	{
+		name = "advisor_notification_enemy_troops_landing_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_incoming_transmission_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_discovery_detected_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_ships_upgraded_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_alien_spaceport_engaged_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_building_ruined_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_colonization_progress_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_debris_analysed_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_frontier_outpost_lost_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_tile_blocker_clear_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_notification_unidentified_object_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_tutorial_agenda_available_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	soundoverride =
+	{
+		name = "advisor_tutorial_agenda_ready_01"
+		file = "vo/dracula-advisor/blank.wav"
+	}
+	
+	soundeffectoverrides =
+	{
+		advisor_sample_vo = dracula_advisor_sample_vo
+		advisor_generic_phrase = dracula_advisor_generic_phrase
+		advisor_notification_construction_complete = dracula_advisor_notification_construction_complete
+		advisor_notification_alien_empire_communication = dracula_advisor_notification_alien_empire_communication
+		advisor_notification_enemy_declared_war = dracula_advisor_notification_enemy_declared_war
+		advisor_notification_evade_hostile_fleet = dracula_advisor_notification_evade_hostile_fleet
+		advisor_notification_hostile_fleet_engaged = dracula_advisor_notification_hostile_fleet_engaged
+		advisor_notification_hostile_station_engaged = dracula_advisor_notification_hostile_station_engaged
+		advisor_notification_invasion_failed = dracula_advisor_notification_invasion_failed
+		advisor_notification_player_declare_war = dracula_advisor_notification_player_declare_war
+		advisor_notification_research_complete = dracula_advisor_notification_research_complete
+		advisor_notification_species_modified = dracula_advisor_notification_species_modified
+		advisor_notification_station_under_attack = dracula_advisor_notification_station_under_attack
+		advisor_notification_federation_formed = dracula_advisor_notification_federation_formed
+		advisor_notification_enemy_invasion_defeated = dracula_advisor_notification_enemy_invasion_defeated
+		advisor_notification_hostile_fleet_detected = dracula_advisor_notification_hostile_fleet_detected
+		advisor_notification_invasion_enemy_won = dracula_advisor_notification_invasion_enemy_won
+		advisor_notification_invasion_progress = dracula_advisor_notification_invasion_progress
+		advisor_notification_invasion_success = dracula_advisor_notification_invasion_success
+		advisor_notification_planet_in_revolt = dracula_advisor_notification_planet_in_revolt
+		advisor_notification_primitive_enlighted = dracula_advisor_notification_primitive_enlighted
+		advisor_notification_special_project_complete = dracula_advisor_notification_special_project_complete
+	}
+
+	soundfileoverrides = 
+	{	
+		advisor_sample_vo_02 = "vo/dracula-advisor/advisor_sample_vo_02.wav"
+		advisor_sample_vo_03 = "vo/dracula-advisor/advisor_sample_vo_03.wav"
+		advisor_generic_phrase_02 = "vo/dracula-advisor/advisor_generic_phrase_02.wav"
+		advisor_generic_phrase_03 = "vo/dracula-advisor/advisor_generic_phrase_03.wav"
+		advisor_notification_alien_empire_communication_02 = "vo/dracula-advisor/advisor_notification_alien_empire_communication_02.wav"
+		advisor_notification_alien_empire_communication_03 = "vo/dracula-advisor/advisor_notification_alien_empire_communication_03.wav"
+		advisor_notification_construction_complete_02 = "vo/dracula-advisor/advisor_notification_construction_complete_02.wav"
+		advisor_notification_construction_complete_03 = "vo/dracula-advisor/advisor_notification_construction_complete_03.wav"
+		advisor_notification_construction_complete_04 = "vo/dracula-advisor/advisor_notification_construction_complete_04.wav"
+		advisor_notification_construction_complete_05 = "vo/dracula-advisor/advisor_notification_construction_complete_05.wav"
+		advisor_notification_enemy_declared_war_02 = "vo/dracula-advisor/advisor_notification_enemy_declared_war_02.wav"
+		advisor_notification_enemy_declared_war_03 = "vo/dracula-advisor/advisor_notification_enemy_declared_war_03.wav"
+		advisor_notification_enemy_declared_war_04 = "vo/dracula-advisor/advisor_notification_enemy_declared_war_04.wav"
+		advisor_notification_enemy_declared_war_05 = "vo/dracula-advisor/advisor_notification_enemy_declared_war_05.wav"
+		advisor_notification_enemy_declared_war_06 = "vo/dracula-advisor/advisor_notification_enemy_declared_war_06.wav"
+		advisor_notification_enemy_declared_war_07 = "vo/dracula-advisor/advisor_notification_enemy_declared_war_07.wav"
+		advisor_notification_enemy_invasion_defeated_02 = "vo/dracula-advisor/advisor_notification_enemy_invasion_defeated_02.wav"
+		advisor_notification_enemy_invasion_defeated_03 = "vo/dracula-advisor/advisor_notification_enemy_invasion_defeated_03.wav"
+		advisor_notification_enemy_invasion_defeated_04 = "vo/dracula-advisor/advisor_notification_enemy_invasion_defeated_04.wav"
+		advisor_notification_enemy_invasion_defeated_05 = "vo/dracula-advisor/advisor_notification_enemy_invasion_defeated_05.wav"
+		advisor_notification_evade_hostile_fleet_02 = "vo/dracula-advisor/advisor_notification_evade_hostile_fleet_02.wav"
+		advisor_notification_evade_hostile_fleet_03 = "vo/dracula-advisor/advisor_notification_evade_hostile_fleet_03.wav"
+		advisor_notification_evade_hostile_fleet_04 = "vo/dracula-advisor/advisor_notification_evade_hostile_fleet_04.wav"
+		advisor_notification_evade_hostile_fleet_05 = "vo/dracula-advisor/advisor_notification_evade_hostile_fleet_05.wav"
+		advisor_notification_federation_formed_02 = "vo/dracula-advisor/advisor_notification_federation_formed_02.wav"
+		advisor_notification_federation_formed_03 = "vo/dracula-advisor/advisor_notification_federation_formed_03.wav"
+		advisor_notification_federation_formed_04 = "vo/dracula-advisor/advisor_notification_federation_formed_04.wav"
+		advisor_notification_federation_formed_05 = "vo/dracula-advisor/advisor_notification_federation_formed_05.wav"
+		advisor_notification_hostile_fleet_detected_02 = "vo/dracula-advisor/advisor_notification_hostile_fleet_detected_02.wav"
+		advisor_notification_hostile_fleet_engaged_02 = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_02.wav"
+		advisor_notification_hostile_fleet_engaged_03 = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_03.wav"
+		advisor_notification_hostile_fleet_engaged_04 = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_04.wav"
+		advisor_notification_hostile_fleet_engaged_05 = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_05.wav"
+		advisor_notification_hostile_fleet_engaged_06 = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_06.wav"
+		advisor_notification_hostile_fleet_engaged_07 = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_07.wav"
+		advisor_notification_hostile_fleet_engaged_08 = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_08.wav"
+		advisor_notification_hostile_fleet_engaged_09 = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_09.wav"
+		advisor_notification_hostile_fleet_engaged_10 = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_10.wav"
+		advisor_notification_hostile_fleet_engaged_11 = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_11.wav"
+		advisor_notification_hostile_fleet_engaged_12 = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_12.wav"
+		advisor_notification_hostile_fleet_engaged_13 = "vo/dracula-advisor/advisor_notification_hostile_fleet_engaged_13.wav"
+		advisor_notification_hostile_station_engaged_02 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_02.wav"
+		advisor_notification_hostile_station_engaged_03 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_03.wav"
+		advisor_notification_hostile_station_engaged_04 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_04.wav"
+		advisor_notification_hostile_station_engaged_05 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_05.wav"
+		advisor_notification_hostile_station_engaged_06 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_06.wav"
+		advisor_notification_hostile_station_engaged_07 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_07.wav"
+		advisor_notification_hostile_station_engaged_08 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_08.wav"
+		advisor_notification_hostile_station_engaged_09 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_09.wav"
+		advisor_notification_hostile_station_engaged_10 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_10.wav"
+		advisor_notification_hostile_station_engaged_11 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_11.wav"
+		advisor_notification_hostile_station_engaged_12 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_12.wav"
+		advisor_notification_hostile_station_engaged_13 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_13.wav"
+		advisor_notification_hostile_station_engaged_14 = "vo/dracula-advisor/advisor_notification_hostile_station_engaged_14.wav"
+		advisor_notification_invasion_enemy_won_02 = "vo/dracula-advisor/advisor_notification_invasion_enemy_won_02.wav"
+		advisor_notification_invasion_enemy_won_03 = "vo/dracula-advisor/advisor_notification_invasion_enemy_won_03.wav"
+		advisor_notification_invasion_failed_02 = "vo/dracula-advisor/advisor_notification_invasion_failed_02.wav"
+		advisor_notification_invasion_failed_03 = "vo/dracula-advisor/advisor_notification_invasion_failed_03.wav"
+		advisor_notification_invasion_progress_02 = "vo/dracula-advisor/advisor_notification_invasion_progress_02.wav"
+		advisor_notification_invasion_success_02 = "vo/dracula-advisor/advisor_notification_invasion_success_02.wav"
+		advisor_notification_invasion_success_03 = "vo/dracula-advisor/advisor_notification_invasion_success_03.wav"
+		advisor_notification_invasion_success_04 = "vo/dracula-advisor/advisor_notification_invasion_success_04.wav"
+		advisor_notification_invasion_success_05 = "vo/dracula-advisor/advisor_notification_invasion_success_05.wav"
+		advisor_notification_planet_in_revolt_02 = "vo/dracula-advisor/advisor_notification_planet_in_revolt_02.wav"
+		advisor_notification_planet_in_revolt_03 = "vo/dracula-advisor/advisor_notification_planet_in_revolt_03.wav"
+		advisor_notification_planet_in_revolt_04 = "vo/dracula-advisor/advisor_notification_planet_in_revolt_04.wav"
+		advisor_notification_player_declare_war_02 = "vo/dracula-advisor/advisor_notification_player_declare_war_02.wav"
+		advisor_notification_player_declare_war_03 = "vo/dracula-advisor/advisor_notification_player_declare_war_03.wav"
+		advisor_notification_player_declare_war_04 = "vo/dracula-advisor/advisor_notification_player_declare_war_04.wav"
+		advisor_notification_player_declare_war_05 = "vo/dracula-advisor/advisor_notification_player_declare_war_05.wav"
+		advisor_notification_player_declare_war_06 = "vo/dracula-advisor/advisor_notification_player_declare_war_06.wav"
+		advisor_notification_player_declare_war_07 = "vo/dracula-advisor/advisor_notification_player_declare_war_07.wav"
+		advisor_notification_player_declare_war_08 = "vo/dracula-advisor/advisor_notification_player_declare_war_08.wav"
+		advisor_notification_primitive_enlighted_02 = "vo/dracula-advisor/advisor_notification_primitive_enlighted_02.wav"
+		advisor_notification_research_complete_02 = "vo/dracula-advisor/advisor_notification_research_complete_02.wav"
+		advisor_notification_research_complete_03 = "vo/dracula-advisor/advisor_notification_research_complete_03.wav"
+		advisor_notification_research_complete_04 = "vo/dracula-advisor/advisor_notification_research_complete_04.wav"
+		advisor_notification_research_complete_05 = "vo/dracula-advisor/advisor_notification_research_complete_05.wav"
+		advisor_notification_research_complete_06 = "vo/dracula-advisor/advisor_notification_research_complete_06.wav"
+		advisor_notification_research_complete_07 = "vo/dracula-advisor/advisor_notification_research_complete_07.wav"
+		advisor_notification_research_complete_08 = "vo/dracula-advisor/advisor_notification_research_complete_08.wav"
+		advisor_notification_research_complete_09 = "vo/dracula-advisor/advisor_notification_research_complete_09.wav"
+		advisor_notification_research_complete_10 = "vo/dracula-advisor/advisor_notification_research_complete_10.wav"
+		advisor_notification_research_complete_11 = "vo/dracula-advisor/advisor_notification_research_complete_11.wav"
+		advisor_notification_research_complete_12 = "vo/dracula-advisor/advisor_notification_research_complete_12.wav"
+		advisor_notification_research_complete_13 = "vo/dracula-advisor/advisor_notification_research_complete_13.wav"
+		advisor_notification_research_complete_14 = "vo/dracula-advisor/advisor_notification_research_complete_14.wav"
+		advisor_notification_research_complete_15 = "vo/dracula-advisor/advisor_notification_research_complete_15.wav"
+		advisor_notification_research_complete_16 = "vo/dracula-advisor/advisor_notification_research_complete_16.wav"
+		advisor_notification_research_complete_17 = "vo/dracula-advisor/advisor_notification_research_complete_17.wav"
+		advisor_notification_research_complete_18 = "vo/dracula-advisor/advisor_notification_research_complete_18.wav"
+		advisor_notification_research_complete_19 = "vo/dracula-advisor/advisor_notification_research_complete_19.wav"
+		advisor_notification_research_complete_20 = "vo/dracula-advisor/advisor_notification_research_complete_20.wav"
+		advisor_notification_research_complete_21 = "vo/dracula-advisor/advisor_notification_research_complete_21.wav"
+		advisor_notification_research_complete_22 = "vo/dracula-advisor/advisor_notification_research_complete_22.wav"
+		advisor_notification_research_complete_23 = "vo/dracula-advisor/advisor_notification_research_complete_23.wav"
+		advisor_notification_research_complete_24 = "vo/dracula-advisor/advisor_notification_research_complete_24.wav"
+		advisor_notification_research_complete_25 = "vo/dracula-advisor/advisor_notification_research_complete_25.wav"
+		advisor_notification_research_complete_26 = "vo/dracula-advisor/advisor_notification_research_complete_26.wav"
+		advisor_notification_research_complete_27 = "vo/dracula-advisor/advisor_notification_research_complete_27.wav"
+		advisor_notification_research_complete_28 = "vo/dracula-advisor/advisor_notification_research_complete_28.wav"
+		advisor_notification_research_complete_29 = "vo/dracula-advisor/advisor_notification_research_complete_29.wav"
+		advisor_notification_research_complete_30 = "vo/dracula-advisor/advisor_notification_research_complete_30.wav"
+		advisor_notification_research_complete_31 = "vo/dracula-advisor/advisor_notification_research_complete_31.wav"
+		advisor_notification_research_complete_32 = "vo/dracula-advisor/advisor_notification_research_complete_32.wav"
+		advisor_notification_research_complete_33 = "vo/dracula-advisor/advisor_notification_research_complete_33.wav"
+		advisor_notification_research_complete_34 = "vo/dracula-advisor/advisor_notification_research_complete_34.wav"
+		advisor_notification_research_complete_35 = "vo/dracula-advisor/advisor_notification_research_complete_35.wav"
+		advisor_notification_research_complete_36 = "vo/dracula-advisor/advisor_notification_research_complete_36.wav"
+		advisor_notification_research_complete_37 = "vo/dracula-advisor/advisor_notification_research_complete_37.wav"
+		advisor_notification_research_complete_38 = "vo/dracula-advisor/advisor_notification_research_complete_38.wav"
+		advisor_notification_research_complete_39 = "vo/dracula-advisor/advisor_notification_research_complete_39.wav"
+		advisor_notification_research_complete_40 = "vo/dracula-advisor/advisor_notification_research_complete_40.wav"
+		advisor_notification_research_complete_41 = "vo/dracula-advisor/advisor_notification_research_complete_41.wav"
+		advisor_notification_research_complete_42 = "vo/dracula-advisor/advisor_notification_research_complete_42.wav"
+		advisor_notification_research_complete_43 = "vo/dracula-advisor/advisor_notification_research_complete_43.wav"
+		advisor_notification_research_complete_44 = "vo/dracula-advisor/advisor_notification_research_complete_44.wav"
+		advisor_notification_research_complete_45 = "vo/dracula-advisor/advisor_notification_research_complete_45.wav"
+		advisor_notification_research_complete_46 = "vo/dracula-advisor/advisor_notification_research_complete_46.wav"
+		advisor_notification_research_complete_47 = "vo/dracula-advisor/advisor_notification_research_complete_47.wav"
+		advisor_notification_research_complete_48 = "vo/dracula-advisor/advisor_notification_research_complete_48.wav"
+		advisor_notification_research_complete_49 = "vo/dracula-advisor/advisor_notification_research_complete_49.wav"
+		advisor_notification_research_complete_50 = "vo/dracula-advisor/advisor_notification_research_complete_50.wav"
+		advisor_notification_research_complete_51 = "vo/dracula-advisor/advisor_notification_research_complete_51.wav"
+		advisor_notification_research_complete_52 = "vo/dracula-advisor/advisor_notification_research_complete_52.wav"
+		advisor_notification_special_project_complete_02 = "vo/dracula-advisor/advisor_notification_special_project_complete_02.wav"
+		advisor_notification_special_project_complete_03 = "vo/dracula-advisor/advisor_notification_special_project_complete_03.wav"
+		advisor_notification_special_project_complete_04 = "vo/dracula-advisor/advisor_notification_special_project_complete_04.wav"
+		advisor_notification_special_project_complete_05 = "vo/dracula-advisor/advisor_notification_special_project_complete_05.wav"
+		advisor_notification_special_project_complete_06 = "vo/dracula-advisor/advisor_notification_special_project_complete_06.wav"
+		advisor_notification_special_project_complete_07 = "vo/dracula-advisor/advisor_notification_special_project_complete_07.wav"
+		advisor_notification_species_modified_02 = "vo/dracula-advisor/advisor_notification_species_modified_02.wav"
+		advisor_notification_species_modified_03 = "vo/dracula-advisor/advisor_notification_species_modified_03.wav"
+		advisor_notification_species_modified_04 = "vo/dracula-advisor/advisor_notification_species_modified_04.wav"
+		advisor_notification_station_under_attack_02 = "vo/dracula-advisor/advisor_notification_station_under_attack_02.wav"
+		advisor_notification_station_under_attack_03 = "vo/dracula-advisor/advisor_notification_station_under_attack_03.wav"
+	}
+}
+
+category = {
+ name = "Voice"
+ soundeffects = 
+		{
+			dracula_advisor_notification_construction_complete
+			dracula_advisor_notification_alien_empire_communication
+			dracula_advisor_notification_enemy_declared_war
+			dracula_advisor_notification_evade_hostile_fleet
+			dracula_advisor_notification_hostile_fleet_engaged
+			dracula_advisor_notification_hostile_station_engaged
+			dracula_advisor_notification_invasion_failed
+			dracula_advisor_notification_player_declare_war
+			dracula_advisor_notification_research_complete
+			dracula_advisor_notification_species_modified
+			dracula_advisor_notification_station_under_attack
+			dracula_advisor_notification_federation_formed
+			dracula_advisor_notification_enemy_invasion_defeated
+			dracula_advisor_notification_hostile_fleet_detected
+			dracula_advisor_notification_invasion_enemy_won
+			dracula_advisor_notification_invasion_progress
+			dracula_advisor_notification_invasion_success
+			dracula_advisor_notification_planet_in_revolt
+			dracula_advisor_notification_primitive_enlighted
+			dracula_advisor_notification_special_project_complete
+		}
+}
+
+soundeffect = {
+	name = dracula_advisor_notification_construction_complete
+	sounds = {
+		sound = advisor_notification_construction_complete_01
+		sound = advisor_notification_construction_complete_02
+		sound = advisor_notification_construction_complete_03
+		sound = advisor_notification_construction_complete_04
+		sound = advisor_notification_construction_complete_05
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_research_complete
+	sounds = {
+		sound = advisor_notification_research_complete_01
+		sound = advisor_notification_research_complete_02
+		sound = advisor_notification_research_complete_03
+		sound = advisor_notification_research_complete_04
+		sound = advisor_notification_research_complete_05
+		sound = advisor_notification_research_complete_06
+		sound = advisor_notification_research_complete_07
+		sound = advisor_notification_research_complete_08
+		sound = advisor_notification_research_complete_09
+		sound = advisor_notification_research_complete_10
+		sound = advisor_notification_research_complete_11
+		sound = advisor_notification_research_complete_12
+		sound = advisor_notification_research_complete_13
+		sound = advisor_notification_research_complete_14
+		sound = advisor_notification_research_complete_15
+		sound = advisor_notification_research_complete_16
+		sound = advisor_notification_research_complete_17
+		sound = advisor_notification_research_complete_18
+		sound = advisor_notification_research_complete_19
+		sound = advisor_notification_research_complete_20
+		sound = advisor_notification_research_complete_21
+		sound = advisor_notification_research_complete_22
+		sound = advisor_notification_research_complete_23
+		sound = advisor_notification_research_complete_24
+		sound = advisor_notification_research_complete_25
+		sound = advisor_notification_research_complete_26
+		sound = advisor_notification_research_complete_27
+		sound = advisor_notification_research_complete_28
+		sound = advisor_notification_research_complete_29
+		sound = advisor_notification_research_complete_30
+		sound = advisor_notification_research_complete_31
+		sound = advisor_notification_research_complete_32
+		sound = advisor_notification_research_complete_33
+		sound = advisor_notification_research_complete_34
+		sound = advisor_notification_research_complete_35
+		sound = advisor_notification_research_complete_36
+		sound = advisor_notification_research_complete_37
+		sound = advisor_notification_research_complete_38
+		sound = advisor_notification_research_complete_39
+		sound = advisor_notification_research_complete_40
+		sound = advisor_notification_research_complete_41
+		sound = advisor_notification_research_complete_42
+		sound = advisor_notification_research_complete_43
+		sound = advisor_notification_research_complete_44
+		sound = advisor_notification_research_complete_45
+		sound = advisor_notification_research_complete_46
+		sound = advisor_notification_research_complete_47
+		sound = advisor_notification_research_complete_48
+		sound = advisor_notification_research_complete_49
+		sound = advisor_notification_research_complete_50
+		sound = advisor_notification_research_complete_51
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_generic_phrase
+	sounds = {
+		sound = advisor_generic_phrase_01
+		sound = advisor_generic_phrase_02
+		sound = advisor_generic_phrase_03
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_sample_vo
+	sounds = {
+		sound = advisor_sample_vo_01
+		sound = advisor_sample_vo_02
+		sound = advisor_sample_vo_03
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_alien_empire_communication
+	sounds = {
+		sound = advisor_notification_alien_empire_communication_01
+		sound = advisor_notification_alien_empire_communication_02
+		sound = advisor_notification_alien_empire_communication_03
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_enemy_declared_war
+	sounds = {
+		sound = advisor_notification_enemy_declared_war_01
+		sound = advisor_notification_enemy_declared_war_02
+		sound = advisor_notification_enemy_declared_war_03
+		sound = advisor_notification_enemy_declared_war_04
+		sound = advisor_notification_enemy_declared_war_05
+		sound = advisor_notification_enemy_declared_war_06
+		sound = advisor_notification_enemy_declared_war_07
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}	
+soundeffect = {
+	name = dracula_advisor_notification_evade_hostile_fleet
+	sounds = {
+		sound = advisor_notification_evade_hostile_fleet_01
+		sound = advisor_notification_evade_hostile_fleet_02
+		sound = advisor_notification_evade_hostile_fleet_03
+		sound = advisor_notification_evade_hostile_fleet_04
+		sound = advisor_notification_evade_hostile_fleet_05
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_federation_formed
+	sounds = {
+		sound = advisor_notification_federation_formed_01
+		sound = advisor_notification_federation_formed_02
+		sound = advisor_notification_federation_formed_03
+		sound = advisor_notification_federation_formed_04
+		sound = advisor_notification_federation_formed_05
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_hostile_fleet_engaged
+	sounds = {
+		sound = advisor_notification_hostile_fleet_detected_01
+		sound = advisor_notification_hostile_fleet_detected_02
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_hostile_fleet_engaged
+	sounds = {
+		sound = advisor_notification_hostile_fleet_engaged_01
+		sound = advisor_notification_hostile_fleet_engaged_02
+		sound = advisor_notification_hostile_fleet_engaged_03
+		sound = advisor_notification_hostile_fleet_engaged_04
+		sound = advisor_notification_hostile_fleet_engaged_05
+		sound = advisor_notification_hostile_fleet_engaged_06
+		sound = advisor_notification_hostile_fleet_engaged_07
+		sound = advisor_notification_hostile_fleet_engaged_08
+		sound = advisor_notification_hostile_fleet_engaged_09
+		sound = advisor_notification_hostile_fleet_engaged_10
+		sound = advisor_notification_hostile_fleet_engaged_11
+		sound = advisor_notification_hostile_fleet_engaged_12
+		sound = advisor_notification_hostile_fleet_engaged_13
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_hostile_station_engaged
+	sounds = {
+		sound = advisor_notification_hostile_station_engaged_01
+		sound = advisor_notification_hostile_station_engaged_02
+		sound = advisor_notification_hostile_station_engaged_03
+		sound = advisor_notification_hostile_station_engaged_04
+		sound = advisor_notification_hostile_station_engaged_05
+		sound = advisor_notification_hostile_station_engaged_06
+		sound = advisor_notification_hostile_station_engaged_07
+		sound = advisor_notification_hostile_station_engaged_08
+		sound = advisor_notification_hostile_station_engaged_09
+		sound = advisor_notification_hostile_station_engaged_10
+		sound = advisor_notification_hostile_station_engaged_11
+		sound = advisor_notification_hostile_station_engaged_12
+		sound = advisor_notification_hostile_station_engaged_13
+		sound = advisor_notification_hostile_station_engaged_14
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_invasion_enemy_won
+	sounds = {
+		sound = advisor_notification_invasion_enemy_won_01
+		sound = advisor_notification_invasion_enemy_won_02
+		sound = advisor_notification_invasion_enemy_won_03
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_invasion_failed
+	sounds = {
+		sound = advisor_notification_invasion_failed_01
+		sound = advisor_notification_invasion_failed_02
+		sound = advisor_notification_invasion_failed_03
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_invasion_progress
+	sounds = {
+		sound = advisor_notification_invasion_progress_01
+		sound = advisor_notification_invasion_progress_02
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_invasion_success
+	sounds = {
+		sound = advisor_notification_invasion_success_01
+		sound = advisor_notification_invasion_success_02
+		sound = advisor_notification_invasion_success_03
+		sound = advisor_notification_invasion_success_04
+		sound = advisor_notification_invasion_success_05
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_planet_in_revolt
+	sounds = {
+		sound = advisor_notification_planet_in_revolt_01
+		sound = advisor_notification_planet_in_revolt_02
+		sound = advisor_notification_planet_in_revolt_03
+		sound = advisor_notification_planet_in_revolt_04
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_player_declare_war
+	sounds = {
+		sound = advisor_notification_player_declare_war_01
+		sound = advisor_notification_player_declare_war_02
+		sound = advisor_notification_player_declare_war_03
+		sound = advisor_notification_player_declare_war_04
+		sound = advisor_notification_player_declare_war_05
+		sound = advisor_notification_player_declare_war_06
+		sound = advisor_notification_player_declare_war_07
+		sound = advisor_notification_player_declare_war_08
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_primitive_enlighted
+	sounds = {
+		sound = advisor_notification_primitive_enlighted_01
+		sound = advisor_notification_primitive_enlighted_02
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_species_modified
+	sounds = {
+		sound = advisor_notification_species_modified_01
+		sound = advisor_notification_species_modified_02
+		sound = advisor_notification_species_modified_03
+		sound = advisor_notification_species_modified_04
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_station_under_attack
+	sounds = {
+		sound = advisor_notification_station_under_attack_01
+		sound = advisor_notification_station_under_attack_02
+		sound = advisor_notification_station_under_attack_03
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect = {
+	name = dracula_advisor_notification_special_project_complete
+	sounds = {
+		sound = advisor_notification_special_project_complete_01
+		sound = advisor_notification_special_project_complete_02
+		sound = advisor_notification_special_project_complete_03
+		sound = advisor_notification_special_project_complete_04
+		sound = advisor_notification_special_project_complete_05
+		sound = advisor_notification_special_project_complete_06
+		sound = advisor_notification_special_project_complete_07
+	} 
+	volume = 0.45
+	max_audible = 1
+	max_audible_behaviour = fail
+}

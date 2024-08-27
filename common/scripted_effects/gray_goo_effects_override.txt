@@ -1,0 +1,276 @@
+# (Compat. Will be overwritten by Warship Girls R And MIST Species)
+# Root = gray_owner
+create_gray_official = {
+	if = {
+		limit = { has_country_flag = gray_warship_active }
+		remove_country_flag = gray_warship_active
+		# event_target:gray_leader_admiral = { kill_leader = { show_notification = no } }
+		event_target:gray_leader_admiral = { exile_leader_as = gray_admiral }
+		event_target:gray_warship = { unassign_leader = leader delete_fleet = this }
+	}
+	if = {
+		limit = { has_country_flag = gray_army_active }
+		remove_country_flag = gray_army_active
+		every_owned_army = {
+			limit = { army_type = gray_army }
+			remove_army = yes
+		}
+	}
+	set_country_flag = gray_governor_active
+	create_leader = {
+		class = official
+		species = root
+		name = "NAME_Gray"
+		event_leader = yes
+		skill = 10
+		set_age = 0
+		immortal = yes
+		randomize_traits = no
+		skip_background_generation = yes
+		custom_catch_phrase = gray_catch_phrase
+		custom_description = gray_backstory
+		background_ethic = ethic_gestalt_consciousness
+		gender = indeterminable
+		hide_age = yes
+		traits = {
+			trait = leader_trait_governor_gray
+			trait = subclass_official_governor
+			trait = trait_ruler_architectural_sense_3
+			trait = leader_trait_distribution_lines_2
+			trait = leader_trait_retired_fleet_officer
+		}
+		effect = {
+			save_global_event_target_as = gray_governor
+			# change_leader_portrait = root.species
+			set_leader_flag = has_gained_level_trait
+			set_leader_flag = gray_governor
+			set_leader_flag = legendary_leader
+			set_leader_flag = immune_to_negative_traits
+			set_leader_flag = gray_leader
+			# set_leader_flag = "灰风领袖"
+		}
+	}
+	# random_owned_leader = {
+	# 	limit = { has_leader_flag = gray_governor }
+	# 	if = {
+	# 		limit = { owner = { has_country_flag = gray_encountered_the_loop }}
+	# 		add_trait = leader_trait_governor_wg_the_loop
+	# 	}
+	# 	add_special_leader_affection_trait = { LEADER = gray LEADER_CLASS = official MARRIED_FLAG = married_gray }
+	# }
+}
+
+create_gray_warship = {
+	if = {
+		limit = { has_country_flag = gray_governor_active }
+		remove_country_flag = gray_governor_active
+		event_target:gray_governor = {
+			kill_leader = { show_notification = no }
+		}
+	}
+	if = {
+		limit = { has_country_flag = gray_army_active }
+		if = {
+			limit = {
+				any_owned_army = {
+					army_type = gray_army
+					exists = planet
+				}
+			}
+			random_owned_army = {
+				limit = { army_type = gray_army }
+				planet = { save_event_target_as = gray_warship_location }
+			}
+		} else = {
+			random_owned_army = {
+				limit = { army_type = gray_army }
+				fleet = { save_event_target_as = gray_warship_location }
+			}
+		}
+	} else = {
+		capital_scope = { save_event_target_as = gray_warship_location }
+	}
+	set_country_flag = gray_warship_active
+	event_target:graygoo_country = {
+		if = {
+			limit = {
+				NAND  = {
+					exists = event_target:gray_leader_admiral
+					any_owned_leader = { leader_class = commander has_leader_flag = gray_admiral }
+				}
+			}
+			create_leader = {
+				class = commander
+				species = ruler # event_target:gray_species
+				name = "NAME_Gray"
+				event_leader = yes
+				skill = 10
+				set_age = 0
+				immortal = yes
+				# randomize_traits = no
+				skip_background_generation = yes
+				custom_catch_phrase = gray_catch_phrase
+				custom_description = gray_backstory
+				background_ethic = ethic_gestalt_consciousness
+				gender = indeterminable
+				hide_age = yes
+				hide_leader = yes
+				traits = {
+					trait = leader_trait_admiral_warform # leader_trait_admiral_gray
+					trait = leader_trait_trickster
+				}
+				effect = {
+					save_global_event_target_as = gray_leader_admiral
+					set_leader_flag = not_has_wg_affection_normal
+					set_leader_flag = immune_to_negative_traits
+					save_global_event_target_as = gray_leader_admiral
+					set_leader_flag = legendary_leader
+					set_leader_flag = immune_to_negative_traits
+					set_leader_flag = gray_admiral
+					# set_leader_flag = has_gained_level_trait
+					set_leader_flag = "gray_leader"
+					change_leader_portrait = lithnanite
+				}
+			}
+		}
+		create_fleet = {
+			name = "NAME_Gray"
+			settings = {
+				can_upgrade = no
+				can_change_composition = no
+				can_disband = no
+				can_change_leader = no
+				uses_naval_capacity = no
+				spawn_debris = no
+			}
+			effect = {
+				set_owner = prev
+				create_ship = {
+					name = "NAME_Gray"
+					design = "NAME_Gray_Warship"
+					prefix = no
+					upgradable = yes
+					# effect = { save_global_event_target_as = gray_warship_ship }
+				}
+				set_fleet_flag = gray_fleet
+				save_global_event_target_as = gray_warship
+				set_location = event_target:gray_warship_location
+				set_leader = gray_admiral
+				assign_leader = event_target:gray_leader_admiral
+				add_modifier = { modifier = "gray_warship" }
+			}
+		}
+	}
+	last_created_fleet = { set_owner = root }
+
+	if = {
+		limit = { has_country_flag = gray_army_active }
+		remove_country_flag = gray_army_active
+		every_owned_army = {
+			limit = { army_type = gray_army }
+			if = {
+				limit = { exists = leader }
+				unassign_leader = leader
+			}
+			remove_army = yes
+		}
+	}
+	# random_owned_leader = {
+	# 	limit = { has_leader_flag = gray_admiral }
+	# 	if = {
+	# 		limit = { owner = { has_country_flag = gray_encountered_the_loop }}
+	# 		add_trait = leader_trait_admiral_wg_the_loop
+	# 	}
+	# 	add_special_leader_affection_trait = { LEADER = gray LEADER_CLASS = commander MARRIED_FLAG = married_gray }
+	# }
+}
+
+create_gray_army = {
+	if = {
+		limit = { has_country_flag = gray_governor_active }
+		remove_country_flag = gray_governor_active
+		event_target:gray_governor = { kill_leader = { show_notification = no } }
+	}
+	if = {
+		limit = { has_country_flag = gray_warship_active }
+		event_target:gray_warship = { save_event_target_as = gray_transport_location }
+	} else = {
+		capital_scope = { save_event_target_as = gray_transport_location }
+	}
+	set_country_flag = gray_army_active
+	event_target:graygoo_country = {
+		if = {
+			limit = {
+				NOR  = {
+					exists = event_target:gray_leader_general
+					any_owned_leader = { leader_class = commander has_leader_flag = gray_general }
+				}
+			}
+			create_leader = {
+				class = commander
+				species = ruler # event_target:gray_species
+				name = "NAME_Gray"
+				event_leader = yes
+				skill = 10
+				set_age = 0
+				immortal = yes
+				# randomize_traits = no
+				skip_background_generation = yes
+				custom_catch_phrase = gray_catch_phrase
+				custom_description = gray_backstory
+				background_ethic = ethic_gestalt_consciousness
+				gender = indeterminable
+				hide_age = yes
+				traits = {
+					trait = leader_trait_governor_gray # leader_trait_general_gray
+					trait = leader_trait_dreaded
+					# 0 = leader_trait_synthetic
+				}
+				effect = {
+					save_global_event_target_as = gray_leader_general
+					set_leader_flag = gray_general
+					change_leader_portrait = lithnanite
+				}
+			}
+		}
+	}
+	event_target:gray_leader_general = { set_owner = root } # Needs switch as leader get unassigned.
+
+	create_fleet = {
+		name = "NAME_Gray"
+		settings = {
+			can_upgrade = no
+			can_change_composition = no
+			can_disband = no
+			can_change_leader = yes
+			uses_naval_capacity = no
+			spawn_debris = no
+		}
+		effect = {
+			set_owner = prev
+			create_army_transport = {
+				ship_name = "NAME_Gray"
+				graphical_culture = "grey_tempesttw"
+				army_name = "NAME_Gray"
+				army_type = "gray_army"
+			}
+			set_location = {
+				target = event_target:gray_transport_location
+				distance = 0
+				angle = random
+			}
+		}
+	}
+	# last_created_fleet = { set_owner = root }
+	last_created_army = { assign_leader = event_target:gray_leader_general }
+	event_target:gray_leader_general = { set_owner = event_target:graygoo_country } # Switch back
+
+	if = {
+		limit = { has_country_flag = gray_warship_active }
+		remove_country_flag = gray_warship_active
+		# event_target:gray_leader_admiral = { kill_leader = { show_notification = no } }
+		event_target:gray_leader_admiral = { exile_leader_as = gray_admiral }
+		event_target:gray_warship = { unassign_leader = leader delete_fleet = this }
+	}
+
+}

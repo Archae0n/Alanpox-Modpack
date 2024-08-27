@@ -1,0 +1,37 @@
+cb_satrapy_subjugation = {
+	show_in_diplomacy = yes
+	show_notification = no
+	potential = {
+		has_global_flag = marauder_crisis_ongoing
+		exists = event_target:raider_khanate
+		# OR = {
+		# 	AND = {
+		# is_country_type_with_subjects = yes
+		is_subject_of_khan = yes
+		# 	has_total_war_cb = no
+		# 	}
+		# 	is_country_type = awakened_marauders types do not allow CBs
+		# }
+		NOR = {
+			is_in_federation_with = from
+			is_overlord_to = from
+			has_valid_civic = civic_inwards_perfection
+			is_machine_empire = yes
+		}
+		event_target:raider_khanate = {
+			is_country_type = awakened_marauders
+			NOT = { is_same_empire = from }
+		}
+	}
+	is_valid = {
+		exists = from
+		NOR = {
+			is_in_federation_with = from
+			is_overlord_to = from
+			has_valid_civic = civic_inwards_perfection
+			is_machine_empire = yes
+			# is_megacorp = yes
+		}
+		from = { is_subject_of_khan = no }
+	}
+}

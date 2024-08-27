@@ -1,0 +1,70 @@
+## Possible Deposit Variables ##
+# resources, resource and amount
+# Potential trigger (planet scope)
+# blocked_modifier - applied to planet only when deposit blocker has been cleared
+# constant_modifier - applied to planet always
+# blocker = <key/any/none> - default any
+# station = station class in orbit to gather
+
+##############################
+#	Distant Stars Deposits	#
+##############################
+
+### L-Cluster
+d_nanites_deposit = {
+	resources = {
+		category = orbital_research_deposits
+		produces = {
+			nanites = 3
+		}
+		upkeep = {
+			energy = 3 # 4
+			alloys = 1 # 2
+		}
+	}
+
+	planet_modifier = {
+		district_generator_max = 4
+	}
+	icon = d_mining_tunnels
+
+	station = shipclass_research_station
+	# is_for_colonizable = no
+
+	potential = {
+		NOR = {
+			is_star = yes
+			is_colonizable = yes
+			has_modifier = terraforming_candidate
+		}
+		solar_system = { has_star_flag = lcluster }
+	}
+
+	drop_weight = {
+		weight = 2
+		modifier = {
+			add = 3
+			is_star = no
+			is_colonizable = no
+			solar_system = { has_star_flag = lcluster }
+		}
+		modifier = {
+			factor = 10
+			is_planet_class = pc_gray_goo
+		}
+		modifier = {
+			factor = 25
+			is_moon = yes
+			solar_system = {
+				OR = {
+					has_star_flag = lcluster4b
+					has_star_flag = graygoo_factory_system
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			mineral_candidate = yes # can_have_mineral_deposits
+		}
+	}
+}

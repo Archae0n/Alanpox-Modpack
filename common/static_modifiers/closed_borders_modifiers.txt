@@ -1,0 +1,3 @@
+close_borders_broke_truce = {
+	diplo_weight_mult = -0.15
+}

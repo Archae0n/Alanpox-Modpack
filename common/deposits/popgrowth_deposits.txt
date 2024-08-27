@@ -1,0 +1,84 @@
+popgrowth = {
+	icon = "unused/d_alien_propaganda"
+	is_for_colonizeable = yes
+	category = deposit_cat_food
+	should_swap_deposit_on_terraforming = no
+	drop_weight = {
+		weight = 0		
+	}
+
+	triggered_planet_modifier = {
+		potential = { 
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		job_replicator_per_pop = 0.04
+	}
+
+	triggered_planet_modifier = {
+		potential = { free_housing > -3 }
+		planet_carry_cap_add = 1000000	
+	}
+	
+	triggered_planet_modifier = {
+		potential = { num_pops < 10 }
+		planet_immigration_pull_add = 500
+	}		
+
+	triggered_planet_modifier = {
+		potential = { num_pops > 20 }
+		planet_emigration_push_add = 100
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_mechanical_empire = yes }
+		}
+		job_roboticist_per_pop = 0.02
+	}
+	
+	triggered_planet_modifier = {
+		potential = { free_housing = 1 }
+		planet_emigration_push_add = 10
+	}
+
+	triggered_planet_modifier = {
+		potential = { free_housing = 0 }
+		planet_emigration_push_add = 100
+	}
+
+	triggered_planet_modifier = {
+		potential = { free_housing = -1 }
+		planet_emigration_push_add = 500
+	}
+
+	triggered_planet_modifier = {
+		potential = { free_housing < -1 }
+		planet_emigration_push_add = 1000
+	}
+	
+	triggered_planet_modifier = {
+		potential = { num_unemployed = 1 }
+		planet_emigration_push_add = 500
+	}
+
+	triggered_planet_modifier = {
+		potential = { num_unemployed = 2 }
+		planet_emigration_push_add = 1000
+	}
+
+	triggered_planet_modifier = {
+		potential = { num_unemployed > 2 }
+		planet_emigration_push_add = 10000
+	}
+
+#	triggered_planet_modifier = {
+		potential = { free_housing < -3 }
+			planet_emigration_push_add = 10000
+			planet_pop_assembly_reduction = 1
+			planet_pop_assemblers_upkeep_mult = -1
+		}
+	}
+
+}

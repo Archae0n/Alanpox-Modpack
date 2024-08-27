@@ -1,0 +1,9 @@
+dracula_advisor = {
+	name = "dracula_advisor"
+    icon = "gfx/interface/icons/icon.dds"
+	
+	playable = {
+	}
+	weight = {
+	}
+}

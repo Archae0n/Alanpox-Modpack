@@ -87,6 +87,11 @@ get_rogue_colony_after_effect = {
 
 	give_technology = { tech = tech_starbase_3 message = no }
 	give_technology = { tech = tech_strike_craft_1 message = no }
+	
+	add_modifier = {
+		modifier = buff_me_silly
+		years = 25
+	}
 
 	if = { 
 		limit = { has_global_flag = fatherland_instantcomms }

@@ -1,0 +1,65 @@
+namespace = refugees_redo
+
+
+#Changed for the Mod
+# Pop escapes crisis, fleeing to another empire
+planet_event = {
+	id = refugees_redo.5
+	hide_window = yes
+	is_triggered_only = yes
+
+	pre_triggers = {
+		has_owner = yes
+	}
+
+	trigger = {
+		has_global_flag = galactic_crisis_happened
+		owner = { is_country_type = default }
+		is_controlled_by = owner
+		NOT = { has_planet_flag = refugees_redo_escaping_crisis }
+		is_under_crisis_bombardment = yes
+	}
+
+	immediate = {
+		set_planet_flag = refugees_redo_escaping_crisis
+		planet_event = { id = refugees_redo.6 days = 10 random = 10 } #the lower the more frequent
+	}
+}
+
+
+# Pop escapes crisis, fleeing to another empire
+planet_event = {
+	id = refugees_redo.6
+	hide_window = yes
+	is_triggered_only = yes
+
+	pre_triggers = {
+		has_owner = yes
+	}
+
+	trigger = {
+		has_global_flag = galactic_crisis_happened
+		owner = { is_country_type = default }
+		is_controlled_by = owner
+		has_planet_flag = refugees_redo_escaping_crisis
+		is_under_crisis_bombardment = yes
+	}
+
+	immediate = {
+		export_trigger_value_to_variable = {
+			trigger = num_pops
+			variable = refugee_pops
+		}
+		multiply_variable = { which = refugee_pops value = 0.15 }
+		round_variable = refugee_pops
+		while = {
+			count = refugee_pops
+			random_owned_pop = {
+				limit = { is_valid_refugee_pop = yes }
+				save_event_target_as = refugee_pop #Must be saved for refugee_pop_effect to work
+				refugee_pop_effect = yes
+			}
+		}
+		remove_planet_flag = refugees_redo_escaping_crisis
+	} 
+}

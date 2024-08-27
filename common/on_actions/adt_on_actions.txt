@@ -1,0 +1,255 @@
+on_game_start = {
+	events = {
+		a_deadly_tempest.1
+	}
+}
+
+# on_save_game_load = {
+on_single_player_save_game_load = {
+	events = {
+		a_deadly_tempest.2
+	}
+}
+
+# No scope, like on_game_start
+# on_monthly_pulse = {
+# 	events = {
+# 		a_deadly_tempest.2
+# 	}
+# }
+# No scope, like on_game_start
+# on_yearly_pulse = {
+# events = {
+# }
+# }
+# No scope, like on_game_start
+# on_bi_yearly_pulse = {
+# 	events = {
+# 	}
+# }
+# No scope, like on_game_start
+# on_five_year_pulse = {
+# 	events = {
+# 		a_deadly_tempest.3
+# 	}
+# }
+on_mid_game_pulse = {
+	events = {
+		a_deadly_tempest.3
+	}
+}
+
+on_late_game_pulse = {
+	events = {
+		a_deadly_tempest.3
+	}
+}
+
+# No scope, like on_game_start
+# on_decade_pulse = {
+# 	events = {
+# 		a_deadly_tempest.3
+# 	}
+# }
+# Triggers country_event for the attacker upon victory.
+# (Before controller is switched)
+# This = country, leader attacker
+# From = country, planet owner
+# fromfrom = planet
+# IDENTITIES: attacker is the side that "IsHostile" to
+# The planet controller; e.g. spawned monster armies.
+# Are attackers, but if they win and the player attempts.
+# To retake the planet, the player is the attacker.
+# on_planet_attackers_win = {
+# 	events = {
+# 	}
+# }
+# Planet has reached 0 pops from orbital bombardment.
+# This = Planet
+# From = Bombarder
+on_planet_zero_pops = {
+	events = {
+		a_deadly_tempest.81
+	}
+}
+
+# A country has increased the level of a tech, use last_increased_tech trigger to check tech and level.
+# This = Country
+# on_tech_increased = {
+# 	events = {
+# 	}
+# }
+# A Megastructure has been built
+# Root = Country
+# From = Megastructure
+# fromfrom = System
+# fromfromfrom = Fleet
+# on_megastructure_built = {
+# 	events = {
+# 	}
+# }
+# A Megastructure has begun to be upgraded
+# Root = Country
+# From = Megastructure
+# fromfrom = System
+# on_megastructure_upgrade_begin = {
+# 	events = {
+# 	}
+# }
+# A Megastructure has been upgraded
+# Root = Country
+# From = Megastructure
+# fromfrom = System
+# on_megastructure_upgraded = {
+# 	events = {
+# 	}
+# }
+# Planet has taken damage from orbital bombardment - Damage is applied daily.
+# This = Planet
+# From = Bombarder
+# on_planet_bombarded = {
+# 	events = {
+# 		crisis.2477
+# 	}
+# }
+
+# This = Federation leader
+# From = Joining member
+on_join_federation = {
+	events = {
+		a_deadly_tempest.13079
+	}
+}
+
+on_ship_built = {
+	events = {
+		a_deadly_tempest.221
+	}
+}
+
+# This = owner of ship 1 (combatant)
+# From = owner of ship 2 (destroyed)
+# fromfrom = ship 1
+# fromfromfrom = ship 2
+on_ship_destroyed_perp = {
+	random_events = {
+		2 = 0
+		2 = a_deadly_tempest.36
+	}
+}
+
+# This = Ship
+# From = Disabler Ship
+on_ship_disabled = {
+	random_events = {
+		1 = 0
+		9 = a_deadly_tempest.222
+	}
+}
+
+# Called upon entering FTL (on-action name scripted on the Bypass type)
+# this = Fleet
+# from = System jumping to
+# fromfrom = System jumped from
+on_entering_lgate = {
+	# events = {
+	# 	ldragon_country_starts_nanite_ecosystem.1
+	# }
+}
+
+# A fleet has successfully escaped from combat, executed right before the fleet enters FTL
+# This = escaping fleet
+# From = system escaped from
+# fromfrom = system escaping to
+on_emergency_ftl = {
+	events = {
+		a_deadly_tempest.37
+	}
+}
+
+# This = owner of fleet 1 (winner)
+# From = owner of fleet 2 (loser)
+# fromfrom = fleet 1
+# fromfromfrom = fleet 2
+on_space_battle_won = {
+	events = {
+		a_deadly_tempest.40
+	}
+}
+
+# This = starbase being destroyed
+# From = fleet that destroyed the starbase
+on_starbase_destroyed = {
+	events = {
+		a_deadly_tempest.225
+	}
+}
+
+# Called when a Starbase changes owner.
+# this = Ship (Starbase)
+# from = Former Owner (Country)
+on_starbase_transfer = {
+	events = {
+		# action.223
+		a_deadly_tempest.224
+	}
+}
+
+# This = destroyed country
+# From = optional, destroyer offspring_destroyer (country)
+on_country_destroyed = {
+	events = {
+		a_deadly_tempest.2404		# Open lcluster
+	}
+}
+
+on_destroy_planet_with_PLANET_KILLER_HARVESTER = {
+	events = {
+		# harvester_engine.100
+		a_deadly_tempest.500
+	}
+}
+
+on_destroy_planet_with_PLANET_KILLER_NANOBOTS = {
+	events = {
+		# planet_destruction.500
+		a_deadly_tempest.500
+	}
+}
+
+# This = ship (starbase)
+# From = owner country
+on_building_starbase_outpost = {
+	events = {
+		graygoo.5571 # Vanilla fix Special Project Study Nanite Swarm
+	}
+}
+
+# Called when a Starbase changes owner
+# THIS = Ship (Starbase)
+# FROM = Former Owner (Country)
+on_starbase_transfer = {
+	events = {
+		graygoo.5571 # Vanilla fix Special Project Study Nanite Swarm
+	}
+}
+
+# A country has gained a surveyed status on a planet. Happens after "on_survey" if a science ship surveyed a planet.
+# Root = Planet
+# From = Country
+# fromfrom = Fleet of the science ship that surveyed it, if any
+on_planet_surveyed = {
+	events = {
+		graygoo.5570 # Vanilla fix Special Project Study Nanite Swarm
+	}
+}
+
+# Fired whenever a new owner is set for a planet,
+# Be it after a war or through a trade
+# From = Country scope (new owner)
+# This = Planet scope
+# on_planet_transfer = {
+# 	events = {
+# 		graygoo.5570 # Vanilla fix Special Project Study Nanite Swarm
+# 	}
+# }

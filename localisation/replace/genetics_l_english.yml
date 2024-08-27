@@ -1,0 +1,39 @@
+﻿l_english:
+
+ ################################################################
+ # Genetics
+ ################################################################
+
+ tradition_genetics:0 "Genetics"
+ tradition_genetics_desc:0 "What if we could obtain genetic perfection?"
+ tr_genetics_adopt:0 "Genetic Traditions"
+ tr_genetics_finish:0 "Genetic Traditions Finished"
+
+ tr_genetics_resequencing:0 "Genetic Resequencing"
+ tr_genetics_resequencing_delayed:0 "No longer are we limited by the basic biological structure of a species. As the sculptor shapes clay, DNA is ours to mold."
+ tr_genetics_resequencing_desc:1 "Can §Yremove beneficial§! Traits and §Yadd detrimental§! Traits with Species Modification"
+
+ tr_genetics_creation:0 "Engineered Genesis"
+ tr_genetics_creation_delayed:0 "Nature is a blind guide. We have moved beyond the lumbering processes of evolution, and have become masters of our own destiny."
+ tr_genetics_creation_desc:1 "Can §Yalter§! Pop §Yappearance§! with Species Modification\nAllows the Assimilation of Pops into or out of a §YHive-Mind§!"
+
+ tr_genetics_enhanced_expression:0 "Allelic Expression"
+ tr_genetics_enhanced_expression_delayed:0 "Selectively targeting sequences allows for artificial atavism, in which previously regressed traits can be expressed."
+ tr_genetics_enhanced_expression_desc:1 "Unlocks §YAdvanced§! Traits for Species Modification"
+
+ tr_genetics_retrovirus:0 "Retroviral Manipulation"
+ tr_genetics_retrovirus_delayed:1 "Retroviral agents remove evolutionary weaknesses from our combined genetic profile, increasing the resilience of our population."
+
+ tr_genetics_efficient_cloning:0 "Stem Cell Stimulation"
+ tr_genetics_efficient_cloning_delayed:0 "The optimization of our genetic facilities will come with a myriad of benefits."
+ tr_genetics_efficient_cloning_desc:0 "§Y$building_clone_vats$§! produce an additional §G+2§! §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!.\n§G+5§! $r_amenities$ from £job_healthcare£ §YMedical Workers§!."
+tr_genetics_efficient_cloning_hive_desc:0 "§Y$building_clone_vats$§! produce an additional §G+2§! §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!.\nOrganic Pop Assembly Speed: §G+15%§!"
+
+ tr_genetics_adopt_modifier_desc:1 "§YUnlocks Building:§! $building_clone_vats$\nTech progress gained (if not researched):$TABBED_NEW_LINE$£society£ §Y$tech_gene_expressions$§! §G+10%§!"
+ tr_genetics_finish_modifier_desc:1 "$TRADITIONS_FINISH_AP$"
+ tr_genetics_finish_extra_traits_modifier_desc:1 "Allows research of rare §YTransgenesis§! technologies\n$mod_planet_jobs_produces_mult$: §G+15%§!\n$TRADITIONS_FINISH_AP$"
+ 
+ TRAIT_NERVE_STAPLED_EFFECT:2 "$mod_planet_jobs_produces_mult$: §G+10%§!\nCannot generate §YLeaders§!\nCannot be employed in §Y$pop_cat_ruler$§! or §Y$pop_cat_specialist$§! Jobs"
+  exotic_metabolism_tooltip:2 "£exotic_gases£ Exotic Gas Upkeep: §R+0.05§!"
+  
+  concept_automodding_biological_desc: "- ['trait:trait_traditional']\n- ['trait:trait_thrifty']\n- ['trait:trait_intelligent']\n- ['trait:trait_industrious']\n- ['trait:trait_agrarian']\n- ['trait:trait_ingenious']\n- ['trait:trait_charismatic']\n- ['trait:trait_natural_machinist'] §R(requires Allelic Expression)§!"

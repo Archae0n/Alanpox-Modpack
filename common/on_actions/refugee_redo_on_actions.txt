@@ -1,0 +1,8 @@
+# Planet has taken damage from orbital bombardment - Damage is applied daily
+# This = Planet
+# From = Bombarder
+on_planet_bombarded = {
+	events = {
+		refugees_redo.5
+	}
+}

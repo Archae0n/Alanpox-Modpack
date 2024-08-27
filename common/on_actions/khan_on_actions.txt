@@ -1,0 +1,198 @@
+on_game_start = {
+	events = {
+		khan.300
+	}
+}
+on_single_player_save_game_load = {
+	events = {
+		khan.300
+		marauder.99
+	}
+}
+
+# # No scope, like on_game_start
+on_yearly_pulse = {
+	events = {
+		# khan.299
+		marauder.11 # Marauder infighting
+	}
+}
+
+# No scope, like on_game_start
+on_yearly_pulse_country = {
+	events = {
+		khan.309 # TODO TEMP FIX KHAN HOSTILE TO SATRAP.
+		# khan.529
+	}
+}
+
+# on_five_year_pulse_country = {
+# 	events = {
+# 		khan.219 # Integrate subject
+# 	}
+# }
+
+# This = subject
+# From = subject's overlord
+on_becoming_subject = {
+	events = {
+		khan.529
+	}
+}
+
+# This = owner of fleet 1 (destroyed)
+# From = owner of fleet 2 (combatant)
+# fromfrom = fleet 1
+# fromfromfrom = fleet 2
+on_fleet_destroyed_victim = {
+	events = {
+		marauder.13 # Marauder infighting aftermath (vanilla commented out)
+	}
+}
+
+# Planet has taken damage from orbital bombardment - Damage is applied daily.
+# This = Planet
+# From = Bombarder
+on_planet_bombarded = {
+	events = {
+		marauder.528 # Increase counter
+	}
+}
+# Planet has reached 0 pops from orbital bombardment.
+# This = Planet
+# From = Bombarder
+on_planet_zero_pops = {
+	events = {
+		marauder.528 # Increase counter
+	}
+}
+
+# Planet has reached 0 pops from collateral damage.
+# This = Planet
+# From = Army owner
+on_planet_zero_pops_ground_combat = {
+	events = {
+		marauder.528 # Increase counter
+	}
+}
+
+# This = starbase being destroyed
+# From = fleet that destroyed the starbase
+on_starbase_destroyed = {
+	events = {
+		marauder.527 # Increase counter
+	}
+}
+
+# This = starbase being disabled (not ship!)
+# From = fleet that disabled the starbase
+on_starbase_disabled = {
+	events = {
+		marauder.527 # Increase counter
+	}
+}
+
+# This = Ship
+# From = Disabler Ship
+on_ship_disabled = {
+	events = {
+		khan.304
+		pirate.65
+	}
+}
+# This = Ship
+on_ship_enabled = {
+	events = {
+		khan.305
+		pirate.66
+	}
+}
+
+# A war is beginning, executed for every country in the war.
+# Root = Country
+# From = War
+on_war_beginning = {
+	events = {
+		khan.901
+	}
+}
+
+# This = destroyed country
+# From = optional, destroyer (country)
+on_country_destroyed = {
+	events = {
+		marauder.609 # Handover marauder
+	}
+}
+
+# You have changed the location of your capital. Also called when a country's capital is first set e.g. During galaxy creation (but then FROM is not set)
+# this/root = new capital
+# from = old capital
+on_capital_changed = {
+	events = {
+		khan.320
+	}
+}
+
+# This = country
+# From = opponent war leader
+on_entering_war = {
+	events = {
+		khan.1876		# sync_subjects_virtual_relation
+	}
+}
+
+# A war has ended
+# Root = Loser
+# From = Main Winner
+on_war_ended = {
+	events = {
+		khan.1876		# sync_subjects_virtual_relation
+	}
+}
+
+# This = Federation leader
+# From = Joining member
+on_join_federation = {
+	events = {
+		khan.1876		# sync_subjects_virtual_relation
+	}
+}
+
+# This = Federation leader
+# From = Leaving member
+on_leave_federation = {
+	events = {
+		khan.1876		# sync_subjects_virtual_relation
+	}
+}
+
+on_join_alliance = {
+	events = {
+		khan.1876		# sync_subjects_virtual_relation
+	}
+}
+
+on_leave_alliance = {
+	events = {
+		khan.1876		# sync_subjects_virtual_relation
+	}
+}
+# From = system
+# fromfrom = country (previous owner)
+# This = country (new owner)
+on_system_gained = {
+	events = {
+		mod_horde_capturing.1
+	}
+}
+
+# Triggers country_event for the defender upon defeat
+# This = country, planet owner
+# From = country, attack leader
+# fromfrom = planet
+on_planet_defenders_lose = {
+	events = {
+		mod_horde_capturing.4
+	}
+}

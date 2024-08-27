@@ -1,0 +1,197 @@
+# Ineffective but it looks this is the only way it is possible
+# root = planet
+
+dsst_deposits_sum_type_base_amount = {
+	base = 0
+
+	# count +1 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 1 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 2 }
+			}
+		}
+		mode = add
+	}
+
+	# count +2 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 2 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 3 }
+			}
+		}
+		mode = add
+		mult = 2
+	}
+
+	# count +3 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 3 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 4 }
+			}
+		}
+		mode = add
+		mult = 3
+	}
+
+	# count +4 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 4 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 5 }
+			}
+		}
+		mode = add
+		mult = 4
+	}
+
+	# count +5 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 5 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 6 }
+			}
+		}
+		mode = add
+		mult = 5
+	}
+
+	# count +6 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 6 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 7 }
+			}
+		}
+		mode = add
+		mult = 6
+	}
+
+	# count +7 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 7 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 8 }
+			}
+		}
+		mode = add
+		mult = 7
+	}
+
+	# count +8 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 8 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 9 }
+			}
+		}
+		mode = add
+		mult = 8
+	}
+
+	# count +9 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 9 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 10 }
+			}
+		}
+		mode = add
+		mult = 9
+	}
+
+	# count +10 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 10 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 11 }
+			}
+		}
+		mode = add
+		mult = 10
+	}
+
+	# count +11 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 11 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 12 }
+			}
+		}
+		mode = add
+		mult = 11
+	}
+
+	# count +12 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 12 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 13 }
+			}
+		}
+		mode = add
+		mult = 12
+	}
+
+	# count +13 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 13 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 14 }
+			}
+		}
+		mode = add
+		mult = 13
+	}
+
+	# count +14 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount >= 14 }
+				has_resource = { type = $RESOURCE_TYPE$ amount < 15 }
+			}
+		}
+		mode = add
+		mult = 14
+	}
+
+	# count +15 Deposits
+	complex_trigger_modifier = {
+		trigger = count_deposit
+		parameters = {
+			limit = { has_resource = { type = $RESOURCE_TYPE$ amount >= 15 } }
+		}
+		mode = add
+		mult = 15
+	}
+}

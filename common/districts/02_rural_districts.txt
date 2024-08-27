@@ -11,24 +11,10 @@ district_generator = {
 
 	show_on_uncolonized = {
 		uses_district_set = standard
-		pd_aw_is_megaflora_planet = no
-		NOR = {
-			pd_aw_is_wasteland_planet = yes
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
-		}
 	}
 
 	potential = {
 		uses_district_set = standard
-		pd_aw_is_megaflora_planet = no
-		NOR = {
-			pd_aw_is_wasteland_planet = yes
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
-		}
 	}
 
 	allow = {
@@ -61,16 +47,7 @@ district_generator = {
 	resources = {
 		category = planet_districts_generator
 		cost = {
-			trigger = {
-				pd_aw_is_megaflora_planet = no
-			}
 			minerals = @base_cost
-		}
-		cost = {
-			trigger = {
-				pd_aw_is_megaflora_planet = yes
-			}
-			food = @base_cost
 		}
 		upkeep = {
 			energy = 1
@@ -165,6 +142,14 @@ district_generator = {
 	prerequisites = {
 		tech_power_plant_1
 	}
+
+	inline_script = { # Bug Branch
+		script = "districts/bugged_generator_districts"
+		BUGGED_TRADER_COUNT = 1
+	}
+	inline_script = { # Bug Branch
+		script = "districts/bugged_all_rural_districts"
+	}
 }
 
 district_mining = {
@@ -181,13 +166,6 @@ district_mining = {
 			exists = from
 			from = { is_subterranean_empire = yes }
 		}
-		pd_aw_is_megaflora_planet = no
-		NOR = {
-			pd_aw_is_wasteland_planet = yes
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
-		}
 	}
 
 	potential = {
@@ -195,13 +173,6 @@ district_mining = {
 		NAND = {
 			exists = owner
 			owner = { is_subterranean_empire = yes }
-		}
-		pd_aw_is_megaflora_planet = no
-		NOR = {
-			pd_aw_is_wasteland_planet = yes
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
 		}
 	}
 
@@ -217,16 +188,7 @@ district_mining = {
 	resources = {
 		category = planet_districts_mining
 		cost = {
-			trigger = {
-				pd_aw_is_megaflora_planet = no
-			}
 			minerals = @base_cost
-		}
-		cost = {
-			trigger = {
-				pd_aw_is_megaflora_planet = yes
-			}
-			food = @base_cost
 		}
 		upkeep = {
 			energy = 1
@@ -322,6 +284,14 @@ district_mining = {
 	prerequisites = {
 		tech_mechanized_mining
 	}
+
+	inline_script = { # Bug Branch
+		script = "districts/bugged_mining_districts"
+	}
+	inline_script = { # Bug Branch
+		script = "districts/bugged_all_rural_districts"
+		BUGGED_HOUSING_COUNT = 1
+	}
 }
 
 district_farming = {
@@ -333,13 +303,6 @@ district_farming = {
 
 	show_on_uncolonized = {
 		uses_district_set = standard
-		pd_aw_is_megaflora_planet = no
-		NOR = {
-			pd_aw_is_wasteland_planet = yes
-			pd_aw_is_lithoid_planet = yes
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
-		}
 	}
 
 	potential = {
@@ -349,13 +312,7 @@ district_farming = {
 			NOT = { owner = { is_anglers_empire = yes } }
 			AND = {
 				owner = { is_anglers_empire = yes }
-				NOR = {
-					is_planet_class = pc_ocean
-					AND = {
-						pd_is_flooded_planet = yes
-						NOT = { is_planet_class = pc_relic }
-					}
-				}
+				NOT = { is_planet_class = pc_ocean }
 			}
 		}
 		NOT = {
@@ -366,15 +323,6 @@ district_farming = {
 					country_uses_food = no
 				}
 			}
-		}
-		pd_aw_is_necro_planet = no
-		pd_aw_is_megaflora_planet = no
-		NOR = {
-			pd_aw_is_wasteland_planet = yes
-			pd_aw_is_lithoid_planet = yes
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
 		}
 	}
 
@@ -390,16 +338,7 @@ district_farming = {
 	resources = {
 		category = planet_districts_farming
 		cost = {
-			trigger = {
-				pd_aw_is_megaflora_planet = no
-			}
 			minerals = @base_cost
-		}
-		cost = {
-			trigger = {
-				pd_aw_is_megaflora_planet = yes
-			}
-			food = @base_cost
 		}
 		# Anglers Civic cost effect
 		cost = {
@@ -563,6 +502,15 @@ district_farming = {
 			owner = { country_uses_food = no }
 		}
 	}
+
+	inline_script = { # Bug Branch
+		script = "districts/bugged_farming_districts"
+		BUGGED_FARMER_COUNT = 1
+	}
+	inline_script = { # Bug Branch
+		script = "districts/bugged_all_rural_districts"
+		BUGGED_HOUSING_COUNT = 1
+	}
 }
 
 district_generator_uncapped = {
@@ -584,13 +532,7 @@ district_generator_uncapped = {
 				}
 				uses_district_set = shattered_ring_world
 			}
-			pd_aw_is_megaflora_planet = yes
-			pd_aw_is_wasteland_planet = yes
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
 		}
-		NOT = { is_planet_class = pc_pd_flora_hive }
 	}
 
 	potential = {
@@ -607,21 +549,11 @@ district_generator_uncapped = {
 				}
 				uses_district_set = shattered_ring_world
 			}
-			pd_aw_is_megaflora_planet = yes
-			pd_aw_is_wasteland_planet = yes
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
 		}
-		NOT = { is_planet_class = pc_pd_flora_hive }
 	}
 
 	allow = {
-		NOR = {
-			has_modifier = resort_colony
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
-		}
+		NOT = { has_modifier = resort_colony }
 	}
 
 	conversion_ratio = 1
@@ -634,16 +566,7 @@ district_generator_uncapped = {
 	resources = {
 		category = planet_districts_generator
 		cost = {
-			trigger = {
-				pd_aw_is_megaflora_planet = no
-			}
 			minerals = @base_cost
-		}
-		cost = {
-			trigger = {
-				pd_aw_is_megaflora_planet = yes
-			}
-			food = @base_cost
 		}
 		upkeep = {
 			energy = 1
@@ -668,32 +591,10 @@ district_generator_uncapped = {
 
 	triggered_planet_modifier = {
 		potential = {
-			has_modifier = pd_aw_core_tap
-		}
-		modifier = {
-			planet_housing_add = 1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
 			exists = owner
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			job_technician_drone_add = 3
-		}
-	}
-
-	#PD Tree Of Life
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { is_hive_empire = yes }
-			has_deposit = d_pd_aw_tree_of_life_bloomed
-		}
-		modifier = {
-			planet_housing_add = 2
 			job_technician_drone_add = 3
 		}
 	}
@@ -712,8 +613,8 @@ district_generator_uncapped = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = {
-				is_machine_empire = yes
+			owner = { 
+				is_machine_empire = yes 
 				has_ascension_perk = ap_machine_worlds
 			}
 		}
@@ -722,7 +623,7 @@ district_generator_uncapped = {
 			planet_housing_add = 3
 		}
 	}
-
+	
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -770,6 +671,15 @@ district_generator_uncapped = {
 		}
 		text = job_fe_acolyte_generator_effect_desc
 	}
+
+	inline_script = { # Bug Branch
+		script = "districts/bugged_generator_districts"
+		BUGGED_TRADER_COUNT = 1
+	}
+	inline_script = { # Bug Branch
+		script = "districts/bugged_all_rural_districts"
+		BUGGED_HOUSING_COUNT = 1
+	}
 }
 
 district_mining_uncapped = {
@@ -802,13 +712,7 @@ district_mining_uncapped = {
 				from = { is_subterranean_empire = yes }
 				uses_district_set = standard
 			}
-			pd_aw_is_megaflora_planet = yes
-			pd_aw_is_wasteland_planet = yes
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
 		}
-		NOT = { is_planet_class = pc_pd_flora_hive }
 	}
 
 	potential = {
@@ -822,21 +726,11 @@ district_mining_uncapped = {
 				owner = { is_subterranean_empire = yes }
 				uses_district_set = standard
 			}
-			pd_aw_is_megaflora_planet = yes
-			pd_aw_is_wasteland_planet = yes
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
 		}
-		NOT = { is_planet_class = pc_pd_flora_hive }
 	}
 
 	allow = {
-		NOR = {
-			has_modifier = resort_colony
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_agriworld
-		}
+		NOT = { has_modifier = resort_colony }
 	}
 
 	conversion_ratio = 1
@@ -847,16 +741,7 @@ district_mining_uncapped = {
 	resources = {
 		category = planet_districts_mining
 		cost = {
-			trigger = {
-				pd_aw_is_megaflora_planet = no
-			}
 			minerals = @base_cost
-		}
-		cost = {
-			trigger = {
-				pd_aw_is_megaflora_planet = yes
-			}
-			food = @base_cost
 		}
 		upkeep = {
 			energy = 1
@@ -881,34 +766,11 @@ district_mining_uncapped = {
 
 	triggered_planet_modifier = {
 		potential = {
-			has_modifier = pd_aw_stripmine
-		}
-		modifier = {
-			planet_housing_add = 1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
 			NOT = { uses_district_set = shattered_ring_world }
 			exists = owner
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			job_mining_drone_add = 3
-		}
-	}
-
-	#PD Tree Of Life
-	triggered_planet_modifier = {
-		potential = {
-			NOT = { uses_district_set = shattered_ring_world }
-			exists = owner
-			owner = { is_hive_empire = yes }
-			has_deposit = d_pd_aw_tree_of_life_bloomed
-		}
-		modifier = {
-			planet_housing_add = 2
 			job_mining_drone_add = 3
 		}
 	}
@@ -929,8 +791,8 @@ district_mining_uncapped = {
 		potential = {
 			NOT = { uses_district_set = shattered_ring_world }
 			exists = owner
-			owner = {
-				is_machine_empire = yes
+			owner = { 
+				is_machine_empire = yes 
 				has_ascension_perk = ap_machine_worlds
 			}
 		}
@@ -1076,6 +938,14 @@ district_mining_uncapped = {
 
 	prerequisites = {
 	}
+
+	inline_script = { # Bug Branch
+		script = "districts/bugged_mining_districts"
+	}
+	inline_script = { # Bug Branch
+		script = "districts/bugged_all_rural_districts"
+		BUGGED_HOUSING_COUNT = 1
+	}
 }
 
 district_farming_uncapped = {
@@ -1087,12 +957,7 @@ district_farming_uncapped = {
 		OR = {
 			uses_district_set = hive_world
 			uses_district_set = shattered_ring_world
-			pd_aw_is_megaflora_planet = yes
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
 		}
-		NOT = { is_planet_class = pc_pd_flora_hive }
 	}
 
 	potential = {
@@ -1102,29 +967,10 @@ district_farming_uncapped = {
 			AND = {
 				exists = owner
 				owner = { is_anglers_empire = yes }
-				planet = {
-					OR = {
-						is_planet_class = pc_ocean
-						AND = {
-							has_modifier = flooded_habitat
-							NOR = {
-								is_planet_class = pc_ringworld_habitable
-								is_planet_class = pc_relic
-								is_planet_class = pc_habitat
-								is_planet_class = pc_city
-							}
-						}
-					}
-				}
+				planet = { is_planet_class = pc_ocean }
 			}
-			pd_aw_is_megaflora_planet = yes
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_agriworld
-			has_modifier = pd_aw_stripmine
 		}
-		NOR = {
-			is_planet_class = pc_pd_flora_hive
-			pd_aw_is_necro_planet = yes
+		NOT = {
 			AND = {
 				owner = { is_ai = yes }
 				owner = { country_uses_food = no }
@@ -1133,12 +979,7 @@ district_farming_uncapped = {
 	}
 
 	allow = {
-		NOR = {
-			has_modifier = resort_colony
-			pd_aw_is_wasteland_planet = yes
-			has_modifier = pd_aw_core_tap
-			has_modifier = pd_aw_stripmine
-		}
+		NOT = { has_modifier = resort_colony }
 	}
 
 	conversion_ratio = 1
@@ -1150,16 +991,7 @@ district_farming_uncapped = {
 	resources = {
 		category = planet_districts_farming
 		cost = {
-			trigger = {
-				pd_aw_is_megaflora_planet = no
-			}
 			minerals = @base_cost
-		}
-		cost = {
-			trigger = {
-				pd_aw_is_megaflora_planet = yes
-			}
-			food = @base_cost
 		}
 		# Anglers Civic cost effect
 		cost = {
@@ -1209,32 +1041,10 @@ district_farming_uncapped = {
 
 	triggered_planet_modifier = {
 		potential = {
-			has_modifier = pd_aw_agriworld
-		}
-		modifier = {
-			planet_housing_add = 1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
 			exists = owner
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			job_agri_drone_add = 3
-		}
-	}
-
-	#PD Tree Of Life
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { is_hive_empire = yes }
-			has_deposit = d_pd_aw_tree_of_life_bloomed
-		}
-		modifier = {
-			planet_housing_add = 2
 			job_agri_drone_add = 3
 		}
 	}
@@ -1340,5 +1150,15 @@ district_farming_uncapped = {
 			owner = { is_ai = yes }
 			owner = { country_uses_food = no }
 		}
+	}
+
+	inline_script = { # Bug Branch
+		script = "districts/bugged_farming_districts"
+		BUGGED_FARMER_COUNT = 1
+		BUGGED_HOUSING_COUNT = 1
+	}
+	inline_script = { # Bug Branch
+		script = "districts/bugged_all_rural_districts"
+		BUGGED_HOUSING_COUNT = 1
 	}
 }

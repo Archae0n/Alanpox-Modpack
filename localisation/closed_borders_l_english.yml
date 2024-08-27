@@ -1,0 +1,27 @@
+﻿l_english:
+
+ edict_force_close_borders:0 "End Truce & Close Borders"
+ edict_force_close_borders_desc:0 "We can close our borders to any country that we were recently at war with. However, doing so will also end our truce."
+
+ closeborders.2000.name: "End Truce & Close Borders"
+ closeborders.2000.desc: "At the cost of some political capital, we can pass legislation to immediately §Rend our truce§! and §Ysecure our borders§! against any country that we were recently at war with. However, doing so will also damage our relationships with other nations in the galaxy."
+
+ closeborders.2000.desc.fail: "We have no truces at the moment."
+ closeborders.2000.fail: "Alright."
+
+ closeborders.2000.back: "Nevermind."
+ closeborders.2000.truce_country_1: "§Y[truce_country_1.GetName]§!"
+ closeborders.2000.truce_country_2: "§Y[truce_country_2.GetName]§!"
+ closeborders.2000.truce_country_3: "§Y[truce_country_3.GetName]§!"
+ closeborders.2000.truce_country_4: "§Y[truce_country_4.GetName]§!"
+ closeborders.2000.truce_country_5: "§Y[truce_country_5.GetName]§!"
+ closeborders.2000.truce_country_6: "§Y[truce_country_6.GetName]§!"
+ closeborders.2000.truce_country_7: "§Y[truce_country_7.GetName]§!"
+ closeborders.2000.truce_country_8: "§Y[truce_country_8.GetName]§!"
+ closeborders.2000.truce_country_9: "§Y[truce_country_9.GetName]§!"
+ closeborders.2000.truce_country_10: "§Y[truce_country_10.GetName]§!"
+
+ influencefail_text_close_borders:0 "§RRequires§! §Y150§! £influence£ §HInfluence§!"
+ close_borders_broke_truce:0 "Broke a Truce"
+ opinion_closed_borders_broke_truce:0 "Broke our truce"
+ opinion_closed_borders_broke_truce_foreign:0 "Broke a truce"

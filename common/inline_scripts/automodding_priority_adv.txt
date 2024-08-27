@@ -1,0 +1,3 @@
+auto_trait_prio = {
+	trait_natural_machinist
+}

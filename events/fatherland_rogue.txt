@@ -1769,7 +1769,10 @@ country_event = {
 							has_country_flag = fatherland_roguesetup_ai
 						}
 					}
-					create_pop = { species = last_created_species }
+					while = {
+						count = 10
+						create_pop = { species = last_created_species }
+					}
 				}
 				else_if = {	### IF MACHINE EMPIRE CREATING MACHINE POP ROGUE
 					limit = {
@@ -1778,7 +1781,10 @@ country_event = {
 							has_country_flag = fatherland_roguesetup_machineintelligence
 						}
 					}
-					create_pop = { species = event_target:fatherland_species }
+					while = {
+						count = 10
+						create_pop = { species = last_created_species }
+					}
 				}
 				else = {	### IF NORMAL EMPIRE OR BIOTROPHIES
 					# limit = {
@@ -1795,19 +1801,19 @@ country_event = {
 					random_list = {
 						60 = {
 							while = {
-								count = 3
+								count = 10
 								create_pop = { species = event_target:fatherland_species }
 							}
 						}
 						35 = {
 							while = {
-								count = 4
+								count = 15
 								create_pop = { species = event_target:fatherland_species }
 							}
 						}
 						5 = {
 							while = {
-								count = 5
+								count = 20
 								create_pop = { species = event_target:fatherland_species }
 							}
 						}

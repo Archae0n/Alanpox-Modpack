@@ -1,0 +1,12 @@
+	name = DSST_$RESOURCE_TYPE$_DepositsProductionInfo
+
+	text = {
+		localization_key = dsst_base_production.$RESOURCE_TYPE$
+		trigger = {
+			any_deposit = {
+				has_resource = { type = $RESOURCE_TYPE$ amount > 0}
+			}
+		}
+	}
+	
+	default = BLANK_STRING

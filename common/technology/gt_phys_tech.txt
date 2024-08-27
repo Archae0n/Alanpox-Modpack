@@ -577,7 +577,7 @@ GT_planet_researchers_physics_research_produces_mult1 = {
 	tier = 2
 	category = { computing }	
 	prerequisites = { "tech_physics_1" }
-	weight = @tier2weight2
+	weight = 0
 	
 	modifier = {
 		planet_researchers_physics_research_produces_add = 0.5
@@ -710,7 +710,7 @@ GT_planet_researchers_physics_research_produces_mult2 = {
 	tier = 3
 	category = { computing }	
 	prerequisites = { "tech_physics_2" "GT_planet_researchers_physics_research_produces_mult1" }
-	weight = @tier3weight3
+	weight = 0
 	
 	modifier = {
 		planet_researchers_physics_research_produces_add = 0.5
@@ -1035,7 +1035,7 @@ GT_planet_researchers_physics_research_produces_mult3 = {
 	is_rare = yes
 	category = { computing }	
 	prerequisites = { "tech_physics_3" "GT_planet_researchers_physics_research_produces_mult2" }
-	weight = @tier4weight1
+	weight = 0
 	
 	modifier = {
 		planet_researchers_physics_research_produces_add = 0.5

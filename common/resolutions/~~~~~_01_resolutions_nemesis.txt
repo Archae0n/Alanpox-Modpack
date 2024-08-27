@@ -1,3 +1,7 @@
+# Bug Fixes 3.12.2 from Dr. Addiction  https://steamcommunity.com/workshop/filedetails/?id=2871620925
+# The resolution "A United Front" will now increase the damage done to the Great Khan.
+# Accordingly, the damage bonus of resolution "Anti-Piracy Initiative" to Khan has been removed. (In vanilla, AI will always trying passing "A United Front" when Khan awakened, but the resolution has no effect to Khan but reduce Energy production. )
+
 @resolution_weight_hated = 3
 @resolution_weight_disliked = 4
 @resolution_weight_unpopular = 5
@@ -13,707 +17,6 @@
 @resolution_cost_denounce = 25
 
 @resolution_flag_timer = 360
-
-resolution_declare_crisis = {
-	icon = "GFX_resolution_declare_crisis"
-
-	resources = {
-		category = resolutions
-		cost = {
-			influence = @resolution_cost_t5
-		}
-	}
-
-	target = yes
-	harmful = yes
-
-	valid_target = {
-		NOT = { is_same_value = from }
-		OR = {
-			is_country_type = default
-			AND = {
-				is_fallen_empire = yes
-				NOT = { has_global_flag = war_in_heaven_ongoing }
-			}
-		}
-		NOT = { has_country_flag = declared_crisis }
-	}
-
-	modifier = {
-		starbase_shipyard_build_speed_mult = 0.20
-		ships_upkeep_mult = -0.1
-	}
-
-	effect = {
-		custom_tooltip = resolution_declare_crisis_tooltip
-		hidden_effect = {
-			if = {
-				limit = { is_galactic_community_member = yes }
-				remove_from_galactic_community = yes
-			}
-			if = {
-				limit = {
-					is_galactic_council_established = yes
-					is_part_of_galactic_council = yes
-				}
-				remove_from_galactic_council = yes
-			}
-			every_subject = {
-				if = {
-					limit = { is_galactic_community_member = yes }
-					remove_from_galactic_community = yes
-				}
-				if = {
-					limit = {
-						is_galactic_council_established = yes
-						is_part_of_galactic_council = yes
-					}
-					remove_from_galactic_council = yes
-				}
-			}
-			set_country_flag = declared_crisis
-			save_event_target_as = new_crisis
-			country_event = { id = crisis.4105 }
-			every_playable_country = {
-				limit = {
-					is_ai = no
-					NOT = { is_same_value = prev }
-				}
-				country_event = { id = crisis.4100 }
-			}
-			if = {
-				limit = { has_galactic_custodian = yes }
-				galactic_custodian = {
-					save_event_target_as = community_war_leader
-					if = {
-						limit = { is_in_federation_with = event_target:new_crisis }
-						event_target:new_crisis = {
-							leave_alliance = { override_requirements = yes }
-						}
-					}
-				}
-			}
-			else_if = {
-				limit = { has_galactic_emperor = yes }
-				galactic_emperor = {
-					save_event_target_as = community_war_leader
-				}
-			}
-			else = {
-				random_playable_country = {
-					limit = {
-						is_galactic_community_member = yes
-						NOT = { is_in_federation_with = event_target:new_crisis }
-					}
-					weights = {
-						base = 1
-						modifier = {
-							add = 10000
-							galactic_community_rank = 1
-						}
-						modifier = {
-							add = 1000
-							galactic_community_rank = 2
-						}
-						modifier = {
-							add = 100
-							galactic_community_rank = 3
-						}
-						modifier = {
-							add = 10
-							is_galactic_council_established = yes
-							is_part_of_galactic_council = yes
-						}
-					}
-					save_event_target_as = community_war_leader
-				}
-			}
-
-			declare_crisis_war_effect = yes
-		}
-	}
-
-	potential = {
-		has_nemesis = yes
-		has_galactic_emperor = no
-		is_part_of_galactic_council = yes
-	}
-
-	ai_weight = {
-		base = @resolution_weight_hated
-
-		# Should almost always declare on Crisis countries in end game
-		modifier = {
-			factor = 50
-			from = {
-				has_country_flag = crisis_sphere_revealed
-			}
-			desc = gal_com_crisis_sphere_revealed
-		}
-
-		# More likely to declare on very powerful homicidal empires
-		modifier = {
-			factor = 10
-			from = {
-				is_homicidal = yes
-				relative_power = {
-					who = prev
-					category = fleet
-					value = overwhelming
-				}
-			}
-			desc = gal_com_target_is_very_strong_homicidal_empire
-		}
-		# More likely to declare on very powerful homicidal empires
-		modifier = {
-			factor = 5
-			from = {
-				is_homicidal = yes
-				relative_power = {
-					who = prev
-					category = fleet
-					value = superior
-				}
-			}
-			desc = gal_com_target_is_strong_homicidal_empire
-		}
-
-		# More likely to declare on rivals
-		modifier = {
-			factor = 2
-			is_rival = from
-			desc = gal_com_target_is_rival
-		}
-
-		# Never on yourself
-		modifier = {
-			factor = 0
-			is_same_value = from
-			desc = gal_com_target_is_me
-		}
-
-		# More likely to declare on a crisis country that has started cracking stars
-		modifier = {
-			factor = 6
-			from = { has_country_flag = cracked_first_star }
-			desc = gal_com_target_has_cracked_stars
-		}
-
-		# Should be reluctant to use on normal countries
-		modifier = {
-			factor = 0.2
-			OR = {
-				from = {
-					is_homicidal = no
-					NOR = {
-						has_country_flag = crisis_sphere_revealed
-						has_country_flag = cracked_first_star
-						is_at_war_with = root
-					}
-				}
-			}
-			desc = gal_com_target_is_a_normal_empire
-		}
-
-		# Very unlikely to use on Custodian
-		modifier = {
-			factor = 0.2
-			from = { is_galactic_custodian = yes }
-			desc = gal_com_target_is_the_custodian
-		}
-
-		# Unlikely to use on scary Fallen Empire
-		modifier = {
-			factor = 0.2
-			from = {
-				is_fallen_empire = yes
-				relative_power = {
-					who = prev
-					category = fleet
-					value = overwhelming
-				}
-			}
-			desc = gal_com_target_is_powerful_fallen_empire
-		}
-
-		modifier = {
-			factor = 0.5
-			from = {
-				NOR = {
-					has_ascension_perk = ap_become_the_crisis
-					has_ascension_perk = ap_cosmogenesis
-				}
-			}
-			desc = gal_com_target_does_not_have_crisis_perk
-		}
-
-		modifier = {
-			factor = 2
-			from = {
-				OR = {
-					has_crisis_level = crisis_level_3
-					has_crisis_level = crisis_cosmogenesis_level_3
-				}
-			}
-			has_intel_level = {
-				who = from
-				category = government
-				level >= 2
-			}
-			desc = gal_com_crisis_level_3
-		}
-
-		modifier = {
-			factor = 2
-			OR = {
-				has_crisis_level = crisis_level_4
-				has_crisis_level = crisis_cosmogenesis_level_4
-			}
-			desc = gal_com_crisis_level_4
-		}
-
-		modifier = {
-			factor = 5
-			OR = {
-				has_crisis_level = crisis_level_5
-				has_crisis_level = crisis_cosmogenesis_level_5
-			}
-			desc = gal_com_crisis_level_5
-		}
-	}
-}
-
-resolution_repeal_crisis = {
-	icon = "GFX_resolution_repeal_red"
-
-	resources = {
-		category = resolutions
-		cost = {
-			influence = @resolution_cost_t5
-		}
-	}
-
-	target = yes
-	harmful = no
-
-	valid_target = {
-		OR = {
-			is_country_type = default
-			is_fallen_empire = yes
-		}
-		has_country_flag = declared_crisis
-	}
-
-	effect = {
-		hidden_effect = {
-			remove_country_flag = declared_crisis
-			save_event_target_as = former_crisis
-			random_war = {
-				limit = {
-					using_war_goal = {
-						type = wg_declared_crisis
-						owner = event_target:former_crisis
-					}
-				}
-				every_war_participant = {
-					limit = {
-						NOT = { is_same_value = event_target:former_crisis }
-					}
-					country_event = { id = crisis.4110 }
-				}
-				every_war_participant = {
-					prev = {
-						remove_war_participant = prev
-					}
-				}
-			}
-			country_event = { id = crisis.4111 }
-		}
-	}
-
-	potential = {
-		has_galactic_emperor = no
-		has_nemesis = yes
-	}
-
-	ai_weight = {
-		base = @resolution_weight_hated
-
-		# More likely to repeal if it's a normal country
-		modifier = {
-			factor = 4
-			from = {
-				is_homicidal = no
-				NOR = {
-					has_country_flag = crisis_sphere_revealed
-					has_country_flag = cracked_first_star
-					has_crisis_level = crisis_level_5
-					has_crisis_level = crisis_cosmogenesis_level_5
-				}
-			}
-			desc = gal_com_target_is_a_normal_empire
-		}
-
-		# Should be very unlikely to repeal end game crisis country
-		modifier = {
-			factor = 0.2
-			from = {
-				OR = {
-					has_country_flag = crisis_sphere_revealed
-					has_country_flag = cracked_first_star
-					has_crisis_level = crisis_level_5
-					has_crisis_level = crisis_cosmogenesis_level_5
-				}
-			}
-			desc = gal_com_target_is_a_crisis_empire
-		}
-
-		# Unlikely to repeal very powerful homicidal countries
-		modifier = {
-			factor = 0.2
-			from = {
-				is_homicidal = yes
-				relative_power = {
-					who = prev
-					category = fleet
-					value = overwhelming
-				}
-			}
-			desc = gal_com_target_is_very_strong_homicidal_empire
-		}
-	}
-}
-
-resolution_declare_crisis_empire = {
-	icon = "GFX_resolution_declare_crisis"
-
-	resources = {
-		category = resolutions
-		cost = {
-			influence = @resolution_cost_t5
-		}
-	}
-
-	target = yes
-	harmful = yes
-
-	valid_target = {
-		NOT = { is_same_value = from }
-		is_galactic_emperor = no
-		OR = {
-			is_country_type = default
-			AND = {
-				is_fallen_empire = yes
-				NOT = { has_global_flag = war_in_heaven_ongoing }
-			}
-		}
-		NOT = { has_country_flag = declared_crisis }
-	}
-
-	modifier = {
-		starbase_shipyard_build_speed_mult = 0.20
-		ships_upkeep_mult = -0.1
-	}
-
-	effect = {
-		custom_tooltip = resolution_declare_crisis_empire_tooltip
-		hidden_effect = {
-			if = {
-				limit = { is_galactic_community_member = yes }
-				remove_from_galactic_community = yes
-			}
-			if = {
-				limit = {
-					is_galactic_council_established = yes
-					is_part_of_galactic_council = yes
-				}
-				remove_from_galactic_council = yes
-			}
-			every_subject = {
-				if = {
-					limit = { is_galactic_community_member = yes }
-					remove_from_galactic_community = yes
-				}
-				if = {
-					limit = {
-						is_galactic_council_established = yes
-						is_part_of_galactic_council = yes
-					}
-					remove_from_galactic_council = yes
-				}
-			}
-
-			set_country_flag = declared_crisis
-			save_event_target_as = new_crisis
-			country_event = { id = crisis.4106 }
-			every_playable_country = {
-				limit = {
-					is_ai = no
-					NOT = { is_same_value = prev }
-				}
-				country_event = { id = crisis.4101 }
-			}
-			galactic_emperor = {
-				save_event_target_as = community_war_leader
-			}
-			declare_crisis_war_effect = yes
-		}
-	}
-
-	potential = {
-		has_galactic_emperor = yes
-		has_nemesis = yes
-		is_part_of_galactic_council = yes
-	}
-
-	ai_weight = {
-		base = @resolution_weight_hated
-
-		# Should almost always declare on Crisis countries in end game
-		modifier = {
-			factor = 50
-			from = {
-				has_country_flag = crisis_sphere_revealed
-			}
-			desc = gal_com_crisis_sphere_revealed
-		}
-
-		# More likely to declare on very powerful homicidal empires
-		modifier = {
-			factor = 10
-			from = {
-				is_homicidal = yes
-				relative_power = {
-					who = prev
-					category = fleet
-					value = overwhelming
-				}
-			}
-			desc = gal_com_target_is_very_strong_homicidal_empire
-		}
-		# More likely to declare on very powerful homicidal empires
-		modifier = {
-			factor = 5
-			from = {
-				is_homicidal = yes
-				relative_power = {
-					who = prev
-					category = fleet
-					value = superior
-				}
-			}
-			desc = gal_com_target_is_strong_homicidal_empire
-		}
-
-		# More likely to declare on rivals
-		modifier = {
-			factor = 2
-			is_rival = from
-			desc = gal_com_target_is_rival
-		}
-
-		# Never on yourself
-		modifier = {
-			factor = 0
-			is_same_value = from
-			desc = gal_com_target_is_me
-		}
-
-		# More likely to declare on empire who hvae cracked a star
-		modifier = {
-			factor = 6
-			from = { has_country_flag = cracked_first_star }
-			desc = gal_com_target_has_cracked_stars
-		}
-
-		# Should be reluctant to use on normal countries
-		modifier = {
-			factor = 0.2
-			OR = {
-				from = {
-					is_homicidal = no
-					NOR = {
-						has_country_flag = crisis_sphere_revealed
-						has_country_flag = cracked_first_star
-						is_at_war_with = root
-					}
-				}
-			}
-			desc = gal_com_target_is_a_normal_empire
-		}
-
-		# Very unlikely to use on Custodian
-		modifier = {
-			factor = 0.2
-			from = { is_galactic_custodian = yes }
-			desc = gal_com_target_is_the_custodian
-		}
-
-		# Unlikely to use on scary Fallen Empire
-		modifier = {
-			factor = 0.2
-			from = {
-				is_fallen_empire = yes
-				relative_power = {
-					who = prev
-					category = fleet
-					value = overwhelming
-				}
-			}
-			desc = gal_com_target_is_powerful_fallen_empire
-		}
-
-		modifier = {
-			factor = 0.5
-			from = {
-				NOR = {
-					has_ascension_perk = ap_become_the_crisis
-					has_ascension_perk = ap_cosmogenesis
-				}
-			}
-			desc = gal_com_target_does_not_have_crisis_perk
-		}
-
-		modifier = {
-			factor = 2
-			from = {
-				OR = {
-					has_crisis_level = crisis_level_3
-					has_crisis_level = crisis_cosmogenesis_level_3
-				}
-			}
-			has_intel_level = {
-				who = from
-				category = government
-				level >= 2
-			}
-			desc = gal_com_crisis_level_3
-		}
-
-		modifier = {
-			factor = 2
-			OR = {
-				has_crisis_level = crisis_level_4
-				has_crisis_level = crisis_cosmogenesis_level_4
-			}
-			desc = gal_com_crisis_level_4
-		}
-
-		modifier = {
-			factor = 5
-			OR = {
-				has_crisis_level = crisis_level_5
-				has_crisis_level = crisis_cosmogenesis_level_5
-			}
-			desc = gal_com_crisis_level_5
-		}
-	}
-}
-
-resolution_repeal_crisis_empire = {
-	icon = "GFX_resolution_repeal_red"
-
-	resources = {
-		category = resolutions
-		cost = {
-			influence = @resolution_cost_t5
-		}
-	}
-
-	target = yes
-	harmful = no
-
-	valid_target = {
-		OR = {
-			is_country_type = default
-			is_fallen_empire = yes
-		}
-		has_country_flag = declared_crisis
-	}
-
-	effect = {
-		hidden_effect = {
-			remove_country_flag = declared_crisis
-			save_event_target_as = former_crisis
-			random_playable_country = {
-				limit = { is_galactic_emperor = yes }
-				save_event_target_as = gal_emperor
-			}
-			random_war = {
-				limit = {
-					using_war_goal = {
-						type = wg_declared_crisis
-						owner = event_target:former_crisis
-					}
-				}
-				every_war_participant = {
-					limit = {
-						NOT = { is_same_value = event_target:former_crisis }
-					}
-					country_event = { id = crisis.4112 }
-				}
-				every_war_participant = {
-					prev = {
-						remove_war_participant = prev
-					}
-				}
-			}
-			country_event = { id = crisis.4113 }
-		}
-	}
-
-	potential = {
-		has_galactic_emperor = yes
-		has_nemesis = yes
-	}
-
-	ai_weight = {
-		base = @resolution_weight_hated
-
-		# More likely to repeal if it's a normal country
-		modifier = {
-			factor = 4
-			from = {
-				is_homicidal = no
-				NOR = {
-					has_country_flag = crisis_sphere_revealed
-					has_country_flag = cracked_first_star
-					has_crisis_level = crisis_level_5
-					has_crisis_level = crisis_cosmogenesis_level_5
-				}
-			}
-			desc = gal_com_target_is_a_normal_empire
-		}
-
-		# Should be very unlikely to repeal end game crisis country
-		modifier = {
-			factor = 0.2
-			from = {
-				OR = {
-					has_country_flag = crisis_sphere_revealed
-					has_country_flag = cracked_first_star
-					has_crisis_level = crisis_level_5
-					has_crisis_level = crisis_cosmogenesis_level_5
-				}
-			}
-			desc = gal_com_target_is_a_crisis_empire
-		}
-
-		# Unlikely to repeal very powerful homicidal countries
-		modifier = {
-			factor = 0.2
-			from = {
-				is_homicidal = yes
-				relative_power = {
-					who = prev
-					category = fleet
-					value = overwhelming
-				}
-			}
-			desc = gal_com_target_is_very_strong_homicidal_empire
-		}
-	}
-}
 
 # United Front
 resolution_custodian_united_front = {
@@ -759,10 +62,7 @@ resolution_custodian_united_front = {
 		is_galactic_custodian = yes
 		OR = {
 			any_country = { is_crisis_faction = yes }
-			any_country = { has_crisis_level = crisis_level_5 }
-			any_country = { has_crisis_level = crisis_cosmogenesis_level_5 }
 			any_country = {
-				is_homicidal = yes
 				has_been_declared_crisis = yes
 			}
 		}
@@ -834,18 +134,16 @@ resolution_custodian_united_front = {
 		modifier = {
 			factor = 0.5
 			has_ai_personality = xenophobic_isolationists
-			NOT = {
-				any_neighbor_country = { is_crisis_faction = yes }
+			count_neighbor_country = {
+				limit = { is_crisis_faction = yes }
+				count = 0
 			}
 			desc = personality_xenophobic_isolationists
 		}
 
 		modifier = {
 			factor = 0
-			OR = {
-				has_ascension_perk = ap_become_the_crisis
-				has_ascension_perk = ap_cosmogenesis
-			}
+			has_ascension_perk = ap_become_the_crisis
 			desc = gal_com_we_have_crisis_perk
 		}
 
@@ -866,17 +164,14 @@ resolution_custodian_united_front = {
 			factor = 0
 			is_subject = yes
 			overlord = {
-				OR = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
-				}
+				is_fallen_empire = yes
 			}
 			desc = gal_com_subject_of_fallen_empire
 		}
 
 		modifier = {
 			factor = 10
-			any_country = { is_country_type = awakened_fallen_empire }
+			any_country = { merg_is_awakened_fe = yes }
 			desc = gal_com_exists_awakened_fallen_empire
 		}
 
@@ -905,6 +200,7 @@ resolution_custodian_anti_piracy = {
 		local_trade_protection_add = 5
 		damage_vs_country_type_pirate_mult = 0.2
 		damage_vs_country_type_dormant_marauders_mult = 0.2
+		# damage_vs_country_type_awakened_marauders_mult = 0.2
 		country_energy_produces_mult = -0.03
 	}
 
@@ -932,8 +228,9 @@ resolution_custodian_anti_piracy = {
 		modifier = {
 			factor = 0.5
 			is_gestalt = yes
-			NOT = {
-				any_neighbor_country = { is_country_type = dormant_marauders }
+			count_neighbor_country = {
+				limit = { is_country_type = dormant_marauders }
+				count = 0
 			}
 			desc = ethic_gestalt_consciousness
 		}
@@ -988,12 +285,13 @@ resolution_custodian_end_custodianship = {
 
 	ai_weight = {
 		base = @resolution_weight_popular
-		
+
 		modifier = {
 			factor = 1.6
 			is_xenophobe = yes
-			NOT = {
-				any_neighbor_country = { is_crisis_faction = yes }
+			count_neighbor_country = {
+				limit = { is_crisis_faction = yes }
+				count = 0
 			}
 			desc = ethic_xenophobe
 		}
@@ -1054,13 +352,10 @@ resolution_custodian_end_custodianship = {
 
 		modifier = {
 			factor = 20
-			OR = {
-				has_ascension_perk = ap_become_the_crisis
-				has_ascension_perk = ap_cosmogenesis
-			}
+			has_ascension_perk = ap_become_the_crisis
 			desc = gal_com_we_have_crisis_perk
 		}
-
+		
 		modifier = {
 			factor = 0
 			is_galactic_custodian = yes
@@ -1071,10 +366,7 @@ resolution_custodian_end_custodianship = {
 			factor = 20
 			is_subject = yes
 			overlord = {
-				OR = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
-				}
+				is_fallen_empire = yes
 			}
 			desc = gal_com_subject_of_fallen_empire
 		}
@@ -1087,7 +379,7 @@ resolution_custodian_end_custodianship = {
 
 		modifier = {
 			factor = 0.2
-			any_country = { is_country_type = awakened_fallen_empire }
+			any_country = { merg_is_awakened_fe = yes }
 			desc = gal_com_exists_awakened_fallen_empire
 		}
 
@@ -1214,18 +506,16 @@ resolution_emperor_united_front = {
 		modifier = {
 			factor = 0.5
 			has_ai_personality = xenophobic_isolationists
-			NOT = {
-				any_neighbor_country = { is_crisis_faction = yes }
+			count_neighbor_country = {
+				limit = { is_crisis_faction = yes }
+				count = 0
 			}
 			desc = personality_xenophobic_isolationists
 		}
 
 		modifier = {
 			factor = 0
-			OR = {
-				has_ascension_perk = ap_become_the_crisis
-				has_ascension_perk = ap_cosmogenesis
-			}
+			has_ascension_perk = ap_become_the_crisis
 			desc = gal_com_we_have_crisis_perk
 		}
 
@@ -1246,17 +536,14 @@ resolution_emperor_united_front = {
 			factor = 0
 			is_subject = yes
 			overlord = {
-				OR = {
-					is_country_type = fallen_empire
-					is_country_type = awakened_fallen_empire
-				}
+				is_fallen_empire = yes
 			}
 			desc = gal_com_subject_of_fallen_empire
 		}
 
 		modifier = {
 			factor = 10
-			any_country = { is_country_type = awakened_fallen_empire }
+			any_country = { merg_is_awakened_fe = yes }
 			desc = gal_com_exists_awakened_fallen_empire
 		}
 

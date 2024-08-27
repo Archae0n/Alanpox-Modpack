@@ -1,0 +1,34 @@
+﻿l_polish:
+ dsst_dyson_swarm_no_tech_system_tooltip: "§EPotencjał Rój Dysona:§!$TABBED_NEW_LINE$ - Wymagane badania!"
+ dsst_dyson_swarm_limit_reached_system_tooltip: "§EPotencjał Rój Dysona:§!$TABBED_NEW_LINE$ - Osiągnięty limit!"
+ dsst_dyson_swarm_system_tooltip: "§EPotencjał Rój Dysona:§!$TABBED_NEW_LINE$ - Produkcja podstawowa:§Y[Root.star.DSST_DysonSwarmDepositsBaseProduction]§!"
+ 
+ dsst_single_deposit_production: " [Root.last_added_deposit.GetName]"
+ dsst_multi_deposits_production: "[Root.DSST_energy_DepositsProductionInfo][Root.DSST_minerals_DepositsProductionInfo][Root.DSST_food_DepositsProductionInfo][Root.DSST_consumer_goods_DepositsProductionInfo][Root.DSST_alloys_DepositsProductionInfo][Root.DSST_physics_research_DepositsProductionInfo][Root.DSST_society_research_DepositsProductionInfo][Root.DSST_engineering_research_DepositsProductionInfo][Root.DSST_unity_DepositsProductionInfo][Root.DSST_influence_DepositsProductionInfo][Root.DSST_volatile_motes_DepositsProductionInfo][Root.DSST_exotic_gases_DepositsProductionInfo][Root.DSST_rare_crystals_DepositsProductionInfo][Root.DSST_sr_living_metal_DepositsProductionInfo][Root.DSST_sr_zro_DepositsProductionInfo][Root.DSST_sr_dark_matter_DepositsProductionInfo][Root.DSST_nanites_DepositsProductionInfo]"
+
+### Basic Resources
+ dsst_base_production.energy: " £energy£ +[Root.DSST_GetDepositsSum_energy]"
+ dsst_base_production.minerals: " £mineral£ +[Root.DSST_GetDepositsSum_minerals]"
+ dsst_base_production.food: " £food£ +[Root.DSI_GetDepositsSum_food]"
+
+ dsst_base_production.physics_research: " £physics_research£ +[Root.DSST_GetDepositsSum_physics_research]"
+ dsst_base_production.society_research: " £society_research£ +[Root.DSST_GetDepositsSum_society_research]"
+ dsst_base_production.engineering_research: " £engineering_research£ +[Root.DSST_GetDepositsSum_engineering_research]"
+
+ dsst_base_production.influence: " £influence£ +[Root.DSST_Get_DepositsSum_influence]"
+ dsst_base_production.unity: " £unity£ +[Root.DSST_GetDepositsSum_unity]"
+
+ ### Advanced Resources
+ dsst_base_production.consumer_goods: " £consumer_goods£ +[Root.DSST_GetDepositsSum_goods]"
+ dsst_base_production.alloys: " £alloys£ +[Root.DSST_GetDepositsSum_alloys]"
+
+ ### Strategic Resources
+ dsst_base_production.volatile_motes: " £volatile_motes£ +[Root.DSST_GetDepositsSum_volatile_motes]"
+ dsst_base_production.exotic_gases: " £exotic_gases£ +[Root.DSST_GetDepositsSum_exotic_gases]"
+ dsst_base_production.rare_crystals: " £rare_crystals£ +[Root.DSST_GetDepositsSum_rare_crystals]"
+
+ ###  Rare Resources
+ dsst_base_production.sr_living_metal: " £sr_living_metal£ +[Root.DSST_GetDepositsSum_sr_living_metal]"
+ dsst_base_production.sr_zro: " £sr_zro£ +[Root.DSST_GetDepositsSum_sr_zro]"
+ dsst_base_production.sr_dark_matter: " £sr_dark_matter£ +[Root.DSST_GetDepositsSum_sr_dark_matter]"
+ dsst_base_production.nanites: " £nanites£ +[Root.DSST_GetDepositsSum_nanites]"

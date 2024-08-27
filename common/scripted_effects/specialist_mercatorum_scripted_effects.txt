@@ -1,0 +1,849 @@
+# this = leader
+add_mercatorum_leader_trait = {
+	optimize_memory
+	random_list = {
+		1 = { add_trait_no_notify = leader_trait_mercatorum_trader }
+		1 = { add_trait_no_notify = leader_trait_mercatorum_economist }
+		1 = { add_trait_no_notify = leader_trait_mercatorum_industrialist }
+	}
+}
+
+# this = leader
+remove_mercatorum_leader_trait = {
+	optimize_memory
+	if = {
+		limit = { has_trait = leader_trait_mercatorum_trader }
+		remove_trait = leader_trait_mercatorum_trader
+	}
+	if = {
+		limit = { has_trait = leader_trait_mercatorum_economist }
+		remove_trait = leader_trait_mercatorum_economist
+	}
+	if = {
+		limit = { has_trait = leader_trait_mercatorum_industrialist }
+		remove_trait = leader_trait_mercatorum_industrialist
+	}
+}
+
+# this = country
+# $CIVIC$ = name of the civic to check for and, if present, add a country flag of the same name
+set_civic_flag_if_present = {
+	optimize_memory
+	if = {
+		limit = { has_civic = $CIVIC$ }
+		set_country_flag = $CIVIC$
+	}
+}
+
+# this = country
+# $FLAG$ = the flag that controls whether the specified civic is added (removed if present)
+# $CIVIC$ = the civic to add if the given country flag is present
+# variable num_civics_to_add = the civic will only be added if this variable is > 0; decrememnted if the civic is added
+add_civic_if_flag_present = {
+	optimize_memory
+	if = {
+		limit = { has_country_flag = $FLAG$ }
+		if = {
+			limit = {
+				check_variable = {
+					which = num_civics_to_add
+					value > 0
+				}
+			}
+			force_add_civic = $CIVIC$
+			subtract_variable = {
+				which = num_civics_to_add
+				value = 1
+			}
+		}
+		remove_country_flag = $FLAG$
+	}
+}
+
+# this = country
+# $CIVIC$ = the civic to add if not already present
+# variable num_civics_to_add = the civic will only be added if this variable is > 0; decrememnted if the civic is added
+add_civic_if_not_present = {
+	optimize_memory
+	if = {
+		limit = {
+			NOT = { has_civic = $CIVIC$ }
+			check_variable = {
+				which = num_civics_to_add
+				value > 0
+			}
+		}
+		force_add_civic = $CIVIC$
+		subtract_variable = {
+			which = num_civics_to_add
+			value = 1
+		}
+	}
+}
+
+# this = country, mercatorum subject
+try_convert_to_mercatorum_megacorp = {
+	optimize_memory
+	if = {
+		limit = {
+			OR = {
+				is_megacorp = no
+				is_criminal_syndicate = yes
+			}
+		}
+		export_trigger_value_to_variable = {
+			trigger = has_total_civic_points
+			variable = num_civics_to_add
+		}
+		change_variable = {
+			which = num_civics_to_add
+			value = -1 # because the subject is always assigned civic_free_traders
+		}
+		# flag for civics that have a (near-)direct corporate equivalent
+		set_civic_flag_if_present = { CIVIC = civic_crafters }
+		set_civic_flag_if_present = { CIVIC = civic_anglers }
+		set_civic_flag_if_present = { CIVIC = civic_pleasure_seekers }
+		set_civic_flag_if_present = { CIVIC = civic_slaver_guilds }
+		set_civic_flag_if_present = { CIVIC = civic_death_cult }
+		set_civic_flag_if_present = { CIVIC = civic_relentless_industrialists }
+		set_civic_flag_if_present = { CIVIC = civic_catalytic_processing }
+		set_civic_flag_if_present = { CIVIC = civic_scavengers }
+		set_civic_flag_if_present = { CIVIC = civic_toxic_baths }
+		set_civic_flag_if_present = { CIVIC = civic_reanimated_armies }
+		set_civic_flag_if_present = { CIVIC = civic_cutthroat_politics }
+		set_civic_flag_if_present = { CIVIC = civic_diplomatic_corps }
+		set_civic_flag_if_present = { CIVIC = civic_idealistic_foundation }
+		set_civic_flag_if_present = { CIVIC = civic_beacon_of_liberty }
+		set_civic_flag_if_present = { CIVIC = civic_citizen_service }
+		set_civic_flag_if_present = { CIVIC = civic_warrior_culture }
+		set_civic_flag_if_present = { CIVIC = civic_exalted_priesthood }
+		set_civic_flag_if_present = { CIVIC = civic_ascensionists }
+		set_civic_flag_if_present = { CIVIC = civic_feudal_realm }
+		set_civic_flag_if_present = { CIVIC = civic_crusader_spirit }
+		set_civic_flag_if_present = { CIVIC = civic_heroic_tales }
+		set_civic_flag_if_present = { CIVIC = civic_memory_vault_corporate }
+		set_civic_flag_if_present = { CIVIC = civic_criminal_heritage }
+		# shift ethics as required for a megacorp
+		# special handling for Ethics and Civics variants
+		if = {
+			limit = {
+				OR = {
+					has_ethics_and_civics_classic_active = yes
+					has_ethics_and_civics_redux_active = yes
+					has_ecaf_overhaul = yes
+				}
+			}
+			# swap socialism for the opposite capitalism
+			if = {
+				limit = { is_socialism = yes }
+				if = {
+					limit = { has_ethic = ethic_fanatic_socialism }
+					country_remove_ethic = ethic_fanatic_socialism
+					country_add_ethic = ethic_fanatic_capitalism
+				}
+				else_if = {
+					limit = { has_ethic = ethic_socialism }
+					country_remove_ethic = ethic_socialism
+					country_add_ethic = ethic_capitalism
+				}
+			}
+			# not capitalism, so need to shift to it
+			else_if = {
+				limit = {
+					OR = {
+						is_capitalism = no
+						AND = {
+							has_ethics_and_civics_redux_active = yes
+							NOT = { has_ethic = ethic_focused }
+						}
+					}
+				}
+				shift_ethic = ethic_capitalism
+			}
+			# swap xenophobia for the opposite xenophilia
+			if = {
+				limit = {
+					has_ecaf_overhaul = yes
+					is_xenophobe = yes
+				}
+				if = {
+					limit = { has_ethic = ethic_fanatic_xenophobe }
+					country_remove_ethic = ethic_fanatic_xenophobe
+					country_add_ethic = ethic_fanatic_xenophile
+				}
+				else_if = {
+					limit = { has_ethic = ethic_xenophobe }
+					country_remove_ethic = ethic_xenophobe
+					country_add_ethic = ethic_xenophile
+				}
+			}
+		}
+		# not fanatic authoritarian or fanatic egalitarian
+		if = {
+			limit = {
+				OR = {
+					has_ethic = ethic_fanatic_authoritarian
+					has_ethic = ethic_fanatic_egalitarian
+				}
+			}
+			if = {
+				limit = { has_ethic = ethic_fanatic_authoritarian }
+				country_remove_ethic = ethic_fanatic_authoritarian
+				country_add_ethic = ethic_authoritarian
+			}
+			else_if = {
+				limit = { has_ethic = ethic_fanatic_egalitarian }
+				country_remove_ethic = ethic_fanatic_egalitarian
+				country_add_ethic = ethic_egalitarian
+			}
+			if = {
+				limit = {
+					any_pop_faction = {
+						NOR = {
+							has_ethic = ethic_authoritarian
+							has_ethic = ethic_egalitarian
+						}
+					}
+				}
+				ordered_pop_faction = {
+					limit = {
+						NOR = {
+							has_ethic = ethic_authoritarian
+							has_ethic = ethic_egalitarian
+						}
+					}
+					order_by = trigger:support
+					position = 0
+					switch = {
+						trigger = has_ethic
+						ethic_pacifist = {
+							prev = {
+								try_country_add_ethic = {
+									ETHIC = pacifist
+									OPPOSING_ETHIC = militarist
+								}
+							}
+						}
+						ethic_militarist = {
+							prev = {
+								try_country_add_ethic = {
+									ETHIC = militarist
+									OPPOSING_ETHIC = pacifist
+								}
+							}
+						}
+						ethic_xenophobe = {
+							prev = {
+								try_country_add_ethic = {
+									ETHIC = xenophobe
+									OPPOSING_ETHIC = xenophile
+								}
+							}
+						}
+						ethic_xenophile = {
+							prev = {
+								try_country_add_ethic = {
+									ETHIC = xenophile
+									OPPOSING_ETHIC = xenophobe
+								}
+							}
+						}
+						ethic_materialist = {
+							prev = {
+								try_country_add_ethic = {
+									ETHIC = materialist
+									OPPOSING_ETHIC = spiritualist
+								}
+							}
+						}
+						ethic_spiritualist = {
+							prev = {
+								try_country_add_ethic = {
+									ETHIC = spiritualist
+									OPPOSING_ETHIC = materialist
+								}
+							}
+						}
+						default = {
+							log = "\\[This.GetRealName] has non-authoritarian/non-egalitarian factions, but none are using the built-in ethics; falling back an arbitrary order for a replacement ethic"
+						}
+					}
+				}
+			}
+			else = {
+				log = "could not a find a pop_faction using one of the built-in non-authoritarian/non-egalitarian ethics for \\[This.GetRealName]; falling back an arbitrary order for a replacement ethic"
+			}
+			if = {
+				limit = { has_country_flag = try_country_add_ethic_success }
+				remove_country_flag = try_country_add_ethic_success
+			}
+			else = {
+				try_country_add_ethic = {
+					ETHIC = xenophile
+					OPPOSING_ETHIC = xenophobe
+				}
+				try_country_add_ethic = {
+					ETHIC = materialist
+					OPPOSING_ETHIC = spiritualist
+				}
+				try_country_add_ethic = {
+					ETHIC = spiritualist
+					OPPOSING_ETHIC = materialist
+				}
+				try_country_add_ethic = {
+					ETHIC = militarist
+					OPPOSING_ETHIC = pacifist
+				}
+				try_country_add_ethic = {
+					ETHIC = xenophobe
+					OPPOSING_ETHIC = xenophile
+				}
+				try_country_add_ethic = {
+					ETHIC = pacifist
+					OPPOSING_ETHIC = militarist
+				}
+				if = {
+					limit = { has_country_flag = try_country_add_ethic_success }
+					remove_country_flag = try_country_add_ethic_success
+				}
+				else = {
+					log_error = "\\[This.GetRealName] could not add any of the built-in ethics as a replacement for fanatic authoritarianism/fanatic egalitarianism"
+				}
+			}
+		}
+		change_government = {
+			authority = auth_corporate
+			civics = { civic = civic_free_traders }
+			cooldown = yes
+			remove_invalid_civics = yes
+		}
+		# add equivalent civics
+		add_civic_if_flag_present = {
+			FLAG = civic_crafters
+			CIVIC = civic_corporate_crafters
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_anglers
+			CIVIC = civic_corporate_anglers
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_pleasure_seekers
+			CIVIC = civic_corporate_hedonism
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_slaver_guilds
+			CIVIC = civic_indentured_assets
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_death_cult
+			CIVIC = civic_death_cult_corporate
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_relentless_industrialists
+			CIVIC = civic_corporate_relentless_industrialists
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_catalytic_processing
+			CIVIC = civic_corporate_catalytic_processing
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_scavengers
+			CIVIC = civic_corporate_scavengers
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_toxic_baths
+			CIVIC = civic_corporate_toxic_baths
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_reanimated_armies
+			CIVIC = civic_permanent_employment
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_cutthroat_politics
+			CIVIC = civic_ruthless_competition
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_diplomatic_corps
+			CIVIC = civic_public_relations_specialists
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_idealistic_foundation
+			CIVIC = civic_media_conglomerate
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_beacon_of_liberty
+			CIVIC = civic_brand_loyalty
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_citizen_service
+			CIVIC = civic_naval_contractors
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_warrior_culture
+			CIVIC = civic_private_military_companies
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_exalted_priesthood
+			CIVIC = civic_gospel_of_the_masses
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_ascensionists
+			CIVIC = civic_corporate_ascensionists
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_feudal_realm
+			CIVIC = civic_franchising
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_crusader_spirit
+			CIVIC = civic_crusader_spirit_corporate
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_heroic_tales
+			CIVIC = civic_task_delegation_corporate
+		}
+		add_civic_if_flag_present = {
+			FLAG = civic_memory_vault
+			CIVIC = civic_memory_vault_corporate
+		}
+		if = {
+			limit = { has_country_flag = civic_criminal_heritage }
+			every_galaxy_planet = {
+				limit = {
+					is_colony = yes
+					has_branch_office = yes
+					branch_office_owner = { is_country = prevprev }
+				}
+				try_convert_branch_office_to_normal = yes
+			}
+			remove_country_flag = civic_criminal_heritage
+		}
+		# backup civics in case points remain unspent - no more than 2 can ever be added, so a minimum of two fallbacks are needed
+		# (repeats are ok because they would have transferred above if the non-corporate "equivalent" was present)
+		if = {
+			limit = { has_humanoids = yes }
+			add_civic_if_not_present = { CIVIC = civic_corporate_crafters }
+		}
+		add_civic_if_not_present = { CIVIC = civic_public_relations_specialists }
+		add_civic_if_not_present = { CIVIC = civic_trading_posts }
+		add_civic_if_not_present = { CIVIC = civic_media_conglomerate }
+		clear_variable = num_civics_to_add
+	}
+}
+
+# set a varible with the owner's $RESOURCE$ deficit monthly income shortfall - but only if it hasn't been set, or this month is worse (lower) than the saved amount
+# root = country, overlord
+# this = situation, deficit
+# $RESOURCE$ = the resource for which to export the monthly deficit
+set_owner_monthly_shortfall = {
+	optimize_memory
+	owner = {
+		if = {
+			limit = {
+				resource_income_compare = {
+					resource = $RESOURCE$
+					value < 0
+				}
+			}
+			export_resource_income_to_variable = {
+				resource = $RESOURCE$
+				variable = deficit_amount
+			}
+			prev = {
+				if = {
+					limit = {
+						OR = {
+							NOT = { is_variable_set = deficit_amount }
+							check_variable = {
+								which = deficit_amount
+								value < prev.deficit_amount
+							}
+						}
+					}
+					set_variable = {
+						which = deficit_amount
+						value = prev.deficit_amount
+					}
+				}
+			}
+		}
+	}
+}
+
+# remove the $RESOURCE$ bailout from the overlord and add it to the subject
+# root = country, overlord
+# this = situation, deficit
+# $RESOURCE$ = the resource for which the subject is being bailed out
+bail_out_mercatorum_subject = {
+	optimize_memory
+	log = "\\[Owner.Overlord.GetRealName] bailed out its mercatorum subject \\[Owner.GetRealName]'s \\[This.GetName]"
+	root = {
+		add_resource = {
+			$RESOURCE$ = -1 # overlord pays the resources
+			mult = prev.value:mercatorum_specialist_deficit_bailout_amount
+		}
+	}
+	owner = {
+		add_resource = {
+			$RESOURCE$ = 1
+			mult = prev.value:mercatorum_specialist_deficit_bailout_amount
+		}
+		hidden_effect = {
+			set_variable = {
+				which = deficit_bailout_amount_$RESOURCE$
+				value = prev.value:mercatorum_specialist_deficit_bailout_amount
+			}
+			create_message = {
+				type = MERCATORUM_SUBJECT_BAILOUT
+				localization = MERCATORUM_SUBJECT_BAILOUT_$RESOURCE$
+				days = 30
+				target = capital_scope.solar_system
+				variable = {
+					type = name
+					localization = OVERLORD
+					scope = overlord
+				}
+				variable = {
+					type = name
+					localization = SITUATION
+					scope = prev
+				}
+				variable = {
+					type = variable
+					varname = deficit_bailout_amount_$RESOURCE$
+					localization = VALUE
+					scope = this
+				}
+			}
+			clear_variable = deficit_bailout_amount_$RESOURCE$
+		}
+	}
+
+	abort_situation = this
+	hidden_effect = {
+		# remove the free resources granted by the situation being aborted
+		# (these are intended to be the bonus resources if the country defaults)
+		# see common/situations/02_deficit_situations.txt
+		if = {
+			limit = {
+				OR = {
+					is_situation_type = situation_energy_deficit
+					is_situation_type = situation_mineral_deficit
+					AND = {
+						is_situation_type = situation_food_deficit
+						owner = { country_uses_food = yes }
+					}
+				}
+			}
+			owner = {
+				add_resource = {
+					$RESOURCE$ = @bailout_basic_base_amount
+					mult = value:sm_bailout_scaling_factor_negative
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				is_situation_type = situation_consumer_goods_deficit
+				owner = { country_uses_consumer_goods = yes }
+			}
+			owner = {
+				add_resource = {
+					consumer_goods = @bailout_consumer_goods_base_amount
+					mult = value:sm_bailout_scaling_factor_negative
+				}
+			}
+		}
+		else_if = {
+			limit = { is_situation_type = situation_alloys_deficit }
+			owner = {
+				add_resource = {
+					alloys = @bailout_alloys_base_amount
+					mult = value:sm_bailout_scaling_factor_negative
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					is_situation_type = situation_rare_crystals_deficit
+					is_situation_type = situation_volatile_motes_deficit
+					is_situation_type = situation_exotic_gases_deficit
+				}
+			}
+			owner = {
+				add_resource = {
+					$RESOURCE$ = @bailout_basic_base_amount
+					mult = value:sm_bailout_scaling_factor_negative
+				}
+			}
+		}
+	}
+}
+
+# calculates the actual percentage of dividends the country receives based on agreement terms and also whether the overlord or subject
+# this = country, overlord or subject
+# event_target:specialist_mercatorum_agreement = agreement, specialist_mercatorum
+# output to variable dividend_percentage
+set_dividend_percentage = {
+	optimize_memory
+	event_target:specialist_mercatorum_agreement = {
+		set_variable = {
+			which = mercatorum_commission_percentage
+			value = value:mercatorum_specialist_commission_percentage
+		}
+	}
+	if = {
+		limit = { is_overlord = yes }
+		set_variable = {
+			which = dividend_percentage
+			value = 1
+		}
+		subtract_variable = {
+			which = dividend_percentage
+			value = event_target:specialist_mercatorum_agreement.mercatorum_commission_percentage
+		}
+	}
+	else = {
+		set_variable = {
+			which = dividend_percentage
+			value = event_target:specialist_mercatorum_agreement.mercatorum_commission_percentage
+		}
+	}
+
+	event_target:specialist_mercatorum_agreement = { clear_variable = mercatorum_commission_percentage }
+}
+
+# this = planet
+try_convert_branch_office_to_normal = {
+	optimize_memory
+	sm_swap_corporate_holdings = {
+		FROM = building_wildcat_miners
+		TO = building_private_mining_consortium
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_bio_reprocessing_facilities
+		TO = building_food_conglomerate
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_underground_chemists
+		TO = building_virtual_entertainment_studios
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_wrecking_yards
+		TO = building_private_shipyards
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_pirate_haven
+		TO = building_military_contractors
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_syndicate_outreach_office
+		TO = building_public_relations_office
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_illicit_research_labs
+		TO = building_private_research_initiative
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_underground_clubs
+		TO = building_amusement_megaplex
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_smuggling_rings
+		TO = building_commercial_forum
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_disinformation_center
+		TO = building_corporate_embassy
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_subversive_shrine
+		TO = building_temple_of_prosperity
+	}
+}
+
+# this = planet
+try_convert_branch_office_to_criminal = {
+	optimize_memory
+	sm_swap_corporate_holdings = {
+		FROM = building_private_mining_consortium
+		TO = building_wildcat_miners
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_food_conglomerate
+		TO = building_bio_reprocessing_facilities
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_virtual_entertainment_studios
+		TO = building_underground_chemists
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_private_shipyards
+		TO = building_wrecking_yards
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_military_contractors
+		TO = building_pirate_haven
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_public_relations_office
+		TO = building_syndicate_outreach_office
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_private_research_initiative
+		TO = building_illicit_research_labs
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_amusement_megaplex
+		TO = building_underground_clubs
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_commercial_forum
+		TO = building_smuggling_rings
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_corporate_embassy
+		TO = building_disinformation_center
+	}
+	sm_swap_corporate_holdings = {
+		FROM = building_temple_of_prosperity
+		TO = building_subversive_shrine
+	}
+}
+
+# this = planet
+# $FROM$ = building, source
+# $TO$ = building, target
+sm_swap_corporate_holdings = {
+	optimize_memory
+	while = {
+		limit = {
+			has_holding = {
+				holding = $FROM$
+				owner = branch_office_owner
+			}
+		}
+		remove_holding = {
+			holding = $FROM$
+			owner = branch_office_owner
+		}
+		add_holding = {
+			holding = $TO$
+			owner = branch_office_owner
+		}
+	}
+}
+
+# this = country, player with origin_imperial_vassal
+origin_imperial_fiefdom_mercatorum_specialization_effect = {
+	optimize_memory
+	custom_tooltip = origin.5705.g.specialist_mercatorum.tooltip
+	hidden_effect = {
+		random_agreement = {
+			limit = {
+				owner = { is_country = root.overlord }
+				target = { is_country = root }
+			}
+			set_agreement_preset = { preset = preset_mercatorum }
+			set_agreement_terms = { subject_expand = subject_can_expand_with_tithe }
+		}
+		try_convert_to_mercatorum_megacorp = yes # convert to megacorp early
+		every_owned_leader = {
+			limit = { leader_class = governor }
+			add_skill_without_trait_selection = 2
+			add_mercatorum_leader_trait = yes
+		}
+		capital_scope = {
+			add_holding = {
+				holding = holding_mercatorum_corporate_headquarters
+				owner = prev.overlord
+			}
+		}
+		overlord = {
+			capital_scope = {
+				establish_branch_office = prevprev
+				add_holding = {
+					holding = building_mercatorum_national_headquarters
+					owner = branch_office_owner
+				}
+			}
+			# on_built does not fire when adding a building via add_holding; add the correct country modifier
+			add_modifier = { modifier = specialist_mercatorum_national_headquarters }
+		}
+	}
+}
+
+# calculate the monthly resource tax/subsidy for a specific $RESOURCE$ using the percentage for the corresponding agreement $TERM$
+# and store it in a variable named $TERM$_$RESOURCE$ on both the owner (overlord) and target (subject)
+# this = agreement, preset_mercatorum
+# $RESOURCE$ = the resource
+# $TERM$ = string, the agreement term (whose term values are named with the same prefix)
+set_mercatorum_specialist_resource_subsidy_amount = {
+	optimize_memory
+	if = {
+		limit = {
+			NOT = {
+				has_term_value = {
+					term = $TERM$
+					value = $TERM$_null
+				}
+			}
+		}
+		set_variable = {
+			which = $TERM$_$RESOURCE$
+			value = value:mercatorum_specialist_resource_subsidy_amount|RESOURCE|$RESOURCE$|TERM|$TERM$|
+		}
+		owner = {
+			set_variable = {
+				which = $TERM$_$RESOURCE$
+				value = prev.$TERM$_$RESOURCE$
+			}
+		}
+		target = {
+			set_variable = {
+				which = $TERM$_$RESOURCE$
+				value = prev.$TERM$_$RESOURCE$
+			}
+		}
+		clear_variable = $TERM$_$RESOURCE$
+	}
+	else = {
+		owner = {
+			if = {
+				limit = { is_variable_set = $TERM$_$RESOURCE$ }
+				clear_variable = $TERM$_$RESOURCE$
+			}
+		}
+		target = {
+			if = {
+				limit = { is_variable_set = $TERM$_$RESOURCE$ }
+				clear_variable = $TERM$_$RESOURCE$
+			}
+		}
+	}
+}
+
+# this = country
+# $ETHIC$ = ethic (no ethic_ prefix)
+# $OPPOSING_ETHIC$ = ethic (no ethic_ prefix)
+try_country_add_ethic = {
+	optimize_memory
+	if = {
+		limit = { NOT = { has_country_flag = try_country_add_ethic_success } }
+		if = {
+			limit = { has_ethic = ethic_$ETHIC$ }
+			country_remove_ethic = ethic_$ETHIC$
+			country_add_ethic = ethic_fanatic_$ETHIC$
+			set_country_flag = try_country_add_ethic_success
+		}
+		else_if = {
+			limit = {
+				is_$OPPOSING_ETHIC$ = no
+				NOT = { has_ethic = ethic_$ETHIC$ }
+			}
+			country_add_ethic = ethic_$ETHIC$
+			set_country_flag = try_country_add_ethic_success
+		}
+	}
+}
