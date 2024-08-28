@@ -12,7 +12,7 @@ popgrowth = {
 			exists = owner
 			owner = { is_machine_empire = yes }
 		}
-		job_replicator_per_pop = 0.04
+		job_replicator_per_pop = 0.02
 	}
 
 	triggered_planet_modifier = {
@@ -35,7 +35,7 @@ popgrowth = {
 			exists = owner
 			owner = { is_mechanical_empire = yes }
 		}
-		job_roboticist_per_pop = 0.02
+		job_roboticist_per_pop = 0.01
 	}
 	
 	triggered_planet_modifier = {
