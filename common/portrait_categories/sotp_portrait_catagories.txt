@@ -1,0 +1,15 @@
+humanoids = {
+	name = HUM
+	sets = {
+        sotp_UNSCset
+
+	}
+}
+
+mammalians = {
+	name = MAM
+
+	sets = {
+		sotp_Covenantset
+	}
+}

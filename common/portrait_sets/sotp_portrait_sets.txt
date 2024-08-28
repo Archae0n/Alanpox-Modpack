@@ -1,0 +1,49 @@
+sotp_UNSCset = {
+	species_class = HUM
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	archetype = BIOLOGICAL	
+	spawn_enabled = yes
+	randomized = yes	
+	portraits = {
+		"unschuman"
+	}
+	non_randomized_portraits = {
+		"unschuman"
+	}
+	
+	graphical_culture = humanoid_01
+	
+	move_pop_sound_effect = "moving_pop_confirmation"
+		
+}
+
+sotp_Covenantset = {
+	species_class = MAM
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	archetype = BIOLOGICAL	
+	spawn_enabled = yes
+	randomized = yes	
+	portraits = {
+		"sang"
+		"sans"
+		"hura"
+		"jiral"
+		"ungg"
+		"kig"
+		"covn"		
+	}
+	non_randomized_portraits = {
+		"sang"
+		"sans"
+		"hura"
+		"jiral"
+		"ungg"
+		"kig"
+		"covn"		
+	}
+	
+	graphical_culture = cov_01
+	
+	move_pop_sound_effect = "moving_pop_confirmation"
+		
+}

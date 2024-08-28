@@ -1,0 +1,6 @@
+﻿l_english:
+ epsilon_system_initializer_NAME:0 "Epsilon Eridani System"
+ epsilon_system_initializer_DESC:0 "Epsilon Eridani is home to Reach, the military fortress of the UNSC, along with several other worlds.\n\nDetermines the layout, but not location, of your starting solar system."
+ sotp_sol_system_initializer_NAME:0 "SotP Sol System"
+ epsilon_system_initializer_DESC:0 "The Sol system is humanity's home."
+

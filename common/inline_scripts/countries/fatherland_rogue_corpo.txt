@@ -1,7 +1,0 @@
-
-name = random
-ignore_initial_colony_error = yes
-day_zero_contact = no
-civics = random
-flag = random
-type = default

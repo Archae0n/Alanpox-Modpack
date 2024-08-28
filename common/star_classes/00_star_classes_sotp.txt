@@ -1,0 +1,7 @@
+# Orange Dwarves
+sc_k_sotp = {
+	class 			= k_star_sotp
+	planet			= pc_k_star
+	spawn_odds 		= 0
+	num_planets 	= { min = 4 max = 10 }	
+}
