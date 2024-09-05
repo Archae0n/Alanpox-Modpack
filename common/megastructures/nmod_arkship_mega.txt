@@ -1,0 +1,143 @@
+# see README.txt for example
+
+@central_orbital_build_time = 1800
+@central_orbital_alloy_cost = 1500
+@central_orbital_influence_cost = 200
+
+nmod_arkship_construction_site = {
+	entity = "nmod_arkship_ship_entity"
+	construction_entity = "nmod_arkship_ship_entity"
+	portrait = "GFX_megastructure_habitat_background"
+	place_entity_on_planet_plane = no
+	show_galactic_map_icon = no
+	hide_name = yes
+	show_in_outliner = no
+	entity_offset = { x = 7 y = -7 }
+	build_time = @central_orbital_build_time
+
+	resources = {
+		category = megastructures_habitat
+		cost = {
+			alloys = @central_orbital_alloy_cost
+			influence = @central_orbital_influence_cost
+		}
+	}
+	
+	construction_blocks_and_blocked_by = none
+
+	potential = {
+		OR = {
+            is_nomad_empire = yes
+		}
+	}
+
+	possible = {
+		exists = starbase
+		custom_tooltip = {
+			fail_text = "requires_inside_border"
+			is_inside_border = from
+		}
+		custom_tooltip = {
+			fail_text = "requires_no_orbital_debris"
+			NOT = {
+				any_system_planet = {
+					has_planet_flag = has_orbital_debris
+				}
+			}
+		}
+	}
+
+	placement_rules = {
+		planet_possible = {
+			custom_tooltip = {
+				fail_text = "requires_surveyed_planet"
+				is_surveyed = {			# prevent leaking habitability information
+					who = prev.from
+					status = yes
+				}
+			}
+			custom_tooltip = {
+				fail_text = "requires_not_star"
+				is_star = no
+			}
+			custom_tooltip = {
+				fail_text = "requires_no_anomaly"
+				NOT = { has_anomaly = yes }
+			}
+			custom_tooltip = {
+				fail_text = "requires_no_existing_megastructure"
+				#can_build_megastructure_on_planet = yes
+				NOR = {
+					has_planet_flag = megastructure
+					has_planet_flag = has_megastructure
+					solar_system = {
+						OR = {
+							has_star_flag = ring_world_built
+							has_star_flag = ithomes_gate
+						}
+					}
+					is_planet_class = pc_ringworld_habitable
+					is_planet_class = pc_ringworld_habitable_damaged
+					is_planet_class = pc_ringworld_tech
+					is_planet_class = pc_ringworld_tech_damaged
+					is_planet_class = pc_ringworld_seam
+					is_planet_class = pc_ringworld_seam_damaged
+					#is_planet_class = pc_habitat
+				}
+			}
+
+			# balance for habitats
+			custom_tooltip = {
+				fail_text = "requires_not_minor_planetary_body"
+				NOR = {
+					is_asteroid = yes
+					is_moon = yes
+				}
+			}
+			custom_tooltip = {
+				fail_text = "requires_not_astral_scar"
+				is_astral_scar = no
+			}
+			custom_tooltip = {
+				fail_text = "requires_not_solarpunk"
+				NOT = {
+					solar_system = {
+						has_star_flag = solarpunk_system_02
+					}
+				}
+			}
+		}
+	}
+
+	# root = system
+	# from = country
+	ai_weight = {
+		factor = 5
+
+		modifier = {
+			# AI shouldn't build habitats if they have any uncolonised arkships.
+			factor = 0
+			owner = {
+				any_planet_within_border = {
+					is_planet_class = pc_nmod_arkship
+					is_colony = no
+				}
+			}
+		}
+	}
+
+	on_build_complete = {
+		fromfrom.planet = {
+			save_event_target_as = nmod_static_arkship_root_planet
+		}
+		nmod_create_arkship_planet = yes
+		event_target:nmod_static_arkship_target = {
+			set_name = "Arkship"
+			nmod_arkship_constructs_init = yes
+		}
+
+		remove_megastructure = fromfrom
+        #TODO: Have a proper notification here too
+		from = { country_event = { id = megastructures.10 } }
+	}
+}

@@ -1,0 +1,11 @@
+# Default
+part = {
+	location = 1 # We're doing this in whole blocks at the moment, so they're all going to be 1
+	localization = "START_SCREEN_NMOD_NOMAD_DEFAULT"
+
+	trigger = {
+		has_origin = origin_nmod_nomadic_race
+		is_gestalt = no # No support for gestalts atm
+		#NOT = { has_country_flag = nmod_custom_start_screen }
+	}
+}

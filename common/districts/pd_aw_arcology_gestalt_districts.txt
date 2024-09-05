@@ -368,7 +368,7 @@ district_pd_flora_hive_research = {
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			job_brain_drone_add = 6
+			job_brain_drone_add = 3
 		}
 	}
 
@@ -378,7 +378,7 @@ district_pd_flora_hive_research = {
 			owner = { is_machine_empire = yes }
 		}
 		modifier = {
-			job_calculator_add = @pdarcjobs
+			job_calculator_add = 3
 		}
 	}
 

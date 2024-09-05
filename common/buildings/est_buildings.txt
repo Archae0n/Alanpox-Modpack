@@ -576,7 +576,8 @@ building_est_industry_3_blast_furnace = {
 	
 	potential = {
 		owner = {
-			has_tradition = tr_est_industry_3
+			#has_tradition = tr_est_industry_3
+			always = no
 		}
 	}
 

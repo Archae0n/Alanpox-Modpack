@@ -1,0 +1,133 @@
+nmod_arkship_constructs_init = {
+    remove_all_buildings = yes
+    add_building = building_nmod_arkship_capital
+    clear_deposits  = yes
+    remove_all_districts = yes
+
+    nmod_set_default_arkship_deposits = yes
+
+    set_planet_flag = nomad_mod_arkship
+    set_planet_size = 12
+}
+
+nmod_clear_starting_stations = {
+    owner.capital_star.solar_system = {
+        every_orbital_station   = {
+            limit = {
+                NOT = { is_same_value = solar_system.starbase.fleet }
+            }
+            delete_fleet = this
+        }
+    }
+}
+
+# These are deposits that every arkship will have. Only used on initing a new ship
+nmod_set_default_arkship_deposits = {
+    add_deposit = nmod_central_reactor_deposit
+    add_deposit = nmod_cargo_bay_deposit
+    add_deposit = nmod_automated_mining_bays
+}
+
+# We don't care about species here since this is a setup event only and we don't support multispecies starts.
+nmod_set_pops_to_10 = {
+    while = {
+        limit = { num_pops > 1}
+        random_owned_pop = {
+            kill_pop = yes
+        }
+    }
+    while = {
+        limit = { num_pops < 10 }
+        create_pop = {
+            species = owner_main_species
+            ethos = random
+        }
+    }
+}
+
+# Creates and colonises an unspecialised arkship in the country's capital system.]
+# Country scope
+nmod_create_blank_starting_arkship = {
+    capital_star.solar_system = {
+        random_system_planet = {
+            limit = {
+                is_star = no
+                NOT = { is_planet_class = pc_nmod_arkship}
+                NOT = { has_planet_flag = nmod_arkship_starting_planet }
+            }
+            set_planet_flag = nmod_arkship_starting_planet
+            save_event_target_as = nmod_static_arkship_root_planet
+        }
+        nmod_create_arkship_planet = yes
+    }
+    # Scope to the newly created arkship planet
+    event_target:nmod_static_arkship_target = {
+        create_colony = {
+            owner = root # Country scope
+            species = root.owner_main_species
+            ethos = random
+        }
+    }
+    # For whatever reason the game doesn't play nice when you try do things immediately after creating the colony.
+    # So we make this a new scope block to do further stuff.
+    event_target:nmod_static_arkship_target = {
+        set_name = random
+        nmod_arkship_constructs_init = yes
+    }
+}
+
+# Makes 2 districts for the arkship per specialty it has
+nmod_init_ship_districts = {
+    while = {
+        count = 2
+        add_district = district_nmod_housing
+    }
+    if = {
+        limit = { has_modifier = nmod_industry_specialty }
+
+        while = {
+            count = 2
+            add_district = district_nmod_industry
+        }
+    }
+    if = {
+        limit = { has_modifier = nmod_research_specialty }
+
+        while = {
+            count = 1 # These are not efficient early game starts
+            add_district = district_nmod_science
+        }
+    }
+    if = {
+        limit = { has_modifier = nmod_culture_specialty }
+
+        while = {
+            count = 0 # These are not efficient early game starts
+            add_district = district_nmod_culture
+        }
+    }
+    if = {
+        limit = { has_modifier = nmod_energy_specialty }
+
+        while = {
+            count = 2
+            add_district = district_nmod_energy
+        }
+    }
+    if = {
+        limit = { has_modifier = nmod_mining_specialty }
+
+        while = {
+            count = 2
+            add_district = district_nmod_mining
+        }
+    }
+    if = {
+        limit = { has_modifier = nmod_agriculture_specialty }
+
+        while = {
+            count = 2
+            add_district = district_nmod_farming
+        }
+    }
+}

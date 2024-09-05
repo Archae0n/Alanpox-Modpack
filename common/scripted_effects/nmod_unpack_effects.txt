@@ -1,0 +1,366 @@
+# Planet scope. First Step
+nmod_park_planet = {
+    solar_system = {
+        root.planet = { save_event_target_as = nmod_static_arkship_root_planet  }
+        nmod_create_arkship_planet = yes
+        event_target:nmod_static_arkship_target = {
+            # we have to approximate to find the correct ark ship
+            nmod_choose_static_arkship_source = yes # This acts as function to find the nearest ark.
+            event_target:nmod_static_arkship_source  = {
+                nmod_unpack_planet = yes
+            }
+        }
+        # Seize control of an outpost if it was inhabited, otherwise make one.
+        nmod_take_control_of_system = yes
+    }
+}
+
+# Needs to have the root planet saved as nmod_static_arkship_root_planet.
+# Solar System Scope
+nmod_create_arkship_planet = {
+    spawn_planet = {
+        class = pc_nmod_arkship # pc_habitat
+        location = event_target:nmod_static_arkship_root_planet
+
+        orbit_location = yes
+        orbit_angle_offset = 225
+        orbit_distance_offset = 9.899
+
+        size = 12
+        init_effect = {
+            set_planet_flag = nomad_mod_arkship
+		    set_planet_flag = colony_event # This is to prevent colony events appearing
+            prevent_anomaly = yes
+            save_event_target_as = nmod_static_arkship_target
+        }
+    }
+}
+
+# Planet scope. Saves the nearest arkship as the local event target nmod_static_arkship_source
+nmod_choose_static_arkship_source = {
+    solar_system = {
+        random_fleet_in_system = {
+            limit = { has_fleet_flag = nmod_arkship}
+            save_event_target_as = nmod_static_arkship_source
+        }
+    }
+    solar_system = {
+        every_fleet_in_system = {
+            limit = { has_fleet_flag = nmod_arkship}
+            save_event_target_as = nmod_closest_arkship_candidate
+            if = {
+                limit = {
+                    root = {
+                        compare_distance = {
+                            closer_object = event_target:nmod_closest_arkship_candidate
+                            further_object = event_target:nmod_static_arkship_source
+                        }
+                    }
+                }
+                save_event_target_as = nmod_static_arkship_source
+            }
+        }
+    }
+}
+
+# Fleet scope. Second Step
+nmod_unpack_planet = {
+    save_event_target_as = nmod_static_arkship_source
+    every_galaxy_species  = {
+        limit = { has_species_flag = nmod_pops_aboard_@prev }
+        nmod_decode_species_variables = yes
+        save_event_target_as = nmod_species_to_spawn
+        if = {
+            limit = {
+                is_variable_set = nmod_species_pop_count
+            }
+
+            # Populate station
+            event_target:nmod_static_arkship_target = {
+                while = {
+                    count = event_target:nmod_species_to_spawn.nmod_species_pop_count
+
+                    create_pop = {
+                        species = event_target:nmod_species_to_spawn
+                        ethos = random
+                    }
+                }
+            }
+            clear_variable = nmod_species_pop_count
+        }
+    }
+
+    # Create the colony after we've spawned the pops (for some reason it has to be after)
+    event_target:nmod_static_arkship_target = {
+        create_colony = {
+            owner = event_target:nmod_static_arkship_source.owner
+            species = event_target:nmod_species_to_spawn
+            ethos = random
+        }
+    }
+    # This creates an unwanted extra pop, remove it
+    last_created_pop = {
+        kill_pop = yes
+    }
+
+    event_target:nmod_static_arkship_target = {
+        set_name = event_target:nmod_static_arkship_source
+    }
+    nmod_load_modifiers = yes # Needs to be done before constructs
+    nmod_load_colony_designation = yes
+    nmod_load_constructions = yes
+    nmod_load_governor = yes
+
+    event_target:nmod_static_arkship_source = {
+        fire_on_action = {
+            on_action = nmod_on_action_misc_unpack_effects
+            scopes = {
+                from = event_target:nmod_static_arkship_source
+                fromfrom = event_target:nmod_static_arkship_target
+            }
+        }
+    }
+
+    delete_fleet  = {
+        target = event_target:nmod_static_arkship_source
+        kill_leader = no
+    }
+}
+
+nmod_decode_species_variables = {
+    # Because dynamic flags with event targets dont seem to work when using has_flag, we assume that prev is
+    # event_target:nmod_arkship_static_source
+
+    # Max supported number is 400
+    # 200
+    if = {
+        limit = {
+            has_species_flag = nmod_200_pops_aboard_@prev
+        }
+        while = { count = 200 nmod_increment_pop_count_variable = yes }
+        remove_species_flag = nmod_200_pops_aboard_@prev
+    }
+    # 100
+    if = {
+        limit = {
+            has_species_flag = nmod_100_pops_aboard_@prev
+        }
+        while = { count = 100 nmod_increment_pop_count_variable = yes }
+        remove_species_flag = nmod_100_pops_aboard_@prev
+    }
+    # 50
+    if = {
+        limit = {
+            has_species_flag = nmod_50_pops_aboard_@prev
+        }
+        while = { count = 50 nmod_increment_pop_count_variable = yes }
+        remove_species_flag = nmod_50_pops_aboard_@prev
+    }
+    # 25
+    if = {
+        limit = {
+            has_species_flag = nmod_25_pops_aboard_@prev
+        }
+        while = { count = 25 nmod_increment_pop_count_variable = yes }
+        remove_species_flag = nmod_25_pops_aboard_@prev
+    }
+    # 10
+    if = {
+        limit = {
+            has_species_flag = nmod_10_pops_aboard_@prev
+        }
+        while = { count = 10 nmod_increment_pop_count_variable = yes }
+        remove_species_flag = nmod_10_pops_aboard_@prev
+    }
+    # 5
+    if = {
+        limit = {
+            has_species_flag = nmod_5_pops_aboard_@prev
+        }
+        while = { count = 5 nmod_increment_pop_count_variable = yes }
+        remove_species_flag = nmod_5_pops_aboard_@prev
+    }
+    # 4
+    if = {
+        limit = {
+            has_species_flag = nmod_4_pops_aboard_@prev
+        }
+        while = { count = 4 nmod_increment_pop_count_variable = yes }
+        remove_species_flag = nmod_4_pops_aboard_@prev
+    }
+    # 3
+    if = {
+        limit = {
+            has_species_flag = nmod_3_pops_aboard_@prev
+        }
+        while = { count = 3 nmod_increment_pop_count_variable = yes }
+        remove_species_flag = nmod_3_pops_aboard_@prev
+    }
+    # 2
+    if = {
+        limit = {
+            has_species_flag = nmod_2_pops_aboard_@prev
+        }
+        while = { count = 2 nmod_increment_pop_count_variable = yes }
+        remove_species_flag = nmod_2_pops_aboard_@prev
+    }
+    # 1
+    if = {
+        limit = {
+            has_species_flag = nmod_1_pops_aboard_@prev
+        }
+        while = { count = 1 nmod_increment_pop_count_variable = yes }
+        remove_species_flag = nmod_1_pops_aboard_@prev
+    }
+    remove_species_flag = nmod_pops_aboard_@prev
+}
+
+# TODO: this should be refactored with a wrapper and an effect that accepts an argument
+# Fleet scope, points to planet
+nmod_load_modifiers = {
+    event_target:nmod_static_arkship_source = {
+        if = { limit = { has_fleet_flag = "nmod_capital_ark"}
+            event_target:nmod_static_arkship_target = { set_capital = yes }
+        }
+        if = { limit = { has_fleet_flag = "nmod_research_specialty_flag"}
+            event_target:nmod_static_arkship_target = { add_modifier = { modifier = nmod_research_specialty } }
+        }
+        if = { limit = { has_fleet_flag = "nmod_industry_specialty_flag" }
+            event_target:nmod_static_arkship_target = { add_modifier = { modifier = nmod_industry_specialty } }
+        }
+        if = { limit = { has_fleet_flag = "nmod_energy_specialty_flag" }
+            event_target:nmod_static_arkship_target = { add_modifier = { modifier = nmod_energy_specialty } }
+        }
+        if = { limit = { has_fleet_flag = "nmod_mining_specialty_flag" }
+            event_target:nmod_static_arkship_target = { add_modifier = { modifier = nmod_mining_specialty } }
+        }
+        if = { limit = { has_fleet_flag = "nmod_agriculture_specialty_flag" }
+            event_target:nmod_static_arkship_target = { add_modifier = { modifier = nmod_agriculture_specialty } }
+        }
+        if = { limit = { has_fleet_flag = "nmod_culture_specialty_flag" }
+            event_target:nmod_static_arkship_target = { add_modifier = { modifier = nmod_culture_specialty } }
+        }
+    }
+}
+
+# Fleet scope, points to planet (this seems to be planet scope, need to investigate)
+nmod_load_constructions = {
+    # Set up capital building. (this is an absurdly hacky way to set this as the capital because I am an incompetent modder)
+    remove_all_buildings = yes
+
+    event_target:nmod_static_arkship_source = {
+        fire_on_action = {
+            on_action = nmod_on_action_load_constructions
+            scopes = { from = event_target:nmod_static_arkship_source fromfrom = event_target:nmod_static_arkship_target }
+        }
+    }
+}
+
+# Solar system scope. Takes control of the system by seizing a starbase or building one.
+nmod_take_control_of_system = {
+    # Check if we are taking the starbase or making one
+    if = {
+        limit = {
+            exists = starbase
+            owner = {
+                NOT = { is_same_empire = event_target:nmod_static_arkship_source.owner }
+            }
+        }
+        starbase = {
+            owner = {  save_event_target_as = nmod_starbase_original_owner }
+            set_starbase_flag = nmod_previously_owned_by@owner
+            set_owner = event_target:nmod_static_arkship_source.owner # This is the nomads country
+            owner = {  save_event_target_as = nmod_nomad_squatters }
+            solar_system = { save_event_target_as = nmod_squatted_system }
+            event_target:nmod_starbase_original_owner = {
+                country_event = { id = nmod_country.40 }
+            }
+        }
+    }
+    # This seems to be triggering in such a way that it causes errors in the log, but it's not an issue as far as I can tell
+    else = {
+        if = {
+            limit = {
+                NOT = {
+                    exists = owner
+                }
+            }
+            create_starbase = {
+                owner = event_target:nmod_static_arkship_source.owner
+                size = starbase_outpost
+                # This lets us discriminate between temp starbases and permanent ones in the future (potentially)
+                effect = { set_starbase_flag = nmod_temp_starbase }
+            }
+        }
+    }
+}
+
+nmod_load_colony_designation = {
+    event_target:nmod_static_arkship_source = {
+        switch = {
+            trigger = has_fleet_flag
+            nmod_ark_default= {
+                event_target:nmod_static_arkship_target = { set_colony_type = nmod_ark_default }
+            }
+            nmod_ark_trade= {
+                event_target:nmod_static_arkship_target = { set_colony_type = nmod_ark_trade }
+            }
+            nmod_ark_mining= {
+                event_target:nmod_static_arkship_target = { set_colony_type = nmod_ark_mining }
+            }
+            nmod_ark_farming= {
+                event_target:nmod_static_arkship_target = { set_colony_type = nmod_ark_farming }
+            }
+            nmod_ark_energy= {
+                event_target:nmod_static_arkship_target = { set_colony_type = nmod_ark_energy }
+            }
+            nmod_ark_industrial= {
+                event_target:nmod_static_arkship_target = { set_colony_type = nmod_ark_industrial }
+            }
+            nmod_ark_foundry= {
+                event_target:nmod_static_arkship_target = { set_colony_type = nmod_ark_foundry }
+            }
+            nmod_ark_factory= {
+                event_target:nmod_static_arkship_target = { set_colony_type = nmod_ark_factory }
+            }
+            nmod_ark_bureau= {
+                event_target:nmod_static_arkship_target = { set_colony_type = nmod_ark_bureau }
+            }
+            nmod_ark_research= {
+                event_target:nmod_static_arkship_target = { set_colony_type = nmod_ark_research }
+            }
+            # Capital Classes
+            col_capital = {
+                event_target:nmod_static_arkship_target = { set_colony_type = col_capital }
+            }
+            col_capital_foundry = {
+                event_target:nmod_static_arkship_target = { set_colony_type = col_capital_foundry }
+            }
+            col_capital_factory = {
+                event_target:nmod_static_arkship_target = { set_colony_type = col_capital_factory }
+            }
+            col_capital_trade = {
+                event_target:nmod_static_arkship_target = { set_colony_type = col_capital_trade }
+            }
+            col_capital_extraction = {
+                event_target:nmod_static_arkship_target = { set_colony_type = col_capital_extraction }
+            }
+        }
+    }
+}
+
+# It might be nice to make leaders the captain of the ship then make them governors again, but that's too much for now.
+nmod_load_governor = {
+    owner = {
+        every_owned_leader = {
+            limit = {
+                has_leader_flag = nmod_was_previous_governor_of_@event_target:nmod_static_arkship_source
+                is_idle = yes
+            }
+            event_target:nmod_static_arkship_target = {
+                assign_leader = prev
+            }
+            remove_leader_flag = nmod_was_previous_governor_of_@event_target:nmod_static_arkship_source
+        }
+    }
+}

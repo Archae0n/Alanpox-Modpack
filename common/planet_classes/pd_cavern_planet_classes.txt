@@ -185,7 +185,7 @@ pc_pd_hive_cave = {
 	modifier = {
 		pop_environment_tolerance = 1
 		planet_jobs_produces_mult = 0.10
-		planet_max_buildings_add = 12
+		planet_max_buildings_add = 40
 		job_spawning_drone_add = 1
 		planet_resettlement_unemployed_destination_mult = 0.5
 	}
@@ -218,7 +218,7 @@ pc_pd_hive_cave_arc = {
 	modifier = {
 		pop_environment_tolerance = 1
 		planet_jobs_produces_mult = 0.10
-		planet_max_buildings_add = 12
+		planet_max_buildings_add = 40
 		job_spawning_drone_add = 1
 		planet_resettlement_unemployed_destination_mult = 0.5
 	}
@@ -239,7 +239,7 @@ pc_pd_machine_cave = {
 		planet_jobs_produces_mult = 0.10
 		pop_housing_usage_mult = -0.10
 		pop_environment_tolerance = 0.0
-		planet_max_buildings_add = 12
+		planet_max_buildings_add = 40
 		job_replicator_add = 1
 		planet_resettlement_unemployed_destination_mult = 0.5
 	}
@@ -272,7 +272,7 @@ pc_pd_machine_cave_arc = {
 		planet_jobs_produces_mult = 0.10
 		pop_housing_usage_mult = -0.10
 		pop_environment_tolerance = 0.0
-		planet_max_buildings_add = 12
+		planet_max_buildings_add = 40
 		job_replicator_add = 1
 		planet_resettlement_unemployed_destination_mult = 0.5
 	}

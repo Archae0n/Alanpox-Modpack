@@ -1,0 +1,102 @@
+decision_nmod_embark_ship = {
+	owned_planets_only = yes
+	icon = "decision_federation_fleet"
+	enactment_time = 0
+
+	resources = {
+		category = decisions
+		cost = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_ascension_perk = ap_nmod_voidfarers
+				}
+			}
+			influence = 25
+		}
+		cost = {
+			trigger = {
+				exists = owner
+				owner = {
+					NOT = { has_ascension_perk = ap_nmod_voidfarers}
+				}
+			}
+			influence = 50
+		}
+	}
+
+	potential = {
+		has_planet_flag = nomad_mod_arkship
+	}
+
+	effect = {
+		hidden_effect = {
+			nmod_packup_planet = yes
+		}
+		custom_tooltip = nmod_embark_ship_tt
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+decision_nmod_specialise_arkship = {
+	owned_planets_only = yes
+	icon = "decision_federation_fleet"
+	enactment_time = 0
+
+	potential = {
+		has_planet_flag = nomad_mod_arkship
+	}
+
+	effect = {
+		hidden_effect = { planet_event = { id = nmod_backend.10}}
+		custom_tooltip = nmod_specialise_ship_tt
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+#decision_nmod_increase_resource_extraction = {
+#	owned_planets_only = yes
+#	icon = "decision_federation_fleet"
+#	enactment_time = 0
+#
+#	potential = {
+#		has_planet_flag = nomad_mod_arkship
+#		NOT = { solar_system = { has_star_flag = nmod_increased_extraction}}
+#	}
+#
+#	effect = {
+#		#hidden_effect = { planet_event = { id = nmod_backend.10}}
+#		hidden_effect = { solar_system = { set_star_flag = nmod_increased_extraction }}
+#		custom_tooltip = nmod_increase_extraction_tt
+#	}
+#
+#	ai_weight = {
+#		weight = 1
+#	}
+#}
+
+#decision_nmod_decrease_resource_extraction = {
+#	owned_planets_only = yes
+#	icon = "decision_federation_fleet"
+#	enactment_time = 0
+#
+#	potential = {
+#		has_planet_flag = nomad_mod_arkship
+#		solar_system = { has_star_flag = nmod_increased_extraction }
+#	}
+#
+#	effect = {
+#		hidden_effect = { solar_system = { remove_star_flag = nmod_increased_extraction }}
+#		custom_tooltip = nmod_decrease_extraction_tt
+#	}
+#
+#	ai_weight = {
+#		weight = 1
+#	}
+#}

@@ -1,0 +1,78 @@
+nmod_encode_all_resources = {
+	nmod_encode_resource = { RESOURCE = advanced_logic }
+	nmod_encode_resource = { RESOURCE = alloys }
+	nmod_encode_resource = { RESOURCE = astral_threads }
+	nmod_encode_resource = { RESOURCE = consumer_goods }
+	nmod_encode_resource = { RESOURCE = energy }
+	nmod_encode_resource = { RESOURCE = engineering_research }
+	nmod_encode_resource = { RESOURCE = exotic_gases }
+	nmod_encode_resource = { RESOURCE = food }
+	nmod_encode_resource = { RESOURCE = influence }
+	nmod_encode_resource = { RESOURCE = menace }
+	nmod_encode_resource = { RESOURCE = minerals }
+	nmod_encode_resource = { RESOURCE = minor_artifacts }
+	nmod_encode_resource = { RESOURCE = nanites }
+	nmod_encode_resource = { RESOURCE = physics_research }
+	nmod_encode_resource = { RESOURCE = rare_crystals }
+	nmod_encode_resource = { RESOURCE = society_research }
+	nmod_encode_resource = { RESOURCE = sr_dark_matter }
+	nmod_encode_resource = { RESOURCE = sr_living_metal }
+	nmod_encode_resource = { RESOURCE = sr_zro }
+	nmod_encode_resource = { RESOURCE = unity }
+	nmod_encode_resource = { RESOURCE = volatile_motes }
+}
+nmod_decode_all_resources = {
+	nmod_decode_resource = { RESOURCE = advanced_logic }
+	nmod_decode_resource = { RESOURCE = alloys }
+	nmod_decode_resource = { RESOURCE = astral_threads }
+	nmod_decode_resource = { RESOURCE = consumer_goods }
+	nmod_decode_resource = { RESOURCE = energy }
+	nmod_decode_resource = { RESOURCE = engineering_research }
+	nmod_decode_resource = { RESOURCE = exotic_gases }
+	nmod_decode_resource = { RESOURCE = food }
+	nmod_decode_resource = { RESOURCE = influence }
+	nmod_decode_resource = { RESOURCE = menace }
+	nmod_decode_resource = { RESOURCE = minerals }
+	nmod_decode_resource = { RESOURCE = minor_artifacts }
+	nmod_decode_resource = { RESOURCE = nanites }
+	nmod_decode_resource = { RESOURCE = physics_research }
+	nmod_decode_resource = { RESOURCE = rare_crystals }
+	nmod_decode_resource = { RESOURCE = society_research }
+	nmod_decode_resource = { RESOURCE = sr_dark_matter }
+	nmod_decode_resource = { RESOURCE = sr_living_metal }
+	nmod_decode_resource = { RESOURCE = sr_zro }
+	nmod_decode_resource = { RESOURCE = unity }
+	nmod_decode_resource = { RESOURCE = volatile_motes }
+}
+
+nmod_encode_all_resource_incomes = {
+    $TARGET$ = {
+        save_event_target_as = nmod_arkship_target_to_save_resource_income_to
+    }
+
+	nmod_encode_resource_income = { RESOURCE = advanced_logic }
+	nmod_encode_resource_income = { RESOURCE = alloys }
+	nmod_encode_resource_income = { RESOURCE = astral_threads }
+	nmod_encode_resource_income = { RESOURCE = consumer_goods }
+	nmod_encode_resource_income = { RESOURCE = energy }
+	nmod_encode_resource_income = { RESOURCE = engineering_research }
+	nmod_encode_resource_income = { RESOURCE = exotic_gases }
+	nmod_encode_resource_income = { RESOURCE = food }
+	nmod_encode_resource_income = { RESOURCE = influence }
+	nmod_encode_resource_income = { RESOURCE = menace }
+	nmod_encode_resource_income = { RESOURCE = minerals }
+	nmod_encode_resource_income = { RESOURCE = minor_artifacts }
+	nmod_encode_resource_income = { RESOURCE = nanites }
+	nmod_encode_resource_income = { RESOURCE = physics_research }
+	nmod_encode_resource_income = { RESOURCE = rare_crystals }
+	nmod_encode_resource_income = { RESOURCE = society_research }
+	nmod_encode_resource_income = { RESOURCE = sr_dark_matter }
+	nmod_encode_resource_income = { RESOURCE = sr_living_metal }
+	nmod_encode_resource_income = { RESOURCE = sr_zro }
+	nmod_encode_resource_income = { RESOURCE = unity }
+	nmod_encode_resource_income = { RESOURCE = volatile_motes }
+
+    # Set display values for resources that will be shown collectively
+    $TARGET$ = {  nmod_set_display_values = yes }
+}
+

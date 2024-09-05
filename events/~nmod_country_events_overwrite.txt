@@ -1,0 +1,57 @@
+namespace = country
+
+# Starting Event gatekeeper
+country_event = {
+	id = country.900
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		random_list = {
+			# Sublight Probes
+			10 = {
+				modifier = {
+					factor = 0
+					OR = {
+						has_origin = origin_broken_shackles
+						has_origin = origin_payback
+						is_nomad_empire = yes
+					}
+				}
+				country_event = { id = country.258 days = 360 random = 10 }
+			}
+			# Radical Cult
+			10 = {
+				modifier = {
+					factor = 0
+					OR = {
+						has_origin = origin_broken_shackles
+						has_origin = origin_payback
+						is_nomad_empire = yes
+						is_eager_explorer_empire = yes
+					}
+				}
+				country_event = { id = country.200 days = 30 random = 10 }
+			}
+			# Wanderlust
+			1 = { country_event = { id = country.1000 days = 30 random = 10 } }
+			# Mass Extinction
+			10 = {
+				modifier = {
+					factor = 0
+					OR = {
+						has_origin = origin_broken_shackles
+						has_origin = origin_payback
+						has_void_dweller_origin = yes
+						is_nomad_empire = yes
+						has_origin = origin_shattered_ring
+					}
+				}
+				country_event = { id = country.1100 days = 30 random = 10 }
+			}
+			# No starting event
+			69 = { set_country_flag = starting_event }
+		}
+	}
+}

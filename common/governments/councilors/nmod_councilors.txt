@@ -1,0 +1,88 @@
+councilor_nmod_adept_engineers = {
+	leader_class = { official scientist }
+	is_leader_possible = {
+		OR = {
+			leader_class = official
+			leader_class = scientist
+		}
+	}
+	civic = civic_nmod_adept_engineers
+	custom_tooltip = "councilor_nmod_adept_engineers_custom_modifier_desc"
+	modifier = {
+		planet_researchers_engineering_research_produces_add = 0.1
+	}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
+
+councilor_nmod_celestial_caravans = {
+	leader_class = { official }
+	is_leader_possible = {
+		OR = {
+			leader_class = official
+		}
+	}
+	civic = civic_nmod_celestial_caravans
+	#custom_tooltip = "councilor_nmod_adept_engineers_custom_modifier_desc"
+	modifier = {
+		country_trade_fee = -0.01
+	}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
+
+councilor_nmod_galactic_pilgrimages = {
+	leader_class = { official commander }
+	is_leader_possible = {
+		OR = {
+			leader_class = official
+			leader_class = commander
+		}
+	}
+	civic = civic_nmod_galactic_pilgrimages
+	#custom_tooltip = "councilor_nmod_adept_engineers_custom_modifier_desc"
+	modifier = {
+		pop_growth_from_immigration = 0.025
+	}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
+
+councilor_nmod_lost_homeworld = {
+	leader_class = { scientist commander }
+	is_leader_possible = {
+		OR = {
+			leader_class = scientist
+			leader_class = commander
+		}
+	}
+	civic = civic_nmod_lost_homeworld
+	#custom_tooltip = "councilor_nmod_adept_engineers_custom_modifier_desc"
+	modifier = {
+		country_unity_produces_mult = 0.02
+	}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
+
+councilor_nmod_stellar_migrants = {
+	leader_class = { scientist commander }
+	is_leader_possible = {
+		OR = {
+			leader_class = scientist
+			leader_class = commander
+		}
+	}
+	civic = civic_nmod_stellar_migrants
+	#custom_tooltip = "councilor_nmod_adept_engineers_custom_modifier_desc"
+	modifier = {
+		ship_speed_mult = 0.02
+	}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}

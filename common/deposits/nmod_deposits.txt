@@ -1,0 +1,67 @@
+nmod_central_reactor_deposit = {
+	is_for_colonizable = yes
+	category = deposit_cat_rare # Might not want these
+
+	icon = d_station_reactor
+	resources = {
+		category = planet_deposits
+		#produces = {
+		#	alloys = 5
+		#}
+	}
+
+    triggered_planet_modifier = {
+		job_nmod_reactor_engineer_add = 1
+    }
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+nmod_cargo_bay_deposit = {
+	is_for_colonizable = yes
+	category = deposit_cat_rare # Might not want these
+
+	icon = d_station_junk
+	resources = {
+		category = planet_deposits
+		#produces = {
+		#	alloys = 5
+		#}
+	}
+
+	country_modifier = {
+		country_resource_max_add = 5000
+	}
+
+    triggered_planet_modifier = {
+		job_clerk_add = 1
+    }
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+# TODO: This might be better by giving a custom strong job?
+nmod_automated_mining_bays = {
+	is_for_colonizable = yes
+	category = deposit_cat_rare # Might not want these
+
+	icon = d_station_cargo
+	resources = {
+		category = planet_deposits
+		produces = {
+			minerals = 10
+		}
+	}
+
+    triggered_planet_modifier = {
+		job_miner_add = 1
+    }
+
+	drop_weight = {
+		weight = 0
+	}
+}

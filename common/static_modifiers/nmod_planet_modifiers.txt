@@ -1,0 +1,57 @@
+nmod_industry_specialty = {
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_glitchy_matrix.dds"
+	icon_frame = 1
+}
+nmod_energy_specialty = {
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_nmod_reactor.dds"
+	icon_frame = 1
+}
+nmod_mining_specialty = {
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_space_walk.dds"
+	icon_frame = 1
+}
+nmod_agriculture_specialty = {
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_nmod_hydroponics.dds"
+	icon_frame = 1
+}
+nmod_research_specialty = {
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_engineering_research.dds"
+	icon_frame = 1
+}
+nmod_culture_specialty = {
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_museum.dds"
+	icon_frame = 1
+}
+nmod_celestial_caravans_trade_income = {
+	trade_value_add = 1
+	icon = "gfx/interface/icons/planet_modifiers/pm_resources_2.dds"
+	icon_frame = 1
+}
+
+nmod_recovered_home = {
+	pop_happiness = 0.1
+	planet_stability_add = 5
+	planet_jobs_produces_mult = 0.1
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_planet_from_space.dds"
+	icon_frame = 1
+}
+
+nmod_system_prospecting = {
+	planet_jobs_produces_mult = 0.5
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_space_walk.dds"
+	icon_frame = 1
+}
+
+nmod_system_recovery_tracker = {
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_trash_rings.dds"
+	icon_frame = 2
+}

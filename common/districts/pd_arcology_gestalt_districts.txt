@@ -471,7 +471,7 @@ district_pd_gestalt_research = {
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			job_brain_drone_add = 6
+			job_brain_drone_add = 3
 		}
 	}
 

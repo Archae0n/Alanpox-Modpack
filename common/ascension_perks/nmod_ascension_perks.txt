@@ -1,0 +1,21 @@
+ap_nmod_voidfarers = {
+    potential = {
+        is_nomad_empire = yes
+    }
+    possible = {
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_2"
+			num_ascension_perks > 1
+		}
+    }
+    on_enabled = {
+		custom_tooltip = "ap_nmod_voidfarers_effects"
+	}
+
+    modifier = {
+        ship_speed_mult = 0.2
+        ship_fire_rate_mult = 0.25
+        ship_weapon_range_mult = 0.25
+        ship_evasion_add = 5
+    }
+}

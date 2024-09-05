@@ -1,0 +1,462 @@
+@power_1 = -10
+@power_2 = -15
+@power_3 = -20
+@power_4 = -25
+@power_5 = -30
+
+@corvette_power_1 = 75
+@corvette_power_2 = 100
+@corvette_power_3 = 130
+@corvette_power_4 = 170
+@corvette_power_5 = 220
+@corvette_power_6 = 285
+
+@cost1 = 3
+@cost2 = 6
+@cost3 = 9
+@cost4 = 12
+@cost5 = 15
+
+# For now the special action is bound to this, but later it should be a special component class like a titan aura.
+utility_component_template = {
+	key = "nmod_arkship_fission_reactor"
+	size = small
+	icon = "GFX_ship_part_reactor_1"
+	icon_frame = 1
+	power = @corvette_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+		upkeep = {
+			energy = 0.10
+			alloys = 0.01
+		}
+	}
+
+	# Planet Scope
+	scripted_action_possible = {
+		nmod_can_park_ship_in_system = yes
+	}
+
+	# Fleet scope
+	scripted_action_button_possible = {
+		exists = owner # Might want to consider using this as an opportunity to make the conditions more transparent
+	}
+
+	# On action
+	scripted_action_name = nmod_unpack_planet_action
+	# Can also do a scripted_action_on_cancel
+
+	# Icon
+	scripted_action_icon = GFX_nmod_fleet_action_park_ship
+
+	# Loc
+	scripted_action_tooltip = nmod_unpack_planet_action_button_desc
+	scripted_action_activity_key = nmod_unpack_planet_action_key
+	scripted_action_context_menu_name = nmod_unpack_planet_action_title
+
+	prerequisites = {  }
+	component_set = "power_core"
+	size_restriction = {  nmod_arkship }
+	upgrades_to = "nmod_arkship_fusion_reactor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "nmod_arkship_fusion_reactor"
+	size = small
+	icon = "GFX_ship_part_reactor_2"
+	icon_frame = 1
+	power = @corvette_power_2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+		upkeep = {
+			energy = 0.10
+			alloys = 0.01
+		}
+	}
+
+	# Planet Scope
+	scripted_action_possible = {
+		nmod_can_park_ship_in_system = yes
+	}
+
+	# Fleet scope
+	scripted_action_button_possible = {
+		exists = owner # Might want to consider using this as an opportunity to make the conditions more transparent
+	}
+
+	# On action
+	scripted_action_name = nmod_unpack_planet_action
+	# Can also do a scripted_action_on_cancel
+
+	# Icon
+	scripted_action_icon = GFX_nmod_fleet_action_park_ship
+
+	# Loc
+	scripted_action_tooltip = nmod_unpack_planet_action_button_desc
+	scripted_action_activity_key = nmod_unpack_planet_action_key
+	scripted_action_context_menu_name = nmod_unpack_planet_action_title
+
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = {  nmod_arkship }
+	upgrades_to = "nmod_arkship_cold_fusion_reactor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "nmod_arkship_cold_fusion_reactor"
+	size = small
+	icon = "GFX_ship_part_reactor_3"
+	icon_frame = 1
+	power = @corvette_power_3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+		upkeep = {
+			energy = 0.10
+			alloys = 0.01
+		}
+	}
+
+	# Planet Scope
+	scripted_action_possible = {
+		nmod_can_park_ship_in_system = yes
+	}
+
+	# Fleet scope
+	scripted_action_button_possible = {
+		exists = owner # Might want to consider using this as an opportunity to make the conditions more transparent
+	}
+
+	# On action
+	scripted_action_name = nmod_unpack_planet_action
+	# Can also do a scripted_action_on_cancel
+
+	# Icon
+	scripted_action_icon = GFX_nmod_fleet_action_park_ship
+
+	# Loc
+	scripted_action_tooltip = nmod_unpack_planet_action_button_desc
+	scripted_action_activity_key = nmod_unpack_planet_action_key
+	scripted_action_context_menu_name = nmod_unpack_planet_action_title
+
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = {  nmod_arkship }
+	upgrades_to = "nmod_arkship_antimatter_reactor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "nmod_arkship_antimatter_reactor"
+	size = small
+	icon = "GFX_ship_part_reactor_4"
+	icon_frame = 1
+	power = @corvette_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+		upkeep = {
+			energy = 0.10
+			alloys = 0.01
+		}
+	}
+
+	# Planet Scope
+	scripted_action_possible = {
+		nmod_can_park_ship_in_system = yes
+	}
+
+	# Fleet scope
+	scripted_action_button_possible = {
+		exists = owner # Might want to consider using this as an opportunity to make the conditions more transparent
+	}
+
+	# On action
+	scripted_action_name = nmod_unpack_planet_action
+	# Can also do a scripted_action_on_cancel
+
+	# Icon
+	scripted_action_icon = GFX_nmod_fleet_action_park_ship
+
+	# Loc
+	scripted_action_tooltip = nmod_unpack_planet_action_button_desc
+	scripted_action_activity_key = nmod_unpack_planet_action_key
+	scripted_action_context_menu_name = nmod_unpack_planet_action_title
+
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = {  nmod_arkship }
+	upgrades_to = "nmod_arkship_zero_point_reactor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "nmod_arkship_zero_point_reactor"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = @corvette_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+		upkeep = {
+			energy = 0.10
+			alloys = 0.01
+		}
+	}
+
+	# Planet Scope
+	scripted_action_possible = {
+		nmod_can_park_ship_in_system = yes
+	}
+
+	# Fleet scope
+	scripted_action_button_possible = {
+		exists = owner # Might want to consider using this as an opportunity to make the conditions more transparent
+	}
+
+	# On action
+	scripted_action_name = nmod_unpack_planet_action
+	# Can also do a scripted_action_on_cancel
+
+	# Icon
+	scripted_action_icon = GFX_nmod_fleet_action_park_ship
+
+	# Loc
+	scripted_action_tooltip = nmod_unpack_planet_action_button_desc
+	scripted_action_activity_key = nmod_unpack_planet_action_key
+	scripted_action_context_menu_name = nmod_unpack_planet_action_title
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = {  nmod_arkship }
+	upgrades_to = "nmod_arkship_dark_matter_reactor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "nmod_arkship_dark_matter_reactor"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = @corvette_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+			sr_dark_matter = 1
+		}
+		upkeep = {
+			energy = 0.10
+			alloys = 0.01
+		}
+	}
+
+	# Planet Scope
+	scripted_action_possible = {
+		nmod_can_park_ship_in_system = yes
+	}
+
+	# Fleet scope
+	scripted_action_button_possible = {
+		exists = owner # Might want to consider using this as an opportunity to make the conditions more transparent
+	}
+
+	# On action
+	scripted_action_name = nmod_unpack_planet_action
+	# Can also do a scripted_action_on_cancel
+
+	# Icon
+	scripted_action_icon = GFX_nmod_fleet_action_park_ship
+
+	# Loc
+	scripted_action_tooltip = nmod_unpack_planet_action_button_desc
+	scripted_action_activity_key = nmod_unpack_planet_action_key
+	scripted_action_context_menu_name = nmod_unpack_planet_action_title
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = {  nmod_arkship }
+
+	ai_weight = {
+		weight = 6
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = sr_dark_matter }
+		}
+		modifier = {
+			factor = 0.0
+			is_ai = yes
+		}
+	}
+}
+
+utility_component_template = {
+	key = "nmod_arkship_thruster_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = @power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost1
+		}
+	}
+
+	modifier = {
+	}
+
+	prerequisites = {  }
+	component_set = "thruster_components"
+	size_restriction = { nmod_arkship nmod_mobile_shipyard }
+	upgrades_to = "nmod_arkship_thruster_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "nmod_arkship_thruster_2"
+	size = small
+	icon = "GFX_ship_part_thruster_2"
+	icon_frame = 1
+	power = @power_2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost2
+		}
+	}
+	modifier = {
+		ship_base_speed_mult = 0.25
+		ship_evasion_add = 5
+	}
+
+	prerequisites = { "tech_thrusters_2" }
+	component_set = "thruster_components"
+	size_restriction = { nmod_arkship nmod_mobile_shipyard }
+	upgrades_to = "nmod_arkship_thruster_3"
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "nmod_arkship_thruster_3"
+	size = small
+	icon = "GFX_ship_part_thruster_3"
+	icon_frame = 1
+	power = @power_3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost3
+		}
+	}
+	modifier = {
+		ship_base_speed_mult = 0.50
+		ship_evasion_add = 10
+	}
+
+	prerequisites = { "tech_thrusters_3" }
+	component_set = "thruster_components"
+	size_restriction = { nmod_arkship nmod_mobile_shipyard }
+	upgrades_to = "nmod_arkship_thruster_4"
+
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "nmod_arkship_thruster_4"
+	size = small
+	icon = "GFX_ship_part_thruster_4"
+	icon_frame = 1
+	power = @power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost4
+		}
+	}
+	modifier = {
+		ship_base_speed_mult = 0.75
+		ship_evasion_add = 15
+	}
+
+	prerequisites = { "tech_thrusters_4" }
+	component_set = "thruster_components"
+	size_restriction = { nmod_arkship nmod_mobile_shipyard }
+	upgrades_to = "nmod_arkship_thruster_5"
+
+	ai_weight = {
+		weight = 4
+	}
+}
+utility_component_template = {
+	key = "nmod_arkship_thruster_5"
+	size = small
+	icon = "GFX_ship_part_thruster_5"
+	icon_frame = 1
+	power = @power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost4
+			sr_dark_matter = 1
+		}
+	}
+	modifier = {
+		ship_base_speed_mult = 1.25
+		ship_evasion_add = 20
+	}
+
+	prerequisites = { "tech_dark_matter_propulsion" }
+	component_set = "thruster_components"
+	size_restriction = { nmod_arkship nmod_mobile_shipyard }
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = sr_dark_matter }
+		}
+		modifier = {
+			factor = 0.0
+			is_ai = yes
+		}
+	}
+}

@@ -1,0 +1,454 @@
+namespace = nmod_country
+
+# Random pilgrimage event
+country_event = {
+	id = nmod_country.10
+	hide_window = yes
+	is_triggered_only = yes
+
+    trigger = {
+        has_valid_civic = civic_nmod_galactic_pilgrimages
+    }
+
+	immediate = {
+        random_list = {
+            40 = { } # ~1 event every 5 years, so as not to be spammy. Playtest this frequency
+            10 = {
+                random_owned_planet = {
+                    save_event_target_as = nmod_pilgrim_origin
+                    random_list = {
+                        20 = { planet_event = { id = nmod_country.11 }}
+                        10 = { planet_event = { id = nmod_country.12 }}
+                        10 = { planet_event = { id = nmod_country.13 }}
+                        10 = { planet_event = { id = nmod_country.14 }}
+                    }
+                }
+            }
+        }
+	}
+}
+
+# Pilgrims bring cool shit back
+planet_event = {
+    id = nmod_country.11
+    title = nmod_country.11.title
+    desc = nmod_country.11.desc
+	picture  = GFX_evt_cargoship_caravan
+	location = root
+    is_triggered_only = yes
+
+    option = {
+        name = nmod_country.11.a
+        owner = {
+            random_list ={
+                1 = { add_resource = { alloys = 250 }}
+                1 = { add_resource = { consumer_goods = 250 }}
+                1 = { add_resource = { exotic_gases = 25 }}
+                1 = { add_resource = { rare_crystals = 25 }}
+                1 = { add_resource = { volatile_motes = 25 }}
+            }
+        }
+    }
+}
+
+# Pilgrims bring cool tech back
+planet_event = {
+    id = nmod_country.12
+    title = nmod_country.12.title
+    desc = nmod_country.12.desc
+	picture  = GFX_evt_ship_offloading_cargo
+	location = root
+    is_triggered_only = yes
+
+    option = {
+        name = nmod_country.12.a
+        owner = {
+            add_random_research_option = {
+                add_progress = 0.0
+            }
+        }
+    }
+}
+
+# Pilgrims in trouble
+planet_event = {
+    id = nmod_country.13
+    title = nmod_country.13.title
+    desc = nmod_country.13.desc
+	picture  = GFX_evt_mysterious_signal
+	location = root
+    is_triggered_only = yes
+
+    trigger = { count_owned_pop = { count > 1 } }
+
+    option = {
+        name = nmod_country.13.a
+        random_owned_pop = {
+            kill_pop = yes
+        }
+    }
+}
+
+# Pilgrims bring artifacts
+planet_event = {
+    id = nmod_country.14
+    title = nmod_country.14.title
+    desc = nmod_country.14.desc
+	picture  = GFX_evt_ship_in_orbit_2
+	location = root
+    is_triggered_only = yes
+
+
+    option = {
+        name = nmod_country.13.a
+        owner = {
+            add_resource = {
+                minor_artifacts = 50
+            }
+        }
+    }
+}
+
+# Stellar Migrants Gatekeeper
+fleet_event = {
+    id = nmod_country.20
+    title = nmod_country.20.title
+    desc = nmod_country.20.desc
+	picture  = GFX_evt_fleet_good
+	location = root
+    is_triggered_only = yes
+
+    trigger = {
+        AND = {
+            owner = {
+                has_valid_civic = civic_nmod_stellar_migrants
+                NOT = {
+                    has_country_flag = nmod_recent_long_voyage
+                }
+            }
+            check_variable = {
+                which = nmod_arkship_voyage_length
+                value >= 10
+            }
+        }
+    }
+
+    immediate = {
+        owner = {
+            set_timed_country_flag = {
+                flag = nmod_recent_long_voyage # to prevent cheesing
+                days = 720
+            }
+        }
+    }
+
+    option = {
+        name = nmod_country.20.a
+        this.owner = {
+            add_monthly_resource_mult = {
+                resource = unity
+                value = 6
+                max = 100000
+                min = 100
+            }
+        }
+    }
+}
+
+# Lost homeworld starter event for player
+country_event = {
+    id = nmod_country.30
+    title = nmod_country.30.title
+    desc = nmod_country.30.desc
+	picture  = GFX_evt_mercenary_fleet
+	location = root
+    is_triggered_only = yes
+
+    trigger = {
+        has_valid_civic = civic_nmod_lost_homeworld
+    }
+
+    option = {
+        name = nmod_country.30.a
+        trigger = { has_valid_civic = civic_nmod_lost_homeworld}
+    }
+    # This should never trigger lol. Just a base case to be safe
+    option = {
+        name = nmod_country.30.b
+        trigger = { NOT = { has_valid_civic = civic_nmod_lost_homeworld } }
+    }
+}
+
+first_contact_event = {
+	id = nmod_country.31
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		owner = {
+			country_event = {
+				id = nmod_country.32
+				scopes = { from = from }
+			}
+		}
+	}
+}
+
+# We've made contact with our homeworld's occupiers. Fired on first contact on_action
+# From = other empire.
+country_event = {
+    id = nmod_country.32
+    title = nmod_country.32.title
+    desc = nmod_country.32.desc
+	picture  = GFX_evt_mysterious_signal
+	location = root
+    is_triggered_only = yes
+
+    trigger = {
+        owner  = {
+            has_valid_civic = civic_nmod_lost_homeworld
+            from = {
+                has_country_flag = nmod_lost_homeworld_parent_of@prev
+            }
+        }
+    }
+
+    # Confrontation option.
+    option = {
+        name = nmod_country.32.a
+        add_casus_belli = {
+            type = nmod_anti_ai_purge
+            who = from
+            days = -1
+        }
+        add_resource = { unity = 5000 }
+        add_modifier = {
+            modifier = nmod_vengeful_return
+        }
+        hidden_effect = {
+            set_country_flag = nmod_homeworld_ai_purge
+        }
+    }
+    # Conceding option
+    option = {
+        name = nmod_country.32.b
+        this.owner_main_species.home_planet.solar_system = {
+            add_claims = { who = root num_of_claims = 10 }
+        }
+        add_resource = { unity = 5000 }
+        add_modifier = {
+            modifier = nmod_a_gentler_path
+        }
+    }
+}
+
+# Lost homeworld first war with geth expy
+country_event = {
+    id = nmod_country.33
+    title = nmod_country.33.title
+    desc = {
+        trigger = {
+            NOT = { has_country_flag = nmod_lost_homeworld_fought_first_war }
+        }
+        text = nmod_country.33.firstwar.desc
+    }
+    desc = {
+        trigger = {
+            has_country_flag = nmod_lost_homeworld_fought_first_war
+        }
+        text = nmod_country.33.war.desc
+    }
+	picture  = GFX_evt_small_space_battle
+	location = root
+	show_sound = event_red_alert
+    is_triggered_only = yes
+
+    trigger = {
+		has_valid_civic = civic_nmod_lost_homeworld
+        from = { # From is the war scope
+            nmod_is_at_war_with_country = {
+                COUNTRY_A = root
+                COUNTRY_B = event_target:nmod_lost_homeworld_parent_of_@root
+            }
+		}
+	}
+
+    # Firm resolve
+    option = {
+        name = nmod_country.33.a
+        add_modifier = {
+            modifier = nmod_homewards_bound
+            years = 10
+        }
+        hidden_effect = {
+            set_country_flag = nmod_lost_homeworld_fought_first_war
+        }
+    }
+    # RIP AND TEAR
+    option = {
+        name = nmod_country.33.b
+        trigger = { has_modifier = nmod_vengeful_return}
+        add_modifier = {
+            modifier = nmod_homeworld_crusade
+            years = 10
+        }
+        hidden_effect = {
+            set_country_flag = nmod_lost_homeworld_fought_first_war
+        }
+    }
+}
+
+# Lost homeworld event for when we take ownership of our homeworld
+# From = new owner, fromfrom = old owner
+planet_event = {
+    id = nmod_country.34
+    title = nmod_country.34.title
+    desc = nmod_country.34.desc
+	picture  = GFX_evt_crisis_defeated
+	location = root
+    is_triggered_only = yes
+
+    trigger = {
+        AND = {
+            from = { has_valid_civic = civic_nmod_lost_homeworld }
+            is_same_value = from.owner_main_species.home_planet
+        }
+    }
+
+    immediate = {
+        owner = {
+            country_event = {
+                id = nmod_country.35
+                days = 3600
+            }
+        }
+    }
+
+    option = {
+        name = nmod_country.34.a
+        owner = {
+            add_resource = { unity = 10000 }
+        }
+        add_modifier = {
+            modifier = nmod_recovered_home
+            days = -1
+        }
+    }
+}
+
+# Lost homeworld event for butlerian jihad
+country_event = {
+    id = nmod_country.35
+    title = nmod_country.35.title
+    desc = nmod_country.35.desc
+	picture  = GFX_evt_victorious_army
+	location = root
+    is_triggered_only = yes
+
+    option = {
+        name = nmod_country.35.a
+        hidden_effect = {
+            force_remove_civic = civic_nmod_lost_homeworld
+            force_add_civic = civic_nmod_butlerian_jihad
+            set_government_cooldown = no
+            if = {
+                limit = {
+                    NOT = {
+                        has_ethic = ethic_fanatic_spiritualist
+                    }
+                }
+                shift_ethic = ethic_spiritualist
+            }
+        }
+        allow = {
+            is_individual_machine = no
+        }
+        custom_tooltip = nmod_butlerian_switch
+    }
+
+    option = {
+        name = nmod_country.35.b
+    }
+}
+
+# Warning event for system owner that nomads are squatting
+country_event = {
+    id = nmod_country.40
+    title = nmod_country.40.title
+    desc = nmod_country.40.desc
+	picture  = GFX_evt_ship_in_orbit
+	location = event_target:nmod_squatted_system
+    is_triggered_only = yes
+
+    # Bump them along
+    option = {
+        name = nmod_country.40.a
+        hidden_effect = {
+            event_target:nmod_squatted_system = {
+                # Ultimatum event. No option to refuse for now.
+                system_event = { id = nmod_country.41 }
+            }
+        }
+        custom_tooltip = nmod_country.40.a.tooltip
+        ai_chance = {
+            base = 10
+        }
+    }
+
+    # Accept it
+    option = {
+        name = nmod_country.40.b
+        custom_tooltip = nmod_country.40.b.tooltip
+        ai_chance = {
+            base = 10
+            # We like them.
+            modifier = {
+                factor = 2
+                opinion_level = { who = event_target:nmod_nomad_squatters level >= good }
+            }
+            # We dislike them.
+            modifier = {
+                factor = 0.5
+                opinion_level = { who = event_target:nmod_nomad_squatters level < neutral }
+            }
+            # We hate them.
+            modifier = {
+                factor = 0
+                opinion_level = { who = event_target:nmod_nomad_squatters level = terrible }
+            }
+        }
+    }
+}
+
+# Eviction notice to nomads
+# TODO: It'd be nice to add an option to refuse, but that probably entails a custom cb, which is out of scope for now.
+# TODO: Perhaps make it extremely expensive in influence to say no + grant a claim on the system?
+system_event = {
+    id = nmod_country.41
+    title = nmod_country.41.title
+    desc = nmod_country.41.desc
+	picture  = GFX_evt_fleet_neutral
+	location = event_target:nmod_squatted_system
+    is_triggered_only = yes
+
+    # Bump them along
+    option = {
+        name = nmod_country.41.a
+        hidden_effect = {
+            every_system_colony = {
+                limit = {
+                    is_planet_class = pc_nmod_arkship
+                }
+                nmod_packup_planet = yes
+            }
+            event_target:nmod_starbase_original_owner = {
+                set_timed_country_flag = {
+                    flag = nmod_nomads_banned
+                    years = 5
+                }
+            }
+        }
+        custom_tooltip = nmod_country.41.a.tooltip
+    }
+}
+

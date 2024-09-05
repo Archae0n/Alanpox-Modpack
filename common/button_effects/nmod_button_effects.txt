@@ -1,0 +1,192 @@
+# Generic, no effect button. This is for controlling display of ui elements with the potential block
+nmod_arkship_generic_button = {
+    potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes }
+                nmod_is_arkship = yes
+            }
+        }
+    }
+}
+
+# Growth bar buttons
+nmod_pop_growth_generic = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_pop_growth_tt
+    }
+}
+
+nmod_pop_growth_bar_10_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+            is_variable_set = nmod_arkship_pop_growth_tracker
+            check_variable = {  which = nmod_arkship_pop_growth_tracker value >= 10 }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_pop_growth_tt
+    }
+}
+nmod_pop_growth_bar_20_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+            is_variable_set = nmod_arkship_pop_growth_tracker
+            check_variable = {  which = nmod_arkship_pop_growth_tracker value >= 20 }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_pop_growth_tt
+    }
+}
+nmod_pop_growth_bar_30_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+            is_variable_set = nmod_arkship_pop_growth_tracker
+            check_variable = {  which = nmod_arkship_pop_growth_tracker value >= 30 }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_pop_growth_tt
+    }
+}
+nmod_pop_growth_bar_40_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+            is_variable_set = nmod_arkship_pop_growth_tracker
+            check_variable = {  which = nmod_arkship_pop_growth_tracker value >= 40 }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_pop_growth_tt
+    }
+}
+nmod_pop_growth_bar_50_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+            is_variable_set = nmod_arkship_pop_growth_tracker
+            check_variable = {  which = nmod_arkship_pop_growth_tracker value >= 50 }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_pop_growth_tt
+    }
+}
+nmod_pop_growth_bar_60_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+            is_variable_set = nmod_arkship_pop_growth_tracker
+            check_variable = {  which = nmod_arkship_pop_growth_tracker value >= 60 }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_pop_growth_tt
+    }
+}
+nmod_pop_growth_bar_70_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+            is_variable_set = nmod_arkship_pop_growth_tracker
+            check_variable = {  which = nmod_arkship_pop_growth_tracker value >= 70 }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_pop_growth_tt
+    }
+}
+nmod_pop_growth_bar_80_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+            is_variable_set = nmod_arkship_pop_growth_tracker
+            check_variable = {  which = nmod_arkship_pop_growth_tracker value >= 80 }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_pop_growth_tt
+    }
+}
+nmod_pop_growth_bar_90_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+            is_variable_set = nmod_arkship_pop_growth_tracker
+            check_variable = {  which = nmod_arkship_pop_growth_tracker value >= 90 }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_pop_growth_tt
+    }
+}
+nmod_pop_growth_bar_100_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+            is_variable_set = nmod_arkship_pop_growth_tracker
+            check_variable = {  which = nmod_arkship_pop_growth_tracker value >= 100 } # This may be redundant lol
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_pop_growth_tt
+    }
+}
+
+# Building count button
+nmod_building_count_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_building_count_tt
+    }
+}
+# Building count button
+nmod_district_count_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_district_count_tt
+    }
+}
+# Voyage length button
+nmod_voyage_length_button = {
+   potential = {
+        is_scope_type = fleet
+        fleet = {
+            if = { limit = { is_scope_valid = yes } nmod_is_arkship = yes }
+        }
+    }
+    effect = {
+        custom_tooltip = nmod_voyage_length_tt
+    }
+}

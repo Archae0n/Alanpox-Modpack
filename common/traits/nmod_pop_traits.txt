@@ -1,0 +1,35 @@
+trait_nmod_nomad_living = {
+	icon = "gfx/interface/icons/traits/trait_nmod_nomad_living.dds"
+
+	initial = no
+
+	species_possible_remove = {
+		if = {
+			limit = {
+				exists = from
+			}
+			custom_tooltip = {
+				# Teehee I'm stealing vanilla loc
+				fail_text = trait_aquatic_remove_evolutionary_mastery
+				from = { has_tradition = tr_genetics_resequencing }
+			}
+		}
+	}
+	species_potential_add = {
+		exists = from
+		from = {
+			has_tradition = tr_genetics_resequencing
+		}
+	}
+
+	cost = 0
+	allowed_archetypes = { BIOLOGICAL PRESAPIENT LITHOID }
+	sorting_priority = 30
+	modifier = {
+		pc_nmod_arkship_habitability = 0.8
+		pop_environment_tolerance = -0.4
+	}
+	ai_weight = {
+		weight = 0
+	}
+}

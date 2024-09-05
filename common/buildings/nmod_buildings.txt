@@ -1,0 +1,206 @@
+building_nmod_arkship_capital = {
+	capital = yes
+	can_build = no
+	can_demolish = no
+	can_be_ruined = no
+	can_be_disabled = no
+	position_priority = 0
+
+	icon = building_capital
+
+	category = government
+
+	potential = {
+		is_planet_class = pc_nmod_arkship
+		exists = owner
+		owner = { is_fallen_empire = no }
+	}
+
+	resources = {
+		category = planet_buildings_hab_capital
+		upkeep = {
+			energy = 3
+			alloys = 1
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 3
+		planet_amenities_add = 3
+	}
+
+	inline_script = {
+		script = buildings/on_all_capital_buildings
+	}
+
+	triggered_planet_modifier = { job_nmod_captain_add = 1 }
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            is_planet_class = pc_nmod_arkship
+        }
+        planet_max_districts_add = 1
+        mult = owner.modifier:habitat_max_districts_add
+    }
+
+	triggered_planet_modifier = {
+		modifier = { planet_max_buildings_add = 100 }
+	}
+
+	triggered_planet_modifier = {
+		modifier = { planet_stability_add = 1 }
+		mult = modifier:habitat_stability_add
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_active_tradition = tr_domination_imperious_architecture
+			}
+		}
+		modifier = {
+			planet_housing_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_synthetics_finish }
+		}
+		job_roboticist_add = 1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_cybernetics_organ_harvesting }
+			has_current_purge = yes
+			growing_species = { has_trait = trait_cybernetic }
+		}
+		pop_growth_speed = 0.10
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { has_active_tradition = tr_synthetics_finish }
+		}
+		text = job_roboticist_effect_desc
+	}
+}
+
+building_nmod_engineering_workshop = {
+	base_buildtime = 360
+	base_cap_amount = 1
+	category = manufacturing
+	icon = building_machine_capital
+
+	potential = {
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
+		OR = {
+			owner = {
+				is_ai = no
+			}
+			has_any_industry_district = yes
+		}
+		owner = {
+			has_valid_civic = civic_nmod_adept_engineers
+		}
+	}
+
+	destroy_trigger = {
+		OR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+		}
+		job_nmod_ship_engineer_add = 2
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	prerequisites = {
+		tech_basic_industry
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+		}
+		text = job_nmod_ship_engineer_effect_desc
+	}
+}
+
+building_nmod_recycling_centre = {
+	base_buildtime = 360
+	base_cap_amount = 1
+
+	category = amenity
+
+	potential = {
+		exists = owner
+		# check the empire is valid
+		owner = {
+			AND = {
+				is_individual_machine = no
+				is_gestalt = no
+			}
+		}
+		planet = {
+			is_planet_class = pc_nmod_arkship
+		}
+	}
+
+	destroy_trigger = {
+		AND = {
+			exists = owner
+			owner = {
+				OR = {
+					is_individual_machine = yes
+					is_gestalt = yes
+				}
+			}
+		}
+	}
+
+	planet_modifier = {
+		job_nmod_recycler_add = 2
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	prerequisites = {
+		tech_basic_industry
+	}
+
+	triggered_desc = {
+		text = job_nmod_recycler_effect_desc
+	}
+}

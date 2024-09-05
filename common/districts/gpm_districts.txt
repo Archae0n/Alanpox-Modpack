@@ -259,7 +259,7 @@ district_gpm_precursor_science = {
 			owner = { is_gestalt = no }
 		}
 		modifier = {
-			job_archaeoengineers_add = 2
+			job_archaeoengineers_add = 1
 		}
 	}
 
@@ -269,7 +269,7 @@ district_gpm_precursor_science = {
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			job_archaeo_drone_add = 2
+			job_archaeo_drone_add = 1
 		}
 	}
 
@@ -279,7 +279,7 @@ district_gpm_precursor_science = {
 			owner = { is_machine_empire = yes }
 		}
 		modifier = {
-			job_archaeo_unit_add = 2
+			job_archaeo_unit_add = 1
 		}
 	}
 

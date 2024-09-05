@@ -1,0 +1,133 @@
+civic_nmod_adept_engineers = {
+	description = "civic_nmod_adept_engineers_effects"
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+        origin = { value = origin_nmod_nomadic_race }
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_materialist
+				value = ethic_materialist
+				value = ethic_fanatic_materialist
+			}
+		}
+		civics = {
+			NOT = {
+				#value = civic_free_haven
+			}
+		}
+	}
+	random_weight = { base = @civic_default_random_weight }
+    # I don't care about ai weight right now
+	modifier = {
+        country_engineering_tech_research_speed = 0.1
+		planet_jobs_engineering_research_produces_mult = 0.1
+        # TODO: it needs to a add a workshop deposit to arkships
+	}
+}
+
+civic_nmod_galactic_pilgrimages = {
+	description = "civic_nmod_galactic_pilgrimages_effects"
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+        origin = { value = origin_nmod_nomadic_race }
+	}
+	random_weight = { base = @civic_default_random_weight }
+    # I don't care about ai weight right now
+	modifier = {
+		pop_growth_from_immigration = 0.15
+        pop_growth_speed = -0.1
+	}
+}
+
+# Religious Migrants
+civic_nmod_stellar_migrants = {
+	description = "civic_nmod_stellar_migrants_effects"
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+        origin = { value = origin_nmod_nomadic_race }
+	}
+	random_weight = { base = @civic_default_random_weight }
+    # I don't care about ai weight right now
+	modifier = {
+	}
+}
+
+# Tiyanki Herders
+#civic_nmod_tiyanki_herders = {
+#	description = "civic_nmod_tiyanki_herders_effects"
+#	potential = {
+#		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+#		#authority = { NOT = { value = auth_corporate } }
+#        origin = { value = origin_nmod_nomadic_race }
+#	}
+#	possible = {
+#		civics = {
+#			NOT = {
+#				#value = civic_free_haven
+#			}
+#		}
+#	}
+#	random_weight = { base = @civic_default_random_weight }
+#    # I don't care about ai weight right now
+#	modifier = {
+#	}
+#}
+
+# Celestial Caravans
+civic_nmod_celestial_caravans = {
+	description = "civic_nmod_celestial_caravans_effects"
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+        origin = { value = origin_nmod_nomadic_race }
+	}
+	random_weight = { base = @civic_default_random_weight }
+    # I don't care about ai weight right now
+	modifier = {
+		trade_value_mult = 0.1
+	}
+}
+
+# Lost Homeworld (Evil machines took it)
+civic_nmod_lost_homeworld = {
+	description = "civic_nmod_lost_homeworld_effects"
+	modification = no
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+        origin = { value = origin_nmod_nomadic_race }
+	}
+	random_weight = { base = @civic_default_random_weight }
+    # I don't care about ai weight right now
+	modifier = {
+		country_unity_produces_mult = 0.15
+	}
+}
+
+# Lost Homeworld (Evil machines took it)
+civic_nmod_butlerian_jihad = {
+	description = "civic_nmod_butlerian_jihad_effects"
+	pickable_at_start = no
+	modification = no
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+
+		species_archetype = { NOT = { value = ROBOT} }
+		species_archetype = { NOT = { value = MACHINE } }
+	}
+	possible = {
+		ethics = {
+			OR = {
+				value = ethic_fanatic_spiritualist
+				value = ethic_spiritualist
+			}
+		}
+	}
+	random_weight = { base = 0 }
+
+	modifier = {
+		ship_fire_rate_mult = 0.25
+		country_naval_cap_mult = 0.15
+		starbase_shipyard_build_cost_mult = -0.15
+	}
+}

@@ -1,0 +1,185 @@
+# Reactors
+@corvette_power_1 = 75
+@corvette_power_2 = 100
+@corvette_power_3 = 130
+@corvette_power_4 = 170
+@corvette_power_5 = 220
+@corvette_power_6 = 285
+
+@corvette_cost_1 = 10
+@corvette_cost_2 = 13
+@corvette_cost_3 = 17
+@corvette_cost_4 = 22
+@corvette_cost_5 = 28
+@corvette_cost_6 = 37
+
+utility_component_template = {
+	key = "nmod_mobile_shipyard_fission_reactor"
+	size = small
+	icon = "GFX_ship_part_reactor_1"
+	icon_frame = 1
+	power = 75
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+		upkeep = {
+			energy = 0.10
+			alloys = 0.01
+		}
+	}
+
+	prerequisites = {  }
+	component_set = "power_core"
+	size_restriction = {  nmod_mobile_shipyard }
+	upgrades_to = "nmod_mobile_shipyard_fusion_reactor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "nmod_mobile_shipyard_fusion_reactor"
+	size = small
+	icon = "GFX_ship_part_reactor_2"
+	icon_frame = 1
+	power = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @corvette_cost_2
+		}
+		upkeep = {
+			energy = 0.13
+			alloys = 0.013
+		}
+	}
+
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = {  nmod_mobile_shipyard }
+    upgrades_to = "nmod_mobile_shipyard_cold_fusion_reactor"
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+
+utility_component_template = {
+	key = "nmod_mobile_shipyard_cold_fusion_reactor"
+	size = small
+	icon = "GFX_ship_part_reactor_3"
+	icon_frame = 1
+	power = @corvette_power_3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @corvette_cost_3
+		}
+		upkeep = {
+			energy = 0.17
+			alloys = 0.017
+		}
+	}
+
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = {  nmod_mobile_shipyard }
+    upgrades_to = "nmod_mobile_shipyard_antimatter_reactor"
+
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "nmod_mobile_shipyard_antimatter_reactor"
+	size = small
+	icon = "GFX_ship_part_reactor_4"
+	icon_frame = 1
+	power = @corvette_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @corvette_cost_4
+		}
+		upkeep = {
+			energy = 0.22
+			alloys = 0.022
+		}
+	}
+
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = {  nmod_mobile_shipyard }
+    upgrades_to = "nmod_mobile_shipyard_zero_point_reactor"
+
+	ai_weight = {
+		weight = 4
+	}
+}
+
+utility_component_template = {
+	key = "nmod_mobile_shipyard_zero_point_reactor"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = @corvette_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @corvette_cost_5
+		}
+		upkeep = {
+			energy = 0.28
+			alloys = 0.028
+		}
+	}
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = {  nmod_mobile_shipyard }
+    upgrades_to = "nmod_mobile_shipyard_dark_matter_reactor"
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+utility_component_template = {
+	key = "nmod_mobile_shipyard_dark_matter_reactor"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = @corvette_power_6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @corvette_cost_6
+			sr_dark_matter = 1
+		}
+		upkeep = {
+			energy = 0.37
+			alloys = 0.037
+		}
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = {  nmod_mobile_shipyard }
+
+	ai_weight = {
+		weight = 6
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = sr_dark_matter }
+		}
+		modifier = {
+			factor = 0.0
+			is_ai = yes
+		}
+	}
+}

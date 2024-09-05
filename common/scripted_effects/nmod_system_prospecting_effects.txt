@@ -1,0 +1,227 @@
+@nmod_star_resource_weight = 10
+@nmod_habitable_resource_weight = 20
+@nmod_planet_resource_weight = 4
+@nmod_asteroid_resource_weight = 2
+@nmod_moon_resource_weight = 2
+
+@nmod_system_consumption_rate = 1 # This is per arkship
+@nmod_system_recovery_rate = 1
+
+# Solar system scope
+nmod_calculate_system_resources = {
+    # Stars = 5
+    # Habitable planets = 10
+    # Planets = 2
+    # Asteroids = 1
+    # Moons = 1
+
+    # Stars
+    set_variable = { which = nmod_sysres_star_count value = 0 }
+    export_trigger_value_to_variable = {
+        trigger = count_system_planet
+        parameters = { limit = { is_star = yes } }
+        variable = nmod_sysres_star_count
+    }
+    # Habitable Worlds
+    set_variable = { which = nmod_sysres_hab_count value = 0 }
+    export_trigger_value_to_variable = {
+        trigger = count_system_planet
+        parameters = {
+            limit = {
+                AND = {
+                    is_colonizable  = yes
+                    AND = {
+                        is_ringworld = no # Plundering a ring-world should cover you in loot
+                        is_artificial = no
+                    }
+                    is_colony = no
+                }
+            }
+        }
+        variable = nmod_sysres_hab_count
+    }
+    # Planets
+    set_variable = { which = nmod_sysres_planet_count value = 0 }
+    export_trigger_value_to_variable = {
+        trigger = count_system_planet
+        parameters = {
+            limit = {
+                AND = {
+                    is_colonizable  = no
+                    is_colony = no
+                    is_star = no
+                    is_asteroid = no
+                    is_moon = no
+                    is_astral_scar = no
+                }
+            }
+        }
+        variable = nmod_sysres_planet_count
+    }
+    # Asteroids
+    set_variable = { which = nmod_sysres_asteroid_count value = 0 }
+    export_trigger_value_to_variable = {
+        trigger = count_system_planet
+        parameters = {
+            limit = { is_asteroid = yes }
+        }
+        variable = nmod_sysres_asteroid_count
+    }
+    # Moons
+    set_variable = { which = nmod_sysres_moon_count value = 0 }
+    export_trigger_value_to_variable = {
+        trigger = count_system_planet
+        parameters = {
+            limit = {
+                AND = {
+                    is_moon = yes
+                    is_colonizable = no
+                    is_colony = no
+                }
+            }
+        }
+        variable = nmod_sysres_moon_count
+    }
+
+    # This is a max
+    set_variable = {
+        which = nmod_sysres_total_resources
+        value = 0
+    }
+    nmod_get_resource_value = { BODY_COUNT = nmod_sysres_star_count WEIGHT = @nmod_star_resource_weight }
+    nmod_get_resource_value = { BODY_COUNT = nmod_sysres_hab_count WEIGHT = @nmod_habitable_resource_weight }
+    nmod_get_resource_value = { BODY_COUNT = nmod_sysres_planet_count WEIGHT = @nmod_planet_resource_weight }
+    nmod_get_resource_value = { BODY_COUNT = nmod_sysres_asteroid_count WEIGHT = @nmod_asteroid_resource_weight }
+    nmod_get_resource_value = { BODY_COUNT = nmod_sysres_moon_count WEIGHT = @nmod_moon_resource_weight }
+}
+
+# Solar system scope
+nmod_get_resource_value = {
+    set_variable = {
+        which = nmod_sysres_staging
+        value = $BODY_COUNT$
+    }
+    multiply_variable = {
+        which = nmod_sysres_staging
+        value = $WEIGHT$
+    }
+    change_variable = {
+        which = nmod_sysres_total_resources
+        value = nmod_sysres_staging
+    }
+    clear_variable = nmod_sysres_staging
+}
+
+# Solar system scope
+nmod_system_resources_cleanup = {
+    clear_variable = nmod_sysres_star_count
+    clear_variable = nmod_sysres_hab_count
+    clear_variable = nmod_sysres_planet_count
+    clear_variable = nmod_sysres_asteroid_count
+    clear_variable = nmod_sysres_moon_count
+}
+
+# Solar system scope
+nmod_iterate_resource_consumption = {
+    nmod_calculate_system_resources = yes # This may have performance implications, review if it's an issue
+    nmod_system_resources_cleanup = yes # Remove this for debugging or to improve system exposure to user
+    set_variable = {
+        which = nmod_sysres_consumption
+        value = 0
+    }
+    every_system_colony = {
+        limit = {
+            is_planet_class = pc_nmod_arkship
+        }
+        solar_system = {
+            change_variable = {
+                which = nmod_sysres_consumption
+                value = @nmod_system_consumption_rate
+            }
+        }
+    }
+    change_variable = {
+        which = nmod_sysres_devastation
+        value = nmod_sysres_consumption
+    }
+
+    # Set a ceiling
+    if = {
+        limit = {
+            check_variable = {
+                which = nmod_sysres_devastation
+                value > nmod_sysres_total_resources
+            }
+        }
+        set_variable = {
+            which = nmod_sysres_devastation
+            value = nmod_sysres_total_resources
+        }
+    }
+}
+
+# Solar system scope
+nmod_set_system_resource_modifier = {
+    every_system_colony = {
+        remove_modifier = nmod_system_prospecting
+    }
+    if = {
+        limit = {
+            check_variable = {
+                which = nmod_sysres_devastation
+                value < nmod_sysres_total_resources
+            }
+        }
+        every_system_colony = {
+            limit = {
+                is_planet_class = pc_nmod_arkship
+            }
+            add_modifier = { modifier = nmod_system_prospecting }
+        }
+        set_star_flag = nmod_not_yet_depleted_resources
+    }
+    else = {
+        star = {
+            add_modifier = { modifier = nmod_system_recovery_tracker }
+        }
+        if = {
+            limit = {
+                has_star_flag = nmod_not_yet_depleted_resources
+            }
+            remove_star_flag = nmod_not_yet_depleted_resources
+            create_message = {
+                type = NMOD_RESOURCE_DEPOSITS_EXHAUSTED
+                localization = MESSAGE_NMOD_RESOURCE_DEPOSITS_EXHAUSTED_TEXT
+                days = 180
+
+                target = this
+            }
+        }
+    }
+}
+
+# Solar system scope
+nmod_recover_system_devastation = {
+    star = { remove_modifier = nmod_system_recovery_tracker}
+    subtract_variable = {
+        which = nmod_sysres_devastation
+        value = @nmod_system_recovery_rate
+    }
+    if = {
+        limit = {
+            check_variable = {
+                which = nmod_sysres_devastation
+                value <= 0
+            }
+        }
+        clear_variable = nmod_sysres_devastation
+        star = { remove_modifier = nmod_system_recovery_tracker}
+    }
+    else = {
+        star = {
+            add_modifier = {
+                modifier = nmod_system_recovery_tracker
+            }
+        }
+    }
+}

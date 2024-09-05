@@ -44,3 +44,30 @@ habitable_planet = {
 		is_planet_class = pc_city
 	}
 }
+
+has_lab_building = {
+	OR = {
+		has_building = building_research_lab_1
+		has_building = building_research_lab_2
+		has_building = building_research_lab_3
+		has_building = building_nanolab_1
+		has_building = building_nanolab_2		
+	}
+}
+
+has_rez_buff_building = {
+	OR = {
+		has_building = building_food_processing_facility
+		has_building = building_food_processing_center
+		has_building = building_mineral_purification_plant
+		has_building = building_mineral_purification_hub
+		has_building = building_energy_grid
+		has_building = building_energy_nexus
+		has_building = building_foundry_1
+		has_building = building_foundry_2
+		has_building = building_foundry_3
+		has_building = building_factory_1
+		has_building = building_factory_2
+		has_building = building_factory_3		
+	}
+}

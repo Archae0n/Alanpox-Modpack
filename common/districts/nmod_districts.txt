@@ -1,0 +1,662 @@
+@nmod_district_cost = 300
+
+district_nmod_housing = {
+	base_buildtime = 300
+	is_capped_by_modifier = no
+	exempt_from_ai_planet_specialization = yes
+
+	show_on_uncolonized = {
+		uses_district_set = nmod_arkship
+	}
+
+	potential = {
+		uses_district_set = nmod_arkship
+	}
+
+	conversion_ratio = 1
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = @nmod_district_cost
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 12
+	}
+	# TODO: This should give some jobs
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_prosperity_public_works }
+		}
+		modifier = {
+			planet_housing_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_housing_1
+			}
+		}
+		modifier = {
+			planet_housing_add = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_housing_2
+				NOT = { has_valid_civic = civic_agrarian_idyll }
+			}
+		}
+		modifier = {
+			planet_housing_add = 3
+		}
+	}
+}
+
+district_nmod_science = {
+	base_buildtime = 300
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = nmod_arkship
+		has_modifier = nmod_research_specialty
+	}
+
+	potential = {
+		uses_district_set = nmod_arkship
+		has_modifier = nmod_research_specialty
+	}
+
+	prerequisites = {
+		tech_basic_science_lab_1
+	}
+
+	resources = {
+		category = planet_districts_hab_research
+		cost = {
+			minerals = @nmod_district_cost
+		}
+		upkeep = {
+			energy = 2
+			#alloys = @low_hab_maintenance
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 4
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				OR = {
+					is_regular_empire = yes
+					is_nomad_empire = yes
+				}
+			}
+		}
+		job_researcher_add = 2
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		text = job_researcher_effect_desc
+	}
+}
+
+district_nmod_industry = {
+	base_buildtime = 300
+	is_capped_by_modifier = no
+	exempt_from_ai_planet_specialization = yes
+
+	show_on_uncolonized = {
+		uses_district_set = nmod_arkship
+		has_modifier = nmod_industry_specialty
+	}
+
+	potential = {
+		uses_district_set = nmod_arkship
+		has_modifier = nmod_industry_specialty
+	}
+
+	conversion_ratio = 1
+
+	resources = {
+		category = planet_districts_industrial
+		cost = {
+			minerals = @nmod_district_cost
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 4
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_crafter_empire = no
+			}
+		}
+		modifier = {
+			job_artisan_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_crafter_empire = yes }
+		}
+		modifier = {
+			job_artificer_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_catalytic_empire = no
+			}
+		}
+		modifier = {
+			job_foundry_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_catalytic_empire = yes
+			}
+		}
+		modifier = {
+			job_catalytic_technician_add = 1
+		}
+	}
+
+	# Designation Job Changes
+	triggered_planet_modifier = {
+		potential = {
+			OR = {
+				has_designation = col_foundry
+				has_designation = col_capital_foundry
+				has_designation = nmod_ark_foundry
+			}
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_crafter_empire = no
+			}
+		}
+		modifier = {
+			job_artisan_add = -1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			OR = {
+				has_designation = col_foundry
+				has_designation = col_capital_foundry
+				has_designation = nmod_ark_foundry
+			}
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_crafter_empire = yes
+			}
+		}
+		modifier = {
+			job_artificer_add = -1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			OR = {
+				has_designation = col_foundry
+				has_designation = col_capital_foundry
+				has_designation = nmod_ark_foundry
+			}
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_catalytic_empire = no
+			}
+		}
+		modifier = {
+			job_foundry_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			OR = {
+				has_designation = col_foundry
+				has_designation = col_capital_foundry
+				has_designation = nmod_ark_foundry
+			}
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_catalytic_empire = yes
+			}
+		}
+		modifier = {
+			job_catalytic_technician_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			OR = {
+				has_designation = col_factory
+				has_designation = col_capital_factory
+				has_designation = nmod_ark_factory
+			}
+
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_crafter_empire = no
+			}
+		}
+		modifier = {
+			job_artisan_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			OR = {
+				has_designation = col_factory
+				has_designation = col_capital_factory
+				has_designation = nmod_ark_factory
+			}
+
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_crafter_empire = yes
+			}
+		}
+		modifier = {
+			job_artificer_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			OR = {
+				has_designation = col_factory
+				has_designation = col_capital_factory
+				has_designation = nmod_ark_factory
+			}
+
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_catalytic_empire = no
+			}
+		}
+		modifier = {
+			job_foundry_add = -1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			OR = {
+				has_designation = col_factory
+				has_designation = col_capital_factory
+				has_designation = nmod_ark_factory
+			}
+
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_catalytic_empire = yes
+			}
+		}
+		modifier = {
+			job_catalytic_technician_add = -1
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_crafter_empire = no
+			}
+			NOT = { has_designation = nmod_ark_foundry }
+		}
+		text = job_artisan_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_crafter_empire = yes
+			}
+			NOT = { has_designation = nmod_ark_foundry }
+		}
+		text = job_artificer_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_catalytic_empire = no
+			}
+			NOT = { has_designation = nmod_ark_factory }
+		}
+		text = job_foundry_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_catalytic_empire = yes
+			}
+			NOT = { has_designation = nmod_ark_factory }
+		}
+		text = job_catalytic_technician_effect_desc
+	}
+}
+
+district_nmod_culture = {
+	base_buildtime = 300
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = nmod_arkship
+		has_modifier = nmod_culture_specialty
+	}
+
+	potential = {
+		uses_district_set = nmod_arkship
+		has_modifier = nmod_culture_specialty
+	}
+
+
+	resources = {
+		category = planet_districts_farming
+		cost = {
+			minerals = @nmod_district_cost
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 4
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				OR = {
+					is_nomad_empire = yes
+					is_regular_empire = yes
+				}
+				NOT = { has_valid_civic = civic_warrior_culture }
+			}
+		}
+		modifier = {
+			job_entertainer_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				OR = {
+					is_nomad_empire = yes
+					is_regular_empire = yes
+				}
+				has_valid_civic = civic_warrior_culture
+			}
+		}
+		modifier = {
+			job_duelist_add = 2
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { has_valid_civic = civic_warrior_culture }
+		}
+		text = job_duelist_effect_desc
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { NOT = { has_valid_civic = civic_warrior_culture } }
+		}
+		text = job_entertainer_effect_desc
+	}
+}
+
+district_nmod_energy = {
+	base_buildtime = 240
+	is_capped_by_modifier = no
+	exempt_from_ai_planet_specialization = yes
+
+	show_on_uncolonized = {
+		uses_district_set = nmod_arkship
+		has_modifier = nmod_energy_specialty
+	}
+
+	potential = {
+		uses_district_set = nmod_arkship
+		has_modifier = nmod_energy_specialty
+	}
+
+	conversion_ratio = 1
+
+	resources = {
+		category = planet_districts_generator
+		cost = {
+			minerals = @nmod_district_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 4
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				OR = {
+					is_regular_empire = yes
+					is_nomad_empire = yes
+				}
+			}
+		}
+		modifier = {
+			job_technician_add = 2
+		}
+	}
+
+	prerequisites = {
+		tech_power_plant_1
+	}
+}
+
+district_nmod_mining = {
+	base_buildtime = 240
+
+	is_capped_by_modifier = no
+	show_on_uncolonized = {
+		uses_district_set = nmod_arkship
+		has_modifier = nmod_mining_specialty
+	}
+
+	potential = {
+		uses_district_set = nmod_arkship
+		has_modifier = nmod_mining_specialty
+	}
+
+	resources = {
+		category = planet_districts_mining
+		cost = {
+			minerals = @nmod_district_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 4
+	}
+
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				OR = {
+					is_nomad_empire = yes
+					is_regular_empire = yes
+				}
+			}
+		}
+		modifier = {
+			job_miner_add = 2
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				OR = {
+					is_nomad_empire = yes
+					is_regular_empire = yes
+				}
+			}
+		}
+		text = job_miner_effect_desc
+	}
+
+	prerequisites = {
+		tech_mechanized_mining
+	}
+}
+
+district_nmod_farming = {
+	base_buildtime = 240
+
+	is_capped_by_modifier = no
+	show_on_uncolonized = {
+		uses_district_set = nmod_arkship
+		has_modifier = nmod_agriculture_specialty
+	}
+
+	potential = {
+		uses_district_set = nmod_arkship
+		has_modifier = nmod_agriculture_specialty
+	}
+
+	conversion_ratio = 1
+
+	resources = {
+		category = planet_districts_farming
+		cost = {
+			minerals = @nmod_district_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 4
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				OR = {
+					is_nomad_empire = yes
+					is_regular_empire = yes
+				}
+			}
+		}
+		modifier = {
+			job_farmer_add = 2
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				OR = {
+					is_nomad_empire = yes
+					is_regular_empire = yes
+				}
+			}
+		}
+		text = job_farmer_effect_desc
+	}
+
+	prerequisites = {
+		tech_industrial_farming
+	}
+
+	destroy_trigger = {
+		exists = owner
+		AND = {
+			owner = { is_ai = yes }
+			owner = { country_uses_food = no }
+		}
+	}
+}

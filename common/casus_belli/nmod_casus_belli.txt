@@ -1,0 +1,35 @@
+nmod_anti_ai_purge = {
+	show_notification = yes
+    show_in_diplomacy = yes
+	potential = {  # This = cb owner, from = defender
+        OR = {
+            is_country_type = default
+            is_country_type = nomad_default
+        }
+        from = {
+            OR = {
+                is_machine_empire = yes
+                is_individual_machine = yes
+            }
+        }
+        OR = {
+            this = { has_country_flag = nmod_galactic_ai_purge }
+            this = { has_valid_civic = civic_nmod_butlerian_jihad }
+            # For when we grant it by script
+            AND = {
+                has_country_flag = nmod_homeworld_ai_purge
+                from = { has_country_flag = nmod_lost_homeworld_parent_of@prev}
+            }
+        }
+
+    }
+    is_valid = {
+		#has_total_war_cb = yes # check that this is needed
+        #always = yes
+		NOT = { is_overlord_to = FROM }
+		OR = {
+			is_subject = no
+			overlord = { NOT = { is_same_value = from } }
+		}
+	}
+}

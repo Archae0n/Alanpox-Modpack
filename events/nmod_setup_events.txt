@@ -1,0 +1,90 @@
+namespace = nmod_setup_events
+
+
+# We're going to forcibly overwrite a lot of the things vanilla does. This is because we like mod compat and I don't
+# feel like overwriting vanilla files.
+country_event = {
+    id = nmod_setup_events.0
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = { has_origin = origin_nmod_nomadic_race }
+
+    immediate = {
+        # Add some funding to build mining stations if you want
+        add_resource = { minerals = 500 }
+        add_resource = { influence = 50 } # Lets you move all 3 arkship on game start
+
+        # Clear buildings, deposits and districts.
+        every_owned_planet = {
+            nmod_arkship_constructs_init = yes
+            nmod_set_pops_to_10 = yes
+
+            add_modifier = { modifier = nmod_industry_specialty}
+            add_modifier = { modifier = nmod_research_specialty}
+            add_modifier = { modifier = nmod_culture_specialty}
+            add_modifier = { modifier = nmod_energy_specialty}
+
+            nmod_init_ship_districts = yes
+        }
+        # Clear Stations
+        nmod_clear_starting_stations = yes
+
+        # Create Empty
+        nmod_create_blank_starting_arkship = yes
+        event_target:nmod_static_arkship_target = {
+            nmod_set_pops_to_10 = yes
+
+            add_modifier = { modifier = nmod_industry_specialty}
+            add_modifier = { modifier = nmod_culture_specialty}
+            add_modifier = { modifier = nmod_mining_specialty}
+            add_modifier = { modifier = nmod_agriculture_specialty}
+
+            nmod_init_ship_districts = yes
+        }
+        nmod_create_blank_starting_arkship = yes
+        event_target:nmod_static_arkship_target = {
+            nmod_set_pops_to_10 = yes
+
+            add_modifier = { modifier = nmod_research_specialty}
+            add_modifier = { modifier = nmod_culture_specialty}
+            add_modifier = { modifier = nmod_mining_specialty}
+            add_modifier = { modifier = nmod_agriculture_specialty}
+
+            nmod_init_ship_districts = yes
+        }
+    }
+}
+
+# Setup for the bad guys in Lost Homeworld content
+country_event = {
+    id = nmod_setup_events.10
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = { has_valid_civic = civic_nmod_lost_homeworld }
+
+    immediate = {
+        random_country = {
+            limit = {
+                has_country_flag = nmod_lost_homeworld_parent_of_@root
+            }
+            capital_scope = {
+                change_pc = root.species
+                set_name = root.capital_scope
+            }
+            every_owned_planet = {
+                limit = { has_planet_flag = lost_colony_planet }
+                change_pc = root.species
+            }
+            species = {
+                modify_species = {
+                    ideal_planet_class = home_planet
+                }
+            }
+        }
+        root.capital_scope = {
+            set_name = random
+        }
+    }
+}

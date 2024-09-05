@@ -1,0 +1,330 @@
+# Planet scope
+nmod_packup_planet = {
+    save_event_target_as = nmod_arkship_source
+    nmod_create_arkship = yes
+    fire_on_action = {
+        on_action = nmod_on_action_misc_packup_effects
+        scopes = { from = this fromfrom = event_target:nmod_arkship_target }
+    }
+    nmod_save_population = yes
+    nmod_save_modifiers = yes
+    nmod_save_colony_designation = yes
+    nmod_save_constructions = yes # This is a destructive process, so save resources beforehand
+    nmod_resolve_starbase_ownership = yes
+    nmod_save_governor = yes
+    destroy_colony = yes
+    remove_planet = yes
+}
+
+nmod_create_arkship = {
+    owner = {
+        save_event_target_as = nmod_arkship_owner
+        create_fleet = {
+            name = event_target:nmod_arkship_source
+			settings = {
+				can_upgrade = no
+				can_change_composition = no
+				can_change_leader = yes
+				uses_naval_capacity = no
+				spawn_debris = no
+			}
+            effect = {
+                set_owner = prev
+                set_location = event_target:nmod_arkship_source
+                create_ship = {
+                    name = event_target:nmod_arkship_source
+                    random_existing_design = nmod_arkship
+                    prefix = no
+                }
+                set_fleet_flag = nmod_arkship
+                save_event_target_as = nmod_arkship_target
+            }
+        }
+    }
+}
+
+nmod_save_population = {
+    # This does have a potential race condition if two planets are being saved at the same time, but that's really only
+    # likely in the first day of simulation. TODO: test for that though.
+    every_owned_pop = {
+        species = {
+            # We still need to convert these variables into something generic.
+            nmod_increment_pop_count_variable = yes
+        }
+    }
+    # It might be possible to optimise this by going around and setting an ID on each species,
+    # then reiterating through so we know it's only one block of species pops at a time, but that's out of scope atm.
+    every_galaxy_species = {
+        limit = {
+            is_variable_set = nmod_species_pop_count
+        }
+        nmod_encode_species_variables = yes
+    }
+}
+
+nmod_encode_species_variables = {
+    # Max supported number is 400
+    set_species_flag = nmod_pops_aboard_@event_target:nmod_arkship_target
+    # 200
+    if = {
+        limit = {
+            check_variable = { which = nmod_species_pop_count value >= 200 }
+        }
+        set_species_flag = nmod_200_pops_aboard_@event_target:nmod_arkship_target
+        subtract_variable = { which = nmod_species_pop_count value = 200 }
+    }
+    # 100
+    if = {
+        limit = {
+            check_variable = { which = nmod_species_pop_count value >= 100 }
+        }
+        set_species_flag = nmod_100_pops_aboard_@event_target:nmod_arkship_target
+        subtract_variable = { which = nmod_species_pop_count value = 100 }
+    }
+    # 50
+    if = {
+        limit = {
+            check_variable = { which = nmod_species_pop_count value >= 50 }
+        }
+        set_species_flag = nmod_50_pops_aboard_@event_target:nmod_arkship_target
+        subtract_variable = { which = nmod_species_pop_count value = 50 }
+    }
+    # 25
+    if = {
+        limit = {
+            check_variable = { which = nmod_species_pop_count value >= 25 }
+        }
+        set_species_flag = nmod_25_pops_aboard_@event_target:nmod_arkship_target
+        subtract_variable = { which = nmod_species_pop_count value = 25 }
+    }
+    # 10
+    if = {
+        limit = {
+            check_variable = { which = nmod_species_pop_count value >= 10 }
+        }
+        set_species_flag = nmod_10_pops_aboard_@event_target:nmod_arkship_target
+        subtract_variable = { which = nmod_species_pop_count value = 10 }
+    }
+    # 5
+    if = {
+        limit = {
+            check_variable = { which = nmod_species_pop_count value >= 5 }
+        }
+        set_species_flag = nmod_5_pops_aboard_@event_target:nmod_arkship_target
+        subtract_variable = { which = nmod_species_pop_count value = 5 }
+    }
+    # 4
+    if = {
+        limit = {
+            check_variable = { which = nmod_species_pop_count value >= 4 }
+        }
+        set_species_flag = nmod_4_pops_aboard_@event_target:nmod_arkship_target
+        subtract_variable = { which = nmod_species_pop_count value = 4 }
+    }
+    # 3
+    if = {
+        limit = {
+            check_variable = { which = nmod_species_pop_count value >= 3 }
+        }
+        set_species_flag = nmod_3_pops_aboard_@event_target:nmod_arkship_target
+        subtract_variable = { which = nmod_species_pop_count value = 3 }
+    }
+    # 2
+    if = {
+        limit = {
+            check_variable = { which = nmod_species_pop_count value >= 2 }
+        }
+        set_species_flag = nmod_2_pops_aboard_@event_target:nmod_arkship_target
+        subtract_variable = { which = nmod_species_pop_count value = 2 }
+    }
+    # 1
+    if = {
+        limit = {
+            check_variable = { which = nmod_species_pop_count value >= 1 }
+        }
+        set_species_flag = nmod_1_pops_aboard_@event_target:nmod_arkship_target
+        subtract_variable = { which = nmod_species_pop_count value = 1 }
+    }
+    clear_variable = nmod_species_pop_count
+}
+
+nmod_increment_pop_count_variable = {
+    if = {
+        limit = {
+            is_variable_set = nmod_species_pop_count
+        }
+        change_variable = {
+            which = nmod_species_pop_count
+            value = 1
+        }
+    }
+    else = {
+        set_variable = {
+            which = nmod_species_pop_count
+            value = 1
+        }
+    }
+}
+
+# This could and probably should be refactored into a generic thing.
+# Planet scope
+nmod_save_modifiers = {
+    # Save the capital
+    if = {
+        limit = {
+            AND = {
+                is_capital = yes
+                NOT = { owner = { any_owned_fleet = { has_fleet_flag = nmod_capital_ark }}}
+            }
+        }
+        event_target:nmod_arkship_target = { set_fleet_flag = nmod_capital_ark}
+    }
+    # Specialty modifiers
+    if = { limit = { has_modifier = nmod_research_specialty }
+        event_target:nmod_arkship_target = { set_fleet_flag = "nmod_research_specialty_flag" }
+    }
+    if = { limit = { has_modifier = nmod_industry_specialty }
+        event_target:nmod_arkship_target = { set_fleet_flag = "nmod_industry_specialty_flag" }
+    }
+    if = { limit = { has_modifier = nmod_energy_specialty }
+        event_target:nmod_arkship_target = { set_fleet_flag = "nmod_energy_specialty_flag" }
+    }
+    if = { limit = { has_modifier = nmod_mining_specialty }
+        event_target:nmod_arkship_target = { set_fleet_flag = "nmod_mining_specialty_flag" }
+    }
+    if = { limit = { has_modifier = nmod_agriculture_specialty }
+        event_target:nmod_arkship_target = { set_fleet_flag = "nmod_agriculture_specialty_flag"  }
+    }
+    if = { limit = { has_modifier = nmod_culture_specialty }
+        event_target:nmod_arkship_target = { set_fleet_flag = "nmod_culture_specialty_flag"  }
+    }
+}
+
+# Planet scope
+nmod_save_constructions = {
+    fire_on_action = {
+        on_action = nmod_on_action_save_constructions
+        scopes = { from = this fromfrom = event_target:nmod_arkship_target }
+    }
+}
+
+# Planet Scope
+nmod_resolve_starbase_ownership = {
+    # If this is the last arkship to leave we need to tidy up
+    if = {
+        # If there's any other colonies than the one we pack up, we don't care.
+        # This assumes that no other empires have a colony in the system
+        limit = {
+            NOT = {
+                solar_system = {
+                    any_system_colony = {
+                        NOT = { is_same_value = event_target:nmod_arkship_source }
+                    }
+                }
+            }
+        }
+        # Remove any relevant flags
+        solar_system = { remove_star_flag = nmod_increased_extraction }
+        # If we're squatting on someone's system, return it, otherwise delete the starbase.
+        solar_system.starbase = {
+            save_event_target_as = nmod_starbase_to_resolve
+            if = {
+                limit = {
+                    any_playable_country = {
+                        event_target:nmod_starbase_to_resolve = {
+                            has_starbase_flag = "nmod_previously_owned_by@prev"
+                        }
+                    }
+                }
+                random_playable_country = {
+                    limit = {
+                        event_target:nmod_starbase_to_resolve = {
+                            has_starbase_flag = "nmod_previously_owned_by@prev"
+                        }
+                    }
+                    event_target:nmod_starbase_to_resolve = {
+                        set_owner = prev
+                        remove_starbase_flag = nmod_previously_owned_by@prev
+                    }
+                }
+            }
+            else = {
+                # Deletes the starbase
+                if = {
+                    limit = {
+                        AND = {
+                            has_starbase_flag = nmod_temp_starbase
+                             # We don't give back starbases as those where upgraded by the nomads
+                            NOT = { has_starbase_size > starbase_outpost}
+                        }
+                    }
+                    fleet = { delete_fleet = this }
+                }
+            }
+        }
+    }
+}
+
+nmod_save_colony_designation = {
+    switch = {
+        trigger = has_designation
+        nmod_ark_default = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "nmod_ark_default" }
+        }
+        nmod_ark_trade = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "nmod_ark_trade" }
+        }
+        nmod_ark_mining = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "nmod_ark_mining" }
+        }
+        nmod_ark_farming = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "nmod_ark_farming" }
+        }
+        nmod_ark_energy = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "nmod_ark_energy" }
+        }
+        nmod_ark_industrial = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "nmod_ark_industrial" }
+        }
+        nmod_ark_foundry = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "nmod_ark_foundry" }
+        }
+        nmod_ark_factory = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "nmod_ark_factory" }
+        }
+        nmod_ark_bureau = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "nmod_ark_bureau" }
+        }
+        nmod_ark_research = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "nmod_ark_research" }
+        }
+        # Capital Classes
+        col_capital = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "col_capital" }
+        }
+        col_capital_foundry = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "col_capital_foundry" }
+        }
+        col_capital_factory = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "col_capital_factory" }
+        }
+        col_capital_trade = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "col_capital_trade" }
+        }
+        col_capital_extraction = {
+            event_target:nmod_arkship_target = { set_fleet_flag = "col_capital_extraction" }
+        }
+    }
+}
+
+# It might be nice to make leaders the captain of the ship then make them governors again, but that's too much for now.
+nmod_save_governor = {
+    if = {
+        limit = {
+            exists = leader
+        }
+        leader = {
+            set_leader_flag = nmod_was_previous_governor_of_@event_target:nmod_arkship_target
+        }
+    }
+}

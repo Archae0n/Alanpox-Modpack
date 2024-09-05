@@ -1,3 +1,0 @@
-planet_overlord_executives = {
-	parent = holdings_jobs
-}

@@ -1,0 +1,19 @@
+# These are pretty todo
+ship_section_template = {
+	key = "nmod_arkship_mid_section"
+	ship_size = nmod_arkship
+	fits_on_slot = mid
+	entity = "ark_ship_section_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	small_utility_slots = 3
+}
+ship_section_template = {
+	key = "nmod_mobile_shipyard_mid_section"
+	ship_size = nmod_mobile_shipyard
+	fits_on_slot = mid
+	entity = "ark_ship_section_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	small_utility_slots = 3
+}

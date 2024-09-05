@@ -1,0 +1,9 @@
+is_special_colony_type = {
+    OR = {
+        is_planet_class = pc_nmod_arkship # Easier to overwrite this than to overwrite every colony type
+		has_modifier = penal_colony
+		has_modifier = resort_colony
+		has_modifier = slave_colony
+		has_modifier = gestation_colony
+	}
+}

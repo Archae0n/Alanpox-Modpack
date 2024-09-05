@@ -1,0 +1,113 @@
+# TODO: Give these proper components
+nmod_arkship = {
+	max_speed = 75 #@speed_very_slow
+	acceleration = 0.3
+	rotation_speed = 0.2
+	max_hitpoints = 16000#@colony_hp
+	modifier = {
+		ship_evasion_add = 0#@colony_evasion
+	}
+	entity = "nmod_arkship_ship_entity"
+	size_multiplier = 8
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 0
+	is_space_station = no
+	icon = ship_size_colonizer
+	base_buildtime = 100#@colony_build_time # Not buildable
+
+	combat_disengage_chance = 0.5
+
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
+	prerequisites = { "tech_colonization_1" }
+	is_civilian = no
+	is_designable = no
+	components_add_to_cost = no
+	class = shipclass_military # Not sure about this but ehhhhhhh
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	valid_target_aggressive_stance = no
+	auto_upgrade = yes
+
+	resources = {
+		# These aren't manually buildable, so no build cost.
+		# Arkship maintainence comes from the planet end, so the ship has no cost.
+		category = colonies
+	}
+
+	potential_construction = {
+		always = no
+	}
+
+	potential_country = {
+		always = yes
+        # TODO: Needs to be restricted to nomads.
+	}
+
+	ai_ship_data = {
+		min = value:desired_colonizers
+	}
+}
+
+nmod_mobile_shipyard = {
+	max_speed = 75 #@speed_very_slow
+	acceleration = 0.3
+	rotation_speed = 0.2
+	max_hitpoints = 1500#@colony_hp
+	modifier = {
+		ship_evasion_add = 0#@colony_evasion
+		starbase_shipyard_capacity_add = 1
+	}
+	entity = "nmod_mobile_shipyard_ship_entity"
+	size_multiplier = 1
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 0
+	is_space_station = no
+	icon = ship_size_colonizer
+	base_buildtime = 100
+
+	combat_disengage_chance = 0.5
+
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	enable_3dview_in_ship_browser = yes #if yes, ship design will have a 3d view in the ship browser
+	prerequisites = { "tech_colonization_1" }
+	is_civilian = no
+	is_designable = no
+	components_add_to_cost = no
+	class = shipclass_starbase # Not sure about this but ehhhhhhh
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	valid_target_aggressive_stance = no
+	auto_upgrade = yes
+
+	resources = {
+		category = colonies
+
+		upkeep = {
+			energy = @colony_upkeep_energy
+			alloys = @colony_upkeep_alloys
+		}
+	}
+
+	potential_construction = {
+		always = no
+	}
+
+	potential_country = {
+		always = yes
+        # TODO: Needs to be restricted to nomads.
+	}
+
+	# TODO: fix this (might not need to? AI can't build them directly.)
+	ai_ship_data = {
+		min = value:desired_colonizers
+	}
+}

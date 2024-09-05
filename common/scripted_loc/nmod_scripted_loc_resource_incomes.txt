@@ -1,0 +1,162 @@
+defined_text = {
+	name = nmod_energy_income_ui_loc
+	text = {
+		localization_key = nmod_scripted_income_energy_positive
+		trigger = {
+            is_variable_set = nmod_resource_balance_energy
+            check_variable = { which = nmod_resource_balance_energy value > 0 }
+		}
+    }
+	text = {
+		localization_key = nmod_scripted_income_energy_negative
+		trigger = {
+            is_variable_set = nmod_resource_balance_energy
+            check_variable = { which = nmod_resource_balance_energy value < 0 }
+		}
+	}
+    default = nmod_zero_income
+}
+defined_text = {
+	name = nmod_minerals_income_ui_loc
+	text = {
+		localization_key = nmod_scripted_income_minerals_positive
+		trigger = {
+            is_variable_set = nmod_resource_balance_minerals
+            check_variable = { which = nmod_resource_balance_minerals value > 0 }
+		}
+    }
+	text = {
+		localization_key = nmod_scripted_income_minerals_negative
+		trigger = {
+            is_variable_set = nmod_resource_balance_minerals
+            check_variable = { which = nmod_resource_balance_minerals value < 0 }
+		}
+	}
+    default = nmod_zero_income
+}
+defined_text = {
+	name = nmod_food_income_ui_loc
+	text = {
+		localization_key = nmod_scripted_income_food_positive
+		trigger = {
+            is_variable_set = nmod_resource_balance_food
+            check_variable = { which = nmod_resource_balance_food value > 0 }
+		}
+    }
+	text = {
+		localization_key = nmod_scripted_income_food_negative
+		trigger = {
+            is_variable_set = nmod_resource_balance_food
+            check_variable = { which = nmod_resource_balance_food value < 0 }
+		}
+	}
+    default = nmod_zero_income
+}
+defined_text = {
+	name = nmod_consumer_goods_income_ui_loc
+	text = {
+		localization_key = nmod_scripted_income_consumer_goods_positive
+		trigger = {
+            is_variable_set = nmod_resource_balance_consumer_goods
+            check_variable = { which = nmod_resource_balance_consumer_goods value > 0 }
+		}
+    }
+	text = {
+		localization_key = nmod_scripted_income_consumer_goods_negative
+		trigger = {
+            is_variable_set = nmod_resource_balance_consumer_goods
+            check_variable = { which = nmod_resource_balance_consumer_goods value < 0 }
+		}
+	}
+    default = nmod_zero_income
+}
+defined_text = {
+	name = nmod_alloys_income_ui_loc
+	text = {
+		localization_key = nmod_scripted_income_alloys_positive
+		trigger = {
+            is_variable_set = nmod_resource_balance_alloys
+            check_variable = { which = nmod_resource_balance_alloys value > 0 }
+		}
+    }
+	text = {
+		localization_key = nmod_scripted_income_alloys_negative
+		trigger = {
+            is_variable_set = nmod_resource_balance_alloys
+            check_variable = { which = nmod_resource_balance_alloys value < 0 }
+		}
+	}
+    default = nmod_zero_income
+}
+defined_text = {
+	name = nmod_unity_income_ui_loc
+	text = {
+		localization_key = nmod_scripted_income_unity_positive
+		trigger = {
+            is_variable_set = nmod_resource_balance_unity
+            check_variable = { which = nmod_resource_balance_unity value > 0 }
+		}
+    }
+	text = {
+		localization_key = nmod_scripted_income_unity_negative
+		trigger = {
+            is_variable_set = nmod_resource_balance_unity
+            check_variable = { which = nmod_resource_balance_unity value < 0 }
+		}
+	}
+    default = nmod_zero_income
+}
+defined_text = {
+	name = nmod_total_research_income_ui_loc
+	text = {
+		localization_key = nmod_scripted_income_total_research_positive
+		trigger = {
+            is_variable_set = nmod_arkship_research_display_income
+            check_variable = { which = nmod_arkship_research_display_income value > 0 }
+		}
+    }
+	text = {
+		localization_key = nmod_scripted_income_total_research_negative
+		trigger = {
+            is_variable_set = nmod_arkship_research_display_income
+            check_variable = { which = nmod_arkship_research_display_income value < 0 }
+		}
+	}
+    default = nmod_zero_income
+}
+defined_text = {
+	name = nmod_strat_resources_income_ui_loc
+	text = {
+		localization_key = nmod_scripted_income_strat_resources_positive
+		trigger = {
+            is_variable_set = nmod_arkship_strat_resources_display_income
+            check_variable = { which = nmod_arkship_strat_resources_display_income value > 0 }
+		}
+    }
+	text = {
+		localization_key = nmod_scripted_income_strat_resources_negative
+		trigger = {
+            is_variable_set = nmod_arkship_strat_resources_display_income
+            check_variable = { which = nmod_arkship_strat_resources_display_income value < 0 }
+		}
+	}
+    default = nmod_zero_income
+}
+defined_text = {
+	name = nmod_other_resources_income_ui_loc
+	text = {
+		localization_key = nmod_scripted_income_other_resources_positive
+		trigger = {
+            is_variable_set = nmod_arkship_other_resources_display_income
+            check_variable = { which = nmod_arkship_other_resources_display_income value > 0 }
+		}
+    }
+	text = {
+		localization_key = nmod_scripted_income_other_resources_negative
+		trigger = {
+            is_variable_set = nmod_arkship_other_resources_display_income
+            check_variable = { which = nmod_arkship_other_resources_display_income value < 0 }
+		}
+	}
+    default = nmod_zero_income
+}

@@ -1,0 +1,779 @@
+namespace = nmod_backend
+
+# Runs via on action when ship is parked
+planet_event = {
+    id = nmod_backend.0
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        nmod_park_planet = yes
+    }
+}
+
+planet_event = {
+	id = nmod_backend.10
+	title = nmod_backend.10.name
+	desc = "nmod_backend.10.desc"
+	picture  = GFX_evt_federation_fleet
+	location = root
+	is_triggered_only = yes
+
+    # Research Specialty
+	option = {
+		name = nmod_backend.10.research
+        trigger = { NOT = { has_modifier = nmod_research_specialty }}
+		custom_tooltip =  nmod_add_research_specialty_tt
+		allow = {
+			custom_tooltip_fail = {
+				can_specialise_arkship_further = yes
+				text = nmod_too_many_specialties_tt
+			}
+		}
+        add_modifier = { modifier = nmod_research_specialty }
+		hidden_effect = {
+			planet_event = { id = nmod_backend.10 }
+		}
+	}
+	option = {
+		name = nmod_backend.10.remove_research
+        trigger = { has_modifier = nmod_research_specialty }
+		custom_tooltip = nmod_remove_research_specialty_tt
+        remove_modifier = nmod_research_specialty
+		hidden_effect = {
+			planet_event = { id = nmod_backend.10 }
+		}
+	}
+    # Industry Specialty
+	option = {
+		name = nmod_backend.10.industry
+        trigger = { NOT = { has_modifier = nmod_industry_specialty }}
+		custom_tooltip = nmod_add_industry_specialty_tt
+		allow = {
+			custom_tooltip_fail = {
+				can_specialise_arkship_further = yes
+				text = nmod_too_many_specialties_tt
+			}
+		}
+        add_modifier = { modifier = nmod_industry_specialty }
+		hidden_effect = {
+			planet_event = { id = nmod_backend.10 }
+		}
+	}
+	option = {
+		name = nmod_backend.10.remove_industry
+        trigger = { has_modifier = nmod_industry_specialty }
+		custom_tooltip = nmod_remove_industry_specialty_tt
+        remove_modifier = nmod_industry_specialty
+		hidden_effect = {
+			planet_event = { id = nmod_backend.10 }
+		}
+	}
+	# Culture
+	option = {
+		name = nmod_backend.10.culture
+        trigger = { NOT = { has_modifier = nmod_culture_specialty }}
+		custom_tooltip = nmod_add_culture_specialty_tt
+		allow = {
+			custom_tooltip_fail = {
+				can_specialise_arkship_further = yes
+				text = nmod_too_many_specialties_tt
+			}
+		}
+        add_modifier = { modifier = nmod_culture_specialty }
+		hidden_effect = {
+			planet_event = { id = nmod_backend.10 }
+		}
+	}
+	option = {
+		name = nmod_backend.10.remove_culture
+        trigger = { has_modifier = nmod_culture_specialty }
+		custom_tooltip = nmod_remove_culture_specialty_tt
+        remove_modifier = nmod_culture_specialty
+		hidden_effect = {
+			planet_event = { id = nmod_backend.10 }
+		}
+	}
+    # Energy Specialty
+	option = {
+		name = nmod_backend.10.energy
+        trigger = { NOT = { has_modifier = nmod_energy_specialty }}
+		custom_tooltip = nmod_add_energy_specialty_tt
+		allow = {
+			custom_tooltip_fail = {
+				can_specialise_arkship_further = yes
+				text = nmod_too_many_specialties_tt
+			}
+		}
+        add_modifier = { modifier = nmod_energy_specialty }
+		hidden_effect = {
+			planet_event = { id = nmod_backend.10 }
+		}
+	}
+	option = {
+		name = nmod_backend.10.remove_energy
+        trigger = { has_modifier = nmod_energy_specialty }
+		custom_tooltip = nmod_remove_energy_specialty_tt
+        remove_modifier = nmod_energy_specialty
+		hidden_effect = {
+			planet_event = { id = nmod_backend.10 }
+		}
+	}
+    # Mining Specialty
+	option = {
+		name = nmod_backend.10.minerals
+        trigger = { NOT = { has_modifier = nmod_mining_specialty }}
+		custom_tooltip = nmod_add_mining_specialty_tt
+		allow = {
+			custom_tooltip_fail = {
+				can_specialise_arkship_further = yes
+				text = nmod_too_many_specialties_tt
+			}
+		}
+        add_modifier = { modifier = nmod_mining_specialty }
+		hidden_effect = {
+			planet_event = { id = nmod_backend.10 }
+		}
+	}
+	option = {
+		name = nmod_backend.10.remove_minerals
+        trigger = { has_modifier = nmod_mining_specialty }
+		custom_tooltip = nmod_remove_mining_specialty_tt
+        remove_modifier = nmod_mining_specialty
+		hidden_effect = {
+			planet_event = { id = nmod_backend.10 }
+		}
+	}
+    # Agriculture Specialty
+	option = {
+		name = nmod_backend.10.food
+        trigger = { NOT = { has_modifier = nmod_agriculture_specialty }}
+		custom_tooltip = nmod_add_agriculture_specialty_tt
+		allow = {
+			custom_tooltip_fail = {
+				can_specialise_arkship_further = yes
+				text = nmod_too_many_specialties_tt
+			}
+		}
+        add_modifier = { modifier = nmod_agriculture_specialty }
+		hidden_effect = {
+			planet_event = { id = nmod_backend.10 }
+		}
+	}
+	option = {
+		name = nmod_backend.10.remove_food
+        trigger = { has_modifier = nmod_agriculture_specialty }
+		custom_tooltip = nmod_remove_agriculture_specialty_tt
+        remove_modifier = nmod_agriculture_specialty
+		hidden_effect = {
+			planet_event = { id = nmod_backend.10 }
+		}
+	}
+	option = {
+		name = nmod_backend.10.close
+	}
+}
+
+# This event may be redundant, but I'm keeping it for now
+planet_event = {
+    id = nmod_backend.20
+    hide_window = yes
+    is_triggered_only = yes
+
+	trigger = {
+		is_planet_class = pc_nmod_arkship
+	}
+
+    immediate = {
+		remove_all_buildings = yes
+		add_building = building_nmod_arkship_capital
+		set_planet_flag = colony_event # This is to prevent colony events appearing
+    }
+}
+
+# Save buildings on planet when packup happens.
+# from = planet
+# fromfrom = arkship fleet
+planet_event = {
+    id = nmod_backend.30
+    hide_window = yes
+    is_triggered_only = yes
+
+	# For sanity's sake please keep this minimised.
+	immediate = {
+		nmod_save_buildings_wrapper = yes
+	}
+
+}
+
+# Load buildings on planet when unpack happens.
+# from = arkship fleet
+# fromfrom = target planet
+fleet_event = {
+    id = nmod_backend.31
+    hide_window = yes
+    is_triggered_only = yes
+
+	immediate = {
+		nmod_load_building_wrapper = yes
+	}
+}
+
+# Save districts on planet when packup happens.
+# from = planet
+# fromfrom = arkship fleet
+planet_event = {
+    id = nmod_backend.40
+    hide_window = yes
+    is_triggered_only = yes
+
+	immediate = {
+		# Set temp variable
+		export_trigger_value_to_variable = {
+			trigger = num_districts
+			parameters = { type = any }
+			variable = nmod_temp_district_count_display_value
+		}
+		fromfrom = {
+			set_variable = {
+				which = nmod_district_count_display_value
+				value = prev.nmod_temp_district_count_display_value
+			}
+		}
+
+		nmod_save_district_count = { TARGET = fromfrom DISTRICT = district_nmod_housing }
+		nmod_save_district_count = { TARGET = fromfrom DISTRICT = district_nmod_science }
+		nmod_save_district_count = { TARGET = fromfrom DISTRICT = district_nmod_industry }
+		nmod_save_district_count = { TARGET = fromfrom DISTRICT = district_nmod_energy }
+		nmod_save_district_count = { TARGET = fromfrom DISTRICT = district_nmod_mining }
+		nmod_save_district_count = { TARGET = fromfrom DISTRICT = district_nmod_farming }
+		nmod_save_district_count = { TARGET = fromfrom DISTRICT = district_nmod_culture }
+	}
+}
+
+# Load districts on planet when unpack happens.
+# from = arkship fleet
+# fromfrom = target planet
+fleet_event = {
+    id = nmod_backend.41
+    hide_window = yes
+    is_triggered_only = yes
+
+	immediate = {
+		nmod_load_district_count = { TARGET = fromfrom DISTRICT = district_nmod_housing }
+		nmod_load_district_count = { TARGET = fromfrom DISTRICT = district_nmod_science }
+		nmod_load_district_count = { TARGET = fromfrom DISTRICT = district_nmod_industry }
+		nmod_load_district_count = { TARGET = fromfrom DISTRICT = district_nmod_energy }
+		nmod_load_district_count = { TARGET = fromfrom DISTRICT = district_nmod_mining }
+		nmod_load_district_count = { TARGET = fromfrom DISTRICT = district_nmod_farming }
+		nmod_load_district_count = { TARGET = fromfrom DISTRICT = district_nmod_culture }
+	}
+}
+
+# Save deposits on planet when packup happens.
+# from = planet
+# fromfrom = arkship fleet
+planet_event = {
+    id = nmod_backend.42
+    hide_window = yes
+    is_triggered_only = yes
+
+	immediate = {
+		nmod_save_deposit_count = { TARGET = fromfrom DEPOSIT = nmod_central_reactor_deposit }
+		nmod_save_deposit_count = { TARGET = fromfrom DEPOSIT = nmod_cargo_bay_deposit }
+		nmod_save_deposit_count = { TARGET = fromfrom DEPOSIT = nmod_automated_mining_bays }
+	}
+}
+
+# Load deposits on planet when unpack happens.
+# from = arkship fleet
+# fromfrom = target planet
+fleet_event = {
+    id = nmod_backend.43
+    hide_window = yes
+    is_triggered_only = yes
+
+	immediate = {
+		nmod_load_deposit_count = { TARGET = fromfrom DEPOSIT = nmod_central_reactor_deposit }
+		nmod_save_deposit_count = { TARGET = fromfrom DEPOSIT = nmod_cargo_bay_deposit }
+		nmod_save_deposit_count = { TARGET = fromfrom DEPOSIT = nmod_automated_mining_bays }
+	}
+}
+
+# Run misc effects on planet when packup happens.
+# from = planet
+# fromfrom = arkship fleet
+planet_event = {
+    id = nmod_backend.50
+    hide_window = yes
+    is_triggered_only = yes
+
+	immediate = {
+		# Variant of default country that doesn't die with no colonies.
+		owner = {
+			if = {
+				limit = { num_owned_planets = 1 }
+				nmod_set_country_type = { COUNTRY_TYPE = nomad_default }
+			}
+		}
+	}
+}
+
+# Run misc effects on arkship when unpack happens.
+# from = arkship fleet
+# fromfrom = target planet
+fleet_event = {
+    id = nmod_backend.51
+    hide_window = yes
+    is_triggered_only = yes
+
+	immediate = {
+		# Reset to a normal empire.
+		owner = {
+			if = {
+				limit = { NOT = { is_country_type = default } }
+				nmod_set_country_type = { COUNTRY_TYPE = default }
+			}
+		}
+	}
+}
+
+# Encode resource income on arkship when packup happens.
+# from = planet
+# fromfrom = arkship fleet
+planet_event = {
+    id = nmod_backend.52
+    hide_window = yes
+    is_triggered_only = yes
+
+	immediate = {
+		# Encodes the variables onto the ark fleet
+		nmod_encode_all_resource_incomes = { TARGET = fromfrom}
+	}
+}
+
+# Encode pop count and pop growth rate.
+# from = planet
+# fromfrom = arkship fleet
+planet_event = {
+    id = nmod_backend.53
+    hide_window = yes
+    is_triggered_only = yes
+
+	immediate = {
+		# Set temp variables
+		export_trigger_value_to_variable = {
+			trigger = count_owned_pop
+			variable = nmod_temp_total_pop_count
+		}
+		export_trigger_value_to_variable = {
+			trigger = num_organic_pops_per_year
+			variable = nmod_temp_pop_growth_per_month
+		}
+
+		fromfrom = {
+			set_variable = {
+				which = nmod_total_pop_count
+				value = prev.nmod_temp_total_pop_count
+			}
+			set_variable = {
+				which = nmod_pop_growth_per_month
+				value = prev.nmod_temp_pop_growth_per_month
+			}
+			# Convert from annual to monthly
+			divide_variable = {
+				which = nmod_pop_growth_per_month
+				value = 12
+			}
+			# Convert from annual to monthly
+			multiply_variable = {
+				which = nmod_pop_growth_per_month
+				value = 100
+			}
+
+			set_variable = {
+				which = nmod_arkship_pops_grown_in_voyage
+				value = 0
+			}
+			set_variable = {
+				which = nmod_arkship_pop_growth_tracker
+				value = 0
+			}
+		}
+	}
+}
+
+
+# Encode misc data.
+# from = planet
+# fromfrom = arkship fleet
+planet_event = {
+    id = nmod_backend.54
+    hide_window = yes
+    is_triggered_only = yes
+
+	immediate = {
+
+		fromfrom = {
+			set_variable = {
+				which = nmod_arkship_voyage_length
+				value = 0
+			} # Track the number of unique systems we've moved through
+			solar_system = { # Prevent this star from being counted in journey lengths
+				set_star_flag = nmod_was_visited_by_@prev
+			}
+		}
+	}
+}
+
+# Monthly resource income update.
+country_event = {
+    id = nmod_backend.60
+    hide_window = yes
+    is_triggered_only = yes
+
+	trigger = {
+		is_nomad_empire = yes
+	}
+
+	immediate = {
+		nmod_refresh_all_resource_income_modifiers = yes
+	}
+}
+
+# Arkship is destroyed, recalculate modifiers
+country_event = {
+	id = nmod_backend.61
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		fromfrom = { nmod_is_arkship = yes }
+	}
+
+	immediate = {
+		nmod_refresh_all_resource_income_modifiers = yes
+	}
+}
+
+# Arkship is parked. Clear modifiers then recalculate
+fleet_event = {
+	id = nmod_backend.62
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_fleet_flag = "nmod_ignore_resource_incomes"
+		owner = {
+			nmod_refresh_all_resource_income_modifiers = yes
+		}
+	}
+}
+
+# Monthly update to arkship pop stats
+country_event = {
+    id = nmod_backend.63
+    hide_window = yes
+    is_triggered_only = yes
+
+	trigger = {
+		is_nomad_empire = yes
+	}
+
+	immediate = {
+		every_owned_fleet = {
+			limit = { nmod_is_arkship = yes }
+			change_variable = {
+				which = nmod_arkship_pop_growth_tracker
+				value = nmod_pop_growth_per_month
+			}
+			# Check if a new pop has been grown.
+			if = {
+				limit = {
+					check_variable = {
+						which = nmod_arkship_pop_growth_tracker
+						value >= 100
+					}
+				}
+				set_variable = {
+					which = nmod_arkship_pop_growth_tracker
+					value = 0
+				}
+				change_variable = {
+					which = nmod_arkship_pops_grown_in_voyage
+					value = 1
+				}
+				change_variable = {
+					which = nmod_total_pop_count
+					value = 1
+				}
+			}
+		}
+	}
+}
+
+# Fleet has entered new system, increment voyage length
+fleet_event = {
+    id = nmod_backend.64
+    hide_window = yes
+    is_triggered_only = yes
+
+	trigger = {
+		nmod_is_arkship = yes
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { solar_system = { has_star_flag = nmod_was_visited_by_@root} }
+			}
+			change_variable = {
+				which = nmod_arkship_voyage_length
+				value = 1
+			}
+		}
+		solar_system = {
+			set_star_flag = nmod_was_visited_by_@root
+		}
+	}
+}
+
+# Fleet has been parked. Clear all visited flags
+fleet_event = {
+    id = nmod_backend.65
+    hide_window = yes
+    is_triggered_only = yes
+
+	trigger = {
+		nmod_is_arkship = yes
+	}
+
+	immediate = {
+		every_system = {
+			limit = { has_star_flag = nmod_was_visited_by_@root }
+			remove_star_flag = nmod_was_visited_by_@root
+		}
+	}
+}
+
+# Arkship has been parked. Add extra pops grown
+# fromfrom = target planet
+fleet_event = {
+	id = nmod_backend.66
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		fromfrom = {
+			while = {
+				count = prev.nmod_arkship_pops_grown_in_voyage
+				create_pop = {
+					species = this.owner_main_species
+					ethos = random
+				}
+			}
+		}
+	}
+}
+
+# Gatekeeper event for Celestial Caravans
+fleet_event = {
+	id = nmod_backend.70
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		# fromfrom is the planet scope
+		fromfrom = {
+			planet_event = { id = nmod_backend.71 }
+		}
+		# This doesn't seem to work, so the commented out
+		#solar_system = {
+		#	starbase.fleet = {
+		#		add_modifier = {
+		#			modifier = nmod_celestial_caravans_trade_collection_buff
+		#			days = -1
+		#		}
+		#	}
+		#}
+	}
+}
+
+# Celestial Caravans trade leech starter
+planet_event = {
+	id = nmod_backend.71
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		owner = {
+			has_valid_civic = civic_nmod_celestial_caravans
+		}
+	}
+
+	immediate = {
+		solar_system = {
+			if = {
+				limit = { NOT = { is_variable_set = nmod_celestial_caravans_devastation }}
+				set_variable = {
+					which = nmod_celestial_caravans_devastation
+					value = 0
+				}
+			}
+			else = {
+				change_variable = {
+					which = nmod_celestial_caravans_devastation
+					value = 1
+				}
+			}
+			nmod_get_neighbouring_trade_value = yes
+			nmod_set_neighbouring_trade_collection_mult = yes
+			set_variable = {
+				which = nmod_neighbour_trade_collectable
+				value = nmod_neighbour_trade
+			}
+			multiply_variable = {
+				which = nmod_neighbour_trade_collectable
+				value = nmod_neighbour_trade_mult
+			} # This is the number we actually check
+		}
+		remove_modifier = nmod_celestial_caravans_trade_income
+		add_modifier = { modifier = nmod_celestial_caravans_trade_income mult = solar_system.nmod_neighbour_trade_collectable }
+		# Repeat event next month to update modifiers
+		planet_event = { id = nmod_backend.71 days = 30 }
+	}
+}
+
+# Celestial Caravans cleanup gatekeeper
+planet_event = {
+	id = nmod_backend.72
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		solar_system = {
+			system_event = { id = nmod_backend.73 }
+		}
+	}
+}
+
+# Celestial Caravans trade leech recovery
+system_event = {
+	id = nmod_backend.73
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		solar_system = {
+			not = {
+				# We only trigger this event when the last arkship leaves
+				any_system_planet = {
+					is_planet_class = pc_nmod_arkship
+				}
+			}
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				is_variable_set = nmod_celestial_caravans_devastation
+			}
+			subtract_variable = {
+				which = nmod_celestial_caravans_devastation
+				value = 0.5
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = nmod_celestial_caravans_devastation
+						value > 0
+					}
+				}
+				system_event = { id = nmod_backend.73 days = 30 } # Decreases at 1 per month
+			}
+			else = {
+				clear_variable = nmod_celestial_caravans_devastation
+				clear_variable = nmod_neighbour_trade_mult
+				clear_variable = nmod_neighbour_trade_attrition_mult
+				clear_variable = nmod_neighbour_trade
+				clear_variable = nmod_neighbour_trade_collectable
+			}
+		}
+	}
+}
+# System prospecting devastation tick
+country_event = {
+	id = nmod_backend.80
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_system_within_border = {
+			limit = {
+				any_system_planet = {
+					AND = {
+						is_planet_class = pc_nmod_arkship
+						is_colony = yes
+					}
+				}
+			}
+			nmod_iterate_resource_consumption = yes
+			nmod_set_system_resource_modifier = yes
+		}
+	}
+}
+
+# System prospecting recovery gatekeeper
+planet_event = {
+	id = nmod_backend.81
+	hide_window = yes
+	is_triggered_only = yes
+
+	# TODO: the trigger on this doesn't fire correctly. I think it's being called before the colony is deleted. If that's the case then just change the trigger to check if the count =1
+	trigger = {
+		solar_system = {
+			count_system_planet = {
+				count <= 1 # We can allow 1, since the colony this is called on isn't destroyed yet
+				limit = {
+					is_colony = yes
+					is_planet_class = pc_nmod_arkship
+				}
+			}
+		}
+	}
+
+	immediate = {
+		solar_system = { system_event = { id = nmod_backend.82  } }
+	}
+}
+
+# System prospecting recovery
+system_event = {
+	id = nmod_backend.82
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		nmod_recover_system_devastation = yes
+		if = {
+			limit = {
+				is_variable_set = nmod_sysres_devastation
+			}
+			system_event = { id = nmod_backend.82 days = 30 }
+		}
+	}
+}
+
+# System prospecting precalc total resources at game start
+event = {
+	id = nmod_backend.83
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_system = {
+			nmod_calculate_system_resources = yes
+		}
+	}
+}

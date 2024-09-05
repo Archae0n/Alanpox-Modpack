@@ -1,0 +1,6 @@
+starbase_level_nmod_mobile_shipyard = {
+	ship_size = nmod_mobile_shipyard
+	potential_home_base = yes
+	show_in_outliner = no
+	collects_trade = no
+}

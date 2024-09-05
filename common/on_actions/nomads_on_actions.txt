@@ -1,0 +1,100 @@
+nmod_unpack_planet_action = {
+	events = {
+		nmod_backend.0 # Park a planet
+	}
+}
+on_game_start_country = {
+	events = {
+		nmod_setup_events.0 # Generic Nomad Setup
+		nmod_setup_events.10 # Lost homeworld bad guys setup
+		nmod_country.30  # Lost homeworld flavour primer
+		nmod_backend.80 # Tick devastation for system prospecting
+	}
+}
+
+on_game_start = {
+	events = {
+		nmod_backend.83 # Calculate system resources
+	}
+}
+
+on_colonized = {
+	events = {
+		nmod_backend.20 # Misc planet cleanup for parked arkships. Could be refactored?
+	}
+}
+
+on_yearly_pulse_country = {
+	events = {
+		nmod_country.10 # Pilgrimage event controller
+	}
+}
+
+on_monthly_pulse_country = {
+	events = {
+		nmod_backend.60 # Refresh resource income from arkships
+		nmod_backend.63 # Update pop growth modifiers for every arkship
+		nmod_backend.80 # Tick devastation for system prospecting
+	}
+}
+
+on_entering_system_fleet = {
+	events = {
+		nmod_backend.64# Mark system as visited and increment voyage length
+	}
+}
+
+on_first_contact_finished = {
+	events = {
+		nmod_country.31 # Lost homeworld first contact event.
+	}
+}
+
+on_war_beginning = {
+	events = {
+		nmod_country.33 # Lost homeworld war with geth expies
+	}
+}
+
+on_planet_transfer = {
+	events = {
+		nmod_country.34
+	}
+}
+
+# Note that on actions carries a danger of race conditions. Use a gatekeeper event for any events
+# that cannot be run in parallel.
+nmod_on_action_save_constructions = {
+	events = {
+		nmod_backend.30 # Encode buildings
+		nmod_backend.40 # Encode districts
+		nmod_backend.42 # Encode deposits
+	}
+}
+nmod_on_action_load_constructions = {
+	events = {
+		nmod_backend.31# Decode buildings
+		nmod_backend.41# Decode districts
+		nmod_backend.43# Decode deposits
+	}
+}
+nmod_on_action_misc_packup_effects = {
+	events = {
+		nmod_backend.50 # Run misc packup
+		nmod_backend.52 # Save resource income
+		nmod_backend.53 # Save pop count and pop growth
+		nmod_backend.54 # Save misc arkship stats
+		nmod_backend.72 # Celestial caravans trade devastation cleanup
+		nmod_backend.81 # Devastation recovery gatekeeper
+	}
+}
+nmod_on_action_misc_unpack_effects = {
+	events = {
+		nmod_backend.51 # Run misc unpack
+		nmod_backend.62 # Recalculate income modifiers after arkship is parked.
+		nmod_backend.65 # Clear all visited flags for the fleet
+		nmod_backend.66 # Add pop grown during voyage
+		nmod_country.20 # Stellar migrants reward event
+		nmod_backend.70# Celestial Caravans trade calculation
+	}
+}

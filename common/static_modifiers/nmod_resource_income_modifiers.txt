@@ -1,0 +1,84 @@
+# List of modifiers to be used on ships to give resource income.
+# Unfortunately we have to manually define these. For compatibility with other resources, corresponding modifiers need
+# to be created. There is a python script to generate this.
+
+nmod_arkship_alloys_income = {
+	country_base_alloys_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_astral_threads_income = {
+	country_base_astral_threads_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_consumer_goods_income = {
+	country_base_consumer_goods_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_energy_income = {
+	country_base_energy_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_engineering_research_income = {
+	country_base_engineering_research_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_exotic_gases_income = {
+	country_base_exotic_gases_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_food_income = {
+	country_base_food_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_influence_income = {
+	country_base_influence_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_menace_income = {
+	country_base_menace_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_minerals_income = {
+	country_base_minerals_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_minor_artifacts_income = {
+	country_base_minor_artifacts_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_nanites_income = {
+	country_base_nanites_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_physics_research_income = {
+	country_base_physics_research_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_rare_crystals_income = {
+	country_base_rare_crystals_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_society_research_income = {
+	country_base_society_research_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_sr_dark_matter_income = {
+	country_base_sr_dark_matter_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_sr_living_metal_income = {
+	country_base_sr_living_metal_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_sr_zro_income = {
+	country_base_sr_zro_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_unity_income = {
+	country_base_unity_produces_add = 1
+	hide_from_country_list = yes
+}
+nmod_arkship_volatile_motes_income = {
+	country_base_volatile_motes_produces_add = 1
+	hide_from_country_list = yes
+}

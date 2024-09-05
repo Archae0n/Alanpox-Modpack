@@ -1,0 +1,104 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_origin_nmod_nomadic_race"
+		textureFile = "gfx/event_pictures/origins/origin_nmod_nomadic_race.dds"
+	}
+    spriteType = {
+        name = "GFX_nmod_growth_bar_100"
+        textureFile = "gfx/interface/nmod_full_bar.dds"
+    }
+    spriteType = {
+        name = "GFX_nmod_growth_bar_10"
+        textureFile = "gfx/interface/nmod_bar_section.dds"
+    }
+    spriteType = {
+        name = "GFX_nmod_growth_bar_empty"
+        textureFile = "gfx/interface/nmod_empty_bar.dds"
+    }
+    spriteType = {
+        name = "GFX_nmod_arkship_overview_background"
+        textureFile = "gfx/interface/nmod_arkship_outliner_back.dds"
+    }
+    spriteType = {
+        name = "GFX_nmod_arkship_overview_rightside"
+        textureFile = "gfx/interface/nmod_arkship_overview_rightside.dds"
+    }
+    spriteType = {
+        name = "GFX_nmod_arkship_overview_leftside"
+        textureFile = "gfx/interface/nmod_arkship_overview_leftside.dds"
+    }
+	spriteType = {
+		name = "GFX_nmod_fleet_action_park_ship_invalid"
+		texturefile = "gfx/interface/fleet_view/fleet_action_nmod_park_ship_invalid.dds"
+	}
+
+	spriteType = {
+		name = "GFX_nmod_blank_95x20"
+		texturefile = "gfx/interface/nmod_blank_95x20.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ap_nmod_voidfarers"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_nmod_voidfarers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_nmod_fleet_action_park_ship"
+		texturefile = "gfx/interface/fleet_view/fleet_action_nmod_park_ship.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/fleet_view/standard_button_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+
+	spriteType = {
+		name = "GFX_nmod_fleet_action_park_ship_active"
+		texturefile = "gfx/interface/fleet_view/fleet_action_nmod_park_ship_active.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/fleet_view/standard_button_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = { 
+		name = "GFX_planet_type_nmod_arkship"
+		textureFile = "gfx/interface/icons/nmod_arkship_planet_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_nmod_anti_ai_purge"
+		textureFile = "gfx/interface/icons/diplomacy/diplomacy_status_casus_belli_holder.dds"
+	}
+	spriteType = {
+		name = "GFX_wg_nmod_resist_ai_purge"
+		textureFile = "gfx/interface/icons/diplomacy/diplomacy_status_casus_belli_target.dds"
+	}
+	spriteType = {
+		name = "GFX_text_nmod_lost_homeworld"
+		textureFile = "gfx/interface/icons/governments/civics/civic_nmod_lost_homeworld.dds"
+	}
+	spriteType = {
+		name = "GFX_text_nmod_butlerian_jihad"
+		textureFile = "gfx/interface/icons/governments/civics/civic_nmod_butlerian_jihad.dds"
+	}
+}

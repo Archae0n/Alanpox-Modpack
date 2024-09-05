@@ -1,0 +1,192 @@
+is_nomad_empire = {
+    OR = {
+        is_country_type = nomad_default
+        has_origin = origin_nmod_nomadic_race
+        # Generic way to set it
+        has_country_flag = nmod_nomad_country
+    }
+}
+can_specialise_arkship_further = {
+    # This pretty ugly.
+    # We fail if the ship has <= 4 modifiers (should never have more than 4 but we're going to be safe)
+    # There are 6 possible modifiers in game atm.
+    # So a minimum of two modifiers must NOT be picked for <=4 to be picked.
+    # So we check each combo of three - if any combo is unpicked, then there must be one space or more available.
+    # This is a bijective relationship, so if we've checked A+B+C, we don't need to check B+A+C
+    OR = {
+        # All combos involving research
+        AND = {
+            NOT = { has_modifier = nmod_research_specialty }
+            OR = {
+                # All combos involving research + alloys
+                AND = {
+                    NOT = { has_modifier = nmod_industry_specialty }
+                    OR = {
+                        NOT = { has_modifier = nmod_culture_specialty }
+                        NOT = { has_modifier = nmod_energy_specialty }
+                        NOT = { has_modifier = nmod_mining_specialty }
+                        NOT = { has_modifier = nmod_agriculture_specialty }
+                    }
+                }
+                # All combos involving research + culture, (minus alloys)
+                AND = {
+                    NOT = { has_modifier = nmod_culture_specialty }
+                    OR = {
+                        NOT = { has_modifier = nmod_energy_specialty }
+                        NOT = { has_modifier = nmod_mining_specialty }
+                        NOT = { has_modifier = nmod_agriculture_specialty }
+                    }
+                }
+                # All combos involving research + energy, (minus alloys, culture)
+                AND = {
+                    NOT = { has_modifier = nmod_energy_specialty }
+                    OR = {
+                        NOT = { has_modifier = nmod_mining_specialty }
+                        NOT = { has_modifier = nmod_agriculture_specialty }
+                    }
+                }
+                # All combos involving research + mining, (minus alloys, culture, energy)
+                AND = {
+                    NOT = { has_modifier = nmod_mining_specialty }
+                    OR = {
+                        NOT = { has_modifier = nmod_agriculture_specialty }
+                    }
+                }
+            }
+        }
+        # All combos involving industry, minus research
+        AND = {
+            NOT = { has_modifier = nmod_industry_specialty }
+            OR = {
+                # All combos involving industry + culture
+                AND = {
+                    NOT = { has_modifier = nmod_culture_specialty }
+                    OR = {
+                        NOT = { has_modifier = nmod_energy_specialty }
+                        NOT = { has_modifier = nmod_mining_specialty }
+                        NOT = { has_modifier = nmod_agriculture_specialty }
+                    }
+                }
+                # All combos involving industry + energy, (minus culture)
+                AND = {
+                    NOT = { has_modifier = nmod_energy_specialty }
+                    OR = {
+                        NOT = { has_modifier = nmod_mining_specialty }
+                        NOT = { has_modifier = nmod_agriculture_specialty }
+                    }
+                }
+                # All combos involving industry + mining, (minus culture, energy)
+                AND = {
+                    NOT = { has_modifier = nmod_mining_specialty }
+                    OR = {
+                        NOT = { has_modifier = nmod_agriculture_specialty }
+                    }
+                }
+            }
+        }
+         # All combos involving culture, minus research, industry
+        AND = {
+            NOT = { has_modifier = nmod_culture_specialty }
+            OR = {
+                # All combos involving culture + energy
+                AND = {
+                    NOT = { has_modifier = nmod_energy_specialty }
+                    OR = {
+                        NOT = { has_modifier = nmod_mining_specialty }
+                        NOT = { has_modifier = nmod_agriculture_specialty }
+                    }
+                }
+                # All combos involving culture + mining, (minus energy)
+                AND = {
+                    NOT = { has_modifier = nmod_mining_specialty }
+                    OR = {
+                        NOT = { has_modifier = nmod_agriculture_specialty }
+                    }
+                }
+            }
+        }
+         # All combos involving energy, minus research, industry, culture
+        AND = {
+            NOT = { has_modifier = nmod_energy_specialty }
+            OR = {
+                # All combos involving energy + mining
+                AND = {
+                    NOT = { has_modifier = nmod_mining_specialty }
+                    OR = {
+                        NOT = { has_modifier = nmod_agriculture_specialty }
+                    }
+                }
+            }
+        }
+        # All remaining combos should be implicitly included
+    }
+}
+
+# Allows future compatibility
+nmod_is_arkship = {
+    is_ship_size = nmod_arkship
+}
+
+# Any system object scope
+nmod_can_park_ship_in_system = {
+    NOR = {
+        # No if it has a non nomad colony. (This is a hack because we can't get to the fleet country)
+        solar_system = {
+            count_system_colony= {
+                limit = { owner = { is_nomad_empire = no } }
+                count > 0
+            }
+        }
+        #custom_tooltip_fail = { text = nmod_cant_settle_colonised_system }
+
+        # No if nomads are banned
+        solar_system = {
+            exists = owner
+            owner = {
+                has_country_flag = nmod_nomads_banned
+            }
+        }
+
+        # No if it has a starbase
+        solar_system = {
+            exists = starbase # is this needed?
+            starbase = {
+                owner = { is_nomad_empire = no }
+                has_starbase_size > starbase_outpost # We can only yoink outposts
+            }
+        }
+        #custom_tooltip_fail = { text = nmod_cant_settle_starbase_system }
+    }
+}
+
+# Planet scope.
+# nmod_static_arkship_source = fleet, nmod_static_arkship_target = planet
+nmod_has_taken_long_voyage = {
+    # This trigger will return false if there is no star with the appropriate flag in range, aka we have travelled far.
+    NOR = {
+        event_target:nmod_static_arkship_source.owner = {
+            has_country_flag = nmod_recent_long_voyage # to prevent cheesing via bypasses
+        }
+        closest_system = {
+            limit = {
+                has_star_flag = nmod_stellar_pilgrim_origin_@event_target:nmod_static_arkship_source
+            }
+            max_steps = 10
+            use_bypasses = no
+        }
+    }
+}
+
+# War scope
+nmod_is_at_war_with_country = {
+    OR = {
+        AND = {
+            is_war_participant = { who = $COUNTRY_A$ side = defenders }
+            is_war_participant = { who = $COUNTRY_B$  side = attackers }
+        }
+        AND = {
+            is_war_participant = { who = $COUNTRY_A$  side = attackers }
+            is_war_participant = { who = $COUNTRY_B$  side = defenders }
+        }
+    }
+}

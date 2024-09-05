@@ -1,0 +1,20 @@
+# Lost Homeworld violent path
+nmod_vengeful_return = {
+    shipclass_military_build_speed_mult = 0.1
+    country_naval_cap_mult = 0.15
+}
+# Lost Homeworld peaceful path
+nmod_a_gentler_path = {
+    country_unity_produces_mult = 0.1
+    pc_nmod_arkship_habitability = 0.1
+}
+# Homeworld crusade
+nmod_homeworld_crusade = {
+    ship_fire_rate_mult = 0.33
+    ship_disengage_chance_reduction = 1
+    ship_emergency_ftl_min_days_mult = 0.5
+}
+# Homewards bound
+nmod_homewards_bound = {
+    ship_fire_rate_mult = 0.1
+}

@@ -46,16 +46,6 @@ prosperity_gospel_check_trigger = { #Original Put In An AND Block To Allow Imper
 	#Bug Branch
 }
 
-is_megacorp = {
-	OR = {
-		has_authority = auth_corporate
-		#Bug Branch
-		has_authority = auth_bugged_corporate_democratic
-		has_authority = auth_bugged_corporate_imperial
-		#Bug Branch
-	}
-}
-
 is_autocracy = {
 	OR = {
 		has_ethic = ethic_gestalt_consciousness

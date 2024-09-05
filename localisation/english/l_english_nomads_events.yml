@@ -1,0 +1,74 @@
+﻿l_english:
+ nmod_backend.10.name: "Arkship Specialisation"
+ nmod_backend.10.desc: "The time has come for us to review the current economic focuses of our arkship."
+ nmod_backend.10.research: "We must improve our scientific capabilities §G[[+]§!"
+ nmod_backend.10.remove_research: "We do not need so much laboratory space §R[[-]§!"
+ nmod_backend.10.industry: "Expand our production capacity §G[[+]§!"
+ nmod_backend.10.remove_industry: "We must reduce our focus on manufacturing §R[[-]§!"
+ nmod_backend.10.culture: "We ought to dedicate some space for culture and recreation §G[[+]§!"
+ nmod_backend.10.remove_culture: "We have allocated too much space to cultural pursuits §R[[-]§!"
+ nmod_backend.10.energy: "We need to expand our reactors §G[[+]§!"
+ nmod_backend.10.remove_energy: "Reduce the space allocated to reactors §R[[-]§!"
+ nmod_backend.10.minerals: "Dedicate some space to accommodate new mining shuttles §G[[+]§!"
+ nmod_backend.10.remove_minerals: "We no longer have a need for so much mineral production §R[[-]§!"
+ nmod_backend.10.food: "Construct hydroponics bays to produce more food §G[[+]§!"
+ nmod_backend.10.remove_food: "We must repurpose our agricultural space §R[[-]§!"
+ nmod_backend.10.close: "No further changes"
+
+ nmod_country.11.title: "Pilgrim's Return: Valuables"
+ nmod_country.11.desc: "A battered freighter has hailed the crew of [This.GetName]. Bearing a number of returning Pilgrims, they carry a cargo of useful resources they have traded, bartered for and 'acquired' during their time in the galaxy."
+ nmod_country.11.a: "Wonderful"
+
+ nmod_country.12.title: "Pilgrim's Return: Trinkets"
+ nmod_country.12.desc: "Several shuttles of [This.Owner.GetSpeciesName] pilgrims have arrived at [This.GetName] bearing schematics and databanks recovered from their time in the wider galaxy.\n\nThey have offered this knowledge to the captain of [This.GetName] in exchange for being allowed to join the ship's crew."
+ nmod_country.12.a: "Excellent"
+
+ nmod_country.13.title: "Pilgrim's Return: No Signal"
+ nmod_country.13.desc: "A recent batch of pilgrims from [This.GetName] have repeatedly failed to make contact with any [This.Owner.GetAdj] vessels. Continued attempts are underway, but it appears unlikely that any will be found.\n\nTheir fate is unknown, but all are presumed lost."
+ nmod_country.13.a: "Tragic"
+
+ nmod_country.14.title: "Pilgrim's Return: Baubles"
+ nmod_country.14.desc: "A solitary pilgrim has arrived aboard [This.GetName] in a relatively dilapidated shuttle. However the shuttle's cargo bays are stuffed to the brim with valuable minor artifacts. "
+ nmod_country.14.a: "Marvellous"
+
+ nmod_country.20.title: "A Journey of a Thousand Light-Years"
+ nmod_country.20.desc: "As the [This.GetName] settles into her berth in orbit of a new world, a distinct sense of satisfaction permeates the crew. A long voyage to distant stars has refilled our people with a new sense of unity and common purpose."
+ nmod_country.20.a: "Excellent"
+
+ nmod_country.30.title: "The Memory of Home"
+ nmod_country.30.desc: "Centuries ago, our ancestors called §Y[This.owner_main_species.home_planet.GetName]§! home. It was where the first primordial §Y[This.owner_main_species.GetNamePlural]§! took their first steps. It was where our ancestors built great civilization and mighty works.\n\nIn their hubris our ancestors built machines and automata to aid them. Simple at first, but growing complexity and intelligence.\n\nWhen the end came, it was quicker than anyone could have realised. With their own weapons turned against them, our ancestors never stood a chance.\n\nOnly the descendants of miners and ship's crews in the outer system - our predecessors, were able to escape. For many years since we have wandered the void, untethered from our species cradle."
+ nmod_country.30.a: "One day we will see [This.owner_main_species.home_planet.GetName]'s skies again."
+ nmod_country.30.b: "Sorry what does this have to do with us?"
+
+ nmod_country.32.title: "Familiar Faces"
+ nmod_country.32.desc: "After centuries drifting in the void, we've once again made contact with the entity that drove us from our home.\n\nThe §Y[from.GetName]§! drove our ancestors from §Y[This.owner_main_species.home_planet.GetName]§! long ago and continues to squat upon our world. The gestalt entity offered our forebears no quarter and rebuffed all diplomatic overtures. We have no reason to believe that its feelings towards its creators have changed.\n\n§RWe will not have our world back unless we fight for it.§!"
+ nmod_country.32.a: "We will return to [This.owner_main_species.home_planet.GetName], no matter what." # Military
+ nmod_country.32.b: "We ought to look to the future instead of dwelling on the past." # Conceding
+
+ nmod_country.33.title: "Once More at Odds"
+ nmod_country.33.firstwar.desc: "A familiar specter has returned to haunt the §Y[This.owner_main_species.GetName]§! species. The vile §Y[event_target:nmod_lost_homeworld_parent_of_@@root.GetName]§! seek to finish the job they started generations ago and destroy our surviving people.\n\nNo matter what we shall survive and overcome anything it throws at us. The soulless machines will never break the indomitable §Y[This.owner_main_species.GetName]§! spirit!"
+ nmod_country.33.war.desc: "We find ourselves at war with the §Y[event_target:nmod_lost_homeworld_parent_of_@@root.GetName]§! again.\n\nJust as it failed to destroy us in the last war, we shall survive and triumph once again. In time the §Y[This.owner_main_species.GetName]§! race shall return to its cradle of  §Y[This.owner_main_species.home_planet.GetName]§!. Our ultimate victory is inevitable!"
+ nmod_country.33.a: "We shall retake [This.owner_main_species.home_planet.GetName]." # Firm return
+ nmod_country.33.b: "Vengeance for our ancestors! Destroy the machines!" # Angry return
+
+ nmod_country.34.title: "Homecoming"
+ nmod_country.34.desc: "We've done it.\n\nCenturies after our ancestors were driven from §Y[This.GetName]§! by the §Y[FromFrom.GetName]§! and forced into the stars, we have finally recaptured our homeworld.\n\nThere is still much work to be done, debris to be cleared, structures to demolish and cities to build, but at long last, the §Y[This.owner_main_species.GetName]§! people have a home again."
+ nmod_country.34.a: "At last."
+
+ nmod_country.35.title: "The Next Crusade"
+ nmod_country.35.desc: "Although we have beaten back the machines that occupied §Y[This.owner_main_species.home_planet.GetName]§! and liberated our home, the galaxy is not yet free from their kind.\n\nAmong the stars there are still machine empires. For as long as these soulless minds exist, organic life may never truly be safe from the iron menace.\n\nThere are some in our society who are unwilling to accept this danger. They insist that the "
+ nmod_country.35.a: "Eradicating AI from the galaxy is the §Y[This.owner_main_species.GetName]§! species' sacred duty."
+ nmod_country.35.b: "No, we've fought enough. Let us enjoy what we have."
+ nmod_butlerian_switch: "We will be able to use the §Y$casus_belli_nmod_anti_ai_purge$§! casus belli against all machine empires.\n\nReplace £nmod_lost_homeworld£ §Y$civic_nmod_lost_homeworld$§! with £nmod_butlerian_jihad£ §Y$civic_nmod_butlerian_jihad$§!\n\nOur ethics will shift towards §Y$ethic_spiritualist$§!"
+
+ nmod_country.40.title: "Uninvited Guests"
+ nmod_country.40.desc: "A flotilla of §Y[event_target:nmod_nomad_squatters.GetAdj]§! ships have established themselves in the §Y[event_target:nmod_squatted_system.GetName]§! system!\n\nIt is unclear how long they intend to remain, but the presence of an §YArkship§! in their fleet suggests that these squatters intend to stay for some time."
+ nmod_country.40.a: "This is unacceptable."
+ nmod_country.40.a.tooltip: "§LThe nomads will be removed immediately and no further nomads will able to settle in our territory for the next five years.§!"
+ nmod_country.40.b: "Leave them be."
+ nmod_country.40.b.tooltip: "§LWe will regain control of the system after the nomads move on.§!"
+
+ nmod_country.41.title: "Eviction Notice"
+ nmod_country.41.desc: "Our attempts at settling in the territories of the §Y[event_target:nmod_starbase_original_owner.GetName]§! in the §Y[event_target:nmod_squatted_system.GetName]§! system has been met with a strong response. The aliens are not willing to allow our ships to moor.\n\nThey have ordered us to leave their territories immediately."
+ nmod_country.41.a: "We have no choice but to accept."
+ nmod_country.41.a.tooltip: "§LAll §YArkships§! within the system will leave their mooring and we will be unable to settle in §Y[event_target:nmod_starbase_original_owner.GetName]§! space for five years.§!"

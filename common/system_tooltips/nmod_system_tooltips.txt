@@ -1,0 +1,12 @@
+#root = system
+#from = player
+ice_tooltip = {
+	custom_tooltip = {
+		success_text = nmod_sys_tooltip_resource_deposits
+
+		exists = from
+		from = {
+			is_nomad_empire = yes
+		}
+	}
+}

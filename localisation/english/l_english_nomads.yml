@@ -1,0 +1,300 @@
+﻿l_english:
+ # Modifier loc
+ mod_pc_nmod_arkship_habitability: "$nmod_arkship$ Habitability"
+
+ nmod_industry_specialty: "Industrial Specialty"
+ nmod_energy_specialty: "Energy Specialty"
+ nmod_mining_specialty: "Mining Specialty"
+ nmod_agriculture_specialty: "Agriculture Specialty"
+ nmod_research_specialty: "Research Specialty"
+ nmod_culture_specialty: "Cultural Specialty"
+
+ nmod_system_prospecting: "System Prospecting"
+ nmod_system_prospecting_desc: "Gathering accessible resources from celestial bodies in the §Y[solar_system.GetName]§! system gives us a §Y50%§! boost to output from jobs.\n\nWe have gathered §Y[solar_system.nmod_sysres_devastation]§! deposits out of §Y[solar_system.nmod_sysres_total_resources]§! and are gathering §Y[solar_system.nmod_sysres_consumption]§! per month.\n\n§LThis modifier will expire when we have gathered all deposits.§!"
+
+ nmod_system_recovery_tracker: "Harvested System"
+ nmod_system_recovery_tracker_desc: "Nomadic groups have recently stripped this system of its most accessible resources. Until natural processes reveal new deposits, any further attempts will be less effective.\n\n§Y[solar_system.nmod_sysres_devastation]§! deposits out of §Y[solar_system.nmod_sysres_total_resources]§! have been harvested."
+
+ nmod_celestial_caravans_trade_income: "Neighbouring System Trade Income"
+ nmod_celestial_caravans_trade_income_desc: "§WOur neighbours produce£trade_value£ §Y[solar_system.nmod_neighbour_trade]§!. We have been collecting §YTrade Value§! for §Y([solar_system.nmod_celestial_caravans_devastation]/60)§! months and are doing so at §Y[solar_system.nmod_neighbour_trade_mult_display]%§! efficiency§!\n\nThe goods of a hundred worlds aboard our ships mean our fleets are always greeted with warm welcomes and open pockets."
+
+ nmod_a_gentler_path: "A Gentler Path"
+ nmod_a_gentler_path_desc: "An eye for an optical processor makes the whole world blind. We must accept that we may never recover our homeworld and fully commit to our future in the stars."
+
+ nmod_vengeful_return: "Vengeful Return"
+ nmod_vengeful_return_desc: "Centuries ago our ancestors were thrown from their home into the cold void. We will return, no matter what."
+
+ nmod_homeworld_crusade: "Homeworld Crusade"
+ nmod_homeworld_crusade_desc: "We were driven from our homes, forced into the void like vermin. Never again."
+
+ nmod_homewards_bound: "Homewards Bound"
+ nmod_homewards_bound_desc: "Our resolve must be unshakable in the recovery of our home."
+
+ nmod_recovered_home: "Recovered Home"
+ nmod_recovered_home_desc: "This world is the birthplace of our species. All shall contribute to building its future."
+
+ # Casus Belli and War Goals
+ casus_belli_nmod_anti_ai_purge: "AI Purge"
+ war_goal_wg_nmod_anti_ai_purge: "Terminate Threat"
+ war_goal_wg_nmod_anti_ai_purge_desc: "War is waged to exterminate a hostile machine intelligence."
+ war_goal_wg_nmod_resist_ai_purge: "Resist Termination"
+ war_goal_wg_nmod_resist_ai_purge_desc: "War is waged to oppose termination."
+
+ # Personality Loc
+ personality_nmod_nomad_default_personality: "Voidborne Nomads"
+ personality_nmod_nomad_default_personality_desc: "This race dwells exclusively amongst the stars. Rarely remaining one place for long, they navigate the galaxy aboard vast ark ships that contain the majority of their civilization."
+
+ # Decision Loc
+ decision_nmod_embark_ship: "Embark Ship"
+ decision_nmod_embark_ship_desc: "We must once more break orbit and chart a course to new stars."
+ decision_nmod_specialise_arkship: "Specialise Arkship"
+ decision_nmod_specialise_arkship_desc: "With space aboard at a premium, careful decisions must be made on to use it best."
+ nmod_embark_ship_tt: "The §Y[This.GetName]§! will become a §YMobile Arkship§!."
+ nmod_specialise_ship_tt: "Select up to §Y4§! §HSpecialisations§!, enabling the construction of dedicated §HDistricts§!."
+
+ # Tooltips
+ nmod_too_many_specialties_tt: "Number of chosen Specialties is less than §Y4§!"
+ nmod_add_research_specialty_tt: "We will unlock the ability to construct §H$district_nmod_science$§!"
+ nmod_remove_research_specialty_tt: "We will no longer be able to construct §H$district_nmod_science$§!\n§RAny existing districts will be removed.§!"
+ nmod_add_industry_specialty_tt: "We will unlock the ability to construct §H$district_nmod_industry$§!"
+ nmod_remove_industry_specialty_tt: "We will no longer be able to construct §H$district_nmod_industry$§!\n§RAny existing districts will be removed.§!"
+ nmod_add_culture_specialty_tt: "We will unlock the ability to construct §H$district_nmod_culture$§!"
+ nmod_remove_culture_specialty_tt: "We will no longer be able to construct §H$district_nmod_culture$§!\n§RAny existing districts will be removed.§!"
+ nmod_add_energy_specialty_tt: "We will unlock the ability to construct §H$district_nmod_energy$§!"
+ nmod_remove_energy_specialty_tt: "We will no longer be able to construct §H$district_nmod_energy$§!\n§RAny existing districts will be removed.§!"
+ nmod_add_mining_specialty_tt: "We will unlock the ability to construct §H$district_nmod_mining$§!"
+ nmod_remove_mining_specialty_tt: "We will no longer be able to construct §H$district_nmod_mining$§!\n§RAny existing districts will be removed.§!"
+ nmod_add_agriculture_specialty_tt: "We will unlock the ability to construct §H$district_nmod_farming$§!"
+ nmod_remove_agriculture_specialty_tt: "We will no longer be able to construct §H$district_nmod_farming$§!\n§RAny existing districts will be removed.§!"
+
+ # Colony Types Loc
+ nmod_ark_default: "Arkship"
+ nmod_ark_default_desc: "An immense vessel akin to a city, suitable for long term deep space habitation and traversal."
+ nmod_ark_trade: "Trade Ship"
+ nmod_ark_trade_desc: "Enormous cargo holds carry the wealth of a dozen worlds."
+ nmod_ark_mining: "Mining Ship"
+ nmod_ark_mining_desc: "Mining drones and shuttles stand ready to plunder the resources of any valuable planetoid."
+ nmod_ark_farming: "Liveship"
+ nmod_ark_farming_desc: "Massive hydroponics facilities produce foodstuffs to feed a fleet."
+ nmod_ark_energy: "Reactor Ship"
+ nmod_ark_energy_desc: "Banks of oversized reactors allow this ship to take on particularly energy-intensive tasks."
+ nmod_ark_industrial: "Industrial Ship"
+ nmod_ark_industrial_desc: "An endless flow of parts, trinkets and components are churned out daily."
+ nmod_ark_foundry: "Foundry Ship"
+ nmod_ark_foundry_desc: "Zero-gravity presents interesting challenges to large scale forging processes."
+ nmod_ark_factory: "Factory Ship"
+ nmod_ark_factory_desc: "Sophisticated production systems facilitate complex supply chains in the void."
+ nmod_ark_bureau: "Culture Ship"
+ nmod_ark_bureau_desc: "Here we keep the traditions and histories of our people alive."
+ nmod_ark_research: "Research Ship"
+ nmod_ark_research_desc: "This vessel houses cutting-edge research facilities."
+
+ # Deposit Loc
+ nmod_central_reactor_deposit: "Central Reactor"
+ nmod_central_reactor_deposit_desc: "An enormous reactor provides power for the essential life support and propulsion systems of the ship."
+ nmod_cargo_bay_deposit: "Cargo Bay"
+ nmod_cargo_bay_deposit_desc: "All the provisions and supplies one could possibly want for a voyage through interstellar space."
+ nmod_automated_mining_bays: "Automated Mining Bays"
+ nmod_automated_mining_bays_desc: "Machine learning algorithms and advanced robotics allow valuable bodies to be stripped and mined with minimal organic oversight."
+ 
+ # Planet loc
+ pc_nmod_arkship: "Arkship"
+ pc_nmod_arkship_desc: "An enormous starship capable of hosting vast numbers of people in adequate - albeit cramped - conditions. Sophisticated life support systems and recycling technologies allow the ship's population to go long periods without resupply."
+
+ # Megastructures
+ nmod_arkship_construction_site: "$pc_nmod_arkship$"
+ nmod_arkship_construction_site_DESC: "You shouldn't see this"
+ nmod_arkship_construction_site_MEGASTRUCTURE_DETAILS: "An §Y$pc_nmod_arkship$§! is a large, self-sustaining vessel capable of long term habitation in deep space."
+
+ nmod_mobile_shipyard_construction_site: "$nmod_mobile_shipyard$"
+ nmod_mobile_shipyard_construction_site_DESC: "You shouldn't see this"
+ nmod_mobile_shipyard_construction_site_MEGASTRUCTURE_DETAILS: "A §Y$nmod_mobile_shipyard$§! is a mobile construction platform capable of producing a single vessel at a time."
+
+ # Ship loc
+ nmod_arkship: "$pc_nmod_arkship$"
+ nmod_arkship_plural: "$pc_nmod_arkship$s"
+ mod_shipsize_nmod_arkship_build_speed_mult: "$nmod_arkship$ Build Speed"
+ mod_shipsize_nmod_arkship_hull_mult: "$nmod_arkship$ Hull Points"
+ mod_shipsize_nmod_arkship_hull_add: "$mod_shipsize_nmod_arkship_hull_mult$"
+ mod_shipsize_nmod_arkship_disengage_chance_mult: "$nmod_arkship$ Disengage Chance"
+
+ nmod_mobile_shipyard: "Mobile Shipyard"
+ nmod_mobile_shipyard_plural: "$nmod_mobile_shipyard$s"
+ nmod_mobile_shipyard_fleet_name: "$nmod_mobile_shipyard$"
+ nmod_mobile_shipyard_ship_name: "$nmod_mobile_shipyard$"
+
+ mod_shipsize_nmod_mobile_shipyard_build_speed_mult: "$nmod_mobile_shipyard$ Build Speed"
+ mod_shipsize_nmod_mobile_shipyard_hull_mult: "$nmonmod_mobile_shipyard$ Hull Points"
+ mod_shipsize_nmod_mobile_shipyard_hull_add: "$mod_shipsize_nmod_mobile_shipyard_hull_mult$"
+ mod_shipsize_nmod_mobile_shipyard_disengage_chance_mult: "$nmod_mobile_shipyard$ Disengage Chance"
+
+ nmod_arkship_mid_section: "Liveship"
+ nmod_mobile_shipyard_mid_section: "Fabricator"
+
+ # Trait Loc
+ trait_nmod_nomad_living: "Nomadic Origins"
+ trait_nmod_nomad_living_desc: "Centuries of adaptation to life aboard starships has left this species' biology vulnerable and unfamiliar with life in planetary environments."
+
+ # Building Loc
+ building_nmod_arkship_capital: "Arkship Bridge"
+ building_nmod_arkship_capital_desc: "The nerve center of a mobile world, where voyages are charted."
+
+ building_nmod_engineering_workshop: "Engineering Workshop"
+ building_nmod_engineering_workshop_desc: "Artisanal workbenches and sophisticated machining systems exist side by side to produce a never-ending supply of essential goods."
+
+ building_nmod_recycling_centre: "Recycling Center"
+ building_nmod_recycling_centre_desc: "In deep space, waste processing is an essential, if thankless, task."
+
+
+ # District Loc
+ district_nmod_housing: "Habitation Zones"
+ district_nmod_housing_plural: "Habitation Zones"
+ district_nmod_housing_desc: "Comfortable albeit small residences for the shipboard population. "
+ district_nmod_science: "Research Zones"
+ district_nmod_science_plural: "Research Zones"
+ district_nmod_science_desc: "Despite their limited space, these laboratories are capable of the cutting edge of scientific research."
+ district_nmod_industry: "Fabrication Zones"
+ district_nmod_industry_plural: "Fabrication Zones"
+ district_nmod_industry_desc: "Large scale machinery and small workshops alike churn out a continuous stream of essential parts and goods."
+ district_nmod_culture: "Entertainment Zones"
+ district_nmod_culture_plural: "Entertainment Zones"
+ district_nmod_culture_desc: "Sections of the ship dedicated entirely to recreation and cultural practices."
+ district_nmod_energy: "Reactor Zones"
+ district_nmod_energy_plural: "Reactor Zones"
+ district_nmod_energy_desc: "Large scale reactor produce the power that drives a fleet through the stars."
+ district_nmod_mining: "Mineral Extraction Zones"
+ district_nmod_mining_plural: "Mineral Extraction Zones"
+ district_nmod_mining_desc: "Dedicated shuttle teams meticulously gather resources from interstellar debris and local asteroids. "
+ district_nmod_farming: "Hydroponics Zones"
+ district_nmod_farming_plural: "Hydroponics Zones"
+ district_nmod_farming_desc: "Special sections of the ship, given over entirely to producing the essential foodstuffs to fuel a population."
+
+ # Origin Loc
+ origin_nmod_nomadic_race: "Nomadic Race"
+ origin_nmod_nomadic_race_desc: "$personality_nmod_nomad_default_personality_desc$"
+ origin_tooltip_nmod_nomadic_race_effects: "- Homeworld: ['concept_pc_nmod_arkship']\n- Species Traits: ['concept_nmod_nomad_living']\n- ['concept_guaranteed_colonies']: Are NOT spawned"
+ START_SCREEN_NMOD_NOMAD_DEFAULT: "We are a people without a home.\n\nThe [GetSpeciesName] are not a planet-bound race. Adrift among the stars, our civilization depends upon massive arkships for habitation, foodstuffs and survival.\n\nThe recent discovery of FTL travel promises to revolutionize our way of life. Journeys that once took a lifetime can now be completed in mere months. Our path to the stars is open."
+
+ nmod_nomad_default_start_NAME: "Nomads"
+ nmod_nomad_default_start_DESC: "This will always be the starting system when using the $origin_nmod_nomadic_race$ Origin"
+
+ # Ascension Perks Loc
+ ap_nmod_voidfarers: "Nomadic Voidfarers"
+ ap_nmod_voidfarers_desc: "Generations of life in the endless infinity of space have given our people a familiarity and aptitude for the void that few can match."
+ ap_nmod_voidfarers_effects: "§Y$nmod_arkship$§! Migration £influence£ $INFLUENCE$ cost: §G-50%§!"
+
+ # Concepts Loc
+ concept_pc_nmod_arkship: "$pc_nmod_arkship$"
+ concept_pc_nmod_arkship_desc: "- Base Habitability: §Y60%§!\n- §YCan be relocated between star systems or planets§!\n\n§L$pc_nmod_arkship_desc$§!"
+ concept_nmod_nomad_living: "$trait_nmod_nomad_living$"
+ concept_nmod_nomad_living_desc: "- $pc_nmod_arkship$ Habitability: §G80%§!\n- Habitability: §R-40%§!\n\n§L$trait_nmod_nomad_living_desc$§!"
+
+ # Notifications Loc
+ MESSAGE_NMOD_RESOURCE_DEPOSITS_EXHAUSTED_TITLE: "Extractable Deposits Depleted"
+ MESSAGE_NMOD_RESOURCE_DEPOSITS_EXHAUSTED_TEXT: "Our arkships have exhausted all exploitable deposits in the §Y[This.GetName]§! System"
+ MESSAGE_NMOD_CARAVANS_EXHAUSTED_TITLE: "Trade Bonus Expired"
+
+ # System Tooltips Loc
+ nmod_sys_tooltip_resource_deposits: "§EExtractable Deposits§!\n\t- Total Resource Deposits: §Y[Root.nmod_sysres_total_resources]§!"
+
+ # Component Loc
+ nmod_mobile_shipyard_fission_reactor: "$FISSION_REACTOR$"
+ nmod_mobile_shipyard_fission_reactor_DESC: "$FISSION_REACTOR_DESC$"
+ nmod_mobile_shipyard_fusion_reactor: "$FUSION_REACTOR$"
+ nmod_mobile_shipyard_fusion_reactor_DESC: "$FUSION_REACTOR_DESC$"
+ nmod_mobile_shipyard_cold_fusion_reactor: "$COLD_FUSION_REACTOR$"
+ nmod_mobile_shipyard_cold_fusion_reactor_DESC: "$COLD_FUSION_REACTOR_DESC$"
+ nmod_mobile_shipyard_antimatter_reactor: "$ANTIMATTER_REACTOR$"
+ nmod_mobile_shipyard_antimatter_reactor_DESC: "$ANTIMATTER_REACTOR_DESC$"
+ nmod_mobile_shipyard_zero_point_reactor: "$ZERO_POINT_REACTOR$ "
+ nmod_mobile_shipyard_zero_point_reactor_DESC: "$ZERO_POINT_REACTOR_DESC$"
+ nmod_mobile_shipyard_dark_matter_reactor: "$DARK_MATTER_REACTOR$"
+ nmod_mobile_shipyard_dark_matter_reactor_DESC: "$DARK_MATTER_REACTOR_DESC$"
+
+ nmod_arkship_fission_reactor: "$FISSION_REACTOR$"
+ nmod_arkship_fission_reactor_DESC: "$FISSION_REACTOR_DESC$"
+ nmod_arkship_fusion_reactor: "$FUSION_REACTOR$"
+ nmod_arkship_fusion_reactor_DESC: "$FUSION_REACTOR_DESC$"
+ nmod_arkship_cold_fusion_reactor: "$COLD_FUSION_REACTOR$"
+ nmod_arkship_cold_fusion_reactor_DESC: "$COLD_FUSION_REACTOR_DESC$"
+ nmod_arkship_antimatter_reactor: "$ANTIMATTER_REACTOR$"
+ nmod_arkship_antimatter_reactor_DESC: "$ANTIMATTER_REACTOR_DESC$"
+ nmod_arkship_zero_point_reactor: "$ZERO_POINT_REACTOR$ "
+ nmod_arkship_zero_point_reactor_DESC: "$ZERO_POINT_REACTOR_DESC$"
+ nmod_arkship_dark_matter_reactor: "$DARK_MATTER_REACTOR$"
+ nmod_arkship_dark_matter_reactor_DESC: "$DARK_MATTER_REACTOR_DESC$"
+
+ nmod_arkship_thruster_1: "$SHIP_THRUSTER_1$"
+ nmod_arkship_thruster_1_DESC: "$SHIP_THRUSTER_1_DESC$"
+ nmod_arkship_thruster_2: "$SHIP_THRUSTER_2$"
+ nmod_arkship_thruster_2_DESC: "$SHIP_THRUSTER_2_DESC$"
+ nmod_arkship_thruster_3: "$SHIP_THRUSTER_3$"
+ nmod_arkship_thruster_3_DESC: "$SHIP_THRUSTER_3_DESC$"
+ nmod_arkship_thruster_4: "$SHIP_THRUSTER_4$"
+ nmod_arkship_thruster_4_DESC: "$SHIP_THRUSTER_4_DESC$"
+ nmod_arkship_thruster_5: "$SHIP_THRUSTER_5$"
+ nmod_arkship_thruster_5_DESC: "$SHIP_THRUSTER_5_DESC$"
+
+ # Civics Loc
+ civic_nmod_adept_engineers: "Adept Engineers"
+ civic_nmod_adept_engineers_desc: "This society has a strong tradition of engineering and treasures mechanical skills - essential for a fleet bound civilization."
+ civic_nmod_adept_engineers_effects: "Can construct £building£ §Y$building_nmod_engineering_workshop$§! buildings which add §Y£job_nmod_ship_engineer£ $job_nmod_ship_engineer$§! Jobs"
+ civic_nmod_galactic_pilgrimages: "Galactic Pilgrimages"
+ civic_nmod_galactic_pilgrimages_desc: "This culture values independence and self-sufficiency. Upon reaching maturity, youngsters will leave the flotilla on a quest to acquire valuable resources or knowledge and earn their place in the fleet."
+ civic_nmod_galactic_pilgrimages_effects: "Returning pilgrims will periodically bring back valuable objects, resources and technologies."
+ civic_nmod_stellar_migrants: "Stellar Migrants"
+ civic_nmod_stellar_migrants_desc: "This society considers the act of voyaging itself to be culturally significant. Long journeys and distant worlds are treated as near-sacred and with special reverence."
+ civic_nmod_stellar_migrants_effects: "Receive periodic £unity£ §Y$unity$§! bonuses for completing voyages of more than §Y10§! systems with an §YArkship§!."
+ civic_nmod_tiyanki_herders: "Tiyanki Herders"
+ civic_nmod_tiyanki_herders_desc: "TODO"
+ civic_nmod_tiyanki_herders_effects: "TODO"
+ civic_nmod_celestial_caravans: "Celestial Caravans"
+ civic_nmod_celestial_caravans_desc: "This culture excels at commerce and trade. They use their vast nomadic flotillas to carry valuable goods and cargo across the void between worlds."
+ civic_nmod_celestial_caravans_effects: "Receive a fraction of other empire's £trade_value£ §YTrade Value§! in systems neighboring an arkship. This value decreases over time."
+ civic_nmod_lost_homeworld: "Lost Homeworld"
+ civic_nmod_lost_homeworld_desc: "Driven from their homeworld in the distant past, this race now wanders the stars, untethered from their home."
+ civic_nmod_lost_homeworld_effects: "An §HAdvanced AI Empire§! will spawn on this empire's homeworld.\nThis Empire will receive special events focused around §Hrecovering§! their homeworld."
+
+ civic_nmod_butlerian_jihad: "AI Crusaders"
+ civic_nmod_butlerian_jihad_desc: "§rThou shalt not make a machine in the likeness of a sapient mind.§!\n\nThis society is utterly intolerant of machine civilizations and seeks to extinguish them wherever they are found."
+ civic_nmod_butlerian_jihad_effects: "Unlocks the §Y$casus_belli_nmod_anti_ai_purge$§! casus belli against all §YMachine Empires§!."
+
+ # Councillor Loc
+ councilor_nmod_adept_engineers: "Chief Engineer"
+ councilor_nmod_adept_engineers_custom_modifier_desc: "Each £job_researcher£[GetResearcher] also provides §G+0.1§! £engineering_research£ §Y$ENGINEERING$§!"
+ councilor_nmod_adept_engineers_desc: "The $councilor_nmod_adept_engineers$ is in charge of engineering and upkeep within the fleet."
+
+ councilor_nmod_celestial_caravans: "Galactic Broker"
+ councilor_nmod_celestial_caravans_desc: "The $councilor_nmod_celestial_caravans$ negotiates deals and oversees trade within the empire."
+
+ councilor_nmod_galactic_pilgrimages: "Expedition Master"
+ councilor_nmod_galactic_pilgrimages_desc: "The $councilor_nmod_galactic_pilgrimages$ oversees the safety and travels of young pilgrims in the greater galaxy."
+
+ councilor_nmod_lost_homeworld: "Ancestral Archivist"
+ councilor_nmod_lost_homeworld_desc: "The $councilor_nmod_lost_homeworld$ is charged with recording and remembering the Homeworld."
+
+ councilor_nmod_stellar_migrants: "Celestial Navigator"
+ councilor_nmod_stellar_migrants_desc: "The $councilor_nmod_stellar_migrants$ charts a course through the stars and guides the fleet safely."
+
+ # Jobs Loc
+ job_nmod_captain: "Captain"
+ job_nmod_captain_plural: "Captains"
+ job_nmod_captain_desc: "Piloting an interstellar city-ship is different to planetary governance, but no less challenging."
+ mod_job_nmod_captain_add: "$job_nmod_captain$ Jobs"
+
+ job_nmod_reactor_engineer: "Reactor Engineer"
+ job_nmod_reactor_engineer_plural: "Reactor Engineers"
+ job_nmod_reactor_engineer_desc: "A steady eye and careful calibrations keep the ship's power systems running smoothly."
+ mod_job_nmod_reactor_engineer_add: "$job_nmod_reactor_engineer$ Jobs"
+
+ job_nmod_ship_engineer: "Ship Engineer"
+ job_nmod_ship_engineer_plural: "Ship Engineers"
+ job_nmod_ship_engineer_desc: "The endless work required to keep an interstellar arkship functioning is thankless, but important."
+ mod_job_nmod_ship_engineer_add: "$job_nmod_ship_engineer$ Jobs"
+ job_nmod_ship_engineer_effect_desc: "£job_nmod_ship_engineer£$job_nmod_ship_engineer_plural$ turn §Y£minerals£$minerals$§! into §Y£alloys£$alloys$§! and §Y£engineering_research£$engineering_research$§!"
+
+ job_nmod_recycler: "Recycler"
+ job_nmod_recycler_plural: "Recyclers"
+ job_nmod_recycler_desc: "In the confined spaces of an interstellar vessel, waste management is an essential part of daily life."
+ mod_job_nmod_recycler_add: "$job_nmod_recycler$ Jobs"
+ job_nmod_recycler_effect_desc: "£job_nmod_recycler£$job_nmod_recycler_plural$ turn §Y£consumer_goods£$consumer_goods$§! into $r_amenities$ and reduce §YPop Upkeep§!"

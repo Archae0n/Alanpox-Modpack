@@ -1,0 +1,6 @@
+concept_pc_nmod_arkship = {
+	icon = "gfx/interface/icons/nmod_arkship_planet_icon.dds"
+}
+concept_nmod_nomad_living = {
+	icon = "gfx/interface/icons/traits/trait_nmod_nomad_living.dds"
+}

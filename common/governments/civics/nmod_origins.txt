@@ -1,0 +1,51 @@
+origin_nmod_nomadic_race = {
+    is_origin = yes
+    # TODO: Copy this somewhere so it's not dependent on vanilla
+	icon = "gfx/interface/icons/origins/unused/origins_covert_action.dds"
+	picture = GFX_origin_nmod_nomadic_race #PLACEHOLDER
+	max_once_global = yes
+	starting_colony = pc_nmod_arkship
+
+	# TODO: Add initializers
+
+	# STAND IN
+	initializers = { nmod_nomad_default_start }
+
+	non_colonizable_planet_class_neighbor = yes
+
+	possible = {
+		ethics = {
+			NOR = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+		civics = {
+			NOR = {
+                # We may need to exclude a huge number of civics here if they still appear on the selection screen.
+                # Only the ones that make sense should be allowed. We can compensate by making 10 or so nomad specific ones too.
+				# No low tech starts - those are dumb.
+				value = civic_eager_explorers
+				value = civic_privatized_exploration
+				value = civic_agrarian_idyll
+			}
+		}
+	}
+
+	modifier = {
+		country_starbase_influence_cost_mult  = 0.5
+		station_gatherers_produces_mult = 0.15
+		station_researchers_produces_mult = 0.15
+		shipclass_mining_station_build_cost_mult = -0.25
+	}
+
+	description = "origin_tooltip_nmod_nomadic_race_effects"
+	flags = { custom_start_screen }
+
+	traits = { trait = trait_nmod_nomad_living }
+
+	advanced_start = no
+
+	random_weight = {
+		base = 0
+	}
+}

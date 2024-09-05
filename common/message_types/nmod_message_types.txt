@@ -1,0 +1,26 @@
+# TODO: Celestial caravans notification
+
+#message_type = {
+#	key = "NMOD_CARAVANS_EXHAUSTED"
+#	icon = "GFX_message_aborted_project"
+#	icon_frame = 1
+#
+#	name = "MESSAGE_NMOD_CARAVANS_EXHAUSTED_TITLE"
+#	sound = "notification"
+#	ping = "ping_notification_green"
+#
+#	category = economy
+#}
+
+# Resource deposits exhausted
+message_type = {
+	key = "NMOD_RESOURCE_DEPOSITS_EXHAUSTED"
+	icon = "GFX_message_aborted_project"
+	icon_frame = 1
+
+	name = "MESSAGE_NMOD_RESOURCE_DEPOSITS_EXHAUSTED_TITLE"
+	sound = "notification"
+	ping = "ping_notification_green"
+
+	category = economy
+}

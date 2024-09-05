@@ -1,0 +1,725 @@
+# from = planet
+# fromfrom = arkship fleet
+nmod_save_buildings_wrapper = {
+    # Save the temp variable
+    export_trigger_value_to_variable = {
+        trigger = num_buildings
+        parameters = { type = any }
+        variable = nmod_temp_building_count_display_value
+    }
+    fromfrom = {
+        set_variable = {
+            which = nmod_building_count_display_value
+            value = prev.nmod_temp_building_count_display_value
+        }
+    }
+    # nmod buildings
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_nmod_arkship_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_nmod_engineering_workshop }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_nmod_recycling_centre }
+    # Vanilla 3.12.1 buildings
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_colony_shelter }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_major_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_system_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_deployment_post }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_machine_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_machine_major_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_machine_system_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_major_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hab_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hab_major_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hab_system_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_resort_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_resort_major_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_slave_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_slave_major_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_imperial_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_imperial_machine_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_imperial_hive_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_colony_shelter_nanotech }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_capital_nanotech }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_major_capital_nanotech }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_system_capital_nanotech }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_deployment_post_nanotech }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_machine_capital_nanotech }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_machine_major_capital_nanotech }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_machine_system_capital_nanotech }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_robot_assembly_plant }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_robot_assembly_complex }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_machine_assembly_plant }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_machine_assembly_complex }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_spawning_pool }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_offspring_nest }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_necrophage_elevation_chamber }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_necrophage_house_of_apotheosis }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_clone_vats }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_clone_army_clone_vat }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_posthumous_employment_center }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_toxic_bath_hive }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_toxic_bath_machine }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_noble_estates }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_slave_processing }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_precinct_house }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hall_judgment }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_sentinel_posts }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_order_keep }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_order_castle }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_psi_corps }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_embassy }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_grand_embassy }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_gaiaseeders_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_gaiaseeders_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_gaiaseeders_3 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_gaiaseeders_4 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_gaiaseeders_pc_gaia }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hydroponics_farm }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_food_processing_facility }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_food_processing_center }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_baol_organic_plant }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_mineral_purification_plant }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_mineral_purification_hub }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_energy_grid }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_energy_nexus }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_resource_silo }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_bio_reactor }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_bio_reactor_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_foundry_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_foundry_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_foundry_3 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_factory_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_factory_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_factory_3 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_refinery }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_chemical_plant }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_crystal_plant }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_nanite_transmuter }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_ministry_production }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_production_center }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_coordinated_fulfillment_center_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_coordinated_fulfillment_center_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_archaeo_refinery }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_research_lab_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_research_lab_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_research_lab_3 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_institute }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_supercomputer }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_archaeostudies_faculty }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_vultaum_reality_computer }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_commercial_zone }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_commercial_megaplex }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_galactic_stock_exchange }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_luxury_residence }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_paradise_dome }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_communal_housing }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_communal_housing_large }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_drone_storage }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_drone_megastorage }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_warren }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_expanded_warren }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_holo_theatres }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hyper_entertainment_forum }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_clinic }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hospital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_maintenance_depot }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_slave_huts }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_overseer_homes }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_ranger_lodge }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_toxic_bath }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_autochthon_monument }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_heritage_site }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hypercomms_forum }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_bureaucratic_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_bureaucratic_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_bureaucratic_3 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_temple }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_holotemple }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_sacred_nexus }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_uplink_node }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_network_junction }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_system_conflux }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_node }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_cluster }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_confluence }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_sacrificial_temple_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_sacrificial_temple_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_sacrificial_temple_3 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_galactic_memorial_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_galactic_memorial_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_galactic_memorial_3 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_simulation_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_simulation_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_simulation_3 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_corporate_monument }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_corporate_site }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_corporate_forum }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_sensorium_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_sensorium_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_sensorium_3 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_autocurating_vault }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_citadel_of_faith }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_corporate_vault }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_alpha_hub }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_organic_sanctuary }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_organic_paradise }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_league_offices }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_military_academy }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_dread_encampment }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_stronghold }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fortress }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_planetary_shield_generator }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_mote_harvesters }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_gas_extractors }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_crystal_mines }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_betharian_power_plant }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_xeno_zoo }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_crude_huts }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_primitive_dwellings }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_stone_palace }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_primitive_factory }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_primitive_mine }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_primitive_power_plant }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_primitive_farm }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_primitive_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_urban_dwellings }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_pre_ftl_radio_telescope }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_crude_huts }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_primitive_dwellings }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_stone_palace }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_primitive_factory }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_primitive_mine }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_primitive_power_plant }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_primitive_farm }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_primitive_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_urban_dwellings }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_primitive_clinic }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_solarpunk_gaiaseeder }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_solarpunk_ranger_lodge }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_solarpunk_sapling }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_solarpunk_organic_paradise }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_junkheap }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_akx_worm_3 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_great_pyramid }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_artist_patron }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_waste_reprocessing_center }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_nuumismatic_shrine }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_crystal_plant_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_composer_sanctum }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_eater_sanctum }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_instrument_sanctum }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_whisperers_sanctum }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_ancient_control_center }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_ancient_hive_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_ancient_palace }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_xeno_zoo }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hab_fe_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_master_archive }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_empyrean_shrine }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_ancient_cryo_chamber }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_affluence_emporium }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_affluence_center }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_nourishment_complex }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_nourishment_center }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_dimensional_replicator }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_dimensional_fabricator }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_class_3_singularity }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_class_4_singularity }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_micro_forge }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_nano_forge }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_sky_dome }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_dome }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_fortress }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_stronghold }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_administration_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_administration_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_administration_hive_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_administration_hive_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_administration_machine_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_administration_machine_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_temple_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_temple_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_assembly_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_assembly_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_clinic_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_clinic_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_security_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_security_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_market_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_market_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_silo_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_silo_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_entertainment_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_entertainment_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_lab_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_lab_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_mine_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_fe_mine_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_low_tech_scrap_refinery }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_low_tech_admin_hub }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_low_tech_power_plant }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_low_tech_farm }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_low_tech_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_low_tech_research_lab }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_paragon_memory_vaults }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_the_beholder }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_contained_ecosphere }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_astral_siphon_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_astral_siphon_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_astral_siphon_3 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_augmentation_bazaars }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_transcendental_retreat }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_hive_transcendental_retreat }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_amphitheater_of_the_mind }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_grand_concert_hall_of_the_mind }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_battlement_of_steel }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_grand_battlements_of_steel }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_sanctuary_of_toil }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_grand_cathedral_of_toil }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_forge_of_the_fellowship }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_grand_forge_of_the_fellowship }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_the_sanctum_of_augmentation }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_the_united_sanctum_of_augmentation }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_identity_repository }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_abandoned_gene_clinic }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_lathe_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_lathe_major_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_lathe_super_capital }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_lathe_resonator }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_lathe_stabilisator }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_lathe_overclocker }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_lathe_preserver }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_lathe_reactor }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_lathe_life_support }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_lathe_cogitator }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_lathe_validator }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_augmentation_center }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_cyberdome }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_identity_complex }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_nanolab_1 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_nanolab_2 }
+    nmod_save_building_count = { TARGET = fromfrom BUILDING = building_nanotech_cauldron }
+}
+
+# Planet scope. Single Building type
+# BUILDING = building name, TARGET = arkship fleet
+nmod_save_building_count = {
+    $TARGET$ = {
+        if = {
+            limit = {
+                prev = { has_building = $BUILDING$ }
+            }
+            set_variable = {
+                which = nmod_building_count_$BUILDING$
+                value  = 0
+            }
+            while = {
+                limit = {
+                    prev = {
+                        has_building = $BUILDING$
+                    }
+                }
+                change_variable = {
+                    which = nmod_building_count_$BUILDING$
+                    value = 1
+                }
+                prev = { remove_building = $BUILDING$ }
+            }
+        }
+    }
+}
+
+# from = arkship fleet
+# fromfrom = target planet
+nmod_load_building_wrapper = {
+    # nmod buildings
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_nmod_arkship_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_nmod_engineering_workshop }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_nmod_recycling_centre }
+    # Vanilla 3.12.1 buildings
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_colony_shelter }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_major_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_system_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_deployment_post }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_machine_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_machine_major_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_machine_system_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_major_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hab_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hab_major_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hab_system_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_resort_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_resort_major_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_slave_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_slave_major_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_imperial_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_imperial_machine_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_imperial_hive_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_colony_shelter_nanotech }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_capital_nanotech }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_major_capital_nanotech }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_system_capital_nanotech }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_deployment_post_nanotech }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_machine_capital_nanotech }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_machine_major_capital_nanotech }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_machine_system_capital_nanotech }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_robot_assembly_plant }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_robot_assembly_complex }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_machine_assembly_plant }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_machine_assembly_complex }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_spawning_pool }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_offspring_nest }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_necrophage_elevation_chamber }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_necrophage_house_of_apotheosis }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_clone_vats }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_clone_army_clone_vat }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_posthumous_employment_center }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_toxic_bath_hive }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_toxic_bath_machine }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_noble_estates }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_slave_processing }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_precinct_house }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hall_judgment }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_sentinel_posts }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_order_keep }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_order_castle }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_psi_corps }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_embassy }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_grand_embassy }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_gaiaseeders_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_gaiaseeders_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_gaiaseeders_3 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_gaiaseeders_4 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_gaiaseeders_pc_gaia }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hydroponics_farm }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_food_processing_facility }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_food_processing_center }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_baol_organic_plant }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_mineral_purification_plant }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_mineral_purification_hub }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_energy_grid }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_energy_nexus }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_resource_silo }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_bio_reactor }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_bio_reactor_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_foundry_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_foundry_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_foundry_3 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_factory_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_factory_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_factory_3 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_refinery }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_chemical_plant }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_crystal_plant }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_nanite_transmuter }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_ministry_production }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_production_center }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_coordinated_fulfillment_center_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_coordinated_fulfillment_center_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_archaeo_refinery }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_research_lab_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_research_lab_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_research_lab_3 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_institute }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_supercomputer }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_archaeostudies_faculty }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_vultaum_reality_computer }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_commercial_zone }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_commercial_megaplex }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_galactic_stock_exchange }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_luxury_residence }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_paradise_dome }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_communal_housing }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_communal_housing_large }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_drone_storage }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_drone_megastorage }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_warren }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_expanded_warren }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_holo_theatres }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hyper_entertainment_forum }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_clinic }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hospital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_maintenance_depot }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_slave_huts }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_overseer_homes }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_ranger_lodge }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_toxic_bath }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_autochthon_monument }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_heritage_site }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hypercomms_forum }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_bureaucratic_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_bureaucratic_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_bureaucratic_3 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_temple }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_holotemple }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_sacred_nexus }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_uplink_node }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_network_junction }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_system_conflux }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_node }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_cluster }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_confluence }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_sacrificial_temple_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_sacrificial_temple_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_sacrificial_temple_3 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_galactic_memorial_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_galactic_memorial_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_galactic_memorial_3 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_simulation_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_simulation_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_simulation_3 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_corporate_monument }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_corporate_site }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_corporate_forum }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_sensorium_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_sensorium_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_sensorium_3 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_autocurating_vault }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_citadel_of_faith }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_corporate_vault }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_alpha_hub }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_organic_sanctuary }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_organic_paradise }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_league_offices }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_military_academy }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_dread_encampment }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_stronghold }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fortress }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_planetary_shield_generator }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_mote_harvesters }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_gas_extractors }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_crystal_mines }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_betharian_power_plant }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_xeno_zoo }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_crude_huts }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_primitive_dwellings }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_stone_palace }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_primitive_factory }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_primitive_mine }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_primitive_power_plant }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_primitive_farm }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_primitive_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_urban_dwellings }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_pre_ftl_radio_telescope }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_crude_huts }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_primitive_dwellings }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_stone_palace }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_primitive_factory }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_primitive_mine }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_primitive_power_plant }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_primitive_farm }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_primitive_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_urban_dwellings }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_primitive_clinic }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_solarpunk_gaiaseeder }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_solarpunk_ranger_lodge }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_solarpunk_sapling }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_solarpunk_organic_paradise }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_junkheap }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_akx_worm_3 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_great_pyramid }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_artist_patron }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_waste_reprocessing_center }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_nuumismatic_shrine }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_crystal_plant_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_composer_sanctum }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_eater_sanctum }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_instrument_sanctum }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_whisperers_sanctum }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_ancient_control_center }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_ancient_hive_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_ancient_palace }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_xeno_zoo }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hab_fe_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_master_archive }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_empyrean_shrine }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_ancient_cryo_chamber }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_affluence_emporium }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_affluence_center }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_nourishment_complex }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_nourishment_center }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_dimensional_replicator }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_dimensional_fabricator }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_class_3_singularity }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_class_4_singularity }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_micro_forge }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_nano_forge }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_sky_dome }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_dome }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_fortress }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_stronghold }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_administration_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_administration_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_administration_hive_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_administration_hive_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_administration_machine_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_administration_machine_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_temple_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_temple_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_assembly_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_assembly_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_clinic_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_clinic_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_security_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_security_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_market_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_market_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_silo_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_silo_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_entertainment_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_entertainment_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_lab_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_lab_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_mine_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_fe_mine_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_low_tech_scrap_refinery }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_low_tech_admin_hub }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_low_tech_power_plant }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_low_tech_farm }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_low_tech_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_low_tech_research_lab }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_paragon_memory_vaults }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_the_beholder }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_contained_ecosphere }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_astral_siphon_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_astral_siphon_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_astral_siphon_3 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_augmentation_bazaars }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_transcendental_retreat }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_hive_transcendental_retreat }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_amphitheater_of_the_mind }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_grand_concert_hall_of_the_mind }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_battlement_of_steel }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_grand_battlements_of_steel }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_sanctuary_of_toil }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_grand_cathedral_of_toil }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_forge_of_the_fellowship }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_grand_forge_of_the_fellowship }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_the_sanctum_of_augmentation }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_the_united_sanctum_of_augmentation }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_identity_repository }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_abandoned_gene_clinic }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_lathe_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_lathe_major_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_lathe_super_capital }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_lathe_resonator }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_lathe_stabilisator }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_lathe_overclocker }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_lathe_preserver }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_lathe_reactor }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_lathe_life_support }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_lathe_cogitator }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_lathe_validator }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_augmentation_center }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_cyberdome }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_identity_complex }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_nanolab_1 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_nanolab_2 }
+    nmod_load_building_count = { TARGET = fromfrom BUILDING = building_nanotech_cauldron }
+}
+
+# Fleet scope. Single Building type
+# BUILDING = building name, TARGET = planet
+nmod_load_building_count = {
+    if = {
+        limit = {
+            is_variable_set = nmod_building_count_$BUILDING$
+        }
+        while = {
+            count = nmod_building_count_$BUILDING$
+            $TARGET$ = {
+                add_building = $BUILDING$
+            }
+        }
+    }
+}
+
+# Planet scope. Single district type
+# DISTRICT = district name, TARGET = arkship fleet
+nmod_save_district_count = {
+    $TARGET$ = {
+        if = {
+            limit = {
+                prev = { has_district = $DISTRICT$ }
+            }
+            set_variable = {
+                which = nmod_district_count_$DISTRICT$
+                value = 0
+            }
+            while = {
+                limit = {
+                    prev = {
+                        has_district = $DISTRICT$
+                    }
+                }
+                change_variable = {
+                    which = nmod_district_count_$DISTRICT$
+                    value = 1
+                }
+                prev = { remove_district = $DISTRICT$ }
+            }
+        }
+    }
+}
+
+# Fleet scope. Single Building type
+# BUILDING = building name, TARGET = planet
+nmod_load_district_count = {
+    if = {
+        limit = {
+            is_variable_set = nmod_district_count_$DISTRICT$
+        }
+        while = {
+            count = nmod_district_count_$DISTRICT$
+            $TARGET$ = {
+                add_district = $DISTRICT$
+            }
+        }
+    }
+}
+
+# Planet scope. Single district type
+# DISTRICT = district name, TARGET = arkship fleet
+nmod_save_deposit_count = {
+    $TARGET$ = {
+        if = {
+            limit = {
+                prev = { has_deposit = $DEPOSIT$ }
+            }
+            set_variable = {
+                which = nmod_deposit_count_$DEPOSIT$
+                value  = 0
+            }
+            while = {
+                limit = {
+                    prev = {
+                        has_deposit = $DEPOSIT$
+                    }
+                }
+                change_variable = {
+                    which = nmod_deposit_count_$DEPOSIT$
+                    value = 1
+                }
+                prev = { remove_deposit = $DEPOSIT$ }
+            }
+        }
+    }
+}
+
+# Fleet scope. Single deposit type
+# BUILDING = building name, TARGET = planet
+nmod_load_deposit_count = {
+    if = {
+        limit = {
+            is_variable_set = nmod_deposit_count_$DEPOSIT$
+        }
+        while = {
+            count = nmod_deposit_count_$DEPOSIT$
+            $TARGET$ = {
+                add_deposit = $DEPOSIT$
+            }
+        }
+    }
+}

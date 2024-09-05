@@ -1,0 +1,421 @@
+# Planet scope, spawns a mobile shipyard in orbit
+nmod_spawn_mobile_shipyard = {
+    save_event_target_as = nmod_mobile_shipyard_spawn_point
+    create_fleet = {
+        name = nmod_mobile_shipyard_fleet_name
+		settings = {
+			can_upgrade = no
+			can_change_composition = no
+			can_change_leader = no
+			uses_naval_capacity = no
+			spawn_debris = no
+		}
+        effect = {
+            set_owner = prevprev.solar_system.owner
+            create_ship = {
+                name = nmod_mobile_shipyard_ship_name
+                random_existing_design = nmod_mobile_shipyard
+                prefix = no
+            }
+            set_location = event_target:nmod_mobile_shipyard_spawn_point
+        }
+    }
+}
+
+# Country scope, sets the country to be a nomad_default type country
+# This effect is three scripted effects deep, so be conscious of where it's used as stellaris only supports 5 levels.
+nmod_set_country_type = {
+    nmod_encode_all_resources = yes
+    set_country_type = $COUNTRY_TYPE$
+    nmod_decode_all_resources = yes
+}
+
+nmod_encode_all_resources = {
+    # All vanilla resources as of 3.11.1
+    nmod_encode_resource = { RESOURCE = energy }
+    nmod_encode_resource = { RESOURCE = minerals }
+    nmod_encode_resource = { RESOURCE = food }
+    nmod_encode_resource = { RESOURCE = physics_research }
+    nmod_encode_resource = { RESOURCE = society_research }
+    nmod_encode_resource = { RESOURCE = engineering_research }
+    nmod_encode_resource = { RESOURCE = influence }
+    nmod_encode_resource = { RESOURCE = unity }
+    nmod_encode_resource = { RESOURCE = consumer_goods }
+    nmod_encode_resource = { RESOURCE = alloys }
+    nmod_encode_resource = { RESOURCE = volatile_motes }
+    nmod_encode_resource = { RESOURCE = exotic_gases }
+    nmod_encode_resource = { RESOURCE = rare_crystals }
+    nmod_encode_resource = { RESOURCE = sr_living_metal }
+    nmod_encode_resource = { RESOURCE = sr_zro }
+    nmod_encode_resource = { RESOURCE = sr_dark_matter }
+    nmod_encode_resource = { RESOURCE = nanites }
+    nmod_encode_resource = { RESOURCE = minor_artifacts }
+    nmod_encode_resource = { RESOURCE = astral_threads }
+    nmod_encode_resource = { RESOURCE = menace }
+}
+
+# Encode an individual amount of resources
+nmod_encode_resource = {
+    export_resource_stockpile_to_variable = {
+        resource = $RESOURCE$ variable = nmod_country_stockpile_$RESOURCE$
+    }
+}
+
+nmod_decode_all_resources = {
+    # All vanilla resources as of 3.11.1
+    nmod_decode_resource = { RESOURCE = energy }
+    nmod_decode_resource = { RESOURCE = minerals }
+    nmod_decode_resource = { RESOURCE = food }
+    nmod_decode_resource = { RESOURCE = physics_research }
+    nmod_decode_resource = { RESOURCE = society_research }
+    nmod_decode_resource = { RESOURCE = engineering_research }
+    nmod_decode_resource = { RESOURCE = influence }
+    nmod_decode_resource = { RESOURCE = unity }
+    nmod_decode_resource = { RESOURCE = consumer_goods }
+    nmod_decode_resource = { RESOURCE = alloys }
+    nmod_decode_resource = { RESOURCE = volatile_motes }
+    nmod_decode_resource = { RESOURCE = exotic_gases }
+    nmod_decode_resource = { RESOURCE = rare_crystals }
+    nmod_decode_resource = { RESOURCE = sr_living_metal }
+    nmod_decode_resource = { RESOURCE = sr_zro }
+    nmod_decode_resource = { RESOURCE = sr_dark_matter }
+    nmod_decode_resource = { RESOURCE = nanites }
+    nmod_decode_resource = { RESOURCE = minor_artifacts }
+    nmod_decode_resource = { RESOURCE = astral_threads }
+    nmod_decode_resource = { RESOURCE = menace }
+}
+
+# Decode an individual amount of resources
+nmod_decode_resource = {
+    if = {
+        limit = {
+            check_variable = { which = nmod_country_stockpile_$RESOURCE$ value > 0 }
+        }
+        add_resource = {
+            $RESOURCE$ = 1
+            mult = nmod_country_stockpile_$RESOURCE$
+        }
+    }
+    clear_variable = nmod_country_stockpile_$RESOURCE$
+}
+
+# Wrapper for the encoding.
+nmod_encode_all_resource_incomes = {
+    $TARGET$ = {
+        save_event_target_as = nmod_arkship_target_to_save_resource_income_to
+    }
+    nmod_encode_resource_income = { RESOURCE = energy }
+    nmod_encode_resource_income = { RESOURCE = minerals }
+    nmod_encode_resource_income = { RESOURCE = food }
+    nmod_encode_resource_income = { RESOURCE = physics_research }
+    nmod_encode_resource_income = { RESOURCE = society_research }
+    nmod_encode_resource_income = { RESOURCE = engineering_research }
+    nmod_encode_resource_income = { RESOURCE = influence }
+    nmod_encode_resource_income = { RESOURCE = unity }
+    nmod_encode_resource_income = { RESOURCE = consumer_goods }
+    nmod_encode_resource_income = { RESOURCE = alloys }
+    nmod_encode_resource_income = { RESOURCE = volatile_motes }
+    nmod_encode_resource_income = { RESOURCE = exotic_gases }
+    nmod_encode_resource_income = { RESOURCE = rare_crystals }
+    nmod_encode_resource_income = { RESOURCE = sr_living_metal }
+    nmod_encode_resource_income = { RESOURCE = sr_zro }
+    nmod_encode_resource_income = { RESOURCE = sr_dark_matter }
+    nmod_encode_resource_income = { RESOURCE = nanites }
+    nmod_encode_resource_income = { RESOURCE = minor_artifacts }
+    nmod_encode_resource_income = { RESOURCE = astral_threads }
+    nmod_encode_resource_income = { RESOURCE = menace }
+    # Set display values for resources that will be shown collectively
+    $TARGET$ = {  nmod_set_display_values = yes }
+}
+
+# Encode an individual resource income and upkeep. May be performance intensive
+nmod_encode_resource_income = {
+    export_trigger_value_to_variable = {
+        trigger = planet_resource_compare
+        parameters = { resource = $RESOURCE$ type = balance}
+        variable = nmod_resource_balance_$RESOURCE$
+    }
+     # The player wont notice this, but will help with ui
+    ceiling_variable = nmod_resource_balance_$RESOURCE$
+    # Cleanup. We only copy the non zero vars to the ark ship
+    if = {
+        limit = {
+            NOT = {
+                check_variable = {
+                    which = nmod_resource_balance_$RESOURCE$
+                    value = 0
+                }
+            }
+        }
+        # Save the balance on the arkship.
+        event_target:nmod_arkship_target_to_save_resource_income_to = {
+            set_variable = {
+                which = nmod_resource_balance_$RESOURCE$
+                value = prev.nmod_resource_balance_$RESOURCE$
+            }
+        }
+        # AND save it on the country.
+        owner = {
+            if = {
+                limit = {
+                    is_variable_set = nmod_resource_balance_$RESOURCE$
+                }
+                change_variable = {
+                    which = nmod_resource_balance_$RESOURCE$
+                    value = prev.nmod_resource_balance_$RESOURCE$
+                }
+            }
+            else = {
+                set_variable = {
+                    which = nmod_resource_balance_$RESOURCE$
+                    value = prev.nmod_resource_balance_$RESOURCE$
+                }
+            }
+            remove_modifier = nmod_arkship_$RESOURCE$_income
+            add_modifier = {
+                modifier = nmod_arkship_$RESOURCE$_income
+                multiplier = nmod_resource_balance_$RESOURCE$
+            }
+        }
+    }
+}
+
+nmod_set_display_values = {
+    # Research display values.
+    set_variable = {
+        which = nmod_arkship_research_display_income
+        value = 0
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_physics_research}
+        change_variable = {
+            which = nmod_arkship_research_display_income
+            value = nmod_resource_balance_physics_research
+        }
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_society_research}
+        change_variable = {
+            which = nmod_arkship_research_display_income
+            value = nmod_resource_balance_society_research
+        }
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_engineering_research}
+        change_variable = {
+            which = nmod_arkship_research_display_income
+            value = nmod_resource_balance_engineering_research
+        }
+    }
+    # Strat res display values.
+    set_variable = {
+        which = nmod_arkship_strat_resources_display_income
+        value = 0
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_volatile_motes}
+        change_variable = {
+            which = nmod_arkship_strat_resources_display_income
+            value = nmod_resource_balance_volatile_motes
+        }
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_exotic_gases}
+        change_variable = {
+            which = nmod_arkship_strat_resources_display_income
+            value = nmod_resource_balance_exotic_gases
+        }
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_rare_crystals}
+        change_variable = {
+            which = nmod_arkship_strat_resources_display_income
+            value = nmod_resource_balance_rare_crystals
+        }
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_sr_living_metal}
+        change_variable = {
+            which = nmod_arkship_strat_resources_display_income
+            value = nmod_resource_balance_sr_living_metal
+        }
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_sr_zro}
+        change_variable = {
+            which = nmod_arkshipnmod_arkship_strat_resources_display_income_research_display_income
+            value = nmod_resource_balance_sr_zro
+        }
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_sr_dark_matter}
+        change_variable = {
+            which = nmod_arkship_strat_resources_display_income
+            value = nmod_resource_balance_sr_dark_matter
+        }
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_sr_nanites}
+        change_variable = {
+            which = nmod_arkship_strat_resources_display_income
+            value = nmod_resource_balance_sr_nanites
+        }
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_minor_artifacts}
+        change_variable = {
+            which = nmod_arkship_strat_resources_display_income
+            value = nmod_resource_balance_minor_artifacts
+        }
+    }
+    # Other
+    # COMPATIBILITY NOTE: Any other resource incomes need to be encoded into this variable to be displayed
+    set_variable = {
+        which = nmod_arkship_other_resources_display_income
+        value = 0
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_astral_threads}
+        change_variable = {
+            which = nmod_arkship_other_resources_display_income
+            value = nmod_resource_balance_astral_threads
+        }
+    }
+    if = {
+        limit = { is_variable_set = nmod_resource_balance_menace}
+        change_variable = {
+            which = nmod_arkship_other_resources_display_income
+            value = nmod_resource_balance_menace
+        }
+    }
+}
+
+# Country scope. Wrapper. Recalculates the modifiers for every resource.
+nmod_refresh_all_resource_income_modifiers = {
+    nmod_refresh_resource_income = { RESOURCE = energy }
+    nmod_refresh_resource_income = { RESOURCE = minerals }
+    nmod_refresh_resource_income = { RESOURCE = food }
+    nmod_refresh_resource_income = { RESOURCE = physics_research }
+    nmod_refresh_resource_income = { RESOURCE = society_research }
+    nmod_refresh_resource_income = { RESOURCE = engineering_research }
+    nmod_refresh_resource_income = { RESOURCE = influence }
+    nmod_refresh_resource_income = { RESOURCE = unity }
+    nmod_refresh_resource_income = { RESOURCE = consumer_goods }
+    nmod_refresh_resource_income = { RESOURCE = alloys }
+    nmod_refresh_resource_income = { RESOURCE = volatile_motes }
+    nmod_refresh_resource_income = { RESOURCE = exotic_gases }
+    nmod_refresh_resource_income = { RESOURCE = rare_crystals }
+    nmod_refresh_resource_income = { RESOURCE = sr_living_metal }
+    nmod_refresh_resource_income = { RESOURCE = sr_zro }
+    nmod_refresh_resource_income = { RESOURCE = sr_dark_matter }
+    nmod_refresh_resource_income = { RESOURCE = nanites }
+    nmod_refresh_resource_income = { RESOURCE = minor_artifacts }
+    nmod_refresh_resource_income = { RESOURCE = astral_threads }
+    nmod_refresh_resource_income = { RESOURCE = menace }
+}
+
+# Country scope.
+nmod_refresh_resource_income = {
+    if = {
+        # No point in refreshing if the variable doesn't exist
+        limit = {
+            is_variable_set = nmod_resource_balance_$RESOURCE$
+        }
+        set_variable = {
+            which = nmod_resource_balance_$RESOURCE$
+            value = 0
+        }
+        every_owned_fleet = {
+            # This will only return true on arkship-like vessels.
+            limit = {
+                AND = {
+                    is_variable_set = nmod_resource_balance_$RESOURCE$
+                    NOT = { has_fleet_flag = nmod_ignore_resource_incomes }
+                }
+            }
+            prev = {
+                change_variable = {
+                    which = nmod_resource_balance_$RESOURCE$ # Country scope
+                    value = prev.nmod_resource_balance_$RESOURCE$ # Fleet Scope
+                }
+            }
+        }
+        remove_modifier = nmod_arkship_$RESOURCE$_income
+        if = {
+            limit = {
+                NOT = { check_variable = { which = nmod_resource_balance_$RESOURCE$ value = 0 } }
+            }
+            add_modifier = {
+                modifier = nmod_arkship_$RESOURCE$_income
+                multiplier = nmod_resource_balance_$RESOURCE$
+            }
+        }
+        # Housekeeping
+        else = {
+            clear_variable = nmod_resource_balance_$RESOURCE$
+        }
+    }
+}
+
+# Sums the total trade value of all neighbouring systems that don't belong to us. Planet scope
+nmod_get_neighbouring_trade_value = {
+    set_variable = { which = nmod_neighbour_trade value = 0 }
+    every_neighbor_system = {
+        limit = {
+            AND = {
+                exists = owner
+                NOT = { owner = { is_same_value = prevprev.owner } }  # We don't want it to work on systems we own.
+            }
+        }
+        export_trigger_value_to_variable = { trigger = has_system_trade_value variable = nmod_neighbour_trade_staging }
+        prev = {
+            change_variable = {
+                which = nmod_neighbour_trade
+                value = prev.nmod_neighbour_trade_staging
+            }
+        }
+        clear_variable = nmod_neighbour_trade_staging
+    }
+}
+
+# System Scope
+nmod_set_neighbouring_trade_collection_mult = {
+    # We want to allow a maximum of 5 years in a particular system.
+    set_variable = {
+        which = nmod_trade_attrition_mult
+        value = nmod_celestial_caravans_devastation
+    }
+    divide_variable = { which = nmod_trade_attrition_mult value = 60 } # As the attrition ticks up, we decrease value at a linear rate
+    # Ceiling it at 1
+    if = {
+        limit = {
+            check_variable = {
+                which = nmod_trade_attrition_mult
+                value > 1
+            }
+        }
+        set_variable = {
+            which = nmod_trade_attrition_mult
+            value = 1
+        }
+    }
+    # To get the % trade reduction, we do 1 - mult
+    set_variable = {
+        which = nmod_neighbour_trade_mult
+        value = 1
+    }
+    subtract_variable = {
+        which = nmod_neighbour_trade_mult
+        value = nmod_trade_attrition_mult
+    }
+
+    # Get a display value as well
+    set_variable = {
+        which = nmod_neighbour_trade_mult_display
+        value = nmod_neighbour_trade_mult
+    }
+    multiply_variable = {
+        which = nmod_neighbour_trade_mult_display
+        value = 100
+    }
+}
